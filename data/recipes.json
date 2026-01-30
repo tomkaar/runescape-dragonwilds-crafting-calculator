@@ -394,8 +394,8 @@
       }
     ]
   },
-  "adventurer's_tunic": {
-    "id": "adventurer's_tunic",
+  "adventurers_tunic": {
+    "id": "adventurers_tunic",
     "name": "Adventurer's Tunic",
     "image": "https://dragonwilds.runescape.wiki/images/Adventurer's_Tunic.png",
     "recipes": [
@@ -425,8 +425,8 @@
       }
     ]
   },
-  "adventurer's_leggings": {
-    "id": "adventurer's_leggings",
+  "adventurers_leggings": {
+    "id": "adventurers_leggings",
     "name": "Adventurer's Leggings",
     "image": "https://dragonwilds.runescape.wiki/images/Adventurer's_Leggings.png",
     "recipes": [
@@ -1645,8 +1645,8 @@
       }
     ]
   },
-  "chef's_hat": {
-    "id": "chef's_hat",
+  "chefs_hat": {
+    "id": "chefs_hat",
     "name": "Chef's Hat",
     "image": "https://dragonwilds.runescape.wiki/images/Chef's_Hat.png",
     "recipes": [
@@ -2156,8 +2156,8 @@
       }
     ]
   },
-  "wild_scout's_shortbow": {
-    "id": "wild_scout's_shortbow",
+  "wild_scouts_shortbow": {
+    "id": "wild_scouts_shortbow",
     "name": "Wild Scout's Shortbow",
     "image": "https://dragonwilds.runescape.wiki/images/Wild_Scout's_Shortbow.png",
     "recipes": [
@@ -2266,8 +2266,8 @@
       }
     ]
   },
-  "tanner's_kit": {
-    "id": "tanner's_kit",
+  "tanners_kit": {
+    "id": "tanners_kit",
     "name": "Tanner's Kit",
     "image": "https://dragonwilds.runescape.wiki/images/Tanner's_Kit.png",
     "recipes": [
@@ -5064,8 +5064,8 @@
       }
     ]
   },
-  "pioneer's_cape": {
-    "id": "pioneer's_cape",
+  "pioneers_cape": {
+    "id": "pioneers_cape",
     "name": "Pioneer's Cape",
     "image": "https://dragonwilds.runescape.wiki/images/Pioneer's_Cape.png",
     "recipes": [
@@ -5278,8 +5278,8 @@
       }
     ]
   },
-  "bag_of_noggin'": {
-    "id": "bag_of_noggin'",
+  "bag_of_noggin": {
+    "id": "bag_of_noggin",
     "name": "Bag of Noggin'",
     "image": "https://dragonwilds.runescape.wiki/images/Bag_of_Noggin'.png",
     "recipes": [
@@ -5856,8 +5856,8 @@
       }
     ]
   },
-  "paladin's_platebody": {
-    "id": "paladin's_platebody",
+  "paladins_platebody": {
+    "id": "paladins_platebody",
     "name": "Paladin's Platebody",
     "image": "https://dragonwilds.runescape.wiki/images/Paladin's_Platebody.png",
     "recipes": [
@@ -6690,8 +6690,8 @@
       }
     ]
   },
-  "adventurer's_longbow": {
-    "id": "adventurer's_longbow",
+  "adventurers_longbow": {
+    "id": "adventurers_longbow",
     "name": "Adventurer's Longbow",
     "image": "https://dragonwilds.runescape.wiki/images/Adventurer's_Longbow.png",
     "recipes": [
@@ -7050,8 +7050,8 @@
       }
     ]
   },
-  "paladin's_helm": {
-    "id": "paladin's_helm",
+  "paladins_helm": {
+    "id": "paladins_helm",
     "name": "Paladin's Helm",
     "image": "https://dragonwilds.runescape.wiki/images/Paladin's_Helm.png",
     "recipes": [
@@ -7613,8 +7613,8 @@
       }
     ]
   },
-  "thane's_authority": {
-    "id": "thane's_authority",
+  "thanes_authority": {
+    "id": "thanes_authority",
     "name": "Thane's Authority",
     "image": "https://dragonwilds.runescape.wiki/images/Thane's_Authority.png",
     "recipes": [
@@ -8184,8 +8184,8 @@
       }
     ]
   },
-  "purified_king's_token": {
-    "id": "purified_king's_token",
+  "purified_kings_token": {
+    "id": "purified_kings_token",
     "name": "Purified King's Token",
     "image": "https://dragonwilds.runescape.wiki/images/Purified_King's_Token.png",
     "recipes": [
@@ -8277,8 +8277,8 @@
       }
     ]
   },
-  "chieftain's_blade": {
-    "id": "chieftain's_blade",
+  "chieftains_blade": {
+    "id": "chieftains_blade",
     "name": "Chieftain's Blade",
     "image": "https://dragonwilds.runescape.wiki/images/Chieftain's_Blade.png",
     "recipes": [
@@ -8320,8 +8320,8 @@
       }
     ]
   },
-  "30°_stairs": {
-    "id": "30°_stairs",
+  "30_stairs": {
+    "id": "30_stairs",
     "name": "30° Stairs",
     "image": "https://dragonwilds.runescape.wiki/images/30°_Stairs.png",
     "recipes": [
@@ -8399,8 +8399,8 @@
       }
     ]
   },
-  "45°_stairs": {
-    "id": "45°_stairs",
+  "45_stairs": {
+    "id": "45_stairs",
     "name": "45° Stairs",
     "image": "https://dragonwilds.runescape.wiki/images/45°_Stairs.png",
     "recipes": [
@@ -8478,8 +8478,8 @@
       }
     ]
   },
-  "inner_corner_45°_stairs": {
-    "id": "inner_corner_45°_stairs",
+  "inner_corner_45_stairs": {
+    "id": "inner_corner_45_stairs",
     "name": "Inner Corner 45° Stairs",
     "image": "https://dragonwilds.runescape.wiki/images/Inner_Corner_45°_Stairs.png",
     "recipes": [
@@ -8970,8 +8970,8 @@
       }
     ]
   },
-  "45°_thick_beam": {
-    "id": "45°_thick_beam",
+  "45_thick_beam": {
+    "id": "45_thick_beam",
     "name": "45° Thick Beam",
     "image": "https://dragonwilds.runescape.wiki/images/45°_Thick_Beam.png",
     "recipes": [
@@ -9135,8 +9135,8 @@
       }
     ]
   },
-  "45°_thin_beam": {
-    "id": "45°_thin_beam",
+  "45_thin_beam": {
+    "id": "45_thin_beam",
     "name": "45° Thin Beam",
     "image": "https://dragonwilds.runescape.wiki/images/45°_Thin_Beam.png",
     "recipes": [
@@ -9190,8 +9190,8 @@
       }
     ]
   },
-  "short_60°_thick_beam": {
-    "id": "short_60°_thick_beam",
+  "short_60_thick_beam": {
+    "id": "short_60_thick_beam",
     "name": "Short 60° Thick Beam",
     "image": "https://dragonwilds.runescape.wiki/images/Short_60°_Thick_Beam.png",
     "recipes": [
@@ -9245,8 +9245,8 @@
       }
     ]
   },
-  "30°_thin_beam": {
-    "id": "30°_thin_beam",
+  "30_thin_beam": {
+    "id": "30_thin_beam",
     "name": "30° Thin Beam",
     "image": "https://dragonwilds.runescape.wiki/images/30°_Thin_Beam.png",
     "recipes": [
@@ -9410,8 +9410,8 @@
       }
     ]
   },
-  "30°_thick_beam": {
-    "id": "30°_thick_beam",
+  "30_thick_beam": {
+    "id": "30_thick_beam",
     "name": "30° Thick Beam",
     "image": "https://dragonwilds.runescape.wiki/images/30°_Thick_Beam.png",
     "recipes": [
@@ -9465,8 +9465,8 @@
       }
     ]
   },
-  "short_45°_thin_beam": {
-    "id": "short_45°_thin_beam",
+  "short_45_thin_beam": {
+    "id": "short_45_thin_beam",
     "name": "Short 45° Thin Beam",
     "image": "https://dragonwilds.runescape.wiki/images/Short_45°_Thin_Beam.png",
     "recipes": [
@@ -9575,8 +9575,8 @@
       }
     ]
   },
-  "60°_thick_beam": {
-    "id": "60°_thick_beam",
+  "60_thick_beam": {
+    "id": "60_thick_beam",
     "name": "60° Thick Beam",
     "image": "https://dragonwilds.runescape.wiki/images/60°_Thick_Beam.png",
     "recipes": [
@@ -9685,8 +9685,8 @@
       }
     ]
   },
-  "short_30°_thick_beam": {
-    "id": "short_30°_thick_beam",
+  "short_30_thick_beam": {
+    "id": "short_30_thick_beam",
     "name": "Short 30° Thick Beam",
     "image": "https://dragonwilds.runescape.wiki/images/Short_30°_Thick_Beam.png",
     "recipes": [
@@ -9740,8 +9740,8 @@
       }
     ]
   },
-  "short_45°_thick_beam": {
-    "id": "short_45°_thick_beam",
+  "short_45_thick_beam": {
+    "id": "short_45_thick_beam",
     "name": "Short 45° Thick Beam",
     "image": "https://dragonwilds.runescape.wiki/images/Short_45°_Thick_Beam.png",
     "recipes": [
@@ -9795,8 +9795,8 @@
       }
     ]
   },
-  "short_60°_thin_beam": {
-    "id": "short_60°_thin_beam",
+  "short_60_thin_beam": {
+    "id": "short_60_thin_beam",
     "name": "Short 60° Thin Beam",
     "image": "https://dragonwilds.runescape.wiki/images/Short_60°_Thin_Beam.png",
     "recipes": [
@@ -9850,8 +9850,8 @@
       }
     ]
   },
-  "short_30°_thin_beam": {
-    "id": "short_30°_thin_beam",
+  "short_30_thin_beam": {
+    "id": "short_30_thin_beam",
     "name": "Short 30° Thin Beam",
     "image": "https://dragonwilds.runescape.wiki/images/Short_30°_Thin_Beam.png",
     "recipes": [
@@ -10015,8 +10015,8 @@
       }
     ]
   },
-  "60°_thin_beam": {
-    "id": "60°_thin_beam",
+  "60_thin_beam": {
+    "id": "60_thin_beam",
     "name": "60° Thin Beam",
     "image": "https://dragonwilds.runescape.wiki/images/60°_Thin_Beam.png",
     "recipes": [
@@ -10446,8 +10446,8 @@
       }
     ]
   },
-  "45°_valley_roof": {
-    "id": "45°_valley_roof",
+  "45_valley_roof": {
+    "id": "45_valley_roof",
     "name": "45° Valley Roof",
     "image": "https://dragonwilds.runescape.wiki/images/45°_Valley_Roof.png",
     "recipes": [
@@ -10501,8 +10501,8 @@
       }
     ]
   },
-  "30°_valley_roof": {
-    "id": "30°_valley_roof",
+  "30_valley_roof": {
+    "id": "30_valley_roof",
     "name": "30° Valley Roof",
     "image": "https://dragonwilds.runescape.wiki/images/30°_Valley_Roof.png",
     "recipes": [
@@ -10556,8 +10556,8 @@
       }
     ]
   },
-  "medium_30°_triangle_roof": {
-    "id": "medium_30°_triangle_roof",
+  "medium_30_triangle_roof": {
+    "id": "medium_30_triangle_roof",
     "name": "Medium 30° Triangle Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_30°_Triangle_Roof.png",
     "recipes": [
@@ -10611,8 +10611,8 @@
       }
     ]
   },
-  "45°_triangle_roof": {
-    "id": "45°_triangle_roof",
+  "45_triangle_roof": {
+    "id": "45_triangle_roof",
     "name": "45° Triangle Roof",
     "image": "https://dragonwilds.runescape.wiki/images/45°_Triangle_Roof.png",
     "recipes": [
@@ -10666,8 +10666,8 @@
       }
     ]
   },
-  "small_45°_valley_roof": {
-    "id": "small_45°_valley_roof",
+  "small_45_valley_roof": {
+    "id": "small_45_valley_roof",
     "name": "Small 45° Valley Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Small_45°_Valley_Roof.png",
     "recipes": [
@@ -10721,8 +10721,8 @@
       }
     ]
   },
-  "30°_hip_roof": {
-    "id": "30°_hip_roof",
+  "30_hip_roof": {
+    "id": "30_hip_roof",
     "name": "30° Hip Roof",
     "image": "https://dragonwilds.runescape.wiki/images/30°_Hip_Roof.png",
     "recipes": [
@@ -10776,8 +10776,8 @@
       }
     ]
   },
-  "45°_roof": {
-    "id": "45°_roof",
+  "45_roof": {
+    "id": "45_roof",
     "name": "45° Roof",
     "image": "https://dragonwilds.runescape.wiki/images/45°_Roof.png",
     "recipes": [
@@ -10831,8 +10831,8 @@
       }
     ]
   },
-  "small_30°_roof": {
-    "id": "small_30°_roof",
+  "small_30_roof": {
+    "id": "small_30_roof",
     "name": "Small 30° Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Small_30°_Roof.png",
     "recipes": [
@@ -10886,8 +10886,8 @@
       }
     ]
   },
-  "45°_inverted_triangle_roof": {
-    "id": "45°_inverted_triangle_roof",
+  "45_inverted_triangle_roof": {
+    "id": "45_inverted_triangle_roof",
     "name": "45° Inverted Triangle Roof",
     "image": "https://dragonwilds.runescape.wiki/images/45°_Inverted_Triangle_Roof.png",
     "recipes": [
@@ -10972,8 +10972,8 @@
       }
     ]
   },
-  "30°_roof": {
-    "id": "30°_roof",
+  "30_roof": {
+    "id": "30_roof",
     "name": "30° Roof",
     "image": "https://dragonwilds.runescape.wiki/images/30°_Roof.png",
     "recipes": [
@@ -11027,8 +11027,8 @@
       }
     ]
   },
-  "medium_45°_valley_roof": {
-    "id": "medium_45°_valley_roof",
+  "medium_45_valley_roof": {
+    "id": "medium_45_valley_roof",
     "name": "Medium 45° Valley Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_45°_Valley_Roof.png",
     "recipes": [
@@ -11082,8 +11082,8 @@
       }
     ]
   },
-  "small_30°_hip_roof": {
-    "id": "small_30°_hip_roof",
+  "small_30_hip_roof": {
+    "id": "small_30_hip_roof",
     "name": "Small 30° Hip Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Small_30°_Hip_Roof.png",
     "recipes": [
@@ -11137,8 +11137,8 @@
       }
     ]
   },
-  "30°_inverted_triangle_roof": {
-    "id": "30°_inverted_triangle_roof",
+  "30_inverted_triangle_roof": {
+    "id": "30_inverted_triangle_roof",
     "name": "30° Inverted Triangle Roof",
     "image": "https://dragonwilds.runescape.wiki/images/30°_Inverted_Triangle_Roof.png",
     "recipes": [
@@ -11192,8 +11192,8 @@
       }
     ]
   },
-  "small_45°_roof": {
-    "id": "small_45°_roof",
+  "small_45_roof": {
+    "id": "small_45_roof",
     "name": "Small 45° Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Small_45°_Roof.png",
     "recipes": [
@@ -11247,8 +11247,8 @@
       }
     ]
   },
-  "small_45°_hip_roof": {
-    "id": "small_45°_hip_roof",
+  "small_45_hip_roof": {
+    "id": "small_45_hip_roof",
     "name": "Small 45° Hip Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Small_45°_Hip_Roof.png",
     "recipes": [
@@ -11302,8 +11302,8 @@
       }
     ]
   },
-  "medium_45°_roof": {
-    "id": "medium_45°_roof",
+  "medium_45_roof": {
+    "id": "medium_45_roof",
     "name": "Medium 45° Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_45°_Roof.png",
     "recipes": [
@@ -11357,8 +11357,8 @@
       }
     ]
   },
-  "medium_45°_inverted_triangle_roof": {
-    "id": "medium_45°_inverted_triangle_roof",
+  "medium_45_inverted_triangle_roof": {
+    "id": "medium_45_inverted_triangle_roof",
     "name": "Medium 45° Inverted Triangle Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_45°_Inverted_Triangle_Roof.png",
     "recipes": [
@@ -11412,8 +11412,8 @@
       }
     ]
   },
-  "45°_hip_roof": {
-    "id": "45°_hip_roof",
+  "45_hip_roof": {
+    "id": "45_hip_roof",
     "name": "45° Hip Roof",
     "image": "https://dragonwilds.runescape.wiki/images/45°_Hip_Roof.png",
     "recipes": [
@@ -11467,8 +11467,8 @@
       }
     ]
   },
-  "30°_triangle_roof": {
-    "id": "30°_triangle_roof",
+  "30_triangle_roof": {
+    "id": "30_triangle_roof",
     "name": "30° Triangle Roof",
     "image": "https://dragonwilds.runescape.wiki/images/30°_Triangle_Roof.png",
     "recipes": [
@@ -11522,8 +11522,8 @@
       }
     ]
   },
-  "medium_30°_roof": {
-    "id": "medium_30°_roof",
+  "medium_30_roof": {
+    "id": "medium_30_roof",
     "name": "Medium 30° Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_30°_Roof.png",
     "recipes": [
@@ -11577,8 +11577,8 @@
       }
     ]
   },
-  "medium_30°_hip_roof": {
-    "id": "medium_30°_hip_roof",
+  "medium_30_hip_roof": {
+    "id": "medium_30_hip_roof",
     "name": "Medium 30° Hip Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_30°_Hip_Roof.png",
     "recipes": [
@@ -11632,8 +11632,8 @@
       }
     ]
   },
-  "medium_30°_valley_roof": {
-    "id": "medium_30°_valley_roof",
+  "medium_30_valley_roof": {
+    "id": "medium_30_valley_roof",
     "name": "Medium 30° Valley Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_30°_Valley_Roof.png",
     "recipes": [
@@ -11687,8 +11687,8 @@
       }
     ]
   },
-  "medium_45°_triangle_roof": {
-    "id": "medium_45°_triangle_roof",
+  "medium_45_triangle_roof": {
+    "id": "medium_45_triangle_roof",
     "name": "Medium 45° Triangle Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_45°_Triangle_Roof.png",
     "recipes": [
@@ -11742,8 +11742,8 @@
       }
     ]
   },
-  "medium_30°_inverted_triangle_roof": {
-    "id": "medium_30°_inverted_triangle_roof",
+  "medium_30_inverted_triangle_roof": {
+    "id": "medium_30_inverted_triangle_roof",
     "name": "Medium 30° Inverted Triangle Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_30°_Inverted_Triangle_Roof.png",
     "recipes": [
@@ -11797,8 +11797,8 @@
       }
     ]
   },
-  "small_30°_valley_roof": {
-    "id": "small_30°_valley_roof",
+  "small_30_valley_roof": {
+    "id": "small_30_valley_roof",
     "name": "Small 30° Valley Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Small_30°_Valley_Roof.png",
     "recipes": [
@@ -11852,8 +11852,8 @@
       }
     ]
   },
-  "medium_45°_inverted_roof_support_wall": {
-    "id": "medium_45°_inverted_roof_support_wall",
+  "medium_45_inverted_roof_support_wall": {
+    "id": "medium_45_inverted_roof_support_wall",
     "name": "Medium 45° Inverted Roof Support Wall",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_45°_Inverted_Roof_Support_Wall_%28Cabin%29.png",
     "variant": "Cabin",
@@ -11928,8 +11928,8 @@
       }
     ]
   },
-  "medium_45°_roof_support_wall": {
-    "id": "medium_45°_roof_support_wall",
+  "medium_45_roof_support_wall": {
+    "id": "medium_45_roof_support_wall",
     "name": "Medium 45° Roof Support Wall",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_45°_Roof_Support_Wall_%28Castle%29.png",
     "variant": "Castle",
@@ -12256,8 +12256,8 @@
       }
     ]
   },
-  "medium_30°_inverted_roof_support_wall": {
-    "id": "medium_30°_inverted_roof_support_wall",
+  "medium_30_inverted_roof_support_wall": {
+    "id": "medium_30_inverted_roof_support_wall",
     "name": "Medium 30° Inverted Roof Support Wall",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_30°_Inverted_Roof_Support_Wall_%28Cabin%29.png",
     "variant": "Cabin",
@@ -12357,8 +12357,8 @@
       }
     ]
   },
-  "medium_30°_roof_support_wall": {
-    "id": "medium_30°_roof_support_wall",
+  "medium_30_roof_support_wall": {
+    "id": "medium_30_roof_support_wall",
     "name": "Medium 30° Roof Support Wall",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_30°_Roof_Support_Wall_%28Cabin%29.png",
     "variant": "Cabin",
@@ -12559,8 +12559,8 @@
       }
     ]
   },
-  "30°_roof_support_wall": {
-    "id": "30°_roof_support_wall",
+  "30_roof_support_wall": {
+    "id": "30_roof_support_wall",
     "name": "30° Roof Support Wall",
     "image": "https://dragonwilds.runescape.wiki/images/30°_Roof_Support_Wall_%28Cabin%29.png",
     "variant": "Cabin",
@@ -12862,8 +12862,8 @@
       }
     ]
   },
-  "45°_inverted_roof_support_wall": {
-    "id": "45°_inverted_roof_support_wall",
+  "45_inverted_roof_support_wall": {
+    "id": "45_inverted_roof_support_wall",
     "name": "45° Inverted Roof Support Wall",
     "image": "https://dragonwilds.runescape.wiki/images/45°_Inverted_Roof_Support_Wall_%28Cabin%29.png",
     "variant": "Cabin",
@@ -12963,8 +12963,8 @@
       }
     ]
   },
-  "45°_roof_support_wall": {
-    "id": "45°_roof_support_wall",
+  "45_roof_support_wall": {
+    "id": "45_roof_support_wall",
     "name": "45° Roof Support Wall",
     "image": "https://dragonwilds.runescape.wiki/images/45°_Roof_Support_Wall_%28Cabin%29.png",
     "variant": "Cabin",
@@ -13266,8 +13266,8 @@
       }
     ]
   },
-  "30°_inverted_roof_support_wall": {
-    "id": "30°_inverted_roof_support_wall",
+  "30_inverted_roof_support_wall": {
+    "id": "30_inverted_roof_support_wall",
     "name": "30° Inverted Roof Support Wall",
     "image": "https://dragonwilds.runescape.wiki/images/30°_Inverted_Roof_Support_Wall_%28Cabin%29.png",
     "variant": "Cabin",
@@ -14420,8 +14420,8 @@
       }
     ]
   },
-  "pioneer's_tapestry": {
-    "id": "pioneer's_tapestry",
+  "pioneers_tapestry": {
+    "id": "pioneers_tapestry",
     "name": "Pioneer's Tapestry",
     "image": "https://dragonwilds.runescape.wiki/images/Pioneer's_Tapestry.png",
     "recipes": [
@@ -17061,8 +17061,8 @@
       }
     ]
   },
-  "curved_outer_corner_45°_stairs": {
-    "id": "curved_outer_corner_45°_stairs",
+  "curved_outer_corner_45_stairs": {
+    "id": "curved_outer_corner_45_stairs",
     "name": "Curved Outer Corner 45° Stairs",
     "image": "https://dragonwilds.runescape.wiki/images/Curved_Outer_Corner_45°_Stairs.png",
     "recipes": [
@@ -17092,8 +17092,8 @@
       }
     ]
   },
-  "outer_corner_45°_stairs": {
-    "id": "outer_corner_45°_stairs",
+  "outer_corner_45_stairs": {
+    "id": "outer_corner_45_stairs",
     "name": "Outer Corner 45° Stairs",
     "image": "https://dragonwilds.runescape.wiki/images/Outer_Corner_45°_Stairs.png",
     "recipes": [
@@ -17171,8 +17171,8 @@
       }
     ]
   },
-  "curved_inner_corner_45°_stairs": {
-    "id": "curved_inner_corner_45°_stairs",
+  "curved_inner_corner_45_stairs": {
+    "id": "curved_inner_corner_45_stairs",
     "name": "Curved Inner Corner 45° Stairs",
     "image": "https://dragonwilds.runescape.wiki/images/Curved_Inner_Corner_45°_Stairs.png",
     "recipes": [
@@ -17202,8 +17202,8 @@
       }
     ]
   },
-  "medium_60°_inverted_triangle_roof": {
-    "id": "medium_60°_inverted_triangle_roof",
+  "medium_60_inverted_triangle_roof": {
+    "id": "medium_60_inverted_triangle_roof",
     "name": "Medium 60° Inverted Triangle Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_60°_Inverted_Triangle_Roof.png",
     "recipes": [
@@ -17233,8 +17233,8 @@
       }
     ]
   },
-  "medium_60°_hip_roof": {
-    "id": "medium_60°_hip_roof",
+  "medium_60_hip_roof": {
+    "id": "medium_60_hip_roof",
     "name": "Medium 60° Hip Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_60°_Hip_Roof.png",
     "recipes": [
@@ -17264,8 +17264,8 @@
       }
     ]
   },
-  "medium_45°_hip_roof": {
-    "id": "medium_45°_hip_roof",
+  "medium_45_hip_roof": {
+    "id": "medium_45_hip_roof",
     "name": "Medium 45° Hip Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_45°_Hip_Roof.png",
     "recipes": [
@@ -17319,8 +17319,8 @@
       }
     ]
   },
-  "60°_roof": {
-    "id": "60°_roof",
+  "60_roof": {
+    "id": "60_roof",
     "name": "60° Roof",
     "image": "https://dragonwilds.runescape.wiki/images/60°_Roof.png",
     "recipes": [
@@ -17350,8 +17350,8 @@
       }
     ]
   },
-  "small_60°_roof": {
-    "id": "small_60°_roof",
+  "small_60_roof": {
+    "id": "small_60_roof",
     "name": "Small 60° Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Small_60°_Roof.png",
     "recipes": [
@@ -17381,8 +17381,8 @@
       }
     ]
   },
-  "medium_60°_valley_roof": {
-    "id": "medium_60°_valley_roof",
+  "medium_60_valley_roof": {
+    "id": "medium_60_valley_roof",
     "name": "Medium 60° Valley Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_60°_Valley_Roof.png",
     "recipes": [
@@ -17412,8 +17412,8 @@
       }
     ]
   },
-  "60°_triangle_roof": {
-    "id": "60°_triangle_roof",
+  "60_triangle_roof": {
+    "id": "60_triangle_roof",
     "name": "60° Triangle Roof",
     "image": "https://dragonwilds.runescape.wiki/images/60°_Triangle_Roof.png",
     "recipes": [
@@ -17443,8 +17443,8 @@
       }
     ]
   },
-  "medium_60°_triangle_roof": {
-    "id": "medium_60°_triangle_roof",
+  "medium_60_triangle_roof": {
+    "id": "medium_60_triangle_roof",
     "name": "Medium 60° Triangle Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_60°_Triangle_Roof.png",
     "recipes": [
@@ -17474,8 +17474,8 @@
       }
     ]
   },
-  "60°_hip_roof": {
-    "id": "60°_hip_roof",
+  "60_hip_roof": {
+    "id": "60_hip_roof",
     "name": "60° Hip Roof",
     "image": "https://dragonwilds.runescape.wiki/images/60°_Hip_Roof.png",
     "recipes": [
@@ -17505,8 +17505,8 @@
       }
     ]
   },
-  "60°_valley_roof": {
-    "id": "60°_valley_roof",
+  "60_valley_roof": {
+    "id": "60_valley_roof",
     "name": "60° Valley Roof",
     "image": "https://dragonwilds.runescape.wiki/images/60°_Valley_Roof.png",
     "recipes": [
@@ -17536,8 +17536,8 @@
       }
     ]
   },
-  "60°_roof_support_wall": {
-    "id": "60°_roof_support_wall",
+  "60_roof_support_wall": {
+    "id": "60_roof_support_wall",
     "name": "60° Roof Support Wall",
     "image": "https://dragonwilds.runescape.wiki/images/60°_Roof_Support_Wall.png",
     "recipes": [
@@ -17585,8 +17585,8 @@
       }
     ]
   },
-  "medium_60°_inverted_roof_support_wall": {
-    "id": "medium_60°_inverted_roof_support_wall",
+  "medium_60_inverted_roof_support_wall": {
+    "id": "medium_60_inverted_roof_support_wall",
     "name": "Medium 60° Inverted Roof Support Wall",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_60°_Inverted_Roof_Support_Wall.png",
     "recipes": [
@@ -17634,8 +17634,8 @@
       }
     ]
   },
-  "medium_60°_roof_support_wall": {
-    "id": "medium_60°_roof_support_wall",
+  "medium_60_roof_support_wall": {
+    "id": "medium_60_roof_support_wall",
     "name": "Medium 60° Roof Support Wall",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_60°_Roof_Support_Wall.png",
     "recipes": [
@@ -17683,8 +17683,8 @@
       }
     ]
   },
-  "60°_inverted_roof_support_wall": {
-    "id": "60°_inverted_roof_support_wall",
+  "60_inverted_roof_support_wall": {
+    "id": "60_inverted_roof_support_wall",
     "name": "60° Inverted Roof Support Wall",
     "image": "https://dragonwilds.runescape.wiki/images/60°_Inverted_Roof_Support_Wall.png",
     "recipes": [
@@ -18794,8 +18794,8 @@
       }
     ]
   },
-  "medium_60°_roof": {
-    "id": "medium_60°_roof",
+  "medium_60_roof": {
+    "id": "medium_60_roof",
     "name": "Medium 60° Roof",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_60°_Roof.png",
     "recipes": [
@@ -18825,8 +18825,8 @@
       }
     ]
   },
-  "60°_inverted_triangle_roof": {
-    "id": "60°_inverted_triangle_roof",
+  "60_inverted_triangle_roof": {
+    "id": "60_inverted_triangle_roof",
     "name": "60° Inverted Triangle Roof",
     "image": "https://dragonwilds.runescape.wiki/images/60°_Inverted_Triangle_Roof.png",
     "recipes": [
@@ -18905,8 +18905,8 @@
       }
     ]
   },
-  "pioneer's_scarf": {
-    "id": "pioneer's_scarf",
+  "pioneers_scarf": {
+    "id": "pioneers_scarf",
     "name": "Pioneer's Scarf",
     "image": "https://dragonwilds.runescape.wiki/images/Pioneer's_Scarf.png",
     "recipes": [
@@ -20749,8 +20749,8 @@
       }
     ]
   },
-  "steak_'n'_eggs": {
-    "id": "steak_'n'_eggs",
+  "steak_n_eggs": {
+    "id": "steak_n_eggs",
     "name": "Steak 'N' Eggs",
     "image": "https://dragonwilds.runescape.wiki/images/Steak_'N'_Eggs.png",
     "recipes": [
@@ -22019,8 +22019,8 @@
       }
     ]
   },
-  "blue_adventurer's_cape": {
-    "id": "blue_adventurer's_cape",
+  "blue_adventurers_cape": {
+    "id": "blue_adventurers_cape",
     "name": "Blue Adventurer's Cape",
     "image": "https://dragonwilds.runescape.wiki/images/Blue_Adventurer's_Cape.png",
     "recipes": [
@@ -22361,8 +22361,8 @@
       }
     ]
   },
-  "jeweler's_bench": {
-    "id": "jeweler's_bench",
+  "jewelers_bench": {
+    "id": "jewelers_bench",
     "name": "Jeweler's Bench",
     "image": "https://dragonwilds.runescape.wiki/images/Jeweler's_Bench.png",
     "recipes": [
@@ -22800,8 +22800,8 @@
       }
     ]
   },
-  "undead_ranger's_bow": {
-    "id": "undead_ranger's_bow",
+  "undead_rangers_bow": {
+    "id": "undead_rangers_bow",
     "name": "Undead Ranger's Bow",
     "image": "https://dragonwilds.runescape.wiki/images/Undead_Ranger's_Bow.png",
     "recipes": [
@@ -24072,8 +24072,8 @@
       }
     ]
   },
-  "necromancer's_staff": {
-    "id": "necromancer's_staff",
+  "necromancers_staff": {
+    "id": "necromancers_staff",
     "name": "Necromancer's Staff",
     "image": "https://dragonwilds.runescape.wiki/images/Necromancer's_Staff.png",
     "recipes": [
@@ -24534,8 +24534,8 @@
       }
     ]
   },
-  "fallen_hoplite's_helm": {
-    "id": "fallen_hoplite's_helm",
+  "fallen_hoplites_helm": {
+    "id": "fallen_hoplites_helm",
     "name": "Fallen Hoplite's Helm",
     "image": "https://dragonwilds.runescape.wiki/images/Fallen_Hoplite's_Helm.png",
     "recipes": [
@@ -24584,8 +24584,8 @@
       }
     ]
   },
-  "fallen_hoplite's_chest": {
-    "id": "fallen_hoplite's_chest",
+  "fallen_hoplites_chest": {
+    "id": "fallen_hoplites_chest",
     "name": "Fallen Hoplite's Chest",
     "image": "https://dragonwilds.runescape.wiki/images/Fallen_Hoplite's_Chest.png",
     "recipes": [
@@ -24634,8 +24634,8 @@
       }
     ]
   },
-  "fallen_hoplite's_tassets": {
-    "id": "fallen_hoplite's_tassets",
+  "fallen_hoplites_tassets": {
+    "id": "fallen_hoplites_tassets",
     "name": "Fallen Hoplite's Tassets",
     "image": "https://dragonwilds.runescape.wiki/images/Fallen_Hoplite's_Tassets.png",
     "recipes": [
@@ -26191,8 +26191,8 @@
       }
     ]
   },
-  "necromancer's_robe_bottom": {
-    "id": "necromancer's_robe_bottom",
+  "necromancers_robe_bottom": {
+    "id": "necromancers_robe_bottom",
     "name": "Necromancer's Robe Bottom",
     "image": "https://dragonwilds.runescape.wiki/images/Necromancer's_Robe_Bottom.png",
     "recipes": [
@@ -26246,8 +26246,8 @@
       }
     ]
   },
-  "necromancer's_crown": {
-    "id": "necromancer's_crown",
+  "necromancers_crown": {
+    "id": "necromancers_crown",
     "name": "Necromancer's Crown",
     "image": "https://dragonwilds.runescape.wiki/images/Necromancer's_Crown.png",
     "recipes": [
@@ -26301,8 +26301,8 @@
       }
     ]
   },
-  "necromancer's_robe_top": {
-    "id": "necromancer's_robe_top",
+  "necromancers_robe_top": {
+    "id": "necromancers_robe_top",
     "name": "Necromancer's Robe Top",
     "image": "https://dragonwilds.runescape.wiki/images/Necromancer's_Robe_Top.png",
     "recipes": [
@@ -26411,8 +26411,8 @@
       }
     ]
   },
-  "yellow_adventurer's_cape": {
-    "id": "yellow_adventurer's_cape",
+  "yellow_adventurers_cape": {
+    "id": "yellow_adventurers_cape",
     "name": "Yellow Adventurer's Cape",
     "image": "https://dragonwilds.runescape.wiki/images/Yellow_Adventurer's_Cape.png",
     "recipes": [
@@ -26430,8 +26430,8 @@
       }
     ]
   },
-  "purple_adventurer's_cape": {
-    "id": "purple_adventurer's_cape",
+  "purple_adventurers_cape": {
+    "id": "purple_adventurers_cape",
     "name": "Purple Adventurer's Cape",
     "image": "https://dragonwilds.runescape.wiki/images/Purple_Adventurer's_Cape.png",
     "recipes": [
@@ -26449,8 +26449,8 @@
       }
     ]
   },
-  "green_adventurer's_cape": {
-    "id": "green_adventurer's_cape",
+  "green_adventurers_cape": {
+    "id": "green_adventurers_cape",
     "name": "Green Adventurer's Cape",
     "image": "https://dragonwilds.runescape.wiki/images/Green_Adventurer's_Cape.png",
     "recipes": [
@@ -26468,8 +26468,8 @@
       }
     ]
   },
-  "black_adventurer's_cape": {
-    "id": "black_adventurer's_cape",
+  "black_adventurers_cape": {
+    "id": "black_adventurers_cape",
     "name": "Black Adventurer's Cape",
     "image": "https://dragonwilds.runescape.wiki/images/Black_Adventurer's_Cape.png",
     "recipes": [
@@ -26487,8 +26487,8 @@
       }
     ]
   },
-  "orange_adventurer's_cape": {
-    "id": "orange_adventurer's_cape",
+  "orange_adventurers_cape": {
+    "id": "orange_adventurers_cape",
     "name": "Orange Adventurer's Cape",
     "image": "https://dragonwilds.runescape.wiki/images/Orange_Adventurer's_Cape.png",
     "recipes": [
@@ -26506,8 +26506,8 @@
       }
     ]
   },
-  "red_adventurer's_cape": {
-    "id": "red_adventurer's_cape",
+  "red_adventurers_cape": {
+    "id": "red_adventurers_cape",
     "name": "Red Adventurer's Cape",
     "image": "https://dragonwilds.runescape.wiki/images/Red_Adventurer's_Cape.png",
     "recipes": [
@@ -26525,8 +26525,8 @@
       }
     ]
   },
-  "white_adventurer's_cape": {
-    "id": "white_adventurer's_cape",
+  "white_adventurers_cape": {
+    "id": "white_adventurers_cape",
     "name": "White Adventurer's Cape",
     "image": "https://dragonwilds.runescape.wiki/images/White_Adventurer's_Cape.png",
     "recipes": [
@@ -26544,8 +26544,8 @@
       }
     ]
   },
-  "pink_adventurer's_cape": {
-    "id": "pink_adventurer's_cape",
+  "pink_adventurers_cape": {
+    "id": "pink_adventurers_cape",
     "name": "Pink Adventurer's Cape",
     "image": "https://dragonwilds.runescape.wiki/images/Pink_Adventurer's_Cape.png",
     "recipes": [
@@ -27010,8 +27010,8 @@
       }
     ]
   },
-  "fallen_hoplite's_aspis": {
-    "id": "fallen_hoplite's_aspis",
+  "fallen_hoplites_aspis": {
+    "id": "fallen_hoplites_aspis",
     "name": "Fallen Hoplite's Aspis",
     "image": "https://dragonwilds.runescape.wiki/images/Fallen_Hoplite's_Aspis.png",
     "recipes": [
@@ -27929,8 +27929,8 @@
       }
     ]
   },
-  "medium_30°_curved_roof_support_wall": {
-    "id": "medium_30°_curved_roof_support_wall",
+  "medium_30_curved_roof_support_wall": {
+    "id": "medium_30_curved_roof_support_wall",
     "name": "Medium 30° Curved Roof Support Wall",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_30°_Curved_Roof_Support_Wall_%28Castle%29.png",
     "variant": "Castle",
@@ -27962,8 +27962,8 @@
       }
     ]
   },
-  "medium_30°_inverted_curved_roof_support_wall": {
-    "id": "medium_30°_inverted_curved_roof_support_wall",
+  "medium_30_inverted_curved_roof_support_wall": {
+    "id": "medium_30_inverted_curved_roof_support_wall",
     "name": "Medium 30° Inverted Curved Roof Support Wall",
     "image": "https://dragonwilds.runescape.wiki/images/Medium_30°_Inverted_Curved_Roof_Support_Wall_%28Castle%29.png",
     "variant": "Castle",

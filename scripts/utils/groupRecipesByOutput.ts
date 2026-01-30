@@ -21,8 +21,9 @@ export default function groupRecipesByOutput(
     const recipeVariantId = generateRecipeVariantId(recipe.json.materials);
 
     // Create group ID based on item name
-    const groupId = baseName.replaceAll(" ", "_").toLowerCase();
-    const id = (variant ? `${baseName}#${variant}` : baseName)
+    const groupId = baseName
+      .replaceAll("'", "")
+      .replaceAll("°", "")
       .replaceAll(" ", "_")
       .toLowerCase();
 

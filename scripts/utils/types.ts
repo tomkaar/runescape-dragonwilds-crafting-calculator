@@ -39,11 +39,9 @@ export interface InfoboxItem {
 
 // Type definitions for recipe JSON
 export interface RecipeMaterial {
-  quantity: string;
+  quantity: number | null;
   name: string;
   link: string;
-  qty?: string;
-  item?: string;
   image?: string;
 }
 
@@ -53,11 +51,9 @@ export interface RecipeSkill {
 }
 
 export interface RecipeOutput {
-  quantity: number | string;
+  quantity: number;
   name: string;
   link: string;
-  qty?: number | string;
-  item?: string;
   image?: string;
 }
 
