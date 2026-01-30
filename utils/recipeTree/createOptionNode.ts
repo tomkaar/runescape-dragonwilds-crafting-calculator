@@ -1,5 +1,5 @@
 import { RecipeVariant } from "@/data/recipes";
-import { Nodes, type OptionVariantNode } from "./type";
+import { Nodes, type OptionVariantNode, type FacilityNode } from "./type";
 import { createMaterialNode } from "./createMaterialNode";
 import { Edge } from "@xyflow/react";
 
@@ -15,7 +15,7 @@ export function createOptionNode(
     id: recipe.id + "_o" + index,
     type: "option-variant",
     data: {
-      facility: recipe.facility || "None",
+      facility: recipe.facility || undefined,
       optionNumber: index + 1,
     },
     position: { x: 0, y: 200 },
@@ -24,9 +24,27 @@ export function createOptionNode(
 
   // console.log("Creating option node for recipe variant:", recipe);
 
+  // Create facility node
+  const facilityNode: FacilityNode = {
+    id: recipe.id + "_o" + index + "_facility",
+    type: "facility",
+    data: {
+      facility: recipe.facility || undefined,
+    },
+    position: { x: 0, y: 300 },
+  };
+  nodes.push(facilityNode);
+
+  // Connect facility node to option variant node
+  edges.push({
+    id: rootNode.id + "_" + facilityNode.id,
+    source: rootNode.id,
+    target: facilityNode.id,
+  });
+
   recipe.materials?.forEach?.((material) => {
     const materialNodeGroup = createMaterialNode(
-      rootNode.id + "_m" + material.name,
+      facilityNode.id + "_m" + material.name,
       material,
       quantity,
     );
@@ -34,10 +52,10 @@ export function createOptionNode(
     nodes.push(...materialNodeGroup.nodes);
     edges.push(...materialNodeGroup.edges);
 
-    // connect material nodes to option variant node
+    // connect material nodes to facility node
     edges.push({
-      id: rootNode.id + "_" + materialNodeGroup.nodes[0].id,
-      source: rootNode.id,
+      id: facilityNode.id + "_" + materialNodeGroup.nodes[0].id,
+      source: facilityNode.id,
       target: materialNodeGroup.nodes[0].id,
     });
   });

@@ -3,13 +3,14 @@
 import { Card, CardContent, CardHeader } from "../ui/card";
 import { Button } from "../ui/button";
 
-import { Trash } from "lucide-react";
+import { CircleQuestionMark, Trash } from "lucide-react";
 import { useSelectedItems } from "@/store/selected-items";
 
 import recipes from "@/data/recipes.json" assert { type: "json" };
 import { GroupedRecipes } from "@/data/recipes";
 import Image from "next/image";
 import Recipe from "./Recipe";
+import Link from "next/link";
 
 type Props = {
   id: string;
@@ -39,7 +40,15 @@ export default function RecipeCard(props: Props) {
               alt={recipe.name}
             />
           ) : null}
-          <div className="grow">{recipe.name}</div>
+          <div className="grow flex flex-row items-center">
+            <span>{recipe.name}</span>
+            <Link
+              href={{ pathname: "/item/" + itemId }}
+              className="ml-2 text-white"
+            >
+              <CircleQuestionMark size={16} />
+            </Link>
+          </div>
           <Button
             variant="ghost"
             size="icon-sm"

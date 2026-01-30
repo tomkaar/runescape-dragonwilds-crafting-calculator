@@ -144,31 +144,14 @@ body {
 .modal {
   border: none;
   position: relative;
-  @apply fixed left-1/2 top-8 -translate-x-1/2 bg-background rounded-2xl w-full h-full max-w-160 max-h-160;
+  @apply fixed left-1/2 top-8 -translate-x-1/2 bg-background rounded-2xl w-full h-full max-w-[95vw] max-h-[95vh];
 }
 
-.close-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 48px;
-  height: 48px;
-  background-color: transparent;
-  border: none;
-  border-radius: 15px; /* Circular shape */
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 500;
-  font-size: 24px; /* Adjust font size as needed */
+.react-flow__handle {
+  background-color: var(--color-neutral-500) !important;
+  border-color: var(--color-neutral-500) !important;
 }
-
-.close-button:hover {
-  background-color: #eee;
-}
-
-.close-button:after {
-  content: "x";
-  color: black;
+.react-flow__handle.handle-option {
+  background-color: var(--color-yellow-400) !important;
+  border-color: var(--color-yellow-400) !important;
 }

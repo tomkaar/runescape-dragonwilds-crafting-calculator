@@ -2,7 +2,7 @@ import { Edge } from "@xyflow/react";
 import { getRecipeById } from "../getRecipeById";
 import { createMaterialNode } from "./createMaterialNode";
 import { createOptionNode } from "./createOptionNode";
-import { Nodes, RootNode } from "./type";
+import { Nodes, RootNode, FacilityNode } from "./type";
 import { getRecipeByName } from "../getRecipeByName";
 
 export function createNodeGroup(
@@ -14,8 +14,6 @@ export function createNodeGroup(
   const edges: Edge[] = [];
 
   if (!recipe) return;
-
-  console.log("Creating node group for recipe:", recipe);
 
   const rootNode: RootNode = {
     id: recipe.id,
@@ -51,6 +49,24 @@ export function createNodeGroup(
     const firstRecipe = recipe.recipes[0];
     // console.log("Single recipe, no option node needed", firstRecipe);
 
+    // Create facility node for single recipe
+    const facilityNode: FacilityNode = {
+      id: recipe.id + "_facility",
+      type: "facility",
+      data: {
+        facility: firstRecipe.facility || undefined,
+      },
+      position: { x: 0, y: 100 },
+    };
+    nodes.push(facilityNode);
+
+    // Connect facility node to root
+    edges.push({
+      id: rootNode.id + "_" + facilityNode.id,
+      source: rootNode.id,
+      target: facilityNode.id,
+    });
+
     firstRecipe.materials?.forEach?.((material) => {
       const materialRecipe = getRecipeByName(material.name);
       const isRecipe = Boolean(materialRecipe);
@@ -67,16 +83,16 @@ export function createNodeGroup(
           nodes.push(...nodeGroup.nodes);
           edges.push(...nodeGroup.edges);
 
-          // connect material recipe root node to current root node
+          // connect material recipe root node to facility node
           edges.push({
-            id: rootNode.id + "_" + nodeGroup.nodes[0].id,
-            source: rootNode.id,
+            id: facilityNode.id + "_" + nodeGroup.nodes[0].id,
+            source: facilityNode.id,
             target: nodeGroup.nodes[0].id,
           });
         }
       } else {
         const materialNodeGroup = createMaterialNode(
-          rootNode.id + "m" + material.name,
+          facilityNode.id + "m" + material.name,
           material,
           quantity,
         );
@@ -84,10 +100,10 @@ export function createNodeGroup(
         nodes.push(...materialNodeGroup.nodes);
         edges.push(...materialNodeGroup.edges);
 
-        // connect material nodes to option variant node
+        // connect material nodes to facility node
         edges.push({
-          id: rootNode.id + "_" + materialNodeGroup.nodes[0].id,
-          source: rootNode.id,
+          id: facilityNode.id + "_" + materialNodeGroup.nodes[0].id,
+          source: facilityNode.id,
           target: materialNodeGroup.nodes[0].id,
         });
       }

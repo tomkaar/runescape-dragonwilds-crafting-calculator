@@ -1,3 +1,4 @@
+import { FacilityType } from "@/data/facilityTypes";
 import { type Node } from "@xyflow/react";
 
 export type RootNode = Node<{
@@ -10,10 +11,16 @@ export type RootNode = Node<{
 }> & { type: "root" };
 
 export type OptionVariantNode = Node<{
-  facility: string;
+  facility: FacilityType | undefined;
   optionNumber: number;
 }> & {
   type: "option-variant";
+};
+
+export type FacilityNode = Node<{
+  facility: FacilityType | undefined;
+}> & {
+  type: "facility";
 };
 
 export type MaterialNode = Node<{
@@ -24,4 +31,4 @@ export type MaterialNode = Node<{
   type: "material";
 };
 
-export type Nodes = RootNode | OptionVariantNode | MaterialNode;
+export type Nodes = RootNode | OptionVariantNode | FacilityNode | MaterialNode;
