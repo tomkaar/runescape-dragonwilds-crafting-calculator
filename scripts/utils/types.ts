@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-// Auto-generated type definition for items.json
+// Type definitions for infobox_item JSON
 export interface InfoboxItemJson {
   name?: string;
   image?: string;
@@ -37,4 +37,44 @@ export interface InfoboxItem {
   json?: InfoboxItemJson;
 }
 
-export type Items = InfoboxItem[];
+// Type definitions for recipe JSON
+export interface RecipeMaterial {
+  quantity: string;
+  name: string;
+  link: string;
+  qty?: string;
+  item?: string;
+  image?: string;
+}
+
+export interface RecipeSkill {
+  name: string;
+  experience: string;
+}
+
+export interface RecipeOutput {
+  quantity: number | string;
+  name: string;
+  link: string;
+  qty?: number | string;
+  item?: string;
+  image?: string;
+}
+
+export interface RecipeJson {
+  facility?: string;
+  materials?: RecipeMaterial[];
+  skills?: RecipeSkill[];
+  outputs?: string[];
+  output?: RecipeOutput;
+  [key: string]: any;
+}
+
+export interface Recipe {
+  uses_material?: string;
+  uses_facility?: string;
+  output?: string;
+  uses_skill?: string;
+  uses_recipe?: string;
+  json?: RecipeJson;
+}

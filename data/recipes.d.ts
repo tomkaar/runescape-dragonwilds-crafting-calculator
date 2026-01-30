@@ -1,41 +1,28 @@
-// Type definitions for recipe JSON
-interface RecipeMaterial {
-  quantity: string;
-  name: string;
-  link: string;
-  qty?: string;
-  item?: string;
-  image?: string;
-}
+import { FacilityType } from "./facilityTypes";
+import { type RecipeMaterial } from "./getRecipe";
 
-interface RecipeSkill {
+export interface RecipeVariant {
+  id: string;
   name: string;
-  experience: string;
-}
-
-interface RecipeOutput {
-  quantity: number | string;
-  name: string;
-  link: string;
-  qty?: number | string;
-  item?: string;
-  image?: string;
-}
-
-interface RecipeJson {
-  facility?: string;
+  variant?: string;
+  facility?: FacilityType;
   materials?: RecipeMaterial[];
   skills?: RecipeSkill[];
-  outputs?: string[];
-  output?: RecipeOutput;
-  [key: string]: unknown;
+  output: {
+    quantity: number;
+    name: string;
+    link: string;
+  };
 }
 
-interface Recipe {
-  uses_material?: string;
-  uses_facility?: string;
-  output?: string;
-  uses_skill?: string;
-  uses_recipe?: string;
-  json?: RecipeJson;
+export interface RecipeGroup {
+  id: string;
+  name: string;
+  image: string | undefined;
+  variant: string | undefined;
+  recipes: RecipeVariant[];
+}
+
+interface GroupedRecipes {
+  [itemName: string]: RecipeGroup;
 }
