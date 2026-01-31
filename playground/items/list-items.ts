@@ -5,6 +5,7 @@ import { createImageUrlPath, extractImageFilename } from "./utils/image";
 import { resolveVariant as resolveRecipeVariant } from "./utils/resolveVariant";
 import { itemIdFromName } from "./utils/itemIdFromName";
 import { resolveItemVariant } from "./utils/resolveItemVariant";
+import { resolveSkills } from "./utils/resolveSkills";
 
 async function listItems() {
   const { default: recipeData } = await import("../recipes.json");
@@ -65,6 +66,7 @@ async function listItems() {
       name: itemName,
       image: resolveImage(rawRecipes[0], rawItems, itemName),
       variants: variants,
+      skills: resolveSkills(rawRecipes),
     };
     finishedItems.push(itemToBePushed);
   });
@@ -91,10 +93,10 @@ function resolveImage(firstRecipe: any, items: any[], itemName: string) {
   if (image === null) {
     image = items.find((i) => i.page_name === itemName)?.json.image_raw || null;
   }
-  if (image) {
-    image = createImageUrlPath(image || "");
-  } else {
-    console.warn("No image found for item after fallback:", itemName);
-  }
+  // if (image) {
+  //   image = createImageUrlPath(image || "");
+  // } else {
+  //   console.warn("No image found for item after fallback:", itemName);
+  // }
   return image;
 }

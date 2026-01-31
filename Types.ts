@@ -12,6 +12,7 @@ export type Item = {
   image: string | null;
   /* All available variants for this item, can be one or many */
   variants: ItemVariant[];
+  skills?: ((typeof Skill)[number] | null)[];
 };
 
 /**
@@ -82,29 +83,11 @@ export const Facility = [
   "Stonecutter",
   "Tannery",
 ] as const;
-//  {
-//   "Anvil" = "Anvil",
-//   "Blast Furnace" = "Blast Furnace",
-//   "Brewing Cauldron" = "Brewing Cauldron",
-//   "Build Menu" = "Build Menu",
-//   "Campfire" = "Campfire",
-//   "Cooking Range" = "Cooking Range",
-//   "Crafting Table" = "Crafting Table",
-//   "Fletching Bench" = "Fletching Bench",
-//   "Fletching Table" = "Fletching Table",
-//   "Furnace" = "Furnace",
-//   "Grill" = "Grill",
-//   "Grindstone" = "Grindstone",
-//   "Jeweler's Bench" = "Jeweler's Bench",
-//   "Kiln" = "Kiln",
-//   "Loom" = "Loom",
-//   "Lougrim's Shrine" = "Lougrim's Shrine",
-//   "Pottery Wheel" = "Pottery Wheel",
-//   "Rune Altar" = "Rune Altar",
-//   "Sawmill" = "Sawmill",
-//   "Smithing Anvil" = "Smithing Anvil",
-//   "Smithing Forge" = "Smithing Forge",
-//   "Spinning Wheel" = "Spinning Wheel",
-//   "Stonecutter" = "Stonecutter",
-//   "Tannery" = "Tannery",
-// }
+
+export const Skill = [
+  "Artisan",
+  "Construction",
+  "Cooking",
+  "Farming",
+  "Runecrafting",
+] as const;
