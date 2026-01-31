@@ -1,7 +1,23 @@
-import { redirect } from "next/navigation";
+import { getItemByNameOrId } from "@/utils/getItemById";
+import { notFound } from "next/navigation";
 
-export default async function ItemPage() {
-  // Temporary redirect while the page is under construction
-  // See @modal/(.)item/[item-id]/Content.tsx for the modal version
-  return redirect("/");
+type Props = {
+  params: Promise<{ itemId: string }>;
+};
+
+export default async function ItemPage(props: Props) {
+  const { itemId } = await props.params;
+  const item = getItemByNameOrId(itemId);
+
+  if (item === undefined) {
+    notFound();
+  }
+
+  console.log("Item:", item);
+
+  return (
+    <div>
+      <h2>{item.name}</h2>
+    </div>
+  );
 }
