@@ -14,7 +14,7 @@ export function resolveRecipe(rawRecipe: RawRecipe): Recipe {
           : mat.quantity || 1,
     }));
 
-  const facility = Facility[rawRecipe.json.facility as keyof typeof Facility];
+  const facility = rawRecipe.json.facility as (typeof Facility)[number];
 
   const returnRecipe: Recipe = {
     id: createRecipeId(facility, materials),
