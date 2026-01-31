@@ -12,6 +12,9 @@ export type Item = {
   image: string | null;
   /* All available variants for this item, can be one or many */
   variants: ItemVariant[];
+  /* Facilities where this item can be crafted */
+  facilities: ((typeof Facility)[number] | null)[];
+  /* Skills required to craft this item */
   skills?: ((typeof Skill)[number] | null)[];
 };
 

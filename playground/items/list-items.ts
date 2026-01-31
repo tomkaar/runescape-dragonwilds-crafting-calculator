@@ -1,11 +1,12 @@
 import { Item, ItemVariant } from "@/Types";
 import { writeFileSync } from "fs";
 import path from "path";
-import { createImageUrlPath, extractImageFilename } from "./utils/image";
+import { extractImageFilename } from "./utils/image";
 import { resolveVariant as resolveRecipeVariant } from "./utils/resolveVariant";
 import { itemIdFromName } from "./utils/itemIdFromName";
 import { resolveItemVariant } from "./utils/resolveItemVariant";
 import { resolveSkills } from "./utils/resolveSkills";
+import { resolveFacilities } from "./utils/resolveFacilities";
 
 async function listItems() {
   const { default: recipeData } = await import("../recipes.json");
@@ -67,6 +68,7 @@ async function listItems() {
       image: resolveImage(rawRecipes[0], rawItems, itemName),
       variants: variants,
       skills: resolveSkills(rawRecipes),
+      facilities: resolveFacilities(rawRecipes),
     };
     finishedItems.push(itemToBePushed);
   });

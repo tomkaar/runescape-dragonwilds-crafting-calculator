@@ -64,6 +64,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -97,6 +100,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -122,6 +128,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -147,6 +156,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -180,6 +192,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -220,6 +235,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Spinning Wheel"
     ]
   },
   {
@@ -253,6 +271,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -290,6 +311,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -315,6 +339,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -340,6 +367,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -369,6 +399,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -406,6 +439,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -439,6 +475,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -479,6 +518,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Tannery"
     ]
   },
   {
@@ -510,7 +552,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "571800e80dda",
@@ -541,7 +586,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "b61063bb2ebc",
@@ -572,7 +620,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "bfdc9d1877f4",
@@ -605,6 +656,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
     ]
   },
   {
@@ -636,7 +690,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "7b4d45ac61f1",
@@ -667,7 +724,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "ba2f1ddeb06d",
@@ -698,7 +758,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "1d3fc0d52f1d",
@@ -727,6 +790,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -767,6 +833,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -792,6 +861,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Kiln"
     ]
   },
   {
@@ -817,6 +889,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Pottery Wheel"
     ]
   },
   {
@@ -850,6 +925,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -887,6 +965,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -916,6 +997,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Loom"
     ]
   },
   {
@@ -945,6 +1029,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -965,6 +1052,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -994,6 +1084,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -1023,6 +1116,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -1060,6 +1156,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -1097,6 +1196,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -1130,6 +1232,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -1155,6 +1260,9 @@
     ],
     "skills": [
       "Runecrafting"
+    ],
+    "facilities": [
+      "Rune Altar"
     ]
   },
   {
@@ -1184,6 +1292,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -1213,6 +1324,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -1238,6 +1352,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -1267,6 +1384,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -1300,6 +1420,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -1325,6 +1448,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Furnace"
     ]
   },
   {
@@ -1354,6 +1480,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -1387,6 +1516,9 @@
     ],
     "skills": [
       "Runecrafting"
+    ],
+    "facilities": [
+      "Rune Altar"
     ]
   },
   {
@@ -1420,6 +1552,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -1445,6 +1580,9 @@
     ],
     "skills": [
       "Runecrafting"
+    ],
+    "facilities": [
+      "Rune Altar"
     ]
   },
   {
@@ -1470,6 +1608,9 @@
     ],
     "skills": [
       "Runecrafting"
+    ],
+    "facilities": [
+      "Rune Altar"
     ]
   },
   {
@@ -1495,6 +1636,9 @@
     ],
     "skills": [
       "Runecrafting"
+    ],
+    "facilities": [
+      "Rune Altar"
     ]
   },
   {
@@ -1520,6 +1664,9 @@
     ],
     "skills": [
       "Runecrafting"
+    ],
+    "facilities": [
+      "Rune Altar"
     ]
   },
   {
@@ -1549,6 +1696,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -1586,6 +1736,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -1623,6 +1776,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -1664,6 +1820,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -1701,6 +1860,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -1745,6 +1907,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Tannery"
     ]
   },
   {
@@ -1782,6 +1947,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -1811,6 +1979,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -1836,6 +2007,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Kiln"
     ]
   },
   {
@@ -1869,6 +2043,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -1898,6 +2075,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -1931,6 +2111,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -1960,6 +2143,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Furnace"
     ]
   },
   {
@@ -2000,6 +2186,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Spinning Wheel"
     ]
   },
   {
@@ -2037,6 +2226,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -2082,6 +2274,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -2113,7 +2308,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "7557df00926f",
@@ -2144,7 +2342,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "06563317a4a1",
@@ -2181,6 +2382,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -2214,6 +2418,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -2247,6 +2454,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -2280,6 +2490,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -2309,6 +2522,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -2350,6 +2566,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -2383,6 +2602,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -2420,6 +2642,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -2445,6 +2670,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Loom"
     ]
   },
   {
@@ -2478,6 +2706,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -2511,6 +2742,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -2552,6 +2786,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -2585,6 +2822,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -2618,6 +2858,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -2651,6 +2894,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -2676,6 +2922,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Loom"
     ]
   },
   {
@@ -2709,6 +2958,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -2738,6 +2990,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -2771,6 +3026,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -2804,6 +3062,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -2829,6 +3090,9 @@
     ],
     "skills": [
       "Runecrafting"
+    ],
+    "facilities": [
+      "Rune Altar"
     ]
   },
   {
@@ -2854,6 +3118,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -2885,7 +3152,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "53d81be3bab6",
@@ -2916,7 +3186,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "1c875539a5a7",
@@ -2957,6 +3230,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -2982,6 +3258,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Furnace"
     ]
   },
   {
@@ -3015,6 +3294,9 @@
     ],
     "skills": [
       "Runecrafting"
+    ],
+    "facilities": [
+      "Rune Altar"
     ]
   },
   {
@@ -3048,6 +3330,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -3085,6 +3370,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -3118,6 +3406,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -3147,6 +3438,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -3170,7 +3464,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Kiln"
+    ]
   },
   {
     "id": "2632c885aa43",
@@ -3255,6 +3552,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Kiln"
     ]
   },
   {
@@ -3300,6 +3600,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -3345,6 +3648,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -3382,6 +3688,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -3407,6 +3716,9 @@
     ],
     "skills": [
       "Runecrafting"
+    ],
+    "facilities": [
+      "Rune Altar"
     ]
   },
   {
@@ -3436,6 +3748,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -3461,6 +3776,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -3486,6 +3804,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -3515,6 +3836,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -3544,6 +3868,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -3573,6 +3900,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -3602,6 +3932,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -3631,6 +3964,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -3660,6 +3996,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -3689,6 +4028,9 @@
     ],
     "skills": [
       "Runecrafting"
+    ],
+    "facilities": [
+      "Rune Altar"
     ]
   },
   {
@@ -3722,6 +4064,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -3742,6 +4087,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -3775,6 +4123,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -3795,6 +4146,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -3832,6 +4186,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -3861,6 +4218,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -3881,6 +4241,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -3901,6 +4264,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -3921,6 +4287,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -3958,6 +4327,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -3991,6 +4363,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Table"
     ]
   },
   {
@@ -4028,6 +4403,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4065,6 +4443,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4090,6 +4471,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -4123,6 +4507,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4156,6 +4543,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4185,6 +4575,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4222,6 +4615,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4255,6 +4651,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4280,6 +4679,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Spinning Wheel"
     ]
   },
   {
@@ -4313,6 +4715,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4346,6 +4751,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4383,6 +4791,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4420,6 +4831,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4453,6 +4867,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -4486,6 +4903,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4511,6 +4931,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Kiln"
     ]
   },
   {
@@ -4548,6 +4971,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4573,6 +4999,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Furnace"
     ]
   },
   {
@@ -4610,6 +5039,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4639,6 +5071,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -4668,6 +5103,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -4705,6 +5143,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4742,6 +5183,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4762,6 +5206,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -4803,6 +5250,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4840,6 +5290,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4877,6 +5330,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4914,6 +5370,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4951,6 +5410,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -4984,6 +5446,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -5017,6 +5482,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -5050,6 +5518,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -5083,6 +5554,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -5108,6 +5582,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -5149,6 +5626,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -5178,6 +5658,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -5203,6 +5686,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -5236,6 +5722,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -5267,7 +5756,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "f78cd06c0035",
@@ -5298,7 +5790,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "01dbea934488",
@@ -5323,6 +5818,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -5348,6 +5846,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Grindstone"
     ]
   },
   {
@@ -5373,6 +5874,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -5398,6 +5902,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -5435,6 +5942,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -5472,6 +5982,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -5497,6 +6010,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -5522,6 +6038,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -5559,6 +6078,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -5592,6 +6114,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -5621,6 +6146,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -5650,6 +6178,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -5675,6 +6206,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -5712,6 +6246,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -5737,6 +6274,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Pottery Wheel"
     ]
   },
   {
@@ -5762,6 +6302,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Tannery"
     ]
   },
   {
@@ -5795,6 +6338,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -5820,6 +6366,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Grindstone"
     ]
   },
   {
@@ -5857,6 +6406,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -5875,7 +6427,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "9cc4c384bcb8",
@@ -5912,6 +6467,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -5953,6 +6511,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -5986,6 +6547,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -6015,6 +6579,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -6052,6 +6619,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Anvil"
     ]
   },
   {
@@ -6089,6 +6659,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -6126,6 +6699,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -6163,6 +6739,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -6200,6 +6779,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -6233,6 +6815,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Anvil"
     ]
   },
   {
@@ -6258,6 +6843,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Sawmill"
     ]
   },
   {
@@ -6283,6 +6871,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Sawmill"
     ]
   },
   {
@@ -6312,6 +6903,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -6343,7 +6937,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Lougrim's Shrine"
+    ]
   },
   {
     "id": "79b1abcbd411",
@@ -6384,6 +6981,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -6417,6 +7017,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -6472,6 +7075,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -6527,6 +7133,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -6582,6 +7191,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -6637,6 +7249,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -6696,6 +7311,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -6755,6 +7373,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -6814,6 +7435,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -6869,6 +7493,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -6909,6 +7536,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -6949,6 +7579,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -6989,6 +7622,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7029,6 +7665,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7069,6 +7708,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7109,6 +7751,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7149,6 +7794,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7189,6 +7837,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7229,6 +7880,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7269,6 +7923,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7309,6 +7966,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7349,6 +8009,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7389,6 +8052,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7429,6 +8095,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7469,6 +8138,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7509,6 +8181,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7549,6 +8224,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7589,6 +8267,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7629,6 +8310,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7669,6 +8353,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7732,6 +8419,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7799,6 +8489,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7866,6 +8559,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7929,6 +8625,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -7969,6 +8668,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8009,6 +8711,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8049,6 +8754,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8089,6 +8797,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8129,6 +8840,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8169,6 +8883,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8209,6 +8926,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8249,6 +8969,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8289,6 +9012,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8314,6 +9040,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Grindstone"
     ]
   },
   {
@@ -8354,6 +9083,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8394,6 +9126,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8434,6 +9169,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8474,6 +9212,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8514,6 +9255,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8554,6 +9298,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8594,6 +9341,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8634,6 +9384,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8674,6 +9427,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8714,6 +9470,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8754,6 +9513,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8794,6 +9556,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8834,6 +9599,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8874,6 +9642,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8914,6 +9685,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -8954,6 +9728,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9006,6 +9783,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9088,6 +9868,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9155,6 +9938,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9222,6 +10008,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9289,6 +10078,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9356,6 +10148,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9423,6 +10218,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9490,6 +10288,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9557,6 +10358,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9624,6 +10428,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9691,6 +10498,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9758,6 +10568,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9825,6 +10638,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9892,6 +10708,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -9959,6 +10778,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10026,6 +10848,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10078,6 +10903,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10141,6 +10969,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10181,6 +11012,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10206,6 +11040,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10235,6 +11072,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10264,6 +11104,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10289,6 +11132,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10318,6 +11164,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10343,6 +11192,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10372,6 +11224,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10397,6 +11252,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10426,6 +11284,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10455,6 +11316,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10480,6 +11344,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10505,6 +11372,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10534,6 +11404,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10563,6 +11436,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10588,6 +11464,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10617,6 +11496,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10646,6 +11528,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10675,6 +11560,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10704,6 +11592,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10729,6 +11620,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10754,6 +11648,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10783,6 +11680,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10808,6 +11708,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10833,6 +11736,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10858,6 +11764,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10883,6 +11792,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10908,6 +11820,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10933,6 +11848,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10958,6 +11876,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -10987,6 +11908,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11016,6 +11940,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11045,6 +11972,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11074,6 +12004,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11103,6 +12036,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11132,6 +12068,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11161,6 +12100,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11190,6 +12132,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11219,6 +12164,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11248,6 +12196,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11277,6 +12228,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11306,6 +12260,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11335,6 +12292,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11364,6 +12324,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11393,6 +12356,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11418,6 +12384,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11443,6 +12412,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11468,6 +12440,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11497,6 +12472,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11526,6 +12504,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11555,6 +12536,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11580,6 +12564,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11605,6 +12592,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11634,6 +12624,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11663,6 +12656,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11688,6 +12684,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11713,6 +12712,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11738,6 +12740,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11763,6 +12768,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11788,6 +12796,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11813,6 +12824,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11838,6 +12852,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11863,6 +12880,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11888,6 +12908,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11913,6 +12936,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11938,6 +12964,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11963,6 +12992,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -11988,6 +13020,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12013,6 +13048,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12054,6 +13092,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12079,6 +13120,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12108,6 +13152,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12137,6 +13184,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12166,6 +13216,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12191,6 +13244,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12216,6 +13272,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12245,6 +13304,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12270,6 +13332,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12295,6 +13360,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12320,6 +13388,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12345,6 +13416,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12374,6 +13448,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12399,6 +13476,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12424,6 +13504,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12453,6 +13536,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12478,6 +13564,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12503,6 +13592,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12532,6 +13624,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12557,6 +13652,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12586,6 +13684,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12615,6 +13716,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12644,6 +13748,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12673,6 +13780,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12702,6 +13812,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12731,6 +13844,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12760,6 +13876,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12789,6 +13908,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12818,6 +13940,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12847,6 +13972,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12872,6 +14000,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12927,6 +14058,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12952,6 +14086,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -12977,6 +14114,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13002,6 +14142,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13042,6 +14185,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13067,6 +14213,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13092,6 +14241,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13117,6 +14269,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13142,6 +14297,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13167,6 +14325,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13192,6 +14353,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13217,6 +14381,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13254,6 +14421,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13291,6 +14461,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13328,6 +14501,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13365,6 +14541,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13394,6 +14573,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13423,6 +14605,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13456,6 +14641,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13481,6 +14669,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13514,6 +14705,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13539,6 +14733,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13564,6 +14761,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13589,6 +14789,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13614,6 +14817,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13643,6 +14849,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13672,6 +14881,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13701,6 +14913,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13726,6 +14941,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13755,6 +14973,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13784,6 +15005,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13809,6 +15033,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13834,6 +15061,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13859,6 +15089,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13888,6 +15121,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13917,6 +15153,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13946,6 +15185,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -13975,6 +15217,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14004,6 +15249,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14033,6 +15281,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14062,6 +15313,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14087,6 +15341,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14116,6 +15373,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14141,6 +15401,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14170,6 +15433,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14203,6 +15469,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14228,6 +15497,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14253,6 +15525,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14290,6 +15565,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -14308,7 +15586,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "9734b291e533",
@@ -14341,6 +15622,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -14366,6 +15650,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14391,6 +15678,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14416,6 +15706,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14447,7 +15740,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "a0bfe59eb992",
@@ -14476,6 +15772,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -14513,6 +15812,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Forge"
     ]
   },
   {
@@ -14542,6 +15844,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14567,6 +15872,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Pottery Wheel"
     ]
   },
   {
@@ -14592,6 +15900,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Kiln"
     ]
   },
   {
@@ -14617,6 +15928,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14642,6 +15956,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14667,6 +15984,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Furnace"
     ]
   },
   {
@@ -14700,6 +16020,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14741,6 +16064,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -14770,6 +16096,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -14799,6 +16128,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -14828,6 +16160,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14853,6 +16188,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -14882,6 +16220,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -14902,6 +16243,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -14943,6 +16287,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -14968,6 +16315,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -14993,6 +16343,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -15030,6 +16383,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -15063,6 +16419,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
     ]
   },
   {
@@ -15096,6 +16455,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -15129,6 +16491,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
     ]
   },
   {
@@ -15158,6 +16523,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -15187,6 +16555,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -15216,6 +16587,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -15245,6 +16619,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -15274,6 +16651,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -15303,6 +16683,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -15332,6 +16715,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -15361,6 +16747,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -15398,6 +16787,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -15435,6 +16827,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -15472,6 +16867,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -15505,6 +16903,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -15530,6 +16931,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -15567,6 +16971,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -15600,6 +17007,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -15633,6 +17043,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -15666,6 +17079,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -15691,6 +17107,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -15724,6 +17143,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -15753,6 +17175,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -15786,6 +17211,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -15819,6 +17247,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -15852,6 +17283,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -15877,6 +17311,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -15902,6 +17339,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -15927,6 +17367,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -15952,6 +17395,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -15977,6 +17423,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -16002,6 +17451,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -16027,6 +17479,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -16052,6 +17507,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -16077,6 +17535,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -16102,6 +17563,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -16142,6 +17606,10 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
     ]
   },
   {
@@ -16167,6 +17635,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -16192,6 +17663,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -16217,6 +17691,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16242,6 +17719,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16271,6 +17751,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16296,6 +17779,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16321,6 +17807,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16346,6 +17835,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16371,6 +17863,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16396,6 +17891,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16421,6 +17919,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16446,6 +17947,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16475,6 +17979,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16504,6 +18011,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16533,6 +18043,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16562,6 +18075,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16591,6 +18107,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16620,6 +18139,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16649,6 +18171,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16678,6 +18203,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16707,6 +18235,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16725,7 +18256,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "f0b78a30f06b",
@@ -16743,7 +18277,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "30bf1dbd00ca",
@@ -16768,6 +18305,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16801,6 +18341,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16830,6 +18373,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16855,6 +18401,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16880,6 +18429,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16905,6 +18457,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16930,6 +18485,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16955,6 +18513,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -16986,7 +18547,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Cooking Range"
+    ]
   },
   {
     "id": "5c2b1b80c56c",
@@ -17027,6 +18591,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -17064,6 +18631,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
     ]
   },
   {
@@ -17101,6 +18671,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
     ]
   },
   {
@@ -17138,6 +18711,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
     ]
   },
   {
@@ -17169,7 +18745,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ]
   },
   {
     "id": "268defe0adec",
@@ -17202,6 +18781,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -17235,6 +18817,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -17266,7 +18851,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ]
   },
   {
     "id": "5aa2e298899c",
@@ -17299,6 +18887,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
     ]
   },
   {
@@ -17326,7 +18917,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "be8cdc84a9ae",
@@ -17367,6 +18961,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -17394,7 +18991,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "966047f7c6be",
@@ -17421,7 +19021,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ]
   },
   {
     "id": "25767ae94b04",
@@ -17446,6 +19049,9 @@
     ],
     "skills": [
       "Farming"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -17471,6 +19077,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -17519,6 +19128,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Blast Furnace"
     ]
   },
   {
@@ -17560,6 +19172,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -17604,6 +19219,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Tannery"
     ]
   },
   {
@@ -17645,6 +19263,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -17670,6 +19291,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -17699,6 +19323,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -17740,6 +19367,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -17781,6 +19411,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -17810,6 +19443,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Loom"
     ]
   },
   {
@@ -17839,6 +19475,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -17864,6 +19503,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Spinning Wheel"
     ]
   },
   {
@@ -17897,6 +19539,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -17938,6 +19583,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -17975,6 +19623,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -18012,6 +19663,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
     ]
   },
   {
@@ -18049,6 +19703,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
     ]
   },
   {
@@ -18086,6 +19743,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
     ]
   },
   {
@@ -18123,6 +19783,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
     ]
   },
   {
@@ -18160,6 +19823,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
     ]
   },
   {
@@ -18197,6 +19863,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
     ]
   },
   {
@@ -18234,6 +19903,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -18259,6 +19931,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Stonecutter"
     ]
   },
   {
@@ -18296,6 +19971,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -18333,6 +20011,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -18358,6 +20039,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Kiln"
     ]
   },
   {
@@ -18399,6 +20083,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -18440,6 +20127,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -18481,6 +20171,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -18516,7 +20209,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Jeweler's Bench"
+    ]
   },
   {
     "id": "f404b24c37ec",
@@ -18551,7 +20247,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Jeweler's Bench"
+    ]
   },
   {
     "id": "b118bb3965b2",
@@ -18590,7 +20289,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Jeweler's Bench"
+    ]
   },
   {
     "id": "200efe4cb938",
@@ -18610,6 +20312,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -18651,6 +20356,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -18690,7 +20398,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ]
   },
   {
     "id": "eb032745d6ef",
@@ -18729,7 +20440,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ]
   },
   {
     "id": "fca8e6adde30",
@@ -18768,7 +20482,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ]
   },
   {
     "id": "9ce62aca70c6",
@@ -18805,6 +20522,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -18844,7 +20564,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Fletching Bench"
+    ]
   },
   {
     "id": "ad8c09bb0bbf",
@@ -18875,7 +20598,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "20fee5b32579",
@@ -18914,7 +20640,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Jeweler's Bench"
+    ]
   },
   {
     "id": "2c268ab4c256",
@@ -18943,6 +20672,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -18968,6 +20700,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -18993,6 +20728,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Grindstone"
     ]
   },
   {
@@ -19024,7 +20762,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "9754f23e29e1",
@@ -19055,7 +20796,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ]
   },
   {
     "id": "550fe90833fc",
@@ -19092,6 +20836,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -19129,6 +20876,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -19166,6 +20916,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -19203,6 +20956,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -19240,6 +20996,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -19277,6 +21036,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -19314,6 +21076,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -19347,6 +21112,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -19370,7 +21138,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Grindstone"
+    ]
   },
   {
     "id": "e882154bb2ef",
@@ -19395,6 +21166,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Kiln"
     ]
   },
   {
@@ -19436,6 +21210,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -19461,6 +21238,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Tannery"
     ]
   },
   {
@@ -19486,6 +21266,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Grill"
     ]
   },
   {
@@ -19506,6 +21289,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
     ]
   },
   {
@@ -19543,6 +21329,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -19568,6 +21357,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -19597,6 +21389,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -19626,6 +21421,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -19655,6 +21453,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -19684,6 +21485,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -19709,6 +21513,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -19742,6 +21549,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -19787,6 +21597,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -19828,6 +21641,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -19853,6 +21669,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -19878,6 +21697,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -19903,6 +21725,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -19942,7 +21767,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Jeweler's Bench"
+    ]
   },
   {
     "id": "6ac74417fd6a",
@@ -19983,6 +21811,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -20024,6 +21855,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -20065,6 +21899,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -20106,6 +21943,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -20124,7 +21964,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "d05e9ad4805a",
@@ -20142,7 +21985,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "626d2c4544a3",
@@ -20160,7 +22006,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "9c4880c09d0d",
@@ -20178,7 +22027,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "9aabd9c7ecb5",
@@ -20196,7 +22048,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "307d14eab2f3",
@@ -20214,7 +22069,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "318b166ddee2",
@@ -20232,7 +22090,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "f5652aeceb5b",
@@ -20250,7 +22111,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ]
   },
   {
     "id": "2f718b62ed4b",
@@ -20291,6 +22155,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -20332,6 +22199,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -20373,6 +22243,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -20412,7 +22285,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Jeweler's Bench"
+    ]
   },
   {
     "id": "79634523db54",
@@ -20457,6 +22333,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -20502,6 +22381,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -20543,6 +22425,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -20584,6 +22469,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -20648,6 +22536,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -20687,7 +22578,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Jeweler's Bench"
+    ]
   },
   {
     "id": "010e7c83096e",
@@ -20712,6 +22606,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -20737,6 +22634,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -20770,6 +22670,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -20803,6 +22706,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -20832,6 +22738,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -20869,6 +22778,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -20898,6 +22810,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
     ]
   },
   {
@@ -20923,6 +22838,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -20948,6 +22866,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
     ]
   },
   {
@@ -20981,6 +22902,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -21012,7 +22936,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "575820ec243d",
@@ -21043,7 +22970,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "a74ba32ee7c4",
@@ -21074,7 +23004,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "451824e9dacc",
@@ -21105,7 +23038,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "85dde89c00d5",
@@ -21136,7 +23072,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "e8ed554fb456",
@@ -21167,7 +23106,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "a8626ae548e2",
@@ -21198,7 +23140,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "6e05d848f3e7",
@@ -21229,7 +23174,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ]
   },
   {
     "id": "0aec80b3173c",
@@ -21262,6 +23210,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -21302,6 +23253,10 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
     ]
   },
   {
@@ -21327,6 +23282,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -21352,6 +23310,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -21377,6 +23338,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -21402,6 +23366,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -21431,6 +23398,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -21471,6 +23441,10 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
     ]
   },
   {
@@ -21512,6 +23486,9 @@
     ],
     "skills": [
       "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
     ]
   },
   {
@@ -21547,7 +23524,10 @@
         }
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ]
   },
   {
     "id": "663338a55ff5",
@@ -21580,6 +23560,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -21613,6 +23596,9 @@
     ],
     "skills": [
       "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
     ]
   },
   {
@@ -21638,6 +23624,9 @@
     ],
     "skills": [
       "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
     ]
   },
   {
@@ -21652,7 +23641,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "ecd2d28bd4e4",
@@ -21666,7 +23656,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "711fc213e603",
@@ -21680,7 +23671,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "d37db9788605",
@@ -21694,7 +23686,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "81629dd6f277",
@@ -21708,7 +23701,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "9fcd40f856e6",
@@ -21722,7 +23716,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "0d18f7a5c714",
@@ -21736,7 +23731,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "15f83d07dd09",
@@ -21750,7 +23746,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "2cb47baaee19",
@@ -21764,7 +23761,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "f1055ea322bd",
@@ -21778,7 +23776,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "bc54ea66569d",
@@ -21792,7 +23791,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "7ddc50d536fd",
@@ -21806,7 +23806,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "1af09d8b8207",
@@ -21820,7 +23821,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "1433631489c8",
@@ -21834,7 +23836,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "05947b7bdbad",
@@ -21848,7 +23851,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "4b3b28384d99",
@@ -21862,7 +23866,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "c425f2a75763",
@@ -21876,7 +23881,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "e5bbfdd1f5f6",
@@ -21890,7 +23896,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "797f584aebcf",
@@ -21904,7 +23911,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "38a3363b28bd",
@@ -21918,7 +23926,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "89a3b6b77425",
@@ -21932,7 +23941,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "6ffa6b8b1c9f",
@@ -21946,7 +23956,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "6d61374da4b4",
@@ -21960,7 +23971,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "a4969e4cdc7a",
@@ -21974,7 +23986,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "d32c9990fd10",
@@ -21988,7 +24001,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "932f46ef0b49",
@@ -22002,7 +24016,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "e46d49c9e677",
@@ -22016,7 +24031,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "46ac202422da",
@@ -22030,7 +24046,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "5db7cc42a94b",
@@ -22044,7 +24061,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "aac9c06cd7a8",
@@ -22058,7 +24076,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "ec1abb86508c",
@@ -22072,7 +24091,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "eedfb3dc7f45",
@@ -22086,7 +24106,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "f4afba87f0f4",
@@ -22100,7 +24121,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "0e5697ab1427",
@@ -22114,7 +24136,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "34694871e698",
@@ -22128,7 +24151,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "d6edfecd4655",
@@ -22142,7 +24166,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "3e0c3babe19d",
@@ -22156,7 +24181,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "d142d3dd1dbb",
@@ -22170,7 +24196,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "727346e1e9f2",
@@ -22184,7 +24211,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "cbeebc55d712",
@@ -22198,7 +24226,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "7687e4b2af61",
@@ -22212,7 +24241,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "c2fcfd86b7f8",
@@ -22226,7 +24256,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "6a149b5ba539",
@@ -22240,7 +24271,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "740bef9b70ab",
@@ -22254,7 +24286,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "b54c1c5f9b78",
@@ -22268,7 +24301,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "9fbbe982e10d",
@@ -22282,7 +24316,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "7ad3201eccae",
@@ -22296,7 +24331,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "9ca5b1c17952",
@@ -22310,7 +24346,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "961f116cf415",
@@ -22324,7 +24361,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "6a4edf2c4dae",
@@ -22338,7 +24376,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "ba738f673036",
@@ -22352,7 +24391,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "e5ccdbb15db6",
@@ -22366,7 +24406,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "4720d091fcf6",
@@ -22380,7 +24421,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "38a6d42b41a0",
@@ -22394,7 +24436,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "1a1409960a2b",
@@ -22408,7 +24451,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "b060af6728e8",
@@ -22422,7 +24466,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "cc278ed65b2d",
@@ -22436,7 +24481,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "c30da88f3e6d",
@@ -22450,7 +24496,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "9e51f828316a",
@@ -22464,7 +24511,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "85a71d0dc4f6",
@@ -22478,7 +24526,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "65dda00cb125",
@@ -22492,7 +24541,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "c54364a62e8b",
@@ -22506,7 +24556,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "ce7206326acd",
@@ -22520,7 +24571,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "7562f102ce99",
@@ -22534,7 +24586,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "fc77e763174f",
@@ -22548,7 +24601,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "7201da5b6871",
@@ -22562,7 +24616,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "4dcb3e55f2fe",
@@ -22576,7 +24631,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "c0b1c8d8b5ca",
@@ -22590,7 +24646,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "a8dcd1070b8c",
@@ -22604,7 +24661,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "b0905b7a423e",
@@ -22618,7 +24676,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "4d80afd8151f",
@@ -22632,7 +24691,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "2ac59cbedc85",
@@ -22646,7 +24706,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "406c61105dff",
@@ -22660,7 +24721,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "b790aebc6675",
@@ -22674,7 +24736,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "ffe30d9b2a80",
@@ -22688,7 +24751,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "2b4f8cd3c8a7",
@@ -22702,7 +24766,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "1b56c4cbcadb",
@@ -22716,7 +24781,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "9b8cc79b6637",
@@ -22730,7 +24796,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "764a05dc2041",
@@ -22744,7 +24811,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "a2c7c44ae965",
@@ -22758,7 +24826,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "4288dc2a4bf5",
@@ -22772,7 +24841,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "daf280714631",
@@ -22786,7 +24856,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "4cc1d6e9f857",
@@ -22800,7 +24871,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "ed9568408cc1",
@@ -22814,7 +24886,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "5da0569f748f",
@@ -22828,7 +24901,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "2df379c7feed",
@@ -22842,7 +24916,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "10ecde1c3143",
@@ -22856,7 +24931,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "04891907bf66",
@@ -22870,7 +24946,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "a536417bd1ab",
@@ -22884,7 +24961,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "2b1f3f0b7afa",
@@ -22898,7 +24976,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "3b89593cda8c",
@@ -22912,7 +24991,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "abff39d8b03a",
@@ -22926,7 +25006,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "804c894d24f4",
@@ -22940,7 +25021,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "23c6b49888e0",
@@ -22954,7 +25036,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "f1553f8017eb",
@@ -22968,7 +25051,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "0897954604ef",
@@ -22982,7 +25066,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "13547a45ee73",
@@ -22996,7 +25081,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "c31bfa76a700",
@@ -23010,7 +25096,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "ec3ec9f3351c",
@@ -23024,7 +25111,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "fa457ebb3086",
@@ -23038,7 +25126,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "a5abb9e574fc",
@@ -23052,7 +25141,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "ce4f80959fed",
@@ -23066,7 +25156,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "21623688fe08",
@@ -23080,7 +25171,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "6a919df4324a",
@@ -23094,7 +25186,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "80704078f901",
@@ -23108,7 +25201,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "86b589e263ab",
@@ -23122,7 +25216,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "3fd2a856e6c7",
@@ -23136,7 +25231,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "de68db5a2744",
@@ -23150,7 +25246,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "0c641c96baed",
@@ -23164,7 +25261,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "aa79bbd2239d",
@@ -23178,7 +25276,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "8d1a17d0cc05",
@@ -23192,7 +25291,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "3af0612a8f32",
@@ -23206,7 +25306,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "5cb40e2d5225",
@@ -23220,7 +25321,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "138b81212e67",
@@ -23234,7 +25336,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "8df262e93b26",
@@ -23248,7 +25351,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "4b2f4d9be01f",
@@ -23262,7 +25366,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "b0debb590f98",
@@ -23276,7 +25381,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "98cc842f4951",
@@ -23290,7 +25396,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "74cdea31a340",
@@ -23304,7 +25411,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "b756ef212dfa",
@@ -23318,7 +25426,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "2ca05cd6f3aa",
@@ -23332,7 +25441,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "ca6a19e4648f",
@@ -23346,7 +25456,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "2f04f2c5e7c0",
@@ -23360,7 +25471,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "c0f27f6ae366",
@@ -23374,7 +25486,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "669eb78f70f8",
@@ -23388,7 +25501,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "3143c3f9669c",
@@ -23402,7 +25516,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "fa85c63c1228",
@@ -23416,7 +25531,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "04b038709471",
@@ -23430,7 +25546,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "1baef4e6a394",
@@ -23444,7 +25561,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "ce2a4cd6cc54",
@@ -23458,7 +25576,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "b2ac5fc275d0",
@@ -23472,7 +25591,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "6955f4a26f2b",
@@ -23486,7 +25606,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "af19b7d0405b",
@@ -23500,7 +25621,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "f3dfb081e3d6",
@@ -23514,7 +25636,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "1715106044cd",
@@ -23528,7 +25651,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "a307b82cc930",
@@ -23542,7 +25666,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "8a5d27713a62",
@@ -23556,7 +25681,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "73f85163e996",
@@ -23570,7 +25696,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "016eb1588b25",
@@ -23584,7 +25711,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "5d8c540af59c",
@@ -23598,7 +25726,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "17d5792f44fa",
@@ -23612,7 +25741,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "d3066586a734",
@@ -23626,7 +25756,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "456d75b9d092",
@@ -23640,7 +25771,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "821555962e6b",
@@ -23654,7 +25786,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "3429eac1e256",
@@ -23668,7 +25801,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "fc12b33eb56b",
@@ -23682,7 +25816,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "e6e20e355187",
@@ -23696,7 +25831,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "0203be25f1ad",
@@ -23710,7 +25846,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "6e32e35ad9f9",
@@ -23724,7 +25861,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "ba36e88b0c00",
@@ -23738,7 +25876,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "af1ccb31304d",
@@ -23752,7 +25891,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "bb705c6bbb09",
@@ -23766,7 +25906,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "b95aeaa2eadc",
@@ -23780,7 +25921,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "deb5802111ed",
@@ -23794,7 +25936,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "f329de3d3c7f",
@@ -23808,7 +25951,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "0fb07995c5d4",
@@ -23822,7 +25966,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "a5b1c1e7571f",
@@ -23836,7 +25981,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "2cbf2e0f8303",
@@ -23850,7 +25996,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "29204527addd",
@@ -23864,7 +26011,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "e9b87f42a5c4",
@@ -23878,7 +26026,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "1519d03a529e",
@@ -23892,7 +26041,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "41d00f99dfdb",
@@ -23906,7 +26056,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "c6f23ba443f6",
@@ -23920,7 +26071,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "08fb4d1fb548",
@@ -23934,7 +26086,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "4a1b2fb59ca2",
@@ -23948,7 +26101,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "d62ac3b5532f",
@@ -23962,7 +26116,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "8ed8d1ae4d7d",
@@ -23976,7 +26131,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "bbb775b2573d",
@@ -23990,7 +26146,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "9d95a3cc391b",
@@ -24004,7 +26161,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "76a63004e93a",
@@ -24018,7 +26176,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "cea2a17af4ce",
@@ -24032,7 +26191,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "396ffa28eb6c",
@@ -24046,7 +26206,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "1b1a37351182",
@@ -24060,7 +26221,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "18719d48ba62",
@@ -24074,7 +26236,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "49cf525c960f",
@@ -24088,7 +26251,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "a1649f99453b",
@@ -24102,7 +26266,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "09d9d024aab0",
@@ -24116,7 +26281,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "e888684b87ee",
@@ -24130,7 +26296,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "cf93336385cd",
@@ -24144,7 +26311,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "15e7cd88cec8",
@@ -24158,7 +26326,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "61ddae2d9185",
@@ -24172,7 +26341,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "8a502ccc0bf5",
@@ -24186,7 +26356,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "09c3c36e0405",
@@ -24200,7 +26371,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "019c4db7960b",
@@ -24214,7 +26386,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "7b8ba45d67be",
@@ -24228,7 +26401,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "853cc5a832ed",
@@ -24242,7 +26416,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "b7486de26d98",
@@ -24256,7 +26431,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "1b0d03673a73",
@@ -24270,7 +26446,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "37c50c935cd2",
@@ -24284,7 +26461,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "8943b3cc1281",
@@ -24298,7 +26476,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "1ea4ac6b70d2",
@@ -24312,7 +26491,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "cca303e99f5f",
@@ -24326,7 +26506,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "2d2ad3207cbb",
@@ -24340,7 +26521,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "a88a6422779d",
@@ -24354,7 +26536,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "d0e268428014",
@@ -24368,7 +26551,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "914914eab799",
@@ -24382,7 +26566,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "3ddab8178e2a",
@@ -24396,7 +26581,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "b639c243cebd",
@@ -24410,7 +26596,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "84226177b73e",
@@ -24424,7 +26611,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "b9f42ac371ba",
@@ -24438,7 +26626,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "c6c5211a5079",
@@ -24452,7 +26641,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "e484f65d7ba7",
@@ -24466,7 +26656,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "8289a9844fd5",
@@ -24480,7 +26671,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "663a6aa86783",
@@ -24494,7 +26686,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "4b4e11cc0735",
@@ -24508,7 +26701,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "88e4e936cac7",
@@ -24522,7 +26716,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "83039f9ea6c7",
@@ -24536,7 +26731,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "37cc51fa8fc2",
@@ -24550,7 +26746,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "24a13bcb072e",
@@ -24564,7 +26761,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "15764a871dbe",
@@ -24578,7 +26776,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "32777a510d41",
@@ -24592,7 +26791,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "a61c2c747c0f",
@@ -24606,7 +26806,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "2c00a98cf611",
@@ -24620,7 +26821,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "6ee497f7b546",
@@ -24634,7 +26836,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "d804f17c1533",
@@ -24648,7 +26851,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "5bc901664ee1",
@@ -24662,7 +26866,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "d7ec35d0f028",
@@ -24676,7 +26881,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "5d7f4271bb58",
@@ -24690,7 +26896,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "758d81b8ac99",
@@ -24704,7 +26911,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "6ab444faed8b",
@@ -24718,7 +26926,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "2f3e7dfa521d",
@@ -24732,7 +26941,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "ba97d64473f8",
@@ -24746,7 +26956,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "73602b857cc5",
@@ -24760,7 +26971,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "bd486e8ab8f6",
@@ -24774,7 +26986,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "6ce38a53e81a",
@@ -24788,7 +27001,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "55921610e14a",
@@ -24802,7 +27016,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "04adbd868ad9",
@@ -24816,7 +27031,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "e5c261ef328a",
@@ -24830,7 +27046,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "48269f4923b6",
@@ -24844,7 +27061,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "f9d124c9d097",
@@ -24858,7 +27076,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "232913bee48b",
@@ -24872,7 +27091,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "c1f5b9d09111",
@@ -24886,7 +27106,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "cf84129eea86",
@@ -24900,7 +27121,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "bb917ab44f38",
@@ -24914,7 +27136,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "bf2f41de4c75",
@@ -24928,7 +27151,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "8810317ef8a7",
@@ -24942,7 +27166,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "87378710f97a",
@@ -24956,7 +27181,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "d9d8d198035a",
@@ -24970,7 +27196,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "2110b6856dbf",
@@ -24984,7 +27211,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "ba328b060421",
@@ -24998,7 +27226,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "6204c6acf0e3",
@@ -25012,7 +27241,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "7a290b60b2aa",
@@ -25026,7 +27256,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "a5373f5dc623",
@@ -25040,7 +27271,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "c707ab5de5c9",
@@ -25054,7 +27286,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "08245260eef4",
@@ -25068,7 +27301,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "b5cce1fc67c3",
@@ -25082,7 +27316,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "14ada1150a70",
@@ -25096,7 +27331,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "8db601163924",
@@ -25110,7 +27346,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "dded1f7433f5",
@@ -25124,7 +27361,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "cb871a979b7d",
@@ -25138,7 +27376,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "027c3c44804e",
@@ -25152,7 +27391,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "6034b3acc54e",
@@ -25166,7 +27406,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "a7529d7b1c21",
@@ -25180,7 +27421,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "836d79ca397f",
@@ -25194,7 +27436,8 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   },
   {
     "id": "7979d9a7d31c",
@@ -25208,6 +27451,7 @@
         "recipe": null
       }
     ],
-    "skills": []
+    "skills": [],
+    "facilities": []
   }
 ]
