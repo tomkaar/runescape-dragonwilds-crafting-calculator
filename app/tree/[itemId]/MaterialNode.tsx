@@ -22,9 +22,9 @@ const MaterialNode = forwardRef<HTMLDivElement, Props>((props, ref) => {
         )}
         <div className="text-xs text-white">
           <span className="font-bold">{props.data.quantity}x</span>{" "}
-          {props.data.name}
         </div>
       </div>
+      <div className="text-xs text-white">{props.data.name}</div>
 
       <Handle
         type="target"

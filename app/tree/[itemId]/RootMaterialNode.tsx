@@ -22,12 +22,12 @@ const RootMaterialNode = forwardRef<HTMLDivElement, Props>((props, ref) => {
         )}
         <div className="text-xs text-white">
           <span className="font-bold">{props.data.quantity}x</span>{" "}
-          {props.data.name}
         </div>
       </div>
+      <div className="text-xs text-white">{props.data.name}</div>
 
       {props.data.numberOfRecipes > 1 && (
-        <div className="ml-1 text-xs text-yellow-400">
+        <div className="ml-1 text-[8px] text-neutral-300">
           {props.data.numberOfRecipes} recipes
         </div>
       )}
