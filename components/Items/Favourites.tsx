@@ -11,10 +11,12 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { useSettings } from "@/store/settings";
+import { useFavouriteItems } from "@/store/favourite-items";
 
 export function ItemFavourites() {
   const isOpen = useSettings((state) => state.UIItemFavouritesOpen);
   const toggle = useSettings((state) => state.toggleUIItemFavouritesOpen);
+  const favouritedItems = useFavouriteItems((state) => state.items);
 
   return (
     <Accordion
@@ -27,7 +29,7 @@ export function ItemFavourites() {
         <AccordionTrigger className="p-4 cursor-pointer">
           <div className="flex flex-row items-center gap-2">
             <StarIcon className="w-4 h-4 text-neutral-600 fill-neutral-600" />
-            Favourites
+            Favourites ({favouritedItems.length})
           </div>
         </AccordionTrigger>
         <AccordionContent className="px-4 pt-2 max-h-40 overflow-y-auto">
