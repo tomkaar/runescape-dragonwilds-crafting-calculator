@@ -844,16 +844,16 @@
     "image": "Clay Vessel.png",
     "variants": [
       {
-        "id": "b987531152d9",
+        "id": "eb9a72290aad",
         "name": "Clay Vessel",
         "variantName": null,
         "recipe": {
-          "id": "0deb0ca0d12c",
+          "id": "abbb09ffc7dd",
           "facility": "Kiln",
           "materials": [
             {
               "itemId": "0ba170e0ddd0",
-              "quantity": null
+              "quantity": 1
             }
           ]
         }
@@ -4914,16 +4914,16 @@
     "image": "Clay Decoration.png",
     "variants": [
       {
-        "id": "44f5df98013c",
+        "id": "31e381e357f5",
         "name": "Clay Decoration",
         "variantName": null,
         "recipe": {
-          "id": "612461ea3b0e",
+          "id": "dbb95803745b",
           "facility": "Kiln",
           "materials": [
             {
               "itemId": "19fc978d77fb",
-              "quantity": null
+              "quantity": 1
             }
           ]
         }
@@ -7476,16 +7476,16 @@
         }
       },
       {
-        "id": "4df68954ebec",
+        "id": "d3ea43db5cdd",
         "name": "Medium Triangular Tile",
         "variantName": null,
         "recipe": {
-          "id": "bd7274f8adc8",
+          "id": "67e663e34b0a",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "df8fefb6944b",
-              "quantity": null
+              "quantity": 1
             }
           ]
         }
@@ -12015,11 +12015,11 @@
     "image": "Skill Tome - Woodcutting.png",
     "variants": [
       {
-        "id": "6bb191eefad4",
+        "id": "50259b913cfa",
         "name": "Skill Tome - Woodcutting",
         "variantName": null,
         "recipe": {
-          "id": "81d622d86ec1",
+          "id": "1770a0fb941f",
           "facility": "Build Menu",
           "materials": [
             {
@@ -12028,7 +12028,7 @@
             },
             {
               "itemId": "e8e775159a57",
-              "quantity": 0
+              "quantity": 1
             }
           ]
         }
@@ -18214,11 +18214,11 @@
     "image": "Skill Tome (Standing) - Woodcutting.png",
     "variants": [
       {
-        "id": "5bc2378e7604",
+        "id": "7c2fbb3996e1",
         "name": "Skill Tome (Standing) - Woodcutting",
         "variantName": "Standing",
         "recipe": {
-          "id": "81d622d86ec1",
+          "id": "1770a0fb941f",
           "facility": "Build Menu",
           "materials": [
             {
@@ -18227,7 +18227,7 @@
             },
             {
               "itemId": "e8e775159a57",
-              "quantity": 0
+              "quantity": 1
             }
           ]
         }

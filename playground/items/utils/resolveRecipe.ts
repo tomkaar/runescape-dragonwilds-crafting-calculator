@@ -10,7 +10,7 @@ export function resolveRecipe(rawRecipe: RawRecipe): Recipe {
       itemId: itemIdFromName(mat.name),
       quantity:
         typeof mat.quantity === "string"
-          ? parseFloat(mat.quantity)
+          ? parseFloat(mat.quantity) || 1
           : mat.quantity || 1,
     }));
 
