@@ -42,7 +42,7 @@ function FavouriteItem({ id, name, image }: FavouriteItemProps) {
     <li>
       <Link
         href={{ pathname: `/item/${id}` }}
-        className="bg-neutral-800 rounded-lg px-3 py-1 flex flex-row gap-1 items-center"
+        className="bg-neutral-800 rounded-lg pl-1 pr-3 py-1 flex flex-row gap-1 items-center"
       >
         {image && (
           <Image

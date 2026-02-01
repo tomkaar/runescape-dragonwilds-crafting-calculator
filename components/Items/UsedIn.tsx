@@ -61,10 +61,10 @@ function Context(props: ContentProps) {
       {usedIn
         .sort((a, b) => a.name.localeCompare(b.name))
         .map((item) => (
-          <li key={item.id}>
+          <li key={item.id} className="flex">
             <Link
               href={{ pathname: `/item/${item.id}` }}
-              className="bg-neutral-800 rounded-lg px-3 py-1 flex flex-row gap-1 items-center"
+              className="bg-neutral-800 rounded-lg pl-1 pr-3 py-1 flex flex-row gap-1 items-center"
             >
               {item.image && (
                 <Image

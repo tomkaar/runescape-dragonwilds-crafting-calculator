@@ -21,7 +21,7 @@ type Props = {
 };
 
 export function CraftingTree(props: Props) {
-  const tree = resolveCraftingTree(props.itemId, 1);
+  const tree = resolveCraftingTree(props.itemId, props.itemId, 1);
 
   const [nodes, , onNodesChange] = useNodesState(tree?.nodes || []);
   const [edges, , onEdgesChange] = useEdgesState(tree?.edges || []);

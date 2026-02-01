@@ -8,6 +8,7 @@ import { Edge } from "@xyflow/react";
  * Will return a tree structure representing the crafting tree.
  */
 export function resolveCraftingTree(
+  initialItemId: string,
   itemId: string,
   quantity = 1,
   start = true,
@@ -26,6 +27,7 @@ export function resolveCraftingTree(
     type: "root",
     id: item.id,
     data: {
+      initialItemId: initialItemId,
       name: item.name,
       label: item.name,
       id: item.id,
@@ -49,6 +51,7 @@ export function resolveCraftingTree(
         type: "recipeVariant",
         id: item.id + "_" + variant.id,
         data: {
+          initialItemId: initialItemId,
           id: variant.id,
           name: variant.name,
           label: variant.name,
@@ -67,6 +70,7 @@ export function resolveCraftingTree(
       // for each material in this variant, resolve further
       variant.recipe?.materials.forEach(({ itemId, quantity: materialQty }) => {
         const material = resolveMaterialNode(
+          initialItemId,
           variantNode.id,
           itemId,
           quantity * materialQty,
@@ -92,6 +96,7 @@ export function resolveCraftingTree(
 
     recipe?.materials.forEach(({ itemId, quantity: materialQty }) => {
       const material = resolveMaterialNode(
+        initialItemId,
         item.id,
         itemId,
         quantity * materialQty,
@@ -108,6 +113,7 @@ export function resolveCraftingTree(
 }
 
 function resolveMaterialNode(
+  initialItemId: string,
   previousItemId: string,
   itemId: string,
   quantity = 1,
@@ -125,7 +131,7 @@ function resolveMaterialNode(
     //   item.name,
     //   hasMultipleVariants,
     // );
-    const res = resolveCraftingTree(item.id, quantity, false);
+    const res = resolveCraftingTree(initialItemId, item.id, quantity, false);
     if (res) {
       nodes.push(...res.nodes);
       edges.push(...res.edges);
@@ -148,6 +154,7 @@ function resolveMaterialNode(
     type: "material",
     id: previousItemId + "_" + item.id,
     data: {
+      initialItemId,
       id: item.id,
       name: item.name,
       label: item.name,
@@ -171,6 +178,7 @@ function resolveMaterialNode(
     recipe.materials.forEach(
       ({ itemId: subItemId, quantity: subMaterialQty }) => {
         const subMaterial = resolveMaterialNode(
+          initialItemId,
           materialNode.id,
           subItemId,
           quantity * subMaterialQty,

@@ -1,5 +1,4 @@
 import { SearchBox } from "@/components/SearchBox";
-import { Button } from "@/components/ui/button";
 import { AnvilIcon, GithubIcon } from "lucide-react";
 import Link from "next/link";
 import { ReactNode } from "react";
@@ -42,17 +41,6 @@ export default function Layout(props: Props) {
 
       <div className="h-full flex flex-row">
         <div className="grow border-r border-neutral-800">{props.children}</div>
-        <div className="w-80 h-full flex flex-col gap-4">
-          <div className="p-4 grow">
-            <h3 className="text-lg">Selected materials</h3>
-            <p className="text-sm">Click on a material to add it to the list</p>
-          </div>
-          <div className="p-4">
-            <Button className="w-full" variant="default">
-              See all materials
-            </Button>
-          </div>
-        </div>
       </div>
     </div>
   );

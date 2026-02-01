@@ -2,6 +2,8 @@ import { Facility } from "@/Types";
 import { Node } from "@xyflow/react";
 
 export type RootNode = Node<{
+  // The id of the original item this material node represents
+  initialItemId: string;
   name: string;
   label: string;
   id: string;
@@ -19,6 +21,8 @@ export type RootNode = Node<{
 };
 
 export type MaterialNode = Node<{
+  // The id of the original item this material node represents
+  initialItemId: string;
   id: string;
   name: string;
   image: string | null;
@@ -34,6 +38,8 @@ export type MaterialNode = Node<{
 };
 
 export type RecipeVariantNode = Node<{
+  // The id of the original item this material node represents
+  initialItemId: string;
   id: string;
   optionNumber: number;
   name: string;
