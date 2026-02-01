@@ -12,7 +12,7 @@ export default function Home() {
           </h1>
           <SearchBox />
           <div className="mt-6">
-            <FavouriteItemsList displayStar />
+            <FavouriteItemsList />
           </div>
         </div>
       </main>

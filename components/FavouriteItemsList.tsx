@@ -1,15 +1,12 @@
 "use client";
-import { StarIcon } from "lucide-react";
+import Image from "next/image";
 
 import { useFavouriteItems } from "@/store/favourite-items";
 import { getItemByNameOrId } from "@/utils/getItemById";
 import Link from "next/link";
+import { createImageUrlPath } from "@/playground/items/utils/image";
 
-type Props = {
-  displayStar?: boolean;
-};
-
-export function FavouriteItemsList(props: Props) {
+export function FavouriteItemsList() {
   const favouritedItems = useFavouriteItems((state) => state.items);
 
   const resolvedItems = favouritedItems
@@ -26,7 +23,7 @@ export function FavouriteItemsList(props: Props) {
               key={item.id}
               id={item.id}
               name={item.name}
-              displayStar={props.displayStar}
+              image={item.image}
             />
           ))}
         </ul>
@@ -38,17 +35,22 @@ export function FavouriteItemsList(props: Props) {
 type FavouriteItemProps = {
   id: string;
   name: string;
-  displayStar?: boolean;
+  image: string | null;
 };
-function FavouriteItem({ id, name, displayStar }: FavouriteItemProps) {
+function FavouriteItem({ id, name, image }: FavouriteItemProps) {
   return (
     <li>
       <Link
         href={{ pathname: `/item/${id}` }}
         className="bg-neutral-800 rounded-lg px-3 py-1 flex flex-row gap-1 items-center"
       >
-        {displayStar && (
-          <StarIcon className="w-4 h-4 text-neutral-600 fill-neutral-600" />
+        {image && (
+          <Image
+            src={createImageUrlPath(image)}
+            width={20}
+            height={20}
+            alt={name}
+          />
         )}
         {name}
       </Link>
