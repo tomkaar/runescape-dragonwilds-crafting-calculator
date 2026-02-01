@@ -1,3 +1,4 @@
+import { CraftingTree } from "@/components/CraftingTree/CraftingTree";
 import { getItemByNameOrId } from "@/utils/getItemById";
 import { notFound } from "next/navigation";
 
@@ -13,11 +14,15 @@ export default async function ItemPage(props: Props) {
     notFound();
   }
 
-  console.log("Item:", item);
-
   return (
-    <div>
-      <h2>{item.name}</h2>
+    <div className="h-full flex flex-row">
+      <div className="p-4 w-80 border-r border-neutral-800">
+        <h2>{item.name}</h2>
+      </div>
+
+      <div className="grow bg-neutral-900">
+        <CraftingTree itemId={itemId} />
+      </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
+import { Nodes } from "@/components/CraftingTree/types";
 import dagre from "@dagrejs/dagre";
 
-import { Nodes } from "./type";
 import { Edge } from "@xyflow/react";
 
 const nodeWidth = 36;

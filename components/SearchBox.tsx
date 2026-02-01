@@ -42,13 +42,13 @@ export function SearchBox() {
         <ComboboxEmpty>No items found.</ComboboxEmpty>
         <ComboboxList>
           {(item) => (
-            <ComboboxItem key={item.id} value={item}>
+            <ComboboxItem key={item.id} value={item} className="py-1">
               <div className="flex flex-row gap-2 items-center">
                 <Image
                   src={createImageUrlPath(item.image)}
                   alt={item.name}
-                  width={20}
-                  height={20}
+                  width={28}
+                  height={28}
                 />
                 <span>{item.name}</span>
               </div>
