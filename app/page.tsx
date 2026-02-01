@@ -1,3 +1,4 @@
+import { FavouriteItemsList } from "@/components/FavouriteItemsList";
 import { SearchBox } from "@/components/SearchBox";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
             <span className="block -mt-1 text-sm">Crafting calculator</span>
           </h1>
           <SearchBox />
+          <FavouriteItemsList />
         </div>
       </main>
     </div>
