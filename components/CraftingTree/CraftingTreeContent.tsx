@@ -10,7 +10,6 @@ const dagreGraph = new dagre.graphlib.Graph().setDefaultEdgeLabel(() => ({}));
 export default function CraftingTreeContent() {
   const { setNodes, getEdges, fitView } = useReactFlow<Nodes>();
   const nodesInitialized = useNodesInitialized();
-  console.log("Nodes initialized:", nodesInitialized);
 
   useEffect(() => {
     if (!nodesInitialized) return;

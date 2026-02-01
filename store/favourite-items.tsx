@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 
@@ -37,23 +36,3 @@ export const useFavouriteItems = create<FavouriteItemsStore>()(
     },
   ),
 );
-
-/**
- * This component will rehydrate the favourite items store
- * when the document becomes visible or the window gains focus.
- */
-export function HydrateFavouriteItems() {
-  const updateStore = () => {
-    useFavouriteItems.persist.rehydrate();
-  };
-
-  useEffect(() => {
-    document.addEventListener("visibilitychange", updateStore);
-    window.addEventListener("focus", updateStore);
-    return () => {
-      document.removeEventListener("visibilitychange", updateStore);
-      window.removeEventListener("focus", updateStore);
-    };
-  }, []);
-  return null;
-}

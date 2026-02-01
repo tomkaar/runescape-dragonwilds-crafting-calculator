@@ -34,7 +34,7 @@ const RootNode = forwardRef<HTMLDivElement, Props>(function InnerRootNode(
         </div>
 
         {props.data.numberOfRecipes > 1 && (
-          <div className="text-center text-xs text-yellow-400">
+          <div className="pl-1 text-center text-xs text-yellow-400">
             {props.data.numberOfRecipes} possible recipes
           </div>
         )}

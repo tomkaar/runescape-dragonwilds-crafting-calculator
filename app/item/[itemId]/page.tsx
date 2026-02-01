@@ -1,5 +1,7 @@
 import { CraftingTree } from "@/components/CraftingTree/CraftingTree";
-import { InfoBox } from "@/components/Items/InfoBox";
+import { ItemFavourites } from "@/components/Items/Favourites";
+import { ItemInfoBox } from "@/components/Items/InfoBox";
+
 import { getItemByNameOrId } from "@/utils/getItemById";
 import { notFound } from "next/navigation";
 
@@ -17,8 +19,13 @@ export default async function ItemPage(props: Props) {
 
   return (
     <div className="h-full flex flex-row">
-      <div className="p-4 w-80 border-r border-neutral-800">
-        <InfoBox item={item} itemId={itemId} />
+      <div className="w-80 h-full flex flex-col border-r border-neutral-800">
+        <div className="p-4 grow">
+          <ItemInfoBox item={item} itemId={itemId} />
+        </div>
+        <div className="border-t border-neutral-800">
+          <ItemFavourites />
+        </div>
       </div>
 
       <div className="grow bg-neutral-900">

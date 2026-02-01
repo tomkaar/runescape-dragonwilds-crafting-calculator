@@ -12,7 +12,7 @@ type Props = {
   itemId: string;
 };
 
-export function InfoBox(props: Props) {
+export function ItemInfoBox(props: Props) {
   const { item, itemId } = props;
   const favouritedItems = useFavouriteItems((state) => state.items);
   const toggleAnItem = useFavouriteItems((state) => state.toggleAnItem);

@@ -11,7 +11,9 @@ export default function Home() {
             <span className="block -mt-1 text-sm">Crafting calculator</span>
           </h1>
           <SearchBox />
-          <FavouriteItemsList />
+          <div className="mt-6">
+            <FavouriteItemsList displayStar />
+          </div>
         </div>
       </main>
     </div>
