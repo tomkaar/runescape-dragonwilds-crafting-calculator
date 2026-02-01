@@ -19,7 +19,7 @@ const RootNode = forwardRef<HTMLDivElement, Props>(function InnerRootNode(
       className="flex flex-col items-center justify-center bg-neutral-800 border border-neutral-800 rounded-lg"
     >
       <div className="w-full pl-1 pr-2 py-1">
-        <div className="flex flex-row items-center justify-center">
+        <div className="flex flex-row gap-2 items-center justify-center">
           {props.data.image && (
             <Image
               src={createImageUrlPath(props.data.image)}
@@ -29,7 +29,8 @@ const RootNode = forwardRef<HTMLDivElement, Props>(function InnerRootNode(
             />
           )}
           <div className="text-xs text-white">
-            {props.data.quantity}x {props.data.name}
+            <span className="font-semibold">{props.data.quantity}x</span>{" "}
+            {props.data.name}
           </div>
         </div>
 

@@ -8,7 +8,7 @@ export default function getFacilityIcon(
 ) {
   switch (facility) {
     case "Build Menu":
-      return <Hammer size={size} />;
+      return <Hammer size={size * 0.7} />;
     default:
       break;
   }

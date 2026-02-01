@@ -12,20 +12,22 @@ export function resolveCraftingTree(
   itemId: string,
   quantity = 1,
   start = true,
+  parentNodeId: string | null = null,
 ) {
   const item = getItemByNameOrId(itemId);
   if (item === undefined) return null;
-
-  // console.log(item);
 
   const nodes: Nodes[] = [];
   const edges: Edge[] = [];
 
   const hasMultipleVariants = item.variants.length > 1;
 
+  // Build the node ID with parent prefix if provided
+  const nodeId = parentNodeId ? `${parentNodeId}_${item.id}` : item.id;
+
   const rootNode: RootNode = {
     type: "root",
-    id: item.id,
+    id: nodeId,
     data: {
       initialItemId: initialItemId,
       name: item.name,
@@ -44,12 +46,10 @@ export function resolveCraftingTree(
   nodes.push(rootNode);
 
   if (hasMultipleVariants) {
-    // console.log("Item has multiple variants");
     item.variants.forEach((variant) => {
-      // console.log("variant", variant);
       const variantNode: RecipeVariantNode = {
         type: "recipeVariant",
-        id: item.id + "_" + variant.id,
+        id: nodeId + "_" + variant.id,
         data: {
           initialItemId: initialItemId,
           id: variant.id,
@@ -75,7 +75,6 @@ export function resolveCraftingTree(
           itemId,
           quantity * materialQty,
         );
-        // console.log("Resolved material:", material);
         if (material) {
           nodes.push(...material.nodes);
           edges.push(...material.edges);
@@ -83,25 +82,21 @@ export function resolveCraftingTree(
       });
     });
   } else {
-    // console.log("Single variant, no option node needed");
-
     const variant = item.variants[0];
     const recipe = variant.recipe;
 
     const hasMaterials = recipe && recipe.materials.length > 0;
     if (!hasMaterials) {
-      // console.log("No materials, nothing more to resolve");
       return { nodes, edges };
     }
 
     recipe?.materials.forEach(({ itemId, quantity: materialQty }) => {
       const material = resolveMaterialNode(
         initialItemId,
-        item.id,
+        nodeId,
         itemId,
         quantity * materialQty,
       );
-      // console.log("Resolved material:", material);
       if (material) {
         nodes.push(...material.nodes);
         edges.push(...material.edges);
@@ -126,20 +121,23 @@ function resolveMaterialNode(
 
   const hasMultipleVariants = item.variants.length > 1;
   if (hasMultipleVariants) {
-    // console.log(
-    //   "Material has multiple variants:",
-    //   item.name,
-    //   hasMultipleVariants,
-    // );
-    const res = resolveCraftingTree(initialItemId, item.id, quantity, false);
+    const res = resolveCraftingTree(
+      initialItemId,
+      item.id,
+      quantity,
+      false,
+      previousItemId,
+    );
     if (res) {
       nodes.push(...res.nodes);
       edges.push(...res.edges);
       // Connect the previous node to the root of this subtree
+      // The root node ID is now previousItemId_itemId due to the parentNodeId parameter
+      const rootNodeId = previousItemId + "_" + item.id;
       edges.push({
-        id: previousItemId + "_" + item.id,
+        id: previousItemId + "_" + rootNodeId,
         source: previousItemId,
-        target: item.id,
+        target: rootNodeId,
       });
     }
     return { nodes, edges };

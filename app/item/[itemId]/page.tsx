@@ -2,7 +2,7 @@ import { CraftingTree } from "@/components/CraftingTree/CraftingTree";
 import { ItemFavourites } from "@/components/Items/Favourites";
 import { ItemInfoBox } from "@/components/Items/InfoBox";
 import { UsedIn } from "@/components/Items/UsedIn";
-import { SelectedMaterial } from "@/components/SelectedMaterials";
+import { SelectedMaterial } from "@/components/SelectedMaterials/SelectedMaterials";
 import { Button } from "@/components/ui/button";
 
 import { getItemByNameOrId } from "@/utils/getItemById";
@@ -38,7 +38,7 @@ export default async function ItemPage(props: Props) {
         <CraftingTree itemId={itemId} />
       </div>
 
-      <div className="w-80 h-full flex flex-col gap-4">
+      <div className="w-88 h-full flex flex-col gap-4">
         <div className="p-4 grow">
           <SelectedMaterial itemId={itemId} />
         </div>

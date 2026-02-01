@@ -1,40 +1,19 @@
-"use client";
-
-import { createImageUrlPath } from "@/playground/items/utils/image";
-import { useSelectedMaterial } from "@/store/selected-material";
 import { X } from "lucide-react";
 import Image from "next/image";
+
+import { createImageUrlPath } from "@/playground/items/utils/image";
+import { TreeItem } from "./buildTreeFromNodeIds";
+
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "./ui/collapsible";
-import {
-  buildTreeFromNodeIds,
-  type TreeItem,
-} from "./SelectedMaterials/buildTreeFromNodeIds";
+} from "../ui/collapsible";
 
-type Props = {
-  itemId: string;
-};
+type Props = { handleRemoveNode: (nodeId: string) => void; tree: TreeItem[] };
 
-export function SelectedMaterial(props: Props) {
-  const { itemId } = props;
-
-  const removeMaterial = useSelectedMaterial(
-    (state) => state.removeAnItemByNodeId,
-  );
-  const handleRemoveMaterial = (id: string) => {
-    console.log("Removing material:", id);
-    removeMaterial(itemId, id);
-  };
-
-  const i = useSelectedMaterial((state) => state.items);
-  const selectedMaterials = i[props.itemId] || [];
-
-  console.log("Selected materials:", selectedMaterials);
-  const tree = buildTreeFromNodeIds(selectedMaterials);
-  // console.log("Material tree:", tree);
+export function RenderBuildTree(props: Props) {
+  const { handleRemoveNode, tree } = props;
 
   const renderItem = (fileItem: TreeItem) => {
     if ("items" in fileItem) {
@@ -53,14 +32,15 @@ export function SelectedMaterial(props: Props) {
                   alt={fileItem.item.name}
                   width={20}
                   height={20}
+                  className="min-w-5 min-h-5 max-h-5 max-w-5"
                 />
               )}
               {fileItem.quantity !== null && (
                 <span className="font-semibold">{fileItem.quantity}x</span>
               )}
               {fileItem.item.name}
-              {fileItem.variantNumber && (
-                <span className="text-muted-foreground">
+              {fileItem.variant !== undefined && (
+                <span className="text-xs leading-normal italic text-neutral-400">
                   (Recipe {fileItem.variantNumber})
                 </span>
               )}
@@ -86,19 +66,17 @@ export function SelectedMaterial(props: Props) {
             alt={fileItem.item.name}
             width={20}
             height={20}
+            className="min-w-5 min-h-5 max-h-5 max-w-5"
           />
         )}
-        {fileItem.quantity !== null && (
-          <span className="font-semibold">{fileItem.quantity}x</span>
-        )}
-        <span>{fileItem.item.name}</span>
-        {fileItem.variantNumber && (
-          <span className="text-muted-foreground">
-            (Recipe {fileItem.variantNumber})
-          </span>
-        )}
+        <span className="">
+          {fileItem.quantity !== null && (
+            <span className="font-semibold">{fileItem.quantity}x</span>
+          )}
+          <span> {fileItem.item.name}</span>
+        </span>
         <button
-          onClick={() => handleRemoveMaterial(fileItem.nodeId)}
+          onClick={() => handleRemoveNode(fileItem.nodeId)}
           className="cursor-pointer text-rose-700 hover:text-rose-700 active:text-rose-700"
         >
           <X width={20} height={20} />
@@ -108,15 +86,8 @@ export function SelectedMaterial(props: Props) {
   };
 
   return (
-    <div>
-      <div>
-        <h3 className="text-lg">Selected materials</h3>
-        <p className="text-sm">Click on a material to add it to the list</p>
-
-        <div className="flex flex-col gap-1 mt-4 w-full">
-          {tree.map((item) => renderItem(item))}
-        </div>
-      </div>
+    <div className="overflow-x-scroll flex flex-col gap-1 mt-4 w-full">
+      {tree.map((item) => renderItem(item))}
     </div>
   );
 }
