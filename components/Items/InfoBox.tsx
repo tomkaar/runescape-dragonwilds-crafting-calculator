@@ -4,6 +4,8 @@ import { StarIcon } from "lucide-react";
 
 import { useFavouriteItems } from "@/store/favourite-items";
 import { Item } from "@/Types";
+import Image from "next/image";
+import { createImageUrlPath } from "@/playground/items/utils/image";
 
 type Props = {
   item: Item;
@@ -22,15 +24,25 @@ export function InfoBox(props: Props) {
 
   return (
     <div>
-      <div className="flex flex-row gap-2 items-center">
+      <div className="flex flex-row gap-4 items-center">
         <button onClick={toggleFavourite} className="cursor-pointer">
           {isFavourited ? (
-            <StarIcon className="w-6 h-6 text-yellow-400 fill-yellow-400" />
+            <StarIcon className="w-5 h-5 text-yellow-400 fill-yellow-400" />
           ) : (
-            <StarIcon className="w-6 h-6 text-neutral-600" />
+            <StarIcon className="w-5 h-5 text-neutral-600" />
           )}
         </button>
-        <h2>{item.name}</h2>
+        <div className="flex flex-row items-center">
+          {item.image && (
+            <Image
+              src={createImageUrlPath(item.image)}
+              alt={item.name}
+              width={40}
+              height={40}
+            />
+          )}
+          <h2>{item.name}</h2>
+        </div>
       </div>
     </div>
   );
