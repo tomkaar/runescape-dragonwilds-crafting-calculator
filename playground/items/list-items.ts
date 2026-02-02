@@ -69,6 +69,10 @@ async function listItems() {
       variants: variants,
       skills: resolveSkills(rawRecipes),
       facilities: resolveFacilities(rawRecipes),
+      wikiLink:
+        rawRecipes[0]?.json.output.link.replaceAll(" ", "_") ||
+        rawItems[0]?.page_name.replaceAll(" ", "_") ||
+        undefined,
     };
     finishedItems.push(itemToBePushed);
   });

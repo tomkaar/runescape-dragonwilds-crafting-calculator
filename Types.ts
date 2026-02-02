@@ -16,6 +16,8 @@ export type Item = {
   facilities: ((typeof Facility)[number] | null)[];
   /* Skills required to craft this item */
   skills?: ((typeof Skill)[number] | null)[];
+  /* Link to the wiki page for this item, if possible */
+  wikiLink?: string;
 };
 
 /**
@@ -43,6 +45,8 @@ export type Recipe = {
   id: string;
   /* Facility required to craft the recipe */
   facility: (typeof Facility)[number] | null;
+  /* Quantity produced by this recipe */
+  quantity: number;
   /* List of materials required to craft the recipe */
   materials: Material[];
 };
