@@ -20,6 +20,10 @@ export function resolveRecipe(rawRecipe: RawRecipe): Recipe {
     id: createRecipeId(facility, materials),
     facility,
     materials,
+    quantity:
+      typeof rawRecipe.json.output.quantity === "string"
+        ? parseInt(rawRecipe.json.output.quantity)
+        : 1,
   };
 
   return returnRecipe;
