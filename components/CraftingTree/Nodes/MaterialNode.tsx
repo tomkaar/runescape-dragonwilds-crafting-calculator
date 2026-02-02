@@ -7,18 +7,26 @@ import { type MaterialNode } from "../types";
 import { createImageUrlPath } from "@/scripts/utils/createImageUrl";
 import { forwardRef, memo } from "react";
 import getFacilityIcon from "@/utils/getFacilityIcon";
-import { PlusSquareIcon, SquareCheck } from "lucide-react";
+import { PlusSquareIcon, XSquareIcon } from "lucide-react";
 import { Facility } from "@/Types";
 import { useSelectedMaterial } from "@/store/selected-material";
+import { cn } from "@/lib/utils";
 
 type Props = MaterialNode;
 
 const MaterialNode = forwardRef<HTMLDivElement, Props>(
   function InnerMaterialNode(props, ref) {
+    const i = useSelectedMaterial((state) => state.items);
+    const items = i[props.data.initialItemId] || [];
+    const added = items.some((item) => item.nodeId === props.id);
+
     return (
       <div
         ref={ref}
-        className="flex flex-col items-center justify-center bg-neutral-800 border border-neutral-800 rounded-lg"
+        className={cn(
+          "flex flex-col items-center justify-center bg-neutral-800 hover:bg-neutral-700 border border-neutral-800 rounded-lg",
+          added ? "bg-green-900/50 hover:bg-green-900" : "",
+        )}
       >
         <Content
           id={props.data.id}
@@ -99,9 +107,14 @@ const Content = memo(function InnerContent(props: ContentProps) {
 
         <button
           onClick={handleToggleItem}
-          className="text-emerald-700 cursor-pointer hover:text-emerald-500"
+          className={cn(
+            "nodrag",
+            "ml-1",
+            "text-emerald-700 cursor-pointer hover:text-emerald-500",
+            added ? "text-white hover:text-white" : "",
+          )}
         >
-          {added ? <SquareCheck width={16} /> : <PlusSquareIcon width={16} />}
+          {added ? <XSquareIcon width={16} /> : <PlusSquareIcon width={16} />}
         </button>
       </div>
 
