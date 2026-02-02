@@ -8,7 +8,7 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "../ui/collapsible";
+} from "../../ui/collapsible";
 
 type Props = { handleRemoveNode: (nodeId: string) => void; tree: TreeItem[] };
 
@@ -18,15 +18,19 @@ export function RenderBuildTree(props: Props) {
   const renderItem = (fileItem: TreeItem) => {
     if ("items" in fileItem) {
       return (
-        <Collapsible key={fileItem.item.name} defaultOpen={true}>
+        <Collapsible
+          key={fileItem.item.name}
+          defaultOpen={true}
+          className="hover:bg-white/5 hover:rounded-lg data-[state=open]:py-0 transition-all"
+        >
           <CollapsibleTrigger className="w-full">
             <div
               className={`
-                inline-flex flex-row gap-2 px-4 py-2 rounded-lg text-sm group hover:bg-accent hover:text-accent-foreground w-full justify-start transition-none
+                cursor-pointer inline-flex flex-row gap-2 px-2 py-2 rounded-lg text-sm group hover:bg-accent hover:text-accent-foreground w-full justify-start transition-none
                 ${fileItem.quantity === null ? "opacity-75" : ""}
               `}
             >
-              {fileItem.item.image && (
+              {fileItem.item.image && fileItem.variant === undefined && (
                 <Image
                   src={createImageUrlPath(fileItem.item.image)}
                   alt={fileItem.item.name}
@@ -35,15 +39,18 @@ export function RenderBuildTree(props: Props) {
                   className="min-w-5 min-h-5 max-h-5 max-w-5"
                 />
               )}
-              {fileItem.quantity !== null && (
-                <span className="font-semibold">{fileItem.quantity}x</span>
-              )}
-              {fileItem.item.name}
-              {fileItem.variant !== undefined && (
-                <span className="text-xs leading-normal italic text-neutral-400">
-                  (Recipe {fileItem.variantNumber})
-                </span>
-              )}
+              <span>
+                {fileItem.quantity !== null && (
+                  <span className="font-semibold">{fileItem.quantity}x </span>
+                )}
+                {fileItem.item.name}
+                {fileItem.variant !== undefined && (
+                  <span className="text-xs leading-normal italic text-neutral-400">
+                    {" "}
+                    (Recipe {fileItem.variantNumber})
+                  </span>
+                )}
+              </span>
             </div>
           </CollapsibleTrigger>
 
@@ -58,7 +65,7 @@ export function RenderBuildTree(props: Props) {
     return (
       <div
         key={fileItem.item.name}
-        className="inline-flex flex-row gap-2 px-4 py-2 rounded-lg text-sm text-foreground w-full justify-start hover:bg-accent hover:text-accent-foreground"
+        className="inline-flex flex-row gap-2 px-2 py-1 rounded-lg text-sm text-foreground w-full justify-start hover:bg-accent hover:text-accent-foreground"
       >
         {fileItem.item.image && (
           <Image

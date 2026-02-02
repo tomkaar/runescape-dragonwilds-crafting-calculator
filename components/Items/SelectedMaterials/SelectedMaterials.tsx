@@ -16,16 +16,13 @@ export function SelectedMaterial(props: Props) {
     (state) => state.removeAnItemByNodeId,
   );
   const handleRemoveMaterial = (id: string) => {
-    console.log("Removing material:", id);
     removeMaterial(itemId, id);
   };
 
   const i = useSelectedMaterial((state) => state.items);
   const selectedMaterials = i[props.itemId] || [];
 
-  console.log("Selected materials:", selectedMaterials);
   const tree = buildTreeFromNodeIds(selectedMaterials);
-  // console.log("Material tree:", tree);
 
   return (
     <div>

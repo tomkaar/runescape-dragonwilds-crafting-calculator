@@ -2,11 +2,12 @@ import { CraftingTree } from "@/components/CraftingTree/CraftingTree";
 import { ItemFavourites } from "@/components/Items/Favourites";
 import { ItemInfoBox } from "@/components/Items/InfoBox";
 import { UsedIn } from "@/components/Items/UsedIn";
-import { SelectedMaterial } from "@/components/SelectedMaterials/SelectedMaterials";
+import { SelectedMaterial } from "@/components/Items/SelectedMaterials/SelectedMaterials";
 import { Button } from "@/components/ui/button";
 
 import { getItemByNameOrId } from "@/utils/getItemById";
 import { notFound } from "next/navigation";
+import { RequiredMaterials } from "@/components/Items/RequiredMaterials";
 
 type Props = {
   params: Promise<{ itemId: string }>;
@@ -22,9 +23,12 @@ export default async function ItemPage(props: Props) {
 
   return (
     <div className="h-full flex flex-row">
-      <div className="w-80 overflow-scroll h-[calc(100vh-70px)] flex flex-col border-r border-neutral-800">
+      <div className="w-88 overflow-scroll h-[calc(100vh-70px)] flex flex-col border-r border-neutral-800">
         <div className="p-4 grow">
           <ItemInfoBox item={item} itemId={itemId} />
+        </div>
+        <div className="border-t border-neutral-800">
+          <RequiredMaterials itemId={itemId} />
         </div>
         <div className="border-t border-neutral-800">
           <UsedIn itemId={itemId} />
