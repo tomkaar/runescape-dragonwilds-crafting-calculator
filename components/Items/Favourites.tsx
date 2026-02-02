@@ -1,41 +1,51 @@
 "use client";
 
 import { StarIcon } from "lucide-react";
-
 import { FavouriteItemsList } from "@/components/FavouriteItemsList";
-
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-import { useSettings } from "@/store/settings";
 import { useFavouriteItems } from "@/store/favourite-items";
+import { Panel, usePanelRef } from "react-resizable-panels";
+import { useRef } from "react";
 
 export function ItemFavourites() {
-  const isOpen = useSettings((state) => state.UIItemFavouritesOpen);
-  const toggle = useSettings((state) => state.toggleUIItemFavouritesOpen);
+  const panelRef = usePanelRef();
+  const contentRef = useRef<HTMLDivElement>(null);
   const favouritedItems = useFavouriteItems((state) => state.items);
 
+  const togglePanel = () => {
+    if (panelRef.current) {
+      if (panelRef.current.isCollapsed()) {
+        const contentHeight = contentRef.current?.offsetHeight;
+        panelRef.current.expand();
+        panelRef.current.resize(
+          contentHeight ? contentHeight + 52 + 20 : "50%",
+        );
+      } else {
+        panelRef.current.collapse();
+      }
+    }
+  };
+
   return (
-    <Accordion
-      type="single"
+    <Panel
+      id="favourites"
+      panelRef={panelRef}
+      minSize={52}
       collapsible
-      value={isOpen ? "item-1" : ""}
-      onValueChange={toggle}
+      collapsedSize={52}
+      className="bg-neutral-950 rounded-lg"
     >
-      <AccordionItem value="item-1">
-        <AccordionTrigger className="p-4 cursor-pointer">
-          <div className="flex flex-row items-center gap-2">
-            <StarIcon className="w-4 h-4 text-neutral-600 fill-neutral-600" />
-            Favourites ({favouritedItems.length})
-          </div>
-        </AccordionTrigger>
-        <AccordionContent className="px-4 pt-2 max-h-40 overflow-y-auto">
+      <button
+        onClick={togglePanel}
+        className="cursor-pointer w-full flex flex-row items-center gap-2 px-4 py-4 text-sm"
+      >
+        <StarIcon className="w-4 h-4 text-neutral-600 fill-neutral-600" />
+        Favourites ({favouritedItems.length})
+      </button>
+      <div className="px-4 pt-2 overflow-scroll h-full pb-15 ">
+        <div ref={contentRef}>
           <FavouriteItemsList />
-        </AccordionContent>
-      </AccordionItem>
-    </Accordion>
+        </div>
+      </div>
+    </Panel>
   );
 }

@@ -1,20 +1,33 @@
-import { CraftingTree } from "@/components/CraftingTree/CraftingTree";
-import { ItemFavourites } from "@/components/Items/Favourites";
-import { ItemInfoBox } from "@/components/Items/InfoBox";
-import { UsedIn } from "@/components/Items/UsedIn";
-import { SelectedMaterial } from "@/components/Items/SelectedMaterials/SelectedMaterials";
-import { Button } from "@/components/ui/button";
-
 import { getItemByNameOrId } from "@/utils/getItemById";
 import { notFound } from "next/navigation";
-import { RequiredMaterials } from "@/components/Items/RequiredMaterials";
+import { cookies } from "next/headers";
+import { type Layout } from "react-resizable-panels";
+import Content from "./Content";
 
 type Props = {
   params: Promise<{ itemId: string }>;
 };
 
+const LAYOUT_COOKIE_GROUP_ID = "item_layout";
+const LAYOUT_SIDEBAR_COOKIE_GROUP_ID = "item_sidebar_layout";
+
 export default async function ItemPage(props: Props) {
   const { itemId } = await props.params;
+  const cookieStore = await cookies();
+
+  const itemPageLayoutString = cookieStore.get(LAYOUT_COOKIE_GROUP_ID)?.value;
+  const itemPageSidebarLayoutString = cookieStore.get(
+    LAYOUT_SIDEBAR_COOKIE_GROUP_ID,
+  )?.value;
+
+  const itemPageLayout = itemPageLayoutString
+    ? (JSON.parse(itemPageLayoutString) as Layout)
+    : undefined;
+  const itemPageSidebarLayout = itemPageSidebarLayoutString
+    ? (JSON.parse(itemPageSidebarLayoutString) as Layout)
+    : undefined;
+
+  console.log("Default layout from cookies:", itemPageLayout);
   const item = getItemByNameOrId(itemId);
 
   if (item === undefined) {
@@ -23,35 +36,14 @@ export default async function ItemPage(props: Props) {
 
   return (
     <div className="h-full flex flex-row">
-      <div className="w-88 overflow-scroll h-[calc(100vh-70px)] flex flex-col border-r border-neutral-800">
-        <div className="p-4 grow">
-          <ItemInfoBox item={item} itemId={itemId} />
-        </div>
-        <div className="border-t border-neutral-800">
-          <RequiredMaterials itemId={itemId} />
-        </div>
-        <div className="border-t border-neutral-800">
-          <UsedIn itemId={itemId} />
-        </div>
-        <div className="border-t border-neutral-800">
-          <ItemFavourites />
-        </div>
-      </div>
-
-      <div className="grow bg-neutral-900">
-        <CraftingTree itemId={itemId} />
-      </div>
-
-      <div className="w-88 h-full flex flex-col gap-4">
-        <div className="p-4 grow">
-          <SelectedMaterial itemId={itemId} />
-        </div>
-        <div className="p-4">
-          <Button className="w-full" variant="default">
-            See all materials
-          </Button>
-        </div>
-      </div>
+      <Content
+        itemPageLayout={itemPageLayout}
+        itemPageSidebarLayout={itemPageSidebarLayout}
+        layoutCookieID={LAYOUT_COOKIE_GROUP_ID}
+        sidebarLayoutCookieID={LAYOUT_SIDEBAR_COOKIE_GROUP_ID}
+        item={item}
+        itemId={itemId}
+      />
     </div>
   );
 }

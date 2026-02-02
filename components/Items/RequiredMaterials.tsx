@@ -1,19 +1,11 @@
 "use client";
 
-import { Check, CirclePile, Plus } from "lucide-react";
-
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { Check, ChevronDown, CirclePile, Plus } from "lucide-react";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
-import { useSettings } from "@/store/settings";
 import { resolveCraftingTree } from "../CraftingTree/resolveCraftingTree";
 import {
   buildMaterialsTree,
@@ -22,14 +14,17 @@ import {
 import Image from "next/image";
 import { createImageUrlPath } from "@/playground/items/utils/image";
 import { useSelectedMaterial } from "@/store/selected-material";
+import { Panel, usePanelRef } from "react-resizable-panels";
+import { useRef } from "react";
+import { cn } from "@/lib/utils";
 
 type Props = {
   itemId: string;
 };
 
 export function RequiredMaterials(props: Props) {
-  const isOpen = useSettings((state) => state.UIItemRequiredMaterials);
-  const toggle = useSettings((state) => state.toggleUIItemRequiredMaterials);
+  const panelRef = usePanelRef();
+  const contentRef = useRef<HTMLDivElement>(null);
 
   const treeData = resolveCraftingTree(props.itemId, props.itemId, 1);
   const tree = treeData
@@ -40,33 +35,54 @@ export function RequiredMaterials(props: Props) {
   const materialsToRender =
     tree.length > 0 && "children" in tree[0] ? tree[0].children : [];
 
+  const numberOfMaterials = materialsToRender
+    .map((item) => item.quantity)
+    .reduce((a, b) => a + b, 0);
+
+  const togglePanel = () => {
+    if (panelRef.current) {
+      if (panelRef.current.isCollapsed()) {
+        panelRef.current.expand();
+        const contentHeight = contentRef.current?.offsetHeight;
+        panelRef.current.expand();
+        panelRef.current.resize(
+          contentHeight ? contentHeight + 52 + 20 : "50%",
+        );
+      } else {
+        panelRef.current.collapse();
+      }
+    }
+  };
+
   return (
-    <Accordion
-      type="single"
+    <Panel
+      id="materials"
+      panelRef={panelRef}
+      minSize={52}
       collapsible
-      value={isOpen ? "item-1" : ""}
-      onValueChange={toggle}
+      collapsedSize={52}
+      className="bg-neutral-950 rounded-lg"
     >
-      <AccordionItem value="item-1">
-        <AccordionTrigger className="p-4 cursor-pointer">
-          <div className="flex flex-row items-center gap-2">
-            <CirclePile className="w-4 h-4 text-neutral-600 fill-neutral-600" />
-            Required Materials
-          </div>
-        </AccordionTrigger>
-        <AccordionContent className="px-4 pt-2 max-h-80 overflow-y-auto">
-          <div className="flex flex-col gap-1 w-full">
-            {materialsToRender.map((item) => (
-              <MaterialTreeNode
-                key={item.nodeId}
-                item={item}
-                initialItemId={props.itemId}
-              />
-            ))}
-          </div>
-        </AccordionContent>
-      </AccordionItem>
-    </Accordion>
+      <button
+        onClick={togglePanel}
+        className="cursor-pointer w-full flex flex-row items-center gap-2 px-4 py-4 text-sm"
+      >
+        <CirclePile className="w-4 h-4 text-neutral-600 fill-neutral-600" />
+        Required Materials ({numberOfMaterials} total)
+      </button>
+
+      <div className="pt-2 overflow-scroll h-full pb-15">
+        <div ref={contentRef} className="flex flex-col gap-1 w-full">
+          {materialsToRender.map((item) => (
+            <MaterialTreeNode
+              key={item.nodeId}
+              item={item}
+              initialItemId={props.itemId}
+            />
+          ))}
+        </div>
+      </div>
+    </Panel>
   );
 }
 
@@ -105,29 +121,34 @@ function MaterialTreeNode({
 
   if ("children" in item && item.children.length > 0) {
     return (
-      <Collapsible
-        key={item.nodeId}
-        className="hover:bg-white/5 hover:rounded-lg"
-      >
-        <div className="flex flex-row items-center gap-1">
-          <button
-            onClick={handleToggleItem}
-            className={`
+      <Collapsible key={item.nodeId}>
+        <div className="flex flex-row items-center">
+          {item.variantNumber === undefined && (
+            <button
+              onClick={handleToggleItem}
+              className={`
               cursor-pointer px-2 py-2 rounded-lg text-sm transition-colors ${
                 added
                   ? "bg-green-900/50 hover:bg-green-900/70"
                   : "hover:bg-accent"
               }`}
-          >
-            {added ? (
-              <Check width={16} height={16} />
-            ) : (
-              <Plus width={16} height={16} />
-            )}
-          </button>
+            >
+              {added ? (
+                <Check width={16} height={16} />
+              ) : (
+                <Plus width={16} height={16} />
+              )}
+            </button>
+          )}
+
           <CollapsibleTrigger className="flex-1">
-            <div className="cursor-pointer inline-flex flex-row gap-2 px-2 py-2 rounded-lg text-sm group hover:bg-accent hover:text-accent-foreground w-full justify-start transition-none">
-              {item.item.image && (
+            <div
+              className={cn(
+                "cursor-pointer flex flex-row gap-2 items-center pr-2 pl-2 py-2 rounded-lg text-sm group hover:bg-accent w-full justify-start transition-none",
+                item.variantNumber !== undefined ? "pl-2 py-0.5" : "",
+              )}
+            >
+              {item.item.image && item.variantNumber === undefined && (
                 <Image
                   src={createImageUrlPath(item.item.image)}
                   alt={item.item.name}
@@ -135,18 +156,24 @@ function MaterialTreeNode({
                   height={20}
                 />
               )}
-              <span className="font-semibold">{item.quantity}x</span>
-              <span>{item.item.name}</span>
+              {item.variantNumber === undefined && (
+                <span className="font-semibold">{item.quantity}x</span>
+              )}
+              {item.variantNumber === undefined && (
+                <span>{item.item.name}</span>
+              )}
               {item.variantNumber !== undefined && (
                 <span className="text-muted-foreground">
-                  (Recipe {item.variantNumber})
+                  Recipe {item.variantNumber}
                 </span>
               )}
+
+              <ChevronDown className="w-4 h-4 self-center justify-self-end ml-auto text-neutral-400 group-hover:text-neutral-200" />
             </div>
           </CollapsibleTrigger>
         </div>
 
-        <CollapsibleContent className="mt-1 ml-5">
+        <CollapsibleContent className="mt-1 ml-4 border-l border-neutral-700 pl-2">
           <div className="flex flex-col gap-1">
             {item.children.map((child) => (
               <MaterialTreeNode
@@ -165,7 +192,7 @@ function MaterialTreeNode({
     <button
       key={item.nodeId}
       onClick={handleToggleItem}
-      className={`cursor-pointer inline-flex flex-row gap-2 px-2 py-2 rounded-lg text-sm text-foreground w-full justify-start transition-colors ${
+      className={`cursor-pointer flex flex-row gap-2 items-center px-2 py-2 rounded-lg text-sm text-foreground w-full justify-start transition-colors ${
         added
           ? "bg-green-900/50 hover:bg-green-900/70"
           : "hover:bg-accent hover:text-accent-foreground"

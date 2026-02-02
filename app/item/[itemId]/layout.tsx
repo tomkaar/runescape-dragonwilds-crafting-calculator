@@ -10,7 +10,7 @@ type Props = {
 export default function Layout(props: Props) {
   return (
     <div className="h-screen flex flex-col">
-      <div className="border-b border-neutral-800 flex flex-row gap-6 items-center p-4">
+      <div className="border-b border-neutral-800 flex flex-col md:flex-row gap-6 md:items-center w-full p-4">
         <Link href="/">
           <div className="flex flex-row gap-4 items-center">
             <div>
@@ -24,12 +24,12 @@ export default function Layout(props: Props) {
           </div>
         </Link>
         <div className="grow">
-          <div className="max-w-80">
+          <div className="w-full md:max-w-80">
             <SearchBox />
           </div>
         </div>
 
-        <div className="shrink-0">
+        <div className="shrink-0 hidden md:block">
           <Link
             href="/"
             className="block border border-neutral-800 rounded-full p-1.5"
@@ -39,9 +39,7 @@ export default function Layout(props: Props) {
         </div>
       </div>
 
-      <div className="h-full flex flex-row">
-        <div className="grow border-r border-neutral-800">{props.children}</div>
-      </div>
+      <div className="grow">{props.children}</div>
     </div>
   );
 }

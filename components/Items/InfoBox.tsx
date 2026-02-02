@@ -23,27 +23,25 @@ export function ItemInfoBox(props: Props) {
   };
 
   return (
-    <div>
-      <div className="flex flex-row gap-4 items-center">
-        <button onClick={toggleFavourite} className="cursor-pointer">
-          {isFavourited ? (
-            <StarIcon className="w-5 h-5 text-yellow-400 fill-yellow-400" />
-          ) : (
-            <StarIcon className="w-5 h-5 text-neutral-600" />
-          )}
-        </button>
-        <div className="flex flex-row items-center">
-          {item.image && (
-            <Image
-              src={createImageUrlPath(item.image)}
-              alt={item.name}
-              width={40}
-              height={40}
-            />
-          )}
-          <h2>{item.name}</h2>
-        </div>
+    <div className="flex flex-row gap-4 items-center">
+      <div className="grow flex flex-row items-center">
+        {item.image && (
+          <Image
+            src={createImageUrlPath(item.image)}
+            alt={item.name}
+            width={40}
+            height={40}
+          />
+        )}
+        <h2>{item.name}</h2>
       </div>
+      <button onClick={toggleFavourite} className="cursor-pointer">
+        {isFavourited ? (
+          <StarIcon className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+        ) : (
+          <StarIcon className="w-5 h-5 text-neutral-600" />
+        )}
+      </button>
     </div>
   );
 }
