@@ -2,11 +2,9 @@
 
 import { CraftingTree } from "@/components/CraftingTree/CraftingTree";
 import { GroupPanelSeparator } from "@/components/GroupPanelSeparator";
-import { ItemFavourites } from "@/components/Items/Favourites";
 import { ItemInfoBox } from "@/components/Items/InfoBox";
 import { RequiredMaterials } from "@/components/Items/RequiredMaterials";
 import { UsedIn } from "@/components/Items/UsedIn";
-import { SelectedMaterial } from "@/components/SelectedMaterials";
 import { Item } from "@/Types";
 import { Group, Panel, type Layout } from "react-resizable-panels";
 
@@ -50,8 +48,8 @@ export default function Content({
           <RequiredMaterials itemId={itemId} />
           <GroupPanelSeparator />
           <UsedIn itemId={itemId} />
-          <GroupPanelSeparator />
-          <ItemFavourites />
+          {/* <GroupPanelSeparator /> */}
+          {/* <ItemFavourites /> */}
         </Group>
       </Panel>
 

@@ -1,7 +1,18 @@
 import { SearchBox } from "@/components/SearchBox";
-import { AnvilIcon, GithubIcon } from "lucide-react";
+import { AnvilIcon, GithubIcon, StarIcon } from "lucide-react";
 import Link from "next/link";
 import { ReactNode } from "react";
+
+import {
+  Popover,
+  PopoverContent,
+  PopoverDescription,
+  PopoverHeader,
+  PopoverTitle,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import { Button } from "@/components/ui/button";
+import { FavouriteItemsList } from "@/components/FavouriteItemsList";
 
 type Props = {
   children: ReactNode;
@@ -23,10 +34,29 @@ export default function Layout(props: Props) {
             </h1>
           </div>
         </Link>
-        <div className="grow">
+        <div className="grow flex flex-row justify-center md:justify-start items-center gap-4">
           <div className="w-full md:max-w-80">
             <SearchBox />
           </div>
+          <Popover>
+            <PopoverTrigger asChild>
+              <Button variant="ghost" className="cursor-pointer">
+                <StarIcon />
+              </Button>
+            </PopoverTrigger>
+            <PopoverContent align="start">
+              <PopoverHeader>
+                <PopoverTitle>Favourites</PopoverTitle>
+                <PopoverDescription>
+                  Click on the star icon next to an item to add it to your
+                  favourites.
+                </PopoverDescription>
+                <div className="mt-2">
+                  <FavouriteItemsList />
+                </div>
+              </PopoverHeader>
+            </PopoverContent>
+          </Popover>
         </div>
 
         <div className="shrink-0 hidden md:block">
