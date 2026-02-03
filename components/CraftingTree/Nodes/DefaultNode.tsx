@@ -20,10 +20,19 @@ const DefaultlNode = forwardRef<HTMLDivElement, Props>(
     const items = i[props.data.initialItemId] || [];
     const added = items.some((item) => item.nodeId === props.id);
 
+    const recipesArray = Array.from({
+      length: props.data.numberOfRecipies || 0,
+    });
     const startsWith = items
       .map((i) => i.nodeId)
       .filter((i) => i !== undefined)
-      .some((nodeId) => props.id.startsWith(nodeId));
+      .some(
+        (nodeId) =>
+          props.id.startsWith(nodeId) ||
+          recipesArray.some((_, index) =>
+            props.id.startsWith(`${nodeId}_v${index + 1}`),
+          ),
+      );
 
     return (
       <div

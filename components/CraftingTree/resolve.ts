@@ -67,8 +67,8 @@ export function resolveCraftingTree(args: Args) {
     // also handle multiple variants by appending variant index if necessary
     const itemId = [
       args.prevItemId || null,
-      multipleVariants ? `v${idx}` : null,
       item.id,
+      multipleVariants ? `v${idx}` : null,
     ]
       .filter((part) => part !== null)
       .join("_");
