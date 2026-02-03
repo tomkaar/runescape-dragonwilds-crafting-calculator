@@ -7,7 +7,6 @@ import { type Node } from "@/components/CraftingTree/nodes";
 import { createImageUrlPath } from "@/scripts/utils/createImageUrl";
 import { forwardRef, memo } from "react";
 import getFacilityIcon from "@/utils/getFacilityIcon";
-import { PlusSquareIcon, XSquareIcon } from "lucide-react";
 import { Facility } from "@/Types";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { cn } from "@/lib/utils";
@@ -18,12 +17,13 @@ const DefaultlNode = forwardRef<HTMLDivElement, Props>(
   function InnerMaterialNode(props, ref) {
     const i = useSelectedMaterial((state) => state.items);
     const items = i[props.data.initialItemId] || [];
-    const added = items.some((item) => item.nodeId === props.id);
+    const added = items.find((item) => item.nodeId === props.id);
 
     const recipesArray = Array.from({
       length: props.data.numberOfRecipies || 0,
     });
     const startsWith = items
+      .filter((i) => i.state === "DONE")
       .map((i) => i.nodeId)
       .filter((i) => i !== undefined)
       .some(
@@ -39,11 +39,15 @@ const DefaultlNode = forwardRef<HTMLDivElement, Props>(
         ref={ref}
         className={cn(
           "flex flex-col items-center justify-center bg-neutral-800 hover:bg-neutral-700 border border-neutral-800 rounded-lg",
-          added ? "bg-green-900/50 hover:bg-green-900" : "",
+          added && added.state === "TODO"
+            ? "bg-blue-900/50 hover:bg-blue-900"
+            : "",
+          added && added.state === "DONE"
+            ? "bg-green-900/50 hover:bg-green-900"
+            : "",
           props.data.numberOfRecipies &&
             props.data.numberOfRecipies > 1 &&
             "border border-dashed border-yellow-400",
-          props.data.hasExcessItems ? "border border-sky-400" : "",
           startsWith && "opacity-50",
         )}
       >
@@ -111,14 +115,19 @@ const Content = memo(function InnerContent(props: ContentProps) {
   } = props;
   const i = useSelectedMaterial((state) => state.items);
   const items = i[initialItemId] || [];
-  const added = items.some((item) => item.nodeId === nodeId);
+  const added = items.find((item) => item.nodeId === nodeId);
   const addAnItem = useSelectedMaterial((state) => state.addAnItem);
+  const markAsDone = useSelectedMaterial((state) => state.markAsDone);
   const removeAnItemByNodeId = useSelectedMaterial(
     (state) => state.removeAnItemByNodeId,
   );
 
   const handleToggleItem = () => {
     if (added) {
+      if (added.state === "TODO") {
+        markAsDone(initialItemId, added.id);
+        return;
+      }
       removeAnItemByNodeId(initialItemId, nodeId);
       return;
     }
@@ -128,6 +137,7 @@ const Content = memo(function InnerContent(props: ContentProps) {
       quantity,
       nodeId,
       nodeOriginalId: initialItemId,
+      state: "TODO",
     });
   };
 
@@ -150,7 +160,7 @@ const Content = memo(function InnerContent(props: ContentProps) {
           <span className="font-semibold">{quantity}x</span> {label}
         </div>
 
-        {!initialNode && (
+        {/* {!initialNode && (
           <div
             className={cn(
               "ml-1",
@@ -160,7 +170,7 @@ const Content = memo(function InnerContent(props: ContentProps) {
           >
             {added ? <XSquareIcon width={16} /> : <PlusSquareIcon width={16} />}
           </div>
-        )}
+        )} */}
       </button>
 
       {hasExcessItems && (

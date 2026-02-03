@@ -5,7 +5,9 @@ import { GroupPanelSeparator } from "@/components/GroupPanelSeparator";
 import { ItemInfoBox } from "@/components/Items/InfoBox";
 import { RequiredMaterials } from "@/components/Items/RequiredMaterials";
 import { UsedIn } from "@/components/Items/UsedIn";
+import { SelectedMaterial } from "@/components/Items/SelectedMaterials/SelectedMaterials";
 import { Item } from "@/Types";
+import { WorkflowIcon } from "lucide-react";
 import { Group, Panel, type Layout } from "react-resizable-panels";
 
 export default function Content({
@@ -47,9 +49,9 @@ export default function Content({
 
           <RequiredMaterials itemId={itemId} />
           <GroupPanelSeparator />
+          <SelectedMaterial itemId={itemId} />
+          <GroupPanelSeparator />
           <UsedIn itemId={itemId} />
-          {/* <GroupPanelSeparator /> */}
-          {/* <ItemFavourites /> */}
         </Group>
       </Panel>
 
@@ -60,16 +62,6 @@ export default function Content({
           <CraftingTree itemId={itemId} />
         </div>
       </Panel>
-
-      {/* <GroupPanelSeparator horizontal />
-
-      <Panel id="right" minSize={50} defaultSize={350}>
-        <div className="min-w-88 h-full flex flex-col gap-4">
-          <div className="p-4 grow">
-            <SelectedMaterial itemId={itemId} />
-          </div>
-        </div>
-      </Panel> */}
     </Group>
   );
 }

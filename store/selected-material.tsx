@@ -14,13 +14,17 @@ type Item = {
   nodeId?: string;
   // The original item id from the node
   nodeOriginalId?: string;
+  // The current state of the selected material
+  state: "TODO" | "DONE";
 };
 
 type SelectedMaterialStore = {
   items: Record<string, Item[]>;
   addAnItem: (itemIdKey: string, value: Item) => void;
+  markAsDone: (itemIdKey: string, id: string) => void;
   removeAnItem: (itemIdKey: string, id: string) => void;
   removeAnItemByNodeId: (itemIdKey: string, nodeId: string) => void;
+  markAsDoneByNodeId: (itemIdKey: string, nodeId: string) => void;
 };
 
 export const useSelectedMaterial = create<SelectedMaterialStore>()(
@@ -32,6 +36,15 @@ export const useSelectedMaterial = create<SelectedMaterialStore>()(
           items: {
             ...get().items,
             [itemIdKey]: [value, ...(get().items[itemIdKey] || [])],
+          },
+        }),
+      markAsDone: (itemIdKey: string, id: string) =>
+        set({
+          items: {
+            ...get().items,
+            [itemIdKey]: (get().items[itemIdKey] || []).map((item) =>
+              item.id === id ? { ...item, state: "DONE" } : item,
+            ),
           },
         }),
       removeAnItem: (itemIdKey: string, id: string) =>
@@ -49,6 +62,15 @@ export const useSelectedMaterial = create<SelectedMaterialStore>()(
             ...get().items,
             [itemIdKey]: (get().items[itemIdKey] || []).filter(
               (item) => item.nodeId !== nodeId,
+            ),
+          },
+        }),
+      markAsDoneByNodeId: (itemIdKey: string, nodeId: string) =>
+        set({
+          items: {
+            ...get().items,
+            [itemIdKey]: (get().items[itemIdKey] || []).map((item) =>
+              item.nodeId === nodeId ? { ...item, state: "DONE" } : item,
             ),
           },
         }),

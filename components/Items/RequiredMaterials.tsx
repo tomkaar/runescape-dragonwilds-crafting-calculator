@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, ChevronDown, CirclePile, Plus } from "lucide-react";
+import { Check, ChevronDown, CirclePile, Minus, Plus } from "lucide-react";
 import {
   Collapsible,
   CollapsibleContent,
@@ -68,7 +68,7 @@ export function RequiredMaterials(props: Props) {
         className="cursor-pointer w-full flex flex-row items-center gap-2 px-4 py-4 text-sm"
       >
         <CirclePile className="w-4 h-4 text-neutral-600 fill-neutral-600" />
-        Required Materials ({numberOfMaterials} total)
+        Materials ({numberOfMaterials} total)
       </button>
 
       <div className="pt-2 overflow-scroll h-full pb-15">
@@ -95,11 +95,12 @@ function MaterialTreeNode({
 }) {
   const i = useSelectedMaterial((state) => state.items);
   const items = i[initialItemId] || [];
-  const added = items.some(
+  const added = items.find(
     (selectedItem) => selectedItem.nodeId === item.nodeId,
   );
 
   const addAnItem = useSelectedMaterial((state) => state.addAnItem);
+  const markAsDone = useSelectedMaterial((state) => state.markAsDone);
   const removeAnItemByNodeId = useSelectedMaterial(
     (state) => state.removeAnItemByNodeId,
   );
@@ -107,6 +108,10 @@ function MaterialTreeNode({
   const handleToggleItem = (e: React.MouseEvent) => {
     e.stopPropagation();
     if (added) {
+      if (added.state === "TODO") {
+        markAsDone(initialItemId, added.id);
+        return;
+      }
       removeAnItemByNodeId(initialItemId, item.nodeId);
       return;
     }
@@ -116,6 +121,7 @@ function MaterialTreeNode({
       quantity: item.quantity,
       nodeId: item.nodeId,
       nodeOriginalId: initialItemId,
+      state: "TODO",
     });
   };
 
@@ -128,13 +134,17 @@ function MaterialTreeNode({
               onClick={handleToggleItem}
               className={`
               cursor-pointer px-2 py-2 rounded-lg text-sm transition-colors ${
-                added
+                added?.state === "DONE"
                   ? "bg-green-900/50 hover:bg-green-900/70"
-                  : "hover:bg-accent"
+                  : added?.state === "TODO"
+                    ? "bg-blue-900/50 hover:bg-blue-900/70"
+                    : "hover:bg-accent"
               }`}
             >
-              {added ? (
+              {added?.state === "DONE" ? (
                 <Check width={16} height={16} />
+              ) : added?.state === "TODO" ? (
+                <Minus width={16} height={16} />
               ) : (
                 <Plus width={16} height={16} />
               )}

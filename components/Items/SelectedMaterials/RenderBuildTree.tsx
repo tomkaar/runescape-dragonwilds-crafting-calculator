@@ -1,71 +1,68 @@
-import { X } from "lucide-react";
+import { Check, X } from "lucide-react";
 import Image from "next/image";
 
 import { createImageUrlPath } from "@/playground/items/utils/image";
 import { TreeItem } from "./buildTreeFromNodeIds";
 
-import {
-  Collapsible,
-  CollapsibleContent,
-  CollapsibleTrigger,
-} from "../../ui/collapsible";
-
-type Props = { handleRemoveNode: (nodeId: string) => void; tree: TreeItem[] };
+type Props = {
+  handleSetAsDone: (nodeId: string) => void;
+  tree: TreeItem[];
+  multiplier?: number;
+};
 
 export function RenderBuildTree(props: Props) {
-  const { handleRemoveNode, tree } = props;
+  const { handleSetAsDone, tree, multiplier = 1 } = props;
 
   const renderItem = (fileItem: TreeItem) => {
     if ("items" in fileItem) {
       return (
-        <Collapsible
-          key={fileItem.item.name}
-          defaultOpen={true}
-          className="hover:bg-white/5 hover:rounded-lg data-[state=open]:py-0 transition-all"
-        >
-          <CollapsibleTrigger className="w-full">
-            <div
-              className={`
+        <div key={fileItem.item.name}>
+          <button
+            onClick={() => handleSetAsDone(fileItem.nodeId)}
+            className={`
                 cursor-pointer inline-flex flex-row gap-2 px-2 py-2 rounded-lg text-sm group hover:bg-accent hover:text-accent-foreground w-full justify-start transition-none
                 ${fileItem.quantity === null ? "opacity-75" : ""}
               `}
-            >
-              {fileItem.item.image && fileItem.variant === undefined && (
-                <Image
-                  src={createImageUrlPath(fileItem.item.image)}
-                  alt={fileItem.item.name}
-                  width={20}
-                  height={20}
-                  className="min-w-5 min-h-5 max-h-5 max-w-5"
-                />
+          >
+            {fileItem.item.image && (
+              <Image
+                src={createImageUrlPath(fileItem.item.image)}
+                alt={fileItem.item.name}
+                width={20}
+                height={20}
+                className="min-w-5 min-h-5 max-h-5 max-w-5"
+              />
+            )}
+            <span>
+              {fileItem.quantity !== null && (
+                <span className="font-semibold">
+                  {fileItem.quantity * multiplier}x{" "}
+                </span>
               )}
-              <span>
-                {fileItem.quantity !== null && (
-                  <span className="font-semibold">{fileItem.quantity}x </span>
-                )}
-                {fileItem.item.name}
-                {fileItem.variant !== undefined && (
-                  <span className="text-xs leading-normal italic text-neutral-400">
-                    {" "}
-                    (Recipe {fileItem.variantNumber})
-                  </span>
-                )}
-              </span>
-            </div>
-          </CollapsibleTrigger>
+              {fileItem.item.name}
+              {fileItem.variant !== undefined && (
+                <span className="text-xs leading-normal italic text-neutral-400">
+                  {" "}
+                  (Recipe {fileItem.variantNumber})
+                </span>
+              )}
+            </span>
+          </button>
 
-          <CollapsibleContent className="style-lyra:ml-4 mt-1 ml-5">
-            <div className="flex flex-col gap-1">
+          <div className="style-lyra:ml-4 mt-1 ml-5">
+            <div className="flex flex-col gap-1 border-l border-neutral-500">
               {fileItem.items.map((child) => renderItem(child))}
             </div>
-          </CollapsibleContent>
-        </Collapsible>
+          </div>
+        </div>
       );
     }
+
     return (
-      <div
+      <button
         key={fileItem.item.name}
-        className="inline-flex flex-row gap-2 px-2 py-1 rounded-lg text-sm text-foreground w-full justify-start hover:bg-accent hover:text-accent-foreground"
+        onClick={() => handleSetAsDone(fileItem.nodeId)}
+        className="group cursor-pointer inline-flex flex-row gap-2 px-2 py-1 rounded-lg text-sm text-foreground w-full justify-start hover:bg-accent hover:text-accent-foreground"
       >
         {fileItem.item.image && (
           <Image
@@ -78,22 +75,24 @@ export function RenderBuildTree(props: Props) {
         )}
         <span className="">
           {fileItem.quantity !== null && (
-            <span className="font-semibold">{fileItem.quantity}x</span>
+            <span className="font-semibold">
+              {fileItem.quantity * multiplier}x
+            </span>
           )}
           <span> {fileItem.item.name}</span>
         </span>
-        <button
-          onClick={() => handleRemoveNode(fileItem.nodeId)}
-          className="cursor-pointer text-rose-700 hover:text-rose-700 active:text-rose-700"
-        >
-          <X width={20} height={20} />
-        </button>
-      </div>
+        <div className="relative cursor-pointer text-green-700 hover:text-green-700 active:text-green-700">
+          <Check width={20} height={20} />
+          <span className="absolute whitespace-nowrap top-0 left-6 text-sm text-green-700 opacity-0 group-hover:opacity-100">
+            Mark as done
+          </span>
+        </div>
+      </button>
     );
   };
 
   return (
-    <div className="overflow-x-scroll flex flex-col gap-1 mt-4 w-full">
+    <div className="overflow-x-scroll flex flex-col gap-1 mt-1 w-full">
       {tree.map((item) => renderItem(item))}
     </div>
   );
