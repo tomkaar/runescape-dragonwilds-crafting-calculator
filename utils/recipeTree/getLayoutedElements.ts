@@ -1,7 +1,7 @@
-import { Nodes } from "@/components/CraftingTree/types";
 import dagre from "@dagrejs/dagre";
+import { Edge, type Node as FlowNode } from "@xyflow/react";
 
-import { Edge } from "@xyflow/react";
+import { Node } from "@/components/CraftingTree/nodes";
 
 const nodeWidth = 36;
 const nodeHeight = 36;
@@ -9,7 +9,7 @@ const nodeHeight = 36;
 const dagreGraph = new dagre.graphlib.Graph().setDefaultEdgeLabel(() => ({}));
 
 export function getLayoutedElements(
-  nodes: Nodes[],
+  nodes: FlowNode<Node>[],
   edges: Edge[],
   direction = "TB",
 ) {

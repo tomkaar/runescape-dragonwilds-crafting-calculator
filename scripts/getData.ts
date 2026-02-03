@@ -29,20 +29,6 @@ async function scrapeItem() {
     JSON.stringify(groupedRecipes, null, 2),
   );
   console.log("✓ Grouped recipes saved to data/recipes.json");
-
-  // Write facility types
-  const facilityTypes = Array.from(
-    new Set(
-      recipe
-        .map((r) => r.json?.facility)
-        .filter((f): f is string => typeof f === "string"),
-    ),
-  ).sort();
-  writeFileSync(
-    join(__dirname, "..", "data", "facilityTypes.json"),
-    JSON.stringify(facilityTypes, null, 2),
-  );
-  console.log("✓ Facility types saved to data/facilityTypes.json");
 }
 
 scrapeItem().catch(console.error);

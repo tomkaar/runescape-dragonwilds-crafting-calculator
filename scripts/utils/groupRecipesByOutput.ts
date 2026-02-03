@@ -1,13 +1,11 @@
-import { GroupedRecipes, RecipeVariant } from "@/data/recipes";
 import extractVariantFromImage from "./extractVariantFromImage";
 import { Recipe } from "./types";
 import { generateRecipeVariantId } from "./generateRecipeVariantId";
 import { createImageUrl } from "./createImageUrl";
 
-export default function groupRecipesByOutput(
-  recipes: Recipe[],
-): GroupedRecipes {
-  const grouped: GroupedRecipes = {};
+export default function groupRecipesByOutput(recipes: Recipe[]) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const grouped: Record<string, any> = {};
 
   recipes.forEach((recipe) => {
     if (!recipe.json || !recipe.json.output) return;
@@ -39,7 +37,7 @@ export default function groupRecipesByOutput(
     }
 
     // Create variant object
-    const recipeVariant: RecipeVariant = {
+    const recipeVariant = {
       id: recipeVariantId,
       name: variant ? `${baseName} (${variant})` : baseName,
       variant: variant || undefined,

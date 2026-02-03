@@ -31,6 +31,7 @@ export function CraftingTree(props: Props) {
         onEdgesChange={onEdgesChange}
         draggable={false}
         fitView
+        // @ts-expect-error - invalid types
         nodeTypes={nodeTypes}
       >
         <CraftingTreeContent />

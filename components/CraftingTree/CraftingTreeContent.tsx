@@ -1,14 +1,19 @@
 "use client";
 
-import { Edge, useNodesInitialized, useReactFlow } from "@xyflow/react";
+import {
+  Edge,
+  useNodesInitialized,
+  useReactFlow,
+  type Node as FlowNode,
+} from "@xyflow/react";
 import dagre from "@dagrejs/dagre";
-import { Nodes } from "./types";
 import { useEffect } from "react";
+import { Node } from "./nodes";
 
 const dagreGraph = new dagre.graphlib.Graph().setDefaultEdgeLabel(() => ({}));
 
 export default function CraftingTreeContent() {
-  const { setNodes, getEdges, fitView } = useReactFlow<Nodes>();
+  const { setNodes, getEdges, fitView } = useReactFlow<FlowNode<Node>>();
   const nodesInitialized = useNodesInitialized();
 
   useEffect(() => {
@@ -22,7 +27,10 @@ export default function CraftingTreeContent() {
   return null;
 }
 
-export function getLayoutedNodes(nodes: Nodes[], edges: Edge[]): Nodes[] {
+export function getLayoutedNodes(
+  nodes: FlowNode<Node>[],
+  edges: Edge[],
+): FlowNode<Node>[] {
   dagreGraph.setGraph({
     rankdir: "TB",
     nodesep: 12,
