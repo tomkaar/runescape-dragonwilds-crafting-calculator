@@ -1,4 +1,4 @@
-import { Check, X } from "lucide-react";
+import { Check } from "lucide-react";
 import Image from "next/image";
 
 import { createImageUrlPath } from "@/playground/items/utils/image";

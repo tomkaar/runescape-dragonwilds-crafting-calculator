@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { useFavouriteItems } from "./favourite-items";
 import { useSettings } from "./settings";
 import { useSelectedMaterial } from "./selected-material";
+import { useMaterialMultiplier } from "./material-multiplier";
 
 /**
  * This component will rehydrate the provided store
@@ -14,6 +15,7 @@ export function HydrateStores() {
     useFavouriteItems.persist.rehydrate();
     useSettings.persist.rehydrate();
     useSelectedMaterial.persist.rehydrate();
+    useMaterialMultiplier.persist.rehydrate();
   };
 
   useEffect(() => {

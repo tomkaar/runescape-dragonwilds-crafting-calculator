@@ -5,9 +5,11 @@ import { useSelectedMaterial } from "@/store/selected-material";
 import { buildTreeFromNodeIds } from "./buildTreeFromNodeIds";
 import { RenderBuildTree } from "./RenderBuildTree";
 import { Panel, usePanelRef } from "react-resizable-panels";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { ListTodoIcon } from "lucide-react";
 import { Input } from "@/components/ui/input";
+import { useMaterialMultiplier } from "@/store/material-multiplier";
+import { Button } from "@/components/ui/button";
 
 type Props = {
   itemId: string;
@@ -18,7 +20,9 @@ export function SelectedMaterial(props: Props) {
   const panelRef = usePanelRef();
   const contentRef = useRef<HTMLDivElement>(null);
 
-  const [multiplier, setMultiplier] = useState(1);
+  const multipliers = useMaterialMultiplier((state) => state.items);
+  const multiplier = multipliers[itemId] || 1;
+  const setMultiplier = useMaterialMultiplier((state) => state.setMultiplier);
 
   const markAsDone = useSelectedMaterial((state) => state.markAsDoneByNodeId);
   const handleSetAsDone = (id: string) => {
@@ -72,7 +76,7 @@ export function SelectedMaterial(props: Props) {
           max={1000}
           className="max-w-32"
           value={multiplier}
-          onChange={(e) => setMultiplier(parseInt(e.target.value))}
+          onChange={(e) => setMultiplier(itemId, parseInt(e.target.value))}
         />
       </div>
 
@@ -86,12 +90,28 @@ export function SelectedMaterial(props: Props) {
               </span>
             </div>
           ) : null}
+          {multiplier > 1 ? (
+            <div className="flex flex-row gap-2 items-center mt-2 px-4 py-3 bg-blue-950/75 rounded-lg w-full">
+              <div className="grow flex flex-col">
+                <span className="text-base text-white">Multiplier active</span>
+                <span className="text-sm text-neutral-200">
+                  Add materials are currently multiplied by{" "}
+                  <span className="font-semibold">{multiplier}x</span>.
+                </span>
+              </div>
+              <Button variant="ghost" onClick={() => setMultiplier(itemId, 1)}>
+                Clear
+              </Button>
+            </div>
+          ) : null}
           {multiplier > 0 ? (
-            <RenderBuildTree
-              tree={tree}
-              handleSetAsDone={handleSetAsDone}
-              multiplier={multiplier}
-            />
+            <div className="mt-2">
+              <RenderBuildTree
+                tree={tree}
+                handleSetAsDone={handleSetAsDone}
+                multiplier={multiplier}
+              />
+            </div>
           ) : null}
         </div>
       </div>
