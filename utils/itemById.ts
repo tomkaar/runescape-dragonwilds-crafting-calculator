@@ -1,4 +1,4 @@
-import itemsData from "./test-items.json" assert { type: "json" };
+import itemsData from "@/data/items.json" assert { type: "json" };
 import { Item } from "@/Types";
 
 export function getItemById(itemId: string): Item | undefined {

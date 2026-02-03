@@ -6,7 +6,7 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
-import { resolveCraftingTree } from "@/playground/resolve-tree/resolve";
+import { resolveCraftingTree } from "../CraftingTree/resolve";
 import {
   buildMaterialsTree,
   type MaterialTreeItem,

@@ -1,7 +1,7 @@
 import { Item, ItemVariant } from "@/Types";
 import { Edge } from "@xyflow/react";
-import { Node } from "@/playground/resolve-tree/nodes";
-import { getItemById } from "@/playground/resolve-tree/itemById";
+import { Node } from "@/components/CraftingTree/nodes";
+import { getItemById } from "@/utils/itemById";
 
 type MaterialTreeItemData = {
   id: string;

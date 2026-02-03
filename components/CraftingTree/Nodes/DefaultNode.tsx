@@ -3,7 +3,7 @@
 import { Handle, Position } from "@xyflow/react";
 import Image from "next/image";
 
-import { type Node } from "@/playground/resolve-tree/nodes";
+import { type Node } from "@/components/CraftingTree/nodes";
 import { createImageUrlPath } from "@/scripts/utils/createImageUrl";
 import { forwardRef, memo } from "react";
 import getFacilityIcon from "@/utils/getFacilityIcon";

@@ -1,5 +1,5 @@
 import { Edge } from "@xyflow/react";
-import { getItemById } from "./itemById";
+import { getItemById } from "@/utils/itemById";
 import { type Node } from "./nodes";
 
 type Args = {
