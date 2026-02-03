@@ -2,11 +2,25 @@
 
 import "@xyflow/react/dist/style.css";
 
-import { ReactFlow, useEdgesState, useNodesState } from "@xyflow/react";
+import { Panel, ReactFlow, useEdgesState, useNodesState } from "@xyflow/react";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
+import { Button } from "../ui/button";
+
 import { resolveCraftingTree } from "./resolve";
 
 import CraftingTreeContent from "./CraftingTreeContent";
 import DefaultlNode from "./Nodes/DefaultNode";
+import { useSelectedMaterial } from "@/store/selected-material";
 
 const nodeTypes = {
   node: DefaultlNode,
@@ -18,6 +32,13 @@ type Props = {
 
 export function CraftingTree(props: Props) {
   const anotherTree = resolveCraftingTree({ itemId: props.itemId });
+
+  const clearMarkedMaterials = useSelectedMaterial(
+    (state) => state.clearMarkedMaterials,
+  );
+  const handleClearMarkedMaterials = () => {
+    clearMarkedMaterials(props.itemId);
+  };
 
   const [nodes, , onNodesChange] = useNodesState(anotherTree?.nodes || []);
   const [edges, , onEdgesChange] = useEdgesState(anotherTree?.edges || []);
@@ -34,6 +55,30 @@ export function CraftingTree(props: Props) {
         // @ts-expect-error - invalid types
         nodeTypes={nodeTypes}
       >
+        <Panel>
+          <div className="">
+            <AlertDialog>
+              <AlertDialogTrigger asChild>
+                <Button variant="secondary">Clear selection</Button>
+              </AlertDialogTrigger>
+              <AlertDialogContent>
+                <AlertDialogHeader>
+                  <AlertDialogTitle>Clear marked materials?</AlertDialogTitle>
+                  <AlertDialogDescription>
+                    Are you sure you want to clear all marked materials? This
+                    action cannot be undone.
+                  </AlertDialogDescription>
+                </AlertDialogHeader>
+                <AlertDialogFooter>
+                  <AlertDialogCancel>Cancel</AlertDialogCancel>
+                  <AlertDialogAction onClick={handleClearMarkedMaterials}>
+                    Continue
+                  </AlertDialogAction>
+                </AlertDialogFooter>
+              </AlertDialogContent>
+            </AlertDialog>
+          </div>
+        </Panel>
         <CraftingTreeContent />
       </ReactFlow>
     </div>
