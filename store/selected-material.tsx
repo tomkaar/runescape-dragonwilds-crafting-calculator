@@ -25,6 +25,7 @@ type SelectedMaterialStore = {
   removeAnItem: (itemIdKey: string, id: string) => void;
   removeAnItemByNodeId: (itemIdKey: string, nodeId: string) => void;
   markAsDoneByNodeId: (itemIdKey: string, nodeId: string) => void;
+  clearMarkedMaterials: (itemIdKey: string) => void;
 };
 
 export const useSelectedMaterial = create<SelectedMaterialStore>()(
@@ -72,6 +73,13 @@ export const useSelectedMaterial = create<SelectedMaterialStore>()(
             [itemIdKey]: (get().items[itemIdKey] || []).map((item) =>
               item.nodeId === nodeId ? { ...item, state: "DONE" } : item,
             ),
+          },
+        }),
+      clearMarkedMaterials: (itemIdKey: string) =>
+        set({
+          items: {
+            ...get().items,
+            [itemIdKey]: [],
           },
         }),
     }),

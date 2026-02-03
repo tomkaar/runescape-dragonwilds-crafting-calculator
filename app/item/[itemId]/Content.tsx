@@ -33,7 +33,7 @@ export default function Content({
         document.cookie = `${layoutCookieID}=${JSON.stringify(layout)}; path=/;`;
       }}
     >
-      <Panel id="left" minSize={250} defaultSize={350}>
+      <Panel id="left" minSize={350} defaultSize={350}>
         <Group
           id={sidebarLayoutCookieID}
           orientation="vertical"

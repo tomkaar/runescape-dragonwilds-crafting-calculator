@@ -2,6 +2,17 @@
 
 import { Check, ChevronDown, CirclePile, Minus, Plus } from "lucide-react";
 import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
+import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
@@ -17,6 +28,7 @@ import { useSelectedMaterial } from "@/store/selected-material";
 import { Panel, usePanelRef } from "react-resizable-panels";
 import { useRef } from "react";
 import { cn } from "@/lib/utils";
+import { Button } from "../ui/button";
 
 type Props = {
   itemId: string;
@@ -25,6 +37,13 @@ type Props = {
 export function RequiredMaterials(props: Props) {
   const panelRef = usePanelRef();
   const contentRef = useRef<HTMLDivElement>(null);
+
+  const clearMarkedMaterials = useSelectedMaterial(
+    (state) => state.clearMarkedMaterials,
+  );
+  const handleClearMarkedMaterials = () => {
+    clearMarkedMaterials(props.itemId);
+  };
 
   const treeData = resolveCraftingTree({ itemId: props.itemId });
   const tree = treeData
@@ -63,13 +82,35 @@ export function RequiredMaterials(props: Props) {
       collapsedSize={52}
       className="bg-neutral-950 rounded-lg"
     >
-      <button
-        onClick={togglePanel}
-        className="cursor-pointer w-full flex flex-row items-center gap-2 px-4 py-4 text-sm"
-      >
-        <CirclePile className="w-4 h-4 text-neutral-600 fill-neutral-600" />
-        Materials ({numberOfMaterials} total)
-      </button>
+      <div className="flex flex-row gap-2 items-center px-4">
+        <button
+          onClick={togglePanel}
+          className="cursor-pointer w-full flex flex-row items-center gap-2 py-4 text-sm"
+        >
+          <CirclePile className="w-4 h-4 text-neutral-600 fill-neutral-600" />
+          Materials ({numberOfMaterials} total)
+        </button>
+        <AlertDialog>
+          <AlertDialogTrigger asChild>
+            <Button variant="ghost">Clear selection</Button>
+          </AlertDialogTrigger>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>Clear marked materials?</AlertDialogTitle>
+              <AlertDialogDescription>
+                Are you sure you want to clear all marked materials? This action
+                cannot be undone.
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Cancel</AlertDialogCancel>
+              <AlertDialogAction onClick={handleClearMarkedMaterials}>
+                Continue
+              </AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
+      </div>
 
       <div className="pt-2 overflow-scroll h-full pb-15">
         <div ref={contentRef} className="flex flex-col gap-1 w-full">
