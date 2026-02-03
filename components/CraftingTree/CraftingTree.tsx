@@ -21,9 +21,13 @@ import { resolveCraftingTree } from "./resolve";
 import CraftingTreeContent from "./CraftingTreeContent";
 import DefaultlNode from "./Nodes/DefaultNode";
 import { useSelectedMaterial } from "@/store/selected-material";
+import DefaultEdge from "./Edges/DefaultEdge";
 
 const nodeTypes = {
   node: DefaultlNode,
+};
+const edgeTypes = {
+  edge: DefaultEdge,
 };
 
 type Props = {
@@ -54,6 +58,7 @@ export function CraftingTree(props: Props) {
         fitView
         // @ts-expect-error - invalid types
         nodeTypes={nodeTypes}
+        edgeTypes={edgeTypes}
       >
         <Panel>
           <div className="">

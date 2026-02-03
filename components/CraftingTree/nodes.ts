@@ -12,6 +12,10 @@ export const nodeSchema = z.object({
       .number()
       .nullable()
       .describe("The number of recipies for this item"),
+    isRecipeNumberVariant: z
+      .number()
+      .nullable()
+      .describe("Indicates if this node represents a specific recipe variant"),
     quantityNeeded: z
       .number()
       .describe("The quantity needed by the parent node"),

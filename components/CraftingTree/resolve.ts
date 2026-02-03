@@ -1,6 +1,6 @@
-import { Edge } from "@xyflow/react";
 import { getItemById } from "@/utils/itemById";
 import { type Node } from "./nodes";
+import { type Edge } from "./edges";
 
 type Args = {
   itemId: string;
@@ -9,6 +9,7 @@ type Args = {
   prevItemId?: string;
   // Indicates if this is the starting point of the tree resolution
   initialNode?: boolean;
+  // The initial item ID for the tree
   initialItemId?: string;
 };
 
@@ -40,6 +41,7 @@ export function resolveCraftingTree(args: Args) {
         label: item.name,
         image: item.image || null,
         numberOfRecipies: item.variants.length,
+        isRecipeNumberVariant: null,
         facility: !!item.variants.length
           ? null
           : (item.facilities[0] as unknown as string | null),
@@ -53,9 +55,13 @@ export function resolveCraftingTree(args: Args) {
       position: { x: 0, y: 0 },
     };
     const variantEdge: Edge = {
+      type: "edge",
       id: variantNodeId,
       source: args.prevItemId || "root",
       target: variantNodeId,
+      data: {
+        highlighted: false,
+      },
     };
     nodes.push(variantNode);
     edges.push(variantEdge);
@@ -96,6 +102,7 @@ export function resolveCraftingTree(args: Args) {
         label: item.name,
         image: item.image || null,
         numberOfRecipies: null,
+        isRecipeNumberVariant: multipleVariants ? idx + 1 : null,
         facility: item.facilities[0] as unknown as string | null,
         quantityNeeded: initialNode
           ? variant.recipe?.quantity || 1
@@ -116,9 +123,13 @@ export function resolveCraftingTree(args: Args) {
       edgeSource = variantNodeId;
     }
     const edge: Edge = {
+      type: "edge",
       id: itemId,
       source: edgeSource,
       target: itemId,
+      data: {
+        highlighted: multipleVariants ? true : false,
+      },
     };
     nodes.push(node);
     edges.push(edge);

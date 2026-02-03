@@ -1,6 +1,6 @@
 "use client";
 
-import { Handle, Position } from "@xyflow/react";
+import { Handle, NodeProps, Position } from "@xyflow/react";
 import Image from "next/image";
 
 import { type Node } from "@/components/CraftingTree/nodes";
@@ -11,9 +11,7 @@ import { Facility } from "@/Types";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { cn } from "@/lib/utils";
 
-type Props = Node;
-
-const DefaultlNode = forwardRef<HTMLDivElement, Props>(
+const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
   function InnerMaterialNode(props, ref) {
     const i = useSelectedMaterial((state) => state.items);
     const items = i[props.data.initialItemId] || [];
@@ -48,6 +46,8 @@ const DefaultlNode = forwardRef<HTMLDivElement, Props>(
           props.data.numberOfRecipies &&
             props.data.numberOfRecipies > 1 &&
             "border border-dashed border-yellow-400",
+          props.data.isRecipeNumberVariant !== null &&
+            "border border-dashed border-yellow-400",
           startsWith && "opacity-50",
         )}
       >
@@ -61,6 +61,7 @@ const DefaultlNode = forwardRef<HTMLDivElement, Props>(
           quantity={props.data.quantityNeeded}
           quantityRecieved={props.data.quantityRecieved}
           numberOfRecipies={props.data.numberOfRecipies}
+          isRecipeNumberVariant={props.data.isRecipeNumberVariant}
           initialNode={props.data.initialNode}
           hasExcessItems={props.data.hasExcessItems}
         />
@@ -94,6 +95,7 @@ type ContentProps = {
   quantity: number;
   quantityRecieved: number;
   numberOfRecipies: number | null;
+  isRecipeNumberVariant: number | null;
   facility: string | null;
   initialNode: boolean | null;
   hasExcessItems: boolean;
@@ -110,6 +112,7 @@ const Content = memo(function InnerContent(props: ContentProps) {
     quantity,
     quantityRecieved,
     numberOfRecipies,
+    isRecipeNumberVariant,
     initialNode,
     hasExcessItems,
   } = props;
@@ -146,40 +149,35 @@ const Content = memo(function InnerContent(props: ContentProps) {
       <button
         onClick={handleToggleItem}
         disabled={initialNode || false}
-        className="cursor-pointer flex flex-row gap-1 items-center justify-center pl-1 pr-2 py-1"
+        className="cursor-pointer pl-1 pr-2 py-1"
       >
-        {image && (
-          <Image
-            src={createImageUrlPath(image)}
-            alt={label}
-            width={24}
-            height={24}
-          />
-        )}
-        <div className="text-xs text-white">
-          <span className="font-semibold">{quantity}x</span> {label}
-        </div>
-
-        {/* {!initialNode && (
-          <div
-            className={cn(
-              "ml-1",
-              "text-emerald-700 cursor-pointer hover:text-emerald-500",
-              added ? "text-white hover:text-white" : "",
-            )}
-          >
-            {added ? <XSquareIcon width={16} /> : <PlusSquareIcon width={16} />}
+        {isRecipeNumberVariant !== null && (
+          <div className="w-full flex flex-row items-center justify-center text-xs text-yellow-400 pt-1">
+            Recipe option {isRecipeNumberVariant}
           </div>
-        )} */}
-      </button>
-
-      {hasExcessItems && (
-        <div className="w-full flex flex-row items-center justify-center text-xs text-sky-400 px-2 pb-1 rounded-lg">
-          {quantityRecieved - quantity} extra item
-          {quantityRecieved - quantity !== 1 ? "s" : ""} after fulfilling
-          requirement
+        )}
+        <div className="flex flex-row gap-1 items-center justify-center">
+          {image && (
+            <Image
+              src={createImageUrlPath(image)}
+              alt={label}
+              width={24}
+              height={24}
+            />
+          )}
+          <div className="text-xs text-white">
+            <span className="font-semibold">{quantity}x</span> {label}
+          </div>
         </div>
-      )}
+
+        {hasExcessItems && (
+          <div className="w-full flex flex-row items-center justify-center text-xs text-sky-400 px-2 pb-1 rounded-lg">
+            {quantityRecieved - quantity} extra item
+            {quantityRecieved - quantity !== 1 ? "s" : ""} after fulfilling
+            requirement
+          </div>
+        )}
+      </button>
 
       {numberOfRecipies && numberOfRecipies > 1 && (
         <div className="w-full flex flex-row items-center justify-center text-xs text-yellow-400 bg-neutral-900 px-2 py-1 rounded-lg">
