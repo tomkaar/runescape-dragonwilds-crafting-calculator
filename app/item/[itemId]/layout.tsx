@@ -44,7 +44,10 @@ export default function Layout(props: Props) {
                 <StarIcon />
               </Button>
             </PopoverTrigger>
-            <PopoverContent align="start">
+            <PopoverContent
+              align="start"
+              className="favourites-popover-content"
+            >
               <PopoverHeader>
                 <PopoverTitle>Favourites</PopoverTitle>
                 <PopoverDescription>
