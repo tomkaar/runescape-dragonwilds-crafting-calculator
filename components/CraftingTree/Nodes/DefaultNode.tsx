@@ -118,7 +118,11 @@ const Content = memo(function InnerContent(props: ContentProps) {
 
   return (
     <>
-      <div className="flex flex-row gap-1 items-center justify-center pl-1 pr-2 py-1">
+      <button
+        onClick={handleToggleItem}
+        disabled={initialNode || false}
+        className="cursor-pointer flex flex-row gap-1 items-center justify-center pl-1 pr-2 py-1"
+      >
         {image && (
           <Image
             src={createImageUrlPath(image)}
@@ -132,19 +136,17 @@ const Content = memo(function InnerContent(props: ContentProps) {
         </div>
 
         {!initialNode && (
-          <button
-            onClick={handleToggleItem}
+          <div
             className={cn(
-              "nodrag",
               "ml-1",
               "text-emerald-700 cursor-pointer hover:text-emerald-500",
               added ? "text-white hover:text-white" : "",
             )}
           >
             {added ? <XSquareIcon width={16} /> : <PlusSquareIcon width={16} />}
-          </button>
+          </div>
         )}
-      </div>
+      </button>
 
       {hasExcessItems && (
         <div className="w-full flex flex-row items-center justify-center text-xs text-sky-400 px-2 pb-1 rounded-lg">
