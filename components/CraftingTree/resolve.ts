@@ -103,7 +103,7 @@ export function resolveCraftingTree(args: Args) {
         image: item.image || null,
         numberOfRecipies: null,
         isRecipeNumberVariant: multipleVariants ? idx + 1 : null,
-        facility: item.facilities[0] as unknown as string | null,
+        facility: variant.recipe?.facility as unknown as string | null,
         quantityNeeded: initialNode
           ? variant.recipe?.quantity || 1
           : previousRecipipeRequiresQuantity,
