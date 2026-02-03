@@ -203,13 +203,17 @@ function MaterialTreeNode({
       key={item.nodeId}
       onClick={handleToggleItem}
       className={`cursor-pointer flex flex-row gap-2 items-center px-2 py-2 rounded-lg text-sm text-foreground w-full justify-start transition-colors ${
-        added
+        added?.state === "DONE"
           ? "bg-green-900/50 hover:bg-green-900/70"
-          : "hover:bg-accent hover:text-accent-foreground"
+          : added?.state === "TODO"
+            ? "bg-blue-900/50 hover:bg-blue-900/70"
+            : "hover:bg-accent hover:text-accent-foreground"
       }`}
     >
-      {added ? (
+      {added?.state === "DONE" ? (
         <Check width={16} height={16} />
+      ) : added?.state === "TODO" ? (
+        <Minus width={16} height={16} />
       ) : (
         <Plus width={16} height={16} />
       )}
