@@ -58,6 +58,7 @@ export function CraftingTree(props: Props) {
         fitView
         // @ts-expect-error - invalid types
         nodeTypes={nodeTypes}
+        // @ts-expect-error - invalid types
         edgeTypes={edgeTypes}
       >
         <Panel>
