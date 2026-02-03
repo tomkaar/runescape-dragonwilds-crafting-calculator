@@ -7,7 +7,6 @@ import { ItemInfoBox } from "@/components/Items/InfoBox";
 import { RequiredMaterials } from "@/components/Items/RequiredMaterials";
 import { UsedIn } from "@/components/Items/UsedIn";
 import { SelectedMaterial } from "@/components/SelectedMaterials";
-import { Button } from "@/components/ui/button";
 import { Item } from "@/Types";
 import { Group, Panel, type Layout } from "react-resizable-panels";
 

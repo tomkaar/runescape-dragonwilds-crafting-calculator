@@ -1,7 +1,7 @@
 import { Item, ItemVariant } from "@/Types";
 import { Edge } from "@xyflow/react";
-import { getItemOrVariantById } from "@/utils/getItemOrVariantById";
-import { Nodes } from "../CraftingTree/types";
+import { Node } from "@/playground/resolve-tree/nodes";
+import { getItemById } from "@/playground/resolve-tree/itemById";
 
 type MaterialTreeItemData = {
   id: string;
@@ -24,7 +24,7 @@ export type MaterialTreeItem =
  * Build a hierarchical tree structure from flat nodes and edges
  */
 export function buildMaterialsTree(
-  nodes: Nodes[],
+  nodes: Node[],
   edges: Edge[],
 ): MaterialTreeItem[] {
   // Create a map of node ID to its children
@@ -36,7 +36,7 @@ export function buildMaterialsTree(
   });
 
   // Create a map of node ID to node data
-  const nodeMap = new Map<string, Nodes>();
+  const nodeMap = new Map<string, Node>();
   nodes.forEach((node) => {
     nodeMap.set(node.id, node);
   });
@@ -46,30 +46,22 @@ export function buildMaterialsTree(
     const node = nodeMap.get(nodeId);
     if (!node) return null;
 
-    // Get item or variant info
-    const result = getItemOrVariantById(node.data.id);
-    if (!result) return null;
+    // Get item data
+    const item = getItemById(node.data.id);
+    if (!item) return null;
 
-    const item = result.type === "item" ? result.data : result.parentItem;
-    let variant: ItemVariant | undefined;
-    let variantNumber: number | undefined;
-
-    if (result.type === "variant") {
-      variant = result.data;
-      variantNumber =
-        result.parentItem.variants.findIndex((v) => v.id === variant!.id) + 1;
-    }
+    const quantity = node.data.quantityNeeded || 1;
+    const facility = node.data.facility;
+    const isEnd = node.data.leafNode || false;
 
     // Build base node
     const baseNode: MaterialTreeItem = {
       id: node.data.id,
       nodeId: node.id,
       item,
-      quantity: node.data.quantity! || 1,
-      variant,
-      variantNumber,
-      facility: node.data.facility,
-      isEnd: node.type === "material" && node.data.end,
+      quantity,
+      facility,
+      isEnd,
     };
 
     // Get children
@@ -87,10 +79,9 @@ export function buildMaterialsTree(
     return baseNode;
   };
 
-  // Find root nodes (nodes that are not targets of any edge)
-  const targetIds = new Set(edges.map((e) => e.target));
+  // Find root nodes using the initialNode flag
   const rootNodes = nodes
-    .filter((node) => !targetIds.has(node.id))
+    .filter((node) => node.data.initialNode === true)
     .map((node) => buildNode(node.id))
     .filter((node): node is MaterialTreeItem => node !== null);
 

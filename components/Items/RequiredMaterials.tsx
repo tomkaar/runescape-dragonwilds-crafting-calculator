@@ -6,7 +6,7 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
-import { resolveCraftingTree } from "../CraftingTree/resolveCraftingTree";
+import { resolveCraftingTree } from "@/playground/resolve-tree/resolve";
 import {
   buildMaterialsTree,
   type MaterialTreeItem,
@@ -26,7 +26,7 @@ export function RequiredMaterials(props: Props) {
   const panelRef = usePanelRef();
   const contentRef = useRef<HTMLDivElement>(null);
 
-  const treeData = resolveCraftingTree(props.itemId, props.itemId, 1);
+  const treeData = resolveCraftingTree({ itemId: props.itemId });
   const tree = treeData
     ? buildMaterialsTree(treeData.nodes, treeData.edges)
     : [];

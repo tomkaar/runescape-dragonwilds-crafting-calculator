@@ -3,17 +3,13 @@
 import "@xyflow/react/dist/style.css";
 
 import { ReactFlow, useEdgesState, useNodesState } from "@xyflow/react";
-import { resolveCraftingTree } from "./resolveCraftingTree";
+import { resolveCraftingTree } from "@/playground/resolve-tree/resolve";
 
-import RootNode from "./Nodes/RootNode";
-import RecipeVariantNode from "./Nodes/RecipeVariantNode";
-import MaterialNode from "./Nodes/MaterialNode";
 import CraftingTreeContent from "./CraftingTreeContent";
+import DefaultlNode from "./Nodes/DefaultNode";
 
 const nodeTypes = {
-  root: RootNode,
-  recipeVariant: RecipeVariantNode,
-  material: MaterialNode,
+  node: DefaultlNode,
 };
 
 type Props = {
@@ -21,10 +17,10 @@ type Props = {
 };
 
 export function CraftingTree(props: Props) {
-  const tree = resolveCraftingTree(props.itemId, props.itemId, 1);
+  const anotherTree = resolveCraftingTree({ itemId: props.itemId });
 
-  const [nodes, , onNodesChange] = useNodesState(tree?.nodes || []);
-  const [edges, , onEdgesChange] = useEdgesState(tree?.edges || []);
+  const [nodes, , onNodesChange] = useNodesState(anotherTree?.nodes || []);
+  const [edges, , onEdgesChange] = useEdgesState(anotherTree?.edges || []);
 
   return (
     <div className="w-full h-full bg-neutral-900 text-black">
