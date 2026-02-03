@@ -20,6 +20,11 @@ const DefaultlNode = forwardRef<HTMLDivElement, Props>(
     const items = i[props.data.initialItemId] || [];
     const added = items.some((item) => item.nodeId === props.id);
 
+    const startsWith = items
+      .map((i) => i.nodeId)
+      .filter((i) => i !== undefined)
+      .some((nodeId) => props.id.startsWith(nodeId));
+
     return (
       <div
         ref={ref}
@@ -30,6 +35,7 @@ const DefaultlNode = forwardRef<HTMLDivElement, Props>(
             props.data.numberOfRecipies > 1 &&
             "border border-dashed border-yellow-400",
           props.data.hasExcessItems ? "border border-sky-400" : "",
+          startsWith && "opacity-50",
         )}
       >
         <Content

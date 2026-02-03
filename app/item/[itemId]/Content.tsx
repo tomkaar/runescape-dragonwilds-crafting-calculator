@@ -63,7 +63,7 @@ export default function Content({
         </div>
       </Panel>
 
-      <GroupPanelSeparator horizontal />
+      {/* <GroupPanelSeparator horizontal />
 
       <Panel id="right" minSize={50} defaultSize={350}>
         <div className="min-w-88 h-full flex flex-col gap-4">
@@ -71,7 +71,7 @@ export default function Content({
             <SelectedMaterial itemId={itemId} />
           </div>
         </div>
-      </Panel>
+      </Panel> */}
     </Group>
   );
 }
