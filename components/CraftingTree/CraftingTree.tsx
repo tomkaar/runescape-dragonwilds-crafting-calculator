@@ -61,7 +61,7 @@ export function CraftingTree(props: Props) {
         // @ts-expect-error - invalid types
         edgeTypes={edgeTypes}
       >
-        <Panel>
+        <Panel position="top-right">
           <div className="">
             <AlertDialog>
               <AlertDialogTrigger asChild>
