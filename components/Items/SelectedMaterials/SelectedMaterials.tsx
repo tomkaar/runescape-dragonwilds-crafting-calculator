@@ -82,18 +82,9 @@ export function SelectedMaterial(props: Props) {
 
       <div className="overflow-scroll h-full pb-15">
         <div ref={contentRef} className="flex flex-col gap-1 w-full">
-          {tree.length === 0 ? (
-            <div className="px-2 py-2 max-w-10/12">
-              <span className="text-sm text-neutral-200">
-                No selected materials to show, click on a material in the
-                crafting tree or in the list to add materials.
-              </span>
-            </div>
-          ) : null}
           {multiplier > 1 ? (
             <div className="flex flex-row gap-2 items-center mt-2 px-4 py-3 bg-blue-950/75 rounded-lg w-full">
               <div className="grow flex flex-col">
-                <span className="text-base text-white">Multiplier active</span>
                 <span className="text-sm text-neutral-200">
                   Add materials are currently multiplied by{" "}
                   <span className="font-semibold">{multiplier}x</span>.
@@ -102,6 +93,14 @@ export function SelectedMaterial(props: Props) {
               <Button variant="ghost" onClick={() => setMultiplier(itemId, 1)}>
                 Clear
               </Button>
+            </div>
+          ) : null}
+          {tree.length === 0 ? (
+            <div className="px-2 py-2 max-w-10/12">
+              <span className="text-sm text-neutral-200">
+                No selected materials to show, click on a material in the
+                crafting tree or in the list to add materials.
+              </span>
             </div>
           ) : null}
           {multiplier > 0 ? (
