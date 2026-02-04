@@ -62,7 +62,6 @@ const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
           quantityRecieved={props.data.quantityRecieved}
           numberOfRecipies={props.data.numberOfRecipies}
           isRecipeNumberVariant={props.data.isRecipeNumberVariant}
-          initialNode={props.data.initialNode}
           hasExcessItems={props.data.hasExcessItems}
         />
         {!props.data.initialNode && (
@@ -97,7 +96,6 @@ type ContentProps = {
   numberOfRecipies: number | null;
   isRecipeNumberVariant: number | null;
   facility: string | null;
-  initialNode: boolean | null;
   hasExcessItems: boolean;
 };
 
@@ -113,7 +111,6 @@ const Content = memo(function InnerContent(props: ContentProps) {
     quantityRecieved,
     numberOfRecipies,
     isRecipeNumberVariant,
-    initialNode,
     hasExcessItems,
   } = props;
   const i = useSelectedMaterial((state) => state.items);
@@ -148,7 +145,6 @@ const Content = memo(function InnerContent(props: ContentProps) {
     <>
       <button
         onClick={handleToggleItem}
-        disabled={initialNode || false}
         className="cursor-pointer pl-1 pr-2 py-1"
       >
         {isRecipeNumberVariant !== null && (

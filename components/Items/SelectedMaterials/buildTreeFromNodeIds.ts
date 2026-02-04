@@ -41,7 +41,7 @@ export function buildTreeFromNodeIds(
     if (!material.nodeId) return;
 
     const splittedIds = material.nodeId.split("_");
-    const ids = splittedIds.slice(1);
+    const ids = splittedIds;
     if (ids.length === 0) return;
 
     let currentLevel = tree;

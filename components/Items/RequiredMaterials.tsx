@@ -51,8 +51,7 @@ export function RequiredMaterials(props: Props) {
     : [];
 
   // Skip the first layer (root node) and render its children
-  const materialsToRender =
-    tree.length > 0 && "children" in tree[0] ? tree[0].children : [];
+  const materialsToRender = tree;
 
   const numberOfMaterials = materialsToRender
     .map((item) => item.quantity)
@@ -168,7 +167,10 @@ function MaterialTreeNode({
 
   if ("children" in item && item.children.length > 0) {
     return (
-      <Collapsible key={item.nodeId}>
+      <Collapsible
+        key={item.nodeId}
+        defaultOpen={item.nodeId === initialItemId}
+      >
         <div className="flex flex-row items-center">
           {item.variantNumber === undefined && (
             <button
