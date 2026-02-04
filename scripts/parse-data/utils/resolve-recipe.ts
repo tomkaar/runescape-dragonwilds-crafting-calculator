@@ -1,13 +1,13 @@
-import { RawRecipe as RawRecipe } from "../../recipes";
+import { SourceRecipe } from "@/scripts/fetch-data/types/recipe";
 import { Facility, Material, Recipe } from "@/Types";
-import { itemIdFromName } from "./itemIdFromName";
 import { createHash } from "crypto";
+import { idFromName } from "./id-from-name";
 
-export function resolveRecipe(rawRecipe: RawRecipe): Recipe {
+export function resolveRecipe(rawRecipe: SourceRecipe): Recipe {
   const materials: Material[] = rawRecipe.json.materials
     .sort((a, b) => a.name.localeCompare(b.name))
     .map((mat) => ({
-      itemId: itemIdFromName(mat.name),
+      itemId: idFromName(mat.name),
       quantity:
         typeof mat.quantity === "string"
           ? parseFloat(mat.quantity) || 1

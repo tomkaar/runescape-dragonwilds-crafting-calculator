@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "fetchData": "pnpx tsx ./scripts/fetchData.ts"
+    "fetch-data": "tsx ./scripts/fetch-data/script.ts",
+    "parse-data": "tsx ./scripts/parse-data/script.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.1.0",

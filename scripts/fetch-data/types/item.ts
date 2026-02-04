@@ -1,18 +1,16 @@
-export type ItemsRoot = RawItem[];
-
-export interface RawItem {
+export interface SourceItem {
   page_name: string;
   item_description?: string;
   item_name: string;
   item_type: string;
   item_stacklimit?: number;
-  json: Json;
+  json: SourceItemJson;
   item_weight: number;
   page_name_sub: string;
   item_repair?: string;
 }
 
-export interface Json {
+export interface SourceItemJson {
   type: string;
   description?: string;
   image: string;
@@ -23,11 +21,11 @@ export interface Json {
   hydration?: string;
   sustenance?: string;
   repaircost?: string;
-  perk?: Perk;
+  perk?: SourcePerk;
   duration?: string;
 }
 
-export interface Perk {
+export interface SourcePerk {
   name: string;
   effect: string;
 }

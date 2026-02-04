@@ -9089,22 +9089,22 @@
     "page_name_sub": "Wither Water"
   },
   {
-    "page_name": "Cloying Damp Cowl",
+    "page_name": "VESTIGE: Cloying Damp Cowl",
     "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
-    "item_name": "Cloying Damp Cowl",
+    "item_name": "VESTIGE: Cloying Damp Cowl",
     "item_type": "Vestige",
     "item_stacklimit": 99,
     "json": {
       "type": "Vestige",
       "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
-      "image": "[[File:Cloying Damp Cowl.png|32px]]",
-      "name": "Cloying Damp Cowl",
+      "image": "[[File:VESTIGE: Cloying Damp Cowl.png|32px]]",
+      "name": "VESTIGE: Cloying Damp Cowl",
       "weight": "0.0",
       "stacklimit": "99",
-      "image_raw": "Cloying Damp Cowl.png"
+      "image_raw": "VESTIGE: Cloying Damp Cowl.png"
     },
     "item_weight": 0,
-    "page_name_sub": "Cloying Damp Cowl"
+    "page_name_sub": "VESTIGE: Cloying Damp Cowl"
   },
   {
     "page_name": "Skeleton Pack",
@@ -11142,5 +11142,23 @@
     },
     "item_weight": 1,
     "page_name_sub": "Doric's Superior Smithing Supplies"
+  },
+  {
+    "page_name": "VESTIGE: Tattered Time-Lost Cloth",
+    "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+    "item_name": "VESTIGE: Tattered Time-Lost Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+      "image": "[[File:VESTIGE: Tattered Time-Lost Cloth.png|32px]]",
+      "name": "VESTIGE: Tattered Time-Lost Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "VESTIGE: Tattered Time-Lost Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "VESTIGE: Tattered Time-Lost Cloth"
   }
 ]

@@ -5,9 +5,9 @@ import { ExternalLinkIcon, StarIcon } from "lucide-react";
 import { useFavouriteItems } from "@/store/favourite-items";
 import { Item } from "@/Types";
 import Image from "next/image";
-import { createImageUrlPath } from "@/playground/items/utils/image";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import Link from "next/link";
+import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 
 type Props = {
   item: Item;

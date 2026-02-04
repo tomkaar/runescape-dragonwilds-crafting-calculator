@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useFavouriteItems } from "@/store/favourite-items";
 import { getItemByNameOrId } from "@/utils/getItemById";
 import Link from "next/link";
-import { createImageUrlPath } from "@/playground/items/utils/image";
+import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 
 export function FavouriteItemsList() {
   const favouritedItems = useFavouriteItems((state) => state.items);

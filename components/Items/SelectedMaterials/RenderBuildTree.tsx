@@ -1,8 +1,8 @@
 import { Check } from "lucide-react";
 import Image from "next/image";
 
-import { createImageUrlPath } from "@/playground/items/utils/image";
 import { TreeItem } from "./buildTreeFromNodeIds";
+import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 
 type Props = {
   handleSetAsDone: (nodeId: string) => void;

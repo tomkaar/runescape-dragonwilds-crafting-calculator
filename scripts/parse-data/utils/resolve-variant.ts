@@ -1,13 +1,12 @@
+import { SourceRecipe } from "@/scripts/fetch-data/types/recipe";
 import { ItemVariant } from "@/Types";
 import { createHash } from "crypto";
-import { extractVariantFromImage } from "../utils/extractVariantFromImage";
-import { RawRecipe } from "../../recipes";
-import { resolveRecipe } from "./resolveRecipe";
+import variantFromImage from "./variant-from-image";
+import { resolveRecipe } from "./resolve-recipe";
 
-export function resolveVariant(rawRecipe: RawRecipe): ItemVariant | null {
+export function resolveVariant(rawRecipe: SourceRecipe): ItemVariant | null {
   const recipe = resolveRecipe(rawRecipe);
-  const variantName =
-    extractVariantFromImage(rawRecipe.json.output.image) || null;
+  const variantName = variantFromImage(rawRecipe.json.output.image) || null;
 
   const variantIdParts: Record<string, string> = {
     recipeId: recipe.id,

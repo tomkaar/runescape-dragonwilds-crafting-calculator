@@ -17,3 +17,9 @@ export function createImageUrlPath(filename: string): string {
     .replace(/\)/g, "%29");
   return `https://dragonwilds.runescape.wiki/images/${encodedFilename}`;
 }
+
+export function createImageUrl(imageMarkup?: string): string | null {
+  const filename = extractImageFilename(imageMarkup);
+  if (!filename) return null;
+  return createImageUrlPath(filename);
+}

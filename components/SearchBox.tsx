@@ -15,9 +15,9 @@ import { Item } from "@/Types";
 import itemJSON from "@/data/items.json";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { createImageUrlPath } from "@/playground/items/utils/image";
 import { useFavouriteItems } from "@/store/favourite-items";
 import { StarIcon } from "lucide-react";
+import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 
 const items = itemJSON.sort((a, b) => a.name.localeCompare(b.name)) as Item[];
 

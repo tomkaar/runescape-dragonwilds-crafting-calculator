@@ -1,7 +1,7 @@
-import { RawRecipe } from "@/playground/recipes";
+import { SourceRecipe } from "@/scripts/fetch-data/types/recipe";
 import { Item } from "@/Types";
 
-export function resolveFacilities(recipes: RawRecipe[]): Item["facilities"] {
+export function resolveFacilities(recipes: SourceRecipe[]): Item["facilities"] {
   // collect all unique facilities from the recipes
   const facilitiesSet = new Set<string>();
 

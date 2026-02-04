@@ -4,9 +4,9 @@ import { Hammer } from "lucide-react";
 import { getUsedIn } from "@/utils/getUsedIn";
 import Link from "next/link";
 import Image from "next/image";
-import { createImageUrlPath } from "@/playground/items/utils/image";
 import { Panel, usePanelRef } from "react-resizable-panels";
 import { useRef } from "react";
+import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 
 type Props = {
   itemId: string;

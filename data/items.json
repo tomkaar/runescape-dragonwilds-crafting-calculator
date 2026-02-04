@@ -28519,20 +28519,20 @@
     "wikiLink": "Wither_Water"
   },
   {
-    "id": "5bc901664ee1",
-    "name": "Cloying Damp Cowl",
-    "image": "Cloying Damp Cowl.png",
+    "id": "9862019cf379",
+    "name": "VESTIGE: Cloying Damp Cowl",
+    "image": "VESTIGE: Cloying Damp Cowl.png",
     "variants": [
       {
-        "id": "5bc901664ee1",
-        "name": "Cloying Damp Cowl",
+        "id": "9862019cf379",
+        "name": "VESTIGE: Cloying Damp Cowl",
         "variantName": null,
         "recipe": null
       }
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Cloying_Damp_Cowl"
+    "wikiLink": "VESTIGE:_Cloying_Damp_Cowl"
   },
   {
     "id": "d7ec35d0f028",
@@ -29157,5 +29157,21 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Doric's_Superior_Smithing_Supplies"
+  },
+  {
+    "id": "058c08aac2f6",
+    "name": "VESTIGE: Tattered Time-Lost Cloth",
+    "image": "VESTIGE: Tattered Time-Lost Cloth.png",
+    "variants": [
+      {
+        "id": "058c08aac2f6",
+        "name": "VESTIGE: Tattered Time-Lost Cloth",
+        "variantName": null,
+        "recipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "VESTIGE:_Tattered_Time-Lost_Cloth"
   }
 ]

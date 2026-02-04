@@ -23,12 +23,12 @@ import {
   type MaterialTreeItem,
 } from "./buildMaterialsTree";
 import Image from "next/image";
-import { createImageUrlPath } from "@/playground/items/utils/image";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { Panel, usePanelRef } from "react-resizable-panels";
 import { useRef } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "../ui/button";
+import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 
 type Props = {
   itemId: string;

@@ -4,12 +4,12 @@ import { Handle, NodeProps, Position } from "@xyflow/react";
 import Image from "next/image";
 
 import { type Node } from "@/components/CraftingTree/nodes";
-import { createImageUrlPath } from "@/scripts/utils/createImageUrl";
 import { forwardRef, memo } from "react";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import { Facility } from "@/Types";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { cn } from "@/lib/utils";
+import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 
 const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
   function InnerMaterialNode(props, ref) {

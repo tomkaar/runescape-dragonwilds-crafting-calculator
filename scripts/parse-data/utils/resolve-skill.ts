@@ -1,7 +1,7 @@
-import { RawRecipe } from "@/playground/recipes";
+import { SourceRecipe } from "@/scripts/fetch-data/types/recipe";
 import { Item } from "@/Types";
 
-export function resolveSkills(recipes: RawRecipe[]): Item["skills"] {
+export function resolveSkills(recipes: SourceRecipe[]): Item["skills"] {
   // collect all unique skills from the recipes
   const skillsSet = new Set<string>();
 

@@ -1,7 +1,7 @@
+import { SourceMaterial } from "@/scripts/fetch-data/types/recipe";
 import { createHash } from "crypto";
-import { RecipeMaterial } from "./types";
 
-export function generateRecipeVariantId(materials?: RecipeMaterial[]): string {
+export function generateRecipeVariantId(materials?: SourceMaterial[]): string {
   if (!materials || materials.length === 0) {
     return "no_materials";
   }

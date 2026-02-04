@@ -1,17 +1,15 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-
 const LIMIT = 500;
 
 const BASE_URL = "https://dragonwilds.runescape.wiki/api.php";
 const ACTION = "action=bucket";
 const FORMAT = "format=json";
 
-export default async function fetchAllBucketData(
+export default async function fetchAllBucketData<T>(
   bucketName: string,
   selectQuery: string,
-): Promise<any[]> {
+): Promise<T[]> {
   let offset = 0;
-  let allData: any[] = [];
+  let allData: T[] = [];
   let hasMore = true;
 
   while (hasMore) {
@@ -23,6 +21,7 @@ export default async function fetchAllBucketData(
     const response = await fetch(url);
     const data = await response.json();
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const items = data.bucket.map((b: any) => ({
       ...b,
       json: b.json ? JSON.parse(b.json) : undefined,
