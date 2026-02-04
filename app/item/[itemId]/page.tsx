@@ -3,10 +3,24 @@ import { notFound } from "next/navigation";
 import { cookies } from "next/headers";
 import { type Layout } from "react-resizable-panels";
 import Content from "./Content";
+import { type Metadata } from "next";
 
 type Props = {
   params: Promise<{ itemId: string }>;
 };
+
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const { itemId } = await props.params;
+  const item = getItemByNameOrId(itemId);
+
+  return {
+    title: [item?.name, "Dragonwilds Crafting Calculator"]
+      .filter((s) => s !== null && s !== undefined)
+      .join(" | "),
+    description:
+      "Calculate the materials needed to craft items in Runescape: Dragonwilds",
+  };
+}
 
 const LAYOUT_COOKIE_GROUP_ID = "item_layout";
 const LAYOUT_SIDEBAR_COOKIE_GROUP_ID = "item_sidebar_layout";
@@ -27,7 +41,6 @@ export default async function ItemPage(props: Props) {
     ? (JSON.parse(itemPageSidebarLayoutString) as Layout)
     : undefined;
 
-  console.log("Default layout from cookies:", itemPageLayout);
   const item = getItemByNameOrId(itemId);
 
   if (item === undefined) {

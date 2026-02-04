@@ -7,8 +7,8 @@ import { RequiredMaterials } from "@/components/Items/RequiredMaterials";
 import { UsedIn } from "@/components/Items/UsedIn";
 import { SelectedMaterial } from "@/components/Items/SelectedMaterials/SelectedMaterials";
 import { Item } from "@/Types";
-import { WorkflowIcon } from "lucide-react";
 import { Group, Panel, type Layout } from "react-resizable-panels";
+import { Attribution } from "@/components/Items/Attribution";
 
 export default function Content({
   itemPageLayout,
@@ -52,6 +52,8 @@ export default function Content({
           <SelectedMaterial itemId={itemId} />
           <GroupPanelSeparator />
           <UsedIn itemId={itemId} />
+          <GroupPanelSeparator />
+          <Attribution />
         </Group>
       </Panel>
 

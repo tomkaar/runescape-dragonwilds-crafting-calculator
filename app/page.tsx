@@ -1,5 +1,14 @@
 import { FavouriteItemsList } from "@/components/FavouriteItemsList";
 import { SearchBox } from "@/components/SearchBox";
+import { type Metadata } from "next";
+
+export function generateMetadata(): Metadata {
+  return {
+    title: "Dragonwilds Crafting Calculator",
+    description:
+      "Calculate the materials needed to craft items in Runescape: Dragonwilds",
+  };
+}
 
 export default function Home() {
   return (
