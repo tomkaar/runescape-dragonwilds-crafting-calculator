@@ -32,7 +32,7 @@ export function SearchBox() {
 
   return (
     <Combobox
-      items={items}
+      items={items.map((i) => ({ ...i, label: i.name }))}
       filter={fuzzyFilter}
       itemToStringValue={(item: Item) => item.name}
       onValueChange={handleAddItem}
