@@ -213,7 +213,7 @@ function MaterialTreeNode({
                 <span className="font-semibold">{item.quantity}x</span>
               )}
               {item.variantNumber === undefined && (
-                <span>{item.item.name}</span>
+                <span className="text-left">{item.item.name}</span>
               )}
               {item.variantNumber !== undefined && (
                 <span className="text-muted-foreground">
@@ -269,7 +269,7 @@ function MaterialTreeNode({
         />
       )}
       <span className="font-semibold">{item.quantity}x</span>
-      <span>{item.item.name}</span>
+      <span className="text-left">{item.item.name}</span>
       {item.variantNumber && (
         <span className="text-muted-foreground">
           (Recipe {item.variantNumber})
