@@ -53,6 +53,7 @@ export function ItemInfoBox(props: Props) {
         <div className="flex flex-row flex-wrap gap-2 mt-2">
           {item.wikiLink && (
             <Link
+              prefetch={false}
               href={{
                 pathname:
                   "https://dragonwilds.runescape.wiki/w/" + item.wikiLink,

@@ -41,6 +41,7 @@ function FavouriteItem({ id, name, image }: FavouriteItemProps) {
   return (
     <li>
       <Link
+        prefetch={false}
         href={{ pathname: `/item/${id}` }}
         className="bg-neutral-800 text-sm rounded-lg pl-1 pr-3 py-1 flex flex-row gap-1 items-center"
       >
