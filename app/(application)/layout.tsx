@@ -20,7 +20,7 @@ type Props = {
 
 export default function Layout(props: Props) {
   return (
-    <div className="h-screen flex flex-col flex-1">
+    <div className="h-screen">
       <div className="sticky top-0 border-b bg-neutral-950 border-neutral-800 flex flex-col md:flex-row gap-6 md:items-center w-full p-4">
         <Link href="/">
           <div className="flex flex-row gap-4 items-center">
@@ -72,7 +72,7 @@ export default function Layout(props: Props) {
         </div>
       </div>
 
-      <div className="grow lg:h-[calc(100vh-500px)]">{props.children}</div>
+      <div className="lg:h-[calc(100vh-69px)]">{props.children}</div>
     </div>
   );
 }
