@@ -60,6 +60,8 @@ export default function Layout(props: Props) {
               </PopoverHeader>
             </PopoverContent>
           </Popover>
+
+          <Link href={{ pathname: "/todo" }}>Todos</Link>
         </div>
 
         <div className="shrink-0 hidden md:block">
