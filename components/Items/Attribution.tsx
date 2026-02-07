@@ -4,7 +4,7 @@ import { Scale } from "lucide-react";
 import {
   CollapsiblePanelDesktop,
   CollapsiblePanelMobile,
-} from "@/components/ui/collapsible-panel";
+} from "@/components/collapsible-panel";
 
 type Props = {
   variant?: "desktop" | "mobile";

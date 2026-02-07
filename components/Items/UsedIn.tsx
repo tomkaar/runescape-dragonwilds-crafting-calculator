@@ -8,7 +8,7 @@ import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import {
   CollapsiblePanelDesktop,
   CollapsiblePanelMobile,
-} from "@/components/ui/collapsible-panel";
+} from "@/components/collapsible-panel";
 
 type Props = {
   itemId: string;

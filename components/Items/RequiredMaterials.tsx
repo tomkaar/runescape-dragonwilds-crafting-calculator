@@ -30,7 +30,7 @@ import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import {
   CollapsiblePanelDesktop,
   CollapsiblePanelMobile,
-} from "@/components/ui/collapsible-panel";
+} from "@/components/collapsible-panel";
 
 type Props = {
   itemId: string;
@@ -54,11 +54,7 @@ export function RequiredMaterials(props: Props) {
 
   const materialsToRender = tree;
 
-  const numberOfMaterials = materialsToRender
-    .map((item) => item.quantity)
-    .reduce((a, b) => a + b, 0);
-
-  const title = `Materials (${numberOfMaterials} total)`;
+  const title = `Materials`;
 
   const actions = (
     <AlertDialog>

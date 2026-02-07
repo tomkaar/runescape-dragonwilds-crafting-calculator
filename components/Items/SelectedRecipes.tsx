@@ -7,7 +7,7 @@ import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import {
   CollapsiblePanelDesktop,
   CollapsiblePanelMobile,
-} from "@/components/ui/collapsible-panel";
+} from "@/components/collapsible-panel";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { getItemById } from "@/utils/itemById";
 import { useMaterialMultiplier } from "@/store/material-multiplier";

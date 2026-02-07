@@ -6,7 +6,7 @@ import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import {
   CollapsiblePanelDesktop,
   CollapsiblePanelMobile,
-} from "@/components/ui/collapsible-panel";
+} from "@/components/collapsible-panel";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
   Field,

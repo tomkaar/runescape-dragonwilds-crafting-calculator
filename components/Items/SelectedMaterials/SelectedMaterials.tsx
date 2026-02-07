@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button";
 import {
   CollapsiblePanelDesktop,
   CollapsiblePanelMobile,
-} from "@/components/ui/collapsible-panel";
+} from "@/components/collapsible-panel";
 
 type Props = {
   itemId: string;
