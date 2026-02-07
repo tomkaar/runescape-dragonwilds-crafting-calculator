@@ -28,7 +28,6 @@ export default function ContentMobile({
           <RequiredMaterials itemId={itemId} variant="mobile" />
           <SelectedMaterial itemId={itemId} variant="mobile" />
           <UsedIn itemId={itemId} variant="mobile" />
-          <Attribution variant="mobile" />
           <AllMaterials itemId={itemId} variant="mobile" />
           <SelectedRecipes itemId={itemId} variant="mobile" />
         </div>
@@ -37,6 +36,8 @@ export default function ContentMobile({
       <div className="bg-neutral-900 w-full h-full min-h-65">
         <CraftingTree itemId={itemId} className="h-65" />
       </div>
+
+      <Attribution variant="mobile" />
     </div>
   );
 }
