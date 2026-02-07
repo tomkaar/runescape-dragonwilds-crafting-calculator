@@ -53,7 +53,7 @@ export function SelectedMaterial(props: Props) {
   );
 
   const content = (
-    <div className="px-2">
+    <div className="px-4">
       {multiplier > 1 ? (
         <div className="flex flex-row gap-2 items-center mt-2 px-4 py-1 bg-blue-950/75 rounded-lg w-full">
           <div className="grow flex flex-col">
@@ -68,7 +68,7 @@ export function SelectedMaterial(props: Props) {
         </div>
       ) : null}
       {tree.length === 0 ? (
-        <div className="py-2 max-w-10/12">
+        <div className="py-2 max-w-80">
           <span className="text-sm text-neutral-200">
             No selected materials to show, click on a material in the crafting
             tree or in the list to add materials.

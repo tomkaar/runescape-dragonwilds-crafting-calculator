@@ -21,7 +21,7 @@ export default function ContentMobile({
     <div>
       <div>
         <div className="bg-neutral-950">
-          <div className="w-full px-2 py-4 pr-6">
+          <div className="w-full px-4 py-4 pr-6">
             <ItemInfoBox item={item} itemId={itemId} />
           </div>
 

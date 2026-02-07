@@ -10,6 +10,7 @@ type BaseCollapsiblePanelProps = {
   icon?: ComponentType<{ className?: string }>;
   actions?: ReactNode;
   children: ReactNode;
+  defaultSize?: number;
   className?: string;
 };
 
@@ -20,6 +21,7 @@ export function CollapsiblePanelDesktop({
   actions,
   children,
   className,
+  defaultSize,
 }: BaseCollapsiblePanelProps) {
   const panelRef = usePanelRef();
   const contentRef = useRef<HTMLDivElement>(null);
@@ -45,6 +47,7 @@ export function CollapsiblePanelDesktop({
       minSize={52}
       collapsible
       collapsedSize={52}
+      defaultSize={defaultSize}
       className={cn("bg-neutral-950 rounded-lg", className)}
     >
       <div className="flex flex-row gap-2 items-center px-4">

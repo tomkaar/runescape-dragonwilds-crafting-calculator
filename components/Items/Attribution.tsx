@@ -37,7 +37,12 @@ export function Attribution(props: Props) {
     variant === "mobile" ? CollapsiblePanelMobile : CollapsiblePanelDesktop;
 
   return (
-    <PanelComponent id="attribution" title={title} icon={Scale}>
+    <PanelComponent
+      id="attribution"
+      title={title}
+      icon={Scale}
+      defaultSize={52}
+    >
       {content}
     </PanelComponent>
   );
