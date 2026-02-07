@@ -98,20 +98,15 @@ type TodoRecipeCardProps = {
 export function TodoRecipeCard(props: TodoRecipeCardProps) {
   const { item, materials, multiplier } = props;
 
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
   return (
-    <div className="overflow-hidden border-t border-neutral-800  ">
+    <div className="overflow-hidden">
       <div className="flex flex-row items-center gap-4">
         <button
-          className="grow text-left cursor-pointer px-4 py-1 flex flex-row items-center gap-2"
+          className="grow text-left cursor-pointer px-4 py-0 flex flex-row items-center gap-2"
           onClick={() => setOpen((prev) => !prev)}
         >
-          {open ? (
-            <ChevronUp className="w-4 h-4" />
-          ) : (
-            <ChevronDown className="w-4 h-4" />
-          )}
           <div className="text-sm">
             {item?.name} ({materials.length})
             {multiplier > 1 && (
@@ -124,27 +119,27 @@ export function TodoRecipeCard(props: TodoRecipeCardProps) {
         <div>
           <Link
             href={{ pathname: `/item/${item?.id}` }}
-            className="flex flex-row gap-2 items-center text-xs whitespace-nowrap p-4"
+            className="flex flex-row gap-2 items-center text-xs whitespace-nowrap p-2"
           >
-            See recipe
+            Recipe
           </Link>
         </div>
       </div>
 
       {open && (
-        <div className="p-4 bg-neutral-900">
+        <div className="pl-8 pr-4 py-2">
           <ul className="">
             {materials.map((mat) => (
               <li key={mat?.material?.id} className="flex flex-row gap-2">
                 {mat.material?.image && (
                   <Image
                     src={createImageUrlPath(mat.material.image)}
-                    width={28}
-                    height={28}
+                    width={22}
+                    height={22}
                     alt={mat.material.name}
                   />
                 )}
-                <span>
+                <span className="text-sm">
                   <span className="font-semibold">
                     {mat?.quantity * multiplier}x{" "}
                   </span>
