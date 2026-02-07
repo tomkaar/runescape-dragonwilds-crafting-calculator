@@ -52,9 +52,7 @@ export function CollapsiblePanelDesktop({
           onClick={togglePanel}
           className="cursor-pointer w-full flex flex-row items-center gap-2 py-4 text-sm"
         >
-          {Icon && (
-            <Icon className="w-4 h-4 text-neutral-600 fill-neutral-600" />
-          )}
+          {Icon && <Icon className="w-4 h-4 text-neutral-600" />}
           {title}
         </button>
         {actions}

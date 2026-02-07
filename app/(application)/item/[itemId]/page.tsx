@@ -24,6 +24,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 
 const LAYOUT_COOKIE_GROUP_ID = "item_layout";
 const LAYOUT_SIDEBAR_COOKIE_GROUP_ID = "item_sidebar_layout";
+const LAYOUT_SIDEBAR_RIGHT_COOKIE_GROUP_ID = "item_sidebar_right_layout";
 
 export default async function ItemPage(props: Props) {
   const { itemId } = await props.params;
@@ -33,12 +34,18 @@ export default async function ItemPage(props: Props) {
   const itemPageSidebarLayoutString = cookieStore.get(
     LAYOUT_SIDEBAR_COOKIE_GROUP_ID,
   )?.value;
+  const itemPageSidebarRightLayoutString = cookieStore.get(
+    LAYOUT_SIDEBAR_RIGHT_COOKIE_GROUP_ID,
+  )?.value;
 
   const itemPageLayout = itemPageLayoutString
     ? (JSON.parse(itemPageLayoutString) as Layout)
     : undefined;
   const itemPageSidebarLayout = itemPageSidebarLayoutString
     ? (JSON.parse(itemPageSidebarLayoutString) as Layout)
+    : undefined;
+  const itemPageSidebarRightLayout = itemPageSidebarRightLayoutString
+    ? (JSON.parse(itemPageSidebarRightLayoutString) as Layout)
     : undefined;
 
   const item = getItemByNameOrId(itemId);
@@ -51,8 +58,10 @@ export default async function ItemPage(props: Props) {
     <Content
       itemPageLayout={itemPageLayout}
       itemPageSidebarLayout={itemPageSidebarLayout}
+      itemPageSidebarRightLayout={itemPageSidebarRightLayout}
       layoutCookieID={LAYOUT_COOKIE_GROUP_ID}
       sidebarLayoutCookieID={LAYOUT_SIDEBAR_COOKIE_GROUP_ID}
+      sidebarRightLayoutCookieID={LAYOUT_SIDEBAR_RIGHT_COOKIE_GROUP_ID}
       item={item}
       itemId={itemId}
     />

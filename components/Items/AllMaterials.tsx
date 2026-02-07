@@ -1,6 +1,12 @@
 "use client";
-import Image from "next/image";
 
+import { ScrollText } from "lucide-react";
+import Image from "next/image";
+import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
+import {
+  CollapsiblePanelDesktop,
+  CollapsiblePanelMobile,
+} from "@/components/ui/collapsible-panel";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
   Field,
@@ -8,40 +14,31 @@ import {
   FieldGroup,
   FieldLabel,
 } from "@/components/ui/field";
-
-import { TodoRecipeCard } from "@/components/TodoPage/RecipeCard";
-import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
-import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { getItemById } from "@/utils/itemById";
+import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useTodoCheckedItems } from "@/store/todo-checked-items";
-import { Button } from "@/components/ui/button";
 
-export default function TodoPage() {
+type Props = {
+  itemId: string;
+  variant?: "desktop" | "mobile";
+};
+
+export function AllMaterials(props: Props) {
+  const { variant = "desktop" } = props;
+
+  const checkedItems = useTodoCheckedItems((state) => state.items);
   const multiplier = useMaterialMultiplier((state) => state.items);
   const rawRecipes = useSelectedMaterial((state) => state.items);
-  const checkedItems = useTodoCheckedItems((state) => state.items);
-  const clearitems = useTodoCheckedItems((state) => state.clear);
-  const recipes = Object.entries(rawRecipes).filter(
-    ([, value]) => Object.keys(value).length > 0,
-  );
-  const modifiedRecipes = recipes.map(([itemId, materials]) => {
-    const item = getItemById(itemId);
-    if (!item)
-      return {
-        item: null,
-        materials: [],
-      };
-
-    return {
-      itemId,
-      item,
-      materials: materials.map((item) => ({
-        material: getItemById(item.itemId),
-        quantity: item.quantity,
-      })),
-    };
-  });
+  const recipes = Object.entries(rawRecipes)
+    .map(([recipeId, value]) => {
+      const todoMaterials = value.filter((item) => item.state === "TODO");
+      return [recipeId, todoMaterials] as [
+        string,
+        { itemId: string; quantity: number }[],
+      ];
+    })
+    .filter(([, value]) => Object.keys(value).length > 0);
 
   const totalUniqueMaterialsWithQuantity = recipes.reduce<
     Record<string, number>
@@ -67,55 +64,19 @@ export default function TodoPage() {
     totalUniqueMaterialsWithQuantity,
   ).reduce((sum, quantity) => sum + quantity, 0);
 
+  const title = `All materials (${totalCountOfMaterials})`;
+
+  const PanelComponent =
+    variant === "mobile" ? CollapsiblePanelMobile : CollapsiblePanelDesktop;
+
   return (
-    <div className="h-full flex flex-col lg:flex-row">
-      <div className="h-full w-120 p-4 pr-2">
-        <div className="h-full bg-neutral-900 rounded-lg px-4 mb-4 overflow-scroll">
-          <div className="mb-6 sticky top-0 bg-neutral-900 py-4">
-            <h2 className="text-lg font-semibold">
-              Selected recipes ({recipes.length})
-            </h2>
-            <p className="text-sm text-neutral-200 max-w-80">
-              When you select a material in a recipe, the recipe will be added
-              to this list.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-4">
-            {modifiedRecipes.map(({ item, materials }) => {
-              const isMultiplier = multiplier[item?.id || ""] || 1;
-
-              return (
-                <TodoRecipeCard
-                  key={item?.id + "_" + materials.length}
-                  item={item}
-                  materials={materials}
-                  multiplier={isMultiplier}
-                />
-              );
-            })}
-          </div>
-        </div>
-      </div>
-
-      <div className="h-full w-120 p-4 pl-2">
-        <div className="h-full bg-neutral-900 rounded-lg px-4 mb-4 overflow-scroll">
-          <div className="mb-6 sticky top-0 bg-neutral-900 py-4 flex flex-row gap-2">
-            <div className="grow">
-              <h2 className="text-lg font-semibold">
-                All materials ({totalCountOfMaterials})
-              </h2>
-              <p className="text-sm text-neutral-200 max-w-80">
-                All materials needed for the selected recipes, with total
-                quantities adjusted by multipliers.
-              </p>
-            </div>
-            <div>
-              <Button onClick={clearitems} className="cursor-pointer">
-                Clear
-              </Button>
-            </div>
-          </div>
+    <PanelComponent id="all-selected-materials" title={title} icon={ScrollText}>
+      <div className="h-full w-full">
+        <div className="h-full px-4 mb-4 overflow-scroll">
+          <p className="mb-4 text-sm text-neutral-200 max-w-80">
+            All materials needed for the selected recipes, with total quantities
+            adjusted by multipliers.
+          </p>
 
           <div className="mt-4">
             {Object.entries(totalUniqueMaterialsWithQuantity).map(
@@ -142,11 +103,11 @@ export default function TodoPage() {
           </div>
         </div>
       </div>
-    </div>
+    </PanelComponent>
   );
 }
 
-type Props = {
+type CheckboxDescriptionProps = {
   id: string;
   name: string;
   quantity: number;
@@ -154,7 +115,7 @@ type Props = {
   defaultChecked: boolean;
 };
 
-export function CheckboxDescription(props: Props) {
+export function CheckboxDescription(props: CheckboxDescriptionProps) {
   const { id, name, quantity, image, defaultChecked } = props;
 
   const toggleAnItem = useTodoCheckedItems((state) => state.toggleAnItem);

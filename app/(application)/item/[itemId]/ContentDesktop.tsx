@@ -10,19 +10,25 @@ import { Item } from "@/Types";
 import { Group, Panel, usePanelRef, type Layout } from "react-resizable-panels";
 import { Attribution } from "@/components/Items/Attribution";
 import { useState } from "react";
+import { SelectedRecipes } from "@/components/Items/SelectedRecipes";
+import { AllMaterials } from "@/components/Items/AllMaterials";
 
 export default function ContentDesktop({
   itemPageLayout,
   itemPageSidebarLayout,
+  itemPageSidebarRightLayout,
   layoutCookieID,
   sidebarLayoutCookieID,
+  sidebarRightLayoutCookieID,
   item,
   itemId,
 }: {
   itemPageLayout: Layout | undefined;
   itemPageSidebarLayout: Layout | undefined;
+  itemPageSidebarRightLayout: Layout | undefined;
   layoutCookieID: string;
   sidebarLayoutCookieID: string;
+  sidebarRightLayoutCookieID: string;
   item: Item;
   itemId: string;
 }) {
@@ -95,7 +101,7 @@ export default function ContentDesktop({
 
       <GroupPanelSeparator horizontal />
 
-      <Panel id="center" minSize={50}>
+      <Panel id="center" minSize={150}>
         <div className="bg-neutral-900 w-full h-full">
           <CraftingTree
             itemId={itemId}
@@ -115,8 +121,23 @@ export default function ContentDesktop({
         collapsible
         collapsedSize={0}
         minSize={350}
+        defaultSize={350}
         className="bg-neutral-950"
-      ></Panel>
+      >
+        <Group
+          id={sidebarRightLayoutCookieID}
+          orientation="vertical"
+          defaultLayout={itemPageSidebarRightLayout}
+          onLayoutChange={(layout) => {
+            document.cookie = `${sidebarRightLayoutCookieID}=${JSON.stringify(layout)}; path=/;`;
+          }}
+          className="bg-neutral-950"
+        >
+          <AllMaterials itemId={itemId} variant="desktop" />
+          <GroupPanelSeparator />
+          <SelectedRecipes itemId={itemId} variant="desktop" />
+        </Group>
+      </Panel>
     </Group>
   );
 }

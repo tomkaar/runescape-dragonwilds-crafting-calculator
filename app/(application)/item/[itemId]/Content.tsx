@@ -8,15 +8,19 @@ import ContentMobile from "./ContentMobile";
 export default function Content({
   itemPageLayout,
   itemPageSidebarLayout,
+  itemPageSidebarRightLayout,
   layoutCookieID,
   sidebarLayoutCookieID,
+  sidebarRightLayoutCookieID,
   item,
   itemId,
 }: {
   itemPageLayout: Layout | undefined;
   itemPageSidebarLayout: Layout | undefined;
+  itemPageSidebarRightLayout: Layout | undefined;
   layoutCookieID: string;
   sidebarLayoutCookieID: string;
+  sidebarRightLayoutCookieID: string;
   item: Item;
   itemId: string;
 }) {
@@ -30,8 +34,10 @@ export default function Content({
         <ContentDesktop
           itemPageLayout={itemPageLayout}
           itemPageSidebarLayout={itemPageSidebarLayout}
+          itemPageSidebarRightLayout={itemPageSidebarRightLayout}
           layoutCookieID={layoutCookieID}
           sidebarLayoutCookieID={sidebarLayoutCookieID}
+          sidebarRightLayoutCookieID={sidebarRightLayoutCookieID}
           item={item}
           itemId={itemId}
         />
