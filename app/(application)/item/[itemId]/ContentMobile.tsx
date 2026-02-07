@@ -7,6 +7,8 @@ import { UsedIn } from "@/components/Items/UsedIn";
 import { SelectedMaterial } from "@/components/Items/SelectedMaterials/SelectedMaterials";
 import { Item } from "@/Types";
 import { Attribution } from "@/components/Items/Attribution";
+import { AllMaterials } from "@/components/Items/AllMaterials";
+import { SelectedRecipes } from "@/components/Items/SelectedRecipes";
 
 export default function ContentMobile({
   item,
@@ -27,6 +29,8 @@ export default function ContentMobile({
           <SelectedMaterial itemId={itemId} variant="mobile" />
           <UsedIn itemId={itemId} variant="mobile" />
           <Attribution variant="mobile" />
+          <AllMaterials itemId={itemId} variant="mobile" />
+          <SelectedRecipes itemId={itemId} variant="mobile" />
         </div>
       </div>
 

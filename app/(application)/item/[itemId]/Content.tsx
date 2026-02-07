@@ -25,7 +25,7 @@ export default function Content({
   itemId: string;
 }) {
   return (
-    <div className="h-full flex flex-col md:flex-row">
+    <div className="h-full flex flex-col">
       <div className="block lg:hidden">
         <ContentMobile item={item} itemId={itemId} />
       </div>
