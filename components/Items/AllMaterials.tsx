@@ -18,6 +18,7 @@ import { useSelectedMaterial } from "@/store/selected-material";
 import { getItemById } from "@/utils/itemById";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useTodoCheckedItems } from "@/store/todo-checked-items";
+import { cn } from "@/lib/utils";
 
 type Props = {
   itemId: string;
@@ -132,11 +133,15 @@ export function CheckboxDescription(props: CheckboxDescriptionProps) {
           name={`checkbox-${name}`}
           checked={defaultChecked}
           onCheckedChange={() => toggleAnItem(id)}
+          className="group"
         />
         <FieldContent>
           <FieldLabel
             htmlFor={`checkbox-${name}`}
-            className="flex flex-row gap-2 items-center"
+            className={cn(
+              "flex flex-row gap-2 items-center",
+              defaultChecked ? "opacity-50" : "",
+            )}
           >
             {image && (
               <Image
