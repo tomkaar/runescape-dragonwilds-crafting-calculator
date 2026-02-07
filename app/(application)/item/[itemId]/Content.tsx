@@ -1,14 +1,10 @@
 "use client";
 
-import { CraftingTree } from "@/components/CraftingTree/CraftingTree";
-import { GroupPanelSeparator } from "@/components/GroupPanelSeparator";
-import { ItemInfoBox } from "@/components/Items/InfoBox";
-import { RequiredMaterials } from "@/components/Items/RequiredMaterials";
-import { UsedIn } from "@/components/Items/UsedIn";
-import { SelectedMaterial } from "@/components/Items/SelectedMaterials/SelectedMaterials";
 import { Item } from "@/Types";
-import { Group, Panel, type Layout } from "react-resizable-panels";
-import { Attribution } from "@/components/Items/Attribution";
+import { type Layout } from "react-resizable-panels";
+import { useScreenWidth } from "@/hook/useScreenWidth";
+import ContentDesktop from "./ContentDesktop";
+import ContentMobile from "./ContentMobile";
 
 export default function Content({
   itemPageLayout,
@@ -25,45 +21,18 @@ export default function Content({
   item: Item;
   itemId: string;
 }) {
-  return (
-    <Group
-      id={layoutCookieID}
-      defaultLayout={itemPageLayout}
-      onLayoutChange={(layout) => {
-        document.cookie = `${layoutCookieID}=${JSON.stringify(layout)}; path=/;`;
-      }}
-    >
-      <Panel id="left" minSize={350} defaultSize={350}>
-        <Group
-          id={sidebarLayoutCookieID}
-          orientation="vertical"
-          defaultLayout={itemPageSidebarLayout}
-          onLayoutChange={(layout) => {
-            document.cookie = `${sidebarLayoutCookieID}=${JSON.stringify(layout)}; path=/;`;
-          }}
-          className="bg-neutral-950 pl-2"
-        >
-          <div className="px-2 py-4 border-b border-neutral-800">
-            <ItemInfoBox item={item} itemId={itemId} />
-          </div>
-
-          <RequiredMaterials itemId={itemId} />
-          <GroupPanelSeparator />
-          <SelectedMaterial itemId={itemId} />
-          <GroupPanelSeparator />
-          <UsedIn itemId={itemId} />
-          <GroupPanelSeparator />
-          <Attribution />
-        </Group>
-      </Panel>
-
-      <GroupPanelSeparator horizontal />
-
-      <Panel id="center" minSize={50}>
-        <div className="bg-neutral-900 w-full h-full">
-          <CraftingTree itemId={itemId} />
-        </div>
-      </Panel>
-    </Group>
-  );
+  const isLargerThan768 = useScreenWidth(768);
+  if (isLargerThan768) {
+    return (
+      <ContentDesktop
+        itemPageLayout={itemPageLayout}
+        itemPageSidebarLayout={itemPageSidebarLayout}
+        layoutCookieID={layoutCookieID}
+        sidebarLayoutCookieID={sidebarLayoutCookieID}
+        item={item}
+        itemId={itemId}
+      />
+    );
+  }
+  return <ContentMobile item={item} itemId={itemId} />;
 }

@@ -4,56 +4,36 @@ import { Hammer } from "lucide-react";
 import { getUsedIn } from "@/utils/getUsedIn";
 import Link from "next/link";
 import Image from "next/image";
-import { Panel, usePanelRef } from "react-resizable-panels";
-import { useRef } from "react";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
+import {
+  CollapsiblePanelDesktop,
+  CollapsiblePanelMobile,
+} from "@/components/ui/collapsible-panel";
 
 type Props = {
   itemId: string;
+  variant?: "desktop" | "mobile";
 };
 
 export function UsedIn(props: Props) {
-  const panelRef = usePanelRef();
-  const contentRef = useRef<HTMLDivElement>(null);
+  const { variant = "desktop" } = props;
   const usedIn = getUsedIn(props.itemId);
 
-  const togglePanel = () => {
-    if (panelRef.current) {
-      if (panelRef.current.isCollapsed()) {
-        panelRef.current.expand();
-        const contentHeight = contentRef.current?.offsetHeight;
-        panelRef.current.expand();
-        panelRef.current.resize(
-          contentHeight ? contentHeight + 52 + 20 : "50%",
-        );
-      } else {
-        panelRef.current.collapse();
-      }
-    }
-  };
+  const title = `Used In (${usedIn.length})`;
+
+  const content = (
+    <div className="px-4">
+      <Context usedIn={usedIn} />
+    </div>
+  );
+
+  const PanelComponent =
+    variant === "mobile" ? CollapsiblePanelMobile : CollapsiblePanelDesktop;
 
   return (
-    <Panel
-      id="used-in"
-      panelRef={panelRef}
-      minSize={52}
-      collapsible
-      collapsedSize={52}
-      className="bg-neutral-950 rounded-lg"
-    >
-      <button
-        onClick={togglePanel}
-        className="cursor-pointer w-full flex flex-row items-center gap-2 px-4 py-4 text-sm"
-      >
-        <Hammer className="w-4 h-4 text-neutral-600 fill-neutral-600" />
-        Used In ({usedIn.length})
-      </button>
-      <div className="px-4 pt-2 overflow-scroll h-full pb-15">
-        <div ref={contentRef}>
-          <Context usedIn={usedIn} />
-        </div>
-      </div>
-    </Panel>
+    <PanelComponent id="used-in" title={title} icon={Hammer}>
+      {content}
+    </PanelComponent>
   );
 }
 

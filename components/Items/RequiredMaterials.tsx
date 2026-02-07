@@ -24,19 +24,21 @@ import {
 } from "./buildMaterialsTree";
 import Image from "next/image";
 import { useSelectedMaterial } from "@/store/selected-material";
-import { Panel, usePanelRef } from "react-resizable-panels";
-import { useRef } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "../ui/button";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
+import {
+  CollapsiblePanelDesktop,
+  CollapsiblePanelMobile,
+} from "@/components/ui/collapsible-panel";
 
 type Props = {
   itemId: string;
+  variant?: "desktop" | "mobile";
 };
 
 export function RequiredMaterials(props: Props) {
-  const panelRef = usePanelRef();
-  const contentRef = useRef<HTMLDivElement>(null);
+  const { variant = "desktop" } = props;
 
   const clearMarkedMaterials = useSelectedMaterial(
     (state) => state.clearMarkedMaterials,
@@ -50,79 +52,61 @@ export function RequiredMaterials(props: Props) {
     ? buildMaterialsTree(treeData.nodes, treeData.edges)
     : [];
 
-  // Skip the first layer (root node) and render its children
   const materialsToRender = tree;
 
   const numberOfMaterials = materialsToRender
     .map((item) => item.quantity)
     .reduce((a, b) => a + b, 0);
 
-  const togglePanel = () => {
-    if (panelRef.current) {
-      if (panelRef.current.isCollapsed()) {
-        panelRef.current.expand();
-        const contentHeight = contentRef.current?.offsetHeight;
-        panelRef.current.expand();
-        panelRef.current.resize(
-          contentHeight ? contentHeight + 52 + 20 : "50%",
-        );
-      } else {
-        panelRef.current.collapse();
-      }
-    }
-  };
+  const title = `Materials (${numberOfMaterials} total)`;
+
+  const actions = (
+    <AlertDialog>
+      <AlertDialogTrigger asChild>
+        <Button variant="ghost">Clear selection</Button>
+      </AlertDialogTrigger>
+      <AlertDialogContent>
+        <AlertDialogHeader>
+          <AlertDialogTitle>Clear marked materials?</AlertDialogTitle>
+          <AlertDialogDescription>
+            Are you sure you want to clear all marked materials? This action
+            cannot be undone.
+          </AlertDialogDescription>
+        </AlertDialogHeader>
+        <AlertDialogFooter>
+          <AlertDialogCancel>Cancel</AlertDialogCancel>
+          <AlertDialogAction onClick={handleClearMarkedMaterials}>
+            Continue
+          </AlertDialogAction>
+        </AlertDialogFooter>
+      </AlertDialogContent>
+    </AlertDialog>
+  );
+
+  const content = (
+    <>
+      {materialsToRender.map((item) => (
+        <MaterialTreeNode
+          key={item.nodeId}
+          item={item}
+          initialItemId={props.itemId}
+        />
+      ))}
+    </>
+  );
+
+  const PanelComponent =
+    variant === "mobile" ? CollapsiblePanelMobile : CollapsiblePanelDesktop;
 
   return (
-    <Panel
+    <PanelComponent
       id="materials"
-      panelRef={panelRef}
-      minSize={52}
-      collapsible
-      collapsedSize={52}
-      className="bg-neutral-950 rounded-lg"
+      title={title}
+      icon={CirclePile}
+      actions={actions}
     >
-      <div className="flex flex-row gap-2 items-center px-4">
-        <button
-          onClick={togglePanel}
-          className="cursor-pointer w-full flex flex-row items-center gap-2 py-4 text-sm"
-        >
-          <CirclePile className="w-4 h-4 text-neutral-600 fill-neutral-600" />
-          Materials ({numberOfMaterials} total)
-        </button>
-        <AlertDialog>
-          <AlertDialogTrigger asChild>
-            <Button variant="ghost">Clear selection</Button>
-          </AlertDialogTrigger>
-          <AlertDialogContent>
-            <AlertDialogHeader>
-              <AlertDialogTitle>Clear marked materials?</AlertDialogTitle>
-              <AlertDialogDescription>
-                Are you sure you want to clear all marked materials? This action
-                cannot be undone.
-              </AlertDialogDescription>
-            </AlertDialogHeader>
-            <AlertDialogFooter>
-              <AlertDialogCancel>Cancel</AlertDialogCancel>
-              <AlertDialogAction onClick={handleClearMarkedMaterials}>
-                Continue
-              </AlertDialogAction>
-            </AlertDialogFooter>
-          </AlertDialogContent>
-        </AlertDialog>
-      </div>
-
-      <div className="pt-2 overflow-scroll h-full pb-15">
-        <div ref={contentRef} className="flex flex-col gap-1 w-full">
-          {materialsToRender.map((item) => (
-            <MaterialTreeNode
-              key={item.nodeId}
-              item={item}
-              initialItemId={props.itemId}
-            />
-          ))}
-        </div>
-      </div>
-    </Panel>
+      {content}
+    </PanelComponent>
   );
 }
 

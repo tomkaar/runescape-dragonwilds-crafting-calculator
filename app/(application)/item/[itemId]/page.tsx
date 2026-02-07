@@ -48,7 +48,7 @@ export default async function ItemPage(props: Props) {
   }
 
   return (
-    <div className="h-full flex flex-row">
+    <div className="h-full flex flex-col lg:flex-row">
       <Content
         itemPageLayout={itemPageLayout}
         itemPageSidebarLayout={itemPageSidebarLayout}

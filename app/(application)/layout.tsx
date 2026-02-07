@@ -61,7 +61,7 @@ export default function Layout(props: Props) {
             </PopoverContent>
           </Popover>
 
-          <Link href={{ pathname: "/todo" }}>Todos</Link>
+          <Link href={{ pathname: "/todo" }}>Todo&apos;s</Link>
         </div>
 
         <div className="shrink-0 hidden md:block">
@@ -74,7 +74,7 @@ export default function Layout(props: Props) {
         </div>
       </div>
 
-      <div className="lg:h-[calc(100vh-69px)]">{props.children}</div>
+      <div className="h-full lg:h-[calc(100vh-69px)]">{props.children}</div>
     </div>
   );
 }
