@@ -146,6 +146,7 @@ const Content = memo(function InnerContent(props: ContentProps) {
       <button
         onClick={handleToggleItem}
         className="cursor-pointer pl-1 pr-2 py-1"
+        disabled={isRecipeNumberVariant !== null}
       >
         {isRecipeNumberVariant !== null && (
           <div className="w-full flex flex-row items-center justify-center text-xs text-yellow-400 pt-1">

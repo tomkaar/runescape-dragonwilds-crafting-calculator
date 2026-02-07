@@ -62,6 +62,7 @@ export function buildMaterialsTree(
       quantity,
       facility,
       isEnd,
+      variantNumber: node.data.isRecipeNumberVariant || undefined,
     };
 
     // Get children
