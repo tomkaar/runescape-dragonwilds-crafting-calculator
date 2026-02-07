@@ -59,7 +59,7 @@ export function RequiredMaterials(props: Props) {
   const actions = (
     <AlertDialog>
       <AlertDialogTrigger asChild>
-        <Button variant="ghost">Clear selection</Button>
+        <Button variant="outline">Clear selection</Button>
       </AlertDialogTrigger>
       <AlertDialogContent>
         <AlertDialogHeader>

@@ -13,6 +13,7 @@ import { getItemById } from "@/utils/itemById";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useState } from "react";
 import { Item } from "@/Types";
+import { Button } from "../ui/button";
 
 type Props = {
   itemId: string;
@@ -61,7 +62,7 @@ export function SelectedRecipes(props: Props) {
     <PanelComponent id="selected-recipes" title={title} icon={BookCopy}>
       <div className="h-full w-full">
         <div className="h-full px-4 mb-4 overflow-scroll">
-          <p className="mb-4 text-sm text-neutral-200 max-w-80">
+          <p className="mb-4 text-sm text-neutral-200 max-w-68">
             When you select a material in a recipe, the recipe will be added to
             this list.
           </p>

@@ -19,6 +19,7 @@ import { getItemById } from "@/utils/itemById";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useTodoCheckedItems } from "@/store/todo-checked-items";
 import { cn } from "@/lib/utils";
+import { Button } from "../ui/button";
 
 type Props = {
   itemId: string;
@@ -29,6 +30,7 @@ export function AllMaterials(props: Props) {
   const { variant = "desktop" } = props;
 
   const checkedItems = useTodoCheckedItems((state) => state.items);
+  const clear = useTodoCheckedItems((state) => state.clear);
   const multiplier = useMaterialMultiplier((state) => state.items);
   const rawRecipes = useSelectedMaterial((state) => state.items);
   const recipes = Object.entries(rawRecipes)
@@ -67,11 +69,22 @@ export function AllMaterials(props: Props) {
 
   const title = `All selected materials (${totalCountOfMaterials})`;
 
+  const actions = (
+    <Button variant="outline" onClick={clear}>
+      Clear
+    </Button>
+  );
+
   const PanelComponent =
     variant === "mobile" ? CollapsiblePanelMobile : CollapsiblePanelDesktop;
 
   return (
-    <PanelComponent id="all-selected-materials" title={title} icon={ScrollText}>
+    <PanelComponent
+      id="all-selected-materials"
+      title={title}
+      icon={ScrollText}
+      actions={actions}
+    >
       <div className="h-full w-full">
         <div className="h-full px-4 mb-4 overflow-scroll">
           <p className="mb-4 text-sm text-neutral-200 max-w-80">
