@@ -84,7 +84,7 @@ export function RequiredMaterials(props: Props) {
   );
 
   const content = (
-    <>
+    <div className="px-4">
       {materialsToRender.map((item) => (
         <MaterialTreeNode
           key={item.nodeId}
@@ -92,7 +92,7 @@ export function RequiredMaterials(props: Props) {
           initialItemId={props.itemId}
         />
       ))}
-    </>
+    </div>
   );
 
   const PanelComponent =

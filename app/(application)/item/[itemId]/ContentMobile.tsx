@@ -31,7 +31,7 @@ export default function ContentMobile({
       </div>
 
       <div className="bg-neutral-900 w-full h-full min-h-65">
-        <CraftingTree itemId={itemId} />
+        <CraftingTree itemId={itemId} className="h-65" />
       </div>
     </div>
   );

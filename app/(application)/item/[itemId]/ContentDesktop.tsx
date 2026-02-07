@@ -7,8 +7,9 @@ import { RequiredMaterials } from "@/components/Items/RequiredMaterials";
 import { UsedIn } from "@/components/Items/UsedIn";
 import { SelectedMaterial } from "@/components/Items/SelectedMaterials/SelectedMaterials";
 import { Item } from "@/Types";
-import { Group, Panel, type Layout } from "react-resizable-panels";
+import { Group, Panel, usePanelRef, type Layout } from "react-resizable-panels";
 import { Attribution } from "@/components/Items/Attribution";
+import { useState } from "react";
 
 export default function ContentDesktop({
   itemPageLayout,
@@ -25,15 +26,36 @@ export default function ContentDesktop({
   item: Item;
   itemId: string;
 }) {
+  const sidebarRef = usePanelRef();
+  const [sidebarIsCollapsed, setSidebarIsCollapsed] = useState(false);
+
+  const toggleSidebar = () => {
+    if (sidebarRef.current) {
+      if (sidebarRef.current.isCollapsed()) {
+        sidebarRef.current.expand();
+      } else {
+        sidebarRef.current.collapse();
+      }
+    }
+  };
+
   return (
     <Group
       id={layoutCookieID}
       defaultLayout={itemPageLayout}
       onLayoutChange={(layout) => {
+        setSidebarIsCollapsed(layout.sidebar === 0);
         document.cookie = `${layoutCookieID}=${JSON.stringify(layout)}; path=/;`;
       }}
     >
-      <Panel id="left" minSize={350} defaultSize={350}>
+      <Panel
+        id="sidebar"
+        panelRef={sidebarRef}
+        minSize={350}
+        defaultSize={350}
+        collapsible
+        collapsedSize={0}
+      >
         <Group
           id={sidebarLayoutCookieID}
           orientation="vertical"
@@ -61,7 +83,11 @@ export default function ContentDesktop({
 
       <Panel id="center" minSize={50}>
         <div className="bg-neutral-900 w-full h-full">
-          <CraftingTree itemId={itemId} />
+          <CraftingTree
+            itemId={itemId}
+            sidebarIsCollapsed={sidebarIsCollapsed}
+            toggleSidebar={toggleSidebar}
+          />
         </div>
       </Panel>
     </Group>

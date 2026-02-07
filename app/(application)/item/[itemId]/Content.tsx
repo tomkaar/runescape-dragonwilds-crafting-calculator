@@ -2,7 +2,6 @@
 
 import { Item } from "@/Types";
 import { type Layout } from "react-resizable-panels";
-import { useScreenWidth } from "@/hook/useScreenWidth";
 import ContentDesktop from "./ContentDesktop";
 import ContentMobile from "./ContentMobile";
 
@@ -21,18 +20,22 @@ export default function Content({
   item: Item;
   itemId: string;
 }) {
-  const isLargerThan768 = useScreenWidth(768);
-  if (isLargerThan768) {
-    return (
-      <ContentDesktop
-        itemPageLayout={itemPageLayout}
-        itemPageSidebarLayout={itemPageSidebarLayout}
-        layoutCookieID={layoutCookieID}
-        sidebarLayoutCookieID={sidebarLayoutCookieID}
-        item={item}
-        itemId={itemId}
-      />
-    );
-  }
-  return <ContentMobile item={item} itemId={itemId} />;
+  return (
+    <div className="h-full flex flex-col md:flex-row">
+      <div className="block lg:hidden">
+        <ContentMobile item={item} itemId={itemId} />
+      </div>
+
+      <div className="h-full w-full hidden lg:block">
+        <ContentDesktop
+          itemPageLayout={itemPageLayout}
+          itemPageSidebarLayout={itemPageSidebarLayout}
+          layoutCookieID={layoutCookieID}
+          sidebarLayoutCookieID={sidebarLayoutCookieID}
+          item={item}
+          itemId={itemId}
+        />
+      </div>
+    </div>
+  );
 }

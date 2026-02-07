@@ -48,15 +48,13 @@ export default async function ItemPage(props: Props) {
   }
 
   return (
-    <div className="h-full flex flex-col lg:flex-row">
-      <Content
-        itemPageLayout={itemPageLayout}
-        itemPageSidebarLayout={itemPageSidebarLayout}
-        layoutCookieID={LAYOUT_COOKIE_GROUP_ID}
-        sidebarLayoutCookieID={LAYOUT_SIDEBAR_COOKIE_GROUP_ID}
-        item={item}
-        itemId={itemId}
-      />
-    </div>
+    <Content
+      itemPageLayout={itemPageLayout}
+      itemPageSidebarLayout={itemPageSidebarLayout}
+      layoutCookieID={LAYOUT_COOKIE_GROUP_ID}
+      sidebarLayoutCookieID={LAYOUT_SIDEBAR_COOKIE_GROUP_ID}
+      item={item}
+      itemId={itemId}
+    />
   );
 }
