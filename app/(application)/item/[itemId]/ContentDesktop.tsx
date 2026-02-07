@@ -27,7 +27,10 @@ export default function ContentDesktop({
   itemId: string;
 }) {
   const sidebarRef = usePanelRef();
+  const sidebarRightRef = usePanelRef();
+
   const [sidebarIsCollapsed, setSidebarIsCollapsed] = useState(false);
+  const [rightSidebarIsCollapsed, setRightSidebarIsCollapsed] = useState(false);
 
   const toggleSidebar = () => {
     if (sidebarRef.current) {
@@ -39,12 +42,23 @@ export default function ContentDesktop({
     }
   };
 
+  const toggleRightSidebar = () => {
+    if (sidebarRightRef.current) {
+      if (sidebarRightRef.current.isCollapsed()) {
+        sidebarRightRef.current.expand();
+      } else {
+        sidebarRightRef.current.collapse();
+      }
+    }
+  };
+
   return (
     <Group
       id={layoutCookieID}
       defaultLayout={itemPageLayout}
       onLayoutChange={(layout) => {
         setSidebarIsCollapsed(layout.sidebar === 0);
+        setRightSidebarIsCollapsed(layout["sidebar-right"] === 0);
         document.cookie = `${layoutCookieID}=${JSON.stringify(layout)}; path=/;`;
       }}
     >
@@ -86,10 +100,23 @@ export default function ContentDesktop({
           <CraftingTree
             itemId={itemId}
             sidebarIsCollapsed={sidebarIsCollapsed}
+            rightSidebarIsCollapsed={rightSidebarIsCollapsed}
             toggleSidebar={toggleSidebar}
+            toggleRightSidebar={toggleRightSidebar}
           />
         </div>
       </Panel>
+
+      <GroupPanelSeparator horizontal />
+
+      <Panel
+        id="sidebar-right"
+        panelRef={sidebarRightRef}
+        collapsible
+        collapsedSize={0}
+        minSize={350}
+        className="bg-neutral-950"
+      ></Panel>
     </Group>
   );
 }

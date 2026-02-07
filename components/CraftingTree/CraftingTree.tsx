@@ -22,7 +22,12 @@ import CraftingTreeContent from "./CraftingTreeContent";
 import DefaultlNode from "./Nodes/DefaultNode";
 import { useSelectedMaterial } from "@/store/selected-material";
 import DefaultEdge from "./Edges/DefaultEdge";
-import { PanelLeftCloseIcon, PanelLeftOpenIcon } from "lucide-react";
+import {
+  PanelLeftCloseIcon,
+  PanelLeftOpenIcon,
+  PanelRightCloseIcon,
+  PanelRightOpenIcon,
+} from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const nodeTypes = {
@@ -35,7 +40,9 @@ const edgeTypes = {
 type Props = {
   itemId: string;
   sidebarIsCollapsed?: boolean;
+  rightSidebarIsCollapsed?: boolean;
   toggleSidebar?: () => void;
+  toggleRightSidebar?: () => void;
   className?: string;
 };
 
@@ -80,7 +87,7 @@ export function CraftingTree(props: Props) {
           </Panel>
         )}
 
-        <Panel position="top-right">
+        <Panel position="top-center">
           <div className="">
             <AlertDialog>
               <AlertDialogTrigger asChild>
@@ -104,6 +111,20 @@ export function CraftingTree(props: Props) {
             </AlertDialog>
           </div>
         </Panel>
+
+        {props.rightSidebarIsCollapsed !== undefined &&
+          props.toggleRightSidebar && (
+            <Panel position="top-right">
+              <Button onClick={props.toggleRightSidebar} variant="secondary">
+                {props.rightSidebarIsCollapsed ? (
+                  <PanelRightOpenIcon className="w-2 h-2" />
+                ) : (
+                  <PanelRightCloseIcon className="w-2 h-2" />
+                )}
+              </Button>
+            </Panel>
+          )}
+
         <CraftingTreeContent />
       </ReactFlow>
     </div>
