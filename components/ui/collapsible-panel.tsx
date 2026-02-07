@@ -61,7 +61,7 @@ export function CollapsiblePanelDesktop({
         {actions}
       </div>
 
-      <div className="pt-2 overflow-scroll h-full pb-15">
+      <div className="overflow-scroll h-full pb-15">
         <div ref={contentRef} className="flex flex-col gap-1 w-full">
           {children}
         </div>

@@ -85,7 +85,7 @@ export default function ContentDesktop({
           }}
           className="bg-neutral-950"
         >
-          <div className="px-4 py-4 border-b border-neutral-800">
+          <div className="px-4 py-4 border-b border-neutral-700">
             <ItemInfoBox item={item} itemId={itemId} />
           </div>
 

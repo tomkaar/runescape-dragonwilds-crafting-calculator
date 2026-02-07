@@ -1,6 +1,6 @@
 "use client";
 
-import { BookCopy, ChevronDown, ChevronUp } from "lucide-react";
+import { BookCopy } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
@@ -52,7 +52,7 @@ export function SelectedRecipes(props: Props) {
     };
   });
 
-  const title = `Selected recipes (${recipes.length})`;
+  const title = `All selected recipes (${recipes.length})`;
 
   const PanelComponent =
     variant === "mobile" ? CollapsiblePanelMobile : CollapsiblePanelDesktop;

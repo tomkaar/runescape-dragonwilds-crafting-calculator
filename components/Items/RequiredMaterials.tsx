@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, ChevronDown, CirclePile, Minus, Plus } from "lucide-react";
+import { Check, ChevronDown, ListTree, Minus, Plus } from "lucide-react";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -102,7 +102,7 @@ export function RequiredMaterials(props: Props) {
     <PanelComponent
       id="materials"
       title={title}
-      icon={CirclePile}
+      icon={ListTree}
       actions={actions}
     >
       {content}

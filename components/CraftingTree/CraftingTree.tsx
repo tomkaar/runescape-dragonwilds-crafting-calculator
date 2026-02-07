@@ -69,6 +69,7 @@ export function CraftingTree(props: Props) {
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         draggable={false}
+        maxZoom={1.75}
         fitView
         // @ts-expect-error - invalid types
         nodeTypes={nodeTypes}

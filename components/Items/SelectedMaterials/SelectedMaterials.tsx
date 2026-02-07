@@ -37,7 +37,7 @@ export function SelectedMaterial(props: Props) {
 
   const tree = buildTreeFromNodeIds(selectedMaterials);
 
-  const title = "Todo's";
+  const title = "Selected materials ";
 
   const actions = (
     <Input
@@ -46,7 +46,7 @@ export function SelectedMaterial(props: Props) {
       autoComplete="off"
       min={1}
       max={1000}
-      className="max-w-32"
+      className="max-w-20"
       value={multiplier}
       onChange={(e) => setMultiplier(itemId, parseInt(e.target.value))}
     />

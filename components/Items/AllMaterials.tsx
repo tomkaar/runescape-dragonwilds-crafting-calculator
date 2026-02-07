@@ -65,7 +65,7 @@ export function AllMaterials(props: Props) {
     totalUniqueMaterialsWithQuantity,
   ).reduce((sum, quantity) => sum + quantity, 0);
 
-  const title = `All materials (${totalCountOfMaterials})`;
+  const title = `All selected materials (${totalCountOfMaterials})`;
 
   const PanelComponent =
     variant === "mobile" ? CollapsiblePanelMobile : CollapsiblePanelDesktop;
