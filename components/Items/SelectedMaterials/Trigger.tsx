@@ -1,5 +1,6 @@
 "use client";
 
+import { cn } from "@/lib/utils";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { ListTodoIcon } from "lucide-react";
 
@@ -17,7 +18,12 @@ export function SelectedMaterialsTrigger(props: Props) {
       <ListTodoIcon className="w-4 h-4 text-neutral-600" />
       <div className="text-left flex flex-col">
         <span>Selected Materials</span>
-        <span className="font-semibold text-xs text-yellow-400">
+        <span
+          className={cn(
+            "font-semibold text-xs text-neutral-400",
+            multiplier > 1 && "text-yellow-400",
+          )}
+        >
           Multiplier: x{multiplier}
         </span>
       </div>
