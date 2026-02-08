@@ -21,6 +21,7 @@ export function AllRecipesDesktopPanel() {
     <CollapsiblePanelDesktopRoot
       id={ITEM_PANEL_CONFIGS.selectedRecipes.id}
       defaultSize={ITEM_PANEL_CONFIGS.selectedRecipes.defaultSize}
+      minSize={ITEM_PANEL_CONFIGS.selectedRecipes.minSize}
     >
       <CollapsiblePanelDesktopButtonLayout>
         <CollapsiblePanelDesktopButtonTrigger>
