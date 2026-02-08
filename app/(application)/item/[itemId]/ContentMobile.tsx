@@ -22,10 +22,7 @@ export default function ContentMobile({
     <div>
       <div>
         <div className="bg-neutral-950">
-          <div className="w-full px-4 py-4 pr-6">
-            <ItemInfoBox item={item} itemId={itemId} />
-          </div>
-
+          <ItemInfoBox item={item} itemId={itemId} />
           <RequiredMaterials itemId={itemId} variant="mobile" />
           <SelectedMaterial itemId={itemId} variant="mobile" />
           <UsedIn itemId={itemId} variant="mobile" />

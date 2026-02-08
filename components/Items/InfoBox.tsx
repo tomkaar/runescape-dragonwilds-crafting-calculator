@@ -27,7 +27,7 @@ export function ItemInfoBox(props: Props) {
   const unqieFacilities = Array.from(new Set(item.facilities));
 
   return (
-    <div>
+    <div className="px-4 py-4 border-b border-neutral-700">
       <div className="flex flex-row gap-4 items-center">
         <div className="grow flex flex-row items-center">
           {item.image && (
