@@ -39,7 +39,7 @@ export function AllRecipesDesktopPanel() {
 
 export function AllRecipesMobilePanel() {
   return (
-    <CollapsiblePanelMobileRoot>
+    <CollapsiblePanelMobileRoot id={ITEM_PANEL_CONFIGS.selectedRecipes.id}>
       <CollapsiblePanelMobileButtonLayout>
         <CollapsiblePanelMobileButtonTrigger>
           <AllRecipesTrigger />

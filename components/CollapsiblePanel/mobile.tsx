@@ -8,6 +8,7 @@ import {
   useState,
 } from "react";
 import { cn } from "@/lib/utils";
+import { useMobilePanelsState } from "@/store/mobile-panel-state";
 
 type ContextValue = {
   togglePanel: () => void;
@@ -81,24 +82,29 @@ export function CollapsiblePanelMobileContent({
 }
 
 type CollapsiblePanelMobileProps = {
+  id: string;
   children: ReactNode;
   className?: string;
 };
 export function CollapsiblePanelMobileRoot({
+  id,
   children,
   className,
 }: CollapsiblePanelMobileProps) {
-  const [isOpen, setIsOpen] = useState(false);
+  const { panels, togglePanel } = useMobilePanelsState();
+  const isOpen = panels[id] || false;
 
-  const togglePanel = () => {
-    setIsOpen(!isOpen);
+  const handleTogglePanel = () => {
+    togglePanel(id);
   };
 
   return (
     <div
       className={cn("bg-neutral-950 border-t border-neutral-800", className)}
     >
-      <CollapsiblePanelMobileContext.Provider value={{ togglePanel, isOpen }}>
+      <CollapsiblePanelMobileContext.Provider
+        value={{ togglePanel: handleTogglePanel, isOpen }}
+      >
         {children}
       </CollapsiblePanelMobileContext.Provider>
     </div>

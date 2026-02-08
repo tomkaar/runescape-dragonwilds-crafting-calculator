@@ -51,7 +51,7 @@ export function SelectedMaterialMobilePanel(props: Props) {
   const { itemId } = props;
 
   return (
-    <CollapsiblePanelMobileRoot>
+    <CollapsiblePanelMobileRoot id={ITEM_PANEL_CONFIGS.selectedMaterials.id}>
       <CollapsiblePanelMobileButtonLayout>
         <CollapsiblePanelMobileButtonTrigger>
           <SelectedMaterialsTrigger itemId={itemId} />

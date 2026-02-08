@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { useFavouriteItems } from "./favourite-items";
-import { useSettings } from "./settings";
+import { useMobilePanelsState } from "./mobile-panel-state";
 import { useSelectedMaterial } from "./selected-material";
 import { useMaterialMultiplier } from "./material-multiplier";
 
@@ -13,7 +13,7 @@ import { useMaterialMultiplier } from "./material-multiplier";
 export function HydrateStores() {
   const updateStore = () => {
     useFavouriteItems.persist.rehydrate();
-    useSettings.persist.rehydrate();
+    useMobilePanelsState.persist.rehydrate();
     useSelectedMaterial.persist.rehydrate();
     useMaterialMultiplier.persist.rehydrate();
   };

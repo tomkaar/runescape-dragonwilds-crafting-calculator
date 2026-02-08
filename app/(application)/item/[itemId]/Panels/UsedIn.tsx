@@ -47,7 +47,7 @@ export function UsedInMobilePanel(props: Props) {
   const { itemId } = props;
 
   return (
-    <CollapsiblePanelMobileRoot>
+    <CollapsiblePanelMobileRoot id={ITEM_PANEL_CONFIGS.usedIn.id}>
       <CollapsiblePanelMobileButtonLayout>
         <CollapsiblePanelMobileButtonTrigger>
           <UsedInTrigger />

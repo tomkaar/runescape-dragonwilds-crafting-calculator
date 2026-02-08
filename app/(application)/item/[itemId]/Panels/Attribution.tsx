@@ -35,7 +35,7 @@ export function AttributionDesktopPanel() {
 
 export function AttributionMobilePanel() {
   return (
-    <CollapsiblePanelMobileRoot>
+    <CollapsiblePanelMobileRoot id={ITEM_PANEL_CONFIGS.attribution.id}>
       <CollapsiblePanelMobileButtonLayout>
         <CollapsiblePanelMobileButtonTrigger>
           <AttributionTrigger />

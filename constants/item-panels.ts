@@ -26,6 +26,11 @@ export const ITEM_PANEL_CONFIGS = {
     icon: BookOpen,
     defaultSize: undefined,
   },
+  craftingTree: {
+    id: "crafting-tree",
+    icon: ListTree,
+    defaultSize: 52,
+  },
   attribution: {
     id: "attribution",
     icon: Info,

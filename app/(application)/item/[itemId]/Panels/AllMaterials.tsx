@@ -43,7 +43,7 @@ export function AllMaterialsDesktopPanel() {
 
 export function AllMaterialsMobilePanel() {
   return (
-    <CollapsiblePanelMobileRoot>
+    <CollapsiblePanelMobileRoot id={ITEM_PANEL_CONFIGS.allMaterials.id}>
       <CollapsiblePanelMobileButtonLayout>
         <CollapsiblePanelMobileButtonTrigger>
           <AllMaterialsTrigger />
