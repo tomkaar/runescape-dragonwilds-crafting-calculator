@@ -29,6 +29,6 @@ export const ITEM_PANEL_CONFIGS = {
   attribution: {
     id: "attribution",
     icon: Info,
-    defaultSize: undefined,
+    defaultSize: 52,
   },
 } as const;

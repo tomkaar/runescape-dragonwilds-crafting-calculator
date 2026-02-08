@@ -2,34 +2,15 @@
 
 import "@xyflow/react/dist/style.css";
 
-import { Panel, ReactFlow, useEdgesState, useNodesState } from "@xyflow/react";
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
-import { Button } from "../ui/button";
+import { ReactFlow, useEdgesState, useNodesState } from "@xyflow/react";
 
 import { resolveCraftingTree } from "./resolve";
 
 import CraftingTreeContent from "./CraftingTreeContent";
 import DefaultlNode from "./Nodes/DefaultNode";
-import { useSelectedMaterial } from "@/store/selected-material";
 import DefaultEdge from "./Edges/DefaultEdge";
-import {
-  PanelLeftCloseIcon,
-  PanelLeftOpenIcon,
-  PanelRightCloseIcon,
-  PanelRightOpenIcon,
-} from "lucide-react";
 import { cn } from "@/lib/utils";
-import { useContentContext } from "../panels/context";
+import { ReactNode } from "react";
 
 const nodeTypes = {
   node: DefaultlNode,
@@ -41,25 +22,13 @@ const edgeTypes = {
 type Props = {
   itemId: string;
   className?: string;
+  children?: ReactNode;
 };
 
 export function CraftingTree(props: Props) {
-  const { itemId, className } = props;
-  const {
-    sidebarIsCollapsed,
-    toggleSidebar,
-    rightSidebarIsCollapsed,
-    toggleRightSidebar,
-  } = useContentContext();
+  const { itemId, className, children } = props;
 
   const anotherTree = resolveCraftingTree({ itemId: itemId });
-
-  const clearMarkedMaterials = useSelectedMaterial(
-    (state) => state.clearMarkedMaterials,
-  );
-  const handleClearMarkedMaterials = () => {
-    clearMarkedMaterials(itemId);
-  };
 
   const [nodes, , onNodesChange] = useNodesState(anotherTree?.nodes || []);
   const [edges, , onEdgesChange] = useEdgesState(anotherTree?.edges || []);
@@ -78,56 +47,11 @@ export function CraftingTree(props: Props) {
         nodeTypes={nodeTypes}
         // @ts-expect-error - invalid types
         edgeTypes={edgeTypes}
+        fitViewOptions={{
+          padding: { top: "60px" },
+        }}
       >
-        {sidebarIsCollapsed !== undefined && toggleSidebar && (
-          <Panel position="top-left">
-            <Button onClick={toggleSidebar} variant="secondary">
-              {sidebarIsCollapsed ? (
-                <PanelLeftOpenIcon className="w-2 h-2" />
-              ) : (
-                <PanelLeftCloseIcon className="w-2 h-2" />
-              )}
-            </Button>
-          </Panel>
-        )}
-
-        <Panel position="top-center">
-          <div className="">
-            <AlertDialog>
-              <AlertDialogTrigger asChild>
-                <Button variant="secondary">Clear selection</Button>
-              </AlertDialogTrigger>
-              <AlertDialogContent>
-                <AlertDialogHeader>
-                  <AlertDialogTitle>Clear marked materials?</AlertDialogTitle>
-                  <AlertDialogDescription>
-                    Are you sure you want to clear all marked materials? This
-                    action cannot be undone.
-                  </AlertDialogDescription>
-                </AlertDialogHeader>
-                <AlertDialogFooter>
-                  <AlertDialogCancel>Cancel</AlertDialogCancel>
-                  <AlertDialogAction onClick={handleClearMarkedMaterials}>
-                    Continue
-                  </AlertDialogAction>
-                </AlertDialogFooter>
-              </AlertDialogContent>
-            </AlertDialog>
-          </div>
-        </Panel>
-
-        {rightSidebarIsCollapsed !== undefined && toggleRightSidebar && (
-          <Panel position="top-right">
-            <Button onClick={toggleRightSidebar} variant="secondary">
-              {rightSidebarIsCollapsed ? (
-                <PanelRightOpenIcon className="w-2 h-2" />
-              ) : (
-                <PanelRightCloseIcon className="w-2 h-2" />
-              )}
-            </Button>
-          </Panel>
-        )}
-
+        {children}
         <CraftingTreeContent />
       </ReactFlow>
     </div>

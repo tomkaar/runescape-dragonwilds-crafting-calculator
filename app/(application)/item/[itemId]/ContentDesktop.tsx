@@ -1,4 +1,3 @@
-import { CraftingTree } from "@/components/CraftingTree/CraftingTree";
 import { GroupPanelSeparator } from "@/components/GroupPanelSeparator";
 import { ItemInfoBox } from "@/components/Items/InfoBox";
 import { Item } from "@/Types";
@@ -20,6 +19,7 @@ import { UsedInDesktopPanel } from "./Panels/UsedIn";
 import { AttributionDesktopPanel } from "./Panels/Attribution";
 import { AllMaterialsDesktopPanel } from "./Panels/AllMaterials";
 import { AllRecipesDesktopPanel } from "./Panels/AllRecipes";
+import { ItemCraftingTreeDesktop } from "./components/CraftingTree";
 
 type Props = {
   item: Item;
@@ -56,7 +56,7 @@ export default async function ContentDesktop(props: Props) {
         <Center>
           <Suspense>
             <div className="bg-neutral-900 w-full h-full">
-              <CraftingTree itemId={itemId} />
+              <ItemCraftingTreeDesktop itemId={itemId} />
             </div>
           </Suspense>
         </Center>
