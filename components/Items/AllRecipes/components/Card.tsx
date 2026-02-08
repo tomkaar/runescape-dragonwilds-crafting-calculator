@@ -50,7 +50,10 @@ export function Card(props: TodoRecipeCardProps) {
         <div className="pl-8 pr-4 py-2">
           <ul className="">
             {materials.map((mat) => (
-              <li key={mat?.material?.id} className="flex flex-row gap-2">
+              <li
+                key={mat?.material?.id}
+                className="flex flex-row items-center gap-2"
+              >
                 {mat.material?.image && (
                   <Image
                     src={createImageUrlPath(mat.material.image)}

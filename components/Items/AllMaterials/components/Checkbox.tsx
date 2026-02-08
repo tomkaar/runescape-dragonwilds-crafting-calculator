@@ -60,7 +60,7 @@ export function CheckboxDescription(props: CheckboxDescriptionProps) {
                   alt={name}
                 />
               )}
-              {quantity}x {name}
+              <span className="font-semibold">{quantity}x</span> {name}
             </FieldLabel>
           </FieldContent>
         </Field>
