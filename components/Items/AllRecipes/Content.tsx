@@ -26,10 +26,24 @@ export function AllRecipesContent() {
         materials: [],
       };
 
+    // Combine duplicate materials by summing their quantities
+    const combinedMaterials = materials.reduce(
+      (acc, item) => {
+        const existing = acc.find((m) => m.itemId === item.itemId);
+        if (existing) {
+          existing.quantity += item.quantity;
+        } else {
+          acc.push({ itemId: item.itemId, quantity: item.quantity });
+        }
+        return acc;
+      },
+      [] as { itemId: string; quantity: number }[],
+    );
+
     return {
       itemId,
       item,
-      materials: materials.map((item) => ({
+      materials: combinedMaterials.map((item) => ({
         material: getItemById(item.itemId),
         quantity: item.quantity,
       })),
