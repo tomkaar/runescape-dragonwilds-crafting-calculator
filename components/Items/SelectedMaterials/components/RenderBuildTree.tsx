@@ -1,7 +1,7 @@
 import { Check } from "lucide-react";
 import Image from "next/image";
 
-import { TreeItem } from "./buildTreeFromNodeIds";
+import { TreeItem } from "../utils/buildTreeFromNodeIds";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 
 type Props = {

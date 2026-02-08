@@ -1,17 +1,15 @@
-"use client";
-
 import { CraftingTree } from "@/components/CraftingTree/CraftingTree";
 import { ItemInfoBox } from "@/components/Items/InfoBox";
-import { RequiredMaterials } from "@/components/Items/RequiredMaterials";
-import { UsedIn } from "@/components/Items/UsedIn";
-import { SelectedMaterial } from "@/components/Items/SelectedMaterials/SelectedMaterials";
 import { Item } from "@/Types";
-import { Attribution } from "@/components/Items/Attribution";
-import { AllMaterials } from "@/components/Items/AllMaterials";
-import { SelectedRecipes } from "@/components/Items/SelectedRecipes";
 import { Suspense } from "react";
+import { RequiredMaterialsMobilePanel } from "./Panels/RequiredMaterials";
+import { SelectedMaterialMobilePanel } from "./Panels/SelectedMaterial";
+import { UsedInMobilePanel } from "./Panels/UsedIn";
+import { AttributionMobilePanel } from "./Panels/Attribution";
+import { AllMaterialsMobilePanel } from "./Panels/AllMaterials";
+import { AllRecipesMobilePanel } from "./Panels/AllRecipes";
 
-export default function ContentMobile({
+export default async function ContentMobile({
   item,
   itemId,
 }: {
@@ -20,15 +18,13 @@ export default function ContentMobile({
 }) {
   return (
     <div>
-      <div>
-        <div className="bg-neutral-950">
-          <ItemInfoBox item={item} itemId={itemId} />
-          <RequiredMaterials itemId={itemId} variant="mobile" />
-          <SelectedMaterial itemId={itemId} variant="mobile" />
-          <UsedIn itemId={itemId} variant="mobile" />
-          <AllMaterials itemId={itemId} variant="mobile" />
-          <SelectedRecipes itemId={itemId} variant="mobile" />
-        </div>
+      <div className="bg-neutral-950">
+        <ItemInfoBox item={item} itemId={itemId} />
+        <RequiredMaterialsMobilePanel itemId={itemId} />
+        <SelectedMaterialMobilePanel itemId={itemId} />
+        <UsedInMobilePanel itemId={itemId} />
+        <AllMaterialsMobilePanel />
+        <AllRecipesMobilePanel />
       </div>
 
       <Suspense>
@@ -37,7 +33,7 @@ export default function ContentMobile({
         </div>
       </Suspense>
 
-      <Attribution variant="mobile" />
+      <AttributionMobilePanel />
     </div>
   );
 }

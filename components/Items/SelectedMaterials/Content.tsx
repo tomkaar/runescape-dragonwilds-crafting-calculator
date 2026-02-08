@@ -2,24 +2,17 @@
 
 import { useSelectedMaterial } from "@/store/selected-material";
 
-import { buildTreeFromNodeIds } from "./buildTreeFromNodeIds";
-import { RenderBuildTree } from "./RenderBuildTree";
-import { ListTodoIcon } from "lucide-react";
-import { Input } from "@/components/ui/input";
+import { buildTreeFromNodeIds } from "./utils/buildTreeFromNodeIds";
+import { RenderBuildTree } from "./components/RenderBuildTree";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { Button } from "@/components/ui/button";
-import {
-  CollapsiblePanelDesktop,
-  CollapsiblePanelMobile,
-} from "@/components/collapsible-panel";
 
 type Props = {
   itemId: string;
-  variant?: "desktop" | "mobile";
 };
 
-export function SelectedMaterial(props: Props) {
-  const { itemId, variant = "desktop" } = props;
+export function SelectedMaterialContent(props: Props) {
+  const { itemId } = props;
 
   const multipliers = useMaterialMultiplier((state) => state.items);
   const multiplier = multipliers[itemId] || 1;
@@ -37,28 +30,13 @@ export function SelectedMaterial(props: Props) {
 
   const tree = buildTreeFromNodeIds(selectedMaterials);
 
-  const title = "Selected materials ";
-
-  const actions = (
-    <Input
-      id="input-multiplier"
-      type="number"
-      autoComplete="off"
-      min={1}
-      max={1000}
-      className="max-w-20"
-      value={multiplier}
-      onChange={(e) => setMultiplier(itemId, parseInt(e.target.value))}
-    />
-  );
-
-  const content = (
+  return (
     <div className="px-4">
       {multiplier > 1 ? (
         <div className="flex flex-row gap-2 items-center mt-2 px-4 py-1 bg-blue-950/75 rounded-lg w-full">
           <div className="grow flex flex-col">
             <span className="text-sm text-neutral-200">
-              Add materials are currently multiplied by{" "}
+              Materials are multiplied by{" "}
               <span className="font-semibold">{multiplier}x</span>.
             </span>
           </div>
@@ -85,19 +63,5 @@ export function SelectedMaterial(props: Props) {
         </div>
       ) : null}
     </div>
-  );
-
-  const PanelComponent =
-    variant === "mobile" ? CollapsiblePanelMobile : CollapsiblePanelDesktop;
-
-  return (
-    <PanelComponent
-      id="todo-materials"
-      title={title}
-      icon={ListTodoIcon}
-      actions={actions}
-    >
-      {content}
-    </PanelComponent>
   );
 }

@@ -1,110 +1,18 @@
 "use client";
 
-import { Check, ChevronDown, ListTree, Minus, Plus } from "lucide-react";
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-  AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
+import { Check, ChevronDown, Minus, Plus } from "lucide-react";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
-import { resolveCraftingTree } from "../CraftingTree/resolve";
-import {
-  buildMaterialsTree,
-  type MaterialTreeItem,
-} from "./buildMaterialsTree";
+import { type MaterialTreeItem } from "../utils/buildMaterialsTree";
 import Image from "next/image";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { cn } from "@/lib/utils";
-import { Button } from "../ui/button";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
-import {
-  CollapsiblePanelDesktop,
-  CollapsiblePanelMobile,
-} from "@/components/collapsible-panel";
 
-type Props = {
-  itemId: string;
-  variant?: "desktop" | "mobile";
-};
-
-export function RequiredMaterials(props: Props) {
-  const { variant = "desktop" } = props;
-
-  const clearMarkedMaterials = useSelectedMaterial(
-    (state) => state.clearMarkedMaterials,
-  );
-  const handleClearMarkedMaterials = () => {
-    clearMarkedMaterials(props.itemId);
-  };
-
-  const treeData = resolveCraftingTree({ itemId: props.itemId });
-  const tree = treeData
-    ? buildMaterialsTree(treeData.nodes, treeData.edges)
-    : [];
-
-  const materialsToRender = tree;
-
-  const title = `Materials`;
-
-  const content = (
-    <div className="px-4">
-      {materialsToRender.map((item) => (
-        <MaterialTreeNode
-          key={item.nodeId}
-          item={item}
-          initialItemId={props.itemId}
-        />
-      ))}
-    </div>
-  );
-
-  const PanelComponent =
-    variant === "mobile" ? CollapsiblePanelMobile : CollapsiblePanelDesktop;
-
-  return (
-    <PanelComponent
-      id="materials"
-      title={title}
-      icon={ListTree}
-      actions={
-        <AlertDialog>
-          <AlertDialogTrigger asChild>
-            <Button variant="outline">Clear selection</Button>
-          </AlertDialogTrigger>
-          <AlertDialogContent>
-            <AlertDialogHeader>
-              <AlertDialogTitle>Clear marked materials?</AlertDialogTitle>
-              <AlertDialogDescription>
-                Are you sure you want to clear all marked materials? This action
-                cannot be undone.
-              </AlertDialogDescription>
-            </AlertDialogHeader>
-            <AlertDialogFooter>
-              <AlertDialogCancel>Cancel</AlertDialogCancel>
-              <AlertDialogAction onClick={handleClearMarkedMaterials}>
-                Continue
-              </AlertDialogAction>
-            </AlertDialogFooter>
-          </AlertDialogContent>
-        </AlertDialog>
-      }
-    >
-      {content}
-    </PanelComponent>
-  );
-}
-
-function MaterialTreeNode({
+export function MaterialTreeNode({
   item,
   initialItemId,
 }: {
