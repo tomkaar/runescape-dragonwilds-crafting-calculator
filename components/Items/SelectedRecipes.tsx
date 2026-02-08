@@ -13,7 +13,6 @@ import { getItemById } from "@/utils/itemById";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useState } from "react";
 import { Item } from "@/Types";
-import { Button } from "../ui/button";
 
 type Props = {
   itemId: string;
@@ -135,8 +134,8 @@ export function TodoRecipeCard(props: TodoRecipeCardProps) {
                 {mat.material?.image && (
                   <Image
                     src={createImageUrlPath(mat.material.image)}
-                    width={22}
-                    height={22}
+                    width={28}
+                    height={28}
                     alt={mat.material.name}
                   />
                 )}
