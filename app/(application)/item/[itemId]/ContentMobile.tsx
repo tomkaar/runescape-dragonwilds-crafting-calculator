@@ -9,6 +9,7 @@ import { Item } from "@/Types";
 import { Attribution } from "@/components/Items/Attribution";
 import { AllMaterials } from "@/components/Items/AllMaterials";
 import { SelectedRecipes } from "@/components/Items/SelectedRecipes";
+import { Suspense } from "react";
 
 export default function ContentMobile({
   item,
@@ -33,9 +34,11 @@ export default function ContentMobile({
         </div>
       </div>
 
-      <div className="bg-neutral-900 w-full h-full min-h-65">
-        <CraftingTree itemId={itemId} className="h-65" />
-      </div>
+      <Suspense>
+        <div className="bg-neutral-900 w-full h-full min-h-65">
+          <CraftingTree itemId={itemId} className="h-65" />
+        </div>
+      </Suspense>
 
       <Attribution variant="mobile" />
     </div>

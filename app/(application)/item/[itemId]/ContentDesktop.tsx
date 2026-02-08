@@ -9,7 +9,7 @@ import { SelectedMaterial } from "@/components/Items/SelectedMaterials/SelectedM
 import { Item } from "@/Types";
 import { Group, Panel, usePanelRef, type Layout } from "react-resizable-panels";
 import { Attribution } from "@/components/Items/Attribution";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import { SelectedRecipes } from "@/components/Items/SelectedRecipes";
 import { AllMaterials } from "@/components/Items/AllMaterials";
 
@@ -102,15 +102,17 @@ export default function ContentDesktop({
       <GroupPanelSeparator horizontal />
 
       <Panel id="center" minSize={150}>
-        <div className="bg-neutral-900 w-full h-full">
-          <CraftingTree
-            itemId={itemId}
-            sidebarIsCollapsed={sidebarIsCollapsed}
-            rightSidebarIsCollapsed={rightSidebarIsCollapsed}
-            toggleSidebar={toggleSidebar}
-            toggleRightSidebar={toggleRightSidebar}
-          />
-        </div>
+        <Suspense>
+          <div className="bg-neutral-900 w-full h-full">
+            <CraftingTree
+              itemId={itemId}
+              sidebarIsCollapsed={sidebarIsCollapsed}
+              rightSidebarIsCollapsed={rightSidebarIsCollapsed}
+              toggleSidebar={toggleSidebar}
+              toggleRightSidebar={toggleRightSidebar}
+            />
+          </div>
+        </Suspense>
       </Panel>
 
       <GroupPanelSeparator horizontal />
