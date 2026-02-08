@@ -27,6 +27,7 @@ export function RequiredMaterialsDesktopPanel(props: Props) {
     <CollapsiblePanelDesktopRoot
       id={ITEM_PANEL_CONFIGS.materials.id}
       defaultSize={ITEM_PANEL_CONFIGS.materials.defaultSize}
+      minSize={ITEM_PANEL_CONFIGS.materials.minSize}
     >
       <CollapsiblePanelDesktopButtonLayout>
         <CollapsiblePanelDesktopButtonTrigger>

@@ -22,6 +22,7 @@ export function AllMaterialsDesktopPanel() {
     <CollapsiblePanelDesktopRoot
       id={ITEM_PANEL_CONFIGS.allMaterials.id}
       defaultSize={ITEM_PANEL_CONFIGS.allMaterials.defaultSize}
+      minSize={ITEM_PANEL_CONFIGS.allMaterials.minSize}
     >
       <CollapsiblePanelDesktopButtonLayout>
         <CollapsiblePanelDesktopButtonTrigger>

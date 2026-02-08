@@ -27,6 +27,7 @@ export function UsedInDesktopPanel(props: Props) {
     <CollapsiblePanelDesktopRoot
       id={ITEM_PANEL_CONFIGS.usedIn.id}
       defaultSize={ITEM_PANEL_CONFIGS.usedIn.defaultSize}
+      minSize={ITEM_PANEL_CONFIGS.usedIn.minSize}
     >
       <CollapsiblePanelDesktopButtonLayout>
         <CollapsiblePanelDesktopButtonTrigger>

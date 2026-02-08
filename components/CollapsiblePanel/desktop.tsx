@@ -74,6 +74,7 @@ type CollapsiblePanelDesktopProps = {
   children: ReactNode;
   defaultSize?: number;
   className?: string;
+  minSize: number;
 };
 
 export function CollapsiblePanelDesktopRoot({
@@ -81,6 +82,7 @@ export function CollapsiblePanelDesktopRoot({
   children,
   className,
   defaultSize,
+  minSize,
 }: CollapsiblePanelDesktopProps) {
   const panelRef = usePanelRef();
   const contentRef = useRef<HTMLDivElement>(null);
@@ -91,7 +93,7 @@ export function CollapsiblePanelDesktopRoot({
         panelRef.current.expand();
         const contentHeight = contentRef.current?.offsetHeight;
         panelRef.current.resize(
-          contentHeight ? contentHeight + 52 + 20 : "50%",
+          contentHeight ? contentHeight + minSize + 20 : "50%",
         );
       } else {
         panelRef.current.collapse();
@@ -103,9 +105,9 @@ export function CollapsiblePanelDesktopRoot({
     <Panel
       id={id}
       panelRef={panelRef}
-      minSize={52}
+      minSize={minSize}
       collapsible
-      collapsedSize={52}
+      collapsedSize={minSize}
       defaultSize={defaultSize}
       className={cn("bg-neutral-950 rounded-lg", className)}
     >
