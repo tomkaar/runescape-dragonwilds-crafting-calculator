@@ -1,9 +1,13 @@
 import { getItemByNameOrId } from "@/utils/getItemById";
 import { notFound } from "next/navigation";
-import { cookies } from "next/headers";
-import { type Layout } from "react-resizable-panels";
 import Content from "./Content";
 import { type Metadata } from "next";
+import { resolveServerPanelLayout } from "@/utils/resolve-server-panel-layout";
+import {
+  PANEL_LAYOUT_PAGE,
+  PANEL_LAYOUT_SIDEBAR,
+  PANEL_LAYOUT_SIDEBAR_RIGHT,
+} from "@/constants/panel-layout";
 
 type Props = {
   params: Promise<{ itemId: string }>;
@@ -22,31 +26,15 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   };
 }
 
-const LAYOUT_COOKIE_GROUP_ID = "item_layout";
-const LAYOUT_SIDEBAR_COOKIE_GROUP_ID = "item_sidebar_layout";
-const LAYOUT_SIDEBAR_RIGHT_COOKIE_GROUP_ID = "item_sidebar_right_layout";
-
 export default async function ItemPage(props: Props) {
   const { itemId } = await props.params;
-  const cookieStore = await cookies();
 
-  const itemPageLayoutString = cookieStore.get(LAYOUT_COOKIE_GROUP_ID)?.value;
-  const itemPageSidebarLayoutString = cookieStore.get(
-    LAYOUT_SIDEBAR_COOKIE_GROUP_ID,
-  )?.value;
-  const itemPageSidebarRightLayoutString = cookieStore.get(
-    LAYOUT_SIDEBAR_RIGHT_COOKIE_GROUP_ID,
-  )?.value;
-
-  const itemPageLayout = itemPageLayoutString
-    ? (JSON.parse(itemPageLayoutString) as Layout)
-    : undefined;
-  const itemPageSidebarLayout = itemPageSidebarLayoutString
-    ? (JSON.parse(itemPageSidebarLayoutString) as Layout)
-    : undefined;
-  const itemPageSidebarRightLayout = itemPageSidebarRightLayoutString
-    ? (JSON.parse(itemPageSidebarRightLayoutString) as Layout)
-    : undefined;
+  const [pageLayout, pageSidebarLayout, pageSidebarRightLayout] =
+    await Promise.all([
+      resolveServerPanelLayout(PANEL_LAYOUT_PAGE),
+      resolveServerPanelLayout(PANEL_LAYOUT_SIDEBAR),
+      resolveServerPanelLayout(PANEL_LAYOUT_SIDEBAR_RIGHT),
+    ]);
 
   const item = getItemByNameOrId(itemId);
 
@@ -56,14 +44,11 @@ export default async function ItemPage(props: Props) {
 
   return (
     <Content
-      itemPageLayout={itemPageLayout}
-      itemPageSidebarLayout={itemPageSidebarLayout}
-      itemPageSidebarRightLayout={itemPageSidebarRightLayout}
-      layoutCookieID={LAYOUT_COOKIE_GROUP_ID}
-      sidebarLayoutCookieID={LAYOUT_SIDEBAR_COOKIE_GROUP_ID}
-      sidebarRightLayoutCookieID={LAYOUT_SIDEBAR_RIGHT_COOKIE_GROUP_ID}
       item={item}
       itemId={itemId}
+      itemPageLayout={pageLayout}
+      itemPageSidebarLayout={pageSidebarLayout}
+      itemPageSidebarRightLayout={pageSidebarRightLayout}
     />
   );
 }

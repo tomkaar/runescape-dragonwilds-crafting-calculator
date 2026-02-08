@@ -1,29 +1,25 @@
-"use client";
-
 import { Item } from "@/Types";
 import { type Layout } from "react-resizable-panels";
 import ContentDesktop from "./ContentDesktop";
 import ContentMobile from "./ContentMobile";
 
-export default function Content({
-  itemPageLayout,
-  itemPageSidebarLayout,
-  itemPageSidebarRightLayout,
-  layoutCookieID,
-  sidebarLayoutCookieID,
-  sidebarRightLayoutCookieID,
-  item,
-  itemId,
-}: {
+type Props = {
+  item: Item;
+  itemId: string;
   itemPageLayout: Layout | undefined;
   itemPageSidebarLayout: Layout | undefined;
   itemPageSidebarRightLayout: Layout | undefined;
-  layoutCookieID: string;
-  sidebarLayoutCookieID: string;
-  sidebarRightLayoutCookieID: string;
-  item: Item;
-  itemId: string;
-}) {
+};
+
+export default function Content(props: Props) {
+  const {
+    item,
+    itemId,
+    itemPageLayout,
+    itemPageSidebarLayout,
+    itemPageSidebarRightLayout,
+  } = props;
+
   return (
     <div className="h-full flex flex-col">
       <div className="block lg:hidden">
@@ -32,14 +28,11 @@ export default function Content({
 
       <div className="h-full w-full hidden lg:block">
         <ContentDesktop
+          item={item}
+          itemId={itemId}
           itemPageLayout={itemPageLayout}
           itemPageSidebarLayout={itemPageSidebarLayout}
           itemPageSidebarRightLayout={itemPageSidebarRightLayout}
-          layoutCookieID={layoutCookieID}
-          sidebarLayoutCookieID={sidebarLayoutCookieID}
-          sidebarRightLayoutCookieID={sidebarRightLayoutCookieID}
-          item={item}
-          itemId={itemId}
         />
       </div>
     </div>

@@ -12,23 +12,22 @@ import { Attribution } from "@/components/Items/Attribution";
 import { Suspense, useState } from "react";
 import { SelectedRecipes } from "@/components/Items/SelectedRecipes";
 import { AllMaterials } from "@/components/Items/AllMaterials";
+import {
+  PANEL_LAYOUT_PAGE,
+  PANEL_LAYOUT_SIDEBAR,
+  PANEL_LAYOUT_SIDEBAR_RIGHT,
+} from "@/constants/panel-layout";
 
 export default function ContentDesktop({
   itemPageLayout,
   itemPageSidebarLayout,
   itemPageSidebarRightLayout,
-  layoutCookieID,
-  sidebarLayoutCookieID,
-  sidebarRightLayoutCookieID,
   item,
   itemId,
 }: {
   itemPageLayout: Layout | undefined;
   itemPageSidebarLayout: Layout | undefined;
   itemPageSidebarRightLayout: Layout | undefined;
-  layoutCookieID: string;
-  sidebarLayoutCookieID: string;
-  sidebarRightLayoutCookieID: string;
   item: Item;
   itemId: string;
 }) {
@@ -60,12 +59,12 @@ export default function ContentDesktop({
 
   return (
     <Group
-      id={layoutCookieID}
+      id={PANEL_LAYOUT_PAGE}
       defaultLayout={itemPageLayout}
       onLayoutChange={(layout) => {
         setSidebarIsCollapsed(layout.sidebar === 0);
         setRightSidebarIsCollapsed(layout["sidebar-right"] === 0);
-        document.cookie = `${layoutCookieID}=${JSON.stringify(layout)}; path=/;`;
+        document.cookie = `${PANEL_LAYOUT_PAGE}=${JSON.stringify(layout)}; path=/;`;
       }}
     >
       <Panel
@@ -77,11 +76,11 @@ export default function ContentDesktop({
         collapsedSize={0}
       >
         <Group
-          id={sidebarLayoutCookieID}
+          id={PANEL_LAYOUT_SIDEBAR}
           orientation="vertical"
           defaultLayout={itemPageSidebarLayout}
           onLayoutChange={(layout) => {
-            document.cookie = `${sidebarLayoutCookieID}=${JSON.stringify(layout)}; path=/;`;
+            document.cookie = `${PANEL_LAYOUT_SIDEBAR}=${JSON.stringify(layout)}; path=/;`;
           }}
           className="bg-neutral-950"
         >
@@ -127,11 +126,11 @@ export default function ContentDesktop({
         className="bg-neutral-950"
       >
         <Group
-          id={sidebarRightLayoutCookieID}
+          id={PANEL_LAYOUT_SIDEBAR_RIGHT}
           orientation="vertical"
           defaultLayout={itemPageSidebarRightLayout}
           onLayoutChange={(layout) => {
-            document.cookie = `${sidebarRightLayoutCookieID}=${JSON.stringify(layout)}; path=/;`;
+            document.cookie = `${PANEL_LAYOUT_SIDEBAR_RIGHT}=${JSON.stringify(layout)}; path=/;`;
           }}
           className="bg-neutral-950"
         >
