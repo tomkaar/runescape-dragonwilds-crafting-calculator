@@ -7,7 +7,7 @@ import { UsedInMobilePanel } from "./Panels/UsedIn";
 import { AttributionMobilePanel } from "./Panels/Attribution";
 import { AllMaterialsMobilePanel } from "./Panels/AllMaterials";
 import { AllRecipesMobilePanel } from "./Panels/AllRecipes";
-import { ItemCraftingTreeMobile } from "./components/CraftingTree";
+import { CraftingTreeMobilePanel } from "./Panels/CraftingTree";
 
 export default async function ContentMobile({
   item,
@@ -28,8 +28,8 @@ export default async function ContentMobile({
       </div>
 
       <Suspense>
-        <div className="bg-neutral-900 w-full h-full min-h-65">
-          <ItemCraftingTreeMobile itemId={itemId} className="h-65" />
+        <div className="bg-neutral-900 w-full h-full">
+          <CraftingTreeMobilePanel itemId={itemId} />
         </div>
       </Suspense>
 
