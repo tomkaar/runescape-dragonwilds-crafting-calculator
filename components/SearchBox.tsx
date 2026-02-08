@@ -18,15 +18,18 @@ import Image from "next/image";
 import { useFavouriteItems } from "@/store/favourite-items";
 import { StarIcon } from "lucide-react";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
+import { useRef } from "react";
 
 const items = itemJSON.sort((a, b) => a.name.localeCompare(b.name)) as Item[];
 
 export function SearchBox() {
   const router = useRouter();
+  const ref = useRef<HTMLInputElement>(null);
   const favouriteItems = useFavouriteItems((state) => state.items);
 
   const handleAddItem = (item: Item | null) => {
     if (item === null) return;
+    ref.current?.blur();
     router.push(`/item/${item.id}`);
   };
 
@@ -38,8 +41,10 @@ export function SearchBox() {
       onValueChange={handleAddItem}
     >
       <ComboboxInput
-        showTrigger={false}
+        showTrigger
         placeholder="Search for an item to craft"
+        ref={ref}
+        showClear
       />
       <ComboboxContent>
         <ComboboxEmpty>No items found.</ComboboxEmpty>
