@@ -31,7 +31,7 @@ export default async function ItemPage(props: Props) {
   }
 
   return (
-    <div className="h-full flex flex-col">
+    <main className="h-full flex flex-col">
       <div className="block lg:hidden">
         <ContentMobile item={item} itemId={itemId} />
       </div>
@@ -39,6 +39,6 @@ export default async function ItemPage(props: Props) {
       <div className="h-full w-full hidden lg:block">
         <ContentDesktop item={item} itemId={itemId} />
       </div>
-    </div>
+    </main>
   );
 }
