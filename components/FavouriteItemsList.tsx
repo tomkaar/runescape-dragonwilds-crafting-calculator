@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 import { useFavouriteItems } from "@/store/favourite-items";
-import { getItemByNameOrId } from "@/utils/getItemById";
+import { getItemById } from "@/utils/itemById";
 import Link from "next/link";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 
@@ -10,7 +10,7 @@ export function FavouriteItemsList() {
   const favouritedItems = useFavouriteItems((state) => state.items);
 
   const resolvedItems = favouritedItems
-    .map((itemId) => getItemByNameOrId(itemId))
+    .map((itemId) => getItemById(itemId))
     .filter((item) => item !== undefined)
     .sort((a, b) => a.name.localeCompare(b.name));
 

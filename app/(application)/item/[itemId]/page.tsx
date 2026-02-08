@@ -1,4 +1,4 @@
-import { getItemByNameOrId } from "@/utils/getItemById";
+import { getItemById } from "@/utils/itemById";
 import { notFound } from "next/navigation";
 import { type Metadata } from "next";
 import ContentMobile from "./ContentMobile";
@@ -10,7 +10,7 @@ type Props = {
 
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const { itemId } = await props.params;
-  const item = getItemByNameOrId(itemId);
+  const item = getItemById(itemId);
 
   return {
     title: [item?.name, "Dragonwilds Crafting Calculator"]
@@ -24,7 +24,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 export default async function ItemPage(props: Props) {
   const { itemId } = await props.params;
 
-  const item = getItemByNameOrId(itemId);
+  const item = getItemById(itemId);
 
   if (item === undefined) {
     notFound();
