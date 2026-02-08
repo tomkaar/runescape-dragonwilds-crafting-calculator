@@ -56,29 +56,6 @@ export function RequiredMaterials(props: Props) {
 
   const title = `Materials`;
 
-  const actions = (
-    <AlertDialog>
-      <AlertDialogTrigger asChild>
-        <Button variant="outline">Clear selection</Button>
-      </AlertDialogTrigger>
-      <AlertDialogContent>
-        <AlertDialogHeader>
-          <AlertDialogTitle>Clear marked materials?</AlertDialogTitle>
-          <AlertDialogDescription>
-            Are you sure you want to clear all marked materials? This action
-            cannot be undone.
-          </AlertDialogDescription>
-        </AlertDialogHeader>
-        <AlertDialogFooter>
-          <AlertDialogCancel>Cancel</AlertDialogCancel>
-          <AlertDialogAction onClick={handleClearMarkedMaterials}>
-            Continue
-          </AlertDialogAction>
-        </AlertDialogFooter>
-      </AlertDialogContent>
-    </AlertDialog>
-  );
-
   const content = (
     <div className="px-4">
       {materialsToRender.map((item) => (
@@ -99,7 +76,28 @@ export function RequiredMaterials(props: Props) {
       id="materials"
       title={title}
       icon={ListTree}
-      actions={actions}
+      actions={
+        <AlertDialog>
+          <AlertDialogTrigger asChild>
+            <Button variant="outline">Clear selection</Button>
+          </AlertDialogTrigger>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>Clear marked materials?</AlertDialogTitle>
+              <AlertDialogDescription>
+                Are you sure you want to clear all marked materials? This action
+                cannot be undone.
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Cancel</AlertDialogCancel>
+              <AlertDialogAction onClick={handleClearMarkedMaterials}>
+                Continue
+              </AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
+      }
     >
       {content}
     </PanelComponent>

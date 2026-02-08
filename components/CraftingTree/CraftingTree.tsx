@@ -29,6 +29,7 @@ import {
   PanelRightOpenIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useContentContext } from "../panels/context";
 
 const nodeTypes = {
   node: DefaultlNode,
@@ -39,30 +40,32 @@ const edgeTypes = {
 
 type Props = {
   itemId: string;
-  sidebarIsCollapsed?: boolean;
-  rightSidebarIsCollapsed?: boolean;
-  toggleSidebar?: () => void;
-  toggleRightSidebar?: () => void;
   className?: string;
 };
 
 export function CraftingTree(props: Props) {
-  const anotherTree = resolveCraftingTree({ itemId: props.itemId });
+  const { itemId, className } = props;
+  const {
+    sidebarIsCollapsed,
+    toggleSidebar,
+    rightSidebarIsCollapsed,
+    toggleRightSidebar,
+  } = useContentContext();
+
+  const anotherTree = resolveCraftingTree({ itemId: itemId });
 
   const clearMarkedMaterials = useSelectedMaterial(
     (state) => state.clearMarkedMaterials,
   );
   const handleClearMarkedMaterials = () => {
-    clearMarkedMaterials(props.itemId);
+    clearMarkedMaterials(itemId);
   };
 
   const [nodes, , onNodesChange] = useNodesState(anotherTree?.nodes || []);
   const [edges, , onEdgesChange] = useEdgesState(anotherTree?.edges || []);
 
   return (
-    <div
-      className={cn("w-full h-full bg-neutral-900 text-black", props.className)}
-    >
+    <div className={cn("w-full h-full bg-neutral-900 text-black", className)}>
       <ReactFlow
         nodes={nodes}
         edges={edges}
@@ -76,10 +79,10 @@ export function CraftingTree(props: Props) {
         // @ts-expect-error - invalid types
         edgeTypes={edgeTypes}
       >
-        {props.sidebarIsCollapsed !== undefined && props.toggleSidebar && (
+        {sidebarIsCollapsed !== undefined && toggleSidebar && (
           <Panel position="top-left">
-            <Button onClick={props.toggleSidebar} variant="secondary">
-              {props.sidebarIsCollapsed ? (
+            <Button onClick={toggleSidebar} variant="secondary">
+              {sidebarIsCollapsed ? (
                 <PanelLeftOpenIcon className="w-2 h-2" />
               ) : (
                 <PanelLeftCloseIcon className="w-2 h-2" />
@@ -113,18 +116,17 @@ export function CraftingTree(props: Props) {
           </div>
         </Panel>
 
-        {props.rightSidebarIsCollapsed !== undefined &&
-          props.toggleRightSidebar && (
-            <Panel position="top-right">
-              <Button onClick={props.toggleRightSidebar} variant="secondary">
-                {props.rightSidebarIsCollapsed ? (
-                  <PanelRightOpenIcon className="w-2 h-2" />
-                ) : (
-                  <PanelRightCloseIcon className="w-2 h-2" />
-                )}
-              </Button>
-            </Panel>
-          )}
+        {rightSidebarIsCollapsed !== undefined && toggleRightSidebar && (
+          <Panel position="top-right">
+            <Button onClick={toggleRightSidebar} variant="secondary">
+              {rightSidebarIsCollapsed ? (
+                <PanelRightOpenIcon className="w-2 h-2" />
+              ) : (
+                <PanelRightCloseIcon className="w-2 h-2" />
+              )}
+            </Button>
+          </Panel>
+        )}
 
         <CraftingTreeContent />
       </ReactFlow>
