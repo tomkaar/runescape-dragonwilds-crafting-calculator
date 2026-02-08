@@ -31,7 +31,7 @@ export function SelectedMaterialDesktopPanel(props: Props) {
     >
       <CollapsiblePanelDesktopButtonLayout>
         <CollapsiblePanelDesktopButtonTrigger>
-          <SelectedMaterialsTrigger />
+          <SelectedMaterialsTrigger itemId={itemId} />
         </CollapsiblePanelDesktopButtonTrigger>
         <Suspense>
           <SelectedMaterialsAction itemId={itemId} />
@@ -54,7 +54,7 @@ export function SelectedMaterialMobilePanel(props: Props) {
     <CollapsiblePanelMobileRoot>
       <CollapsiblePanelMobileButtonLayout>
         <CollapsiblePanelMobileButtonTrigger>
-          <SelectedMaterialsTrigger />
+          <SelectedMaterialsTrigger itemId={itemId} />
         </CollapsiblePanelMobileButtonTrigger>
         <Suspense>
           <SelectedMaterialsAction itemId={itemId} />
