@@ -2,22 +2,116 @@
 
 import { useSelectedMaterial } from "@/store/selected-material";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
-import { useTodoCheckedItems } from "@/store/todo-checked-items";
-import { CheckboxDescription } from "./components/Checkbox";
+import { Checkbox, CheckboxIndeterminate } from "@/components/ui/checkbox";
+import { getItemById } from "@/utils/itemById";
+import Image from "next/image";
+import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 
 export function AllMaterialsContent() {
-  const checkedItems = useTodoCheckedItems((state) => state.items);
   const multiplier = useMaterialMultiplier((state) => state.items);
   const rawRecipes = useSelectedMaterial((state) => state.items);
+  const markAsDoneByNodeId = useSelectedMaterial(
+    (state) => state.markAsDoneByNodeId,
+  );
+  const markAsTodoByNodeId = useSelectedMaterial(
+    (state) => state.markAsTodoByNodeId,
+  );
+
   const recipes = Object.entries(rawRecipes)
     .map(([recipeId, value]) => {
-      const todoMaterials = value.filter((item) => item.state === "TODO");
+      const todoMaterials = value;
       return [recipeId, todoMaterials] as [
         string,
-        { itemId: string; quantity: number }[],
+        { itemId: string; quantity: number; nodeId?: string }[],
       ];
     })
     .filter(([, value]) => Object.keys(value).length > 0);
+
+  const materialsByRecipe = recipes.reduce<
+    Record<
+      string,
+      {
+        recipeId: string;
+        quantity: number;
+        multiplier: number;
+        nodeId?: string;
+      }[]
+    >
+  >((acc, [recipeId, materials]) => {
+    materials.forEach((material) => {
+      const materialId = material.itemId;
+      if (!acc[materialId]) {
+        acc[materialId] = [];
+      }
+      acc[materialId].push({
+        recipeId,
+        quantity: material.quantity,
+        multiplier: multiplier[recipeId] || 1,
+        nodeId: material.nodeId,
+      });
+    });
+    return acc;
+  }, {});
+
+  // Helper function to check if a material-recipe combination is checked (DONE)
+  const isRecipeChecked = (materialId: string, recipeId: string) => {
+    const recipeItems = rawRecipes[recipeId] || [];
+    const item = recipeItems.find((i) => i.itemId === materialId);
+    return item ? item.state === "DONE" : false;
+  };
+
+  // Helper function to get the state of all recipes for a material
+  const getMaterialState = (
+    materialId: string,
+    recipeIds: string[],
+  ): boolean | "indeterminate" => {
+    const states = recipeIds.map((recipeId) =>
+      isRecipeChecked(materialId, recipeId),
+    );
+    const allChecked = states.every((s) => s === true);
+    const noneChecked = states.every((s) => s === false);
+
+    if (allChecked) return true;
+    if (noneChecked) return false;
+    return "indeterminate";
+  };
+
+  const handleTotalCheckboxChange = (
+    prevState: boolean | "indeterminate",
+    materialId: string,
+    recipeData: {
+      recipeId: string;
+      nodeId?: string;
+    }[],
+  ) => {
+    const shouldSetAsDone = prevState === true ? false : true;
+
+    // Toggle all recipes for this material
+    recipeData.forEach((recipe) => {
+      if (!recipe.nodeId) return;
+      // Mark as DONE
+      if (shouldSetAsDone) {
+        markAsDoneByNodeId(recipe.recipeId, recipe.nodeId);
+      }
+      // Mark as TODO
+      else if (isRecipeChecked(materialId, recipe.recipeId)) {
+        markAsTodoByNodeId(recipe.recipeId, recipe.nodeId);
+      }
+    });
+  };
+
+  const handleRecipeCheckboxChange = (
+    prevChecked: boolean,
+    recipeId: string,
+    nodeId?: string,
+  ) => {
+    if (!nodeId) return;
+    if (prevChecked) {
+      markAsTodoByNodeId(recipeId, nodeId);
+    } else {
+      markAsDoneByNodeId(recipeId, nodeId!);
+    }
+  };
 
   const totalUniqueMaterialsWithQuantity = recipes.reduce<
     Record<string, number>
@@ -43,21 +137,99 @@ export function AllMaterialsContent() {
     <div className="h-full w-full">
       <div className="h-full px-4 mb-4 overflow-scroll">
         <p className="mb-4 text-sm text-neutral-200 max-w-80">
-          All materials needed for the selected recipes, with total quantities
-          adjusted by multipliers.
+          All selected materials, grouped by material. You can check off
+          materials as you gather/craft them.
         </p>
 
-        <div className="mt-4">
-          {Object.entries(totalUniqueMaterialsWithQuantity).map(
-            ([materialId, totalQuantity]) => (
-              <CheckboxDescription
-                key={materialId + totalQuantity}
-                id={materialId}
-                quantity={totalQuantity}
-                defaultChecked={checkedItems.includes(materialId)}
-              />
-            ),
-          )}
+        <div className="mt-4"></div>
+
+        <div className="mt-4 space-y-4">
+          {Object.entries(materialsByRecipe).map(([materialId, recipes]) => {
+            const material = getItemById(materialId);
+            if (!material) return null;
+
+            const totalQuantity =
+              totalUniqueMaterialsWithQuantity[materialId] || 0;
+            const recipeIds = recipes.map((r) => r.recipeId);
+            const checkboxState = getMaterialState(materialId, recipeIds);
+
+            return (
+              <div key={materialId} className="space-y-2">
+                {/* Total Checkbox */}
+                <div className="flex flex-row gap-2 items-center">
+                  <CheckboxIndeterminate
+                    checked={checkboxState}
+                    onCheckedChange={() =>
+                      handleTotalCheckboxChange(
+                        checkboxState,
+                        materialId,
+                        recipes,
+                      )
+                    }
+                  />
+                  <div className="flex flex-row gap-2 items-center">
+                    {material.image && (
+                      <Image
+                        src={createImageUrlPath(material.image)}
+                        width={28}
+                        height={28}
+                        alt={material.name}
+                      />
+                    )}
+                    <span className="font-semibold">{totalQuantity}x</span>{" "}
+                    {material.name}
+                  </div>
+                </div>
+
+                {/* Recipe Checkboxes */}
+                <div className="ml-6 space-y-1">
+                  {recipes.map((recipe) => {
+                    const recipeItem = getItemById(recipe.recipeId);
+                    if (!recipeItem) return null;
+
+                    const isChecked = isRecipeChecked(
+                      materialId,
+                      recipe.recipeId,
+                    );
+
+                    return (
+                      <div
+                        key={recipe.recipeId}
+                        className="flex flex-row gap-2 items-center text-sm"
+                      >
+                        <Checkbox
+                          checked={isChecked}
+                          onCheckedChange={() =>
+                            handleRecipeCheckboxChange(
+                              isChecked,
+                              recipe.recipeId,
+                              recipe.nodeId,
+                            )
+                          }
+                        />
+                        <div className="flex flex-row gap-2 items-center">
+                          {recipeItem.image && (
+                            <Image
+                              src={createImageUrlPath(recipeItem.image)}
+                              width={20}
+                              height={20}
+                              alt={recipeItem.name}
+                            />
+                          )}
+                          <span className="font-semibold">
+                            {recipe.quantity * recipe.multiplier}x
+                          </span>{" "}
+                          <span className="text-neutral-400">
+                            ({recipe.multiplier}x {recipeItem.name})
+                          </span>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

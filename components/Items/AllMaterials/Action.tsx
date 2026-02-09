@@ -1,13 +1,20 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { useTodoCheckedItems } from "@/store/todo-checked-items";
+import { useSelectedMaterial } from "@/store/selected-material";
 
 export function AllMaterialsAction() {
-  const clear = useTodoCheckedItems((state) => state.clear);
+  const items = useSelectedMaterial((state) => state.items);
+  const resetAllToTodo = useSelectedMaterial((state) => state.resetAllToTodo);
+
+  const handleReset = () => {
+    Object.keys(items).forEach((itemIdKey) => {
+      resetAllToTodo(itemIdKey);
+    });
+  };
 
   return (
-    <Button variant="outline" onClick={clear}>
+    <Button variant="outline" onClick={handleReset}>
       Clear
     </Button>
   );

@@ -22,10 +22,11 @@ type SelectedMaterialStore = {
   items: Record<string, Item[]>;
   addAnItem: (itemIdKey: string, value: Item) => void;
   markAsDone: (itemIdKey: string, id: string) => void;
-  removeAnItem: (itemIdKey: string, id: string) => void;
   removeAnItemByNodeId: (itemIdKey: string, nodeId: string) => void;
   markAsDoneByNodeId: (itemIdKey: string, nodeId: string) => void;
+  markAsTodoByNodeId: (itemIdKey: string, nodeId: string) => void;
   clearMarkedMaterials: (itemIdKey: string) => void;
+  resetAllToTodo: (itemIdKey: string) => void;
 };
 
 export const useSelectedMaterial = create<SelectedMaterialStore>()(
@@ -48,15 +49,6 @@ export const useSelectedMaterial = create<SelectedMaterialStore>()(
             ),
           },
         }),
-      removeAnItem: (itemIdKey: string, id: string) =>
-        set({
-          items: {
-            ...get().items,
-            [itemIdKey]: (get().items[itemIdKey] || []).filter(
-              (item) => item.id !== id,
-            ),
-          },
-        }),
       removeAnItemByNodeId: (itemIdKey: string, nodeId: string) =>
         set({
           items: {
@@ -75,11 +67,30 @@ export const useSelectedMaterial = create<SelectedMaterialStore>()(
             ),
           },
         }),
+      markAsTodoByNodeId: (itemIdKey: string, nodeId: string) =>
+        set({
+          items: {
+            ...get().items,
+            [itemIdKey]: (get().items[itemIdKey] || []).map((item) =>
+              item.nodeId === nodeId ? { ...item, state: "TODO" } : item,
+            ),
+          },
+        }),
       clearMarkedMaterials: (itemIdKey: string) =>
         set({
           items: {
             ...get().items,
             [itemIdKey]: [],
+          },
+        }),
+      resetAllToTodo: (itemIdKey: string) =>
+        set({
+          items: {
+            ...get().items,
+            [itemIdKey]: (get().items[itemIdKey] || []).map((item) => ({
+              ...item,
+              state: "TODO",
+            })),
           },
         }),
     }),
