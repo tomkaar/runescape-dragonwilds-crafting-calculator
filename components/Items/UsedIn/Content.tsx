@@ -23,7 +23,7 @@ export function UsedInContent(props: Props) {
           .map((item) => (
             <li key={item.id} className="flex">
               <Link
-                prefetch={false}
+                prefetch
                 href={{ pathname: `/item/${item.id}` }}
                 className="bg-neutral-800 text-sm rounded-lg pl-1 pr-3 py-1 flex flex-row gap-1 items-center"
               >
