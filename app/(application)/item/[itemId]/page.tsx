@@ -4,6 +4,8 @@ import { type Metadata } from "next";
 import ContentMobile from "./ContentMobile";
 import ContentDesktop from "./ContentDesktop";
 
+import { Suspense } from "react";
+
 type Props = {
   params: Promise<{ itemId: string }>;
 };
@@ -33,11 +35,15 @@ export default async function ItemPage(props: Props) {
   return (
     <main className="h-full flex flex-col">
       <div className="block lg:hidden">
-        <ContentMobile item={item} itemId={itemId} />
+        <Suspense>
+          <ContentMobile item={item} itemId={itemId} />
+        </Suspense>
       </div>
 
       <div className="h-full w-full hidden lg:block">
-        <ContentDesktop item={item} itemId={itemId} />
+        <Suspense>
+          <ContentDesktop item={item} itemId={itemId} />
+        </Suspense>
       </div>
     </main>
   );

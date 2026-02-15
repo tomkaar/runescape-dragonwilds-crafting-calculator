@@ -1,5 +1,6 @@
 import itemsData from "@/data/items.json" assert { type: "json" };
 import { Item, ItemVariant } from "@/Types";
+import { cache } from "react";
 
 type ItemOrVariant =
   | { type: "item"; data: Item }
@@ -11,22 +12,24 @@ type ItemOrVariant =
  * @param id - The ID to search for (can be an item ID or variant ID)
  * @returns An object with type "item" or "variant" and the corresponding data, or undefined if not found
  */
-export function getItemOrVariantById(id: string): ItemOrVariant | undefined {
-  const items = itemsData as Item[];
+export const getItemOrVariantById = cache(
+  (id: string): ItemOrVariant | undefined => {
+    const items = itemsData as Item[];
 
-  // First, try to find as an item
-  const item = items.find((item) => item.id === id);
-  if (item) {
-    return { type: "item", data: item };
-  }
-
-  // If not found as item, search for variant
-  for (const item of items) {
-    const variant = item.variants.find((v) => v.id === id);
-    if (variant) {
-      return { type: "variant", data: variant, parentItem: item };
+    // First, try to find as an item
+    const item = items.find((item) => item.id === id);
+    if (item) {
+      return { type: "item", data: item };
     }
-  }
 
-  return undefined;
-}
+    // If not found as item, search for variant
+    for (const item of items) {
+      const variant = item.variants.find((v) => v.id === id);
+      if (variant) {
+        return { type: "variant", data: variant, parentItem: item };
+      }
+    }
+
+    return undefined;
+  },
+);

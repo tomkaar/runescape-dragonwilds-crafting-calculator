@@ -1,6 +1,7 @@
 import { getItemById } from "@/utils/itemById";
 import { type Node } from "./nodes";
 import { type Edge } from "./edges";
+import { cache } from "react";
 
 type Args = {
   itemId: string;
@@ -13,7 +14,7 @@ type Args = {
   initialItemId?: string;
 };
 
-export function resolveCraftingTree(args: Args) {
+export const resolveCraftingTree = cache((args: Args) => {
   const { initialItemId = args.itemId } = args;
   let { initialNode = true } = args;
 
@@ -152,4 +153,4 @@ export function resolveCraftingTree(args: Args) {
   });
 
   return { nodes, edges };
-}
+});
