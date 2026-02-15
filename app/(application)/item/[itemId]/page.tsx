@@ -4,7 +4,10 @@ import { type Metadata } from "next";
 import ContentMobile from "./ContentMobile";
 import ContentDesktop from "./ContentDesktop";
 
-import { Suspense } from "react";
+import itemJSON from "@/data/items.json";
+import { Item } from "@/Types";
+
+const items = itemJSON.sort((a, b) => a.name.localeCompare(b.name)) as Item[];
 
 type Props = {
   params: Promise<{ itemId: string }>;
@@ -23,6 +26,12 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   };
 }
 
+export function generateStaticParams() {
+  return items.map((item) => ({
+    itemId: item.id,
+  }));
+}
+
 export default async function ItemPage(props: Props) {
   const { itemId } = await props.params;
 
@@ -35,15 +44,11 @@ export default async function ItemPage(props: Props) {
   return (
     <main className="h-full flex flex-col">
       <div className="block lg:hidden">
-        <Suspense>
-          <ContentMobile item={item} itemId={itemId} />
-        </Suspense>
+        <ContentMobile item={item} itemId={itemId} />
       </div>
 
       <div className="h-full w-full hidden lg:block">
-        <Suspense>
-          <ContentDesktop item={item} itemId={itemId} />
-        </Suspense>
+        <ContentDesktop item={item} itemId={itemId} />
       </div>
     </main>
   );

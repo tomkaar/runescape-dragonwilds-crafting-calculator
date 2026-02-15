@@ -2,31 +2,44 @@
 
 import { PANEL_LAYOUT_PAGE } from "@/constants/panel-layout";
 import { type ReactNode } from "react";
-import { Group, type Layout } from "react-resizable-panels";
+import { Group } from "react-resizable-panels";
 import { useContentContext } from "./context";
 
 type Props = {
   children: ReactNode;
-  layout: Layout | undefined;
 };
 
 export function PageLayout(props: Props) {
-  const { children, layout } = props;
+  const { children } = props;
 
-  const { setRightSidebarIsCollapsed, setSidebarIsCollapsed } =
-    useContentContext();
+  const {
+    setRightSidebarIsCollapsed,
+    setSidebarIsCollapsed,
+    isLayoutLoading,
+    pageGroupRef,
+  } = useContentContext();
 
   return (
-    <Group
-      id={PANEL_LAYOUT_PAGE}
-      defaultLayout={layout}
-      onLayoutChange={(layout) => {
-        setSidebarIsCollapsed(layout.sidebar === 0);
-        setRightSidebarIsCollapsed(layout["sidebar-right"] === 0);
-        document.cookie = `${PANEL_LAYOUT_PAGE}=${JSON.stringify(layout)}; path=/;`;
-      }}
-    >
-      {children}
-    </Group>
+    <div className="relative h-full">
+      <Group
+        groupRef={pageGroupRef}
+        id={PANEL_LAYOUT_PAGE}
+        onLayoutChange={(layout) => {
+          if (isLayoutLoading) return;
+          setSidebarIsCollapsed(layout.sidebar === 0);
+          setRightSidebarIsCollapsed(layout["sidebar-right"] === 0);
+          localStorage.setItem(
+            `react-resizable-panels:${PANEL_LAYOUT_PAGE}`,
+            JSON.stringify(layout),
+          );
+        }}
+      >
+        {children}
+      </Group>
+
+      {isLayoutLoading && (
+        <div className="absolute inset-0 z-20 animate-pulse bg-neutral-950" />
+      )}
+    </div>
   );
 }

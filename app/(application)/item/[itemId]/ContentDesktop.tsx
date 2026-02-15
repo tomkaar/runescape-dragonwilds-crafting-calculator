@@ -7,12 +7,6 @@ import { PageLayout } from "@/components/panels/page-layout";
 import { LeftSidebar } from "@/components/panels/left-sidebar";
 import { RightSidebar } from "@/components/panels/right-sidebar";
 import { Center } from "@/components/panels/center";
-import { resolveServerPanelLayout } from "@/utils/resolve-server-panel-layout";
-import {
-  PANEL_LAYOUT_PAGE,
-  PANEL_LAYOUT_SIDEBAR,
-  PANEL_LAYOUT_SIDEBAR_RIGHT,
-} from "@/constants/panel-layout";
 import { RequiredMaterialsDesktopPanel } from "./Panels/RequiredMaterials";
 import { SelectedMaterialDesktopPanel } from "./Panels/SelectedMaterial";
 import { UsedInDesktopPanel } from "./Panels/UsedIn";
@@ -26,20 +20,13 @@ type Props = {
   itemId: string;
 };
 
-export default async function ContentDesktop(props: Props) {
+export default function ContentDesktop(props: Props) {
   const { item, itemId } = props;
-
-  const [pageLayout, pageSidebarLayout, pageSidebarRightLayout] =
-    await Promise.all([
-      resolveServerPanelLayout(PANEL_LAYOUT_PAGE),
-      resolveServerPanelLayout(PANEL_LAYOUT_SIDEBAR),
-      resolveServerPanelLayout(PANEL_LAYOUT_SIDEBAR_RIGHT),
-    ]);
 
   return (
     <ContentContextProvider>
-      <PageLayout layout={pageLayout}>
-        <LeftSidebar layout={pageSidebarLayout}>
+      <PageLayout>
+        <LeftSidebar>
           <ItemInfoBox item={item} itemId={itemId} />
 
           <RequiredMaterialsDesktopPanel itemId={itemId} />
@@ -63,7 +50,7 @@ export default async function ContentDesktop(props: Props) {
 
         <GroupPanelSeparator horizontal />
 
-        <RightSidebar layout={pageSidebarRightLayout}>
+        <RightSidebar>
           <AllMaterialsDesktopPanel />
           <GroupPanelSeparator />
           <AllRecipesDesktopPanel />

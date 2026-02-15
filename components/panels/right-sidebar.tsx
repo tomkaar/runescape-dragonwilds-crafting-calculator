@@ -2,17 +2,17 @@
 
 import { PANEL_LAYOUT_SIDEBAR_RIGHT } from "@/constants/panel-layout";
 import { type ReactNode } from "react";
-import { Group, type Layout, Panel } from "react-resizable-panels";
+import { Group, Panel } from "react-resizable-panels";
 import { useContentContext } from "./context";
 
 type Props = {
   children: ReactNode;
-  layout: Layout | undefined;
 };
 
 export function RightSidebar(props: Props) {
-  const { children, layout } = props;
-  const { sidebarRightPanelRef } = useContentContext();
+  const { children } = props;
+  const { sidebarRightPanelRef, rightSidebarGroupRef, isLayoutLoading } =
+    useContentContext();
 
   return (
     <Panel
@@ -21,15 +21,19 @@ export function RightSidebar(props: Props) {
       collapsible
       collapsedSize={0}
       minSize={350}
-      defaultSize={350}
+      maxSize={600}
       className="bg-neutral-950"
     >
       <Group
+        groupRef={rightSidebarGroupRef}
         id={PANEL_LAYOUT_SIDEBAR_RIGHT}
         orientation="vertical"
-        defaultLayout={layout}
         onLayoutChange={(layout) => {
-          document.cookie = `${PANEL_LAYOUT_SIDEBAR_RIGHT}=${JSON.stringify(layout)}; path=/;`;
+          if (isLayoutLoading) return;
+          localStorage.setItem(
+            `react-resizable-panels:${PANEL_LAYOUT_SIDEBAR_RIGHT}`,
+            JSON.stringify(layout),
+          );
         }}
         className="bg-neutral-950"
       >
