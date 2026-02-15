@@ -21,7 +21,9 @@ export default function CraftingTreeContent() {
 
     const edges = getEdges();
     setNodes((nds) => getLayoutedNodes(nds, edges));
-    fitView({ padding: { top: "100px" } });
+    fitView({
+      padding: { top: "70px", left: "20px", right: "20px", bottom: "20px" },
+    });
   }, [nodesInitialized, getEdges, setNodes, fitView]);
 
   return null;
