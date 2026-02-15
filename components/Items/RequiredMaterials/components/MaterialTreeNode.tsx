@@ -7,7 +7,6 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 import { type MaterialTreeItem } from "../utils/buildMaterialsTree";
-import Image from "next/image";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
@@ -83,7 +82,7 @@ export function MaterialTreeNode({
               )}
             >
               {item.item.image && item.variantNumber === undefined && (
-                <Image
+                <img
                   src={createImageUrlPath(item.item.image)}
                   alt={item.item.name}
                   width={28}
@@ -143,7 +142,7 @@ export function MaterialTreeNode({
             className="cursor-pointer flex flex-row gap-2 items-center px-2 py-1 rounded-lg text-sm text-foreground w-full justify-start transition-colors hover:bg-accent hover:text-accent-foreground"
           >
             {item.item.image && (
-              <Image
+              <img
                 src={createImageUrlPath(item.item.image)}
                 alt={item.item.name}
                 width={20}

@@ -1,7 +1,6 @@
 "use client";
 
 import { Handle, NodeProps, Position } from "@xyflow/react";
-import Image from "next/image";
 
 import { type Node } from "@/components/CraftingTree/nodes";
 import { forwardRef, memo } from "react";
@@ -155,7 +154,7 @@ const Content = memo(function InnerContent(props: ContentProps) {
         )}
         <div className="flex flex-row gap-1 items-center justify-center">
           {image && (
-            <Image
+            <img
               src={createImageUrlPath(image)}
               alt={label}
               width={24}

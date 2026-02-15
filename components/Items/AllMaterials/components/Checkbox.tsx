@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
@@ -53,7 +52,7 @@ export function CheckboxDescription(props: CheckboxDescriptionProps) {
               )}
             >
               {image && (
-                <Image
+                <img
                   src={createImageUrlPath(image)}
                   width={28}
                   height={28}

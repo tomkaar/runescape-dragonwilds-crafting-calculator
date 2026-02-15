@@ -1,7 +1,6 @@
 import { ExternalLinkIcon } from "lucide-react";
 
 import { Item } from "@/Types";
-import Image from "next/image";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import Link from "next/link";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
@@ -22,7 +21,7 @@ export function ItemInfoBox(props: Props) {
       <div className="flex flex-row gap-4 items-center">
         <div className="grow flex flex-row items-center">
           {item.image && (
-            <Image
+            <img
               src={createImageUrlPath(item.image)}
               alt={item.name}
               width={40}

@@ -1,5 +1,4 @@
 import { Check } from "lucide-react";
-import Image from "next/image";
 
 import { TreeItem } from "../utils/buildTreeFromNodeIds";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
@@ -25,7 +24,7 @@ export function RenderBuildTree(props: Props) {
               `}
           >
             {fileItem.item.image && (
-              <Image
+              <img
                 src={createImageUrlPath(fileItem.item.image)}
                 alt={fileItem.item.name}
                 width={20}
@@ -65,7 +64,7 @@ export function RenderBuildTree(props: Props) {
         className="group cursor-pointer inline-flex flex-row gap-2 px-2 py-1 rounded-lg text-sm text-foreground w-full justify-start hover:bg-accent hover:text-accent-foreground"
       >
         {fileItem.item.image && (
-          <Image
+          <img
             src={createImageUrlPath(fileItem.item.image)}
             alt={fileItem.item.name}
             width={20}

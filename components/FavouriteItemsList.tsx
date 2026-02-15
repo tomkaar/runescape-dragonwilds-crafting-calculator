@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 
 import { useFavouriteItems } from "@/store/favourite-items";
 import { getItemById } from "@/utils/itemById";
@@ -45,7 +44,7 @@ function FavouriteItem({ id, name, image }: FavouriteItemProps) {
         className="bg-neutral-800 text-sm rounded-lg pl-1 pr-3 py-1 flex flex-row gap-1 items-center"
       >
         {image && (
-          <Image
+          <img
             src={createImageUrlPath(image)}
             width={20}
             height={20}

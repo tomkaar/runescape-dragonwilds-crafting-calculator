@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Item } from "@/Types";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 
@@ -55,7 +54,7 @@ export function Card(props: TodoRecipeCardProps) {
                 className="flex flex-row items-center gap-2"
               >
                 {mat.material?.image && (
-                  <Image
+                  <img
                     src={createImageUrlPath(mat.material.image)}
                     width={28}
                     height={28}

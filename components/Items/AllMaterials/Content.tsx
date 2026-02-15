@@ -4,7 +4,6 @@ import { useSelectedMaterial } from "@/store/selected-material";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { Checkbox, CheckboxIndeterminate } from "@/components/ui/checkbox";
 import { getItemById } from "@/utils/itemById";
-import Image from "next/image";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 
 export function AllMaterialsContent() {
@@ -169,7 +168,7 @@ export function AllMaterialsContent() {
                   />
                   <div className="flex flex-row gap-2 items-center">
                     {material.image && (
-                      <Image
+                      <img
                         src={createImageUrlPath(material.image)}
                         width={28}
                         height={28}
@@ -209,7 +208,7 @@ export function AllMaterialsContent() {
                         />
                         <div className="flex flex-row gap-2 items-center">
                           {recipeItem.image && (
-                            <Image
+                            <img
                               src={createImageUrlPath(recipeItem.image)}
                               width={20}
                               height={20}

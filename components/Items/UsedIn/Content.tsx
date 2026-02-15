@@ -1,7 +1,6 @@
 "use client";
 
 import { getUsedIn } from "@/utils/getUsedIn";
-import Image from "next/image";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import Link from "@/components/link";
 
@@ -27,7 +26,7 @@ export function UsedInContent(props: Props) {
                 className="bg-neutral-800 text-sm rounded-lg pl-1 pr-3 py-1 flex flex-row gap-1 items-center"
               >
                 {item.image && (
-                  <Image
+                  <img
                     src={createImageUrlPath(item.image)}
                     width={20}
                     height={20}

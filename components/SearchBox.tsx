@@ -14,7 +14,6 @@ import {
 import { Item } from "@/Types";
 import itemJSON from "@/data/items.json";
 import { useRouter } from "next/navigation";
-import Image from "next/image";
 import { useFavouriteItems } from "@/store/favourite-items";
 import { StarIcon } from "lucide-react";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
@@ -56,7 +55,7 @@ export function SearchBox() {
               className="cursor-pointer py-1"
             >
               <div className="flex flex-row gap-2 items-center">
-                <Image
+                <img
                   src={createImageUrlPath(item.image)}
                   alt={item.name}
                   width={28}

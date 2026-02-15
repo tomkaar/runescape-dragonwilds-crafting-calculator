@@ -1,5 +1,4 @@
 import { Hammer } from "lucide-react";
-import Image from "next/image";
 import { Facility } from "@/Types";
 
 export default function getFacilityIcon(
@@ -24,5 +23,5 @@ export default function getFacilityIcon(
     .replace(/\)/g, "%29");
   const url = `https://dragonwilds.runescape.wiki/images/${encodedFilename}.png`;
 
-  return <Image src={url} alt={facility} width={size} height={size} />;
+  return <img src={url} alt={facility} width={size} height={size} />;
 }
