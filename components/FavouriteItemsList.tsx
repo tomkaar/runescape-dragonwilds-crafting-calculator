@@ -3,8 +3,8 @@ import Image from "next/image";
 
 import { useFavouriteItems } from "@/store/favourite-items";
 import { getItemById } from "@/utils/itemById";
-import Link from "next/link";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
+import Link from "@/components/link";
 
 export function FavouriteItemsList() {
   const favouritedItems = useFavouriteItems((state) => state.items);
@@ -41,7 +41,6 @@ function FavouriteItem({ id, name, image }: FavouriteItemProps) {
   return (
     <li>
       <Link
-        prefetch
         href={{ pathname: `/item/${id}` }}
         className="bg-neutral-800 text-sm rounded-lg pl-1 pr-3 py-1 flex flex-row gap-1 items-center"
       >

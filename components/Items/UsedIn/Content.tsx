@@ -1,9 +1,9 @@
 "use client";
 
 import { getUsedIn } from "@/utils/getUsedIn";
-import Link from "next/link";
 import Image from "next/image";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
+import Link from "@/components/link";
 
 type Props = {
   itemId: string;
@@ -23,7 +23,6 @@ export function UsedInContent(props: Props) {
           .map((item) => (
             <li key={item.id} className="flex">
               <Link
-                prefetch
                 href={{ pathname: `/item/${item.id}` }}
                 className="bg-neutral-800 text-sm rounded-lg pl-1 pr-3 py-1 flex flex-row gap-1 items-center"
               >
