@@ -1,5 +1,3 @@
-"use client";
-
 export function AttributionContent() {
   return (
     <div className="px-4">

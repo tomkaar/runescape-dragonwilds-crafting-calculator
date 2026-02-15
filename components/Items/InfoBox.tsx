@@ -1,13 +1,11 @@
-"use client";
+import { ExternalLinkIcon } from "lucide-react";
 
-import { ExternalLinkIcon, StarIcon } from "lucide-react";
-
-import { useFavouriteItems } from "@/store/favourite-items";
 import { Item } from "@/Types";
 import Image from "next/image";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import Link from "next/link";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
+import { Favourite } from "./InfoBox/Favourite";
 
 type Props = {
   item: Item;
@@ -16,15 +14,8 @@ type Props = {
 
 export function ItemInfoBox(props: Props) {
   const { item, itemId } = props;
-  const favouritedItems = useFavouriteItems((state) => state.items);
-  const toggleAnItem = useFavouriteItems((state) => state.toggleAnItem);
-  const isFavourited = favouritedItems.includes(itemId);
 
-  const toggleFavourite = () => {
-    toggleAnItem(item.id);
-  };
-
-  const unqieFacilities = Array.from(new Set(item.facilities));
+  const uniqueFacilities = Array.from(new Set(item.facilities));
 
   return (
     <div className="px-4 py-4 border-b border-neutral-700">
@@ -40,16 +31,10 @@ export function ItemInfoBox(props: Props) {
           )}
           <h2>{item.name}</h2>
         </div>
-        <button onClick={toggleFavourite} className="cursor-pointer">
-          {isFavourited ? (
-            <StarIcon className="w-5 h-5 text-yellow-400 fill-yellow-400" />
-          ) : (
-            <StarIcon className="w-5 h-5 text-neutral-600" />
-          )}
-        </button>
+        <Favourite itemId={itemId} />
       </div>
 
-      {item.wikiLink || unqieFacilities.length > 0 ? (
+      {item.wikiLink || uniqueFacilities.length > 0 ? (
         <div className="flex flex-row flex-wrap gap-2 mt-2">
           {item.wikiLink && (
             <Link
@@ -67,8 +52,8 @@ export function ItemInfoBox(props: Props) {
             </Link>
           )}
 
-          {unqieFacilities &&
-            unqieFacilities.map(
+          {uniqueFacilities &&
+            uniqueFacilities.map(
               (facility) =>
                 facility && (
                   <div
