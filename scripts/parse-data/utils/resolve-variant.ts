@@ -3,6 +3,7 @@ import { ItemVariant } from "@/Types";
 import { createHash } from "crypto";
 import variantFromImage from "./variant-from-image";
 import { resolveRecipe } from "./resolve-recipe";
+import { resolveImage } from "./resolve-image";
 
 export function resolveVariant(rawRecipe: SourceRecipe): ItemVariant | null {
   const recipe = resolveRecipe(rawRecipe);
@@ -21,6 +22,7 @@ export function resolveVariant(rawRecipe: SourceRecipe): ItemVariant | null {
   return {
     id: variantId,
     name: rawRecipe.json.output.name,
+    image: resolveImage(rawRecipe, [], rawRecipe.json.output.name),
     variantName,
     recipe,
   };

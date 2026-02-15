@@ -101,7 +101,7 @@ export const resolveCraftingTree = cache((args: Args) => {
       data: {
         id: item.id,
         label: item.name,
-        image: item.image || null,
+        image: variant.image || null,
         numberOfRecipies: null,
         isRecipeNumberVariant: multipleVariants ? idx + 1 : null,
         facility: variant.recipe?.facility as unknown as string | null,

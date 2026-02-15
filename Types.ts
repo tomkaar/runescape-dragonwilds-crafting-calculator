@@ -28,6 +28,8 @@ export type ItemVariant = {
   id: string;
   /* The name of the variant (example: "Wall") */
   name: string;
+  /* A parsed URL to an image representing the item. Use first variant's image if multiple variants exist */
+  image: string | null;
   /* The name of the variant (example: "Cabin") */
   /* Can be parsed from the item image */
   variantName: string | null;
