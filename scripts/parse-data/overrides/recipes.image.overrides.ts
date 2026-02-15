@@ -5,6 +5,12 @@ import { RecipeImageOverride } from "./types";
  * `usesMaterial` is matched as an exact set (order-insensitive).
  */
 export const recipeImageOverrides: RecipeImageOverride[] = [
+  // Wall
+  {
+    output: "Wall",
+    usesMaterial: ["Stone Block"],
+    image: "thumb/Wall_%28Castle%29.png/250px-Wall_%28Castle%29.png?d5cfa",
+  },
   // 30° Stairs
   {
     output: "30° Stairs",
