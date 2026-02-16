@@ -1,6 +1,5 @@
 import * as fs from "fs";
 import { join } from "path";
-// import groupRecipesByOutput from "../utils/groupRecipesByOutput";
 import { SourceRecipe } from "../fetch-data/types/recipe";
 import { SourceItem } from "../fetch-data/types/item";
 import listItems from "./utils/list-items";
