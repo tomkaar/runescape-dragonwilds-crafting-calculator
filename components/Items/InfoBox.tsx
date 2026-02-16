@@ -22,7 +22,7 @@ export function ItemInfoBox(props: Props) {
         <div className="grow flex flex-row items-center">
           {item.image && (
             <img
-              src={createImageUrlPath(item.image)}
+              src={createImageUrlPath(item.image, 64)}
               alt={item.name}
               width={40}
               height={40}

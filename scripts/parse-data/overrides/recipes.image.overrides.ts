@@ -9,7 +9,7 @@ export const recipeImageOverrides: RecipeImageOverride[] = [
   {
     output: "Wall",
     usesMaterial: ["Stone Block"],
-    image: "thumb/Wall_%28Castle%29.png/250px-Wall_%28Castle%29.png?d5cfa",
+    image: "Wall_%28Castle%29.png",
   },
   // 30° Stairs
   {
@@ -25,8 +25,7 @@ export const recipeImageOverrides: RecipeImageOverride[] = [
   {
     output: "30° Stairs",
     usesMaterial: ["Stone Block"],
-    image:
-      "thumb/30°_Stairs_%28Castle%29.png/500px-30°_Stairs_%28Castle%29.png",
+    image: "30°_Stairs_%28Castle%29.png",
   },
   // 45° Stairs
   {
@@ -42,8 +41,7 @@ export const recipeImageOverrides: RecipeImageOverride[] = [
   {
     output: "45° Stairs",
     usesMaterial: ["Stone Block"],
-    image:
-      "thumb/45°_Stairs_%28Castle%29.png/500px-45°_Stairs_%28Castle%29.png",
+    image: "45°_Stairs_%28Castle%29.png",
   },
   // 45° Corner Stairs
   {
@@ -59,8 +57,7 @@ export const recipeImageOverrides: RecipeImageOverride[] = [
   {
     output: "Inner Corner 45° Stairs",
     usesMaterial: ["Stone Block"],
-    image:
-      "thumb/Inner_Corner_45°_Stairs_%28Castle%29.png/500px-Inner_Corner_45°_Stairs_%28Castle%29.png",
+    image: "Inner_Corner_45°_Stairs_%28Castle%29.png",
   },
   // Outer Corner 45° Stairs
   {
@@ -76,8 +73,7 @@ export const recipeImageOverrides: RecipeImageOverride[] = [
   {
     output: "Outer Corner 45° Stairs",
     usesMaterial: ["Stone Block"],
-    image:
-      "thumb/Outer_Corner_45°_Stairs_%28Castle%29.png/500px-Outer_Corner_45°_Stairs_%28Castle%29.png",
+    image: "Outer_Corner_45°_Stairs_%28Castle%29.png",
   },
   // Medium Square Foundation
   {
@@ -93,8 +89,7 @@ export const recipeImageOverrides: RecipeImageOverride[] = [
   {
     output: "Medium Square Foundation",
     usesMaterial: ["Stone Block", "Oak Plank"],
-    image:
-      "thumb/Medium_Square_Foundation_%28Castle%29.png/500px-Medium_Square_Foundation_%28Castle%29.png",
+    image: "Medium_Square_Foundation_%28Castle%29.png",
   },
   // Medium Square Tile
   {
@@ -110,8 +105,7 @@ export const recipeImageOverrides: RecipeImageOverride[] = [
   {
     output: "Medium Square Tile",
     usesMaterial: ["Stone Block"],
-    image:
-      "thumb/Medium_Square_Tile_%28Castle%29.png/500px-Medium_Square_Tile_%28Castle%29.png",
+    image: "Medium_Square_Tile_%28Castle%29.png",
   },
   // Medium Triangular Foundation
   {
@@ -127,8 +121,7 @@ export const recipeImageOverrides: RecipeImageOverride[] = [
   {
     output: "Medium Triangular Foundation",
     usesMaterial: ["Stone Block", "Oak Plank"],
-    image:
-      "thumb/Medium_Triangular_Foundation_%28Castle%29.png/500px-Medium_Triangular_Foundation_%28Castle%29.png",
+    image: "Medium_Triangular_Foundation_%28Castle%29.png",
   },
 
   {
@@ -144,8 +137,7 @@ export const recipeImageOverrides: RecipeImageOverride[] = [
   {
     output: "Medium Triangular Tile",
     usesMaterial: ["Stone Block"],
-    image:
-      "thumb/Medium_Triangular_Tile_%28Castle%29.png/500px-Medium_Triangular_Tile_%28Castle%29.png",
+    image: "Medium_Triangular_Tile_%28Castle%29.png",
   },
   // Small Square Tile
   {
@@ -161,8 +153,7 @@ export const recipeImageOverrides: RecipeImageOverride[] = [
   {
     output: "Small Square Tile",
     usesMaterial: ["Stone Block"],
-    image:
-      "thumb/Small_Square_Tile_%28Castle%29.png/500px-Small_Square_Tile_%28Castle%29.png",
+    image: "Small_Square_Tile_%28Castle%29.png",
   },
   // Square Foundation
   {
@@ -178,8 +169,7 @@ export const recipeImageOverrides: RecipeImageOverride[] = [
   {
     output: "Square Foundation",
     usesMaterial: ["Stone Block", "Oak Plank"],
-    image:
-      "thumb/Square_Foundation_%28Castle%29.png/500px-Square_Foundation_%28Castle%29.png",
+    image: "Square_Foundation_%28Castle%29.png",
   },
   // Square Tile
   {
@@ -195,8 +185,7 @@ export const recipeImageOverrides: RecipeImageOverride[] = [
   {
     output: "Square Tile",
     usesMaterial: ["Stone Block"],
-    image:
-      "thumb/Square_Tile_%28Castle%29.png/500px-Square_Tile_%28Castle%29.png",
+    image: "Square_Tile_%28Castle%29.png",
   },
   // Triangular Foundation/Tile
   {
@@ -212,8 +201,7 @@ export const recipeImageOverrides: RecipeImageOverride[] = [
   {
     output: "Triangular Foundation",
     usesMaterial: ["Stone Block", "Oak Plank"],
-    image:
-      "thumb/Triangular_Foundation_%28Castle%29.png/500px-Triangular_Foundation_%28Castle%29.png",
+    image: "Triangular_Foundation_%28Castle%29.png",
   },
   // Triangular Tile
   {
@@ -229,7 +217,6 @@ export const recipeImageOverrides: RecipeImageOverride[] = [
   {
     output: "Triangular Tile",
     usesMaterial: ["Stone Block"],
-    image:
-      "thumb/Triangular_Tile_%28Castle%29.png/500px-Triangular_Tile_%28Castle%29.png",
+    image: "Triangular_Tile_%28Castle%29.png",
   },
 ];

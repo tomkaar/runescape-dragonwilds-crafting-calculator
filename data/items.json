@@ -53,7 +53,7 @@
       {
         "id": "107c5da561d7",
         "name": "Wall",
-        "image": "thumb/Wall_%28Castle%29.png/250px-Wall_%28Castle%29.png?d5cfa",
+        "image": "Wall_%28Castle%29.png",
         "variantName": null,
         "recipe": {
           "id": "22233cd37cd9",
@@ -7689,7 +7689,7 @@
       {
         "id": "09e7ccf1d6e8",
         "name": "30° Stairs",
-        "image": "thumb/30°_Stairs_%28Castle%29.png/500px-30°_Stairs_%28Castle%29.png",
+        "image": "30°_Stairs_%28Castle%29.png",
         "variantName": null,
         "recipe": {
           "id": "367e842dc50c",
@@ -7754,7 +7754,7 @@
       {
         "id": "09e7ccf1d6e8",
         "name": "45° Stairs",
-        "image": "thumb/45°_Stairs_%28Castle%29.png/500px-45°_Stairs_%28Castle%29.png",
+        "image": "45°_Stairs_%28Castle%29.png",
         "variantName": null,
         "recipe": {
           "id": "367e842dc50c",
@@ -7819,7 +7819,7 @@
       {
         "id": "09e7ccf1d6e8",
         "name": "Inner Corner 45° Stairs",
-        "image": "thumb/Inner_Corner_45°_Stairs_%28Castle%29.png/500px-Inner_Corner_45°_Stairs_%28Castle%29.png",
+        "image": "Inner_Corner_45°_Stairs_%28Castle%29.png",
         "variantName": null,
         "recipe": {
           "id": "367e842dc50c",
@@ -7884,7 +7884,7 @@
       {
         "id": "d3ea43db5cdd",
         "name": "Small Square Tile",
-        "image": "thumb/Small_Square_Tile_%28Castle%29.png/500px-Small_Square_Tile_%28Castle%29.png",
+        "image": "Small_Square_Tile_%28Castle%29.png",
         "variantName": null,
         "recipe": {
           "id": "67e663e34b0a",
@@ -7953,7 +7953,7 @@
       {
         "id": "107c5da561d7",
         "name": "Square Tile",
-        "image": "thumb/Square_Tile_%28Castle%29.png/500px-Square_Tile_%28Castle%29.png",
+        "image": "Square_Tile_%28Castle%29.png",
         "variantName": null,
         "recipe": {
           "id": "22233cd37cd9",
@@ -8022,7 +8022,7 @@
       {
         "id": "09e7ccf1d6e8",
         "name": "Medium Square Tile",
-        "image": "thumb/Medium_Square_Tile_%28Castle%29.png/500px-Medium_Square_Tile_%28Castle%29.png",
+        "image": "Medium_Square_Tile_%28Castle%29.png",
         "variantName": null,
         "recipe": {
           "id": "367e842dc50c",
@@ -8091,7 +8091,7 @@
       {
         "id": "107c5da561d7",
         "name": "Triangular Tile",
-        "image": "thumb/Triangular_Tile_%28Castle%29.png/500px-Triangular_Tile_%28Castle%29.png",
+        "image": "Triangular_Tile_%28Castle%29.png",
         "variantName": null,
         "recipe": {
           "id": "22233cd37cd9",
@@ -8156,7 +8156,7 @@
       {
         "id": "d3ea43db5cdd",
         "name": "Medium Triangular Tile",
-        "image": "thumb/Medium_Triangular_Tile_%28Castle%29.png/500px-Medium_Triangular_Tile_%28Castle%29.png",
+        "image": "Medium_Triangular_Tile_%28Castle%29.png",
         "variantName": null,
         "recipe": {
           "id": "67e663e34b0a",
@@ -9185,7 +9185,7 @@
       {
         "id": "d35a0b26ee96",
         "name": "Square Foundation",
-        "image": "thumb/Square_Foundation_%28Castle%29.png/500px-Square_Foundation_%28Castle%29.png",
+        "image": "Square_Foundation_%28Castle%29.png",
         "variantName": null,
         "recipe": {
           "id": "b501168cc981",
@@ -9262,7 +9262,7 @@
       {
         "id": "3266d6e00bd9",
         "name": "Medium Triangular Foundation",
-        "image": "thumb/Medium_Triangular_Foundation_%28Castle%29.png/500px-Medium_Triangular_Foundation_%28Castle%29.png",
+        "image": "Medium_Triangular_Foundation_%28Castle%29.png",
         "variantName": null,
         "recipe": {
           "id": "ad1203382a07",
@@ -9339,7 +9339,7 @@
       {
         "id": "d35a0b26ee96",
         "name": "Triangular Foundation",
-        "image": "thumb/Triangular_Foundation_%28Castle%29.png/500px-Triangular_Foundation_%28Castle%29.png",
+        "image": "Triangular_Foundation_%28Castle%29.png",
         "variantName": null,
         "recipe": {
           "id": "b501168cc981",
@@ -9412,7 +9412,7 @@
       {
         "id": "d35a0b26ee96",
         "name": "Medium Square Foundation",
-        "image": "thumb/Medium_Square_Foundation_%28Castle%29.png/500px-Medium_Square_Foundation_%28Castle%29.png",
+        "image": "Medium_Square_Foundation_%28Castle%29.png",
         "variantName": null,
         "recipe": {
           "id": "b501168cc981",
@@ -15410,7 +15410,7 @@
       {
         "id": "09e7ccf1d6e8",
         "name": "Outer Corner 45° Stairs",
-        "image": "thumb/Outer_Corner_45°_Stairs_%28Castle%29.png/500px-Outer_Corner_45°_Stairs_%28Castle%29.png",
+        "image": "Outer_Corner_45°_Stairs_%28Castle%29.png",
         "variantName": null,
         "recipe": {
           "id": "367e842dc50c",
@@ -29523,7 +29523,7 @@
   {
     "id": "9862019cf379",
     "name": "VESTIGE: Cloying Damp Cowl",
-    "image": "thumb/VESTIGE-_Cloying_Damp_Cowl.png/250px-VESTIGE-_Cloying_Damp_Cowl.png?2bf82",
+    "image": "VESTIGE-_Cloying_Damp_Cowl.png",
     "variants": [
       {
         "id": "9862019cf379",
@@ -30084,7 +30084,7 @@
   {
     "id": "dded1f7433f5",
     "name": "VESTIGE: Tastefully Torn Tights",
-    "image": "thumb/Ranger_Tights.png/250px-Ranger_Tights.png?d945e",
+    "image": "Ranger_Tights.png",
     "variants": [
       {
         "id": "dded1f7433f5",
@@ -30152,7 +30152,7 @@
   {
     "id": "a7529d7b1c21",
     "name": "VESTIGE: Shard of Smoky Glass",
-    "image": "thumb/VESTIGE-_Shard_of_Smoky_Glass.png/250px-VESTIGE-_Shard_of_Smoky_Glass.png?2bf82",
+    "image": "VESTIGE-_Shard_of_Smoky_Glass.png",
     "variants": [
       {
         "id": "a7529d7b1c21",
@@ -30203,7 +30203,7 @@
   {
     "id": "058c08aac2f6",
     "name": "VESTIGE: Tattered Time-Lost Cloth",
-    "image": "thumb/VESTIGE-_Tattered_Time-Lost_Cloth.png/250px-VESTIGE-_Tattered_Time-Lost_Cloth.png?2bf82",
+    "image": "VESTIGE-_Tattered_Time-Lost_Cloth.png",
     "variants": [
       {
         "id": "058c08aac2f6",
