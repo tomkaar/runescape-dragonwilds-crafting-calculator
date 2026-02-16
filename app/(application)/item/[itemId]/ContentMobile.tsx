@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import { RequiredMaterialsMobilePanel } from "./Panels/RequiredMaterials";
 import { SelectedMaterialMobilePanel } from "./Panels/SelectedMaterial";
 import { UsedInMobilePanel } from "./Panels/UsedIn";
-import { AttributionMobilePanel } from "./Panels/Attribution";
+import { Attribution } from "./Panels/Attribution";
 import { AllMaterialsMobilePanel } from "./Panels/AllMaterials";
 import { AllRecipesMobilePanel } from "./Panels/AllRecipes";
 import { CraftingTreeMobilePanel } from "./Panels/CraftingTree";
@@ -33,7 +33,7 @@ export default async function ContentMobile({
         </div>
       </Suspense>
 
-      <AttributionMobilePanel />
+      <Attribution />
     </div>
   );
 }

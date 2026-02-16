@@ -10,7 +10,7 @@ import { Center } from "@/components/panels/center";
 import { RequiredMaterialsDesktopPanel } from "./Panels/RequiredMaterials";
 import { SelectedMaterialDesktopPanel } from "./Panels/SelectedMaterial";
 import { UsedInDesktopPanel } from "./Panels/UsedIn";
-import { AttributionDesktopPanel } from "./Panels/Attribution";
+import { Attribution } from "./Panels/Attribution";
 import { AllMaterialsDesktopPanel } from "./Panels/AllMaterials";
 import { AllRecipesDesktopPanel } from "./Panels/AllRecipes";
 import { ItemCraftingTreeDesktop } from "./components/CraftingTree";
@@ -34,8 +34,7 @@ export default function ContentDesktop(props: Props) {
           <SelectedMaterialDesktopPanel itemId={itemId} />
           <GroupPanelSeparator />
           <UsedInDesktopPanel itemId={itemId} />
-          <GroupPanelSeparator />
-          <AttributionDesktopPanel />
+          <Attribution />
         </LeftSidebar>
 
         <GroupPanelSeparator horizontal />
