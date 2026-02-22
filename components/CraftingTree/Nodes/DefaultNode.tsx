@@ -44,9 +44,9 @@ const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
             : "",
           props.data.numberOfRecipies &&
             props.data.numberOfRecipies > 1 &&
-            "border border-dashed border-yellow-400",
+            "border border-dashed border-title",
           props.data.isRecipeNumberVariant !== null &&
-            "border border-dashed border-yellow-400",
+            "border border-dashed border-title",
           startsWith && "opacity-50",
         )}
       >
@@ -144,15 +144,15 @@ const Content = memo(function InnerContent(props: ContentProps) {
     <>
       <button
         onClick={handleToggleItem}
-        className="cursor-pointer pl-1 pr-2 py-1"
+        className="relative cursor-pointer pl-1 pr-2 py-1"
         disabled={isRecipeNumberVariant !== null}
       >
         {isRecipeNumberVariant !== null && (
-          <div className="w-full flex flex-row items-center justify-center text-xs text-yellow-400 pt-1">
+          <div className="absolute z-10 -top-0.5 left-1/2 -translate-1/2 whitespace-nowrap rounded-lg px-2 py-0.5 bg-title text-[8px] text-black pt-1">
             Recipe option {isRecipeNumberVariant}
           </div>
         )}
-        <div className="flex flex-row gap-1 items-center justify-center">
+        <div className="flex flex-row gap-1 items-center">
           {image && (
             <img
               src={createImageUrlPath(image)}
@@ -167,7 +167,7 @@ const Content = memo(function InnerContent(props: ContentProps) {
         </div>
 
         {hasExcessItems && (
-          <div className="w-full flex flex-row items-center justify-center text-xs text-sky-400 px-2 pb-1 rounded-lg">
+          <div className="w-full flex flex-row items-center text-xs text-sky-400 px-2 pb-1 rounded-lg">
             {quantityRecieved - quantity} extra item
             {quantityRecieved - quantity !== 1 ? "s" : ""} after fulfilling
             requirement
@@ -176,13 +176,13 @@ const Content = memo(function InnerContent(props: ContentProps) {
       </button>
 
       {numberOfRecipies && numberOfRecipies > 1 && (
-        <div className="w-full flex flex-row items-center justify-center text-xs text-yellow-400 bg-neutral-900 px-2 py-1 rounded-lg">
+        <div className="relative w-[calc(100%+2px)] -mb-px flex flex-row items-center justify-center text-xs text-black bg-title px-2 py-1 rounded-b-lg">
           {numberOfRecipies} recipes
         </div>
       )}
 
       {facility && (
-        <div className="w-full flex flex-row items-center gap-2 text-xs text-neutral-200 bg-neutral-900 px-2 py-1 rounded-lg">
+        <div className="w-full flex flex-row items-center gap-2 text-xs text-neutral-200 bg-card px-2 py-1 rounded-lg">
           {getFacilityIcon(facility as (typeof Facility)[number])}
           {facility}
         </div>

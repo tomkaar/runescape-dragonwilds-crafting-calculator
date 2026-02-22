@@ -90,7 +90,9 @@ export function MaterialTreeNode({
                 />
               )}
               {item.variantNumber === undefined && (
-                <span className="font-semibold">{item.quantity}x</span>
+                <span className="font-semibold text-white">
+                  {item.quantity}x
+                </span>
               )}
               {item.variantNumber === undefined && (
                 <span className="text-left">{item.item.name}</span>

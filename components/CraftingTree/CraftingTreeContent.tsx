@@ -36,7 +36,7 @@ export function getLayoutedNodes(
   dagreGraph.setGraph({
     rankdir: "TB",
     nodesep: 12,
-    ranksep: 20,
+    ranksep: 40,
   });
 
   nodes.forEach((node) => {

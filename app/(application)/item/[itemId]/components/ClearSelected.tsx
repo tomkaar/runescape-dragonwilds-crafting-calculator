@@ -29,7 +29,9 @@ export function ClearSelected(props: Props) {
   return (
     <AlertDialog>
       <AlertDialogTrigger asChild>
-        <Button variant="secondary">Clear</Button>
+        <Button variant="secondary" className="cursor-pointer">
+          Clear
+        </Button>
       </AlertDialogTrigger>
       <AlertDialogContent>
         <AlertDialogHeader>

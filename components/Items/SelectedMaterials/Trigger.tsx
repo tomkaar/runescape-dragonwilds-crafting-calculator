@@ -15,13 +15,13 @@ export function SelectedMaterialsTrigger(props: Props) {
 
   return (
     <>
-      <ListTodoIcon className="w-4 h-4 text-neutral-600" />
+      <ListTodoIcon className="w-4 h-4 text-foreground" />
       <div className="text-left flex flex-col">
         <span>Selected Materials</span>
         <span
           className={cn(
-            "font-semibold text-xs text-neutral-400",
-            multiplier > 1 && "text-yellow-400",
+            "relative -mt-1 font-semibold text-xs text-neutral-400",
+            multiplier > 1 && "text-title",
           )}
         >
           Multiplier: x{multiplier}

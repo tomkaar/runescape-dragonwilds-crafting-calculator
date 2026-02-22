@@ -10,7 +10,6 @@ import { Center } from "@/components/panels/center";
 import { RequiredMaterialsDesktopPanel } from "./Panels/RequiredMaterials";
 import { SelectedMaterialDesktopPanel } from "./Panels/SelectedMaterial";
 import { UsedInDesktopPanel } from "./Panels/UsedIn";
-import { Attribution } from "./Panels/Attribution";
 import { AllMaterialsDesktopPanel } from "./Panels/AllMaterials";
 import { AllRecipesDesktopPanel } from "./Panels/AllRecipes";
 import { ItemCraftingTreeDesktop } from "./components/CraftingTree";
@@ -34,14 +33,13 @@ export default function ContentDesktop(props: Props) {
           <SelectedMaterialDesktopPanel itemId={itemId} />
           <GroupPanelSeparator />
           <UsedInDesktopPanel itemId={itemId} />
-          <Attribution />
         </LeftSidebar>
 
         <GroupPanelSeparator horizontal />
 
         <Center>
           <Suspense>
-            <div className="bg-neutral-900 w-full h-full">
+            <div className="bg-card w-full h-full">
               <ItemCraftingTreeDesktop itemId={itemId} />
             </div>
           </Suspense>

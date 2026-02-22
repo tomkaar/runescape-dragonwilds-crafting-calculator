@@ -2,7 +2,6 @@ import { Suspense } from "react";
 
 import {
   CollapsiblePanelDesktopButtonLayout,
-  CollapsiblePanelDesktopButtonTrigger,
   CollapsiblePanelDesktopContent,
   CollapsiblePanelDesktopRoot,
 } from "@/components/CollapsiblePanel/desktop";
@@ -31,9 +30,9 @@ export function SelectedMaterialDesktopPanel(props: Props) {
       minSize={ITEM_PANEL_CONFIGS.selectedMaterials.minSize}
     >
       <CollapsiblePanelDesktopButtonLayout>
-        <CollapsiblePanelDesktopButtonTrigger>
+        <div className="w-full flex flex-row items-center gap-2 py-4 text-base font-bold">
           <SelectedMaterialsTrigger itemId={itemId} />
-        </CollapsiblePanelDesktopButtonTrigger>
+        </div>
         <Suspense>
           <SelectedMaterialsAction itemId={itemId} />
         </Suspense>

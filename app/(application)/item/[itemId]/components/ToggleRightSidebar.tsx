@@ -8,7 +8,11 @@ export function ToggleRightSidebar() {
 
   return (
     <Panel position="top-right">
-      <Button onClick={toggleRightSidebar} variant="secondary">
+      <Button
+        onClick={toggleRightSidebar}
+        variant="secondary"
+        className="cursor-pointer"
+      >
         {rightSidebarIsCollapsed ? (
           <PanelRightOpenIcon className="w-2 h-2" />
         ) : (

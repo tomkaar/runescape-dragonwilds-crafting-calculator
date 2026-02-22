@@ -1,12 +1,6 @@
 "use client";
 
-import {
-  createContext,
-  useContext,
-  useRef,
-  type ReactNode,
-  useState,
-} from "react";
+import { createContext, useContext, useRef, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
 import { useMobilePanelsState } from "@/store/mobile-panel-state";
 
@@ -34,7 +28,9 @@ export function CollapsiblePanelMobileButtonLayout({
   children,
 }: CollapsiblePanelMobileButtonLayoutProps) {
   return (
-    <div className="flex flex-row gap-2 items-center px-4">{children}</div>
+    <div className="flex flex-row gap-2 items-center px-4 bg-card font-semibold">
+      {children}
+    </div>
   );
 }
 
@@ -99,9 +95,7 @@ export function CollapsiblePanelMobileRoot({
   };
 
   return (
-    <div
-      className={cn("bg-neutral-950 border-t border-neutral-800", className)}
-    >
+    <div className={cn("bg-background border-t border-neutral-800", className)}>
       <CollapsiblePanelMobileContext.Provider
         value={{ togglePanel: handleTogglePanel, isOpen }}
       >

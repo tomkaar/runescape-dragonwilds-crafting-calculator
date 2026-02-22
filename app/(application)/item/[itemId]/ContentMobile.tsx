@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import { RequiredMaterialsMobilePanel } from "./Panels/RequiredMaterials";
 import { SelectedMaterialMobilePanel } from "./Panels/SelectedMaterial";
 import { UsedInMobilePanel } from "./Panels/UsedIn";
-import { Attribution } from "./Panels/Attribution";
+import { AttributionMobilePanel } from "./Panels/Attribution";
 import { AllMaterialsMobilePanel } from "./Panels/AllMaterials";
 import { AllRecipesMobilePanel } from "./Panels/AllRecipes";
 import { CraftingTreeMobilePanel } from "./Panels/CraftingTree";
@@ -18,7 +18,7 @@ export default async function ContentMobile({
 }) {
   return (
     <div>
-      <div className="bg-neutral-950">
+      <div className="bg-background">
         <ItemInfoBox item={item} itemId={itemId} />
         <RequiredMaterialsMobilePanel itemId={itemId} />
         <SelectedMaterialMobilePanel itemId={itemId} />
@@ -28,12 +28,12 @@ export default async function ContentMobile({
       </div>
 
       <Suspense>
-        <div className="bg-neutral-900 w-full h-full">
+        <div className="bg-card w-full h-full">
           <CraftingTreeMobilePanel itemId={itemId} />
         </div>
       </Suspense>
 
-      <Attribution />
+      <AttributionMobilePanel />
     </div>
   );
 }

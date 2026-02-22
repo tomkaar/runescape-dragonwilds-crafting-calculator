@@ -38,7 +38,7 @@ export function PageLayout(props: Props) {
       </Group>
 
       {isLayoutLoading && (
-        <div className="absolute inset-0 z-20 animate-pulse bg-neutral-950" />
+        <div className="absolute inset-0 z-20 animate-pulse bg-background" />
       )}
     </div>
   );

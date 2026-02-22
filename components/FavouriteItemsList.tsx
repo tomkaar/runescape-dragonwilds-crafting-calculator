@@ -4,6 +4,7 @@ import { useFavouriteItems } from "@/store/favourite-items";
 import { getItemById } from "@/utils/itemById";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import Link from "@/components/link";
+import { Badge } from "./ui/badge";
 
 export function FavouriteItemsList() {
   const favouritedItems = useFavouriteItems((state) => state.items);
@@ -39,20 +40,19 @@ type FavouriteItemProps = {
 function FavouriteItem({ id, name, image }: FavouriteItemProps) {
   return (
     <li>
-      <Link
-        href={{ pathname: `/item/${id}` }}
-        className="bg-neutral-800 text-sm rounded-lg pl-1 pr-3 py-1 flex flex-row gap-1 items-center"
-      >
-        {image && (
-          <img
-            src={createImageUrlPath(image)}
-            width={20}
-            height={20}
-            alt={name}
-          />
-        )}
-        {name}
-      </Link>
+      <Badge asChild variant="secondary" className="text-sm">
+        <Link href={{ pathname: `/item/${id}` }}>
+          {image && (
+            <img
+              src={createImageUrlPath(image)}
+              width={20}
+              height={20}
+              alt={name}
+            />
+          )}
+          {name}
+        </Link>
+      </Badge>
     </li>
   );
 }

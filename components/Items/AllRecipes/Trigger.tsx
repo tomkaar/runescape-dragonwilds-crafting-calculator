@@ -5,7 +5,7 @@ import { BookCopy } from "lucide-react";
 export function AllRecipesTrigger() {
   return (
     <>
-      <BookCopy className="w-4 h-4 text-neutral-600" />
+      <BookCopy className="w-4 h-4 text-foreground" />
       All recipes
     </>
   );

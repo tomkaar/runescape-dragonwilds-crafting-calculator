@@ -15,7 +15,7 @@ export default function Home() {
     <div className="">
       <main className="flex flex-col items-center justify-center h-screen">
         <div className="w-full max-w-md px-4">
-          <h1 className="text-2xl mb-4">
+          <h1 className="text-2xl text-title mb-4">
             Runescape: Dragonwilds <br />{" "}
             <span className="block -mt-1 text-sm">Crafting calculator</span>
           </h1>

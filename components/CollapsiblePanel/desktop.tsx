@@ -28,7 +28,9 @@ export function CollapsiblePanelDesktopButtonLayout({
   children,
 }: CollapsiblePanelDesktopButtonLayoutProps) {
   return (
-    <div className="flex flex-row gap-2 items-center px-4">{children}</div>
+    <div className="flex flex-row gap-2 items-center px-4 bg-card">
+      {children}
+    </div>
   );
 }
 
@@ -39,16 +41,21 @@ type CollapsiblePanelDesktopButtonTriggerProps = {
 export function CollapsiblePanelDesktopButtonTrigger({
   children,
 }: CollapsiblePanelDesktopButtonTriggerProps) {
-  const { togglePanel } = useCollapsiblePanelDesktop();
+  // const { togglePanel } = useCollapsiblePanelDesktop();
 
   return (
-    <button
-      onClick={togglePanel}
-      className="cursor-pointer w-full flex flex-row items-center gap-2 py-4 text-sm"
-    >
+    <div className="w-full flex flex-row items-center gap-2 py-4 text-base font-bold">
       {children}
-    </button>
+    </div>
   );
+  // return (
+  //   <button
+  //     onClick={togglePanel}
+  //     className="cursor-pointer w-full flex flex-row items-center gap-2 py-4 text-base font-bold"
+  //   >
+  //     {children}
+  //   </button>
+  // );
 }
 
 type CollapsiblePanelDesktopContentProps = {
@@ -61,7 +68,7 @@ export function CollapsiblePanelDesktopContent({
   const contentRef = useRef<HTMLDivElement>(null);
 
   return (
-    <div className="overflow-scroll h-full pb-15">
+    <div className="overflow-scroll h-full pb-15 pt-4">
       <div ref={contentRef} className="flex flex-col gap-1 w-full">
         {children}
       </div>
@@ -109,7 +116,7 @@ export function CollapsiblePanelDesktopRoot({
       collapsible
       collapsedSize={minSize}
       defaultSize={defaultSize}
-      className={cn("bg-neutral-950 rounded-lg", className)}
+      className={cn("bg-background rounded-lg", className)}
     >
       <CollapsiblePanelDesktopContext.Provider value={{ togglePanel }}>
         <div ref={contentRef} className="h-full">

@@ -22,7 +22,7 @@ export function RightSidebar(props: Props) {
       collapsedSize={0}
       minSize={350}
       maxSize={600}
-      className="bg-neutral-950"
+      className="bg-background"
     >
       <Group
         groupRef={rightSidebarGroupRef}
@@ -35,7 +35,7 @@ export function RightSidebar(props: Props) {
             JSON.stringify(layout),
           );
         }}
-        className="bg-neutral-950"
+        className="bg-background"
       >
         {children}
       </Group>

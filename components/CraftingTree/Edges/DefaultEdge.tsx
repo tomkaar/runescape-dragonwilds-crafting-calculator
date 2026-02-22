@@ -22,7 +22,11 @@ export default function DefaultEdge({
     targetPosition,
   });
 
-  const stroke = data.highlighted ? "#fcc800" : selected ? "#777" : "#888";
+  const stroke = data.highlighted
+    ? "rgb(249, 234, 149)"
+    : selected
+      ? "#777"
+      : "#888";
   const strokeDasharray = data.highlighted ? "3.1" : "0";
 
   return (

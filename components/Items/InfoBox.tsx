@@ -1,10 +1,11 @@
-import { ExternalLinkIcon } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 import { Item } from "@/Types";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import Link from "next/link";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { Favourite } from "./InfoBox/Favourite";
+import { Badge } from "../ui/badge";
 
 type Props = {
   item: Item;
@@ -19,7 +20,7 @@ export function ItemInfoBox(props: Props) {
   return (
     <div className="px-4 py-4 border-b border-neutral-700">
       <div className="flex flex-row gap-4 items-center">
-        <div className="grow flex flex-row items-center">
+        <div className="grow flex flex-row items-center gap-2">
           {item.image && (
             <img
               src={createImageUrlPath(item.image, 64)}
@@ -28,7 +29,7 @@ export function ItemInfoBox(props: Props) {
               height={40}
             />
           )}
-          <h2>{item.name}</h2>
+          <h2 className="font-bold">{item.name}</h2>
         </div>
         <Favourite itemId={itemId} />
       </div>
@@ -36,32 +37,29 @@ export function ItemInfoBox(props: Props) {
       {item.wikiLink || uniqueFacilities.length > 0 ? (
         <div className="flex flex-row flex-wrap gap-2 mt-2">
           {item.wikiLink && (
-            <Link
-              href={{
-                pathname:
-                  "https://dragonwilds.runescape.wiki/w/" + item.wikiLink,
-              }}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="bg-neutral-800 text-sm rounded-lg pl-2.5 px-2 py-1 flex flex-row gap-1 items-center">
+            <Badge asChild variant="secondary" className="text-sm">
+              <Link
+                href={{
+                  pathname:
+                    "https://dragonwilds.runescape.wiki/w/" + item.wikiLink,
+                }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Wiki
-                <ExternalLinkIcon width={12} height={12} className="ml-0.5" />
-              </div>
-            </Link>
+                <ArrowUpRight width={12} height={12} data-icon="inline-end" />
+              </Link>
+            </Badge>
           )}
 
           {uniqueFacilities &&
             uniqueFacilities.map(
               (facility) =>
                 facility && (
-                  <div
-                    key={facility}
-                    className="bg-neutral-800 text-sm rounded-lg pl-1 pr-3 py-1 flex flex-row gap-1 items-center"
-                  >
-                    {getFacilityIcon(facility, 20)}
+                  <Badge variant="secondary" key={facility} className="text-sm">
+                    {getFacilityIcon(facility, 22)}
                     {facility}
-                  </div>
+                  </Badge>
                 ),
             )}
         </div>

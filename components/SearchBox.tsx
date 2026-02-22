@@ -112,7 +112,7 @@ export function SearchBox() {
                     <div className="grow">{item.name}</div>
 
                     {favouriteItems.includes(item.id) ? (
-                      <StarIcon className="w-4 h-4 text-yellow-400 fill-yellow-400 ml-auto" />
+                      <StarIcon className="w-4 h-4 text-title fill-title ml-auto" />
                     ) : (
                       <StarIcon className="w-4 h-4 text-neutral-400 ml-auto" />
                     )}

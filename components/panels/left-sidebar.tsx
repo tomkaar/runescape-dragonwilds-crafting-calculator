@@ -34,7 +34,7 @@ export function LeftSidebar(props: Props) {
             JSON.stringify(layout),
           );
         }}
-        className="bg-neutral-950"
+        className="bg-background"
       >
         {children}
       </Group>

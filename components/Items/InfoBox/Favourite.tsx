@@ -20,9 +20,9 @@ export function Favourite(props: Props) {
   return (
     <button onClick={toggleFavourite} className="cursor-pointer">
       {isFavourited ? (
-        <StarIcon className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+        <StarIcon className="w-5 h-5 text-title fill-title" />
       ) : (
-        <StarIcon className="w-5 h-5 text-neutral-600" />
+        <StarIcon className="w-5 h-5 text-foreground" />
       )}
     </button>
   );

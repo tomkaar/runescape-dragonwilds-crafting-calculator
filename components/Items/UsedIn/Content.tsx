@@ -3,6 +3,7 @@
 import { getUsedIn } from "@/utils/getUsedIn";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import Link from "@/components/link";
+import { Badge } from "@/components/ui/badge";
 
 type Props = {
   itemId: string;
@@ -21,7 +22,21 @@ export function UsedInContent(props: Props) {
           .sort((a, b) => a.name.localeCompare(b.name))
           .map((item) => (
             <li key={item.id} className="flex">
-              <Link
+              <Badge asChild variant="secondary" className="text-sm">
+                <Link href={{ pathname: `/item/${item.id}` }}>
+                  {item.image && (
+                    <img
+                      src={createImageUrlPath(item.image)}
+                      width={22}
+                      height={22}
+                      alt={item.name}
+                      data-icon="inline-start"
+                    />
+                  )}
+                  {item.name}
+                </Link>
+              </Badge>
+              {/* <Link
                 href={{ pathname: `/item/${item.id}` }}
                 className="bg-neutral-800 text-sm rounded-lg pl-1 pr-3 py-1 flex flex-row gap-1 items-center"
               >
@@ -34,7 +49,7 @@ export function UsedInContent(props: Props) {
                   />
                 )}
                 {item.name}
-              </Link>
+              </Link> */}
             </li>
           ))}
       </ul>
