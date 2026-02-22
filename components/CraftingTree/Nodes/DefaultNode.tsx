@@ -9,11 +9,6 @@ import { Facility } from "@/Types";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
 
 const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
   function InnerMaterialNode(props, ref) {
@@ -158,39 +153,14 @@ const Content = memo(function InnerContent(props: ContentProps) {
         {isRecipeNumberVariant !== null || hasExcessItems ? (
           <div className="absolute z-10 flex flex-row gap-1 -top-3 left-1/2 -translate-x-1/2">
             {isRecipeNumberVariant !== null && (
-              <Tooltip>
-                <TooltipTrigger>
-                  <div className="whitespace-nowrap rounded-lg px-2 py-0.5 bg-title text-[8px] text-black pt-1">
-                    Recipe option {isRecipeNumberVariant}
-                  </div>
-                </TooltipTrigger>
-                <TooltipContent>
-                  <p>
-                    This recipe has multiple options to create it.
-                    <br />
-                    This is recipe option: {isRecipeNumberVariant}.
-                  </p>
-                </TooltipContent>
-              </Tooltip>
+              <div className="whitespace-nowrap rounded-lg px-2 py-0.5 bg-title text-[8px] text-black pt-1">
+                Recipe option {isRecipeNumberVariant}
+              </div>
             )}
             {hasExcessItems && (
-              <Tooltip>
-                <TooltipTrigger>
-                  <div className="whitespace-nowrap rounded-lg px-2 py-0.5 bg-blue-600 text-[8px] text-white pt-1">
-                    {quantityRecieved - quantity} extra
-                  </div>
-                </TooltipTrigger>
-                <TooltipContent>
-                  <p>
-                    By choosing this option, you will receive extra items.{" "}
-                    <br />
-                    You will have an additional {quantityRecieved -
-                      quantity}{" "}
-                    item
-                    {quantityRecieved - quantity !== 1 ? "s" : ""}.
-                  </p>
-                </TooltipContent>
-              </Tooltip>
+              <div className="whitespace-nowrap rounded-lg px-2 py-0.5 bg-blue-600 text-[8px] text-white pt-1">
+                {quantityRecieved - quantity} extra
+              </div>
             )}
           </div>
         ) : null}

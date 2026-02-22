@@ -4,7 +4,6 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { HydrateStores } from "@/store/HydrateStores";
-import { TooltipProvider } from "@/components/ui/tooltip";
 
 const sofiaSans = Sofia_Sans({
   variable: "--font-sofia-sans",
@@ -24,12 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${sofiaSans.variable} antialiased dark`}>
-        <TooltipProvider>
-          {children}
-          <HydrateStores />
-          <Analytics />
-          <SpeedInsights />
-        </TooltipProvider>
+        {children}
+        <HydrateStores />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
