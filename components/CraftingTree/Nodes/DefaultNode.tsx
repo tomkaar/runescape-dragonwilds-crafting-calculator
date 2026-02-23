@@ -9,12 +9,14 @@ import { Facility } from "@/Types";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
+import { useCraftingTreeHover } from "@/context/crafting-tree-hover";
 
 const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
   function InnerMaterialNode(props, ref) {
     const i = useSelectedMaterial((state) => state.items);
     const items = i[props.data.initialItemId] || [];
     const added = items.find((item) => item.nodeId === props.id);
+    const { enter, reset, check, isSet } = useCraftingTreeHover();
 
     const recipesArray = Array.from({
       length: props.data.numberOfRecipies || 0,
@@ -30,6 +32,8 @@ const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
             props.id.startsWith(`${nodeId}_v${index + 1}`),
           ),
       );
+
+    const isHovered = check(props.id);
 
     return (
       <div
@@ -48,7 +52,10 @@ const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
           props.data.isRecipeNumberVariant !== null &&
             "border border-dashed border-title",
           startsWith && "opacity-50",
+          isSet && !isHovered && "opacity-25",
         )}
+        onMouseEnter={() => enter(props.id)}
+        onMouseLeave={() => reset()}
       >
         <Content
           id={props.data.id}

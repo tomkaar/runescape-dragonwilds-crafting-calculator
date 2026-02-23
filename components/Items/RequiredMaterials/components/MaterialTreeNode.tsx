@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { CheckboxIndeterminate } from "@/components/ui/checkbox";
 import { FieldContent, FieldGroup, FieldLabel } from "@/components/ui/field";
+import { useCraftingTreeHover } from "@/context/crafting-tree-hover";
 
 export function MaterialTreeNode({
   item,
@@ -20,6 +21,7 @@ export function MaterialTreeNode({
   item: MaterialTreeItem;
   initialItemId: string;
 }) {
+  const { enter, reset } = useCraftingTreeHover();
   const i = useSelectedMaterial((state) => state.items);
   const items = i[initialItemId] || [];
   const added = items.find(
@@ -80,6 +82,10 @@ export function MaterialTreeNode({
                 "cursor-pointer flex flex-row gap-2 items-center pr-2 pl-2 py-0.5 rounded-lg text-sm group hover:bg-accent w-full justify-start transition-none",
                 item.variantNumber !== undefined ? "pl-2 py-0.5" : "",
               )}
+              onMouseEnter={() => enter(item.nodeId)}
+              onMouseLeave={() => reset()}
+              onFocus={() => enter(item.nodeId)}
+              onBlur={() => reset()}
             >
               {item.item.image && item.variantNumber === undefined && (
                 <img
@@ -109,8 +115,8 @@ export function MaterialTreeNode({
         </div>
 
         <div className="pl-2">
-          <CollapsibleContent className="mt-1 border-l border-neutral-400 pl-2">
-            <div className="flex flex-col gap-1 pl-2">
+          <CollapsibleContent className="border-l border-neutral-400 pl-2">
+            <div className="flex flex-col pl-2">
               {item.children.map((child) => (
                 <MaterialTreeNode
                   key={child.nodeId}
@@ -142,6 +148,10 @@ export function MaterialTreeNode({
           <FieldLabel
             htmlFor={checkboxId}
             className="cursor-pointer flex flex-row gap-2 items-center px-2 py-1 rounded-lg text-sm text-foreground w-full justify-start transition-colors hover:bg-accent hover:text-accent-foreground"
+            onMouseEnter={() => enter(item.nodeId)}
+            onMouseLeave={() => reset()}
+            onFocus={() => enter(item.nodeId)}
+            onBlur={() => reset()}
           >
             {item.item.image && (
               <img

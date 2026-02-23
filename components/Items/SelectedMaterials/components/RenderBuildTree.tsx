@@ -2,6 +2,7 @@ import { Check } from "lucide-react";
 
 import { TreeItem } from "../utils/buildTreeFromNodeIds";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
+import { useCraftingTreeHover } from "@/context/crafting-tree-hover";
 
 type Props = {
   handleSetAsDone: (nodeId: string) => void;
@@ -11,6 +12,7 @@ type Props = {
 
 export function RenderBuildTree(props: Props) {
   const { handleSetAsDone, tree, multiplier = 1 } = props;
+  const { enter, reset } = useCraftingTreeHover();
 
   const renderItem = (fileItem: TreeItem) => {
     if ("items" in fileItem) {
@@ -18,6 +20,10 @@ export function RenderBuildTree(props: Props) {
         <div key={fileItem.item.name}>
           <button
             onClick={() => handleSetAsDone(fileItem.nodeId)}
+            onMouseEnter={() => enter(fileItem.nodeId)}
+            onMouseLeave={() => reset()}
+            onFocus={() => enter(fileItem.nodeId)}
+            onBlur={() => reset()}
             className={`
                 cursor-pointer inline-flex flex-row gap-2 px-2 py-2 rounded-lg text-sm group hover:bg-accent hover:text-accent-foreground w-full justify-start transition-none
                 ${fileItem.quantity === null ? "opacity-75" : ""}
@@ -61,6 +67,8 @@ export function RenderBuildTree(props: Props) {
       <button
         key={fileItem.item.name}
         onClick={() => handleSetAsDone(fileItem.nodeId)}
+        onMouseEnter={() => enter(fileItem.nodeId)}
+        onMouseLeave={() => reset()}
         className="group cursor-pointer inline-flex flex-row gap-2 px-2 py-1 rounded-lg text-sm text-foreground w-full justify-start hover:bg-accent hover:text-accent-foreground"
       >
         {fileItem.item.image && (

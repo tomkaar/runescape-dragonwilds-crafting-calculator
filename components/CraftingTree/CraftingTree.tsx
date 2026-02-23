@@ -11,6 +11,7 @@ import DefaultlNode from "./Nodes/DefaultNode";
 import DefaultEdge from "./Edges/DefaultEdge";
 import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
+import { CraftingTreeHoverProvider } from "@/context/crafting-tree-hover";
 
 const nodeTypes = {
   node: DefaultlNode,

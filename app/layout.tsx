@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { HydrateStores } from "@/store/HydrateStores";
+import { CraftingTreeHoverProvider } from "@/context/crafting-tree-hover";
 
 const sofiaSans = Sofia_Sans({
   variable: "--font-sofia-sans",
@@ -23,10 +24,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${sofiaSans.variable} antialiased dark`}>
-        {children}
-        <HydrateStores />
-        <Analytics />
-        <SpeedInsights />
+        <CraftingTreeHoverProvider>
+          {children}
+          <HydrateStores />
+          <Analytics />
+          <SpeedInsights />
+        </CraftingTreeHoverProvider>
       </body>
     </html>
   );
