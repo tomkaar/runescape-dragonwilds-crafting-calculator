@@ -9,22 +9,24 @@ import {
 import dagre from "@dagrejs/dagre";
 import { useEffect } from "react";
 import { Node } from "./nodes";
+import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";
 
 const dagreGraph = new dagre.graphlib.Graph().setDefaultEdgeLabel(() => ({}));
 
 export default function CraftingTreeContent() {
   const { setNodes, getEdges, fitView } = useReactFlow<FlowNode<Node>>();
   const nodesInitialized = useNodesInitialized();
+  const { direction } = useCraftingTreeDirection();
 
   useEffect(() => {
     if (!nodesInitialized) return;
 
     const edges = getEdges();
-    setNodes((nds) => getLayoutedNodes(nds, edges));
+    setNodes((nds) => getLayoutedNodes(nds, edges, direction));
     fitView({
       padding: { top: "70px", left: "20px", right: "20px", bottom: "20px" },
     });
-  }, [nodesInitialized, getEdges, setNodes, fitView]);
+  }, [nodesInitialized, getEdges, setNodes, fitView, direction]);
 
   return null;
 }
@@ -32,9 +34,10 @@ export default function CraftingTreeContent() {
 export function getLayoutedNodes(
   nodes: FlowNode<Node>[],
   edges: Edge[],
+  direction: "TB" | "LR" = "TB",
 ): FlowNode<Node>[] {
   dagreGraph.setGraph({
-    rankdir: "TB",
+    rankdir: direction,
     nodesep: 12,
     ranksep: 40,
   });
@@ -64,8 +67,8 @@ export function getLayoutedNodes(
         x: x - width / 2,
         y: y - height / 2,
       },
-      sourcePosition: "bottom",
-      targetPosition: "top",
+      sourcePosition: direction === "TB" ? "bottom" : "right",
+      targetPosition: direction === "TB" ? "top" : "left",
     };
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
   }) as any[];

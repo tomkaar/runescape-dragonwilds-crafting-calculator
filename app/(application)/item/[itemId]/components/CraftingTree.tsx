@@ -7,6 +7,7 @@ import { CraftingTree } from "@/components/CraftingTree/CraftingTree";
 import { ToggleLeftSidebar } from "./ToggleLeftSidebar";
 import { ToggleRightSidebar } from "./ToggleRightSidebar";
 import { ClearSelected } from "./ClearSelected";
+import { Direction } from "./Direction";
 
 type Props = {
   className?: string;
@@ -19,8 +20,9 @@ export function ItemCraftingTreeDesktop(props: Props) {
   return (
     <CraftingTree itemId={itemId} className={className}>
       <ToggleLeftSidebar />
-      <Panel position="top-center">
+      <Panel position="top-center" className="flex flex-row gap-2">
         <ClearSelected itemId={itemId} />
+        <Direction />
       </Panel>
       <ToggleRightSidebar />
     </CraftingTree>
@@ -32,8 +34,9 @@ export function ItemCraftingTreeMobile(props: Props) {
 
   return (
     <CraftingTree itemId={itemId} className={className}>
-      <Panel position="top-right">
+      <Panel position="top-right" className="flex flex-row gap-2">
         <ClearSelected itemId={itemId} />
+        <Direction />
       </Panel>
     </CraftingTree>
   );

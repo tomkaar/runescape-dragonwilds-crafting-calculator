@@ -10,6 +10,7 @@ import { useSelectedMaterial } from "@/store/selected-material";
 import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { useCraftingTreeHover } from "@/context/crafting-tree-hover";
+import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";
 
 const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
   function InnerMaterialNode(props, ref) {
@@ -17,6 +18,7 @@ const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
     const items = i[props.data.initialItemId] || [];
     const added = items.find((item) => item.nodeId === props.id);
     const { enter, reset, check, isSet } = useCraftingTreeHover();
+    const direction = useCraftingTreeDirection((state) => state.direction);
 
     const recipesArray = Array.from({
       length: props.data.numberOfRecipies || 0,
@@ -73,7 +75,7 @@ const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
         {!props.data.initialNode && (
           <Handle
             type="target"
-            position={Position.Top}
+            position={direction === "LR" ? Position.Left : Position.Top}
             draggable={false}
             isConnectable={false}
           />
@@ -81,7 +83,7 @@ const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
         {!props.data.leafNode && (
           <Handle
             type="source"
-            position={Position.Bottom}
+            position={direction === "LR" ? Position.Right : Position.Bottom}
             draggable={false}
             isConnectable={false}
           />
