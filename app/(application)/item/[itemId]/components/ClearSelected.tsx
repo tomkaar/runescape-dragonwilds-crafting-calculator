@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";
 import { useSelectedMaterial } from "@/store/selected-material";
+import { Eraser } from "lucide-react";
 
 type Props = {
   itemId: string;
@@ -29,8 +30,13 @@ export function ClearSelected(props: Props) {
   return (
     <AlertDialog>
       <AlertDialogTrigger asChild>
-        <Button variant="secondary" className="cursor-pointer">
-          Clear
+        <Button
+          type="button"
+          variant="secondary"
+          className="cursor-pointer"
+          aria-label="Clear selected materials"
+        >
+          <Eraser aria-hidden="true" />
         </Button>
       </AlertDialogTrigger>
       <AlertDialogContent>

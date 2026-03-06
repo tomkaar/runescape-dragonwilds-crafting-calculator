@@ -4,18 +4,30 @@ import { ArrowDownFromLineIcon, ArrowRightFromLine } from "lucide-react";
 
 export function Direction() {
   const { direction, setDirection } = useCraftingTreeDirection();
+  const isTopToBottom = direction === "TB";
 
   const handleChangeDirection = () => {
-    setDirection(direction === "TB" ? "LR" : "TB");
+    setDirection(isTopToBottom ? "LR" : "TB");
   };
 
   return (
     <Button
+      type="button"
       variant="secondary"
       className="cursor-pointer"
       onClick={handleChangeDirection}
+      aria-pressed={!isTopToBottom}
+      aria-label={
+        isTopToBottom
+          ? "Switch crafting tree direction to left-to-right"
+          : "Switch crafting tree direction to top-to-bottom"
+      }
     >
-      {direction === "TB" ? <ArrowRightFromLine /> : <ArrowDownFromLineIcon />}
+      {isTopToBottom ? (
+        <ArrowRightFromLine aria-hidden="true" />
+      ) : (
+        <ArrowDownFromLineIcon aria-hidden="true" />
+      )}
     </Button>
   );
 }
