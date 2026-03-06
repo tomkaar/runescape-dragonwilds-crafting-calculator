@@ -16034,30 +16034,26 @@
     "wikiLink": "Weapon_Rack"
   },
   {
-    "id": "07d3b7bb2bba",
-    "name": "Large Chest",
-    "image": "Large Chest.png",
+    "id": "a72fd371443e",
+    "name": "Oak Chest",
+    "image": "Oak Chest.png",
     "variants": [
       {
-        "id": "c36ec0c569b7",
-        "name": "Large Chest",
-        "image": "Large Chest.png",
+        "id": "7605ae247c15",
+        "name": "Oak Chest",
+        "image": "Oak Chest.png",
         "variantName": null,
         "recipe": {
-          "id": "5ddafaa38411",
+          "id": "e6767f91891a",
           "facility": "Build Menu",
           "materials": [
             {
-              "itemId": "1101aadad529",
-              "quantity": 14
-            },
-            {
-              "itemId": "ec1abb86508c",
-              "quantity": 4
-            },
-            {
-              "itemId": "e47d442af339",
+              "itemId": "c1117f9270a0",
               "quantity": 2
+            },
+            {
+              "itemId": "eedfb3dc7f45",
+              "quantity": 16
             }
           ],
           "quantity": 1
@@ -16070,7 +16066,7 @@
     "facilities": [
       "Build Menu"
     ],
-    "wikiLink": "Large_Chest"
+    "wikiLink": "Oak_Chest"
   },
   {
     "id": "6f981ff3c968",
@@ -25866,6 +25862,219 @@
     "wikiLink": "Headstone_01"
   },
   {
+    "id": "cdba7ceb96dd",
+    "name": "Abraxus Ring",
+    "image": "Abraxus Ring.png",
+    "variants": [
+      {
+        "id": "3afdaf749501",
+        "name": "Abraxus Ring",
+        "image": "Abraxus Ring.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1a99d3a29690",
+          "facility": "Jeweler's Bench",
+          "materials": [
+            {
+              "itemId": "604b383a6ff3",
+              "quantity": 1
+            },
+            {
+              "itemId": "af1ccb31304d",
+              "quantity": 2
+            },
+            {
+              "itemId": "9788d67f4f47",
+              "quantity": 2
+            },
+            {
+              "itemId": "2cb47baaee19",
+              "quantity": 1
+            },
+            {
+              "itemId": "9ca5b1c17952",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        }
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Jeweler's Bench"
+    ],
+    "wikiLink": "Abraxus_Ring"
+  },
+  {
+    "id": "8e0fa7ab1fea",
+    "name": "Imaru's Talon",
+    "image": "Imaru's Talon.png",
+    "variants": [
+      {
+        "id": "fd88366a80f1",
+        "name": "Imaru's Talon",
+        "image": "Imaru's Talon.png",
+        "variantName": null,
+        "recipe": {
+          "id": "511857103e10",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "550fe90833fc",
+              "quantity": 1
+            },
+            {
+              "itemId": "f9d124c9d097",
+              "quantity": 1
+            },
+            {
+              "itemId": "2cb47baaee19",
+              "quantity": 1
+            },
+            {
+              "itemId": "9ca5b1c17952",
+              "quantity": 12
+            }
+          ],
+          "quantity": 1
+        }
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Imaru's_Talon"
+  },
+  {
+    "id": "b78d0af0ebb9",
+    "name": "Ulv's Longbow",
+    "image": "Ulv's Longbow.png",
+    "variants": [
+      {
+        "id": "401ad9eb656d",
+        "name": "Ulv's Longbow",
+        "image": "Ulv's Longbow.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8dbfed758a76",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "797f584aebcf",
+              "quantity": 10
+            },
+            {
+              "itemId": "4b3b28384d99",
+              "quantity": 12
+            },
+            {
+              "itemId": "8aa07469cfe0",
+              "quantity": 8
+            },
+            {
+              "itemId": "079400b9250c",
+              "quantity": 4
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 12
+            }
+          ],
+          "quantity": 1
+        }
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Ulv's_Longbow"
+  },
+  {
+    "id": "f21da92b21d5",
+    "name": "Shroud of Noggin",
+    "image": "Shroud of Noggin.png",
+    "variants": [
+      {
+        "id": "bc9f01187503",
+        "name": "Shroud of Noggin",
+        "image": "Shroud of Noggin.png",
+        "variantName": null,
+        "recipe": {
+          "id": "507c522d20ba",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "1fdcca91d949",
+              "quantity": 8
+            },
+            {
+              "itemId": "8aa07469cfe0",
+              "quantity": 3
+            },
+            {
+              "itemId": "663a6aa86783",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        }
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Shroud_of_Noggin"
+  },
+  {
+    "id": "64c5cc38664e",
+    "name": "Iron Chest",
+    "image": "Iron Chest.png",
+    "variants": [
+      {
+        "id": "f5657596dff0",
+        "name": "Iron Chest",
+        "image": "Iron Chest.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4e41e6f22a79",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "c8dc4902a8c3",
+              "quantity": 1
+            },
+            {
+              "itemId": "e47d442af339",
+              "quantity": 2
+            },
+            {
+              "itemId": "ed4acb2676c2",
+              "quantity": 16
+            }
+          ],
+          "quantity": 1
+        }
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Iron_Chest"
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -28110,13 +28319,13 @@
     "wikiLink": "Mysterious_Orb_(Charged)"
   },
   {
-    "id": "af19b7d0405b",
-    "name": "VESTIGE: Suspiciously Light Tattered Boots",
+    "id": "860f6cd0d643",
+    "name": "Suspiciously Light Tattered Boots",
     "image": "VESTIGE- Suspiciously Light Tattered Boots.png",
     "variants": [
       {
-        "id": "af19b7d0405b",
-        "name": "VESTIGE: Suspiciously Light Tattered Boots",
+        "id": "860f6cd0d643",
+        "name": "Suspiciously Light Tattered Boots",
         "image": "VESTIGE- Suspiciously Light Tattered Boots.png",
         "variantName": null,
         "recipe": null
@@ -28124,11 +28333,11 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Suspiciously_Light_Tattered_Boots"
+    "wikiLink": "Suspiciously_Light_Tattered_Boots"
   },
   {
-    "id": "f3dfb081e3d6",
-    "name": "VESTIGE: A Simple Broken Bow",
+    "id": "a122753d54ec",
+    "name": "A Simple Broken Bow",
     "image": "VESTIGE- A Simple Broken Bow.png",
     "variants": [
       {
@@ -28141,7 +28350,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_A_Simple_Broken_Bow"
+    "wikiLink": "A_Simple_Broken_Bow"
   },
   {
     "id": "1715106044cd",
@@ -28178,8 +28387,8 @@
     "wikiLink": "VESTIGE:_Parts_of_a_Sinister-Looking_Staff"
   },
   {
-    "id": "8a5d27713a62",
-    "name": "VESTIGE: A Threadbare Grain Sack",
+    "id": "786377f8fb83",
+    "name": "A Threadbare Grain Sack",
     "image": "VESTIGE- A Threadbare Grain Sack.png",
     "variants": [
       {
@@ -28192,7 +28401,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_A_Threadbare_Grain_Sack"
+    "wikiLink": "A_Threadbare_Grain_Sack"
   },
   {
     "id": "73f85163e996",
@@ -29026,6 +29235,23 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Potted_Onion"
+  },
+  {
+    "id": "efb15e999c52",
+    "name": "Naphtha",
+    "image": "Naptha.png",
+    "variants": [
+      {
+        "id": "722a15d29145",
+        "name": "Naptha",
+        "image": "Naptha.png",
+        "variantName": null,
+        "recipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Naphtha"
   },
   {
     "id": "b7486de26d98",
@@ -30150,9 +30376,9 @@
     "wikiLink": "Spectral_Chinchompa_Skull"
   },
   {
-    "id": "a7529d7b1c21",
-    "name": "VESTIGE: Shard of Smoky Glass",
-    "image": "VESTIGE-_Shard_of_Smoky_Glass.png",
+    "id": "d6d451d46468",
+    "name": "Shard of Smoky Glass",
+    "image": "VESTIGE: Shard of Smoky Glass.png",
     "variants": [
       {
         "id": "a7529d7b1c21",
@@ -30164,7 +30390,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Shard_of_Smoky_Glass"
+    "wikiLink": "Shard_of_Smoky_Glass"
   },
   {
     "id": "836d79ca397f",
@@ -30216,5 +30442,39 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_Tattered_Time-Lost_Cloth"
+  },
+  {
+    "id": "1d2b163d194e",
+    "name": "Serrated Claw",
+    "image": "Imaru's Talon.png",
+    "variants": [
+      {
+        "id": "546473c5750d",
+        "name": "VESTIGE: Serrated Claw",
+        "image": "Imaru's Talon.png",
+        "variantName": null,
+        "recipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Serrated_Claw"
+  },
+  {
+    "id": "dd3ac14cd979",
+    "name": "Shroud of Noggin (vestige)",
+    "image": "Shroud of Noggin.png",
+    "variants": [
+      {
+        "id": "dd3ac14cd979",
+        "name": "Shroud of Noggin (vestige)",
+        "image": "Shroud of Noggin.png",
+        "variantName": null,
+        "recipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Shroud_of_Noggin_(vestige)"
   }
 ]

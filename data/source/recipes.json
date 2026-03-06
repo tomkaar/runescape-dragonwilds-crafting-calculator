@@ -7698,20 +7698,20 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: A Threadbare Grain Sack"
+      "A Threadbare Grain Sack"
     ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
-      "recipe": "VESTIGE: A Threadbare Grain Sack",
+      "recipe": "A Threadbare Grain Sack",
       "facility": "Crafting Table",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "",
           "name": "Goblin Pack",
           "link": "Goblin Pack",
-          "qty": 1,
+          "qty": "",
           "item": "Goblin Pack",
           "image": "[[File:Goblin Pack.png|30px|link=Goblin Pack]]"
         }
@@ -26724,9 +26724,8 @@
   },
   {
     "uses_material": [
-      "Ash Plank",
-      "Blightwood",
-      "Iron Bar"
+      "Oak Logs",
+      "Bronze Bar"
     ],
     "uses_skill": [
       "Construction"
@@ -26738,28 +26737,20 @@
       "facility": "Build Menu",
       "materials": [
         {
-          "quantity": "14",
-          "name": "Ash Plank",
-          "link": "Ash Plank",
-          "qty": "14",
-          "item": "Ash Plank",
-          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
-        },
-        {
-          "quantity": "4",
-          "name": "Blightwood",
-          "link": "Blightwood",
-          "qty": "4",
-          "item": "Blightwood",
-          "image": "[[File:Blightwood.png|30px|link=Blightwood]]"
+          "quantity": "16",
+          "name": "Oak Logs",
+          "link": "Oak Logs",
+          "qty": "16",
+          "item": "Oak Logs",
+          "image": "[[File:Oak Logs.png|30px|link=Oak Logs]]"
         },
         {
           "quantity": "2",
-          "name": "Iron Bar",
-          "link": "Iron Bar",
+          "name": "Bronze Bar",
+          "link": "Bronze Bar",
           "qty": "2",
-          "item": "Iron Bar",
-          "image": "[[File:Iron Bar.png|30px|link=Iron Bar]]"
+          "item": "Bronze Bar",
+          "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
         }
       ],
       "skills": [
@@ -26769,19 +26760,19 @@
         }
       ],
       "outputs": [
-        "Large Chest"
+        "Oak Chest"
       ],
       "output": {
         "quantity": 1,
-        "name": "Large Chest",
-        "link": "Large Chest",
+        "name": "Oak Chest",
+        "link": "Oak Chest",
         "qty": 1,
-        "item": "Large Chest",
-        "image": "[[File:Large Chest.png|30px|link=Large Chest]]"
+        "item": "Oak Chest",
+        "image": "[[File:Oak Chest.png|30px|link=Oak Chest]]"
       }
     },
     "output": [
-      "Large Chest"
+      "Oak Chest"
     ]
   },
   {
@@ -35037,14 +35028,10 @@
     "uses_skill": [
       "Artisan"
     ],
-    "uses_recipe": [
-      "VESTIGE: Shard of Smoky Glass"
-    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Shard of Smoky Glass",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -41909,6 +41896,361 @@
     },
     "output": [
       "Headstone 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Vault Shard",
+      "Clay Mould",
+      "Silver Bar",
+      "Emerald",
+      "Vault Core"
+    ],
+    "uses_facility": [
+      "Jeweler's Bench"
+    ],
+    "json": {
+      "facility": "Jeweler's Bench",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "6",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Silver Bar",
+          "link": "Silver Bar",
+          "qty": "2",
+          "item": "Silver Bar",
+          "image": "[[File:Silver Bar.png|30px|link=Silver Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Emerald",
+          "link": "Emerald",
+          "qty": "2",
+          "item": "Emerald",
+          "image": "[[File:Emerald.png|30px|link=Emerald]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Vault Core",
+          "link": "Vault Core",
+          "qty": "1",
+          "item": "Vault Core",
+          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Abraxus Ring"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Abraxus Ring",
+        "link": "Abraxus Ring",
+        "qty": "1",
+        "item": "Abraxus Ring",
+        "image": "[[File:Abraxus Ring.png|30px|link=Abraxus Ring]]"
+      }
+    },
+    "output": [
+      "Abraxus Ring"
+    ]
+  },
+  {
+    "uses_material": [
+      "Undead Draconic Visage",
+      "Steel Scimitar",
+      "Vault Shard",
+      "Vault Core"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Serrated Claw"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "recipe": "Serrated Claw",
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Undead Draconic Visage",
+          "link": "Undead Draconic Visage",
+          "qty": "1",
+          "item": "Undead Draconic Visage",
+          "image": "[[File:Undead Draconic Visage.png|30px|link=Undead Draconic Visage]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Steel Scimitar",
+          "link": "Steel Scimitar",
+          "qty": "1",
+          "item": "Steel Scimitar",
+          "image": "[[File:Steel Scimitar.png|30px|link=Steel Scimitar]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "12",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Vault Core",
+          "link": "Vault Core",
+          "qty": "1",
+          "item": "Vault Core",
+          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Imaru's Talon"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Imaru's Talon",
+        "link": "Imaru's Talon",
+        "qty": "1",
+        "item": "Imaru's Talon",
+        "image": "[[File:Imaru's Talon.png|30px|link=Imaru's Talon]]"
+      }
+    },
+    "output": [
+      "Imaru's Talon"
+    ]
+  },
+  {
+    "uses_material": [
+      "Willow Logs",
+      "Fine Thread",
+      "Animal Bone",
+      "Green Dragonhide Leather",
+      "Dwellberries"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "12",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "12",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Fine Thread",
+          "link": "Fine Thread",
+          "qty": "8",
+          "item": "Fine Thread",
+          "image": "[[File:Fine Thread.png|30px|link=Fine Thread]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Animal Bone",
+          "link": "Animal Bone",
+          "qty": "10",
+          "item": "Animal Bone",
+          "image": "[[File:Animal Bone.png|30px|link=Animal Bone]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Green Dragonhide Leather",
+          "link": "Green Dragonhide Leather",
+          "qty": "4",
+          "item": "Green Dragonhide Leather",
+          "image": "[[File:Green Dragonhide Leather.png|30px|link=Green Dragonhide Leather]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Dwellberries",
+          "link": "Dwellberries",
+          "qty": "12",
+          "item": "Dwellberries",
+          "image": "[[File:Dwellberries.png|30px|link=Dwellberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
+      "outputs": [
+        "Ulv's Longbow"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Ulv's Longbow",
+        "link": "Ulv's Longbow",
+        "qty": 1,
+        "item": "Ulv's Longbow",
+        "image": "[[File:Ulv's Longbow.png|30px|link=Ulv's Longbow]]"
+      }
+    },
+    "output": [
+      "Ulv's Longbow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Zombie Pack",
+      "Ectoplasm",
+      "Fine Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "VESTIGE: Shroud of Noggin"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "VESTIGE: Shroud of Noggin",
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Zombie Pack",
+          "link": "Zombie Pack",
+          "qty": "1",
+          "item": "Zombie Pack",
+          "image": "[[File:Zombie Pack.png|30px|link=Zombie Pack]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Ectoplasm",
+          "link": "Ectoplasm",
+          "qty": "8",
+          "item": "Ectoplasm",
+          "image": "[[File:Ectoplasm.png|30px|link=Ectoplasm]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Fine Thread",
+          "link": "Fine Thread",
+          "qty": "3",
+          "item": "Fine Thread",
+          "image": "[[File:Fine Thread.png|30px|link=Fine Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Shroud of Noggin"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Shroud of Noggin",
+        "link": "Shroud of Noggin",
+        "qty": 1,
+        "item": "Shroud of Noggin",
+        "image": "[[File:Shroud of Noggin.png|30px|link=Shroud of Noggin]]"
+      }
+    },
+    "output": [
+      "Shroud of Noggin"
+    ]
+  },
+  {
+    "uses_material": [
+      "Oak Plank",
+      "Iron Bar",
+      "Adhesive"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Oak Plank",
+          "link": "Oak Plank",
+          "qty": "16",
+          "item": "Oak Plank",
+          "image": "[[File:Oak Plank.png|30px|link=Oak Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Iron Bar",
+          "link": "Iron Bar",
+          "qty": "2",
+          "item": "Iron Bar",
+          "image": "[[File:Iron Bar.png|30px|link=Iron Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Adhesive",
+          "link": "Adhesive",
+          "qty": "1",
+          "item": "Adhesive",
+          "image": "[[File:Adhesive.png|30px|link=Adhesive]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "62"
+        }
+      ],
+      "outputs": [
+        "Iron Chest"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Iron Chest",
+        "link": "Iron Chest",
+        "qty": 1,
+        "item": "Iron Chest",
+        "image": "[[File:Iron Chest.png|30px|link=Iron Chest]]"
+      }
+    },
+    "output": [
+      "Iron Chest"
     ]
   }
 ]

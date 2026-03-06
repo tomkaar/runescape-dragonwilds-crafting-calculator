@@ -668,7 +668,7 @@
       "description": "A mysterious porous rock used as a base for powerful runes.",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
-      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000002-QINU`\"'",
       "stacklimit": "99",
       "image_raw": "Rune Essence.png"
     },
@@ -4901,14 +4901,14 @@
   {
     "page_name": "Ground Sandstone",
     "item_description": "Fine sand ground from sandstone. With the proper tools, it can be made into glass in the Furnace.",
-    "item_name": "Ground Sandstrone",
+    "item_name": "Ground Sandstone",
     "item_type": "Resource",
     "item_stacklimit": 99,
     "json": {
       "type": "Resource",
       "description": "Fine sand ground from sandstone. With the proper tools, it can be made into glass in the Furnace.",
       "image": "[[File:Ground Sandstone.png|32px]]",
-      "name": "Ground Sandstrone",
+      "name": "Ground Sandstone",
       "weight": "0.3",
       "stacklimit": "99",
       "image_raw": "Ground Sandstone.png"
@@ -5756,25 +5756,25 @@
     "item_type": "Quest Item"
   },
   {
-    "page_name": "VESTIGE: Suspiciously Light Tattered Boots",
+    "page_name": "Suspiciously Light Tattered Boots",
     "item_description": "Barely heavier than a feather, but worn away by time's cruel march. Still, perhaps you could learn something from it.",
-    "item_name": "VESTIGE: Suspiciously Light Tattered Boots",
+    "item_name": "Suspiciously Light Tattered Boots",
     "item_type": "Consumable",
     "item_stacklimit": 99,
     "json": {
       "type": "Consumable",
       "description": "Barely heavier than a feather, but worn away by time's cruel march. Still, perhaps you could learn something from it.",
       "image": "[[File:VESTIGE- Suspiciously Light Tattered Boots.png|32px]]",
-      "name": "VESTIGE: Suspiciously Light Tattered Boots",
+      "name": "Suspiciously Light Tattered Boots",
       "weight": "0",
       "stacklimit": "99",
       "image_raw": "VESTIGE- Suspiciously Light Tattered Boots.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Suspiciously Light Tattered Boots"
+    "page_name_sub": "Suspiciously Light Tattered Boots"
   },
   {
-    "page_name": "VESTIGE: A Simple Broken Bow",
+    "page_name": "A Simple Broken Bow",
     "item_description": "The remains of a longbow damaged in a dragon attack. Perhaps you could learn something from it.",
     "item_name": "VESTIGE: A Simple Broken Bow",
     "item_type": "Consumable",
@@ -5789,7 +5789,7 @@
       "image_raw": "VESTIGE- A Simple Broken Bow.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: A Simple Broken Bow"
+    "page_name_sub": "A Simple Broken Bow"
   },
   {
     "page_name": "VESTIGE: An Educational Blade",
@@ -5828,7 +5828,7 @@
     "page_name_sub": "VESTIGE: Parts of a Sinister-Looking Staff"
   },
   {
-    "page_name": "VESTIGE: A Threadbare Grain Sack",
+    "page_name": "A Threadbare Grain Sack",
     "item_description": "An odd bundle of scratchy sackcloth. It's unsettling to hold. Still, perhaps you could learn something from it.",
     "item_name": "VESTIGE: A Threadbare Grain Sack",
     "item_type": "Consumable",
@@ -5843,7 +5843,7 @@
       "image_raw": "VESTIGE- A Threadbare Grain Sack.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: A Threadbare Grain Sack"
+    "page_name_sub": "A Threadbare Grain Sack"
   },
   {
     "page_name": "VESTIGE: A Corroded Serrated Blade",
@@ -6994,7 +6994,7 @@
     "page_name_sub": "PLAN: Potted Onion"
   },
   {
-    "page_name": "Naptha",
+    "page_name": "Naphtha",
     "item_description": "A very flammable liquid.",
     "item_name": "Naptha",
     "item_type": "Basic Item",
@@ -7009,7 +7009,7 @@
       "image_raw": "Naptha.png"
     },
     "item_weight": 0.5,
-    "page_name_sub": "Naptha"
+    "page_name_sub": "Naphtha"
   },
   {
     "page_name": "Fire Oil",
@@ -8205,13 +8205,13 @@
   },
   {
     "page_name": "Willow Longbow",
-    "item_description": "An agile Shortbow crafted from Willow.",
+    "item_description": "An agile Longbow crafted from Willow.",
     "item_name": "Willow Longbow",
     "item_type": "Ranged Weapon",
     "page_name_sub": "Willow Longbow",
     "json": {
       "type": "Ranged Weapon",
-      "description": "An agile Shortbow crafted from Willow.",
+      "description": "An agile Longbow crafted from Willow.",
       "repaircost": "2 [[Willow Logs]]",
       "image": "[[File:Willow Longbow.png|32px]]",
       "name": "Willow Longbow",
@@ -11092,11 +11092,11 @@
     "page_name_sub": "Beef & Tomato Stew"
   },
   {
-    "page_name": "VESTIGE: Shard of Smoky Glass",
+    "page_name": "Shard of Smoky Glass",
     "item_stacklimit": 99,
     "item_name": "VESTIGE: Shard of Smoky Glass",
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Shard of Smoky Glass",
+    "page_name_sub": "Shard of Smoky Glass",
     "json": {
       "type": "Vestige",
       "image": "[[File:VESTIGE: Shard of Smoky Glass.png|32px]]",
@@ -11160,5 +11160,109 @@
     },
     "item_weight": 0,
     "page_name_sub": "VESTIGE: Tattered Time-Lost Cloth"
+  },
+  {
+    "page_name": "Abraxus Ring",
+    "item_stacklimit": 1,
+    "item_name": "Abraxus Ring",
+    "item_weight": 1,
+    "page_name_sub": "Abraxus Ring",
+    "json": {
+      "type": "Trinket",
+      "image": "[[File:Abraxus Ring.png|32px]]",
+      "name": "Abraxus Ring",
+      "weight": "1.0",
+      "stacklimit": "1",
+      "image_raw": "Abraxus Ring.png"
+    },
+    "item_type": "Trinket"
+  },
+  {
+    "page_name": "Imaru's Talon",
+    "item_description": "A Scimitar forged from the Visage of Imaru.",
+    "item_name": "Imaru's Talon",
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Imaru's Talon",
+    "json": {
+      "type": "Melee Weapon",
+      "description": "A Scimitar forged from the Visage of Imaru.",
+      "repaircost": "1 [[Undead Draconic Visage]]s",
+      "image": "[[File:Imaru's Talon.png|32px]]",
+      "name": "Imaru's Talon",
+      "weight": "15.0",
+      "image_raw": "Imaru's Talon.png"
+    },
+    "item_repair": "1 [[Undead Draconic Visage]]s",
+    "item_weight": 15
+  },
+  {
+    "page_name": "Serrated Claw",
+    "item_description": "A vicious claw once belonging to Imaru, which was used to try and rip you apart more than a few times. Perhaps you could learn something from it.",
+    "item_name": "VESTIGE: Serrated Claw",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "A vicious claw once belonging to Imaru, which was used to try and rip you apart more than a few times. Perhaps you could learn something from it.",
+      "image": "[[File:Imaru's Talon.png|32px]]",
+      "name": "VESTIGE: Serrated Claw",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Imaru's Talon.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Serrated Claw"
+  },
+  {
+    "page_name": "Ulv's Longbow",
+    "item_description": "Once the bow of a silent hunter. Deals additional damage to unaware targets.",
+    "item_name": "Ulv's Longbow",
+    "item_type": "Ranged Weapon",
+    "page_name_sub": "Ulv's Longbow",
+    "json": {
+      "type": "Ranged Weapon",
+      "description": "Once the bow of a silent hunter. Deals additional damage to unaware targets.",
+      "repaircost": "2 [[Willow Logs]]",
+      "image": "[[File:Ulv's Longbow.png|32px]]",
+      "name": "Ulv's Longbow",
+      "weight": "15.0",
+      "image_raw": "Ulv's Longbow.png"
+    },
+    "item_repair": "2 [[Willow Logs]]",
+    "item_weight": 15
+  },
+  {
+    "page_name": "Shroud of Noggin",
+    "item_description": "A ghostly sackcloth mask. Reduces Wither buildup while worn.",
+    "item_name": "Shroud of Noggin",
+    "item_weight": 1,
+    "page_name_sub": "Shroud of Noggin",
+    "json": {
+      "type": "Basic Item",
+      "description": "A ghostly sackcloth mask. Reduces Wither buildup while worn.",
+      "image": "[[File:Shroud of Noggin.png|32px]]",
+      "name": "Shroud of Noggin",
+      "weight": "1.0",
+      "image_raw": "Shroud of Noggin.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Shroud of Noggin (vestige)",
+    "item_description": "A ghostly sackcloth mask. Reduces Wither buildup while worn.",
+    "item_name": "Shroud of Noggin (vestige)",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "A ghostly sackcloth mask. Reduces Wither buildup while worn.",
+      "image": "[[File:Shroud of Noggin.png|32px]]",
+      "name": "Shroud of Noggin (vestige)",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "Shroud of Noggin.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Shroud of Noggin (vestige)"
   }
 ]
