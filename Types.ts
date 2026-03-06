@@ -75,7 +75,6 @@ export const Facility = [
   "Cooking Range",
   "Crafting Table",
   "Fletching Bench",
-  "Fletching Table",
   "Furnace",
   "Grill",
   "Grindstone",
@@ -92,6 +91,14 @@ export const Facility = [
   "Stonecutter",
   "Tannery",
 ] as const;
+
+/**
+ * A parsed facility entry with a hashed ID and display name.
+ */
+export type FacilityData = {
+  id: string;
+  name: string;
+};
 
 export const Skill = [
   "Artisan",

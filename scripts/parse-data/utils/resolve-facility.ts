@@ -1,5 +1,6 @@
 import { SourceRecipe } from "@/scripts/fetch-data/types/recipe";
 import { Item } from "@/Types";
+import { applyFacilityNameOverride } from "./apply-facility-name-override";
 
 export function resolveFacilities(recipes: SourceRecipe[]): Item["facilities"] {
   // collect all unique facilities from the recipes
@@ -8,7 +9,7 @@ export function resolveFacilities(recipes: SourceRecipe[]): Item["facilities"] {
   recipes.forEach((recipe) => {
     recipe.uses_facility?.forEach((facility) => {
       if (facility) {
-        facilitiesSet.add(facility);
+        facilitiesSet.add(applyFacilityNameOverride(facility));
       }
     });
   });

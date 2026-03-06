@@ -3,6 +3,8 @@ import { join } from "path";
 import { SourceRecipe } from "../fetch-data/types/recipe";
 import { SourceItem } from "../fetch-data/types/item";
 import listItems from "./utils/list-items";
+import { applyFacilityNameOverride } from "./utils/apply-facility-name-override";
+import { idFromName } from "./utils/id-from-name";
 
 async function parseData() {
   const dataDir = join(__dirname, "..", "..", "data");
@@ -34,6 +36,28 @@ async function parseData() {
     JSON.stringify(listedItems, null, 2),
   );
   console.log(`Created file: data/items.json`);
+
+  // Collect all unique facilities from every recipe
+  const facilitiesSet = new Set<string>();
+  recipes.forEach((recipe) => {
+    recipe.uses_facility?.forEach((facility) => {
+      if (facility) {
+        facilitiesSet.add(applyFacilityNameOverride(facility));
+      }
+    });
+  });
+
+  const facilities = Array.from(facilitiesSet)
+    .sort()
+    .map((name) => ({ id: idFromName(name), name }));
+
+  fs.writeFileSync(
+    join(dataDir, "facilities.json"),
+    JSON.stringify(facilities, null, 2),
+  );
+  console.log(
+    `Created file: data/facilities.json (${facilities.length} facilities)`,
+  );
 }
 
 parseData().catch(console.error);

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "297fa03ced0b",
+    "name": "Anvil"
+  },
+  {
+    "id": "fa122c4ed88f",
+    "name": "Blast Furnace"
+  },
+  {
+    "id": "dd92804b0586",
+    "name": "Brewing Cauldron"
+  },
+  {
+    "id": "4fda6e6141c1",
+    "name": "Build Menu"
+  },
+  {
+    "id": "bf3fac40de1b",
+    "name": "Campfire"
+  },
+  {
+    "id": "d85246cf6102",
+    "name": "Cooking Range"
+  },
+  {
+    "id": "aeb29223319b",
+    "name": "Crafting Table"
+  },
+  {
+    "id": "49aa06386591",
+    "name": "Fletching Bench"
+  },
+  {
+    "id": "1c875539a5a7",
+    "name": "Furnace"
+  },
+  {
+    "id": "738c8bf7038c",
+    "name": "Grill"
+  },
+  {
+    "id": "5c6d854cbd02",
+    "name": "Grindstone"
+  },
+  {
+    "id": "5c2b1b80c56c",
+    "name": "Jeweler's Bench"
+  },
+  {
+    "id": "61bf3cf0d02b",
+    "name": "Kiln"
+  },
+  {
+    "id": "33d0fa882c35",
+    "name": "Loom"
+  },
+  {
+    "id": "f505eb92a0a3",
+    "name": "Lougrim's Shrine"
+  },
+  {
+    "id": "8d2955fe99cb",
+    "name": "Pottery Wheel"
+  },
+  {
+    "id": "64853b498ad8",
+    "name": "Rune Altar"
+  },
+  {
+    "id": "122a0693c622",
+    "name": "Sawmill"
+  },
+  {
+    "id": "0fb174b57827",
+    "name": "Smithing Anvil"
+  },
+  {
+    "id": "dde87b553a5f",
+    "name": "Smithing Forge"
+  },
+  {
+    "id": "feeedebfee67",
+    "name": "Spinning Wheel"
+  },
+  {
+    "id": "91cdb651ff27",
+    "name": "Stonecutter"
+  },
+  {
+    "id": "10d24c63de54",
+    "name": "Tannery"
+  }
+]

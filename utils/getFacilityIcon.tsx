@@ -12,11 +12,6 @@ export default function getFacilityIcon(
       break;
   }
 
-  // Handle special case for Fletching Table
-  if (facility === "Fletching Table") {
-    facility = "Fletching Bench";
-  }
-
   const encodedFilename = facility
     .replace(/ /g, "_")
     .replace(/\(/g, "%28")

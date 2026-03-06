@@ -4732,13 +4732,13 @@
     "image": "Bronze Arrow.png",
     "variants": [
       {
-        "id": "1b14154557ac",
+        "id": "daa410a644f9",
         "name": "Bronze Arrow",
         "image": "Bronze Arrow.png",
         "variantName": null,
         "recipe": {
-          "id": "aad22b0e96b3",
-          "facility": "Fletching Table",
+          "id": "aa84f021b2ba",
+          "facility": "Fletching Bench",
           "materials": [
             {
               "itemId": "c1117f9270a0",
@@ -4761,7 +4761,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Fletching Table"
+      "Fletching Bench"
     ],
     "wikiLink": "Bronze_Arrow"
   },

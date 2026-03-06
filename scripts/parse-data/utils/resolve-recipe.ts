@@ -1,6 +1,7 @@
 import { SourceRecipe } from "@/scripts/fetch-data/types/recipe";
 import { Facility, Material, Recipe } from "@/Types";
 import { createHash } from "crypto";
+import { applyFacilityNameOverride } from "./apply-facility-name-override";
 import { idFromName } from "./id-from-name";
 
 export function resolveRecipe(rawRecipe: SourceRecipe): Recipe {
@@ -14,7 +15,9 @@ export function resolveRecipe(rawRecipe: SourceRecipe): Recipe {
           : mat.quantity || 1,
     }));
 
-  const facility = rawRecipe.json.facility as (typeof Facility)[number];
+  const facility = applyFacilityNameOverride(
+    rawRecipe.json.facility,
+  ) as (typeof Facility)[number];
 
   const returnRecipe: Recipe = {
     id: createRecipeId(facility, materials),
