@@ -67,7 +67,6 @@ export type Material = {
 };
 
 export const Facility = [
-  "Anvil",
   "Blast Furnace",
   "Brewing Cauldron",
   "Build Menu",

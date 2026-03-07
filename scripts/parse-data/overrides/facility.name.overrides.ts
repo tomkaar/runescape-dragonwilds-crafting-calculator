@@ -6,4 +6,5 @@ import { FacilityNameOverride } from "./types";
  */
 export const facilityNameOverrides: FacilityNameOverride[] = [
   { from: "Fletching Table", to: "Fletching Bench" },
+  { from: "Anvil", to: "Smithing Anvil" },
 ];

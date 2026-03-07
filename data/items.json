@@ -7179,13 +7179,13 @@
     "image": "Dragonbone Dagger.png",
     "variants": [
       {
-        "id": "3877a6d100c6",
+        "id": "9d827799d395",
         "name": "Dragonbone Dagger",
         "image": "Dragonbone Dagger.png",
         "variantName": null,
         "recipe": {
-          "id": "6c88c63594e3",
-          "facility": "Anvil",
+          "id": "1d2e045a71ca",
+          "facility": "Smithing Anvil",
           "materials": [
             {
               "itemId": "1433631489c8",
@@ -7212,7 +7212,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Anvil"
+      "Smithing Anvil"
     ],
     "wikiLink": "Dragonbone_Dagger"
   },
@@ -7394,13 +7394,13 @@
     "image": "Iron Warhammer.png",
     "variants": [
       {
-        "id": "85401a12bce7",
+        "id": "f54c3de3f894",
         "name": "Iron Warhammer",
         "image": "Iron Warhammer.png",
         "variantName": null,
         "recipe": {
-          "id": "8aa248accf62",
-          "facility": "Anvil",
+          "id": "1ee673722f34",
+          "facility": "Smithing Anvil",
           "materials": [
             {
               "itemId": "05893339befe",
@@ -7423,7 +7423,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Anvil"
+      "Smithing Anvil"
     ],
     "wikiLink": "Iron_Warhammer"
   },

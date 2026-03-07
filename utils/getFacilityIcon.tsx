@@ -12,11 +12,13 @@ export default function getFacilityIcon(
       break;
   }
 
+  if (!Facility.includes(facility)) return null;
+
   const encodedFilename = facility
     .replace(/ /g, "_")
     .replace(/\(/g, "%28")
     .replace(/\)/g, "%29");
-  const url = `https://dragonwilds.runescape.wiki/images/${encodedFilename}.png`;
+  const url = `https://dragonwilds.runescape.wiki/images/thumb/${encodedFilename}.png/${size}px-${encodedFilename}.png`;
 
   return <img src={url} alt={facility} width={size} height={size} />;
 }
