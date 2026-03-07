@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { ItemTable } from "@/components/ItemTable/ItemTable";
 import { Metadata } from "next";
 
@@ -12,7 +13,9 @@ export async function generateMetadata(): Promise<Metadata> {
 export default function ItemPage() {
   return (
     <main className="h-full flex flex-col">
-      <ItemTable />
+      <Suspense>
+        <ItemTable />
+      </Suspense>
     </main>
   );
 }

@@ -1,13 +1,11 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import {
   useReactTable,
   getCoreRowModel,
   getSortedRowModel,
   getFilteredRowModel,
-  type SortingState,
-  type ColumnFiltersState,
 } from "@tanstack/react-table";
 
 import { columns } from "./columns";
@@ -16,19 +14,25 @@ import TableBody from "./TableBody";
 import TableHead from "./TableHead";
 import SearchAndFilter from "./SearchAndFilter";
 import { fuzzyFilter, fuzzySort } from "./fuzzy";
+import { useTableSearchParams } from "./useTableSearchParams";
 
 export function ItemTable() {
   const tableContainerRef = useRef<HTMLDivElement>(null);
 
-  const [sorting, setSorting] = useState<SortingState>([]);
-  const [globalFilter, setGlobalFilter] = useState("");
-  const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([]);
+  const {
+    sorting,
+    setSorting,
+    globalFilter,
+    setGlobalFilter,
+    columnFilters,
+    setColumnFilters,
+  } = useTableSearchParams();
 
   // eslint-disable-next-line react-hooks/incompatible-library
   const table = useReactTable({
     data: tableData,
     columns,
-    state: { sorting, globalFilter: globalFilter || undefined, columnFilters },
+    state: { sorting, globalFilter, columnFilters },
     onSortingChange: setSorting,
     onGlobalFilterChange: setGlobalFilter,
     onColumnFiltersChange: setColumnFilters,
