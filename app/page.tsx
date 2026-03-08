@@ -14,15 +14,18 @@ export function generateMetadata(): Metadata {
 
 export default function Home() {
   return (
-    <div>
+    <div className="pattern-square">
       <main className="flex flex-col items-center justify-center min-h-screen px-4 py-12">
         <div className="w-full max-w-md flex flex-col gap-8">
           {/* Header */}
           <div className="flex flex-row items-center gap-2">
-            <AnvilIcon className="size-10 text-title" />
-            <h1 className="text-2xl text-title">
+            <div className="text-title border-2 border-title rounded-full p-1.5">
+              <AnvilIcon size={24} />
+            </div>
+
+            <h1 className="text-2xl text-title font-bold">
               RuneScape: Dragonwilds
-              <span className="block -mt-1 text-sm font-normal text-foreground/70">
+              <span className="block -mt-1 text-sm font-normal">
                 Crafting calculator
               </span>
             </h1>

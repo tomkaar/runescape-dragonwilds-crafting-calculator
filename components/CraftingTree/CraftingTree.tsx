@@ -34,7 +34,12 @@ export function CraftingTree(props: Props) {
   const [edges, , onEdgesChange] = useEdgesState(anotherTree?.edges || []);
 
   return (
-    <div className={cn("w-full h-full bg-card text-black", className)}>
+    <div
+      className={cn(
+        "w-full h-full bg-card text-black pattern-square",
+        className,
+      )}
+    >
       <ReactFlow
         nodes={nodes}
         edges={edges}
