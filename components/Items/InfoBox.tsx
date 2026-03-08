@@ -56,10 +56,18 @@ export function ItemInfoBox(props: Props) {
             uniqueFacilities.map(
               (facility) =>
                 facility && (
-                  <Badge variant="secondary" key={facility} className="text-sm">
-                    {getFacilityIcon(facility, 22)}
-                    {facility}
-                  </Badge>
+                  <Link
+                    key={facility}
+                    href={{
+                      pathname: `/item`,
+                      search: `?facility=${encodeURIComponent(facility)}`,
+                    }}
+                  >
+                    <Badge variant="secondary" className="text-sm">
+                      {getFacilityIcon(facility, 22)}
+                      {facility}
+                    </Badge>
+                  </Link>
                 ),
             )}
         </div>
