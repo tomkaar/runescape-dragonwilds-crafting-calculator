@@ -1,5 +1,13 @@
 import { SearchBox } from "@/components/SearchBox";
-import { AnvilIcon, GithubIcon, Scale, StarIcon } from "lucide-react";
+import {
+  AnvilIcon,
+  GithubIcon,
+  HomeIcon,
+  ListIcon,
+  MenuIcon,
+  Scale,
+  StarIcon,
+} from "lucide-react";
 import Link from "next/link";
 import { ReactNode } from "react";
 
@@ -20,6 +28,13 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { FavouriteItemsList } from "@/components/FavouriteItemsList";
 
 type Props = {
@@ -30,20 +45,87 @@ export default function Layout(props: Props) {
   return (
     <div className="h-screen">
       <div className="sticky top-0 border-b bg-background border-neutral-700 flex flex-col md:flex-row gap-6 md:items-center w-full p-4">
-        <Link href="/">
-          <div className="flex flex-row gap-4 items-center">
-            <div className="text-title">
-              <AnvilIcon />
+        <div className="flex flex-row items-center justify-between">
+          <Link href="/">
+            <div className="flex flex-row gap-2 items-center">
+              <div className="text-title border-2 border-title rounded-full p-1.5">
+                <AnvilIcon size={20} />
+              </div>
+              <h1 className="text-base font-bold text-title">
+                RuneScape: Dragonwilds
+                <br />{" "}
+                <span className="block -mt-1 text-xs font-normal">
+                  Crafting calculator
+                </span>
+              </h1>
             </div>
-            <h1 className="text-base font-bold text-title">
-              RuneScape: Dragonwilds
-              <br />{" "}
-              <span className="block -mt-1 text-xs font-normal">
-                Crafting calculator
-              </span>
-            </h1>
+          </Link>
+
+          <div className="shrink-0 flex md:hidden">
+            <Sheet>
+              <SheetTrigger
+                render={
+                  <Button
+                    variant="ghost"
+                    size="icon-sm"
+                    className="cursor-pointer"
+                  >
+                    <MenuIcon />
+                    <span className="sr-only">Open menu</span>
+                  </Button>
+                }
+              />
+              <SheetContent side="right" className="w-64">
+                <SheetHeader>
+                  <SheetTitle>Menu</SheetTitle>
+                </SheetHeader>
+                <nav className="flex flex-col gap-1 px-4">
+                  <Link
+                    href="/"
+                    className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-neutral-800"
+                  >
+                    <HomeIcon size={16} />
+                    Home
+                  </Link>
+                  <Link
+                    href="/item"
+                    className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-neutral-800"
+                  >
+                    <ListIcon size={16} />
+                    All items
+                  </Link>
+                  <a
+                    href="https://dragonwilds.runescape.wiki"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-neutral-800"
+                  >
+                    <Scale size={16} />
+                    Official Wiki
+                  </a>
+                  <a
+                    href="https://github.com/tomkaar/runescape-dragonwilds-crafting-calculator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-neutral-800"
+                  >
+                    <GithubIcon size={16} />
+                    GitHub
+                  </a>
+                </nav>
+                <div className="px-6 mt-2">
+                  <p className="text-xs text-muted-foreground border-t border-neutral-700 pt-4">
+                    Data from the RuneScape: Dragonwilds Wiki. Content licensed
+                    under CC BY-NC-SA 3.0. Not affiliated with Jagex Ltd.,
+                    RuneScape: Dragonwilds Wiki or Weird Gloop. Data may not
+                    always be accurate or up-to-date.
+                  </p>
+                </div>
+              </SheetContent>
+            </Sheet>
           </div>
-        </Link>
+        </div>
+
         <div className="grow flex flex-row justify-center md:justify-start items-center gap-4">
           <div className="w-full md:max-w-80">
             <SearchBox />
@@ -67,6 +149,15 @@ export default function Layout(props: Props) {
               </PopoverHeader>
             </PopoverContent>
           </Popover>
+
+          <div className="hidden md:block">
+            <Link
+              href="/item"
+              className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-neutral-800 whitespace-nowrap"
+            >
+              All items
+            </Link>
+          </div>
         </div>
 
         <div className="shrink-0 hidden md:flex gap-2 flex-row">
