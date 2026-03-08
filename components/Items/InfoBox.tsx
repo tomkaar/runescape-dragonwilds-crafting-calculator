@@ -5,7 +5,9 @@ import getFacilityIcon from "@/utils/getFacilityIcon";
 import Link from "next/link";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { Favourite } from "./InfoBox/Favourite";
+import { CraftingFacilitiesPopover } from "./InfoBox/CraftingFacilitiesPopover";
 import { Badge } from "../ui/badge";
+import { resolveCraftingTree } from "@/components/CraftingTree/resolve";
 
 type Props = {
   item: Item;
@@ -16,6 +18,17 @@ export function ItemInfoBox(props: Props) {
   const { item, itemId } = props;
 
   const uniqueFacilities = Array.from(new Set(item.facilities));
+
+  // Collect all facilities from the crafting tree (sub-materials only)
+  const { nodes } = resolveCraftingTree({ itemId });
+  const treeFacilities = nodes
+    .filter((node) => !node.data.initialNode && node.data.facility)
+    .map((node) => node.data.facility as string);
+  const extraFacilities = Array.from(
+    new Set(
+      treeFacilities.filter((f) => !uniqueFacilities.includes(f as never)),
+    ),
+  );
 
   return (
     <div className="px-4 py-4 border-b border-neutral-700">
@@ -70,6 +83,8 @@ export function ItemInfoBox(props: Props) {
                   </Link>
                 ),
             )}
+
+          <CraftingFacilitiesPopover facilities={extraFacilities} />
         </div>
       ) : null}
     </div>
