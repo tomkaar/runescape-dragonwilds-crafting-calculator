@@ -51,7 +51,7 @@ export default function Layout(props: Props) {
               <div className="text-title border-2 border-title rounded-full p-1.5">
                 <AnvilIcon size={20} />
               </div>
-              <h1 className="text-base font-bold text-title">
+              <h1 className="text-base font-bold text-title whitespace-nowrap">
                 RuneScape: Dragonwilds
                 <br />{" "}
                 <span className="block -mt-1 text-xs font-normal">
@@ -134,6 +134,7 @@ export default function Layout(props: Props) {
             <PopoverTrigger asChild>
               <Button variant="ghost" className="group cursor-pointer">
                 <StarIcon className="group-data-[state=open]:text-title group-data-[state=open]:fill-title" />
+                Favourites
               </Button>
             </PopoverTrigger>
             <PopoverContent align="center">
@@ -155,6 +156,7 @@ export default function Layout(props: Props) {
               href="/item"
               className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-neutral-800 whitespace-nowrap"
             >
+              <ListIcon size={16} />
               All items
             </Link>
           </div>
