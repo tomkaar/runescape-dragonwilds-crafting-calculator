@@ -69,7 +69,7 @@ export function MultiSelectFilter({
                 ))}
                 <ComboboxChipsInput
                   placeholder={placeholder}
-                  className="text-sm"
+                  className="text-base"
                 />
               </>
             )}
@@ -83,7 +83,7 @@ export function MultiSelectFilter({
               <ComboboxItem
                 key={option.value}
                 value={option}
-                className="text-sm"
+                className="text-base"
               >
                 {option.icon && <span className="shrink-0">{option.icon}</span>}
                 {option.label}
