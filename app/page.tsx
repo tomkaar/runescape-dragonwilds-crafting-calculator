@@ -44,7 +44,7 @@ export default function Home() {
           <section className="flex flex-col gap-2">
             <Link
               href="/item"
-              className="flex items-center gap-3 rounded-md border border-neutral-700 px-4 py-3 text-sm hover:bg-neutral-800/50 transition-colors"
+              className="flex items-center gap-3 rounded-md border border-neutral-700 bg-background px-4 py-3 text-sm hover:bg-neutral-800/50 transition-colors"
             >
               <TableIcon className="size-4 text-neutral-400 shrink-0" />
               <div>
