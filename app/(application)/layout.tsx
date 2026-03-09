@@ -205,7 +205,9 @@ export default function Layout(props: Props) {
         </div>
       </div>
 
-      <div className="h-full md:h-[calc(100vh-69px)]">{props.children}</div>
+      <div className="h-[calc(100vh-129px)] md:h-[calc(100vh-69px)]">
+        {props.children}
+      </div>
     </div>
   );
 }
