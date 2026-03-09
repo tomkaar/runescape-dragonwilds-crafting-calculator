@@ -25,7 +25,7 @@ export function RenderBuildTree(props: Props) {
             onFocus={() => enter(fileItem.nodeId)}
             onBlur={() => reset()}
             className={`
-                cursor-pointer inline-flex flex-row gap-2 px-2 py-2 rounded-lg text-sm group hover:bg-accent hover:text-accent-foreground w-full justify-start transition-none
+                cursor-pointer inline-flex flex-row gap-2 px-2 py-1 rounded-lg text-sm group hover:bg-accent hover:text-accent-foreground w-full justify-start transition-none
                 ${fileItem.quantity === null ? "opacity-75" : ""}
               `}
           >
@@ -33,8 +33,8 @@ export function RenderBuildTree(props: Props) {
               <img
                 src={createImageUrlPath(fileItem.item.image)}
                 alt={fileItem.item.name}
-                width={20}
-                height={20}
+                width={24}
+                height={24}
                 className="min-w-5 min-h-5 max-h-5 max-w-5"
               />
             )}
@@ -55,7 +55,7 @@ export function RenderBuildTree(props: Props) {
           </button>
 
           <div className="style-lyra:ml-4 mt-1 ml-5">
-            <div className="flex flex-col gap-1 border-l border-neutral-500">
+            <div className="flex flex-col border-l pl-2 border-neutral-500">
               {fileItem.items.map((child) => renderItem(child))}
             </div>
           </div>
@@ -75,8 +75,8 @@ export function RenderBuildTree(props: Props) {
           <img
             src={createImageUrlPath(fileItem.item.image)}
             alt={fileItem.item.name}
-            width={20}
-            height={20}
+            width={24}
+            height={24}
             className="min-w-5 min-h-5 max-h-5 max-w-5"
           />
         )}
