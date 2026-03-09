@@ -91,8 +91,8 @@ export function MaterialTreeNode({
                 <img
                   src={createImageUrlPath(item.item.image)}
                   alt={item.item.name}
-                  width={28}
-                  height={28}
+                  width={24}
+                  height={24}
                 />
               )}
               {item.variantNumber === undefined && (
@@ -157,8 +157,8 @@ export function MaterialTreeNode({
               <img
                 src={createImageUrlPath(item.item.image)}
                 alt={item.item.name}
-                width={20}
-                height={20}
+                width={24}
+                height={24}
               />
             )}
             <span className="font-semibold">{item.quantity}x</span>
