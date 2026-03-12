@@ -9357,13 +9357,31 @@
     "page_name_sub": "Steel Warhammer"
   },
   {
+    "page_name": "Bag of Flour",
+    "item_description": "Cultivated grains ground to a fine powder.",
+    "item_name": "Bag of Flour",
+    "item_type": "Resource",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Resource",
+      "description": "Cultivated grains ground to a fine powder.",
+      "image": "[[File:Bag of Flour.png|32px]]",
+      "name": "Bag of Flour",
+      "weight": "0.2",
+      "stacklimit": "99",
+      "image_raw": "Bag of Flour.png"
+    },
+    "item_weight": 0.2,
+    "page_name_sub": "Bag of Flour"
+  },
+  {
     "page_name": "Bread",
     "item_description": "Crusty brown outside, pillowy white inside.",
     "item_name": "Bread",
-    "item_type": "Basic Item",
+    "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
-      "type": "Basic Item",
+      "type": "Food",
       "description": "Crusty brown outside, pillowy white inside.",
       "image": "[[File:Bread.png|32px]]",
       "name": "Bread",
@@ -11264,5 +11282,42 @@
     },
     "item_weight": 0,
     "page_name_sub": "Shroud of Noggin (vestige)"
+  },
+  {
+    "page_name": "Burnt Undead Steak",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Undead Steak",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Undead Steak.png|32px]]",
+      "name": "Burnt Undead Steak",
+      "weight": "1.0",
+      "stacklimit": "50",
+      "image_raw": "Burnt Undead Steak.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Burnt Undead Steak"
+  },
+  {
+    "page_name": "Burnt Pumpkin",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Pumpkin",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Pumpkin.png|32px]]",
+      "name": "Burnt Pumpkin",
+      "weight": "1.0",
+      "sustenance": "15",
+      "stacklimit": "50",
+      "image_raw": "Burnt Pumpkin.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Burnt Pumpkin"
   }
 ]
