@@ -16079,6 +16079,59 @@
   },
   {
     "uses_material": [
+      "Oak Plank",
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Oak Plank",
+          "link": "Oak Plank",
+          "qty": "6",
+          "item": "Oak Plank",
+          "image": "[[File:Oak Plank.png|30px|link=Oak Plank]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "30"
+        }
+      ],
+      "outputs": [
+        "30° Hip Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "30° Hip Roof",
+        "link": "30° Hip Roof",
+        "qty": 1,
+        "item": "30° Hip Roof",
+        "image": "[[File:30° Hip Roof.png|30px|link=30° Hip Roof]]"
+      }
+    },
+    "output": [
+      "30° Hip Roof"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -16466,7 +16519,60 @@
         "link": "30° Roof",
         "qty": 1,
         "item": "30° Roof",
-        "image": "[[File:30° Roof.png|30px|link=30° Roof]]"
+        "image": "[[File:30° Roof (Tier 2).png|30px|link=30° Roof]]"
+      }
+    },
+    "output": [
+      "30° Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Oak Plank",
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Oak Plank",
+          "link": "Oak Plank",
+          "qty": "6",
+          "item": "Oak Plank",
+          "image": "[[File:Oak Plank.png|30px|link=Oak Plank]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "30"
+        }
+      ],
+      "outputs": [
+        "30° Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "30° Roof",
+        "link": "30° Roof",
+        "qty": 1,
+        "item": "30° Roof",
+        "image": "[[File:30° Roof (Castle).png|30px|link=30° Roof]]"
       }
     },
     "output": [
@@ -36981,7 +37087,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -42251,6 +42357,94 @@
     },
     "output": [
       "Iron Chest"
+    ]
+  },
+  {
+    "uses_material": [
+      "Undead Meat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Undead Meat",
+          "link": "Undead Meat",
+          "qty": "1",
+          "item": "Undead Meat",
+          "image": "[[File:Undead Meat.png|30px|link=Undead Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Undead Steak"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Undead Steak",
+        "link": "Burnt Undead Steak",
+        "qty": "1",
+        "item": "Burnt Undead Steak",
+        "image": "[[File:Burnt Undead Steak.png|30px|link=Burnt Undead Steak]]"
+      }
+    },
+    "output": [
+      "Burnt Undead Steak"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pumpkin"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pumpkin",
+          "link": "Pumpkin",
+          "qty": "1",
+          "item": "Pumpkin",
+          "image": "[[File:Pumpkin.png|30px|link=Pumpkin]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Pumpkin"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Pumpkin",
+        "link": "Burnt Pumpkin",
+        "qty": "1",
+        "item": "Burnt Pumpkin",
+        "image": "[[File:Burnt Pumpkin.png|30px|link=Burnt Pumpkin]]"
+      }
+    },
+    "output": [
+      "Burnt Pumpkin"
     ]
   }
 ]

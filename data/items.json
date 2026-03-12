@@ -9717,6 +9717,27 @@
           ],
           "quantity": 1
         }
+      },
+      {
+        "id": "aa83af90b9b5",
+        "name": "30° Hip Roof",
+        "image": "30° Hip Roof.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ea705ea0ec00",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "ed4acb2676c2",
+              "quantity": 6
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        }
       }
     ],
     "skills": [
@@ -9925,10 +9946,10 @@
         }
       },
       {
-        "id": "49d6466edfb3",
+        "id": "b7a3e99104fd",
         "name": "30° Roof",
-        "image": "30° Roof.png",
-        "variantName": null,
+        "image": "30° Roof (Tier 2).png",
+        "variantName": "Tier 2",
         "recipe": {
           "id": "dd44096f389c",
           "facility": "Build Menu",
@@ -9936,6 +9957,27 @@
             {
               "itemId": "eedfb3dc7f45",
               "quantity": 6
+            }
+          ],
+          "quantity": 1
+        }
+      },
+      {
+        "id": "4006dae4413c",
+        "name": "30° Roof",
+        "image": "30° Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "ea705ea0ec00",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "ed4acb2676c2",
+              "quantity": 6
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 1
             }
           ],
           "quantity": 1
@@ -26073,6 +26115,68 @@
       "Build Menu"
     ],
     "wikiLink": "Iron_Chest"
+  },
+  {
+    "id": "3f999dd01733",
+    "name": "Burnt Undead Steak",
+    "image": "Burnt Undead Steak.png",
+    "variants": [
+      {
+        "id": "5f970e041016",
+        "name": "Burnt Undead Steak",
+        "image": "Burnt Undead Steak.png",
+        "variantName": null,
+        "recipe": {
+          "id": "400568574fae",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "73602b857cc5",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        }
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Undead_Steak"
+  },
+  {
+    "id": "122c0173e5d5",
+    "name": "Burnt Pumpkin",
+    "image": "Burnt Pumpkin.png",
+    "variants": [
+      {
+        "id": "f55e5b9dccd5",
+        "name": "Burnt Pumpkin",
+        "image": "Burnt Pumpkin.png",
+        "variantName": null,
+        "recipe": {
+          "id": "37d73140cfdb",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "c6c5211a5079",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        }
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
+    ],
+    "wikiLink": "Burnt_Pumpkin"
   },
   {
     "id": "6a5fa59fd28f",
