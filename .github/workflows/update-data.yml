@@ -36,6 +36,15 @@ jobs:
       - name: Parse data
         run: pnpm run parse-data
 
+      - name: Check for data changes
+        id: check-changes
+        run: |
+          git diff --quiet data/ || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Generate metadata
+        if: steps.check-changes.outputs.changed == 'true'
+        run: pnpm run generate-metadata
+
       - name: Create pull request if data changed
         uses: peter-evans/create-pull-request@v7
         with:

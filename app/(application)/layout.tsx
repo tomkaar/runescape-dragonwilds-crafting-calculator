@@ -36,6 +36,8 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { FavouriteItemsList } from "@/components/FavouriteItemsList";
+import { LastUpdated } from "@/components/LastUpdated";
+import lastUpdated from "@/data/last-updated.json";
 
 type Props = {
   children: ReactNode;
@@ -44,7 +46,7 @@ type Props = {
 export default function Layout(props: Props) {
   return (
     <div className="h-screen">
-      <div className="sticky top-0 border-b bg-background border-neutral-700 flex flex-col md:flex-row gap-6 md:items-center w-full p-4">
+      <div className="sticky top-0 border-b bg-background border-neutral-700 flex flex-col lg:flex-row gap-6 lg:items-center w-full p-4">
         <div className="flex flex-row items-center justify-between">
           <Link href="/">
             <div className="flex flex-row gap-2 items-center">
@@ -61,7 +63,7 @@ export default function Layout(props: Props) {
             </div>
           </Link>
 
-          <div className="shrink-0 flex md:hidden">
+          <div className="shrink-0 flex lg:hidden">
             <Sheet>
               <SheetTrigger
                 render={
@@ -113,8 +115,9 @@ export default function Layout(props: Props) {
                     GitHub
                   </a>
                 </nav>
-                <div className="px-6 mt-2">
-                  <p className="text-xs text-muted-foreground border-t border-neutral-700 pt-4">
+                <div className="px-6 mt-2 flex flex-col gap-3 text-start">
+                  <LastUpdated date={lastUpdated.lastUpdated} />
+                  <p className="text-xs text-muted-foreground border-t border-neutral-700 pt-3">
                     Data from the RuneScape: Dragonwilds Wiki. Content licensed
                     under CC BY-NC-SA 3.0. Not affiliated with Jagex Ltd.,
                     RuneScape: Dragonwilds Wiki or Weird Gloop. Data may not
@@ -126,8 +129,8 @@ export default function Layout(props: Props) {
           </div>
         </div>
 
-        <div className="grow flex flex-row justify-center md:justify-start items-center gap-4">
-          <div className="w-full md:max-w-80">
+        <div className="grow flex flex-row justify-center lg:justify-start items-center gap-4">
+          <div className="w-full lg:max-w-80">
             <SearchBox />
           </div>
           <Popover>
@@ -151,7 +154,7 @@ export default function Layout(props: Props) {
             </PopoverContent>
           </Popover>
 
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <Link
               href="/item"
               className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-neutral-800 whitespace-nowrap"
@@ -162,7 +165,10 @@ export default function Layout(props: Props) {
           </div>
         </div>
 
-        <div className="shrink-0 hidden md:flex gap-2 flex-row">
+        <div className="shrink-0 hidden lg:flex gap-2 flex-row items-center">
+          <div className="hidden lg:block">
+            <LastUpdated date={lastUpdated.lastUpdated} />
+          </div>
           <Dialog>
             <DialogTrigger asChild>
               <button className="cursor-pointer border border-neutral-800 rounded-full p-1.5 size-9 flex items-center justify-center">
