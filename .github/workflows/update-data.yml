@@ -1,0 +1,53 @@
+name: Update Data
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # Runs daily at 02:00 UTC
+  workflow_dispatch: # Allow manual runs
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Fetch data
+        run: pnpm run fetch-data
+
+      - name: Parse data
+        run: pnpm run parse-data
+
+      - name: Create pull request if data changed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: 'chore: update game data'
+          branch: automated/update-data
+          delete-branch: true
+          title: 'chore: update game data'
+          body: |
+            Automated data update from the daily fetch and parse workflow.
+
+            Changes were detected in `data/` after running:
+            - `pnpm run fetch-data`
+            - `pnpm run parse-data`
+          add-paths: data/*
+          labels: automated
