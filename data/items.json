@@ -24867,25 +24867,25 @@
     "image": "Steel Arrow.png",
     "variants": [
       {
-        "id": "b530de45dc33",
+        "id": "bbfd2ee8039b",
         "name": "Steel Arrow",
         "image": "Steel Arrow.png",
         "variantName": null,
         "recipe": {
-          "id": "b25ebe38492b",
+          "id": "6f9ea5d02206",
           "facility": "Fletching Bench",
           "materials": [
             {
+              "itemId": "15f83d07dd09",
+              "quantity": 2
+            },
+            {
               "itemId": "7ddc50d536fd",
-              "quantity": 3
+              "quantity": 1
             },
             {
               "itemId": "d2a789ecd6d7",
               "quantity": 1
-            },
-            {
-              "itemId": "e484f65d7ba7",
-              "quantity": 3
             }
           ],
           "quantity": 33

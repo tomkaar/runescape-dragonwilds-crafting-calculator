@@ -40400,7 +40400,7 @@
   {
     "uses_material": [
       "Steel Bar",
-      "Willow Logs",
+      "Ash Logs",
       "Feathers"
     ],
     "uses_skill": [
@@ -40421,18 +40421,18 @@
           "image": "[[File:Steel Bar.png|30px|link=Steel Bar]]"
         },
         {
-          "quantity": "3",
-          "name": "Willow Logs",
-          "link": "Willow Logs",
-          "qty": "3",
-          "item": "Willow Logs",
-          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
         },
         {
-          "quantity": "3",
+          "quantity": "1",
           "name": "Feathers",
           "link": "Feathers",
-          "qty": "3",
+          "qty": "1",
           "item": "Feathers",
           "image": "[[File:Feathers.png|30px|link=Feathers]]"
         }
