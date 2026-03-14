@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import { ItemTable } from "@/components/ItemTable/ItemTable";
 import { Metadata } from "next";
+import { cacheLife } from "next/cache";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {

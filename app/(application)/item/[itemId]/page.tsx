@@ -6,6 +6,7 @@ import ContentDesktop from "./ContentDesktop";
 
 import itemJSON from "@/data/items.json";
 import { Item } from "@/Types";
+import { cacheLife } from "next/cache";
 
 const items = itemJSON.sort((a, b) => a.name.localeCompare(b.name)) as Item[];
 
@@ -14,6 +15,8 @@ type Props = {
 };
 
 export async function generateMetadata(props: Props): Promise<Metadata> {
+  "use cache";
+  cacheLife("max");
   const { itemId } = await props.params;
   const item = getItemById(itemId);
 
@@ -33,6 +36,8 @@ export function generateStaticParams() {
 }
 
 export default async function ItemPage(props: Props) {
+  "use cache";
+  cacheLife("max");
   const { itemId } = await props.params;
 
   const item = getItemById(itemId);

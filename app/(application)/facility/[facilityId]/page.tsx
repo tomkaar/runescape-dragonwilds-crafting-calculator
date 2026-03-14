@@ -4,6 +4,7 @@ import { type Metadata } from "next";
 
 import facilitiesJSON from "@/data/facilities.json";
 import { FacilityData } from "@/Types";
+import { cacheLife } from "next/cache";
 
 const facilities = facilitiesJSON as FacilityData[];
 
@@ -12,6 +13,8 @@ type Props = {
 };
 
 export async function generateMetadata(props: Props): Promise<Metadata> {
+  "use cache";
+  cacheLife("max");
   const { facilityId } = await props.params;
   const facility = getFacilityById(facilityId);
 
@@ -31,6 +34,8 @@ export function generateStaticParams() {
 }
 
 export default async function FacilityPage(props: Props) {
+  "use cache";
+  cacheLife("max");
   const { facilityId } = await props.params;
 
   const facility = getFacilityById(facilityId);
