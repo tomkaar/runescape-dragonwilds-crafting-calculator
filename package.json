@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "fetch-data": "tsx ./scripts/fetch-data/script.ts",
-    "parse-data": "tsx ./scripts/parse-data/script.ts",
-    "generate-metadata": "tsx ./scripts/generate-metadata/script.ts"
+    "parse-data": "tsx ./scripts/parse-data/script.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.1.0",

@@ -36,8 +36,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { FavouriteItemsList } from "@/components/FavouriteItemsList";
-import { LastUpdated } from "@/components/LastUpdated";
-import lastUpdated from "@/data/last-updated.json";
+import { LastSynced } from "@/components/LastSynced/LastSynced";
 
 type Props = {
   children: ReactNode;
@@ -116,7 +115,7 @@ export default function Layout(props: Props) {
                   </a>
                 </nav>
                 <div className="px-6 mt-2 flex flex-col gap-3 text-start">
-                  <LastUpdated date={lastUpdated.lastUpdated} />
+                  <LastSynced />
                   <p className="text-xs text-muted-foreground border-t border-neutral-700 pt-3">
                     Data from the RuneScape: Dragonwilds Wiki. Content licensed
                     under CC BY-NC-SA 3.0. Not affiliated with Jagex Ltd.,
@@ -167,7 +166,7 @@ export default function Layout(props: Props) {
 
         <div className="shrink-0 hidden lg:flex gap-2 flex-row items-center">
           <div className="hidden lg:block">
-            <LastUpdated date={lastUpdated.lastUpdated} />
+            <LastSynced />
           </div>
           <Dialog>
             <DialogTrigger asChild>
@@ -205,7 +204,7 @@ export default function Layout(props: Props) {
           </Dialog>
 
           <Link
-            href="/"
+            href="https://github.com/tomkaar/runescape-dragonwilds-crafting-calculator"
             className="border border-neutral-800 rounded-full p-1.5 size-9 flex items-center justify-center"
           >
             <GithubIcon size={20} />

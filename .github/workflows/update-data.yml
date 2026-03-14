@@ -2,7 +2,7 @@ name: Update Data
 
 on:
   schedule:
-    - cron: '0 2 * * *' # Runs daily at 02:00 UTC
+    - cron: "0 2 * * *" # Runs daily at 02:00 UTC
   workflow_dispatch: # Allow manual runs
 
 jobs:
@@ -41,18 +41,14 @@ jobs:
         run: |
           git diff --quiet data/ || echo "changed=true" >> $GITHUB_OUTPUT
 
-      - name: Generate metadata
-        if: steps.check-changes.outputs.changed == 'true'
-        run: pnpm run generate-metadata
-
       - name: Create pull request if data changed
         id: create-pr
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: 'chore: update game data'
+          commit-message: "chore: update game data"
           branch: automated/update-data
           delete-branch: true
-          title: 'chore: update game data'
+          title: "chore: update game data"
           body: |
             Automated data update from the daily fetch and parse workflow.
 
