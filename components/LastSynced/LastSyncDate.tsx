@@ -25,6 +25,10 @@ const LastSyncedDate = cache(async function LastSyncDate(props: Props) {
   cacheLife("days");
   cacheTag("lastSynced");
   const updatedAt = await lastSynced();
+  if (!updatedAt) {
+    return "Unknown";
+  }
+
   const formatted =
     props.format === "short"
       ? formatShort.format(new Date(updatedAt))
