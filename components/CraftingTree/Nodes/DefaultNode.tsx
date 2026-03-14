@@ -11,6 +11,12 @@ import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { useCraftingTreeHover } from "@/context/crafting-tree-hover";
 import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
   function InnerMaterialNode(props, ref) {
@@ -162,14 +168,38 @@ const Content = memo(function InnerContent(props: ContentProps) {
         {isRecipeNumberVariant !== null || hasExcessItems ? (
           <div className="absolute z-10 flex flex-row gap-1 -top-3 left-1/2 -translate-x-1/2">
             {isRecipeNumberVariant !== null && (
-              <div className="whitespace-nowrap rounded-lg px-2 py-0.5 bg-title text-[8px] text-black pt-1">
-                Recipe option {isRecipeNumberVariant}
-              </div>
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <div className="whitespace-nowrap rounded-lg px-2 py-0.5 bg-title text-[8px] text-black cursor-default">
+                      Recipe option {isRecipeNumberVariant}
+                    </div>
+                  </TooltipTrigger>
+                  <TooltipContent side="top">
+                    This item has multiple ways to be crafted.
+                    <br />
+                    This branch shows recipe option {isRecipeNumberVariant}.
+                    <br /> Only one recipe option needs to be completed.
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
             )}
             {hasExcessItems && (
-              <div className="whitespace-nowrap rounded-lg px-2 py-0.5 bg-blue-600 text-[8px] text-white pt-1">
-                {quantityRecieved - quantity} extra
-              </div>
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <div className="whitespace-nowrap rounded-lg px-2 py-0.5 bg-blue-600 text-[8px] text-white cursor-default">
+                      {quantityRecieved - quantity} extra
+                    </div>
+                  </TooltipTrigger>
+                  <TooltipContent side="top">
+                    After finishing this recipe you will <br />
+                    have {quantityRecieved - quantity} extra{" "}
+                    {quantityRecieved - quantity === 1 ? "item" : "items"} left
+                    over.
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
             )}
           </div>
         ) : null}
