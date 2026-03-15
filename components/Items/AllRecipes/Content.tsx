@@ -8,8 +8,8 @@ import { Card } from "./components/Card";
 export function AllRecipesContent() {
   const multiplier = useMaterialMultiplier((state) => state.items);
   const rawRecipes = useSelectedMaterial((state) => state.items);
-  const recipes = Object.entries(rawRecipes).filter(
-    ([, value]) => Object.keys(value).length > 0,
+  const recipes = Object.entries(rawRecipes).filter(([, value]) =>
+    value.some((m) => m.state === "TODO"),
   );
 
   const modifiedRecipes = recipes.map(([itemId, materials]) => {
@@ -20,8 +20,10 @@ export function AllRecipesContent() {
         materials: [],
       };
 
+    const todoMaterials = materials.filter((m) => m.state === "TODO");
+
     // Combine duplicate materials by summing their quantities
-    const combinedMaterials = materials.reduce(
+    const combinedMaterials = todoMaterials.reduce(
       (acc, item) => {
         const existing = acc.find((m) => m.itemId === item.itemId);
         if (existing) {
