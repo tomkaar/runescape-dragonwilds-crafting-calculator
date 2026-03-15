@@ -18,7 +18,7 @@ export function LeftSidebar(props: Props) {
     <Panel
       id="sidebar"
       panelRef={sidebarPanelRef}
-      minSize={350}
+      minSize={400}
       maxSize={600}
       collapsible
       collapsedSize={0}

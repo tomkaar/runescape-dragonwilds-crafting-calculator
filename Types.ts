@@ -18,6 +18,8 @@ export type Item = {
   skills?: ((typeof Skill)[number] | null)[];
   /* Link to the wiki page for this item, if possible */
   wikiLink?: string;
+  /* Weight of the item in kg */
+  weight?: number;
 };
 
 /**

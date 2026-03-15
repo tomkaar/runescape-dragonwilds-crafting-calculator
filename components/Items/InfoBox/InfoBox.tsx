@@ -7,6 +7,7 @@ import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { Favourite } from "./Favourite";
 import { CraftingFacilitiesPopover } from "./CraftingFacilitiesPopover";
 import { UnlockedBy } from "./UnlockedBy";
+import { WeightBadge } from "./WeightBadge";
 import { Badge } from "../../ui/badge";
 import { resolveCraftingTree } from "@/components/CraftingTree/resolve";
 
@@ -52,7 +53,7 @@ export function ItemInfoBox(props: Props) {
         <Favourite itemId={itemId} />
       </div>
 
-      {item.wikiLink || uniqueFacilities.length > 0 ? (
+      {item.wikiLink || uniqueFacilities.length > 0 || item.weight != null ? (
         <div className="flex flex-row flex-wrap gap-2 mt-2">
           {item.wikiLink && (
             <Badge asChild variant="secondary" className="text-sm">
@@ -69,6 +70,8 @@ export function ItemInfoBox(props: Props) {
               </Link>
             </Badge>
           )}
+
+          <WeightBadge weight={item.weight} />
 
           {uniqueFacilities &&
             uniqueFacilities.map(

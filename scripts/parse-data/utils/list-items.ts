@@ -57,6 +57,7 @@ export default function listItems(
         rawRecipes[0]?.json.output.link.replaceAll(" ", "_") ||
         rawItems[0]?.page_name.replaceAll(" ", "_") ||
         undefined,
+      weight: rawItems[0]?.item_weight ?? undefined,
     };
     finishedItems.push(finishedItem);
   });
