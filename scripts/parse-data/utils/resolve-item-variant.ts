@@ -9,5 +9,6 @@ export function resolveItemVariant(item: SourceItem): ItemVariant | null {
     image: item.json.image_raw || null,
     variantName: null,
     recipe: null,
+    usesRecipe: null,
   };
 }
