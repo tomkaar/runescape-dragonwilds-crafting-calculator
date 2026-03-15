@@ -20,7 +20,7 @@ export function RightSidebar(props: Props) {
       panelRef={sidebarRightPanelRef}
       collapsible
       collapsedSize={0}
-      minSize={350}
+      minSize={400}
       maxSize={600}
       className="bg-background"
     >
