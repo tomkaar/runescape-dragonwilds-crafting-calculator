@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import {
   Collapsible,
@@ -13,6 +14,18 @@ import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { CheckboxIndeterminate } from "@/components/ui/checkbox";
 import { FieldContent, FieldGroup, FieldLabel } from "@/components/ui/field";
 import { useCraftingTreeHover } from "@/context/crafting-tree-hover";
+
+function hasCheckedDescendant(
+  node: MaterialTreeItem,
+  items: Array<{ nodeId?: string }>,
+): boolean {
+  if (!("children" in node) || node.children.length === 0) return false;
+  return node.children.some(
+    (child) =>
+      items.some((i) => i.nodeId === child.nodeId) ||
+      hasCheckedDescendant(child, items),
+  );
+}
 
 export function MaterialTreeNode({
   item,
@@ -28,10 +41,15 @@ export function MaterialTreeNode({
     (selectedItem) => selectedItem.nodeId === item.nodeId,
   );
 
+  const anyDescendantChecked = hasCheckedDescendant(item, items);
+
   const addAnItem = useSelectedMaterial((state) => state.addAnItem);
   const markAsDone = useSelectedMaterial((state) => state.markAsDone);
   const removeAnItemByNodeId = useSelectedMaterial(
     (state) => state.removeAnItemByNodeId,
+  );
+  const [manualOpen, setManualOpen] = useState(
+    item.nodeId === initialItemId || anyDescendantChecked,
   );
 
   const handleToggleItem = (e?: React.SyntheticEvent) => {
@@ -66,7 +84,8 @@ export function MaterialTreeNode({
     return (
       <Collapsible
         key={item.nodeId}
-        defaultOpen={item.nodeId === initialItemId}
+        open={manualOpen || anyDescendantChecked}
+        onOpenChange={setManualOpen}
       >
         <div className="flex flex-row gap-2 items-center">
           {item.variantNumber === undefined && (
@@ -104,9 +123,7 @@ export function MaterialTreeNode({
                 <span className="text-left">{item.item.name}</span>
               )}
               {item.variantNumber !== undefined && (
-                <span className="text-muted-foreground">
-                  Recipe {item.variantNumber}
-                </span>
+                <span className="text-title">Recipe {item.variantNumber}</span>
               )}
 
               <ChevronDown className="w-4 h-4 self-center justify-self-end ml-auto text-neutral-400 group-hover:text-neutral-200" />
