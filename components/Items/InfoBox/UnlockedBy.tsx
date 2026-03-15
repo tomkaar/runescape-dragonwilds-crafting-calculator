@@ -11,7 +11,6 @@ export function UnlockedBy({ usesRecipes }: Props) {
 
   return (
     <div className="flex flex-row flex-wrap items-center gap-2 mt-2">
-      <span className="block text-sm">Unlocked by: </span>
       {usesRecipes.map((recipeName) => (
         <Badge
           key={recipeName}
@@ -24,7 +23,7 @@ export function UnlockedBy({ usesRecipes }: Props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {recipeName}
+            Unlocked by: {recipeName}
             <ArrowUpRight width={12} height={12} data-icon="inline-end" />
           </Link>
         </Badge>
