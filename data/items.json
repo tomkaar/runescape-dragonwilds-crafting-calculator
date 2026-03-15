@@ -19,7 +19,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "71894c30335d",
@@ -48,7 +49,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "107c5da561d7",
@@ -65,7 +67,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -104,7 +107,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -135,7 +139,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -166,7 +171,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -205,7 +211,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -236,7 +243,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "be45846428e6",
@@ -253,7 +261,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -292,7 +301,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -335,7 +345,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -366,7 +377,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -397,7 +409,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -432,7 +445,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -475,7 +489,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -514,7 +529,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -545,7 +561,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "4840ed2f9c29",
@@ -562,7 +579,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -601,7 +619,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -638,7 +657,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -675,7 +695,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -712,7 +733,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -751,7 +773,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -788,7 +811,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -825,7 +849,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -858,7 +883,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -889,7 +915,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "60402b787731",
@@ -906,7 +933,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -937,7 +965,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -968,7 +997,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1007,7 +1037,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1050,7 +1081,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1085,7 +1117,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1120,7 +1153,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1146,7 +1180,8 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1181,7 +1216,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1216,7 +1252,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "VESTIGE: Suspiciously Light Tattered Boots"
+        ]
       }
     ],
     "skills": [
@@ -1259,7 +1298,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1302,7 +1342,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1341,7 +1382,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1372,7 +1414,8 @@
             }
           ],
           "quantity": 10
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1407,7 +1450,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1442,7 +1486,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1473,7 +1518,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1508,7 +1554,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1547,7 +1594,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1578,7 +1626,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1613,7 +1662,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1652,7 +1702,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1691,7 +1742,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1722,7 +1774,8 @@
             }
           ],
           "quantity": 10
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1753,7 +1806,8 @@
             }
           ],
           "quantity": 10
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1784,7 +1838,8 @@
             }
           ],
           "quantity": 10
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1815,7 +1870,8 @@
             }
           ],
           "quantity": 10
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1850,7 +1906,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1893,7 +1950,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1936,7 +1994,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -1983,7 +2042,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2026,7 +2086,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2061,7 +2122,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "42d9b3ad83d7",
@@ -2078,7 +2140,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2121,7 +2184,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2156,7 +2220,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2187,7 +2252,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2226,7 +2292,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2261,7 +2328,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2300,7 +2368,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2335,7 +2404,8 @@
             }
           ],
           "quantity": 2
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2366,7 +2436,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "2790db22ec87",
@@ -2383,7 +2454,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2426,7 +2498,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2477,7 +2550,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2516,7 +2590,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -2553,7 +2628,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -2594,7 +2670,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2633,7 +2710,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2672,7 +2750,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2711,7 +2790,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2746,7 +2826,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2793,7 +2874,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2832,7 +2914,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2875,7 +2958,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2906,7 +2990,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2945,7 +3030,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "VESTIGE: A Cruel Goblin Blade"
+        ]
       }
     ],
     "skills": [
@@ -2984,7 +3072,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3031,7 +3120,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3070,7 +3160,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3109,7 +3200,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3148,7 +3240,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3179,7 +3272,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3218,7 +3312,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3253,7 +3348,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3292,7 +3388,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3331,7 +3428,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3362,7 +3460,8 @@
             }
           ],
           "quantity": 10
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3393,7 +3492,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3432,7 +3532,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -3469,7 +3570,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -3514,7 +3616,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3545,7 +3648,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3584,7 +3688,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3623,7 +3728,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3666,7 +3772,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3705,7 +3812,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3740,7 +3848,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3771,7 +3880,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -3800,7 +3910,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "cecd8cfe1a3b",
@@ -3817,7 +3928,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "1645d0e6391a",
@@ -3834,7 +3946,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "4ac16a2957b6",
@@ -3851,7 +3964,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "559010d2517b",
@@ -3868,7 +3982,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3919,7 +4034,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -3970,7 +4086,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4013,7 +4130,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4044,7 +4162,8 @@
             }
           ],
           "quantity": 10
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4079,7 +4198,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4110,7 +4230,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4141,7 +4262,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4176,7 +4298,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4211,7 +4334,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4246,7 +4370,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4281,7 +4406,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4316,7 +4442,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4351,7 +4478,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4386,7 +4514,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4425,7 +4554,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4451,7 +4581,10 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PATTERN: Bloodblight Cape"
+        ]
       }
     ],
     "skills": [
@@ -4490,7 +4623,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4516,7 +4650,10 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PATTERN: Fractured Cape"
+        ]
       }
     ],
     "skills": [
@@ -4559,7 +4696,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4594,7 +4732,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4620,7 +4759,10 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PATTERN: Bramblemead Cape"
+        ]
       }
     ],
     "skills": [
@@ -4646,7 +4788,10 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PATTERN: Stormtouched Cape"
+        ]
       }
     ],
     "skills": [
@@ -4672,7 +4817,8 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4715,7 +4861,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4754,7 +4901,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4797,7 +4945,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4840,7 +4989,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4871,7 +5021,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "A Threadbare Grain Sack"
+        ]
       }
     ],
     "skills": [
@@ -4910,7 +5063,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4949,7 +5103,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -4984,7 +5139,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5027,7 +5183,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5066,7 +5223,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5097,7 +5255,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5136,7 +5295,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5175,7 +5335,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5218,7 +5379,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5261,7 +5423,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5300,7 +5463,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5339,7 +5503,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5370,7 +5535,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5413,7 +5579,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5444,7 +5611,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5487,7 +5655,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5522,7 +5691,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5557,7 +5727,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5600,7 +5771,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5643,7 +5815,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5669,7 +5842,10 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PATTERN: Whispering Cape"
+        ]
       }
     ],
     "skills": [
@@ -5716,7 +5892,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5759,7 +5936,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5802,7 +5980,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5845,7 +6024,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5888,7 +6068,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5927,7 +6108,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -5966,7 +6148,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6005,7 +6188,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6044,7 +6228,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6075,7 +6260,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6122,7 +6308,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6157,7 +6344,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "VESTIGE: A Simple Broken Bow"
+        ]
       }
     ],
     "skills": [
@@ -6188,7 +6378,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "VESTIGE: An Educational Blade"
+        ]
       }
     ],
     "skills": [
@@ -6227,7 +6420,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6266,7 +6460,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -6303,7 +6498,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -6332,7 +6528,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6363,7 +6560,8 @@
             }
           ],
           "quantity": 5
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6394,7 +6592,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6425,7 +6624,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6468,7 +6668,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6511,7 +6712,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6542,7 +6744,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6573,7 +6776,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6616,7 +6820,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6655,7 +6860,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6690,7 +6896,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6725,7 +6932,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6756,7 +6964,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6799,7 +7008,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6830,7 +7040,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6861,7 +7072,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6900,7 +7112,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6931,7 +7144,8 @@
             }
           ],
           "quantity": 5
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -6974,7 +7188,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7000,7 +7215,8 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -7041,7 +7257,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "VESTIGE: A Brutal Bladehead"
+        ]
       }
     ],
     "skills": [
@@ -7088,7 +7307,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7127,7 +7347,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7162,7 +7383,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7205,7 +7427,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7248,7 +7471,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7291,7 +7515,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7334,7 +7559,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7377,7 +7603,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7416,7 +7643,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7447,7 +7675,8 @@
             }
           ],
           "quantity": 2
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7478,7 +7707,8 @@
             }
           ],
           "quantity": 2
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7513,7 +7743,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7552,7 +7783,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -7597,7 +7829,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "VESTIGE: A String of Sinew"
+        ]
       }
     ],
     "skills": [
@@ -7636,7 +7871,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "VESTIGE: A Corroded Serrated Blade"
+        ]
       }
     ],
     "skills": [
@@ -7667,7 +7905,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -7684,7 +7923,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "09e7ccf1d6e8",
@@ -7701,7 +7941,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7732,7 +7973,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -7749,7 +7991,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "09e7ccf1d6e8",
@@ -7766,7 +8009,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7797,7 +8041,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -7814,7 +8059,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "09e7ccf1d6e8",
@@ -7831,7 +8077,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7862,7 +8109,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "5b17f3e32482",
@@ -7879,7 +8127,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "d3ea43db5cdd",
@@ -7896,7 +8145,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7927,7 +8177,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "1bf0dfa3ced6",
@@ -7948,7 +8199,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "107c5da561d7",
@@ -7965,7 +8217,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -7996,7 +8249,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "7606b0c023ad",
@@ -8017,7 +8271,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "09e7ccf1d6e8",
@@ -8034,7 +8289,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8065,7 +8321,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "1bf0dfa3ced6",
@@ -8086,7 +8343,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "107c5da561d7",
@@ -8103,7 +8361,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8134,7 +8393,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -8151,7 +8411,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "d3ea43db5cdd",
@@ -8168,7 +8429,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8199,7 +8461,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -8216,7 +8479,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8247,7 +8511,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "5b17f3e32482",
@@ -8264,7 +8529,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8295,7 +8561,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "5b17f3e32482",
@@ -8312,7 +8579,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8343,7 +8611,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -8360,7 +8629,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8391,7 +8661,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "5b17f3e32482",
@@ -8408,7 +8679,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8439,7 +8711,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -8456,7 +8729,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8487,7 +8761,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -8504,7 +8779,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8535,7 +8811,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -8552,7 +8829,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8583,7 +8861,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -8600,7 +8879,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8631,7 +8911,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "5b17f3e32482",
@@ -8648,7 +8929,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8679,7 +8961,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -8696,7 +8979,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8727,7 +9011,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -8744,7 +9029,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8775,7 +9061,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "5b17f3e32482",
@@ -8792,7 +9079,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8823,7 +9111,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "5b17f3e32482",
@@ -8840,7 +9129,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8871,7 +9161,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "5b17f3e32482",
@@ -8888,7 +9179,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8919,7 +9211,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "5b17f3e32482",
@@ -8936,7 +9229,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8967,7 +9261,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "5b17f3e32482",
@@ -8984,7 +9279,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9015,7 +9311,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "5b17f3e32482",
@@ -9032,7 +9329,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9063,7 +9361,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -9080,7 +9379,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9111,7 +9411,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -9128,7 +9429,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9159,7 +9461,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "1bf0dfa3ced6",
@@ -9180,7 +9483,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "d35a0b26ee96",
@@ -9201,7 +9505,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9236,7 +9541,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "7606b0c023ad",
@@ -9257,7 +9563,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "3266d6e00bd9",
@@ -9278,7 +9585,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9313,7 +9621,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "1bf0dfa3ced6",
@@ -9334,7 +9643,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "d35a0b26ee96",
@@ -9355,7 +9665,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9386,7 +9697,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "7606b0c023ad",
@@ -9407,7 +9719,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "d35a0b26ee96",
@@ -9428,7 +9741,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9459,7 +9773,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "49d6466edfb3",
@@ -9476,7 +9791,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9507,7 +9823,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "49d6466edfb3",
@@ -9524,7 +9841,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9555,7 +9873,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "8af5db3722c4",
@@ -9572,7 +9891,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9603,7 +9923,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "49d6466edfb3",
@@ -9620,7 +9941,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9651,7 +9973,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -9668,7 +9991,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9699,7 +10023,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "49d6466edfb3",
@@ -9716,7 +10041,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "aa83af90b9b5",
@@ -9737,7 +10063,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9768,7 +10095,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "49d6466edfb3",
@@ -9785,7 +10113,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9816,7 +10145,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -9833,7 +10163,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9864,7 +10195,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "49d6466edfb3",
@@ -9881,7 +10213,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9912,7 +10245,8 @@
             }
           ],
           "quantity": 5
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9943,7 +10277,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "b7a3e99104fd",
@@ -9960,7 +10295,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "4006dae4413c",
@@ -9981,7 +10317,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10012,7 +10349,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "8af5db3722c4",
@@ -10029,7 +10367,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10060,7 +10399,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -10077,7 +10417,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10108,7 +10449,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "49d6466edfb3",
@@ -10125,7 +10467,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10156,7 +10499,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "5b17f3e32482",
@@ -10173,7 +10517,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10204,7 +10549,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -10221,7 +10567,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10252,7 +10599,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "8af5db3722c4",
@@ -10269,7 +10617,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10300,7 +10649,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "8af5db3722c4",
@@ -10317,7 +10667,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10348,7 +10699,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "49d6466edfb3",
@@ -10365,7 +10717,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10396,7 +10749,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "49d6466edfb3",
@@ -10413,7 +10767,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10444,7 +10799,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "8af5db3722c4",
@@ -10461,7 +10817,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10492,7 +10849,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "8af5db3722c4",
@@ -10509,7 +10867,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10540,7 +10899,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "8af5db3722c4",
@@ -10557,7 +10917,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10588,7 +10949,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "8af5db3722c4",
@@ -10605,7 +10967,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10636,7 +10999,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "8af5db3722c4",
@@ -10653,7 +11017,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10684,7 +11049,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -10701,7 +11067,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10732,7 +11099,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "71894c30335d",
@@ -10761,7 +11129,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10792,7 +11161,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "4a9ebf6498fe",
@@ -10809,7 +11179,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "71894c30335d",
@@ -10838,7 +11209,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "a761cf914009",
@@ -10855,7 +11227,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10886,7 +11259,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "71894c30335d",
@@ -10915,7 +11289,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "a761cf914009",
@@ -10932,7 +11307,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10963,7 +11339,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "71894c30335d",
@@ -10992,7 +11369,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "a761cf914009",
@@ -11009,7 +11387,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11040,7 +11419,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "62d7e70761eb",
@@ -11069,7 +11449,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "a761cf914009",
@@ -11086,7 +11467,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11117,7 +11499,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "62d7e70761eb",
@@ -11146,7 +11529,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "a761cf914009",
@@ -11163,7 +11547,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11194,7 +11579,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "62d7e70761eb",
@@ -11223,7 +11609,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "a761cf914009",
@@ -11240,7 +11627,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11271,7 +11659,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "71894c30335d",
@@ -11300,7 +11689,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "a761cf914009",
@@ -11317,7 +11707,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11348,7 +11739,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "71894c30335d",
@@ -11377,7 +11769,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "a761cf914009",
@@ -11394,7 +11787,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11425,7 +11819,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "71894c30335d",
@@ -11454,7 +11849,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "a761cf914009",
@@ -11471,7 +11867,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11502,7 +11899,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "71894c30335d",
@@ -11531,7 +11929,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "a761cf914009",
@@ -11548,7 +11947,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11579,7 +11979,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "71894c30335d",
@@ -11608,7 +12009,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "a761cf914009",
@@ -11625,7 +12027,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11656,7 +12059,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "71894c30335d",
@@ -11685,7 +12089,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "a761cf914009",
@@ -11702,7 +12107,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11733,7 +12139,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "71894c30335d",
@@ -11762,7 +12169,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "a761cf914009",
@@ -11779,7 +12187,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11810,7 +12219,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "71894c30335d",
@@ -11839,7 +12249,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "a761cf914009",
@@ -11856,7 +12267,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11887,7 +12299,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "9058bc93c5f5",
@@ -11916,7 +12329,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "7ea14f6b7616",
@@ -11933,7 +12347,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11964,7 +12379,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "71894c30335d",
@@ -11993,7 +12409,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -12024,7 +12441,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "f5c598ea29d2",
@@ -12045,7 +12463,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "158810c58db0",
@@ -12066,7 +12485,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -12097,7 +12517,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "87f33851c235",
@@ -12114,7 +12535,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -12145,7 +12567,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Stack of Bowls"
+        ]
       }
     ],
     "skills": [
@@ -12180,7 +12605,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Bowl of Onions"
+        ]
       }
     ],
     "skills": [
@@ -12215,7 +12643,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Bowl of Peaches"
+        ]
       }
     ],
     "skills": [
@@ -12246,7 +12677,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Hanging Pelt"
+        ]
       }
     ],
     "skills": [
@@ -12281,7 +12715,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Trophy 03"
+        ]
       }
     ],
     "skills": [
@@ -12312,7 +12749,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Tusks 03"
+        ]
       }
     ],
     "skills": [
@@ -12347,7 +12787,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Drum"
+        ]
       }
     ],
     "skills": [
@@ -12378,7 +12821,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Tusks 02"
+        ]
       }
     ],
     "skills": [
@@ -12413,7 +12859,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Hanging Ornament 01"
+        ]
       }
     ],
     "skills": [
@@ -12448,7 +12897,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Trophy 02"
+        ]
       }
     ],
     "skills": [
@@ -12479,7 +12931,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Wall Banner"
+        ]
       }
     ],
     "skills": [
@@ -12510,7 +12965,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Stool"
+        ]
       }
     ],
     "skills": [
@@ -12545,7 +13003,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Trophy 04"
+        ]
       }
     ],
     "skills": [
@@ -12580,7 +13041,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Hanging Ornament 04"
+        ]
       }
     ],
     "skills": [
@@ -12611,7 +13075,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Tusks 01"
+        ]
       }
     ],
     "skills": [
@@ -12646,7 +13113,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Hanging Ornament 02"
+        ]
       }
     ],
     "skills": [
@@ -12681,7 +13151,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Trophy 01"
+        ]
       }
     ],
     "skills": [
@@ -12716,7 +13189,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Garou Hanging Ornament 03"
+        ]
       }
     ],
     "skills": [
@@ -12751,7 +13227,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Vial Shelf"
+        ]
       }
     ],
     "skills": [
@@ -12782,7 +13261,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -12813,7 +13293,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Open Wooden Barrel"
+        ]
       }
     ],
     "skills": [
@@ -12848,7 +13331,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -12879,7 +13363,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -12910,7 +13395,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Barrel Pile"
+        ]
       }
     ],
     "skills": [
@@ -12941,7 +13429,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Wooden Bin"
+        ]
       }
     ],
     "skills": [
@@ -12972,7 +13463,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Broken Wooden Crate"
+        ]
       }
     ],
     "skills": [
@@ -13003,7 +13497,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Keg Barrel"
+        ]
       }
     ],
     "skills": [
@@ -13034,7 +13531,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Wooden Barrel"
+        ]
       }
     ],
     "skills": [
@@ -13065,7 +13565,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Wooden Bin Pile"
+        ]
       }
     ],
     "skills": [
@@ -13100,7 +13603,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13135,7 +13639,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13170,7 +13675,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13205,7 +13711,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13240,7 +13747,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13275,7 +13783,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13310,7 +13819,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13345,7 +13855,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13380,7 +13891,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13415,7 +13927,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13450,7 +13963,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13485,7 +13999,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13520,7 +14035,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13555,7 +14071,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13590,7 +14107,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13621,7 +14139,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13652,7 +14171,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13683,7 +14203,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13718,7 +14239,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13753,7 +14275,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13788,7 +14311,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13819,7 +14343,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13850,7 +14375,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13885,7 +14411,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13920,7 +14447,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13951,7 +14479,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13982,7 +14511,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14013,7 +14543,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14044,7 +14575,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14075,7 +14607,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14106,7 +14639,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14137,7 +14671,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14168,7 +14703,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14199,7 +14735,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14230,7 +14767,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14261,7 +14799,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14292,7 +14831,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14323,7 +14863,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14354,7 +14895,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14401,7 +14943,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Textile Kit"
+        ]
       }
     ],
     "skills": [
@@ -14432,7 +14977,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14467,7 +15013,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14502,7 +15049,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14537,7 +15085,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14568,7 +15117,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14599,7 +15149,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14634,7 +15185,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14665,7 +15217,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14696,7 +15249,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14727,7 +15281,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14758,7 +15313,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14793,7 +15349,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14824,7 +15381,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14855,7 +15413,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14890,7 +15449,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14921,7 +15481,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14952,7 +15513,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14987,7 +15549,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15018,7 +15581,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15053,7 +15617,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15088,7 +15653,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15123,7 +15689,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Dragonkin Gargoyle 01"
+        ]
       }
     ],
     "skills": [
@@ -15158,7 +15727,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Dragonkin Statue 01"
+        ]
       }
     ],
     "skills": [
@@ -15193,7 +15765,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Dragonkin Obelisk 01"
+        ]
       }
     ],
     "skills": [
@@ -15228,7 +15803,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Dragonkin Obelisk 02"
+        ]
       }
     ],
     "skills": [
@@ -15263,7 +15841,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Dragonkin Obelisk 03"
+        ]
       }
     ],
     "skills": [
@@ -15298,7 +15879,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Dragonkin Statue 02"
+        ]
       }
     ],
     "skills": [
@@ -15333,7 +15917,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Dragonkin Gargoyle 02"
+        ]
       }
     ],
     "skills": [
@@ -15368,7 +15955,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Dragonkin Gargoyle 03"
+        ]
       }
     ],
     "skills": [
@@ -15399,7 +15989,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15430,7 +16021,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c9759f55f7c7",
@@ -15447,7 +16039,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "09e7ccf1d6e8",
@@ -15464,7 +16057,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15495,7 +16089,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15526,7 +16121,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15557,7 +16153,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15588,7 +16185,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "8af5db3722c4",
@@ -15605,7 +16203,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15636,7 +16235,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15667,7 +16267,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15698,7 +16299,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15729,7 +16331,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15760,7 +16363,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15791,7 +16395,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15822,7 +16427,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15865,7 +16471,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15908,7 +16515,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15951,7 +16559,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -15994,7 +16603,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16029,7 +16639,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16064,7 +16675,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16099,7 +16711,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16130,7 +16743,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16169,7 +16783,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16200,7 +16815,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16231,7 +16847,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16262,7 +16879,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16293,7 +16911,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16328,7 +16947,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16363,7 +16983,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16398,7 +17019,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16429,7 +17051,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16464,7 +17087,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Purple Standing Torch"
+        ]
       }
     ],
     "skills": [
@@ -16499,7 +17125,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Green Wall-Mounted Torch"
+        ]
       }
     ],
     "skills": [
@@ -16530,7 +17159,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16561,7 +17191,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16592,7 +17223,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16627,7 +17259,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Purple Wall-Mounted Torch"
+        ]
       }
     ],
     "skills": [
@@ -16662,7 +17297,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Blue Wall-Mounted Torch"
+        ]
       }
     ],
     "skills": [
@@ -16697,7 +17335,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16732,7 +17371,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16767,7 +17407,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16802,7 +17443,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Blue Standing Torch"
+        ]
       }
     ],
     "skills": [
@@ -16837,7 +17481,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Green Standing Torch"
+        ]
       }
     ],
     "skills": [
@@ -16868,7 +17515,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16903,7 +17551,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Red Standing Torch"
+        ]
       }
     ],
     "skills": [
@@ -16934,7 +17585,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -16969,7 +17621,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Red Wall-Mounted Torch"
+        ]
       }
     ],
     "skills": [
@@ -17008,7 +17663,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17039,7 +17695,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17070,7 +17727,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17113,7 +17771,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "VESTIGE: Remnants of a Shattered Skull"
+        ]
       }
     ],
     "skills": [
@@ -17139,7 +17800,8 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -17176,7 +17838,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "VESTIGE: A Mysterious Crescent Carving"
+        ]
       }
     ],
     "skills": [
@@ -17207,7 +17872,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17238,7 +17904,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17269,7 +17936,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17308,7 +17976,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -17341,7 +18010,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17384,7 +18054,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17419,7 +18090,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17450,7 +18122,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17481,7 +18154,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17512,7 +18186,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17543,7 +18218,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17574,7 +18250,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17613,7 +18290,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17660,7 +18338,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17695,7 +18374,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17730,7 +18410,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17765,7 +18446,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17796,7 +18478,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17831,7 +18514,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17857,7 +18541,8 @@
           "facility": "Build Menu",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17904,7 +18589,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17935,7 +18621,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -17966,7 +18653,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18009,7 +18697,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18048,7 +18737,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18087,7 +18777,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18126,7 +18817,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18161,7 +18853,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18196,7 +18889,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18231,7 +18925,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18266,7 +18961,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18301,7 +18997,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18336,7 +19033,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18371,7 +19069,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18406,7 +19105,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18449,7 +19149,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18492,7 +19193,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18535,7 +19237,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18574,7 +19277,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18605,7 +19309,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18648,7 +19353,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18687,7 +19393,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18726,7 +19433,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18765,7 +19473,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18796,7 +19505,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18835,7 +19545,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18870,7 +19581,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18909,7 +19621,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18948,7 +19661,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -18987,7 +19701,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19018,7 +19733,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19049,7 +19765,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19080,7 +19797,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19111,7 +19829,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19142,7 +19861,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19173,7 +19893,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19204,7 +19925,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19235,7 +19957,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19266,7 +19989,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19297,7 +20021,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19328,7 +20053,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "259daaae3ce1",
@@ -19345,7 +20071,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19377,7 +20104,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19408,7 +20136,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19439,7 +20168,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19470,7 +20200,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19505,7 +20236,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19536,7 +20268,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19567,7 +20300,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19598,7 +20332,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19629,7 +20364,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19660,7 +20396,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19691,7 +20428,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19722,7 +20460,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19757,7 +20496,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19792,7 +20532,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19827,7 +20568,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19862,7 +20604,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19897,7 +20640,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19932,7 +20676,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -19967,7 +20712,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20002,7 +20748,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20037,7 +20784,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20063,7 +20811,8 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -20087,7 +20836,8 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -20116,7 +20866,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20155,7 +20906,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20190,7 +20942,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20221,7 +20974,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20252,7 +21006,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20283,7 +21038,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20314,7 +21070,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20345,7 +21102,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20384,7 +21142,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -20429,7 +21188,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20472,7 +21232,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20515,7 +21276,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20558,7 +21320,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20597,7 +21360,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -20634,7 +21398,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20673,7 +21438,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20712,7 +21478,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -20749,7 +21516,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20784,7 +21552,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -20829,7 +21598,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20864,7 +21634,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -20897,7 +21668,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -20926,7 +21698,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20957,7 +21730,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20992,7 +21766,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "ddd8562719bf",
@@ -21013,7 +21788,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21060,7 +21836,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21091,7 +21868,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "e951a64c7853",
@@ -21112,7 +21890,8 @@
             }
           ],
           "quantity": 3
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21159,7 +21938,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21190,7 +21970,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21225,7 +22006,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21272,7 +22054,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21319,7 +22102,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21354,7 +22138,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21389,7 +22174,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21420,7 +22206,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21459,7 +22246,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21506,7 +22294,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21549,7 +22338,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21592,7 +22382,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21635,7 +22426,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21678,7 +22470,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21721,7 +22514,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21764,7 +22558,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21807,7 +22602,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21850,7 +22646,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21881,7 +22678,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21924,7 +22722,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21967,7 +22766,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21998,7 +22798,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -22045,7 +22846,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -22092,7 +22894,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -22139,7 +22942,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -22182,7 +22986,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -22223,7 +23028,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -22268,7 +23074,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -22292,7 +23099,10 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "VESTIGE: Tattered Time-Lost Cloth"
+        ]
       }
     ],
     "skills": [
@@ -22339,7 +23149,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "VESTIGE: Cloying Damp Cowl"
+        ]
       }
     ],
     "skills": [
@@ -22386,7 +23199,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -22431,7 +23245,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -22476,7 +23291,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -22517,7 +23333,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -22564,7 +23381,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -22601,7 +23419,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -22646,7 +23465,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -22679,7 +23499,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -22710,7 +23531,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -22741,7 +23563,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -22780,7 +23603,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -22817,7 +23641,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -22858,7 +23683,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -22901,7 +23727,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -22944,7 +23771,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -22987,7 +23815,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23030,7 +23859,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23073,7 +23903,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23116,7 +23947,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23155,7 +23987,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23186,7 +24019,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -23215,7 +24049,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23262,7 +24097,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23293,7 +24129,8 @@
             }
           ],
           "quantity": 2
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23324,7 +24161,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23350,7 +24188,10 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PATTERN: Fell Cape"
+        ]
       }
     ],
     "skills": [
@@ -23393,7 +24234,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23424,7 +24266,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23459,7 +24302,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23494,7 +24338,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23529,7 +24374,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23564,7 +24410,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23595,7 +24442,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23634,7 +24482,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23685,7 +24534,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23732,7 +24582,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23763,7 +24614,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23794,7 +24646,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23825,7 +24678,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23872,7 +24726,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -23917,7 +24772,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23964,7 +24820,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -24011,7 +24868,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -24058,7 +24916,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -24084,7 +24943,8 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -24108,7 +24968,8 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -24132,7 +24993,8 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -24156,7 +25018,8 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -24180,7 +25043,8 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -24204,7 +25068,8 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -24228,7 +25093,8 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -24252,7 +25118,8 @@
           "facility": "Crafting Table",
           "materials": [],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -24297,7 +25164,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -24344,7 +25212,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -24391,7 +25260,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "VESTIGE: Tastefully Torn Tights"
+        ]
       }
     ],
     "skills": [
@@ -24438,7 +25310,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -24487,7 +25360,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -24538,7 +25412,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -24585,7 +25460,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -24632,7 +25508,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -24675,7 +25552,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "d1e1590a32ec",
@@ -24704,7 +25582,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "VESTIGE: Sundering Spiked Slab"
+        ]
       }
     ],
     "skills": [
@@ -24751,7 +25632,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -24780,7 +25662,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -24811,7 +25694,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -24850,7 +25734,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -24889,7 +25774,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -24924,7 +25810,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -24967,7 +25854,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25002,7 +25890,8 @@
             }
           ],
           "quantity": 33
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25033,7 +25922,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25064,7 +25954,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25103,7 +25994,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25142,7 +26034,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -25179,7 +26072,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -25216,7 +26110,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -25253,7 +26148,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -25290,7 +26186,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -25327,7 +26224,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -25364,7 +26262,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -25401,7 +26300,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -25438,7 +26338,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25469,7 +26370,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c0dfa794d1d4",
@@ -25486,7 +26388,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25518,7 +26421,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25549,7 +26453,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25580,7 +26485,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25611,7 +26517,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25646,7 +26553,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25677,7 +26585,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       },
       {
         "id": "c0dfa794d1d4",
@@ -25694,7 +26603,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25742,7 +26652,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25785,7 +26696,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "Vestige: Rotten Farming Tool"
+        ]
       }
     ],
     "skills": [],
@@ -25822,7 +26736,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25861,7 +26776,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -25892,7 +26808,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "PLAN: Headstone 01"
+        ]
       }
     ],
     "skills": [
@@ -25939,7 +26858,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -25980,7 +26900,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "Serrated Claw"
+        ]
       }
     ],
     "skills": [
@@ -26027,7 +26950,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -26066,7 +26990,10 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": [
+          "VESTIGE: Shroud of Noggin"
+        ]
       }
     ],
     "skills": [
@@ -26105,7 +27032,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -26136,7 +27064,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -26167,7 +27096,8 @@
             }
           ],
           "quantity": 1
-        }
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [

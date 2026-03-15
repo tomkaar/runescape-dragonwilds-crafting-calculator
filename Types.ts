@@ -35,6 +35,8 @@ export type ItemVariant = {
   variantName: string | null;
   /* The recipes associated with this variant */
   recipe: Recipe | null;
+  /* Recipe unlocks required to craft this variant (e.g. vestiges, patterns) */
+  usesRecipe: string[] | null;
 };
 
 /**

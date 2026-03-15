@@ -4,9 +4,10 @@ import { Item } from "@/Types";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import Link from "next/link";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
-import { Favourite } from "./InfoBox/Favourite";
-import { CraftingFacilitiesPopover } from "./InfoBox/CraftingFacilitiesPopover";
-import { Badge } from "../ui/badge";
+import { Favourite } from "./Favourite";
+import { CraftingFacilitiesPopover } from "./CraftingFacilitiesPopover";
+import { UnlockedBy } from "./UnlockedBy";
+import { Badge } from "../../ui/badge";
 import { resolveCraftingTree } from "@/components/CraftingTree/resolve";
 
 type Props = {
@@ -18,6 +19,10 @@ export function ItemInfoBox(props: Props) {
   const { item, itemId } = props;
 
   const uniqueFacilities = Array.from(new Set(item.facilities));
+
+  const usesRecipes = Array.from(
+    new Set(item.variants.flatMap((v) => v.usesRecipe ?? [])),
+  );
 
   // Collect all facilities from the crafting tree (sub-materials only)
   const { nodes } = resolveCraftingTree({ itemId });
@@ -87,6 +92,8 @@ export function ItemInfoBox(props: Props) {
           <CraftingFacilitiesPopover facilities={extraFacilities} />
         </div>
       ) : null}
+
+      <UnlockedBy usesRecipes={usesRecipes} />
     </div>
   );
 }

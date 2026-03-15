@@ -1,5 +1,5 @@
 import { GroupPanelSeparator } from "@/components/GroupPanelSeparator";
-import { ItemInfoBox } from "@/components/Items/InfoBox";
+import { ItemInfoBox } from "@/components/Items/InfoBox/InfoBox";
 import { Item } from "@/Types";
 import { Suspense } from "react";
 import { ContentContextProvider } from "@/components/panels/context";

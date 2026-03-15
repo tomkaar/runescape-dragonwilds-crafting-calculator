@@ -25,5 +25,6 @@ export function resolveVariant(rawRecipe: SourceRecipe): ItemVariant | null {
     image: resolveImage(rawRecipe, [], rawRecipe.json.output.name),
     variantName,
     recipe,
+    usesRecipe: rawRecipe.uses_recipe?.length ? rawRecipe.uses_recipe : null,
   };
 }

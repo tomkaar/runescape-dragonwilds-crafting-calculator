@@ -1,4 +1,4 @@
-import { ItemInfoBox } from "@/components/Items/InfoBox";
+import { ItemInfoBox } from "@/components/Items/InfoBox/InfoBox";
 import { Item } from "@/Types";
 import { Suspense } from "react";
 import { RequiredMaterialsMobilePanel } from "./Panels/RequiredMaterials";
