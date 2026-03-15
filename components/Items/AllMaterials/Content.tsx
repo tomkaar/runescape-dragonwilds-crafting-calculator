@@ -53,19 +53,25 @@ export function AllMaterialsContent() {
   }, {});
 
   // Helper function to check if a material-recipe combination is checked (DONE)
-  const isRecipeChecked = (materialId: string, recipeId: string) => {
+  const isRecipeChecked = (
+    materialId: string,
+    recipeId: string,
+    nodeId?: string,
+  ) => {
     const recipeItems = rawRecipes[recipeId] || [];
-    const item = recipeItems.find((i) => i.itemId === materialId);
+    const item = nodeId
+      ? recipeItems.find((i) => i.itemId === materialId && i.nodeId === nodeId)
+      : recipeItems.find((i) => i.itemId === materialId);
     return item ? item.state === "DONE" : false;
   };
 
   // Helper function to get the state of all recipes for a material
   const getMaterialState = (
     materialId: string,
-    recipeIds: string[],
+    recipeEntries: { recipeId: string; nodeId?: string }[],
   ): boolean | "indeterminate" => {
-    const states = recipeIds.map((recipeId) =>
-      isRecipeChecked(materialId, recipeId),
+    const states = recipeEntries.map(({ recipeId, nodeId }) =>
+      isRecipeChecked(materialId, recipeId, nodeId),
     );
     const allChecked = states.every((s) => s === true);
     const noneChecked = states.every((s) => s === false);
@@ -149,8 +155,7 @@ export function AllMaterialsContent() {
 
             const totalQuantity =
               totalUniqueMaterialsWithQuantity[materialId] || 0;
-            const recipeIds = recipes.map((r) => r.recipeId);
-            const checkboxState = getMaterialState(materialId, recipeIds);
+            const checkboxState = getMaterialState(materialId, recipes);
 
             return (
               <div key={materialId} className="space-y-2">
@@ -166,17 +171,19 @@ export function AllMaterialsContent() {
                       )
                     }
                   />
-                  <div className="flex flex-row gap-2 items-center">
+                  <div className="flex flex-row gap-1 items-center text-sm">
                     {material.image && (
                       <img
                         src={createImageUrlPath(material.image)}
-                        width={28}
-                        height={28}
+                        width={24}
+                        height={24}
                         alt={material.name}
                       />
                     )}
-                    <span className="font-semibold">{totalQuantity}x</span>{" "}
-                    {material.name}
+                    <span>
+                      <span className="font-semibold">{totalQuantity}x</span>{" "}
+                      {material.name}
+                    </span>
                   </div>
                 </div>
 
@@ -189,11 +196,12 @@ export function AllMaterialsContent() {
                     const isChecked = isRecipeChecked(
                       materialId,
                       recipe.recipeId,
+                      recipe.nodeId,
                     );
 
                     return (
                       <div
-                        key={recipe.recipeId}
+                        key={recipe.nodeId}
                         className="flex flex-row gap-2 items-center text-sm"
                       >
                         <Checkbox
@@ -207,19 +215,21 @@ export function AllMaterialsContent() {
                           }
                         />
                         <div className="flex flex-row gap-2 items-center">
-                          {recipeItem.image && (
-                            <img
-                              src={createImageUrlPath(recipeItem.image)}
-                              width={20}
-                              height={20}
-                              alt={recipeItem.name}
-                            />
-                          )}
                           <span className="font-semibold">
                             {recipe.quantity * recipe.multiplier}x
                           </span>{" "}
-                          <span className="text-neutral-400">
-                            ({recipe.multiplier}x {recipeItem.name})
+                          <span className="inline-flex text-neutral-400">
+                            (
+                            {recipeItem.image && (
+                              <img
+                                src={createImageUrlPath(recipeItem.image)}
+                                width={20}
+                                height={20}
+                                alt={recipeItem.name}
+                                className="mr-0.5"
+                              />
+                            )}
+                            {recipe.multiplier}x {recipeItem.name})
                           </span>
                         </div>
                       </div>
