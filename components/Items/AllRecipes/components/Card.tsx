@@ -20,8 +20,17 @@ export function Card(props: TodoRecipeCardProps) {
       <div className="flex flex-row items-center">
         <Link
           href={{ pathname: `/item/${item?.id}` }}
-          className="flex flex-row gap-2 items-center text-xs whitespace-nowrap p-2"
+          className="flex flex-row gap-2 items-center text-xs whitespace-nowrap py-2"
         >
+          {item?.image && (
+            <img
+              src={createImageUrlPath(item.image)}
+              width={24}
+              height={24}
+              alt={item.name}
+            />
+          )}
+
           <div className="text-base">
             <div className="flex flex-row gap-2 items-center">
               {item?.name} ({materials.length})
@@ -36,7 +45,7 @@ export function Card(props: TodoRecipeCardProps) {
         </Link>
       </div>
 
-      <div className="pl-4 pb-1">
+      <div className="pl-8 pb-1">
         <ul className="">
           {materials.map((mat) => (
             <li
@@ -46,8 +55,8 @@ export function Card(props: TodoRecipeCardProps) {
               {mat.material?.image && (
                 <img
                   src={createImageUrlPath(mat.material.image)}
-                  width={28}
-                  height={28}
+                  width={24}
+                  height={24}
                   alt={mat.material.name}
                 />
               )}

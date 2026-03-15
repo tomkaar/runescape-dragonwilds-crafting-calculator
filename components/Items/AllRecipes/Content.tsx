@@ -49,8 +49,8 @@ export function AllRecipesContent() {
   return (
     <div className="h-full w-full">
       <div className="h-full px-4 mb-4 overflow-scroll">
-        <p className="mb-4 text-sm text-neutral-200 max-w-68">
-          All recipes that have selected materials, grouped by recipe.
+        <p className="mb-2 text-sm text-neutral-200">
+          All recipes with marked materials.
         </p>
 
         <div className="flex flex-col">

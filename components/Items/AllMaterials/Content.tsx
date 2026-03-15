@@ -141,9 +141,8 @@ export function AllMaterialsContent() {
   return (
     <div className="h-full w-full">
       <div className="h-full px-4 mb-4 overflow-scroll">
-        <p className="mb-4 text-sm text-neutral-200 max-w-80">
-          All selected materials, grouped by material. You can check off
-          materials as you gather/craft them.
+        <p className="mb-2 text-sm text-neutral-200">
+          Check materials as you gather/craft them.
         </p>
 
         <div className="mt-4"></div>
