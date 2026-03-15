@@ -28,7 +28,7 @@ export function CollapsiblePanelDesktopButtonLayout({
   children,
 }: CollapsiblePanelDesktopButtonLayoutProps) {
   return (
-    <div className="flex flex-row gap-2 items-center px-4 bg-card">
+    <div className="flex flex-row gap-2 items-center justify-between px-4 bg-card w-full">
       {children}
     </div>
   );

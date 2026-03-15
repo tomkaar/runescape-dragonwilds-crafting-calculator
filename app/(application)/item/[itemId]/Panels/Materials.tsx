@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import {
   CollapsiblePanelDesktopButtonLayout,
   CollapsiblePanelDesktopButtonTrigger,
@@ -11,18 +12,15 @@ import {
   CollapsiblePanelMobileRoot,
 } from "@/components/CollapsiblePanel/mobile";
 import { ITEM_PANEL_CONFIGS } from "@/constants/item-panels";
-import { RequiredMaterialsContent } from "@/components/Items/RequiredMaterials/Content";
-import { RequiredMaterialsAction } from "@/components/Items/RequiredMaterials/Action";
-import { RequiredMaterialsTrigger } from "@/components/Items/RequiredMaterials/Trigger";
-import { Suspense } from "react";
+import { RequiredMaterialsContent } from "@/components/Items/Materials/Content";
+import { MaterialsAction } from "@/components/Items/Materials/Action";
+import { MaterialsTrigger } from "@/components/Items/Materials/Trigger";
 
 type Props = {
   itemId: string;
 };
 
-export function RequiredMaterialsDesktopPanel(props: Props) {
-  const { itemId } = props;
-
+export function MaterialsDesktopPanel({ itemId }: Props) {
   return (
     <CollapsiblePanelDesktopRoot
       id={ITEM_PANEL_CONFIGS.materials.id}
@@ -31,10 +29,10 @@ export function RequiredMaterialsDesktopPanel(props: Props) {
     >
       <CollapsiblePanelDesktopButtonLayout>
         <CollapsiblePanelDesktopButtonTrigger>
-          <RequiredMaterialsTrigger />
+          <MaterialsTrigger itemId={itemId} />
         </CollapsiblePanelDesktopButtonTrigger>
         <Suspense>
-          <RequiredMaterialsAction itemId={itemId} />
+          <MaterialsAction itemId={itemId} />
         </Suspense>
       </CollapsiblePanelDesktopButtonLayout>
 
@@ -47,17 +45,15 @@ export function RequiredMaterialsDesktopPanel(props: Props) {
   );
 }
 
-export function RequiredMaterialsMobilePanel(props: Props) {
-  const { itemId } = props;
-
+export function MaterialsMobilePanel({ itemId }: Props) {
   return (
     <CollapsiblePanelMobileRoot id={ITEM_PANEL_CONFIGS.materials.id}>
       <CollapsiblePanelMobileButtonLayout>
         <CollapsiblePanelMobileButtonTrigger>
-          <RequiredMaterialsTrigger />
+          <MaterialsTrigger itemId={itemId} />
         </CollapsiblePanelMobileButtonTrigger>
         <Suspense>
-          <RequiredMaterialsAction itemId={itemId} />
+          <MaterialsAction itemId={itemId} />
         </Suspense>
       </CollapsiblePanelMobileButtonLayout>
       <CollapsiblePanelMobileContent>

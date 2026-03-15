@@ -1,8 +1,7 @@
 import { ItemInfoBox } from "@/components/Items/InfoBox/InfoBox";
 import { Item } from "@/Types";
 import { Suspense } from "react";
-import { RequiredMaterialsMobilePanel } from "./Panels/RequiredMaterials";
-import { SelectedMaterialMobilePanel } from "./Panels/SelectedMaterial";
+import { MaterialsMobilePanel } from "./Panels/Materials";
 import { UsedInMobilePanel } from "./Panels/UsedIn";
 import { AttributionMobilePanel } from "./Panels/Attribution";
 import { AllMaterialsMobilePanel } from "./Panels/AllMaterials";
@@ -20,8 +19,7 @@ export default async function ContentMobile({
     <div>
       <div className="bg-background">
         <ItemInfoBox item={item} itemId={itemId} />
-        <RequiredMaterialsMobilePanel itemId={itemId} />
-        <SelectedMaterialMobilePanel itemId={itemId} />
+        <MaterialsMobilePanel itemId={itemId} />
         <UsedInMobilePanel itemId={itemId} />
         <AllMaterialsMobilePanel />
         <AllRecipesMobilePanel />

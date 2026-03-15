@@ -7,8 +7,7 @@ import { PageLayout } from "@/components/panels/page-layout";
 import { LeftSidebar } from "@/components/panels/left-sidebar";
 import { RightSidebar } from "@/components/panels/right-sidebar";
 import { Center } from "@/components/panels/center";
-import { RequiredMaterialsDesktopPanel } from "./Panels/RequiredMaterials";
-import { SelectedMaterialDesktopPanel } from "./Panels/SelectedMaterial";
+import { MaterialsDesktopPanel } from "./Panels/Materials";
 import { UsedInDesktopPanel } from "./Panels/UsedIn";
 import { AllMaterialsDesktopPanel } from "./Panels/AllMaterials";
 import { AllRecipesDesktopPanel } from "./Panels/AllRecipes";
@@ -28,9 +27,7 @@ export default function ContentDesktop(props: Props) {
         <LeftSidebar>
           <ItemInfoBox item={item} itemId={itemId} />
 
-          <RequiredMaterialsDesktopPanel itemId={itemId} />
-          <GroupPanelSeparator />
-          <SelectedMaterialDesktopPanel itemId={itemId} />
+          <MaterialsDesktopPanel itemId={itemId} />
           <GroupPanelSeparator />
           <UsedInDesktopPanel itemId={itemId} />
         </LeftSidebar>
