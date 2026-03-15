@@ -58,6 +58,7 @@ export default function listItems(
         rawItems[0]?.page_name.replaceAll(" ", "_") ||
         undefined,
       weight: rawItems[0]?.item_weight ?? undefined,
+      stackLimit: rawItems[0]?.item_stacklimit ?? undefined,
     };
     finishedItems.push(finishedItem);
   });

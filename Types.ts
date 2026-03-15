@@ -20,6 +20,8 @@ export type Item = {
   wikiLink?: string;
   /* Weight of the item in kg */
   weight?: number;
+  /* Maximum stack size for this item */
+  stackLimit?: number;
 };
 
 /**

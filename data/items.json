@@ -182,7 +182,8 @@
       "Campfire"
     ],
     "wikiLink": "Rat_Roast",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "feeedebfee67",
@@ -273,7 +274,8 @@
       "Spinning Wheel"
     ],
     "wikiLink": "Coarse_Thread",
-    "weight": 0.3
+    "weight": 0.3,
+    "stackLimit": 50
   },
   {
     "id": "d0d186551650",
@@ -598,7 +600,8 @@
       "Tannery"
     ],
     "wikiLink": "Leather",
-    "weight": 0.3
+    "weight": 0.3,
+    "stackLimit": 50
   },
   {
     "id": "3ef1d3ce833d",
@@ -637,7 +640,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Weak_Focused_Cooking_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "571800e80dda",
@@ -676,7 +680,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Weak_Focused_Artisan_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "b61063bb2ebc",
@@ -715,7 +720,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Weak_Focused_Woodcutting_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "bfdc9d1877f4",
@@ -756,7 +762,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Weak_Antipoison_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "f066ef03e380",
@@ -795,7 +802,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Weak_Healing_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "7b4d45ac61f1",
@@ -834,7 +842,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Weak_Lumberjack_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "ba2f1ddeb06d",
@@ -873,7 +882,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Weak_Quarrymaster_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "1d3fc0d52f1d",
@@ -910,7 +920,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Fleet-Footed_Infusion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "cb9dc221c0f0",
@@ -961,7 +972,8 @@
       "Campfire"
     ],
     "wikiLink": "Clean_Water",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "7922581c320e",
@@ -994,7 +1006,8 @@
       "Kiln"
     ],
     "wikiLink": "Clay_Vessel",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "0ba170e0ddd0",
@@ -1027,7 +1040,8 @@
       "Pottery Wheel"
     ],
     "wikiLink": "Clay_Vessel_(Unfired)",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "8d2955fe99cb",
@@ -1148,7 +1162,8 @@
       "Loom"
     ],
     "wikiLink": "Padded_Cloth",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "2ceb25168a62",
@@ -1250,7 +1265,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Meat_Stew",
-    "weight": 1.4
+    "weight": 1.4,
+    "stackLimit": 50
   },
   {
     "id": "b99f8824969e",
@@ -1334,7 +1350,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Wild_Pie",
-    "weight": 0.7
+    "weight": 0.7,
+    "stackLimit": 50
   },
   {
     "id": "043bcf237540",
@@ -1379,7 +1396,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Meat_Pizza",
-    "weight": 0.7
+    "weight": 0.7,
+    "stackLimit": 50
   },
   {
     "id": "54baa5dda730",
@@ -1452,7 +1470,8 @@
       "Rune Altar"
     ],
     "wikiLink": "Law_Rune",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "4ed094386ed6",
@@ -1489,7 +1508,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Vegetable_Soup",
-    "weight": 0.8
+    "weight": 0.8,
+    "stackLimit": 50
   },
   {
     "id": "64853b498ad8",
@@ -1558,7 +1578,8 @@
       "Campfire"
     ],
     "wikiLink": "Grilled_Mushrooms",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 99
   },
   {
     "id": "bf3fac40de1b",
@@ -1668,7 +1689,8 @@
       "Furnace"
     ],
     "wikiLink": "Iron_Bar",
-    "weight": 4.5
+    "weight": 4.5,
+    "stackLimit": 50
   },
   {
     "id": "b9b08bb5b2b3",
@@ -1746,7 +1768,8 @@
       "Rune Altar"
     ],
     "wikiLink": "Large_Wardstone",
-    "weight": 5
+    "weight": 5,
+    "stackLimit": 25
   },
   {
     "id": "10d24c63de54",
@@ -1819,7 +1842,8 @@
       "Rune Altar"
     ],
     "wikiLink": "Astral_Rune",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "2ffcb76da889",
@@ -1852,7 +1876,8 @@
       "Rune Altar"
     ],
     "wikiLink": "Earth_Rune",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "c9333acd646c",
@@ -1885,7 +1910,8 @@
       "Rune Altar"
     ],
     "wikiLink": "Fire_Rune",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "0e2ba7342d33",
@@ -2194,7 +2220,8 @@
       "Tannery"
     ],
     "wikiLink": "Hard_Leather",
-    "weight": 0.6
+    "weight": 0.6,
+    "stackLimit": 50
   },
   {
     "id": "4c7c45bcdf64",
@@ -2307,7 +2334,8 @@
       "Kiln"
     ],
     "wikiLink": "Adhesive",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 50
   },
   {
     "id": "a7477b36abaf",
@@ -2348,7 +2376,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Ferocious_Infusion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "54427dd95068",
@@ -2385,7 +2414,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Dwellberry_Infusion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "cb4b3ea98d3c",
@@ -2463,7 +2493,8 @@
       "Furnace"
     ],
     "wikiLink": "Bronze_Bar",
-    "weight": 4.5
+    "weight": 4.5,
+    "stackLimit": 50
   },
   {
     "id": "86f4896ec674",
@@ -2514,7 +2545,8 @@
       "Spinning Wheel"
     ],
     "wikiLink": "Wool_Thread",
-    "weight": 0.3
+    "weight": 0.3,
+    "stackLimit": 20
   },
   {
     "id": "0fb174b57827",
@@ -2650,7 +2682,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Weak_Focused_Runecrafting_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "7557df00926f",
@@ -2689,7 +2722,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Weak_Focused_Construction_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "06563317a4a1",
@@ -3062,7 +3096,8 @@
       "Loom"
     ],
     "wikiLink": "Rough_Cloth",
-    "weight": 1.5
+    "weight": 1.5,
+    "stackLimit": 50
   },
   {
     "id": "ba06488fc249",
@@ -3236,7 +3271,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Iron_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "4f493a4f6924",
@@ -3277,7 +3313,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Fang_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "8d5a32a2911c",
@@ -3318,7 +3355,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Stone_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "b3ea22ac3476",
@@ -3351,7 +3389,8 @@
       "Loom"
     ],
     "wikiLink": "Wool_Cloth",
-    "weight": 1.5
+    "weight": 1.5,
+    "stackLimit": 50
   },
   {
     "id": "dba0dea0584b",
@@ -3544,7 +3583,8 @@
       "Rune Altar"
     ],
     "wikiLink": "Air_Rune",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "2429b3a1919d",
@@ -3577,7 +3617,8 @@
       "Campfire"
     ],
     "wikiLink": "Baked_Potato",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 99
   },
   {
     "id": "b5c7eace4d04",
@@ -3616,7 +3657,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Lesser_Attack_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "53d81be3bab6",
@@ -3655,7 +3697,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Lesser_Healing_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "1c875539a5a7",
@@ -3736,7 +3779,8 @@
       "Furnace"
     ],
     "wikiLink": "Gold_Bar",
-    "weight": 5
+    "weight": 5,
+    "stackLimit": 50
   },
   {
     "id": "1ff5e76a14a9",
@@ -3777,7 +3821,8 @@
       "Rune Altar"
     ],
     "wikiLink": "Medium_Wardstone",
-    "weight": 5
+    "weight": 5,
+    "stackLimit": 25
   },
   {
     "id": "9e7b1dc0a230",
@@ -3971,7 +4016,8 @@
       "Kiln"
     ],
     "wikiLink": "Wild_Anima",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "2632c885aa43",
@@ -4076,7 +4122,8 @@
       "Kiln"
     ],
     "wikiLink": "Charcoal",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "8c9652c33c61",
@@ -4259,7 +4306,8 @@
       "Rune Altar"
     ],
     "wikiLink": "Water_Rune",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "fbc0b5e9c29d",
@@ -4296,7 +4344,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Evasive_Infusion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "ea552b5a7378",
@@ -4329,7 +4378,8 @@
       "Campfire"
     ],
     "wikiLink": "Dried_Redberries",
-    "weight": 0.1
+    "weight": 0.1,
+    "stackLimit": 99
   },
   {
     "id": "88798eba6ad6",
@@ -4362,7 +4412,8 @@
       "Campfire"
     ],
     "wikiLink": "Fried_Cabbage",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 99
   },
   {
     "id": "32596c96f22c",
@@ -4621,7 +4672,8 @@
       "Rune Altar"
     ],
     "wikiLink": "Small_Wardstone",
-    "weight": 5
+    "weight": 5,
+    "stackLimit": 25
   },
   {
     "id": "92c5689136c3",
@@ -5019,7 +5071,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Bronze_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "9962be0b31a5",
@@ -5382,7 +5435,8 @@
       "Spinning Wheel"
     ],
     "wikiLink": "Swamp_Thread",
-    "weight": 0.3
+    "weight": 0.3,
+    "stackLimit": 50
   },
   {
     "id": "123838b6f6d9",
@@ -5668,7 +5722,8 @@
       "Kiln"
     ],
     "wikiLink": "Clay_Decoration",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "36344f6ebf49",
@@ -5746,7 +5801,8 @@
       "Furnace"
     ],
     "wikiLink": "Silver_Bar",
-    "weight": 4.8
+    "weight": 4.8,
+    "stackLimit": 50
   },
   {
     "id": "213c243fce9b",
@@ -6612,7 +6668,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Weak_Focused_Attack_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "f78cd06c0035",
@@ -6651,7 +6708,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Weak_Focused_Mining_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "01dbea934488",
@@ -6684,7 +6742,8 @@
       "Campfire"
     ],
     "wikiLink": "Dried_Dwellberries",
-    "weight": 0.1
+    "weight": 0.1,
+    "stackLimit": 99
   },
   {
     "id": "5ceaba9d05a3",
@@ -6717,7 +6776,8 @@
       "Grindstone"
     ],
     "wikiLink": "Ground_Granite",
-    "weight": 0.3
+    "weight": 0.3,
+    "stackLimit": 99
   },
   {
     "id": "60ede1aa9393",
@@ -6750,7 +6810,8 @@
       "Campfire"
     ],
     "wikiLink": "Fillet",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "eff058045116",
@@ -6783,7 +6844,8 @@
       "Campfire"
     ],
     "wikiLink": "Flank_Steak",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "4d5e4b52e844",
@@ -6906,7 +6968,8 @@
       "Campfire"
     ],
     "wikiLink": "Fried_Onions",
-    "weight": 0.6
+    "weight": 0.6,
+    "stackLimit": 99
   },
   {
     "id": "d8e9441d3367",
@@ -6939,7 +7002,8 @@
       "Campfire"
     ],
     "wikiLink": "Haunch",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "e538f59e452f",
@@ -6984,7 +7048,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Mushroom_Kebab",
-    "weight": 0.7
+    "weight": 0.7,
+    "stackLimit": 50
   },
   {
     "id": "5b946a5040e6",
@@ -7025,7 +7090,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Mixed_Grill",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "596bf3591f78",
@@ -7062,7 +7128,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Redberry_Roast_Rat",
-    "weight": 1.2
+    "weight": 1.2,
+    "stackLimit": 50
   },
   {
     "id": "82417536309d",
@@ -7099,7 +7166,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Redberry_Infusion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "1df249fb3a6c",
@@ -7132,7 +7200,8 @@
       "Campfire"
     ],
     "wikiLink": "Steak",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "315eb3332a2e",
@@ -7210,7 +7279,8 @@
       "Pottery Wheel"
     ],
     "wikiLink": "Clay_Decoration_(Unfired)",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "0b1996917094",
@@ -7243,7 +7313,8 @@
       "Tannery"
     ],
     "wikiLink": "Dire_Wolf_Leather",
-    "weight": 0.6
+    "weight": 0.6,
+    "stackLimit": 50
   },
   {
     "id": "c66e244ea17e",
@@ -7317,7 +7388,8 @@
       "Grindstone"
     ],
     "wikiLink": "Ground_Stone",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "effac40f1e53",
@@ -7860,7 +7932,8 @@
       "Sawmill"
     ],
     "wikiLink": "Ash_Plank",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 99
   },
   {
     "id": "ed4acb2676c2",
@@ -7893,7 +7966,8 @@
       "Sawmill"
     ],
     "wikiLink": "Oak_Plank",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "2f582321915f",
@@ -7930,7 +8004,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Whetstone",
-    "weight": 5
+    "weight": 5,
+    "stackLimit": 50
   },
   {
     "id": "b01c3c832363",
@@ -10436,7 +10511,8 @@
       "Grindstone"
     ],
     "wikiLink": "Ground_Sandstone",
-    "weight": 0.3
+    "weight": 0.3,
+    "stackLimit": 99
   },
   {
     "id": "9cf620c948ae",
@@ -18169,7 +18245,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Lesser_Magic_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "a0bfe59eb992",
@@ -18206,7 +18283,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Magical_Focus",
-    "weight": 5
+    "weight": 5,
+    "stackLimit": 50
   },
   {
     "id": "4b679e90127c",
@@ -18320,7 +18398,8 @@
       "Pottery Wheel"
     ],
     "wikiLink": "Clay_Mould_(Unfired)",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "604b383a6ff3",
@@ -18353,7 +18432,8 @@
       "Kiln"
     ],
     "wikiLink": "Clay_Mould",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "2f0860ac1555",
@@ -18450,7 +18530,8 @@
       "Furnace"
     ],
     "wikiLink": "Blurite_Bar",
-    "weight": 4.5
+    "weight": 4.5,
+    "stackLimit": 50
   },
   {
     "id": "49aa06386591",
@@ -18576,7 +18657,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Iron_Bolts",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "11126054b3e6",
@@ -18613,7 +18695,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Bronze_Bolts",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "d8b90306693f",
@@ -18682,7 +18765,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Blurite_Crossbow_Limbs",
-    "weight": 4.5
+    "weight": 4.5,
+    "stackLimit": 1
   },
   {
     "id": "fdadff4d79a8",
@@ -18719,7 +18803,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Blurite_Bolts",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "4b496783913d",
@@ -18828,7 +18913,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Iron_Crossbow_Limbs",
-    "weight": 4.5
+    "weight": 4.5,
+    "stackLimit": 1
   },
   {
     "id": "b0d9b57a1e73",
@@ -18861,7 +18947,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Bronze_Crossbow_Limbs",
-    "weight": 4.5
+    "weight": 4.5,
+    "stackLimit": 1
   },
   {
     "id": "235ea9e5701d",
@@ -18947,7 +19034,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Weapon_Poison",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "30730b55d0af",
@@ -18988,7 +19076,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Weapon_Barbs",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "722a15d29145",
@@ -19065,7 +19154,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Fire_Oil",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "32f167004beb",
@@ -19102,7 +19192,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Iron_Fire_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "d92f528db75b",
@@ -19139,7 +19230,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Bronze_Fire_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "2a9b48ab1842",
@@ -19176,7 +19268,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Bronze_Barbed_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "1ad6844852a0",
@@ -19213,7 +19306,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Iron_Barbed_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "c9245d69fcfa",
@@ -19250,7 +19344,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Poisoned_Fang_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "d32c9e8fc07e",
@@ -19287,7 +19382,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Poisoned_Bronze_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "8599460af0ad",
@@ -19324,7 +19420,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Poisoned_Iron_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "bd7b91aadddb",
@@ -19369,7 +19466,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Enchanted_Blurite_Bolts",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "3d96549f4705",
@@ -19414,7 +19512,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Enchanted_Bronze_Bolts",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "6f6b9dc37aef",
@@ -19459,7 +19558,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Enchanted_Iron_Bolts",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "7f85f6f780e7",
@@ -19500,7 +19600,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Squeaking_Sausage",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "46356211ccca",
@@ -19533,7 +19634,8 @@
       "Campfire"
     ],
     "wikiLink": "Fried_Egg",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 99
   },
   {
     "id": "738c8bf7038c",
@@ -19658,7 +19760,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Relentless_Infusion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "e38c5c27f629",
@@ -19699,7 +19802,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Arcane_Infusion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "2e4b1d2d466d",
@@ -19732,7 +19836,8 @@
       "Campfire"
     ],
     "wikiLink": "Dried_Peach",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 0
   },
   {
     "id": "e9f1e1dfeba7",
@@ -19773,7 +19878,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Roast_Dinner",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "f22720ca9b0e",
@@ -19810,7 +19916,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Steak_'N'_Eggs",
-    "weight": 1.2
+    "weight": 1.2,
+    "stackLimit": 50
   },
   {
     "id": "921ec4aff5ff",
@@ -19851,7 +19958,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Sweet_Veg_Ball",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 50
   },
   {
     "id": "39f6925a4f9f",
@@ -19892,7 +20000,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Pungent_Omelette",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "2c984bc6bd51",
@@ -19933,7 +20042,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Cheeky_Fryup",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "870a0726f8cd",
@@ -19966,7 +20076,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Potato",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "5cc80c6a2192",
@@ -19999,7 +20110,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Onion",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 0
   },
   {
     "id": "a15d072d65f4",
@@ -20032,7 +20144,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Mushroom",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 0
   },
   {
     "id": "47b9c0bb985f",
@@ -20065,7 +20178,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Flank",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "6eaa6861e474",
@@ -20098,7 +20212,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Steak",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 0
   },
   {
     "id": "d40eff58d599",
@@ -20131,7 +20246,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Cabbage",
-    "weight": 0.1
+    "weight": 0.1,
+    "stackLimit": 0
   },
   {
     "id": "d7b3bddfcb1a",
@@ -20164,7 +20280,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Dwellberries",
-    "weight": 0.1
+    "weight": 0.1,
+    "stackLimit": 0
   },
   {
     "id": "5c7996c94728",
@@ -20197,7 +20314,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Rat_Roast",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "bcec92e69a4d",
@@ -20230,7 +20348,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Haunch",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 0
   },
   {
     "id": "f4c77c070a75",
@@ -20263,7 +20382,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Fillet",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "a119ce6e0ea2",
@@ -20315,7 +20435,8 @@
       "Grill"
     ],
     "wikiLink": "Burnt_Redberries",
-    "weight": 0.1
+    "weight": 0.1,
+    "stackLimit": 50
   },
   {
     "id": "558aee0e78a3",
@@ -20348,7 +20469,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Peach",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 0
   },
   {
     "id": "f3c8c2ea5341",
@@ -20381,7 +20503,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Egg",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 0
   },
   {
     "id": "a1a3ceea6076",
@@ -21388,7 +21511,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Plant_Cure",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 20
   },
   {
     "id": "5c2b1b80c56c",
@@ -21481,7 +21605,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Inspiring_Ring_of_Artisan",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 1
   },
   {
     "id": "ca02d460c4bf",
@@ -21526,7 +21651,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Inspiring_Ring_of_Construction",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 1
   },
   {
     "id": "02637e948fe1",
@@ -21571,7 +21697,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Inspiring_Ring_of_Cooking",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 1
   },
   {
     "id": "ad2f1ebd8c1c",
@@ -21772,7 +21899,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Sacred_Oil",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 50
   },
   {
     "id": "73e24860c028",
@@ -22050,7 +22178,8 @@
       "Blast Furnace"
     ],
     "wikiLink": "Steel_Bar",
-    "weight": 4.5
+    "weight": 4.5,
+    "stackLimit": 50
   },
   {
     "id": "a6042d16aa5b",
@@ -22154,7 +22283,8 @@
       "Tannery"
     ],
     "wikiLink": "Draconic_Leather",
-    "weight": 0.6
+    "weight": 0.6,
+    "stackLimit": 50
   },
   {
     "id": "fa122c4ed88f",
@@ -22405,7 +22535,8 @@
       "Loom"
     ],
     "wikiLink": "Fine_Cloth",
-    "weight": 1.5
+    "weight": 1.5,
+    "stackLimit": 50
   },
   {
     "id": "a5fc408768a4",
@@ -22475,7 +22606,8 @@
       "Spinning Wheel"
     ],
     "wikiLink": "Fine_Thread",
-    "weight": 0.3
+    "weight": 0.3,
+    "stackLimit": 50
   },
   {
     "id": "6b26c55a23da",
@@ -22654,7 +22786,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Inspiring_Ring_of_Mining",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 1
   },
   {
     "id": "0094a34d63f0",
@@ -22699,7 +22832,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Inspiring_Ring_of_Runecrafting",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 1
   },
   {
     "id": "e29f8608fc11",
@@ -22744,7 +22878,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Inspiring_Ring_of_Woodcutting",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 1
   },
   {
     "id": "e773c4c69260",
@@ -22789,7 +22924,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Inspiring_Amulet_of_Attack",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 1
   },
   {
     "id": "1b03e31ddc1c",
@@ -22834,7 +22970,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Inspiring_Amulet_of_Ranged",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 1
   },
   {
     "id": "1c6982ccafea",
@@ -22879,7 +23016,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Inspiring_Amulet_of_Magic",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 1
   },
   {
     "id": "91cdb651ff27",
@@ -22956,7 +23094,8 @@
       "Stonecutter"
     ],
     "wikiLink": "Stone_Block",
-    "weight": 6
+    "weight": 6,
+    "stackLimit": 99
   },
   {
     "id": "898d9f6ca6d6",
@@ -23079,7 +23218,8 @@
       "Kiln"
     ],
     "wikiLink": "Ectoplasm",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 50
   },
   {
     "id": "5d78f537aea8",
@@ -23269,7 +23409,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Ring_of_Recoil",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 1
   },
   {
     "id": "f404b24c37ec",
@@ -23312,7 +23453,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Ring_of_Life",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 1
   },
   {
     "id": "b118bb3965b2",
@@ -23359,7 +23501,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Salve_Amulet",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 1
   },
   {
     "id": "200efe4cb938",
@@ -23626,7 +23769,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Wolfbane_Dagger",
-    "weight": 5
+    "weight": 5,
+    "stackLimit": 1
   },
   {
     "id": "395f674dd4ec",
@@ -23712,7 +23856,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Lesser_Focused_Artisan_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "20fee5b32579",
@@ -23759,7 +23904,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Amulet_of_Magic",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 1
   },
   {
     "id": "2c268ab4c256",
@@ -23861,7 +24007,8 @@
       "Grindstone"
     ],
     "wikiLink": "Necrotic_Bonemeal",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "85c095f46f3c",
@@ -23900,7 +24047,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Fuel_Pellet",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "9754f23e29e1",
@@ -23984,7 +24132,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Steel_Scimitar",
-    "weight": 15
+    "weight": 15,
+    "stackLimit": 1
   },
   {
     "id": "40fe822ac455",
@@ -24029,7 +24178,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Steel_Dagger",
-    "weight": 5
+    "weight": 5,
+    "stackLimit": 1
   },
   {
     "id": "dcc75156bb95",
@@ -24074,7 +24224,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Steel_Sword",
-    "weight": 15
+    "weight": 15,
+    "stackLimit": 1
   },
   {
     "id": "82b716003c59",
@@ -24119,7 +24270,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Steel_Mace",
-    "weight": 15
+    "weight": 15,
+    "stackLimit": 1
   },
   {
     "id": "21186a9bb952",
@@ -24164,7 +24316,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Steel_Greatsword",
-    "weight": 15
+    "weight": 15,
+    "stackLimit": 1
   },
   {
     "id": "0efa5d2c8bce",
@@ -24254,7 +24407,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Steel_Greataxe",
-    "weight": 25
+    "weight": 25,
+    "stackLimit": 1
   },
   {
     "id": "aeb081ee0937",
@@ -24295,7 +24449,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Steel_Warhammer",
-    "weight": 15
+    "weight": 15,
+    "stackLimit": 1
   },
   {
     "id": "8864986aed2d",
@@ -24326,7 +24481,8 @@
       "Grindstone"
     ],
     "wikiLink": "Bag_of_Flour",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "e882154bb2ef",
@@ -24359,7 +24515,8 @@
       "Kiln"
     ],
     "wikiLink": "Bread",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "1a83f11cf81d",
@@ -24441,7 +24598,8 @@
       "Tannery"
     ],
     "wikiLink": "Green_Dragonhide_Leather",
-    "weight": 0.6
+    "weight": 0.6,
+    "stackLimit": 99
   },
   {
     "id": "1bf10e6e5e66",
@@ -24474,7 +24632,8 @@
       "Grill"
     ],
     "wikiLink": "Cauterised_Undead_Steak",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "5bd9ef9d4f84",
@@ -24653,7 +24812,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Redberry_Crunchies",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "fd3350027502",
@@ -24690,7 +24850,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Dwellberry_Crunchies",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "a5b868104307",
@@ -24727,7 +24888,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Cadavaberry_Infusion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "69153315ea03",
@@ -24760,7 +24922,8 @@
       "Campfire"
     ],
     "wikiLink": "Dried_Cadavaberries",
-    "weight": 0.1
+    "weight": 0.1,
+    "stackLimit": 99
   },
   {
     "id": "8dc0abfd3f69",
@@ -24801,7 +24964,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Pumpkin_Spice_Infusion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "0d2d822aa9b9",
@@ -24936,7 +25100,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Cadavaberries",
-    "weight": 0.1
+    "weight": 0.1,
+    "stackLimit": 99
   },
   {
     "id": "bb44f87d9129",
@@ -25002,7 +25167,8 @@
       "Campfire"
     ],
     "wikiLink": "Roast_Pumpkin",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "b406033a07f0",
@@ -25049,7 +25215,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Amulet_of_Strength",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 1
   },
   {
     "id": "6ac74417fd6a",
@@ -25649,7 +25816,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Amulet_of_Accuracy",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 1
   },
   {
     "id": "79634523db54",
@@ -25977,7 +26145,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Amulet_of_Defence",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 1
   },
   {
     "id": "010e7c83096e",
@@ -26043,7 +26212,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Bone_Bolts",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "87285c6d4510",
@@ -26084,7 +26254,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Dubious_Meat_Pie",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "945e996ac483",
@@ -26125,7 +26296,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Steel_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "27a261f51e2c",
@@ -26162,7 +26334,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Steel_Bolts",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "80ea9fd47efb",
@@ -26207,7 +26380,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Enchanted_Steel_Bolts",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "e8d5513d667f",
@@ -26244,7 +26418,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Steel_Fire_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "1ea0354cdae2",
@@ -26277,7 +26452,8 @@
       "Campfire"
     ],
     "wikiLink": "Watermelon_Jerky",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "ff0f8681acfa",
@@ -26310,7 +26486,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Watermelon",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "f1153f93e23b",
@@ -26351,7 +26528,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Pumpkin_Soup",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "42a912962c74",
@@ -26390,7 +26568,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Lesser_Quarrymaster_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "575820ec243d",
@@ -26429,7 +26608,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Lesser_Lumberjack_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "a74ba32ee7c4",
@@ -26468,7 +26648,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Lesser_Focused_Attack_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "451824e9dacc",
@@ -26507,7 +26688,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Lesser_Focused_Woodcutting_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "85dde89c00d5",
@@ -26546,7 +26728,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Lesser_Focused_Cooking_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "e8ed554fb456",
@@ -26585,7 +26768,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Lesser_Focused_Runecrafting_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "a8626ae548e2",
@@ -26624,7 +26808,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Lesser_Focused_Mining_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "6e05d848f3e7",
@@ -26663,7 +26848,8 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Lesser_Focused_Construction_Potion",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "0aec80b3173c",
@@ -26704,7 +26890,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Fruit_Pie",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "161878ef1d4a",
@@ -26756,7 +26943,8 @@
       "Grill"
     ],
     "wikiLink": "Grilled_Tomatoes",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "30fea8642efd",
@@ -26972,7 +27160,8 @@
       "Grill"
     ],
     "wikiLink": "Burnt_Tomato",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "a4b226b3891d",
@@ -27021,7 +27210,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Zombie_Axe",
-    "weight": 6
+    "weight": 6,
+    "stackLimit": 1
   },
   {
     "id": "e1ad078f9e7c",
@@ -27107,7 +27297,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Vegan_Fryup",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "e5497b710f58",
@@ -27148,7 +27339,8 @@
       "Cooking Range"
     ],
     "wikiLink": "Beef_&_Tomato_Stew",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "215bdd0456d5",
@@ -27229,7 +27421,8 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Abraxus_Ring",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 1
   },
   {
     "id": "8e0fa7ab1fea",
@@ -27441,7 +27634,8 @@
       "Grill"
     ],
     "wikiLink": "Burnt_Undead_Steak",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "122c0173e5d5",
@@ -27474,7 +27668,8 @@
       "Campfire"
     ],
     "wikiLink": "Burnt_Pumpkin",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "6a5fa59fd28f",
@@ -27492,7 +27687,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Goblin_Pack",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "ecd2d28bd4e4",
@@ -27510,7 +27706,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Dirty_Water",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "711fc213e603",
@@ -27528,7 +27725,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Redberries",
-    "weight": 0.1
+    "weight": 0.1,
+    "stackLimit": 99
   },
   {
     "id": "d37db9788605",
@@ -27546,7 +27744,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Cabbage",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "81629dd6f277",
@@ -27564,7 +27763,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Flax",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 99
   },
   {
     "id": "9fcd40f856e6",
@@ -27582,7 +27782,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Coarse_Animal_Fur",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "0d18f7a5c714",
@@ -27600,7 +27801,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Animal_Hide",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 99
   },
   {
     "id": "15f83d07dd09",
@@ -27618,7 +27820,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Ash_Logs",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "2cb47baaee19",
@@ -27636,7 +27839,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Vault_Core",
-    "weight": 50
+    "weight": 50,
+    "stackLimit": 25
   },
   {
     "id": "f1055ea322bd",
@@ -27654,7 +27858,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Marrentil",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "bc54ea66569d",
@@ -27672,7 +27877,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Harralander",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "7ddc50d536fd",
@@ -27690,7 +27896,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Feathers",
-    "weight": 0.1
+    "weight": 0.1,
+    "stackLimit": 99
   },
   {
     "id": "1af09d8b8207",
@@ -27708,7 +27915,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Bittercap_Mushroom",
-    "weight": 0.1
+    "weight": 0.1,
+    "stackLimit": 99
   },
   {
     "id": "1433631489c8",
@@ -27726,7 +27934,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Antler",
-    "weight": 1.5
+    "weight": 1.5,
+    "stackLimit": 99
   },
   {
     "id": "05947b7bdbad",
@@ -27744,7 +27953,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Clay",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "4b3b28384d99",
@@ -27762,7 +27972,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Dwellberries",
-    "weight": 0.1
+    "weight": 0.1,
+    "stackLimit": 99
   },
   {
     "id": "c425f2a75763",
@@ -27780,7 +27991,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Raw_Rat_Meat",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 99
   },
   {
     "id": "e5bbfdd1f5f6",
@@ -27798,7 +28010,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Rune_Essence",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "797f584aebcf",
@@ -27816,7 +28029,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Animal_Bone",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "38a3363b28bd",
@@ -27834,7 +28048,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Garou_Pack",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "89a3b6b77425",
@@ -27852,7 +28067,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Animal_Hide_Scraps",
-    "weight": 0.3
+    "weight": 0.3,
+    "stackLimit": 99
   },
   {
     "id": "6ffa6b8b1c9f",
@@ -27870,7 +28086,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Stone",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "6d61374da4b4",
@@ -27888,7 +28105,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Potato",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "a4969e4cdc7a",
@@ -27906,7 +28124,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Ghostspeak_Amulet",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "d32c9990fd10",
@@ -27924,7 +28143,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Small_Animal_Fang",
-    "weight": 0.25
+    "weight": 0.25,
+    "stackLimit": 99
   },
   {
     "id": "932f46ef0b49",
@@ -27942,7 +28162,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Redberry_Glazed_Roast_Flank",
-    "weight": 1.2
+    "weight": 1.2,
+    "stackLimit": 50
   },
   {
     "id": "e46d49c9e677",
@@ -27960,7 +28181,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Snapdragon",
-    "weight": 0.1
+    "weight": 0.1,
+    "stackLimit": 99
   },
   {
     "id": "46ac202422da",
@@ -27978,7 +28200,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Tin_Ore",
-    "weight": 2.2
+    "weight": 2.2,
+    "stackLimit": 99
   },
   {
     "id": "5db7cc42a94b",
@@ -27996,7 +28219,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Gold_Ore",
-    "weight": 2.6
+    "weight": 2.6,
+    "stackLimit": 99
   },
   {
     "id": "aac9c06cd7a8",
@@ -28014,7 +28238,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Toadflax",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "ec1abb86508c",
@@ -28032,7 +28257,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Blightwood",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "eedfb3dc7f45",
@@ -28050,7 +28276,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Oak_Logs",
-    "weight": 1.5
+    "weight": 1.5,
+    "stackLimit": 99
   },
   {
     "id": "f4afba87f0f4",
@@ -28068,7 +28295,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Copper_Ore",
-    "weight": 2.3
+    "weight": 2.3,
+    "stackLimit": 99
   },
   {
     "id": "0e5697ab1427",
@@ -28086,7 +28314,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Redberry_Crunchies_(Removed)",
-    "weight": 0.6
+    "weight": 0.6,
+    "stackLimit": 50
   },
   {
     "id": "34694871e698",
@@ -28104,7 +28333,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Iron_Ore",
-    "weight": 3.6
+    "weight": 3.6,
+    "stackLimit": 99
   },
   {
     "id": "d6edfecd4655",
@@ -28140,7 +28370,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Anima-Infused_Bark",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 99
   },
   {
     "id": "d142d3dd1dbb",
@@ -28158,7 +28389,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Sapphire",
-    "weight": 3
+    "weight": 3,
+    "stackLimit": 99
   },
   {
     "id": "727346e1e9f2",
@@ -28194,7 +28426,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Monstrous_Fang",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 99
   },
   {
     "id": "7687e4b2af61",
@@ -28212,7 +28445,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Swamp_Weed",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 99
   },
   {
     "id": "c2fcfd86b7f8",
@@ -28230,7 +28464,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Fleece",
-    "weight": 3
+    "weight": 3,
+    "stackLimit": 99
   },
   {
     "id": "6a149b5ba539",
@@ -28248,7 +28483,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Soft_Animal_Fur",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 99
   },
   {
     "id": "740bef9b70ab",
@@ -28266,7 +28502,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Silver_Ore",
-    "weight": 2.4
+    "weight": 2.4,
+    "stackLimit": 99
   },
   {
     "id": "b54c1c5f9b78",
@@ -28284,7 +28521,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Opal",
-    "weight": 3
+    "weight": 3,
+    "stackLimit": 99
   },
   {
     "id": "9fbbe982e10d",
@@ -28302,7 +28540,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Jade",
-    "weight": 3
+    "weight": 3,
+    "stackLimit": 99
   },
   {
     "id": "7ad3201eccae",
@@ -28320,7 +28559,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Red_Topaz",
-    "weight": 3
+    "weight": 3,
+    "stackLimit": 99
   },
   {
     "id": "9ca5b1c17952",
@@ -28338,7 +28578,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Vault_Shard",
-    "weight": 5
+    "weight": 5,
+    "stackLimit": 99
   },
   {
     "id": "961f116cf415",
@@ -28356,7 +28597,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Swamp_Tar",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 99
   },
   {
     "id": "6a4edf2c4dae",
@@ -28374,7 +28616,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Ram_Horn",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 99
   },
   {
     "id": "ba738f673036",
@@ -28392,7 +28635,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Fortifying_Stew",
-    "weight": 1.4
+    "weight": 1.4,
+    "stackLimit": 50
   },
   {
     "id": "e5ccdbb15db6",
@@ -28410,7 +28654,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Abyssal_Ashes",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "4720d091fcf6",
@@ -28428,7 +28673,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Abyssal_Spine",
-    "weight": 10
+    "weight": 10,
+    "stackLimit": 99
   },
   {
     "id": "38a6d42b41a0",
@@ -28446,7 +28692,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Dire_Wolf_Hide",
-    "weight": 4
+    "weight": 4,
+    "stackLimit": 99
   },
   {
     "id": "1a1409960a2b",
@@ -28464,7 +28711,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Granite",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 99
   },
   {
     "id": "b060af6728e8",
@@ -28482,7 +28730,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Raw_Farm_Meat",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 99
   },
   {
     "id": "cc278ed65b2d",
@@ -28500,7 +28749,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Onion",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "c30da88f3e6d",
@@ -28518,7 +28768,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Berry_Compote",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 50
   },
   {
     "id": "9e51f828316a",
@@ -28536,7 +28787,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Sandstone",
-    "weight": 1.5
+    "weight": 1.5,
+    "stackLimit": 99
   },
   {
     "id": "85a71d0dc4f6",
@@ -28554,7 +28806,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Dwellberry_Crunchies_(Removed)",
-    "weight": 0.6
+    "weight": 0.6,
+    "stackLimit": 50
   },
   {
     "id": "65dda00cb125",
@@ -28572,7 +28825,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Dwellberry_Glazed_Roast_Flank",
-    "weight": 1.2
+    "weight": 1.2,
+    "stackLimit": 50
   },
   {
     "id": "c54364a62e8b",
@@ -28590,7 +28844,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Dwellberry_Glazed_Roast_Meat",
-    "weight": 1.2
+    "weight": 1.2,
+    "stackLimit": 50
   },
   {
     "id": "ce7206326acd",
@@ -28608,7 +28863,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Fortifying_Crunchies",
-    "weight": 0.6
+    "weight": 0.6,
+    "stackLimit": 50
   },
   {
     "id": "7562f102ce99",
@@ -28626,7 +28882,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Fortifying_Soup",
-    "weight": 0.8
+    "weight": 0.8,
+    "stackLimit": 50
   },
   {
     "id": "fc77e763174f",
@@ -28644,7 +28901,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Hearty_Crunchies",
-    "weight": 0.6
+    "weight": 0.6,
+    "stackLimit": 50
   },
   {
     "id": "7201da5b6871",
@@ -28662,7 +28920,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Hearty_Fortifying_Soup",
-    "weight": 0.8
+    "weight": 0.8,
+    "stackLimit": 50
   },
   {
     "id": "4dcb3e55f2fe",
@@ -28680,7 +28939,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Hearty_Soup",
-    "weight": 0.8
+    "weight": 0.8,
+    "stackLimit": 50
   },
   {
     "id": "c0b1c8d8b5ca",
@@ -28698,7 +28958,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Hearty_Stew",
-    "weight": 1.4
+    "weight": 1.4,
+    "stackLimit": 50
   },
   {
     "id": "a8dcd1070b8c",
@@ -28716,7 +28977,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Mixed_Platter",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "b0905b7a423e",
@@ -28734,7 +28996,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Raw_Bestial_Meat",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 99
   },
   {
     "id": "4d80afd8151f",
@@ -28752,7 +29015,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Raw_Bird_Meat",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 99
   },
   {
     "id": "2ac59cbedc85",
@@ -28770,7 +29034,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Raw_Game_Meat",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 99
   },
   {
     "id": "406c61105dff",
@@ -28788,7 +29053,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Dragon_Tooth",
-    "weight": 5
+    "weight": 5,
+    "stackLimit": 25
   },
   {
     "id": "b790aebc6675",
@@ -28806,7 +29072,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Ground_Clay",
-    "weight": 1.5
+    "weight": 1.5,
+    "stackLimit": 50
   },
   {
     "id": "ffe30d9b2a80",
@@ -28824,7 +29091,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Bloodwood_Sap",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 25
   },
   {
     "id": "2b4f8cd3c8a7",
@@ -28842,7 +29110,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Velgar's_Head",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 25
   },
   {
     "id": "1b56c4cbcadb",
@@ -28878,7 +29147,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Open_Wooden_Barrel",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "764a05dc2041",
@@ -28896,7 +29166,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Wooden_Barrel",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "a2c7c44ae965",
@@ -28914,7 +29185,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Wooden_Bin_Pile",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "4288dc2a4bf5",
@@ -28932,7 +29204,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Purple_Standing_Torch",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "daf280714631",
@@ -28968,7 +29241,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Coal",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "ed9568408cc1",
@@ -29022,7 +29296,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Tainted_King's_Token",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "10ecde1c3143",
@@ -29040,7 +29315,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Poison_Ichor",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 99
   },
   {
     "id": "04891907bf66",
@@ -29058,7 +29334,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Shocking_Plant_Bulb",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 99
   },
   {
     "id": "a536417bd1ab",
@@ -29076,7 +29353,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Bird_Nest",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "2b1f3f0b7afa",
@@ -29094,7 +29372,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Peach",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "3b89593cda8c",
@@ -29148,7 +29427,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Blue_Standing_Torch",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "23c6b49888e0",
@@ -29166,7 +29446,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Green_Standing_Torch",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "f1553f8017eb",
@@ -29184,7 +29465,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Red_Standing_Torch",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "0897954604ef",
@@ -29202,7 +29484,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Blue_Wall-Mounted_Torch",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "13547a45ee73",
@@ -29220,7 +29503,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Green_Wall-Mounted_Torch",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "c31bfa76a700",
@@ -29238,7 +29522,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Purple_Wall-Mounted_Torch",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "ec3ec9f3351c",
@@ -29256,7 +29541,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Red_Wall-Mounted_Torch",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "fa457ebb3086",
@@ -29274,7 +29560,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Textile_Kit",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "a5abb9e574fc",
@@ -29292,7 +29579,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Vial_Shelf",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "ce4f80959fed",
@@ -29310,7 +29598,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Barrel_Pile",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "21623688fe08",
@@ -29328,7 +29617,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Broken_Wooden_Crate",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "6a919df4324a",
@@ -29346,7 +29636,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Keg_Barrel",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "80704078f901",
@@ -29364,7 +29655,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Wooden_Bin",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "86b589e263ab",
@@ -29382,7 +29674,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Dragonkin_Gargoyle_01",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "3fd2a856e6c7",
@@ -29400,7 +29693,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Dragonkin_Gargoyle_02",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "de68db5a2744",
@@ -29418,7 +29712,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Dragonkin_Gargoyle_03",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "0c641c96baed",
@@ -29436,7 +29731,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Dragonkin_Obelisk_01",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "aa79bbd2239d",
@@ -29454,7 +29750,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Dragonkin_Obelisk_02",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "8d1a17d0cc05",
@@ -29472,7 +29769,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Dragonkin_Obelisk_03",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "3af0612a8f32",
@@ -29490,7 +29788,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Dragonkin_Statue_01",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "5cb40e2d5225",
@@ -29508,7 +29807,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Dragonkin_Statue_02",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "138b81212e67",
@@ -29526,7 +29826,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Drum",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "8df262e93b26",
@@ -29544,7 +29845,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Hanging_Ornament_01",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "4b2f4d9be01f",
@@ -29562,7 +29864,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Hanging_Ornament_02",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "b0debb590f98",
@@ -29580,7 +29883,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Hanging_Ornament_03",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "98cc842f4951",
@@ -29598,7 +29902,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Hanging_Ornament_04",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "74cdea31a340",
@@ -29616,7 +29921,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Stool",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "b756ef212dfa",
@@ -29634,7 +29940,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Trophy_01",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "2ca05cd6f3aa",
@@ -29652,7 +29959,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Trophy_02",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "ca6a19e4648f",
@@ -29670,7 +29978,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Trophy_03",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "2f04f2c5e7c0",
@@ -29688,7 +29997,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Trophy_04",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "c0f27f6ae366",
@@ -29706,7 +30016,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Tusks_01",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "669eb78f70f8",
@@ -29724,7 +30035,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Tusks_02",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "3143c3f9669c",
@@ -29742,7 +30054,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Tusks_03",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "fa85c63c1228",
@@ -29760,7 +30073,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Wall_Banner",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "04b038709471",
@@ -29778,7 +30092,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Garou_Hanging_Pelt",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "1baef4e6a394",
@@ -29796,7 +30111,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Bowl_of_Onions",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "ce2a4cd6cc54",
@@ -29814,7 +30130,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Bowl_of_Peaches",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "b2ac5fc275d0",
@@ -29832,7 +30149,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Stack_of_Bowls",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "6955f4a26f2b",
@@ -29868,7 +30186,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Suspiciously_Light_Tattered_Boots",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "a122753d54ec",
@@ -29886,7 +30205,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "A_Simple_Broken_Bow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "1715106044cd",
@@ -29904,7 +30224,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_An_Educational_Blade",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "a307b82cc930",
@@ -29922,7 +30243,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_Parts_of_a_Sinister-Looking_Staff",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "786377f8fb83",
@@ -29940,7 +30262,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "A_Threadbare_Grain_Sack",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "73f85163e996",
@@ -29958,7 +30281,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_A_Corroded_Serrated_Blade",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "016eb1588b25",
@@ -29976,7 +30300,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_Remnants_of_a_Shattered_Skull",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "5d8c540af59c",
@@ -29994,7 +30319,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_A_Cruel_Goblin_Blade",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "17d5792f44fa",
@@ -30012,7 +30338,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_A_Brutal_Bladehead",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "d3066586a734",
@@ -30030,7 +30357,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_A_String_of_Sinew",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "456d75b9d092",
@@ -30048,7 +30376,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_A_Mysterious_Crescent_Carving",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "821555962e6b",
@@ -30192,7 +30521,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Emerald",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 0
   },
   {
     "id": "bb705c6bbb09",
@@ -30282,7 +30612,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Tome_of_Attack_-_Vol_1.",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 99
   },
   {
     "id": "a5b1c1e7571f",
@@ -30300,7 +30631,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Tome_of_Construction_-_Vol_1.",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 99
   },
   {
     "id": "2cbf2e0f8303",
@@ -30372,7 +30704,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Vial",
-    "weight": 0.1
+    "weight": 0.1,
+    "stackLimit": 20
   },
   {
     "id": "41d00f99dfdb",
@@ -30390,7 +30723,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Dragon_Slayer_Reward_Pack",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 10
   },
   {
     "id": "c6f23ba443f6",
@@ -30534,7 +30868,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Soda_Ash",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 50
   },
   {
     "id": "cea2a17af4ce",
@@ -30552,7 +30887,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Vine_Root",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 20
   },
   {
     "id": "396ffa28eb6c",
@@ -30570,7 +30906,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Molten_Glass",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 50
   },
   {
     "id": "1b1a37351182",
@@ -30588,7 +30925,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Fuel_Briquette",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "18719d48ba62",
@@ -30606,7 +30944,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Clay_Slab_(Unfired)",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 0
   },
   {
     "id": "49cf525c960f",
@@ -30624,7 +30963,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Clay_Slab",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 0
   },
   {
     "id": "a1649f99453b",
@@ -30642,7 +30982,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Divine_Cabbage",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 0
   },
   {
     "id": "09d9d024aab0",
@@ -30660,7 +31001,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Restless_Ghosts_Reward_Pack",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 10
   },
   {
     "id": "e888684b87ee",
@@ -30678,7 +31020,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Wooden_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "cf93336385cd",
@@ -30714,7 +31057,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Kwuarm",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "61ddae2d9185",
@@ -30732,7 +31076,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Blurite_Ore",
-    "weight": 1.7
+    "weight": 1.7,
+    "stackLimit": 99
   },
   {
     "id": "8a502ccc0bf5",
@@ -30750,7 +31095,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Shrapnel",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "09c3c36e0405",
@@ -30768,7 +31114,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_Azure_Metal_Contraption",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "019c4db7960b",
@@ -30786,7 +31133,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Potted_Dwellberry_Bush",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "7b8ba45d67be",
@@ -30804,7 +31152,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Potted_Redberry_Bush",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "853cc5a832ed",
@@ -30822,7 +31171,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Potted_Onion",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "efb15e999c52",
@@ -30840,7 +31190,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Naphtha",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 50
   },
   {
     "id": "b7486de26d98",
@@ -30858,7 +31209,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Fang_Fire_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "1b0d03673a73",
@@ -30876,7 +31228,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Fang_Barbed_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "37c50c935cd2",
@@ -30894,7 +31247,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Egg",
-    "weight": 0.9
+    "weight": 0.9,
+    "stackLimit": 99
   },
   {
     "id": "8943b3cc1281",
@@ -30912,7 +31266,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Weeds",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 99
   },
   {
     "id": "1ea4ac6b70d2",
@@ -30930,7 +31285,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Soul_Fragment",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "cca303e99f5f",
@@ -30948,7 +31304,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Wheat",
-    "weight": 0.4
+    "weight": 0.4,
+    "stackLimit": 99
   },
   {
     "id": "2d2ad3207cbb",
@@ -30966,7 +31323,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Cabbage_Seeds",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "a88a6422779d",
@@ -30984,7 +31342,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Ash_Tree_Seed",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 10
   },
   {
     "id": "d0e268428014",
@@ -31002,7 +31361,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Snapdragon_Seeds",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "914914eab799",
@@ -31020,7 +31380,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Cadavaberries",
-    "weight": 0.1
+    "weight": 0.1,
+    "stackLimit": 99
   },
   {
     "id": "3ddab8178e2a",
@@ -31038,7 +31399,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Corpse_Cotton",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 50
   },
   {
     "id": "b639c243cebd",
@@ -31056,7 +31418,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Diamond",
-    "weight": 3
+    "weight": 3,
+    "stackLimit": 99
   },
   {
     "id": "84226177b73e",
@@ -31074,7 +31437,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Curse_Fragment_(Grief)",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 1
   },
   {
     "id": "b9f42ac371ba",
@@ -31092,7 +31456,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Zogre_Pack",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "c6c5211a5079",
@@ -31110,7 +31475,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Pumpkin",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "e484f65d7ba7",
@@ -31128,7 +31494,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Willow_Logs",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "8289a9844fd5",
@@ -31146,7 +31513,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Tomato",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "663a6aa86783",
@@ -31164,7 +31532,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Zombie_Pack",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "4b4e11cc0735",
@@ -31182,7 +31551,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Watermelon",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "88e4e936cac7",
@@ -31200,7 +31570,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Watermelon_Seeds",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "83039f9ea6c7",
@@ -31218,7 +31589,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Oak_Tree_Seed",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 10
   },
   {
     "id": "37cc51fa8fc2",
@@ -31236,7 +31608,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Willow_Tree_Seed",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 50
   },
   {
     "id": "24a13bcb072e",
@@ -31254,7 +31627,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Dragonwolf_Hide",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 50
   },
   {
     "id": "15764a871dbe",
@@ -31272,7 +31646,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Withered_Heart",
-    "weight": 10
+    "weight": 10,
+    "stackLimit": 50
   },
   {
     "id": "32777a510d41",
@@ -31290,7 +31665,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Hollow_Bark",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 50
   },
   {
     "id": "a61c2c747c0f",
@@ -31308,7 +31684,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Irit",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "2c00a98cf611",
@@ -31326,7 +31703,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Undead_Bone",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "6ee497f7b546",
@@ -31344,7 +31722,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Dragon_Blood",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 50
   },
   {
     "id": "d804f17c1533",
@@ -31362,7 +31741,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Wither_Water",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "9862019cf379",
@@ -31380,7 +31760,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_Cloying_Damp_Cowl",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "d7ec35d0f028",
@@ -31398,7 +31779,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Skeleton_Pack",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "5d7f4271bb58",
@@ -31416,7 +31798,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Tome_of_Farming_-_Vol_2",
-    "weight": 2
+    "weight": 2,
+    "stackLimit": 99
   },
   {
     "id": "758d81b8ac99",
@@ -31434,7 +31817,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Spare_Farmer's_Supplies",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 10
   },
   {
     "id": "6ab444faed8b",
@@ -31452,7 +31836,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Primordial_Heart",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 0
   },
   {
     "id": "2f3e7dfa521d",
@@ -31470,7 +31855,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Green_Dragon_Hide",
-    "weight": 3
+    "weight": 3,
+    "stackLimit": 99
   },
   {
     "id": "ba97d64473f8",
@@ -31488,7 +31874,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Hard_Leather_Scraps",
-    "weight": 0.3
+    "weight": 0.3,
+    "stackLimit": 50
   },
   {
     "id": "73602b857cc5",
@@ -31506,7 +31893,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Undead_Meat",
-    "weight": 0.5
+    "weight": 0.5,
+    "stackLimit": 99
   },
   {
     "id": "bd486e8ab8f6",
@@ -31524,7 +31912,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Imaru's_Head",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 25
   },
   {
     "id": "6ce38a53e81a",
@@ -31560,7 +31949,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Withering_Heights_Reward_Pack",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 10
   },
   {
     "id": "04adbd868ad9",
@@ -31578,7 +31968,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Saradomin_Symbol",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 1
   },
   {
     "id": "e5c261ef328a",
@@ -31596,7 +31987,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Toadflax_Seeds",
-    "weight": 0.2
+    "weight": 0.2,
+    "stackLimit": 99
   },
   {
     "id": "48269f4923b6",
@@ -31614,7 +32006,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_Burnished_Belt_Buckle",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "f9d124c9d097",
@@ -31686,7 +32079,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Poisoned_Steel_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "bb917ab44f38",
@@ -31704,7 +32098,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Steel_Barbed_Arrow",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "bf2f41de4c75",
@@ -31884,7 +32279,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Curse_Fragment_(Despair)",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 1
   },
   {
     "id": "08245260eef4",
@@ -31902,7 +32298,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Curse_Fragment_(Rage)",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 1
   },
   {
     "id": "b5cce1fc67c3",
@@ -31920,7 +32317,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Dust-covered_Sketchbook",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "14ada1150a70",
@@ -31938,7 +32336,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PATTERN:_Fell_Cape",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 1
   },
   {
     "id": "8db601163924",
@@ -31956,7 +32355,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_Sundering_Spiked_Slab",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "dded1f7433f5",
@@ -31974,7 +32374,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_Tastefully_Torn_Tights",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "cb871a979b7d",
@@ -31992,7 +32393,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Vestige:_Rotten_Farming_Tool",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 1
   },
   {
     "id": "027c3c44804e",
@@ -32046,7 +32448,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Shard_of_Smoky_Glass",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "836d79ca397f",
@@ -32064,7 +32467,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Doric's_Smithing_Supplies",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 10
   },
   {
     "id": "7979d9a7d31c",
@@ -32082,7 +32486,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Doric's_Superior_Smithing_Supplies",
-    "weight": 1
+    "weight": 1,
+    "stackLimit": 10
   },
   {
     "id": "058c08aac2f6",
@@ -32100,7 +32505,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_Tattered_Time-Lost_Cloth",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "1d2b163d194e",
@@ -32118,7 +32524,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Serrated_Claw",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "dd3ac14cd979",
@@ -32136,6 +32543,7 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Shroud_of_Noggin_(vestige)",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 99
   }
 ]
