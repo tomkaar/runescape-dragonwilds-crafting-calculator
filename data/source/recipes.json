@@ -42446,5 +42446,77 @@
     "output": [
       "Burnt Pumpkin"
     ]
+  },
+  {
+    "uses_material": [
+      "Silver Bar",
+      "Fine Thread",
+      "Sacred Oil",
+      "Soul Fragment",
+      "Bedraggled Spellbook"
+    ],
+    "uses_facility": [
+      "Edna"
+    ],
+    "json": {
+      "facility": "Edna",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Silver Bar",
+          "link": "Silver Bar",
+          "qty": "1",
+          "item": "Silver Bar",
+          "image": "[[File:Silver Bar.png|30px|link=Silver Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Fine Thread",
+          "link": "Fine Thread",
+          "qty": "1",
+          "item": "Fine Thread",
+          "image": "[[File:Fine Thread.png|30px|link=Fine Thread]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Sacred Oil",
+          "link": "Sacred Oil",
+          "qty": "1",
+          "item": "Sacred Oil",
+          "image": "[[File:Sacred Oil.png|30px|link=Sacred Oil]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Soul Fragment",
+          "link": "Soul Fragment",
+          "qty": "6",
+          "item": "Soul Fragment",
+          "image": "[[File:Soul Fragment.png|30px|link=Soul Fragment]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Bedraggled Spellbook",
+          "link": "Bedraggled Spellbook",
+          "qty": "1",
+          "item": "Bedraggled Spellbook",
+          "image": "[[File:Bedraggled Spellbook.png|30px|link=Bedraggled Spellbook]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Spectral Silver Thread"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Spectral Silver Thread",
+        "link": "Spectral Silver Thread",
+        "qty": "1",
+        "item": "Spectral Silver Thread",
+        "image": "[[File:Spectral Silver Thread.png|30px|link=Spectral Silver Thread]]"
+      }
+    },
+    "output": [
+      "Spectral Silver Thread"
+    ]
   }
 ]
