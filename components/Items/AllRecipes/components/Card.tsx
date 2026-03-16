@@ -32,9 +32,11 @@ export function Card(props: TodoRecipeCardProps) {
           )}
 
           <div className="text-base">
-            <div className="flex flex-row gap-2 items-center">
-              {item?.name} ({materials.length})
-              <ChevronRight size={16} />
+            <div className="flex flex-row gap-1 items-center text-sm">
+              <span>
+                {item?.name} ({materials.length})
+              </span>
+              <ChevronRight size={12} />
             </div>
             {multiplier > 1 && (
               <div className="text-xs text-title -mt-0.5">
