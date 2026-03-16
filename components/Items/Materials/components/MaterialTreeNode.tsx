@@ -132,7 +132,12 @@ export function MaterialTreeNode({
         </div>
 
         <div className="pl-2">
-          <CollapsibleContent className="border-l border-neutral-400 pl-2">
+          <CollapsibleContent
+            className={cn(
+              "border-l border-neutral-400 pl-2",
+              item.variantNumber !== undefined && "border-title ml-2",
+            )}
+          >
             <div className="flex flex-col pl-2">
               {item.children.map((child) => (
                 <MaterialTreeNode
