@@ -11319,5 +11319,41 @@
     },
     "item_weight": 1,
     "page_name_sub": "Burnt Pumpkin"
+  },
+  {
+    "page_name": "Bedraggled Spellbook",
+    "item_description": "An ancient book of spells by Agatha's mail-order magic service. \"Guaranteed to put warts on your nose, or your money back!\"",
+    "item_name": "Bedraggled Spellbook",
+    "item_type": "Quest Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Quest Item",
+      "description": "An ancient book of spells by Agatha's mail-order magic service. \"Guaranteed to put warts on your nose, or your money back!\"",
+      "image": "[[File:Bedraggled Spellbook.png|32px]]",
+      "name": "Bedraggled Spellbook",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Bedraggled Spellbook.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Bedraggled Spellbook"
+  },
+  {
+    "page_name": "Spectral Silver Thread",
+    "item_description": "A spooky silver thread. Used to repair mirrors from the inside.",
+    "item_name": "Spectral Silver Thread",
+    "item_type": "Quest Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Quest Item",
+      "description": "A spooky silver thread. Used to repair mirrors from the inside.",
+      "image": "[[File:Spectral Silver Thread.png|32px]]",
+      "name": "Spectral Silver Thread",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Spectral Silver Thread.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Spectral Silver Thread"
   }
 ]

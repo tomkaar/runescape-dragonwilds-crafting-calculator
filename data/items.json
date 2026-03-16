@@ -27672,6 +27672,54 @@
     "stackLimit": 50
   },
   {
+    "id": "15738420a71b",
+    "name": "Spectral Silver Thread",
+    "image": "Spectral Silver Thread.png",
+    "variants": [
+      {
+        "id": "422eb6f7a511",
+        "name": "Spectral Silver Thread",
+        "image": "Spectral Silver Thread.png",
+        "variantName": null,
+        "recipe": {
+          "id": "cadbf2a0031a",
+          "facility": "Edna",
+          "materials": [
+            {
+              "itemId": "503dcdc220b5",
+              "quantity": 1
+            },
+            {
+              "itemId": "8aa07469cfe0",
+              "quantity": 1
+            },
+            {
+              "itemId": "5aa2e298899c",
+              "quantity": 1
+            },
+            {
+              "itemId": "9788d67f4f47",
+              "quantity": 1
+            },
+            {
+              "itemId": "1ea4ac6b70d2",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Edna"
+    ],
+    "wikiLink": "Spectral_Silver_Thread",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -27681,7 +27729,8 @@
         "name": "Goblin Pack",
         "image": "Goblin Pack.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27700,7 +27749,8 @@
         "name": "Dirty Water",
         "image": "Dirty Water.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27719,7 +27769,8 @@
         "name": "Redberries",
         "image": "Redberries.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27738,7 +27789,8 @@
         "name": "Cabbage",
         "image": "Cabbage.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27757,7 +27809,8 @@
         "name": "Flax",
         "image": "Flax.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27776,7 +27829,8 @@
         "name": "Coarse Animal Fur",
         "image": "Coarse Animal Fur.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27795,7 +27849,8 @@
         "name": "Animal Hide",
         "image": "Animal Hide.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27814,7 +27869,8 @@
         "name": "Ash Logs",
         "image": "Ash Logs.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27833,7 +27889,8 @@
         "name": "Vault Core",
         "image": "Vault Core.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27852,7 +27909,8 @@
         "name": "Marrentil",
         "image": "Marrentil.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27871,7 +27929,8 @@
         "name": "Harralander",
         "image": "Harralander.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27890,7 +27949,8 @@
         "name": "Feathers",
         "image": "Feathers.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27909,7 +27969,8 @@
         "name": "Bittercap Mushroom",
         "image": "Bittercap Mushroom.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27928,7 +27989,8 @@
         "name": "Antler",
         "image": "Antler.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27947,7 +28009,8 @@
         "name": "Clay",
         "image": "Clay.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27966,7 +28029,8 @@
         "name": "Dwellberries",
         "image": "Dwellberries.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -27985,7 +28049,8 @@
         "name": "Raw Rat Meat",
         "image": "Raw Rat Meat.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28004,7 +28069,8 @@
         "name": "Rune Essence",
         "image": "Rune Essence.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28023,7 +28089,8 @@
         "name": "Animal Bone",
         "image": "Animal Bone.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28042,7 +28109,8 @@
         "name": "Garou Pack",
         "image": "Garou Pack.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28061,7 +28129,8 @@
         "name": "Animal Hide Scraps",
         "image": "Animal Hide Scraps.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28080,7 +28149,8 @@
         "name": "Stone",
         "image": "Stone.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28099,7 +28169,8 @@
         "name": "Potato",
         "image": "Potato.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28118,7 +28189,8 @@
         "name": "Ghostspeak Amulet",
         "image": "Ghostspeak Amulet.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28137,7 +28209,8 @@
         "name": "Small Animal Fang",
         "image": "Small Animal Fang.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28156,7 +28229,8 @@
         "name": "Redberry Glazed Roast Flank",
         "image": "Redberry Glazed Roast Flank.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28175,7 +28249,8 @@
         "name": "Snapdragon",
         "image": "Snapdragon.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28194,7 +28269,8 @@
         "name": "Tin Ore",
         "image": "Tin Ore.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28213,7 +28289,8 @@
         "name": "Gold Ore",
         "image": "Gold Ore.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28232,7 +28309,8 @@
         "name": "Toadflax",
         "image": "Toadflax.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28251,7 +28329,8 @@
         "name": "Blightwood",
         "image": "Blightwood.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28270,7 +28349,8 @@
         "name": "Oak Logs",
         "image": "Oak Logs.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28289,7 +28369,8 @@
         "name": "Copper Ore",
         "image": "Copper Ore.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28308,7 +28389,8 @@
         "name": "Redberry Crunchies",
         "image": "Redberry Crunchies.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28327,7 +28409,8 @@
         "name": "Iron Ore",
         "image": "Iron Ore.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28346,7 +28429,8 @@
         "name": "Goblin War Banner Cape",
         "image": "Goblin War Banner.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28364,7 +28448,8 @@
         "name": "Anima-Infused Bark",
         "image": "Anima-Infused Bark.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28383,7 +28468,8 @@
         "name": "Sapphire",
         "image": "Sapphire.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28402,7 +28488,8 @@
         "name": "Garou Highborn's Cloak",
         "image": "Garou Highborn's Cloak.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28420,7 +28507,8 @@
         "name": "Monstrous Fang",
         "image": "Monstrous Fang.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28439,7 +28527,8 @@
         "name": "Swamp Weed",
         "image": "Swamp Weed.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28458,7 +28547,8 @@
         "name": "Fleece",
         "image": "Fleece.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28477,7 +28567,8 @@
         "name": "Soft Animal Fur",
         "image": "Soft Animal Fur.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28496,7 +28587,8 @@
         "name": "Silver Ore",
         "image": "Silver Ore.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28515,7 +28607,8 @@
         "name": "Opal",
         "image": "Opal.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28534,7 +28627,8 @@
         "name": "Jade",
         "image": "Jade.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28553,7 +28647,8 @@
         "name": "Red Topaz",
         "image": "Red Topaz.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28572,7 +28667,8 @@
         "name": "Vault Shard",
         "image": "Vault Shard.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28591,7 +28687,8 @@
         "name": "Swamp Tar",
         "image": "Swamp Tar.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28610,7 +28707,8 @@
         "name": "Ram Horn",
         "image": "Ram Horn.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28629,7 +28727,8 @@
         "name": "Fortifying Stew",
         "image": "Fortifying Stew.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28648,7 +28747,8 @@
         "name": "Abyssal Ashes",
         "image": "Abyssal Ashes.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28667,7 +28767,8 @@
         "name": "Abyssal Spine",
         "image": "Abyssal Spine.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28686,7 +28787,8 @@
         "name": "Dire Wolf Hide",
         "image": "Dire Wolf Hide.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28705,7 +28807,8 @@
         "name": "Granite",
         "image": "Granite.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28724,7 +28827,8 @@
         "name": "Raw Farm Meat",
         "image": "Raw Farm Meat.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28743,7 +28847,8 @@
         "name": "Onion",
         "image": "Onion.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28762,7 +28867,8 @@
         "name": "Berry Compote",
         "image": "Berry Compote.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28781,7 +28887,8 @@
         "name": "Sandstone",
         "image": "Sandstone.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28800,7 +28907,8 @@
         "name": "Dwellberry Crunchies",
         "image": "Dwellberry Crunchies.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28819,7 +28927,8 @@
         "name": "Dwellberry Glazed Roast Flank",
         "image": "Dwellberry Glazed Roast Flank.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28838,7 +28947,8 @@
         "name": "Dwellberry Glazed Roast Meat",
         "image": "Dwellberry Glazed Roast Meat.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28857,7 +28967,8 @@
         "name": "Fortifying Crunchies",
         "image": "Fortifying Crunchies.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28876,7 +28987,8 @@
         "name": "Fortifying Soup",
         "image": "Fortifying Soup.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28895,7 +29007,8 @@
         "name": "Hearty Crunchies",
         "image": "Hearty Crunchies.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28914,7 +29027,8 @@
         "name": "Hearty Fortifying Soup",
         "image": "Hearty Fortifying Soup.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28933,7 +29047,8 @@
         "name": "Hearty Soup",
         "image": "Hearty Soup.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28952,7 +29067,8 @@
         "name": "Hearty Stew",
         "image": "Hearty Stew.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28971,7 +29087,8 @@
         "name": "Mixed Platter",
         "image": "Mixed Platter.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -28990,7 +29107,8 @@
         "name": "Raw Bestial Meat",
         "image": "Raw Bestial Meat.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29009,7 +29127,8 @@
         "name": "Raw Bird Meat",
         "image": "Raw Bird Meat.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29028,7 +29147,8 @@
         "name": "Raw Game Meat",
         "image": "Raw Game Meat.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29047,7 +29167,8 @@
         "name": "Dragon Tooth",
         "image": "Dragon Tooth.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29066,7 +29187,8 @@
         "name": "Ground Clay",
         "image": "Ground Clay.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29085,7 +29207,8 @@
         "name": "Bloodwood Sap",
         "image": "Bloodwood Sap.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29104,7 +29227,8 @@
         "name": "Velgar's Head",
         "image": "Velgar's Head.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29123,7 +29247,8 @@
         "name": "Mysterious Orb (Uncharged)",
         "image": "Mysterious Orb (Uncharged).png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29141,7 +29266,8 @@
         "name": "PLAN: Open Wooden Barrel",
         "image": "PLAN- Open Wooden Barrel.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29160,7 +29286,8 @@
         "name": "PLAN: Wooden Barrel",
         "image": "PLAN- Wooden Barrel.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29179,7 +29306,8 @@
         "name": "PLAN: Wooden Bin Pile",
         "image": "PLAN- Wooden Bin Pile.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29198,7 +29326,8 @@
         "name": "PLAN: Purple Standing Torch",
         "image": "PLAN- Purple Standing Torch.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29217,7 +29346,8 @@
         "name": "Draconic Visage",
         "image": "Draconic Visage.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29235,7 +29365,8 @@
         "name": "Coal",
         "image": "Coal.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29254,7 +29385,8 @@
         "name": "Druid's Bandosian Amulet",
         "image": "Druid's Bandosian Amulet.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29272,7 +29404,8 @@
         "name": "Bandosian Amulet",
         "image": "Bandosian Amulet.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29290,7 +29423,8 @@
         "name": "Tainted King's Token",
         "image": "Tainted King's Token.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29309,7 +29443,8 @@
         "name": "Poison Ichor",
         "image": "Poison Ichor.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29328,7 +29463,8 @@
         "name": "Shocking Plant Bulb",
         "image": "Shocking Plant Bulb.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29347,7 +29483,8 @@
         "name": "Bird Nest",
         "image": "Bird Nest.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29366,7 +29503,8 @@
         "name": "Peach",
         "image": "Peach.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29385,7 +29523,8 @@
         "name": "Tome of the Dragon Slayer",
         "image": "Tome of the Dragon Slayer.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29403,7 +29542,8 @@
         "name": "Sun Ring",
         "image": "Sun Ring.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29421,7 +29561,8 @@
         "name": "PLAN: Blue Standing Torch",
         "image": "PLAN- Blue Standing Torch.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29440,7 +29581,8 @@
         "name": "PLAN: Green Standing Torch",
         "image": "PLAN- Green Standing Torch.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29459,7 +29601,8 @@
         "name": "PLAN: Red Standing Torch",
         "image": "PLAN- Red Standing Torch.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29478,7 +29621,8 @@
         "name": "PLAN: Blue Wall-Mounted Torch",
         "image": "PLAN- Blue Wall-Mounted Torch.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29497,7 +29641,8 @@
         "name": "PLAN: Green Wall-Mounted Torch",
         "image": "PLAN- Green Wall-Mounted Torch.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29516,7 +29661,8 @@
         "name": "PLAN: Purple Wall-Mounted Torch",
         "image": "PLAN- Purple Wall-Mounted Torch.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29535,7 +29681,8 @@
         "name": "PLAN: Red Wall-Mounted Torch",
         "image": "PLAN- Red Wall-Mounted Torch.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29554,7 +29701,8 @@
         "name": "PLAN: Textile Kit",
         "image": "PLAN- Textile Kit.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29573,7 +29721,8 @@
         "name": "PLAN: Vial Shelf",
         "image": "PLAN- Vial Shelf.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29592,7 +29741,8 @@
         "name": "PLAN: Barrel Pile",
         "image": "PLAN- Barrel Pile.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29611,7 +29761,8 @@
         "name": "PLAN: Broken Wooden Crate",
         "image": "PLAN- Broken Wooden Crate.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29630,7 +29781,8 @@
         "name": "PLAN: Keg Barrel",
         "image": "PLAN- Keg Barrel.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29649,7 +29801,8 @@
         "name": "PLAN: Wooden Bin",
         "image": "PLAN- Wooden Bin.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29668,7 +29821,8 @@
         "name": "PLAN: Dragonkin Gargoyle 01",
         "image": "PLAN- Dragonkin Gargoyle 01.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29687,7 +29841,8 @@
         "name": "PLAN: Dragonkin Gargoyle 02",
         "image": "PLAN- Dragonkin Gargoyle 02.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29706,7 +29861,8 @@
         "name": "PLAN: Dragonkin Gargoyle 03",
         "image": "PLAN- Dragonkin Gargoyle 03.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29725,7 +29881,8 @@
         "name": "PLAN: Dragonkin Obelisk 01",
         "image": "PLAN- Dragonkin Obelisk 01.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29744,7 +29901,8 @@
         "name": "PLAN: Dragonkin Obelisk 02",
         "image": "PLAN- Dragonkin Obelisk 02.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29763,7 +29921,8 @@
         "name": "PLAN: Dragonkin Obelisk 03",
         "image": "PLAN- Dragonkin Obelisk 03.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29782,7 +29941,8 @@
         "name": "PLAN: Dragonkin Statue 01",
         "image": "PLAN- Dragonkin Statue 01.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29801,7 +29961,8 @@
         "name": "PLAN: Dragonkin Statue 02",
         "image": "PLAN- Dragonkin Statue 02.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29820,7 +29981,8 @@
         "name": "PLAN: Garou Drum",
         "image": "PLAN- Garou Drum.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29839,7 +30001,8 @@
         "name": "PLAN: Garou Hanging Ornament 01",
         "image": "PLAN- Garou Hanging Ornament 01.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29858,7 +30021,8 @@
         "name": "PLAN: Garou Hanging Ornament 02",
         "image": "PLAN- Garou Hanging Ornament 02.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29877,7 +30041,8 @@
         "name": "PLAN: Garou Hanging Ornament 03",
         "image": "PLAN- Garou Hanging Ornament 03.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29896,7 +30061,8 @@
         "name": "PLAN: Garou Hanging Ornament 04",
         "image": "PLAN- Garou Hanging Ornament 04.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29915,7 +30081,8 @@
         "name": "PLAN: Garou Stool",
         "image": "PLAN- Garou Stool.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29934,7 +30101,8 @@
         "name": "PLAN: Garou Trophy 01",
         "image": "PLAN- Garou Trophy 01.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29953,7 +30121,8 @@
         "name": "PLAN: Garou Trophy 02",
         "image": "PLAN- Garou Trophy 02.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29972,7 +30141,8 @@
         "name": "PLAN: Garou Trophy 03",
         "image": "PLAN- Garou Trophy 03.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -29991,7 +30161,8 @@
         "name": "PLAN: Garou Trophy 04",
         "image": "PLAN- Garou Trophy 04.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30010,7 +30181,8 @@
         "name": "PLAN: Garou Tusks 01",
         "image": "PLAN- Garou Tusks 01.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30029,7 +30201,8 @@
         "name": "PLAN: Garou Tusks 02",
         "image": "PLAN- Garou Tusks 02.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30048,7 +30221,8 @@
         "name": "PLAN: Garou Tusks 03",
         "image": "PLAN- Garou Tusks 03.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30067,7 +30241,8 @@
         "name": "PLAN: Garou Wall Banner",
         "image": "PLAN- Garou Wall Banner.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30086,7 +30261,8 @@
         "name": "PLAN: Garou Hanging Pelt",
         "image": "PLAN- Garou Hanging Pelt.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30105,7 +30281,8 @@
         "name": "PLAN: Bowl of Onions",
         "image": "PLAN- Bowl of Onions.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30124,7 +30301,8 @@
         "name": "PLAN: Bowl of Peaches",
         "image": "PLAN- Bowl of Peaches.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30143,7 +30321,8 @@
         "name": "PLAN: Stack of Bowls",
         "image": "PLAN- Stack of Bowls.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30162,7 +30341,8 @@
         "name": "Mysterious Orb (Charged)",
         "image": "Mysterious Orb (Charged).png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30180,7 +30360,8 @@
         "name": "Suspiciously Light Tattered Boots",
         "image": "VESTIGE- Suspiciously Light Tattered Boots.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30199,7 +30380,8 @@
         "name": "VESTIGE: A Simple Broken Bow",
         "image": "VESTIGE- A Simple Broken Bow.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30218,7 +30400,8 @@
         "name": "VESTIGE: An Educational Blade",
         "image": "VESTIGE- An Educational Blade.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30237,7 +30420,8 @@
         "name": "VESTIGE: Parts of a Sinister-Looking Staff",
         "image": "VESTIGE- Parts of a Sinister-Looking Staff.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30256,7 +30440,8 @@
         "name": "VESTIGE: A Threadbare Grain Sack",
         "image": "VESTIGE- A Threadbare Grain Sack.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30275,7 +30460,8 @@
         "name": "VESTIGE: A Corroded Serrated Blade",
         "image": "VESTIGE- A Corroded Serrated Blade.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30294,7 +30480,8 @@
         "name": "VESTIGE: Remnants of a Shattered Skull",
         "image": "VESTIGE- Remnants of a Shattered Skull.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30313,7 +30500,8 @@
         "name": "VESTIGE: A Cruel Goblin Blade",
         "image": "VESTIGE- A Cruel Goblin Blade.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30332,7 +30520,8 @@
         "name": "VESTIGE: A Brutal Bladehead",
         "image": "VESTIGE- A Brutal Bladehead.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30351,7 +30540,8 @@
         "name": "VESTIGE: A String of Sinew",
         "image": "VESTIGE- A String of Sinew.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30370,7 +30560,8 @@
         "name": "VESTIGE: A Mysterious Crescent Carving",
         "image": "VESTIGE- A Mysterious Crescent Carving.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30389,7 +30580,8 @@
         "name": "PATTERN: Bloodblight Cape",
         "image": "PATTERN- Bloodblight Cape.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30407,7 +30599,8 @@
         "name": "PATTERN: Bramblemead Cape",
         "image": "PATTERN- Bramblemead Cape.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30425,7 +30618,8 @@
         "name": "PATTERN: Fractured Cape",
         "image": "PATTERN- Fractured Cape.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30443,7 +30637,8 @@
         "name": "PATTERN: Stormtouched Cape",
         "image": "PATTERN- Stormtouched Cape.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30461,7 +30656,8 @@
         "name": "PATTERN: Whispering Cape",
         "image": "PATTERN- Whispering Cape.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30479,7 +30675,8 @@
         "name": "Hermit Ring",
         "image": "Hermit Ring.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30497,7 +30694,8 @@
         "name": "Tome of Runecrafting - Vol 1.",
         "image": "Tome_of_Runecrafting - Vol_1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30515,7 +30713,8 @@
         "name": "Emerald",
         "image": "Emerald.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30534,7 +30733,8 @@
         "name": "Tome of Cooking - Vol 1.",
         "image": "Tome of Cooking - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30552,7 +30752,8 @@
         "name": "Tome of Woodcutting - Vol 1.",
         "image": "Tome of Woodcutting - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30570,7 +30771,8 @@
         "name": "Tome of the Artisan - Vol 1.",
         "image": "Tome of the Artisan - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30588,7 +30790,8 @@
         "name": "Tome of Mining - Vol 1.",
         "image": "Tome of Mining - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30606,7 +30809,8 @@
         "name": "Tome of Attack - Vol 1.",
         "image": "Tome of Attack - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30625,7 +30829,8 @@
         "name": "Tome of Construction - Vol 1.",
         "image": "Tome of Construction - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30644,7 +30849,8 @@
         "name": "Tome of Magic - Vol 1.",
         "image": "Tome of Magic - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30662,7 +30868,8 @@
         "name": "Tome of Ranged - Vol 1.",
         "image": "Tome of Ranged - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30680,7 +30887,8 @@
         "name": "Woodsman Ring",
         "image": "Woodsman Ring.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30698,7 +30906,8 @@
         "name": "Vial",
         "image": "Vial.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30717,7 +30926,8 @@
         "name": "Dragon Slayer Reward Pack",
         "image": "Dragon Slayer Reward Pack.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30736,7 +30946,8 @@
         "name": "Crystal Seed",
         "image": "Crystal Seed.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30754,7 +30965,8 @@
         "name": "Moon Ring",
         "image": "Moon Ring.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30772,7 +30984,8 @@
         "name": "Moon Ring",
         "image": "Moon Ring.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30790,7 +31003,8 @@
         "name": "Herd Ring",
         "image": "Herd Ring.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30808,7 +31022,8 @@
         "name": "Gourmand Ring",
         "image": "Gourmand Ring.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30826,7 +31041,8 @@
         "name": "Phoenix Ring",
         "image": "Phoenix Ring.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30844,7 +31060,8 @@
         "name": "Mule Ring",
         "image": "Mule Ring.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30862,7 +31079,8 @@
         "name": "Soda Ash",
         "image": "Soda Ash.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30881,7 +31099,8 @@
         "name": "Vine Root",
         "image": "Vine Root.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30900,7 +31119,8 @@
         "name": "Molten Glass",
         "image": "Molten Glass.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30919,7 +31139,8 @@
         "name": "Fuel Briquette",
         "image": "Fuel Briquette.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30938,7 +31159,8 @@
         "name": "Clay Slab (Unfired)",
         "image": "Clay Slab (Unfired).png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30957,7 +31179,8 @@
         "name": "Clay Slab",
         "image": "Clay Slab.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30976,7 +31199,8 @@
         "name": "Divine Cabbage",
         "image": "Divine Cabbage.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -30995,7 +31219,8 @@
         "name": "Restless Ghosts Reward Pack",
         "image": "Restless Ghosts Reward Pack.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31014,7 +31239,8 @@
         "name": "Wooden Arrow",
         "image": "Wooden Arrow.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31033,7 +31259,8 @@
         "name": "Wooden Club",
         "image": "Wooden Club.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31051,7 +31278,8 @@
         "name": "Kwuarm",
         "image": "Kwuarm.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31070,7 +31298,8 @@
         "name": "Blurite Ore",
         "image": "Blurite Ore.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31089,7 +31318,8 @@
         "name": "Shrapnel",
         "image": "Shrapnel.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31108,7 +31338,8 @@
         "name": "VESTIGE: Azure Metal Contraption",
         "image": "VESTIGE- Azure Metal Contraption.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31127,7 +31358,8 @@
         "name": "PLAN: Potted Dwellberry Bush",
         "image": "PLAN- Potted Dwellberry Bush.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31146,7 +31378,8 @@
         "name": "PLAN: Potted Redberry Bush",
         "image": "PLAN- Potted Redberry Bush.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31165,7 +31398,8 @@
         "name": "PLAN: Potted Onion",
         "image": "PLAN- Potted Onion.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31184,7 +31418,8 @@
         "name": "Naptha",
         "image": "Naptha.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31203,7 +31438,8 @@
         "name": "Fang Fire Arrow",
         "image": "Fang Fire Arrow.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31222,7 +31458,8 @@
         "name": "Fang Barbed Arrow",
         "image": "Fang Barbed Arrow.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31241,7 +31478,8 @@
         "name": "Egg",
         "image": "Egg.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31260,7 +31498,8 @@
         "name": "Weeds",
         "image": "Weeds.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31279,7 +31518,8 @@
         "name": "Soul Fragment",
         "image": "Soul Fragment.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31298,7 +31538,8 @@
         "name": "Wheat",
         "image": "Wheat.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31317,7 +31558,8 @@
         "name": "Cabbage Seeds",
         "image": "Cabbage Seeds.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31336,7 +31578,8 @@
         "name": "Ash Tree Seed",
         "image": "Ash Tree Seed.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31355,7 +31598,8 @@
         "name": "Snapdragon Seeds",
         "image": "Snapdragon Seeds.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31374,7 +31618,8 @@
         "name": "Cadavaberries",
         "image": "Cadavaberries.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31393,7 +31638,8 @@
         "name": "Corpse Cotton",
         "image": "Corpse Cotton.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31412,7 +31658,8 @@
         "name": "Diamond",
         "image": "Diamond.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31431,7 +31678,8 @@
         "name": "Curse Fragment (Grief)",
         "image": "Curse Fragment (Grief).png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31450,7 +31698,8 @@
         "name": "Zogre Pack",
         "image": "Zogre Pack.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31469,7 +31718,8 @@
         "name": "Pumpkin",
         "image": "Pumpkin.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31488,7 +31738,8 @@
         "name": "Willow Logs",
         "image": "Willow Logs.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31507,7 +31758,8 @@
         "name": "Tomato",
         "image": "Tomato.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31526,7 +31778,8 @@
         "name": "Zombie Pack",
         "image": "Zombie Pack.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31545,7 +31798,8 @@
         "name": "Watermelon",
         "image": "Watermelon.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31564,7 +31818,8 @@
         "name": "Watermelon Seeds",
         "image": "Watermelon Seeds.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31583,7 +31838,8 @@
         "name": "Oak Tree Seed",
         "image": "Oak Tree Seed.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31602,7 +31858,8 @@
         "name": "Willow Tree Seed",
         "image": "Willow Tree Seed.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31621,7 +31878,8 @@
         "name": "Dragonwolf Hide",
         "image": "Dragonwolf Hide.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31640,7 +31898,8 @@
         "name": "Withered Heart",
         "image": "Withered Heart.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31659,7 +31918,8 @@
         "name": "Hollow Bark",
         "image": "Hollow Bark.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31678,7 +31938,8 @@
         "name": "Irit",
         "image": "Irit.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31697,7 +31958,8 @@
         "name": "Undead Bone",
         "image": "Undead Bone.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31716,7 +31978,8 @@
         "name": "Dragon Blood",
         "image": "Dragon Blood.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31735,7 +31998,8 @@
         "name": "Wither Water",
         "image": "Wither Water.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31754,7 +32018,8 @@
         "name": "VESTIGE: Cloying Damp Cowl",
         "image": "VESTIGE: Cloying Damp Cowl.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31773,7 +32038,8 @@
         "name": "Skeleton Pack",
         "image": "Skeleton Pack.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31792,7 +32058,8 @@
         "name": "Tome of Farming - Vol 2",
         "image": "Tome of Farming - Vol 2.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31811,7 +32078,8 @@
         "name": "Spare Farmer's Supplies",
         "image": "Spare Farmer's Supplies.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31830,7 +32098,8 @@
         "name": "Primordial Heart",
         "image": "Primordial Heart.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31849,7 +32118,8 @@
         "name": "Green Dragon Hide",
         "image": "Green Dragon Hide.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31868,7 +32138,8 @@
         "name": "Hard Leather Scraps",
         "image": "Hard Leather Scraps.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31887,7 +32158,8 @@
         "name": "Undead Meat",
         "image": "Undead Meat.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31906,7 +32178,8 @@
         "name": "Imaru's Head",
         "image": "Imaru's Head.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31925,7 +32198,8 @@
         "name": "Tome of the Undying",
         "image": "Tome of the Undying.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31943,7 +32217,8 @@
         "name": "Withering Heights Reward Pack",
         "image": "Dragon Slayer Reward Pack.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31962,7 +32237,8 @@
         "name": "Saradomin Symbol",
         "image": "Saradomin Symbol.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -31981,7 +32257,8 @@
         "name": "Toadflax Seeds",
         "image": "Toadflax Seeds.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32000,7 +32277,8 @@
         "name": "VESTIGE: Burnished Belt Buckle",
         "image": "VESTIGE- Burnished Belt Buckle.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32019,7 +32297,8 @@
         "name": "Undead Draconic Visage",
         "image": "Undead Draconic Visage.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32037,7 +32316,8 @@
         "name": "Fallen Hoplite's Aspis",
         "image": "Fallen Hoplite's Aspis.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32055,7 +32335,8 @@
         "name": "Salve Crystal",
         "image": "Salve Crystal.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32073,7 +32354,8 @@
         "name": "Poisoned Steel Arrow",
         "image": "Poisoned Steel Arrow.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32092,7 +32374,8 @@
         "name": "Steel Barbed Arrow",
         "image": "Steel Barbed Arrow.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32111,7 +32394,8 @@
         "name": "Tome of the Artisan - Vol 2.",
         "image": "Tome of the Artisan - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32129,7 +32413,8 @@
         "name": "Tome of Attack - Vol 2.",
         "image": "Tome of Attack - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32147,7 +32432,8 @@
         "name": "Tome of Woodcutting - Vol 2.",
         "image": "Tome of Woodcutting - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32165,7 +32451,8 @@
         "name": "Tome of Runecrafting - Vol 2.",
         "image": "Tome of Runecrafting - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32183,7 +32470,8 @@
         "name": "Tome of Ranged - Vol 2.",
         "image": "Tome of Ranged - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32201,7 +32489,8 @@
         "name": "Tome of Magic - Vol 2.",
         "image": "Tome of Magic - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32219,7 +32508,8 @@
         "name": "Tome of Cooking - Vol 2.",
         "image": "Tome of Cooking - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32237,7 +32527,8 @@
         "name": "Tome of Construction - Vol 2.",
         "image": "Tome of Construction - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32255,7 +32546,8 @@
         "name": "Tome of Mining - Vol 2.",
         "image": "Tome of Mining - Vol 1..png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32273,7 +32565,8 @@
         "name": "Curse Fragment (Despair)",
         "image": "Curse Fragment (Despair).png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32292,7 +32585,8 @@
         "name": "Curse Fragment (Rage)",
         "image": "Curse Fragment (Rage).png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32311,7 +32605,8 @@
         "name": "Dust-covered Sketchbook",
         "image": "Dust-covered Sketchbook.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32330,7 +32625,8 @@
         "name": "PATTERN: Fell Cape",
         "image": "PATTERN - Fell Cape.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32349,7 +32645,8 @@
         "name": "VESTIGE: Sundering Spiked Slab",
         "image": "VESTIGE- Sundering Spiked Slab.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32368,7 +32665,8 @@
         "name": "VESTIGE: Tastefully Torn Tights",
         "image": "VESTIGE: Tastefully Torn Tights.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32387,7 +32685,8 @@
         "name": "VESTIGE: Rotten Farming Tool",
         "image": "VESTIGE- Rotten Farming Tool.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32406,7 +32705,8 @@
         "name": "Spectral Chinchompa Cape",
         "image": "Spectral Chinchompa Cape.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32424,7 +32724,8 @@
         "name": "Spectral Chinchompa Skull",
         "image": "Spectral Chinchompa Skull.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32442,7 +32743,8 @@
         "name": "VESTIGE: Shard of Smoky Glass",
         "image": "VESTIGE: Shard of Smoky Glass.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32461,7 +32763,8 @@
         "name": "Doric's Smithing Supplies",
         "image": "Dragon Slayer Reward Pack.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32480,7 +32783,8 @@
         "name": "Doric's Superior Smithing Supplies",
         "image": "Dragon Slayer Reward Pack.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32499,7 +32803,8 @@
         "name": "VESTIGE: Tattered Time-Lost Cloth",
         "image": "VESTIGE: Tattered Time-Lost Cloth.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32518,7 +32823,8 @@
         "name": "VESTIGE: Serrated Claw",
         "image": "Imaru's Talon.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -32537,12 +32843,33 @@
         "name": "Shroud of Noggin (vestige)",
         "image": "Shroud of Noggin.png",
         "variantName": null,
-        "recipe": null
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
     "facilities": [],
     "wikiLink": "Shroud_of_Noggin_(vestige)",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "503dcdc220b5",
+    "name": "Bedraggled Spellbook",
+    "image": "Bedraggled Spellbook.png",
+    "variants": [
+      {
+        "id": "503dcdc220b5",
+        "name": "Bedraggled Spellbook",
+        "image": "Bedraggled Spellbook.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Bedraggled_Spellbook",
     "weight": 0,
     "stackLimit": 99
   }
