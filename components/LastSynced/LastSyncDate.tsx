@@ -22,7 +22,7 @@ const formatLong = Intl.DateTimeFormat("en-GB", {
 
 const LastSyncedDate = cache(async function LastSyncDate(props: Props) {
   "use cache";
-  cacheLife("days");
+  cacheLife("hours");
   cacheTag("lastSynced");
   const updatedAt = await lastSynced();
   if (!updatedAt) {
