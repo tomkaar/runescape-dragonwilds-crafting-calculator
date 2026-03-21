@@ -64,3 +64,9 @@ jobs:
         with:
           pull-request-number: ${{ steps.create-pr.outputs.pull-request-number }}
           merge-method: squash
+
+      - name: Revalidate production cache
+        if: ${{ !steps.create-pr.outputs.pull-request-number }}
+        run: |
+          curl --fail --silent --show-error \
+            https://runescape-dragonwilds-crafting-calc.vercel.app/api/cache/revalidate
