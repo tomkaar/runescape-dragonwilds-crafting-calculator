@@ -32872,5 +32872,85 @@
     "wikiLink": "Bedraggled_Spellbook",
     "weight": 0,
     "stackLimit": 99
+  },
+  {
+    "id": "b618a74c8314",
+    "name": "PLAN: Grave 1",
+    "image": "PLAN: Grave 1.png",
+    "variants": [
+      {
+        "id": "b618a74c8314",
+        "name": "PLAN: Grave 1",
+        "image": "PLAN: Grave 1.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Grave_1",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "fd01100d5a4f",
+    "name": "PLAN: Grave 2",
+    "image": "PLAN: Grave 2.png",
+    "variants": [
+      {
+        "id": "fd01100d5a4f",
+        "name": "PLAN: Grave 2",
+        "image": "PLAN: Grave 2.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Grave_2",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "8d571ce5242b",
+    "name": "PLAN: Grave 3",
+    "image": "PLAN: Grave 3.png",
+    "variants": [
+      {
+        "id": "8d571ce5242b",
+        "name": "PLAN: Grave 3",
+        "image": "PLAN: Grave 3.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Grave_3",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "5071c16aae67",
+    "name": "PLAN: Grave 4",
+    "image": "PLAN: Grave 4.png",
+    "variants": [
+      {
+        "id": "5071c16aae67",
+        "name": "PLAN: Grave 4",
+        "image": "PLAN: Grave 4.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Grave_4",
+    "weight": 0,
+    "stackLimit": 99
   }
 ]
