@@ -11127,13 +11127,13 @@
   },
   {
     "page_name": "Doric's Smithing Supplies",
-    "item_description": "A cloth shoulder back<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be &quot;bag&quot;\">sic</span>&#93;</sup>, contains useful smithing material",
+    "item_description": "A cloth shoulder back<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be &quot;bag&quot;\">sic</span>&#93;</sup>, contains useful smithing materials.",
     "item_name": "Doric's Smithing Supplies",
     "item_type": "Resource",
     "item_stacklimit": 10,
     "json": {
       "type": "Resource",
-      "description": "A cloth shoulder back<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be &quot;bag&quot;\">sic</span>&#93;</sup>, contains useful smithing material",
+      "description": "A cloth shoulder back<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be &quot;bag&quot;\">sic</span>&#93;</sup>, contains useful smithing materials.",
       "image": "[[File:Dragon Slayer Reward Pack.png|32px]]",
       "name": "Doric's Smithing Supplies",
       "weight": "1.0",
@@ -11145,13 +11145,13 @@
   },
   {
     "page_name": "Doric's Superior Smithing Supplies",
-    "item_description": "A cloth shoulder back<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be bag\">sic</span>&#93;</sup>, contains useful smithing material.",
+    "item_description": "A cloth shoulder back<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be bag\">sic</span>&#93;</sup>, contains useful smithing materials.",
     "item_name": "Doric's Superior Smithing Supplies",
     "item_type": "Resource",
     "item_stacklimit": 10,
     "json": {
       "type": "Resource",
-      "description": "A cloth shoulder back<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be bag\">sic</span>&#93;</sup>, contains useful smithing material.",
+      "description": "A cloth shoulder back<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be bag\">sic</span>&#93;</sup>, contains useful smithing materials.",
       "image": "[[File:Dragon Slayer Reward Pack.png|32px]]",
       "name": "Doric's Superior Smithing Supplies",
       "weight": "1.0",
@@ -11355,5 +11355,77 @@
     },
     "item_weight": 0,
     "page_name_sub": "Spectral Silver Thread"
+  },
+  {
+    "page_name": "PLAN: Grave 1",
+    "item_description": "",
+    "item_name": "PLAN: Grave 1",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN: Grave 1.png|32px]]",
+      "name": "PLAN: Grave 1",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Grave 1.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Grave 1"
+  },
+  {
+    "page_name": "PLAN: Grave 2",
+    "item_description": "",
+    "item_name": "PLAN: Grave 2",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN: Grave 2.png|32px]]",
+      "name": "PLAN: Grave 2",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Grave 2.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Grave 2"
+  },
+  {
+    "page_name": "PLAN: Grave 3",
+    "item_description": "",
+    "item_name": "PLAN: Grave 3",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN: Grave 3.png|32px]]",
+      "name": "PLAN: Grave 3",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Grave 3.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Grave 3"
+  },
+  {
+    "page_name": "PLAN: Grave 4",
+    "item_description": "",
+    "item_name": "PLAN: Grave 4",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN: Grave 4.png|32px]]",
+      "name": "PLAN: Grave 4",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Grave 4.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Grave 4"
   }
 ]
