@@ -42518,5 +42518,293 @@
     "output": [
       "Spectral Silver Thread"
     ]
+  },
+  {
+    "uses_material": [
+      "Stone"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Grave 1"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Grave 1",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "20",
+          "name": "Stone",
+          "link": "Stone",
+          "qty": "20",
+          "item": "Stone",
+          "image": "[[File:Stone.png|30px|link=Stone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Grave 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Grave 01",
+        "link": "Grave 01",
+        "qty": 1,
+        "item": "Grave 01",
+        "image": "[[File:Grave 01.png|30px|link=Grave 01]]"
+      }
+    },
+    "output": [
+      "Grave 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ectoplasm"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Spectral Book"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Spectral Book",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ectoplasm",
+          "link": "Ectoplasm",
+          "qty": "5",
+          "item": "Ectoplasm",
+          "image": "[[File:Ectoplasm.png|30px|link=Ectoplasm]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Spectral Book"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Spectral Book",
+        "link": "Spectral Book",
+        "qty": 1,
+        "item": "Spectral Book",
+        "image": "[[File:Spectral Book.png|30px|link=Spectral Book]]"
+      }
+    },
+    "output": [
+      "Spectral Book"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Headstone 02"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Headstone 02",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "22",
+          "name": "Stone",
+          "link": "Stone",
+          "qty": "22",
+          "item": "Stone",
+          "image": "[[File:Stone.png|30px|link=Stone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Headstone 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Headstone 02",
+        "link": "Headstone 02",
+        "qty": 1,
+        "item": "Headstone 02",
+        "image": "[[File:Headstone 02.png|30px|link=Headstone 02]]"
+      }
+    },
+    "output": [
+      "Headstone 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Grave 4"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Grave 4",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "30",
+          "name": "Stone",
+          "link": "Stone",
+          "qty": "30",
+          "item": "Stone",
+          "image": "[[File:Stone.png|30px|link=Stone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Grave 04"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Grave 04",
+        "link": "Grave 04",
+        "qty": 1,
+        "item": "Grave 04",
+        "image": "[[File:Grave 04.png|30px|link=Grave 04]]"
+      }
+    },
+    "output": [
+      "Grave 04"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Grave 2"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Grave 2",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "20",
+          "name": "Stone",
+          "link": "Stone",
+          "qty": "20",
+          "item": "Stone",
+          "image": "[[File:Stone.png|30px|link=Stone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Grave 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Grave 02",
+        "link": "Grave 02",
+        "qty": 1,
+        "item": "Grave 02",
+        "image": "[[File:Grave 02.png|30px|link=Grave 02]]"
+      }
+    },
+    "output": [
+      "Grave 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Grave 3"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Grave 3",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "19",
+          "name": "Stone",
+          "link": "Stone",
+          "qty": "19",
+          "item": "Stone",
+          "image": "[[File:Stone.png|30px|link=Stone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Grave 03"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Grave 03",
+        "link": "Grave 03",
+        "qty": 1,
+        "item": "Grave 03",
+        "image": "[[File:Grave 03.png|30px|link=Grave 03]]"
+      }
+    },
+    "output": [
+      "Grave 03"
+    ]
   }
 ]

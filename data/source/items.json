@@ -11110,6 +11110,24 @@
     "page_name_sub": "Beef & Tomato Stew"
   },
   {
+    "page_name": "PLAN: Headstone 01",
+    "item_description": "",
+    "item_name": "PLAN: Headstone 01",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN- Headstone 01.png|32px]]",
+      "name": "PLAN: Headstone 01",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "PLAN- Headstone 01.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Headstone 01"
+  },
+  {
     "page_name": "Shard of Smoky Glass",
     "item_stacklimit": 99,
     "item_name": "VESTIGE: Shard of Smoky Glass",
@@ -11427,5 +11445,41 @@
     },
     "item_weight": 0,
     "page_name_sub": "PLAN: Grave 4"
+  },
+  {
+    "page_name": "PLAN: Spectral Book",
+    "item_description": "",
+    "item_name": "PLAN: Spectral Book",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN- Spectral Book.png|32px]]",
+      "name": "PLAN: Spectral Book",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "PLAN- Spectral Book.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Spectral Book"
+  },
+  {
+    "page_name": "PLAN: Headstone 02",
+    "item_description": "",
+    "item_name": "PLAN: Headstone 02",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN- Headstone 02.png|32px]]",
+      "name": "PLAN: Headstone 02",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "PLAN- Headstone 02.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Headstone 02"
   }
 ]
