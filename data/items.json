@@ -27720,6 +27720,210 @@
     "stackLimit": 99
   },
   {
+    "id": "c4ffdeda3a9d",
+    "name": "Grave 01",
+    "image": "Grave 01.png",
+    "variants": [
+      {
+        "id": "0f5411f6410e",
+        "name": "Grave 01",
+        "image": "Grave 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0834c928e414",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "6ffa6b8b1c9f",
+              "quantity": 20
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Grave 1"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Grave_01"
+  },
+  {
+    "id": "f6913b4b96c5",
+    "name": "Spectral Book",
+    "image": "Spectral Book.png",
+    "variants": [
+      {
+        "id": "f69276b5a7da",
+        "name": "Spectral Book",
+        "image": "Spectral Book.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ae3c469eecde",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1fdcca91d949",
+              "quantity": 5
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Spectral Book"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Spectral_Book"
+  },
+  {
+    "id": "f4b583d37ecd",
+    "name": "Headstone 02",
+    "image": "Headstone 02.png",
+    "variants": [
+      {
+        "id": "138dd894fdac",
+        "name": "Headstone 02",
+        "image": "Headstone 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c2a075a1808b",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "6ffa6b8b1c9f",
+              "quantity": 22
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Headstone 02"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Headstone_02"
+  },
+  {
+    "id": "3d83f955aa39",
+    "name": "Grave 04",
+    "image": "Grave 04.png",
+    "variants": [
+      {
+        "id": "3e1d17717af4",
+        "name": "Grave 04",
+        "image": "Grave 04.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8b446c02c9fb",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "6ffa6b8b1c9f",
+              "quantity": 30
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Grave 4"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Grave_04"
+  },
+  {
+    "id": "fc7197ab988c",
+    "name": "Grave 02",
+    "image": "Grave 02.png",
+    "variants": [
+      {
+        "id": "0f5411f6410e",
+        "name": "Grave 02",
+        "image": "Grave 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0834c928e414",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "6ffa6b8b1c9f",
+              "quantity": 20
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Grave 2"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Grave_02"
+  },
+  {
+    "id": "bacfa59eba77",
+    "name": "Grave 03",
+    "image": "Grave 03.png",
+    "variants": [
+      {
+        "id": "422f17b75122",
+        "name": "Grave 03",
+        "image": "Grave 03.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8b7e00192dd7",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "6ffa6b8b1c9f",
+              "quantity": 19
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Grave 3"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Grave_03"
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -32734,6 +32938,26 @@
     "weight": 0
   },
   {
+    "id": "7a4aeb7c70ae",
+    "name": "PLAN: Headstone 01",
+    "image": "PLAN- Headstone 01.png",
+    "variants": [
+      {
+        "id": "7a4aeb7c70ae",
+        "name": "PLAN: Headstone 01",
+        "image": "PLAN- Headstone 01.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Headstone_01",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
     "id": "d6d451d46468",
     "name": "Shard of Smoky Glass",
     "image": "VESTIGE: Shard of Smoky Glass.png",
@@ -32950,6 +33174,46 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Grave_4",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "cd6fe88710e8",
+    "name": "PLAN: Spectral Book",
+    "image": "PLAN- Spectral Book.png",
+    "variants": [
+      {
+        "id": "cd6fe88710e8",
+        "name": "PLAN: Spectral Book",
+        "image": "PLAN- Spectral Book.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Spectral_Book",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "af5f6241782e",
+    "name": "PLAN: Headstone 02",
+    "image": "PLAN- Headstone 02.png",
+    "variants": [
+      {
+        "id": "af5f6241782e",
+        "name": "PLAN: Headstone 02",
+        "image": "PLAN- Headstone 02.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Headstone_02",
     "weight": 0,
     "stackLimit": 99
   }
