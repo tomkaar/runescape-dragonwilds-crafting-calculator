@@ -668,7 +668,7 @@
       "description": "A mysterious porous rock used as a base for powerful runes.",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
-      "weight": "0.2'\"`UNIQ--ref-00000002-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
       "stacklimit": "99",
       "image_raw": "Rune Essence.png"
     },
