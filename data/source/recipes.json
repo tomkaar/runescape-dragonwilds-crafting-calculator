@@ -35134,10 +35134,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "VESTIGE: Shard of Smoky Glass"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "VESTIGE: Shard of Smoky Glass",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -38502,10 +38506,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "VESTIGE: Crushed White Cuisse"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "VESTIGE: Crushed White Cuisse",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -38874,10 +38882,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "VESTIGE: Burnished Belt Buckle"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "VESTIGE: Burnished Belt Buckle",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -38954,10 +38966,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "VESTIGE: Curse Carrying Crown"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "VESTIGE: Curse Carrying Crown",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -39034,10 +39050,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "VESTIGE: Remnants of a Rotting Robe"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "VESTIGE: Remnants of a Rotting Robe",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -39386,10 +39406,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "VESTIGE: Simply Splendid Feather"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "VESTIGE: Simply Splendid Feather",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -39466,10 +39490,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "VESTIGE: Slightly Chaffing Chestguard"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "VESTIGE: Slightly Chaffing Chestguard",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -39703,10 +39731,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "VESTIGE: Corroded White Visor"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "VESTIGE: Corroded White Visor",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -39792,10 +39824,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "VESTIGE: Dented White Pauldron"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "VESTIGE: Dented White Pauldron",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -42087,13 +42123,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "Serrated Claw"
+      "VESTIGE: Serrated Claw"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "Serrated Claw",
+      "recipe": "VESTIGE: Serrated Claw",
       "facility": "Smithing Anvil",
       "materials": [
         {

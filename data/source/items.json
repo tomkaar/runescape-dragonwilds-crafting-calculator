@@ -5774,24 +5774,6 @@
     "page_name_sub": "Suspiciously Light Tattered Boots"
   },
   {
-    "page_name": "A Simple Broken Bow",
-    "item_description": "The remains of a longbow damaged in a dragon attack. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: A Simple Broken Bow",
-    "item_type": "Consumable",
-    "item_stacklimit": 99,
-    "json": {
-      "type": "Consumable",
-      "description": "The remains of a longbow damaged in a dragon attack. Perhaps you could learn something from it.",
-      "image": "[[File:VESTIGE- A Simple Broken Bow.png|32px]]",
-      "name": "VESTIGE: A Simple Broken Bow",
-      "weight": "0",
-      "stacklimit": "99",
-      "image_raw": "VESTIGE- A Simple Broken Bow.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "A Simple Broken Bow"
-  },
-  {
     "page_name": "VESTIGE: An Educational Blade",
     "item_description": "A crude wooden blade and handle, what's left of a child's toy turned to weaponry. Perhaps you could learn something from it.",
     "item_name": "VESTIGE: An Educational Blade",
@@ -5826,24 +5808,6 @@
     },
     "item_weight": 0,
     "page_name_sub": "VESTIGE: Parts of a Sinister-Looking Staff"
-  },
-  {
-    "page_name": "A Threadbare Grain Sack",
-    "item_description": "An odd bundle of scratchy sackcloth. It's unsettling to hold. Still, perhaps you could learn something from it.",
-    "item_name": "VESTIGE: A Threadbare Grain Sack",
-    "item_type": "Consumable",
-    "item_stacklimit": 99,
-    "json": {
-      "type": "Consumable",
-      "description": "An odd bundle of scratchy sackcloth. It's unsettling to hold. Still, perhaps you could learn something from it.",
-      "image": "[[File:VESTIGE- A Threadbare Grain Sack.png|32px]]",
-      "name": "VESTIGE: A Threadbare Grain Sack",
-      "weight": "0",
-      "stacklimit": "99",
-      "image_raw": "VESTIGE- A Threadbare Grain Sack.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "A Threadbare Grain Sack"
   },
   {
     "page_name": "VESTIGE: A Corroded Serrated Blade",
@@ -9844,11 +9808,11 @@
     "json": {
       "type": "Consumable",
       "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
-      "image": "[[File:VESTIGE- Burnished Belt Buckle.png|32px]]",
+      "image": "[[File:VESTIGE: Burnished Belt Buckle.png|32px]]",
       "name": "VESTIGE: Burnished Belt Buckle",
       "weight": "0",
       "stacklimit": "99",
-      "image_raw": "VESTIGE- Burnished Belt Buckle.png"
+      "image_raw": "VESTIGE: Burnished Belt Buckle.png"
     },
     "item_weight": 0,
     "page_name_sub": "VESTIGE: Burnished Belt Buckle"
@@ -11128,11 +11092,11 @@
     "page_name_sub": "PLAN: Headstone 01"
   },
   {
-    "page_name": "Shard of Smoky Glass",
+    "page_name": "VESTIGE: Shard of Smoky Glass",
     "item_stacklimit": 99,
     "item_name": "VESTIGE: Shard of Smoky Glass",
     "item_weight": 0,
-    "page_name_sub": "Shard of Smoky Glass",
+    "page_name_sub": "VESTIGE: Shard of Smoky Glass",
     "json": {
       "type": "Vestige",
       "image": "[[File:VESTIGE: Shard of Smoky Glass.png|32px]]",
@@ -11232,24 +11196,6 @@
     "item_weight": 15
   },
   {
-    "page_name": "Serrated Claw",
-    "item_description": "A vicious claw once belonging to Imaru, which was used to try and rip you apart more than a few times. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: Serrated Claw",
-    "item_type": "Vestige",
-    "item_stacklimit": 99,
-    "json": {
-      "type": "Vestige",
-      "description": "A vicious claw once belonging to Imaru, which was used to try and rip you apart more than a few times. Perhaps you could learn something from it.",
-      "image": "[[File:Imaru's Talon.png|32px]]",
-      "name": "VESTIGE: Serrated Claw",
-      "weight": "0.0",
-      "stacklimit": "99",
-      "image_raw": "Imaru's Talon.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "Serrated Claw"
-  },
-  {
     "page_name": "Ulv's Longbow",
     "item_description": "Once the bow of a silent hunter. Deals additional damage to unaware targets.",
     "item_name": "Ulv's Longbow",
@@ -11300,6 +11246,60 @@
     },
     "item_weight": 0,
     "page_name_sub": "Shroud of Noggin (vestige)"
+  },
+  {
+    "page_name": "VESTIGE: Serrated Claw",
+    "item_description": "A vicious claw once belonging to Imaru, which was used to try and rip you apart more than a few times. Perhaps you could learn something from it.",
+    "item_name": "VESTIGE: Serrated Claw",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "A vicious claw once belonging to Imaru, which was used to try and rip you apart more than a few times. Perhaps you could learn something from it.",
+      "image": "[[File:Imaru's Talon.png|32px]]",
+      "name": "VESTIGE: Serrated Claw",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Imaru's Talon.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "VESTIGE: Serrated Claw"
+  },
+  {
+    "page_name": "VESTIGE: A Simple Broken Bow",
+    "item_description": "The remains of a longbow damaged in a dragon attack. Perhaps you could learn something from it.",
+    "item_name": "VESTIGE: A Simple Broken Bow",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "The remains of a longbow damaged in a dragon attack. Perhaps you could learn something from it.",
+      "image": "[[File:VESTIGE- A Simple Broken Bow.png|32px]]",
+      "name": "VESTIGE: A Simple Broken Bow",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "VESTIGE- A Simple Broken Bow.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "VESTIGE: A Simple Broken Bow"
+  },
+  {
+    "page_name": "VESTIGE: A Threadbare Grain Sack",
+    "item_description": "An odd bundle of scratchy sackcloth. It's unsettling to hold. Still, perhaps you could learn something from it.",
+    "item_name": "VESTIGE: A Threadbare Grain Sack",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "An odd bundle of scratchy sackcloth. It's unsettling to hold. Still, perhaps you could learn something from it.",
+      "image": "[[File:VESTIGE- A Threadbare Grain Sack.png|32px]]",
+      "name": "VESTIGE: A Threadbare Grain Sack",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "VESTIGE- A Threadbare Grain Sack.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "VESTIGE: A Threadbare Grain Sack"
   },
   {
     "page_name": "Burnt Undead Steak",
@@ -11481,5 +11481,127 @@
     },
     "item_weight": 0,
     "page_name_sub": "PLAN: Headstone 02"
+  },
+  {
+    "page_name": "VESTIGE: Corroded White Visor",
+    "item_stacklimit": 99,
+    "item_name": "VESTIGE: Corroded White Visor",
+    "item_weight": 0,
+    "page_name_sub": "VESTIGE: Corroded White Visor",
+    "json": {
+      "type": "Consumable",
+      "image": "[[File:VESTIGE: Corroded White Visor.png|32px]]",
+      "name": "VESTIGE: Corroded White Visor",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "VESTIGE: Corroded White Visor.png"
+    },
+    "item_type": "Consumable"
+  },
+  {
+    "page_name": "VESTIGE: Crushed White Cuisse",
+    "item_stacklimit": 99,
+    "item_name": "VESTIGE: Crushed White Cuisse",
+    "item_weight": 0,
+    "page_name_sub": "VESTIGE: Crushed White Cuisse",
+    "json": {
+      "type": "Consumable",
+      "image": "[[File:VESTIGE: Crushed White Cuisse.png|32px]]",
+      "name": "VESTIGE: Crushed White Cuisse",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "VESTIGE: Crushed White Cuisse.png"
+    },
+    "item_type": "Consumable"
+  },
+  {
+    "page_name": "VESTIGE: Curse Carrying Crown",
+    "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+    "item_name": "VESTIGE: Curse Carrying Crown",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+      "image": "[[File:VESTIGE: Curse Carrying Crown.png|32px]]",
+      "name": "VESTIGE: Curse Carrying Crown",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "VESTIGE: Curse Carrying Crown.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "VESTIGE: Curse Carrying Crown"
+  },
+  {
+    "page_name": "VESTIGE: Dented White Pauldron",
+    "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+    "item_name": "VESTIGE: Dented White Pauldron",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+      "image": "[[File:VESTIGE: Dented White Pauldron.png|32px]]",
+      "name": "VESTIGE: Dented White Pauldron",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "VESTIGE: Dented White Pauldron.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "VESTIGE: Dented White Pauldron"
+  },
+  {
+    "page_name": "VESTIGE: Remnants of a Rotting Robe",
+    "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+    "item_name": "VESTIGE: Remnants of a Rotting Robe",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+      "image": "[[File:VESTIGE: Remnants of a Rotting Robe.png|32px]]",
+      "name": "VESTIGE: Remnants of a Rotting Robe",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "VESTIGE: Remnants of a Rotting Robe.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "VESTIGE: Remnants of a Rotting Robe"
+  },
+  {
+    "page_name": "VESTIGE: Simply Splendid Feather",
+    "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+    "item_name": "VESTIGE: Simply Splendid Feather",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+      "image": "[[File:VESTIGE: Simply Splendid Feather.png|32px]]",
+      "name": "VESTIGE: Simply Splendid Feather",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "VESTIGE: Simply Splendid Feather.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "VESTIGE: Simply Splendid Feather"
+  },
+  {
+    "page_name": "VESTIGE: Slightly Chaffing Chestguard",
+    "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+    "item_name": "VESTIGE: Slightly Chaffing Chestguard",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+      "image": "[[File:VESTIGE: Slightly Chaffing Chestguard.png|32px]]",
+      "name": "VESTIGE: Slightly Chaffing Chestguard",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "VESTIGE: Slightly Chaffing Chestguard.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "VESTIGE: Slightly Chaffing Chestguard"
   }
 ]
