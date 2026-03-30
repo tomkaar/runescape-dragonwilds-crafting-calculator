@@ -22731,7 +22731,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "VESTIGE: Shard of Smoky Glass"
+        ]
       }
     ],
     "skills": [
@@ -25008,7 +25010,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "VESTIGE: Crushed White Cuisse"
+        ]
       }
     ],
     "skills": [
@@ -25255,7 +25259,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "VESTIGE: Burnished Belt Buckle"
+        ]
       }
     ],
     "skills": [
@@ -25304,7 +25310,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "VESTIGE: Curse Carrying Crown"
+        ]
       }
     ],
     "skills": [
@@ -25353,7 +25361,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "VESTIGE: Remnants of a Rotting Robe"
+        ]
       }
     ],
     "skills": [
@@ -25659,7 +25669,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "VESTIGE: Simply Splendid Feather"
+        ]
       }
     ],
     "skills": [
@@ -25708,7 +25720,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "VESTIGE: Slightly Chaffing Chestguard"
+        ]
       }
     ],
     "skills": [
@@ -25860,7 +25874,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "VESTIGE: Corroded White Visor"
+        ]
       }
     ],
     "skills": [
@@ -25913,7 +25929,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "VESTIGE: Dented White Pauldron"
+        ]
       }
     ],
     "skills": [
@@ -27458,7 +27476,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "Serrated Claw"
+          "VESTIGE: Serrated Claw"
         ]
       }
     ],
@@ -30575,26 +30593,6 @@
     "stackLimit": 99
   },
   {
-    "id": "a122753d54ec",
-    "name": "A Simple Broken Bow",
-    "image": "VESTIGE- A Simple Broken Bow.png",
-    "variants": [
-      {
-        "id": "f3dfb081e3d6",
-        "name": "VESTIGE: A Simple Broken Bow",
-        "image": "VESTIGE- A Simple Broken Bow.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "A_Simple_Broken_Bow",
-    "weight": 0,
-    "stackLimit": 99
-  },
-  {
     "id": "1715106044cd",
     "name": "VESTIGE: An Educational Blade",
     "image": "VESTIGE- An Educational Blade.png",
@@ -30631,26 +30629,6 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "VESTIGE:_Parts_of_a_Sinister-Looking_Staff",
-    "weight": 0,
-    "stackLimit": 99
-  },
-  {
-    "id": "786377f8fb83",
-    "name": "A Threadbare Grain Sack",
-    "image": "VESTIGE- A Threadbare Grain Sack.png",
-    "variants": [
-      {
-        "id": "8a5d27713a62",
-        "name": "VESTIGE: A Threadbare Grain Sack",
-        "image": "VESTIGE- A Threadbare Grain Sack.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "A_Threadbare_Grain_Sack",
     "weight": 0,
     "stackLimit": 99
   },
@@ -32474,12 +32452,12 @@
   {
     "id": "48269f4923b6",
     "name": "VESTIGE: Burnished Belt Buckle",
-    "image": "VESTIGE- Burnished Belt Buckle.png",
+    "image": "VESTIGE: Burnished Belt Buckle.png",
     "variants": [
       {
         "id": "48269f4923b6",
         "name": "VESTIGE: Burnished Belt Buckle",
-        "image": "VESTIGE- Burnished Belt Buckle.png",
+        "image": "VESTIGE: Burnished Belt Buckle.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -32958,9 +32936,9 @@
     "stackLimit": 99
   },
   {
-    "id": "d6d451d46468",
-    "name": "Shard of Smoky Glass",
-    "image": "VESTIGE: Shard of Smoky Glass.png",
+    "id": "a7529d7b1c21",
+    "name": "VESTIGE: Shard of Smoky Glass",
+    "image": "VESTIGE-_Shard_of_Smoky_Glass.png",
     "variants": [
       {
         "id": "a7529d7b1c21",
@@ -32973,7 +32951,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Shard_of_Smoky_Glass",
+    "wikiLink": "VESTIGE:_Shard_of_Smoky_Glass",
     "weight": 0,
     "stackLimit": 99
   },
@@ -33038,26 +33016,6 @@
     "stackLimit": 99
   },
   {
-    "id": "1d2b163d194e",
-    "name": "Serrated Claw",
-    "image": "Imaru's Talon.png",
-    "variants": [
-      {
-        "id": "546473c5750d",
-        "name": "VESTIGE: Serrated Claw",
-        "image": "Imaru's Talon.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Serrated_Claw",
-    "weight": 0,
-    "stackLimit": 99
-  },
-  {
     "id": "dd3ac14cd979",
     "name": "Shroud of Noggin (vestige)",
     "image": "Shroud of Noggin.png",
@@ -33074,6 +33032,66 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Shroud_of_Noggin_(vestige)",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "546473c5750d",
+    "name": "VESTIGE: Serrated Claw",
+    "image": "Imaru's Talon.png",
+    "variants": [
+      {
+        "id": "546473c5750d",
+        "name": "VESTIGE: Serrated Claw",
+        "image": "Imaru's Talon.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "VESTIGE:_Serrated_Claw",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "f3dfb081e3d6",
+    "name": "VESTIGE: A Simple Broken Bow",
+    "image": "VESTIGE- A Simple Broken Bow.png",
+    "variants": [
+      {
+        "id": "f3dfb081e3d6",
+        "name": "VESTIGE: A Simple Broken Bow",
+        "image": "VESTIGE- A Simple Broken Bow.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "VESTIGE:_A_Simple_Broken_Bow",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "8a5d27713a62",
+    "name": "VESTIGE: A Threadbare Grain Sack",
+    "image": "VESTIGE- A Threadbare Grain Sack.png",
+    "variants": [
+      {
+        "id": "8a5d27713a62",
+        "name": "VESTIGE: A Threadbare Grain Sack",
+        "image": "VESTIGE- A Threadbare Grain Sack.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "VESTIGE:_A_Threadbare_Grain_Sack",
     "weight": 0,
     "stackLimit": 99
   },
@@ -33214,6 +33232,146 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "PLAN:_Headstone_02",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "276f0966768f",
+    "name": "VESTIGE: Corroded White Visor",
+    "image": "VESTIGE: Corroded White Visor.png",
+    "variants": [
+      {
+        "id": "276f0966768f",
+        "name": "VESTIGE: Corroded White Visor",
+        "image": "VESTIGE: Corroded White Visor.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "VESTIGE:_Corroded_White_Visor",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "32b729181554",
+    "name": "VESTIGE: Crushed White Cuisse",
+    "image": "VESTIGE: Crushed White Cuisse.png",
+    "variants": [
+      {
+        "id": "32b729181554",
+        "name": "VESTIGE: Crushed White Cuisse",
+        "image": "VESTIGE: Crushed White Cuisse.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "VESTIGE:_Crushed_White_Cuisse",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "378f38b66515",
+    "name": "VESTIGE: Curse Carrying Crown",
+    "image": "VESTIGE: Curse Carrying Crown.png",
+    "variants": [
+      {
+        "id": "378f38b66515",
+        "name": "VESTIGE: Curse Carrying Crown",
+        "image": "VESTIGE: Curse Carrying Crown.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "VESTIGE:_Curse_Carrying_Crown",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "bb27efe588f6",
+    "name": "VESTIGE: Dented White Pauldron",
+    "image": "VESTIGE: Dented White Pauldron.png",
+    "variants": [
+      {
+        "id": "bb27efe588f6",
+        "name": "VESTIGE: Dented White Pauldron",
+        "image": "VESTIGE: Dented White Pauldron.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "VESTIGE:_Dented_White_Pauldron",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "0074923cd7d8",
+    "name": "VESTIGE: Remnants of a Rotting Robe",
+    "image": "VESTIGE: Remnants of a Rotting Robe.png",
+    "variants": [
+      {
+        "id": "0074923cd7d8",
+        "name": "VESTIGE: Remnants of a Rotting Robe",
+        "image": "VESTIGE: Remnants of a Rotting Robe.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "VESTIGE:_Remnants_of_a_Rotting_Robe",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "d1a9f419a9d2",
+    "name": "VESTIGE: Simply Splendid Feather",
+    "image": "VESTIGE: Simply Splendid Feather.png",
+    "variants": [
+      {
+        "id": "d1a9f419a9d2",
+        "name": "VESTIGE: Simply Splendid Feather",
+        "image": "VESTIGE: Simply Splendid Feather.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "VESTIGE:_Simply_Splendid_Feather",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "cad9954b2cab",
+    "name": "VESTIGE: Slightly Chaffing Chestguard",
+    "image": "VESTIGE: Slightly Chaffing Chestguard.png",
+    "variants": [
+      {
+        "id": "cad9954b2cab",
+        "name": "VESTIGE: Slightly Chaffing Chestguard",
+        "image": "VESTIGE: Slightly Chaffing Chestguard.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "VESTIGE:_Slightly_Chaffing_Chestguard",
     "weight": 0,
     "stackLimit": 99
   }
