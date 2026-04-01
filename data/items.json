@@ -27448,17 +27448,17 @@
     "image": "Imaru's Talon.png",
     "variants": [
       {
-        "id": "fd88366a80f1",
+        "id": "dcb76d22754d",
         "name": "Imaru's Talon",
         "image": "Imaru's Talon.png",
         "variantName": null,
         "recipe": {
-          "id": "511857103e10",
+          "id": "0a14b9f9c176",
           "facility": "Smithing Anvil",
           "materials": [
             {
               "itemId": "550fe90833fc",
-              "quantity": 1
+              "quantity": 5
             },
             {
               "itemId": "f9d124c9d097",
