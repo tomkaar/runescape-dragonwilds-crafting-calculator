@@ -1735,13 +1735,13 @@
     "image": "Large Wardstone.png",
     "variants": [
       {
-        "id": "085c69c23224",
+        "id": "116a299e6a86",
         "name": "Large Wardstone",
         "image": "Large Wardstone.png",
         "variantName": null,
         "recipe": {
-          "id": "4b82d5a7b501",
-          "facility": "Rune Altar",
+          "id": "5456165ee99a",
+          "facility": "Crafting Table",
           "materials": [
             {
               "itemId": "1a1409960a2b",
@@ -1765,7 +1765,7 @@
       "Runecrafting"
     ],
     "facilities": [
-      "Rune Altar"
+      "Crafting Table"
     ],
     "wikiLink": "Large_Wardstone",
     "weight": 5,
@@ -3788,13 +3788,13 @@
     "image": "Medium Wardstone.png",
     "variants": [
       {
-        "id": "fd2c64ec5624",
+        "id": "a95dce138159",
         "name": "Medium Wardstone",
         "image": "Medium Wardstone.png",
         "variantName": null,
         "recipe": {
-          "id": "cc4478184f37",
-          "facility": "Rune Altar",
+          "id": "42ce5b8ac3ca",
+          "facility": "Crafting Table",
           "materials": [
             {
               "itemId": "3e0c3babe19d",
@@ -3818,7 +3818,7 @@
       "Runecrafting"
     ],
     "facilities": [
-      "Rune Altar"
+      "Crafting Table"
     ],
     "wikiLink": "Medium_Wardstone",
     "weight": 5,
@@ -4643,13 +4643,13 @@
     "image": "Small Wardstone.png",
     "variants": [
       {
-        "id": "4bde44bd2093",
+        "id": "03edbde362f6",
         "name": "Small Wardstone",
         "image": "Small Wardstone.png",
         "variantName": null,
         "recipe": {
-          "id": "df419ef7eae6",
-          "facility": "Rune Altar",
+          "id": "81fa0e1a58b7",
+          "facility": "Crafting Table",
           "materials": [
             {
               "itemId": "e5bbfdd1f5f6",
@@ -4669,7 +4669,7 @@
       "Runecrafting"
     ],
     "facilities": [
-      "Rune Altar"
+      "Crafting Table"
     ],
     "wikiLink": "Small_Wardstone",
     "weight": 5,
@@ -33374,5 +33374,45 @@
     "wikiLink": "VESTIGE:_Slightly_Chaffing_Chestguard",
     "weight": 0,
     "stackLimit": 99
+  },
+  {
+    "id": "c0013eba905b",
+    "name": "Shard of the Dreaming Stone",
+    "image": null,
+    "variants": [
+      {
+        "id": "c0013eba905b",
+        "name": "Shard of the Dreaming Stone",
+        "image": null,
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Shard_of_the_Dreaming_Stone",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "6751df209a03",
+    "name": "Infernal Fragment",
+    "image": "Infernal Fragment.png",
+    "variants": [
+      {
+        "id": "6751df209a03",
+        "name": "Infernal Fragment",
+        "image": "Infernal Fragment.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Infernal_Fragment",
+    "weight": 0,
+    "stackLimit": 999
   }
 ]

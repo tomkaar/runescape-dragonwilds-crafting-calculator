@@ -2569,10 +2569,10 @@
       "Runecrafting"
     ],
     "uses_facility": [
-      "Rune Altar"
+      "Crafting Table"
     ],
     "json": {
-      "facility": "Rune Altar",
+      "facility": "Crafting Table",
       "materials": [
         {
           "quantity": "15",
@@ -5630,10 +5630,10 @@
       "Runecrafting"
     ],
     "uses_facility": [
-      "Rune Altar"
+      "Crafting Table"
     ],
     "json": {
-      "facility": "Rune Altar",
+      "facility": "Crafting Table",
       "materials": [
         {
           "quantity": "1",
@@ -6947,10 +6947,10 @@
       "Runecrafting"
     ],
     "uses_facility": [
-      "Rune Altar"
+      "Crafting Table"
     ],
     "json": {
-      "facility": "Rune Altar",
+      "facility": "Crafting Table",
       "materials": [
         {
           "quantity": "5",
