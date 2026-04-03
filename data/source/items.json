@@ -11605,6 +11605,24 @@
     "page_name_sub": "VESTIGE: Slightly Chaffing Chestguard"
   },
   {
+    "page_name": "Healing Potion",
+    "item_description": "Recovers some lost health. Made with irit and redberries.",
+    "item_name": "Healing Potion",
+    "item_type": "Resource",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Resource",
+      "description": "Recovers some lost health. Made with irit and redberries.",
+      "image": "[[File:Healing Potion.png|32px]]",
+      "name": "Healing Potion",
+      "weight": "1.0",
+      "stacklimit": "50",
+      "image_raw": "Healing Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Healing Potion"
+  },
+  {
     "page_name": "Shard of the Dreaming Stone",
     "item_description": "A piece of the broken Dreaming Stone in the Dowdun Reach nexus. It whispers if you listen closely.",
     "item_name": "Shard of the Dreaming Stone",
@@ -11622,14 +11640,50 @@
     "page_name_sub": "Shard of the Dreaming Stone"
   },
   {
+    "page_name": "Cursed Leather",
+    "item_description": "A sinister leather. Used in crafting.",
+    "item_name": "Cursed Leather",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "A sinister leather. Used in crafting.",
+      "image": "[[File:Cursed Leather.png|32px]]",
+      "name": "Cursed Leather",
+      "weight": "0.6",
+      "stacklimit": "50",
+      "image_raw": "Cursed Leather.png"
+    },
+    "item_weight": 0.6,
+    "page_name_sub": "Cursed Leather"
+  },
+  {
+    "page_name": "Glass Vessel",
+    "item_description": "A glass item made by glassblowing.",
+    "item_name": "Glass  Vessel",
+    "item_type": "Component",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Component",
+      "description": "A glass item made by glassblowing.",
+      "image": "[[File:Glass  Vessel.png|32px]]",
+      "name": "Glass  Vessel",
+      "weight": "1.0",
+      "stacklimit": "50",
+      "image_raw": "Glass  Vessel.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Glass Vessel"
+  },
+  {
     "page_name": "Infernal Fragment",
-    "item_description": "Someone may have use for this.",
+    "item_description": "Used to craft magical equipment. Postie Pete also has a use for them.",
     "item_name": "Infernal Fragment",
     "item_type": "Resource",
     "item_stacklimit": 999,
     "json": {
       "type": "Resource",
-      "description": "Someone may have use for this.",
+      "description": "Used to craft magical equipment. Postie Pete also has a use for them.",
       "image": "[[File:Infernal Fragment.png|32px]]",
       "name": "Infernal Fragment",
       "weight": "0.0",
@@ -11638,5 +11692,329 @@
     },
     "item_weight": 0,
     "page_name_sub": "Infernal Fragment"
+  },
+  {
+    "page_name": "Black Knight Helmet",
+    "item_description": "A metal helm worn by the Black Knights of Dowdun Reach",
+    "item_name": "Black Knight Helmet",
+    "item_type": "Melee Armour",
+    "page_name_sub": "Black Knight Helmet",
+    "json": {
+      "type": "Melee Armour",
+      "description": "A metal helm worn by the Black Knights of Dowdun Reach",
+      "repaircost": "",
+      "image": "[[File:Black Knight Helmet.png|32px]]",
+      "name": "Black Knight Helmet",
+      "weight": "8.0",
+      "image_raw": "Black Knight Helmet.png"
+    },
+    "item_repair": "",
+    "item_weight": 8
+  },
+  {
+    "page_name": "Mithril Ore",
+    "item_description": "Mined from Mithril deposits. It can be smelted in a Furnace.",
+    "item_name": "Mithril Ore",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Mined from Mithril deposits. It can be smelted in a Furnace.",
+      "image": "[[File:Mithril Ore.png|32px]]",
+      "name": "Mithril Ore",
+      "weight": "4.0",
+      "stacklimit": "99",
+      "image_raw": "Mithril Ore.png"
+    },
+    "item_weight": 4,
+    "page_name_sub": "Mithril Ore"
+  },
+  {
+    "page_name": "Limestone",
+    "item_description": "Can be ground into ground limestone",
+    "item_name": "Limestone",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Can be ground into ground limestone",
+      "image": "[[File:Limestone.png|32px]]",
+      "name": "Limestone",
+      "weight": "1.5",
+      "stacklimit": "99",
+      "image_raw": "Limestone.png"
+    },
+    "item_weight": 1.5,
+    "page_name_sub": "Limestone"
+  },
+  {
+    "page_name": "Ground Limestone",
+    "item_description": "Fine limestone ground from limestone. With the proper tools, it can be made into glass in the Blast Furnace.",
+    "item_name": "Ground Limestone",
+    "item_type": "Resource",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Resource",
+      "description": "Fine limestone ground from limestone. With the proper tools, it can be made into glass in the Blast Furnace.",
+      "image": "[[File:Ground Limestone.png|32px]]",
+      "name": "Ground Limestone",
+      "weight": "0.3",
+      "stacklimit": "99",
+      "image_raw": "Ground Limestone.png"
+    },
+    "item_weight": 0.3,
+    "page_name_sub": "Ground Limestone"
+  },
+  {
+    "page_name": "Black Metal Scraps",
+    "item_description": "Dropped from Black Knights. Can be reforged into black metal at a Blast Furnace.",
+    "item_name": "Black Metal Scraps",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Dropped from Black Knights. Can be reforged into black metal at a Blast Furnace.",
+      "image": "[[File:Black Metal Scraps.png|32px]]",
+      "name": "Black Metal Scraps",
+      "weight": "0.8",
+      "stacklimit": "99",
+      "image_raw": "Black Metal Scraps.png"
+    },
+    "item_weight": 0.8,
+    "page_name_sub": "Black Metal Scraps"
+  },
+  {
+    "page_name": "Black Metal Bar",
+    "item_description": "A bar of reforged black metal scraps. Used to make Black Knight gear.",
+    "item_name": "Black Metal Bar",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "A bar of reforged black metal scraps. Used to make Black Knight gear.",
+      "image": "[[File:Black Metal Bar.png|32px]]",
+      "name": "Black Metal Bar",
+      "weight": "4.5",
+      "stacklimit": "50",
+      "image_raw": "Black Metal Bar.png"
+    },
+    "item_weight": 4.5,
+    "page_name_sub": "Black Metal Bar"
+  },
+  {
+    "page_name": "Black Salvage Pile",
+    "item_description": "Scraps that can be searched through. Little bits of Black Knight are in there.",
+    "item_name": "Black Salvage Pile",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Scraps that can be searched through. Little bits of Black Knight are in there.",
+      "image": "[[File:Black Salvage Pile.png|32px]]",
+      "name": "Black Salvage Pile",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Black Salvage Pile.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Black Salvage Pile"
+  },
+  {
+    "page_name": "Zamorakian Warrior Pack",
+    "item_description": "A sack holding the personal effects of a Zamorakian.",
+    "item_name": "Zamorakian Warrior Pack",
+    "item_type": "Container",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Container",
+      "description": "A sack holding the personal effects of a Zamorakian.",
+      "image": "[[File:Zamorakian Warrior Pack.png|32px]]",
+      "name": "Zamorakian Warrior Pack",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Zamorakian Warrior Pack.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Zamorakian Warrior Pack"
+  },
+  {
+    "page_name": "Small Ash Pile",
+    "item_description": "There seems to be something solid in the ash pile.",
+    "item_name": "Small Ash Pile",
+    "item_type": "Container",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Container",
+      "description": "There seems to be something solid in the ash pile.",
+      "image": "[[File:Small Ash Pile.png|32px]]",
+      "name": "Small Ash Pile",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Small Ash Pile.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Small Ash Pile"
+  },
+  {
+    "page_name": "Ash Pile",
+    "item_description": "There seems to be something solid in the ash pile.",
+    "item_name": "Ash Pile",
+    "item_type": "Container",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Container",
+      "description": "There seems to be something solid in the ash pile.",
+      "image": "[[File:Ash Pile.png|32px]]",
+      "name": "Ash Pile",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Ash Pile.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Ash Pile"
+  },
+  {
+    "page_name": "Zamorakian Mage Pack",
+    "item_description": "",
+    "item_name": "Zamorakian Mage Pack",
+    "item_type": "Container",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Container",
+      "description": "",
+      "image": "[[File:Zamorakian Mage Pack.png|32px]]",
+      "name": "Zamorakian Mage Pack",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Zamorakian Mage Pack.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Zamorakian Mage Pack"
+  },
+  {
+    "page_name": "Mystic Thread",
+    "item_description": "Spun from mystic fibre. Magic courses through every thread.",
+    "item_name": "Mystic Thread",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "Spun from mystic fibre. Magic courses through every thread.",
+      "image": "[[File:Mystic Thread.png|32px]]",
+      "name": "Mystic Thread",
+      "weight": "0.6",
+      "stacklimit": "50",
+      "image_raw": "Mystic Thread.png"
+    },
+    "item_weight": 0.6,
+    "page_name_sub": "Mystic Thread"
+  },
+  {
+    "page_name": "Mystic Cloth",
+    "item_description": "Spun from mystic fibre. Magic courses through every thread.",
+    "item_name": "Mystic Cloth",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "Spun from mystic fibre. Magic courses through every thread.",
+      "image": "[[File:Mystic Cloth.png|32px]]",
+      "name": "Mystic Cloth",
+      "weight": "0.6",
+      "stacklimit": "50",
+      "image_raw": "Mystic Cloth.png"
+    },
+    "item_weight": 0.6,
+    "page_name_sub": "Mystic Cloth"
+  },
+  {
+    "page_name": "Mystic Fibres",
+    "item_description": "Dropped by Zamorak magi. Can be spun into thread at a spinning wheel.",
+    "item_name": "Mystic Fibres",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "Dropped by Zamorak magi. Can be spun into thread at a spinning wheel.",
+      "image": "[[File:Mystic Fibres.png|32px]]",
+      "name": "Mystic Fibres",
+      "weight": "0.6",
+      "stacklimit": "50",
+      "image_raw": "Mystic Fibres.png"
+    },
+    "item_weight": 0.6,
+    "page_name_sub": "Mystic Fibres"
+  },
+  {
+    "page_name": "Demonic Oil",
+    "item_description": "Made by combining necrotic bonemeal and vile ashes. A crafting component.",
+    "item_name": "Demonic Oil",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "Made by combining necrotic bonemeal and vile ashes. A crafting component.",
+      "image": "[[File:Demonic Oil.png|32px]]",
+      "name": "Demonic Oil",
+      "weight": "3.0",
+      "stacklimit": "50",
+      "image_raw": "Demonic Oil.png"
+    },
+    "item_weight": 3,
+    "page_name_sub": "Demonic Oil"
+  },
+  {
+    "page_name": "Vile Ashes",
+    "item_description": "Remains of a demonic creature. A crafting material used to make demonic oil.",
+    "item_name": "Vile Ashes",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "Remains of a demonic creature. A crafting material used to make demonic oil.",
+      "image": "[[File:Vile Ashes.png|32px]]",
+      "name": "Vile Ashes",
+      "weight": "3.0",
+      "stacklimit": "50",
+      "image_raw": "Vile Ashes.png"
+    },
+    "item_weight": 3,
+    "page_name_sub": "Vile Ashes"
+  },
+  {
+    "page_name": "Cursed Essence",
+    "item_description": "Harvested from demons. Can be used as a tanning agent at the tannery.",
+    "item_name": "Cursed Essence",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "Harvested from demons. Can be used as a tanning agent at the tannery.",
+      "image": "[[File:Cursed Essence.png|32px]]",
+      "name": "Cursed Essence",
+      "weight": "3.0",
+      "stacklimit": "50",
+      "image_raw": "Cursed Essence.png"
+    },
+    "item_weight": 3,
+    "page_name_sub": "Cursed Essence"
+  },
+  {
+    "page_name": "Maple Logs",
+    "item_description": "Cut from maple trees. Can be crafted into various equipment.",
+    "item_name": "Maple Logs",
+    "item_type": "Resource",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Resource",
+      "description": "Cut from maple trees. Can be crafted into various equipment.",
+      "image": "[[File:Maple Logs.png|32px]]",
+      "name": "Maple Logs",
+      "weight": "1.5",
+      "stacklimit": "99",
+      "image_raw": "Maple Logs.png"
+    },
+    "item_weight": 1.5,
+    "page_name_sub": "Maple Logs"
   }
 ]

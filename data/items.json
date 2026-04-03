@@ -27942,6 +27942,373 @@
     "wikiLink": "Grave_03"
   },
   {
+    "id": "66e790b90f03",
+    "name": "Healing Potion",
+    "image": "Healing Potion.png",
+    "variants": [
+      {
+        "id": "ba7392eee25f",
+        "name": "Healing Potion",
+        "image": "Healing Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c0844f8fa539",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "4b3b28384d99",
+              "quantity": 2
+            },
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Healing_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "035b552de92e",
+    "name": "Cursed Leather",
+    "image": "Cursed Leather.png",
+    "variants": [
+      {
+        "id": "a561266aea12",
+        "name": "Cursed Leather",
+        "image": "Cursed Leather.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fca7a5bb00aa",
+          "facility": "Tannery",
+          "materials": [
+            {
+              "itemId": "0a90107aa89e",
+              "quantity": 1
+            },
+            {
+              "itemId": "9f851ce1db9e",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Tannery"
+    ],
+    "wikiLink": "Cursed_Leather",
+    "weight": 0.6,
+    "stackLimit": 50
+  },
+  {
+    "id": "629a4abf66fd",
+    "name": "Glass Vessel",
+    "image": "Glass Vessel.png",
+    "variants": [
+      {
+        "id": "fbf6f17af3f0",
+        "name": "Glass Vessel",
+        "image": "Glass Vessel.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0a14a0ca62b2",
+          "facility": "Jeweler's Bench",
+          "materials": [
+            {
+              "itemId": "396ffa28eb6c",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
+    ],
+    "wikiLink": "Glass_Vessel",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "08c1ff83864e",
+    "name": "Black Knight Helmet",
+    "image": "Black Knight Helmet.png",
+    "variants": [
+      {
+        "id": "d1c1d11db28b",
+        "name": "Black Knight Helmet",
+        "image": "Black Knight Helmet.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2aebb067552a",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "eb21d059d900",
+              "quantity": 4
+            },
+            {
+              "itemId": "035b552de92e",
+              "quantity": 4
+            },
+            {
+              "itemId": "a5026e5aa6e1",
+              "quantity": 1
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 2
+            },
+            {
+              "itemId": "430052f1d705",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "VESTIGE: Blood Stained Black Visor"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Black_Knight_Helmet",
+    "weight": 8
+  },
+  {
+    "id": "24aad49251cb",
+    "name": "Ground Limestone",
+    "image": "Ground Limestone.png",
+    "variants": [
+      {
+        "id": "027cdc7c7313",
+        "name": "Ground Limestone",
+        "image": "Ground Limestone.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1727c9fe3a6d",
+          "facility": "Grindstone",
+          "materials": [
+            {
+              "itemId": "626ede7bd214",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Grindstone"
+    ],
+    "wikiLink": "Ground_Limestone",
+    "weight": 0.3,
+    "stackLimit": 99
+  },
+  {
+    "id": "3e7d4a89b0dc",
+    "name": "Black Metal Bar",
+    "image": "Black Metal Bar.png",
+    "variants": [
+      {
+        "id": "f98306a43de7",
+        "name": "Black Metal Bar",
+        "image": "Black Metal Bar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "bb82611f80e1",
+          "facility": "Blast Furnace",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 6
+            },
+            {
+              "itemId": "4cc1d6e9f857",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "24277e09ea62",
+        "name": "Black Metal Bar",
+        "image": "Black Metal Bar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6943c36b4054",
+          "facility": "Blast Furnace",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 9
+            },
+            {
+              "itemId": "4cc1d6e9f857",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blast Furnace"
+    ],
+    "wikiLink": "Black_Metal_Bar",
+    "weight": 4.5,
+    "stackLimit": 50
+  },
+  {
+    "id": "b0d64f121478",
+    "name": "Mystic Thread",
+    "image": "Mystic Thread.png",
+    "variants": [
+      {
+        "id": "55fe475de5e8",
+        "name": "Mystic Thread",
+        "image": "Mystic Thread.png",
+        "variantName": null,
+        "recipe": {
+          "id": "297ef2009277",
+          "facility": "Spinning Wheel",
+          "materials": [
+            {
+              "itemId": "8dcc77e9c1fd",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Spinning Wheel"
+    ],
+    "wikiLink": "Mystic_Thread",
+    "weight": 0.6,
+    "stackLimit": 50
+  },
+  {
+    "id": "430052f1d705",
+    "name": "Mystic Cloth",
+    "image": "Mystic Cloth.png",
+    "variants": [
+      {
+        "id": "e0fd9bf5bfb1",
+        "name": "Mystic Cloth",
+        "image": "Mystic Cloth.png",
+        "variantName": null,
+        "recipe": {
+          "id": "cb30d9bd045d",
+          "facility": "Loom",
+          "materials": [
+            {
+              "itemId": "b0d64f121478",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Loom"
+    ],
+    "wikiLink": "Mystic_Cloth",
+    "weight": 0.6,
+    "stackLimit": 50
+  },
+  {
+    "id": "2ac1ed51351d",
+    "name": "Demonic Oil",
+    "image": "Demonic Oil.png",
+    "variants": [
+      {
+        "id": "6af450b13d4c",
+        "name": "Demonic Oil",
+        "image": "Demonic Oil.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ffcc493b4a64",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "b5427eb4672e",
+              "quantity": 6
+            },
+            {
+              "itemId": "e2622ffa01e1",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Demonic_Oil",
+    "weight": 3,
+    "stackLimit": 50
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -33414,5 +33781,245 @@
     "wikiLink": "Infernal_Fragment",
     "weight": 0,
     "stackLimit": 999
+  },
+  {
+    "id": "116469a2eea0",
+    "name": "Mithril Ore",
+    "image": "Mithril Ore.png",
+    "variants": [
+      {
+        "id": "116469a2eea0",
+        "name": "Mithril Ore",
+        "image": "Mithril Ore.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Mithril_Ore",
+    "weight": 4,
+    "stackLimit": 99
+  },
+  {
+    "id": "626ede7bd214",
+    "name": "Limestone",
+    "image": "Limestone.png",
+    "variants": [
+      {
+        "id": "626ede7bd214",
+        "name": "Limestone",
+        "image": "Limestone.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Limestone",
+    "weight": 1.5,
+    "stackLimit": 99
+  },
+  {
+    "id": "1d4c877dd611",
+    "name": "Black Metal Scraps",
+    "image": "Black Metal Scraps.png",
+    "variants": [
+      {
+        "id": "1d4c877dd611",
+        "name": "Black Metal Scraps",
+        "image": "Black Metal Scraps.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Black_Metal_Scraps",
+    "weight": 0.8,
+    "stackLimit": 99
+  },
+  {
+    "id": "bd3258fe8e2d",
+    "name": "Black Salvage Pile",
+    "image": "Black Salvage Pile.png",
+    "variants": [
+      {
+        "id": "bd3258fe8e2d",
+        "name": "Black Salvage Pile",
+        "image": "Black Salvage Pile.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Black_Salvage_Pile",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "c7a4894ecf21",
+    "name": "Zamorakian Warrior Pack",
+    "image": "Zamorakian Warrior Pack.png",
+    "variants": [
+      {
+        "id": "c7a4894ecf21",
+        "name": "Zamorakian Warrior Pack",
+        "image": "Zamorakian Warrior Pack.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Zamorakian_Warrior_Pack",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "a6c6ab3f0d19",
+    "name": "Small Ash Pile",
+    "image": "Small Ash Pile.png",
+    "variants": [
+      {
+        "id": "a6c6ab3f0d19",
+        "name": "Small Ash Pile",
+        "image": "Small Ash Pile.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Small_Ash_Pile",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "016fe97aee9a",
+    "name": "Ash Pile",
+    "image": "Ash Pile.png",
+    "variants": [
+      {
+        "id": "016fe97aee9a",
+        "name": "Ash Pile",
+        "image": "Ash Pile.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Ash_Pile",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "f2c6a1e7730d",
+    "name": "Zamorakian Mage Pack",
+    "image": "Zamorakian Mage Pack.png",
+    "variants": [
+      {
+        "id": "f2c6a1e7730d",
+        "name": "Zamorakian Mage Pack",
+        "image": "Zamorakian Mage Pack.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Zamorakian_Mage_Pack",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "8dcc77e9c1fd",
+    "name": "Mystic Fibres",
+    "image": "Mystic Fibres.png",
+    "variants": [
+      {
+        "id": "8dcc77e9c1fd",
+        "name": "Mystic Fibres",
+        "image": "Mystic Fibres.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Mystic_Fibres",
+    "weight": 0.6,
+    "stackLimit": 50
+  },
+  {
+    "id": "e2622ffa01e1",
+    "name": "Vile Ashes",
+    "image": "Vile Ashes.png",
+    "variants": [
+      {
+        "id": "e2622ffa01e1",
+        "name": "Vile Ashes",
+        "image": "Vile Ashes.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Vile_Ashes",
+    "weight": 3,
+    "stackLimit": 50
+  },
+  {
+    "id": "0a90107aa89e",
+    "name": "Cursed Essence",
+    "image": "Cursed Essence.png",
+    "variants": [
+      {
+        "id": "0a90107aa89e",
+        "name": "Cursed Essence",
+        "image": "Cursed Essence.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Cursed_Essence",
+    "weight": 3,
+    "stackLimit": 50
+  },
+  {
+    "id": "7d21f3c7ffc9",
+    "name": "Maple Logs",
+    "image": "Maple Logs.png",
+    "variants": [
+      {
+        "id": "7d21f3c7ffc9",
+        "name": "Maple Logs",
+        "image": "Maple Logs.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Maple_Logs",
+    "weight": 1.5,
+    "stackLimit": 99
   }
 ]
