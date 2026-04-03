@@ -17,6 +17,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { NodeDropdownMenu } from "@/components/CraftingTree/Nodes/NodeDropdownMenu";
 
 const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
   function InnerMaterialNode(props, ref) {
@@ -157,14 +158,7 @@ const Content = memo(function InnerContent(props: ContentProps) {
 
   return (
     <>
-      <button
-        onClick={handleToggleItem}
-        className={cn(
-          "relative cursor-pointer pl-1 pr-2 py-1",
-          isRecipeNumberVariant !== null || hasExcessItems ? "pt-3" : "py-1",
-        )}
-        disabled={isRecipeNumberVariant !== null}
-      >
+      <div className="relative flex flex-row items-center">
         {isRecipeNumberVariant !== null || hasExcessItems ? (
           <div className="absolute z-10 flex flex-row gap-1 -top-3 left-1/2 -translate-x-1/2">
             {isRecipeNumberVariant !== null && (
@@ -203,7 +197,11 @@ const Content = memo(function InnerContent(props: ContentProps) {
             )}
           </div>
         ) : null}
-        <div className="flex flex-row gap-1 items-center">
+        <button
+          onClick={handleToggleItem}
+          className="cursor-pointer flex flex-row gap-1 items-center pl-1 py-1"
+          disabled={isRecipeNumberVariant !== null}
+        >
           {image && (
             <img
               src={createImageUrlPath(image)}
@@ -215,8 +213,18 @@ const Content = memo(function InnerContent(props: ContentProps) {
           <div className="text-xs text-white">
             <span className="font-semibold">{quantity}x</span> {label}
           </div>
-        </div>
-      </button>
+        </button>
+        {isRecipeNumberVariant === null && (
+          <div className="ml-2 mr-1">
+            <NodeDropdownMenu
+              id={id}
+              nodeId={nodeId}
+              initialItemId={initialItemId}
+              quantity={quantity}
+            />
+          </div>
+        )}
+      </div>
 
       {numberOfRecipies && numberOfRecipies > 1 && (
         <div className="relative w-[calc(100%+2px)] -mb-px flex flex-row items-center justify-center text-xs text-black bg-title px-2 py-1 rounded-b-lg">
