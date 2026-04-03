@@ -18368,6 +18368,44 @@
     "wikiLink": "Cape_Rack"
   },
   {
+    "id": "396ffa28eb6c",
+    "name": "Molten Glass",
+    "image": "Molten Glass.png",
+    "variants": [
+      {
+        "id": "de24d94e966c",
+        "name": "Molten Glass",
+        "image": "Molten Glass.png",
+        "variantName": null,
+        "recipe": {
+          "id": "12c6cad002ed",
+          "facility": "Blast Furnace",
+          "materials": [
+            {
+              "itemId": "24aad49251cb",
+              "quantity": 1
+            },
+            {
+              "itemId": "464881ef1d16",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blast Furnace"
+    ],
+    "wikiLink": "Molten_Glass",
+    "weight": 0.5,
+    "stackLimit": 50
+  },
+  {
     "id": "1126835ec7ab",
     "name": "Clay Mould (Unfired)",
     "image": "Clay Mould (Unfired).png",
@@ -22272,6 +22310,24 @@
             }
           ],
           "quantity": 3
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "3508b24a271d",
+        "name": "Draconic Leather",
+        "image": "Draconic Leather.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0a0354afb982",
+          "facility": "Tannery",
+          "materials": [
+            {
+              "itemId": "4c456b2c87c3",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
         },
         "usesRecipe": null
       }
@@ -27582,6 +27638,52 @@
     "weight": 1
   },
   {
+    "id": "63d30ae06c59",
+    "name": "Postbox",
+    "image": "Postbox.png",
+    "variants": [
+      {
+        "id": "87abca87faad",
+        "name": "Postbox",
+        "image": "Postbox.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9308809ebb28",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 5
+            },
+            {
+              "itemId": "c1117f9270a0",
+              "quantity": 10
+            },
+            {
+              "itemId": "b132f6798b7e",
+              "quantity": 100
+            },
+            {
+              "itemId": "e8e775159a57",
+              "quantity": 2
+            },
+            {
+              "itemId": "6ffa6b8b1c9f",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Postbox"
+  },
+  {
     "id": "64c5cc38664e",
     "name": "Iron Chest",
     "image": "Iron Chest.png",
@@ -28059,16 +28161,16 @@
     "image": "Black Knight Helmet.png",
     "variants": [
       {
-        "id": "d1c1d11db28b",
+        "id": "be1e025b2ff7",
         "name": "Black Knight Helmet",
         "image": "Black Knight Helmet.png",
         "variantName": null,
         "recipe": {
-          "id": "2aebb067552a",
+          "id": "993f7ff8515b",
           "facility": "Smithing Anvil",
           "materials": [
             {
-              "itemId": "eb21d059d900",
+              "itemId": "3e7d4a89b0dc",
               "quantity": 4
             },
             {
@@ -28076,7 +28178,7 @@
               "quantity": 4
             },
             {
-              "itemId": "a5026e5aa6e1",
+              "itemId": "2ac1ed51351d",
               "quantity": 1
             },
             {
@@ -28137,6 +28239,47 @@
     "wikiLink": "Ground_Limestone",
     "weight": 0.3,
     "stackLimit": 99
+  },
+  {
+    "id": "4a2a04b539bd",
+    "name": "Mithril Pickaxe",
+    "image": "Mithril Pickaxe.png",
+    "variants": [
+      {
+        "id": "543d080f0972",
+        "name": "Mithril Pickaxe",
+        "image": "Mithril Pickaxe.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5b6822a96123",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 4
+            },
+            {
+              "itemId": "7d21f3c7ffc9",
+              "quantity": 6
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 8
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mithril_Pickaxe",
+    "weight": 5
   },
   {
     "id": "3e7d4a89b0dc",
@@ -28307,6 +28450,183 @@
     "wikiLink": "Demonic_Oil",
     "weight": 3,
     "stackLimit": 50
+  },
+  {
+    "id": "2a7d7c1afd3f",
+    "name": "Mithril Bar",
+    "image": "Mithril Bar.png",
+    "variants": [
+      {
+        "id": "554bc76f140e",
+        "name": "Mithril Bar",
+        "image": "Mithril Bar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d433299e9159",
+          "facility": "Blast Furnace",
+          "materials": [
+            {
+              "itemId": "4cc1d6e9f857",
+              "quantity": 3
+            },
+            {
+              "itemId": "116469a2eea0",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "fd28382b4827",
+        "name": "Mithril Bar",
+        "image": "Mithril Bar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f6e2adcc3772",
+          "facility": "Blast Furnace",
+          "materials": [
+            {
+              "itemId": "4cc1d6e9f857",
+              "quantity": 3
+            },
+            {
+              "itemId": "054cdbd54379",
+              "quantity": 9
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blast Furnace"
+    ],
+    "wikiLink": "Mithril_Bar",
+    "weight": 5,
+    "stackLimit": 50
+  },
+  {
+    "id": "c7e5d7e5758b",
+    "name": "Blue Dragon Scale Dust",
+    "image": "Blue Dragon Scale Dust.png",
+    "variants": [
+      {
+        "id": "56e9ff2e1577",
+        "name": "Blue Dragon Scale Dust",
+        "image": "Blue Dragon Scale Dust.png",
+        "variantName": null,
+        "recipe": {
+          "id": "483f7318ec14",
+          "facility": "Grindstone",
+          "materials": [
+            {
+              "itemId": "db572580175d",
+              "quantity": 1
+            }
+          ],
+          "quantity": 2
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Grindstone"
+    ],
+    "wikiLink": "Blue_Dragon_Scale_Dust",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "a2106f8efa34",
+    "name": "Antifire Potion",
+    "image": "Antifire Potion.png",
+    "variants": [
+      {
+        "id": "11c0185614a4",
+        "name": "Antifire Potion",
+        "image": "Antifire Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d5834d5632a1",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "c7e5d7e5758b",
+              "quantity": 1
+            },
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Antifire_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "0e5cfcb9133e",
+    "name": "Mithril Logging Axe",
+    "image": "Mithril Logging Axe.png",
+    "variants": [
+      {
+        "id": "2e01b0b1cbb1",
+        "name": "Mithril Logging Axe",
+        "image": "Mithril Logging Axe.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b4f5be609e98",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 8
+            },
+            {
+              "itemId": "b0d64f121478",
+              "quantity": 4
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mithril_Logging_Axe",
+    "weight": 5
   },
   {
     "id": "6a5fa59fd28f",
@@ -31659,26 +31979,6 @@
     "stackLimit": 20
   },
   {
-    "id": "396ffa28eb6c",
-    "name": "Molten Glass",
-    "image": "Molten Glass.png",
-    "variants": [
-      {
-        "id": "396ffa28eb6c",
-        "name": "Molten Glass",
-        "image": "Molten Glass.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Molten_Glass",
-    "weight": 0.5,
-    "stackLimit": 50
-  },
-  {
     "id": "1b1a37351182",
     "name": "Fuel Briquette",
     "image": "Fuel Briquette.png",
@@ -34020,6 +34320,46 @@
     "facilities": [],
     "wikiLink": "Maple_Logs",
     "weight": 1.5,
+    "stackLimit": 99
+  },
+  {
+    "id": "db572580175d",
+    "name": "Blue Dragon Scale",
+    "image": "Blue Dragon Scale.png",
+    "variants": [
+      {
+        "id": "db572580175d",
+        "name": "Blue Dragon Scale",
+        "image": "Blue Dragon Scale.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Blue_Dragon_Scale",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "4c456b2c87c3",
+    "name": "Draconic Leather Scraps",
+    "image": "Draconic Leather Scraps.png",
+    "variants": [
+      {
+        "id": "4c456b2c87c3",
+        "name": "Draconic Leather Scraps",
+        "image": "Draconic Leather Scraps.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Draconic_Leather_Scraps",
+    "weight": 0.6,
     "stackLimit": 99
   }
 ]

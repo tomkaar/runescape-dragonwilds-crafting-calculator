@@ -28881,6 +28881,59 @@
   },
   {
     "uses_material": [
+      "Ground Limestone",
+      "Ground Sandstone"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blast Furnace"
+    ],
+    "json": {
+      "facility": "Blast Furnace",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ground Limestone",
+          "link": "Ground Limestone",
+          "qty": "1",
+          "item": "Ground Limestone",
+          "image": "[[File:Ground Limestone.png|30px|link=Ground Limestone]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "1",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
+      "outputs": [
+        "Molten Glass"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Molten Glass",
+        "link": "Molten Glass",
+        "qty": "1",
+        "item": "Molten Glass",
+        "image": "[[File:Molten Glass.png|30px|link=Molten Glass]]"
+      }
+    },
+    "output": [
+      "Molten Glass"
+    ]
+  },
+  {
+    "uses_material": [
       "Clay"
     ],
     "uses_skill": [
@@ -34487,6 +34540,50 @@
         "name": "Draconic Leather",
         "link": "Draconic Leather",
         "qty": "3",
+        "item": "Draconic Leather",
+        "image": "[[File:Draconic Leather.png|30px|link=Draconic Leather]]"
+      }
+    },
+    "output": [
+      "Draconic Leather"
+    ]
+  },
+  {
+    "uses_material": [
+      "Draconic Leather Scraps"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Tannery"
+    ],
+    "json": {
+      "facility": "Tannery",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Draconic Leather Scraps",
+          "link": "Draconic Leather Scraps",
+          "qty": "4",
+          "item": "Draconic Leather Scraps",
+          "image": "[[File:Draconic Leather Scraps.png|30px|link=Draconic Leather Scraps]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Draconic Leather"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Draconic Leather",
+        "link": "Draconic Leather",
+        "qty": 1,
         "item": "Draconic Leather",
         "image": "[[File:Draconic Leather.png|30px|link=Draconic Leather]]"
       }
@@ -42335,6 +42432,78 @@
   },
   {
     "uses_material": [
+      "Ash Logs",
+      "Stone",
+      "Bronze Bar",
+      "Leather",
+      "Law Rune"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "5",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Stone",
+          "link": "Stone",
+          "qty": "3",
+          "item": "Stone",
+          "image": "[[File:Stone.png|30px|link=Stone]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Bronze Bar",
+          "link": "Bronze Bar",
+          "qty": "10",
+          "item": "Bronze Bar",
+          "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Leather",
+          "link": "Leather",
+          "qty": "2",
+          "item": "Leather",
+          "image": "[[File:Leather.png|30px|link=Leather]]"
+        },
+        {
+          "quantity": "100",
+          "name": "Law Rune",
+          "link": "Law Rune",
+          "qty": "100",
+          "item": "Law Rune",
+          "image": "[[File:Law Rune.png|30px|link=Law Rune]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Postbox"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Postbox",
+        "link": "Postbox",
+        "qty": 1,
+        "item": "Postbox",
+        "image": "[[File:Postbox.png|30px|link=Postbox]]"
+      }
+    },
+    "output": [
+      "Postbox"
+    ]
+  },
+  {
+    "uses_material": [
       "Oak Plank",
       "Iron Bar",
       "Adhesive"
@@ -42996,11 +43165,11 @@
   },
   {
     "uses_material": [
-      "Black Bar",
+      "Black Metal Bar",
       "Mithril Bar",
       "Cursed Leather",
       "Mystic Cloth",
-      "Demon Oil"
+      "Demonic Oil"
     ],
     "uses_skill": [
       "Artisan"
@@ -43017,11 +43186,11 @@
       "materials": [
         {
           "quantity": "4",
-          "name": "Black Bar",
-          "link": "Black Bar",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
           "qty": "4",
-          "item": "Black Bar",
-          "image": "[[File:Black Bar.png|30px|link=Black Bar]]"
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
         },
         {
           "quantity": "2",
@@ -43049,11 +43218,11 @@
         },
         {
           "quantity": "1",
-          "name": "Demon Oil",
-          "link": "Demon Oil",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
           "qty": "1",
-          "item": "Demon Oil",
-          "image": "[[File:Demon Oil.png|30px|link=Demon Oil]]"
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
         }
       ],
       "skills": [
@@ -43120,6 +43289,68 @@
     },
     "output": [
       "Ground Limestone"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Maple Logs",
+      "Cursed Leather"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "8",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "6",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "4",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Mithril Pickaxe"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Mithril Pickaxe",
+        "link": "Mithril Pickaxe",
+        "qty": 1,
+        "item": "Mithril Pickaxe",
+        "image": "[[File:Mithril Pickaxe.png|30px|link=Mithril Pickaxe]]"
+      }
+    },
+    "output": [
+      "Mithril Pickaxe"
     ]
   },
   {
@@ -43376,6 +43607,280 @@
     },
     "output": [
       "Demonic Oil"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Ore",
+      "Coal"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blast Furnace"
+    ],
+    "json": {
+      "facility": "Blast Furnace",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Mithril Ore",
+          "link": "Mithril Ore",
+          "qty": "3",
+          "item": "Mithril Ore",
+          "image": "[[File:Mithril Ore.png|30px|link=Mithril Ore]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Coal",
+          "link": "Coal",
+          "qty": "3",
+          "item": "Coal",
+          "image": "[[File:Coal.png|30px|link=Coal]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Mithril Bar"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mithril Bar",
+        "link": "Mithril Bar",
+        "qty": "1",
+        "item": "Mithril Bar",
+        "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+      }
+    },
+    "output": [
+      "Mithril Bar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Salvage Pile",
+      "Coal"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blast Furnace"
+    ],
+    "json": {
+      "facility": "Blast Furnace",
+      "materials": [
+        {
+          "quantity": "9",
+          "name": "Mithril Salvage Pile",
+          "link": "Mithril Salvage Pile",
+          "qty": "9",
+          "item": "Mithril Salvage Pile",
+          "image": "[[File:Mithril Salvage Pile.png|30px|link=Mithril Salvage Pile]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Coal",
+          "link": "Coal",
+          "qty": "3",
+          "item": "Coal",
+          "image": "[[File:Coal.png|30px|link=Coal]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Mithril Bar"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mithril Bar",
+        "link": "Mithril Bar",
+        "qty": "1",
+        "item": "Mithril Bar",
+        "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+      }
+    },
+    "output": [
+      "Mithril Bar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Blue Dragon Scale"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Grindstone"
+    ],
+    "json": {
+      "facility": "Grindstone",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Blue Dragon Scale",
+          "link": "Blue Dragon Scale",
+          "qty": 1,
+          "item": "Blue Dragon Scale",
+          "image": "[[File:Blue Dragon Scale.png|30px|link=Blue Dragon Scale]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Blue Dragon Scale Dust"
+      ],
+      "output": {
+        "quantity": "2",
+        "name": "Blue Dragon Scale Dust",
+        "link": "Blue Dragon Scale Dust",
+        "qty": "2",
+        "item": "Blue Dragon Scale Dust",
+        "image": "[[File:Blue Dragon Scale Dust.png|30px|link=Blue Dragon Scale Dust]]"
+      }
+    },
+    "output": [
+      "Blue Dragon Scale Dust"
+    ]
+  },
+  {
+    "uses_material": [
+      "Irit",
+      "Blue Dragon Scale Dust",
+      "Glass Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Irit",
+          "link": "Irit",
+          "qty": 1,
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Blue Dragon Scale Dust",
+          "link": "Blue Dragon Scale Dust",
+          "qty": 1,
+          "item": "Blue Dragon Scale Dust",
+          "image": "[[File:Blue Dragon Scale Dust.png|30px|link=Blue Dragon Scale Dust]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": 1,
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Antifire Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Antifire Potion",
+        "link": "Antifire Potion",
+        "qty": "1",
+        "item": "Antifire Potion",
+        "image": "[[File:Antifire Potion.png|30px|link=Antifire Potion]]"
+      }
+    },
+    "output": [
+      "Antifire Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Willow Logs",
+      "Mystic Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "8",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "6",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Mystic Thread",
+          "link": "Mystic Thread",
+          "qty": "4",
+          "item": "Mystic Thread",
+          "image": "[[File:Mystic Thread.png|30px|link=Mystic Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Mithril Logging Axe"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Mithril Logging Axe",
+        "link": "Mithril Logging Axe",
+        "qty": 1,
+        "item": "Mithril Logging Axe",
+        "image": "[[File:Mithril Logging Axe.png|30px|link=Mithril Logging Axe]]"
+      }
+    },
+    "output": [
+      "Mithril Logging Axe"
     ]
   }
 ]
