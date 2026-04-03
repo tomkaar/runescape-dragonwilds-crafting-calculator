@@ -11766,6 +11766,24 @@
     "page_name_sub": "Ground Limestone"
   },
   {
+    "page_name": "Mithril Pickaxe",
+    "item_description": "A tool for mining. Few rocks can withstand its strength.",
+    "item_name": "Mithril Pickaxe",
+    "item_type": "Tool",
+    "page_name_sub": "Mithril Pickaxe",
+    "json": {
+      "type": "Tool",
+      "description": "A tool for mining. Few rocks can withstand its strength.",
+      "repaircost": "1 [[Mithril Bar]]",
+      "image": "[[File:Mithril Pickaxe.png|32px]]",
+      "name": "Mithril Pickaxe",
+      "weight": "5.0",
+      "image_raw": "Mithril Pickaxe.png"
+    },
+    "item_repair": "1 [[Mithril Bar]]",
+    "item_weight": 5
+  },
+  {
     "page_name": "Black Metal Scraps",
     "item_description": "Dropped from Black Knights. Can be reforged into black metal at a Blast Furnace.",
     "item_name": "Black Metal Scraps",
@@ -12016,5 +12034,113 @@
     },
     "item_weight": 1.5,
     "page_name_sub": "Maple Logs"
+  },
+  {
+    "page_name": "Mithril Bar",
+    "item_description": "A versatile metal used for crafting weapons and armour.",
+    "item_name": "Mithril Bar",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "A versatile metal used for crafting weapons and armour.",
+      "image": "[[File:Mithril Bar.png|32px]]",
+      "name": "Mithril Bar",
+      "weight": "5.0",
+      "stacklimit": "50",
+      "image_raw": "Mithril Bar.png"
+    },
+    "item_weight": 5,
+    "page_name_sub": "Mithril Bar"
+  },
+  {
+    "page_name": "Blue Dragon Scale",
+    "item_description": "Obtained from felled lesser blue dragons. Can be ground into blue dragon dust.",
+    "item_name": "Blue Dragon Scale",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Obtained from felled lesser blue dragons. Can be ground into blue dragon dust.",
+      "image": "[[File:Blue Dragon Scale.png|32px]]",
+      "name": "Blue Dragon Scale",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Blue Dragon Scale.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Blue Dragon Scale"
+  },
+  {
+    "page_name": "Blue Dragon Scale Dust",
+    "item_description": "Ground from blue dragon scales. Integral to making antifire potions.",
+    "item_name": "Blue Dragon Scale Dust",
+    "item_type": "Resource",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Resource",
+      "description": "Ground from blue dragon scales. Integral to making antifire potions.",
+      "image": "[[File:Blue Dragon Scale Dust.png|32px]]",
+      "name": "Blue Dragon Scale Dust",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Blue Dragon Scale Dust.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Blue Dragon Scale Dust"
+  },
+  {
+    "page_name": "Antifire Potion",
+    "item_description": "Removes Burning stacks and grants future protection from Burning.",
+    "item_name": "Antifire Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "Removes Burning stacks and grants future protection from Burning.",
+      "image": "[[File:Antifire Potion.png|32px]]",
+      "name": "Antifire Potion",
+      "weight": "1.0",
+      "stacklimit": "50",
+      "image_raw": "Antifire Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Antifire Potion"
+  },
+  {
+    "page_name": "Draconic Leather Scraps",
+    "item_description": "Scruffy organic bits and pieces that can be combined to make draconic leather.",
+    "item_name": "Draconic Leather Scraps",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Scruffy organic bits and pieces that can be combined to make draconic leather.",
+      "image": "[[File:Draconic Leather Scraps.png|32px]]",
+      "name": "Draconic Leather Scraps",
+      "weight": "0.6",
+      "stacklimit": "99",
+      "image_raw": "Draconic Leather Scraps.png"
+    },
+    "item_weight": 0.6,
+    "page_name_sub": "Draconic Leather Scraps"
+  },
+  {
+    "page_name": "Mithril Logging Axe",
+    "item_description": "A tool for chopping trees. Make sure to hit them with the sharp side.",
+    "item_name": "Mithril Logging Axe",
+    "item_type": "Tool",
+    "page_name_sub": "Mithril Logging Axe",
+    "json": {
+      "type": "Tool",
+      "description": "A tool for chopping trees. Make sure to hit them with the sharp side.",
+      "repaircost": "1 [[Mithril Bar]]",
+      "image": "[[File:Mithril Logging Axe.png|32px]]",
+      "name": "Mithril Logging Axe",
+      "weight": "5.0",
+      "image_raw": "Mithril Logging Axe.png"
+    },
+    "item_repair": "1 [[Mithril Bar]]",
+    "item_weight": 5
   }
 ]
