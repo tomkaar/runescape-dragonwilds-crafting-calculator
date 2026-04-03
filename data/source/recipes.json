@@ -42842,5 +42842,540 @@
     "output": [
       "Grave 03"
     ]
+  },
+  {
+    "uses_material": [
+      "Irit",
+      "Dwellberries",
+      "Glass Vessel"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Irit",
+          "link": "Irit",
+          "qty": 1,
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Dwellberries",
+          "link": "Dwellberries",
+          "qty": "2",
+          "item": "Dwellberries",
+          "image": "[[File:Dwellberries.png|30px|link=Dwellberries]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": 1,
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Healing Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Healing Potion",
+        "link": "Healing Potion",
+        "qty": 1,
+        "item": "Healing Potion",
+        "image": "[[File:Healing Potion.png|30px|link=Healing Potion]]"
+      }
+    },
+    "output": [
+      "Healing Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Draconic Leather",
+      "Cursed Essence"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Tannery"
+    ],
+    "json": {
+      "facility": "Tannery",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Draconic Leather",
+          "link": "Draconic Leather",
+          "qty": "2",
+          "item": "Draconic Leather",
+          "image": "[[File:Draconic Leather.png|30px|link=Draconic Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Cursed Essence",
+          "link": "Cursed Essence",
+          "qty": "1",
+          "item": "Cursed Essence",
+          "image": "[[File:Cursed Essence.png|30px|link=Cursed Essence]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Cursed Leather"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Cursed Leather",
+        "link": "Cursed Leather",
+        "qty": 1,
+        "item": "Cursed Leather",
+        "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+      }
+    },
+    "output": [
+      "Cursed Leather"
+    ]
+  },
+  {
+    "uses_material": [
+      "Molten Glass"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Jeweler's Bench"
+    ],
+    "json": {
+      "facility": "Jeweler's Bench",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Molten Glass",
+          "link": "Molten Glass",
+          "qty": 1,
+          "item": "Molten Glass",
+          "image": "[[File:Molten Glass.png|30px|link=Molten Glass]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Glass Vessel"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Glass Vessel",
+        "link": "Glass Vessel",
+        "qty": "1",
+        "item": "Glass Vessel",
+        "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+      }
+    },
+    "output": [
+      "Glass Vessel"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Bar",
+      "Mithril Bar",
+      "Cursed Leather",
+      "Mystic Cloth",
+      "Demon Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "VESTIGE: Blood Stained Black Visor"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "recipe": "VESTIGE: Blood Stained Black Visor",
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Black Bar",
+          "link": "Black Bar",
+          "qty": "4",
+          "item": "Black Bar",
+          "image": "[[File:Black Bar.png|30px|link=Black Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "2",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "4",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "1",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Demon Oil",
+          "link": "Demon Oil",
+          "qty": "1",
+          "item": "Demon Oil",
+          "image": "[[File:Demon Oil.png|30px|link=Demon Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "Black Knight Helmet"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Black Knight Helmet",
+        "link": "Black Knight Helmet",
+        "qty": 1,
+        "item": "Black Knight Helmet",
+        "image": "[[File:Black Knight Helmet.png|30px|link=Black Knight Helmet]]"
+      }
+    },
+    "output": [
+      "Black Knight Helmet"
+    ]
+  },
+  {
+    "uses_material": [
+      "Limestone"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Grindstone"
+    ],
+    "json": {
+      "facility": "Grindstone",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Limestone",
+          "link": "Limestone",
+          "qty": 1,
+          "item": "Limestone",
+          "image": "[[File:Limestone.png|30px|link=Limestone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Ground Limestone"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ground Limestone",
+        "link": "Ground Limestone",
+        "qty": "1",
+        "item": "Ground Limestone",
+        "image": "[[File:Ground Limestone.png|30px|link=Ground Limestone]]"
+      }
+    },
+    "output": [
+      "Ground Limestone"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Scraps",
+      "Coal"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blast Furnace"
+    ],
+    "json": {
+      "facility": "Blast Furnace",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "6",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Coal",
+          "link": "Coal",
+          "qty": "3",
+          "item": "Coal",
+          "image": "[[File:Coal.png|30px|link=Coal]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Black Metal Bar"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Black Metal Bar",
+        "link": "Black Metal Bar",
+        "qty": 1,
+        "item": "Black Metal Bar",
+        "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+      }
+    },
+    "output": [
+      "Black Metal Bar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Salvage Pile",
+      "Coal"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blast Furnace"
+    ],
+    "json": {
+      "facility": "Blast Furnace",
+      "materials": [
+        {
+          "quantity": "9",
+          "name": "Black Salvage Pile",
+          "link": "Black Salvage Pile",
+          "qty": "9",
+          "item": "Black Salvage Pile",
+          "image": "[[File:Black Salvage Pile.png|30px|link=Black Salvage Pile]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Coal",
+          "link": "Coal",
+          "qty": "3",
+          "item": "Coal",
+          "image": "[[File:Coal.png|30px|link=Coal]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Black Metal Bar"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Black Metal Bar",
+        "link": "Black Metal Bar",
+        "qty": 1,
+        "item": "Black Metal Bar",
+        "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+      }
+    },
+    "output": [
+      "Black Metal Bar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mystic Fibres"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Spinning Wheel"
+    ],
+    "json": {
+      "facility": "Spinning Wheel",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Mystic Fibres",
+          "link": "Mystic Fibres",
+          "qty": "4",
+          "item": "Mystic Fibres",
+          "image": "[[File:Mystic Fibres.png|30px|link=Mystic Fibres]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Mystic Thread"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Mystic Thread",
+        "link": "Mystic Thread",
+        "qty": 1,
+        "item": "Mystic Thread",
+        "image": "[[File:Mystic Thread.png|30px|link=Mystic Thread]]"
+      }
+    },
+    "output": [
+      "Mystic Thread"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mystic Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Loom"
+    ],
+    "json": {
+      "facility": "Loom",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Mystic Thread",
+          "link": "Mystic Thread",
+          "qty": "3",
+          "item": "Mystic Thread",
+          "image": "[[File:Mystic Thread.png|30px|link=Mystic Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Mystic Cloth"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Mystic Cloth",
+        "link": "Mystic Cloth",
+        "qty": 1,
+        "item": "Mystic Cloth",
+        "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+      }
+    },
+    "output": [
+      "Mystic Cloth"
+    ]
+  },
+  {
+    "uses_material": [
+      "Necrotic Bonemeal",
+      "Vile Ashes",
+      "Glass Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Necrotic Bonemeal",
+          "link": "Necrotic Bonemeal",
+          "qty": "6",
+          "item": "Necrotic Bonemeal",
+          "image": "[[File:Necrotic Bonemeal.png|30px|link=Necrotic Bonemeal]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Vile Ashes",
+          "link": "Vile Ashes",
+          "qty": "3",
+          "item": "Vile Ashes",
+          "image": "[[File:Vile Ashes.png|30px|link=Vile Ashes]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "1",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Demonic Oil"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Demonic Oil",
+        "link": "Demonic Oil",
+        "qty": 1,
+        "item": "Demonic Oil",
+        "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+      }
+    },
+    "output": [
+      "Demonic Oil"
+    ]
   }
 ]
