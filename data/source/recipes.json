@@ -31970,6 +31970,50 @@
   },
   {
     "uses_material": [
+      "Fried Egg"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fried Egg",
+          "link": "Fried Egg",
+          "qty": "1",
+          "item": "Fried Egg",
+          "image": "[[File:Fried Egg.png|30px|link=Fried Egg]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Egg"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Egg",
+        "link": "Burnt Egg",
+        "qty": "1",
+        "item": "Burnt Egg",
+        "image": "[[File:Burnt Egg.png|30px|link=Burnt Egg]]"
+      }
+    },
+    "output": [
+      "Burnt Egg"
+    ]
+  },
+  {
+    "uses_material": [
       "Blurite Ore"
     ],
     "uses_skill": [
@@ -42726,6 +42770,77 @@
   },
   {
     "uses_material": [
+      "Mithril Bar",
+      "Cursed Leather",
+      "Mystic Thread",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "10",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "5",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Mystic Thread",
+          "link": "Mystic Thread",
+          "qty": "3",
+          "item": "Mystic Thread",
+          "image": "[[File:Mystic Thread.png|30px|link=Mystic Thread]]"
+        },
+        {
+          "quantity": "18",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "18",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Mithril Sword"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mithril Sword",
+        "link": "Mithril Sword",
+        "qty": "1",
+        "item": "Mithril Sword",
+        "image": "[[File:Mithril Sword.png|30px|link=Mithril Sword]]"
+      }
+    },
+    "output": [
+      "Mithril Sword"
+    ]
+  },
+  {
+    "uses_material": [
       "Stone"
     ],
     "uses_skill": [
@@ -43245,6 +43360,69 @@
     },
     "output": [
       "Black Knight Helmet"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Cursed Leather",
+      "Mystic Cloth",
+      "Demonic Oil"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "4",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "4",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": 1,
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": 1,
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Mithril Helmet"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mithril Helmet",
+        "link": "Mithril Helmet",
+        "qty": "1",
+        "item": "Mithril Helmet",
+        "image": "[[File:Mithril Helmet.png|30px|link=Mithril Helmet]]"
+      }
+    },
+    "output": [
+      "Mithril Helmet"
     ]
   },
   {
@@ -43881,6 +44059,809 @@
     },
     "output": [
       "Mithril Logging Axe"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Cursed Leather",
+      "Mystic Cloth",
+      "Demonic Oil"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "10",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "6",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "4",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "3",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Mithril Platebody"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mithril Platebody",
+        "link": "Mithril Platebody",
+        "qty": "1",
+        "item": "Mithril Platebody",
+        "image": "[[File:Mithril Platebody.png|30px|link=Mithril Platebody]]"
+      }
+    },
+    "output": [
+      "Mithril Platebody"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Cursed Leather",
+      "Mystic Cloth",
+      "Demonic Oil"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "6",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "4",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "2",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "2",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Mithril Platelegs"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mithril Platelegs",
+        "link": "Mithril Platelegs",
+        "qty": "1",
+        "item": "Mithril Platelegs",
+        "image": "[[File:Mithril Platelegs.png|30px|link=Mithril Platelegs]]"
+      }
+    },
+    "output": [
+      "Mithril Platelegs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Cursed Leather",
+      "Infernal Fragment"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "10",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "4",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "18",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "18",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Mithril Shield"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mithril Shield",
+        "link": "Mithril Shield",
+        "qty": "1",
+        "item": "Mithril Shield",
+        "image": "[[File:Mithril Shield.png|30px|link=Mithril Shield]]"
+      }
+    },
+    "output": [
+      "Mithril Shield"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Bar",
+      "Mithril Bar",
+      "Cursed Leather",
+      "Mystic Cloth",
+      "Demonic Oil"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
+          "qty": "10",
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "2",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "6",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "4",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "3",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Black Knight Platebody"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Black Knight Platebody",
+        "link": "Black Knight Platebody",
+        "qty": "1",
+        "item": "Black Knight Platebody",
+        "image": "[[File:Black Knight Platebody.png|30px|link=Black Knight Platebody]]"
+      }
+    },
+    "output": [
+      "Black Knight Platebody"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Bar",
+      "Mithril Bar",
+      "Cursed Leather",
+      "Mystic Cloth",
+      "Demonic Oil"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
+          "qty": "6",
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "2",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "4",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "2",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "2",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Black Knight Platelegs"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Black Knight Platelegs",
+        "link": "Black Knight Platelegs",
+        "qty": "1",
+        "item": "Black Knight Platelegs",
+        "image": "[[File:Black Knight Platelegs.png|30px|link=Black Knight Platelegs]]"
+      }
+    },
+    "output": [
+      "Black Knight Platelegs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Maple Logs",
+      "Cursed Leather",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "16",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "5",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "6",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "32",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "32",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Mithril Greataxe"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mithril Greataxe",
+        "link": "Mithril Greataxe",
+        "qty": "1",
+        "item": "Mithril Greataxe",
+        "image": "[[File:Mithril Greataxe.png|30px|link=Mithril Greataxe]]"
+      }
+    },
+    "output": [
+      "Mithril Greataxe"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Cursed Leather",
+      "Mystic Thread",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "12",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "12",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "5",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Mystic Thread",
+          "link": "Mystic Thread",
+          "qty": "4",
+          "item": "Mystic Thread",
+          "image": "[[File:Mystic Thread.png|30px|link=Mystic Thread]]"
+        },
+        {
+          "quantity": "32",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "32",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Mithril Greatsword"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mithril Greatsword",
+        "link": "Mithril Greatsword",
+        "qty": "1",
+        "item": "Mithril Greatsword",
+        "image": "[[File:Mithril Greatsword.png|30px|link=Mithril Greatsword]]"
+      }
+    },
+    "output": [
+      "Mithril Greatsword"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Cursed Leather",
+      "Mystic Thread",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "8",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "3",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Mystic Thread",
+          "link": "Mystic Thread",
+          "qty": "3",
+          "item": "Mystic Thread",
+          "image": "[[File:Mystic Thread.png|30px|link=Mystic Thread]]"
+        },
+        {
+          "quantity": "18",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "18",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Mithril Dagger"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mithril Dagger",
+        "link": "Mithril Dagger",
+        "qty": "1",
+        "item": "Mithril Dagger",
+        "image": "[[File:Mithril Dagger.png|30px|link=Mithril Dagger]]"
+      }
+    },
+    "output": [
+      "Mithril Dagger"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Cursed Leather",
+      "Mystic Cloth",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "10",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "5",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "1",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": "16",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "16",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Mithril Scimitar"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mithril Scimitar",
+        "link": "Mithril Scimitar",
+        "qty": "1",
+        "item": "Mithril Scimitar",
+        "image": "[[File:Mithril Scimitar.png|30px|link=Mithril Scimitar]]"
+      }
+    },
+    "output": [
+      "Mithril Scimitar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Maple Logs",
+      "Cursed Leather",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "8",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "8",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "4",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "16",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "16",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Mithril Mace"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mithril Mace",
+        "link": "Mithril Mace",
+        "qty": "1",
+        "item": "Mithril Mace",
+        "image": "[[File:Mithril Mace.png|30px|link=Mithril Mace]]"
+      }
+    },
+    "output": [
+      "Mithril Mace"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Cursed Leather",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "16",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "3",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "32",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "32",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Mithril Warhammer"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mithril Warhammer",
+        "link": "Mithril Warhammer",
+        "qty": "1",
+        "item": "Mithril Warhammer",
+        "image": "[[File:Mithril Warhammer.png|30px|link=Mithril Warhammer]]"
+      }
+    },
+    "output": [
+      "Mithril Warhammer"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clean Water",
+      "Maple Syrup",
+      "Irit"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clean Water",
+          "link": "Clean Water",
+          "qty": "1",
+          "item": "Clean Water",
+          "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Maple Syrup",
+          "link": "Maple Syrup",
+          "qty": "1",
+          "item": "Maple Syrup",
+          "image": "[[File:Maple Syrup.png|30px|link=Maple Syrup]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Irit",
+          "link": "Irit",
+          "qty": "1",
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "15"
+        }
+      ],
+      "outputs": [
+        "Maple Infusion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Maple Infusion",
+        "link": "Maple Infusion",
+        "qty": 1,
+        "item": "Maple Infusion",
+        "image": "[[File:Maple Infusion.png|30px|link=Maple Infusion]]"
+      }
+    },
+    "output": [
+      "Maple Infusion"
     ]
   }
 ]

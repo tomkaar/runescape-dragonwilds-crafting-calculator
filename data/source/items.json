@@ -7679,7 +7679,7 @@
     "item_description": "A little too well done.",
     "item_name": "Burnt Egg",
     "item_type": "Food",
-    "item_stacklimit": 0,
+    "item_stacklimit": 99,
     "json": {
       "type": "Food",
       "description": "A little too well done.",
@@ -7687,7 +7687,7 @@
       "name": "Burnt Egg",
       "weight": "0.4",
       "sustenance": "10",
-      "stacklimit": "",
+      "stacklimit": "99",
       "image_raw": "Burnt Egg.png"
     },
     "item_weight": 0.4,
@@ -11375,6 +11375,18 @@
     "page_name_sub": "Spectral Silver Thread"
   },
   {
+    "page_name": "Mithril Sword",
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Mithril Sword",
+    "json": {
+      "type": "Melee Weapon",
+      "image": "[[File:Mithril Sword.png|32px]]",
+      "name": "Mithril Sword",
+      "image_raw": "Mithril Sword.png"
+    },
+    "item_name": "Mithril Sword"
+  },
+  {
     "page_name": "PLAN: Grave 1",
     "item_description": "",
     "item_name": "PLAN: Grave 1",
@@ -11709,6 +11721,24 @@
       "image_raw": "Black Knight Helmet.png"
     },
     "item_repair": "",
+    "item_weight": 8
+  },
+  {
+    "page_name": "Mithril Helmet",
+    "item_description": "Protect your head with this durable mithril headgear.",
+    "item_name": "Mithril Helmet",
+    "item_type": "Melee Armour",
+    "page_name_sub": "Mithril Helmet",
+    "json": {
+      "type": "Melee Armour",
+      "description": "Protect your head with this durable mithril headgear.",
+      "repaircost": "1 [[Mithril Bar]]",
+      "image": "[[File:Mithril Helmet.png|32px]]",
+      "name": "Mithril Helmet",
+      "weight": "8.0",
+      "image_raw": "Mithril Helmet.png"
+    },
+    "item_repair": "1 [[Mithril Bar]]",
     "item_weight": 8
   },
   {
@@ -12142,5 +12172,260 @@
     },
     "item_repair": "1 [[Mithril Bar]]",
     "item_weight": 5
+  },
+  {
+    "page_name": "Mithril Platebody",
+    "item_description": "A heavy mithril plate, providing welcome protection in battle.",
+    "item_name": "Mithril Platebody",
+    "item_type": "Melee Armour",
+    "page_name_sub": "Mithril Platebody",
+    "json": {
+      "type": "Melee Armour",
+      "description": "A heavy mithril plate, providing welcome protection in battle.",
+      "repaircost": "2 [[Mithril Bar|Mithril Bars]]",
+      "image": "[[File:Mithril Platebody.png|32px]]",
+      "name": "Mithril Platebody",
+      "weight": "16.0",
+      "image_raw": "Mithril Platebody.png"
+    },
+    "item_repair": "2 [[Mithril Bar|Mithril Bars]]",
+    "item_weight": 16
+  },
+  {
+    "page_name": "Mithril Platelegs",
+    "item_description": "Durable mithril leg armour.",
+    "item_name": "Mithril Platelegs",
+    "item_type": "Melee Armour",
+    "page_name_sub": "Mithril Platelegs",
+    "json": {
+      "type": "Melee Armour",
+      "description": "Durable mithril leg armour.",
+      "repaircost": "2 [[Mithril Bar|Mithril Bars]]",
+      "image": "[[File:Mithril Platelegs.png|32px]]",
+      "name": "Mithril Platelegs",
+      "weight": "12.0",
+      "image_raw": "Mithril Platelegs.png"
+    },
+    "item_repair": "2 [[Mithril Bar|Mithril Bars]]",
+    "item_weight": 12
+  },
+  {
+    "page_name": "Mithril Shield",
+    "item_description": "A sturdy shield crafted from mithril. Perfect for holding your ground.",
+    "item_name": "Mithril Shield",
+    "item_type": "Melee Armour",
+    "page_name_sub": "Mithril Shield",
+    "json": {
+      "type": "Melee Armour",
+      "description": "A sturdy shield crafted from mithril. Perfect for holding your ground.",
+      "repaircost": "2 [[Mithril Bar|Mithril Bars]]",
+      "image": "[[File:Mithril Shield.png|32px]]",
+      "name": "Mithril Shield",
+      "weight": "12.0",
+      "image_raw": "Mithril Shield.png"
+    },
+    "item_repair": "2 [[Mithril Bar|Mithril Bars]]",
+    "item_weight": 12
+  },
+  {
+    "page_name": "Black Knight Platebody",
+    "item_description": "A heavy chestplate worn by the Black Knights of Dowdun Reach",
+    "item_name": "Black Knight Platebody",
+    "item_type": "Melee Armour",
+    "page_name_sub": "Black Knight Platebody",
+    "json": {
+      "type": "Melee Armour",
+      "description": "A heavy chestplate worn by the Black Knights of Dowdun Reach",
+      "repaircost": "2 [[Black Metal Bar|Black Bars]]",
+      "image": "[[File:Black Knight Platebody.png|32px]]",
+      "name": "Black Knight Platebody",
+      "weight": "16.0",
+      "image_raw": "Black Knight Platebody.png"
+    },
+    "item_repair": "2 [[Black Metal Bar|Black Bars]]",
+    "item_weight": 16
+  },
+  {
+    "page_name": "Black Knight Platelegs",
+    "item_description": "Sturdy leg armour worn by the Black Knights of Dowdun Reach.",
+    "item_name": "Black Knight Platelegs",
+    "item_type": "Melee Armour",
+    "page_name_sub": "Black Knight Platelegs",
+    "json": {
+      "type": "Melee Armour",
+      "description": "Sturdy leg armour worn by the Black Knights of Dowdun Reach.",
+      "repaircost": "2 [[Black Metal Bar|Black Metal Bars]]",
+      "image": "[[File:Black Knight Platelegs.png|32px]]",
+      "name": "Black Knight Platelegs",
+      "weight": "12.0",
+      "image_raw": "Black Knight Platelegs.png"
+    },
+    "item_repair": "2 [[Black Metal Bar|Black Metal Bars]]",
+    "item_weight": 12
+  },
+  {
+    "page_name": "Shattered Black Blade",
+    "item_name": "Shattered Black Blade",
+    "item_type": "Vestige",
+    "page_name_sub": "Shattered Black Blade",
+    "json": {
+      "type": "Vestige",
+      "description": "The Remnants of a Zamorakian weapon. Perhaps you could learn something from it.",
+      "image": "[[File:Shattered Black Blade infobox.png|32px]]",
+      "name": "Shattered Black Blade",
+      "image_raw": "Shattered Black Blade infobox.png"
+    },
+    "item_description": "The Remnants of a Zamorakian weapon. Perhaps you could learn something from it."
+  },
+  {
+    "page_name": "Maple Sap",
+    "item_description": "Harvested from maple trees. An ingredient that can be cooked on a campfire.",
+    "item_name": "Maple Sap",
+    "item_type": "Basic Material",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Basic Material",
+      "description": "Harvested from maple trees. An ingredient that can be cooked on a campfire.",
+      "image": "[[File:Maple Sap.png|32px]]",
+      "name": "Maple Sap",
+      "weight": "2.0",
+      "stacklimit": "999",
+      "image_raw": "Maple Sap.png"
+    },
+    "item_weight": 2,
+    "page_name_sub": "Maple Sap"
+  },
+  {
+    "page_name": "Mithril Greataxe",
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Mithril Greataxe",
+    "json": {
+      "type": "Melee Weapon",
+      "image": "[[File:Mithril Greataxe.png|32px]]",
+      "name": "Mithril Greataxe",
+      "image_raw": "Mithril Greataxe.png"
+    },
+    "item_name": "Mithril Greataxe"
+  },
+  {
+    "page_name": "Maple Syrup",
+    "item_description": "A sweet and nutty syrup. An ingredient for various dishes.",
+    "item_name": "Maple Syrup",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "A sweet and nutty syrup. An ingredient for various dishes.",
+      "image": "[[File:Maple Syrup.png|32px]]",
+      "name": "Maple Syrup",
+      "weight": "1.0",
+      "sustenance": "25",
+      "stacklimit": "50",
+      "image_raw": "Maple Syrup.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Maple Syrup"
+  },
+  {
+    "page_name": "Mithril Greatsword",
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Mithril Greatsword",
+    "json": {
+      "type": "Melee Weapon",
+      "image": "[[File:Mithril Greatsword.png|32px]]",
+      "name": "Mithril Greatsword",
+      "image_raw": "Mithril Greatsword.png"
+    },
+    "item_name": "Mithril Greatsword"
+  },
+  {
+    "page_name": "Mithril Dagger",
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Mithril Dagger",
+    "json": {
+      "type": "Melee Weapon",
+      "image": "[[File:Mithril Dagger.png|32px]]",
+      "name": "Mithril Dagger",
+      "image_raw": "Mithril Dagger.png"
+    },
+    "item_name": "Mithril Dagger"
+  },
+  {
+    "page_name": "Mithril Scimitar",
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Mithril Scimitar",
+    "json": {
+      "type": "Melee Weapon",
+      "image": "[[File:Mithril Scimitar.png|32px]]",
+      "name": "Mithril Scimitar",
+      "image_raw": "Mithril Scimitar.png"
+    },
+    "item_name": "Mithril Scimitar"
+  },
+  {
+    "page_name": "Mithril Mace",
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Mithril Mace",
+    "json": {
+      "type": "Melee Weapon",
+      "image": "[[File:Mithril Mace.png|32px]]",
+      "name": "Mithril Mace",
+      "image_raw": "Mithril Mace.png"
+    },
+    "item_name": "Mithril Mace"
+  },
+  {
+    "page_name": "Mithril Warhammer",
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Mithril Warhammer",
+    "json": {
+      "type": "Melee Weapon",
+      "image": "[[File:Mithril Warhammer.png|32px]]",
+      "name": "Mithril Warhammer",
+      "image_raw": "Mithril Warhammer.png"
+    },
+    "item_name": "Mithril Warhammer"
+  },
+  {
+    "page_name": "Burnt Maple Syrup",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Maple Syrup",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Maple Syrup.png|32px]]",
+      "name": "Burnt Maple Syrup",
+      "weight": "1.0",
+      "sustenance": "15",
+      "stacklimit": "50",
+      "image_raw": "Burnt Maple Syrup.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Burnt Maple Syrup"
+  },
+  {
+    "page_name": "Maple Infusion",
+    "item_description": "PERK: Stalwart Shield<br><br>REDUCES the STAMINA cost of BLOCK ACTIONS by 33%.<br><br>Made from clean water, maple sap and irit. Reduces thirst as well as stamina when blocking.",
+    "item_name": "Maple Infusion",
+    "item_type": "Drink",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Drink",
+      "description": "PERK: Stalwart Shield<br><br>REDUCES the STAMINA cost of BLOCK ACTIONS by 33%.<br><br>Made from clean water, maple sap and irit. Reduces thirst as well as stamina when blocking.",
+      "perk": {
+        "name": "Stalwart Shield",
+        "effect": "REDUCES the STAMINA cost of BLOCK ACTIONS by 33%.<br><br>Made from clean water, maple sap and irit. Reduces thirst as well as stamina when blocking."
+      },
+      "image": "[[File:Maple Infusion.png|32px]]",
+      "name": "Maple Infusion",
+      "hydration": "80",
+      "weight": "1.0",
+      "stacklimit": "50",
+      "image_raw": "Maple Infusion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Maple Infusion"
   }
 ]

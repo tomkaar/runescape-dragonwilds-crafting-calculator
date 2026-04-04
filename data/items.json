@@ -20532,6 +20532,24 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "8dbc004a6e4f",
+        "name": "Burnt Egg",
+        "image": "Burnt Egg.png",
+        "variantName": null,
+        "recipe": {
+          "id": "30ef21331351",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "46356211ccca",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -20542,7 +20560,7 @@
     ],
     "wikiLink": "Burnt_Egg",
     "weight": 0.4,
-    "stackLimit": 0
+    "stackLimit": 99
   },
   {
     "id": "a1a3ceea6076",
@@ -27840,6 +27858,50 @@
     "stackLimit": 99
   },
   {
+    "id": "b34724d76cb5",
+    "name": "Mithril Sword",
+    "image": "Mithril Sword.png",
+    "variants": [
+      {
+        "id": "01f481c5d7cf",
+        "name": "Mithril Sword",
+        "image": "Mithril Sword.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1e3c789ae72e",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 5
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 18
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 10
+            },
+            {
+              "itemId": "b0d64f121478",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mithril_Sword"
+  },
+  {
     "id": "c4ffdeda3a9d",
     "name": "Grave 01",
     "image": "Grave 01.png",
@@ -28204,6 +28266,49 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Black_Knight_Helmet",
+    "weight": 8
+  },
+  {
+    "id": "3a0464e9f5ec",
+    "name": "Mithril Helmet",
+    "image": "Mithril Helmet.png",
+    "variants": [
+      {
+        "id": "02f5e837d107",
+        "name": "Mithril Helmet",
+        "image": "Mithril Helmet.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fe1fde8788f7",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 4
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 1
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 4
+            },
+            {
+              "itemId": "430052f1d705",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mithril_Helmet",
     "weight": 8
   },
   {
@@ -28627,6 +28732,527 @@
     ],
     "wikiLink": "Mithril_Logging_Axe",
     "weight": 5
+  },
+  {
+    "id": "c5b1d28338a7",
+    "name": "Mithril Platebody",
+    "image": "Mithril Platebody.png",
+    "variants": [
+      {
+        "id": "2221837e05e8",
+        "name": "Mithril Platebody",
+        "image": "Mithril Platebody.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b682c7bc8531",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 6
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 3
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 10
+            },
+            {
+              "itemId": "430052f1d705",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mithril_Platebody",
+    "weight": 16
+  },
+  {
+    "id": "03434cfa0a90",
+    "name": "Mithril Platelegs",
+    "image": "Mithril Platelegs.png",
+    "variants": [
+      {
+        "id": "e63f8822c099",
+        "name": "Mithril Platelegs",
+        "image": "Mithril Platelegs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "92e03cfb55e9",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 4
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 2
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 6
+            },
+            {
+              "itemId": "430052f1d705",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mithril_Platelegs",
+    "weight": 12
+  },
+  {
+    "id": "b24e26607c16",
+    "name": "Mithril Shield",
+    "image": "Mithril Shield.png",
+    "variants": [
+      {
+        "id": "6db4d98e4a16",
+        "name": "Mithril Shield",
+        "image": "Mithril Shield.png",
+        "variantName": null,
+        "recipe": {
+          "id": "bb7583606ae6",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 4
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 18
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 10
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mithril_Shield",
+    "weight": 12
+  },
+  {
+    "id": "37f20747514c",
+    "name": "Black Knight Platebody",
+    "image": "Black Knight Platebody.png",
+    "variants": [
+      {
+        "id": "59c2adadeeff",
+        "name": "Black Knight Platebody",
+        "image": "Black Knight Platebody.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ed67110e7362",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e7d4a89b0dc",
+              "quantity": 10
+            },
+            {
+              "itemId": "035b552de92e",
+              "quantity": 6
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 3
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 2
+            },
+            {
+              "itemId": "430052f1d705",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Black_Knight_Platebody",
+    "weight": 16
+  },
+  {
+    "id": "df4e1e1fd740",
+    "name": "Black Knight Platelegs",
+    "image": "Black Knight Platelegs.png",
+    "variants": [
+      {
+        "id": "11295171379d",
+        "name": "Black Knight Platelegs",
+        "image": "Black Knight Platelegs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "149f71b195de",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e7d4a89b0dc",
+              "quantity": 6
+            },
+            {
+              "itemId": "035b552de92e",
+              "quantity": 4
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 2
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 2
+            },
+            {
+              "itemId": "430052f1d705",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Black_Knight_Platelegs",
+    "weight": 12
+  },
+  {
+    "id": "783175d616ed",
+    "name": "Mithril Greataxe",
+    "image": "Mithril Greataxe.png",
+    "variants": [
+      {
+        "id": "357d4f5b5508",
+        "name": "Mithril Greataxe",
+        "image": "Mithril Greataxe.png",
+        "variantName": null,
+        "recipe": {
+          "id": "eb3a14371c9e",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 6
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 32
+            },
+            {
+              "itemId": "7d21f3c7ffc9",
+              "quantity": 5
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 16
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mithril_Greataxe"
+  },
+  {
+    "id": "9a0366001311",
+    "name": "Mithril Greatsword",
+    "image": "Mithril Greatsword.png",
+    "variants": [
+      {
+        "id": "8e57a03a193b",
+        "name": "Mithril Greatsword",
+        "image": "Mithril Greatsword.png",
+        "variantName": null,
+        "recipe": {
+          "id": "91c076120b53",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 5
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 32
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 12
+            },
+            {
+              "itemId": "b0d64f121478",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mithril_Greatsword"
+  },
+  {
+    "id": "dc7044445a99",
+    "name": "Mithril Dagger",
+    "image": "Mithril Dagger.png",
+    "variants": [
+      {
+        "id": "1e361df8df85",
+        "name": "Mithril Dagger",
+        "image": "Mithril Dagger.png",
+        "variantName": null,
+        "recipe": {
+          "id": "86309709d454",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 3
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 18
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 8
+            },
+            {
+              "itemId": "b0d64f121478",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mithril_Dagger"
+  },
+  {
+    "id": "1ecccbbd7cf5",
+    "name": "Mithril Scimitar",
+    "image": "Mithril Scimitar.png",
+    "variants": [
+      {
+        "id": "d8eaf6aef5ac",
+        "name": "Mithril Scimitar",
+        "image": "Mithril Scimitar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9814945f9da0",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 5
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 16
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 10
+            },
+            {
+              "itemId": "430052f1d705",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mithril_Scimitar"
+  },
+  {
+    "id": "de1a6273ad0c",
+    "name": "Mithril Mace",
+    "image": "Mithril Mace.png",
+    "variants": [
+      {
+        "id": "4fc1ce48daad",
+        "name": "Mithril Mace",
+        "image": "Mithril Mace.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d510c5a291be",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 4
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 16
+            },
+            {
+              "itemId": "7d21f3c7ffc9",
+              "quantity": 8
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 8
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mithril_Mace"
+  },
+  {
+    "id": "d87b44c68ae1",
+    "name": "Mithril Warhammer",
+    "image": "Mithril Warhammer.png",
+    "variants": [
+      {
+        "id": "e55b37076cd0",
+        "name": "Mithril Warhammer",
+        "image": "Mithril Warhammer.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d732c8d81b40",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 3
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 32
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 16
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mithril_Warhammer"
+  },
+  {
+    "id": "3e2764d11319",
+    "name": "Maple Infusion",
+    "image": "Maple Infusion.png",
+    "variants": [
+      {
+        "id": "f1f1c56696a1",
+        "name": "Maple Infusion",
+        "image": "Maple Infusion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5ccab64359fb",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "cb9dc221c0f0",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            },
+            {
+              "itemId": "cb4ae20444fa",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Maple_Infusion",
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "6a5fa59fd28f",
@@ -34361,5 +34987,83 @@
     "wikiLink": "Draconic_Leather_Scraps",
     "weight": 0.6,
     "stackLimit": 99
+  },
+  {
+    "id": "5c7f804b76a5",
+    "name": "Shattered Black Blade",
+    "image": "Shattered Black Blade infobox.png",
+    "variants": [
+      {
+        "id": "5c7f804b76a5",
+        "name": "Shattered Black Blade",
+        "image": "Shattered Black Blade infobox.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Shattered_Black_Blade"
+  },
+  {
+    "id": "ea956bb59948",
+    "name": "Maple Sap",
+    "image": "Maple Sap.png",
+    "variants": [
+      {
+        "id": "ea956bb59948",
+        "name": "Maple Sap",
+        "image": "Maple Sap.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Maple_Sap",
+    "weight": 2,
+    "stackLimit": 999
+  },
+  {
+    "id": "cb4ae20444fa",
+    "name": "Maple Syrup",
+    "image": "Maple Syrup.png",
+    "variants": [
+      {
+        "id": "cb4ae20444fa",
+        "name": "Maple Syrup",
+        "image": "Maple Syrup.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Maple_Syrup",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "64c3d9a9f422",
+    "name": "Burnt Maple Syrup",
+    "image": "Burnt Maple Syrup.png",
+    "variants": [
+      {
+        "id": "64c3d9a9f422",
+        "name": "Burnt Maple Syrup",
+        "image": "Burnt Maple Syrup.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Burnt_Maple_Syrup",
+    "weight": 1,
+    "stackLimit": 50
   }
 ]
