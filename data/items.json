@@ -18373,21 +18373,21 @@
     "image": "Molten Glass.png",
     "variants": [
       {
-        "id": "de24d94e966c",
+        "id": "9a53b61d1d84",
         "name": "Molten Glass",
         "image": "Molten Glass.png",
         "variantName": null,
         "recipe": {
-          "id": "12c6cad002ed",
+          "id": "f4a109092945",
           "facility": "Blast Furnace",
           "materials": [
             {
               "itemId": "24aad49251cb",
-              "quantity": 1
+              "quantity": 3
             },
             {
               "itemId": "464881ef1d16",
-              "quantity": 1
+              "quantity": 3
             }
           ],
           "quantity": 1
@@ -22806,7 +22806,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Shard of Smoky Glass"
+          "Shard of Smoky Glass"
         ]
       }
     ],
@@ -23648,7 +23648,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Cloying Damp Cowl"
+          "Cloying Damp Cowl"
         ]
       }
     ],
@@ -25085,7 +25085,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Crushed White Cuisse"
+          "Crushed White Cuisse"
         ]
       }
     ],
@@ -25334,7 +25334,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Burnished Belt Buckle"
+          "Burnished Belt Buckle"
         ]
       }
     ],
@@ -25385,7 +25385,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Curse Carrying Crown"
+          "Curse Carrying Crown"
         ]
       }
     ],
@@ -25436,7 +25436,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Remnants of a Rotting Robe"
+          "Remnants of a Rotting Robe"
         ]
       }
     ],
@@ -25744,7 +25744,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Simply Splendid Feather"
+          "Simply Splendid Feather"
         ]
       }
     ],
@@ -25795,7 +25795,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Slightly Chaffing Chestguard"
+          "Slightly Chaffing Chestguard"
         ]
       }
     ],
@@ -25846,7 +25846,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Tastefully Torn Tights"
+          "Tastefully Torn Tights"
         ]
       }
     ],
@@ -25949,7 +25949,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Corroded White Visor"
+          "Corroded White Visor"
         ]
       }
     ],
@@ -26004,7 +26004,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Dented White Pauldron"
+          "Dented White Pauldron"
         ]
       }
     ],
@@ -26179,7 +26179,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Sundering Spiked Slab"
+          "Sundering Spiked Slab"
         ]
       }
     ],
@@ -27550,7 +27550,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Serrated Claw"
+          "Serrated Claw"
         ]
       }
     ],
@@ -27899,7 +27899,8 @@
     "facilities": [
       "Smithing Anvil"
     ],
-    "wikiLink": "Mithril_Sword"
+    "wikiLink": "Mithril_Sword",
+    "weight": 15
   },
   {
     "id": "c4ffdeda3a9d",
@@ -28392,17 +28393,17 @@
     "image": "Black Metal Bar.png",
     "variants": [
       {
-        "id": "f98306a43de7",
+        "id": "b0115035fa3f",
         "name": "Black Metal Bar",
         "image": "Black Metal Bar.png",
         "variantName": null,
         "recipe": {
-          "id": "bb82611f80e1",
+          "id": "e8fdf9cb4fe5",
           "facility": "Blast Furnace",
           "materials": [
             {
               "itemId": "1d4c877dd611",
-              "quantity": 6
+              "quantity": 9
             },
             {
               "itemId": "4cc1d6e9f857",
@@ -28994,7 +28995,61 @@
     "facilities": [
       "Smithing Anvil"
     ],
-    "wikiLink": "Mithril_Greataxe"
+    "wikiLink": "Mithril_Greataxe",
+    "weight": 25
+  },
+  {
+    "id": "cb4ae20444fa",
+    "name": "Maple Syrup",
+    "image": "Maple Syrup.png",
+    "variants": [
+      {
+        "id": "384d0b01777e",
+        "name": "Maple Syrup",
+        "image": "Maple Syrup.png",
+        "variantName": null,
+        "recipe": {
+          "id": "dd1054a837be",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "ea956bb59948",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "625bbc00808c",
+        "name": "Maple Syrup",
+        "image": "Maple Syrup.png",
+        "variantName": null,
+        "recipe": {
+          "id": "65867b524b3f",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "ea956bb59948",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Maple_Syrup",
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "9a0366001311",
@@ -29038,7 +29093,8 @@
     "facilities": [
       "Smithing Anvil"
     ],
-    "wikiLink": "Mithril_Greatsword"
+    "wikiLink": "Mithril_Greatsword",
+    "weight": 25
   },
   {
     "id": "dc7044445a99",
@@ -29082,7 +29138,8 @@
     "facilities": [
       "Smithing Anvil"
     ],
-    "wikiLink": "Mithril_Dagger"
+    "wikiLink": "Mithril_Dagger",
+    "weight": 5
   },
   {
     "id": "1ecccbbd7cf5",
@@ -29126,7 +29183,8 @@
     "facilities": [
       "Smithing Anvil"
     ],
-    "wikiLink": "Mithril_Scimitar"
+    "wikiLink": "Mithril_Scimitar",
+    "weight": 15
   },
   {
     "id": "de1a6273ad0c",
@@ -29170,7 +29228,8 @@
     "facilities": [
       "Smithing Anvil"
     ],
-    "wikiLink": "Mithril_Mace"
+    "wikiLink": "Mithril_Mace",
+    "weight": 6
   },
   {
     "id": "d87b44c68ae1",
@@ -29210,7 +29269,97 @@
     "facilities": [
       "Smithing Anvil"
     ],
-    "wikiLink": "Mithril_Warhammer"
+    "wikiLink": "Mithril_Warhammer",
+    "weight": 25
+  },
+  {
+    "id": "64c3d9a9f422",
+    "name": "Burnt Maple Syrup",
+    "image": "Burnt Maple Syrup.png",
+    "variants": [
+      {
+        "id": "384d0b01777e",
+        "name": "Burnt Maple Syrup",
+        "image": "Burnt Maple Syrup.png",
+        "variantName": null,
+        "recipe": {
+          "id": "dd1054a837be",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "ea956bb59948",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "625bbc00808c",
+        "name": "Burnt Maple Syrup",
+        "image": "Burnt Maple Syrup.png",
+        "variantName": null,
+        "recipe": {
+          "id": "65867b524b3f",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "ea956bb59948",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "5404cbf2ec60",
+        "name": "Burnt Maple Syrup",
+        "image": "Burnt Maple Syrup.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c054cf2b01fa",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "cb4ae20444fa",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "e87c62c24bd9",
+        "name": "Burnt Maple Syrup",
+        "image": "Burnt Maple Syrup.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fe0180367178",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "cb4ae20444fa",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Maple_Syrup",
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "3e2764d11319",
@@ -29253,6 +29402,1300 @@
     "wikiLink": "Maple_Infusion",
     "weight": 1,
     "stackLimit": 50
+  },
+  {
+    "id": "ee8f25689c5f",
+    "name": "Meat Sandwich",
+    "image": "Meat Sandwich.png",
+    "variants": [
+      {
+        "id": "5cf4e0e598d2",
+        "name": "Meat Sandwich",
+        "image": "Meat Sandwich.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e65384117b76",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "e882154bb2ef",
+              "quantity": 1
+            },
+            {
+              "itemId": "eff058045116",
+              "quantity": 1
+            },
+            {
+              "itemId": "af1e0365c083",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Meat_Sandwich",
+    "weight": 2,
+    "stackLimit": 50
+  },
+  {
+    "id": "f7a0d22f9d1a",
+    "name": "Forager's Sandwich",
+    "image": "Forager's Sandwich.png",
+    "variants": [
+      {
+        "id": "00487e6777b6",
+        "name": "Forager's Sandwich",
+        "image": "Forager's Sandwich.png",
+        "variantName": null,
+        "recipe": {
+          "id": "69e511fc26b1",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "e882154bb2ef",
+              "quantity": 1
+            },
+            {
+              "itemId": "88798eba6ad6",
+              "quantity": 1
+            },
+            {
+              "itemId": "862689908e22",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Forager's_Sandwich",
+    "weight": 2,
+    "stackLimit": 50
+  },
+  {
+    "id": "fa75c3bd8c27",
+    "name": "Blue Dragonhide Body",
+    "image": "Blue Dragonhide Body.png",
+    "variants": [
+      {
+        "id": "c535bab4d3e0",
+        "name": "Blue Dragonhide Body",
+        "image": "Blue Dragonhide Body.png",
+        "variantName": null,
+        "recipe": {
+          "id": "aa580ebfd887",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e3501cafb37",
+              "quantity": 12
+            },
+            {
+              "itemId": "035b552de92e",
+              "quantity": 4
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 3
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Blue_Dragonhide_Body",
+    "weight": 12
+  },
+  {
+    "id": "aef7575b0b54",
+    "name": "Steak Sandwich",
+    "image": "Steak Sandwich.png",
+    "variants": [
+      {
+        "id": "bdeab39020c0",
+        "name": "Steak Sandwich",
+        "image": "Steak Sandwich.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a5b74496b5f",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "e882154bb2ef",
+              "quantity": 1
+            },
+            {
+              "itemId": "eff058045116",
+              "quantity": 1
+            },
+            {
+              "itemId": "8580cd2a7c1f",
+              "quantity": 1
+            },
+            {
+              "itemId": "862689908e22",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Steak_Sandwich",
+    "weight": 2,
+    "stackLimit": 50
+  },
+  {
+    "id": "700cf507eade",
+    "name": "Blue Dragonhide Coif",
+    "image": "Blue Dragonhide Coif.png",
+    "variants": [
+      {
+        "id": "1729557c294b",
+        "name": "Blue Dragonhide Coif",
+        "image": "Blue Dragonhide Coif.png",
+        "variantName": null,
+        "recipe": {
+          "id": "87cd1fb97873",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e3501cafb37",
+              "quantity": 4
+            },
+            {
+              "itemId": "035b552de92e",
+              "quantity": 2
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 1
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Blue_Dragonhide_Coif",
+    "weight": 6
+  },
+  {
+    "id": "9786294eb291",
+    "name": "Blue Dragonhide Chaps",
+    "image": "Blue Dragonhide Chaps.png",
+    "variants": [
+      {
+        "id": "8f34a3cd8766",
+        "name": "Blue Dragonhide Chaps",
+        "image": "Blue Dragonhide Chaps.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6cde7be64c5d",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e3501cafb37",
+              "quantity": 6
+            },
+            {
+              "itemId": "035b552de92e",
+              "quantity": 4
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 2
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Blue_Dragonhide_Chaps",
+    "weight": 9
+  },
+  {
+    "id": "aa2422eb215e",
+    "name": "Meat Twist Sandwich",
+    "image": "Meat Twist Sandwich.png",
+    "variants": [
+      {
+        "id": "44487a152b8d",
+        "name": "Meat Twist Sandwich",
+        "image": "Meat Twist Sandwich.png",
+        "variantName": null,
+        "recipe": {
+          "id": "3fcd8cd8f81f",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "e882154bb2ef",
+              "quantity": 1
+            },
+            {
+              "itemId": "ea552b5a7378",
+              "quantity": 1
+            },
+            {
+              "itemId": "eff058045116",
+              "quantity": 1
+            },
+            {
+              "itemId": "af1e0365c083",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Meat_Twist_Sandwich",
+    "weight": 2,
+    "stackLimit": 50
+  },
+  {
+    "id": "6fda9d5c2ece",
+    "name": "Glazed Pumpkin Sandwich",
+    "image": "Glazed Pumpkin Sandwich.png",
+    "variants": [
+      {
+        "id": "9e51d23b2ac7",
+        "name": "Glazed Pumpkin Sandwich",
+        "image": "Glazed Pumpkin Sandwich.png",
+        "variantName": null,
+        "recipe": {
+          "id": "de05d28dca0e",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "e882154bb2ef",
+              "quantity": 1
+            },
+            {
+              "itemId": "ea552b5a7378",
+              "quantity": 1
+            },
+            {
+              "itemId": "cb4ae20444fa",
+              "quantity": 1
+            },
+            {
+              "itemId": "78aa61fac52a",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Glazed_Pumpkin_Sandwich",
+    "weight": 2,
+    "stackLimit": 50
+  },
+  {
+    "id": "b6edd281c0b4",
+    "name": "Maple Toastie",
+    "image": "Maple Toastie.png",
+    "variants": [
+      {
+        "id": "c6d623e5c0dc",
+        "name": "Maple Toastie",
+        "image": "Maple Toastie.png",
+        "variantName": null,
+        "recipe": {
+          "id": "eafb4db1bb87",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "e882154bb2ef",
+              "quantity": 1
+            },
+            {
+              "itemId": "ea552b5a7378",
+              "quantity": 1
+            },
+            {
+              "itemId": "cb4ae20444fa",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Maple_Toastie",
+    "weight": 2,
+    "stackLimit": 50
+  },
+  {
+    "id": "f81c9d2ccbe3",
+    "name": "Blue Dragon Leather",
+    "image": "Blue Dragon Leather.png",
+    "variants": [
+      {
+        "id": "8502212c0fb1",
+        "name": "Blue Dragon Leather",
+        "image": "Blue Dragon Leather.png",
+        "variantName": null,
+        "recipe": {
+          "id": "22f801a03e80",
+          "facility": "Tannery",
+          "materials": [
+            {
+              "itemId": "8696d089b45c",
+              "quantity": 1
+            }
+          ],
+          "quantity": 2
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Tannery"
+    ],
+    "wikiLink": "Blue_Dragon_Leather",
+    "weight": 0.6,
+    "stackLimit": 50
+  },
+  {
+    "id": "c078da8a16a2",
+    "name": "Glass Pane",
+    "image": "Glass Pane.png",
+    "variants": [
+      {
+        "id": "fbf6f17af3f0",
+        "name": "Glass Pane",
+        "image": "Glass Pane.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0a14a0ca62b2",
+          "facility": "Jeweler's Bench",
+          "materials": [
+            {
+              "itemId": "396ffa28eb6c",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
+    ],
+    "wikiLink": "Glass_Pane",
+    "weight": 0.1,
+    "stackLimit": 50
+  },
+  {
+    "id": "f3b1c43def86",
+    "name": "Mystic Hat",
+    "image": "Mystic Hat.png",
+    "variants": [
+      {
+        "id": "1e9046e00b5e",
+        "name": "Mystic Hat",
+        "image": "Mystic Hat.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0b7b20482d89",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 1
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 1
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 12
+            },
+            {
+              "itemId": "430052f1d705",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mystic_Hat",
+    "weight": 4
+  },
+  {
+    "id": "e2ff907ac9de",
+    "name": "Mystic Robes",
+    "image": "Mystic Robes.png",
+    "variants": [
+      {
+        "id": "66348aba32cc",
+        "name": "Mystic Robes",
+        "image": "Mystic Robes.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8e2f6cedb8f4",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 4
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 3
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 32
+            },
+            {
+              "itemId": "430052f1d705",
+              "quantity": 12
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mystic_Robes",
+    "weight": 8
+  },
+  {
+    "id": "2408fd0fb3c9",
+    "name": "Mystic Robe Legs",
+    "image": "Mystic Robe Legs.png",
+    "variants": [
+      {
+        "id": "1364d6ca9eee",
+        "name": "Mystic Robe Legs",
+        "image": "Mystic Robe Legs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e6d664fcc822",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "035b552de92e",
+              "quantity": 2
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 2
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 24
+            },
+            {
+              "itemId": "430052f1d705",
+              "quantity": 8
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mystic_Robe_Legs",
+    "weight": 6
+  },
+  {
+    "id": "7d58fd40af21",
+    "name": "Black Sword",
+    "image": "Black Sword.png",
+    "variants": [
+      {
+        "id": "1323fcf8f2b8",
+        "name": "Black Sword",
+        "image": "Black Sword.png",
+        "variantName": null,
+        "recipe": {
+          "id": "208a7f260b1c",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e7d4a89b0dc",
+              "quantity": 10
+            },
+            {
+              "itemId": "035b552de92e",
+              "quantity": 5
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 2
+            },
+            {
+              "itemId": "b0d64f121478",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Shattered Black Blade"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Black_Sword",
+    "weight": 15
+  },
+  {
+    "id": "44fbf64ea31d",
+    "name": "Maple Shortbow",
+    "image": "Maple Shortbow.png",
+    "variants": [
+      {
+        "id": "422415b9dd08",
+        "name": "Maple Shortbow",
+        "image": "Maple Shortbow.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d7e7a096cd8b",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "b639c243cebd",
+              "quantity": 2
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 16
+            },
+            {
+              "itemId": "7d21f3c7ffc9",
+              "quantity": 10
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 2
+            },
+            {
+              "itemId": "b0d64f121478",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Maple_Shortbow",
+    "weight": 10
+  },
+  {
+    "id": "84e3c3c8748d",
+    "name": "Enchanted Mithril Bolt",
+    "image": "Enchanted Mithril Bolt.png",
+    "variants": [
+      {
+        "id": "3bcdab4034cd",
+        "name": "Enchanted Mithril Bolt",
+        "image": "Enchanted Mithril Bolt.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9114e7b81370",
+          "facility": "Enchanted Mithril Bolts",
+          "materials": [
+            {
+              "itemId": "0a3bcef8e149",
+              "quantity": 15
+            },
+            {
+              "itemId": "d5c7d6909017",
+              "quantity": 33
+            },
+            {
+              "itemId": "0e2ba7342d33",
+              "quantity": 10
+            },
+            {
+              "itemId": "8c673a010857",
+              "quantity": 1
+            }
+          ],
+          "quantity": 33
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Enchanted Mithril Bolts"
+    ],
+    "wikiLink": "Enchanted_Mithril_Bolt"
+  },
+  {
+    "id": "6115d85377eb",
+    "name": "Zamorak Staff",
+    "image": "Zamorak Staff.png",
+    "variants": [
+      {
+        "id": "7712c5086431",
+        "name": "Zamorak Staff",
+        "image": "Zamorak Staff.png",
+        "variantName": null,
+        "recipe": {
+          "id": "888b0b45046b",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e7d4a89b0dc",
+              "quantity": 10
+            },
+            {
+              "itemId": "035b552de92e",
+              "quantity": 10
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 6
+            },
+            {
+              "itemId": "b639c243cebd",
+              "quantity": 4
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 64
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Zamorak_Staff",
+    "weight": 15
+  },
+  {
+    "id": "e122f2f8f396",
+    "name": "Subjugation Staff",
+    "image": "Subjugation Staff.png",
+    "variants": [
+      {
+        "id": "8288cfe37280",
+        "name": "Subjugation Staff",
+        "image": "Subjugation Staff.png",
+        "variantName": null,
+        "recipe": {
+          "id": "3e30a2733aac",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 4
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 18
+            },
+            {
+              "itemId": "7d21f3c7ffc9",
+              "quantity": 16
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Subjugation_Staff",
+    "weight": 15
+  },
+  {
+    "id": "aadc588e642b",
+    "name": "Maple Battlestaff",
+    "image": "Maple Battlestaff.png",
+    "variants": [
+      {
+        "id": "ef959dea29ca",
+        "name": "Maple Battlestaff",
+        "image": "Maple Battlestaff.png",
+        "variantName": null,
+        "recipe": {
+          "id": "3152784eac01",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 3
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 16
+            },
+            {
+              "itemId": "7d21f3c7ffc9",
+              "quantity": 16
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Maple_Battlestaff",
+    "weight": 15
+  },
+  {
+    "id": "bf878c2fb547",
+    "name": "Black Greataxe",
+    "image": "Black Greataxe.png",
+    "variants": [
+      {
+        "id": "0c32d9b4bba6",
+        "name": "Black Greataxe",
+        "image": "Black Greataxe.png",
+        "variantName": null,
+        "recipe": {
+          "id": "111dcb7b10fc",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e7d4a89b0dc",
+              "quantity": 16
+            },
+            {
+              "itemId": "035b552de92e",
+              "quantity": 6
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 32
+            },
+            {
+              "itemId": "7d21f3c7ffc9",
+              "quantity": 5
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Bloodstained Hilt"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Black_Greataxe",
+    "weight": 25
+  },
+  {
+    "id": "8f15c59256d8",
+    "name": "Artisan Skillcape",
+    "image": "Artisan Skillcape.png",
+    "variants": [
+      {
+        "id": "ee144557b65b",
+        "name": "Artisan Skillcape",
+        "image": "Artisan Skillcape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "217605353fee",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "e2f79e5b6033",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Artisan_Skillcape"
+  },
+  {
+    "id": "cadd66cbe4be",
+    "name": "Construction Skillcape",
+    "image": "Construction Skillcape.png",
+    "variants": [
+      {
+        "id": "ee144557b65b",
+        "name": "Construction Skillcape",
+        "image": "Construction Skillcape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "217605353fee",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "e2f79e5b6033",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Construction_Skillcape"
+  },
+  {
+    "id": "bf6b8bdeb6f1",
+    "name": "Cooking Skillcape",
+    "image": "Cooking Skillcape.png",
+    "variants": [
+      {
+        "id": "ee144557b65b",
+        "name": "Cooking Skillcape",
+        "image": "Cooking Skillcape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "217605353fee",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "e2f79e5b6033",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Cooking_Skillcape"
+  },
+  {
+    "id": "9c92d684f292",
+    "name": "Farming Skillcape",
+    "image": "Farming Skillcape.png",
+    "variants": [
+      {
+        "id": "ee144557b65b",
+        "name": "Farming Skillcape",
+        "image": "Farming Skillcape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "217605353fee",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "e2f79e5b6033",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Farming"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Farming_Skillcape"
+  },
+  {
+    "id": "405c69343925",
+    "name": "Magic Skillcape",
+    "image": "Magic Skillcape.png",
+    "variants": [
+      {
+        "id": "ee144557b65b",
+        "name": "Magic Skillcape",
+        "image": "Magic Skillcape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "217605353fee",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "e2f79e5b6033",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Magic"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Magic_Skillcape"
+  },
+  {
+    "id": "488028e664d5",
+    "name": "Ranged Skillcape",
+    "image": "Ranged Skillcape.png",
+    "variants": [
+      {
+        "id": "ee144557b65b",
+        "name": "Ranged Skillcape",
+        "image": "Ranged Skillcape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "217605353fee",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "e2f79e5b6033",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Ranged"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Ranged_Skillcape"
+  },
+  {
+    "id": "37f4c1213e75",
+    "name": "Runecrafting Skillcape",
+    "image": "Runecrafting Skillcape.png",
+    "variants": [
+      {
+        "id": "ee144557b65b",
+        "name": "Runecrafting Skillcape",
+        "image": "Runecrafting Skillcape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "217605353fee",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "e2f79e5b6033",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Runecrafting"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Runecrafting_Skillcape"
+  },
+  {
+    "id": "ce939103e9c8",
+    "name": "Woodcutting Skillcape",
+    "image": "Woodcutting Skillcape.png",
+    "variants": [
+      {
+        "id": "ee144557b65b",
+        "name": "Woodcutting Skillcape",
+        "image": "Woodcutting Skillcape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "217605353fee",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "e2f79e5b6033",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Woodcutting"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Woodcutting_Skillcape"
+  },
+  {
+    "id": "819f4bce1412",
+    "name": "Mithril Crossbow",
+    "image": "Mithril Crossbow.png",
+    "variants": [
+      {
+        "id": "1f53ba8db0f3",
+        "name": "Mithril Crossbow",
+        "image": "Mithril Crossbow.png",
+        "variantName": null,
+        "recipe": {
+          "id": "28037fb25b70",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "6751df209a03",
+              "quantity": 18
+            },
+            {
+              "itemId": "7d21f3c7ffc9",
+              "quantity": 16
+            },
+            {
+              "itemId": "40c972a4ada7",
+              "quantity": 1
+            },
+            {
+              "itemId": "b0d64f121478",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Mithril_Crossbow",
+    "weight": 10
+  },
+  {
+    "id": "40c972a4ada7",
+    "name": "Mithril Crossbow Limbs",
+    "image": "Mithril Crossbow Limbs.png",
+    "variants": [
+      {
+        "id": "70db06a4b469",
+        "name": "Mithril Crossbow Limbs",
+        "image": "Mithril Crossbow Limbs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "670171feb8b9",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Mithril_Crossbow_Limbs",
+    "weight": 4.5
+  },
+  {
+    "id": "26a20b838fad",
+    "name": "Mithril Bolts",
+    "image": "Mithril Bolts.png",
+    "variants": [
+      {
+        "id": "4628c8e000bb",
+        "name": "Mithril Bolts",
+        "image": "Mithril Bolts.png",
+        "variantName": null,
+        "recipe": {
+          "id": "176836db5bc8",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "7ddc50d536fd",
+              "quantity": 3
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 33
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Mithril_Bolts",
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "6a5fa59fd28f",
@@ -33484,13 +34927,13 @@
     "stackLimit": 99
   },
   {
-    "id": "9862019cf379",
-    "name": "VESTIGE: Cloying Damp Cowl",
-    "image": "VESTIGE-_Cloying_Damp_Cowl.png",
+    "id": "5bc901664ee1",
+    "name": "Cloying Damp Cowl",
+    "image": "VESTIGE: Cloying Damp Cowl.png",
     "variants": [
       {
-        "id": "9862019cf379",
-        "name": "VESTIGE: Cloying Damp Cowl",
+        "id": "5bc901664ee1",
+        "name": "Cloying Damp Cowl",
         "image": "VESTIGE: Cloying Damp Cowl.png",
         "variantName": null,
         "recipe": null,
@@ -33499,7 +34942,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Cloying_Damp_Cowl",
+    "wikiLink": "Cloying_Damp_Cowl",
     "weight": 0,
     "stackLimit": 99
   },
@@ -33661,7 +35104,7 @@
     "facilities": [],
     "wikiLink": "Imaru's_Head",
     "weight": 0,
-    "stackLimit": 25
+    "stackLimit": 99
   },
   {
     "id": "6ce38a53e81a",
@@ -33743,13 +35186,13 @@
     "stackLimit": 99
   },
   {
-    "id": "48269f4923b6",
-    "name": "VESTIGE: Burnished Belt Buckle",
+    "id": "6bd1a1deee1a",
+    "name": "Burnished Belt Buckle",
     "image": "VESTIGE: Burnished Belt Buckle.png",
     "variants": [
       {
-        "id": "48269f4923b6",
-        "name": "VESTIGE: Burnished Belt Buckle",
+        "id": "6bd1a1deee1a",
+        "name": "Burnished Belt Buckle",
         "image": "VESTIGE: Burnished Belt Buckle.png",
         "variantName": null,
         "recipe": null,
@@ -33758,7 +35201,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Burnished_Belt_Buckle",
+    "wikiLink": "Burnished_Belt_Buckle",
     "weight": 0,
     "stackLimit": 99
   },
@@ -34071,6 +35514,26 @@
     "stackLimit": 1
   },
   {
+    "id": "85e93bf880b6",
+    "name": "Curse Carrying Crown",
+    "image": "VESTIGE: Curse Carrying Crown.png",
+    "variants": [
+      {
+        "id": "85e93bf880b6",
+        "name": "Curse Carrying Crown",
+        "image": "VESTIGE: Curse Carrying Crown.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Curse_Carrying_Crown",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
     "id": "b5cce1fc67c3",
     "name": "Dust-covered Sketchbook",
     "image": "Dust-covered Sketchbook.png",
@@ -34111,13 +35574,13 @@
     "stackLimit": 1
   },
   {
-    "id": "8db601163924",
-    "name": "VESTIGE: Sundering Spiked Slab",
+    "id": "9f3a383fdf7c",
+    "name": "Sundering Spiked Slab",
     "image": "VESTIGE- Sundering Spiked Slab.png",
     "variants": [
       {
-        "id": "8db601163924",
-        "name": "VESTIGE: Sundering Spiked Slab",
+        "id": "9f3a383fdf7c",
+        "name": "Sundering Spiked Slab",
         "image": "VESTIGE- Sundering Spiked Slab.png",
         "variantName": null,
         "recipe": null,
@@ -34126,18 +35589,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Sundering_Spiked_Slab",
+    "wikiLink": "Sundering_Spiked_Slab",
     "weight": 0,
     "stackLimit": 99
   },
   {
-    "id": "dded1f7433f5",
-    "name": "VESTIGE: Tastefully Torn Tights",
-    "image": "Ranger_Tights.png",
+    "id": "d5d3297fa4bd",
+    "name": "Tastefully Torn Tights",
+    "image": "VESTIGE: Tastefully Torn Tights.png",
     "variants": [
       {
-        "id": "dded1f7433f5",
-        "name": "VESTIGE: Tastefully Torn Tights",
+        "id": "d5d3297fa4bd",
+        "name": "Tastefully Torn Tights",
         "image": "VESTIGE: Tastefully Torn Tights.png",
         "variantName": null,
         "recipe": null,
@@ -34146,7 +35609,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Tastefully_Torn_Tights",
+    "wikiLink": "Tastefully_Torn_Tights",
     "weight": 0,
     "stackLimit": 99
   },
@@ -34229,13 +35692,13 @@
     "stackLimit": 99
   },
   {
-    "id": "a7529d7b1c21",
-    "name": "VESTIGE: Shard of Smoky Glass",
-    "image": "VESTIGE-_Shard_of_Smoky_Glass.png",
+    "id": "d6d451d46468",
+    "name": "Shard of Smoky Glass",
+    "image": "VESTIGE: Shard of Smoky Glass.png",
     "variants": [
       {
-        "id": "a7529d7b1c21",
-        "name": "VESTIGE: Shard of Smoky Glass",
+        "id": "d6d451d46468",
+        "name": "Shard of Smoky Glass",
         "image": "VESTIGE: Shard of Smoky Glass.png",
         "variantName": null,
         "recipe": null,
@@ -34244,7 +35707,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Shard_of_Smoky_Glass",
+    "wikiLink": "Shard_of_Smoky_Glass",
     "weight": 0,
     "stackLimit": 99
   },
@@ -34309,6 +35772,26 @@
     "stackLimit": 99
   },
   {
+    "id": "1d2b163d194e",
+    "name": "Serrated Claw",
+    "image": "Imaru's Talon.png",
+    "variants": [
+      {
+        "id": "1d2b163d194e",
+        "name": "Serrated Claw",
+        "image": "Imaru's Talon.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Serrated_Claw",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
     "id": "dd3ac14cd979",
     "name": "Shroud of Noggin (vestige)",
     "image": "Shroud of Noggin.png",
@@ -34325,26 +35808,6 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Shroud_of_Noggin_(vestige)",
-    "weight": 0,
-    "stackLimit": 99
-  },
-  {
-    "id": "546473c5750d",
-    "name": "VESTIGE: Serrated Claw",
-    "image": "Imaru's Talon.png",
-    "variants": [
-      {
-        "id": "546473c5750d",
-        "name": "VESTIGE: Serrated Claw",
-        "image": "Imaru's Talon.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "VESTIGE:_Serrated_Claw",
     "weight": 0,
     "stackLimit": 99
   },
@@ -34386,6 +35849,26 @@
     "facilities": [],
     "wikiLink": "VESTIGE:_A_Threadbare_Grain_Sack",
     "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "8696d089b45c",
+    "name": "Blue Dragon Hide",
+    "image": "Blue Dragon Hide.png",
+    "variants": [
+      {
+        "id": "8696d089b45c",
+        "name": "Blue Dragon Hide",
+        "image": "Blue Dragon Hide.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Blue_Dragon_Hide",
+    "weight": 3,
     "stackLimit": 99
   },
   {
@@ -34529,13 +36012,13 @@
     "stackLimit": 99
   },
   {
-    "id": "276f0966768f",
-    "name": "VESTIGE: Corroded White Visor",
+    "id": "6ea13546d4c4",
+    "name": "Corroded White Visor",
     "image": "VESTIGE: Corroded White Visor.png",
     "variants": [
       {
-        "id": "276f0966768f",
-        "name": "VESTIGE: Corroded White Visor",
+        "id": "6ea13546d4c4",
+        "name": "Corroded White Visor",
         "image": "VESTIGE: Corroded White Visor.png",
         "variantName": null,
         "recipe": null,
@@ -34544,18 +36027,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Corroded_White_Visor",
+    "wikiLink": "Corroded_White_Visor",
     "weight": 0,
     "stackLimit": 99
   },
   {
-    "id": "32b729181554",
-    "name": "VESTIGE: Crushed White Cuisse",
+    "id": "3d9a47e059dc",
+    "name": "Crushed White Cuisse",
     "image": "VESTIGE: Crushed White Cuisse.png",
     "variants": [
       {
-        "id": "32b729181554",
-        "name": "VESTIGE: Crushed White Cuisse",
+        "id": "3d9a47e059dc",
+        "name": "Crushed White Cuisse",
         "image": "VESTIGE: Crushed White Cuisse.png",
         "variantName": null,
         "recipe": null,
@@ -34564,38 +36047,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Crushed_White_Cuisse",
+    "wikiLink": "Crushed_White_Cuisse",
     "weight": 0,
     "stackLimit": 99
   },
   {
-    "id": "378f38b66515",
-    "name": "VESTIGE: Curse Carrying Crown",
-    "image": "VESTIGE: Curse Carrying Crown.png",
-    "variants": [
-      {
-        "id": "378f38b66515",
-        "name": "VESTIGE: Curse Carrying Crown",
-        "image": "VESTIGE: Curse Carrying Crown.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "VESTIGE:_Curse_Carrying_Crown",
-    "weight": 0,
-    "stackLimit": 99
-  },
-  {
-    "id": "bb27efe588f6",
-    "name": "VESTIGE: Dented White Pauldron",
+    "id": "fe25394a6b45",
+    "name": "Dented White Pauldron",
     "image": "VESTIGE: Dented White Pauldron.png",
     "variants": [
       {
-        "id": "bb27efe588f6",
-        "name": "VESTIGE: Dented White Pauldron",
+        "id": "fe25394a6b45",
+        "name": "Dented White Pauldron",
         "image": "VESTIGE: Dented White Pauldron.png",
         "variantName": null,
         "recipe": null,
@@ -34604,18 +36067,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Dented_White_Pauldron",
+    "wikiLink": "Dented_White_Pauldron",
     "weight": 0,
     "stackLimit": 99
   },
   {
-    "id": "0074923cd7d8",
-    "name": "VESTIGE: Remnants of a Rotting Robe",
+    "id": "56cd5cdd8d82",
+    "name": "Remnants of a Rotting Robe",
     "image": "VESTIGE: Remnants of a Rotting Robe.png",
     "variants": [
       {
-        "id": "0074923cd7d8",
-        "name": "VESTIGE: Remnants of a Rotting Robe",
+        "id": "56cd5cdd8d82",
+        "name": "Remnants of a Rotting Robe",
         "image": "VESTIGE: Remnants of a Rotting Robe.png",
         "variantName": null,
         "recipe": null,
@@ -34624,18 +36087,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Remnants_of_a_Rotting_Robe",
+    "wikiLink": "Remnants_of_a_Rotting_Robe",
     "weight": 0,
     "stackLimit": 99
   },
   {
-    "id": "d1a9f419a9d2",
-    "name": "VESTIGE: Simply Splendid Feather",
+    "id": "58b04ab06414",
+    "name": "Simply Splendid Feather",
     "image": "VESTIGE: Simply Splendid Feather.png",
     "variants": [
       {
-        "id": "d1a9f419a9d2",
-        "name": "VESTIGE: Simply Splendid Feather",
+        "id": "58b04ab06414",
+        "name": "Simply Splendid Feather",
         "image": "VESTIGE: Simply Splendid Feather.png",
         "variantName": null,
         "recipe": null,
@@ -34644,18 +36107,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Simply_Splendid_Feather",
+    "wikiLink": "Simply_Splendid_Feather",
     "weight": 0,
     "stackLimit": 99
   },
   {
-    "id": "cad9954b2cab",
-    "name": "VESTIGE: Slightly Chaffing Chestguard",
+    "id": "259545f7f1be",
+    "name": "Slightly Chaffing Chestguard",
     "image": "VESTIGE: Slightly Chaffing Chestguard.png",
     "variants": [
       {
-        "id": "cad9954b2cab",
-        "name": "VESTIGE: Slightly Chaffing Chestguard",
+        "id": "259545f7f1be",
+        "name": "Slightly Chaffing Chestguard",
         "image": "VESTIGE: Slightly Chaffing Chestguard.png",
         "variantName": null,
         "recipe": null,
@@ -34664,7 +36127,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Slightly_Chaffing_Chestguard",
+    "wikiLink": "Slightly_Chaffing_Chestguard",
     "weight": 0,
     "stackLimit": 99
   },
@@ -34991,12 +36454,12 @@
   {
     "id": "5c7f804b76a5",
     "name": "Shattered Black Blade",
-    "image": "Shattered Black Blade infobox.png",
+    "image": "Shattered Black Blade.png",
     "variants": [
       {
         "id": "5c7f804b76a5",
         "name": "Shattered Black Blade",
-        "image": "Shattered Black Blade infobox.png",
+        "image": "Shattered Black Blade.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -35027,14 +36490,14 @@
     "stackLimit": 999
   },
   {
-    "id": "cb4ae20444fa",
-    "name": "Maple Syrup",
-    "image": "Maple Syrup.png",
+    "id": "a463d305cea2",
+    "name": "Metal Salvage",
+    "image": "Metal Salvage.png",
     "variants": [
       {
-        "id": "cb4ae20444fa",
-        "name": "Maple Syrup",
-        "image": "Maple Syrup.png",
+        "id": "a463d305cea2",
+        "name": "Metal Salvage",
+        "image": "Metal Salvage.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -35042,19 +36505,19 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Maple_Syrup",
-    "weight": 1,
-    "stackLimit": 50
+    "wikiLink": "Metal_Salvage",
+    "weight": 0,
+    "stackLimit": 0
   },
   {
-    "id": "64c3d9a9f422",
-    "name": "Burnt Maple Syrup",
-    "image": "Burnt Maple Syrup.png",
+    "id": "fb9db61d8f21",
+    "name": "Aetheric Fundamentals, a Primordial Primer",
+    "image": "Aetheric Fundamentals, a Primordial Primer.png",
     "variants": [
       {
-        "id": "64c3d9a9f422",
-        "name": "Burnt Maple Syrup",
-        "image": "Burnt Maple Syrup.png",
+        "id": "fb9db61d8f21",
+        "name": "Aetheric Fundamentals, a Primordial Primer",
+        "image": "Aetheric Fundamentals, a Primordial Primer.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -35062,8 +36525,27 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Burnt_Maple_Syrup",
-    "weight": 1,
-    "stackLimit": 50
+    "wikiLink": "Aetheric_Fundamentals,_a_Primordial_Primer",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "ff220f74589d",
+    "name": "Unusual Trout",
+    "image": "Unusual Trout.png",
+    "variants": [
+      {
+        "id": "ff220f74589d",
+        "name": "Unusual Trout",
+        "image": "Unusual Trout.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Unusual_Trout",
+    "weight": 0.4
   }
 ]

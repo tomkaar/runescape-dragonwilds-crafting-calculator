@@ -9053,22 +9053,22 @@
     "page_name_sub": "Wither Water"
   },
   {
-    "page_name": "VESTIGE: Cloying Damp Cowl",
+    "page_name": "Cloying Damp Cowl",
     "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: Cloying Damp Cowl",
+    "item_name": "Cloying Damp Cowl",
     "item_type": "Vestige",
     "item_stacklimit": 99,
     "json": {
       "type": "Vestige",
       "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
       "image": "[[File:VESTIGE: Cloying Damp Cowl.png|32px]]",
-      "name": "VESTIGE: Cloying Damp Cowl",
+      "name": "Cloying Damp Cowl",
       "weight": "0.0",
       "stacklimit": "99",
       "image_raw": "VESTIGE: Cloying Damp Cowl.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Cloying Damp Cowl"
+    "page_name_sub": "Cloying Damp Cowl"
   },
   {
     "page_name": "Skeleton Pack",
@@ -9503,14 +9503,14 @@
     "item_description": "Proof of your triumph over the Soul-Eater. It's dripping ectoplasm all over, you should probably get rid of it...",
     "item_name": "Imaru's Head",
     "item_type": "Quest Item",
-    "item_stacklimit": 25,
+    "item_stacklimit": 99,
     "json": {
       "type": "Quest Item",
       "description": "Proof of your triumph over the Soul-Eater. It's dripping ectoplasm all over, you should probably get rid of it...",
       "image": "[[File:Imaru's Head.png|32px]]",
       "name": "Imaru's Head",
       "weight": "0.0",
-      "stacklimit": "25",
+      "stacklimit": "99",
       "image_raw": "Imaru's Head.png"
     },
     "item_weight": 0,
@@ -9800,22 +9800,22 @@
     "item_type": "Trinket"
   },
   {
-    "page_name": "VESTIGE: Burnished Belt Buckle",
+    "page_name": "Burnished Belt Buckle",
     "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: Burnished Belt Buckle",
+    "item_name": "Burnished Belt Buckle",
     "item_type": "Consumable",
     "item_stacklimit": 99,
     "json": {
       "type": "Consumable",
       "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
       "image": "[[File:VESTIGE: Burnished Belt Buckle.png|32px]]",
-      "name": "VESTIGE: Burnished Belt Buckle",
+      "name": "Burnished Belt Buckle",
       "weight": "0",
       "stacklimit": "99",
       "image_raw": "VESTIGE: Burnished Belt Buckle.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Burnished Belt Buckle"
+    "page_name_sub": "Burnished Belt Buckle"
   },
   {
     "page_name": "Necromancer's Robe Bottom",
@@ -10868,6 +10868,24 @@
     "page_name_sub": "Grilled Tomatoes"
   },
   {
+    "page_name": "Curse Carrying Crown",
+    "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+    "item_name": "Curse Carrying Crown",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+      "image": "[[File:VESTIGE: Curse Carrying Crown.png|32px]]",
+      "name": "Curse Carrying Crown",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "VESTIGE: Curse Carrying Crown.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Curse Carrying Crown"
+  },
+  {
     "page_name": "Dust-covered Sketchbook",
     "item_description": "A ruined notebook, buried beneath the soil.",
     "item_name": "Dust-covered Sketchbook",
@@ -10902,33 +10920,33 @@
     "item_type": "Pattern"
   },
   {
-    "page_name": "VESTIGE: Sundering Spiked Slab",
+    "page_name": "Sundering Spiked Slab",
     "item_description": "",
-    "item_name": "VESTIGE: Sundering Spiked Slab",
+    "item_name": "Sundering Spiked Slab",
     "item_type": "Vestige",
     "item_stacklimit": 99,
     "json": {
       "type": "Vestige",
       "description": "",
       "image": "[[File:VESTIGE- Sundering Spiked Slab.png|32px]]",
-      "name": "VESTIGE: Sundering Spiked Slab",
+      "name": "Sundering Spiked Slab",
       "weight": "0.0",
       "stacklimit": "99",
       "image_raw": "VESTIGE- Sundering Spiked Slab.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Sundering Spiked Slab"
+    "page_name_sub": "Sundering Spiked Slab"
   },
   {
-    "page_name": "VESTIGE: Tastefully Torn Tights",
+    "page_name": "Tastefully Torn Tights",
     "item_stacklimit": 99,
-    "item_name": "VESTIGE: Tastefully Torn Tights",
+    "item_name": "Tastefully Torn Tights",
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Tastefully Torn Tights",
+    "page_name_sub": "Tastefully Torn Tights",
     "json": {
       "type": "Vestige",
       "image": "[[File:VESTIGE: Tastefully Torn Tights.png|32px]]",
-      "name": "VESTIGE: Tastefully Torn Tights",
+      "name": "Tastefully Torn Tights",
       "weight": "0.0",
       "stacklimit": "99",
       "image_raw": "VESTIGE: Tastefully Torn Tights.png"
@@ -11092,15 +11110,15 @@
     "page_name_sub": "PLAN: Headstone 01"
   },
   {
-    "page_name": "VESTIGE: Shard of Smoky Glass",
+    "page_name": "Shard of Smoky Glass",
     "item_stacklimit": 99,
-    "item_name": "VESTIGE: Shard of Smoky Glass",
+    "item_name": "Shard of Smoky Glass",
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Shard of Smoky Glass",
+    "page_name_sub": "Shard of Smoky Glass",
     "json": {
       "type": "Vestige",
       "image": "[[File:VESTIGE: Shard of Smoky Glass.png|32px]]",
-      "name": "VESTIGE: Shard of Smoky Glass",
+      "name": "Shard of Smoky Glass",
       "weight": "0.0",
       "stacklimit": "99",
       "image_raw": "VESTIGE: Shard of Smoky Glass.png"
@@ -11196,6 +11214,24 @@
     "item_weight": 15
   },
   {
+    "page_name": "Serrated Claw",
+    "item_description": "A vicious claw once belonging to Imaru, which was used to try and rip you apart more than a few times. Perhaps you could learn something from it.",
+    "item_name": "Serrated Claw",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "A vicious claw once belonging to Imaru, which was used to try and rip you apart more than a few times. Perhaps you could learn something from it.",
+      "image": "[[File:Imaru's Talon.png|32px]]",
+      "name": "Serrated Claw",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Imaru's Talon.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Serrated Claw"
+  },
+  {
     "page_name": "Ulv's Longbow",
     "item_description": "Once the bow of a silent hunter. Deals additional damage to unaware targets.",
     "item_name": "Ulv's Longbow",
@@ -11246,24 +11282,6 @@
     },
     "item_weight": 0,
     "page_name_sub": "Shroud of Noggin (vestige)"
-  },
-  {
-    "page_name": "VESTIGE: Serrated Claw",
-    "item_description": "A vicious claw once belonging to Imaru, which was used to try and rip you apart more than a few times. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: Serrated Claw",
-    "item_type": "Vestige",
-    "item_stacklimit": 99,
-    "json": {
-      "type": "Vestige",
-      "description": "A vicious claw once belonging to Imaru, which was used to try and rip you apart more than a few times. Perhaps you could learn something from it.",
-      "image": "[[File:Imaru's Talon.png|32px]]",
-      "name": "VESTIGE: Serrated Claw",
-      "weight": "0.0",
-      "stacklimit": "99",
-      "image_raw": "Imaru's Talon.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "VESTIGE: Serrated Claw"
   },
   {
     "page_name": "VESTIGE: A Simple Broken Bow",
@@ -11339,6 +11357,24 @@
     "page_name_sub": "Burnt Pumpkin"
   },
   {
+    "page_name": "Blue Dragon Hide",
+    "item_description": "Obtained from felling lesser blue dragons. Can be processed at the tannery.",
+    "item_name": "Blue Dragon Hide",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Obtained from felling lesser blue dragons. Can be processed at the tannery.",
+      "image": "[[File:Blue Dragon Hide.png|32px]]",
+      "name": "Blue Dragon Hide",
+      "weight": "3.0",
+      "stacklimit": "99",
+      "image_raw": "Blue Dragon Hide.png"
+    },
+    "item_weight": 3,
+    "page_name_sub": "Blue Dragon Hide"
+  },
+  {
     "page_name": "Bedraggled Spellbook",
     "item_description": "An ancient book of spells by Agatha's mail-order magic service. \"Guaranteed to put warts on your nose, or your money back!\"",
     "item_name": "Bedraggled Spellbook",
@@ -11376,15 +11412,19 @@
   },
   {
     "page_name": "Mithril Sword",
-    "item_type": "Melee Weapon",
+    "item_description": "A well-forged mithril blade for trained combatants.",
+    "item_name": "Mithril Sword",
+    "item_weight": 15,
     "page_name_sub": "Mithril Sword",
     "json": {
       "type": "Melee Weapon",
+      "description": "A well-forged mithril blade for trained combatants.",
       "image": "[[File:Mithril Sword.png|32px]]",
       "name": "Mithril Sword",
+      "weight": "15.0",
       "image_raw": "Mithril Sword.png"
     },
-    "item_name": "Mithril Sword"
+    "item_type": "Melee Weapon"
   },
   {
     "page_name": "PLAN: Grave 1",
@@ -11495,15 +11535,15 @@
     "page_name_sub": "PLAN: Headstone 02"
   },
   {
-    "page_name": "VESTIGE: Corroded White Visor",
+    "page_name": "Corroded White Visor",
     "item_stacklimit": 99,
-    "item_name": "VESTIGE: Corroded White Visor",
+    "item_name": "Corroded White Visor",
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Corroded White Visor",
+    "page_name_sub": "Corroded White Visor",
     "json": {
       "type": "Consumable",
       "image": "[[File:VESTIGE: Corroded White Visor.png|32px]]",
-      "name": "VESTIGE: Corroded White Visor",
+      "name": "Corroded White Visor",
       "weight": "0.0",
       "stacklimit": "99",
       "image_raw": "VESTIGE: Corroded White Visor.png"
@@ -11511,15 +11551,15 @@
     "item_type": "Consumable"
   },
   {
-    "page_name": "VESTIGE: Crushed White Cuisse",
+    "page_name": "Crushed White Cuisse",
     "item_stacklimit": 99,
-    "item_name": "VESTIGE: Crushed White Cuisse",
+    "item_name": "Crushed White Cuisse",
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Crushed White Cuisse",
+    "page_name_sub": "Crushed White Cuisse",
     "json": {
       "type": "Consumable",
       "image": "[[File:VESTIGE: Crushed White Cuisse.png|32px]]",
-      "name": "VESTIGE: Crushed White Cuisse",
+      "name": "Crushed White Cuisse",
       "weight": "0.0",
       "stacklimit": "99",
       "image_raw": "VESTIGE: Crushed White Cuisse.png"
@@ -11527,94 +11567,76 @@
     "item_type": "Consumable"
   },
   {
-    "page_name": "VESTIGE: Curse Carrying Crown",
+    "page_name": "Dented White Pauldron",
     "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: Curse Carrying Crown",
-    "item_type": "Vestige",
-    "item_stacklimit": 99,
-    "json": {
-      "type": "Vestige",
-      "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
-      "image": "[[File:VESTIGE: Curse Carrying Crown.png|32px]]",
-      "name": "VESTIGE: Curse Carrying Crown",
-      "weight": "0.0",
-      "stacklimit": "99",
-      "image_raw": "VESTIGE: Curse Carrying Crown.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "VESTIGE: Curse Carrying Crown"
-  },
-  {
-    "page_name": "VESTIGE: Dented White Pauldron",
-    "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: Dented White Pauldron",
+    "item_name": "Dented White Pauldron",
     "item_type": "Vestige",
     "item_stacklimit": 99,
     "json": {
       "type": "Vestige",
       "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
       "image": "[[File:VESTIGE: Dented White Pauldron.png|32px]]",
-      "name": "VESTIGE: Dented White Pauldron",
+      "name": "Dented White Pauldron",
       "weight": "0.0",
       "stacklimit": "99",
       "image_raw": "VESTIGE: Dented White Pauldron.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Dented White Pauldron"
+    "page_name_sub": "Dented White Pauldron"
   },
   {
-    "page_name": "VESTIGE: Remnants of a Rotting Robe",
+    "page_name": "Remnants of a Rotting Robe",
     "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: Remnants of a Rotting Robe",
+    "item_name": "Remnants of a Rotting Robe",
     "item_type": "Vestige",
     "item_stacklimit": 99,
     "json": {
       "type": "Vestige",
       "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
       "image": "[[File:VESTIGE: Remnants of a Rotting Robe.png|32px]]",
-      "name": "VESTIGE: Remnants of a Rotting Robe",
+      "name": "Remnants of a Rotting Robe",
       "weight": "0.0",
       "stacklimit": "99",
       "image_raw": "VESTIGE: Remnants of a Rotting Robe.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Remnants of a Rotting Robe"
+    "page_name_sub": "Remnants of a Rotting Robe"
   },
   {
-    "page_name": "VESTIGE: Simply Splendid Feather",
+    "page_name": "Simply Splendid Feather",
     "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: Simply Splendid Feather",
+    "item_name": "Simply Splendid Feather",
     "item_type": "Vestige",
     "item_stacklimit": 99,
     "json": {
       "type": "Vestige",
       "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
       "image": "[[File:VESTIGE: Simply Splendid Feather.png|32px]]",
-      "name": "VESTIGE: Simply Splendid Feather",
+      "name": "Simply Splendid Feather",
       "weight": "0.0",
       "stacklimit": "99",
       "image_raw": "VESTIGE: Simply Splendid Feather.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Simply Splendid Feather"
+    "page_name_sub": "Simply Splendid Feather"
   },
   {
-    "page_name": "VESTIGE: Slightly Chaffing Chestguard",
+    "page_name": "Slightly Chaffing Chestguard",
     "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: Slightly Chaffing Chestguard",
+    "item_name": "Slightly Chaffing Chestguard",
     "item_type": "Vestige",
     "item_stacklimit": 99,
     "json": {
       "type": "Vestige",
       "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
       "image": "[[File:VESTIGE: Slightly Chaffing Chestguard.png|32px]]",
-      "name": "VESTIGE: Slightly Chaffing Chestguard",
+      "name": "Slightly Chaffing Chestguard",
       "weight": "0.0",
       "stacklimit": "99",
       "image_raw": "VESTIGE: Slightly Chaffing Chestguard.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Slightly Chaffing Chestguard"
+    "page_name_sub": "Slightly Chaffing Chestguard"
   },
   {
     "page_name": "Healing Potion",
@@ -11977,13 +11999,13 @@
   },
   {
     "page_name": "Mystic Fibres",
-    "item_description": "Dropped by Zamorak magi. Can be spun into thread at a spinning wheel.",
+    "item_description": "Dropped by Zamorak magi<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be Mages\">sic</span>&#93;</sup>. Can be spun into thread at a spinning wheel.",
     "item_name": "Mystic Fibres",
     "item_type": "Processed Material",
     "item_stacklimit": 50,
     "json": {
       "type": "Processed Material",
-      "description": "Dropped by Zamorak magi. Can be spun into thread at a spinning wheel.",
+      "description": "Dropped by Zamorak magi<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be Mages\">sic</span>&#93;</sup>. Can be spun into thread at a spinning wheel.",
       "image": "[[File:Mystic Fibres.png|32px]]",
       "name": "Mystic Fibres",
       "weight": "0.6",
@@ -12271,9 +12293,9 @@
     "json": {
       "type": "Vestige",
       "description": "The Remnants of a Zamorakian weapon. Perhaps you could learn something from it.",
-      "image": "[[File:Shattered Black Blade infobox.png|32px]]",
+      "image": "[[File:Shattered Black Blade.png|32px]]",
       "name": "Shattered Black Blade",
-      "image_raw": "Shattered Black Blade infobox.png"
+      "image_raw": "Shattered Black Blade.png"
     },
     "item_description": "The Remnants of a Zamorakian weapon. Perhaps you could learn something from it."
   },
@@ -12297,15 +12319,19 @@
   },
   {
     "page_name": "Mithril Greataxe",
-    "item_type": "Melee Weapon",
+    "item_description": "A two-handed battleaxe forged from mithril.",
+    "item_name": "Mithril Greataxe",
+    "item_weight": 25,
     "page_name_sub": "Mithril Greataxe",
     "json": {
       "type": "Melee Weapon",
+      "description": "A two-handed battleaxe forged from mithril.",
       "image": "[[File:Mithril Greataxe.png|32px]]",
       "name": "Mithril Greataxe",
+      "weight": "25.0",
       "image_raw": "Mithril Greataxe.png"
     },
-    "item_name": "Mithril Greataxe"
+    "item_type": "Melee Weapon"
   },
   {
     "page_name": "Maple Syrup",
@@ -12328,63 +12354,83 @@
   },
   {
     "page_name": "Mithril Greatsword",
-    "item_type": "Melee Weapon",
+    "item_description": "A sturdy two-handed sword, with strength to match its size.",
+    "item_name": "Mithril Greatsword",
+    "item_weight": 25,
     "page_name_sub": "Mithril Greatsword",
     "json": {
       "type": "Melee Weapon",
+      "description": "A sturdy two-handed sword, with strength to match its size.",
       "image": "[[File:Mithril Greatsword.png|32px]]",
       "name": "Mithril Greatsword",
+      "weight": "25.0",
       "image_raw": "Mithril Greatsword.png"
     },
-    "item_name": "Mithril Greatsword"
+    "item_type": "Melee Weapon"
   },
   {
     "page_name": "Mithril Dagger",
-    "item_type": "Melee Weapon",
+    "item_description": "A concealable weapon, perfect for backstabbing your enemies.",
+    "item_name": "Mithril Dagger",
+    "item_weight": 5,
     "page_name_sub": "Mithril Dagger",
     "json": {
       "type": "Melee Weapon",
+      "description": "A concealable weapon, perfect for backstabbing your enemies.",
       "image": "[[File:Mithril Dagger.png|32px]]",
       "name": "Mithril Dagger",
+      "weight": "5.0",
       "image_raw": "Mithril Dagger.png"
     },
-    "item_name": "Mithril Dagger"
+    "item_type": "Melee Weapon"
   },
   {
     "page_name": "Mithril Scimitar",
-    "item_type": "Melee Weapon",
+    "item_description": "A curved sword of Eastern influence, forged from mithril.",
+    "item_name": "Mithril Scimitar",
+    "item_weight": 15,
     "page_name_sub": "Mithril Scimitar",
     "json": {
       "type": "Melee Weapon",
+      "description": "A curved sword of Eastern influence, forged from mithril.",
       "image": "[[File:Mithril Scimitar.png|32px]]",
       "name": "Mithril Scimitar",
+      "weight": "15.0",
       "image_raw": "Mithril Scimitar.png"
     },
-    "item_name": "Mithril Scimitar"
+    "item_type": "Melee Weapon"
   },
   {
     "page_name": "Mithril Mace",
-    "item_type": "Melee Weapon",
+    "item_description": "Crush your foes with this heavy, spiked mithril mace.",
+    "item_name": "Mithril Mace",
+    "item_weight": 6,
     "page_name_sub": "Mithril Mace",
     "json": {
       "type": "Melee Weapon",
+      "description": "Crush your foes with this heavy, spiked mithril mace.",
       "image": "[[File:Mithril Mace.png|32px]]",
       "name": "Mithril Mace",
+      "weight": "6.0",
       "image_raw": "Mithril Mace.png"
     },
-    "item_name": "Mithril Mace"
+    "item_type": "Melee Weapon"
   },
   {
     "page_name": "Mithril Warhammer",
-    "item_type": "Melee Weapon",
+    "item_description": "An imposing two-handed weapon, capable of crushing any enemy.",
+    "item_name": "Mithril Warhammer",
+    "item_weight": 25,
     "page_name_sub": "Mithril Warhammer",
     "json": {
       "type": "Melee Weapon",
+      "description": "An imposing two-handed weapon, capable of crushing any enemy.",
       "image": "[[File:Mithril Warhammer.png|32px]]",
       "name": "Mithril Warhammer",
+      "weight": "25.0",
       "image_raw": "Mithril Warhammer.png"
     },
-    "item_name": "Mithril Warhammer"
+    "item_type": "Melee Weapon"
   },
   {
     "page_name": "Burnt Maple Syrup",
@@ -12427,5 +12473,471 @@
     },
     "item_weight": 1,
     "page_name_sub": "Maple Infusion"
+  },
+  {
+    "page_name": "Meat Sandwich",
+    "item_description": "A carnivore's favourite, made with flank steak and rat roast.",
+    "item_name": "Meat Sandwich",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "A carnivore's favourite, made with flank steak and rat roast.",
+      "image": "[[File:Meat Sandwich.png|32px]]",
+      "name": "Meat Sandwich",
+      "weight": "2.0",
+      "sustenance": "85",
+      "stacklimit": "50",
+      "image_raw": "Meat Sandwich.png"
+    },
+    "item_weight": 2,
+    "page_name_sub": "Meat Sandwich"
+  },
+  {
+    "page_name": "Forager's Sandwich",
+    "item_description": "A hunger-reducing snack made with fried cabbages and grilled mushrooms.",
+    "item_name": "Forager's Sandwich",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "A hunger-reducing snack made with fried cabbages and grilled mushrooms.",
+      "image": "[[File:Forager's Sandwich.png|32px]]",
+      "name": "Forager's Sandwich",
+      "weight": "2.0",
+      "sustenance": "80",
+      "stacklimit": "50",
+      "image_raw": "Forager's Sandwich.png"
+    },
+    "item_weight": 2,
+    "page_name_sub": "Forager's Sandwich"
+  },
+  {
+    "page_name": "Blue Dragonhide Body",
+    "item_description": "Ranged body armour crafted from blue dragonhide. Form-fitting, yet intimidating.",
+    "item_name": "Blue Dragonhide Body",
+    "item_type": "Ranged Armour",
+    "page_name_sub": "Blue Dragonhide Body",
+    "json": {
+      "type": "Ranged Armour",
+      "description": "Ranged body armour crafted from blue dragonhide. Form-fitting, yet intimidating.",
+      "repaircost": "2 [[Blue Dragon Leather]]",
+      "image": "[[File:Blue Dragonhide Body.png|32px]]",
+      "name": "Blue Dragonhide Body",
+      "weight": "12.0",
+      "image_raw": "Blue Dragonhide Body.png"
+    },
+    "item_repair": "2 [[Blue Dragon Leather]]",
+    "item_weight": 12
+  },
+  {
+    "page_name": "Steak Sandwich",
+    "item_description": "A delectable treat made with flank steak, fried onions and grilled mushrooms.",
+    "item_name": "Steak Sandwich",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "A delectable treat made with flank steak, fried onions and grilled mushrooms.",
+      "image": "[[File:Steak Sandwich.png|32px]]",
+      "name": "Steak Sandwich",
+      "weight": "2.0",
+      "sustenance": "80",
+      "stacklimit": "50",
+      "image_raw": "Steak Sandwich.png"
+    },
+    "item_weight": 2,
+    "page_name_sub": "Steak Sandwich"
+  },
+  {
+    "page_name": "Blue Dragonhide Coif",
+    "item_description": "Lightweight ranged headgear crafted from blue dragonhide.",
+    "item_name": "Blue Dragonhide Coif",
+    "item_type": "Ranged Armour",
+    "page_name_sub": "Blue Dragonhide Coif",
+    "json": {
+      "type": "Ranged Armour",
+      "description": "Lightweight ranged headgear crafted from blue dragonhide.",
+      "repaircost": "1 [[Blue Dragon Leather]]",
+      "image": "[[File:Blue Dragonhide Coif.png|32px]]",
+      "name": "Blue Dragonhide Coif",
+      "weight": "6.0",
+      "image_raw": "Blue Dragonhide Coif.png"
+    },
+    "item_repair": "1 [[Blue Dragon Leather]]",
+    "item_weight": 6
+  },
+  {
+    "page_name": "Blue Dragonhide Chaps",
+    "item_description": "Flexible ranged leg armour crafted from blue dragonhide.",
+    "item_name": "Blue Dragonhide Chaps",
+    "item_type": "Ranged Armour",
+    "page_name_sub": "Blue Dragonhide Chaps",
+    "json": {
+      "type": "Ranged Armour",
+      "description": "Flexible ranged leg armour crafted from blue dragonhide.",
+      "repaircost": "1 [[Blue Dragon Leather]]",
+      "image": "[[File:Blue Dragonhide Chaps.png|32px]]",
+      "name": "Blue Dragonhide Chaps",
+      "weight": "9.0",
+      "image_raw": "Blue Dragonhide Chaps.png"
+    },
+    "item_repair": "1 [[Blue Dragon Leather]]",
+    "item_weight": 9
+  },
+  {
+    "page_name": "Meat Twist Sandwich",
+    "item_description": "Meat, meat and more meat. A sandwich with flank steak, rat roast and dried redberries.",
+    "item_name": "Meat Twist Sandwich",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Meat, meat and more meat. A sandwich with flank steak, rat roast and dried redberries.",
+      "image": "[[File:Meat Twist Sandwich.png|32px]]",
+      "name": "Meat Twist Sandwich",
+      "weight": "2.0",
+      "sustenance": "80",
+      "stacklimit": "50",
+      "image_raw": "Meat Twist Sandwich.png"
+    },
+    "item_weight": 2,
+    "page_name_sub": "Meat Twist Sandwich"
+  },
+  {
+    "page_name": "Glazed Pumpkin Sandwich",
+    "item_description": "A warming dish made with roast pumpkin, maple syrup and dried redberry.",
+    "item_name": "Glazed Pumpkin Sandwich",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "A warming dish made with roast pumpkin, maple syrup and dried redberry.",
+      "image": "[[File:Glazed Pumpkin Sandwich.png|32px]]",
+      "name": "Glazed Pumpkin Sandwich",
+      "weight": "2.0",
+      "sustenance": "100",
+      "stacklimit": "50",
+      "image_raw": "Glazed Pumpkin Sandwich.png"
+    },
+    "item_weight": 2,
+    "page_name_sub": "Glazed Pumpkin Sandwich"
+  },
+  {
+    "page_name": "Maple Toastie",
+    "item_description": "A sweet lunch made with maple syrup and dried redberry.",
+    "item_name": "Maple Toastie",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "A sweet lunch made with maple syrup and dried redberry.",
+      "image": "[[File:Maple Toastie.png|32px]]",
+      "name": "Maple Toastie",
+      "weight": "2.0",
+      "sustenance": "80",
+      "stacklimit": "50",
+      "image_raw": "Maple Toastie.png"
+    },
+    "item_weight": 2,
+    "page_name_sub": "Maple Toastie"
+  },
+  {
+    "page_name": "Blue Dragon Leather",
+    "item_description": "Made by tanning blue dragonhide. A key component for ranged armour.",
+    "item_name": "Blue Dragon Leather",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "Made by tanning blue dragonhide. A key component for ranged armour.",
+      "image": "[[File:Blue Dragon Leather.png|32px]]",
+      "name": "Blue Dragon Leather",
+      "weight": "0.6",
+      "stacklimit": "50",
+      "image_raw": "Blue Dragon Leather.png"
+    },
+    "item_weight": 0.6,
+    "page_name_sub": "Blue Dragon Leather"
+  },
+  {
+    "page_name": "Glass Pane",
+    "item_description": "It's transparent that you're going to use this when building.",
+    "item_name": "Glass Pane",
+    "item_type": "Resource",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Resource",
+      "description": "It's transparent that you're going to use this when building.",
+      "image": "[[File:Glass Pane.png|32px]]",
+      "name": "Glass Pane",
+      "weight": "0.1",
+      "stacklimit": "50",
+      "image_raw": "Glass Pane.png"
+    },
+    "item_weight": 0.1,
+    "page_name_sub": "Glass Pane"
+  },
+  {
+    "page_name": "Mystic Hat",
+    "item_description": "A magically resonant hood, perfect for staying warm.",
+    "item_name": "Mystic Hat",
+    "item_type": "Mage Armour",
+    "page_name_sub": "Mystic Hat",
+    "json": {
+      "type": "Mage Armour",
+      "description": "A magically resonant hood, perfect for staying warm.",
+      "repaircost": "1 [[Mystic Cloth]]",
+      "image": "[[File:Mystic Hat.png|32px]]",
+      "name": "Mystic Hat",
+      "weight": "4.0",
+      "image_raw": "Mystic Hat.png"
+    },
+    "item_repair": "1 [[Mystic Cloth]]",
+    "item_weight": 4
+  },
+  {
+    "page_name": "Mystic Robes",
+    "item_description": "The finest magical thread, spun into fabolous mage gear.",
+    "item_name": "Mystic Robes",
+    "item_type": "Mage Armour",
+    "page_name_sub": "Mystic Robes",
+    "json": {
+      "type": "Mage Armour",
+      "description": "The finest magical thread, spun into fabolous mage gear.",
+      "repaircost": "2 [[Mystic Cloth]]",
+      "image": "[[File:Mystic Robes.png|32px]]",
+      "name": "Mystic Robes",
+      "weight": "8.0",
+      "image_raw": "Mystic Robes.png"
+    },
+    "item_repair": "2 [[Mystic Cloth]]",
+    "item_weight": 8
+  },
+  {
+    "page_name": "Mystic Robe Legs",
+    "item_description": "Lightweight magical gear for the aspiring sorcerer.",
+    "item_name": "Mystic Robe Legs",
+    "item_type": "Mage Armour",
+    "page_name_sub": "Mystic Robe Legs",
+    "json": {
+      "type": "Mage Armour",
+      "description": "Lightweight magical gear for the aspiring sorcerer.",
+      "repaircost": "1 [[Mystic Cloth]]",
+      "image": "[[File:Mystic Robe Legs.png|32px]]",
+      "name": "Mystic Robe Legs",
+      "weight": "6.0",
+      "image_raw": "Mystic Robe Legs.png"
+    },
+    "item_repair": "1 [[Mystic Cloth]]",
+    "item_weight": 6
+  },
+  {
+    "page_name": "Metal Salvage",
+    "item_description": "",
+    "item_name": "Metal Salvage",
+    "item_type": "Container",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Container",
+      "description": "",
+      "image": "[[File:Metal Salvage.png|32px]]",
+      "name": "Metal Salvage",
+      "weight": "",
+      "stacklimit": "",
+      "image_raw": "Metal Salvage.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Metal Salvage"
+  },
+  {
+    "page_name": "Aetheric Fundamentals, a Primordial Primer",
+    "item_description": "A study on elemental forces and their interactions with runic energies.",
+    "item_name": "Aetheric Fundamentals, a Primordial Primer",
+    "item_type": "Basic Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Item",
+      "description": "A study on elemental forces and their interactions with runic energies.",
+      "image": "[[File:Aetheric Fundamentals, a Primordial Primer.png|32px]]",
+      "name": "Aetheric Fundamentals, a Primordial Primer",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Aetheric Fundamentals, a Primordial Primer.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Aetheric Fundamentals, a Primordial Primer"
+  },
+  {
+    "page_name": "Black Sword",
+    "item_description": "A sword in the style of the Black Knights, forged from black metal.",
+    "item_name": "Black Sword",
+    "item_weight": 15,
+    "page_name_sub": "Black Sword",
+    "json": {
+      "type": "Melee Weapon",
+      "description": "A sword in the style of the Black Knights, forged from black metal.",
+      "image": "[[File:Black Sword.png|32px]]",
+      "name": "Black Sword",
+      "weight": "15.0",
+      "image_raw": "Black Sword.png"
+    },
+    "item_type": "Melee Weapon"
+  },
+  {
+    "page_name": "Maple Shortbow",
+    "item_description": "A limber shortbow carved from maple wood<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+    "item_name": "Maple Shortbow",
+    "item_type": "Ranged Weapon",
+    "page_name_sub": "Maple Shortbow",
+    "json": {
+      "type": "Ranged Weapon",
+      "description": "A limber shortbow carved from maple wood<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "repaircost": "1 [[Maple Logs|Maple Log]]",
+      "image": "[[File:Maple Shortbow.png|32px]]",
+      "name": "Maple Shortbow",
+      "weight": "10.0",
+      "image_raw": "Maple Shortbow.png"
+    },
+    "item_repair": "1 [[Maple Logs|Maple Log]]",
+    "item_weight": 10
+  },
+  {
+    "page_name": "Unusual Trout",
+    "item_description": "This trout has seen things. You almost feel apologetic for catching it.",
+    "item_name": "Unusual Trout",
+    "item_weight": 0.4,
+    "page_name_sub": "Unusual Trout",
+    "json": {
+      "type": "Raw Ingredient",
+      "description": "This trout has seen things. You almost feel apologetic for catching it.",
+      "image": "[[File:Unusual Trout.png|32px]]",
+      "name": "Unusual Trout",
+      "weight": "0.4",
+      "image_raw": "Unusual Trout.png"
+    },
+    "item_type": "Raw Ingredient"
+  },
+  {
+    "page_name": "Zamorak Staff",
+    "item_description": "Standard issue for any mage in Dowdun Reach.",
+    "item_name": "Zamorak Staff",
+    "item_type": "Magic Weapon",
+    "page_name_sub": "Zamorak Staff",
+    "json": {
+      "type": "Magic Weapon",
+      "description": "Standard issue for any mage in Dowdun Reach.",
+      "repaircost": "",
+      "image": "[[File:Zamorak Staff.png|32px]]",
+      "name": "Zamorak Staff",
+      "weight": "15.0",
+      "image_raw": "Zamorak Staff.png"
+    },
+    "item_repair": "",
+    "item_weight": 15
+  },
+  {
+    "page_name": "Subjugation Staff",
+    "item_description": "A powerful battlestaff, once owned and used by Arcmage Alric",
+    "item_name": "Subjugation Staff",
+    "item_type": "Magic Weapon",
+    "page_name_sub": "Subjugation Staff",
+    "json": {
+      "type": "Magic Weapon",
+      "description": "A powerful battlestaff, once owned and used by Arcmage Alric",
+      "repaircost": "2 [[Maple Logs]]",
+      "image": "[[File:Subjugation Staff.png|32px]]",
+      "name": "Subjugation Staff",
+      "weight": "15.0",
+      "image_raw": "Subjugation Staff.png"
+    },
+    "item_repair": "2 [[Maple Logs]]",
+    "item_weight": 15
+  },
+  {
+    "page_name": "Maple Battlestaff",
+    "item_description": "A magical weapon carved from maple wood.",
+    "item_name": "Maple Battlestaff",
+    "item_type": "Magic Weapon",
+    "page_name_sub": "Maple Battlestaff",
+    "json": {
+      "type": "Magic Weapon",
+      "description": "A magical weapon carved from maple wood.",
+      "repaircost": "3 [[Maple Logs]]",
+      "image": "[[File:Maple Battlestaff.png|32px]]",
+      "name": "Maple Battlestaff",
+      "weight": "15.0",
+      "image_raw": "Maple Battlestaff.png"
+    },
+    "item_repair": "3 [[Maple Logs]]",
+    "item_weight": 15
+  },
+  {
+    "page_name": "Black Greataxe",
+    "item_description": "A hulking greataxe made from black metal.",
+    "item_name": "Black Greataxe",
+    "item_weight": 25,
+    "page_name_sub": "Black Greataxe",
+    "json": {
+      "type": "Melee Weapon",
+      "description": "A hulking greataxe made from black metal.",
+      "image": "[[File:Black Greataxe.png|32px]]",
+      "name": "Black Greataxe",
+      "weight": "25.0",
+      "image_raw": "Black Greataxe.png"
+    },
+    "item_type": "Melee Weapon"
+  },
+  {
+    "page_name": "Mithril Crossbow",
+    "item_description": "A 1-Handed crossbow composed mainly of mithril.",
+    "item_name": "Mithril Crossbow",
+    "item_type": "Ranged Weapon",
+    "page_name_sub": "Mithril Crossbow",
+    "json": {
+      "type": "Ranged Weapon",
+      "description": "A 1-Handed crossbow composed mainly of mithril.",
+      "repaircost": "1 [[Mithril Bar]]",
+      "image": "[[File:Mithril Crossbow.png|32px]]",
+      "name": "Mithril Crossbow",
+      "weight": "10.0",
+      "image_raw": "Mithril Crossbow.png"
+    },
+    "item_repair": "1 [[Mithril Bar]]",
+    "item_weight": 10
+  },
+  {
+    "page_name": "Mithril Crossbow Limbs",
+    "item_description": "A pair of mithril crossbow limbs. Essential for crafting mithril crossbow.",
+    "item_name": "Mithril Crossbow Limbs",
+    "item_weight": 4.5,
+    "page_name_sub": "Mithril Crossbow Limbs",
+    "json": {
+      "type": "Component",
+      "description": "A pair of mithril crossbow limbs. Essential for crafting mithril crossbow.",
+      "image": "[[File:Mithril Crossbow Limbs.png|32px]]",
+      "name": "Mithril Crossbow Limbs",
+      "weight": "4.5",
+      "image_raw": "Mithril Crossbow Limbs.png"
+    },
+    "item_type": "Component"
+  },
+  {
+    "page_name": "Mithril Bolts",
+    "item_description": "Crossbow bolts made from mithril.",
+    "item_name": "Mithril Bolts",
+    "item_type": "Ammo",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Ammo",
+      "description": "Crossbow bolts made from mithril.",
+      "image": "[[File:Mithril Bolts.png|32px]]",
+      "name": "Mithril Bolts",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Mithril Bolts.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Mithril Bolts"
   }
 ]
