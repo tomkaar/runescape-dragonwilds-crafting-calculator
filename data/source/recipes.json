@@ -28894,18 +28894,18 @@
       "facility": "Blast Furnace",
       "materials": [
         {
-          "quantity": "1",
+          "quantity": "3",
           "name": "Ground Limestone",
           "link": "Ground Limestone",
-          "qty": "1",
+          "qty": "3",
           "item": "Ground Limestone",
           "image": "[[File:Ground Limestone.png|30px|link=Ground Limestone]]"
         },
         {
-          "quantity": "1",
+          "quantity": "3",
           "name": "Ground Sandstone",
           "link": "Ground Sandstone",
-          "qty": "1",
+          "qty": "3",
           "item": "Ground Sandstone",
           "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
         }
@@ -35276,13 +35276,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Shard of Smoky Glass"
+      "Shard of Smoky Glass"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Shard of Smoky Glass",
+      "recipe": "Shard of Smoky Glass",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -36553,13 +36553,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Cloying Damp Cowl"
+      "Cloying Damp Cowl"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Cloying Damp Cowl",
+      "recipe": "Cloying Damp Cowl",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -38648,13 +38648,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Crushed White Cuisse"
+      "Crushed White Cuisse"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Crushed White Cuisse",
+      "recipe": "Crushed White Cuisse",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -39024,13 +39024,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Burnished Belt Buckle"
+      "Burnished Belt Buckle"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Burnished Belt Buckle",
+      "recipe": "Burnished Belt Buckle",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -39108,13 +39108,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Curse Carrying Crown"
+      "Curse Carrying Crown"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Curse Carrying Crown",
+      "recipe": "Curse Carrying Crown",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -39192,13 +39192,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Remnants of a Rotting Robe"
+      "Remnants of a Rotting Robe"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Remnants of a Rotting Robe",
+      "recipe": "Remnants of a Rotting Robe",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -39548,13 +39548,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Simply Splendid Feather"
+      "Simply Splendid Feather"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Simply Splendid Feather",
+      "recipe": "Simply Splendid Feather",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -39632,13 +39632,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Slightly Chaffing Chestguard"
+      "Slightly Chaffing Chestguard"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Slightly Chaffing Chestguard",
+      "recipe": "Slightly Chaffing Chestguard",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -39716,13 +39716,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Tastefully Torn Tights"
+      "Tastefully Torn Tights"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Tastefully Torn Tights",
+      "recipe": "Tastefully Torn Tights",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -39873,13 +39873,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Corroded White Visor"
+      "Corroded White Visor"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Corroded White Visor",
+      "recipe": "Corroded White Visor",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -39966,13 +39966,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Dented White Pauldron"
+      "Dented White Pauldron"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Dented White Pauldron",
+      "recipe": "Dented White Pauldron",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -40288,13 +40288,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Sundering Spiked Slab"
+      "Sundering Spiked Slab"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Sundering Spiked Slab",
+      "recipe": "Sundering Spiked Slab",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -42264,13 +42264,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Serrated Claw"
+      "Serrated Claw"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Serrated Claw",
+      "recipe": "Serrated Claw",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -43546,10 +43546,10 @@
       "facility": "Blast Furnace",
       "materials": [
         {
-          "quantity": "6",
+          "quantity": "9",
           "name": "Black Metal Scraps",
           "link": "Black Metal Scraps",
-          "qty": "6",
+          "qty": "9",
           "item": "Black Metal Scraps",
           "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
         },
@@ -44458,6 +44458,94 @@
   },
   {
     "uses_material": [
+      "Maple Sap"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Maple Sap",
+          "link": "Maple Sap",
+          "qty": "1",
+          "item": "Maple Sap",
+          "image": "[[File:Maple Sap.png|30px|link=Maple Sap]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Maple Syrup"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Maple Syrup",
+        "link": "Maple Syrup",
+        "qty": "1",
+        "item": "Maple Syrup",
+        "image": "[[File:Maple Syrup.png|30px|link=Maple Syrup]]"
+      }
+    },
+    "output": [
+      "Maple Syrup"
+    ]
+  },
+  {
+    "uses_material": [
+      "Maple Sap"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Maple Sap",
+          "link": "Maple Sap",
+          "qty": "1",
+          "item": "Maple Sap",
+          "image": "[[File:Maple Sap.png|30px|link=Maple Sap]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Maple Syrup"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Maple Syrup",
+        "link": "Maple Syrup",
+        "qty": "1",
+        "item": "Maple Syrup",
+        "image": "[[File:Maple Syrup.png|30px|link=Maple Syrup]]"
+      }
+    },
+    "output": [
+      "Maple Syrup"
+    ]
+  },
+  {
+    "uses_material": [
       "Mithril Bar",
       "Cursed Leather",
       "Mystic Thread",
@@ -44804,6 +44892,182 @@
   },
   {
     "uses_material": [
+      "Maple Sap"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Maple Sap",
+          "link": "Maple Sap",
+          "qty": "1",
+          "item": "Maple Sap",
+          "image": "[[File:Maple Sap.png|30px|link=Maple Sap]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Maple Syrup"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Maple Syrup",
+        "link": "Burnt Maple Syrup",
+        "qty": "1",
+        "item": "Burnt Maple Syrup",
+        "image": "[[File:Burnt Maple Syrup.png|30px|link=Burnt Maple Syrup]]"
+      }
+    },
+    "output": [
+      "Burnt Maple Syrup"
+    ]
+  },
+  {
+    "uses_material": [
+      "Maple Sap"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Maple Sap",
+          "link": "Maple Sap",
+          "qty": "1",
+          "item": "Maple Sap",
+          "image": "[[File:Maple Sap.png|30px|link=Maple Sap]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Maple Syrup"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Maple Syrup",
+        "link": "Burnt Maple Syrup",
+        "qty": "1",
+        "item": "Burnt Maple Syrup",
+        "image": "[[File:Burnt Maple Syrup.png|30px|link=Burnt Maple Syrup]]"
+      }
+    },
+    "output": [
+      "Burnt Maple Syrup"
+    ]
+  },
+  {
+    "uses_material": [
+      "Maple Syrup"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Maple Syrup",
+          "link": "Maple Syrup",
+          "qty": "1",
+          "item": "Maple Syrup",
+          "image": "[[File:Maple Syrup.png|30px|link=Maple Syrup]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Maple Syrup"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Maple Syrup",
+        "link": "Burnt Maple Syrup",
+        "qty": "1",
+        "item": "Burnt Maple Syrup",
+        "image": "[[File:Burnt Maple Syrup.png|30px|link=Burnt Maple Syrup]]"
+      }
+    },
+    "output": [
+      "Burnt Maple Syrup"
+    ]
+  },
+  {
+    "uses_material": [
+      "Maple Syrup"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Maple Syrup",
+          "link": "Maple Syrup",
+          "qty": "1",
+          "item": "Maple Syrup",
+          "image": "[[File:Maple Syrup.png|30px|link=Maple Syrup]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Maple Syrup"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Maple Syrup",
+        "link": "Burnt Maple Syrup",
+        "qty": "1",
+        "item": "Burnt Maple Syrup",
+        "image": "[[File:Burnt Maple Syrup.png|30px|link=Burnt Maple Syrup]]"
+      }
+    },
+    "output": [
+      "Burnt Maple Syrup"
+    ]
+  },
+  {
+    "uses_material": [
       "Clean Water",
       "Maple Syrup",
       "Irit"
@@ -44862,6 +45126,1938 @@
     },
     "output": [
       "Maple Infusion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Flank Steak",
+      "Rat Roast",
+      "Bread"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Flank Steak",
+          "link": "Flank Steak",
+          "qty": "1",
+          "item": "Flank Steak",
+          "image": "[[File:Flank Steak.png|30px|link=Flank Steak]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Rat Roast",
+          "link": "Rat Roast",
+          "qty": "1",
+          "item": "Rat Roast",
+          "image": "[[File:Rat Roast.png|30px|link=Rat Roast]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Bread",
+          "link": "Bread",
+          "qty": "1",
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Meat Sandwich"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Meat Sandwich",
+        "link": "Meat Sandwich",
+        "qty": "1",
+        "item": "Meat Sandwich",
+        "image": "[[File:Meat Sandwich.png|30px|link=Meat Sandwich]]"
+      }
+    },
+    "output": [
+      "Meat Sandwich"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fried Cabbage",
+      "Grilled Mushrooms",
+      "Bread"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fried Cabbage",
+          "link": "Fried Cabbage",
+          "qty": "1",
+          "item": "Fried Cabbage",
+          "image": "[[File:Fried Cabbage.png|30px|link=Fried Cabbage]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Grilled Mushrooms",
+          "link": "Grilled Mushrooms",
+          "qty": "1",
+          "item": "Grilled Mushrooms",
+          "image": "[[File:Grilled Mushrooms.png|30px|link=Grilled Mushrooms]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Bread",
+          "link": "Bread",
+          "qty": "1",
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Forager's Sandwich"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Forager's Sandwich",
+        "link": "Forager's Sandwich",
+        "qty": "1",
+        "item": "Forager's Sandwich",
+        "image": "[[File:Forager's Sandwich.png|30px|link=Forager's Sandwich]]"
+      }
+    },
+    "output": [
+      "Forager's Sandwich"
+    ]
+  },
+  {
+    "uses_material": [
+      "Blue  Dragon Leather",
+      "Cursed Leather",
+      "Mithril Bar",
+      "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "12",
+          "name": "Blue  Dragon Leather",
+          "link": "Blue  Dragon Leather",
+          "qty": "12",
+          "item": "Blue  Dragon Leather",
+          "image": "[[File:Blue  Dragon Leather.png|30px|link=Blue  Dragon Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "4",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "4",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "3",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Blue Dragonhide Body"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Blue Dragonhide Body",
+        "link": "Blue Dragonhide Body",
+        "qty": 1,
+        "item": "Blue Dragonhide Body",
+        "image": "[[File:Blue Dragonhide Body.png|30px|link=Blue Dragonhide Body]]"
+      }
+    },
+    "output": [
+      "Blue Dragonhide Body"
+    ]
+  },
+  {
+    "uses_material": [
+      "Flank Steak",
+      "Fried Onions",
+      "Grilled Mushrooms",
+      "Bread"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Flank Steak",
+          "link": "Flank Steak",
+          "qty": "1",
+          "item": "Flank Steak",
+          "image": "[[File:Flank Steak.png|30px|link=Flank Steak]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Fried Onions",
+          "link": "Fried Onions",
+          "qty": "1",
+          "item": "Fried Onions",
+          "image": "[[File:Fried Onions.png|30px|link=Fried Onions]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Grilled Mushrooms",
+          "link": "Grilled Mushrooms",
+          "qty": "1",
+          "item": "Grilled Mushrooms",
+          "image": "[[File:Grilled Mushrooms.png|30px|link=Grilled Mushrooms]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Bread",
+          "link": "Bread",
+          "qty": "1",
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Steak Sandwich"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Steak Sandwich",
+        "link": "Steak Sandwich",
+        "qty": "1",
+        "item": "Steak Sandwich",
+        "image": "[[File:Steak Sandwich.png|30px|link=Steak Sandwich]]"
+      }
+    },
+    "output": [
+      "Steak Sandwich"
+    ]
+  },
+  {
+    "uses_material": [
+      "Blue  Dragon Leather",
+      "Cursed Leather",
+      "Mithril Bar",
+      "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Blue  Dragon Leather",
+          "link": "Blue  Dragon Leather",
+          "qty": "4",
+          "item": "Blue  Dragon Leather",
+          "image": "[[File:Blue  Dragon Leather.png|30px|link=Blue  Dragon Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "2",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "1",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "1",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Blue Dragonhide Coif"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Blue Dragonhide Coif",
+        "link": "Blue Dragonhide Coif",
+        "qty": 1,
+        "item": "Blue Dragonhide Coif",
+        "image": "[[File:Blue Dragonhide Coif.png|30px|link=Blue Dragonhide Coif]]"
+      }
+    },
+    "output": [
+      "Blue Dragonhide Coif"
+    ]
+  },
+  {
+    "uses_material": [
+      "Blue  Dragon Leather",
+      "Cursed Leather",
+      "Mithril Bar",
+      "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Blue  Dragon Leather",
+          "link": "Blue  Dragon Leather",
+          "qty": "6",
+          "item": "Blue  Dragon Leather",
+          "image": "[[File:Blue  Dragon Leather.png|30px|link=Blue  Dragon Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "4",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "2",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "2",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Blue Dragonhide Chaps"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Blue Dragonhide Chaps",
+        "link": "Blue Dragonhide Chaps",
+        "qty": 1,
+        "item": "Blue Dragonhide Chaps",
+        "image": "[[File:Blue Dragonhide Chaps.png|30px|link=Blue Dragonhide Chaps]]"
+      }
+    },
+    "output": [
+      "Blue Dragonhide Chaps"
+    ]
+  },
+  {
+    "uses_material": [
+      "Flank Steak",
+      "Rat Roast",
+      "Dried Redberries",
+      "Bread"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Flank Steak",
+          "link": "Flank Steak",
+          "qty": "1",
+          "item": "Flank Steak",
+          "image": "[[File:Flank Steak.png|30px|link=Flank Steak]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Rat Roast",
+          "link": "Rat Roast",
+          "qty": "1",
+          "item": "Rat Roast",
+          "image": "[[File:Rat Roast.png|30px|link=Rat Roast]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dried Redberries",
+          "link": "Dried Redberries",
+          "qty": "1",
+          "item": "Dried Redberries",
+          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Bread",
+          "link": "Bread",
+          "qty": "1",
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Meat Twist Sandwich"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Meat Twist Sandwich",
+        "link": "Meat Twist Sandwich",
+        "qty": "1",
+        "item": "Meat Twist Sandwich",
+        "image": "[[File:Meat Twist Sandwich.png|30px|link=Meat Twist Sandwich]]"
+      }
+    },
+    "output": [
+      "Meat Twist Sandwich"
+    ]
+  },
+  {
+    "uses_material": [
+      "Dried Redberries",
+      "Roast Pumpkin",
+      "Maple Syrup",
+      "Bread"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dried Redberries",
+          "link": "Dried Redberries",
+          "qty": "1",
+          "item": "Dried Redberries",
+          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Roast Pumpkin",
+          "link": "Roast Pumpkin",
+          "qty": "1",
+          "item": "Roast Pumpkin",
+          "image": "[[File:Roast Pumpkin.png|30px|link=Roast Pumpkin]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Maple Syrup",
+          "link": "Maple Syrup",
+          "qty": "1",
+          "item": "Maple Syrup",
+          "image": "[[File:Maple Syrup.png|30px|link=Maple Syrup]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Bread",
+          "link": "Bread",
+          "qty": "1",
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Glazed Pumpkin Sandwich"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Glazed Pumpkin Sandwich",
+        "link": "Glazed Pumpkin Sandwich",
+        "qty": "1",
+        "item": "Glazed Pumpkin Sandwich",
+        "image": "[[File:Glazed Pumpkin Sandwich.png|30px|link=Glazed Pumpkin Sandwich]]"
+      }
+    },
+    "output": [
+      "Glazed Pumpkin Sandwich"
+    ]
+  },
+  {
+    "uses_material": [
+      "Dried Redberries",
+      "Maple Syrup",
+      "Bread"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dried Redberries",
+          "link": "Dried Redberries",
+          "qty": "1",
+          "item": "Dried Redberries",
+          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Maple Syrup",
+          "link": "Maple Syrup",
+          "qty": "1",
+          "item": "Maple Syrup",
+          "image": "[[File:Maple Syrup.png|30px|link=Maple Syrup]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Bread",
+          "link": "Bread",
+          "qty": "1",
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Maple Toastie"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Maple Toastie",
+        "link": "Maple Toastie",
+        "qty": "1",
+        "item": "Maple Toastie",
+        "image": "[[File:Maple Toastie.png|30px|link=Maple Toastie]]"
+      }
+    },
+    "output": [
+      "Maple Toastie"
+    ]
+  },
+  {
+    "uses_material": [
+      "Blue Dragon Hide"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Tannery"
+    ],
+    "json": {
+      "facility": "Tannery",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Blue Dragon Hide",
+          "link": "Blue Dragon Hide",
+          "qty": "1",
+          "item": "Blue Dragon Hide",
+          "image": "[[File:Blue Dragon Hide.png|30px|link=Blue Dragon Hide]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Blue Dragon Leather"
+      ],
+      "output": {
+        "quantity": "2",
+        "name": "Blue Dragon Leather",
+        "link": "Blue Dragon Leather",
+        "qty": "2",
+        "item": "Blue Dragon Leather",
+        "image": "[[File:Blue Dragon Leather.png|30px|link=Blue Dragon Leather]]"
+      }
+    },
+    "output": [
+      "Blue Dragon Leather"
+    ]
+  },
+  {
+    "uses_material": [
+      "Molten Glass"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Jeweler's Bench"
+    ],
+    "json": {
+      "facility": "Jeweler's Bench",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Molten Glass",
+          "link": "Molten Glass",
+          "qty": 1,
+          "item": "Molten Glass",
+          "image": "[[File:Molten Glass.png|30px|link=Molten Glass]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Glass Pane"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Glass Pane",
+        "link": "Glass Pane",
+        "qty": 1,
+        "item": "Glass Pane",
+        "image": "[[File:Glass Pane.png|30px|link=Glass Pane]]"
+      }
+    },
+    "output": [
+      "Glass Pane"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mystic Cloth",
+      "Cursed Leather",
+      "Infernal Fragment",
+      "Demonic Oil"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "4",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "1",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "12",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": 1,
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Mystic Hat"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Mystic Hat",
+        "link": "Mystic Hat",
+        "qty": 1,
+        "item": "Mystic Hat",
+        "image": "[[File:Mystic Hat.png|30px|link=Mystic Hat]]"
+      }
+    },
+    "output": [
+      "Mystic Hat"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mystic Cloth",
+      "Cursed Leather",
+      "Infernal Fragment",
+      "Demonic Oil"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "12",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "12",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "4",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "32",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "32",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "3",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Mystic Robes"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Mystic Robes",
+        "link": "Mystic Robes",
+        "qty": 1,
+        "item": "Mystic Robes",
+        "image": "[[File:Mystic Robes.png|30px|link=Mystic Robes]]"
+      }
+    },
+    "output": [
+      "Mystic Robes"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mystic Cloth",
+      "Cursed Leather",
+      "Infernal Fragment",
+      "Demonic Oil"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "8",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "2",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "24",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "24",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "2",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Mystic Robe Legs"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Mystic Robe Legs",
+        "link": "Mystic Robe Legs",
+        "qty": 1,
+        "item": "Mystic Robe Legs",
+        "image": "[[File:Mystic Robe Legs.png|30px|link=Mystic Robe Legs]]"
+      }
+    },
+    "output": [
+      "Mystic Robe Legs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Bar",
+      "Cursed Leather",
+      "Mystic Thread",
+      "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Shattered Black Blade"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "recipe": "Shattered Black Blade",
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
+          "qty": "10",
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "5",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Mystic Thread",
+          "link": "Mystic Thread",
+          "qty": "4",
+          "item": "Mystic Thread",
+          "image": "[[File:Mystic Thread.png|30px|link=Mystic Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "2",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "125"
+        }
+      ],
+      "outputs": [
+        "Black Sword"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Black Sword",
+        "link": "Black Sword",
+        "qty": "1",
+        "item": "Black Sword",
+        "image": "[[File:Black Sword.png|30px|link=Black Sword]]"
+      }
+    },
+    "output": [
+      "Black Sword"
+    ]
+  },
+  {
+    "uses_material": [
+      "Maple Logs",
+      "Mystic Thread",
+      "Mithril Bar",
+      "Diamond",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "10",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Mystic Thread",
+          "link": "Mystic Thread",
+          "qty": "4",
+          "item": "Mystic Thread",
+          "image": "[[File:Mystic Thread.png|30px|link=Mystic Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "2",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Diamond",
+          "link": "Diamond",
+          "qty": "2",
+          "item": "Diamond",
+          "image": "[[File:Diamond.png|30px|link=Diamond]]"
+        },
+        {
+          "quantity": "16",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "16",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Maple Shortbow"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Maple Shortbow",
+        "link": "Maple Shortbow",
+        "qty": "1",
+        "item": "Maple Shortbow",
+        "image": "[[File:Maple Shortbow.png|30px|link=Maple Shortbow]]"
+      }
+    },
+    "output": [
+      "Maple Shortbow"
+    ]
+  },
+  {
+    "uses_material": [
+      "mithril bolt",
+      "sapphire",
+      "Nature Rune",
+      "Air Rune"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Enchanted Mithril Bolts"
+    ],
+    "json": {
+      "facility": "Enchanted Mithril Bolts",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "mithril bolt",
+          "link": "mithril bolt",
+          "qty": "33",
+          "item": "mithril bolt",
+          "image": "[[File:mithril bolt.png|30px|link=mithril bolt]]"
+        },
+        {
+          "quantity": "1",
+          "name": "sapphire",
+          "link": "sapphire",
+          "qty": "1",
+          "item": "sapphire",
+          "image": "[[File:sapphire.png|30px|link=sapphire]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Nature Rune",
+          "link": "Nature Rune",
+          "qty": "10",
+          "item": "Nature Rune",
+          "image": "[[File:Nature Rune.png|30px|link=Nature Rune]]"
+        },
+        {
+          "quantity": "15",
+          "name": "Air Rune",
+          "link": "Air Rune",
+          "qty": "15",
+          "item": "Air Rune",
+          "image": "[[File:Air Rune.png|30px|link=Air Rune]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
+      "outputs": [
+        "Enchanted Mithril Bolt"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Enchanted Mithril Bolt",
+        "link": "Enchanted Mithril Bolt",
+        "qty": "33",
+        "item": "Enchanted Mithril Bolt",
+        "image": "[[File:Enchanted Mithril Bolt.png|30px|link=Enchanted Mithril Bolt]]"
+      }
+    },
+    "output": [
+      "Enchanted Mithril Bolt"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Bar",
+      "Cursed Leather",
+      "Demonic Oil",
+      "Diamond",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
+          "qty": "10",
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "10",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "6",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Diamond",
+          "link": "Diamond",
+          "qty": "4",
+          "item": "Diamond",
+          "image": "[[File:Diamond.png|30px|link=Diamond]]"
+        },
+        {
+          "quantity": "64",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "64",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Zamorak Staff"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Zamorak Staff",
+        "link": "Zamorak Staff",
+        "qty": "1",
+        "item": "Zamorak Staff",
+        "image": "[[File:Zamorak Staff.png|30px|link=Zamorak Staff]]"
+      }
+    },
+    "output": [
+      "Zamorak Staff"
+    ]
+  },
+  {
+    "uses_material": [
+      "Maple Logs",
+      "Mithril Bar",
+      "Glass Vessel",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "16",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "6",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "4",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        },
+        {
+          "quantity": "18",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "18",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Subjugation Staff"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Subjugation Staff",
+        "link": "Subjugation Staff",
+        "qty": "1",
+        "item": "Subjugation Staff",
+        "image": "[[File:Subjugation Staff.png|30px|link=Subjugation Staff]]"
+      }
+    },
+    "output": [
+      "Subjugation Staff"
+    ]
+  },
+  {
+    "uses_material": [
+      "Maple Logs",
+      "Mithril Bar",
+      "Glass Vessel",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "16",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "6",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "3",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        },
+        {
+          "quantity": "16",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "16",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Maple Battlestaff"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Maple Battlestaff",
+        "link": "Maple Battlestaff",
+        "qty": "1",
+        "item": "Maple Battlestaff",
+        "image": "[[File:Maple Battlestaff.png|30px|link=Maple Battlestaff]]"
+      }
+    },
+    "output": [
+      "Maple Battlestaff"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Bar",
+      "Maple Logs",
+      "Cursed Leather",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Bloodstained Hilt"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "recipe": "Bloodstained Hilt",
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
+          "qty": "16",
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "5",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "6",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "32",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "32",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "125"
+        }
+      ],
+      "outputs": [
+        "Black Greataxe"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Black Greataxe",
+        "link": "Black Greataxe",
+        "qty": "1",
+        "item": "Black Greataxe",
+        "image": "[[File:Black Greataxe.png|30px|link=Black Greataxe]]"
+      }
+    },
+    "output": [
+      "Black Greataxe"
+    ]
+  },
+  {
+    "uses_material": [
+      "N/A"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "N/A",
+          "name": "N/A",
+          "link": "N/A",
+          "qty": "N/A",
+          "item": "N/A",
+          "image": "[[File:N/A.png|30px|link=N/A]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Artisan Skillcape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Artisan Skillcape",
+        "link": "Artisan Skillcape",
+        "qty": 1,
+        "item": "Artisan Skillcape",
+        "image": "[[File:Artisan Skillcape.png|30px|link=Artisan Skillcape]]"
+      }
+    },
+    "output": [
+      "Artisan Skillcape"
+    ]
+  },
+  {
+    "uses_material": [
+      "N/A"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "N/A",
+          "name": "N/A",
+          "link": "N/A",
+          "qty": "N/A",
+          "item": "N/A",
+          "image": "[[File:N/A.png|30px|link=N/A]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Construction Skillcape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Construction Skillcape",
+        "link": "Construction Skillcape",
+        "qty": 1,
+        "item": "Construction Skillcape",
+        "image": "[[File:Construction Skillcape.png|30px|link=Construction Skillcape]]"
+      }
+    },
+    "output": [
+      "Construction Skillcape"
+    ]
+  },
+  {
+    "uses_material": [
+      "N/A"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "N/A",
+          "name": "N/A",
+          "link": "N/A",
+          "qty": "N/A",
+          "item": "N/A",
+          "image": "[[File:N/A.png|30px|link=N/A]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Cooking Skillcape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Cooking Skillcape",
+        "link": "Cooking Skillcape",
+        "qty": 1,
+        "item": "Cooking Skillcape",
+        "image": "[[File:Cooking Skillcape.png|30px|link=Cooking Skillcape]]"
+      }
+    },
+    "output": [
+      "Cooking Skillcape"
+    ]
+  },
+  {
+    "uses_material": [
+      "N/A"
+    ],
+    "uses_skill": [
+      "Farming"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "N/A",
+          "name": "N/A",
+          "link": "N/A",
+          "qty": "N/A",
+          "item": "N/A",
+          "image": "[[File:N/A.png|30px|link=N/A]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Farming",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Farming Skillcape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Farming Skillcape",
+        "link": "Farming Skillcape",
+        "qty": 1,
+        "item": "Farming Skillcape",
+        "image": "[[File:Farming Skillcape.png|30px|link=Farming Skillcape]]"
+      }
+    },
+    "output": [
+      "Farming Skillcape"
+    ]
+  },
+  {
+    "uses_material": [
+      "N/A"
+    ],
+    "uses_skill": [
+      "Magic"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "N/A",
+          "name": "N/A",
+          "link": "N/A",
+          "qty": "N/A",
+          "item": "N/A",
+          "image": "[[File:N/A.png|30px|link=N/A]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Magic",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Magic Skillcape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Magic Skillcape",
+        "link": "Magic Skillcape",
+        "qty": 1,
+        "item": "Magic Skillcape",
+        "image": "[[File:Magic Skillcape.png|30px|link=Magic Skillcape]]"
+      }
+    },
+    "output": [
+      "Magic Skillcape"
+    ]
+  },
+  {
+    "uses_material": [
+      "N/A"
+    ],
+    "uses_skill": [
+      "Ranged"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "N/A",
+          "name": "N/A",
+          "link": "N/A",
+          "qty": "N/A",
+          "item": "N/A",
+          "image": "[[File:N/A.png|30px|link=N/A]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Ranged",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Ranged Skillcape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Ranged Skillcape",
+        "link": "Ranged Skillcape",
+        "qty": 1,
+        "item": "Ranged Skillcape",
+        "image": "[[File:Ranged Skillcape.png|30px|link=Ranged Skillcape]]"
+      }
+    },
+    "output": [
+      "Ranged Skillcape"
+    ]
+  },
+  {
+    "uses_material": [
+      "N/A"
+    ],
+    "uses_skill": [
+      "Runecrafting"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "N/A",
+          "name": "N/A",
+          "link": "N/A",
+          "qty": "N/A",
+          "item": "N/A",
+          "image": "[[File:N/A.png|30px|link=N/A]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Runecrafting",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Runecrafting Skillcape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Runecrafting Skillcape",
+        "link": "Runecrafting Skillcape",
+        "qty": 1,
+        "item": "Runecrafting Skillcape",
+        "image": "[[File:Runecrafting Skillcape.png|30px|link=Runecrafting Skillcape]]"
+      }
+    },
+    "output": [
+      "Runecrafting Skillcape"
+    ]
+  },
+  {
+    "uses_material": [
+      "N/A"
+    ],
+    "uses_skill": [
+      "Woodcutting"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "N/A",
+          "name": "N/A",
+          "link": "N/A",
+          "qty": "N/A",
+          "item": "N/A",
+          "image": "[[File:N/A.png|30px|link=N/A]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Woodcutting",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Woodcutting Skillcape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Woodcutting Skillcape",
+        "link": "Woodcutting Skillcape",
+        "qty": 1,
+        "item": "Woodcutting Skillcape",
+        "image": "[[File:Woodcutting Skillcape.png|30px|link=Woodcutting Skillcape]]"
+      }
+    },
+    "output": [
+      "Woodcutting Skillcape"
+    ]
+  },
+  {
+    "uses_material": [
+      "Maple Logs",
+      "Mystic Thread",
+      "Mithril Crossbow Limbs",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "16",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Mystic Thread",
+          "link": "Mystic Thread",
+          "qty": "6",
+          "item": "Mystic Thread",
+          "image": "[[File:Mystic Thread.png|30px|link=Mystic Thread]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Mithril Crossbow Limbs",
+          "link": "Mithril Crossbow Limbs",
+          "qty": "1",
+          "item": "Mithril Crossbow Limbs",
+          "image": "[[File:Mithril Crossbow Limbs.png|30px|link=Mithril Crossbow Limbs]]"
+        },
+        {
+          "quantity": "18",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "18",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "150"
+        }
+      ],
+      "outputs": [
+        "Mithril Crossbow"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Mithril Crossbow",
+        "link": "Mithril Crossbow",
+        "qty": 1,
+        "item": "Mithril Crossbow",
+        "image": "[[File:Mithril Crossbow.png|30px|link=Mithril Crossbow]]"
+      }
+    },
+    "output": [
+      "Mithril Crossbow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "2",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Mithril Crossbow Limbs"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Mithril Crossbow Limbs",
+        "link": "Mithril Crossbow Limbs",
+        "qty": 1,
+        "item": "Mithril Crossbow Limbs",
+        "image": "[[File:Mithril Crossbow Limbs.png|30px|link=Mithril Crossbow Limbs]]"
+      }
+    },
+    "output": [
+      "Mithril Crossbow Limbs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "1",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "3",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
+      "outputs": [
+        "Mithril Bolts"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Mithril Bolts",
+        "link": "Mithril Bolts",
+        "qty": "33",
+        "item": "Mithril Bolts",
+        "image": "[[File:Mithril Bolts.png|30px|link=Mithril Bolts]]"
+      }
+    },
+    "output": [
+      "Mithril Bolts"
     ]
   }
 ]
