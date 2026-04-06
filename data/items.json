@@ -26949,16 +26949,16 @@
     "image": "Fruit Pie.png",
     "variants": [
       {
-        "id": "b60035d30d52",
+        "id": "07da558cb720",
         "name": "Fruit Pie",
         "image": "Fruit Pie.png",
         "variantName": null,
         "recipe": {
-          "id": "43fa4acf5e36",
+          "id": "9c6caafac560",
           "facility": "Cooking Range",
           "materials": [
             {
-              "itemId": "69153315ea03",
+              "itemId": "e882154bb2ef",
               "quantity": 1
             },
             {
@@ -30696,6 +30696,270 @@
     "wikiLink": "Mithril_Bolts",
     "weight": 0,
     "stackLimit": 999
+  },
+  {
+    "id": "d1060ab35b82",
+    "name": "Titan's Wrath",
+    "image": "Titan's Wrath.png",
+    "variants": [
+      {
+        "id": "8447143d5372",
+        "name": "Titan's Wrath",
+        "image": "Titan's Wrath.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ad8627677dd6",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e7d4a89b0dc",
+              "quantity": 12
+            },
+            {
+              "itemId": "f81c9d2ccbe3",
+              "quantity": 5
+            },
+            {
+              "itemId": "829e2faf9b8e",
+              "quantity": 1
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 64
+            },
+            {
+              "itemId": "430052f1d705",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Titan's_Wrath",
+    "weight": 25
+  },
+  {
+    "id": "4a8a6c2f4847",
+    "name": "Maple Longbow",
+    "image": "Maple Longbow.png",
+    "variants": [
+      {
+        "id": "b5023df5638f",
+        "name": "Maple Longbow",
+        "image": "Maple Longbow.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f5dbf0a34af5",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "b639c243cebd",
+              "quantity": 4
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 32
+            },
+            {
+              "itemId": "7d21f3c7ffc9",
+              "quantity": 16
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 4
+            },
+            {
+              "itemId": "b0d64f121478",
+              "quantity": 8
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Maple_Longbow",
+    "weight": 15
+  },
+  {
+    "id": "74f123590c03",
+    "name": "Enchanted Mithril Bolts",
+    "image": "Enchanted Mithril Bolts.png",
+    "variants": [
+      {
+        "id": "12c7beeb9c11",
+        "name": "Enchanted Mithril Bolts",
+        "image": "Enchanted Mithril Bolts.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8750cb8473ba",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "0a3bcef8e149",
+              "quantity": 15
+            },
+            {
+              "itemId": "26a20b838fad",
+              "quantity": 33
+            },
+            {
+              "itemId": "0e2ba7342d33",
+              "quantity": 10
+            },
+            {
+              "itemId": "d142d3dd1dbb",
+              "quantity": 1
+            }
+          ],
+          "quantity": 33
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Enchanted_Mithril_Bolts",
+    "weight": 0,
+    "stackLimit": 999
+  },
+  {
+    "id": "0eb3c4abb6a8",
+    "name": "Mithril Arrow",
+    "image": "Mithril Arrow.png",
+    "variants": [
+      {
+        "id": "c3682ac2c85d",
+        "name": "Mithril Arrow",
+        "image": "Mithril Arrow.png",
+        "variantName": null,
+        "recipe": {
+          "id": "93f558500f5b",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 2
+            },
+            {
+              "itemId": "7ddc50d536fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 33
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Mithril_Arrow",
+    "weight": 0,
+    "stackLimit": 999
+  },
+  {
+    "id": "b086c2f28592",
+    "name": "Shadow Crossbow",
+    "image": "Shadow Crossbow.png",
+    "variants": [
+      {
+        "id": "27ce4e394ce5",
+        "name": "Shadow Crossbow",
+        "image": "Shadow Crossbow.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0671a09b6e3f",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "037107e73c04",
+              "quantity": 1
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 2
+            },
+            {
+              "itemId": "7d21f3c7ffc9",
+              "quantity": 16
+            },
+            {
+              "itemId": "b0d64f121478",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Shadow_Crossbow",
+    "weight": 10
+  },
+  {
+    "id": "037107e73c04",
+    "name": "Black Crossbow Limbs",
+    "image": "Black Crossbow Limbs.png",
+    "variants": [
+      {
+        "id": "ce119ecbb8a2",
+        "name": "Black Crossbow Limbs",
+        "image": "Black Crossbow Limbs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1babd1b79c8f",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "3e7d4a89b0dc",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Black_Crossbow_Limbs",
+    "weight": 4.5
   },
   {
     "id": "6a5fa59fd28f",
@@ -36172,6 +36436,26 @@
     "stackLimit": 999
   },
   {
+    "id": "deffdb966d14",
+    "name": "Corrupted Essence Sample",
+    "image": "Corrupted Essence Sample.png",
+    "variants": [
+      {
+        "id": "deffdb966d14",
+        "name": "Corrupted Essence Sample",
+        "image": "Corrupted Essence Sample.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Corrupted_Essence_Sample",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
     "id": "116469a2eea0",
     "name": "Mithril Ore",
     "image": "Mithril Ore.png",
@@ -36547,5 +36831,25 @@
     "facilities": [],
     "wikiLink": "Unusual_Trout",
     "weight": 0.4
+  },
+  {
+    "id": "829e2faf9b8e",
+    "name": "Broken Titan's Wrath",
+    "image": "Broken Titan's Wrath.png",
+    "variants": [
+      {
+        "id": "829e2faf9b8e",
+        "name": "Broken Titan's Wrath",
+        "image": "Broken Titan's Wrath.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Broken_Titan's_Wrath",
+    "weight": 0,
+    "stackLimit": 99
   }
 ]

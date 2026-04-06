@@ -11764,6 +11764,24 @@
     "item_weight": 8
   },
   {
+    "page_name": "Corrupted Essence Sample",
+    "item_description": "A strange sickly essence, linked to the corruption in Dowdun Reach. It writhes as you look at it.",
+    "item_name": "Corrupted Essence Sample",
+    "item_type": "Quest Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Quest Item",
+      "description": "A strange sickly essence, linked to the corruption in Dowdun Reach. It writhes as you look at it.",
+      "image": "[[File:Corrupted Essence Sample.png|32px]]",
+      "name": "Corrupted Essence Sample",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Corrupted Essence Sample.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Corrupted Essence Sample"
+  },
+  {
     "page_name": "Mithril Ore",
     "item_description": "Mined from Mithril deposits. It can be smelted in a Furnace.",
     "item_name": "Mithril Ore",
@@ -12939,5 +12957,129 @@
     },
     "item_weight": 0,
     "page_name_sub": "Mithril Bolts"
+  },
+  {
+    "page_name": "Titan's Wrath",
+    "item_description": "This sword is now thrice-owned: by you, the Black Knight Titan and Lord Rasmodel.",
+    "item_name": "Titan's Wrath",
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Titan's Wrath",
+    "json": {
+      "type": "Melee Weapon",
+      "description": "This sword is now thrice-owned: by you, the Black Knight Titan and Lord Rasmodel.",
+      "repaircost": "2 [[Black Metal Bar]]s",
+      "image": "[[File:Titan's Wrath.png|32px]]",
+      "name": "Titan's Wrath",
+      "weight": "25.0",
+      "image_raw": "Titan's Wrath.png"
+    },
+    "item_repair": "2 [[Black Metal Bar]]s",
+    "item_weight": 25
+  },
+  {
+    "page_name": "Maple Longbow",
+    "item_description": "A supple longbow carved from maple wood.",
+    "item_name": "Maple Longbow",
+    "item_type": "Ranged Weapon",
+    "page_name_sub": "Maple Longbow",
+    "json": {
+      "type": "Ranged Weapon",
+      "description": "A supple longbow carved from maple wood.",
+      "repaircost": "2 [[Maple Logs]]",
+      "image": "[[File:Maple Longbow.png|32px]]",
+      "name": "Maple Longbow",
+      "weight": "15.0",
+      "image_raw": "Maple Longbow.png"
+    },
+    "item_repair": "2 [[Maple Logs]]",
+    "item_weight": 15
+  },
+  {
+    "page_name": "Enchanted Mithril Bolts",
+    "item_description": "These crossbow bolts offer a chance to create a toxic burst, poisoning all nearby enemies.",
+    "item_name": "Enchanted Mithril Bolts",
+    "item_type": "Ammo",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Ammo",
+      "description": "These crossbow bolts offer a chance to create a toxic burst, poisoning all nearby enemies.",
+      "image": "[[File:Enchanted Mithril Bolts.png|32px]]",
+      "name": "Enchanted Mithril Bolts",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Enchanted Mithril Bolts.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Enchanted Mithril Bolts"
+  },
+  {
+    "page_name": "Mithril Arrow",
+    "item_description": "Arrows with tips forged from Steel.",
+    "item_name": "Mithril Arrow",
+    "item_type": "Arrow",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Arrow",
+      "description": "Arrows with tips forged from Steel.",
+      "image": "[[File:Mithril Arrow.png|32px]]",
+      "name": "Mithril Arrow",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Mithril Arrow.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Mithril Arrow"
+  },
+  {
+    "page_name": "Shadow Crossbow",
+    "item_description": "A crossbow made from black metal. Similar to those used by Black Knight snipers.",
+    "item_name": "Shadow Crossbow",
+    "item_type": "Ranged Weapon",
+    "page_name_sub": "Shadow Crossbow",
+    "json": {
+      "type": "Ranged Weapon",
+      "description": "A crossbow made from black metal. Similar to those used by Black Knight snipers.",
+      "repaircost": "1 [[Black Metal Bar]]",
+      "image": "[[File:Shadow Crossbow.png|32px]]",
+      "name": "Shadow Crossbow",
+      "weight": "10.0",
+      "image_raw": "Shadow Crossbow.png"
+    },
+    "item_repair": "1 [[Black Metal Bar]]",
+    "item_weight": 10
+  },
+  {
+    "page_name": "Broken Titan's Wrath",
+    "item_description": "The shattered remnant of the Black Knight Titan's sword.",
+    "item_name": "Broken Titan's Wrath",
+    "item_type": "Quest Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Quest Item",
+      "description": "The shattered remnant of the Black Knight Titan's sword.",
+      "image": "[[File:Broken Titan's Wrath.png|32px]]",
+      "name": "Broken Titan's Wrath",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Broken Titan's Wrath.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Broken Titan's Wrath"
+  },
+  {
+    "page_name": "Black Crossbow Limbs",
+    "item_description": "A pair of Black crossbow limbs. Used in crafting a Black Knight Crossbow.",
+    "item_name": "Black Crossbow Limbs",
+    "item_weight": 4.5,
+    "page_name_sub": "Black Crossbow Limbs",
+    "json": {
+      "type": "Component",
+      "description": "A pair of Black crossbow limbs. Used in crafting a Black Knight Crossbow.",
+      "image": "[[File:Black Crossbow Limbs.png|32px]]",
+      "name": "Black Crossbow Limbs",
+      "weight": "4.5",
+      "image_raw": "Black Crossbow Limbs.png"
+    },
+    "item_type": "Component"
   }
 ]

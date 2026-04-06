@@ -41399,7 +41399,7 @@
     "uses_material": [
       "Dried Redberries",
       "Dried Dwellberries",
-      "Dried Cadavaberries"
+      "Bread"
     ],
     "uses_skill": [
       "Cooking"
@@ -41428,11 +41428,11 @@
         },
         {
           "quantity": "1",
-          "name": "Dried Cadavaberries",
-          "link": "Dried Cadavaberries",
+          "name": "Bread",
+          "link": "Bread",
           "qty": "1",
-          "item": "Dried Cadavaberries",
-          "image": "[[File:Dried Cadavaberries.png|30px|link=Dried Cadavaberries]]"
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
         }
       ],
       "skills": [
@@ -47058,6 +47058,414 @@
     },
     "output": [
       "Mithril Bolts"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Bar",
+      "Blue Dragon Leather",
+      "Mystic Cloth",
+      "Infernal Fragment",
+      "Broken Titan's Wrath"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "12",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
+          "qty": "12",
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Blue Dragon Leather",
+          "link": "Blue Dragon Leather",
+          "qty": "5",
+          "item": "Blue Dragon Leather",
+          "image": "[[File:Blue Dragon Leather.png|30px|link=Blue Dragon Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "4",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": "64",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "64",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Broken Titan's Wrath",
+          "link": "Broken Titan's Wrath",
+          "qty": "1",
+          "item": "Broken Titan's Wrath",
+          "image": "[[File:Broken Titan's Wrath.png|30px|link=Broken Titan's Wrath]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Titan's Wrath"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Titan's Wrath",
+        "link": "Titan's Wrath",
+        "qty": "1",
+        "item": "Titan's Wrath",
+        "image": "[[File:Titan's Wrath.png|30px|link=Titan's Wrath]]"
+      }
+    },
+    "output": [
+      "Titan's Wrath"
+    ]
+  },
+  {
+    "uses_material": [
+      "Maple Logs",
+      "Mystic Thread",
+      "Mithril Bar",
+      "Diamond",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "16",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Mystic Thread",
+          "link": "Mystic Thread",
+          "qty": "8",
+          "item": "Mystic Thread",
+          "image": "[[File:Mystic Thread.png|30px|link=Mystic Thread]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "4",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Diamond",
+          "link": "Diamond",
+          "qty": "4",
+          "item": "Diamond",
+          "image": "[[File:Diamond.png|30px|link=Diamond]]"
+        },
+        {
+          "quantity": "32",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "32",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
+      "outputs": [
+        "Maple Longbow"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Maple Longbow",
+        "link": "Maple Longbow",
+        "qty": 1,
+        "item": "Maple Longbow",
+        "image": "[[File:Maple Longbow.png|30px|link=Maple Longbow]]"
+      }
+    },
+    "output": [
+      "Maple Longbow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bolts",
+      "Sapphire",
+      "Nature Rune",
+      "Air Rune"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "Mithril Bolts",
+          "link": "Mithril Bolts",
+          "qty": "33",
+          "item": "Mithril Bolts",
+          "image": "[[File:Mithril Bolts.png|30px|link=Mithril Bolts]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Sapphire",
+          "link": "Sapphire",
+          "qty": "1",
+          "item": "Sapphire",
+          "image": "[[File:Sapphire.png|30px|link=Sapphire]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Nature Rune",
+          "link": "Nature Rune",
+          "qty": "10",
+          "item": "Nature Rune",
+          "image": "[[File:Nature Rune.png|30px|link=Nature Rune]]"
+        },
+        {
+          "quantity": "15",
+          "name": "Air Rune",
+          "link": "Air Rune",
+          "qty": "15",
+          "item": "Air Rune",
+          "image": "[[File:Air Rune.png|30px|link=Air Rune]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
+      "outputs": [
+        "Enchanted Mithril Bolts"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Enchanted Mithril Bolts",
+        "link": "Enchanted Mithril Bolts",
+        "qty": "33",
+        "item": "Enchanted Mithril Bolts",
+        "image": "[[File:Enchanted Mithril Bolts.png|30px|link=Enchanted Mithril Bolts]]"
+      }
+    },
+    "output": [
+      "Enchanted Mithril Bolts"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Ash Logs",
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "1",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "1",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Mithril Arrow"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Mithril Arrow",
+        "link": "Mithril Arrow",
+        "qty": "33",
+        "item": "Mithril Arrow",
+        "image": "[[File:Mithril Arrow.png|30px|link=Mithril Arrow]]"
+      }
+    },
+    "output": [
+      "Mithril Arrow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Crossbow Limbs",
+      "Mystic Thread",
+      "Maple Logs",
+      "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Table"
+    ],
+    "json": {
+      "facility": "Fletching Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Black Crossbow Limbs",
+          "link": "Black Crossbow Limbs",
+          "qty": "1",
+          "item": "Black Crossbow Limbs",
+          "image": "[[File:Black Crossbow Limbs.png|30px|link=Black Crossbow Limbs]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Mystic Thread",
+          "link": "Mystic Thread",
+          "qty": "6",
+          "item": "Mystic Thread",
+          "image": "[[File:Mystic Thread.png|30px|link=Mystic Thread]]"
+        },
+        {
+          "quantity": "16",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "16",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "2",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Shadow Crossbow"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Shadow Crossbow",
+        "link": "Shadow Crossbow",
+        "qty": "1",
+        "item": "Shadow Crossbow",
+        "image": "[[File:Shadow Crossbow.png|30px|link=Shadow Crossbow]]"
+      }
+    },
+    "output": [
+      "Shadow Crossbow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
+          "qty": "2",
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Black Crossbow Limbs"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Black Crossbow Limbs",
+        "link": "Black Crossbow Limbs",
+        "qty": "1",
+        "item": "Black Crossbow Limbs",
+        "image": "[[File:Black Crossbow Limbs.png|30px|link=Black Crossbow Limbs]]"
+      }
+    },
+    "output": [
+      "Black Crossbow Limbs"
     ]
   }
 ]
