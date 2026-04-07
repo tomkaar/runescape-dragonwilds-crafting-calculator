@@ -1538,10 +1538,10 @@
       "facility": "Pottery Wheel",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Clay",
           "link": "Clay",
-          "qty": 1,
+          "qty": "1",
           "item": "Clay",
           "image": "[[File:Clay.png|30px|link=Clay]]"
         }
@@ -1549,17 +1549,17 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "25"
+          "experience": "60"
         }
       ],
       "outputs": [
         "Clay Vessel (Unfired)"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Clay Vessel (Unfired)",
         "link": "Clay Vessel (Unfired)",
-        "qty": 1,
+        "qty": "1",
         "item": "Clay Vessel (Unfired)",
         "image": "[[File:Clay Vessel (Unfired).png|30px|link=Clay Vessel (Unfired)]]"
       }
@@ -2498,6 +2498,50 @@
         "name": "Iron Bar",
         "link": "Iron Bar",
         "qty": 1,
+        "item": "Iron Bar",
+        "image": "[[File:Iron Bar.png|30px|link=Iron Bar]]"
+      }
+    },
+    "output": [
+      "Iron Bar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Iron Salvage Pile"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Furnace"
+    ],
+    "json": {
+      "facility": "Furnace",
+      "materials": [
+        {
+          "quantity": "9",
+          "name": "Iron Salvage Pile",
+          "link": "Iron Salvage Pile",
+          "qty": "9",
+          "item": "Iron Salvage Pile",
+          "image": "[[File:Iron Salvage Pile.png|30px|link=Iron Salvage Pile]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Iron Bar"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Iron Bar",
+        "link": "Iron Bar",
+        "qty": "1",
         "item": "Iron Bar",
         "image": "[[File:Iron Bar.png|30px|link=Iron Bar]]"
       }
@@ -3692,6 +3736,50 @@
         "name": "Bronze Bar",
         "link": "Bronze Bar",
         "qty": "2",
+        "item": "Bronze Bar",
+        "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
+      }
+    },
+    "output": [
+      "Bronze Bar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Bronze Salvage Pile"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Furnace"
+    ],
+    "json": {
+      "facility": "Furnace",
+      "materials": [
+        {
+          "quantity": "9",
+          "name": "Bronze Salvage Pile",
+          "link": "Bronze Salvage Pile",
+          "qty": "9",
+          "item": "Bronze Salvage Pile",
+          "image": "[[File:Bronze Salvage Pile.png|30px|link=Bronze Salvage Pile]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Bronze Bar"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Bronze Bar",
+        "link": "Bronze Bar",
+        "qty": "1",
         "item": "Bronze Bar",
         "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
       }
@@ -5596,6 +5684,50 @@
           "qty": "3",
           "item": "Gold Ore",
           "image": "[[File:Gold Ore.png|30px|link=Gold Ore]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Gold Bar"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Gold Bar",
+        "link": "Gold Bar",
+        "qty": 1,
+        "item": "Gold Bar",
+        "image": "[[File:Gold Bar.png|30px|link=Gold Bar]]"
+      }
+    },
+    "output": [
+      "Gold Bar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Gold Salvage Pile"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Furnace"
+    ],
+    "json": {
+      "facility": "Furnace",
+      "materials": [
+        {
+          "quantity": "9",
+          "name": "Gold Salvage Pile",
+          "link": "Gold Salvage Pile",
+          "qty": "9",
+          "item": "Gold Salvage Pile",
+          "image": "[[File:Gold Salvage Pile.png|30px|link=Gold Salvage Pile]]"
         }
       ],
       "skills": [
@@ -8633,6 +8765,50 @@
         "name": "Silver Bar",
         "link": "Silver Bar",
         "qty": 1,
+        "item": "Silver Bar",
+        "image": "[[File:Silver Bar.png|30px|link=Silver Bar]]"
+      }
+    },
+    "output": [
+      "Silver Bar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Silver Salvage Pile"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Furnace"
+    ],
+    "json": {
+      "facility": "Furnace",
+      "materials": [
+        {
+          "quantity": "9",
+          "name": "Silver Salvage Pile",
+          "link": "Silver Salvage Pile",
+          "qty": "9",
+          "item": "Silver Salvage Pile",
+          "image": "[[File:Silver Salvage Pile.png|30px|link=Silver Salvage Pile]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Silver Bar"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Silver Bar",
+        "link": "Silver Bar",
+        "qty": "1",
         "item": "Silver Bar",
         "image": "[[File:Silver Bar.png|30px|link=Silver Bar]]"
       }
@@ -32963,27 +33139,67 @@
     ]
   },
   {
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
       "facility": "Crafting Table",
       "materials": [],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
-        "Attack Skillcape"
+        "Attack Cape"
       ],
       "output": {
         "quantity": 1,
-        "name": "Attack Skillcape",
-        "link": "Attack Skillcape",
+        "name": "Attack Cape",
+        "link": "Attack Cape",
         "qty": 1,
-        "item": "Attack Skillcape",
-        "image": "[[File:Attack Skillcape.png|30px|link=Attack Skillcape]]"
+        "item": "Attack Cape",
+        "image": "[[File:Attack Cape.png|30px|link=Attack Cape]]"
       }
     },
     "output": [
-      "Attack Skillcape"
+      "Attack Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Attack Cape (Trimmed)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Attack Cape (Trimmed)",
+        "link": "Attack Cape (Trimmed)",
+        "qty": 1,
+        "item": "Attack Cape (Trimmed)",
+        "image": "[[File:Attack Cape (Trimmed).png|30px|link=Attack Cape (Trimmed)]]"
+      }
+    },
+    "output": [
+      "Attack Cape (Trimmed)"
     ]
   },
   {
@@ -34383,6 +34599,59 @@
           "qty": "1",
           "item": "Iron Bar",
           "image": "[[File:Iron Bar.png|30px|link=Iron Bar]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Coal",
+          "link": "Coal",
+          "qty": "3",
+          "item": "Coal",
+          "image": "[[File:Coal.png|30px|link=Coal]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Steel Bar"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Steel Bar",
+        "link": "Steel Bar",
+        "qty": "1",
+        "item": "Steel Bar",
+        "image": "[[File:Steel Bar.png|30px|link=Steel Bar]]"
+      }
+    },
+    "output": [
+      "Steel Bar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Steel Salvage Pile",
+      "Coal"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blast Furnace"
+    ],
+    "json": {
+      "facility": "Blast Furnace",
+      "materials": [
+        {
+          "quantity": "9",
+          "name": "Steel Salvage Pile",
+          "link": "Steel Salvage Pile",
+          "qty": "9",
+          "item": "Steel Salvage Pile",
+          "image": "[[File:Steel Salvage Pile.png|30px|link=Steel Salvage Pile]]"
         },
         {
           "quantity": "3",
@@ -44249,6 +44518,9 @@
       "Mystic Cloth",
       "Demonic Oil"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
@@ -44296,7 +44568,12 @@
           "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
       "outputs": [
         "Black Knight Platebody"
       ],
@@ -44320,6 +44597,9 @@
       "Cursed Leather",
       "Mystic Cloth",
       "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Smithing Anvil"
@@ -44368,7 +44648,12 @@
           "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
       "outputs": [
         "Black Knight Platelegs"
       ],
@@ -46021,6 +46306,77 @@
     "uses_material": [
       "Black Metal Bar",
       "Cursed Leather",
+      "Blue Dragon Leather",
+      "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
+          "qty": "4",
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "1",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Blue Dragon Leather",
+          "link": "Blue Dragon Leather",
+          "qty": "2",
+          "item": "Blue Dragon Leather",
+          "image": "[[File:Blue Dragon Leather.png|30px|link=Blue Dragon Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "1",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "Shadow Cowl"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Shadow Cowl",
+        "link": "Shadow Cowl",
+        "qty": 1,
+        "item": "Shadow Cowl",
+        "image": "[[File:Shadow Cowl.png|30px|link=Shadow Cowl]]"
+      }
+    },
+    "output": [
+      "Shadow Cowl"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Bar",
+      "Cursed Leather",
       "Mystic Thread",
       "Demonic Oil"
     ],
@@ -46541,9 +46897,6 @@
     ]
   },
   {
-    "uses_material": [
-      "N/A"
-    ],
     "uses_skill": [
       "Artisan"
     ],
@@ -46552,344 +46905,507 @@
     ],
     "json": {
       "facility": "Crafting Table",
-      "materials": [
-        {
-          "quantity": "N/A",
-          "name": "N/A",
-          "link": "N/A",
-          "qty": "N/A",
-          "item": "N/A",
-          "image": "[[File:N/A.png|30px|link=N/A]]"
-        }
-      ],
+      "materials": [],
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
-        "Artisan Skillcape"
+        "Artisan Cape"
       ],
       "output": {
         "quantity": 1,
-        "name": "Artisan Skillcape",
-        "link": "Artisan Skillcape",
+        "name": "Artisan Cape",
+        "link": "Artisan Cape",
         "qty": 1,
-        "item": "Artisan Skillcape",
-        "image": "[[File:Artisan Skillcape.png|30px|link=Artisan Skillcape]]"
+        "item": "Artisan Cape",
+        "image": "[[File:Artisan Cape.png|30px|link=Artisan Cape]]"
       }
     },
     "output": [
-      "Artisan Skillcape"
+      "Artisan Cape"
     ]
   },
   {
-    "uses_material": [
-      "N/A"
-    ],
     "uses_skill": [
-      "Construction"
+      "Artisan"
     ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
       "facility": "Crafting Table",
-      "materials": [
-        {
-          "quantity": "N/A",
-          "name": "N/A",
-          "link": "N/A",
-          "qty": "N/A",
-          "item": "N/A",
-          "image": "[[File:N/A.png|30px|link=N/A]]"
-        }
-      ],
+      "materials": [],
       "skills": [
         {
-          "name": "Construction",
-          "experience": "?"
+          "name": "Artisan",
+          "experience": "0"
         }
       ],
       "outputs": [
-        "Construction Skillcape"
+        "Artisan Cape (Trimmed)"
       ],
       "output": {
         "quantity": 1,
-        "name": "Construction Skillcape",
-        "link": "Construction Skillcape",
+        "name": "Artisan Cape (Trimmed)",
+        "link": "Artisan Cape (Trimmed)",
         "qty": 1,
-        "item": "Construction Skillcape",
-        "image": "[[File:Construction Skillcape.png|30px|link=Construction Skillcape]]"
+        "item": "Artisan Cape (Trimmed)",
+        "image": "[[File:Artisan Cape (Trimmed).png|30px|link=Artisan Cape (Trimmed)]]"
       }
     },
     "output": [
-      "Construction Skillcape"
+      "Artisan Cape (Trimmed)"
     ]
   },
   {
-    "uses_material": [
-      "N/A"
-    ],
     "uses_skill": [
-      "Cooking"
+      "Artisan"
     ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
       "facility": "Crafting Table",
-      "materials": [
-        {
-          "quantity": "N/A",
-          "name": "N/A",
-          "link": "N/A",
-          "qty": "N/A",
-          "item": "N/A",
-          "image": "[[File:N/A.png|30px|link=N/A]]"
-        }
-      ],
+      "materials": [],
       "skills": [
         {
-          "name": "Cooking",
-          "experience": "?"
+          "name": "Artisan",
+          "experience": "0"
         }
       ],
       "outputs": [
-        "Cooking Skillcape"
+        "Construction Cape"
       ],
       "output": {
         "quantity": 1,
-        "name": "Cooking Skillcape",
-        "link": "Cooking Skillcape",
+        "name": "Construction Cape",
+        "link": "Construction Cape",
         "qty": 1,
-        "item": "Cooking Skillcape",
-        "image": "[[File:Cooking Skillcape.png|30px|link=Cooking Skillcape]]"
+        "item": "Construction Cape",
+        "image": "[[File:Construction Cape.png|30px|link=Construction Cape]]"
       }
     },
     "output": [
-      "Cooking Skillcape"
+      "Construction Cape"
     ]
   },
   {
-    "uses_material": [
-      "N/A"
-    ],
     "uses_skill": [
-      "Farming"
+      "Artisan"
     ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
       "facility": "Crafting Table",
-      "materials": [
-        {
-          "quantity": "N/A",
-          "name": "N/A",
-          "link": "N/A",
-          "qty": "N/A",
-          "item": "N/A",
-          "image": "[[File:N/A.png|30px|link=N/A]]"
-        }
-      ],
+      "materials": [],
       "skills": [
         {
-          "name": "Farming",
-          "experience": "?"
+          "name": "Artisan",
+          "experience": "0"
         }
       ],
       "outputs": [
-        "Farming Skillcape"
+        "Construction Cape (Trimmed)"
       ],
       "output": {
         "quantity": 1,
-        "name": "Farming Skillcape",
-        "link": "Farming Skillcape",
+        "name": "Construction Cape (Trimmed)",
+        "link": "Construction Cape (Trimmed)",
         "qty": 1,
-        "item": "Farming Skillcape",
-        "image": "[[File:Farming Skillcape.png|30px|link=Farming Skillcape]]"
+        "item": "Construction Cape (Trimmed)",
+        "image": "[[File:Construction Cape (Trimmed).png|30px|link=Construction Cape (Trimmed)]]"
       }
     },
     "output": [
-      "Farming Skillcape"
+      "Construction Cape (Trimmed)"
     ]
   },
   {
-    "uses_material": [
-      "N/A"
-    ],
     "uses_skill": [
-      "Magic"
+      "Artisan"
     ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
       "facility": "Crafting Table",
-      "materials": [
-        {
-          "quantity": "N/A",
-          "name": "N/A",
-          "link": "N/A",
-          "qty": "N/A",
-          "item": "N/A",
-          "image": "[[File:N/A.png|30px|link=N/A]]"
-        }
-      ],
+      "materials": [],
       "skills": [
         {
-          "name": "Magic",
-          "experience": "?"
+          "name": "Artisan",
+          "experience": "0"
         }
       ],
       "outputs": [
-        "Magic Skillcape"
+        "Cooking Cape"
       ],
       "output": {
         "quantity": 1,
-        "name": "Magic Skillcape",
-        "link": "Magic Skillcape",
+        "name": "Cooking Cape",
+        "link": "Cooking Cape",
         "qty": 1,
-        "item": "Magic Skillcape",
-        "image": "[[File:Magic Skillcape.png|30px|link=Magic Skillcape]]"
+        "item": "Cooking Cape",
+        "image": "[[File:Cooking Cape.png|30px|link=Cooking Cape]]"
       }
     },
     "output": [
-      "Magic Skillcape"
+      "Cooking Cape"
     ]
   },
   {
-    "uses_material": [
-      "N/A"
-    ],
     "uses_skill": [
-      "Ranged"
+      "Artisan"
     ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
       "facility": "Crafting Table",
-      "materials": [
-        {
-          "quantity": "N/A",
-          "name": "N/A",
-          "link": "N/A",
-          "qty": "N/A",
-          "item": "N/A",
-          "image": "[[File:N/A.png|30px|link=N/A]]"
-        }
-      ],
+      "materials": [],
       "skills": [
         {
-          "name": "Ranged",
-          "experience": "?"
+          "name": "Artisan",
+          "experience": "0"
         }
       ],
       "outputs": [
-        "Ranged Skillcape"
+        "Cooking Cape (Trimmed)"
       ],
       "output": {
         "quantity": 1,
-        "name": "Ranged Skillcape",
-        "link": "Ranged Skillcape",
+        "name": "Cooking Cape (Trimmed)",
+        "link": "Cooking Cape (Trimmed)",
         "qty": 1,
-        "item": "Ranged Skillcape",
-        "image": "[[File:Ranged Skillcape.png|30px|link=Ranged Skillcape]]"
+        "item": "Cooking Cape (Trimmed)",
+        "image": "[[File:Cooking Cape (Trimmed).png|30px|link=Cooking Cape (Trimmed)]]"
       }
     },
     "output": [
-      "Ranged Skillcape"
+      "Cooking Cape (Trimmed)"
     ]
   },
   {
-    "uses_material": [
-      "N/A"
-    ],
     "uses_skill": [
-      "Runecrafting"
+      "Artisan"
     ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
       "facility": "Crafting Table",
-      "materials": [
-        {
-          "quantity": "N/A",
-          "name": "N/A",
-          "link": "N/A",
-          "qty": "N/A",
-          "item": "N/A",
-          "image": "[[File:N/A.png|30px|link=N/A]]"
-        }
-      ],
+      "materials": [],
       "skills": [
         {
-          "name": "Runecrafting",
-          "experience": "?"
+          "name": "Artisan",
+          "experience": "0"
         }
       ],
       "outputs": [
-        "Runecrafting Skillcape"
+        "Farming Cape"
       ],
       "output": {
         "quantity": 1,
-        "name": "Runecrafting Skillcape",
-        "link": "Runecrafting Skillcape",
+        "name": "Farming Cape",
+        "link": "Farming Cape",
         "qty": 1,
-        "item": "Runecrafting Skillcape",
-        "image": "[[File:Runecrafting Skillcape.png|30px|link=Runecrafting Skillcape]]"
+        "item": "Farming Cape",
+        "image": "[[File:Farming Cape.png|30px|link=Farming Cape]]"
       }
     },
     "output": [
-      "Runecrafting Skillcape"
+      "Farming Cape"
     ]
   },
   {
-    "uses_material": [
-      "N/A"
-    ],
     "uses_skill": [
-      "Woodcutting"
+      "Artisan"
     ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
       "facility": "Crafting Table",
-      "materials": [
-        {
-          "quantity": "N/A",
-          "name": "N/A",
-          "link": "N/A",
-          "qty": "N/A",
-          "item": "N/A",
-          "image": "[[File:N/A.png|30px|link=N/A]]"
-        }
-      ],
+      "materials": [],
       "skills": [
         {
-          "name": "Woodcutting",
-          "experience": "?"
+          "name": "Artisan",
+          "experience": "0"
         }
       ],
       "outputs": [
-        "Woodcutting Skillcape"
+        "Farming Cape (Trimmed)"
       ],
       "output": {
         "quantity": 1,
-        "name": "Woodcutting Skillcape",
-        "link": "Woodcutting Skillcape",
+        "name": "Farming Cape (Trimmed)",
+        "link": "Farming Cape (Trimmed)",
         "qty": 1,
-        "item": "Woodcutting Skillcape",
-        "image": "[[File:Woodcutting Skillcape.png|30px|link=Woodcutting Skillcape]]"
+        "item": "Farming Cape (Trimmed)",
+        "image": "[[File:Farming Cape (Trimmed).png|30px|link=Farming Cape (Trimmed)]]"
       }
     },
     "output": [
-      "Woodcutting Skillcape"
+      "Farming Cape (Trimmed)"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Magic Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Magic Cape",
+        "link": "Magic Cape",
+        "qty": 1,
+        "item": "Magic Cape",
+        "image": "[[File:Magic Cape.png|30px|link=Magic Cape]]"
+      }
+    },
+    "output": [
+      "Magic Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Magic Cape (Trimmed)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Magic Cape (Trimmed)",
+        "link": "Magic Cape (Trimmed)",
+        "qty": 1,
+        "item": "Magic Cape (Trimmed)",
+        "image": "[[File:Magic Cape (Trimmed).png|30px|link=Magic Cape (Trimmed)]]"
+      }
+    },
+    "output": [
+      "Magic Cape (Trimmed)"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Ranged Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Ranged Cape",
+        "link": "Ranged Cape",
+        "qty": 1,
+        "item": "Ranged Cape",
+        "image": "[[File:Ranged Cape.png|30px|link=Ranged Cape]]"
+      }
+    },
+    "output": [
+      "Ranged Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Ranged Cape (Trimmed)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Ranged Cape (Trimmed)",
+        "link": "Ranged Cape (Trimmed)",
+        "qty": 1,
+        "item": "Ranged Cape (Trimmed)",
+        "image": "[[File:Ranged Cape (Trimmed).png|30px|link=Ranged Cape (Trimmed)]]"
+      }
+    },
+    "output": [
+      "Ranged Cape (Trimmed)"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Runecrafting Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Runecrafting Cape",
+        "link": "Runecrafting Cape",
+        "qty": 1,
+        "item": "Runecrafting Cape",
+        "image": "[[File:Runecrafting Cape.png|30px|link=Runecrafting Cape]]"
+      }
+    },
+    "output": [
+      "Runecrafting Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Runecrafting Cape (Trimmed)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Runecrafting Cape (Trimmed)",
+        "link": "Runecrafting Cape (Trimmed)",
+        "qty": 1,
+        "item": "Runecrafting Cape (Trimmed)",
+        "image": "[[File:Runecrafting Cape (Trimmed).png|30px|link=Runecrafting Cape (Trimmed)]]"
+      }
+    },
+    "output": [
+      "Runecrafting Cape (Trimmed)"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Woodcutting Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Woodcutting Cape",
+        "link": "Woodcutting Cape",
+        "qty": 1,
+        "item": "Woodcutting Cape",
+        "image": "[[File:Woodcutting Cape.png|30px|link=Woodcutting Cape]]"
+      }
+    },
+    "output": [
+      "Woodcutting Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Woodcutting Cape (Trimmed)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Woodcutting Cape (Trimmed)",
+        "link": "Woodcutting Cape (Trimmed)",
+        "qty": 1,
+        "item": "Woodcutting Cape (Trimmed)",
+        "image": "[[File:Woodcutting Cape (Trimmed).png|30px|link=Woodcutting Cape (Trimmed)]]"
+      }
+    },
+    "output": [
+      "Woodcutting Cape (Trimmed)"
     ]
   },
   {
@@ -47138,6 +47654,141 @@
     },
     "output": [
       "Titan's Wrath"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mystic Cloth",
+      "Black Metal Bar",
+      "Infernal Fragment",
+      "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "2",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
+          "qty": "2",
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "12",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "1",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Zamorak Hood"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zamorak Hood",
+        "link": "Zamorak Hood",
+        "qty": 1,
+        "item": "Zamorak Hood",
+        "image": "[[File:Zamorak Hood.png|30px|link=Zamorak Hood]]"
+      }
+    },
+    "output": [
+      "Zamorak Hood"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Mining Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Mining Cape",
+        "link": "Mining Cape",
+        "qty": 1,
+        "item": "Mining Cape",
+        "image": "[[File:Mining Cape.png|30px|link=Mining Cape]]"
+      }
+    },
+    "output": [
+      "Mining Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Mining Cape (Trimmed)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Mining Cape (Trimmed)",
+        "link": "Mining Cape (Trimmed)",
+        "qty": 1,
+        "item": "Mining Cape (Trimmed)",
+        "image": "[[File:Mining Cape (Trimmed).png|30px|link=Mining Cape (Trimmed)]]"
+      }
+    },
+    "output": [
+      "Mining Cape (Trimmed)"
     ]
   },
   {
@@ -47405,7 +48056,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "40"
+          "experience": "?"
         }
       ],
       "outputs": [
@@ -47466,6 +48117,322 @@
     },
     "output": [
       "Black Crossbow Limbs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Cursed Leather",
+      "Black Metal Bar",
+      "Blue Dragon Leather",
+      "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "12",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "12",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
+          "qty": "4",
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Blue Dragon Leather",
+          "link": "Blue Dragon Leather",
+          "qty": "4",
+          "item": "Blue Dragon Leather",
+          "image": "[[File:Blue Dragon Leather.png|30px|link=Blue Dragon Leather]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "3",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "Shadow Body"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Shadow Body",
+        "link": "Shadow Body",
+        "qty": 1,
+        "item": "Shadow Body",
+        "image": "[[File:Shadow Body.png|30px|link=Shadow Body]]"
+      }
+    },
+    "output": [
+      "Shadow Body"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Bar",
+      "Cursed Leather",
+      "Blue Dragon Leather",
+      "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
+          "qty": "8",
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "4",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Blue Dragon Leather",
+          "link": "Blue Dragon Leather",
+          "qty": "4",
+          "item": "Blue Dragon Leather",
+          "image": "[[File:Blue Dragon Leather.png|30px|link=Blue Dragon Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "2",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "Shadow Chaps"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Shadow Chaps",
+        "link": "Shadow Chaps",
+        "qty": 1,
+        "item": "Shadow Chaps",
+        "image": "[[File:Shadow Chaps.png|30px|link=Shadow Chaps]]"
+      }
+    },
+    "output": [
+      "Shadow Chaps"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mystic Cloth",
+      "Black Metal Bar",
+      "Infernal Fragment",
+      "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "8",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
+          "qty": "6",
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+        },
+        {
+          "quantity": "32",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "32",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "3",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Zamorak Robes"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zamorak Robes",
+        "link": "Zamorak Robes",
+        "qty": 1,
+        "item": "Zamorak Robes",
+        "image": "[[File:Zamorak Robes.png|30px|link=Zamorak Robes]]"
+      }
+    },
+    "output": [
+      "Zamorak Robes"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mystic Cloth",
+      "Black Metal Bar",
+      "Infernal Fragment",
+      "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "6",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
+          "qty": "4",
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+        },
+        {
+          "quantity": "24",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "24",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "2",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Zamorak Robe Legs"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zamorak Robe Legs",
+        "link": "Zamorak Robe Legs",
+        "qty": 1,
+        "item": "Zamorak Robe Legs",
+        "image": "[[File:Zamorak Robe Legs.png|30px|link=Zamorak Robe Legs]]"
+      }
+    },
+    "output": [
+      "Zamorak Robe Legs"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Zamorak Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zamorak Cape",
+        "link": "Zamorak Cape",
+        "qty": 1,
+        "item": "Zamorak Cape",
+        "image": "[[File:Zamorak Cape.png|30px|link=Zamorak Cape]]"
+      }
+    },
+    "output": [
+      "Zamorak Cape"
     ]
   }
 ]

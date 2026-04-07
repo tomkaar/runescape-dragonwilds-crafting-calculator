@@ -7710,18 +7710,34 @@
     "item_type": "Basic Item"
   },
   {
-    "page_name": "Attack Skillcape",
-    "item_description": "The cape worn by masters of Attack.",
-    "item_name": "Attack Skillcape",
+    "page_name": "Attack Cape",
+    "item_description": "Congratulations! Reaching level 99 in Attack is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Attack Cape",
     "item_weight": 0,
-    "page_name_sub": "Attack Skillcape",
+    "page_name_sub": "Attack Cape",
     "json": {
       "type": "Basic Item",
-      "description": "The cape worn by masters of Attack.",
-      "image": "[[File:Attack Skillcape.png|32px]]",
-      "name": "Attack Skillcape",
+      "description": "Congratulations! Reaching level 99 in Attack is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Attack Cape.png|32px]]",
+      "name": "Attack Cape",
       "weight": "0.0",
-      "image_raw": "Attack Skillcape.png"
+      "image_raw": "Attack Cape.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Attack Cape",
+    "item_description": "Congratulations! Reaching level 99 in Attack is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Attack Cape (Trimmed)",
+    "item_weight": 0,
+    "page_name_sub": "Attack Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Attack is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Attack Cape (Trimmed).png|32px]]",
+      "name": "Attack Cape (Trimmed)",
+      "weight": "0.0",
+      "image_raw": "Attack Cape (Trimmed).png"
     },
     "item_type": "Basic Item"
   },
@@ -12019,10 +12035,10 @@
     "page_name": "Mystic Fibres",
     "item_description": "Dropped by Zamorak magi<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be Mages\">sic</span>&#93;</sup>. Can be spun into thread at a spinning wheel.",
     "item_name": "Mystic Fibres",
-    "item_type": "Processed Material",
+    "item_type": "Basic Material",
     "item_stacklimit": 50,
     "json": {
-      "type": "Processed Material",
+      "type": "Basic Material",
       "description": "Dropped by Zamorak magi<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be Mages\">sic</span>&#93;</sup>. Can be spun into thread at a spinning wheel.",
       "image": "[[File:Mystic Fibres.png|32px]]",
       "name": "Mystic Fibres",
@@ -12787,6 +12803,24 @@
     "page_name_sub": "Aetheric Fundamentals, a Primordial Primer"
   },
   {
+    "page_name": "Shadow Cowl",
+    "item_description": "A ranged headpiece worn by the [[Children of Shadows]].",
+    "item_name": "Shadow Cowl",
+    "item_type": "Ranged Armour",
+    "page_name_sub": "Shadow Cowl",
+    "json": {
+      "type": "Ranged Armour",
+      "description": "A ranged headpiece worn by the [[Children of Shadows]].",
+      "repaircost": "",
+      "image": "[[File:Shadow Cowl.png|32px]]",
+      "name": "Shadow Cowl",
+      "weight": "6.0",
+      "image_raw": "Shadow Cowl.png"
+    },
+    "item_repair": "",
+    "item_weight": 6
+  },
+  {
     "page_name": "Black Sword",
     "item_description": "A sword in the style of the Black Knights, forged from black metal.",
     "item_name": "Black Sword",
@@ -12907,6 +12941,262 @@
     "item_type": "Melee Weapon"
   },
   {
+    "page_name": "Artisan Cape",
+    "item_description": "Congratulations! Reaching level 99 in Artisan is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Artisan Cape",
+    "item_weight": 0,
+    "page_name_sub": "Artisan Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Artisan is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Artisan Cape.png|32px]]",
+      "name": "Artisan Cape",
+      "weight": "0.0",
+      "image_raw": "Artisan Cape.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Artisan Cape",
+    "item_description": "Congratulations! Reaching level 99 in Artisan is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Artisan Cape (Trimmed)",
+    "item_weight": 0,
+    "page_name_sub": "Artisan Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Artisan is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Artisan Cape (Trimmed).png|32px]]",
+      "name": "Artisan Cape (Trimmed)",
+      "weight": "0.0",
+      "image_raw": "Artisan Cape (Trimmed).png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Construction Cape",
+    "item_description": "Congratulations! Reaching level 99 in Construction is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Construction Cape",
+    "item_weight": 0,
+    "page_name_sub": "Construction Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Construction is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Construction Cape.png|32px]]",
+      "name": "Construction Cape",
+      "weight": "0.0",
+      "image_raw": "Construction Cape.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Construction Cape",
+    "item_description": "Congratulations! Reaching level 99 in Construction is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Construction Cape (Trimmed)",
+    "item_weight": 0,
+    "page_name_sub": "Construction Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Construction is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Construction Cape (Trimmed).png|32px]]",
+      "name": "Construction Cape (Trimmed)",
+      "weight": "0.0",
+      "image_raw": "Construction Cape (Trimmed).png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Cooking Cape",
+    "item_description": "Congratulations! Reaching level 99 in Cooking is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Cooking Cape",
+    "item_weight": 0,
+    "page_name_sub": "Cooking Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Cooking is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Cooking Cape.png|32px]]",
+      "name": "Cooking Cape",
+      "weight": "0.0",
+      "image_raw": "Cooking Cape.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Cooking Cape",
+    "item_description": "Congratulations! Reaching level 99 in Cooking is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Cooking Cape (Trimmed)",
+    "item_weight": 0,
+    "page_name_sub": "Cooking Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Cooking is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Cooking Cape (Trimmed).png|32px]]",
+      "name": "Cooking Cape (Trimmed)",
+      "weight": "0.0",
+      "image_raw": "Cooking Cape (Trimmed).png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Farming Cape",
+    "item_description": "Congratulations! Reaching level 99 in Farming is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Farming Cape",
+    "item_weight": 0,
+    "page_name_sub": "Farming Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Farming is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Farming Cape.png|32px]]",
+      "name": "Farming Cape",
+      "weight": "0.0",
+      "image_raw": "Farming Cape.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Farming Cape",
+    "item_description": "Congratulations! Reaching level 99 in Farming is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Farming Cape (Trimmed)",
+    "item_weight": 0,
+    "page_name_sub": "Farming Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Farming is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Farming Cape (Trimmed).png|32px]]",
+      "name": "Farming Cape (Trimmed)",
+      "weight": "0.0",
+      "image_raw": "Farming Cape (Trimmed).png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Magic Cape",
+    "item_description": "Congratulations! Reaching level 99 in Magic is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Magic Cape",
+    "item_weight": 0,
+    "page_name_sub": "Magic Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Magic is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Magic Cape.png|32px]]",
+      "name": "Magic Cape",
+      "weight": "0.0",
+      "image_raw": "Magic Cape.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Magic Cape",
+    "item_description": "Congratulations! Reaching level 99 in Magic is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Magic Cape (Trimmed)",
+    "item_weight": 0,
+    "page_name_sub": "Magic Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Magic is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Magic Cape (Trimmed).png|32px]]",
+      "name": "Magic Cape (Trimmed)",
+      "weight": "0.0",
+      "image_raw": "Magic Cape (Trimmed).png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Ranged Cape",
+    "item_description": "Congratulations! Reaching level 99 in Ranged is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Ranged Cape",
+    "item_weight": 0,
+    "page_name_sub": "Ranged Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Ranged is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Ranged Cape.png|32px]]",
+      "name": "Ranged Cape",
+      "weight": "0.0",
+      "image_raw": "Ranged Cape.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Ranged Cape",
+    "item_description": "Congratulations! Reaching level 99 in Ranged is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Ranged Cape (Trimmed)",
+    "item_weight": 0,
+    "page_name_sub": "Ranged Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Ranged is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Ranged Cape (Trimmed).png|32px]]",
+      "name": "Ranged Cape (Trimmed)",
+      "weight": "0.0",
+      "image_raw": "Ranged Cape (Trimmed).png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Runecrafting Cape",
+    "item_description": "Congratulations! Reaching level 99 in Runecrafting is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Runecrafting Cape",
+    "item_weight": 0,
+    "page_name_sub": "Runecrafting Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Runecrafting is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Runecrafting Cape.png|32px]]",
+      "name": "Runecrafting Cape",
+      "weight": "0.0",
+      "image_raw": "Runecrafting Cape.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Runecrafting Cape",
+    "item_description": "Congratulations! Reaching level 99 in Runecrafting is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Runecrafting Cape (Trimmed)",
+    "item_weight": 0,
+    "page_name_sub": "Runecrafting Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Runecrafting is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Runecrafting Cape (Trimmed).png|32px]]",
+      "name": "Runecrafting Cape (Trimmed)",
+      "weight": "0.0",
+      "image_raw": "Runecrafting Cape (Trimmed).png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Woodcutting Cape",
+    "item_description": "Congratulations! Reaching level 99 in Woodcutting is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Woodcutting Cape",
+    "item_weight": 0,
+    "page_name_sub": "Woodcutting Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Woodcutting is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Woodcutting Cape.png|32px]]",
+      "name": "Woodcutting Cape",
+      "weight": "0.0",
+      "image_raw": "Woodcutting Cape.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Woodcutting Cape",
+    "item_description": "Congratulations! Reaching level 99 in Woodcutting is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Woodcutting Cape (Trimmed)",
+    "item_weight": 0,
+    "page_name_sub": "Woodcutting Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Woodcutting is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Woodcutting Cape (Trimmed).png|32px]]",
+      "name": "Woodcutting Cape (Trimmed)",
+      "weight": "0.0",
+      "image_raw": "Woodcutting Cape (Trimmed).png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
     "page_name": "Mithril Crossbow",
     "item_description": "A 1-Handed crossbow composed mainly of mithril.",
     "item_name": "Mithril Crossbow",
@@ -12977,6 +13267,56 @@
     "item_weight": 25
   },
   {
+    "page_name": "Zamorak Hood",
+    "item_description": "A hood styled after the Zamorakian magi of Dowdun Reach.",
+    "item_name": "Zamorak Hood",
+    "item_type": "Mage Armour",
+    "page_name_sub": "Zamorak Hood",
+    "json": {
+      "type": "Mage Armour",
+      "description": "A hood styled after the Zamorakian magi of Dowdun Reach.",
+      "repaircost": "",
+      "image": "[[File:Zamorak Hood.png|32px]]",
+      "name": "Zamorak Hood",
+      "weight": "4.0",
+      "image_raw": "Zamorak Hood.png"
+    },
+    "item_repair": "",
+    "item_weight": 4
+  },
+  {
+    "page_name": "Mining Cape",
+    "item_description": "Congratulations! Reaching level 99 in Mining is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Mining Cape",
+    "item_weight": 0,
+    "page_name_sub": "Mining Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Mining is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Mining Cape.png|32px]]",
+      "name": "Mining Cape",
+      "weight": "0.0",
+      "image_raw": "Mining Cape.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Mining Cape",
+    "item_description": "Congratulations! Reaching level 99 in Mining is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Mining Cape (Trimmed)",
+    "item_weight": 0,
+    "page_name_sub": "Mining Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Mining is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Mining Cape (Trimmed).png|32px]]",
+      "name": "Mining Cape (Trimmed)",
+      "weight": "0.0",
+      "image_raw": "Mining Cape (Trimmed).png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
     "page_name": "Maple Longbow",
     "item_description": "A supple longbow carved from maple wood.",
     "item_name": "Maple Longbow",
@@ -13031,24 +13371,6 @@
     "page_name_sub": "Mithril Arrow"
   },
   {
-    "page_name": "Shadow Crossbow",
-    "item_description": "A crossbow made from black metal. Similar to those used by Black Knight snipers.",
-    "item_name": "Shadow Crossbow",
-    "item_type": "Ranged Weapon",
-    "page_name_sub": "Shadow Crossbow",
-    "json": {
-      "type": "Ranged Weapon",
-      "description": "A crossbow made from black metal. Similar to those used by Black Knight snipers.",
-      "repaircost": "1 [[Black Metal Bar]]",
-      "image": "[[File:Shadow Crossbow.png|32px]]",
-      "name": "Shadow Crossbow",
-      "weight": "10.0",
-      "image_raw": "Shadow Crossbow.png"
-    },
-    "item_repair": "1 [[Black Metal Bar]]",
-    "item_weight": 10
-  },
-  {
     "page_name": "Broken Titan's Wrath",
     "item_description": "The shattered remnant of the Black Knight Titan's sword.",
     "item_name": "Broken Titan's Wrath",
@@ -13081,5 +13403,309 @@
       "image_raw": "Black Crossbow Limbs.png"
     },
     "item_type": "Component"
+  },
+  {
+    "page_name": "Shadow Body",
+    "item_description": "Durable armour worn by the [[Children of Shadows]].",
+    "item_name": "Shadow Body",
+    "item_type": "Ranged Armour",
+    "page_name_sub": "Shadow Body",
+    "json": {
+      "type": "Ranged Armour",
+      "description": "Durable armour worn by the [[Children of Shadows]].",
+      "repaircost": "",
+      "image": "[[File:Shadow Body.png|32px]]",
+      "name": "Shadow Body",
+      "weight": "12.0",
+      "image_raw": "Shadow Body.png"
+    },
+    "item_repair": "",
+    "item_weight": 12
+  },
+  {
+    "page_name": "Shadow Chaps",
+    "item_description": "Pliable leg armour worn by the [[Children of Shadows]].",
+    "item_name": "Shadow Chaps",
+    "item_type": "Ranged Armour",
+    "page_name_sub": "Shadow Chaps",
+    "json": {
+      "type": "Ranged Armour",
+      "description": "Pliable leg armour worn by the [[Children of Shadows]].",
+      "repaircost": "",
+      "image": "[[File:Shadow Chaps.png|32px]]",
+      "name": "Shadow Chaps",
+      "weight": "12.0",
+      "image_raw": "Shadow Chaps.png"
+    },
+    "item_repair": "",
+    "item_weight": 12
+  },
+  {
+    "page_name": "Mithril Salvage Pile",
+    "item_description": "Scraps of mithril that can be smelted into more useful bars.",
+    "item_name": "Mithril Salvage Pile",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Scraps of mithril that can be smelted into more useful bars.",
+      "image": "[[File:Mithril Salvage Pile.png|32px]]",
+      "name": "Mithril Salvage Pile",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Mithril Salvage Pile.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Mithril Salvage Pile"
+  },
+  {
+    "page_name": "Steel Salvage Pile",
+    "item_description": ".Scraps that can be searched through. It's the steel of the century.",
+    "item_name": "Steel Salvage Pile",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": ".Scraps that can be searched through. It's the steel of the century.",
+      "image": "[[File:Steel Salvage Pile.png|32px]]",
+      "name": "Steel Salvage Pile",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Steel Salvage Pile.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Steel Salvage Pile"
+  },
+  {
+    "page_name": "Gold Salvage Pile",
+    "item_description": "Scraps that can be searched through. All that glitters may not be gold.",
+    "item_name": "Gold Salvage Pile",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Scraps that can be searched through. All that glitters may not be gold.",
+      "image": "[[File:Gold Salvage Pile.png|32px]]",
+      "name": "Gold Salvage Pile",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Gold Salvage Pile.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Gold Salvage Pile"
+  },
+  {
+    "page_name": "Silver Salvage Pile",
+    "item_description": "Scraps that can be searched through. Take a look inside.",
+    "item_name": "Silver Salvage Pile",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Scraps that can be searched through. Take a look inside.",
+      "image": "[[File:Silver Salvage Pile.png|32px]]",
+      "name": "Silver Salvage Pile",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Silver Salvage Pile.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Silver Salvage Pile"
+  },
+  {
+    "page_name": "Iron Salvage Pile",
+    "item_description": "Scraps that can be searched through. There might be something of value in there.",
+    "item_name": "Iron Salvage Pile",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Scraps that can be searched through. There might be something of value in there.",
+      "image": "[[File:Iron Salvage Pile.png|32px]]",
+      "name": "Iron Salvage Pile",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Iron Salvage Pile.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Iron Salvage Pile"
+  },
+  {
+    "page_name": "Bronze Salvage Pile",
+    "item_description": "Scraps that can be searched through. Seems like it's just a pile of bronze offcuts.",
+    "item_name": "Bronze Salvage Pile",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Scraps that can be searched through. Seems like it's just a pile of bronze offcuts.",
+      "image": "[[File:Bronze Salvage Pile.png|32px]]",
+      "name": "Bronze Salvage Pile",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Bronze Salvage Pile.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Bronze Salvage Pile"
+  },
+  {
+    "page_name": "Leather Salvage",
+    "item_description": "",
+    "item_name": "Leather Salvage",
+    "item_type": "Container",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Container",
+      "description": "",
+      "image": "[[File:Leather Salvage.png|32px]]",
+      "name": "Leather Salvage",
+      "weight": "",
+      "stacklimit": "",
+      "image_raw": "Leather Salvage.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Leather Salvage"
+  },
+  {
+    "page_name": "Textile Salvage",
+    "item_description": "",
+    "item_name": "Textile Salvage",
+    "item_type": "Container",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Container",
+      "description": "",
+      "image": "[[File:Textile Salvage.png|32px]]",
+      "name": "Textile Salvage",
+      "weight": "",
+      "stacklimit": "",
+      "image_raw": "Textile Salvage.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Textile Salvage"
+  },
+  {
+    "page_name": "Misc. Salvage",
+    "item_description": "",
+    "item_name": "Misc. Salvage",
+    "item_type": "Container",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Container",
+      "description": "",
+      "image": "[[File:Misc. Salvage.png|32px]]",
+      "name": "Misc. Salvage",
+      "weight": "",
+      "stacklimit": "",
+      "image_raw": "Misc. Salvage.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Misc. Salvage"
+  },
+  {
+    "page_name": "Plant Salvage",
+    "item_description": "",
+    "item_name": "Plant Salvage",
+    "item_type": "Container",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Container",
+      "description": "",
+      "image": "[[File:Plant Salvage.png|32px]]",
+      "name": "Plant Salvage",
+      "weight": "",
+      "stacklimit": "",
+      "image_raw": "Plant Salvage.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Plant Salvage"
+  },
+  {
+    "page_name": "Potion Salvage",
+    "item_description": "",
+    "item_name": "Potion Salvage",
+    "item_type": "Container",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Container",
+      "description": "",
+      "image": "[[File:Potion Salvage.png|32px]]",
+      "name": "Potion Salvage",
+      "weight": "",
+      "stacklimit": "",
+      "image_raw": "Potion Salvage.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Potion Salvage"
+  },
+  {
+    "page_name": "Food & Drink Salvage",
+    "item_description": "",
+    "item_name": "Food & Drink Salvage",
+    "item_type": "Container",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Container",
+      "description": "",
+      "image": "[[File:Food & Drink Salvage.png|32px]]",
+      "name": "Food & Drink Salvage",
+      "weight": "",
+      "stacklimit": "",
+      "image_raw": "Food & Drink Salvage.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Food & Drink Salvage"
+  },
+  {
+    "page_name": "Zamorak Robes",
+    "item_description": "Zamorak Robes",
+    "item_name": "Zamorak Robes",
+    "item_type": "Mage Armour",
+    "page_name_sub": "Zamorak Robes",
+    "json": {
+      "type": "Mage Armour",
+      "description": "Zamorak Robes",
+      "repaircost": "",
+      "image": "[[File:Zamorak Robes.png|32px]]",
+      "name": "Zamorak Robes",
+      "weight": "8.0",
+      "image_raw": "Zamorak Robes.png"
+    },
+    "item_repair": "",
+    "item_weight": 8
+  },
+  {
+    "page_name": "Zamorak Robe Legs",
+    "item_description": "Robe legs styled after the Zamorakian magi of Dowdun Reach.",
+    "item_name": "Zamorak Robe Legs",
+    "item_type": "Mage Armour",
+    "page_name_sub": "Zamorak Robe Legs",
+    "json": {
+      "type": "Mage Armour",
+      "description": "Robe legs styled after the Zamorakian magi of Dowdun Reach.",
+      "repaircost": "",
+      "image": "[[File:Zamorak Robe Legs.png|32px]]",
+      "name": "Zamorak Robe Legs",
+      "weight": "6.0",
+      "image_raw": "Zamorak Robe Legs.png"
+    },
+    "item_repair": "",
+    "item_weight": 6
+  },
+  {
+    "page_name": "Zamorak Cape",
+    "item_description": "A cape that proudly displays obeisance to the god Zamorak.",
+    "item_name": "Zamorak Cape",
+    "item_weight": 0,
+    "page_name_sub": "Zamorak Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "A cape that proudly displays obeisance to the god Zamorak.",
+      "image": "[[File:Zamorak Cape.png|32px]]",
+      "name": "Zamorak Cape",
+      "weight": "0.0",
+      "image_raw": "Zamorak Cape.png"
+    },
+    "item_type": "Basic Item"
   }
 ]
