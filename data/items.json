@@ -1680,6 +1680,24 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "9fe325f37534",
+        "name": "Iron Bar",
+        "image": "Iron Bar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7cb7312a9243",
+          "facility": "Furnace",
+          "materials": [
+            {
+              "itemId": "26ad5bdc47b1",
+              "quantity": 9
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -2482,6 +2500,24 @@
             }
           ],
           "quantity": 2
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "9dbf4a4d66e3",
+        "name": "Bronze Bar",
+        "image": "Bronze Bar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6c1728231446",
+          "facility": "Furnace",
+          "materials": [
+            {
+              "itemId": "83196cf57e5d",
+              "quantity": 9
+            }
+          ],
+          "quantity": 1
         },
         "usesRecipe": null
       }
@@ -3765,6 +3801,24 @@
             {
               "itemId": "5db7cc42a94b",
               "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "b6bdbf40aeaf",
+        "name": "Gold Bar",
+        "image": "Gold Bar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "911c45f7ef2b",
+          "facility": "Furnace",
+          "materials": [
+            {
+              "itemId": "0553fb7c58f5",
+              "quantity": 9
             }
           ],
           "quantity": 1
@@ -5787,6 +5841,24 @@
             {
               "itemId": "740bef9b70ab",
               "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "683326501df0",
+        "name": "Silver Bar",
+        "image": "Silver Bar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "de13ad8adc2c",
+          "facility": "Furnace",
+          "materials": [
+            {
+              "itemId": "b64dd5fc67c4",
+              "quantity": 9
             }
           ],
           "quantity": 1
@@ -21237,14 +21309,14 @@
     "weight": 0
   },
   {
-    "id": "f0b78a30f06b",
-    "name": "Attack Skillcape",
-    "image": "Attack Skillcape.png",
+    "id": "7c35c0ed04a1",
+    "name": "Attack Cape",
+    "image": "Attack Cape.png",
     "variants": [
       {
         "id": "45e4d3b93d38",
-        "name": "Attack Skillcape",
-        "image": "Attack Skillcape.png",
+        "name": "Attack Cape",
+        "image": "Attack Cape.png",
         "variantName": null,
         "recipe": {
           "id": "8a799c355230",
@@ -21255,12 +21327,41 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Crafting Table"
     ],
-    "wikiLink": "Attack_Skillcape",
+    "wikiLink": "Attack_Cape",
     "weight": 0
+  },
+  {
+    "id": "05bd7d59c981",
+    "name": "Attack Cape (Trimmed)",
+    "image": "Attack Cape (Trimmed).png",
+    "variants": [
+      {
+        "id": "58ff34f8459e",
+        "name": "Attack Cape (Trimmed)",
+        "image": "Attack Cape (Trimmed).png",
+        "variantName": "Trimmed",
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Attack_Cape_(Trimmed)"
   },
   {
     "id": "30bf1dbd00ca",
@@ -22220,6 +22321,28 @@
             {
               "itemId": "e47d442af339",
               "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7010096b4b1c",
+        "name": "Steel Bar",
+        "image": "Steel Bar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "096d63914b31",
+          "facility": "Blast Furnace",
+          "materials": [
+            {
+              "itemId": "4cc1d6e9f857",
+              "quantity": 3
+            },
+            {
+              "itemId": "00cf41f9e5bc",
+              "quantity": 9
             }
           ],
           "quantity": 1
@@ -28899,7 +29022,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Smithing Anvil"
     ],
@@ -28946,7 +29071,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Smithing Anvil"
     ],
@@ -30000,6 +30127,51 @@
     "weight": 6
   },
   {
+    "id": "2158a86830ba",
+    "name": "Shadow Cowl",
+    "image": "Shadow Cowl.png",
+    "variants": [
+      {
+        "id": "e3d4acb56468",
+        "name": "Shadow Cowl",
+        "image": "Shadow Cowl.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2b7ebc156a76",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e7d4a89b0dc",
+              "quantity": 4
+            },
+            {
+              "itemId": "f81c9d2ccbe3",
+              "quantity": 2
+            },
+            {
+              "itemId": "035b552de92e",
+              "quantity": 1
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Shadow_Cowl",
+    "weight": 6
+  },
+  {
     "id": "7d58fd40af21",
     "name": "Black Sword",
     "image": "Black Sword.png",
@@ -30326,24 +30498,19 @@
     "weight": 25
   },
   {
-    "id": "8f15c59256d8",
-    "name": "Artisan Skillcape",
-    "image": "Artisan Skillcape.png",
+    "id": "cd6dc90c22bf",
+    "name": "Artisan Cape",
+    "image": "Artisan Cape.png",
     "variants": [
       {
-        "id": "ee144557b65b",
-        "name": "Artisan Skillcape",
-        "image": "Artisan Skillcape.png",
+        "id": "45e4d3b93d38",
+        "name": "Artisan Cape",
+        "image": "Artisan Cape.png",
         "variantName": null,
         "recipe": {
-          "id": "217605353fee",
+          "id": "8a799c355230",
           "facility": "Crafting Table",
-          "materials": [
-            {
-              "itemId": "e2f79e5b6033",
-              "quantity": 1
-            }
-          ],
+          "materials": [],
           "quantity": 1
         },
         "usesRecipe": null
@@ -30355,231 +30522,420 @@
     "facilities": [
       "Crafting Table"
     ],
-    "wikiLink": "Artisan_Skillcape"
+    "wikiLink": "Artisan_Cape",
+    "weight": 0
   },
   {
-    "id": "cadd66cbe4be",
-    "name": "Construction Skillcape",
-    "image": "Construction Skillcape.png",
+    "id": "0bd84539e430",
+    "name": "Artisan Cape (Trimmed)",
+    "image": "Artisan Cape (Trimmed).png",
     "variants": [
       {
-        "id": "ee144557b65b",
-        "name": "Construction Skillcape",
-        "image": "Construction Skillcape.png",
-        "variantName": null,
+        "id": "58ff34f8459e",
+        "name": "Artisan Cape (Trimmed)",
+        "image": "Artisan Cape (Trimmed).png",
+        "variantName": "Trimmed",
         "recipe": {
-          "id": "217605353fee",
+          "id": "8a799c355230",
           "facility": "Crafting Table",
-          "materials": [
-            {
-              "itemId": "e2f79e5b6033",
-              "quantity": 1
-            }
-          ],
+          "materials": [],
           "quantity": 1
         },
         "usesRecipe": null
       }
     ],
     "skills": [
-      "Construction"
+      "Artisan"
     ],
     "facilities": [
       "Crafting Table"
     ],
-    "wikiLink": "Construction_Skillcape"
+    "wikiLink": "Artisan_Cape_(Trimmed)"
   },
   {
-    "id": "bf6b8bdeb6f1",
-    "name": "Cooking Skillcape",
-    "image": "Cooking Skillcape.png",
+    "id": "7bce9af676a9",
+    "name": "Construction Cape",
+    "image": "Construction Cape.png",
     "variants": [
       {
-        "id": "ee144557b65b",
-        "name": "Cooking Skillcape",
-        "image": "Cooking Skillcape.png",
+        "id": "45e4d3b93d38",
+        "name": "Construction Cape",
+        "image": "Construction Cape.png",
         "variantName": null,
         "recipe": {
-          "id": "217605353fee",
+          "id": "8a799c355230",
           "facility": "Crafting Table",
-          "materials": [
-            {
-              "itemId": "e2f79e5b6033",
-              "quantity": 1
-            }
-          ],
+          "materials": [],
           "quantity": 1
         },
         "usesRecipe": null
       }
     ],
     "skills": [
-      "Cooking"
+      "Artisan"
     ],
     "facilities": [
       "Crafting Table"
     ],
-    "wikiLink": "Cooking_Skillcape"
+    "wikiLink": "Construction_Cape",
+    "weight": 0
   },
   {
-    "id": "9c92d684f292",
-    "name": "Farming Skillcape",
-    "image": "Farming Skillcape.png",
+    "id": "714e694efd08",
+    "name": "Construction Cape (Trimmed)",
+    "image": "Construction Cape (Trimmed).png",
     "variants": [
       {
-        "id": "ee144557b65b",
-        "name": "Farming Skillcape",
-        "image": "Farming Skillcape.png",
-        "variantName": null,
+        "id": "58ff34f8459e",
+        "name": "Construction Cape (Trimmed)",
+        "image": "Construction Cape (Trimmed).png",
+        "variantName": "Trimmed",
         "recipe": {
-          "id": "217605353fee",
+          "id": "8a799c355230",
           "facility": "Crafting Table",
-          "materials": [
-            {
-              "itemId": "e2f79e5b6033",
-              "quantity": 1
-            }
-          ],
+          "materials": [],
           "quantity": 1
         },
         "usesRecipe": null
       }
     ],
     "skills": [
-      "Farming"
+      "Artisan"
     ],
     "facilities": [
       "Crafting Table"
     ],
-    "wikiLink": "Farming_Skillcape"
+    "wikiLink": "Construction_Cape_(Trimmed)"
   },
   {
-    "id": "405c69343925",
-    "name": "Magic Skillcape",
-    "image": "Magic Skillcape.png",
+    "id": "847d7776bd86",
+    "name": "Cooking Cape",
+    "image": "Cooking Cape.png",
     "variants": [
       {
-        "id": "ee144557b65b",
-        "name": "Magic Skillcape",
-        "image": "Magic Skillcape.png",
+        "id": "45e4d3b93d38",
+        "name": "Cooking Cape",
+        "image": "Cooking Cape.png",
         "variantName": null,
         "recipe": {
-          "id": "217605353fee",
+          "id": "8a799c355230",
           "facility": "Crafting Table",
-          "materials": [
-            {
-              "itemId": "e2f79e5b6033",
-              "quantity": 1
-            }
-          ],
+          "materials": [],
           "quantity": 1
         },
         "usesRecipe": null
       }
     ],
     "skills": [
-      "Magic"
+      "Artisan"
     ],
     "facilities": [
       "Crafting Table"
     ],
-    "wikiLink": "Magic_Skillcape"
+    "wikiLink": "Cooking_Cape",
+    "weight": 0
   },
   {
-    "id": "488028e664d5",
-    "name": "Ranged Skillcape",
-    "image": "Ranged Skillcape.png",
+    "id": "939b67f22806",
+    "name": "Cooking Cape (Trimmed)",
+    "image": "Cooking Cape (Trimmed).png",
     "variants": [
       {
-        "id": "ee144557b65b",
-        "name": "Ranged Skillcape",
-        "image": "Ranged Skillcape.png",
-        "variantName": null,
+        "id": "58ff34f8459e",
+        "name": "Cooking Cape (Trimmed)",
+        "image": "Cooking Cape (Trimmed).png",
+        "variantName": "Trimmed",
         "recipe": {
-          "id": "217605353fee",
+          "id": "8a799c355230",
           "facility": "Crafting Table",
-          "materials": [
-            {
-              "itemId": "e2f79e5b6033",
-              "quantity": 1
-            }
-          ],
+          "materials": [],
           "quantity": 1
         },
         "usesRecipe": null
       }
     ],
     "skills": [
-      "Ranged"
+      "Artisan"
     ],
     "facilities": [
       "Crafting Table"
     ],
-    "wikiLink": "Ranged_Skillcape"
+    "wikiLink": "Cooking_Cape_(Trimmed)"
   },
   {
-    "id": "37f4c1213e75",
-    "name": "Runecrafting Skillcape",
-    "image": "Runecrafting Skillcape.png",
+    "id": "c1e93414014f",
+    "name": "Farming Cape",
+    "image": "Farming Cape.png",
     "variants": [
       {
-        "id": "ee144557b65b",
-        "name": "Runecrafting Skillcape",
-        "image": "Runecrafting Skillcape.png",
+        "id": "45e4d3b93d38",
+        "name": "Farming Cape",
+        "image": "Farming Cape.png",
         "variantName": null,
         "recipe": {
-          "id": "217605353fee",
+          "id": "8a799c355230",
           "facility": "Crafting Table",
-          "materials": [
-            {
-              "itemId": "e2f79e5b6033",
-              "quantity": 1
-            }
-          ],
+          "materials": [],
           "quantity": 1
         },
         "usesRecipe": null
       }
     ],
     "skills": [
-      "Runecrafting"
+      "Artisan"
     ],
     "facilities": [
       "Crafting Table"
     ],
-    "wikiLink": "Runecrafting_Skillcape"
+    "wikiLink": "Farming_Cape",
+    "weight": 0
   },
   {
-    "id": "ce939103e9c8",
-    "name": "Woodcutting Skillcape",
-    "image": "Woodcutting Skillcape.png",
+    "id": "e69c67b9ba55",
+    "name": "Farming Cape (Trimmed)",
+    "image": "Farming Cape (Trimmed).png",
     "variants": [
       {
-        "id": "ee144557b65b",
-        "name": "Woodcutting Skillcape",
-        "image": "Woodcutting Skillcape.png",
-        "variantName": null,
+        "id": "58ff34f8459e",
+        "name": "Farming Cape (Trimmed)",
+        "image": "Farming Cape (Trimmed).png",
+        "variantName": "Trimmed",
         "recipe": {
-          "id": "217605353fee",
+          "id": "8a799c355230",
           "facility": "Crafting Table",
-          "materials": [
-            {
-              "itemId": "e2f79e5b6033",
-              "quantity": 1
-            }
-          ],
+          "materials": [],
           "quantity": 1
         },
         "usesRecipe": null
       }
     ],
     "skills": [
-      "Woodcutting"
+      "Artisan"
     ],
     "facilities": [
       "Crafting Table"
     ],
-    "wikiLink": "Woodcutting_Skillcape"
+    "wikiLink": "Farming_Cape_(Trimmed)"
+  },
+  {
+    "id": "db8aec4c0732",
+    "name": "Magic Cape",
+    "image": "Magic Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Magic Cape",
+        "image": "Magic Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Magic_Cape",
+    "weight": 0
+  },
+  {
+    "id": "659a07b1438a",
+    "name": "Magic Cape (Trimmed)",
+    "image": "Magic Cape (Trimmed).png",
+    "variants": [
+      {
+        "id": "58ff34f8459e",
+        "name": "Magic Cape (Trimmed)",
+        "image": "Magic Cape (Trimmed).png",
+        "variantName": "Trimmed",
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Magic_Cape_(Trimmed)"
+  },
+  {
+    "id": "02a3bd7ead0b",
+    "name": "Ranged Cape",
+    "image": "Ranged Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Ranged Cape",
+        "image": "Ranged Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Ranged_Cape",
+    "weight": 0
+  },
+  {
+    "id": "2d5fe1ab5c70",
+    "name": "Ranged Cape (Trimmed)",
+    "image": "Ranged Cape (Trimmed).png",
+    "variants": [
+      {
+        "id": "58ff34f8459e",
+        "name": "Ranged Cape (Trimmed)",
+        "image": "Ranged Cape (Trimmed).png",
+        "variantName": "Trimmed",
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Ranged_Cape_(Trimmed)"
+  },
+  {
+    "id": "de105227f807",
+    "name": "Runecrafting Cape",
+    "image": "Runecrafting Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Runecrafting Cape",
+        "image": "Runecrafting Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Runecrafting_Cape",
+    "weight": 0
+  },
+  {
+    "id": "046b7377c560",
+    "name": "Runecrafting Cape (Trimmed)",
+    "image": "Runecrafting Cape (Trimmed).png",
+    "variants": [
+      {
+        "id": "58ff34f8459e",
+        "name": "Runecrafting Cape (Trimmed)",
+        "image": "Runecrafting Cape (Trimmed).png",
+        "variantName": "Trimmed",
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Runecrafting_Cape_(Trimmed)"
+  },
+  {
+    "id": "48a7e777b1d6",
+    "name": "Woodcutting Cape",
+    "image": "Woodcutting Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Woodcutting Cape",
+        "image": "Woodcutting Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Woodcutting_Cape",
+    "weight": 0
+  },
+  {
+    "id": "e76b1c55a075",
+    "name": "Woodcutting Cape (Trimmed)",
+    "image": "Woodcutting Cape (Trimmed).png",
+    "variants": [
+      {
+        "id": "58ff34f8459e",
+        "name": "Woodcutting Cape (Trimmed)",
+        "image": "Woodcutting Cape (Trimmed).png",
+        "variantName": "Trimmed",
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Woodcutting_Cape_(Trimmed)"
   },
   {
     "id": "819f4bce1412",
@@ -30745,6 +31101,106 @@
     ],
     "wikiLink": "Titan's_Wrath",
     "weight": 25
+  },
+  {
+    "id": "7e6a29136bee",
+    "name": "Zamorak Hood",
+    "image": "Zamorak Hood.png",
+    "variants": [
+      {
+        "id": "efebc393c754",
+        "name": "Zamorak Hood",
+        "image": "Zamorak Hood.png",
+        "variantName": null,
+        "recipe": {
+          "id": "91001c4a18b3",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e7d4a89b0dc",
+              "quantity": 2
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 1
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 12
+            },
+            {
+              "itemId": "430052f1d705",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Zamorak_Hood",
+    "weight": 4
+  },
+  {
+    "id": "06afcce9dad8",
+    "name": "Mining Cape",
+    "image": "Mining Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Mining Cape",
+        "image": "Mining Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Mining_Cape",
+    "weight": 0
+  },
+  {
+    "id": "b5e9c67ffba2",
+    "name": "Mining Cape (Trimmed)",
+    "image": "Mining Cape (Trimmed).png",
+    "variants": [
+      {
+        "id": "58ff34f8459e",
+        "name": "Mining Cape (Trimmed)",
+        "image": "Mining Cape (Trimmed).png",
+        "variantName": "Trimmed",
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Mining_Cape_(Trimmed)"
   },
   {
     "id": "4a8a6c2f4847",
@@ -30925,8 +31381,7 @@
     "facilities": [
       "Fletching Bench"
     ],
-    "wikiLink": "Shadow_Crossbow",
-    "weight": 10
+    "wikiLink": "Shadow_Crossbow"
   },
   {
     "id": "037107e73c04",
@@ -30960,6 +31415,214 @@
     ],
     "wikiLink": "Black_Crossbow_Limbs",
     "weight": 4.5
+  },
+  {
+    "id": "b10f45214190",
+    "name": "Shadow Body",
+    "image": "Shadow Body.png",
+    "variants": [
+      {
+        "id": "ba8e00acb085",
+        "name": "Shadow Body",
+        "image": "Shadow Body.png",
+        "variantName": null,
+        "recipe": {
+          "id": "79ada8b75825",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e7d4a89b0dc",
+              "quantity": 4
+            },
+            {
+              "itemId": "f81c9d2ccbe3",
+              "quantity": 4
+            },
+            {
+              "itemId": "035b552de92e",
+              "quantity": 12
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Shadow_Body",
+    "weight": 12
+  },
+  {
+    "id": "27ed5063a161",
+    "name": "Shadow Chaps",
+    "image": "Shadow Chaps.png",
+    "variants": [
+      {
+        "id": "8d1667cf5087",
+        "name": "Shadow Chaps",
+        "image": "Shadow Chaps.png",
+        "variantName": null,
+        "recipe": {
+          "id": "eae1b4f7e3be",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e7d4a89b0dc",
+              "quantity": 8
+            },
+            {
+              "itemId": "f81c9d2ccbe3",
+              "quantity": 4
+            },
+            {
+              "itemId": "035b552de92e",
+              "quantity": 4
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Shadow_Chaps",
+    "weight": 12
+  },
+  {
+    "id": "35085839b4ba",
+    "name": "Zamorak Robes",
+    "image": "Zamorak Robes.png",
+    "variants": [
+      {
+        "id": "85510bf03ea6",
+        "name": "Zamorak Robes",
+        "image": "Zamorak Robes.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d3d143caa1fa",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e7d4a89b0dc",
+              "quantity": 6
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 3
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 32
+            },
+            {
+              "itemId": "430052f1d705",
+              "quantity": 8
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Zamorak_Robes",
+    "weight": 8
+  },
+  {
+    "id": "c3c072d13afb",
+    "name": "Zamorak Robe Legs",
+    "image": "Zamorak Robe Legs.png",
+    "variants": [
+      {
+        "id": "26323731ec6a",
+        "name": "Zamorak Robe Legs",
+        "image": "Zamorak Robe Legs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1b269e5a7a3a",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e7d4a89b0dc",
+              "quantity": 4
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 2
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 24
+            },
+            {
+              "itemId": "430052f1d705",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Zamorak_Robe_Legs",
+    "weight": 6
+  },
+  {
+    "id": "0a7f9e4807c3",
+    "name": "Zamorak Cape",
+    "image": "Zamorak Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Zamorak Cape",
+        "image": "Zamorak Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Zamorak_Cape",
+    "weight": 0
   },
   {
     "id": "6a5fa59fd28f",
@@ -36851,5 +37514,245 @@
     "wikiLink": "Broken_Titan's_Wrath",
     "weight": 0,
     "stackLimit": 99
+  },
+  {
+    "id": "054cdbd54379",
+    "name": "Mithril Salvage Pile",
+    "image": "Mithril Salvage Pile.png",
+    "variants": [
+      {
+        "id": "054cdbd54379",
+        "name": "Mithril Salvage Pile",
+        "image": "Mithril Salvage Pile.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Mithril_Salvage_Pile",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "00cf41f9e5bc",
+    "name": "Steel Salvage Pile",
+    "image": "Steel Salvage Pile.png",
+    "variants": [
+      {
+        "id": "00cf41f9e5bc",
+        "name": "Steel Salvage Pile",
+        "image": "Steel Salvage Pile.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Steel_Salvage_Pile",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "0553fb7c58f5",
+    "name": "Gold Salvage Pile",
+    "image": "Gold Salvage Pile.png",
+    "variants": [
+      {
+        "id": "0553fb7c58f5",
+        "name": "Gold Salvage Pile",
+        "image": "Gold Salvage Pile.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Gold_Salvage_Pile",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "b64dd5fc67c4",
+    "name": "Silver Salvage Pile",
+    "image": "Silver Salvage Pile.png",
+    "variants": [
+      {
+        "id": "b64dd5fc67c4",
+        "name": "Silver Salvage Pile",
+        "image": "Silver Salvage Pile.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Silver_Salvage_Pile",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "26ad5bdc47b1",
+    "name": "Iron Salvage Pile",
+    "image": "Iron Salvage Pile.png",
+    "variants": [
+      {
+        "id": "26ad5bdc47b1",
+        "name": "Iron Salvage Pile",
+        "image": "Iron Salvage Pile.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Iron_Salvage_Pile",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "83196cf57e5d",
+    "name": "Bronze Salvage Pile",
+    "image": "Bronze Salvage Pile.png",
+    "variants": [
+      {
+        "id": "83196cf57e5d",
+        "name": "Bronze Salvage Pile",
+        "image": "Bronze Salvage Pile.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Bronze_Salvage_Pile",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "dbb7af66c748",
+    "name": "Leather Salvage",
+    "image": "Leather Salvage.png",
+    "variants": [
+      {
+        "id": "dbb7af66c748",
+        "name": "Leather Salvage",
+        "image": "Leather Salvage.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Leather_Salvage",
+    "weight": 0,
+    "stackLimit": 0
+  },
+  {
+    "id": "f12c693141ce",
+    "name": "Textile Salvage",
+    "image": "Textile Salvage.png",
+    "variants": [
+      {
+        "id": "f12c693141ce",
+        "name": "Textile Salvage",
+        "image": "Textile Salvage.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Textile_Salvage",
+    "weight": 0,
+    "stackLimit": 0
+  },
+  {
+    "id": "e24a75f2aa42",
+    "name": "Misc. Salvage",
+    "image": "Misc. Salvage.png",
+    "variants": [
+      {
+        "id": "e24a75f2aa42",
+        "name": "Misc. Salvage",
+        "image": "Misc. Salvage.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Misc._Salvage",
+    "weight": 0,
+    "stackLimit": 0
+  },
+  {
+    "id": "9270c44d0b1e",
+    "name": "Plant Salvage",
+    "image": "Plant Salvage.png",
+    "variants": [
+      {
+        "id": "9270c44d0b1e",
+        "name": "Plant Salvage",
+        "image": "Plant Salvage.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Plant_Salvage",
+    "weight": 0,
+    "stackLimit": 0
+  },
+  {
+    "id": "1fb12f9c3836",
+    "name": "Potion Salvage",
+    "image": "Potion Salvage.png",
+    "variants": [
+      {
+        "id": "1fb12f9c3836",
+        "name": "Potion Salvage",
+        "image": "Potion Salvage.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Potion_Salvage",
+    "weight": 0,
+    "stackLimit": 0
+  },
+  {
+    "id": "c856120924d3",
+    "name": "Food & Drink Salvage",
+    "image": "Food & Drink Salvage.png",
+    "variants": [
+      {
+        "id": "c856120924d3",
+        "name": "Food & Drink Salvage",
+        "image": "Food & Drink Salvage.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Food_&_Drink_Salvage",
+    "weight": 0,
+    "stackLimit": 0
   }
 ]
