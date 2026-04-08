@@ -635,7 +635,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -675,7 +677,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -715,7 +719,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -797,7 +803,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -837,7 +845,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -877,7 +887,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -2713,7 +2725,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -2753,7 +2767,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -3688,7 +3704,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -3728,7 +3746,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -6735,7 +6755,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -6775,7 +6797,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -18312,7 +18336,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -24050,7 +24076,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -26818,7 +26846,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -26858,7 +26888,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -26898,7 +26930,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -26938,7 +26972,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -26978,7 +27014,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -27018,7 +27056,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -27058,7 +27098,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -28261,7 +28303,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Brewing Cauldron"
     ],
@@ -31623,6 +31667,638 @@
     ],
     "wikiLink": "Zamorak_Cape",
     "weight": 0
+  },
+  {
+    "id": "f4502fe25126",
+    "name": "Weak Focused Farming Potion",
+    "image": "Weak Focused Farming Potion.png",
+    "variants": [
+      {
+        "id": "a9d1bc294b10",
+        "name": "Weak Focused Farming Potion",
+        "image": "Weak Focused Farming Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a3a45a0973ab",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "7922581c320e",
+              "quantity": 1
+            },
+            {
+              "itemId": "f1055ea322bd",
+              "quantity": 1
+            },
+            {
+              "itemId": "8943b3cc1281",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Weak_Focused_Farming_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "2e9d1dc2e29e",
+    "name": "Lesser Focused Farming Potion",
+    "image": "Lesser Focused Farming Potion.png",
+    "variants": [
+      {
+        "id": "29771a0fbea1",
+        "name": "Lesser Focused Farming Potion",
+        "image": "Lesser Focused Farming Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4e27b4aca796",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "7922581c320e",
+              "quantity": 1
+            },
+            {
+              "itemId": "e46d49c9e677",
+              "quantity": 1
+            },
+            {
+              "itemId": "cca303e99f5f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Lesser_Focused_Farming_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "03d220fd86ac",
+    "name": "Antipoison Potion",
+    "image": "Antipoison Potion.png",
+    "variants": [
+      {
+        "id": "cf7cfa566a28",
+        "name": "Antipoison Potion",
+        "image": "Antipoison Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e100e8665238",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            },
+            {
+              "itemId": "10ecde1c3143",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Antipoison_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "490f71a93a93",
+    "name": "Focused Artisan Potion",
+    "image": "Focused Artisan Potion.png",
+    "variants": [
+      {
+        "id": "04ae38e6b8ce",
+        "name": "Focused Artisan Potion",
+        "image": "Focused Artisan Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6a54edb43911",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            },
+            {
+              "itemId": "b5427eb4672e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Focused_Artisan_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "a968c990200d",
+    "name": "Lesser Antipoison Potion",
+    "image": "Lesser Antipoison Potion.png",
+    "variants": [
+      {
+        "id": "fabab7e9815b",
+        "name": "Lesser Antipoison Potion",
+        "image": "Lesser Antipoison Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a4b9c6aafda8",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "7922581c320e",
+              "quantity": 1
+            },
+            {
+              "itemId": "7687e4b2af61",
+              "quantity": 1
+            },
+            {
+              "itemId": "aac9c06cd7a8",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Lesser_Antipoison_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "6d357e577542",
+    "name": "Focused Attack Potion",
+    "image": "Focused Attack Potion.png",
+    "variants": [
+      {
+        "id": "b93d1fc9b9ba",
+        "name": "Focused Attack Potion",
+        "image": "Focused Attack Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c2a17fe76ca0",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            },
+            {
+              "itemId": "d32c9990fd10",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Focused_Attack_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "d64f5b96e066",
+    "name": "Focused Construction Potion",
+    "image": "Focused Construction Potion.png",
+    "variants": [
+      {
+        "id": "7450a10249db",
+        "name": "Focused Construction Potion",
+        "image": "Focused Construction Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "47030d33c240",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "464881ef1d16",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Focused_Construction_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "21f646c8b6e3",
+    "name": "Focused Cooking Potion",
+    "image": "Focused Cooking Potion.png",
+    "variants": [
+      {
+        "id": "6be4ccdbdf5f",
+        "name": "Focused Cooking Potion",
+        "image": "Focused Cooking Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ba328726eeff",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "d37db9788605",
+              "quantity": 1
+            },
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Focused_Cooking_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "bdc2e4232ad6",
+    "name": "Focused Mining Potion",
+    "image": "Focused Mining Potion.png",
+    "variants": [
+      {
+        "id": "e18831a12f6a",
+        "name": "Focused Mining Potion",
+        "image": "Focused Mining Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c20aac672392",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "9fcd40f856e6",
+              "quantity": 1
+            },
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Focused_Mining_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "74ac9c8345a2",
+    "name": "Focused Runecrafting Potion",
+    "image": "Focused Runecrafting Potion.png",
+    "variants": [
+      {
+        "id": "f4283f037e93",
+        "name": "Focused Runecrafting Potion",
+        "image": "Focused Runecrafting Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b7e104a9defd",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "7ddc50d536fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Focused_Runecrafting_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "e7a8ef651583",
+    "name": "Focused Woodcutting Potion",
+    "image": "Focused Woodcutting Potion.png",
+    "variants": [
+      {
+        "id": "fb7d267cde73",
+        "name": "Focused Woodcutting Potion",
+        "image": "Focused Woodcutting Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2744f2c91da8",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            },
+            {
+              "itemId": "711fc213e603",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Focused_Woodcutting_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "e05b4305f9e5",
+    "name": "Focused Farming Potion",
+    "image": "Focused Farming Potion.png",
+    "variants": [
+      {
+        "id": "621baa2445fe",
+        "name": "Focused Farming Potion",
+        "image": "Focused Farming Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "94780a7c928d",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            },
+            {
+              "itemId": "2c00a98cf611",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Focused_Farming_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "f6febb93f1d0",
+    "name": "Lumberjack Potion",
+    "image": "Lumberjack Potion.png",
+    "variants": [
+      {
+        "id": "2ceee9699bba",
+        "name": "Lumberjack Potion",
+        "image": "Lumberjack Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "21cb3a8fac56",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "406c61105dff",
+              "quantity": 1
+            },
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Lumberjack_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "754526adb448",
+    "name": "Quarrymaster Potion",
+    "image": "Quarrymaster Potion.png",
+    "variants": [
+      {
+        "id": "35f6105c2572",
+        "name": "Quarrymaster Potion",
+        "image": "Quarrymaster Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ed85ff69c324",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "629a4abf66fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "24aad49251cb",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Quarrymaster_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "d7bdf3c566d7",
+    "name": "Black Shield",
+    "image": "Black Shield.png",
+    "variants": [
+      {
+        "id": "5c64ccc948e8",
+        "name": "Black Shield",
+        "image": "Black Shield.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f52095380d42",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "3e7d4a89b0dc",
+              "quantity": 10
+            },
+            {
+              "itemId": "035b552de92e",
+              "quantity": 4
+            },
+            {
+              "itemId": "2ac1ed51351d",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Battle-Scarred Black Metal"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Black_Shield",
+    "weight": 10,
+    "stackLimit": 0
   },
   {
     "id": "6a5fa59fd28f",
