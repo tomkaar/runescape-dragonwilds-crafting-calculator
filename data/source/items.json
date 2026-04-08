@@ -430,19 +430,20 @@
   },
   {
     "page_name": "Weak Focused Cooking Potion",
-    "item_description": "PERK: Focused Cooking<br><br>Grants an XP BOOST for the COOKING Skill",
+    "item_description": "PERK: Focused Cooking<br><br>Grants a 15% XP BOOST for the COOKING Skill",
     "item_name": "Weak Focused Cooking Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Cooking<br><br>Grants an XP BOOST for the COOKING Skill",
+      "description": "PERK: Focused Cooking<br><br>Grants a 15% XP BOOST for the COOKING Skill",
+      "duration": "300 seconds",
       "image": "[[File:Weak Focused Cooking Potion.png|32px]]",
       "name": "Weak Focused Cooking Potion",
       "weight": "1.0",
       "perk": {
         "name": "Focused Cooking",
-        "effect": "Grants an XP BOOST for the COOKING Skill"
+        "effect": "Grants a 15% XP BOOST for the COOKING Skill"
       },
       "stacklimit": "50",
       "image_raw": "Weak Focused Cooking Potion.png"
@@ -452,19 +453,20 @@
   },
   {
     "page_name": "Weak Focused Artisan Potion",
-    "item_description": "PERK: Focused Artisan<br><br>Grants an XP BOOST for the ARTISAN Skill",
+    "item_description": "PERK: Focused Artisan<br><br>Grants a 15% XP BOOST for the ARTISAN Skill",
     "item_name": "Weak Focused Artisan Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Artisan<br><br>Grants an XP BOOST for the ARTISAN Skill",
+      "description": "PERK: Focused Artisan<br><br>Grants a 15% XP BOOST for the ARTISAN Skill",
+      "duration": "300 seconds",
       "image": "[[File:Weak Focused Artisan Potion.png|32px]]",
       "name": "Weak Focused Artisan Potion",
       "weight": "1.0",
       "perk": {
         "name": "Focused Artisan",
-        "effect": "Grants an XP BOOST for the ARTISAN Skill"
+        "effect": "Grants a 15% XP BOOST for the ARTISAN Skill"
       },
       "stacklimit": "50",
       "image_raw": "Weak Focused Artisan Potion.png"
@@ -474,19 +476,20 @@
   },
   {
     "page_name": "Weak Focused Woodcutting Potion",
-    "item_description": "PERK: Focused Woodcutting<br><br>Grants an XP BOOST for the WOODCUTTING Skill",
+    "item_description": "PERK: Focused Woodcutting<br><br>Grants a 15% XP BOOST for the WOODCUTTING Skill",
     "item_name": "Weak Focused Woodcutting Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Woodcutting<br><br>Grants an XP BOOST for the WOODCUTTING Skill",
+      "description": "PERK: Focused Woodcutting<br><br>Grants a 15% XP BOOST for the WOODCUTTING Skill",
+      "duration": "300 seconds",
       "image": "[[File:Weak Focused Woodcutting Potion.png|32px]]",
       "name": "Weak Focused Woodcutting Potion",
       "weight": "1.0",
       "perk": {
         "name": "Focused Woodcutting",
-        "effect": "Grants an XP BOOST for the WOODCUTTING Skill"
+        "effect": "Grants a 15% XP BOOST for the WOODCUTTING Skill"
       },
       "stacklimit": "50",
       "image_raw": "Weak Focused Woodcutting Potion.png"
@@ -503,6 +506,7 @@
     "json": {
       "type": "Potion",
       "description": "PERK: Antipoison<br><br>Negates and grants RESISTANCE to POISON effects",
+      "duration": "300 seconds",
       "image": "[[File:Weak Antipoison Potion.png|32px]]",
       "name": "Weak Antipoison Potion",
       "weight": "1.0",
@@ -520,10 +524,10 @@
     "page_name": "Weak Healing Potion",
     "item_description": "A potion that restores a small amount of health.",
     "item_name": "Weak Healing Potion",
-    "item_type": "Resource",
+    "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
-      "type": "Resource",
+      "type": "Potion",
       "description": "A potion that restores a small amount of health.",
       "image": "[[File:Weak Healing Potion.png|32px]]",
       "name": "Weak Healing Potion",
@@ -536,19 +540,20 @@
   },
   {
     "page_name": "Weak Lumberjack Potion",
-    "item_description": "PERK: Lumberjack<br><br>REDUCES the STAMINA cost of WOODCUTTING",
+    "item_description": "PERK: Lumberjack<br><br>REDUCES the STAMINA cost of WOODCUTTING by 33%",
     "item_name": "Weak Lumberjack Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Lumberjack<br><br>REDUCES the STAMINA cost of WOODCUTTING",
+      "description": "PERK: Lumberjack<br><br>REDUCES the STAMINA cost of WOODCUTTING by 33%",
+      "duration": "300 seconds",
       "image": "[[File:Weak Lumberjack Potion.png|32px]]",
       "name": "Weak Lumberjack Potion",
       "weight": "1.0",
       "perk": {
         "name": "Lumberjack",
-        "effect": "REDUCES the STAMINA cost of WOODCUTTING"
+        "effect": "REDUCES the STAMINA cost of WOODCUTTING by 33%"
       },
       "stacklimit": "50",
       "image_raw": "Weak Lumberjack Potion.png"
@@ -558,19 +563,20 @@
   },
   {
     "page_name": "Weak Quarrymaster Potion",
-    "item_description": "PERK: Quarrymaster<br><br>REDUCES the STAMINA cost of MINING",
+    "item_description": "PERK: Quarrymaster<br><br>REDUCES the STAMINA cost of Mining by 33%",
     "item_name": "Weak Quarrymaster Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Quarrymaster<br><br>REDUCES the STAMINA cost of MINING",
+      "description": "PERK: Quarrymaster<br><br>REDUCES the STAMINA cost of Mining by 33%",
+      "duration": "300 seconds",
       "image": "[[File:Weak Quarrymaster Potion.png|32px]]",
       "name": "Weak Quarrymaster Potion",
       "weight": "1.0",
       "perk": {
         "name": "Quarrymaster",
-        "effect": "REDUCES the STAMINA cost of MINING"
+        "effect": "REDUCES the STAMINA cost of Mining by 33%"
       },
       "stacklimit": "50",
       "image_raw": "Weak Quarrymaster Potion.png"
@@ -1394,19 +1400,20 @@
   },
   {
     "page_name": "Weak Focused Runecrafting Potion",
-    "item_description": "PERK: Focused Runecrafting<br><br>Grants an XP BOOST for the RUNECRAFTING Skill",
+    "item_description": "PERK: Focused Runecrafting<br><br>Grants a 15% XP BOOST for the RUNECRAFTING Skill",
     "item_name": "Weak Focused Runecrafting Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Runecrafting<br><br>Grants an XP BOOST for the RUNECRAFTING Skill",
+      "description": "PERK: Focused Runecrafting<br><br>Grants a 15% XP BOOST for the RUNECRAFTING Skill",
+      "duration": "300 seconds",
       "image": "[[File:Weak Focused Runecrafting Potion.png|32px]]",
       "name": "Weak Focused Runecrafting Potion",
       "weight": "1.0",
       "perk": {
         "name": "Focused Runecrafting",
-        "effect": "Grants an XP BOOST for the RUNECRAFTING Skill"
+        "effect": "Grants a 15% XP BOOST for the RUNECRAFTING Skill"
       },
       "stacklimit": "50",
       "image_raw": "Weak Focused Runecrafting Potion.png"
@@ -1416,19 +1423,20 @@
   },
   {
     "page_name": "Weak Focused Construction Potion",
-    "item_description": "PERK: Focused Construction<br><br>Grants an XP BOOST for the CONSTRUCTION Skill",
+    "item_description": "PERK: Focused Construction<br><br>Grants a 15% XP BOOST for the CONSTRUCTION Skill",
     "item_name": "Weak Focused Construction Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Construction<br><br>Grants an XP BOOST for the CONSTRUCTION Skill",
+      "description": "PERK: Focused Construction<br><br>Grants a 15% XP BOOST for the CONSTRUCTION Skill",
+      "duration": "300 seconds",
       "image": "[[File:Weak Focused Construction Potion.png|32px]]",
       "name": "Weak Focused Construction Potion",
       "weight": "1.0",
       "perk": {
         "name": "Focused Construction",
-        "effect": "Grants an XP BOOST for the CONSTRUCTION Skill"
+        "effect": "Grants a 15% XP BOOST for the CONSTRUCTION Skill"
       },
       "stacklimit": "50",
       "image_raw": "Weak Focused Construction Potion.png"
@@ -1897,6 +1905,7 @@
     "json": {
       "type": "Potion",
       "description": "PERK: Focused Strikes<br><br>INCREASED chance of landing CRITICAL HITS with MELEE ATTACKS",
+      "duration": "600 seconds",
       "image": "[[File:Lesser Attack Potion.png|32px]]",
       "name": "Lesser Attack Potion",
       "weight": "1.0",
@@ -1914,10 +1923,10 @@
     "page_name": "Lesser Healing Potion",
     "item_description": "A potion that restores a moderate amount of health.",
     "item_name": "Lesser Healing Potion",
-    "item_type": "Resource",
+    "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
-      "type": "Resource",
+      "type": "Potion",
       "description": "A potion that restores a moderate amount of health.",
       "image": "[[File:Lesser Healing Potion.png|32px]]",
       "name": "Lesser Healing Potion",
@@ -3662,19 +3671,20 @@
   },
   {
     "page_name": "Weak Focused Attack Potion",
-    "item_description": "PERK: Focused Attack<br><br>Grants an XP BOOST for the ATTACK Skill",
+    "item_description": "PERK: Focused Attack<br><br>Grants a 15% XP BOOST for the ATTACK Skill",
     "item_name": "Weak Focused Attack Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Attack<br><br>Grants an XP BOOST for the ATTACK Skill",
+      "description": "PERK: Focused Attack<br><br>Grants a 15% XP BOOST for the ATTACK Skill",
+      "duration": "300 seconds",
       "image": "[[File:Weak Focused Attack Potion.png|32px]]",
       "name": "Weak Focused Attack Potion",
       "weight": "1.0",
       "perk": {
         "name": "Focused Attack",
-        "effect": "Grants an XP BOOST for the ATTACK Skill"
+        "effect": "Grants a 15% XP BOOST for the ATTACK Skill"
       },
       "stacklimit": "50",
       "image_raw": "Weak Focused Attack Potion.png"
@@ -3684,19 +3694,20 @@
   },
   {
     "page_name": "Weak Focused Mining Potion",
-    "item_description": "PERK: Focused Mining<br><br>Grants an XP BOOST for the MINING Skill",
+    "item_description": "PERK: Focused Mining<br><br>Grants a 15% XP BOOST for the MINING Skill",
     "item_name": "Weak Focused Mining Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Mining<br><br>Grants an XP BOOST for the MINING Skill",
+      "description": "PERK: Focused Mining<br><br>Grants a 15% XP BOOST for the MINING Skill",
+      "duration": "300 seconds",
       "image": "[[File:Weak Focused Mining Potion.png|32px]]",
       "name": "Weak Focused Mining Potion",
       "weight": "1.0",
       "perk": {
         "name": "Focused Mining",
-        "effect": "Grants an XP BOOST for the MINING Skill"
+        "effect": "Grants a 15% XP BOOST for the MINING Skill"
       },
       "stacklimit": "50",
       "image_raw": "Weak Focused Mining Potion.png"
@@ -6235,11 +6246,12 @@
     "page_name": "Lesser Magic Potion",
     "item_description": "PERK: Focused Casting<br><br>INCREASED chance of landing CRITICAL HITS with COMBAT SPELLS",
     "item_name": "Lesser Magic Potion",
-    "item_type": "Resource",
+    "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
-      "type": "Resource",
+      "type": "Potion",
       "description": "PERK: Focused Casting<br><br>INCREASED chance of landing CRITICAL HITS with COMBAT SPELLS",
+      "duration": "600 seconds",
       "image": "[[File:Lesser Magic Potion.png|32px]]",
       "name": "Lesser Magic Potion",
       "weight": "1.0",
@@ -8941,19 +8953,20 @@
   },
   {
     "page_name": "Lesser Focused Artisan Potion",
-    "item_description": "PERK: Focused Artisan<br><br>Grants a 5% XP BOOST for the ARTISAN Skill",
+    "item_description": "PERK: Focused Artisan<br><br>Grants a 15% XP BOOST for the ARTISAN Skill",
     "item_name": "Lesser Focused Artisan Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Artisan<br><br>Grants a 5% XP BOOST for the ARTISAN Skill",
+      "description": "PERK: Focused Artisan<br><br>Grants a 15% XP BOOST for the ARTISAN Skill",
+      "duration": "600 seconds",
       "image": "[[File:Lesser Focused Artisan Potion.png|32px]]",
       "name": "Lesser Focused Artisan Potion",
       "weight": "1.0",
       "perk": {
         "name": "Focused Artisan",
-        "effect": "Grants a 5% XP BOOST for the ARTISAN Skill"
+        "effect": "Grants a 15% XP BOOST for the ARTISAN Skill"
       },
       "stacklimit": "50",
       "image_raw": "Lesser Focused Artisan Potion.png"
@@ -10710,20 +10723,20 @@
   },
   {
     "page_name": "Lesser Focused Attack Potion",
-    "item_description": "PERK: Focused Attack<br><br>Grants a 5% XP BOOST for the ATTACK Skill",
+    "item_description": "PERK: Focused Attack<br><br>Grants a 15% XP BOOST for the ATTACK Skill",
     "item_name": "Lesser Focused Attack Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Attack<br><br>Grants a 5% XP BOOST for the ATTACK Skill",
+      "description": "PERK: Focused Attack<br><br>Grants a 15% XP BOOST for the ATTACK Skill",
       "duration": "600 seconds",
       "image": "[[File:Lesser Focused Attack Potion.png|32px]]",
       "name": "Lesser Focused Attack Potion",
       "weight": "1.0",
       "perk": {
         "name": "Focused Attack",
-        "effect": "Grants a 5% XP BOOST for the ATTACK Skill"
+        "effect": "Grants a 15% XP BOOST for the ATTACK Skill"
       },
       "stacklimit": "50",
       "image_raw": "Lesser Focused Attack Potion.png"
@@ -10733,20 +10746,20 @@
   },
   {
     "page_name": "Lesser Focused Woodcutting Potion",
-    "item_description": "PERK: Focused Woodcutting<br><br>Grants a 5% XP BOOST for the WOODCUTTING Skill",
+    "item_description": "PERK: Focused Woodcutting<br><br>Grants a 15% XP BOOST for the WOODCUTTING Skill",
     "item_name": "Lesser Focused Woodcutting Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Woodcutting<br><br>Grants a 5% XP BOOST for the WOODCUTTING Skill",
+      "description": "PERK: Focused Woodcutting<br><br>Grants a 15% XP BOOST for the WOODCUTTING Skill",
       "duration": "600 seconds",
       "image": "[[File:Lesser Focused Woodcutting Potion.png|32px]]",
       "name": "Lesser Focused Woodcutting Potion",
       "weight": "1.0",
       "perk": {
         "name": "Focused Woodcutting",
-        "effect": "Grants a 5% XP BOOST for the WOODCUTTING Skill"
+        "effect": "Grants a 15% XP BOOST for the WOODCUTTING Skill"
       },
       "stacklimit": "50",
       "image_raw": "Lesser Focused Woodcutting Potion.png"
@@ -10756,20 +10769,20 @@
   },
   {
     "page_name": "Lesser Focused Cooking Potion",
-    "item_description": "PERK: Focused Cooking<br><br>Grants a 5% XP BOOST for the COOKING Skill",
+    "item_description": "PERK: Focused Cooking<br><br>Grants a 15% XP BOOST for the COOKING Skill",
     "item_name": "Lesser Focused Cooking Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Cooking<br><br>Grants a 5% XP BOOST for the COOKING Skill",
+      "description": "PERK: Focused Cooking<br><br>Grants a 15% XP BOOST for the COOKING Skill",
       "duration": "600 seconds",
       "image": "[[File:Lesser Focused Cooking Potion.png|32px]]",
       "name": "Lesser Focused Cooking Potion",
       "weight": "1.0",
       "perk": {
         "name": "Focused Cooking",
-        "effect": "Grants a 5% XP BOOST for the COOKING Skill"
+        "effect": "Grants a 15% XP BOOST for the COOKING Skill"
       },
       "stacklimit": "50",
       "image_raw": "Lesser Focused Cooking Potion.png"
@@ -10779,20 +10792,20 @@
   },
   {
     "page_name": "Lesser Focused Runecrafting Potion",
-    "item_description": "PERK: Focused Runecrafting <br><br>Grants a 5% XP BOOST for the RUNECRAFTING Skill",
+    "item_description": "PERK: Focused Runecrafting <br><br>Grants a 15% XP BOOST for the RUNECRAFTING Skill",
     "item_name": "Lesser Focused Runecrafting Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Runecrafting <br><br>Grants a 5% XP BOOST for the RUNECRAFTING Skill",
+      "description": "PERK: Focused Runecrafting <br><br>Grants a 15% XP BOOST for the RUNECRAFTING Skill",
       "duration": "600 seconds",
       "image": "[[File:Lesser Focused Runecrafting Potion.png|32px]]",
       "name": "Lesser Focused Runecrafting Potion",
       "weight": "1.0",
       "perk": {
         "name": "Focused Runecrafting",
-        "effect": "Grants a 5% XP BOOST for the RUNECRAFTING Skill"
+        "effect": "Grants a 15% XP BOOST for the RUNECRAFTING Skill"
       },
       "stacklimit": "50",
       "image_raw": "Lesser Focused Runecrafting Potion.png"
@@ -10802,20 +10815,20 @@
   },
   {
     "page_name": "Lesser Focused Mining Potion",
-    "item_description": "PERK: Focused Mining<br><br>Grants a 5% XP BOOST for the MINING Skill",
+    "item_description": "PERK: Focused Mining<br><br>Grants a 15% XP BOOST for the MINING Skill",
     "item_name": "Lesser Focused Mining Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Mining<br><br>Grants a 5% XP BOOST for the MINING Skill",
+      "description": "PERK: Focused Mining<br><br>Grants a 15% XP BOOST for the MINING Skill",
       "duration": "600 seconds",
       "image": "[[File:Lesser Focused Mining Potion.png|32px]]",
       "name": "Lesser Focused Mining Potion",
       "weight": "1.0",
       "perk": {
         "name": "Focused Mining",
-        "effect": "Grants a 5% XP BOOST for the MINING Skill"
+        "effect": "Grants a 15% XP BOOST for the MINING Skill"
       },
       "stacklimit": "50",
       "image_raw": "Lesser Focused Mining Potion.png"
@@ -10825,20 +10838,20 @@
   },
   {
     "page_name": "Lesser Focused Construction Potion",
-    "item_description": "PERK: Focused Construction<br><br>Grants a 5% XP BOOST for the CONSTRUCTION Skill",
+    "item_description": "PERK: Focused Construction<br><br>Grants a 15% XP BOOST for the CONSTRUCTION Skill",
     "item_name": "Lesser Focused Construction Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Construction<br><br>Grants a 5% XP BOOST for the CONSTRUCTION Skill",
+      "description": "PERK: Focused Construction<br><br>Grants a 15% XP BOOST for the CONSTRUCTION Skill",
       "duration": "600 seconds",
       "image": "[[File:Lesser Focused Construction Potion.png|32px]]",
       "name": "Lesser Focused Construction Potion",
       "weight": "1.0",
       "perk": {
         "name": "Focused Construction",
-        "effect": "Grants a 5% XP BOOST for the CONSTRUCTION Skill"
+        "effect": "Grants a 15% XP BOOST for the CONSTRUCTION Skill"
       },
       "stacklimit": "50",
       "image_raw": "Lesser Focused Construction Potion.png"
@@ -11197,19 +11210,21 @@
   },
   {
     "page_name": "Abraxus Ring",
-    "item_stacklimit": 1,
+    "item_description": "A ring that once belonged to a powerful necromancer.",
     "item_name": "Abraxus Ring",
-    "item_weight": 1,
-    "page_name_sub": "Abraxus Ring",
+    "item_type": "Trinket",
+    "item_stacklimit": 1,
     "json": {
       "type": "Trinket",
+      "description": "A ring that once belonged to a powerful necromancer.",
       "image": "[[File:Abraxus Ring.png|32px]]",
       "name": "Abraxus Ring",
       "weight": "1.0",
       "stacklimit": "1",
       "image_raw": "Abraxus Ring.png"
     },
-    "item_type": "Trinket"
+    "item_weight": 1,
+    "page_name_sub": "Abraxus Ring"
   },
   {
     "page_name": "Imaru's Talon",
@@ -11658,10 +11673,10 @@
     "page_name": "Healing Potion",
     "item_description": "Recovers some lost health. Made with irit and redberries.",
     "item_name": "Healing Potion",
-    "item_type": "Resource",
+    "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
-      "type": "Resource",
+      "type": "Potion",
       "description": "Recovers some lost health. Made with irit and redberries.",
       "image": "[[File:Healing Potion.png|32px]]",
       "name": "Healing Potion",
@@ -12177,16 +12192,21 @@
   },
   {
     "page_name": "Antifire Potion",
-    "item_description": "Removes Burning stacks and grants future protection from Burning.",
+    "item_description": "PERK: Antifire<br><br>NEGATES and grants RESISTANCE to FIRE effects",
     "item_name": "Antifire Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "Removes Burning stacks and grants future protection from Burning.",
+      "description": "PERK: Antifire<br><br>NEGATES and grants RESISTANCE to FIRE effects",
+      "duration": "300 seconds",
       "image": "[[File:Antifire Potion.png|32px]]",
       "name": "Antifire Potion",
       "weight": "1.0",
+      "perk": {
+        "name": "Antifire",
+        "effect": "NEGATES and grants RESISTANCE to FIRE effects"
+      },
       "stacklimit": "50",
       "image_raw": "Antifire Potion.png"
     },
@@ -13707,5 +13727,342 @@
       "image_raw": "Zamorak Cape.png"
     },
     "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Weak Focused Farming Potion",
+    "item_description": "PERK: Focused Farming<br><br>Grants a 15% XP BOOST for the FARMING Skill",
+    "item_name": "Weak Focused Farming Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Farming<br><br>Grants a 15% XP BOOST for the FARMING Skill",
+      "image": "[[File:Weak Focused Farming Potion.png|32px]]",
+      "name": "Weak Focused Farming Potion",
+      "weight": "1.0",
+      "perk": {
+        "name": "Focused Farming",
+        "effect": "Grants a 15% XP BOOST for the FARMING Skill"
+      },
+      "stacklimit": "50",
+      "image_raw": "Weak Focused Farming Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Weak Focused Farming Potion"
+  },
+  {
+    "page_name": "Lesser Focused Farming Potion",
+    "item_description": "PERK: Focused Farming<br><br>Grants a 15% XP BOOST for the FARMING Skill",
+    "item_name": "Lesser Focused Farming Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Farming<br><br>Grants a 15% XP BOOST for the FARMING Skill",
+      "image": "[[File:Lesser Focused Farming Potion.png|32px]]",
+      "name": "Lesser Focused Farming Potion",
+      "weight": "1.0",
+      "perk": {
+        "name": "Focused Farming",
+        "effect": "Grants a 15% XP BOOST for the FARMING Skill"
+      },
+      "stacklimit": "50",
+      "image_raw": "Lesser Focused Farming Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Lesser Focused Farming Potion"
+  },
+  {
+    "page_name": "Antipoison Potion",
+    "item_description": "PERK: Antipoison II<br><br>NEGATES and grants RESISTANCE to POISON effects",
+    "item_name": "Antipoison Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Antipoison II<br><br>NEGATES and grants RESISTANCE to POISON effects",
+      "duration": "300 seconds",
+      "image": "[[File:Antipoison Potion.png|32px]]",
+      "name": "Antipoison Potion",
+      "weight": "1.0",
+      "perk": {
+        "name": "Antipoison II",
+        "effect": "NEGATES and grants RESISTANCE to POISON effects"
+      },
+      "stacklimit": "50",
+      "image_raw": "Antipoison Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Antipoison Potion"
+  },
+  {
+    "page_name": "Focused Artisan Potion",
+    "item_description": "PERK: Focused Artisan II<br><br>Grants a 30% XP BOOST for the ARTISAN Skill",
+    "item_name": "Focused Artisan Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Artisan II<br><br>Grants a 30% XP BOOST for the ARTISAN Skill",
+      "duration": "300 seconds",
+      "image": "[[File:Focused Artisan Potion.png|32px]]",
+      "name": "Focused Artisan Potion",
+      "weight": "1.0",
+      "perk": {
+        "name": "Focused Artisan II",
+        "effect": "Grants a 30% XP BOOST for the ARTISAN Skill"
+      },
+      "stacklimit": "50",
+      "image_raw": "Focused Artisan Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Focused Artisan Potion"
+  },
+  {
+    "page_name": "Lesser Antipoison Potion",
+    "item_description": "PERK: Antipoison<br><br>NEGATES and grants RESISTENCE to POISON effects",
+    "item_name": "Lesser Antipoison Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Antipoison<br><br>NEGATES and grants RESISTENCE to POISON effects",
+      "duration": "600 seconds",
+      "image": "[[File:Lesser Antipoison Potion.png|32px]]",
+      "name": "Lesser Antipoison Potion",
+      "weight": "1.0",
+      "perk": {
+        "name": "Antipoison",
+        "effect": "NEGATES and grants RESISTENCE to POISON effects"
+      },
+      "stacklimit": "50",
+      "image_raw": "Lesser Antipoison Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Lesser Antipoison Potion"
+  },
+  {
+    "page_name": "Focused Attack Potion",
+    "item_description": "PERK: Focused Attack II<br><br>Grants a 30% XP BOOST for the Attack Skill",
+    "item_name": "Focused Attack Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Attack II<br><br>Grants a 30% XP BOOST for the Attack Skill",
+      "duration": "300 seconds",
+      "image": "[[File:Focused Attack Potion.png|32px]]",
+      "name": "Focused Attack Potion",
+      "weight": "1.0",
+      "perk": {
+        "name": "Focused Attack II",
+        "effect": "Grants a 30% XP BOOST for the Attack Skill"
+      },
+      "stacklimit": "50",
+      "image_raw": "Focused Attack Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Focused Attack Potion"
+  },
+  {
+    "page_name": "Focused Construction Potion",
+    "item_description": "PERK: Focused Construction II<br><br>Grants a 30% XP BOOST for the Construction Skill",
+    "item_name": "Focused Construction Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Construction II<br><br>Grants a 30% XP BOOST for the Construction Skill",
+      "duration": "300 seconds",
+      "image": "[[File:Focused Construction Potion.png|32px]]",
+      "name": "Focused Construction Potion",
+      "weight": "1.0",
+      "perk": {
+        "name": "Focused Construction II",
+        "effect": "Grants a 30% XP BOOST for the Construction Skill"
+      },
+      "stacklimit": "50",
+      "image_raw": "Focused Construction Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Focused Construction Potion"
+  },
+  {
+    "page_name": "Focused Cooking Potion",
+    "item_description": "PERK: Focused Cooking II<br><br>Grants a 30% XP BOOST for the Cooking Skill",
+    "item_name": "Focused Cooking Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Cooking II<br><br>Grants a 30% XP BOOST for the Cooking Skill",
+      "duration": "300 seconds",
+      "image": "[[File:Focused Cooking Potion.png|32px]]",
+      "name": "Focused Cooking Potion",
+      "weight": "1.0",
+      "perk": {
+        "name": "Focused Cooking II",
+        "effect": "Grants a 30% XP BOOST for the Cooking Skill"
+      },
+      "stacklimit": "50",
+      "image_raw": "Focused Cooking Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Focused Cooking Potion"
+  },
+  {
+    "page_name": "Focused Mining Potion",
+    "item_description": "PERK: Focused Mining II<br><br>Grants a 30% XP BOOST for the Mining Skill",
+    "item_name": "Focused Mining Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Mining II<br><br>Grants a 30% XP BOOST for the Mining Skill",
+      "duration": "300 seconds",
+      "image": "[[File:Focused Mining Potion.png|32px]]",
+      "name": "Focused Mining Potion",
+      "weight": "1.0",
+      "perk": {
+        "name": "Focused Mining II",
+        "effect": "Grants a 30% XP BOOST for the Mining Skill"
+      },
+      "stacklimit": "50",
+      "image_raw": "Focused Mining Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Focused Mining Potion"
+  },
+  {
+    "page_name": "Focused Runecrafting Potion",
+    "item_description": "PERK: Focused Runecrafting II<br><br>Grants a 30% XP BOOST for the Runecrafting Skill",
+    "item_name": "Focused Runecrafting Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Runecrafting II<br><br>Grants a 30% XP BOOST for the Runecrafting Skill",
+      "duration": "300 seconds",
+      "image": "[[File:Focused Runecrafting Potion.png|32px]]",
+      "name": "Focused Runecrafting Potion",
+      "weight": "1.0",
+      "perk": {
+        "name": "Focused Runecrafting II",
+        "effect": "Grants a 30% XP BOOST for the Runecrafting Skill"
+      },
+      "stacklimit": "50",
+      "image_raw": "Focused Runecrafting Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Focused Runecrafting Potion"
+  },
+  {
+    "page_name": "Focused Woodcutting Potion",
+    "item_description": "PERK: Focused Woodcutting II<br><br>Grants a 30% XP BOOST for the Woodcutting Skill",
+    "item_name": "Focused Woodcutting Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Woodcutting II<br><br>Grants a 30% XP BOOST for the Woodcutting Skill",
+      "duration": "300 seconds",
+      "image": "[[File:Focused Woodcutting Potion.png|32px]]",
+      "name": "Focused Woodcutting Potion",
+      "weight": "1.0",
+      "perk": {
+        "name": "Focused Woodcutting II",
+        "effect": "Grants a 30% XP BOOST for the Woodcutting Skill"
+      },
+      "stacklimit": "50",
+      "image_raw": "Focused Woodcutting Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Focused Woodcutting Potion"
+  },
+  {
+    "page_name": "Focused Farming Potion",
+    "item_description": "PERK: Focused Farming II<br><br>Grants a 30% XP BOOST for the Farming Skill",
+    "item_name": "Focused Farming Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Farming II<br><br>Grants a 30% XP BOOST for the Farming Skill",
+      "image": "[[File:Focused Farming Potion.png|32px]]",
+      "name": "Focused Farming Potion",
+      "weight": "1.0",
+      "perk": {
+        "name": "Focused Farming II",
+        "effect": "Grants a 30% XP BOOST for the Farming Skill"
+      },
+      "stacklimit": "50",
+      "image_raw": "Focused Farming Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Focused Farming Potion"
+  },
+  {
+    "page_name": "Lumberjack Potion",
+    "item_description": "PERK: Lumberjack II<br><br>REDUCES the STAMINA cost of WOODCUTTING by 66%",
+    "item_name": "Lumberjack Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Lumberjack II<br><br>REDUCES the STAMINA cost of WOODCUTTING by 66%",
+      "duration": "300 seconds",
+      "image": "[[File:Lumberjack Potion.png|32px]]",
+      "name": "Lumberjack Potion",
+      "weight": "1.0",
+      "perk": {
+        "name": "Lumberjack II",
+        "effect": "REDUCES the STAMINA cost of WOODCUTTING by 66%"
+      },
+      "stacklimit": "50",
+      "image_raw": "Lumberjack Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Lumberjack Potion"
+  },
+  {
+    "page_name": "Quarrymaster Potion",
+    "item_description": "PERK: Quarrymaster II<br><br>REDUCES the STAMINA cost of Mining by 66%",
+    "item_name": "Quarrymaster Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Quarrymaster II<br><br>REDUCES the STAMINA cost of Mining by 66%",
+      "duration": "300 seconds",
+      "image": "[[File:Quarrymaster Potion.png|32px]]",
+      "name": "Quarrymaster Potion",
+      "weight": "1.0",
+      "perk": {
+        "name": "Quarrymaster II",
+        "effect": "REDUCES the STAMINA cost of Mining by 66%"
+      },
+      "stacklimit": "50",
+      "image_raw": "Quarrymaster Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Quarrymaster Potion"
+  },
+  {
+    "page_name": "Black Shield",
+    "item_description": "A shield popularised by the Black Knights and made from black matal.",
+    "item_name": "Black Shield",
+    "item_type": "Melee Armour",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Melee Armour",
+      "description": "A shield popularised by the Black Knights and made from black matal.",
+      "image": "[[File:Black Shield.png|32px]]",
+      "name": "Black Shield",
+      "weight": "10.0",
+      "stacklimit": "",
+      "image_raw": "Black Shield.png"
+    },
+    "item_weight": 10,
+    "page_name_sub": "Black Shield"
   }
 ]

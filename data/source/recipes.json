@@ -959,6 +959,9 @@
       "Cabbage",
       "Clay Vessel"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Brewing Cauldron"
     ],
@@ -990,7 +993,12 @@
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Weak Focused Cooking Potion"
       ],
@@ -1013,6 +1021,9 @@
       "Redberries",
       "Clay Vessel"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Brewing Cauldron"
     ],
@@ -1028,23 +1039,28 @@
           "image": "[[File:Marrentil.png|30px|link=Marrentil]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Redberries",
           "link": "Redberries",
-          "qty": 1,
+          "qty": "1",
           "item": "Redberries",
           "image": "[[File:Redberries.png|30px|link=Redberries]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Clay Vessel",
           "link": "Clay Vessel",
-          "qty": 1,
+          "qty": "1",
           "item": "Clay Vessel",
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Weak Focused Artisan Potion"
       ],
@@ -1066,6 +1082,9 @@
       "Marrentil",
       "Feathers",
       "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Brewing Cauldron"
@@ -1098,7 +1117,12 @@
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Weak Focused Woodcutting Potion"
       ],
@@ -1183,6 +1207,9 @@
       "Redberries",
       "Clay Vessel"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Brewing Cauldron"
     ],
@@ -1214,7 +1241,12 @@
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Weak Healing Potion"
       ],
@@ -1236,6 +1268,9 @@
       "Harralander",
       "Antler",
       "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Brewing Cauldron"
@@ -1268,7 +1303,12 @@
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Weak Lumberjack Potion"
       ],
@@ -1290,6 +1330,9 @@
       "Harralander",
       "Clay",
       "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Brewing Cauldron"
@@ -1322,7 +1365,12 @@
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Weak Quarrymaster Potion"
       ],
@@ -4042,6 +4090,9 @@
       "Coarse Animal Fur",
       "Clay Vessel"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Brewing Cauldron"
     ],
@@ -4073,7 +4124,12 @@
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Weak Focused Runecrafting Potion"
       ],
@@ -4095,6 +4151,9 @@
       "Marrentil",
       "Flax",
       "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Brewing Cauldron"
@@ -4127,7 +4186,12 @@
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Weak Focused Construction Potion"
       ],
@@ -5478,9 +5542,12 @@
   },
   {
     "uses_material": [
-      "Clay Vessel",
       "Snapdragon",
-      "Ground Granite"
+      "Ground Granite",
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Brewing Cauldron"
@@ -5489,39 +5556,44 @@
       "facility": "Brewing Cauldron",
       "materials": [
         {
-          "quantity": 1,
-          "name": "Clay Vessel",
-          "link": "Clay Vessel",
-          "qty": 1,
-          "item": "Clay Vessel",
-          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
-        },
-        {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Snapdragon",
           "link": "Snapdragon",
-          "qty": 1,
+          "qty": "1",
           "item": "Snapdragon",
           "image": "[[File:Snapdragon.png|30px|link=Snapdragon]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Ground Granite",
           "link": "Ground Granite",
-          "qty": 1,
+          "qty": "1",
           "item": "Ground Granite",
           "image": "[[File:Ground Granite.png|30px|link=Ground Granite]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": "1",
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Lesser Attack Potion"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Lesser Attack Potion",
         "link": "Lesser Attack Potion",
-        "qty": 1,
+        "qty": "1",
         "item": "Lesser Attack Potion",
         "image": "[[File:Lesser Attack Potion.png|30px|link=Lesser Attack Potion]]"
       }
@@ -5535,6 +5607,9 @@
       "Snapdragon",
       "Dwellberries",
       "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Brewing Cauldron"
@@ -5567,7 +5642,12 @@
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Lesser Healing Potion"
       ],
@@ -10081,6 +10161,9 @@
       "Small Animal Fang",
       "Clay Vessel"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Brewing Cauldron"
     ],
@@ -10112,7 +10195,12 @@
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Weak Focused Attack Potion"
       ],
@@ -10134,6 +10222,9 @@
       "Marrentil",
       "Animal Bone",
       "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Brewing Cauldron"
@@ -10166,7 +10257,12 @@
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Weak Focused Mining Potion"
       ],
@@ -28830,6 +28926,9 @@
       "Wild Anima",
       "Clay Vessel"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Brewing Cauldron"
     ],
@@ -28861,7 +28960,12 @@
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Lesser Magic Potion"
       ],
@@ -37259,6 +37363,9 @@
       "Ground Clay",
       "Clay Vessel"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Brewing Cauldron"
     ],
@@ -37290,7 +37397,12 @@
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Lesser Focused Artisan Potion"
       ],
@@ -41288,9 +41400,12 @@
   },
   {
     "uses_material": [
-      "Clay Vessel",
       "Toadflax",
-      "Ram Horn"
+      "Ram Horn",
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Brewing Cauldron"
@@ -41298,14 +41413,6 @@
     "json": {
       "facility": "Brewing Cauldron",
       "materials": [
-        {
-          "quantity": 1,
-          "name": "Clay Vessel",
-          "link": "Clay Vessel",
-          "qty": 1,
-          "item": "Clay Vessel",
-          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
-        },
         {
           "quantity": 1,
           "name": "Toadflax",
@@ -41321,9 +41428,22 @@
           "qty": 1,
           "item": "Ram Horn",
           "image": "[[File:Ram Horn.png|30px|link=Ram Horn]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": 1,
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Lesser Lumberjack Potion"
       ],
@@ -41342,9 +41462,12 @@
   },
   {
     "uses_material": [
-      "Clay Vessel",
       "Snapdragon",
-      "Ram Horn"
+      "Ram Horn",
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Brewing Cauldron"
@@ -41352,14 +41475,6 @@
     "json": {
       "facility": "Brewing Cauldron",
       "materials": [
-        {
-          "quantity": 1,
-          "name": "Clay Vessel",
-          "link": "Clay Vessel",
-          "qty": 1,
-          "item": "Clay Vessel",
-          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
-        },
         {
           "quantity": 1,
           "name": "Snapdragon",
@@ -41375,9 +41490,22 @@
           "qty": 1,
           "item": "Ram Horn",
           "image": "[[File:Ram Horn.png|30px|link=Ram Horn]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": 1,
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Lesser Focused Attack Potion"
       ],
@@ -41396,9 +41524,12 @@
   },
   {
     "uses_material": [
-      "Clay Vessel",
       "Snapdragon",
-      "Shrapnel"
+      "Shrapnel",
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Brewing Cauldron"
@@ -41406,14 +41537,6 @@
     "json": {
       "facility": "Brewing Cauldron",
       "materials": [
-        {
-          "quantity": 1,
-          "name": "Clay Vessel",
-          "link": "Clay Vessel",
-          "qty": 1,
-          "item": "Clay Vessel",
-          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
-        },
         {
           "quantity": 1,
           "name": "Snapdragon",
@@ -41429,9 +41552,22 @@
           "qty": 1,
           "item": "Shrapnel",
           "image": "[[File:Shrapnel.png|30px|link=Shrapnel]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": 1,
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Lesser Focused Woodcutting Potion"
       ],
@@ -41450,9 +41586,12 @@
   },
   {
     "uses_material": [
-      "Clay Vessel",
       "Snapdragon",
-      "Onion"
+      "Onion",
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Brewing Cauldron"
@@ -41460,14 +41599,6 @@
     "json": {
       "facility": "Brewing Cauldron",
       "materials": [
-        {
-          "quantity": 1,
-          "name": "Clay Vessel",
-          "link": "Clay Vessel",
-          "qty": 1,
-          "item": "Clay Vessel",
-          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
-        },
         {
           "quantity": 1,
           "name": "Snapdragon",
@@ -41483,9 +41614,22 @@
           "qty": 1,
           "item": "Onion",
           "image": "[[File:Onion.png|30px|link=Onion]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": 1,
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Lesser Focused Cooking Potion"
       ],
@@ -41504,9 +41648,12 @@
   },
   {
     "uses_material": [
-      "Clay Vessel",
       "Snapdragon",
-      "Soft Animal Fur"
+      "Soft Animal Fur",
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Brewing Cauldron"
@@ -41514,14 +41661,6 @@
     "json": {
       "facility": "Brewing Cauldron",
       "materials": [
-        {
-          "quantity": 1,
-          "name": "Clay Vessel",
-          "link": "Clay Vessel",
-          "qty": 1,
-          "item": "Clay Vessel",
-          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
-        },
         {
           "quantity": 1,
           "name": "Snapdragon",
@@ -41537,9 +41676,22 @@
           "qty": 1,
           "item": "Soft Animal Fur",
           "image": "[[File:Soft Animal Fur.png|30px|link=Soft Animal Fur]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": 1,
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Lesser Focused Runecrafting Potion"
       ],
@@ -41561,6 +41713,9 @@
       "Clay Vessel",
       "Snapdragon",
       "Sandstone"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Brewing Cauldron"
@@ -41593,7 +41748,12 @@
           "image": "[[File:Sandstone.png|30px|link=Sandstone]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Lesser Focused Mining Potion"
       ],
@@ -41615,6 +41775,9 @@
       "Clay Vessel",
       "Snapdragon",
       "Oak Logs"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Brewing Cauldron"
@@ -41647,7 +41810,12 @@
           "image": "[[File:Oak Logs.png|30px|link=Oak Logs]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Lesser Focused Construction Potion"
       ],
@@ -43402,6 +43570,9 @@
       "Dwellberries",
       "Glass Vessel"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Brewing Cauldron"
     ],
@@ -43433,7 +43604,12 @@
           "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Healing Potion"
       ],
@@ -48433,6 +48609,940 @@
     },
     "output": [
       "Zamorak Cape"
+    ]
+  },
+  {
+    "uses_material": [
+      "Marrentil",
+      "Weeds",
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Marrentil",
+          "link": "Marrentil",
+          "qty": 1,
+          "item": "Marrentil",
+          "image": "[[File:Marrentil.png|30px|link=Marrentil]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Weeds",
+          "link": "Weeds",
+          "qty": 1,
+          "item": "Weeds",
+          "image": "[[File:Weeds.png|30px|link=Weeds]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": 1,
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Weak Focused Farming Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Weak Focused Farming Potion",
+        "link": "Weak Focused Farming Potion",
+        "qty": "1",
+        "item": "Weak Focused Farming Potion",
+        "image": "[[File:Weak Focused Farming Potion.png|30px|link=Weak Focused Farming Potion]]"
+      }
+    },
+    "output": [
+      "Weak Focused Farming Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Snapdragon",
+      "Wheat",
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Snapdragon",
+          "link": "Snapdragon",
+          "qty": 1,
+          "item": "Snapdragon",
+          "image": "[[File:Snapdragon.png|30px|link=Snapdragon]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Wheat",
+          "link": "Wheat",
+          "qty": 1,
+          "item": "Wheat",
+          "image": "[[File:Wheat.png|30px|link=Wheat]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": 1,
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Lesser Focused Farming Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Lesser Focused Farming Potion",
+        "link": "Lesser Focused Farming Potion",
+        "qty": "1",
+        "item": "Lesser Focused Farming Potion",
+        "image": "[[File:Lesser Focused Farming Potion.png|30px|link=Lesser Focused Farming Potion]]"
+      }
+    },
+    "output": [
+      "Lesser Focused Farming Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Irit",
+      "Poison Ichor",
+      "Glass Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Irit",
+          "link": "Irit",
+          "qty": 1,
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Poison Ichor",
+          "link": "Poison Ichor",
+          "qty": 1,
+          "item": "Poison Ichor",
+          "image": "[[File:Poison Ichor.png|30px|link=Poison Ichor]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": 1,
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Antipoison Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Antipoison Potion",
+        "link": "Antipoison Potion",
+        "qty": "1",
+        "item": "Antipoison Potion",
+        "image": "[[File:Antipoison Potion.png|30px|link=Antipoison Potion]]"
+      }
+    },
+    "output": [
+      "Antipoison Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Irit",
+      "Necrotic Bonemeal",
+      "Glass Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Irit",
+          "link": "Irit",
+          "qty": "1",
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Necrotic Bonemeal",
+          "link": "Necrotic Bonemeal",
+          "qty": "1",
+          "item": "Necrotic Bonemeal",
+          "image": "[[File:Necrotic Bonemeal.png|30px|link=Necrotic Bonemeal]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "1",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Focused Artisan Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Focused Artisan Potion",
+        "link": "Focused Artisan Potion",
+        "qty": "1",
+        "item": "Focused Artisan Potion",
+        "image": "[[File:Focused Artisan Potion.png|30px|link=Focused Artisan Potion]]"
+      }
+    },
+    "output": [
+      "Focused Artisan Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Toadflax",
+      "Swamp Weed",
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Toadflax",
+          "link": "Toadflax",
+          "qty": "1",
+          "item": "Toadflax",
+          "image": "[[File:Toadflax.png|30px|link=Toadflax]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Swamp Weed",
+          "link": "Swamp Weed",
+          "qty": "1",
+          "item": "Swamp Weed",
+          "image": "[[File:Swamp Weed.png|30px|link=Swamp Weed]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": "1",
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Lesser Antipoison Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Lesser Antipoison Potion",
+        "link": "Lesser Antipoison Potion",
+        "qty": "1",
+        "item": "Lesser Antipoison Potion",
+        "image": "[[File:Lesser Antipoison Potion.png|30px|link=Lesser Antipoison Potion]]"
+      }
+    },
+    "output": [
+      "Lesser Antipoison Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Irit",
+      "Small Animal Fang",
+      "Glass Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Irit",
+          "link": "Irit",
+          "qty": "1",
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Small Animal Fang",
+          "link": "Small Animal Fang",
+          "qty": "1",
+          "item": "Small Animal Fang",
+          "image": "[[File:Small Animal Fang.png|30px|link=Small Animal Fang]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "1",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Focused Attack Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Focused Attack Potion",
+        "link": "Focused Attack Potion",
+        "qty": "1",
+        "item": "Focused Attack Potion",
+        "image": "[[File:Focused Attack Potion.png|30px|link=Focused Attack Potion]]"
+      }
+    },
+    "output": [
+      "Focused Attack Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Irit",
+      "Ground Sandstone",
+      "Glass Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Irit",
+          "link": "Irit",
+          "qty": "1",
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "1",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "1",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Focused Construction Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Focused Construction Potion",
+        "link": "Focused Construction Potion",
+        "qty": "1",
+        "item": "Focused Construction Potion",
+        "image": "[[File:Focused Construction Potion.png|30px|link=Focused Construction Potion]]"
+      }
+    },
+    "output": [
+      "Focused Construction Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Irit",
+      "Cabbage",
+      "Glass Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Irit",
+          "link": "Irit",
+          "qty": "1",
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Cabbage",
+          "link": "Cabbage",
+          "qty": "1",
+          "item": "Cabbage",
+          "image": "[[File:Cabbage.png|30px|link=Cabbage]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "1",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Focused Cooking Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Focused Cooking Potion",
+        "link": "Focused Cooking Potion",
+        "qty": "1",
+        "item": "Focused Cooking Potion",
+        "image": "[[File:Focused Cooking Potion.png|30px|link=Focused Cooking Potion]]"
+      }
+    },
+    "output": [
+      "Focused Cooking Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Irit",
+      "Coarse Animal Fur",
+      "Glass Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Irit",
+          "link": "Irit",
+          "qty": "1",
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "1",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "1",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Focused Mining Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Focused Mining Potion",
+        "link": "Focused Mining Potion",
+        "qty": "1",
+        "item": "Focused Mining Potion",
+        "image": "[[File:Focused Mining Potion.png|30px|link=Focused Mining Potion]]"
+      }
+    },
+    "output": [
+      "Focused Mining Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Irit",
+      "Feathers",
+      "Glass Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Irit",
+          "link": "Irit",
+          "qty": "1",
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "1",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "1",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Focused Runecrafting Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Focused Runecrafting Potion",
+        "link": "Focused Runecrafting Potion",
+        "qty": "1",
+        "item": "Focused Runecrafting Potion",
+        "image": "[[File:Focused Runecrafting Potion.png|30px|link=Focused Runecrafting Potion]]"
+      }
+    },
+    "output": [
+      "Focused Runecrafting Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Irit",
+      "Redberries",
+      "Glass Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Irit",
+          "link": "Irit",
+          "qty": "1",
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "1",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "1",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Focused Woodcutting Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Focused Woodcutting Potion",
+        "link": "Focused Woodcutting Potion",
+        "qty": "1",
+        "item": "Focused Woodcutting Potion",
+        "image": "[[File:Focused Woodcutting Potion.png|30px|link=Focused Woodcutting Potion]]"
+      }
+    },
+    "output": [
+      "Focused Woodcutting Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Irit",
+      "Undead Bone",
+      "Glass Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Irit",
+          "link": "Irit",
+          "qty": "1",
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Undead Bone",
+          "link": "Undead Bone",
+          "qty": "1",
+          "item": "Undead Bone",
+          "image": "[[File:Undead Bone.png|30px|link=Undead Bone]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "1",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Focused Farming Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Focused Farming Potion",
+        "link": "Focused Farming Potion",
+        "qty": "1",
+        "item": "Focused Farming Potion",
+        "image": "[[File:Focused Farming Potion.png|30px|link=Focused Farming Potion]]"
+      }
+    },
+    "output": [
+      "Focused Farming Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Irit",
+      "Dragon Tooth",
+      "Glass Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Irit",
+          "link": "Irit",
+          "qty": "1",
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dragon Tooth",
+          "link": "Dragon Tooth",
+          "qty": "1",
+          "item": "Dragon Tooth",
+          "image": "[[File:Dragon Tooth.png|30px|link=Dragon Tooth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "1",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Lumberjack Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Lumberjack Potion",
+        "link": "Lumberjack Potion",
+        "qty": "1",
+        "item": "Lumberjack Potion",
+        "image": "[[File:Lumberjack Potion.png|30px|link=Lumberjack Potion]]"
+      }
+    },
+    "output": [
+      "Lumberjack Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Irit",
+      "Ground Limestone",
+      "Glass Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Irit",
+          "link": "Irit",
+          "qty": "1",
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Ground Limestone",
+          "link": "Ground Limestone",
+          "qty": "1",
+          "item": "Ground Limestone",
+          "image": "[[File:Ground Limestone.png|30px|link=Ground Limestone]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "1",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Quarrymaster Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Quarrymaster Potion",
+        "link": "Quarrymaster Potion",
+        "qty": "1",
+        "item": "Quarrymaster Potion",
+        "image": "[[File:Quarrymaster Potion.png|30px|link=Quarrymaster Potion]]"
+      }
+    },
+    "output": [
+      "Quarrymaster Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Bar",
+      "Cursed Leather",
+      "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Battle-Scarred Black Metal"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "recipe": "Battle-Scarred Black Metal",
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Black Metal Bar",
+          "link": "Black Metal Bar",
+          "qty": "10",
+          "item": "Black Metal Bar",
+          "image": "[[File:Black Metal Bar.png|30px|link=Black Metal Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "4",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "2",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Black Shield"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Black Shield",
+        "link": "Black Shield",
+        "qty": "1",
+        "item": "Black Shield",
+        "image": "[[File:Black Shield.png|30px|link=Black Shield]]"
+      }
+    },
+    "output": [
+      "Black Shield"
     ]
   }
 ]
