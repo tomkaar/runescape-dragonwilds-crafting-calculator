@@ -14064,5 +14064,21 @@
     },
     "item_weight": 10,
     "page_name_sub": "Black Shield"
+  },
+  {
+    "page_name": "Bloodstained Black Visor",
+    "item_stacklimit": 99,
+    "item_name": "Bloodstained Black Visor",
+    "item_weight": 0,
+    "page_name_sub": "Bloodstained Black Visor",
+    "json": {
+      "type": "Consumable",
+      "image": "[[File:Bloodstained Black Visor.png|32px]]",
+      "name": "Bloodstained Black Visor",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Bloodstained Black Visor.png"
+    },
+    "item_type": "Consumable"
   }
 ]
