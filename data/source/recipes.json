@@ -6400,6 +6400,50 @@
   },
   {
     "uses_material": [
+      "Blightwood"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Kiln"
+    ],
+    "json": {
+      "facility": "Kiln",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Blightwood",
+          "link": "Blightwood",
+          "qty": 1,
+          "item": "Blightwood",
+          "image": "[[File:Blightwood.png|30px|link=Blightwood]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Charcoal"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Charcoal",
+        "link": "Charcoal",
+        "qty": 1,
+        "item": "Charcoal",
+        "image": "[[File:Charcoal.png|30px|link=Charcoal]]"
+      }
+    },
+    "output": [
+      "Charcoal"
+    ]
+  },
+  {
+    "uses_material": [
       "Opal",
       "Wool Thread",
       "Bronze Bar",
@@ -46865,10 +46909,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Demonic Metal Rod"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "Demonic Metal Rod",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -47842,10 +47890,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Fabric That Hums With You"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "Fabric That Hums With You",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -48190,10 +48242,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Sinister Mechanism"
+    ],
     "uses_facility": [
       "Fletching Table"
     ],
     "json": {
+      "recipe": "Sinister Mechanism",
       "facility": "Fletching Table",
       "materials": [
         {
@@ -48232,7 +48288,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -48447,10 +48503,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Whispering Elbow Pad"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "Whispering Elbow Pad",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -48518,10 +48578,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Wizard's Kneecap"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "Wizard's Kneecap",
       "facility": "Smithing Anvil",
       "materials": [
         {

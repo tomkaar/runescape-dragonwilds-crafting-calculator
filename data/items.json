@@ -4187,6 +4187,24 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "542dead29aed",
+        "name": "Charcoal",
+        "image": "Charcoal.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a178938cbd6a",
+          "facility": "Kiln",
+          "materials": [
+            {
+              "itemId": "ec1abb86508c",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -30437,7 +30455,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Demonic Metal Rod"
+        ]
       }
     ],
     "skills": [
@@ -31179,7 +31199,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Fabric That Hums With You"
+        ]
       }
     ],
     "skills": [
@@ -31416,7 +31438,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Sinister Mechanism"
+        ]
       }
     ],
     "skills": [
@@ -31583,7 +31607,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Whispering Elbow Pad"
+        ]
       }
     ],
     "skills": [
@@ -31628,7 +31654,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Wizard's Kneecap"
+        ]
       }
     ],
     "skills": [
@@ -38430,5 +38458,25 @@
     "wikiLink": "Food_&_Drink_Salvage",
     "weight": 0,
     "stackLimit": 0
+  },
+  {
+    "id": "160f1e8ba506",
+    "name": "Bloodstained Black Visor",
+    "image": "Bloodstained Black Visor.png",
+    "variants": [
+      {
+        "id": "160f1e8ba506",
+        "name": "Bloodstained Black Visor",
+        "image": "Bloodstained Black Visor.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Bloodstained_Black_Visor",
+    "weight": 0,
+    "stackLimit": 99
   }
 ]
