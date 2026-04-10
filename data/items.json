@@ -37225,9 +37225,9 @@
     "stackLimit": 99
   },
   {
-    "id": "d5d3297fa4bd",
-    "name": "Tastefully Torn Tights",
-    "image": "VESTIGE: Tastefully Torn Tights.png",
+    "id": "dded1f7433f5",
+    "name": "VESTIGE: Tastefully Torn Tights",
+    "image": "Ranger_Tights.png",
     "variants": [
       {
         "id": "d5d3297fa4bd",
@@ -37240,7 +37240,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tastefully_Torn_Tights",
+    "wikiLink": "VESTIGE:_Tastefully_Torn_Tights",
     "weight": 0,
     "stackLimit": 99
   },
