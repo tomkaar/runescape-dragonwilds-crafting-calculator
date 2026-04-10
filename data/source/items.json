@@ -593,6 +593,7 @@
     "json": {
       "type": "Drink",
       "description": "PERK: Fleet Footed<br><br>REDUCES the STAMINA cost of SPRINTING<br><br>A thirst-quenching drink that puts a spring in your step.",
+      "duration": "300 seconds",
       "perk": {
         "name": "Fleet Footed",
         "effect": "REDUCES the STAMINA cost of SPRINTING<br><br>A thirst-quenching drink that puts a spring in your step."
@@ -1284,16 +1285,17 @@
   },
   {
     "page_name": "Ferocious Infusion",
-    "item_description": "PERK: Ferocious Fighter<br><br>REDUCES the STAMINA cost of PHYSICAL ATTACKS<br><br>A hydrating drink, infused with primal fury.",
+    "item_description": "PERK: Ferocious Fighter<br><br>REDUCES the STAMINA cost of PHYSICAL ATTACKS by 33%<br><br>A hydrating drink infused with primal fury.",
     "item_name": "Ferocious Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Ferocious Fighter<br><br>REDUCES the STAMINA cost of PHYSICAL ATTACKS<br><br>A hydrating drink, infused with primal fury.",
+      "description": "PERK: Ferocious Fighter<br><br>REDUCES the STAMINA cost of PHYSICAL ATTACKS by 33%<br><br>A hydrating drink infused with primal fury.",
+      "duration": "300 seconds",
       "perk": {
         "name": "Ferocious Fighter",
-        "effect": "REDUCES the STAMINA cost of PHYSICAL ATTACKS<br><br>A hydrating drink, infused with primal fury."
+        "effect": "REDUCES the STAMINA cost of PHYSICAL ATTACKS by 33%<br><br>A hydrating drink infused with primal fury."
       },
       "image": "[[File:Ferocious Infusion.png|32px]]",
       "name": "Ferocious Infusion",
@@ -1307,16 +1309,17 @@
   },
   {
     "page_name": "Dwellberry Infusion",
-    "item_description": "PERK: Quenched<br><br>REDUCES the rate at which you become THIRSTY<br><br>A refreshing, fruity drink. Good for hydration.",
+    "item_description": "PERK: Quenched<br><br>THIRST drains 33% SLOWER<br><br>A refreshing, fruity drink. Good for hydration.",
     "item_name": "Dwellberry Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Quenched<br><br>REDUCES the rate at which you become THIRSTY<br><br>A refreshing, fruity drink. Good for hydration.",
+      "description": "PERK: Quenched<br><br>THIRST drains 33% SLOWER<br><br>A refreshing, fruity drink. Good for hydration.",
+      "duration": "600 seconds",
       "perk": {
         "name": "Quenched",
-        "effect": "REDUCES the rate at which you become THIRSTY<br><br>A refreshing, fruity drink. Good for hydration."
+        "effect": "THIRST drains 33% SLOWER<br><br>A refreshing, fruity drink. Good for hydration."
       },
       "image": "[[File:Dwellberry Infusion.png|32px]]",
       "name": "Dwellberry Infusion",
@@ -2323,6 +2326,7 @@
     "json": {
       "type": "Drink",
       "description": "PERK: Evasion<br><br>REDUCES the STAMINA cost of DODGING<br><br>A thirst-quenching drink that improves your reflexes.",
+      "duration": "300 seconds",
       "perk": {
         "name": "Evasion",
         "effect": "REDUCES the STAMINA cost of DODGING<br><br>A thirst-quenching drink that improves your reflexes."
@@ -4186,6 +4190,7 @@
     "json": {
       "type": "Drink",
       "description": "PERK: Quenched<br><br>REDUCES the rate at which you become THIRSTY<br><br>A refreshing, fruity drink. Good for hydration.",
+      "duration": "300 seconds",
       "perk": {
         "name": "Quenched",
         "effect": "REDUCES the rate at which you become THIRSTY<br><br>A refreshing, fruity drink. Good for hydration."
@@ -7284,16 +7289,17 @@
   },
   {
     "page_name": "Relentless Infusion",
-    "item_description": "PERK: Relentless Ranger<br><br>REDUCES the STAMINA cost of RANGED ATTACKS<br><br>This drink will get your quiver quivering.",
+    "item_description": "PERK: Relentless Ranger<br><br>REDUCES the STAMINA cost of RANGED ATTACKS by 33%<br><br>A tasty tipple that'll put a quiver in your quiver.",
     "item_name": "Relentless Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Relentless Ranger<br><br>REDUCES the STAMINA cost of RANGED ATTACKS<br><br>This drink will get your quiver quivering.",
+      "description": "PERK: Relentless Ranger<br><br>REDUCES the STAMINA cost of RANGED ATTACKS by 33%<br><br>A tasty tipple that'll put a quiver in your quiver.",
+      "duration": "300 seconds",
       "perk": {
         "name": "Relentless Ranger",
-        "effect": "REDUCES the STAMINA cost of RANGED ATTACKS<br><br>This drink will get your quiver quivering."
+        "effect": "REDUCES the STAMINA cost of RANGED ATTACKS by 33%<br><br>A tasty tipple that'll put a quiver in your quiver."
       },
       "image": "[[File:Relentless Infusion.png|32px]]",
       "name": "Relentless Infusion",
@@ -7307,16 +7313,17 @@
   },
   {
     "page_name": "Arcane Infusion",
-    "item_description": "PERK: Arcane Aligned<br><br>REDUCES the STAMINA cost of MAGIC ATTACKS<br><br>Puts the whiz in wizard.",
+    "item_description": "PERK: Arcane Aligned<br><br>REDUCES the STAMINA cost of MAGIC ATTACKS by 33%<br><br>Puts the whiz in wizard.",
     "item_name": "Arcane Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Arcane Aligned<br><br>REDUCES the STAMINA cost of MAGIC ATTACKS<br><br>Puts the whiz in wizard.",
+      "description": "PERK: Arcane Aligned<br><br>REDUCES the STAMINA cost of MAGIC ATTACKS by 33%<br><br>Puts the whiz in wizard.",
+      "duration": "300 seconds",
       "perk": {
         "name": "Arcane Aligned",
-        "effect": "REDUCES the STAMINA cost of MAGIC ATTACKS<br><br>Puts the whiz in wizard."
+        "effect": "REDUCES the STAMINA cost of MAGIC ATTACKS by 33%<br><br>Puts the whiz in wizard."
       },
       "image": "[[File:Arcane Infusion.png|32px]]",
       "name": "Arcane Infusion",
@@ -9619,16 +9626,17 @@
   },
   {
     "page_name": "Cadavaberry Infusion",
-    "item_description": "PERK: Quenched<br><br>REDUCES the rate at which you become THIRSTY<br><br>A refreshing, fruity drink. Excellent for hydration.",
+    "item_description": "PERK: Quenched<br><br>THIRST drains 33% SLOWER<br><br>A refreshing fruity drink. Excellent for hydration.",
     "item_name": "Cadavaberry Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Quenched<br><br>REDUCES the rate at which you become THIRSTY<br><br>A refreshing, fruity drink. Excellent for hydration.",
+      "description": "PERK: Quenched<br><br>THIRST drains 33% SLOWER<br><br>A refreshing fruity drink. Excellent for hydration.",
+      "duration": "900 seconds",
       "perk": {
         "name": "Quenched",
-        "effect": "REDUCES the rate at which you become THIRSTY<br><br>A refreshing, fruity drink. Excellent for hydration."
+        "effect": "THIRST drains 33% SLOWER<br><br>A refreshing fruity drink. Excellent for hydration."
       },
       "image": "[[File:Cadavaberry Infusion.png|32px]]",
       "name": "Cadavaberry Infusion",
@@ -9668,6 +9676,7 @@
     "json": {
       "type": "Drink",
       "description": "PERK: Soul Food<br><br>Recharges WARD SHIELD over time<br><br>A seasonal treat, popular with some.",
+      "duration": "150 seconds",
       "perk": {
         "name": "Soul Food",
         "effect": "Recharges WARD SHIELD over time<br><br>A seasonal treat, popular with some."
@@ -10967,11 +10976,11 @@
     "page_name_sub": "Sundering Spiked Slab"
   },
   {
-    "page_name": "Tastefully Torn Tights",
+    "page_name": "VESTIGE: Tastefully Torn Tights",
     "item_stacklimit": 99,
     "item_name": "Tastefully Torn Tights",
     "item_weight": 0,
-    "page_name_sub": "Tastefully Torn Tights",
+    "page_name_sub": "VESTIGE: Tastefully Torn Tights",
     "json": {
       "type": "Vestige",
       "image": "[[File:VESTIGE: Tastefully Torn Tights.png|32px]]",
@@ -12514,6 +12523,7 @@
     "json": {
       "type": "Drink",
       "description": "PERK: Stalwart Shield<br><br>REDUCES the STAMINA cost of BLOCK ACTIONS by 33%.<br><br>Made from clean water, maple sap and irit. Reduces thirst as well as stamina when blocking.",
+      "duration": "300 seconds",
       "perk": {
         "name": "Stalwart Shield",
         "effect": "REDUCES the STAMINA cost of BLOCK ACTIONS by 33%.<br><br>Made from clean water, maple sap and irit. Reduces thirst as well as stamina when blocking."
