@@ -774,10 +774,8 @@
   },
   {
     "page_name": "Stone Club",
-    "item_description": "A primitive weapon made from stone, perfect for early adventurers.",
-    "item_name": "Stone Club",
-    "item_type": "Melee Weapon",
-    "page_name_sub": "Stone Club",
+    "item_weight": 4.5,
+    "item_stacklimit": 1,
     "json": {
       "type": "Melee Weapon",
       "description": "A primitive weapon made from stone, perfect for early adventurers.",
@@ -785,10 +783,14 @@
       "image": "[[File:Stone Club.png|32px]]",
       "name": "Stone Club",
       "weight": "4.5",
+      "stacklimit": "1",
       "image_raw": "Stone Club.png"
     },
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Stone Club",
+    "item_description": "A primitive weapon made from stone, perfect for early adventurers.",
     "item_repair": "1 [[Stone]]",
-    "item_weight": 4.5
+    "item_name": "Stone Club"
   },
   {
     "page_name": "Tattered Cape",
@@ -1485,10 +1487,8 @@
   },
   {
     "page_name": "Bronze Dagger",
-    "item_description": "A small blade forged from bronze, suitable for close combat.",
-    "item_name": "Bronze Dagger",
-    "item_type": "Melee Weapon",
-    "page_name_sub": "Bronze Dagger",
+    "item_weight": 5,
+    "item_stacklimit": 1,
     "json": {
       "type": "Melee Weapon",
       "description": "A small blade forged from bronze, suitable for close combat.",
@@ -1496,10 +1496,14 @@
       "image": "[[File:Bronze Dagger.png|32px]]",
       "name": "Bronze Dagger",
       "weight": "5.0",
+      "stacklimit": "1",
       "image_raw": "Bronze Dagger.png"
     },
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Bronze Dagger",
+    "item_description": "A small blade forged from bronze, suitable for close combat.",
     "item_repair": "1 [[Bronze Bar]]",
-    "item_weight": 5
+    "item_name": "Bronze Dagger"
   },
   {
     "page_name": "Iron Logging Axe",
@@ -1629,10 +1633,8 @@
   },
   {
     "page_name": "Goblin \"Swingslash\"",
-    "item_description": "A surprisingly nasty little axe. Popular with goblin warriors.",
-    "item_name": "Goblin \"Swingslash\"",
-    "item_type": "Melee Weapon",
-    "page_name_sub": "Goblin \"Swingslash\"",
+    "item_weight": 4.5,
+    "item_stacklimit": 1,
     "json": {
       "type": "Melee Weapon",
       "description": "A surprisingly nasty little axe. Popular with goblin warriors.",
@@ -1640,17 +1642,19 @@
       "image": "[[File:Goblin \"Swingslash\".png|32px]]",
       "name": "Goblin \"Swingslash\"",
       "weight": "4.5",
+      "stacklimit": "1",
       "image_raw": "Goblin \"Swingslash\".png"
     },
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Goblin \"Swingslash\"",
+    "item_description": "A surprisingly nasty little axe. Popular with goblin warriors.",
     "item_repair": "2 [[Animal Bone]]s",
-    "item_weight": 4.5
+    "item_name": "Goblin \"Swingslash\""
   },
   {
     "page_name": "Bone Dagger",
-    "item_description": "A sinister weapon, crafted from the bones of fallen creatures.",
-    "item_name": "Bone Dagger",
-    "item_type": "Melee Weapon",
-    "page_name_sub": "Bone Dagger",
+    "item_weight": 5,
+    "item_stacklimit": 1,
     "json": {
       "type": "Melee Weapon",
       "description": "A sinister weapon, crafted from the bones of fallen creatures.",
@@ -1658,10 +1662,14 @@
       "image": "[[File:Bone Dagger.png|32px]]",
       "name": "Bone Dagger",
       "weight": "5.0",
+      "stacklimit": "1",
       "image_raw": "Bone Dagger.png"
     },
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Bone Dagger",
+    "item_description": "A sinister weapon, crafted from the bones of fallen creatures.",
     "item_repair": "1 [[Small Animal Fang]]",
-    "item_weight": 5
+    "item_name": "Bone Dagger"
   },
   {
     "page_name": "Staff of Light",
@@ -2068,10 +2076,8 @@
   },
   {
     "page_name": "Bone Club",
-    "item_description": "A primitive weapon made from bone, perfect for smashing other bones.",
-    "item_name": "Bone Club",
-    "item_type": "Melee Weapon",
-    "page_name_sub": "Bone Club",
+    "item_weight": 4.5,
+    "item_stacklimit": 1,
     "json": {
       "type": "Melee Weapon",
       "description": "A primitive weapon made from bone, perfect for smashing other bones.",
@@ -2079,10 +2085,14 @@
       "image": "[[File:Bone Club.png|32px]]",
       "name": "Bone Club",
       "weight": "4.5",
+      "stacklimit": "1",
       "image_raw": "Bone Club.png"
     },
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Bone Club",
+    "item_description": "A primitive weapon made from bone, perfect for smashing other bones.",
     "item_repair": "1 [[Animal Bone]]",
-    "item_weight": 4.5
+    "item_name": "Bone Club"
   },
   {
     "page_name": "Reinforced Helmet",
@@ -2591,10 +2601,8 @@
   },
   {
     "page_name": "Stone Dagger",
-    "item_description": "A rudimentary blade, handy in close combat.",
-    "item_name": "Stone Dagger",
-    "item_type": "Melee Weapon",
-    "page_name_sub": "Stone Dagger",
+    "item_weight": 5,
+    "item_stacklimit": 1,
     "json": {
       "type": "Melee Weapon",
       "description": "A rudimentary blade, handy in close combat.",
@@ -2602,10 +2610,14 @@
       "image": "[[File:Stone Dagger.png|32px]]",
       "name": "Stone Dagger",
       "weight": "5.0",
+      "stacklimit": "1",
       "image_raw": "Stone Dagger.png"
     },
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Stone Dagger",
+    "item_description": "A rudimentary blade, handy in close combat.",
     "item_repair": "1 [[Stone]]",
-    "item_weight": 5
+    "item_name": "Stone Dagger"
   },
   {
     "page_name": "Bramblemead Cape",
@@ -3657,10 +3669,8 @@
   },
   {
     "page_name": "Wooden Training Sword",
-    "item_description": "Causes damage to their self esteem more than anything really.",
-    "item_name": "Wooden Training Sword",
-    "item_type": "Melee Weapon",
-    "page_name_sub": "Wooden Training Sword",
+    "item_weight": 15,
+    "item_stacklimit": 1,
     "json": {
       "type": "Melee Weapon",
       "description": "Causes damage to their self esteem more than anything really.",
@@ -3668,10 +3678,14 @@
       "image": "[[File:Wooden Training Sword.png|32px]]",
       "name": "Wooden Training Sword",
       "weight": "15.0",
+      "stacklimit": "1",
       "image_raw": "Wooden Training Sword.png"
     },
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Wooden Training Sword",
+    "item_description": "Causes damage to their self esteem more than anything really.",
     "item_repair": "2 [[Ash Logs]]",
-    "item_weight": 15
+    "item_name": "Wooden Training Sword"
   },
   {
     "page_name": "Weak Focused Attack Potion",
@@ -4334,10 +4348,8 @@
   },
   {
     "page_name": "Bronze Sword",
-    "item_description": "A well-balanced bronze blade.",
-    "item_name": "Bronze Sword",
-    "item_type": "Melee Weapon",
-    "page_name_sub": "Bronze Sword",
+    "item_weight": 15,
+    "item_stacklimit": 1,
     "json": {
       "type": "Melee Weapon",
       "description": "A well-balanced bronze blade.",
@@ -4345,10 +4357,14 @@
       "image": "[[File:Bronze Sword.png|32px]]",
       "name": "Bronze Sword",
       "weight": "15.0",
+      "stacklimit": "1",
       "image_raw": "Bronze Sword.png"
     },
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Bronze Sword",
+    "item_description": "A well-balanced bronze blade.",
     "item_repair": "1 [[Bronze Bar]]",
-    "item_weight": 15
+    "item_name": "Bronze Sword"
   },
   {
     "page_name": "Ground Stone",
@@ -4600,10 +4616,8 @@
   },
   {
     "page_name": "Iron Dagger",
-    "item_description": "A sharp, compact weapon, perfect for quick strikes in close combat.",
-    "item_name": "Iron Dagger",
-    "item_type": "Melee Weapon",
-    "page_name_sub": "Iron Dagger",
+    "item_weight": 5,
+    "item_stacklimit": 1,
     "json": {
       "type": "Melee Weapon",
       "description": "A sharp, compact weapon, perfect for quick strikes in close combat.",
@@ -4611,10 +4625,14 @@
       "image": "[[File:Iron Dagger.png|32px]]",
       "name": "Iron Dagger",
       "weight": "5.0",
+      "stacklimit": "1",
       "image_raw": "Iron Dagger.png"
     },
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Iron Dagger",
+    "item_description": "A sharp, compact weapon, perfect for quick strikes in close combat.",
     "item_repair": "1 [[Iron Bar]]",
-    "item_weight": 5
+    "item_name": "Iron Dagger"
   },
   {
     "page_name": "Iron Greataxe",
@@ -4654,10 +4672,8 @@
   },
   {
     "page_name": "Iron Sword",
-    "item_description": "A well-crafted iron blade for skilled combatants.",
-    "item_name": "Iron Sword",
-    "item_type": "Melee Weapon",
-    "page_name_sub": "Iron Sword",
+    "item_weight": 15,
+    "item_stacklimit": 1,
     "json": {
       "type": "Melee Weapon",
       "description": "A well-crafted iron blade for skilled combatants.",
@@ -4665,10 +4681,14 @@
       "image": "[[File:Iron Sword.png|32px]]",
       "name": "Iron Sword",
       "weight": "15.0",
+      "stacklimit": "1",
       "image_raw": "Iron Sword.png"
     },
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Iron Sword",
+    "item_description": "A well-crafted iron blade for skilled combatants.",
     "item_repair": "1 [[Iron Bar]]",
-    "item_weight": 15
+    "item_name": "Iron Sword"
   },
   {
     "page_name": "Iron Warhammer",
@@ -4898,10 +4918,8 @@
   },
   {
     "page_name": "Chieftain's Blade",
-    "item_description": "The sword of a goblin cheiftain, used to spread war in the name of the Big High War God.",
-    "item_name": "Chieftain's Blade",
-    "item_type": "Melee Weapon",
-    "page_name_sub": "Chieftain's Blade",
+    "item_weight": 5.5,
+    "item_stacklimit": 1,
     "json": {
       "type": "Melee Weapon",
       "description": "The sword of a goblin cheiftain, used to spread war in the name of the Big High War God.",
@@ -4909,10 +4927,14 @@
       "image": "[[File:Chieftain's Blade.png|32px]]",
       "name": "Chieftain's Blade",
       "weight": "5.5",
+      "stacklimit": "1",
       "image_raw": "Chieftain's Blade.png"
     },
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Chieftain's Blade",
+    "item_description": "The sword of a goblin cheiftain, used to spread war in the name of the Big High War God.",
     "item_repair": "2 [[Bronze Bar]]s",
-    "item_weight": 5.5
+    "item_name": "Chieftain's Blade"
   },
   {
     "page_name": "Ground Sandstone",
@@ -11454,17 +11476,19 @@
     "page_name": "Mithril Sword",
     "item_description": "A well-forged mithril blade for trained combatants.",
     "item_name": "Mithril Sword",
-    "item_weight": 15,
-    "page_name_sub": "Mithril Sword",
+    "item_type": "Melee Weapon",
+    "item_stacklimit": 1,
     "json": {
       "type": "Melee Weapon",
       "description": "A well-forged mithril blade for trained combatants.",
       "image": "[[File:Mithril Sword.png|32px]]",
       "name": "Mithril Sword",
       "weight": "15.0",
+      "stacklimit": "1",
       "image_raw": "Mithril Sword.png"
     },
-    "item_type": "Melee Weapon"
+    "item_weight": 15,
+    "page_name_sub": "Mithril Sword"
   },
   {
     "page_name": "PLAN: Grave 1",
@@ -12350,17 +12374,21 @@
   },
   {
     "page_name": "Shattered Black Blade",
+    "item_description": "The remnants of a Zamorakian weapon. Perhaps you could learn something from it.",
     "item_name": "Shattered Black Blade",
     "item_type": "Vestige",
-    "page_name_sub": "Shattered Black Blade",
+    "item_stacklimit": 99,
     "json": {
       "type": "Vestige",
-      "description": "The Remnants of a Zamorakian weapon. Perhaps you could learn something from it.",
+      "description": "The remnants of a Zamorakian weapon. Perhaps you could learn something from it.",
       "image": "[[File:Shattered Black Blade.png|32px]]",
       "name": "Shattered Black Blade",
+      "weight": "0.0",
+      "stacklimit": "99",
       "image_raw": "Shattered Black Blade.png"
     },
-    "item_description": "The Remnants of a Zamorakian weapon. Perhaps you could learn something from it."
+    "item_weight": 0,
+    "page_name_sub": "Shattered Black Blade"
   },
   {
     "page_name": "Maple Sap",
@@ -12854,17 +12882,19 @@
     "page_name": "Black Sword",
     "item_description": "A sword in the style of the Black Knights, forged from black metal.",
     "item_name": "Black Sword",
-    "item_weight": 15,
-    "page_name_sub": "Black Sword",
+    "item_type": "Melee Weapon",
+    "item_stacklimit": 1,
     "json": {
       "type": "Melee Weapon",
       "description": "A sword in the style of the Black Knights, forged from black metal.",
       "image": "[[File:Black Sword.png|32px]]",
       "name": "Black Sword",
       "weight": "15.0",
+      "stacklimit": "1",
       "image_raw": "Black Sword.png"
     },
-    "item_type": "Melee Weapon"
+    "item_weight": 15,
+    "page_name_sub": "Black Sword"
   },
   {
     "page_name": "Maple Shortbow",
@@ -13433,6 +13463,24 @@
       "image_raw": "Black Crossbow Limbs.png"
     },
     "item_type": "Component"
+  },
+  {
+    "page_name": "Sinister Mechanism",
+    "item_description": "The remnants of a Zamorakian weapon. Perhaps you could learn something from it.",
+    "item_name": "Sinister Mechanism",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The remnants of a Zamorakian weapon. Perhaps you could learn something from it.",
+      "image": "[[File:Sinister Mechanism.png|32px]]",
+      "name": "Sinister Mechanism",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Sinister Mechanism.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Sinister Mechanism"
   },
   {
     "page_name": "Shadow Body",
@@ -14077,18 +14125,218 @@
   },
   {
     "page_name": "Bloodstained Black Visor",
-    "item_stacklimit": 99,
+    "item_description": "The remnants of a Zamorakian helmet. Perhaps you could learn something from it.",
     "item_name": "Bloodstained Black Visor",
-    "item_weight": 0,
-    "page_name_sub": "Bloodstained Black Visor",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
     "json": {
-      "type": "Consumable",
+      "type": "Vestige",
+      "description": "The remnants of a Zamorakian helmet. Perhaps you could learn something from it.",
       "image": "[[File:Bloodstained Black Visor.png|32px]]",
       "name": "Bloodstained Black Visor",
       "weight": "0.0",
       "stacklimit": "99",
       "image_raw": "Bloodstained Black Visor.png"
     },
-    "item_type": "Consumable"
+    "item_weight": 0,
+    "page_name_sub": "Bloodstained Black Visor"
+  },
+  {
+    "page_name": "Shard of Black Pauldron",
+    "item_description": "The remnants of a Zamorakian platebody. Perhaps you could learn something from it.",
+    "item_name": "Shard of Black Pauldron",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The remnants of a Zamorakian platebody. Perhaps you could learn something from it.",
+      "image": "[[File:Shard of Black Pauldron.png|32px]]",
+      "name": "Shard of Black Pauldron",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Shard of Black Pauldron.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Shard of Black Pauldron"
+  },
+  {
+    "page_name": "Grim Black Codpiece",
+    "item_description": "The remnants of Zamorakian platelegs. Perhaps you could learn something from it.",
+    "item_name": "Grim Black Codpiece",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The remnants of Zamorakian platelegs. Perhaps you could learn something from it.",
+      "image": "[[File:Grim Black Codpiece.png|32px]]",
+      "name": "Grim Black Codpiece",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Grim Black Codpiece.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Grim Black Codpiece"
+  },
+  {
+    "page_name": "Sodden Black Leather",
+    "item_description": "The remnants of a Zamorakian cowl. Perhaps you could learn something from it.",
+    "item_name": "Sodden Black Leather",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The remnants of a Zamorakian cowl. Perhaps you could learn something from it.",
+      "image": "[[File:Sodden Black Leather.png|32px]]",
+      "name": "Sodden Black Leather",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Sodden Black Leather.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Sodden Black Leather"
+  },
+  {
+    "page_name": "Limp Black Lining",
+    "item_description": "The remnants of a Zamorakian body armour. Perhaps you could learn something from it.",
+    "item_name": "Limp Black Lining",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The remnants of a Zamorakian body armour. Perhaps you could learn something from it.",
+      "image": "[[File:Limp Black Lining.png|32px]]",
+      "name": "Limp Black Lining",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Limp Black Lining.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Limp Black Lining"
+  },
+  {
+    "page_name": "Dusty Black Pocket",
+    "item_description": "The remnants of Zamorakian chaps. Perhaps you could learn something from it.",
+    "item_name": "Dusty Black Pocket",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The remnants of Zamorakian chaps. Perhaps you could learn something from it.",
+      "image": "[[File:Dusty Black Pocket.png|32px]]",
+      "name": "Dusty Black Pocket",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Dusty Black Pocket.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Dusty Black Pocket"
+  },
+  {
+    "page_name": "Fabric That Hums With You",
+    "item_description": "The remnants of a Zamorakian mage hood. Perhaps you could learn something from it.",
+    "item_name": "Fabric That Hums With You",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The remnants of a Zamorakian mage hood. Perhaps you could learn something from it.",
+      "image": "[[File:Fabric That Hums With You.png|32px]]",
+      "name": "Fabric That Hums With You",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Fabric That Hums With You.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Fabric That Hums With You"
+  },
+  {
+    "page_name": "Whispering Elbow Pad",
+    "item_description": "The remnants of a Zamorakian mage robe. Perhaps you could learn something from it.",
+    "item_name": "Whispering Elbow Pad",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The remnants of a Zamorakian mage robe. Perhaps you could learn something from it.",
+      "image": "[[File:Whispering Elbow Pad.png|32px]]",
+      "name": "Whispering Elbow Pad",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Whispering Elbow Pad.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Whispering Elbow Pad"
+  },
+  {
+    "page_name": "Wizard's Kneecap",
+    "item_description": "The remnants of Zamorakian mage robe legs. Perhaps you could learn something from it.",
+    "item_name": "Wizard's Kneecap",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The remnants of Zamorakian mage robe legs. Perhaps you could learn something from it.",
+      "image": "[[File:Wizard's Kneecap.png|32px]]",
+      "name": "Wizard's Kneecap",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Wizard's Kneecap.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Wizard's Kneecap"
+  },
+  {
+    "page_name": "Bloodstained Hilt",
+    "item_description": "The remnants of a Zamorakian weapon. Perhaps you could learn something from it.",
+    "item_name": "Bloodstained Hilt",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The remnants of a Zamorakian weapon. Perhaps you could learn something from it.",
+      "image": "[[File:Bloodstained Hilt.png|32px]]",
+      "name": "Bloodstained Hilt",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Bloodstained Hilt.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Bloodstained Hilt"
+  },
+  {
+    "page_name": "Demonic Metal Rod",
+    "item_description": "The remnants of a Zamorakian weapon. Perhaps you could learn something from it.",
+    "item_name": "Demonic Metal Rod",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The remnants of a Zamorakian weapon. Perhaps you could learn something from it.",
+      "image": "[[File:Demonic Metal Rod.png|32px]]",
+      "name": "Demonic Metal Rod",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Demonic Metal Rod.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Demonic Metal Rod"
+  },
+  {
+    "page_name": "Battle-Scarred Black Metal",
+    "item_description": "The remnants of a Zamorakian shield. Perhaps you could learn something from it.",
+    "item_name": "Battle-Scarred Black Metal",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The remnants of a Zamorakian shield. Perhaps you could learn something from it.",
+      "image": "[[File:Battle-Scarred Black Metal.png|32px]]",
+      "name": "Battle-Scarred Black Metal",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Battle-Scarred Black Metal.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Battle-Scarred Black Metal"
   }
 ]

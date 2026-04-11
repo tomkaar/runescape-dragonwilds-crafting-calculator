@@ -1212,7 +1212,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Stone_Club",
-    "weight": 4.5
+    "weight": 4.5,
+    "stackLimit": 1
   },
   {
     "id": "37f82a8810db",
@@ -2861,7 +2862,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Bronze_Dagger",
-    "weight": 5
+    "weight": 5,
+    "stackLimit": 1
   },
   {
     "id": "7a693a4ca251",
@@ -3192,7 +3194,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Goblin_\"Swingslash\"",
-    "weight": 4.5
+    "weight": 4.5,
+    "stackLimit": 1
   },
   {
     "id": "cd977a4b8619",
@@ -3233,7 +3236,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Bone_Dagger",
-    "weight": 5
+    "weight": 5,
+    "stackLimit": 1
   },
   {
     "id": "af068e8ca3ed",
@@ -3931,7 +3935,7 @@
       }
     ],
     "skills": [
-      "Artisan"
+      "Construction"
     ],
     "facilities": [
       "Build Menu"
@@ -4022,7 +4026,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Bone_Club",
-    "weight": 4.5
+    "weight": 4.5,
+    "stackLimit": 1
   },
   {
     "id": "3046007b1a6b",
@@ -4989,7 +4994,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Stone_Dagger",
-    "weight": 5
+    "weight": 5,
+    "stackLimit": 1
   },
   {
     "id": "5b489765463c",
@@ -6699,7 +6705,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Wooden_Training_Sword",
-    "weight": 15
+    "weight": 15,
+    "stackLimit": 1
   },
   {
     "id": "122a0693c622",
@@ -7469,7 +7476,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Bronze_Sword",
-    "weight": 15
+    "weight": 15,
+    "stackLimit": 1
   },
   {
     "id": "3e6aa25999b7",
@@ -7837,7 +7845,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Iron_Dagger",
-    "weight": 5
+    "weight": 5,
+    "stackLimit": 1
   },
   {
     "id": "9cb559390b3b",
@@ -7972,7 +7981,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Iron_Sword",
-    "weight": 15
+    "weight": 15,
+    "stackLimit": 1
   },
   {
     "id": "d58183122122",
@@ -8252,7 +8262,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Chieftain's_Blade",
-    "weight": 5.5
+    "weight": 5.5,
+    "stackLimit": 1
   },
   {
     "id": "5694edac0dd6",
@@ -28083,7 +28094,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Mithril_Sword",
-    "weight": 15
+    "weight": 15,
+    "stackLimit": 1
   },
   {
     "id": "c4ffdeda3a9d",
@@ -30278,7 +30290,8 @@
       "Smithing Anvil"
     ],
     "wikiLink": "Black_Sword",
-    "weight": 15
+    "weight": 15,
+    "stackLimit": 1
   },
   {
     "id": "44fbf64ea31d",
@@ -38118,7 +38131,9 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Shattered_Black_Blade"
+    "wikiLink": "Shattered_Black_Blade",
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "ea956bb59948",
@@ -38216,6 +38231,26 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Broken_Titan's_Wrath",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "4ae56accc224",
+    "name": "Sinister Mechanism",
+    "image": "Sinister Mechanism.png",
+    "variants": [
+      {
+        "id": "4ae56accc224",
+        "name": "Sinister Mechanism",
+        "image": "Sinister Mechanism.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Sinister_Mechanism",
     "weight": 0,
     "stackLimit": 99
   },
@@ -38476,6 +38511,226 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Bloodstained_Black_Visor",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "3f009a93a144",
+    "name": "Shard of Black Pauldron",
+    "image": "Shard of Black Pauldron.png",
+    "variants": [
+      {
+        "id": "3f009a93a144",
+        "name": "Shard of Black Pauldron",
+        "image": "Shard of Black Pauldron.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Shard_of_Black_Pauldron",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "6deaa9d30826",
+    "name": "Grim Black Codpiece",
+    "image": "Grim Black Codpiece.png",
+    "variants": [
+      {
+        "id": "6deaa9d30826",
+        "name": "Grim Black Codpiece",
+        "image": "Grim Black Codpiece.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Grim_Black_Codpiece",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "a3f4c623dbe4",
+    "name": "Sodden Black Leather",
+    "image": "Sodden Black Leather.png",
+    "variants": [
+      {
+        "id": "a3f4c623dbe4",
+        "name": "Sodden Black Leather",
+        "image": "Sodden Black Leather.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Sodden_Black_Leather",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "b6a80da867d6",
+    "name": "Limp Black Lining",
+    "image": "Limp Black Lining.png",
+    "variants": [
+      {
+        "id": "b6a80da867d6",
+        "name": "Limp Black Lining",
+        "image": "Limp Black Lining.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Limp_Black_Lining",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "4acaf351d2ce",
+    "name": "Dusty Black Pocket",
+    "image": "Dusty Black Pocket.png",
+    "variants": [
+      {
+        "id": "4acaf351d2ce",
+        "name": "Dusty Black Pocket",
+        "image": "Dusty Black Pocket.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Dusty_Black_Pocket",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "173c15faaccc",
+    "name": "Fabric That Hums With You",
+    "image": "Fabric That Hums With You.png",
+    "variants": [
+      {
+        "id": "173c15faaccc",
+        "name": "Fabric That Hums With You",
+        "image": "Fabric That Hums With You.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Fabric_That_Hums_With_You",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "e387026b8194",
+    "name": "Whispering Elbow Pad",
+    "image": "Whispering Elbow Pad.png",
+    "variants": [
+      {
+        "id": "e387026b8194",
+        "name": "Whispering Elbow Pad",
+        "image": "Whispering Elbow Pad.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Whispering_Elbow_Pad",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "e4a96125217d",
+    "name": "Wizard's Kneecap",
+    "image": "Wizard's Kneecap.png",
+    "variants": [
+      {
+        "id": "e4a96125217d",
+        "name": "Wizard's Kneecap",
+        "image": "Wizard's Kneecap.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Wizard's_Kneecap",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "b078a18389ec",
+    "name": "Bloodstained Hilt",
+    "image": "Bloodstained Hilt.png",
+    "variants": [
+      {
+        "id": "b078a18389ec",
+        "name": "Bloodstained Hilt",
+        "image": "Bloodstained Hilt.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Bloodstained_Hilt",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "065e063f94bd",
+    "name": "Demonic Metal Rod",
+    "image": "Demonic Metal Rod.png",
+    "variants": [
+      {
+        "id": "065e063f94bd",
+        "name": "Demonic Metal Rod",
+        "image": "Demonic Metal Rod.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Demonic_Metal_Rod",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "1c0705e933b8",
+    "name": "Battle-Scarred Black Metal",
+    "image": "Battle-Scarred Black Metal.png",
+    "variants": [
+      {
+        "id": "1c0705e933b8",
+        "name": "Battle-Scarred Black Metal",
+        "image": "Battle-Scarred Black Metal.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Battle-Scarred_Black_Metal",
     "weight": 0,
     "stackLimit": 99
   }
