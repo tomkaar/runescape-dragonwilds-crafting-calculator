@@ -1326,12 +1326,12 @@
     "image": "Wild Pie.png",
     "variants": [
       {
-        "id": "e1052c848ae9",
+        "id": "fa71ae8e70c4",
         "name": "Wild Pie",
         "image": "Wild Pie.png",
         "variantName": null,
         "recipe": {
-          "id": "6f2b3b0b9a15",
+          "id": "d4dcaca43041",
           "facility": "Cooking Range",
           "materials": [
             {
@@ -1339,11 +1339,11 @@
               "quantity": 1
             },
             {
-              "itemId": "01dbea934488",
+              "itemId": "e882154bb2ef",
               "quantity": 1
             },
             {
-              "itemId": "ea552b5a7378",
+              "itemId": "01dbea934488",
               "quantity": 1
             },
             {
@@ -1372,14 +1372,18 @@
     "image": "Meat Pizza.png",
     "variants": [
       {
-        "id": "4256cde9d9e1",
+        "id": "439f5d25bd85",
         "name": "Meat Pizza",
         "image": "Meat Pizza.png",
         "variantName": null,
         "recipe": {
-          "id": "4b74c2e6c1c4",
+          "id": "3e2382851fd6",
           "facility": "Cooking Range",
           "materials": [
+            {
+              "itemId": "e882154bb2ef",
+              "quantity": 1
+            },
             {
               "itemId": "60ede1aa9393",
               "quantity": 1
@@ -1390,10 +1394,6 @@
             },
             {
               "itemId": "d8e9441d3367",
-              "quantity": 1
-            },
-            {
-              "itemId": "af1e0365c083",
               "quantity": 1
             }
           ],
@@ -26026,7 +26026,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "Tastefully Torn Tights"
+          "Tastefully torn tights"
         ]
       }
     ],
@@ -28453,7 +28453,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Blood Stained Black Visor"
+          "Bloodstained Black Visor"
         ]
       }
     ],
@@ -29093,7 +29093,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Shard of Black Pauldron"
+        ]
       }
     ],
     "skills": [
@@ -29142,7 +29144,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Grim Black Codpiece"
+        ]
       }
     ],
     "skills": [
@@ -30233,7 +30237,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Sodden Black Leather"
+        ]
       }
     ],
     "skills": [
@@ -31530,7 +31536,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Limp Black Lining"
+        ]
       }
     ],
     "skills": [
@@ -31575,7 +31583,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Dusty Black Pocket"
+        ]
       }
     ],
     "skills": [
@@ -32340,6 +32350,336 @@
     "wikiLink": "Black_Shield",
     "weight": 10,
     "stackLimit": 0
+  },
+  {
+    "id": "7148372dd253",
+    "name": "Dowdun Reach Cape",
+    "image": "Dowdun Reach Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Dowdun Reach Cape",
+        "image": "Dowdun Reach Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Torn Tapestry"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Dowdun_Reach_Cape",
+    "weight": 0
+  },
+  {
+    "id": "5e29d8631d99",
+    "name": "Red Hex Cape",
+    "image": "Red Hex Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Red Hex Cape",
+        "image": "Red Hex Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Soiled Red Cloth"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Red_Hex_Cape",
+    "weight": 0
+  },
+  {
+    "id": "69e04accf0d0",
+    "name": "Red Dyad Cape",
+    "image": "Red Dyad Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Red Dyad Cape",
+        "image": "Red Dyad Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Chewed Red Cloth"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Red_Dyad_Cape",
+    "weight": 0
+  },
+  {
+    "id": "e5faaf4c70db",
+    "name": "Green Dyad Cape",
+    "image": "Green Dyad Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Green Dyad Cape",
+        "image": "Green Dyad Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Chewed Green Cloth"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Green_Dyad_Cape",
+    "weight": 0
+  },
+  {
+    "id": "e862b61cd349",
+    "name": "Blue Dyad Cape",
+    "image": "Blue Dyad Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Blue Dyad Cape",
+        "image": "Blue Dyad Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Chewed Blue Cloth"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Blue_Dyad_Cape",
+    "weight": 0
+  },
+  {
+    "id": "38aa31efc65c",
+    "name": "Yellow Dyad Cape",
+    "image": "Yellow Dyad Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Yellow Dyad Cape",
+        "image": "Yellow Dyad Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Chewed Yellow Cloth"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Yellow_Dyad_Cape",
+    "weight": 0
+  },
+  {
+    "id": "5a2760aa86ec",
+    "name": "Pink Dyad Cape",
+    "image": "Pink Dyad Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Pink Dyad Cape",
+        "image": "Pink Dyad Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Chewed Pink Cloth"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Pink_Dyad_Cape",
+    "weight": 0
+  },
+  {
+    "id": "b759e4145972",
+    "name": "Pink Hex Cape",
+    "image": "Pink Hex Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Pink Hex Cape",
+        "image": "Pink Hex Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Soiled Pink Cloth"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Pink_Hex_Cape",
+    "weight": 0
+  },
+  {
+    "id": "087be7e2c6e2",
+    "name": "Yellow Hex Cape",
+    "image": "Yellow Hex Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Yellow Hex Cape",
+        "image": "Yellow Hex Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Soiled Yellow Cloth"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Yellow_Hex_Cape",
+    "weight": 0
+  },
+  {
+    "id": "7faa666837f0",
+    "name": "Blue Hex Cape",
+    "image": "Blue Hex Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Blue Hex Cape",
+        "image": "Blue Hex Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Soiled Blue Cloth"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Blue_Hex_Cape",
+    "weight": 0
+  },
+  {
+    "id": "16c514ea717e",
+    "name": "Green Hex Cape",
+    "image": "Green Hex Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Green Hex Cape",
+        "image": "Green Hex Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Soiled Green Cloth"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Green_Hex_Cape",
+    "weight": 0
   },
   {
     "id": "6a5fa59fd28f",
@@ -38731,6 +39071,226 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Battle-Scarred_Black_Metal",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "fce4cfef150b",
+    "name": "Torn Tapestry",
+    "image": "Torn Tapestry.png",
+    "variants": [
+      {
+        "id": "fce4cfef150b",
+        "name": "Torn Tapestry",
+        "image": "Torn Tapestry.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Torn_Tapestry",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "d2abcaa54b6e",
+    "name": "Soiled Green Cloth",
+    "image": "Soiled Green Cloth.png",
+    "variants": [
+      {
+        "id": "d2abcaa54b6e",
+        "name": "Soiled Green Cloth",
+        "image": "Soiled Green Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Soiled_Green_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "8f5400cd4eae",
+    "name": "Soiled Red Cloth",
+    "image": "Soiled Red Cloth.png",
+    "variants": [
+      {
+        "id": "8f5400cd4eae",
+        "name": "Soiled Red Cloth",
+        "image": "Soiled Red Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Soiled_Red_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "7cb650100d87",
+    "name": "Soiled Blue Cloth",
+    "image": "Soiled Blue Cloth.png",
+    "variants": [
+      {
+        "id": "7cb650100d87",
+        "name": "Soiled Blue Cloth",
+        "image": "Soiled Blue Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Soiled_Blue_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "42829e485ba5",
+    "name": "Soiled Yellow Cloth",
+    "image": "Soiled Yellow Cloth.png",
+    "variants": [
+      {
+        "id": "42829e485ba5",
+        "name": "Soiled Yellow Cloth",
+        "image": "Soiled Yellow Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Soiled_Yellow_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "42beb11f09b1",
+    "name": "Soiled Pink Cloth",
+    "image": "Soiled Pink Cloth.png",
+    "variants": [
+      {
+        "id": "42beb11f09b1",
+        "name": "Soiled Pink Cloth",
+        "image": "Soiled Pink Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Soiled_Pink_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "0983315eb0bd",
+    "name": "Chewed Pink Cloth",
+    "image": "Chewed Pink Cloth.png",
+    "variants": [
+      {
+        "id": "0983315eb0bd",
+        "name": "Chewed Pink Cloth",
+        "image": "Chewed Pink Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Chewed_Pink_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "8029e85ac524",
+    "name": "Chewed Yellow Cloth",
+    "image": "Chewed Yellow Cloth.png",
+    "variants": [
+      {
+        "id": "8029e85ac524",
+        "name": "Chewed Yellow Cloth",
+        "image": "Chewed Yellow Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Chewed_Yellow_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "79eba774b358",
+    "name": "Chewed Blue Cloth",
+    "image": "Chewed Blue Cloth.png",
+    "variants": [
+      {
+        "id": "79eba774b358",
+        "name": "Chewed Blue Cloth",
+        "image": "Chewed Blue Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Chewed_Blue_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "004f433d5204",
+    "name": "Chewed Green Cloth",
+    "image": "Chewed Green Cloth.png",
+    "variants": [
+      {
+        "id": "004f433d5204",
+        "name": "Chewed Green Cloth",
+        "image": "Chewed Green Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Chewed_Green_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "d323e470973e",
+    "name": "Chewed Red Cloth",
+    "image": "Chewed Red Cloth.png",
+    "variants": [
+      {
+        "id": "d323e470973e",
+        "name": "Chewed Red Cloth",
+        "image": "Chewed Red Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Chewed_Red_Cloth",
     "weight": 0,
     "stackLimit": 99
   }
