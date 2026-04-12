@@ -2002,7 +2002,7 @@
       "Fried Onions",
       "Baked Potato",
       "Dried Dwellberries",
-      "Dried Redberries"
+      "Bread"
     ],
     "uses_skill": [
       "Cooking"
@@ -2039,11 +2039,11 @@
         },
         {
           "quantity": "1",
-          "name": "Dried Redberries",
-          "link": "Dried Redberries",
+          "name": "Bread",
+          "link": "Bread",
           "qty": "1",
-          "item": "Dried Redberries",
-          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
         }
       ],
       "skills": [
@@ -2073,7 +2073,7 @@
       "Flank Steak",
       "Fillet",
       "Haunch",
-      "Rat Roast"
+      "Bread"
     ],
     "uses_skill": [
       "Cooking"
@@ -2110,11 +2110,11 @@
         },
         {
           "quantity": "1",
-          "name": "Rat Roast",
-          "link": "Rat Roast",
+          "name": "Bread",
+          "link": "Bread",
           "qty": "1",
-          "item": "Rat Roast",
-          "image": "[[File:Rat Roast.png|30px|link=Rat Roast]]"
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
         }
       ],
       "skills": [
@@ -40141,13 +40141,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "Tastefully Torn Tights"
+      "Tastefully torn tights"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "Tastefully Torn Tights",
+      "recipe": "Tastefully torn tights",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -43779,13 +43779,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Blood Stained Black Visor"
+      "Bloodstained Black Visor"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Blood Stained Black Visor",
+      "recipe": "Bloodstained Black Visor",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -44741,10 +44741,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Shard of Black Pauldron"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "Shard of Black Pauldron",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -44821,10 +44825,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Grim Black Codpiece"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "Grim Black Codpiece",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -46532,10 +46540,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Sodden Black Leather"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "Sodden Black Leather",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -48361,10 +48373,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Limp Black Lining"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "Limp Black Lining",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -48432,10 +48448,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Dusty Black Pocket"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "Dusty Black Pocket",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -49607,6 +49627,402 @@
     },
     "output": [
       "Black Shield"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Torn Tapestry"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Torn Tapestry",
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Dowdun Reach Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Dowdun Reach Cape",
+        "link": "Dowdun Reach Cape",
+        "qty": 1,
+        "item": "Dowdun Reach Cape",
+        "image": "[[File:Dowdun Reach Cape.png|30px|link=Dowdun Reach Cape]]"
+      }
+    },
+    "output": [
+      "Dowdun Reach Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Soiled Red Cloth"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Soiled Red Cloth",
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Red Hex Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Red Hex Cape",
+        "link": "Red Hex Cape",
+        "qty": 1,
+        "item": "Red Hex Cape",
+        "image": "[[File:Red Hex Cape.png|30px|link=Red Hex Cape]]"
+      }
+    },
+    "output": [
+      "Red Hex Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Chewed Red Cloth"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Chewed Red Cloth",
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Red Dyad Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Red Dyad Cape",
+        "link": "Red Dyad Cape",
+        "qty": 1,
+        "item": "Red Dyad Cape",
+        "image": "[[File:Red Dyad Cape.png|30px|link=Red Dyad Cape]]"
+      }
+    },
+    "output": [
+      "Red Dyad Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Chewed Green Cloth"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Chewed Green Cloth",
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Green Dyad Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Green Dyad Cape",
+        "link": "Green Dyad Cape",
+        "qty": 1,
+        "item": "Green Dyad Cape",
+        "image": "[[File:Green Dyad Cape.png|30px|link=Green Dyad Cape]]"
+      }
+    },
+    "output": [
+      "Green Dyad Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Chewed Blue Cloth"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Chewed Blue Cloth",
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Blue Dyad Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Blue Dyad Cape",
+        "link": "Blue Dyad Cape",
+        "qty": 1,
+        "item": "Blue Dyad Cape",
+        "image": "[[File:Blue Dyad Cape.png|30px|link=Blue Dyad Cape]]"
+      }
+    },
+    "output": [
+      "Blue Dyad Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Chewed Yellow Cloth"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Chewed Yellow Cloth",
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Yellow Dyad Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Yellow Dyad Cape",
+        "link": "Yellow Dyad Cape",
+        "qty": 1,
+        "item": "Yellow Dyad Cape",
+        "image": "[[File:Yellow Dyad Cape.png|30px|link=Yellow Dyad Cape]]"
+      }
+    },
+    "output": [
+      "Yellow Dyad Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Chewed Pink Cloth"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Chewed Pink Cloth",
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Pink Dyad Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pink Dyad Cape",
+        "link": "Pink Dyad Cape",
+        "qty": 1,
+        "item": "Pink Dyad Cape",
+        "image": "[[File:Pink Dyad Cape.png|30px|link=Pink Dyad Cape]]"
+      }
+    },
+    "output": [
+      "Pink Dyad Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Soiled Pink Cloth"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Soiled Pink Cloth",
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Pink Hex Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pink Hex Cape",
+        "link": "Pink Hex Cape",
+        "qty": 1,
+        "item": "Pink Hex Cape",
+        "image": "[[File:Pink Hex Cape.png|30px|link=Pink Hex Cape]]"
+      }
+    },
+    "output": [
+      "Pink Hex Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Soiled Yellow Cloth"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Soiled Yellow Cloth",
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Yellow Hex Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Yellow Hex Cape",
+        "link": "Yellow Hex Cape",
+        "qty": 1,
+        "item": "Yellow Hex Cape",
+        "image": "[[File:Yellow Hex Cape.png|30px|link=Yellow Hex Cape]]"
+      }
+    },
+    "output": [
+      "Yellow Hex Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Soiled Blue Cloth"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Soiled Blue Cloth",
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Blue Hex Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Blue Hex Cape",
+        "link": "Blue Hex Cape",
+        "qty": 1,
+        "item": "Blue Hex Cape",
+        "image": "[[File:Blue Hex Cape.png|30px|link=Blue Hex Cape]]"
+      }
+    },
+    "output": [
+      "Blue Hex Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Soiled Green Cloth"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Soiled Green Cloth",
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Green Hex Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Green Hex Cape",
+        "link": "Green Hex Cape",
+        "qty": 1,
+        "item": "Green Hex Cape",
+        "image": "[[File:Green Hex Cape.png|30px|link=Green Hex Cape]]"
+      }
+    },
+    "output": [
+      "Green Hex Cape"
     ]
   }
 ]

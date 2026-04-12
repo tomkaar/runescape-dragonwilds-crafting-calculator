@@ -14338,5 +14338,379 @@
     },
     "item_weight": 0,
     "page_name_sub": "Battle-Scarred Black Metal"
+  },
+  {
+    "page_name": "Dowdun Reach Cape",
+    "item_description": "There is no better display of mastery of the Dowdun Reach area.",
+    "item_name": "Dowdun Reach Cape",
+    "item_weight": 0,
+    "page_name_sub": "Dowdun Reach Cape",
+    "json": {
+      "type": "Armour",
+      "description": "There is no better display of mastery of the Dowdun Reach area.",
+      "image": "[[File:Dowdun Reach Cape.png|32px]]",
+      "name": "Dowdun Reach Cape",
+      "weight": "0.0",
+      "image_raw": "Dowdun Reach Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Torn Tapestry",
+    "item_description": "A piece of cloth torn from one of Dowdun Reach's tapestries.",
+    "item_name": "Torn Tapestry",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "A piece of cloth torn from one of Dowdun Reach's tapestries.",
+      "image": "[[File:Torn Tapestry.png|32px]]",
+      "name": "Torn Tapestry",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Torn Tapestry.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Torn Tapestry"
+  },
+  {
+    "page_name": "Red Hex Cape",
+    "item_description": "A cape made for its looks more than any kind of magical potency.",
+    "item_name": "Red Hex Cape",
+    "item_weight": 0,
+    "page_name_sub": "Red Hex Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A cape made for its looks more than any kind of magical potency.",
+      "image": "[[File:Red Hex Cape.png|32px]]",
+      "name": "Red Hex Cape",
+      "weight": "0.0",
+      "image_raw": "Red Hex Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Red Dyad Cape",
+    "item_description": "A cape made for its looks more than any kind of magical potency.",
+    "item_name": "Red Dyad Cape",
+    "item_weight": 0,
+    "page_name_sub": "Red Dyad Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A cape made for its looks more than any kind of magical potency.",
+      "image": "[[File:Red Dyad Cape.png|32px]]",
+      "name": "Red Dyad Cape",
+      "weight": "0.0",
+      "image_raw": "Red Dyad Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Green Dyad Cape",
+    "item_description": "A cape made for its looks more than any kind of magical potency.",
+    "item_name": "Green Dyad Cape",
+    "item_weight": 0,
+    "page_name_sub": "Green Dyad Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A cape made for its looks more than any kind of magical potency.",
+      "image": "[[File:Green Dyad Cape.png|32px]]",
+      "name": "Green Dyad Cape",
+      "weight": "0.0",
+      "image_raw": "Green Dyad Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Blue Dyad Cape",
+    "item_description": "A cape made for its looks more than any kind of magical potency.",
+    "item_name": "Blue Dyad Cape",
+    "item_weight": 0,
+    "page_name_sub": "Blue Dyad Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A cape made for its looks more than any kind of magical potency.",
+      "image": "[[File:Blue Dyad Cape.png|32px]]",
+      "name": "Blue Dyad Cape",
+      "weight": "0.0",
+      "image_raw": "Blue Dyad Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Yellow Dyad Cape",
+    "item_description": "A cape made for its looks more than any kind of magical potency.",
+    "item_name": "Yellow Dyad Cape",
+    "item_weight": 0,
+    "page_name_sub": "Yellow Dyad Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A cape made for its looks more than any kind of magical potency.",
+      "image": "[[File:Yellow Dyad Cape.png|32px]]",
+      "name": "Yellow Dyad Cape",
+      "weight": "0.0",
+      "image_raw": "Yellow Dyad Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Pink Dyad Cape",
+    "item_description": "A cape made for its looks more than any kind of magical potency.",
+    "item_name": "Pink Dyad Cape",
+    "item_weight": 0,
+    "page_name_sub": "Pink Dyad Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A cape made for its looks more than any kind of magical potency.",
+      "image": "[[File:Pink Dyad Cape.png|32px]]",
+      "name": "Pink Dyad Cape",
+      "weight": "0.0",
+      "image_raw": "Pink Dyad Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Pink Hex Cape",
+    "item_description": "A cape made for its looks more than any kind of magical potency.",
+    "item_name": "Pink Hex Cape",
+    "item_weight": 0,
+    "page_name_sub": "Pink Hex Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A cape made for its looks more than any kind of magical potency.",
+      "image": "[[File:Pink Hex Cape.png|32px]]",
+      "name": "Pink Hex Cape",
+      "weight": "0.0",
+      "image_raw": "Pink Hex Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Yellow Hex Cape",
+    "item_description": "A cape made for its looks more than any kind of magical potency.",
+    "item_name": "Yellow Hex Cape",
+    "item_weight": 0,
+    "page_name_sub": "Yellow Hex Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A cape made for its looks more than any kind of magical potency.",
+      "image": "[[File:Yellow Hex Cape.png|32px]]",
+      "name": "Yellow Hex Cape",
+      "weight": "0.0",
+      "image_raw": "Yellow Hex Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Blue Hex Cape",
+    "item_description": "A cape made for its looks more than any kind of magical potency.",
+    "item_name": "Blue Hex Cape",
+    "item_weight": 0,
+    "page_name_sub": "Blue Hex Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A cape made for its looks more than any kind of magical potency.",
+      "image": "[[File:Blue Hex Cape.png|32px]]",
+      "name": "Blue Hex Cape",
+      "weight": "0.0",
+      "image_raw": "Blue Hex Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Green Hex Cape",
+    "item_description": "A cape made for its looks more than any kind of magical potency.",
+    "item_name": "Green Hex Cape",
+    "item_weight": 0,
+    "page_name_sub": "Green Hex Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A cape made for its looks more than any kind of magical potency.",
+      "image": "[[File:Green Hex Cape.png|32px]]",
+      "name": "Green Hex Cape",
+      "weight": "0.0",
+      "image_raw": "Green Hex Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Soiled Green Cloth",
+    "item_description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+    "item_name": "Soiled Green Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+      "image": "[[File:Soiled Green Cloth.png|32px]]",
+      "name": "Soiled Green Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Soiled Green Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Soiled Green Cloth"
+  },
+  {
+    "page_name": "Soiled Red Cloth",
+    "item_description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+    "item_name": "Soiled Red Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+      "image": "[[File:Soiled Red Cloth.png|32px]]",
+      "name": "Soiled Red Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Soiled Red Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Soiled Red Cloth"
+  },
+  {
+    "page_name": "Soiled Blue Cloth",
+    "item_description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+    "item_name": "Soiled Blue Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+      "image": "[[File:Soiled Blue Cloth.png|32px]]",
+      "name": "Soiled Blue Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Soiled Blue Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Soiled Blue Cloth"
+  },
+  {
+    "page_name": "Soiled Yellow Cloth",
+    "item_description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+    "item_name": "Soiled Yellow Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+      "image": "[[File:Soiled Yellow Cloth.png|32px]]",
+      "name": "Soiled Yellow Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Soiled Yellow Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Soiled Yellow Cloth"
+  },
+  {
+    "page_name": "Soiled Pink Cloth",
+    "item_description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+    "item_name": "Soiled Pink Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+      "image": "[[File:Soiled Pink Cloth.png|32px]]",
+      "name": "Soiled Pink Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Soiled Pink Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Soiled Pink Cloth"
+  },
+  {
+    "page_name": "Chewed Pink Cloth",
+    "item_description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+    "item_name": "Chewed Pink Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+      "image": "[[File:Chewed Pink Cloth.png|32px]]",
+      "name": "Chewed Pink Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Chewed Pink Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Chewed Pink Cloth"
+  },
+  {
+    "page_name": "Chewed Yellow Cloth",
+    "item_description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+    "item_name": "Chewed Yellow Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+      "image": "[[File:Chewed Yellow Cloth.png|32px]]",
+      "name": "Chewed Yellow Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Chewed Yellow Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Chewed Yellow Cloth"
+  },
+  {
+    "page_name": "Chewed Blue Cloth",
+    "item_description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+    "item_name": "Chewed Blue Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+      "image": "[[File:Chewed Blue Cloth.png|32px]]",
+      "name": "Chewed Blue Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Chewed Blue Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Chewed Blue Cloth"
+  },
+  {
+    "page_name": "Chewed Green Cloth",
+    "item_description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+    "item_name": "Chewed Green Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+      "image": "[[File:Chewed Green Cloth.png|32px]]",
+      "name": "Chewed Green Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Chewed Green Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Chewed Green Cloth"
+  },
+  {
+    "page_name": "Chewed Red Cloth",
+    "item_description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+    "item_name": "Chewed Red Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+      "image": "[[File:Chewed Red Cloth.png|32px]]",
+      "name": "Chewed Red Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Chewed Red Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Chewed Red Cloth"
   }
 ]
