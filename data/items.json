@@ -17138,14 +17138,14 @@
     "wikiLink": "Lumber_Storage"
   },
   {
-    "id": "8e68ea847264",
-    "name": "Small Chest",
-    "image": "Small Chest.png",
+    "id": "af633a880d1e",
+    "name": "Ash Chest",
+    "image": "Ash Chest.png",
     "variants": [
       {
         "id": "afa1b403ac24",
-        "name": "Small Chest",
-        "image": "Small Chest.png",
+        "name": "Ash Chest",
+        "image": "Ash Chest.png",
         "variantName": null,
         "recipe": {
           "id": "b68d0bee6149",
@@ -17175,7 +17175,7 @@
     "facilities": [
       "Build Menu"
     ],
-    "wikiLink": "Small_Chest"
+    "wikiLink": "Ash_Chest"
   },
   {
     "id": "ef90fcddc4f0",
@@ -39293,5 +39293,45 @@
     "wikiLink": "Chewed_Red_Cloth",
     "weight": 0,
     "stackLimit": 99
+  },
+  {
+    "id": "35d5a58ccebf",
+    "name": "Unholy Water",
+    "image": "Unholy Water.png",
+    "variants": [
+      {
+        "id": "35d5a58ccebf",
+        "name": "Unholy Water",
+        "image": "Unholy Water.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Unholy_Water",
+    "weight": 0,
+    "stackLimit": 1
+  },
+  {
+    "id": "fa169722a322",
+    "name": "Twilight Lily",
+    "image": "Twilight Lily.png",
+    "variants": [
+      {
+        "id": "fa169722a322",
+        "name": "Twilight Lily",
+        "image": "Twilight Lily.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Twilight_Lily",
+    "weight": 0,
+    "stackLimit": 1
   }
 ]

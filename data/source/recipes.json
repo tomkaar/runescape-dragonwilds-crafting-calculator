@@ -27288,19 +27288,19 @@
         }
       ],
       "outputs": [
-        "Small Chest"
+        "Ash Chest"
       ],
       "output": {
         "quantity": 1,
-        "name": "Small Chest",
-        "link": "Small Chest",
+        "name": "Ash Chest",
+        "link": "Ash Chest",
         "qty": 1,
-        "item": "Small Chest",
-        "image": "[[File:Small Chest.png|30px|link=Small Chest]]"
+        "item": "Ash Chest",
+        "image": "[[File:Ash Chest.png|30px|link=Ash Chest]]"
       }
     },
     "output": [
-      "Small Chest"
+      "Ash Chest"
     ]
   },
   {
