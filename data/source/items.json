@@ -14712,5 +14712,41 @@
     },
     "item_weight": 0,
     "page_name_sub": "Chewed Red Cloth"
+  },
+  {
+    "page_name": "Unholy Water",
+    "item_description": "Water blessed by the priests of Zamorak",
+    "item_name": "Unholy Water",
+    "item_type": "Resource",
+    "item_stacklimit": 1,
+    "json": {
+      "type": "Resource",
+      "description": "Water blessed by the priests of Zamorak",
+      "image": "[[File:Unholy Water.png|32px]]",
+      "name": "Unholy Water",
+      "weight": "0.0",
+      "stacklimit": "1",
+      "image_raw": "Unholy Water.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Unholy Water"
+  },
+  {
+    "page_name": "Twilight Lily",
+    "item_description": "A  strange, glowing lily, with magical properties.",
+    "item_name": "Twilight Lily",
+    "item_type": "Resource",
+    "item_stacklimit": 1,
+    "json": {
+      "type": "Resource",
+      "description": "A  strange, glowing lily, with magical properties.",
+      "image": "[[File:Twilight Lily.png|32px]]",
+      "name": "Twilight Lily",
+      "weight": "0.0",
+      "stacklimit": "1",
+      "image_raw": "Twilight Lily.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Twilight Lily"
   }
 ]
