@@ -872,6 +872,7 @@
     "json": {
       "type": "Food",
       "description": "A triumph of man over nature.",
+      "duration": "600s",
       "image": "[[File:Wild Pie.png|32px]]",
       "name": "Wild Pie",
       "weight": "0.7",
@@ -884,21 +885,18 @@
   },
   {
     "page_name": "Meat Pizza",
-    "item_description": "PERK: Meaty Meal<br><br>REDUCES HUNGER drain by 25%<br><br>A pizza with bits of meat on it.<br><br> PERK: Coagulated<br><br>Grants RESISTANCE to BLEED effects<br><br>A pizza with bits of meat on it.",
+    "item_description": "A pizza with bits of meat on it.",
     "item_name": "Meat Pizza",
     "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "PERK: Meaty Meal<br><br>REDUCES HUNGER drain by 25%<br><br>A pizza with bits of meat on it.<br><br> PERK: Coagulated<br><br>Grants RESISTANCE to BLEED effects<br><br>A pizza with bits of meat on it.",
+      "description": "A pizza with bits of meat on it.",
+      "duration": "600s",
       "image": "[[File:Meat Pizza.png|32px]]",
       "name": "Meat Pizza",
       "weight": "0.7",
       "sustenance": "105",
-      "perk": {
-        "name": "Meaty Meal",
-        "effect": "REDUCES HUNGER drain by 25%<br><br>A pizza with bits of meat on it.<br><br> PERK: Coagulated<br><br>Grants RESISTANCE to BLEED effects<br><br>A pizza with bits of meat on it."
-      },
       "stacklimit": "50",
       "image_raw": "Meat Pizza.png"
     },
@@ -4088,6 +4086,7 @@
     "json": {
       "type": "Food",
       "description": "A meaty kebab with mushrooms.",
+      "duration": "600s",
       "image": "[[File:Mushroom Kebab.png|32px]]",
       "name": "Mushroom Kebab",
       "weight": "0.7",
@@ -5812,133 +5811,133 @@
     "page_name_sub": "Suspiciously Light Tattered Boots"
   },
   {
-    "page_name": "VESTIGE: An Educational Blade",
+    "page_name": "An Educational Blade",
     "item_description": "A crude wooden blade and handle, what's left of a child's toy turned to weaponry. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: An Educational Blade",
+    "item_name": "An Educational Blade",
     "item_type": "Consumable",
     "item_stacklimit": 99,
     "json": {
       "type": "Consumable",
       "description": "A crude wooden blade and handle, what's left of a child's toy turned to weaponry. Perhaps you could learn something from it.",
       "image": "[[File:VESTIGE- An Educational Blade.png|32px]]",
-      "name": "VESTIGE: An Educational Blade",
+      "name": "An Educational Blade",
       "weight": "0",
       "stacklimit": "99",
       "image_raw": "VESTIGE- An Educational Blade.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: An Educational Blade"
+    "page_name_sub": "An Educational Blade"
   },
   {
-    "page_name": "VESTIGE: Parts of a Sinister-Looking Staff",
+    "page_name": "Parts of a Sinister-Looking Staff",
     "item_description": "Although damaged beyond repair, this staff seethes with ancient power. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: Parts of a Sinister-Looking Staff",
+    "item_name": "Parts of a Sinister-Looking Staff",
     "item_type": "Consumable",
     "item_stacklimit": 99,
     "json": {
       "type": "Consumable",
       "description": "Although damaged beyond repair, this staff seethes with ancient power. Perhaps you could learn something from it.",
       "image": "[[File:VESTIGE- Parts of a Sinister-Looking Staff.png|32px]]",
-      "name": "VESTIGE: Parts of a Sinister-Looking Staff",
+      "name": "Parts of a Sinister-Looking Staff",
       "weight": "0",
       "stacklimit": "99",
       "image_raw": "VESTIGE- Parts of a Sinister-Looking Staff.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Parts of a Sinister-Looking Staff"
+    "page_name_sub": "Parts of a Sinister-Looking Staff"
   },
   {
-    "page_name": "VESTIGE: A Corroded Serrated Blade",
+    "page_name": "A Corroded Serrated Blade",
     "item_description": "The rusted remains of a symbol of authority. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: A Corroded Serrated Blade",
+    "item_name": "A Corroded Serrated Blade",
     "item_type": "Consumable",
     "item_stacklimit": 99,
     "json": {
       "type": "Consumable",
       "description": "The rusted remains of a symbol of authority. Perhaps you could learn something from it.",
       "image": "[[File:VESTIGE- A Corroded Serrated Blade.png|32px]]",
-      "name": "VESTIGE: A Corroded Serrated Blade",
+      "name": "A Corroded Serrated Blade",
       "weight": "0",
       "stacklimit": "99",
       "image_raw": "VESTIGE- A Corroded Serrated Blade.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: A Corroded Serrated Blade"
+    "page_name_sub": "A Corroded Serrated Blade"
   },
   {
-    "page_name": "VESTIGE: Remnants of a Shattered Skull",
+    "page_name": "Remnants of a Shattered Skull",
     "item_description": "A skull, obliterated by a particularly nasty weapon. If you study it, perhaps you might learn something.",
-    "item_name": "VESTIGE: Remnants of a Shattered Skull",
+    "item_name": "Remnants of a Shattered Skull",
     "item_type": "Consumable",
     "item_stacklimit": 99,
     "json": {
       "type": "Consumable",
       "description": "A skull, obliterated by a particularly nasty weapon. If you study it, perhaps you might learn something.",
       "image": "[[File:VESTIGE- Remnants of a Shattered Skull.png|32px]]",
-      "name": "VESTIGE: Remnants of a Shattered Skull",
+      "name": "Remnants of a Shattered Skull",
       "weight": "0",
       "stacklimit": "99",
       "image_raw": "VESTIGE- Remnants of a Shattered Skull.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Remnants of a Shattered Skull"
+    "page_name_sub": "Remnants of a Shattered Skull"
   },
   {
-    "page_name": "VESTIGE: A Cruel Goblin Blade",
+    "page_name": "A Cruel Goblin Blade",
     "item_description": "A rusted blade with a wicked edge. Barely usable now, but perhaps you could learn something from it.",
-    "item_name": "VESTIGE: A Cruel Goblin Blade",
+    "item_name": "A Cruel Goblin Blade",
     "item_type": "Consumable",
     "item_stacklimit": 99,
     "json": {
       "type": "Consumable",
       "description": "A rusted blade with a wicked edge. Barely usable now, but perhaps you could learn something from it.",
       "image": "[[File:VESTIGE- A Cruel Goblin Blade.png|32px]]",
-      "name": "VESTIGE: A Cruel Goblin Blade",
+      "name": "A Cruel Goblin Blade",
       "weight": "0",
       "stacklimit": "99",
       "image_raw": "VESTIGE- A Cruel Goblin Blade.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: A Cruel Goblin Blade"
+    "page_name_sub": "A Cruel Goblin Blade"
   },
   {
-    "page_name": "VESTIGE: A Brutal Bladehead",
+    "page_name": "A Brutal Bladehead",
     "item_description": "A powerful looking blade, broken beyond repair. Still, perhaps you could learn something from it.",
-    "item_name": "VESTIGE: A Brutal Bladehead",
+    "item_name": "A Brutal Bladehead",
     "item_type": "Consumable",
     "item_stacklimit": 99,
     "json": {
       "type": "Consumable",
       "description": "A powerful looking blade, broken beyond repair. Still, perhaps you could learn something from it.",
       "image": "[[File:VESTIGE- A Brutal Bladehead.png|32px]]",
-      "name": "VESTIGE: A Brutal Bladehead",
+      "name": "A Brutal Bladehead",
       "weight": "0",
       "stacklimit": "99",
       "image_raw": "VESTIGE- A Brutal Bladehead.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: A Brutal Bladehead"
+    "page_name_sub": "A Brutal Bladehead"
   },
   {
-    "page_name": "VESTIGE: A String of Sinew",
+    "page_name": "A String of Sinew",
     "item_description": "Sinew, bound tightly enough to be dangerous. Useless now, but perhaps you could learn something from it.",
-    "item_name": "VESTIGE: A String of Sinew",
+    "item_name": "A String of Sinew",
     "item_type": "Consumable",
     "item_stacklimit": 99,
     "json": {
       "type": "Consumable",
       "description": "Sinew, bound tightly enough to be dangerous. Useless now, but perhaps you could learn something from it.",
       "image": "[[File:VESTIGE- A String of Sinew.png|32px]]",
-      "name": "VESTIGE: A String of Sinew",
+      "name": "A String of Sinew",
       "weight": "0",
       "stacklimit": "99",
       "image_raw": "VESTIGE- A String of Sinew.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: A String of Sinew"
+    "page_name_sub": "A String of Sinew"
   },
   {
-    "page_name": "VESTIGE: A Mysterious Crescent Carving",
+    "page_name": "A Mysterious Crescent Carving",
     "item_description": "What's left of a staff that feels soaked in sorrow. Perhaps you could learn something from it.",
     "item_name": "VESTIGE: A Mysterious Crescent Carving",
     "item_type": "Consumable",
@@ -5953,7 +5952,7 @@
       "image_raw": "VESTIGE- A Mysterious Crescent Carving.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: A Mysterious Crescent Carving"
+    "page_name_sub": "A Mysterious Crescent Carving"
   },
   {
     "page_name": "PATTERN: Bloodblight Cape",
@@ -11346,25 +11345,25 @@
     "page_name_sub": "Shroud of Noggin (vestige)"
   },
   {
-    "page_name": "VESTIGE: A Simple Broken Bow",
+    "page_name": "A Simple Broken Bow",
     "item_description": "The remains of a longbow damaged in a dragon attack. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: A Simple Broken Bow",
+    "item_name": "A Simple Broken Bow",
     "item_type": "Consumable",
     "item_stacklimit": 99,
     "json": {
       "type": "Consumable",
       "description": "The remains of a longbow damaged in a dragon attack. Perhaps you could learn something from it.",
       "image": "[[File:VESTIGE- A Simple Broken Bow.png|32px]]",
-      "name": "VESTIGE: A Simple Broken Bow",
+      "name": "A Simple Broken Bow",
       "weight": "0",
       "stacklimit": "99",
       "image_raw": "VESTIGE- A Simple Broken Bow.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: A Simple Broken Bow"
+    "page_name_sub": "A Simple Broken Bow"
   },
   {
-    "page_name": "VESTIGE: A Threadbare Grain Sack",
+    "page_name": "A Threadbare Grain Sack",
     "item_description": "An odd bundle of scratchy sackcloth. It's unsettling to hold. Still, perhaps you could learn something from it.",
     "item_name": "VESTIGE: A Threadbare Grain Sack",
     "item_type": "Consumable",
@@ -11379,7 +11378,7 @@
       "image_raw": "VESTIGE- A Threadbare Grain Sack.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: A Threadbare Grain Sack"
+    "page_name_sub": "A Threadbare Grain Sack"
   },
   {
     "page_name": "Burnt Undead Steak",
@@ -12575,6 +12574,7 @@
     "json": {
       "type": "Food",
       "description": "A carnivore's favourite, made with flank steak and rat roast.",
+      "duration": "600 seconds",
       "image": "[[File:Meat Sandwich.png|32px]]",
       "name": "Meat Sandwich",
       "weight": "2.0",
@@ -12594,6 +12594,7 @@
     "json": {
       "type": "Food",
       "description": "A hunger-reducing snack made with fried cabbages and grilled mushrooms.",
+      "duration": "600 seconds",
       "image": "[[File:Forager's Sandwich.png|32px]]",
       "name": "Forager's Sandwich",
       "weight": "2.0",
@@ -12631,6 +12632,7 @@
     "json": {
       "type": "Food",
       "description": "A delectable treat made with flank steak, fried onions and grilled mushrooms.",
+      "duration": "600 seconds",
       "image": "[[File:Steak Sandwich.png|32px]]",
       "name": "Steak Sandwich",
       "weight": "2.0",
@@ -12686,6 +12688,7 @@
     "json": {
       "type": "Food",
       "description": "Meat, meat and more meat. A sandwich with flank steak, rat roast and dried redberries.",
+      "duration": "600 seconds",
       "image": "[[File:Meat Twist Sandwich.png|32px]]",
       "name": "Meat Twist Sandwich",
       "weight": "2.0",
@@ -12705,6 +12708,7 @@
     "json": {
       "type": "Food",
       "description": "A warming dish made with roast pumpkin, maple syrup and dried redberry.",
+      "duration": "600 seconds",
       "image": "[[File:Glazed Pumpkin Sandwich.png|32px]]",
       "name": "Glazed Pumpkin Sandwich",
       "weight": "2.0",
@@ -12724,6 +12728,7 @@
     "json": {
       "type": "Food",
       "description": "A sweet lunch made with maple syrup and dried redberry.",
+      "duration": "600 seconds",
       "image": "[[File:Maple Toastie.png|32px]]",
       "name": "Maple Toastie",
       "weight": "2.0",
@@ -14625,13 +14630,13 @@
   },
   {
     "page_name": "Chewed Pink Cloth",
-    "item_description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+    "item_description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could learn from it.",
     "item_name": "Chewed Pink Cloth",
     "item_type": "Vestige",
     "item_stacklimit": 99,
     "json": {
       "type": "Vestige",
-      "description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could lear from it.",
+      "description": "Some dodgy-looking scraps of what seems to be a cape. Perhaps you could learn from it.",
       "image": "[[File:Chewed Pink Cloth.png|32px]]",
       "name": "Chewed Pink Cloth",
       "weight": "0.0",
@@ -14748,5 +14753,185 @@
     },
     "item_weight": 0,
     "page_name_sub": "Twilight Lily"
+  },
+  {
+    "page_name": "Moth Eaten Yellow Cloth",
+    "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+    "item_name": "Moth Eaten Yellow Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+      "image": "[[File:Moth Eaten Yellow Cloth.png|32px]]",
+      "name": "Moth Eaten Yellow Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Moth Eaten Yellow Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Moth Eaten Yellow Cloth"
+  },
+  {
+    "page_name": "Moth Eaten Blue Cloth",
+    "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+    "item_name": "Moth Eaten Blue Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+      "image": "[[File:Moth Eaten Blue Cloth.png|32px]]",
+      "name": "Moth Eaten Blue Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Moth Eaten Blue Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Moth Eaten Blue Cloth"
+  },
+  {
+    "page_name": "Moth Eaten Red Cloth",
+    "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+    "item_name": "Moth Eaten Red Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+      "image": "[[File:Moth Eaten Red Cloth.png|32px]]",
+      "name": "Moth Eaten Red Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Moth Eaten Red Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Moth Eaten Red Cloth"
+  },
+  {
+    "page_name": "Moth Eaten Purple Cloth",
+    "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+    "item_name": "Moth Eaten Purple Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+      "image": "[[File:Moth Eaten Purple Cloth.png|32px]]",
+      "name": "Moth Eaten Purple Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Moth Eaten Purple Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Moth Eaten Purple Cloth"
+  },
+  {
+    "page_name": "Moth Eaten Green Cloth",
+    "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+    "item_name": "Moth Eaten Green Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+      "image": "[[File:Moth Eaten Green Cloth.png|32px]]",
+      "name": "Moth Eaten Green Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Moth Eaten Green Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Moth Eaten Green Cloth"
+  },
+  {
+    "page_name": "Moth Eaten Black Cloth",
+    "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+    "item_name": "Moth Eaten Black Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+      "image": "[[File:Moth Eaten Black Cloth.png|32px]]",
+      "name": "Moth Eaten Black Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Moth Eaten Black Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Moth Eaten Black Cloth"
+  },
+  {
+    "page_name": "Moth Eaten Orange Cloth",
+    "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+    "item_name": "Moth Eaten Orange Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+      "image": "[[File:Moth Eaten Orange Cloth.png|32px]]",
+      "name": "Moth Eaten Orange Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Moth Eaten Orange Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Moth Eaten Orange Cloth"
+  },
+  {
+    "page_name": "Moth Eaten Pink Cloth",
+    "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+    "item_name": "Moth Eaten Pink Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+      "image": "[[File:Moth Eaten Pink Cloth.png|32px]]",
+      "name": "Moth Eaten Pink Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Moth Eaten Pink Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Moth Eaten Pink Cloth"
+  },
+  {
+    "page_name": "Moth Eaten White Cloth",
+    "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+    "item_name": "Moth Eaten White Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+      "image": "[[File:Moth Eaten White Cloth.png|32px]]",
+      "name": "Moth Eaten White Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Moth Eaten White Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Moth Eaten White Cloth"
+  },
+  {
+    "page_name": "Tattered Time-Lost Cloth",
+    "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+    "item_name": "Tattered Time-Lost Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
+      "image": "[[File:VESTIGE: Tattered Time-Lost Cloth.png|32px]]",
+      "name": "Tattered Time-Lost Cloth",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "VESTIGE: Tattered Time-Lost Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Tattered Time-Lost Cloth"
   }
 ]
