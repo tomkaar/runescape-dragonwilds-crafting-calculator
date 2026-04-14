@@ -10734,7 +10734,7 @@
       "Grilled Mushrooms",
       "Fried Cabbage",
       "Haunch",
-      "Steak"
+      "Bread"
     ],
     "uses_skill": [
       "Cooking"
@@ -10771,11 +10771,11 @@
         },
         {
           "quantity": "1",
-          "name": "Steak",
-          "link": "Steak",
+          "name": "Bread",
+          "link": "Bread",
           "qty": "1",
-          "item": "Steak",
-          "image": "[[File:Steak.png|30px|link=Steak]]"
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
         }
       ],
       "skills": [
@@ -12266,13 +12266,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: A String of Sinew"
+      "A String of Sinew"
     ],
     "uses_facility": [
       "Fletching Bench"
     ],
     "json": {
-      "recipe": "VESTIGE: A String of Sinew",
+      "recipe": "A String of Sinew",
       "facility": "Fletching Bench",
       "materials": [
         {

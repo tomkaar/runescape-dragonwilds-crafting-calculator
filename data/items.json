@@ -7132,14 +7132,18 @@
     "image": "Mushroom Kebab.png",
     "variants": [
       {
-        "id": "fac97ee74a0e",
+        "id": "8633447a4e8f",
         "name": "Mushroom Kebab",
         "image": "Mushroom Kebab.png",
         "variantName": null,
         "recipe": {
-          "id": "6f23b6c941c8",
+          "id": "a07a5facd9d3",
           "facility": "Cooking Range",
           "materials": [
+            {
+              "itemId": "e882154bb2ef",
+              "quantity": 1
+            },
             {
               "itemId": "88798eba6ad6",
               "quantity": 1
@@ -7150,10 +7154,6 @@
             },
             {
               "itemId": "d8e9441d3367",
-              "quantity": 1
-            },
-            {
-              "itemId": "1df249fb3a6c",
               "quantity": 1
             }
           ],
@@ -8208,7 +8208,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: A String of Sinew"
+          "A String of Sinew"
         ]
       }
     ],
@@ -35333,13 +35333,13 @@
     "stackLimit": 99
   },
   {
-    "id": "1715106044cd",
-    "name": "VESTIGE: An Educational Blade",
+    "id": "8415c060616e",
+    "name": "An Educational Blade",
     "image": "VESTIGE- An Educational Blade.png",
     "variants": [
       {
-        "id": "1715106044cd",
-        "name": "VESTIGE: An Educational Blade",
+        "id": "8415c060616e",
+        "name": "An Educational Blade",
         "image": "VESTIGE- An Educational Blade.png",
         "variantName": null,
         "recipe": null,
@@ -35348,18 +35348,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_An_Educational_Blade",
+    "wikiLink": "An_Educational_Blade",
     "weight": 0,
     "stackLimit": 99
   },
   {
-    "id": "a307b82cc930",
-    "name": "VESTIGE: Parts of a Sinister-Looking Staff",
+    "id": "69a6740fbbb0",
+    "name": "Parts of a Sinister-Looking Staff",
     "image": "VESTIGE- Parts of a Sinister-Looking Staff.png",
     "variants": [
       {
-        "id": "a307b82cc930",
-        "name": "VESTIGE: Parts of a Sinister-Looking Staff",
+        "id": "69a6740fbbb0",
+        "name": "Parts of a Sinister-Looking Staff",
         "image": "VESTIGE- Parts of a Sinister-Looking Staff.png",
         "variantName": null,
         "recipe": null,
@@ -35368,18 +35368,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Parts_of_a_Sinister-Looking_Staff",
+    "wikiLink": "Parts_of_a_Sinister-Looking_Staff",
     "weight": 0,
     "stackLimit": 99
   },
   {
-    "id": "73f85163e996",
-    "name": "VESTIGE: A Corroded Serrated Blade",
+    "id": "1fda0012f0c7",
+    "name": "A Corroded Serrated Blade",
     "image": "VESTIGE- A Corroded Serrated Blade.png",
     "variants": [
       {
-        "id": "73f85163e996",
-        "name": "VESTIGE: A Corroded Serrated Blade",
+        "id": "1fda0012f0c7",
+        "name": "A Corroded Serrated Blade",
         "image": "VESTIGE- A Corroded Serrated Blade.png",
         "variantName": null,
         "recipe": null,
@@ -35388,18 +35388,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_A_Corroded_Serrated_Blade",
+    "wikiLink": "A_Corroded_Serrated_Blade",
     "weight": 0,
     "stackLimit": 99
   },
   {
-    "id": "016eb1588b25",
-    "name": "VESTIGE: Remnants of a Shattered Skull",
+    "id": "c84824c02dae",
+    "name": "Remnants of a Shattered Skull",
     "image": "VESTIGE- Remnants of a Shattered Skull.png",
     "variants": [
       {
-        "id": "016eb1588b25",
-        "name": "VESTIGE: Remnants of a Shattered Skull",
+        "id": "c84824c02dae",
+        "name": "Remnants of a Shattered Skull",
         "image": "VESTIGE- Remnants of a Shattered Skull.png",
         "variantName": null,
         "recipe": null,
@@ -35408,18 +35408,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Remnants_of_a_Shattered_Skull",
+    "wikiLink": "Remnants_of_a_Shattered_Skull",
     "weight": 0,
     "stackLimit": 99
   },
   {
-    "id": "5d8c540af59c",
-    "name": "VESTIGE: A Cruel Goblin Blade",
+    "id": "568466c35df7",
+    "name": "A Cruel Goblin Blade",
     "image": "VESTIGE- A Cruel Goblin Blade.png",
     "variants": [
       {
-        "id": "5d8c540af59c",
-        "name": "VESTIGE: A Cruel Goblin Blade",
+        "id": "568466c35df7",
+        "name": "A Cruel Goblin Blade",
         "image": "VESTIGE- A Cruel Goblin Blade.png",
         "variantName": null,
         "recipe": null,
@@ -35428,18 +35428,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_A_Cruel_Goblin_Blade",
+    "wikiLink": "A_Cruel_Goblin_Blade",
     "weight": 0,
     "stackLimit": 99
   },
   {
-    "id": "17d5792f44fa",
-    "name": "VESTIGE: A Brutal Bladehead",
+    "id": "89b7764e4ab8",
+    "name": "A Brutal Bladehead",
     "image": "VESTIGE- A Brutal Bladehead.png",
     "variants": [
       {
-        "id": "17d5792f44fa",
-        "name": "VESTIGE: A Brutal Bladehead",
+        "id": "89b7764e4ab8",
+        "name": "A Brutal Bladehead",
         "image": "VESTIGE- A Brutal Bladehead.png",
         "variantName": null,
         "recipe": null,
@@ -35448,18 +35448,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_A_Brutal_Bladehead",
+    "wikiLink": "A_Brutal_Bladehead",
     "weight": 0,
     "stackLimit": 99
   },
   {
-    "id": "d3066586a734",
-    "name": "VESTIGE: A String of Sinew",
+    "id": "511cc3db953c",
+    "name": "A String of Sinew",
     "image": "VESTIGE- A String of Sinew.png",
     "variants": [
       {
-        "id": "d3066586a734",
-        "name": "VESTIGE: A String of Sinew",
+        "id": "511cc3db953c",
+        "name": "A String of Sinew",
         "image": "VESTIGE- A String of Sinew.png",
         "variantName": null,
         "recipe": null,
@@ -35468,13 +35468,13 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_A_String_of_Sinew",
+    "wikiLink": "A_String_of_Sinew",
     "weight": 0,
     "stackLimit": 99
   },
   {
-    "id": "456d75b9d092",
-    "name": "VESTIGE: A Mysterious Crescent Carving",
+    "id": "b8406fce82cc",
+    "name": "A Mysterious Crescent Carving",
     "image": "VESTIGE- A Mysterious Crescent Carving.png",
     "variants": [
       {
@@ -35488,7 +35488,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_A_Mysterious_Crescent_Carving",
+    "wikiLink": "A_Mysterious_Crescent_Carving",
     "weight": 0,
     "stackLimit": 99
   },
@@ -37796,13 +37796,13 @@
     "stackLimit": 99
   },
   {
-    "id": "f3dfb081e3d6",
-    "name": "VESTIGE: A Simple Broken Bow",
+    "id": "a122753d54ec",
+    "name": "A Simple Broken Bow",
     "image": "VESTIGE- A Simple Broken Bow.png",
     "variants": [
       {
-        "id": "f3dfb081e3d6",
-        "name": "VESTIGE: A Simple Broken Bow",
+        "id": "a122753d54ec",
+        "name": "A Simple Broken Bow",
         "image": "VESTIGE- A Simple Broken Bow.png",
         "variantName": null,
         "recipe": null,
@@ -37811,13 +37811,13 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_A_Simple_Broken_Bow",
+    "wikiLink": "A_Simple_Broken_Bow",
     "weight": 0,
     "stackLimit": 99
   },
   {
-    "id": "8a5d27713a62",
-    "name": "VESTIGE: A Threadbare Grain Sack",
+    "id": "786377f8fb83",
+    "name": "A Threadbare Grain Sack",
     "image": "VESTIGE- A Threadbare Grain Sack.png",
     "variants": [
       {
@@ -37831,7 +37831,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_A_Threadbare_Grain_Sack",
+    "wikiLink": "A_Threadbare_Grain_Sack",
     "weight": 0,
     "stackLimit": 99
   },
@@ -39333,5 +39333,205 @@
     "wikiLink": "Twilight_Lily",
     "weight": 0,
     "stackLimit": 1
+  },
+  {
+    "id": "a709fa7aa843",
+    "name": "Moth Eaten Yellow Cloth",
+    "image": "Moth Eaten Yellow Cloth.png",
+    "variants": [
+      {
+        "id": "a709fa7aa843",
+        "name": "Moth Eaten Yellow Cloth",
+        "image": "Moth Eaten Yellow Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Moth_Eaten_Yellow_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "4bc6244a46ce",
+    "name": "Moth Eaten Blue Cloth",
+    "image": "Moth Eaten Blue Cloth.png",
+    "variants": [
+      {
+        "id": "4bc6244a46ce",
+        "name": "Moth Eaten Blue Cloth",
+        "image": "Moth Eaten Blue Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Moth_Eaten_Blue_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "8c2246f0e8fc",
+    "name": "Moth Eaten Red Cloth",
+    "image": "Moth Eaten Red Cloth.png",
+    "variants": [
+      {
+        "id": "8c2246f0e8fc",
+        "name": "Moth Eaten Red Cloth",
+        "image": "Moth Eaten Red Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Moth_Eaten_Red_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "2d8a624b8762",
+    "name": "Moth Eaten Purple Cloth",
+    "image": "Moth Eaten Purple Cloth.png",
+    "variants": [
+      {
+        "id": "2d8a624b8762",
+        "name": "Moth Eaten Purple Cloth",
+        "image": "Moth Eaten Purple Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Moth_Eaten_Purple_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "e09ecafeaab4",
+    "name": "Moth Eaten Green Cloth",
+    "image": "Moth Eaten Green Cloth.png",
+    "variants": [
+      {
+        "id": "e09ecafeaab4",
+        "name": "Moth Eaten Green Cloth",
+        "image": "Moth Eaten Green Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Moth_Eaten_Green_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "c44dd5e689c5",
+    "name": "Moth Eaten Black Cloth",
+    "image": "Moth Eaten Black Cloth.png",
+    "variants": [
+      {
+        "id": "c44dd5e689c5",
+        "name": "Moth Eaten Black Cloth",
+        "image": "Moth Eaten Black Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Moth_Eaten_Black_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "ac214c497898",
+    "name": "Moth Eaten Orange Cloth",
+    "image": "Moth Eaten Orange Cloth.png",
+    "variants": [
+      {
+        "id": "ac214c497898",
+        "name": "Moth Eaten Orange Cloth",
+        "image": "Moth Eaten Orange Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Moth_Eaten_Orange_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "0205a50e2b94",
+    "name": "Moth Eaten Pink Cloth",
+    "image": "Moth Eaten Pink Cloth.png",
+    "variants": [
+      {
+        "id": "0205a50e2b94",
+        "name": "Moth Eaten Pink Cloth",
+        "image": "Moth Eaten Pink Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Moth_Eaten_Pink_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "5dee4d066535",
+    "name": "Moth Eaten White Cloth",
+    "image": "Moth Eaten White Cloth.png",
+    "variants": [
+      {
+        "id": "5dee4d066535",
+        "name": "Moth Eaten White Cloth",
+        "image": "Moth Eaten White Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Moth_Eaten_White_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "5abe36301d3f",
+    "name": "Tattered Time-Lost Cloth",
+    "image": "VESTIGE: Tattered Time-Lost Cloth.png",
+    "variants": [
+      {
+        "id": "5abe36301d3f",
+        "name": "Tattered Time-Lost Cloth",
+        "image": "VESTIGE: Tattered Time-Lost Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Tattered_Time-Lost_Cloth",
+    "weight": 0,
+    "stackLimit": 99
   }
 ]
