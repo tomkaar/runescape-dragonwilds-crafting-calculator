@@ -9073,6 +9073,24 @@
     "item_type": "Trinket"
   },
   {
+    "page_name": "Softly Vibrating Orb",
+    "item_description": "A sphere that seems to be playing Menu Chill. Perhaps you could learn from it.",
+    "item_name": "Softly Vibrating Orb",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "A sphere that seems to be playing Menu Chill. Perhaps you could learn from it.",
+      "image": "[[File:Softly Vibrating Orb.png|32px]]",
+      "name": "Softly Vibrating Orb",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Softly Vibrating Orb.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Softly Vibrating Orb"
+  },
+  {
     "page_name": "Iron Secateurs",
     "item_description": "A pair of gardening Secateurs that boost your harvesting yield while equipped.",
     "item_name": "Iron Secateurs",
@@ -9234,6 +9252,24 @@
     },
     "item_repair": "1 [[Steel Bar]]",
     "item_weight": 10
+  },
+  {
+    "page_name": "Sigil of a Phoenix",
+    "item_description": "Endlessly burning and reconstituting itself. Perhaps you could learn from it.",
+    "item_name": "Sigil of a Phoenix",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Endlessly burning and reconstituting itself. Perhaps you could learn from it.",
+      "image": "[[File:Sigil of a Phoenix.png|32px]]",
+      "name": "Sigil of a Phoenix",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Sigil of a Phoenix.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Sigil of a Phoenix"
   },
   {
     "page_name": "Steel Scimitar",
@@ -10272,19 +10308,21 @@
   },
   {
     "page_name": "Amulet of Defence",
-    "item_stacklimit": 1,
+    "item_description": "A mystical amulet that strengthens your defences.",
     "item_name": "Amulet of Defence",
-    "item_weight": 2,
-    "page_name_sub": "Amulet of Defence",
+    "item_type": "Trinket",
+    "item_stacklimit": 1,
     "json": {
       "type": "Trinket",
+      "description": "A mystical amulet that strengthens your defences.",
       "image": "[[File:Amulet of Defence.png|32px]]",
       "name": "Amulet of Defence",
       "weight": "2.0",
       "stacklimit": "1",
       "image_raw": "Amulet of Defence.png"
     },
-    "item_type": "Trinket"
+    "item_weight": 2,
+    "page_name_sub": "Amulet of Defence"
   },
   {
     "page_name": "Bone Crossbow Limbs",
@@ -10935,11 +10973,11 @@
     "json": {
       "type": "Vestige",
       "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
-      "image": "[[File:VESTIGE: Curse Carrying Crown.png|32px]]",
+      "image": "[[File:Curse Carrying Crown.png|32px]]",
       "name": "Curse Carrying Crown",
       "weight": "0.0",
       "stacklimit": "99",
-      "image_raw": "VESTIGE: Curse Carrying Crown.png"
+      "image_raw": "Curse Carrying Crown.png"
     },
     "item_weight": 0,
     "page_name_sub": "Curse Carrying Crown"
@@ -10997,20 +11035,22 @@
     "page_name_sub": "Sundering Spiked Slab"
   },
   {
-    "page_name": "VESTIGE: Tastefully Torn Tights",
-    "item_stacklimit": 99,
+    "page_name": "Tastefully Torn Tights",
+    "item_description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
     "item_name": "Tastefully Torn Tights",
-    "item_weight": 0,
-    "page_name_sub": "VESTIGE: Tastefully Torn Tights",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
     "json": {
       "type": "Vestige",
-      "image": "[[File:VESTIGE: Tastefully Torn Tights.png|32px]]",
+      "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
+      "image": "[[File:Tastefully Torn Tights.png|32px]]",
       "name": "Tastefully Torn Tights",
       "weight": "0.0",
       "stacklimit": "99",
-      "image_raw": "VESTIGE: Tastefully Torn Tights.png"
+      "image_raw": "Tastefully Torn Tights.png"
     },
-    "item_type": "Vestige"
+    "item_weight": 0,
+    "page_name_sub": "Tastefully Torn Tights"
   },
   {
     "page_name": "Burnt Tomato",
@@ -12884,6 +12924,24 @@
     "item_weight": 6
   },
   {
+    "page_name": "Tome of the Titan",
+    "item_description": "A powerful tome containing ancient techniques of warfare. Grants a large amount of experience in the Attack, Magic and Ranged skills.",
+    "item_name": "Tome of the Titan",
+    "item_type": "Consumable Tome",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable Tome",
+      "description": "A powerful tome containing ancient techniques of warfare. Grants a large amount of experience in the Attack, Magic and Ranged skills.",
+      "image": "[[File:Tome of the Titan.png|32px]]",
+      "name": "Tome of the Titan",
+      "weight": "6.0",
+      "stacklimit": "99",
+      "image_raw": "Tome of the Titan.png"
+    },
+    "item_weight": 6,
+    "page_name_sub": "Tome of the Titan"
+  },
+  {
     "page_name": "Black Sword",
     "item_description": "A sword in the style of the Black Knights, forged from black metal.",
     "item_name": "Black Sword",
@@ -14755,6 +14813,24 @@
     "page_name_sub": "Twilight Lily"
   },
   {
+    "page_name": "Arrowhead of Ancient Origin",
+    "item_description": "Still sharp. Perhaps you could learn from it.",
+    "item_name": "Arrowhead of Ancient Origin",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Still sharp. Perhaps you could learn from it.",
+      "image": "[[File:Arrowhead of Ancient Origin.png|32px]]",
+      "name": "Arrowhead of Ancient Origin",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Arrowhead of Ancient Origin.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Arrowhead of Ancient Origin"
+  },
+  {
     "page_name": "Moth Eaten Yellow Cloth",
     "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
     "item_name": "Moth Eaten Yellow Cloth",
@@ -14933,5 +15009,41 @@
     },
     "item_weight": 0,
     "page_name_sub": "Tattered Time-Lost Cloth"
+  },
+  {
+    "page_name": "Weighted Training Band",
+    "item_description": "You can feel it pulling away from you. Perhaps you could learn from it.",
+    "item_name": "Weighted Training Band",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "You can feel it pulling away from you. Perhaps you could learn from it.",
+      "image": "[[File:Weighted Training Band.png|32px]]",
+      "name": "Weighted Training Band",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Weighted Training Band.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Weighted Training Band"
+  },
+  {
+    "page_name": "Hardy Weathered Shell",
+    "item_description": "You can feel it pulling away from you. Perhaps you could learn from it.",
+    "item_name": "Hardy Weathered Shell",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "You can feel it pulling away from you. Perhaps you could learn from it.",
+      "image": "[[File:Hardy Weathered Shell.png|32px]]",
+      "name": "Hardy Weathered Shell",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Hardy Weathered Shell.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Hardy Weathered Shell"
   }
 ]
