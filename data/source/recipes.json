@@ -33263,10 +33263,14 @@
     ]
   },
   {
+    "uses_recipe": [
+      "Moth Eaten Blue Cloth"
+    ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
+      "recipe": "Moth Eaten Blue Cloth",
       "facility": "Crafting Table",
       "materials": [],
       "skills": [],
@@ -36794,10 +36798,17 @@
       "Diamond",
       "Vault Shard"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Sigil of a Phoenix"
+    ],
     "uses_facility": [
       "Jeweler's Bench"
     ],
     "json": {
+      "recipe": "Sigil of a Phoenix",
       "facility": "Jeweler's Bench",
       "materials": [
         {
@@ -36833,7 +36844,12 @@
           "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Ring of Life"
       ],
@@ -37471,10 +37487,17 @@
       "Sapphire",
       "Vault Shard"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Softly Vibrating Orb"
+    ],
     "uses_facility": [
       "Jeweler's Bench"
     ],
     "json": {
+      "recipe": "Softly Vibrating Orb",
       "facility": "Jeweler's Bench",
       "materials": [
         {
@@ -37518,7 +37541,12 @@
           "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Amulet of Magic"
       ],
@@ -39373,10 +39401,17 @@
       "Red Topaz",
       "Vault Shard"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Weighted Training Band"
+    ],
     "uses_facility": [
       "Jeweler's Bench"
     ],
     "json": {
+      "recipe": "Weighted Training Band",
       "facility": "Jeweler's Bench",
       "materials": [
         {
@@ -39420,7 +39455,12 @@
           "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Amulet of Strength"
       ],
@@ -39890,10 +39930,14 @@
     ]
   },
   {
+    "uses_recipe": [
+      "Moth Eaten Red Cloth"
+    ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
+      "recipe": "Moth Eaten Red Cloth",
       "facility": "Crafting Table",
       "materials": [],
       "skills": [],
@@ -40221,10 +40265,17 @@
       "Opal",
       "Vault Shard"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Arrowhead of Ancient Origin"
+    ],
     "uses_facility": [
       "Jeweler's Bench"
     ],
     "json": {
+      "recipe": "Arrowhead of Ancient Origin",
       "facility": "Jeweler's Bench",
       "materials": [
         {
@@ -40268,7 +40319,12 @@
           "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Amulet of Accuracy"
       ],
@@ -40785,10 +40841,17 @@
       "Jade",
       "Vault Shard"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Hardy Weathered Shell"
+    ],
     "uses_facility": [
       "Jeweler's Bench"
     ],
     "json": {
+      "recipe": "Hardy Weathered Shell",
       "facility": "Jeweler's Bench",
       "materials": [
         {
@@ -40832,7 +40895,12 @@
           "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Amulet of Defence"
       ],
