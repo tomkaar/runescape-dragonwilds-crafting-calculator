@@ -25708,7 +25708,9 @@
           "materials": [],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Moth Eaten Yellow Cloth"
+        ]
       }
     ],
     "skills": [],
@@ -25734,7 +25736,9 @@
           "materials": [],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Moth Eaten Purple Cloth"
+        ]
       }
     ],
     "skills": [],
@@ -25760,7 +25764,9 @@
           "materials": [],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Moth Eaten Green Cloth"
+        ]
       }
     ],
     "skills": [],
@@ -25812,7 +25818,9 @@
           "materials": [],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Moth Eaten Orange Cloth"
+        ]
       }
     ],
     "skills": [],
@@ -25866,7 +25874,9 @@
           "materials": [],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Moth Eaten White Cloth"
+        ]
       }
     ],
     "skills": [],
