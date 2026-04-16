@@ -39810,10 +39810,14 @@
     ]
   },
   {
+    "uses_recipe": [
+      "Moth Eaten Yellow Cloth"
+    ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
+      "recipe": "Moth Eaten Yellow Cloth",
       "facility": "Crafting Table",
       "materials": [],
       "skills": [],
@@ -39834,10 +39838,14 @@
     ]
   },
   {
+    "uses_recipe": [
+      "Moth Eaten Purple Cloth"
+    ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
+      "recipe": "Moth Eaten Purple Cloth",
       "facility": "Crafting Table",
       "materials": [],
       "skills": [],
@@ -39858,10 +39866,14 @@
     ]
   },
   {
+    "uses_recipe": [
+      "Moth Eaten Green Cloth"
+    ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
+      "recipe": "Moth Eaten Green Cloth",
       "facility": "Crafting Table",
       "materials": [],
       "skills": [],
@@ -39906,10 +39918,14 @@
     ]
   },
   {
+    "uses_recipe": [
+      "Moth Eaten Orange Cloth"
+    ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
+      "recipe": "Moth Eaten Orange Cloth",
       "facility": "Crafting Table",
       "materials": [],
       "skills": [],
@@ -39958,10 +39974,14 @@
     ]
   },
   {
+    "uses_recipe": [
+      "Moth Eaten White Cloth"
+    ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
+      "recipe": "Moth Eaten White Cloth",
       "facility": "Crafting Table",
       "materials": [],
       "skills": [],
