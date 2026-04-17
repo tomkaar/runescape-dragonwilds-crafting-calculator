@@ -42755,8 +42755,11 @@
       "Vault Shard",
       "Clay Mould",
       "Silver Bar",
-      "Emerald",
-      "Vault Core"
+      "Sapphire",
+      "Necrotic Bonemeal"
+    ],
+    "uses_skill": [
+      "Jeweler's Bench"
     ],
     "uses_facility": [
       "Jeweler's Bench"
@@ -42790,22 +42793,27 @@
         },
         {
           "quantity": "2",
-          "name": "Emerald",
-          "link": "Emerald",
+          "name": "Sapphire",
+          "link": "Sapphire",
           "qty": "2",
-          "item": "Emerald",
-          "image": "[[File:Emerald.png|30px|link=Emerald]]"
+          "item": "Sapphire",
+          "image": "[[File:Sapphire.png|30px|link=Sapphire]]"
         },
         {
-          "quantity": "1",
-          "name": "Vault Core",
-          "link": "Vault Core",
-          "qty": "1",
-          "item": "Vault Core",
-          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
+          "quantity": "8",
+          "name": "Necrotic Bonemeal",
+          "link": "Necrotic Bonemeal",
+          "qty": "8",
+          "item": "Necrotic Bonemeal",
+          "image": "[[File:Necrotic Bonemeal.png|30px|link=Necrotic Bonemeal]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Jeweler's Bench",
+          "experience": "?"
+        }
+      ],
       "outputs": [
         "Abraxus Ring"
       ],
