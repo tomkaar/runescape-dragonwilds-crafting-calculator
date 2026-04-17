@@ -27702,12 +27702,12 @@
     "image": "Abraxus Ring.png",
     "variants": [
       {
-        "id": "3afdaf749501",
+        "id": "57e53265aba9",
         "name": "Abraxus Ring",
         "image": "Abraxus Ring.png",
         "variantName": null,
         "recipe": {
-          "id": "1a99d3a29690",
+          "id": "66320ab61797",
           "facility": "Jeweler's Bench",
           "materials": [
             {
@@ -27715,16 +27715,16 @@
               "quantity": 1
             },
             {
-              "itemId": "af1ccb31304d",
+              "itemId": "b5427eb4672e",
+              "quantity": 8
+            },
+            {
+              "itemId": "d142d3dd1dbb",
               "quantity": 2
             },
             {
               "itemId": "9788d67f4f47",
               "quantity": 2
-            },
-            {
-              "itemId": "2cb47baaee19",
-              "quantity": 1
             },
             {
               "itemId": "9ca5b1c17952",
@@ -27736,7 +27736,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Jeweler's Bench"
+    ],
     "facilities": [
       "Jeweler's Bench"
     ],
