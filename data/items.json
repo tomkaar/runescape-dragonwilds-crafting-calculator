@@ -16998,26 +16998,30 @@
     "wikiLink": "60°_Inverted_Roof_Support_Wall"
   },
   {
-    "id": "7960f3f7af20",
-    "name": "Bank Chest",
-    "image": "Bank Chest.png",
+    "id": "3a335b0c3910",
+    "name": "Personal Chest (chest)",
+    "image": "Personal Chest (chest).png",
     "variants": [
       {
-        "id": "4d3f9d0753ec",
-        "name": "Bank Chest",
-        "image": "Bank Chest.png",
-        "variantName": null,
+        "id": "69b82b7a22cf",
+        "name": "Personal Chest (chest)",
+        "image": "Personal Chest (chest).png",
+        "variantName": "chest",
         "recipe": {
-          "id": "d21b1c14a6b4",
+          "id": "0c3915aa74af",
           "facility": "Build Menu",
           "materials": [
             {
-              "itemId": "4e9385331903",
-              "quantity": 10
+              "itemId": "b132f6798b7e",
+              "quantity": 99
             },
             {
               "itemId": "eedfb3dc7f45",
-              "quantity": 10
+              "quantity": 16
+            },
+            {
+              "itemId": "2cb47baaee19",
+              "quantity": 3
             }
           ],
           "quantity": 1
@@ -17031,7 +17035,7 @@
     "facilities": [
       "Build Menu"
     ],
-    "wikiLink": "Bank_Chest"
+    "wikiLink": "Personal_Chest_(chest)"
   },
   {
     "id": "beecaf115fe1",

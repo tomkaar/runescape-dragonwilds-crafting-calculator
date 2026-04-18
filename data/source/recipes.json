@@ -27041,7 +27041,8 @@
   {
     "uses_material": [
       "Oak Logs",
-      "Astral Rune"
+      "Vault Core",
+      "Law Rune"
     ],
     "uses_skill": [
       "Construction"
@@ -27053,20 +27054,28 @@
       "facility": "Build Menu",
       "materials": [
         {
-          "quantity": "10",
+          "quantity": "16",
           "name": "Oak Logs",
           "link": "Oak Logs",
-          "qty": "10",
+          "qty": "16",
           "item": "Oak Logs",
           "image": "[[File:Oak Logs.png|30px|link=Oak Logs]]"
         },
         {
-          "quantity": "10",
-          "name": "Astral Rune",
-          "link": "Astral Rune",
-          "qty": "10",
-          "item": "Astral Rune",
-          "image": "[[File:Astral Rune.png|30px|link=Astral Rune]]"
+          "quantity": "3",
+          "name": "Vault Core",
+          "link": "Vault Core",
+          "qty": "3",
+          "item": "Vault Core",
+          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
+        },
+        {
+          "quantity": "99",
+          "name": "Law Rune",
+          "link": "Law Rune",
+          "qty": "99",
+          "item": "Law Rune",
+          "image": "[[File:Law Rune.png|30px|link=Law Rune]]"
         }
       ],
       "skills": [
@@ -27076,19 +27085,19 @@
         }
       ],
       "outputs": [
-        "Bank Chest"
+        "Personal Chest (chest)"
       ],
       "output": {
         "quantity": 1,
-        "name": "Bank Chest",
-        "link": "Bank Chest",
+        "name": "Personal Chest (chest)",
+        "link": "Personal Chest (chest)",
         "qty": 1,
-        "item": "Bank Chest",
-        "image": "[[File:Bank Chest.png|30px|link=Bank Chest]]"
+        "item": "Personal Chest (chest)",
+        "image": "[[File:Personal Chest (chest).png|30px|link=Personal Chest (chest)]]"
       }
     },
     "output": [
-      "Bank Chest"
+      "Personal Chest (chest)"
     ]
   },
   {
