@@ -15045,5 +15045,257 @@
     },
     "item_weight": 0,
     "page_name_sub": "Hardy Weathered Shell"
+  },
+  {
+    "page_name": "Plan Bundle: Armadyl Flags",
+    "item_description": "A collection of decoration plans.",
+    "item_name": "Plan Bundle: Armadyl Flags",
+    "item_type": "Container",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Container",
+      "description": "A collection of decoration plans.",
+      "image": "[[File:Plan Bundle: Armadyl Flags.png|32px]]",
+      "name": "Plan Bundle: Armadyl Flags",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Plan Bundle: Armadyl Flags.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Plan Bundle: Armadyl Flags"
+  },
+  {
+    "page_name": "Plan Bundle: Bandos Flags",
+    "item_description": "A collection of decoration plans.",
+    "item_name": "Plan Bundle: Bandos Flags",
+    "item_type": "Container",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Container",
+      "description": "A collection of decoration plans.",
+      "image": "[[File:Plan Bundle: Bandos Flags.png|32px]]",
+      "name": "Plan Bundle: Bandos Flags",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Plan Bundle: Bandos Flags.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Plan Bundle: Bandos Flags"
+  },
+  {
+    "page_name": "Plan Bundle: Guthix Flags",
+    "item_description": "A collection of decoration plans.",
+    "item_name": "Plan Bundle: Guthix Flags",
+    "item_type": "Container",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Container",
+      "description": "A collection of decoration plans.",
+      "image": "[[File:Plan Bundle: Guthix Flags.png|32px]]",
+      "name": "Plan Bundle: Guthix Flags",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Plan Bundle: Guthix Flags.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Plan Bundle: Guthix Flags"
+  },
+  {
+    "page_name": "Plan Bundle: Saradomin Flags",
+    "item_description": "A collection of decoration plans.",
+    "item_name": "Plan Bundle: Saradomin Flags",
+    "item_type": "Container",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Container",
+      "description": "A collection of decoration plans.",
+      "image": "[[File:Plan Bundle: Saradomin Flags.png|32px]]",
+      "name": "Plan Bundle: Saradomin Flags",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Plan Bundle: Saradomin Flags.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Plan Bundle: Saradomin Flags"
+  },
+  {
+    "page_name": "Plan Bundle: Zamorak Flags",
+    "item_description": "A collection of decoration plans.",
+    "item_name": "Plan Bundle: Zamorak Flags",
+    "item_type": "Container",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Container",
+      "description": "A collection of decoration plans.",
+      "image": "[[File:Plan Bundle: Zamorak Flags.png|32px]]",
+      "name": "Plan Bundle: Zamorak Flags",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Plan Bundle: Zamorak Flags.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Plan Bundle: Zamorak Flags"
+  },
+  {
+    "page_name": "Mithril Barbed Arrow",
+    "item_description": "Lacerating arrows with barbed tips forged from mithril.",
+    "item_name": "Mithril Barbed Arrow",
+    "item_type": "Arrow",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Arrow",
+      "description": "Lacerating arrows with barbed tips forged from mithril.",
+      "image": "[[File:Mithril Barbed Arrow.png|32px]]",
+      "name": "Mithril Barbed Arrow",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Mithril Barbed Arrow.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Mithril Barbed Arrow"
+  },
+  {
+    "page_name": "Poisoned Mithril Arrow",
+    "item_description": "Arrows with tips forged from mithril, coated in Weapon Poison.",
+    "item_name": "Poisoned Mithril Arrow",
+    "item_type": "Arrow",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Arrow",
+      "description": "Arrows with tips forged from mithril, coated in Weapon Poison.",
+      "image": "[[File:Poisoned Mithril Arrow.png|32px]]",
+      "name": "Poisoned Mithril Arrow",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Poisoned Mithril Arrow.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Poisoned Mithril Arrow"
+  },
+  {
+    "page_name": "Mithril Fire Arrow",
+    "item_description": "Burning arrows with tips forged from mithril, coated in fire oil.",
+    "item_name": "Mithril Fire Arrow",
+    "item_type": "Arrow",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Arrow",
+      "description": "Burning arrows with tips forged from mithril, coated in fire oil.",
+      "image": "[[File:Mithril Fire Arrow.png|32px]]",
+      "name": "Mithril Fire Arrow",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Mithril Fire Arrow.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Mithril Fire Arrow"
+  },
+  {
+    "page_name": "PLAN: Armadyl Flag 01",
+    "item_description": "",
+    "item_name": "PLAN: Armadyl Flag 01",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN: Armadyl Flag 01.png|32px]]",
+      "name": "PLAN: Armadyl Flag 01",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Armadyl Flag 01.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Armadyl Flag 01"
+  },
+  {
+    "page_name": "PLAN: Armadyl Flag 02",
+    "item_description": "",
+    "item_name": "PLAN: Armadyl Flag 02",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN: Armadyl Flag 02.png|32px]]",
+      "name": "PLAN: Armadyl Flag 02",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Armadyl Flag 02.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Armadyl Flag 02"
+  },
+  {
+    "page_name": "PLAN: Armadyl Flag 03",
+    "item_description": "",
+    "item_name": "PLAN: Armadyl Flag 03",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN: Armadyl Flag 03.png|32px]]",
+      "name": "PLAN: Armadyl Flag 03",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Armadyl Flag 03.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Armadyl Flag 03"
+  },
+  {
+    "page_name": "PLAN: Armadyl Flag 04",
+    "item_description": "",
+    "item_name": "PLAN: Armadyl Flag 04",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN: Armadyl Flag 04.png|32px]]",
+      "name": "PLAN: Armadyl Flag 04",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Armadyl Flag 04.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Armadyl Flag 04"
+  },
+  {
+    "page_name": "PLAN: Armadyl Flag 05",
+    "item_description": "",
+    "item_name": "PLAN: Armadyl Flag 05",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN: Armadyl Flag 05.png|32px]]",
+      "name": "PLAN: Armadyl Flag 05",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Armadyl Flag 05.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Armadyl Flag 05"
+  },
+  {
+    "page_name": "PLAN: Armadyl Flag 06",
+    "item_description": "",
+    "item_name": "PLAN: Armadyl Flag 06",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN: Armadyl Flag 06.png|32px]]",
+      "name": "PLAN: Armadyl Flag 06",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Armadyl Flag 06.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Armadyl Flag 06"
   }
 ]

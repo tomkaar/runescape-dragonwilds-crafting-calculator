@@ -50129,5 +50129,506 @@
     "output": [
       "Green Hex Cape"
     ]
+  },
+  {
+    "uses_material": [
+      "Mithril Arrow",
+      "Weapon Barbs"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "Mithril Arrow",
+          "link": "Mithril Arrow",
+          "qty": "33",
+          "item": "Mithril Arrow",
+          "image": "[[File:Mithril Arrow.png|30px|link=Mithril Arrow]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Weapon Barbs",
+          "link": "Weapon Barbs",
+          "qty": "1",
+          "item": "Weapon Barbs",
+          "image": "[[File:Weapon Barbs.png|30px|link=Weapon Barbs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Mithril Barbed Arrow"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Mithril Barbed Arrow",
+        "link": "Mithril Barbed Arrow",
+        "qty": "33",
+        "item": "Mithril Barbed Arrow",
+        "image": "[[File:Mithril Barbed Arrow.png|30px|link=Mithril Barbed Arrow]]"
+      }
+    },
+    "output": [
+      "Mithril Barbed Arrow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Arrow",
+      "Weapon Poison"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "Mithril Arrow",
+          "link": "Mithril Arrow",
+          "qty": "33",
+          "item": "Mithril Arrow",
+          "image": "[[File:Mithril Arrow.png|30px|link=Mithril Arrow]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Weapon Poison",
+          "link": "Weapon Poison",
+          "qty": "1",
+          "item": "Weapon Poison",
+          "image": "[[File:Weapon Poison.png|30px|link=Weapon Poison]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Poisoned Mithril Arrow"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Poisoned Mithril Arrow",
+        "link": "Poisoned Mithril Arrow",
+        "qty": "33",
+        "item": "Poisoned Mithril Arrow",
+        "image": "[[File:Poisoned Mithril Arrow.png|30px|link=Poisoned Mithril Arrow]]"
+      }
+    },
+    "output": [
+      "Poisoned Mithril Arrow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Arrow",
+      "Fire Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "Mithril Arrow",
+          "link": "Mithril Arrow",
+          "qty": "33",
+          "item": "Mithril Arrow",
+          "image": "[[File:Mithril Arrow.png|30px|link=Mithril Arrow]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Fire Oil",
+          "link": "Fire Oil",
+          "qty": "1",
+          "item": "Fire Oil",
+          "image": "[[File:Fire Oil.png|30px|link=Fire Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Mithril Fire Arrow"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Mithril Fire Arrow",
+        "link": "Mithril Fire Arrow",
+        "qty": "33",
+        "item": "Mithril Fire Arrow",
+        "image": "[[File:Mithril Fire Arrow.png|30px|link=Mithril Fire Arrow]]"
+      }
+    },
+    "output": [
+      "Mithril Fire Arrow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Armadyl Flag 01"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Armadyl Flag 01",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Armadyl Flag 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Armadyl Flag 01",
+        "link": "Armadyl Flag 01",
+        "qty": 1,
+        "item": "Armadyl Flag 01",
+        "image": "[[File:Armadyl Flag 01.png|30px|link=Armadyl Flag 01]]"
+      }
+    },
+    "output": [
+      "Armadyl Flag 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Armadyl Flag 06"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Armadyl Flag 06",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Armadyl Flag 06"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Armadyl Flag 06",
+        "link": "Armadyl Flag 06",
+        "qty": 1,
+        "item": "Armadyl Flag 06",
+        "image": "[[File:Armadyl Flag 06.png|30px|link=Armadyl Flag 06]]"
+      }
+    },
+    "output": [
+      "Armadyl Flag 06"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Armadyl Flag 05"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Armadyl Flag 05",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Armadyl Flag 05"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Armadyl Flag 05",
+        "link": "Armadyl Flag 05",
+        "qty": 1,
+        "item": "Armadyl Flag 05",
+        "image": "[[File:Armadyl Flag 05.png|30px|link=Armadyl Flag 05]]"
+      }
+    },
+    "output": [
+      "Armadyl Flag 05"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Armadyl Flag 04"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Armadyl Flag 04",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Armadyl Flag 04"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Armadyl Flag 04",
+        "link": "Armadyl Flag 04",
+        "qty": 1,
+        "item": "Armadyl Flag 04",
+        "image": "[[File:Armadyl Flag 04.png|30px|link=Armadyl Flag 04]]"
+      }
+    },
+    "output": [
+      "Armadyl Flag 04"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Armadyl Flag 03"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Armadyl Flag 03",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Armadyl Flag 03"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Armadyl Flag 03",
+        "link": "Armadyl Flag 03",
+        "qty": 1,
+        "item": "Armadyl Flag 03",
+        "image": "[[File:Armadyl Flag 03.png|30px|link=Armadyl Flag 03]]"
+      }
+    },
+    "output": [
+      "Armadyl Flag 03"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Armadyl Flag 02"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Armadyl Flag 02",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Armadyl Flag 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Armadyl Flag 02",
+        "link": "Armadyl Flag 02",
+        "qty": 1,
+        "item": "Armadyl Flag 02",
+        "image": "[[File:Armadyl Flag 02.png|30px|link=Armadyl Flag 02]]"
+      }
+    },
+    "output": [
+      "Armadyl Flag 02"
+    ]
   }
 ]
