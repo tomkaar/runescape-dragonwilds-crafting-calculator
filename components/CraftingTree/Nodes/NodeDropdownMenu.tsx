@@ -122,6 +122,14 @@ export function NodeDropdownMenu({
             View item
           </a>
         </DropdownMenuItem>
+        {item?.name && (
+          <DropdownMenuItem asChild>
+            <a href={`/item?materials=${encodeURIComponent(item.name)}`}>
+              <ArrowRight className="size-4" />
+              Items using this
+            </a>
+          </DropdownMenuItem>
+        )}
         {wikiLink && (
           <DropdownMenuItem asChild>
             <a
