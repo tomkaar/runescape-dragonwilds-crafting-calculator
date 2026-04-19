@@ -199,7 +199,10 @@ const Content = memo(function InnerContent(props: ContentProps) {
         ) : null}
         <button
           onClick={handleToggleItem}
-          className="cursor-pointer flex flex-row gap-1 items-center pl-1 py-1"
+          className={cn(
+            "cursor-pointer flex flex-row gap-1 items-center pl-1 py-1",
+            isRecipeNumberVariant !== null && "pr-2",
+          )}
           disabled={isRecipeNumberVariant !== null}
         >
           {image && (
