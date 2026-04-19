@@ -32722,6 +32722,348 @@
     "weight": 0
   },
   {
+    "id": "e8e49a43846f",
+    "name": "Mithril Barbed Arrow",
+    "image": "Mithril Barbed Arrow.png",
+    "variants": [
+      {
+        "id": "ed0248064697",
+        "name": "Mithril Barbed Arrow",
+        "image": "Mithril Barbed Arrow.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ae2acf2674b6",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "0eb3c4abb6a8",
+              "quantity": 33
+            },
+            {
+              "itemId": "30730b55d0af",
+              "quantity": 1
+            }
+          ],
+          "quantity": 33
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Mithril_Barbed_Arrow",
+    "weight": 0,
+    "stackLimit": 999
+  },
+  {
+    "id": "d9e72659f886",
+    "name": "Poisoned Mithril Arrow",
+    "image": "Poisoned Mithril Arrow.png",
+    "variants": [
+      {
+        "id": "671861bb4c42",
+        "name": "Poisoned Mithril Arrow",
+        "image": "Poisoned Mithril Arrow.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b30a334edcbd",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "0eb3c4abb6a8",
+              "quantity": 33
+            },
+            {
+              "itemId": "6bf489a69130",
+              "quantity": 1
+            }
+          ],
+          "quantity": 33
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Poisoned_Mithril_Arrow",
+    "weight": 0,
+    "stackLimit": 999
+  },
+  {
+    "id": "d5563f1ae29a",
+    "name": "Mithril Fire Arrow",
+    "image": "Mithril Fire Arrow.png",
+    "variants": [
+      {
+        "id": "2ae0a6ab7dc9",
+        "name": "Mithril Fire Arrow",
+        "image": "Mithril Fire Arrow.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9b7b360cdcb3",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "262c289bf509",
+              "quantity": 1
+            },
+            {
+              "itemId": "0eb3c4abb6a8",
+              "quantity": 33
+            }
+          ],
+          "quantity": 33
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Mithril_Fire_Arrow",
+    "weight": 0,
+    "stackLimit": 999
+  },
+  {
+    "id": "1d890d63e530",
+    "name": "Armadyl Flag 01",
+    "image": "Armadyl Flag 01.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Armadyl Flag 01",
+        "image": "Armadyl Flag 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Armadyl Flag 01"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Armadyl_Flag_01"
+  },
+  {
+    "id": "fc2d1a9c5af4",
+    "name": "Armadyl Flag 06",
+    "image": "Armadyl Flag 06.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Armadyl Flag 06",
+        "image": "Armadyl Flag 06.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Armadyl Flag 06"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Armadyl_Flag_06"
+  },
+  {
+    "id": "a87876f47f7a",
+    "name": "Armadyl Flag 05",
+    "image": "Armadyl Flag 05.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Armadyl Flag 05",
+        "image": "Armadyl Flag 05.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Armadyl Flag 05"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Armadyl_Flag_05"
+  },
+  {
+    "id": "3231fa2338cf",
+    "name": "Armadyl Flag 04",
+    "image": "Armadyl Flag 04.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Armadyl Flag 04",
+        "image": "Armadyl Flag 04.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Armadyl Flag 04"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Armadyl_Flag_04"
+  },
+  {
+    "id": "6e3202609747",
+    "name": "Armadyl Flag 03",
+    "image": "Armadyl Flag 03.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Armadyl Flag 03",
+        "image": "Armadyl Flag 03.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Armadyl Flag 03"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Armadyl_Flag_03"
+  },
+  {
+    "id": "2ce6364392a9",
+    "name": "Armadyl Flag 02",
+    "image": "Armadyl Flag 02.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Armadyl Flag 02",
+        "image": "Armadyl Flag 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Armadyl Flag 02"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Armadyl_Flag_02"
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -39691,6 +40033,226 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Hardy_Weathered_Shell",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "9e47d9592afa",
+    "name": "Plan Bundle: Armadyl Flags",
+    "image": "Plan Bundle: Armadyl Flags.png",
+    "variants": [
+      {
+        "id": "9e47d9592afa",
+        "name": "Plan Bundle: Armadyl Flags",
+        "image": "Plan Bundle: Armadyl Flags.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Plan_Bundle:_Armadyl_Flags",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "1cbb3c803746",
+    "name": "Plan Bundle: Bandos Flags",
+    "image": "Plan Bundle: Bandos Flags.png",
+    "variants": [
+      {
+        "id": "1cbb3c803746",
+        "name": "Plan Bundle: Bandos Flags",
+        "image": "Plan Bundle: Bandos Flags.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Plan_Bundle:_Bandos_Flags",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "f2bee6f15e7a",
+    "name": "Plan Bundle: Guthix Flags",
+    "image": "Plan Bundle: Guthix Flags.png",
+    "variants": [
+      {
+        "id": "f2bee6f15e7a",
+        "name": "Plan Bundle: Guthix Flags",
+        "image": "Plan Bundle: Guthix Flags.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Plan_Bundle:_Guthix_Flags",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "bd18f511343a",
+    "name": "Plan Bundle: Saradomin Flags",
+    "image": "Plan Bundle: Saradomin Flags.png",
+    "variants": [
+      {
+        "id": "bd18f511343a",
+        "name": "Plan Bundle: Saradomin Flags",
+        "image": "Plan Bundle: Saradomin Flags.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Plan_Bundle:_Saradomin_Flags",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "96870eb6d50c",
+    "name": "Plan Bundle: Zamorak Flags",
+    "image": "Plan Bundle: Zamorak Flags.png",
+    "variants": [
+      {
+        "id": "96870eb6d50c",
+        "name": "Plan Bundle: Zamorak Flags",
+        "image": "Plan Bundle: Zamorak Flags.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Plan_Bundle:_Zamorak_Flags",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "99776916e4c1",
+    "name": "PLAN: Armadyl Flag 01",
+    "image": "PLAN: Armadyl Flag 01.png",
+    "variants": [
+      {
+        "id": "99776916e4c1",
+        "name": "PLAN: Armadyl Flag 01",
+        "image": "PLAN: Armadyl Flag 01.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Armadyl_Flag_01",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "1149a06a44b2",
+    "name": "PLAN: Armadyl Flag 02",
+    "image": "PLAN: Armadyl Flag 02.png",
+    "variants": [
+      {
+        "id": "1149a06a44b2",
+        "name": "PLAN: Armadyl Flag 02",
+        "image": "PLAN: Armadyl Flag 02.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Armadyl_Flag_02",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "0c555a218770",
+    "name": "PLAN: Armadyl Flag 03",
+    "image": "PLAN: Armadyl Flag 03.png",
+    "variants": [
+      {
+        "id": "0c555a218770",
+        "name": "PLAN: Armadyl Flag 03",
+        "image": "PLAN: Armadyl Flag 03.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Armadyl_Flag_03",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "93ca9d0cc089",
+    "name": "PLAN: Armadyl Flag 04",
+    "image": "PLAN: Armadyl Flag 04.png",
+    "variants": [
+      {
+        "id": "93ca9d0cc089",
+        "name": "PLAN: Armadyl Flag 04",
+        "image": "PLAN: Armadyl Flag 04.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Armadyl_Flag_04",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "c78bedb9497e",
+    "name": "PLAN: Armadyl Flag 05",
+    "image": "PLAN: Armadyl Flag 05.png",
+    "variants": [
+      {
+        "id": "c78bedb9497e",
+        "name": "PLAN: Armadyl Flag 05",
+        "image": "PLAN: Armadyl Flag 05.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Armadyl_Flag_05",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "bb0ebd4c1a90",
+    "name": "PLAN: Armadyl Flag 06",
+    "image": "PLAN: Armadyl Flag 06.png",
+    "variants": [
+      {
+        "id": "bb0ebd4c1a90",
+        "name": "PLAN: Armadyl Flag 06",
+        "image": "PLAN: Armadyl Flag 06.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Armadyl_Flag_06",
     "weight": 0,
     "stackLimit": 99
   }
