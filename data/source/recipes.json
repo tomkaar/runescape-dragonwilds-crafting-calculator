@@ -1859,10 +1859,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Tattered Time-Lost Cloth"
+    ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
+      "recipe": "Tattered Time-Lost Cloth",
       "facility": "Crafting Table",
       "materials": [],
       "skills": [
@@ -1949,13 +1953,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Suspiciously Light Tattered Boots"
+      "Suspiciously Light Tattered Boots"
     ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
-      "recipe": "VESTIGE: Suspiciously Light Tattered Boots",
+      "recipe": "Suspiciously Light Tattered Boots",
       "facility": "Crafting Table",
       "materials": [
         {
@@ -4785,13 +4789,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: A Cruel Goblin Blade"
+      "A Cruel Goblin Blade"
     ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
-      "recipe": "VESTIGE: A Cruel Goblin Blade",
+      "recipe": "A Cruel Goblin Blade",
       "facility": "Crafting Table",
       "materials": [
         {
@@ -10097,13 +10101,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: An Educational Blade"
+      "An Educational Blade"
     ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
-      "recipe": "VESTIGE: An Educational Blade",
+      "recipe": "An Educational Blade",
       "facility": "Crafting Table",
       "materials": [
         {
@@ -11287,10 +11291,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Parts of a Sinister-Looking Staff"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
+      "recipe": "Parts of a Sinister-Looking Staff",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -28687,13 +28695,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Remnants of a Shattered Skull"
+      "Remnants of a Shattered Skull"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "VESTIGE: Remnants of a Shattered Skull",
+      "recipe": "Remnants of a Shattered Skull",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -36744,10 +36752,17 @@
       "Sapphire",
       "Vault Shard"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "A Cracked Bronze Vanity Mirror"
+    ],
     "uses_facility": [
       "Jeweler's Bench"
     ],
     "json": {
+      "recipe": "A Cracked Bronze Vanity Mirror",
       "facility": "Jeweler's Bench",
       "materials": [
         {
@@ -36783,7 +36798,12 @@
           "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
       "outputs": [
         "Ring of Recoil"
       ],
@@ -44127,6 +44147,78 @@
   },
   {
     "uses_material": [
+      "Clay Mould",
+      "Gold Bar",
+      "Silver Bar",
+      "Opal",
+      "Vault Shard"
+    ],
+    "uses_facility": [
+      "Jeweler's Bench"
+    ],
+    "json": {
+      "facility": "Jeweler's Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gold Bar",
+          "link": "Gold Bar",
+          "qty": "2",
+          "item": "Gold Bar",
+          "image": "[[File:Gold Bar.png|30px|link=Gold Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Silver Bar",
+          "link": "Silver Bar",
+          "qty": "2",
+          "item": "Silver Bar",
+          "image": "[[File:Silver Bar.png|30px|link=Silver Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Opal",
+          "link": "Opal",
+          "qty": "4",
+          "item": "Opal",
+          "image": "[[File:Opal.png|30px|link=Opal]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "6",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Unholy Symbol"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Unholy Symbol",
+        "link": "Unholy Symbol",
+        "qty": "1",
+        "item": "Unholy Symbol",
+        "image": "[[File:Unholy Symbol.png|30px|link=Unholy Symbol]]"
+      }
+    },
+    "output": [
+      "Unholy Symbol"
+    ]
+  },
+  {
+    "uses_material": [
       "Black Metal Scraps",
       "Coal"
     ],
@@ -50629,6 +50721,2229 @@
     },
     "output": [
       "Armadyl Flag 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Bandos Flag 01"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Bandos Flag 01",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Bandos Flag 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Bandos Flag 01",
+        "link": "Bandos Flag 01",
+        "qty": 1,
+        "item": "Bandos Flag 01",
+        "image": "[[File:Bandos Flag 01.png|30px|link=Bandos Flag 01]]"
+      }
+    },
+    "output": [
+      "Bandos Flag 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Bandos Flag 02"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Bandos Flag 02",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Bandos Flag 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Bandos Flag 02",
+        "link": "Bandos Flag 02",
+        "qty": 1,
+        "item": "Bandos Flag 02",
+        "image": "[[File:Bandos Flag 02.png|30px|link=Bandos Flag 02]]"
+      }
+    },
+    "output": [
+      "Bandos Flag 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Bandos Flag 03"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Bandos Flag 03",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Bandos Flag 03"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Bandos Flag 03",
+        "link": "Bandos Flag 03",
+        "qty": 1,
+        "item": "Bandos Flag 03",
+        "image": "[[File:Bandos Flag 03.png|30px|link=Bandos Flag 03]]"
+      }
+    },
+    "output": [
+      "Bandos Flag 03"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Bandos Flag 04"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Bandos Flag 04",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Bandos Flag 04"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Bandos Flag 04",
+        "link": "Bandos Flag 04",
+        "qty": 1,
+        "item": "Bandos Flag 04",
+        "image": "[[File:Bandos Flag 04.png|30px|link=Bandos Flag 04]]"
+      }
+    },
+    "output": [
+      "Bandos Flag 04"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Bandos Flag 05"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Bandos Flag 05",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Bandos Flag 05"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Bandos Flag 05",
+        "link": "Bandos Flag 05",
+        "qty": 1,
+        "item": "Bandos Flag 05",
+        "image": "[[File:Bandos Flag 05.png|30px|link=Bandos Flag 05]]"
+      }
+    },
+    "output": [
+      "Bandos Flag 05"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Bandos Flag 06"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Bandos Flag 06",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Bandos Flag 06"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Bandos Flag 06",
+        "link": "Bandos Flag 06",
+        "qty": 1,
+        "item": "Bandos Flag 06",
+        "image": "[[File:Bandos Flag 06.png|30px|link=Bandos Flag 06]]"
+      }
+    },
+    "output": [
+      "Bandos Flag 06"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Guthix Flag 01"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Guthix Flag 01",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Guthix Flag 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Guthix Flag 01",
+        "link": "Guthix Flag 01",
+        "qty": 1,
+        "item": "Guthix Flag 01",
+        "image": "[[File:Guthix Flag 01.png|30px|link=Guthix Flag 01]]"
+      }
+    },
+    "output": [
+      "Guthix Flag 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Guthix Flag 02"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Guthix Flag 02",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Guthix Flag 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Guthix Flag 02",
+        "link": "Guthix Flag 02",
+        "qty": 1,
+        "item": "Guthix Flag 02",
+        "image": "[[File:Guthix Flag 02.png|30px|link=Guthix Flag 02]]"
+      }
+    },
+    "output": [
+      "Guthix Flag 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Guthix Flag 03"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Guthix Flag 03",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Guthix Flag 03"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Guthix Flag 03",
+        "link": "Guthix Flag 03",
+        "qty": 1,
+        "item": "Guthix Flag 03",
+        "image": "[[File:Guthix Flag 03.png|30px|link=Guthix Flag 03]]"
+      }
+    },
+    "output": [
+      "Guthix Flag 03"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Guthix Flag 04"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Guthix Flag 04",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Guthix Flag 04"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Guthix Flag 04",
+        "link": "Guthix Flag 04",
+        "qty": 1,
+        "item": "Guthix Flag 04",
+        "image": "[[File:Guthix Flag 04.png|30px|link=Guthix Flag 04]]"
+      }
+    },
+    "output": [
+      "Guthix Flag 04"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Guthix Flag 05"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Guthix Flag 05",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Guthix Flag 05"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Guthix Flag 05",
+        "link": "Guthix Flag 05",
+        "qty": 1,
+        "item": "Guthix Flag 05",
+        "image": "[[File:Guthix Flag 05.png|30px|link=Guthix Flag 05]]"
+      }
+    },
+    "output": [
+      "Guthix Flag 05"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Guthix Flag 06"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Guthix Flag 06",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Guthix Flag 06"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Guthix Flag 06",
+        "link": "Guthix Flag 06",
+        "qty": 1,
+        "item": "Guthix Flag 06",
+        "image": "[[File:Guthix Flag 06.png|30px|link=Guthix Flag 06]]"
+      }
+    },
+    "output": [
+      "Guthix Flag 06"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Saradomin Flag 01"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Saradomin Flag 01",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Saradomin Flag 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Saradomin Flag 01",
+        "link": "Saradomin Flag 01",
+        "qty": 1,
+        "item": "Saradomin Flag 01",
+        "image": "[[File:Saradomin Flag 01.png|30px|link=Saradomin Flag 01]]"
+      }
+    },
+    "output": [
+      "Saradomin Flag 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Saradomin Flag 02"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Saradomin Flag 02",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Saradomin Flag 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Saradomin Flag 02",
+        "link": "Saradomin Flag 02",
+        "qty": 1,
+        "item": "Saradomin Flag 02",
+        "image": "[[File:Saradomin Flag 02.png|30px|link=Saradomin Flag 02]]"
+      }
+    },
+    "output": [
+      "Saradomin Flag 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Saradomin Flag 03"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Saradomin Flag 03",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Saradomin Flag 03"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Saradomin Flag 03",
+        "link": "Saradomin Flag 03",
+        "qty": 1,
+        "item": "Saradomin Flag 03",
+        "image": "[[File:Saradomin Flag 03.png|30px|link=Saradomin Flag 03]]"
+      }
+    },
+    "output": [
+      "Saradomin Flag 03"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Saradomin Flag 04"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Saradomin Flag 04",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Saradomin Flag 04"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Saradomin Flag 04",
+        "link": "Saradomin Flag 04",
+        "qty": 1,
+        "item": "Saradomin Flag 04",
+        "image": "[[File:Saradomin Flag 04.png|30px|link=Saradomin Flag 04]]"
+      }
+    },
+    "output": [
+      "Saradomin Flag 04"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Saradomin Flag 05"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Saradomin Flag 05",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Saradomin Flag 05"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Saradomin Flag 05",
+        "link": "Saradomin Flag 05",
+        "qty": 1,
+        "item": "Saradomin Flag 05",
+        "image": "[[File:Saradomin Flag 05.png|30px|link=Saradomin Flag 05]]"
+      }
+    },
+    "output": [
+      "Saradomin Flag 05"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Saradomin Flag 06"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Saradomin Flag 06",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Saradomin Flag 06"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Saradomin Flag 06",
+        "link": "Saradomin Flag 06",
+        "qty": 1,
+        "item": "Saradomin Flag 06",
+        "image": "[[File:Saradomin Flag 06.png|30px|link=Saradomin Flag 06]]"
+      }
+    },
+    "output": [
+      "Saradomin Flag 06"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Zamorak Flag 05"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Zamorak Flag 05",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Zamorak Flag 05"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zamorak Flag 05",
+        "link": "Zamorak Flag 05",
+        "qty": 1,
+        "item": "Zamorak Flag 05",
+        "image": "[[File:Zamorak Flag 05.png|30px|link=Zamorak Flag 05]]"
+      }
+    },
+    "output": [
+      "Zamorak Flag 05"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Zamorak Flag 06"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Zamorak Flag 06",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Zamorak Flag 06"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zamorak Flag 06",
+        "link": "Zamorak Flag 06",
+        "qty": 1,
+        "item": "Zamorak Flag 06",
+        "image": "[[File:Zamorak Flag 06.png|30px|link=Zamorak Flag 06]]"
+      }
+    },
+    "output": [
+      "Zamorak Flag 06"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Zamorak Flag 04"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Zamorak Flag 04",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Zamorak Flag 04"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zamorak Flag 04",
+        "link": "Zamorak Flag 04",
+        "qty": 1,
+        "item": "Zamorak Flag 04",
+        "image": "[[File:Zamorak Flag 04.png|30px|link=Zamorak Flag 04]]"
+      }
+    },
+    "output": [
+      "Zamorak Flag 04"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Zamorak Flag 03"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Zamorak Flag 03",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Zamorak Flag 03"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zamorak Flag 03",
+        "link": "Zamorak Flag 03",
+        "qty": 1,
+        "item": "Zamorak Flag 03",
+        "image": "[[File:Zamorak Flag 03.png|30px|link=Zamorak Flag 03]]"
+      }
+    },
+    "output": [
+      "Zamorak Flag 03"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Zamorak Flag 02"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Zamorak Flag 02",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Zamorak Flag 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zamorak Flag 02",
+        "link": "Zamorak Flag 02",
+        "qty": 1,
+        "item": "Zamorak Flag 02",
+        "image": "[[File:Zamorak Flag 02.png|30px|link=Zamorak Flag 02]]"
+      }
+    },
+    "output": [
+      "Zamorak Flag 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Zamorak Flag 01"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Zamorak Flag 01",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Zamorak Flag 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zamorak Flag 01",
+        "link": "Zamorak Flag 01",
+        "qty": 1,
+        "item": "Zamorak Flag 01",
+        "image": "[[File:Zamorak Flag 01.png|30px|link=Zamorak Flag 01]]"
+      }
+    },
+    "output": [
+      "Zamorak Flag 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Zamorak Banner 03"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Zamorak Banner 03",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Zamorak Banner 03"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zamorak Banner 03",
+        "link": "Zamorak Banner 03",
+        "qty": 1,
+        "item": "Zamorak Banner 03",
+        "image": "[[File:Zamorak Banner 03.png|30px|link=Zamorak Banner 03]]"
+      }
+    },
+    "output": [
+      "Zamorak Banner 03"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Zamorak Banner 02"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Zamorak Banner 02",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Zamorak Banner 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zamorak Banner 02",
+        "link": "Zamorak Banner 02",
+        "qty": 1,
+        "item": "Zamorak Banner 02",
+        "image": "[[File:Zamorak Banner 02.png|30px|link=Zamorak Banner 02]]"
+      }
+    },
+    "output": [
+      "Zamorak Banner 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Zamorak Banner 01"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Zamorak Banner 01",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Zamorak Banner 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zamorak Banner 01",
+        "link": "Zamorak Banner 01",
+        "qty": 1,
+        "item": "Zamorak Banner 01",
+        "image": "[[File:Zamorak Banner 01.png|30px|link=Zamorak Banner 01]]"
+      }
+    },
+    "output": [
+      "Zamorak Banner 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Armadyl Banner 03"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Armadyl Banner 03",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Armadyl Banner 03"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Armadyl Banner 03",
+        "link": "Armadyl Banner 03",
+        "qty": 1,
+        "item": "Armadyl Banner 03",
+        "image": "[[File:Armadyl Banner 03.png|30px|link=Armadyl Banner 03]]"
+      }
+    },
+    "output": [
+      "Armadyl Banner 03"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Armadyl Banner 02"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Armadyl Banner 02",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Armadyl Banner 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Armadyl Banner 02",
+        "link": "Armadyl Banner 02",
+        "qty": 1,
+        "item": "Armadyl Banner 02",
+        "image": "[[File:Armadyl Banner 02.png|30px|link=Armadyl Banner 02]]"
+      }
+    },
+    "output": [
+      "Armadyl Banner 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Armadyl Banner 01"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Armadyl Banner 01",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Armadyl Banner 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Armadyl Banner 01",
+        "link": "Armadyl Banner 01",
+        "qty": 1,
+        "item": "Armadyl Banner 01",
+        "image": "[[File:Armadyl Banner 01.png|30px|link=Armadyl Banner 01]]"
+      }
+    },
+    "output": [
+      "Armadyl Banner 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Guthix Banner 03"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Guthix Banner 03",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Guthix Banner 03"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Guthix Banner 03",
+        "link": "Guthix Banner 03",
+        "qty": 1,
+        "item": "Guthix Banner 03",
+        "image": "[[File:Guthix Banner 03.png|30px|link=Guthix Banner 03]]"
+      }
+    },
+    "output": [
+      "Guthix Banner 03"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Guthix Banner 02"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Guthix Banner 02",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Guthix Banner 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Guthix Banner 02",
+        "link": "Guthix Banner 02",
+        "qty": 1,
+        "item": "Guthix Banner 02",
+        "image": "[[File:Guthix Banner 02.png|30px|link=Guthix Banner 02]]"
+      }
+    },
+    "output": [
+      "Guthix Banner 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Guthix Banner 01"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Guthix Banner 01",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Guthix Banner 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Guthix Banner 01",
+        "link": "Guthix Banner 01",
+        "qty": 1,
+        "item": "Guthix Banner 01",
+        "image": "[[File:Guthix Banner 01.png|30px|link=Guthix Banner 01]]"
+      }
+    },
+    "output": [
+      "Guthix Banner 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Bandos Banner 01"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Bandos Banner 01",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Bandos Banner 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Bandos Banner 01",
+        "link": "Bandos Banner 01",
+        "qty": 1,
+        "item": "Bandos Banner 01",
+        "image": "[[File:Bandos Banner 01.png|30px|link=Bandos Banner 01]]"
+      }
+    },
+    "output": [
+      "Bandos Banner 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Bandos Banner 02"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Bandos Banner 02",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Bandos Banner 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Bandos Banner 02",
+        "link": "Bandos Banner 02",
+        "qty": 1,
+        "item": "Bandos Banner 02",
+        "image": "[[File:Bandos Banner 02.png|30px|link=Bandos Banner 02]]"
+      }
+    },
+    "output": [
+      "Bandos Banner 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Bandos Banner 03"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Bandos Banner 03",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Bandos Banner 03"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Bandos Banner 03",
+        "link": "Bandos Banner 03",
+        "qty": 1,
+        "item": "Bandos Banner 03",
+        "image": "[[File:Bandos Banner 03.png|30px|link=Bandos Banner 03]]"
+      }
+    },
+    "output": [
+      "Bandos Banner 03"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Saradomin Banner 02"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Saradomin Banner 02",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Saradomin Banner 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Saradomin Banner 02",
+        "link": "Saradomin Banner 02",
+        "qty": 1,
+        "item": "Saradomin Banner 02",
+        "image": "[[File:Saradomin Banner 02.png|30px|link=Saradomin Banner 02]]"
+      }
+    },
+    "output": [
+      "Saradomin Banner 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Saradomin Banner 03"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Saradomin Banner 03",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Saradomin Banner 03"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Saradomin Banner 03",
+        "link": "Saradomin Banner 03",
+        "qty": 1,
+        "item": "Saradomin Banner 03",
+        "image": "[[File:Saradomin Banner 03.png|30px|link=Saradomin Banner 03]]"
+      }
+    },
+    "output": [
+      "Saradomin Banner 03"
+    ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Saradomin Banner 01"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Saradomin Banner 01",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Saradomin Banner 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Saradomin Banner 01",
+        "link": "Saradomin Banner 01",
+        "qty": 1,
+        "item": "Saradomin Banner 01",
+        "image": "[[File:Saradomin Banner 01.png|30px|link=Saradomin Banner 01]]"
+      }
+    },
+    "output": [
+      "Saradomin Banner 01"
     ]
   }
 ]

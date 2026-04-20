@@ -1231,7 +1231,9 @@
           "materials": [],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Tattered Time-Lost Cloth"
+        ]
       }
     ],
     "skills": [
@@ -1307,7 +1309,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Suspiciously Light Tattered Boots"
+          "Suspiciously Light Tattered Boots"
         ]
       }
     ],
@@ -3183,7 +3185,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: A Cruel Goblin Blade"
+          "A Cruel Goblin Blade"
         ]
       }
     ],
@@ -6694,7 +6696,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: An Educational Blade"
+          "An Educational Blade"
         ]
       }
     ],
@@ -7546,7 +7548,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Parts of a Sinister-Looking Staff"
+        ]
       }
     ],
     "skills": [
@@ -18159,7 +18163,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Remnants of a Shattered Skull"
+          "Remnants of a Shattered Skull"
         ]
       }
     ],
@@ -23661,10 +23665,14 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "A Cracked Bronze Vanity Mirror"
+        ]
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Jeweler's Bench"
     ],
@@ -28625,6 +28633,54 @@
     "weight": 5
   },
   {
+    "id": "a8305dbddfe2",
+    "name": "Unholy Symbol",
+    "image": "Unholy Symbol.png",
+    "variants": [
+      {
+        "id": "ea15a2ce37e9",
+        "name": "Unholy Symbol",
+        "image": "Unholy Symbol.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fe18f588b27a",
+          "facility": "Jeweler's Bench",
+          "materials": [
+            {
+              "itemId": "604b383a6ff3",
+              "quantity": 1
+            },
+            {
+              "itemId": "4338f5798748",
+              "quantity": 2
+            },
+            {
+              "itemId": "b54c1c5f9b78",
+              "quantity": 4
+            },
+            {
+              "itemId": "9788d67f4f47",
+              "quantity": 2
+            },
+            {
+              "itemId": "9ca5b1c17952",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Jeweler's Bench"
+    ],
+    "wikiLink": "Unholy_Symbol",
+    "weight": 2,
+    "stackLimit": 1
+  },
+  {
     "id": "3e7d4a89b0dc",
     "name": "Black Metal Bar",
     "image": "Black Metal Bar.png",
@@ -33064,6 +33120,1488 @@
     "wikiLink": "Armadyl_Flag_02"
   },
   {
+    "id": "3d6af3f44744",
+    "name": "Bandos Flag 01",
+    "image": "Bandos Flag 01.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Bandos Flag 01",
+        "image": "Bandos Flag 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Bandos Flag 01"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Bandos_Flag_01"
+  },
+  {
+    "id": "db9e04e84e47",
+    "name": "Bandos Flag 02",
+    "image": "Bandos Flag 02.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Bandos Flag 02",
+        "image": "Bandos Flag 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Bandos Flag 02"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Bandos_Flag_02"
+  },
+  {
+    "id": "ae8c0e88a219",
+    "name": "Bandos Flag 03",
+    "image": "Bandos Flag 03.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Bandos Flag 03",
+        "image": "Bandos Flag 03.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Bandos Flag 03"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Bandos_Flag_03"
+  },
+  {
+    "id": "8da0f60cbce4",
+    "name": "Bandos Flag 04",
+    "image": "Bandos Flag 04.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Bandos Flag 04",
+        "image": "Bandos Flag 04.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Bandos Flag 04"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Bandos_Flag_04"
+  },
+  {
+    "id": "1863020cef7c",
+    "name": "Bandos Flag 05",
+    "image": "Bandos Flag 05.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Bandos Flag 05",
+        "image": "Bandos Flag 05.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Bandos Flag 05"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Bandos_Flag_05"
+  },
+  {
+    "id": "5fb8acd76c36",
+    "name": "Bandos Flag 06",
+    "image": "Bandos Flag 06.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Bandos Flag 06",
+        "image": "Bandos Flag 06.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Bandos Flag 06"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Bandos_Flag_06"
+  },
+  {
+    "id": "5e7e32aff40f",
+    "name": "Guthix Flag 01",
+    "image": "Guthix Flag 01.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Guthix Flag 01",
+        "image": "Guthix Flag 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Guthix Flag 01"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Guthix_Flag_01"
+  },
+  {
+    "id": "309fe4fdb011",
+    "name": "Guthix Flag 02",
+    "image": "Guthix Flag 02.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Guthix Flag 02",
+        "image": "Guthix Flag 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Guthix Flag 02"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Guthix_Flag_02"
+  },
+  {
+    "id": "f229a448568b",
+    "name": "Guthix Flag 03",
+    "image": "Guthix Flag 03.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Guthix Flag 03",
+        "image": "Guthix Flag 03.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Guthix Flag 03"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Guthix_Flag_03"
+  },
+  {
+    "id": "363fe1feaf22",
+    "name": "Guthix Flag 04",
+    "image": "Guthix Flag 04.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Guthix Flag 04",
+        "image": "Guthix Flag 04.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Guthix Flag 04"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Guthix_Flag_04"
+  },
+  {
+    "id": "7fc28a3815ad",
+    "name": "Guthix Flag 05",
+    "image": "Guthix Flag 05.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Guthix Flag 05",
+        "image": "Guthix Flag 05.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Guthix Flag 05"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Guthix_Flag_05"
+  },
+  {
+    "id": "324a5e565085",
+    "name": "Guthix Flag 06",
+    "image": "Guthix Flag 06.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Guthix Flag 06",
+        "image": "Guthix Flag 06.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Guthix Flag 06"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Guthix_Flag_06"
+  },
+  {
+    "id": "a60b9067254a",
+    "name": "Saradomin Flag 01",
+    "image": "Saradomin Flag 01.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Saradomin Flag 01",
+        "image": "Saradomin Flag 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Saradomin Flag 01"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Saradomin_Flag_01"
+  },
+  {
+    "id": "5e7df52e8ce9",
+    "name": "Saradomin Flag 02",
+    "image": "Saradomin Flag 02.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Saradomin Flag 02",
+        "image": "Saradomin Flag 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Saradomin Flag 02"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Saradomin_Flag_02"
+  },
+  {
+    "id": "1bb0bb2f180b",
+    "name": "Saradomin Flag 03",
+    "image": "Saradomin Flag 03.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Saradomin Flag 03",
+        "image": "Saradomin Flag 03.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Saradomin Flag 03"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Saradomin_Flag_03"
+  },
+  {
+    "id": "d024c8a97cf1",
+    "name": "Saradomin Flag 04",
+    "image": "Saradomin Flag 04.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Saradomin Flag 04",
+        "image": "Saradomin Flag 04.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Saradomin Flag 04"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Saradomin_Flag_04"
+  },
+  {
+    "id": "9eb2f0f0e157",
+    "name": "Saradomin Flag 05",
+    "image": "Saradomin Flag 05.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Saradomin Flag 05",
+        "image": "Saradomin Flag 05.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Saradomin Flag 05"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Saradomin_Flag_05"
+  },
+  {
+    "id": "82623cf948b2",
+    "name": "Saradomin Flag 06",
+    "image": "Saradomin Flag 06.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Saradomin Flag 06",
+        "image": "Saradomin Flag 06.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Saradomin Flag 06"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Saradomin_Flag_06"
+  },
+  {
+    "id": "00030f2f3a0b",
+    "name": "Zamorak Flag 05",
+    "image": "Zamorak Flag 05.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Zamorak Flag 05",
+        "image": "Zamorak Flag 05.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Zamorak Flag 05"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Zamorak_Flag_05"
+  },
+  {
+    "id": "f0bc55598a47",
+    "name": "Zamorak Flag 06",
+    "image": "Zamorak Flag 06.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Zamorak Flag 06",
+        "image": "Zamorak Flag 06.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Zamorak Flag 06"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Zamorak_Flag_06"
+  },
+  {
+    "id": "1cfd237d1975",
+    "name": "Zamorak Flag 04",
+    "image": "Zamorak Flag 04.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Zamorak Flag 04",
+        "image": "Zamorak Flag 04.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Zamorak Flag 04"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Zamorak_Flag_04"
+  },
+  {
+    "id": "e63ac0846380",
+    "name": "Zamorak Flag 03",
+    "image": "Zamorak Flag 03.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Zamorak Flag 03",
+        "image": "Zamorak Flag 03.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Zamorak Flag 03"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Zamorak_Flag_03"
+  },
+  {
+    "id": "8d4f97ab830d",
+    "name": "Zamorak Flag 02",
+    "image": "Zamorak Flag 02.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Zamorak Flag 02",
+        "image": "Zamorak Flag 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Zamorak Flag 02"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Zamorak_Flag_02"
+  },
+  {
+    "id": "b99707cfbe9d",
+    "name": "Zamorak Flag 01",
+    "image": "Zamorak Flag 01.png",
+    "variants": [
+      {
+        "id": "9ffa69eabde9",
+        "name": "Zamorak Flag 01",
+        "image": "Zamorak Flag 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "270ab73df806",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 12
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Zamorak Flag 01"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Zamorak_Flag_01"
+  },
+  {
+    "id": "4bd83561b6e5",
+    "name": "Zamorak Banner 03",
+    "image": "Zamorak Banner 03.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Zamorak Banner 03",
+        "image": "Zamorak Banner 03.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Zamorak Banner 03"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Zamorak_Banner_03"
+  },
+  {
+    "id": "09e15d0a5d7a",
+    "name": "Zamorak Banner 02",
+    "image": "Zamorak Banner 02.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Zamorak Banner 02",
+        "image": "Zamorak Banner 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Zamorak Banner 02"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Zamorak_Banner_02"
+  },
+  {
+    "id": "b07c17d4565d",
+    "name": "Zamorak Banner 01",
+    "image": "Zamorak Banner 01.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Zamorak Banner 01",
+        "image": "Zamorak Banner 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Zamorak Banner 01"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Zamorak_Banner_01"
+  },
+  {
+    "id": "70784dbbe8ae",
+    "name": "Armadyl Banner 03",
+    "image": "Armadyl Banner 03.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Armadyl Banner 03",
+        "image": "Armadyl Banner 03.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Armadyl Banner 03"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Armadyl_Banner_03"
+  },
+  {
+    "id": "7d7284a64b2a",
+    "name": "Armadyl Banner 02",
+    "image": "Armadyl Banner 02.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Armadyl Banner 02",
+        "image": "Armadyl Banner 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Armadyl Banner 02"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Armadyl_Banner_02"
+  },
+  {
+    "id": "3d01381e11ba",
+    "name": "Armadyl Banner 01",
+    "image": "Armadyl Banner 01.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Armadyl Banner 01",
+        "image": "Armadyl Banner 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Armadyl Banner 01"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Armadyl_Banner_01"
+  },
+  {
+    "id": "a3febf92a6d0",
+    "name": "Guthix Banner 03",
+    "image": "Guthix Banner 03.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Guthix Banner 03",
+        "image": "Guthix Banner 03.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Guthix Banner 03"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Guthix_Banner_03"
+  },
+  {
+    "id": "329877dc2bce",
+    "name": "Guthix Banner 02",
+    "image": "Guthix Banner 02.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Guthix Banner 02",
+        "image": "Guthix Banner 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Guthix Banner 02"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Guthix_Banner_02"
+  },
+  {
+    "id": "f84400abac2f",
+    "name": "Guthix Banner 01",
+    "image": "Guthix Banner 01.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Guthix Banner 01",
+        "image": "Guthix Banner 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Guthix Banner 01"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Guthix_Banner_01"
+  },
+  {
+    "id": "6ab9a9ecf7b6",
+    "name": "Bandos Banner 01",
+    "image": "Bandos Banner 01.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Bandos Banner 01",
+        "image": "Bandos Banner 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Bandos Banner 01"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Bandos_Banner_01"
+  },
+  {
+    "id": "9712b54357ce",
+    "name": "Bandos Banner 02",
+    "image": "Bandos Banner 02.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Bandos Banner 02",
+        "image": "Bandos Banner 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Bandos Banner 02"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Bandos_Banner_02"
+  },
+  {
+    "id": "73652fed0b10",
+    "name": "Bandos Banner 03",
+    "image": "Bandos Banner 03.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Bandos Banner 03",
+        "image": "Bandos Banner 03.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Bandos Banner 03"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Bandos_Banner_03"
+  },
+  {
+    "id": "2e29e6605960",
+    "name": "Saradomin Banner 02",
+    "image": "Saradomin Banner 02.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Saradomin Banner 02",
+        "image": "Saradomin Banner 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Saradomin Banner 02"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Saradomin_Banner_02"
+  },
+  {
+    "id": "25254de29d19",
+    "name": "Saradomin Banner 03",
+    "image": "Saradomin Banner 03.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Saradomin Banner 03",
+        "image": "Saradomin Banner 03.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Saradomin Banner 03"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Saradomin_Banner_03"
+  },
+  {
+    "id": "40fda36b39fa",
+    "name": "Saradomin Banner 01",
+    "image": "Saradomin Banner 01.png",
+    "variants": [
+      {
+        "id": "59ef9c50b20d",
+        "name": "Saradomin Banner 01",
+        "image": "Saradomin Banner 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "188417acbd9e",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 6
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Saradomin Banner 01"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Saradomin_Banner_01"
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -35697,12 +37235,12 @@
   {
     "id": "860f6cd0d643",
     "name": "Suspiciously Light Tattered Boots",
-    "image": "VESTIGE- Suspiciously Light Tattered Boots.png",
+    "image": "Suspiciously Light Tattered Boots.png",
     "variants": [
       {
         "id": "860f6cd0d643",
         "name": "Suspiciously Light Tattered Boots",
-        "image": "VESTIGE- Suspiciously Light Tattered Boots.png",
+        "image": "Suspiciously Light Tattered Boots.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -35717,12 +37255,12 @@
   {
     "id": "8415c060616e",
     "name": "An Educational Blade",
-    "image": "VESTIGE- An Educational Blade.png",
+    "image": "An Educational Blade.png",
     "variants": [
       {
         "id": "8415c060616e",
         "name": "An Educational Blade",
-        "image": "VESTIGE- An Educational Blade.png",
+        "image": "An Educational Blade.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -35737,12 +37275,12 @@
   {
     "id": "69a6740fbbb0",
     "name": "Parts of a Sinister-Looking Staff",
-    "image": "VESTIGE- Parts of a Sinister-Looking Staff.png",
+    "image": "Parts of a Sinister-Looking Staff.png",
     "variants": [
       {
         "id": "69a6740fbbb0",
         "name": "Parts of a Sinister-Looking Staff",
-        "image": "VESTIGE- Parts of a Sinister-Looking Staff.png",
+        "image": "Parts of a Sinister-Looking Staff.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -35757,12 +37295,12 @@
   {
     "id": "1fda0012f0c7",
     "name": "A Corroded Serrated Blade",
-    "image": "VESTIGE- A Corroded Serrated Blade.png",
+    "image": "A Corroded Serrated Blade.png",
     "variants": [
       {
         "id": "1fda0012f0c7",
         "name": "A Corroded Serrated Blade",
-        "image": "VESTIGE- A Corroded Serrated Blade.png",
+        "image": "A Corroded Serrated Blade.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -35777,12 +37315,12 @@
   {
     "id": "c84824c02dae",
     "name": "Remnants of a Shattered Skull",
-    "image": "VESTIGE- Remnants of a Shattered Skull.png",
+    "image": "Remnants of a Shattered Skull.png",
     "variants": [
       {
         "id": "c84824c02dae",
         "name": "Remnants of a Shattered Skull",
-        "image": "VESTIGE- Remnants of a Shattered Skull.png",
+        "image": "Remnants of a Shattered Skull.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -35797,12 +37335,12 @@
   {
     "id": "568466c35df7",
     "name": "A Cruel Goblin Blade",
-    "image": "VESTIGE- A Cruel Goblin Blade.png",
+    "image": "A Cruel Goblin Blade.png",
     "variants": [
       {
         "id": "568466c35df7",
         "name": "A Cruel Goblin Blade",
-        "image": "VESTIGE- A Cruel Goblin Blade.png",
+        "image": "A Cruel Goblin Blade.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -35817,12 +37355,12 @@
   {
     "id": "89b7764e4ab8",
     "name": "A Brutal Bladehead",
-    "image": "VESTIGE- A Brutal Bladehead.png",
+    "image": "A Brutal Bladehead.png",
     "variants": [
       {
         "id": "89b7764e4ab8",
         "name": "A Brutal Bladehead",
-        "image": "VESTIGE- A Brutal Bladehead.png",
+        "image": "A Brutal Bladehead.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -35857,12 +37395,12 @@
   {
     "id": "b8406fce82cc",
     "name": "A Mysterious Crescent Carving",
-    "image": "VESTIGE- A Mysterious Crescent Carving.png",
+    "image": "A Mysterious Crescent Carving.png",
     "variants": [
       {
-        "id": "456d75b9d092",
-        "name": "VESTIGE: A Mysterious Crescent Carving",
-        "image": "VESTIGE- A Mysterious Crescent Carving.png",
+        "id": "b8406fce82cc",
+        "name": "A Mysterious Crescent Carving",
+        "image": "A Mysterious Crescent Carving.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -35989,14 +37527,14 @@
     "weight": 2
   },
   {
-    "id": "ba36e88b0c00",
-    "name": "Tome of Runecrafting - Vol 1.",
-    "image": "Tome_of_Runecrafting - Vol_1..png",
+    "id": "4a602aa2e78d",
+    "name": "Tome of Runecrafting - Vol 1",
+    "image": "Tome of Runecrafting - Vol 1.png",
     "variants": [
       {
-        "id": "ba36e88b0c00",
-        "name": "Tome of Runecrafting - Vol 1.",
-        "image": "Tome_of_Runecrafting - Vol_1..png",
+        "id": "4a602aa2e78d",
+        "name": "Tome of Runecrafting - Vol 1",
+        "image": "Tome of Runecrafting - Vol 1.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -36004,7 +37542,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Runecrafting_-_Vol_1.",
+    "wikiLink": "Tome_of_Runecrafting_-_Vol_1",
     "weight": 2
   },
   {
@@ -36028,14 +37566,14 @@
     "stackLimit": 0
   },
   {
-    "id": "bb705c6bbb09",
-    "name": "Tome of Cooking - Vol 1.",
-    "image": "Tome of Cooking - Vol 1..png",
+    "id": "98c5d7c93975",
+    "name": "Tome of Cooking - Vol 1",
+    "image": "Tome of Cooking - Vol 1.png",
     "variants": [
       {
-        "id": "bb705c6bbb09",
-        "name": "Tome of Cooking - Vol 1.",
-        "image": "Tome of Cooking - Vol 1..png",
+        "id": "98c5d7c93975",
+        "name": "Tome of Cooking - Vol 1",
+        "image": "Tome of Cooking - Vol 1.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -36043,18 +37581,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Cooking_-_Vol_1.",
+    "wikiLink": "Tome_of_Cooking_-_Vol_1",
     "weight": 2
   },
   {
-    "id": "b95aeaa2eadc",
-    "name": "Tome of Woodcutting - Vol 1.",
-    "image": "Tome of Woodcutting - Vol 1..png",
+    "id": "8e3611ba578f",
+    "name": "Tome of Woodcutting - Vol 1",
+    "image": "Tome of Woodcutting - Vol 1.png",
     "variants": [
       {
-        "id": "b95aeaa2eadc",
-        "name": "Tome of Woodcutting - Vol 1.",
-        "image": "Tome of Woodcutting - Vol 1..png",
+        "id": "8e3611ba578f",
+        "name": "Tome of Woodcutting - Vol 1",
+        "image": "Tome of Woodcutting - Vol 1.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -36062,18 +37600,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Woodcutting_-_Vol_1.",
+    "wikiLink": "Tome_of_Woodcutting_-_Vol_1",
     "weight": 2
   },
   {
-    "id": "deb5802111ed",
-    "name": "Tome of the Artisan - Vol 1.",
-    "image": "Tome of the Artisan - Vol 1..png",
+    "id": "e56e8dc2404e",
+    "name": "Tome of the Artisan - Vol 1",
+    "image": "Tome of the Artisan - Vol 1.png",
     "variants": [
       {
-        "id": "deb5802111ed",
-        "name": "Tome of the Artisan - Vol 1.",
-        "image": "Tome of the Artisan - Vol 1..png",
+        "id": "e56e8dc2404e",
+        "name": "Tome of the Artisan - Vol 1",
+        "image": "Tome of the Artisan - Vol 1.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -36081,18 +37619,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_the_Artisan_-_Vol_1.",
+    "wikiLink": "Tome_of_the_Artisan_-_Vol_1",
     "weight": 2
   },
   {
-    "id": "f329de3d3c7f",
-    "name": "Tome of Mining - Vol 1.",
-    "image": "Tome of Mining - Vol 1..png",
+    "id": "213db46d6dfa",
+    "name": "Tome of Mining - Vol 1",
+    "image": "Tome of Mining - Vol 1.png",
     "variants": [
       {
-        "id": "f329de3d3c7f",
-        "name": "Tome of Mining - Vol 1.",
-        "image": "Tome of Mining - Vol 1..png",
+        "id": "213db46d6dfa",
+        "name": "Tome of Mining - Vol 1",
+        "image": "Tome of Mining - Vol 1.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -36100,18 +37638,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Mining_-_Vol_1.",
+    "wikiLink": "Tome_of_Mining_-_Vol_1",
     "weight": 2
   },
   {
-    "id": "0fb07995c5d4",
-    "name": "Tome of Attack - Vol 1.",
-    "image": "Tome of Attack - Vol 1..png",
+    "id": "34cb424edddf",
+    "name": "Tome of Attack - Vol 1",
+    "image": "Tome of Attack - Vol 1.png",
     "variants": [
       {
-        "id": "0fb07995c5d4",
-        "name": "Tome of Attack - Vol 1.",
-        "image": "Tome of Attack - Vol 1..png",
+        "id": "34cb424edddf",
+        "name": "Tome of Attack - Vol 1",
+        "image": "Tome of Attack - Vol 1.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -36119,19 +37657,19 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Attack_-_Vol_1.",
+    "wikiLink": "Tome_of_Attack_-_Vol_1",
     "weight": 2,
     "stackLimit": 99
   },
   {
-    "id": "a5b1c1e7571f",
-    "name": "Tome of Construction - Vol 1.",
-    "image": "Tome of Construction - Vol 1..png",
+    "id": "1011f4c1da46",
+    "name": "Tome of Construction - Vol 1",
+    "image": "Tome of Construction - Vol 1.png",
     "variants": [
       {
-        "id": "a5b1c1e7571f",
-        "name": "Tome of Construction - Vol 1.",
-        "image": "Tome of Construction - Vol 1..png",
+        "id": "1011f4c1da46",
+        "name": "Tome of Construction - Vol 1",
+        "image": "Tome of Construction - Vol 1.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -36139,19 +37677,19 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Construction_-_Vol_1.",
+    "wikiLink": "Tome_of_Construction_-_Vol_1",
     "weight": 2,
     "stackLimit": 99
   },
   {
-    "id": "2cbf2e0f8303",
-    "name": "Tome of Magic - Vol 1.",
-    "image": "Tome of Magic - Vol 1..png",
+    "id": "c63f6f62692f",
+    "name": "Tome of Magic - Vol 1",
+    "image": "Tome of Magic - Vol 1.png",
     "variants": [
       {
-        "id": "2cbf2e0f8303",
-        "name": "Tome of Magic - Vol 1.",
-        "image": "Tome of Magic - Vol 1..png",
+        "id": "c63f6f62692f",
+        "name": "Tome of Magic - Vol 1",
+        "image": "Tome of Magic - Vol 1.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -36159,18 +37697,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Magic_-_Vol_1.",
+    "wikiLink": "Tome_of_Magic_-_Vol_1",
     "weight": 2
   },
   {
-    "id": "29204527addd",
-    "name": "Tome of Ranged - Vol 1.",
-    "image": "Tome of Ranged - Vol 1..png",
+    "id": "14b10140a445",
+    "name": "Tome of Ranged - Vol 1",
+    "image": "Tome of Ranged - Vol 1.png",
     "variants": [
       {
-        "id": "29204527addd",
-        "name": "Tome of Ranged - Vol 1.",
-        "image": "Tome of Ranged - Vol 1..png",
+        "id": "14b10140a445",
+        "name": "Tome of Ranged - Vol 1",
+        "image": "Tome of Ranged - Vol 1.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -36178,7 +37716,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Ranged_-_Vol_1.",
+    "wikiLink": "Tome_of_Ranged_-_Vol_1",
     "weight": 2
   },
   {
@@ -37315,12 +38853,12 @@
   {
     "id": "5bc901664ee1",
     "name": "Cloying Damp Cowl",
-    "image": "VESTIGE: Cloying Damp Cowl.png",
+    "image": "Cloying Damp Cowl.png",
     "variants": [
       {
         "id": "5bc901664ee1",
         "name": "Cloying Damp Cowl",
-        "image": "VESTIGE: Cloying Damp Cowl.png",
+        "image": "Cloying Damp Cowl.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -37594,12 +39132,12 @@
   {
     "id": "6bd1a1deee1a",
     "name": "Burnished Belt Buckle",
-    "image": "VESTIGE: Burnished Belt Buckle.png",
+    "image": "Burnished Belt Buckle.png",
     "variants": [
       {
         "id": "6bd1a1deee1a",
         "name": "Burnished Belt Buckle",
-        "image": "VESTIGE: Burnished Belt Buckle.png",
+        "image": "Burnished Belt Buckle.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -37709,14 +39247,14 @@
     "stackLimit": 999
   },
   {
-    "id": "bf2f41de4c75",
-    "name": "Tome of the Artisan - Vol 2.",
-    "image": "Tome of the Artisan - Vol 1..png",
+    "id": "4d8f98d446eb",
+    "name": "Tome of the Artisan - Vol 2",
+    "image": "Tome of the Artisan - Vol 2.png",
     "variants": [
       {
-        "id": "bf2f41de4c75",
-        "name": "Tome of the Artisan - Vol 2.",
-        "image": "Tome of the Artisan - Vol 1..png",
+        "id": "4d8f98d446eb",
+        "name": "Tome of the Artisan - Vol 2",
+        "image": "Tome of the Artisan - Vol 2.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -37724,18 +39262,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_the_Artisan_-_Vol_2.",
+    "wikiLink": "Tome_of_the_Artisan_-_Vol_2",
     "weight": 2
   },
   {
-    "id": "8810317ef8a7",
-    "name": "Tome of Attack - Vol 2.",
-    "image": "Tome of Attack - Vol 1..png",
+    "id": "9b0ff28c8fc4",
+    "name": "Tome of Attack - Vol 2",
+    "image": "Tome of Attack - Vol 2.png",
     "variants": [
       {
-        "id": "8810317ef8a7",
-        "name": "Tome of Attack - Vol 2.",
-        "image": "Tome of Attack - Vol 1..png",
+        "id": "9b0ff28c8fc4",
+        "name": "Tome of Attack - Vol 2",
+        "image": "Tome of Attack - Vol 2.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -37743,18 +39281,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Attack_-_Vol_2.",
+    "wikiLink": "Tome_of_Attack_-_Vol_2",
     "weight": 2
   },
   {
-    "id": "87378710f97a",
-    "name": "Tome of Woodcutting - Vol 2.",
-    "image": "Tome of Woodcutting - Vol 1..png",
+    "id": "864401263ec0",
+    "name": "Tome of Woodcutting - Vol 2",
+    "image": "Tome of Woodcutting - Vol 2.png",
     "variants": [
       {
-        "id": "87378710f97a",
-        "name": "Tome of Woodcutting - Vol 2.",
-        "image": "Tome of Woodcutting - Vol 1..png",
+        "id": "864401263ec0",
+        "name": "Tome of Woodcutting - Vol 2",
+        "image": "Tome of Woodcutting - Vol 2.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -37762,18 +39300,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Woodcutting_-_Vol_2.",
+    "wikiLink": "Tome_of_Woodcutting_-_Vol_2",
     "weight": 2
   },
   {
-    "id": "d9d8d198035a",
-    "name": "Tome of Runecrafting - Vol 2.",
-    "image": "Tome of Runecrafting - Vol 1..png",
+    "id": "7a7c86a4fa83",
+    "name": "Tome of Runecrafting - Vol 2",
+    "image": "Tome of Runecrafting - Vol 2.png",
     "variants": [
       {
-        "id": "d9d8d198035a",
-        "name": "Tome of Runecrafting - Vol 2.",
-        "image": "Tome of Runecrafting - Vol 1..png",
+        "id": "7a7c86a4fa83",
+        "name": "Tome of Runecrafting - Vol 2",
+        "image": "Tome of Runecrafting - Vol 2.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -37781,18 +39319,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Runecrafting_-_Vol_2.",
+    "wikiLink": "Tome_of_Runecrafting_-_Vol_2",
     "weight": 2
   },
   {
-    "id": "2110b6856dbf",
-    "name": "Tome of Ranged - Vol 2.",
-    "image": "Tome of Ranged - Vol 1..png",
+    "id": "20f7fe869a88",
+    "name": "Tome of Ranged - Vol 2",
+    "image": "Tome of Ranged - Vol 2.png",
     "variants": [
       {
-        "id": "2110b6856dbf",
-        "name": "Tome of Ranged - Vol 2.",
-        "image": "Tome of Ranged - Vol 1..png",
+        "id": "20f7fe869a88",
+        "name": "Tome of Ranged - Vol 2",
+        "image": "Tome of Ranged - Vol 2.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -37800,18 +39338,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Ranged_-_Vol_2.",
+    "wikiLink": "Tome_of_Ranged_-_Vol_2",
     "weight": 2
   },
   {
-    "id": "ba328b060421",
-    "name": "Tome of Magic - Vol 2.",
-    "image": "Tome of Magic - Vol 1..png",
+    "id": "3692d66ad7e4",
+    "name": "Tome of Magic - Vol 2",
+    "image": "Tome of Magic - Vol 2.png",
     "variants": [
       {
-        "id": "ba328b060421",
-        "name": "Tome of Magic - Vol 2.",
-        "image": "Tome of Magic - Vol 1..png",
+        "id": "3692d66ad7e4",
+        "name": "Tome of Magic - Vol 2",
+        "image": "Tome of Magic - Vol 2.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -37819,18 +39357,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Magic_-_Vol_2.",
+    "wikiLink": "Tome_of_Magic_-_Vol_2",
     "weight": 2
   },
   {
-    "id": "6204c6acf0e3",
-    "name": "Tome of Cooking - Vol 2.",
-    "image": "Tome of Cooking - Vol 1..png",
+    "id": "64671376fb85",
+    "name": "Tome of Cooking - Vol 2",
+    "image": "Tome of Cooking - Vol 2.png",
     "variants": [
       {
-        "id": "6204c6acf0e3",
-        "name": "Tome of Cooking - Vol 2.",
-        "image": "Tome of Cooking - Vol 1..png",
+        "id": "64671376fb85",
+        "name": "Tome of Cooking - Vol 2",
+        "image": "Tome of Cooking - Vol 2.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -37838,18 +39376,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Cooking_-_Vol_2.",
+    "wikiLink": "Tome_of_Cooking_-_Vol_2",
     "weight": 2
   },
   {
-    "id": "7a290b60b2aa",
-    "name": "Tome of Construction - Vol 2.",
-    "image": "Tome of Construction - Vol 1..png",
+    "id": "aca38aa2a4f3",
+    "name": "Tome of Construction - Vol 2",
+    "image": "Tome of Construction - Vol 2.png",
     "variants": [
       {
-        "id": "7a290b60b2aa",
-        "name": "Tome of Construction - Vol 2.",
-        "image": "Tome of Construction - Vol 1..png",
+        "id": "aca38aa2a4f3",
+        "name": "Tome of Construction - Vol 2",
+        "image": "Tome of Construction - Vol 2.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -37857,18 +39395,18 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Construction_-_Vol_2.",
+    "wikiLink": "Tome_of_Construction_-_Vol_2",
     "weight": 2
   },
   {
-    "id": "a5373f5dc623",
-    "name": "Tome of Mining - Vol 2.",
-    "image": "Tome of Mining - Vol 1..png",
+    "id": "0010b8399175",
+    "name": "Tome of Mining - Vol 2",
+    "image": "Tome of Mining - Vol 2.png",
     "variants": [
       {
-        "id": "a5373f5dc623",
-        "name": "Tome of Mining - Vol 2.",
-        "image": "Tome of Mining - Vol 1..png",
+        "id": "0010b8399175",
+        "name": "Tome of Mining - Vol 2",
+        "image": "Tome of Mining - Vol 2.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -37876,7 +39414,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Tome_of_Mining_-_Vol_2.",
+    "wikiLink": "Tome_of_Mining_-_Vol_2",
     "weight": 2
   },
   {
@@ -37918,6 +39456,26 @@
     "wikiLink": "Curse_Fragment_(Rage)",
     "weight": 0,
     "stackLimit": 1
+  },
+  {
+    "id": "e92855164bfd",
+    "name": "A Cracked Bronze Vanity Mirror",
+    "image": "A Cracked Bronze Vanity Mirror.png",
+    "variants": [
+      {
+        "id": "e92855164bfd",
+        "name": "A Cracked Bronze Vanity Mirror",
+        "image": "A Cracked Bronze Vanity Mirror.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "A_Cracked_Bronze_Vanity_Mirror",
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "85e93bf880b6",
@@ -38240,12 +39798,12 @@
   {
     "id": "786377f8fb83",
     "name": "A Threadbare Grain Sack",
-    "image": "VESTIGE- A Threadbare Grain Sack.png",
+    "image": "A Threadbare Grain Sack.png",
     "variants": [
       {
-        "id": "8a5d27713a62",
-        "name": "VESTIGE: A Threadbare Grain Sack",
-        "image": "VESTIGE- A Threadbare Grain Sack.png",
+        "id": "786377f8fb83",
+        "name": "A Threadbare Grain Sack",
+        "image": "A Threadbare Grain Sack.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -40254,6 +41812,806 @@
     "facilities": [],
     "wikiLink": "PLAN:_Armadyl_Flag_06",
     "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "75bccc093be5",
+    "name": "PLAN: Bandos Flag 06",
+    "image": "PLAN: Bandos Flag 06.png",
+    "variants": [
+      {
+        "id": "75bccc093be5",
+        "name": "PLAN: Bandos Flag 06",
+        "image": "PLAN: Bandos Flag 06.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Bandos_Flag_06",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "55b831d3c3f6",
+    "name": "PLAN: Bandos Flag 05",
+    "image": "PLAN: Bandos Flag 05.png",
+    "variants": [
+      {
+        "id": "55b831d3c3f6",
+        "name": "PLAN: Bandos Flag 05",
+        "image": "PLAN: Bandos Flag 05.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Bandos_Flag_05",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "b0e8973c36d3",
+    "name": "PLAN: Bandos Flag 04",
+    "image": "PLAN: Bandos Flag 04.png",
+    "variants": [
+      {
+        "id": "b0e8973c36d3",
+        "name": "PLAN: Bandos Flag 04",
+        "image": "PLAN: Bandos Flag 04.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Bandos_Flag_04",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "ea39bf337f29",
+    "name": "PLAN: Bandos Flag 03",
+    "image": "PLAN: Bandos Flag 03.png",
+    "variants": [
+      {
+        "id": "ea39bf337f29",
+        "name": "PLAN: Bandos Flag 03",
+        "image": "PLAN: Bandos Flag 03.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Bandos_Flag_03",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "0fc507e00b56",
+    "name": "PLAN: Bandos Flag 02",
+    "image": "PLAN: Bandos Flag 02.png",
+    "variants": [
+      {
+        "id": "0fc507e00b56",
+        "name": "PLAN: Bandos Flag 02",
+        "image": "PLAN: Bandos Flag 02.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Bandos_Flag_02",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "7f134c62faf6",
+    "name": "PLAN: Bandos Flag 01",
+    "image": "PLAN: Bandos Flag 01.png",
+    "variants": [
+      {
+        "id": "7f134c62faf6",
+        "name": "PLAN: Bandos Flag 01",
+        "image": "PLAN: Bandos Flag 01.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Bandos_Flag_01",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "99c4f155e355",
+    "name": "PLAN: Guthix Flag 01",
+    "image": "PLAN: Guthix Flag 01.png",
+    "variants": [
+      {
+        "id": "99c4f155e355",
+        "name": "PLAN: Guthix Flag 01",
+        "image": "PLAN: Guthix Flag 01.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Guthix_Flag_01",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "878359fdc728",
+    "name": "PLAN: Guthix Flag 02",
+    "image": "PLAN: Guthix Flag 02.png",
+    "variants": [
+      {
+        "id": "878359fdc728",
+        "name": "PLAN: Guthix Flag 02",
+        "image": "PLAN: Guthix Flag 02.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Guthix_Flag_02",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "dc5dfb499523",
+    "name": "PLAN: Guthix Flag 03",
+    "image": "PLAN: Guthix Flag 03.png",
+    "variants": [
+      {
+        "id": "dc5dfb499523",
+        "name": "PLAN: Guthix Flag 03",
+        "image": "PLAN: Guthix Flag 03.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Guthix_Flag_03",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "cc9adc66b061",
+    "name": "PLAN: Guthix Flag 04",
+    "image": "PLAN: Guthix Flag 04.png",
+    "variants": [
+      {
+        "id": "cc9adc66b061",
+        "name": "PLAN: Guthix Flag 04",
+        "image": "PLAN: Guthix Flag 04.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Guthix_Flag_04",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "f60318920351",
+    "name": "PLAN: Guthix Flag 05",
+    "image": "PLAN: Guthix Flag 05.png",
+    "variants": [
+      {
+        "id": "f60318920351",
+        "name": "PLAN: Guthix Flag 05",
+        "image": "PLAN: Guthix Flag 05.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Guthix_Flag_05",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "6186290d9563",
+    "name": "PLAN: Guthix Flag 06",
+    "image": "PLAN: Guthix Flag 06.png",
+    "variants": [
+      {
+        "id": "6186290d9563",
+        "name": "PLAN: Guthix Flag 06",
+        "image": "PLAN: Guthix Flag 06.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Guthix_Flag_06",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "30918879eb5d",
+    "name": "PLAN: Saradomin Flag 01",
+    "image": "PLAN: Saradomin Flag 01.png",
+    "variants": [
+      {
+        "id": "30918879eb5d",
+        "name": "PLAN: Saradomin Flag 01",
+        "image": "PLAN: Saradomin Flag 01.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Saradomin_Flag_01",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "c56cc0194f75",
+    "name": "PLAN: Saradomin Flag 02",
+    "image": "PLAN: Saradomin Flag 02.png",
+    "variants": [
+      {
+        "id": "c56cc0194f75",
+        "name": "PLAN: Saradomin Flag 02",
+        "image": "PLAN: Saradomin Flag 02.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Saradomin_Flag_02",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "716041185b53",
+    "name": "PLAN: Saradomin Flag 03",
+    "image": "PLAN: Saradomin Flag 03.png",
+    "variants": [
+      {
+        "id": "716041185b53",
+        "name": "PLAN: Saradomin Flag 03",
+        "image": "PLAN: Saradomin Flag 03.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Saradomin_Flag_03",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "25a58d29edd4",
+    "name": "PLAN: Saradomin Flag 04",
+    "image": "PLAN: Saradomin Flag 04.png",
+    "variants": [
+      {
+        "id": "25a58d29edd4",
+        "name": "PLAN: Saradomin Flag 04",
+        "image": "PLAN: Saradomin Flag 04.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Saradomin_Flag_04",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "90ad75669908",
+    "name": "PLAN: Saradomin Flag 05",
+    "image": "PLAN: Saradomin Flag 05.png",
+    "variants": [
+      {
+        "id": "90ad75669908",
+        "name": "PLAN: Saradomin Flag 05",
+        "image": "PLAN: Saradomin Flag 05.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Saradomin_Flag_05",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "4814a44b9587",
+    "name": "PLAN: Saradomin Flag 06",
+    "image": "PLAN: Saradomin Flag 06.png",
+    "variants": [
+      {
+        "id": "4814a44b9587",
+        "name": "PLAN: Saradomin Flag 06",
+        "image": "PLAN: Saradomin Flag 06.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Saradomin_Flag_06",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "5fceaa41d88d",
+    "name": "PLAN: Zamorak Flag 06",
+    "image": "PLAN: Zamorak Flag 06.png",
+    "variants": [
+      {
+        "id": "5fceaa41d88d",
+        "name": "PLAN: Zamorak Flag 06",
+        "image": "PLAN: Zamorak Flag 06.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Zamorak_Flag_06",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "762b3737a9be",
+    "name": "PLAN: Zamorak Flag 05",
+    "image": "PLAN: Zamorak Flag 05.png",
+    "variants": [
+      {
+        "id": "762b3737a9be",
+        "name": "PLAN: Zamorak Flag 05",
+        "image": "PLAN: Zamorak Flag 05.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Zamorak_Flag_05",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "a4a3b4c4f4af",
+    "name": "PLAN: Zamorak Flag 04",
+    "image": "PLAN: Zamorak Flag 04.png",
+    "variants": [
+      {
+        "id": "a4a3b4c4f4af",
+        "name": "PLAN: Zamorak Flag 04",
+        "image": "PLAN: Zamorak Flag 04.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Zamorak_Flag_04",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "337303e2274e",
+    "name": "PLAN: Zamorak Flag 03",
+    "image": "PLAN: Zamorak Flag 03.png",
+    "variants": [
+      {
+        "id": "337303e2274e",
+        "name": "PLAN: Zamorak Flag 03",
+        "image": "PLAN: Zamorak Flag 03.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Zamorak_Flag_03",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "d780f24121ae",
+    "name": "PLAN: Zamorak Flag 02",
+    "image": "PLAN: Zamorak Flag 02.png",
+    "variants": [
+      {
+        "id": "d780f24121ae",
+        "name": "PLAN: Zamorak Flag 02",
+        "image": "PLAN: Zamorak Flag 02.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Zamorak_Flag_02",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "c5748218b073",
+    "name": "PLAN: Zamorak Flag 01",
+    "image": "PLAN: Zamorak Flag 01.png",
+    "variants": [
+      {
+        "id": "c5748218b073",
+        "name": "PLAN: Zamorak Flag 01",
+        "image": "PLAN: Zamorak Flag 01.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Zamorak_Flag_01",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "8809401dbf70",
+    "name": "PLAN: Armadyl Banner 01",
+    "image": "PLAN: Armadyl Banner 01.png",
+    "variants": [
+      {
+        "id": "8809401dbf70",
+        "name": "PLAN: Armadyl Banner 01",
+        "image": "PLAN: Armadyl Banner 01.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Armadyl_Banner_01",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "6372ee0b7773",
+    "name": "PLAN: Armadyl Banner 02",
+    "image": "PLAN: Armadyl Banner 02.png",
+    "variants": [
+      {
+        "id": "6372ee0b7773",
+        "name": "PLAN: Armadyl Banner 02",
+        "image": "PLAN: Armadyl Banner 02.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Armadyl_Banner_02",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "d0dcaa7a222b",
+    "name": "PLAN: Armadyl Banner 03",
+    "image": "PLAN: Armadyl Banner 03.png",
+    "variants": [
+      {
+        "id": "d0dcaa7a222b",
+        "name": "PLAN: Armadyl Banner 03",
+        "image": "PLAN: Armadyl Banner 03.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Armadyl_Banner_03",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "9bad2842bc05",
+    "name": "PLAN: Guthix Banner 01",
+    "image": "PLAN: Guthix Banner 01.png",
+    "variants": [
+      {
+        "id": "9bad2842bc05",
+        "name": "PLAN: Guthix Banner 01",
+        "image": "PLAN: Guthix Banner 01.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Guthix_Banner_01",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "2a5e82edc2fd",
+    "name": "PLAN: Guthix Banner 02",
+    "image": "PLAN: Guthix Banner 02.png",
+    "variants": [
+      {
+        "id": "2a5e82edc2fd",
+        "name": "PLAN: Guthix Banner 02",
+        "image": "PLAN: Guthix Banner 02.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Guthix_Banner_02",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "bf3ba7d5098f",
+    "name": "PLAN: Guthix Banner 03",
+    "image": "PLAN: Guthix Banner 03.png",
+    "variants": [
+      {
+        "id": "bf3ba7d5098f",
+        "name": "PLAN: Guthix Banner 03",
+        "image": "PLAN: Guthix Banner 03.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Guthix_Banner_03",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "844c3caf0d14",
+    "name": "PLAN: Bandos Banner 01",
+    "image": "PLAN: Bandos Banner 01.png",
+    "variants": [
+      {
+        "id": "844c3caf0d14",
+        "name": "PLAN: Bandos Banner 01",
+        "image": "PLAN: Bandos Banner 01.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Bandos_Banner_01",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "3e1d7f2873ee",
+    "name": "PLAN: Bandos Banner 02",
+    "image": "PLAN: Bandos Banner 02.png",
+    "variants": [
+      {
+        "id": "3e1d7f2873ee",
+        "name": "PLAN: Bandos Banner 02",
+        "image": "PLAN: Bandos Banner 02.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Bandos_Banner_02",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "28202040746b",
+    "name": "PLAN: Bandos Banner 03",
+    "image": "PLAN: Bandos Banner 03.png",
+    "variants": [
+      {
+        "id": "28202040746b",
+        "name": "PLAN: Bandos Banner 03",
+        "image": "PLAN: Bandos Banner 03.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Bandos_Banner_03",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "ce2b299e3a8c",
+    "name": "PLAN: Saradomin Banner 01",
+    "image": "PLAN: Saradomin Banner 01.png",
+    "variants": [
+      {
+        "id": "ce2b299e3a8c",
+        "name": "PLAN: Saradomin Banner 01",
+        "image": "PLAN: Saradomin Banner 01.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Saradomin_Banner_01",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "194f030d91a7",
+    "name": "PLAN: Saradomin Banner 02",
+    "image": "PLAN: Saradomin Banner 02.png",
+    "variants": [
+      {
+        "id": "194f030d91a7",
+        "name": "PLAN: Saradomin Banner 02",
+        "image": "PLAN: Saradomin Banner 02.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Saradomin_Banner_02",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "e5989609f98a",
+    "name": "PLAN: Saradomin Banner 03",
+    "image": "PLAN: Saradomin Banner 03.png",
+    "variants": [
+      {
+        "id": "e5989609f98a",
+        "name": "PLAN: Saradomin Banner 03",
+        "image": "PLAN: Saradomin Banner 03.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Saradomin_Banner_03",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "27b679fb0143",
+    "name": "PLAN: Zamorak Banner 01",
+    "image": "PLAN: Zamorak Banner 01.png",
+    "variants": [
+      {
+        "id": "27b679fb0143",
+        "name": "PLAN: Zamorak Banner 01",
+        "image": "PLAN: Zamorak Banner 01.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Zamorak_Banner_01",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "54cb3137d4cc",
+    "name": "PLAN: Zamorak Banner 02",
+    "image": "PLAN: Zamorak Banner 02.png",
+    "variants": [
+      {
+        "id": "54cb3137d4cc",
+        "name": "PLAN: Zamorak Banner 02",
+        "image": "PLAN: Zamorak Banner 02.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Zamorak_Banner_02",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "bec35a333915",
+    "name": "PLAN: Zamorak Banner 03",
+    "image": "PLAN: Zamorak Banner 03.png",
+    "variants": [
+      {
+        "id": "bec35a333915",
+        "name": "PLAN: Zamorak Banner 03",
+        "image": "PLAN: Zamorak Banner 03.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Zamorak_Banner_03",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "9eb28628bdfb",
+    "name": "Tome of Farming - Vol 1",
+    "image": "Tome of Farming - Vol 1.png",
+    "variants": [
+      {
+        "id": "9eb28628bdfb",
+        "name": "Tome of Farming - Vol 1",
+        "image": "Tome of Farming - Vol 1.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Tome_of_Farming_-_Vol_1",
+    "weight": 2,
     "stackLimit": 99
   }
 ]
