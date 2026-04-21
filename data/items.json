@@ -28686,17 +28686,17 @@
     "image": "Black Metal Bar.png",
     "variants": [
       {
-        "id": "b0115035fa3f",
+        "id": "f98306a43de7",
         "name": "Black Metal Bar",
         "image": "Black Metal Bar.png",
         "variantName": null,
         "recipe": {
-          "id": "e8fdf9cb4fe5",
+          "id": "bb82611f80e1",
           "facility": "Blast Furnace",
           "materials": [
             {
               "itemId": "1d4c877dd611",
-              "quantity": 9
+              "quantity": 6
             },
             {
               "itemId": "4cc1d6e9f857",
@@ -30445,17 +30445,17 @@
     "weight": 10
   },
   {
-    "id": "84e3c3c8748d",
-    "name": "Enchanted Mithril Bolt",
-    "image": "Enchanted Mithril Bolt.png",
+    "id": "74f123590c03",
+    "name": "Enchanted Mithril Bolts",
+    "image": "Enchanted Mithril Bolts.png",
     "variants": [
       {
-        "id": "3bcdab4034cd",
-        "name": "Enchanted Mithril Bolt",
-        "image": "Enchanted Mithril Bolt.png",
+        "id": "729232dfe65b",
+        "name": "Enchanted Mithril Bolts",
+        "image": "Enchanted Mithril Bolts.png",
         "variantName": null,
         "recipe": {
-          "id": "9114e7b81370",
+          "id": "6dc91fdb357c",
           "facility": "Enchanted Mithril Bolts",
           "materials": [
             {
@@ -30463,7 +30463,7 @@
               "quantity": 15
             },
             {
-              "itemId": "d5c7d6909017",
+              "itemId": "26a20b838fad",
               "quantity": 33
             },
             {
@@ -30478,15 +30478,48 @@
           "quantity": 33
         },
         "usesRecipe": null
+      },
+      {
+        "id": "12c7beeb9c11",
+        "name": "Enchanted Mithril Bolts",
+        "image": "Enchanted Mithril Bolts.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8750cb8473ba",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "0a3bcef8e149",
+              "quantity": 15
+            },
+            {
+              "itemId": "26a20b838fad",
+              "quantity": 33
+            },
+            {
+              "itemId": "0e2ba7342d33",
+              "quantity": 10
+            },
+            {
+              "itemId": "d142d3dd1dbb",
+              "quantity": 1
+            }
+          ],
+          "quantity": 33
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
       "Artisan"
     ],
     "facilities": [
-      "Enchanted Mithril Bolts"
+      "Enchanted Mithril Bolts",
+      "Fletching Bench"
     ],
-    "wikiLink": "Enchanted_Mithril_Bolt"
+    "wikiLink": "Enchanted_Mithril_Bolts",
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "6115d85377eb",
@@ -31431,52 +31464,6 @@
     ],
     "wikiLink": "Maple_Longbow",
     "weight": 15
-  },
-  {
-    "id": "74f123590c03",
-    "name": "Enchanted Mithril Bolts",
-    "image": "Enchanted Mithril Bolts.png",
-    "variants": [
-      {
-        "id": "12c7beeb9c11",
-        "name": "Enchanted Mithril Bolts",
-        "image": "Enchanted Mithril Bolts.png",
-        "variantName": null,
-        "recipe": {
-          "id": "8750cb8473ba",
-          "facility": "Fletching Bench",
-          "materials": [
-            {
-              "itemId": "0a3bcef8e149",
-              "quantity": 15
-            },
-            {
-              "itemId": "26a20b838fad",
-              "quantity": 33
-            },
-            {
-              "itemId": "0e2ba7342d33",
-              "quantity": 10
-            },
-            {
-              "itemId": "d142d3dd1dbb",
-              "quantity": 1
-            }
-          ],
-          "quantity": 33
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Artisan"
-    ],
-    "facilities": [
-      "Fletching Bench"
-    ],
-    "wikiLink": "Enchanted_Mithril_Bolts",
-    "weight": 0,
-    "stackLimit": 999
   },
   {
     "id": "0eb3c4abb6a8",
@@ -37375,12 +37362,12 @@
   {
     "id": "511cc3db953c",
     "name": "A String of Sinew",
-    "image": "VESTIGE- A String of Sinew.png",
+    "image": "A String of Sinew.png",
     "variants": [
       {
         "id": "511cc3db953c",
         "name": "A String of Sinew",
-        "image": "VESTIGE- A String of Sinew.png",
+        "image": "A String of Sinew.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -38151,14 +38138,14 @@
     "stackLimit": 99
   },
   {
-    "id": "09c3c36e0405",
-    "name": "VESTIGE: Azure Metal Contraption",
-    "image": "VESTIGE- Azure Metal Contraption.png",
+    "id": "2417e1e40bec",
+    "name": "Azure Metal Contraption",
+    "image": "Azure Metal Contraption.png",
     "variants": [
       {
-        "id": "09c3c36e0405",
-        "name": "VESTIGE: Azure Metal Contraption",
-        "image": "VESTIGE- Azure Metal Contraption.png",
+        "id": "2417e1e40bec",
+        "name": "Azure Metal Contraption",
+        "image": "Azure Metal Contraption.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -38166,7 +38153,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Azure_Metal_Contraption",
+    "wikiLink": "Azure_Metal_Contraption",
     "weight": 0,
     "stackLimit": 99
   },
@@ -39978,12 +39965,12 @@
   {
     "id": "6ea13546d4c4",
     "name": "Corroded White Visor",
-    "image": "VESTIGE: Corroded White Visor.png",
+    "image": "Corroded White Visor.png",
     "variants": [
       {
         "id": "6ea13546d4c4",
         "name": "Corroded White Visor",
-        "image": "VESTIGE: Corroded White Visor.png",
+        "image": "Corroded White Visor.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -40018,12 +40005,12 @@
   {
     "id": "fe25394a6b45",
     "name": "Dented White Pauldron",
-    "image": "VESTIGE: Dented White Pauldron.png",
+    "image": "Dented White Pauldron.png",
     "variants": [
       {
         "id": "fe25394a6b45",
         "name": "Dented White Pauldron",
-        "image": "VESTIGE: Dented White Pauldron.png",
+        "image": "Dented White Pauldron.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -41537,12 +41524,12 @@
   {
     "id": "5abe36301d3f",
     "name": "Tattered Time-Lost Cloth",
-    "image": "VESTIGE: Tattered Time-Lost Cloth.png",
+    "image": "Tattered Time-Lost Cloth.png",
     "variants": [
       {
         "id": "5abe36301d3f",
         "name": "Tattered Time-Lost Cloth",
-        "image": "VESTIGE: Tattered Time-Lost Cloth.png",
+        "image": "Tattered Time-Lost Cloth.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
