@@ -39,8 +39,6 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 export default async function ItemPage(props: Props) {
   const { itemId } = await props.params;
 
-  await new Promise((resolve) => setTimeout(resolve, 1000));
-
   const item = getItemById(itemId);
 
   if (item === undefined) {
