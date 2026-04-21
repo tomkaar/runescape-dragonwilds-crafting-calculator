@@ -24,8 +24,6 @@ type Props = {
 };
 
 export async function generateMetadata(props: Props): Promise<Metadata> {
-  "use cache";
-  cacheLife("max");
   const { itemId } = await props.params;
   const item = getItemById(itemId);
 
@@ -38,16 +36,10 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   };
 }
 
-export function generateStaticParams() {
-  return items.map((item) => ({
-    itemId: item.id,
-  }));
-}
-
 export default async function ItemPage(props: Props) {
-  "use cache";
-  cacheLife("max");
   const { itemId } = await props.params;
+
+  await new Promise((resolve) => setTimeout(resolve, 1000));
 
   const item = getItemById(itemId);
 
