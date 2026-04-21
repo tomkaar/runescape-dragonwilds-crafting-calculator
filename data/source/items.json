@@ -5927,11 +5927,11 @@
     "json": {
       "type": "Consumable",
       "description": "Sinew, bound tightly enough to be dangerous. Useless now, but perhaps you could learn something from it.",
-      "image": "[[File:VESTIGE- A String of Sinew.png|32px]]",
+      "image": "[[File:A String of Sinew.png|32px]]",
       "name": "A String of Sinew",
       "weight": "0",
       "stacklimit": "99",
-      "image_raw": "VESTIGE- A String of Sinew.png"
+      "image_raw": "A String of Sinew.png"
     },
     "item_weight": 0,
     "page_name_sub": "A String of Sinew"
@@ -6924,22 +6924,22 @@
     "page_name_sub": "Weapon Barbs"
   },
   {
-    "page_name": "VESTIGE: Azure Metal Contraption",
+    "page_name": "Azure Metal Contraption",
     "item_description": "A contraption made from strange blue metal. Perhaps you could learn something from it.",
-    "item_name": "VESTIGE: Azure Metal Contraption",
+    "item_name": "Azure Metal Contraption",
     "item_type": "Consumable",
     "item_stacklimit": 99,
     "json": {
       "type": "Consumable",
       "description": "A contraption made from strange blue metal. Perhaps you could learn something from it.",
-      "image": "[[File:VESTIGE- Azure Metal Contraption.png|32px]]",
-      "name": "VESTIGE: Azure Metal Contraption",
+      "image": "[[File:Azure Metal Contraption.png|32px]]",
+      "name": "Azure Metal Contraption",
       "weight": "0",
       "stacklimit": "99",
-      "image_raw": "VESTIGE- Azure Metal Contraption.png"
+      "image_raw": "Azure Metal Contraption.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Azure Metal Contraption"
+    "page_name_sub": "Azure Metal Contraption"
   },
   {
     "page_name": "PLAN: Potted Dwellberry Bush",
@@ -11664,11 +11664,11 @@
     "json": {
       "type": "Consumable",
       "description": "A battered helmet. Perhaps you could learn something from it.",
-      "image": "[[File:VESTIGE: Corroded White Visor.png|32px]]",
+      "image": "[[File:Corroded White Visor.png|32px]]",
       "name": "Corroded White Visor",
       "weight": "0.0",
       "stacklimit": "99",
-      "image_raw": "VESTIGE: Corroded White Visor.png"
+      "image_raw": "Corroded White Visor.png"
     },
     "item_weight": 0,
     "page_name_sub": "Corroded White Visor"
@@ -11700,11 +11700,11 @@
     "json": {
       "type": "Vestige",
       "description": "The ancient remnants of some sort of armour. Perhaps you could learn something from it.",
-      "image": "[[File:VESTIGE: Dented White Pauldron.png|32px]]",
+      "image": "[[File:Dented White Pauldron.png|32px]]",
       "name": "Dented White Pauldron",
       "weight": "0.0",
       "stacklimit": "99",
-      "image_raw": "VESTIGE: Dented White Pauldron.png"
+      "image_raw": "Dented White Pauldron.png"
     },
     "item_weight": 0,
     "page_name_sub": "Dented White Pauldron"
@@ -15043,11 +15043,11 @@
     "json": {
       "type": "Vestige",
       "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
-      "image": "[[File:VESTIGE: Tattered Time-Lost Cloth.png|32px]]",
+      "image": "[[File:Tattered Time-Lost Cloth.png|32px]]",
       "name": "Tattered Time-Lost Cloth",
       "weight": "0.0",
       "stacklimit": "99",
-      "image_raw": "VESTIGE: Tattered Time-Lost Cloth.png"
+      "image_raw": "Tattered Time-Lost Cloth.png"
     },
     "item_weight": 0,
     "page_name_sub": "Tattered Time-Lost Cloth"

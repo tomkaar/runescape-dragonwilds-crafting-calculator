@@ -2539,7 +2539,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "15"
         }
       ],
       "outputs": [
@@ -44232,10 +44232,10 @@
       "facility": "Blast Furnace",
       "materials": [
         {
-          "quantity": "9",
+          "quantity": "6",
           "name": "Black Metal Scraps",
           "link": "Black Metal Scraps",
-          "qty": "9",
+          "qty": "6",
           "item": "Black Metal Scraps",
           "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
         },
@@ -46959,7 +46959,7 @@
   },
   {
     "uses_material": [
-      "mithril bolt",
+      "Mithril Bolts",
       "sapphire",
       "Nature Rune",
       "Air Rune"
@@ -46975,11 +46975,11 @@
       "materials": [
         {
           "quantity": "33",
-          "name": "mithril bolt",
-          "link": "mithril bolt",
+          "name": "Mithril Bolts",
+          "link": "Mithril Bolts",
           "qty": "33",
-          "item": "mithril bolt",
-          "image": "[[File:mithril bolt.png|30px|link=mithril bolt]]"
+          "item": "Mithril Bolts",
+          "image": "[[File:Mithril Bolts.png|30px|link=Mithril Bolts]]"
         },
         {
           "quantity": "1",
@@ -47013,19 +47013,19 @@
         }
       ],
       "outputs": [
-        "Enchanted Mithril Bolt"
+        "Enchanted Mithril Bolts"
       ],
       "output": {
         "quantity": "33",
-        "name": "Enchanted Mithril Bolt",
-        "link": "Enchanted Mithril Bolt",
+        "name": "Enchanted Mithril Bolts",
+        "link": "Enchanted Mithril Bolts",
         "qty": "33",
-        "item": "Enchanted Mithril Bolt",
-        "image": "[[File:Enchanted Mithril Bolt.png|30px|link=Enchanted Mithril Bolt]]"
+        "item": "Enchanted Mithril Bolts",
+        "image": "[[File:Enchanted Mithril Bolts.png|30px|link=Enchanted Mithril Bolts]]"
       }
     },
     "output": [
-      "Enchanted Mithril Bolt"
+      "Enchanted Mithril Bolts"
     ]
   },
   {
