@@ -1,4 +1,8 @@
-"use client";
+import { useState, useEffect } from "react";
+import { Eraser } from "lucide-react";
+
+import { useMaterialMultiplier } from "@/store/material-multiplier";
+import { useSelectedMaterial } from "@/store/selected-material";
 
 import {
   AlertDialog,
@@ -13,16 +17,14 @@ import {
 } from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { useMaterialMultiplier } from "@/store/material-multiplier";
-import { useSelectedMaterial } from "@/store/selected-material";
-import { Eraser } from "lucide-react";
-import { useEffect, useState } from "react";
 
 type Props = {
   itemId: string;
 };
 
-export function MaterialsAction({ itemId }: Props) {
+export function MultiplierAndClearInput(props: Props) {
+  const { itemId } = props;
+
   const multipliers = useMaterialMultiplier((state) => state.items);
   const setMultiplier = useMaterialMultiplier((state) => state.setMultiplier);
   const multiplier = multipliers[itemId] || 1;
@@ -58,7 +60,9 @@ export function MaterialsAction({ itemId }: Props) {
   };
 
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-2 border-neutral-700 py-2">
+      <span className="block mr-8">Recipe multiplier</span>
+
       <Input
         id="input-multiplier"
         type="number"
@@ -68,6 +72,7 @@ export function MaterialsAction({ itemId }: Props) {
         onChange={handleChange}
         onBlur={handleBlur}
       />
+
       <AlertDialog>
         <AlertDialogTrigger asChild>
           <Button variant="outline" size="icon">

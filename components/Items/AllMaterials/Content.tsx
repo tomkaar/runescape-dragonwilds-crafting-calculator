@@ -139,106 +139,98 @@ export function AllMaterialsContent() {
   }, {});
 
   return (
-    <div className="h-full w-full">
-      <div className="h-full px-4 mb-4 overflow-scroll">
-        <p className="mb-2 text-sm text-neutral-200">
-          Check materials as you gather/craft them.
-        </p>
+    <div className="w-full">
+      <div className="space-y-4">
+        {Object.entries(materialsByRecipe).map(([materialId, recipes]) => {
+          const material = getItemById(materialId);
+          if (!material) return null;
 
-        <div className="mt-4"></div>
+          const totalQuantity =
+            totalUniqueMaterialsWithQuantity[materialId] || 0;
+          const checkboxState = getMaterialState(materialId, recipes);
 
-        <div className="mt-4 space-y-4">
-          {Object.entries(materialsByRecipe).map(([materialId, recipes]) => {
-            const material = getItemById(materialId);
-            if (!material) return null;
-
-            const totalQuantity =
-              totalUniqueMaterialsWithQuantity[materialId] || 0;
-            const checkboxState = getMaterialState(materialId, recipes);
-
-            return (
-              <div key={materialId} className="space-y-2">
-                {/* Total Checkbox */}
-                <div className="flex flex-row gap-2 items-center">
-                  <CheckboxIndeterminate
-                    checked={checkboxState}
-                    onCheckedChange={() =>
-                      handleTotalCheckboxChange(
-                        checkboxState,
-                        materialId,
-                        recipes,
-                      )
-                    }
-                  />
-                  <div className="flex flex-row gap-1 items-center text-sm">
-                    {material.image && (
-                      <img
-                        src={createImageUrlPath(material.image)}
-                        width={24}
-                        height={24}
-                        alt={material.name}
-                      />
-                    )}
-                    <span>
-                      <span className="font-semibold">{totalQuantity}x</span>{" "}
-                      {material.name}
-                    </span>
-                  </div>
-                </div>
-
-                {/* Recipe Checkboxes */}
-                <div className="ml-6 space-y-1">
-                  {recipes.map((recipe) => {
-                    const recipeItem = getItemById(recipe.recipeId);
-                    if (!recipeItem) return null;
-
-                    const isChecked = isRecipeChecked(
+          return (
+            <div key={materialId} className="space-y-2">
+              {/* Total Checkbox */}
+              <div className="flex flex-row gap-2 items-center">
+                <CheckboxIndeterminate
+                  checked={checkboxState}
+                  onCheckedChange={() =>
+                    handleTotalCheckboxChange(
+                      checkboxState,
                       materialId,
-                      recipe.recipeId,
-                      recipe.nodeId,
-                    );
-
-                    return (
-                      <div
-                        key={recipe.nodeId}
-                        className="flex flex-row gap-2 items-center text-sm"
-                      >
-                        <Checkbox
-                          checked={isChecked}
-                          onCheckedChange={() =>
-                            handleRecipeCheckboxChange(
-                              isChecked,
-                              recipe.recipeId,
-                              recipe.nodeId,
-                            )
-                          }
-                        />
-                        <div className="flex flex-row gap-2 items-center">
-                          <span className="font-semibold">
-                            {recipe.quantity * recipe.multiplier}x
-                          </span>{" "}
-                          <span className="inline-flex text-neutral-400">
-                            (
-                            {recipeItem.image && (
-                              <img
-                                src={createImageUrlPath(recipeItem.image)}
-                                width={20}
-                                height={20}
-                                alt={recipeItem.name}
-                                className="mr-0.5"
-                              />
-                            )}
-                            {recipe.multiplier}x {recipeItem.name})
-                          </span>
-                        </div>
-                      </div>
-                    );
-                  })}
+                      recipes,
+                    )
+                  }
+                />
+                <div className="flex flex-row gap-1 items-center text-sm">
+                  {material.image && (
+                    <img
+                      src={createImageUrlPath(material.image)}
+                      width={24}
+                      height={24}
+                      alt={material.name}
+                    />
+                  )}
+                  <span>
+                    <span className="font-semibold">{totalQuantity}x</span>{" "}
+                    {material.name}
+                  </span>
                 </div>
               </div>
-            );
-          })}
-        </div>
+
+              {/* Recipe Checkboxes */}
+              <div className="ml-6 space-y-1">
+                {recipes.map((recipe) => {
+                  const recipeItem = getItemById(recipe.recipeId);
+                  if (!recipeItem) return null;
+
+                  const isChecked = isRecipeChecked(
+                    materialId,
+                    recipe.recipeId,
+                    recipe.nodeId,
+                  );
+
+                  return (
+                    <div
+                      key={recipe.nodeId}
+                      className="flex flex-row gap-2 items-center text-sm"
+                    >
+                      <Checkbox
+                        checked={isChecked}
+                        onCheckedChange={() =>
+                          handleRecipeCheckboxChange(
+                            isChecked,
+                            recipe.recipeId,
+                            recipe.nodeId,
+                          )
+                        }
+                      />
+                      <div className="flex flex-row gap-2 items-center">
+                        <span className="font-semibold">
+                          {recipe.quantity * recipe.multiplier}x
+                        </span>{" "}
+                        <span className="inline-flex text-neutral-400">
+                          (
+                          {recipeItem.image && (
+                            <img
+                              src={createImageUrlPath(recipeItem.image)}
+                              width={20}
+                              height={20}
+                              alt={recipeItem.name}
+                              className="mr-0.5"
+                            />
+                          )}
+                          {recipe.multiplier}x {recipeItem.name})
+                        </span>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

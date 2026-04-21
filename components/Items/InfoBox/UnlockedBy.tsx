@@ -15,7 +15,7 @@ export function UnlockedBy({ usesRecipes }: Props) {
         <Badge
           key={recipeName}
           asChild
-          variant="secondary"
+          variant="outline"
           className="text-sm gap-1"
         >
           <Link

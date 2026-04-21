@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";
 import { ArrowDownFromLineIcon, ArrowRightFromLine } from "lucide-react";

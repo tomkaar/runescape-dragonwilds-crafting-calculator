@@ -45,7 +45,7 @@ type Props = {
 export default function Layout(props: Props) {
   return (
     <div className="h-screen">
-      <div className="sticky top-0 border-b bg-background border-neutral-700 flex flex-col lg:flex-row gap-6 lg:items-center w-full p-4">
+      <div className="sticky top-0 z-10 border-b bg-background border-neutral-700 flex flex-col lg:flex-row gap-6 lg:items-center w-full p-4">
         <div className="flex flex-row items-center justify-between">
           <Link href="/">
             <div className="flex flex-row gap-2 items-center">
@@ -212,9 +212,7 @@ export default function Layout(props: Props) {
         </div>
       </div>
 
-      <div className="h-[calc(100vh-129px)] md:h-[calc(100vh-69px)]">
-        {props.children}
-      </div>
+      <div className="lg:h-[calc(100vh-69px)]">{props.children}</div>
     </div>
   );
 }

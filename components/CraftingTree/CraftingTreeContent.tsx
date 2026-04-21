@@ -13,7 +13,11 @@ import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";
 
 const dagreGraph = new dagre.graphlib.Graph().setDefaultEdgeLabel(() => ({}));
 
-export default function CraftingTreeContent() {
+type Props = {
+  treePaddingLeft?: number;
+};
+
+export default function CraftingTreeContent({ treePaddingLeft }: Props) {
   const { setNodes, getEdges, fitView } = useReactFlow<FlowNode<Node>>();
   const nodesInitialized = useNodesInitialized();
   const { direction } = useCraftingTreeDirection();
@@ -24,9 +28,21 @@ export default function CraftingTreeContent() {
     const edges = getEdges();
     setNodes((nds) => getLayoutedNodes(nds, edges, direction));
     fitView({
-      padding: { top: "70px", left: "20px", right: "20px", bottom: "20px" },
+      padding: {
+        top: "70px",
+        left: `${treePaddingLeft ?? 20}px`,
+        right: "20px",
+        bottom: "20px",
+      },
     });
-  }, [nodesInitialized, getEdges, setNodes, fitView, direction]);
+  }, [
+    nodesInitialized,
+    getEdges,
+    setNodes,
+    fitView,
+    direction,
+    treePaddingLeft,
+  ]);
 
   return null;
 }

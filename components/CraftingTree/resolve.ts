@@ -105,9 +105,7 @@ export const resolveCraftingTree = cache((args: Args) => {
         numberOfRecipies: null,
         isRecipeNumberVariant: multipleVariants ? idx + 1 : null,
         facility: variant.recipe?.facility as unknown as string | null,
-        quantityNeeded: initialNode
-          ? variant.recipe?.quantity || 1
-          : previousRecipipeRequiresQuantity,
+        quantityNeeded: previousRecipipeRequiresQuantity || 1,
         quantityRecieved: resultQuantity,
         hasExcessItems:
           !initialNode &&

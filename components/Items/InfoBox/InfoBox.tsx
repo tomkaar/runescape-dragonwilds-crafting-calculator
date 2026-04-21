@@ -38,8 +38,8 @@ export function ItemInfoBox(props: Props) {
   );
 
   return (
-    <div className="px-4 py-4 border-b border-neutral-700">
-      <div className="flex flex-row gap-4 items-center">
+    <div className="p-2">
+      <div className="flex flex-row gap-4 items-center pr-2">
         <div className="grow flex flex-row items-center gap-2">
           {item.image && (
             <img
@@ -49,7 +49,7 @@ export function ItemInfoBox(props: Props) {
               height={40}
             />
           )}
-          <h2 className="font-bold">{item.name}</h2>
+          <h2 className="text-white font-bold">{item.name}</h2>
         </div>
         <Favourite itemId={itemId} />
       </div>
@@ -60,7 +60,7 @@ export function ItemInfoBox(props: Props) {
       item.stackLimit != null ? (
         <div className="flex flex-row flex-wrap gap-2 mt-2">
           {item.wikiLink && (
-            <Badge asChild variant="secondary" className="text-sm">
+            <Badge asChild variant="outline" className="text-sm">
               <Link
                 href={{
                   pathname:
@@ -77,29 +77,31 @@ export function ItemInfoBox(props: Props) {
 
           <WeightBadge weight={item.weight} />
           <StackLimitBadge stackLimit={item.stackLimit} />
-
-          {uniqueFacilities &&
-            uniqueFacilities.map(
-              (facility) =>
-                facility && (
-                  <Link
-                    key={facility}
-                    href={{
-                      pathname: `/item`,
-                      search: `?facility=${encodeURIComponent(facility)}`,
-                    }}
-                  >
-                    <Badge variant="secondary" className="text-sm">
-                      {getFacilityIcon(facility, 22)}
-                      {facility}
-                    </Badge>
-                  </Link>
-                ),
-            )}
-
-          <CraftingFacilitiesPopover facilities={extraFacilities} />
         </div>
       ) : null}
+
+      <div className="flex flex-row gap-2 mt-2 items-center">
+        {uniqueFacilities &&
+          uniqueFacilities.map(
+            (facility) =>
+              facility && (
+                <Link
+                  key={facility}
+                  href={{
+                    pathname: `/item`,
+                    search: `?facility=${encodeURIComponent(facility)}`,
+                  }}
+                >
+                  <Badge variant="outline" className="text-sm">
+                    {getFacilityIcon(facility, 22)}
+                    {facility}
+                  </Badge>
+                </Link>
+              ),
+          )}
+
+        <CraftingFacilitiesPopover facilities={extraFacilities} />
+      </div>
 
       <UnlockedBy usesRecipes={usesRecipes} />
     </div>

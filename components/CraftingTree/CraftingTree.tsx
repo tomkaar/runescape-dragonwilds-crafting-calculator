@@ -23,10 +23,11 @@ type Props = {
   itemId: string;
   className?: string;
   children?: ReactNode;
+  treePaddingLeft?: number;
 };
 
 export function CraftingTree(props: Props) {
-  const { itemId, className, children } = props;
+  const { itemId, className, children, treePaddingLeft } = props;
 
   const anotherTree = resolveCraftingTree({ itemId: itemId });
 
@@ -47,17 +48,13 @@ export function CraftingTree(props: Props) {
         onEdgesChange={onEdgesChange}
         draggable={false}
         maxZoom={1.75}
-        fitView
         // @ts-expect-error - invalid types
         nodeTypes={nodeTypes}
         // @ts-expect-error - invalid types
         edgeTypes={edgeTypes}
-        fitViewOptions={{
-          padding: { top: "60px" },
-        }}
       >
         {children}
-        <CraftingTreeContent />
+        <CraftingTreeContent treePaddingLeft={treePaddingLeft} />
       </ReactFlow>
     </div>
   );

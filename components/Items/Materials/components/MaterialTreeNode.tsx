@@ -30,9 +30,11 @@ function hasCheckedDescendant(
 export function MaterialTreeNode({
   item,
   initialItemId,
+  baseQuantities,
 }: {
   item: MaterialTreeItem;
   initialItemId: string;
+  baseQuantities: Map<string, number>;
 }) {
   const { enter, reset } = useCraftingTreeHover();
   const i = useSelectedMaterial((state) => state.items);
@@ -65,7 +67,7 @@ export function MaterialTreeNode({
     addAnItem(initialItemId, {
       id: self.crypto.randomUUID(),
       itemId: item.id,
-      quantity: item.quantity,
+      quantity: baseQuantities.get(item.nodeId) ?? item.quantity,
       nodeId: item.nodeId,
       nodeOriginalId: initialItemId,
       state: "TODO",
@@ -144,6 +146,7 @@ export function MaterialTreeNode({
                   key={child.nodeId}
                   item={child}
                   initialItemId={initialItemId}
+                  baseQuantities={baseQuantities}
                 />
               ))}
             </div>
