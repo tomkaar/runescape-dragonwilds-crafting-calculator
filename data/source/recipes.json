@@ -44475,6 +44475,77 @@
   },
   {
     "uses_material": [
+      "Padded Cloth",
+      "Oak Logs",
+      "Iron Bar",
+      "Law Rune"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "4",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Oak Logs",
+          "link": "Oak Logs",
+          "qty": "2",
+          "item": "Oak Logs",
+          "image": "[[File:Oak Logs.png|30px|link=Oak Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Iron Bar",
+          "link": "Iron Bar",
+          "qty": "1",
+          "item": "Iron Bar",
+          "image": "[[File:Iron Bar.png|30px|link=Iron Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Law Rune",
+          "link": "Law Rune",
+          "qty": "5",
+          "item": "Law Rune",
+          "image": "[[File:Law Rune.png|30px|link=Law Rune]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Ava's Accumulator"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ava's Accumulator",
+        "link": "Ava's Accumulator",
+        "qty": "1",
+        "item": "Ava's Accumulator",
+        "image": "[[File:Ava's Accumulator.png|30px|link=Ava's Accumulator]]"
+      }
+    },
+    "output": [
+      "Ava's Accumulator"
+    ]
+  },
+  {
+    "uses_material": [
       "Mithril Ore",
       "Coal"
     ],
@@ -48711,6 +48782,70 @@
     ]
   },
   {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Fishing Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Fishing Cape",
+        "link": "Fishing Cape",
+        "qty": 1,
+        "item": "Fishing Cape",
+        "image": "[[File:Fishing Cape.png|30px|link=Fishing Cape]]"
+      }
+    },
+    "output": [
+      "Fishing Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Fishing Cape (Trimmed)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Fishing Cape (Trimmed)",
+        "link": "Fishing Cape (Trimmed)",
+        "qty": 1,
+        "item": "Fishing Cape (Trimmed)",
+        "image": "[[File:Fishing Cape (Trimmed).png|30px|link=Fishing Cape (Trimmed)]]"
+      }
+    },
+    "output": [
+      "Fishing Cape (Trimmed)"
+    ]
+  },
+  {
     "uses_material": [
       "Mystic Cloth",
       "Black Metal Bar",
@@ -52944,6 +53079,509 @@
     },
     "output": [
       "Saradomin Banner 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "2",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Coarse Net"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Coarse Net",
+        "link": "Coarse Net",
+        "qty": 1,
+        "item": "Coarse Net",
+        "image": "[[File:Coarse Net.png|30px|link=Coarse Net]]"
+      }
+    },
+    "output": [
+      "Coarse Net"
+    ]
+  },
+  {
+    "uses_material": [
+      "Wool Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Wool Thread",
+          "link": "Wool Thread",
+          "qty": "2",
+          "item": "Wool Thread",
+          "image": "[[File:Wool Thread.png|30px|link=Wool Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Wool Net"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Wool Net",
+        "link": "Wool Net",
+        "qty": 1,
+        "item": "Wool Net",
+        "image": "[[File:Wool Net.png|30px|link=Wool Net]]"
+      }
+    },
+    "output": [
+      "Wool Net"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fine Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Fine Thread",
+          "link": "Fine Thread",
+          "qty": "2",
+          "item": "Fine Thread",
+          "image": "[[File:Fine Thread.png|30px|link=Fine Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Fine Net"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Fine Net",
+        "link": "Fine Net",
+        "qty": 1,
+        "item": "Fine Net",
+        "image": "[[File:Fine Net.png|30px|link=Fine Net]]"
+      }
+    },
+    "output": [
+      "Fine Net"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mystic Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Mystic Thread",
+          "link": "Mystic Thread",
+          "qty": "2",
+          "item": "Mystic Thread",
+          "image": "[[File:Mystic Thread.png|30px|link=Mystic Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Mystic Net"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Mystic Net",
+        "link": "Mystic Net",
+        "qty": 1,
+        "item": "Mystic Net",
+        "image": "[[File:Mystic Net.png|30px|link=Mystic Net]]"
+      }
+    },
+    "output": [
+      "Mystic Net"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs",
+      "Coarse Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "1",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "1",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Ash Rod"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Ash Rod",
+        "link": "Ash Rod",
+        "qty": 1,
+        "item": "Ash Rod",
+        "image": "[[File:Ash Rod.png|30px|link=Ash Rod]]"
+      }
+    },
+    "output": [
+      "Ash Rod"
+    ]
+  },
+  {
+    "uses_material": [
+      "Oak Logs",
+      "Wool Thread",
+      "Bronze Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Oak Logs",
+          "link": "Oak Logs",
+          "qty": "1",
+          "item": "Oak Logs",
+          "image": "[[File:Oak Logs.png|30px|link=Oak Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Wool Thread",
+          "link": "Wool Thread",
+          "qty": "1",
+          "item": "Wool Thread",
+          "image": "[[File:Wool Thread.png|30px|link=Wool Thread]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Bronze Bar",
+          "link": "Bronze Bar",
+          "qty": "1",
+          "item": "Bronze Bar",
+          "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Oak Rod"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Oak Rod",
+        "link": "Oak Rod",
+        "qty": 1,
+        "item": "Oak Rod",
+        "image": "[[File:Oak Rod.png|30px|link=Oak Rod]]"
+      }
+    },
+    "output": [
+      "Oak Rod"
+    ]
+  },
+  {
+    "uses_material": [
+      "Willow Logs",
+      "Fine Thread",
+      "Steel Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "1",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Fine Thread",
+          "link": "Fine Thread",
+          "qty": "1",
+          "item": "Fine Thread",
+          "image": "[[File:Fine Thread.png|30px|link=Fine Thread]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Steel Bar",
+          "link": "Steel Bar",
+          "qty": "1",
+          "item": "Steel Bar",
+          "image": "[[File:Steel Bar.png|30px|link=Steel Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Willow Rod"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Willow Rod",
+        "link": "Willow Rod",
+        "qty": 1,
+        "item": "Willow Rod",
+        "image": "[[File:Willow Rod.png|30px|link=Willow Rod]]"
+      }
+    },
+    "output": [
+      "Willow Rod"
+    ]
+  },
+  {
+    "uses_material": [
+      "Maple Logs",
+      "Mystic Thread",
+      "Mithril Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "1",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Mystic Thread",
+          "link": "Mystic Thread",
+          "qty": "1",
+          "item": "Mystic Thread",
+          "image": "[[File:Mystic Thread.png|30px|link=Mystic Thread]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "1",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Maple Rod"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Maple Rod",
+        "link": "Maple Rod",
+        "qty": 1,
+        "item": "Maple Rod",
+        "image": "[[File:Maple Rod.png|30px|link=Maple Rod]]"
+      }
+    },
+    "output": [
+      "Maple Rod"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Shrimp"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Shrimp",
+          "link": "Raw Shrimp",
+          "qty": "1",
+          "item": "Raw Shrimp",
+          "image": "[[File:Raw Shrimp.png|30px|link=Raw Shrimp]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Shrimp Bait"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Shrimp Bait",
+        "link": "Shrimp Bait",
+        "qty": 1,
+        "item": "Shrimp Bait",
+        "image": "[[File:Shrimp Bait.png|30px|link=Shrimp Bait]]"
+      }
+    },
+    "output": [
+      "Shrimp Bait"
+    ]
+  },
+  {
+    "uses_material": [
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "1",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Feather Bait"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Feather Bait",
+        "link": "Feather Bait",
+        "qty": 1,
+        "item": "Feather Bait",
+        "image": "[[File:Feather Bait.png|30px|link=Feather Bait]]"
+      }
+    },
+    "output": [
+      "Feather Bait"
     ]
   }
 ]

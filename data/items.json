@@ -28851,6 +28851,52 @@
     "stackLimit": 50
   },
   {
+    "id": "c1d9d9c6c829",
+    "name": "Ava's Accumulator",
+    "image": "Ava's Accumulator.png",
+    "variants": [
+      {
+        "id": "95fe22bba563",
+        "name": "Ava's Accumulator",
+        "image": "Ava's Accumulator.png",
+        "variantName": null,
+        "recipe": {
+          "id": "392624a29094",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "e47d442af339",
+              "quantity": 1
+            },
+            {
+              "itemId": "b132f6798b7e",
+              "quantity": 5
+            },
+            {
+              "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Ava's_Accumulator",
+    "weight": 0,
+    "stackLimit": 1
+  },
+  {
     "id": "2a7d7c1afd3f",
     "name": "Mithril Bar",
     "image": "Mithril Bar.png",
@@ -31679,6 +31725,61 @@
     ],
     "wikiLink": "Shadow_Chaps",
     "weight": 12
+  },
+  {
+    "id": "e9341608dfcc",
+    "name": "Fishing Cape",
+    "image": "Fishing Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Fishing Cape",
+        "image": "Fishing Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Fishing_Cape",
+    "weight": 0
+  },
+  {
+    "id": "c1584041a29b",
+    "name": "Fishing Cape (Trimmed)",
+    "image": "Fishing Cape (Trimmed).png",
+    "variants": [
+      {
+        "id": "58ff34f8459e",
+        "name": "Fishing Cape (Trimmed)",
+        "image": "Fishing Cape (Trimmed).png",
+        "variantName": "Trimmed",
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Fishing_Cape_(Trimmed)"
   },
   {
     "id": "35085839b4ba",
@@ -34587,6 +34688,364 @@
       "Build Menu"
     ],
     "wikiLink": "Saradomin_Banner_01"
+  },
+  {
+    "id": "a33ceca9bad8",
+    "name": "Coarse Net",
+    "image": "Coarse Net.png",
+    "variants": [
+      {
+        "id": "d73bfa55e14e",
+        "name": "Coarse Net",
+        "image": "Coarse Net.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d07a8dc3b818",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "31bf063bedfe",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Coarse_Net",
+    "weight": 1
+  },
+  {
+    "id": "eb5ce521eed1",
+    "name": "Wool Net",
+    "image": "Wool Net.png",
+    "variants": [
+      {
+        "id": "06718449b4a0",
+        "name": "Wool Net",
+        "image": "Wool Net.png",
+        "variantName": null,
+        "recipe": {
+          "id": "54bf6513e1b8",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "86f4896ec674",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Wool_Net",
+    "weight": 1
+  },
+  {
+    "id": "19e8fb9616c0",
+    "name": "Fine Net",
+    "image": "Fine Net.png",
+    "variants": [
+      {
+        "id": "145c53164098",
+        "name": "Fine Net",
+        "image": "Fine Net.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e17cdc2b05ab",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "8aa07469cfe0",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Fine_Net",
+    "weight": 1
+  },
+  {
+    "id": "ab738c2fa37e",
+    "name": "Mystic Net",
+    "image": "Mystic Net.png",
+    "variants": [
+      {
+        "id": "7b603884222f",
+        "name": "Mystic Net",
+        "image": "Mystic Net.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9bd7f025cc9e",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "b0d64f121478",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Mystic_Net",
+    "weight": 1
+  },
+  {
+    "id": "b365295ae68d",
+    "name": "Ash Rod",
+    "image": "Ash Rod.png",
+    "variants": [
+      {
+        "id": "02574cdcb40a",
+        "name": "Ash Rod",
+        "image": "Ash Rod.png",
+        "variantName": null,
+        "recipe": {
+          "id": "65c526bec0ec",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 1
+            },
+            {
+              "itemId": "31bf063bedfe",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Ash_Rod",
+    "weight": 1.5
+  },
+  {
+    "id": "80e9ae770b5c",
+    "name": "Oak Rod",
+    "image": "Oak Rod.png",
+    "variants": [
+      {
+        "id": "e6bc5bc27ee6",
+        "name": "Oak Rod",
+        "image": "Oak Rod.png",
+        "variantName": null,
+        "recipe": {
+          "id": "aec4edb277d5",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "c1117f9270a0",
+              "quantity": 1
+            },
+            {
+              "itemId": "eedfb3dc7f45",
+              "quantity": 1
+            },
+            {
+              "itemId": "86f4896ec674",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Oak_Rod",
+    "weight": 1.5
+  },
+  {
+    "id": "186077e6fbf7",
+    "name": "Willow Rod",
+    "image": "Willow Rod.png",
+    "variants": [
+      {
+        "id": "ef1f5bc43e77",
+        "name": "Willow Rod",
+        "image": "Willow Rod.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c4f2285cfcf0",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "8aa07469cfe0",
+              "quantity": 1
+            },
+            {
+              "itemId": "d2a789ecd6d7",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Willow_Rod",
+    "weight": 1.5
+  },
+  {
+    "id": "ed43448ff61a",
+    "name": "Maple Rod",
+    "image": "Maple Rod.png",
+    "variants": [
+      {
+        "id": "71caf69de9b2",
+        "name": "Maple Rod",
+        "image": "Maple Rod.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7d7dcbef7eb5",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "7d21f3c7ffc9",
+              "quantity": 1
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 1
+            },
+            {
+              "itemId": "b0d64f121478",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Maple_Rod",
+    "weight": 1.5
+  },
+  {
+    "id": "52209f509ef5",
+    "name": "Shrimp Bait",
+    "image": "Shrimp Bait.png",
+    "variants": [
+      {
+        "id": "2b7ae2ed7a1b",
+        "name": "Shrimp Bait",
+        "image": "Shrimp Bait.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9add9cb8ba68",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "a7693478504b",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Shrimp_Bait",
+    "weight": 0
+  },
+  {
+    "id": "c1663c82514c",
+    "name": "Feather Bait",
+    "image": "Feather Bait.png",
+    "variants": [
+      {
+        "id": "2e270b852e94",
+        "name": "Feather Bait",
+        "image": "Feather Bait.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e52477aec08d",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "7ddc50d536fd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Feather_Bait",
+    "weight": 0
   },
   {
     "id": "6a5fa59fd28f",
@@ -42600,5 +43059,324 @@
     "wikiLink": "Tome_of_Farming_-_Vol_1",
     "weight": 2,
     "stackLimit": 99
+  },
+  {
+    "id": "551e39b36141",
+    "name": "Raw Sardine",
+    "image": "Raw Sardine.png",
+    "variants": [
+      {
+        "id": "551e39b36141",
+        "name": "Raw Sardine",
+        "image": "Raw Sardine.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Sardine",
+    "weight": 1.5,
+    "stackLimit": 99
+  },
+  {
+    "id": "a7693478504b",
+    "name": "Raw Shrimp",
+    "image": "Raw Shrimp.png",
+    "variants": [
+      {
+        "id": "a7693478504b",
+        "name": "Raw Shrimp",
+        "image": "Raw Shrimp.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Shrimp",
+    "weight": 0.2,
+    "stackLimit": 99
+  },
+  {
+    "id": "6073bd40e35e",
+    "name": "Raw Trout",
+    "image": "Raw Trout.png",
+    "variants": [
+      {
+        "id": "6073bd40e35e",
+        "name": "Raw Trout",
+        "image": "Raw Trout.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Trout",
+    "weight": 2.1,
+    "stackLimit": 99
+  },
+  {
+    "id": "3fe30a876d93",
+    "name": "Raw Anchovies",
+    "image": "Raw Anchovies.png",
+    "variants": [
+      {
+        "id": "3fe30a876d93",
+        "name": "Raw Anchovies",
+        "image": "Raw Anchovies.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Anchovies",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "92d876b457bf",
+    "name": "Raw Herring",
+    "image": "Raw Herring.png",
+    "variants": [
+      {
+        "id": "92d876b457bf",
+        "name": "Raw Herring",
+        "image": "Raw Herring.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Herring",
+    "weight": 1.8,
+    "stackLimit": 99
+  },
+  {
+    "id": "f06edd7974bc",
+    "name": "Raw Salmon",
+    "image": "Raw Salmon.png",
+    "variants": [
+      {
+        "id": "f06edd7974bc",
+        "name": "Raw Salmon",
+        "image": "Raw Salmon.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Salmon",
+    "weight": 1.8,
+    "stackLimit": 99
+  },
+  {
+    "id": "049f4872c2c2",
+    "name": "Raw Giant Krill",
+    "image": "Raw Giant Krill.png",
+    "variants": [
+      {
+        "id": "049f4872c2c2",
+        "name": "Raw Giant Krill",
+        "image": "Raw Giant Krill.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Giant_Krill",
+    "weight": 2.9,
+    "stackLimit": 99
+  },
+  {
+    "id": "8de0ccbd2d20",
+    "name": "Raw Infernal Eel",
+    "image": "Raw Infernal Eel.png",
+    "variants": [
+      {
+        "id": "8de0ccbd2d20",
+        "name": "Raw Infernal Eel",
+        "image": "Raw Infernal Eel.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Infernal_Eel",
+    "weight": 3.1,
+    "stackLimit": 99
+  },
+  {
+    "id": "bc822510c732",
+    "name": "Raw Armoured Catfish",
+    "image": "Raw Armoured Catfish.png",
+    "variants": [
+      {
+        "id": "bc822510c732",
+        "name": "Raw Armoured Catfish",
+        "image": "Raw Armoured Catfish.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Armoured_Catfish",
+    "weight": 4.5,
+    "stackLimit": 99
+  },
+  {
+    "id": "f78b9f51fa02",
+    "name": "Raw Lobster",
+    "image": "Raw Lobster.png",
+    "variants": [
+      {
+        "id": "f78b9f51fa02",
+        "name": "Raw Lobster",
+        "image": "Raw Lobster.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Lobster",
+    "weight": 2.4,
+    "stackLimit": 99
+  },
+  {
+    "id": "ca57b3e2c09e",
+    "name": "Raw Undead Bass",
+    "image": "Raw Undead Bass.png",
+    "variants": [
+      {
+        "id": "ca57b3e2c09e",
+        "name": "Raw Undead Bass",
+        "image": "Raw Undead Bass.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Undead_Bass",
+    "weight": 3,
+    "stackLimit": 99
+  },
+  {
+    "id": "257365e5bfbe",
+    "name": "Raw Undead Eel",
+    "image": "Raw Undead Eel.png",
+    "variants": [
+      {
+        "id": "257365e5bfbe",
+        "name": "Raw Undead Eel",
+        "image": "Raw Undead Eel.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Undead_Eel",
+    "weight": 3.4,
+    "stackLimit": 99
+  },
+  {
+    "id": "fcb74f8a5f02",
+    "name": "Coclear Malificarum",
+    "image": "Placeholder.png",
+    "variants": [
+      {
+        "id": "fcb74f8a5f02",
+        "name": "Coclear Malificarum",
+        "image": "Placeholder.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Coclear_Malificarum",
+    "weight": 0,
+    "stackLimit": 0
+  },
+  {
+    "id": "1845639da67f",
+    "name": "Eventide - A New Spawn",
+    "image": "Placeholder.png",
+    "variants": [
+      {
+        "id": "1845639da67f",
+        "name": "Eventide - A New Spawn",
+        "image": "Placeholder.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Eventide_-_A_New_Spawn",
+    "weight": 0,
+    "stackLimit": 0
+  },
+  {
+    "id": "351165def71a",
+    "name": "The Binding of Ib",
+    "image": "Placeholder.png",
+    "variants": [
+      {
+        "id": "351165def71a",
+        "name": "The Binding of Ib",
+        "image": "Placeholder.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "The_Binding_of_Ib",
+    "weight": 0,
+    "stackLimit": 0
+  },
+  {
+    "id": "59220f81c03a",
+    "name": "Bundle of Undead Twigs",
+    "image": "Bundle of Undead Twigs.png",
+    "variants": [
+      {
+        "id": "59220f81c03a",
+        "name": "Bundle of Undead Twigs",
+        "image": "Bundle of Undead Twigs.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Bundle_of_Undead_Twigs",
+    "weight": 0
   }
 ]

@@ -12251,6 +12251,24 @@
     "page_name_sub": "Maple Logs"
   },
   {
+    "page_name": "Ava's Accumulator",
+    "item_description": "A bagged chicken ready to serve you, magnet in claw. \n\nIncreases Arrow Recovery Chance and automatically picks up recovered arrows.",
+    "item_name": "Ava's Accumulator",
+    "item_type": "Basic Item",
+    "item_stacklimit": 1,
+    "json": {
+      "type": "Basic Item",
+      "description": "A bagged chicken ready to serve you, magnet in claw. \n\nIncreases Arrow Recovery Chance and automatically picks up recovered arrows.",
+      "image": "[[File:Ava's Accumulator.png|32px]]",
+      "name": "Ava's Accumulator",
+      "weight": "0",
+      "stacklimit": "1",
+      "image_raw": "Ava's Accumulator.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Ava's Accumulator"
+  },
+  {
     "page_name": "Mithril Bar",
     "item_description": "A versatile metal used for crafting weapons and armour.",
     "item_name": "Mithril Bar",
@@ -13838,6 +13856,38 @@
     },
     "item_weight": 0,
     "page_name_sub": "Food & Drink Salvage"
+  },
+  {
+    "page_name": "Fishing Cape",
+    "item_description": "Congratulations! Reaching level 99 in Fishing is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Fishing Cape",
+    "item_weight": 0,
+    "page_name_sub": "Fishing Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Fishing is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Fishing Cape.png|32px]]",
+      "name": "Fishing Cape",
+      "weight": "0.0",
+      "image_raw": "Fishing Cape.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Fishing Cape",
+    "item_description": "Congratulations! Reaching level 99 in Fishing is an astonishing feat. Wear this cape with pride.",
+    "item_name": "Fishing Cape (Trimmed)",
+    "item_weight": 0,
+    "page_name_sub": "Fishing Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Congratulations! Reaching level 99 in Fishing is an astonishing feat. Wear this cape with pride.",
+      "image": "[[File:Fishing Cape (Trimmed).png|32px]]",
+      "name": "Fishing Cape (Trimmed)",
+      "weight": "0.0",
+      "image_raw": "Fishing Cape (Trimmed).png"
+    },
+    "item_type": "Basic Item"
   },
   {
     "page_name": "Zamorak Robes",
@@ -16059,5 +16109,451 @@
     },
     "item_weight": 2,
     "page_name_sub": "Tome of Farming - Vol 1"
+  },
+  {
+    "page_name": "Raw Sardine",
+    "item_description": "A small fish that was brought into this world to be fried and eaten.",
+    "item_name": "Raw Sardine",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "A small fish that was brought into this world to be fried and eaten.",
+      "image": "[[File:Raw Sardine.png|32px]]",
+      "name": "Raw Sardine",
+      "weight": "1.5",
+      "stacklimit": "99",
+      "image_raw": "Raw Sardine.png"
+    },
+    "item_weight": 1.5,
+    "page_name_sub": "Raw Sardine"
+  },
+  {
+    "page_name": "Raw Shrimp",
+    "item_description": "Schrodinger's shrimp: could end up burnt or fried.",
+    "item_name": "Raw Shrimp",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Schrodinger's shrimp: could end up burnt or fried.",
+      "image": "[[File:Raw Shrimp.png|32px]]",
+      "name": "Raw Shrimp",
+      "weight": "0.2",
+      "stacklimit": "99",
+      "image_raw": "Raw Shrimp.png"
+    },
+    "item_weight": 0.2,
+    "page_name_sub": "Raw Shrimp"
+  },
+  {
+    "page_name": "Raw Trout",
+    "item_description": "Grill this trout on a fire. You will thank us later.",
+    "item_name": "Raw Trout",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Grill this trout on a fire. You will thank us later.",
+      "image": "[[File:Raw Trout.png|32px]]",
+      "name": "Raw Trout",
+      "weight": "2.1",
+      "stacklimit": "99",
+      "image_raw": "Raw Trout.png"
+    },
+    "item_weight": 2.1,
+    "page_name_sub": "Raw Trout"
+  },
+  {
+    "page_name": "Raw Anchovies",
+    "item_description": "Doesn't look like much now, but sear it on a bonfire and receive a delicious treat.",
+    "item_name": "Raw Anchovies",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Doesn't look like much now, but sear it on a bonfire and receive a delicious treat.",
+      "image": "[[File:Raw Anchovies.png|32px]]",
+      "name": "Raw Anchovies",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Raw Anchovies.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Raw Anchovies"
+  },
+  {
+    "page_name": "Raw Herring",
+    "item_description": "Cooked on an anvil. Which may or may not be a red herring.",
+    "item_name": "Raw Herring",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Cooked on an anvil. Which may or may not be a red herring.",
+      "image": "[[File:Raw Herring.png|32px]]",
+      "name": "Raw Herring",
+      "weight": "1.8",
+      "stacklimit": "99",
+      "image_raw": "Raw Herring.png"
+    },
+    "item_weight": 1.8,
+    "page_name_sub": "Raw Herring"
+  },
+  {
+    "page_name": "Raw Salmon",
+    "item_description": "While it might be edible now, you'll need to fry it in this game.",
+    "item_name": "Raw Salmon",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "While it might be edible now, you'll need to fry it in this game.",
+      "image": "[[File:Raw Salmon.png|32px]]",
+      "name": "Raw Salmon",
+      "weight": "1.8",
+      "stacklimit": "99",
+      "image_raw": "Raw Salmon.png"
+    },
+    "item_weight": 1.8,
+    "page_name_sub": "Raw Salmon"
+  },
+  {
+    "page_name": "Raw Giant Krill",
+    "item_description": "A colossal crustacean. A little soggy now, so best dry it.",
+    "item_name": "Raw Giant Krill",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "A colossal crustacean. A little soggy now, so best dry it.",
+      "image": "[[File:Raw Giant Krill.png|32px]]",
+      "name": "Raw Giant Krill",
+      "weight": "2.9",
+      "stacklimit": "99",
+      "image_raw": "Raw Giant Krill.png"
+    },
+    "item_weight": 2.9,
+    "page_name_sub": "Raw Giant Krill"
+  },
+  {
+    "page_name": "Raw Infernal Eel",
+    "item_description": "Wriggly no more. Will need to be smoked before it goes near your palate.",
+    "item_name": "Raw Infernal Eel",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Wriggly no more. Will need to be smoked before it goes near your palate.",
+      "image": "[[File:Raw Infernal Eel.png|32px]]",
+      "name": "Raw Infernal Eel",
+      "weight": "3.1",
+      "stacklimit": "99",
+      "image_raw": "Raw Infernal Eel.png"
+    },
+    "item_weight": 3.1,
+    "page_name_sub": "Raw Infernal Eel"
+  },
+  {
+    "page_name": "Raw Armoured Catfish",
+    "item_description": "Should be shelled before being braised.",
+    "item_name": "Raw Armoured Catfish",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Should be shelled before being braised.",
+      "image": "[[File:Raw Armoured Catfish.png|32px]]",
+      "name": "Raw Armoured Catfish",
+      "weight": "4.5",
+      "stacklimit": "99",
+      "image_raw": "Raw Armoured Catfish.png"
+    },
+    "item_weight": 4.5,
+    "page_name_sub": "Raw Armoured Catfish"
+  },
+  {
+    "page_name": "Raw Lobster",
+    "item_description": "Don't worry, it's not alive anymore. Roast for best results.",
+    "item_name": "Raw Lobster",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Don't worry, it's not alive anymore. Roast for best results.",
+      "image": "[[File:Raw Lobster.png|32px]]",
+      "name": "Raw Lobster",
+      "weight": "2.4",
+      "stacklimit": "99",
+      "image_raw": "Raw Lobster.png"
+    },
+    "item_weight": 2.4,
+    "page_name_sub": "Raw Lobster"
+  },
+  {
+    "page_name": "Raw Undead Bass",
+    "item_description": "It may not look edible, but trust us: grill it and you're in for a treat.",
+    "item_name": "Raw Undead Bass",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "It may not look edible, but trust us: grill it and you're in for a treat.",
+      "image": "[[File:Raw Undead Bass.png|32px]]",
+      "name": "Raw Undead Bass",
+      "weight": "3.0",
+      "stacklimit": "99",
+      "image_raw": "Raw Undead Bass.png"
+    },
+    "item_weight": 3,
+    "page_name_sub": "Raw Undead Bass"
+  },
+  {
+    "page_name": "Raw Undead Eel",
+    "item_description": "A dead undead eel. We suggest you braise it.",
+    "item_name": "Raw Undead Eel",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "A dead undead eel. We suggest you braise it.",
+      "image": "[[File:Raw Undead Eel.png|32px]]",
+      "name": "Raw Undead Eel",
+      "weight": "3.4",
+      "stacklimit": "99",
+      "image_raw": "Raw Undead Eel.png"
+    },
+    "item_weight": 3.4,
+    "page_name_sub": "Raw Undead Eel"
+  },
+  {
+    "page_name": "Coarse Net",
+    "item_description": "Made with two coarse threads at a crafting table. Rough but effective.",
+    "item_name": "Coarse Net",
+    "item_weight": 1,
+    "page_name_sub": "Coarse Net",
+    "json": {
+      "type": "Tool",
+      "description": "Made with two coarse threads at a crafting table. Rough but effective.",
+      "image": "[[File:Coarse Net.png|32px]]",
+      "name": "Coarse Net",
+      "weight": "1.0",
+      "image_raw": "Coarse Net.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Coclear Malificarum",
+    "item_description": "A sealed scroll full of forbidden magic.",
+    "item_name": "Coclear Malificarum",
+    "item_type": "Quest Item",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Quest Item",
+      "description": "A sealed scroll full of forbidden magic.",
+      "image": "[[File:Placeholder.png|32px]]",
+      "name": "Coclear Malificarum",
+      "weight": "0.0",
+      "stacklimit": "",
+      "image_raw": "Placeholder.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Coclear Malificarum"
+  },
+  {
+    "page_name": "Eventide - A New Spawn",
+    "item_description": "A sealed scroll full of the worst things imaginable.",
+    "item_name": "Eventide - A New Spawn",
+    "item_type": "Quest Item",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Quest Item",
+      "description": "A sealed scroll full of the worst things imaginable.",
+      "image": "[[File:Placeholder.png|32px]]",
+      "name": "Eventide - A New Spawn",
+      "weight": "0.0",
+      "stacklimit": "",
+      "image_raw": "Placeholder.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Eventide - A New Spawn"
+  },
+  {
+    "page_name": "Wool Net",
+    "item_description": "Made with two wool threads at a crafting table. Unwieldy but does the job.",
+    "item_name": "Wool Net",
+    "item_weight": 1,
+    "page_name_sub": "Wool Net",
+    "json": {
+      "type": "Tool",
+      "description": "Made with two wool threads at a crafting table. Unwieldy but does the job.",
+      "image": "[[File:Wool Net.png|32px]]",
+      "name": "Wool Net",
+      "weight": "1.0",
+      "image_raw": "Wool Net.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "The Binding of Ib",
+    "item_description": "A sealed scroll containing dark secrets.",
+    "item_name": "The Binding of Ib",
+    "item_type": "Quest Item",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Quest Item",
+      "description": "A sealed scroll containing dark secrets.",
+      "image": "[[File:Placeholder.png|32px]]",
+      "name": "The Binding of Ib",
+      "weight": "0.0",
+      "stacklimit": "",
+      "image_raw": "Placeholder.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "The Binding of Ib"
+  },
+  {
+    "page_name": "Bundle of Undead Twigs",
+    "item_description": "[[Manktongue]] needs these undead twigs to make [[Ava's Accumulator]]",
+    "item_name": "Bundle of Undead Twigs",
+    "item_weight": 0,
+    "page_name_sub": "Bundle of Undead Twigs",
+    "json": {
+      "type": "Quest Item",
+      "description": "[[Manktongue]] needs these undead twigs to make [[Ava's Accumulator]]",
+      "image": "[[File:Bundle of Undead Twigs.png|32px]]",
+      "name": "Bundle of Undead Twigs",
+      "weight": "0.0",
+      "image_raw": "Bundle of Undead Twigs.png"
+    },
+    "item_type": "Quest Item"
+  },
+  {
+    "page_name": "Fine Net",
+    "item_description": "Made with two fine threads at a crafting table. An elegant little net.",
+    "item_name": "Fine Net",
+    "item_weight": 1,
+    "page_name_sub": "Fine Net",
+    "json": {
+      "type": "Tool",
+      "description": "Made with two fine threads at a crafting table. An elegant little net.",
+      "image": "[[File:Fine Net.png|32px]]",
+      "name": "Fine Net",
+      "weight": "1.0",
+      "image_raw": "Fine Net.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Mystic Net",
+    "item_description": "Made with two mystic threads at a crafting table. A stunningly well crafted net.",
+    "item_name": "Mystic Net",
+    "item_weight": 1,
+    "page_name_sub": "Mystic Net",
+    "json": {
+      "type": "Tool",
+      "description": "Made with two mystic threads at a crafting table. A stunningly well crafted net.",
+      "image": "[[File:Mystic Net.png|32px]]",
+      "name": "Mystic Net",
+      "weight": "1.0",
+      "image_raw": "Mystic Net.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Ash Rod",
+    "item_description": "A sturdy fishing rod, effective in Brynmoor.",
+    "item_name": "Ash Rod",
+    "item_weight": 1.5,
+    "page_name_sub": "Ash Rod",
+    "json": {
+      "type": "Tool",
+      "description": "A sturdy fishing rod, effective in Brynmoor.",
+      "image": "[[File:Ash Rod.png|32px]]",
+      "name": "Ash Rod",
+      "weight": "1.5",
+      "image_raw": "Ash Rod.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Oak Rod",
+    "item_description": "A favourite fishing rod, effective in Ghornfell.",
+    "item_name": "Oak Rod",
+    "item_weight": 1.5,
+    "page_name_sub": "Oak Rod",
+    "json": {
+      "type": "Tool",
+      "description": "A favourite fishing rod, effective in Ghornfell.",
+      "image": "[[File:Oak Rod.png|32px]]",
+      "name": "Oak Rod",
+      "weight": "1.5",
+      "image_raw": "Oak Rod.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Willow Rod",
+    "item_description": "A professional-looking fishing rod, effective in Fellhollow.",
+    "item_name": "Willow Rod",
+    "item_weight": 1.5,
+    "page_name_sub": "Willow Rod",
+    "json": {
+      "type": "Tool",
+      "description": "A professional-looking fishing rod, effective in Fellhollow.",
+      "image": "[[File:Willow Rod.png|32px]]",
+      "name": "Willow Rod",
+      "weight": "1.5",
+      "image_raw": "Willow Rod.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Maple Rod",
+    "item_description": "A bad-@ss rod, effective in Dowdun Reach.",
+    "item_name": "Maple Rod",
+    "item_weight": 1.5,
+    "page_name_sub": "Maple Rod",
+    "json": {
+      "type": "Tool",
+      "description": "A bad-@ss rod, effective in Dowdun Reach.",
+      "image": "[[File:Maple Rod.png|32px]]",
+      "name": "Maple Rod",
+      "weight": "1.5",
+      "image_raw": "Maple Rod.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Shrimp Bait",
+    "item_description": "Scraps of shrimp dressed to be eaten by fish. A Sardines favorite snack. Increases the catch chance of this fish.",
+    "item_name": "Shrimp Bait",
+    "item_weight": 0,
+    "page_name_sub": "Shrimp Bait",
+    "json": {
+      "type": "Tool",
+      "description": "Scraps of shrimp dressed to be eaten by fish. A Sardines favorite snack. Increases the catch chance of this fish.",
+      "image": "[[File:Shrimp Bait.png|32px]]",
+      "name": "Shrimp Bait",
+      "weight": "0.0",
+      "image_raw": "Shrimp Bait.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Feather Bait",
+    "item_description": "What is it about feathers that fascinates a fish? A great way to bait them. Trout seems the most susceptible. increases the catch chance of this fish.",
+    "item_name": "Feather Bait",
+    "item_weight": 0,
+    "page_name_sub": "Feather Bait",
+    "json": {
+      "type": "Tool",
+      "description": "What is it about feathers that fascinates a fish? A great way to bait them. Trout seems the most susceptible. increases the catch chance of this fish.",
+      "image": "[[File:Feather Bait.png|32px]]",
+      "name": "Feather Bait",
+      "weight": "0.0",
+      "image_raw": "Feather Bait.png"
+    },
+    "item_type": "Tool"
   }
 ]
