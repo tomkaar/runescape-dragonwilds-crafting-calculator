@@ -1,7 +1,5 @@
-import { Suspense } from "react";
 import { ItemTable } from "@/components/ItemTable/ItemTable";
 import { Metadata } from "next";
-import { cacheLife } from "next/cache";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -14,9 +12,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default function ItemPage() {
   return (
     <main className="h-full flex flex-col">
-      <Suspense>
-        <ItemTable />
-      </Suspense>
+      <ItemTable />
     </main>
   );
 }
