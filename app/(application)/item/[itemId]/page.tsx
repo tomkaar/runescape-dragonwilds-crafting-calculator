@@ -2,11 +2,10 @@ import { getItemById } from "@/utils/itemById";
 import { notFound } from "next/navigation";
 import { type Metadata } from "next";
 
-import { cacheLife } from "next/cache";
 import { CraftingTree } from "@/components/CraftingTree/CraftingTree";
 import { Panel } from "@xyflow/react";
 import { ItemInfoBox } from "@/components/Items/InfoBox/InfoBox";
-import { Accordion } from "@/components/ui/accordion";
+import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
 import { AccordionAllMaterials } from "../../../../components/Items/AllMaterials/AllMaterials";
 import { AccordionCraftingTree } from "../../../../components/Items/CraftingTree/CraftingTree";
 import { AccordionMaterials } from "../../../../components/Items/Materials/Materials";
@@ -52,17 +51,13 @@ export default async function ItemPage(props: Props) {
           <ItemInfoBox item={item} itemId={itemId} />
         </div>
 
-        <Accordion
-          type="multiple"
-          defaultValue={[]}
-          className="flex flex-col gap-2 pb-2"
-        >
+        <AccordionPersisted className="flex flex-col gap-2 pb-2">
           <AccordionMaterials itemId={itemId} />
           <AccordionUsedIn itemId={itemId} />
           <AccordionAllMaterials />
           <AccordionCraftingTree itemId={itemId} />
           <AccordionAttribution />
-        </Accordion>
+        </AccordionPersisted>
       </div>
 
       <div className="lg:h-full w-full hidden lg:block">
@@ -81,16 +76,12 @@ export default async function ItemPage(props: Props) {
             </div>
 
             <div className="overflow-scroll rounded-lg flex flex-col gap-4 pb-8">
-              <Accordion
-                type="multiple"
-                defaultValue={[]}
-                className="flex flex-col gap-2 pb-2"
-              >
+              <AccordionPersisted className="flex flex-col gap-2 pb-2">
                 <AccordionMaterials itemId={itemId} />
                 <AccordionUsedIn itemId={itemId} />
                 <AccordionAllMaterials />
                 <AccordionAttribution />
-              </Accordion>
+              </AccordionPersisted>
             </div>
           </Panel>
         </CraftingTree>
