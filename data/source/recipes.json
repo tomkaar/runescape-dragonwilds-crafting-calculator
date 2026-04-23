@@ -40746,77 +40746,6 @@
     "uses_skill": [
       "Artisan"
     ],
-    "uses_facility": [
-      "Smithing Anvil"
-    ],
-    "json": {
-      "facility": "Smithing Anvil",
-      "materials": [
-        {
-          "quantity": "10",
-          "name": "Steel Bar",
-          "link": "Steel Bar",
-          "qty": "10",
-          "item": "Steel Bar",
-          "image": "[[File:Steel Bar.png|30px|link=Steel Bar]]"
-        },
-        {
-          "quantity": "12",
-          "name": "Undead Bone",
-          "link": "Undead Bone",
-          "qty": "12",
-          "item": "Undead Bone",
-          "image": "[[File:Undead Bone.png|30px|link=Undead Bone]]"
-        },
-        {
-          "quantity": "4",
-          "name": "Draconic Leather",
-          "link": "Draconic Leather",
-          "qty": "4",
-          "item": "Draconic Leather",
-          "image": "[[File:Draconic Leather.png|30px|link=Draconic Leather]]"
-        },
-        {
-          "quantity": "6",
-          "name": "Vault Shard",
-          "link": "Vault Shard",
-          "qty": "6",
-          "item": "Vault Shard",
-          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "?"
-        }
-      ],
-      "outputs": [
-        "Fallen Hoplite's Aspis"
-      ],
-      "output": {
-        "quantity": "1",
-        "name": "Fallen Hoplite's Aspis",
-        "link": "Fallen Hoplite's Aspis",
-        "qty": "1",
-        "item": "Fallen Hoplite's Aspis",
-        "image": "[[File:Fallen Hoplite's Aspis.png|30px|link=Fallen Hoplite's Aspis]]"
-      }
-    },
-    "output": [
-      "Fallen Hoplite's Aspis"
-    ]
-  },
-  {
-    "uses_material": [
-      "Steel Bar",
-      "Undead Bone",
-      "Draconic Leather",
-      "Vault Shard"
-    ],
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "Sundering Spiked Slab"
     ],
@@ -53083,6 +53012,77 @@
   },
   {
     "uses_material": [
+      "Dried Redberries",
+      "Egg",
+      "Redberry Infusion",
+      "Wheat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Dried Redberries",
+          "link": "Dried Redberries",
+          "qty": "2",
+          "item": "Dried Redberries",
+          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Egg",
+          "link": "Egg",
+          "qty": "2",
+          "item": "Egg",
+          "image": "[[File:Egg.png|30px|link=Egg]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Redberry Infusion",
+          "link": "Redberry Infusion",
+          "qty": "2",
+          "item": "Redberry Infusion",
+          "image": "[[File:Redberry Infusion.png|30px|link=Redberry Infusion]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Wheat",
+          "link": "Wheat",
+          "qty": "4",
+          "item": "Wheat",
+          "image": "[[File:Wheat.png|30px|link=Wheat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Victoria Sponge Cake"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Victoria Sponge Cake",
+        "link": "Victoria Sponge Cake",
+        "qty": 1,
+        "item": "Victoria Sponge Cake",
+        "image": "[[File:Victoria Sponge Cake.png|30px|link=Victoria Sponge Cake]]"
+      }
+    },
+    "output": [
+      "Victoria Sponge Cake"
+    ]
+  },
+  {
+    "uses_material": [
       "Coarse Thread"
     ],
     "uses_skill": [
@@ -53582,6 +53582,819 @@
     },
     "output": [
       "Feather Bait"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Anchovies"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Anchovies",
+          "link": "Raw Anchovies",
+          "qty": "1",
+          "item": "Raw Anchovies",
+          "image": "[[File:Raw Anchovies.png|30px|link=Raw Anchovies]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Anchovy Bait"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Anchovy Bait",
+        "link": "Anchovy Bait",
+        "qty": 1,
+        "item": "Anchovy Bait",
+        "image": "[[File:Anchovy Bait.png|30px|link=Anchovy Bait]]"
+      }
+    },
+    "output": [
+      "Anchovy Bait"
+    ]
+  },
+  {
+    "uses_material": [
+      "Feathers",
+      "Dwellberries"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "1",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dwellberries",
+          "link": "Dwellberries",
+          "qty": "1",
+          "item": "Dwellberries",
+          "image": "[[File:Dwellberries.png|30px|link=Dwellberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Feathered Lure"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Feathered Lure",
+        "link": "Feathered Lure",
+        "qty": 1,
+        "item": "Feathered Lure",
+        "image": "[[File:Feathered Lure.png|30px|link=Feathered Lure]]"
+      }
+    },
+    "output": [
+      "Feathered Lure"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Lobster"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Lobster",
+          "link": "Raw Lobster",
+          "qty": "1",
+          "item": "Raw Lobster",
+          "image": "[[File:Raw Lobster.png|30px|link=Raw Lobster]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Lobster Bait"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Lobster Bait",
+        "link": "Lobster Bait",
+        "qty": 1,
+        "item": "Lobster Bait",
+        "image": "[[File:Lobster Bait.png|30px|link=Lobster Bait]]"
+      }
+    },
+    "output": [
+      "Lobster Bait"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ectoplasm",
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ectoplasm",
+          "link": "Ectoplasm",
+          "qty": "1",
+          "item": "Ectoplasm",
+          "image": "[[File:Ectoplasm.png|30px|link=Ectoplasm]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "1",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Spooky Bait"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Spooky Bait",
+        "link": "Spooky Bait",
+        "qty": 1,
+        "item": "Spooky Bait",
+        "image": "[[File:Spooky Bait.png|30px|link=Spooky Bait]]"
+      }
+    },
+    "output": [
+      "Spooky Bait"
+    ]
+  },
+  {
+    "uses_material": [
+      "Feathers",
+      "Infernal Fragment",
+      "Mystic Fibres"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "1",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "1",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Mystic Fibres",
+          "link": "Mystic Fibres",
+          "qty": "1",
+          "item": "Mystic Fibres",
+          "image": "[[File:Mystic Fibres.png|30px|link=Mystic Fibres]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Animated Feather"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Animated Feather",
+        "link": "Animated Feather",
+        "qty": 1,
+        "item": "Animated Feather",
+        "image": "[[File:Animated Feather.png|30px|link=Animated Feather]]"
+      }
+    },
+    "output": [
+      "Animated Feather"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Giant Krill",
+      "Vile Ashes"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Giant Krill",
+          "link": "Raw Giant Krill",
+          "qty": "1",
+          "item": "Raw Giant Krill",
+          "image": "[[File:Raw Giant Krill.png|30px|link=Raw Giant Krill]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Vile Ashes",
+          "link": "Vile Ashes",
+          "qty": "1",
+          "item": "Vile Ashes",
+          "image": "[[File:Vile Ashes.png|30px|link=Vile Ashes]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Giant Krill Bait"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Giant Krill Bait",
+        "link": "Giant Krill Bait",
+        "qty": 1,
+        "item": "Giant Krill Bait",
+        "image": "[[File:Giant Krill Bait.png|30px|link=Giant Krill Bait]]"
+      }
+    },
+    "output": [
+      "Giant Krill Bait"
+    ]
+  },
+  {
+    "uses_material": [
+      "Marrentil",
+      "Sauteed Shrimp",
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Marrentil",
+          "link": "Marrentil",
+          "qty": 1,
+          "item": "Marrentil",
+          "image": "[[File:Marrentil.png|30px|link=Marrentil]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Sauteed Shrimp",
+          "link": "Sauteed Shrimp",
+          "qty": 1,
+          "item": "Sauteed Shrimp",
+          "image": "[[File:Sauteed Shrimp.png|30px|link=Sauteed Shrimp]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": 1,
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Weak Focused Fishing Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Weak Focused Fishing Potion",
+        "link": "Weak Focused Fishing Potion",
+        "qty": 1,
+        "item": "Weak Focused Fishing Potion",
+        "image": "[[File:Weak Focused Fishing Potion.png|30px|link=Weak Focused Fishing Potion]]"
+      }
+    },
+    "output": [
+      "Weak Focused Fishing Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Snapdragon",
+      "Fried Sardine",
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Snapdragon",
+          "link": "Snapdragon",
+          "qty": 1,
+          "item": "Snapdragon",
+          "image": "[[File:Snapdragon.png|30px|link=Snapdragon]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Fried Sardine",
+          "link": "Fried Sardine",
+          "qty": 1,
+          "item": "Fried Sardine",
+          "image": "[[File:Fried Sardine.png|30px|link=Fried Sardine]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": 1,
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Lesser Focused Fishing Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Lesser Focused Fishing Potion",
+        "link": "Lesser Focused Fishing Potion",
+        "qty": 1,
+        "item": "Lesser Focused Fishing Potion",
+        "image": "[[File:Lesser Focused Fishing Potion.png|30px|link=Lesser Focused Fishing Potion]]"
+      }
+    },
+    "output": [
+      "Lesser Focused Fishing Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Irit",
+      "Grilled Trout",
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Irit",
+          "link": "Irit",
+          "qty": 1,
+          "item": "Irit",
+          "image": "[[File:Irit.png|30px|link=Irit]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Grilled Trout",
+          "link": "Grilled Trout",
+          "qty": 1,
+          "item": "Grilled Trout",
+          "image": "[[File:Grilled Trout.png|30px|link=Grilled Trout]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": 1,
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Focused Fishing Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Focused Fishing Potion",
+        "link": "Focused Fishing Potion",
+        "qty": 1,
+        "item": "Focused Fishing Potion",
+        "image": "[[File:Focused Fishing Potion.png|30px|link=Focused Fishing Potion]]"
+      }
+    },
+    "output": [
+      "Focused Fishing Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Trout"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Raw Trout",
+          "link": "Raw Trout",
+          "qty": 1,
+          "item": "Raw Trout",
+          "image": "[[File:Raw Trout.png|30px|link=Raw Trout]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Grilled Trout"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Grilled Trout",
+        "link": "Grilled Trout",
+        "qty": 1,
+        "item": "Grilled Trout",
+        "image": "[[File:Grilled Trout.png|30px|link=Grilled Trout]]"
+      }
+    },
+    "output": [
+      "Grilled Trout"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Sardine"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Raw Sardine",
+          "link": "Raw Sardine",
+          "qty": 1,
+          "item": "Raw Sardine",
+          "image": "[[File:Raw Sardine.png|30px|link=Raw Sardine]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Fried Sardine"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Fried Sardine",
+        "link": "Fried Sardine",
+        "qty": 1,
+        "item": "Fried Sardine",
+        "image": "[[File:Fried Sardine.png|30px|link=Fried Sardine]]"
+      }
+    },
+    "output": [
+      "Fried Sardine"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Shrimp"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Shrimp",
+          "link": "Raw Shrimp",
+          "qty": "1",
+          "item": "Raw Shrimp",
+          "image": "[[File:Raw Shrimp.png|30px|link=Raw Shrimp]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Sauteed Shrimp"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Sauteed Shrimp",
+        "link": "Sauteed Shrimp",
+        "qty": "1",
+        "item": "Sauteed Shrimp",
+        "image": "[[File:Sauteed Shrimp.png|30px|link=Sauteed Shrimp]]"
+      }
+    },
+    "output": [
+      "Sauteed Shrimp"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Shrimp"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Shrimp",
+          "link": "Raw Shrimp",
+          "qty": "1",
+          "item": "Raw Shrimp",
+          "image": "[[File:Raw Shrimp.png|30px|link=Raw Shrimp]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Sauteed Shrimp"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Sauteed Shrimp",
+        "link": "Sauteed Shrimp",
+        "qty": "1",
+        "item": "Sauteed Shrimp",
+        "image": "[[File:Sauteed Shrimp.png|30px|link=Sauteed Shrimp]]"
+      }
+    },
+    "output": [
+      "Sauteed Shrimp"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Mould",
+      "Silver Bar",
+      "Opal",
+      "Vault Shard"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Jeweler's Bench"
+    ],
+    "json": {
+      "facility": "Jeweler's Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Silver Bar",
+          "link": "Silver Bar",
+          "qty": "2",
+          "item": "Silver Bar",
+          "image": "[[File:Silver Bar.png|30px|link=Silver Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Opal",
+          "link": "Opal",
+          "qty": "2",
+          "item": "Opal",
+          "image": "[[File:Opal.png|30px|link=Opal]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "3",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Inspiring Ring of Farming"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Inspiring Ring of Farming",
+        "link": "Inspiring Ring of Farming",
+        "qty": "1",
+        "item": "Inspiring Ring of Farming",
+        "image": "[[File:Inspiring Ring of Farming.png|30px|link=Inspiring Ring of Farming]]"
+      }
+    },
+    "output": [
+      "Inspiring Ring of Farming"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Mould",
+      "Silver Bar",
+      "Opal",
+      "Vault Shard"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Jeweler's Bench"
+    ],
+    "json": {
+      "facility": "Jeweler's Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Silver Bar",
+          "link": "Silver Bar",
+          "qty": "2",
+          "item": "Silver Bar",
+          "image": "[[File:Silver Bar.png|30px|link=Silver Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Opal",
+          "link": "Opal",
+          "qty": "2",
+          "item": "Opal",
+          "image": "[[File:Opal.png|30px|link=Opal]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "3",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Inspiring Ring of Fishing"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Inspiring Ring of Fishing",
+        "link": "Inspiring Ring of Fishing",
+        "qty": "1",
+        "item": "Inspiring Ring of Fishing",
+        "image": "[[File:Inspiring Ring of Fishing.png|30px|link=Inspiring Ring of Fishing]]"
+      }
+    },
+    "output": [
+      "Inspiring Ring of Fishing"
     ]
   }
 ]

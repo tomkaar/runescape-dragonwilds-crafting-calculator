@@ -675,7 +675,7 @@
       "description": "A mysterious porous rock used as a base for powerful runes.",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
-      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000008-QINU`\"'",
       "stacklimit": "99",
       "image_raw": "Rune Essence.png"
     },
@@ -7782,6 +7782,20 @@
     "item_type": "Basic Item"
   },
   {
+    "page_name": "Undead Chicken",
+    "item_name": "Undead Chicken",
+    "item_type": "Quest Item",
+    "page_name_sub": "Undead Chicken",
+    "json": {
+      "type": "Quest Item",
+      "description": "Manktongue asked for an Undead Chicken.",
+      "image": "[[File:Undead Chicken.png|32px]]",
+      "name": "Undead Chicken",
+      "image_raw": "Undead Chicken.png"
+    },
+    "item_description": "Manktongue asked for an Undead Chicken."
+  },
+  {
     "page_name": "Weeds",
     "item_description": "A bunch of weeds.",
     "item_name": "Weeds",
@@ -10271,24 +10285,6 @@
     "item_weight": 6
   },
   {
-    "page_name": "Fallen Hoplite Aspis",
-    "item_description": "The shield of an Undead Hoplite.",
-    "item_name": "Fallen Hoplite's Aspis",
-    "item_type": "Shield",
-    "page_name_sub": "Fallen Hoplite Aspis",
-    "json": {
-      "type": "Shield",
-      "description": "The shield of an Undead Hoplite.",
-      "repaircost": "2 [[Steel Bar]]s",
-      "image": "[[File:Fallen Hoplite's Aspis.png|32px]]",
-      "name": "Fallen Hoplite's Aspis",
-      "weight": "10.0",
-      "image_raw": "Fallen Hoplite's Aspis.png"
-    },
-    "item_repair": "2 [[Steel Bar]]s",
-    "item_weight": 10
-  },
-  {
     "page_name": "Fallen Hoplite's Aspis",
     "item_description": "The shield of an Undead Hoplite.",
     "item_name": "Fallen Hoplite's Aspis",
@@ -11785,15 +11781,16 @@
     "page_name": "Shard of the Dreaming Stone",
     "item_description": "A piece of the broken Dreaming Stone in the Dowdun Reach nexus. It whispers if you listen closely.",
     "item_name": "Shard of the Dreaming Stone",
-    "item_type": "Basic Item",
+    "item_type": "Quest Item",
     "item_stacklimit": 99,
     "json": {
-      "type": "Basic Item",
+      "type": "Quest Item",
       "description": "A piece of the broken Dreaming Stone in the Dowdun Reach nexus. It whispers if you listen closely.",
-      "image": "",
+      "image": "[[File:Shard of the Dreaming Stone.png|32px]]",
       "name": "Shard of the Dreaming Stone",
       "weight": "0.0",
-      "stacklimit": "99"
+      "stacklimit": "99",
+      "image_raw": "Shard of the Dreaming Stone.png"
     },
     "item_weight": 0,
     "page_name_sub": "Shard of the Dreaming Stone"
@@ -16309,6 +16306,26 @@
     "page_name_sub": "Raw Undead Bass"
   },
   {
+    "page_name": "Victoria Sponge Cake",
+    "item_description": "A delicious sponge cake, thankfully without the goblin version of frosting.",
+    "item_name": "Victoria Sponge Cake",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "A delicious sponge cake, thankfully without the goblin version of frosting.",
+      "duration": "300 seconds",
+      "image": "[[File:Victoria Sponge Cake.png|32px]]",
+      "name": "Victoria Sponge Cake",
+      "weight": "0.4",
+      "sustenance": "15",
+      "stacklimit": "99",
+      "image_raw": "Victoria Sponge Cake.png"
+    },
+    "item_weight": 0.4,
+    "page_name_sub": "Victoria Sponge Cake"
+  },
+  {
     "page_name": "Raw Undead Eel",
     "item_description": "A dead undead eel. We suggest you braise it.",
     "item_name": "Raw Undead Eel",
@@ -16555,5 +16572,269 @@
       "image_raw": "Feather Bait.png"
     },
     "item_type": "Tool"
+  },
+  {
+    "page_name": "Magnet",
+    "item_name": "Magnet",
+    "item_type": "Quest Item",
+    "page_name_sub": "Magnet",
+    "json": {
+      "type": "Quest Item",
+      "description": "A Magnet smithed by Pulpknuckle.",
+      "image": "[[File:Magnet.png|32px]]",
+      "name": "Magnet",
+      "image_raw": "Magnet.png"
+    },
+    "item_description": "A Magnet smithed by Pulpknuckle."
+  },
+  {
+    "page_name": "Anchovy Bait",
+    "item_description": "Cute little cannibal fish love some anchovy bait. Irresistible to Herring. Increases the catch chance of this fish.",
+    "item_name": "Anchovy Bait",
+    "item_weight": 0,
+    "page_name_sub": "Anchovy Bait",
+    "json": {
+      "type": "Tool",
+      "description": "Cute little cannibal fish love some anchovy bait. Irresistible to Herring. Increases the catch chance of this fish.",
+      "image": "[[File:Anchovy Bait.png|32px]]",
+      "name": "Anchovy Bait",
+      "weight": "0.0",
+      "image_raw": "Anchovy Bait.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Feathered Lure",
+    "item_description": "Entice Salmon with a knotted ball of bird knock-offs. Increases the catch chance of this fish.",
+    "item_name": "Feathered Lure",
+    "item_weight": 0,
+    "page_name_sub": "Feathered Lure",
+    "json": {
+      "type": "Tool",
+      "description": "Entice Salmon with a knotted ball of bird knock-offs. Increases the catch chance of this fish.",
+      "image": "[[File:Feathered Lure.png|32px]]",
+      "name": "Feathered Lure",
+      "weight": "0.0",
+      "image_raw": "Feathered Lure.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Lobster Bait",
+    "item_description": "Scraps of lobster meat made into bait to draw in fish. A meal Undead Eels cannot resist. Increases the catch chance of this fish.",
+    "item_name": "Lobster Bait",
+    "item_weight": 0,
+    "page_name_sub": "Lobster Bait",
+    "json": {
+      "type": "Tool",
+      "description": "Scraps of lobster meat made into bait to draw in fish. A meal Undead Eels cannot resist. Increases the catch chance of this fish.",
+      "image": "[[File:Lobster Bait.png|32px]]",
+      "name": "Lobster Bait",
+      "weight": "0.0",
+      "image_raw": "Lobster Bait.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Spooky Bait",
+    "item_description": "Bait that gives fish the heeby-jeebies, but draws them in anyway. Undead Bass love a jump scare. Increases the catch chance of this fish.",
+    "item_name": "Spooky Bait",
+    "item_weight": 0,
+    "page_name_sub": "Spooky Bait",
+    "json": {
+      "type": "Tool",
+      "description": "Bait that gives fish the heeby-jeebies, but draws them in anyway. Undead Bass love a jump scare. Increases the catch chance of this fish.",
+      "image": "[[File:Spooky Bait.png|32px]]",
+      "name": "Spooky Bait",
+      "weight": "0.0",
+      "image_raw": "Spooky Bait.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Animated Feather",
+    "item_description": "To a fish, this feather looks like a long-lost love. Makes Armoured Catfish enamoured. Increases the catch chance of this fish.",
+    "item_name": "Animated Feather",
+    "item_weight": 0,
+    "page_name_sub": "Animated Feather",
+    "json": {
+      "type": "Tool",
+      "description": "To a fish, this feather looks like a long-lost love. Makes Armoured Catfish enamoured. Increases the catch chance of this fish.",
+      "image": "[[File:Animated Feather.png|32px]]",
+      "name": "Animated Feather",
+      "weight": "0.0",
+      "image_raw": "Animated Feather.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Giant Krill Bait",
+    "item_description": "If I told you why this bait works, I'd have to krill you. Infernal Eels look alive! Increases the catch chance of this fish.",
+    "item_name": "Giant Krill Bait",
+    "item_weight": 0,
+    "page_name_sub": "Giant Krill Bait",
+    "json": {
+      "type": "Tool",
+      "description": "If I told you why this bait works, I'd have to krill you. Infernal Eels look alive! Increases the catch chance of this fish.",
+      "image": "[[File:Giant Krill Bait.png|32px]]",
+      "name": "Giant Krill Bait",
+      "weight": "0.0",
+      "image_raw": "Giant Krill Bait.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Weak Focused Fishing Potion",
+    "item_description": "Grants a boost to your Fishing XP for a short period of time.",
+    "item_name": "Weak Focused Fishing Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "Grants a boost to your Fishing XP for a short period of time.",
+      "duration": "300 seconds",
+      "image": "[[File:Weak Focused Fishing Potion.png|32px]]",
+      "name": "Weak Focused Fishing Potion",
+      "weight": "1.0",
+      "stacklimit": "50",
+      "image_raw": "Weak Focused Fishing Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Weak Focused Fishing Potion"
+  },
+  {
+    "page_name": "Lesser Focused Fishing Potion",
+    "item_description": "Grants a boost to your Fishing XP for a short period of time.",
+    "item_name": "Lesser Focused Fishing Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "Grants a boost to your Fishing XP for a short period of time.",
+      "duration": "600 seconds",
+      "image": "[[File:Lesser Focused Fishing Potion.png|32px]]",
+      "name": "Lesser Focused Fishing Potion",
+      "weight": "1.0",
+      "stacklimit": "50",
+      "image_raw": "Lesser Focused Fishing Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Lesser Focused Fishing Potion"
+  },
+  {
+    "page_name": "Focused Fishing Potion",
+    "item_description": "Grants a boost to your Fishing XP for a short period of time.",
+    "item_name": "Focused Fishing Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "Grants a boost to your Fishing XP for a short period of time.",
+      "duration": "300 seconds",
+      "image": "[[File:Focused Fishing Potion.png|32px]]",
+      "name": "Focused Fishing Potion",
+      "weight": "1.0",
+      "stacklimit": "50",
+      "image_raw": "Focused Fishing Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Focused Fishing Potion"
+  },
+  {
+    "page_name": "Grilled Trout",
+    "item_description": "Stave off hunger with this tasty bite. Grants the Sea Life perk.",
+    "item_name": "Grilled Trout",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Stave off hunger with this tasty bite. Grants the Sea Life perk.",
+      "duration": "180 seconds",
+      "image": "[[File:Grilled Trout.png|32px]]",
+      "name": "Grilled Trout",
+      "weight": "2.1",
+      "sustenance": "15",
+      "stacklimit": "50",
+      "image_raw": "Grilled Trout.png"
+    },
+    "item_weight": 2.1,
+    "page_name_sub": "Grilled Trout"
+  },
+  {
+    "page_name": "Fried Sardine",
+    "item_description": "Delicious little fishies. Grants the Warding Fish perk.",
+    "item_name": "Fried Sardine",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Delicious little fishies. Grants the Warding Fish perk.",
+      "duration": "180 seconds",
+      "image": "[[File:Fried Sardine.png|32px]]",
+      "name": "Fried Sardine",
+      "weight": "1.5",
+      "sustenance": "15",
+      "stacklimit": "50",
+      "image_raw": "Fried Sardine.png"
+    },
+    "item_weight": 1.5,
+    "page_name_sub": "Fried Sardine"
+  },
+  {
+    "page_name": "Sauteed Shrimp",
+    "item_description": "PERK: Sea Legs<br><br>Makes you immune to the slowing effects of water.<br><br>A simple meal but one that will hold back the hunger.",
+    "item_name": "Sauteed Shrimp",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "PERK: Sea Legs<br><br>Makes you immune to the slowing effects of water.<br><br>A simple meal but one that will hold back the hunger.",
+      "duration": "180 seconds",
+      "perk": {
+        "name": "Sea Legs",
+        "effect": "Makes you immune to the slowing effects of water.<br><br>A simple meal but one that will hold back the hunger."
+      },
+      "image": "[[File:Sauteed Shrimp.png|32px]]",
+      "name": "Sauteed Shrimp",
+      "weight": "0.2",
+      "sustenance": "10",
+      "health": "5",
+      "stacklimit": "50",
+      "image_raw": "Sauteed Shrimp.png"
+    },
+    "item_weight": 0.2,
+    "page_name_sub": "Sauteed Shrimp"
+  },
+  {
+    "page_name": "Inspiring Ring of Farming",
+    "item_stacklimit": 1,
+    "item_name": "Inspiring Ring of Farming",
+    "item_weight": 1,
+    "page_name_sub": "Inspiring Ring of Farming",
+    "json": {
+      "type": "Trinket",
+      "image": "[[File:Inspiring Ring of Farming.png|32px]]",
+      "name": "Inspiring Ring of Farming",
+      "weight": "1.0",
+      "stacklimit": "1",
+      "image_raw": "Inspiring Ring of Farming.png"
+    },
+    "item_type": "Trinket"
+  },
+  {
+    "page_name": "Inspiring Ring of Fishing",
+    "item_stacklimit": 1,
+    "item_name": "Inspiring Ring of Fishing",
+    "item_weight": 1,
+    "page_name_sub": "Inspiring Ring of Fishing",
+    "json": {
+      "type": "Trinket",
+      "image": "[[File:Inspiring Ring of Fishing.png|32px]]",
+      "name": "Inspiring Ring of Fishing",
+      "weight": "1.0",
+      "stacklimit": "1",
+      "image_raw": "Inspiring Ring of Fishing.png"
+    },
+    "item_type": "Trinket"
   }
 ]

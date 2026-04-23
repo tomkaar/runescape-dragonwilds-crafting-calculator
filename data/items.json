@@ -26370,36 +26370,6 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
-      },
-      {
-        "id": "d1e1590a32ec",
-        "name": "Fallen Hoplite's Aspis",
-        "image": "Fallen Hoplite's Aspis.png",
-        "variantName": null,
-        "recipe": {
-          "id": "d0d3a7658202",
-          "facility": "Smithing Anvil",
-          "materials": [
-            {
-              "itemId": "9f851ce1db9e",
-              "quantity": 4
-            },
-            {
-              "itemId": "d2a789ecd6d7",
-              "quantity": 10
-            },
-            {
-              "itemId": "2c00a98cf611",
-              "quantity": 12
-            },
-            {
-              "itemId": "9ca5b1c17952",
-              "quantity": 6
-            }
-          ],
-          "quantity": 1
-        },
         "usesRecipe": [
           "Sundering Spiked Slab"
         ]
@@ -34690,6 +34660,52 @@
     "wikiLink": "Saradomin_Banner_01"
   },
   {
+    "id": "76472ccfe695",
+    "name": "Victoria Sponge Cake",
+    "image": "Victoria Sponge Cake.png",
+    "variants": [
+      {
+        "id": "6cb5d5832120",
+        "name": "Victoria Sponge Cake",
+        "image": "Victoria Sponge Cake.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a7d969ff1c88",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "ea552b5a7378",
+              "quantity": 2
+            },
+            {
+              "itemId": "37c50c935cd2",
+              "quantity": 2
+            },
+            {
+              "itemId": "82417536309d",
+              "quantity": 2
+            },
+            {
+              "itemId": "cca303e99f5f",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Stone Range"
+    ],
+    "wikiLink": "Victoria_Sponge_Cake",
+    "weight": 0.4,
+    "stackLimit": 99
+  },
+  {
     "id": "a33ceca9bad8",
     "name": "Coarse Net",
     "image": "Coarse Net.png",
@@ -35046,6 +35062,563 @@
     ],
     "wikiLink": "Feather_Bait",
     "weight": 0
+  },
+  {
+    "id": "2eaeb30237ca",
+    "name": "Anchovy Bait",
+    "image": "Anchovy Bait.png",
+    "variants": [
+      {
+        "id": "d0002a03ad5e",
+        "name": "Anchovy Bait",
+        "image": "Anchovy Bait.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ee625acf8312",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "3fe30a876d93",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Anchovy_Bait",
+    "weight": 0
+  },
+  {
+    "id": "98cc039af0f0",
+    "name": "Feathered Lure",
+    "image": "Feathered Lure.png",
+    "variants": [
+      {
+        "id": "f7e7e751295b",
+        "name": "Feathered Lure",
+        "image": "Feathered Lure.png",
+        "variantName": null,
+        "recipe": {
+          "id": "62d0f507e1f8",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "4b3b28384d99",
+              "quantity": 1
+            },
+            {
+              "itemId": "7ddc50d536fd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Feathered_Lure",
+    "weight": 0
+  },
+  {
+    "id": "40025f05e137",
+    "name": "Lobster Bait",
+    "image": "Lobster Bait.png",
+    "variants": [
+      {
+        "id": "84966ac25455",
+        "name": "Lobster Bait",
+        "image": "Lobster Bait.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7b602e84dc37",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "f78b9f51fa02",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Lobster_Bait",
+    "weight": 0
+  },
+  {
+    "id": "fa0bdffa580e",
+    "name": "Spooky Bait",
+    "image": "Spooky Bait.png",
+    "variants": [
+      {
+        "id": "af7a7e072675",
+        "name": "Spooky Bait",
+        "image": "Spooky Bait.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b9923a3fed79",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "1fdcca91d949",
+              "quantity": 1
+            },
+            {
+              "itemId": "7ddc50d536fd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Spooky_Bait",
+    "weight": 0
+  },
+  {
+    "id": "691fa3ab1084",
+    "name": "Animated Feather",
+    "image": "Animated Feather.png",
+    "variants": [
+      {
+        "id": "55fd18ef747d",
+        "name": "Animated Feather",
+        "image": "Animated Feather.png",
+        "variantName": null,
+        "recipe": {
+          "id": "05402cbea832",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "7ddc50d536fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "6751df209a03",
+              "quantity": 1
+            },
+            {
+              "itemId": "8dcc77e9c1fd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Animated_Feather",
+    "weight": 0
+  },
+  {
+    "id": "68d7147d3a64",
+    "name": "Giant Krill Bait",
+    "image": "Giant Krill Bait.png",
+    "variants": [
+      {
+        "id": "7ac0e4a0c706",
+        "name": "Giant Krill Bait",
+        "image": "Giant Krill Bait.png",
+        "variantName": null,
+        "recipe": {
+          "id": "858bb1566e43",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "049f4872c2c2",
+              "quantity": 1
+            },
+            {
+              "itemId": "e2622ffa01e1",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Giant_Krill_Bait",
+    "weight": 0
+  },
+  {
+    "id": "4ed7e72ce49c",
+    "name": "Weak Focused Fishing Potion",
+    "image": "Weak Focused Fishing Potion.png",
+    "variants": [
+      {
+        "id": "fbaae9985bd6",
+        "name": "Weak Focused Fishing Potion",
+        "image": "Weak Focused Fishing Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fb411cdf1ea7",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "7922581c320e",
+              "quantity": 1
+            },
+            {
+              "itemId": "f1055ea322bd",
+              "quantity": 1
+            },
+            {
+              "itemId": "6800c6c8df72",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Weak_Focused_Fishing_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "ef7924bb6108",
+    "name": "Lesser Focused Fishing Potion",
+    "image": "Lesser Focused Fishing Potion.png",
+    "variants": [
+      {
+        "id": "21e902c8ba54",
+        "name": "Lesser Focused Fishing Potion",
+        "image": "Lesser Focused Fishing Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e1fe9e741170",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "7922581c320e",
+              "quantity": 1
+            },
+            {
+              "itemId": "ed9c1a1c4a47",
+              "quantity": 1
+            },
+            {
+              "itemId": "e46d49c9e677",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Lesser_Focused_Fishing_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "aa0ca971d9cb",
+    "name": "Focused Fishing Potion",
+    "image": "Focused Fishing Potion.png",
+    "variants": [
+      {
+        "id": "b69dc20c94e6",
+        "name": "Focused Fishing Potion",
+        "image": "Focused Fishing Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "88f61f330ccb",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "7922581c320e",
+              "quantity": 1
+            },
+            {
+              "itemId": "37911a3d1e55",
+              "quantity": 1
+            },
+            {
+              "itemId": "a61c2c747c0f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Focused_Fishing_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "37911a3d1e55",
+    "name": "Grilled Trout",
+    "image": "Grilled Trout.png",
+    "variants": [
+      {
+        "id": "456bd90f19bd",
+        "name": "Grilled Trout",
+        "image": "Grilled Trout.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9315af260f1f",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "6073bd40e35e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
+    ],
+    "wikiLink": "Grilled_Trout",
+    "weight": 2.1,
+    "stackLimit": 50
+  },
+  {
+    "id": "ed9c1a1c4a47",
+    "name": "Fried Sardine",
+    "image": "Fried Sardine.png",
+    "variants": [
+      {
+        "id": "10f723c37e61",
+        "name": "Fried Sardine",
+        "image": "Fried Sardine.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4a86612cfa87",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "551e39b36141",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
+    ],
+    "wikiLink": "Fried_Sardine",
+    "weight": 1.5,
+    "stackLimit": 50
+  },
+  {
+    "id": "6800c6c8df72",
+    "name": "Sauteed Shrimp",
+    "image": "Sauteed Shrimp.png",
+    "variants": [
+      {
+        "id": "99b12b965547",
+        "name": "Sauteed Shrimp",
+        "image": "Sauteed Shrimp.png",
+        "variantName": null,
+        "recipe": {
+          "id": "51e3ba6a687c",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "a7693478504b",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "63fe8dfee8d8",
+        "name": "Sauteed Shrimp",
+        "image": "Sauteed Shrimp.png",
+        "variantName": null,
+        "recipe": {
+          "id": "44e5ee28cc48",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "a7693478504b",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Sauteed_Shrimp",
+    "weight": 0.2,
+    "stackLimit": 50
+  },
+  {
+    "id": "f7d8906db69d",
+    "name": "Inspiring Ring of Farming",
+    "image": "Inspiring Ring of Farming.png",
+    "variants": [
+      {
+        "id": "0dce88c14b73",
+        "name": "Inspiring Ring of Farming",
+        "image": "Inspiring Ring of Farming.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4c595b86a103",
+          "facility": "Jeweler's Bench",
+          "materials": [
+            {
+              "itemId": "604b383a6ff3",
+              "quantity": 1
+            },
+            {
+              "itemId": "b54c1c5f9b78",
+              "quantity": 2
+            },
+            {
+              "itemId": "9788d67f4f47",
+              "quantity": 2
+            },
+            {
+              "itemId": "9ca5b1c17952",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
+    ],
+    "wikiLink": "Inspiring_Ring_of_Farming",
+    "weight": 1,
+    "stackLimit": 1
+  },
+  {
+    "id": "29f8be6cebcf",
+    "name": "Inspiring Ring of Fishing",
+    "image": "Inspiring Ring of Fishing.png",
+    "variants": [
+      {
+        "id": "0dce88c14b73",
+        "name": "Inspiring Ring of Fishing",
+        "image": "Inspiring Ring of Fishing.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4c595b86a103",
+          "facility": "Jeweler's Bench",
+          "materials": [
+            {
+              "itemId": "604b383a6ff3",
+              "quantity": 1
+            },
+            {
+              "itemId": "b54c1c5f9b78",
+              "quantity": 2
+            },
+            {
+              "itemId": "9788d67f4f47",
+              "quantity": 2
+            },
+            {
+              "itemId": "9ca5b1c17952",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
+    ],
+    "wikiLink": "Inspiring_Ring_of_Fishing",
+    "weight": 1,
+    "stackLimit": 1
   },
   {
     "id": "6a5fa59fd28f",
@@ -38757,6 +39330,24 @@
     "stackLimit": 99
   },
   {
+    "id": "9cc2f1fbdd5f",
+    "name": "Undead Chicken",
+    "image": "Undead Chicken.png",
+    "variants": [
+      {
+        "id": "9cc2f1fbdd5f",
+        "name": "Undead Chicken",
+        "image": "Undead Chicken.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Undead_Chicken"
+  },
+  {
     "id": "8943b3cc1281",
     "name": "Weeds",
     "image": "Weeds.png",
@@ -39613,25 +40204,6 @@
     "facilities": [],
     "wikiLink": "Undead_Draconic_Visage",
     "weight": 0.5
-  },
-  {
-    "id": "232913bee48b",
-    "name": "Fallen Hoplite Aspis",
-    "image": "Fallen Hoplite's Aspis.png",
-    "variants": [
-      {
-        "id": "33e29e1a97f7",
-        "name": "Fallen Hoplite's Aspis",
-        "image": "Fallen Hoplite's Aspis.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Fallen_Hoplite_Aspis",
-    "weight": 10
   },
   {
     "id": "c1f5b9d09111",
@@ -40544,12 +41116,12 @@
   {
     "id": "c0013eba905b",
     "name": "Shard of the Dreaming Stone",
-    "image": null,
+    "image": "Shard of the Dreaming Stone.png",
     "variants": [
       {
         "id": "c0013eba905b",
         "name": "Shard of the Dreaming Stone",
-        "image": null,
+        "image": "Shard of the Dreaming Stone.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -43378,5 +43950,23 @@
     "facilities": [],
     "wikiLink": "Bundle_of_Undead_Twigs",
     "weight": 0
+  },
+  {
+    "id": "12d5da11e593",
+    "name": "Magnet",
+    "image": "Magnet.png",
+    "variants": [
+      {
+        "id": "12d5da11e593",
+        "name": "Magnet",
+        "image": "Magnet.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Magnet"
   }
 ]
