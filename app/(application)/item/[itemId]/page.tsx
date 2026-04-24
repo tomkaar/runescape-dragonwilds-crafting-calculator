@@ -69,7 +69,7 @@ export default async function ItemPage(props: Props) {
 
           <Panel
             position="top-left"
-            className="h-full flex flex-col gap-4 overflow-scroll w-92"
+            className="h-full flex flex-col gap-4 overflow-scroll w-100"
           >
             <div className="sticky top-0 bg-neutral-900 border border-accent rounded-lg">
               <ItemInfoBox item={item} itemId={itemId} />

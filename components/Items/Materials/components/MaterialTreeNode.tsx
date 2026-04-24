@@ -1,12 +1,18 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Ellipsis, ArrowRight, ExternalLink } from "lucide-react";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { type MaterialTreeItem } from "../utils/buildMaterialsTree";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { cn } from "@/lib/utils";
@@ -14,6 +20,44 @@ import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { CheckboxIndeterminate } from "@/components/ui/checkbox";
 import { FieldContent, FieldGroup, FieldLabel } from "@/components/ui/field";
 import { useCraftingTreeHover } from "@/context/crafting-tree-hover";
+
+function TreeNodeNavigateMenu({
+  itemId,
+  wikiLink,
+}: {
+  itemId: string;
+  wikiLink?: string;
+}) {
+  return (
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <button className="cursor-pointer p-1 rounded hover:bg-neutral-600 text-neutral-400 hover:text-white">
+          <Ellipsis className="size-3.5" />
+        </button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end" className="min-w-40">
+        <DropdownMenuItem asChild>
+          <a href={`/item/${itemId}`}>
+            <ArrowRight className="size-4" />
+            View item
+          </a>
+        </DropdownMenuItem>
+        {wikiLink && (
+          <DropdownMenuItem asChild>
+            <a
+              href={`https://dragonwilds.runescape.wiki/w/${encodeURIComponent(wikiLink)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <ExternalLink className="size-4" />
+              View on Wiki
+            </a>
+          </DropdownMenuItem>
+        )}
+      </DropdownMenuContent>
+    </DropdownMenu>
+  );
+}
 
 function hasCheckedDescendant(
   node: MaterialTreeItem,
@@ -131,6 +175,12 @@ export function MaterialTreeNode({
               <ChevronDown className="w-4 h-4 self-center justify-self-end ml-auto text-neutral-400 group-hover:text-neutral-200" />
             </div>
           </CollapsibleTrigger>
+          {item.variantNumber === undefined && (
+            <TreeNodeNavigateMenu
+              itemId={item.id}
+              wikiLink={item.item.wikiLink}
+            />
+          )}
         </div>
 
         <div className="pl-2">
@@ -195,6 +245,7 @@ export function MaterialTreeNode({
             )}
           </FieldLabel>
         </FieldContent>
+        <TreeNodeNavigateMenu itemId={item.id} wikiLink={item.item.wikiLink} />
       </div>
     </FieldGroup>
   );
