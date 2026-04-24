@@ -1,10 +1,146 @@
 "use client";
 
+import { useState } from "react";
+import { ChevronDown } from "lucide-react";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { Checkbox, CheckboxIndeterminate } from "@/components/ui/checkbox";
 import { getItemById } from "@/utils/itemById";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
+import { cn } from "@/lib/utils";
+
+type RecipeEntry = {
+  recipeId: string;
+  quantity: number;
+  multiplier: number;
+  nodeId?: string;
+};
+
+function MaterialRow({
+  materialId,
+  recipes,
+  totalQuantity,
+  checkboxState,
+  isRecipeChecked,
+  onTotalCheckboxChange,
+  onRecipeCheckboxChange,
+}: {
+  materialId: string;
+  recipes: RecipeEntry[];
+  totalQuantity: number;
+  checkboxState: boolean | "indeterminate";
+  isRecipeChecked: (
+    materialId: string,
+    recipeId: string,
+    nodeId?: string,
+  ) => boolean;
+  onTotalCheckboxChange: (
+    prevState: boolean | "indeterminate",
+    materialId: string,
+    recipeData: { recipeId: string; nodeId?: string }[],
+  ) => void;
+  onRecipeCheckboxChange: (
+    prevChecked: boolean,
+    recipeId: string,
+    nodeId?: string,
+  ) => void;
+}) {
+  const [open, setOpen] = useState(true);
+  const material = getItemById(materialId);
+  if (!material) return null;
+
+  return (
+    <Collapsible open={open} onOpenChange={setOpen}>
+      <div className="flex flex-row gap-2 items-center">
+        <CheckboxIndeterminate
+          checked={checkboxState}
+          onCheckedChange={() =>
+            onTotalCheckboxChange(checkboxState, materialId, recipes)
+          }
+        />
+        <CollapsibleTrigger className="flex-1">
+          <div className="cursor-pointer flex flex-row gap-2 items-center pr-2 pl-2 py-0.5 rounded-lg text-sm group hover:bg-accent w-full justify-start transition-none">
+            {material.image && (
+              <img
+                src={createImageUrlPath(material.image)}
+                width={24}
+                height={24}
+                alt={material.name}
+              />
+            )}
+            <span className="font-semibold text-white">{totalQuantity}x</span>
+            <span className="text-left">{material.name}</span>
+            <ChevronDown
+              className={cn(
+                "w-4 h-4 self-center ml-auto text-neutral-400 group-hover:text-neutral-200 transition-transform duration-200",
+                open && "rotate-180",
+              )}
+            />
+          </div>
+        </CollapsibleTrigger>
+      </div>
+
+      <div className="pl-2">
+        <CollapsibleContent className="border-l border-neutral-400 pl-2">
+          <div className="flex flex-col pl-2">
+            {recipes.map((recipe) => {
+              const recipeItem = getItemById(recipe.recipeId);
+              if (!recipeItem) return null;
+
+              const isChecked = isRecipeChecked(
+                materialId,
+                recipe.recipeId,
+                recipe.nodeId,
+              );
+
+              return (
+                <div
+                  key={recipe.nodeId}
+                  className="flex flex-row gap-2 items-center"
+                >
+                  <Checkbox
+                    checked={isChecked}
+                    onCheckedChange={() =>
+                      onRecipeCheckboxChange(
+                        isChecked,
+                        recipe.recipeId,
+                        recipe.nodeId,
+                      )
+                    }
+                  />
+                  <div className="flex flex-row gap-2 items-center px-2 py-1 rounded-lg text-sm w-full justify-start hover:bg-accent">
+                    {recipeItem.image && (
+                      <img
+                        src={createImageUrlPath(recipeItem.image)}
+                        width={24}
+                        height={24}
+                        alt={recipeItem.name}
+                      />
+                    )}
+                    <span className="font-semibold">
+                      {recipe.quantity * recipe.multiplier}x
+                    </span>
+                    <span className="text-left">{recipeItem.name}</span>
+                    {recipe.multiplier > 1 && (
+                      <span className="text-muted-foreground">
+                        ({recipe.multiplier}x)
+                      </span>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </CollapsibleContent>
+      </div>
+    </Collapsible>
+  );
+}
 
 export function AllMaterialsContent() {
   const multiplier = useMaterialMultiplier((state) => state.items);
@@ -26,33 +162,25 @@ export function AllMaterialsContent() {
     })
     .filter(([, value]) => Object.keys(value).length > 0);
 
-  const materialsByRecipe = recipes.reduce<
-    Record<
-      string,
-      {
-        recipeId: string;
-        quantity: number;
-        multiplier: number;
-        nodeId?: string;
-      }[]
-    >
-  >((acc, [recipeId, materials]) => {
-    materials.forEach((material) => {
-      const materialId = material.itemId;
-      if (!acc[materialId]) {
-        acc[materialId] = [];
-      }
-      acc[materialId].push({
-        recipeId,
-        quantity: material.quantity,
-        multiplier: multiplier[recipeId] || 1,
-        nodeId: material.nodeId,
+  const materialsByRecipe = recipes.reduce<Record<string, RecipeEntry[]>>(
+    (acc, [recipeId, materials]) => {
+      materials.forEach((material) => {
+        const materialId = material.itemId;
+        if (!acc[materialId]) {
+          acc[materialId] = [];
+        }
+        acc[materialId].push({
+          recipeId,
+          quantity: material.quantity,
+          multiplier: multiplier[recipeId] || 1,
+          nodeId: material.nodeId,
+        });
       });
-    });
-    return acc;
-  }, {});
+      return acc;
+    },
+    {},
+  );
 
-  // Helper function to check if a material-recipe combination is checked (DONE)
   const isRecipeChecked = (
     materialId: string,
     recipeId: string,
@@ -65,7 +193,6 @@ export function AllMaterialsContent() {
     return item ? item.state === "DONE" : false;
   };
 
-  // Helper function to get the state of all recipes for a material
   const getMaterialState = (
     materialId: string,
     recipeEntries: { recipeId: string; nodeId?: string }[],
@@ -84,22 +211,15 @@ export function AllMaterialsContent() {
   const handleTotalCheckboxChange = (
     prevState: boolean | "indeterminate",
     materialId: string,
-    recipeData: {
-      recipeId: string;
-      nodeId?: string;
-    }[],
+    recipeData: { recipeId: string; nodeId?: string }[],
   ) => {
-    const shouldSetAsDone = prevState === true ? false : true;
+    const shouldSetAsDone = prevState !== true;
 
-    // Toggle all recipes for this material
     recipeData.forEach((recipe) => {
       if (!recipe.nodeId) return;
-      // Mark as DONE
       if (shouldSetAsDone) {
         markAsDoneByNodeId(recipe.recipeId, recipe.nodeId);
-      }
-      // Mark as TODO
-      else if (isRecipeChecked(materialId, recipe.recipeId)) {
+      } else if (isRecipeChecked(materialId, recipe.recipeId)) {
         markAsTodoByNodeId(recipe.recipeId, recipe.nodeId);
       }
     });
@@ -114,123 +234,36 @@ export function AllMaterialsContent() {
     if (prevChecked) {
       markAsTodoByNodeId(recipeId, nodeId);
     } else {
-      markAsDoneByNodeId(recipeId, nodeId!);
+      markAsDoneByNodeId(recipeId, nodeId);
     }
   };
 
   const totalUniqueMaterialsWithQuantity = recipes.reduce<
     Record<string, number>
-  >((acc, cur) => {
-    const [itemId, materials] = cur;
-
+  >((acc, [itemId, materials]) => {
     materials.forEach((mat) => {
       const materialId = mat.itemId;
-      const baseQuantity = mat.quantity;
-      const materialMultiplier = multiplier[itemId] || 1;
-      const totalQuantity = baseQuantity * materialMultiplier;
-
-      if (acc[materialId]) {
-        acc[materialId] += totalQuantity;
-      } else {
-        acc[materialId] = totalQuantity;
-      }
+      const totalQuantity = mat.quantity * (multiplier[itemId] || 1);
+      acc[materialId] = (acc[materialId] || 0) + totalQuantity;
     });
     return acc;
   }, {});
 
   return (
     <div className="w-full">
-      <div className="space-y-4">
-        {Object.entries(materialsByRecipe).map(([materialId, recipes]) => {
-          const material = getItemById(materialId);
-          if (!material) return null;
-
-          const totalQuantity =
-            totalUniqueMaterialsWithQuantity[materialId] || 0;
-          const checkboxState = getMaterialState(materialId, recipes);
-
-          return (
-            <div key={materialId} className="space-y-2">
-              {/* Total Checkbox */}
-              <div className="flex flex-row gap-2 items-center">
-                <CheckboxIndeterminate
-                  checked={checkboxState}
-                  onCheckedChange={() =>
-                    handleTotalCheckboxChange(
-                      checkboxState,
-                      materialId,
-                      recipes,
-                    )
-                  }
-                />
-                <div className="flex flex-row gap-1 items-center text-sm">
-                  {material.image && (
-                    <img
-                      src={createImageUrlPath(material.image)}
-                      width={24}
-                      height={24}
-                      alt={material.name}
-                    />
-                  )}
-                  <span>
-                    <span className="font-semibold">{totalQuantity}x</span>{" "}
-                    {material.name}
-                  </span>
-                </div>
-              </div>
-
-              {/* Recipe Checkboxes */}
-              <div className="ml-6 space-y-1">
-                {recipes.map((recipe) => {
-                  const recipeItem = getItemById(recipe.recipeId);
-                  if (!recipeItem) return null;
-
-                  const isChecked = isRecipeChecked(
-                    materialId,
-                    recipe.recipeId,
-                    recipe.nodeId,
-                  );
-
-                  return (
-                    <div
-                      key={recipe.nodeId}
-                      className="flex flex-row gap-2 items-center text-sm"
-                    >
-                      <Checkbox
-                        checked={isChecked}
-                        onCheckedChange={() =>
-                          handleRecipeCheckboxChange(
-                            isChecked,
-                            recipe.recipeId,
-                            recipe.nodeId,
-                          )
-                        }
-                      />
-                      <div className="flex flex-row gap-2 items-center">
-                        <span className="font-semibold">
-                          {recipe.quantity * recipe.multiplier}x
-                        </span>{" "}
-                        <span className="inline-flex text-neutral-400">
-                          (
-                          {recipeItem.image && (
-                            <img
-                              src={createImageUrlPath(recipeItem.image)}
-                              width={20}
-                              height={20}
-                              alt={recipeItem.name}
-                              className="mr-0.5"
-                            />
-                          )}
-                          {recipe.multiplier}x {recipeItem.name})
-                        </span>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          );
-        })}
+      <div className="space-y-1">
+        {Object.entries(materialsByRecipe).map(([materialId, matRecipes]) => (
+          <MaterialRow
+            key={materialId}
+            materialId={materialId}
+            recipes={matRecipes}
+            totalQuantity={totalUniqueMaterialsWithQuantity[materialId] || 0}
+            checkboxState={getMaterialState(materialId, matRecipes)}
+            isRecipeChecked={isRecipeChecked}
+            onTotalCheckboxChange={handleTotalCheckboxChange}
+            onRecipeCheckboxChange={handleRecipeCheckboxChange}
+          />
+        ))}
       </div>
     </div>
   );
