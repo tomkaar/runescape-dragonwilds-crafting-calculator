@@ -35064,6 +35064,288 @@
     "weight": 0
   },
   {
+    "id": "d2684789d047",
+    "name": "Shrimp Omelette",
+    "image": "Shrimp Omelette.png",
+    "variants": [
+      {
+        "id": "1cbdbc747f41",
+        "name": "Shrimp Omelette",
+        "image": "Shrimp Omelette.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2995726288ee",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "46356211ccca",
+              "quantity": 1
+            },
+            {
+              "itemId": "6800c6c8df72",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Shrimp_Omelette",
+    "weight": 0.7,
+    "stackLimit": 50
+  },
+  {
+    "id": "8241ef391b72",
+    "name": "Sauteed Sardines",
+    "image": "Sauteed Sardines.png",
+    "variants": [
+      {
+        "id": "d4b1226ea506",
+        "name": "Sauteed Sardines",
+        "image": "Sauteed Sardines.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e5047b3d36ab",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "ea552b5a7378",
+              "quantity": 1
+            },
+            {
+              "itemId": "ed9c1a1c4a47",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Sauteed_Sardines",
+    "weight": 0.7,
+    "stackLimit": 50
+  },
+  {
+    "id": "6a074d15e671",
+    "name": "Herb Baked Trout",
+    "image": "Herb Baked Trout.png",
+    "variants": [
+      {
+        "id": "9d2ba0b2daaf",
+        "name": "Herb Baked Trout",
+        "image": "Herb Baked Trout.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7a4c1b38ffca",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "2429b3a1919d",
+              "quantity": 1
+            },
+            {
+              "itemId": "37911a3d1e55",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Herb_Baked_Trout",
+    "weight": 0.7,
+    "stackLimit": 50
+  },
+  {
+    "id": "cee2fd5e42e3",
+    "name": "Berry Drizzle Pan-Seared",
+    "image": "Berry Drizzle Pan-Seared.png",
+    "variants": [
+      {
+        "id": "5db2ee11cb29",
+        "name": "Berry Drizzle Pan-Seared",
+        "image": "Berry Drizzle Pan-Seared.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4c387bab72f1",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "01dbea934488",
+              "quantity": 1
+            },
+            {
+              "itemId": "3ff7495faecd",
+              "quantity": 1
+            },
+            {
+              "itemId": "2214c58b1265",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Berry_Drizzle_Pan-Seared",
+    "weight": 0.7,
+    "stackLimit": 50
+  },
+  {
+    "id": "4499a2ccaa0e",
+    "name": "Fish Fry",
+    "image": "Fish Fry.png",
+    "variants": [
+      {
+        "id": "b45360f3b629",
+        "name": "Fish Fry",
+        "image": "Fish Fry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c070c2a11a8e",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "cec0c230f51d",
+              "quantity": 1
+            },
+            {
+              "itemId": "88798eba6ad6",
+              "quantity": 1
+            },
+            {
+              "itemId": "bf49f3a60cd7",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Fish_Fry",
+    "weight": 0.7,
+    "stackLimit": 50
+  },
+  {
+    "id": "fc5fd535f4ec",
+    "name": "Stir-Fry",
+    "image": "Stir-Fry.png",
+    "variants": [
+      {
+        "id": "8c13a30f9f66",
+        "name": "Stir-Fry",
+        "image": "Stir-Fry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "dca9342af7cd",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "01dbea934488",
+              "quantity": 1
+            },
+            {
+              "itemId": "2be28a4b3c4e",
+              "quantity": 1
+            },
+            {
+              "itemId": "8e5275678235",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Stir-Fry",
+    "weight": 0.7,
+    "stackLimit": 50
+  },
+  {
+    "id": "ad3fdadff8b1",
+    "name": "Stuffed Catfish",
+    "image": "Stuffed Catfish.png",
+    "variants": [
+      {
+        "id": "4c44dbe8423b",
+        "name": "Stuffed Catfish",
+        "image": "Stuffed Catfish.png",
+        "variantName": null,
+        "recipe": {
+          "id": "91d1fa440d01",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "cfce5d885f0e",
+              "quantity": 1
+            },
+            {
+              "itemId": "2be28a4b3c4e",
+              "quantity": 1
+            },
+            {
+              "itemId": "88798eba6ad6",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Stuffed_Catfish",
+    "weight": 0.7,
+    "stackLimit": 50
+  },
+  {
     "id": "2eaeb30237ca",
     "name": "Anchovy Bait",
     "image": "Anchovy Bait.png",
@@ -35429,13 +35711,32 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "0d1f8af49ff9",
+        "name": "Grilled Trout",
+        "image": "Grilled Trout.png",
+        "variantName": null,
+        "recipe": {
+          "id": "efffbaa38f9d",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "6073bd40e35e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Grilled_Trout",
     "weight": 2.1,
@@ -35463,13 +35764,32 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "13142fdee926",
+        "name": "Fried Sardine",
+        "image": "Fried Sardine.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fce1f163f85a",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "551e39b36141",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Fried_Sardine",
     "weight": 1.5,
@@ -35619,6 +35939,483 @@
     "wikiLink": "Inspiring_Ring_of_Fishing",
     "weight": 1,
     "stackLimit": 1
+  },
+  {
+    "id": "2214c58b1265",
+    "name": "Smoked Herring",
+    "image": "Smoked Herring.png",
+    "variants": [
+      {
+        "id": "22c938fd34b6",
+        "name": "Smoked Herring",
+        "image": "Smoked Herring.png",
+        "variantName": null,
+        "recipe": {
+          "id": "537272d521f8",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "92d876b457bf",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "8b9cd5016049",
+        "name": "Smoked Herring",
+        "image": "Smoked Herring.png",
+        "variantName": null,
+        "recipe": {
+          "id": "330fa59472ec",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "92d876b457bf",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Smoked_Herring",
+    "weight": 1.8,
+    "stackLimit": 50
+  },
+  {
+    "id": "3ff7495faecd",
+    "name": "Seared Anchovies",
+    "image": "Seared Anchovies.png",
+    "variants": [
+      {
+        "id": "e7b645ef5451",
+        "name": "Seared Anchovies",
+        "image": "Seared Anchovies.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6b483828e2a8",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "3fe30a876d93",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "02cbc4cf14ab",
+        "name": "Seared Anchovies",
+        "image": "Seared Anchovies.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fbd447e96d12",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "3fe30a876d93",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Seared_Anchovies",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "9184f8250bdd",
+    "name": "Fried Salmon",
+    "image": "Fried Salmon.png",
+    "variants": [
+      {
+        "id": "edd4184a6f8f",
+        "name": "Fried Salmon",
+        "image": "Fried Salmon.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a8b41e80d94b",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "f06edd7974bc",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c40143dacc27",
+        "name": "Fried Salmon",
+        "image": "Fried Salmon.png",
+        "variantName": null,
+        "recipe": {
+          "id": "08d36cb824ac",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "f06edd7974bc",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Fried_Salmon",
+    "weight": 1.8,
+    "stackLimit": 50
+  },
+  {
+    "id": "bf49f3a60cd7",
+    "name": "Roasted Lobster",
+    "image": "Roasted Lobster.png",
+    "variants": [
+      {
+        "id": "3632a35c8087",
+        "name": "Roasted Lobster",
+        "image": "Roasted Lobster.png",
+        "variantName": null,
+        "recipe": {
+          "id": "10ddc2e5e234",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "f78b9f51fa02",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "339879371cd2",
+        "name": "Roasted Lobster",
+        "image": "Roasted Lobster.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8893d9fe4856",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "f78b9f51fa02",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Roasted_Lobster",
+    "weight": 2.4,
+    "stackLimit": 50
+  },
+  {
+    "id": "cec0c230f51d",
+    "name": "Braised Undead Eel",
+    "image": "Braised Undead Eel.png",
+    "variants": [
+      {
+        "id": "c4568dfa4571",
+        "name": "Braised Undead Eel",
+        "image": "Braised Undead Eel.png",
+        "variantName": null,
+        "recipe": {
+          "id": "785139a24cdf",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "257365e5bfbe",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "8f4201f78501",
+        "name": "Braised Undead Eel",
+        "image": "Braised Undead Eel.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1c0ad3ba1de3",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "257365e5bfbe",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Braised_Undead_Eel",
+    "weight": 3.4,
+    "stackLimit": 50
+  },
+  {
+    "id": "fbe87846e31b",
+    "name": "Grilled Undead Bass",
+    "image": "Grilled Undead Bass.png",
+    "variants": [
+      {
+        "id": "e33864288e47",
+        "name": "Grilled Undead Bass",
+        "image": "Grilled Undead Bass.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ee2f425fb769",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "ca57b3e2c09e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4397deedbc65",
+        "name": "Grilled Undead Bass",
+        "image": "Grilled Undead Bass.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2a4a68ac7f7c",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "ca57b3e2c09e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Grilled_Undead_Bass",
+    "weight": 3.1,
+    "stackLimit": 50
+  },
+  {
+    "id": "2be28a4b3c4e",
+    "name": "Dried Giant Krill",
+    "image": "Dried Giant Krill.png",
+    "variants": [
+      {
+        "id": "2f31468b17eb",
+        "name": "Dried Giant Krill",
+        "image": "Dried Giant Krill.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4d8a8cf7f7da",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "049f4872c2c2",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "97176695d7c8",
+        "name": "Dried Giant Krill",
+        "image": "Dried Giant Krill.png",
+        "variantName": null,
+        "recipe": {
+          "id": "41846dc62ab2",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "049f4872c2c2",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Dried_Giant_Krill",
+    "weight": 2.9,
+    "stackLimit": 50
+  },
+  {
+    "id": "8e5275678235",
+    "name": "Smoked Infernal Eel",
+    "image": "Smoked Infernal Eel.png",
+    "variants": [
+      {
+        "id": "d89210ec3757",
+        "name": "Smoked Infernal Eel",
+        "image": "Smoked Infernal Eel.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6a6bdb5d3c34",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "8de0ccbd2d20",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "9c7fce3691fb",
+        "name": "Smoked Infernal Eel",
+        "image": "Smoked Infernal Eel.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9b313b11d605",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "8de0ccbd2d20",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Smoked_Infernal_Eel",
+    "weight": 3.1,
+    "stackLimit": 50
+  },
+  {
+    "id": "cfce5d885f0e",
+    "name": "Braised Catfish",
+    "image": "Braised Catfish.png",
+    "variants": [
+      {
+        "id": "477d1c898027",
+        "name": "Braised Catfish",
+        "image": "Braised Catfish.png",
+        "variantName": null,
+        "recipe": {
+          "id": "93c408d2483d",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "bc822510c732",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "e3c135c81337",
+        "name": "Braised Catfish",
+        "image": "Braised Catfish.png",
+        "variantName": null,
+        "recipe": {
+          "id": "22558d230ee7",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "bc822510c732",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Braised_Catfish",
+    "weight": 4.5,
+    "stackLimit": 50
   },
   {
     "id": "6a5fa59fd28f",
@@ -40994,6 +41791,26 @@
     "stackLimit": 99
   },
   {
+    "id": "6b2bc8875ea7",
+    "name": "The Pride of the Avernic",
+    "image": "Placeholder.png",
+    "variants": [
+      {
+        "id": "6b2bc8875ea7",
+        "name": "The Pride of the Avernic",
+        "image": "Placeholder.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "The_Pride_of_the_Avernic",
+    "weight": 0,
+    "stackLimit": 0
+  },
+  {
     "id": "6ea13546d4c4",
     "name": "Corroded White Visor",
     "image": "Corroded White Visor.png",
@@ -43968,5 +44785,65 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Magnet"
+  },
+  {
+    "id": "7d8455b8f1fb",
+    "name": "The Importance of Chaos",
+    "image": "Placeholder.png",
+    "variants": [
+      {
+        "id": "7d8455b8f1fb",
+        "name": "The Importance of Chaos",
+        "image": "Placeholder.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "The_Importance_of_Chaos",
+    "weight": 0,
+    "stackLimit": 0
+  },
+  {
+    "id": "fb379693cd72",
+    "name": "The Wrath of Baba Potterington",
+    "image": "Placeholder.png",
+    "variants": [
+      {
+        "id": "fb379693cd72",
+        "name": "The Wrath of Baba Potterington",
+        "image": "Placeholder.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "The_Wrath_of_Baba_Potterington",
+    "weight": 0,
+    "stackLimit": 0
+  },
+  {
+    "id": "a1c13d0b744d",
+    "name": "Leonard the Bound",
+    "image": "Placeholder.png",
+    "variants": [
+      {
+        "id": "a1c13d0b744d",
+        "name": "Leonard the Bound",
+        "image": "Placeholder.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Leonard_the_Bound",
+    "weight": 0,
+    "stackLimit": 0
   }
 ]

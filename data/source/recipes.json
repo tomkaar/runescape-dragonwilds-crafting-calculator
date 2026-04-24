@@ -53586,6 +53586,413 @@
   },
   {
     "uses_material": [
+      "Fried Egg",
+      "Sauteed Shrimp"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fried Egg",
+          "link": "Fried Egg",
+          "qty": "1",
+          "item": "Fried Egg",
+          "image": "[[File:Fried Egg.png|30px|link=Fried Egg]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Sauteed Shrimp",
+          "link": "Sauteed Shrimp",
+          "qty": "1",
+          "item": "Sauteed Shrimp",
+          "image": "[[File:Sauteed Shrimp.png|30px|link=Sauteed Shrimp]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Shrimp Omelette"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Shrimp Omelette",
+        "link": "Shrimp Omelette",
+        "qty": "1",
+        "item": "Shrimp Omelette",
+        "image": "[[File:Shrimp Omelette.png|30px|link=Shrimp Omelette]]"
+      }
+    },
+    "output": [
+      "Shrimp Omelette"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fried Sardine",
+      "Dried Redberries"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fried Sardine",
+          "link": "Fried Sardine",
+          "qty": "1",
+          "item": "Fried Sardine",
+          "image": "[[File:Fried Sardine.png|30px|link=Fried Sardine]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dried Redberries",
+          "link": "Dried Redberries",
+          "qty": "1",
+          "item": "Dried Redberries",
+          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Sauteed Sardines"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Sauteed Sardines",
+        "link": "Sauteed Sardines",
+        "qty": "1",
+        "item": "Sauteed Sardines",
+        "image": "[[File:Sauteed Sardines.png|30px|link=Sauteed Sardines]]"
+      }
+    },
+    "output": [
+      "Sauteed Sardines"
+    ]
+  },
+  {
+    "uses_material": [
+      "Grilled Trout",
+      "Baked Potato"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Grilled Trout",
+          "link": "Grilled Trout",
+          "qty": "1",
+          "item": "Grilled Trout",
+          "image": "[[File:Grilled Trout.png|30px|link=Grilled Trout]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Baked Potato",
+          "link": "Baked Potato",
+          "qty": "1",
+          "item": "Baked Potato",
+          "image": "[[File:Baked Potato.png|30px|link=Baked Potato]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Herb Baked Trout"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Herb Baked Trout",
+        "link": "Herb Baked Trout",
+        "qty": "1",
+        "item": "Herb Baked Trout",
+        "image": "[[File:Herb Baked Trout.png|30px|link=Herb Baked Trout]]"
+      }
+    },
+    "output": [
+      "Herb Baked Trout"
+    ]
+  },
+  {
+    "uses_material": [
+      "Smoked Herring",
+      "Seared Anchovies",
+      "Dried Dwellberries"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Smoked Herring",
+          "link": "Smoked Herring",
+          "qty": "1",
+          "item": "Smoked Herring",
+          "image": "[[File:Smoked Herring.png|30px|link=Smoked Herring]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Seared Anchovies",
+          "link": "Seared Anchovies",
+          "qty": "1",
+          "item": "Seared Anchovies",
+          "image": "[[File:Seared Anchovies.png|30px|link=Seared Anchovies]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dried Dwellberries",
+          "link": "Dried Dwellberries",
+          "qty": "1",
+          "item": "Dried Dwellberries",
+          "image": "[[File:Dried Dwellberries.png|30px|link=Dried Dwellberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Berry Drizzle Pan-Seared"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Berry Drizzle Pan-Seared",
+        "link": "Berry Drizzle Pan-Seared",
+        "qty": "1",
+        "item": "Berry Drizzle Pan-Seared",
+        "image": "[[File:Berry Drizzle Pan-Seared.png|30px|link=Berry Drizzle Pan-Seared]]"
+      }
+    },
+    "output": [
+      "Berry Drizzle Pan-Seared"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fried Cabbage",
+      "Braised Undead Eel",
+      "Roasted Lobster"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fried Cabbage",
+          "link": "Fried Cabbage",
+          "qty": "1",
+          "item": "Fried Cabbage",
+          "image": "[[File:Fried Cabbage.png|30px|link=Fried Cabbage]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Braised Undead Eel",
+          "link": "Braised Undead Eel",
+          "qty": "1",
+          "item": "Braised Undead Eel",
+          "image": "[[File:Braised Undead Eel.png|30px|link=Braised Undead Eel]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Roasted Lobster",
+          "link": "Roasted Lobster",
+          "qty": "1",
+          "item": "Roasted Lobster",
+          "image": "[[File:Roasted Lobster.png|30px|link=Roasted Lobster]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Fish Fry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Fish Fry",
+        "link": "Fish Fry",
+        "qty": "1",
+        "item": "Fish Fry",
+        "image": "[[File:Fish Fry.png|30px|link=Fish Fry]]"
+      }
+    },
+    "output": [
+      "Fish Fry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Dried Giant Krill",
+      "Dried Dwellberries",
+      "Smoked Infernal Eel"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dried Giant Krill",
+          "link": "Dried Giant Krill",
+          "qty": "1",
+          "item": "Dried Giant Krill",
+          "image": "[[File:Dried Giant Krill.png|30px|link=Dried Giant Krill]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dried Dwellberries",
+          "link": "Dried Dwellberries",
+          "qty": "1",
+          "item": "Dried Dwellberries",
+          "image": "[[File:Dried Dwellberries.png|30px|link=Dried Dwellberries]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Smoked Infernal Eel",
+          "link": "Smoked Infernal Eel",
+          "qty": "1",
+          "item": "Smoked Infernal Eel",
+          "image": "[[File:Smoked Infernal Eel.png|30px|link=Smoked Infernal Eel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Stir-Fry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Stir-Fry",
+        "link": "Stir-Fry",
+        "qty": "1",
+        "item": "Stir-Fry",
+        "image": "[[File:Stir-Fry.png|30px|link=Stir-Fry]]"
+      }
+    },
+    "output": [
+      "Stir-Fry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Dried Giant Krill",
+      "Fried Cabbage",
+      "Braised Catfish"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dried Giant Krill",
+          "link": "Dried Giant Krill",
+          "qty": "1",
+          "item": "Dried Giant Krill",
+          "image": "[[File:Dried Giant Krill.png|30px|link=Dried Giant Krill]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Fried Cabbage",
+          "link": "Fried Cabbage",
+          "qty": "1",
+          "item": "Fried Cabbage",
+          "image": "[[File:Fried Cabbage.png|30px|link=Fried Cabbage]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Braised Catfish",
+          "link": "Braised Catfish",
+          "qty": "1",
+          "item": "Braised Catfish",
+          "image": "[[File:Braised Catfish.png|30px|link=Braised Catfish]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Stuffed Catfish"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Stuffed Catfish",
+        "link": "Stuffed Catfish",
+        "qty": "1",
+        "item": "Stuffed Catfish",
+        "image": "[[File:Stuffed Catfish.png|30px|link=Stuffed Catfish]]"
+      }
+    },
+    "output": [
+      "Stuffed Catfish"
+    ]
+  },
+  {
+    "uses_material": [
       "Raw Anchovies"
     ],
     "uses_skill": [
@@ -54093,10 +54500,10 @@
       "facility": "Campfire",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Raw Trout",
           "link": "Raw Trout",
-          "qty": 1,
+          "qty": "1",
           "item": "Raw Trout",
           "image": "[[File:Raw Trout.png|30px|link=Raw Trout]]"
         }
@@ -54104,17 +54511,61 @@
       "skills": [
         {
           "name": "Cooking",
-          "experience": "20"
+          "experience": "10"
         }
       ],
       "outputs": [
         "Grilled Trout"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Grilled Trout",
         "link": "Grilled Trout",
-        "qty": 1,
+        "qty": "1",
+        "item": "Grilled Trout",
+        "image": "[[File:Grilled Trout.png|30px|link=Grilled Trout]]"
+      }
+    },
+    "output": [
+      "Grilled Trout"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Trout"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Trout",
+          "link": "Raw Trout",
+          "qty": "1",
+          "item": "Raw Trout",
+          "image": "[[File:Raw Trout.png|30px|link=Raw Trout]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Grilled Trout"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Grilled Trout",
+        "link": "Grilled Trout",
+        "qty": "1",
         "item": "Grilled Trout",
         "image": "[[File:Grilled Trout.png|30px|link=Grilled Trout]]"
       }
@@ -54137,10 +54588,10 @@
       "facility": "Campfire",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Raw Sardine",
           "link": "Raw Sardine",
-          "qty": 1,
+          "qty": "1",
           "item": "Raw Sardine",
           "image": "[[File:Raw Sardine.png|30px|link=Raw Sardine]]"
         }
@@ -54148,17 +54599,61 @@
       "skills": [
         {
           "name": "Cooking",
-          "experience": "20"
+          "experience": "10"
         }
       ],
       "outputs": [
         "Fried Sardine"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Fried Sardine",
         "link": "Fried Sardine",
-        "qty": 1,
+        "qty": "1",
+        "item": "Fried Sardine",
+        "image": "[[File:Fried Sardine.png|30px|link=Fried Sardine]]"
+      }
+    },
+    "output": [
+      "Fried Sardine"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Sardine"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Sardine",
+          "link": "Raw Sardine",
+          "qty": "1",
+          "item": "Raw Sardine",
+          "image": "[[File:Raw Sardine.png|30px|link=Raw Sardine]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Fried Sardine"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Fried Sardine",
+        "link": "Fried Sardine",
+        "qty": "1",
         "item": "Fried Sardine",
         "image": "[[File:Fried Sardine.png|30px|link=Fried Sardine]]"
       }
@@ -54395,6 +54890,798 @@
     },
     "output": [
       "Inspiring Ring of Fishing"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Herring"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Herring",
+          "link": "Raw Herring",
+          "qty": "1",
+          "item": "Raw Herring",
+          "image": "[[File:Raw Herring.png|30px|link=Raw Herring]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Smoked Herring"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Smoked Herring",
+        "link": "Smoked Herring",
+        "qty": "1",
+        "item": "Smoked Herring",
+        "image": "[[File:Smoked Herring.png|30px|link=Smoked Herring]]"
+      }
+    },
+    "output": [
+      "Smoked Herring"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Herring"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Herring",
+          "link": "Raw Herring",
+          "qty": "1",
+          "item": "Raw Herring",
+          "image": "[[File:Raw Herring.png|30px|link=Raw Herring]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Smoked Herring"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Smoked Herring",
+        "link": "Smoked Herring",
+        "qty": "1",
+        "item": "Smoked Herring",
+        "image": "[[File:Smoked Herring.png|30px|link=Smoked Herring]]"
+      }
+    },
+    "output": [
+      "Smoked Herring"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Anchovies"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Anchovies",
+          "link": "Raw Anchovies",
+          "qty": "1",
+          "item": "Raw Anchovies",
+          "image": "[[File:Raw Anchovies.png|30px|link=Raw Anchovies]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Seared Anchovies"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Seared Anchovies",
+        "link": "Seared Anchovies",
+        "qty": "1",
+        "item": "Seared Anchovies",
+        "image": "[[File:Seared Anchovies.png|30px|link=Seared Anchovies]]"
+      }
+    },
+    "output": [
+      "Seared Anchovies"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Anchovies"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Anchovies",
+          "link": "Raw Anchovies",
+          "qty": "1",
+          "item": "Raw Anchovies",
+          "image": "[[File:Raw Anchovies.png|30px|link=Raw Anchovies]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Seared Anchovies"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Seared Anchovies",
+        "link": "Seared Anchovies",
+        "qty": "1",
+        "item": "Seared Anchovies",
+        "image": "[[File:Seared Anchovies.png|30px|link=Seared Anchovies]]"
+      }
+    },
+    "output": [
+      "Seared Anchovies"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Salmon"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Salmon",
+          "link": "Raw Salmon",
+          "qty": "1",
+          "item": "Raw Salmon",
+          "image": "[[File:Raw Salmon.png|30px|link=Raw Salmon]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Fried Salmon"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Fried Salmon",
+        "link": "Fried Salmon",
+        "qty": "1",
+        "item": "Fried Salmon",
+        "image": "[[File:Fried Salmon.png|30px|link=Fried Salmon]]"
+      }
+    },
+    "output": [
+      "Fried Salmon"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Salmon"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Salmon",
+          "link": "Raw Salmon",
+          "qty": "1",
+          "item": "Raw Salmon",
+          "image": "[[File:Raw Salmon.png|30px|link=Raw Salmon]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Fried Salmon"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Fried Salmon",
+        "link": "Fried Salmon",
+        "qty": "1",
+        "item": "Fried Salmon",
+        "image": "[[File:Fried Salmon.png|30px|link=Fried Salmon]]"
+      }
+    },
+    "output": [
+      "Fried Salmon"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Lobster"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Lobster",
+          "link": "Raw Lobster",
+          "qty": "1",
+          "item": "Raw Lobster",
+          "image": "[[File:Raw Lobster.png|30px|link=Raw Lobster]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Roasted Lobster"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Roasted Lobster",
+        "link": "Roasted Lobster",
+        "qty": "1",
+        "item": "Roasted Lobster",
+        "image": "[[File:Roasted Lobster.png|30px|link=Roasted Lobster]]"
+      }
+    },
+    "output": [
+      "Roasted Lobster"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Lobster"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Lobster",
+          "link": "Raw Lobster",
+          "qty": "1",
+          "item": "Raw Lobster",
+          "image": "[[File:Raw Lobster.png|30px|link=Raw Lobster]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Roasted Lobster"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Roasted Lobster",
+        "link": "Roasted Lobster",
+        "qty": "1",
+        "item": "Roasted Lobster",
+        "image": "[[File:Roasted Lobster.png|30px|link=Roasted Lobster]]"
+      }
+    },
+    "output": [
+      "Roasted Lobster"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Undead Eel"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Undead Eel",
+          "link": "Raw Undead Eel",
+          "qty": "1",
+          "item": "Raw Undead Eel",
+          "image": "[[File:Raw Undead Eel.png|30px|link=Raw Undead Eel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Braised Undead Eel"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Braised Undead Eel",
+        "link": "Braised Undead Eel",
+        "qty": "1",
+        "item": "Braised Undead Eel",
+        "image": "[[File:Braised Undead Eel.png|30px|link=Braised Undead Eel]]"
+      }
+    },
+    "output": [
+      "Braised Undead Eel"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Undead Eel"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Undead Eel",
+          "link": "Raw Undead Eel",
+          "qty": "1",
+          "item": "Raw Undead Eel",
+          "image": "[[File:Raw Undead Eel.png|30px|link=Raw Undead Eel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Braised Undead Eel"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Braised Undead Eel",
+        "link": "Braised Undead Eel",
+        "qty": "1",
+        "item": "Braised Undead Eel",
+        "image": "[[File:Braised Undead Eel.png|30px|link=Braised Undead Eel]]"
+      }
+    },
+    "output": [
+      "Braised Undead Eel"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Undead Bass"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Undead Bass",
+          "link": "Raw Undead Bass",
+          "qty": "1",
+          "item": "Raw Undead Bass",
+          "image": "[[File:Raw Undead Bass.png|30px|link=Raw Undead Bass]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Grilled Undead Bass"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Grilled Undead Bass",
+        "link": "Grilled Undead Bass",
+        "qty": "1",
+        "item": "Grilled Undead Bass",
+        "image": "[[File:Grilled Undead Bass.png|30px|link=Grilled Undead Bass]]"
+      }
+    },
+    "output": [
+      "Grilled Undead Bass"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Undead Bass"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Undead Bass",
+          "link": "Raw Undead Bass",
+          "qty": "1",
+          "item": "Raw Undead Bass",
+          "image": "[[File:Raw Undead Bass.png|30px|link=Raw Undead Bass]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Grilled Undead Bass"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Grilled Undead Bass",
+        "link": "Grilled Undead Bass",
+        "qty": "1",
+        "item": "Grilled Undead Bass",
+        "image": "[[File:Grilled Undead Bass.png|30px|link=Grilled Undead Bass]]"
+      }
+    },
+    "output": [
+      "Grilled Undead Bass"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Giant Krill"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Giant Krill",
+          "link": "Raw Giant Krill",
+          "qty": "1",
+          "item": "Raw Giant Krill",
+          "image": "[[File:Raw Giant Krill.png|30px|link=Raw Giant Krill]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Dried Giant Krill"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dried Giant Krill",
+        "link": "Dried Giant Krill",
+        "qty": "1",
+        "item": "Dried Giant Krill",
+        "image": "[[File:Dried Giant Krill.png|30px|link=Dried Giant Krill]]"
+      }
+    },
+    "output": [
+      "Dried Giant Krill"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Giant Krill"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Giant Krill",
+          "link": "Raw Giant Krill",
+          "qty": "1",
+          "item": "Raw Giant Krill",
+          "image": "[[File:Raw Giant Krill.png|30px|link=Raw Giant Krill]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Dried Giant Krill"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dried Giant Krill",
+        "link": "Dried Giant Krill",
+        "qty": "1",
+        "item": "Dried Giant Krill",
+        "image": "[[File:Dried Giant Krill.png|30px|link=Dried Giant Krill]]"
+      }
+    },
+    "output": [
+      "Dried Giant Krill"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Infernal Eel"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Infernal Eel",
+          "link": "Raw Infernal Eel",
+          "qty": "1",
+          "item": "Raw Infernal Eel",
+          "image": "[[File:Raw Infernal Eel.png|30px|link=Raw Infernal Eel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Smoked Infernal Eel"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Smoked Infernal Eel",
+        "link": "Smoked Infernal Eel",
+        "qty": "1",
+        "item": "Smoked Infernal Eel",
+        "image": "[[File:Smoked Infernal Eel.png|30px|link=Smoked Infernal Eel]]"
+      }
+    },
+    "output": [
+      "Smoked Infernal Eel"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Infernal Eel"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Infernal Eel",
+          "link": "Raw Infernal Eel",
+          "qty": "1",
+          "item": "Raw Infernal Eel",
+          "image": "[[File:Raw Infernal Eel.png|30px|link=Raw Infernal Eel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Smoked Infernal Eel"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Smoked Infernal Eel",
+        "link": "Smoked Infernal Eel",
+        "qty": "1",
+        "item": "Smoked Infernal Eel",
+        "image": "[[File:Smoked Infernal Eel.png|30px|link=Smoked Infernal Eel]]"
+      }
+    },
+    "output": [
+      "Smoked Infernal Eel"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Armoured Catfish"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Armoured Catfish",
+          "link": "Raw Armoured Catfish",
+          "qty": "1",
+          "item": "Raw Armoured Catfish",
+          "image": "[[File:Raw Armoured Catfish.png|30px|link=Raw Armoured Catfish]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Braised Catfish"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Braised Catfish",
+        "link": "Braised Catfish",
+        "qty": "1",
+        "item": "Braised Catfish",
+        "image": "[[File:Braised Catfish.png|30px|link=Braised Catfish]]"
+      }
+    },
+    "output": [
+      "Braised Catfish"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Armoured Catfish"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Armoured Catfish",
+          "link": "Raw Armoured Catfish",
+          "qty": "1",
+          "item": "Raw Armoured Catfish",
+          "image": "[[File:Raw Armoured Catfish.png|30px|link=Raw Armoured Catfish]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Braised Catfish"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Braised Catfish",
+        "link": "Braised Catfish",
+        "qty": "1",
+        "item": "Braised Catfish",
+        "image": "[[File:Braised Catfish.png|30px|link=Braised Catfish]]"
+      }
+    },
+    "output": [
+      "Braised Catfish"
     ]
   }
 ]
