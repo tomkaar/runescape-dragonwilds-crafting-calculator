@@ -11652,6 +11652,24 @@
     "page_name_sub": "PLAN: Headstone 02"
   },
   {
+    "page_name": "The Pride of the Avernic",
+    "item_description": "A badly burned book wrapped in leather hide... at least you hope it's leather.",
+    "item_name": "The Pride of the Avernic",
+    "item_type": "Quest Item",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Quest Item",
+      "description": "A badly burned book wrapped in leather hide... at least you hope it's leather.",
+      "image": "[[File:Placeholder.png|32px]]",
+      "name": "The Pride of the Avernic",
+      "weight": "0.0",
+      "stacklimit": "N/A",
+      "image_raw": "Placeholder.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "The Pride of the Avernic"
+  },
+  {
     "page_name": "Corroded White Visor",
     "item_description": "A battered helmet. Perhaps you could learn something from it.",
     "item_name": "Corroded White Visor",
@@ -16588,6 +16606,153 @@
     "item_description": "A Magnet smithed by Pulpknuckle."
   },
   {
+    "page_name": "Shrimp Omelette",
+    "item_description": "Made by combining fried egg and sauté shrimp. Grants the Sea Legs perk.",
+    "item_name": "Shrimp Omelette",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Made by combining fried egg and sauté shrimp. Grants the Sea Legs perk.",
+      "duration": "600 seconds",
+      "image": "[[File:Shrimp Omelette.png|32px]]",
+      "name": "Shrimp Omelette",
+      "weight": "0.7",
+      "sustenance": "15",
+      "health": "10",
+      "stacklimit": "50",
+      "image_raw": "Shrimp Omelette.png"
+    },
+    "item_weight": 0.7,
+    "page_name_sub": "Shrimp Omelette"
+  },
+  {
+    "page_name": "Sauteed Sardines",
+    "item_description": "Made by combining fried sardine and dried redberry. Grants the Warding Fish perk.",
+    "item_name": "Sauteed Sardines",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Made by combining fried sardine and dried redberry. Grants the Warding Fish perk.",
+      "duration": "600 seconds",
+      "image": "[[File:Sauteed Sardines.png|32px]]",
+      "name": "Sauteed Sardines",
+      "weight": "0.7",
+      "sustenance": "25",
+      "health": "15",
+      "stacklimit": "50",
+      "image_raw": "Sauteed Sardines.png"
+    },
+    "item_weight": 0.7,
+    "page_name_sub": "Sauteed Sardines"
+  },
+  {
+    "page_name": "Herb Baked Trout",
+    "item_description": "Made by combining grilled trout and a baked potato. Grants the Sea Life perk.",
+    "item_name": "Herb Baked Trout",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Made by combining grilled trout and a baked potato. Grants the Sea Life perk.",
+      "duration": "600 seconds",
+      "image": "[[File:Herb Baked Trout.png|32px]]",
+      "name": "Herb Baked Trout",
+      "weight": "0.7",
+      "sustenance": "30",
+      "health": "25",
+      "stacklimit": "50",
+      "image_raw": "Herb Baked Trout.png"
+    },
+    "item_weight": 0.7,
+    "page_name_sub": "Herb Baked Trout"
+  },
+  {
+    "page_name": "Berry Drizzle Pan-Seared",
+    "item_description": "Made by combining smoked herring, seared anchovies and dried dwellberry.",
+    "item_name": "Berry Drizzle Pan-Seared",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Made by combining smoked herring, seared anchovies and dried dwellberry.",
+      "duration": "900 seconds",
+      "image": "[[File:Berry Drizzle Pan-Seared.png|32px]]",
+      "name": "Berry Drizzle Pan-Seared",
+      "weight": "0.7",
+      "sustenance": "65",
+      "health": "55",
+      "stacklimit": "50",
+      "image_raw": "Berry Drizzle Pan-Seared.png"
+    },
+    "item_weight": 0.7,
+    "page_name_sub": "Berry Drizzle Pan-Seared"
+  },
+  {
+    "page_name": "Fish Fry",
+    "item_description": "Made by combining roasted lobster, braised undead eel and fried cabbage.",
+    "item_name": "Fish Fry",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Made by combining roasted lobster, braised undead eel and fried cabbage.",
+      "duration": "1200 seconds",
+      "image": "[[File:Fish Fry.png|32px]]",
+      "name": "Fish Fry",
+      "weight": "0.7",
+      "sustenance": "55",
+      "health": "50",
+      "stacklimit": "50",
+      "image_raw": "Fish Fry.png"
+    },
+    "item_weight": 0.7,
+    "page_name_sub": "Fish Fry"
+  },
+  {
+    "page_name": "Stir-Fry",
+    "item_description": "Made by combining dried giant krill, dried redberry and smoked infernal eel.",
+    "item_name": "Stir-Fry",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Made by combining dried giant krill, dried redberry and smoked infernal eel.",
+      "duration": "600 seconds",
+      "image": "[[File:Stir-Fry.png|32px]]",
+      "name": "Stir-Fry",
+      "weight": "0.7",
+      "sustenance": "75",
+      "health": "70",
+      "stacklimit": "50",
+      "image_raw": "Stir-Fry.png"
+    },
+    "item_weight": 0.7,
+    "page_name_sub": "Stir-Fry"
+  },
+  {
+    "page_name": "Stuffed Catfish",
+    "item_description": "Made by combining dried giant krill, fried cabbage and a braised catfish.",
+    "item_name": "Stuffed Catfish",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Made by combining dried giant krill, fried cabbage and a braised catfish.",
+      "duration": "600 seconds",
+      "image": "[[File:Stuffed Catfish.png|32px]]",
+      "name": "Stuffed Catfish",
+      "weight": "0.7",
+      "sustenance": "80",
+      "health": "80",
+      "stacklimit": "50",
+      "image_raw": "Stuffed Catfish.png"
+    },
+    "item_weight": 0.7,
+    "page_name_sub": "Stuffed Catfish"
+  },
+  {
     "page_name": "Anchovy Bait",
     "item_description": "Cute little cannibal fish love some anchovy bait. Irresistible to Herring. Increases the catch chance of this fish.",
     "item_name": "Anchovy Bait",
@@ -16754,6 +16919,7 @@
       "name": "Grilled Trout",
       "weight": "2.1",
       "sustenance": "15",
+      "health": "15",
       "stacklimit": "50",
       "image_raw": "Grilled Trout.png"
     },
@@ -16774,6 +16940,7 @@
       "name": "Fried Sardine",
       "weight": "1.5",
       "sustenance": "15",
+      "health": "10",
       "stacklimit": "50",
       "image_raw": "Fried Sardine.png"
     },
@@ -16782,18 +16949,14 @@
   },
   {
     "page_name": "Sauteed Shrimp",
-    "item_description": "PERK: Sea Legs<br><br>Makes you immune to the slowing effects of water.<br><br>A simple meal but one that will hold back the hunger.",
+    "item_description": "A simple meal but one that will hold back the hunger.",
     "item_name": "Sauteed Shrimp",
     "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "PERK: Sea Legs<br><br>Makes you immune to the slowing effects of water.<br><br>A simple meal but one that will hold back the hunger.",
+      "description": "A simple meal but one that will hold back the hunger.",
       "duration": "180 seconds",
-      "perk": {
-        "name": "Sea Legs",
-        "effect": "Makes you immune to the slowing effects of water.<br><br>A simple meal but one that will hold back the hunger."
-      },
       "image": "[[File:Sauteed Shrimp.png|32px]]",
       "name": "Sauteed Shrimp",
       "weight": "0.2",
@@ -16836,5 +16999,248 @@
       "image_raw": "Inspiring Ring of Fishing.png"
     },
     "item_type": "Trinket"
+  },
+  {
+    "page_name": "Smoked Herring",
+    "item_description": "Nothing beats hunger like a herring. Grants the Warding Fish perk.",
+    "item_name": "Smoked Herring",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Nothing beats hunger like a herring. Grants the Warding Fish perk.",
+      "duration": "300 seconds",
+      "image": "[[File:Smoked Herring.png|32px]]",
+      "name": "Smoked Herring",
+      "weight": "1.8",
+      "sustenance": "20",
+      "health": "20",
+      "stacklimit": "50",
+      "image_raw": "Smoked Herring.png"
+    },
+    "item_weight": 1.8,
+    "page_name_sub": "Smoked Herring"
+  },
+  {
+    "page_name": "Seared Anchovies",
+    "item_description": "Hold hunger back until lunch.",
+    "item_name": "Seared Anchovies",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Hold hunger back until lunch.",
+      "duration": "300 seconds",
+      "image": "[[File:Seared Anchovies.png|32px]]",
+      "name": "Seared Anchovies",
+      "weight": "1.0",
+      "sustenance": "15",
+      "health": "10",
+      "stacklimit": "50",
+      "image_raw": "Seared Anchovies.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Seared Anchovies"
+  },
+  {
+    "page_name": "Fried Salmon",
+    "item_description": "For when you feel like a hungry bear. Grants the Sea Life perk.",
+    "item_name": "Fried Salmon",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "For when you feel like a hungry bear. Grants the Sea Life perk.",
+      "duration": "300 seconds",
+      "image": "[[File:Fried Salmon.png|32px]]",
+      "name": "Fried Salmon",
+      "weight": "1.8",
+      "sustenance": "20",
+      "health": "25",
+      "stacklimit": "50",
+      "image_raw": "Fried Salmon.png"
+    },
+    "item_weight": 1.8,
+    "page_name_sub": "Fried Salmon"
+  },
+  {
+    "page_name": "Roasted Lobster",
+    "item_description": "Does wonders for your hunger bar. Grants the Sea Legs perk.",
+    "item_name": "Roasted Lobster",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Does wonders for your hunger bar. Grants the Sea Legs perk.",
+      "duration": "120 seconds",
+      "image": "[[File:Roasted Lobster.png|32px]]",
+      "name": "Roasted Lobster",
+      "weight": "2.4",
+      "sustenance": "20",
+      "health": "15",
+      "stacklimit": "50",
+      "image_raw": "Roasted Lobster.png"
+    },
+    "item_weight": 2.4,
+    "page_name_sub": "Roasted Lobster"
+  },
+  {
+    "page_name": "Braised Undead Eel",
+    "item_description": "Makes you queasy but does wonders for hunger. Grants the Warding Fish perk.",
+    "item_name": "Braised Undead Eel",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Makes you queasy but does wonders for hunger. Grants the Warding Fish perk.",
+      "duration": "600 seconds",
+      "image": "[[File:Braised Undead Eel.png|32px]]",
+      "name": "Braised Undead Eel",
+      "weight": "3.4",
+      "sustenance": "25",
+      "health": "30",
+      "stacklimit": "50",
+      "image_raw": "Braised Undead Eel.png"
+    },
+    "item_weight": 3.4,
+    "page_name_sub": "Braised Undead Eel"
+  },
+  {
+    "page_name": "Grilled Undead Bass",
+    "item_description": "Undead and makes you unhungry. Grants the Sea Life perk.",
+    "item_name": "Grilled Undead Bass",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Undead and makes you unhungry. Grants the Sea Life perk.",
+      "duration": "600 seconds",
+      "image": "[[File:Grilled Undead Bass.png|32px]]",
+      "name": "Grilled Undead Bass",
+      "weight": "3.1",
+      "sustenance": "25",
+      "health": "35",
+      "stacklimit": "50",
+      "image_raw": "Grilled Undead Bass.png"
+    },
+    "item_weight": 3.1,
+    "page_name_sub": "Grilled Undead Bass"
+  },
+  {
+    "page_name": "Dried Giant Krill",
+    "item_description": "Krills hunger with one bite. Grants the Sea Legs perk.",
+    "item_name": "Dried Giant Krill",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Krills hunger with one bite. Grants the Sea Legs perk.",
+      "duration": "300 seconds",
+      "image": "[[File:Dried Giant Krill.png|32px]]",
+      "name": "Dried Giant Krill",
+      "weight": "2.9",
+      "sustenance": "25",
+      "health": "20",
+      "stacklimit": "50",
+      "image_raw": "Dried Giant Krill.png"
+    },
+    "item_weight": 2.9,
+    "page_name_sub": "Dried Giant Krill"
+  },
+  {
+    "page_name": "Smoked Infernal Eel",
+    "item_description": "An unusual meal, but a good one. Grants the Warding Fish perk.",
+    "item_name": "Smoked Infernal Eel",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "An unusual meal, but a good one. Grants the Warding Fish perk.",
+      "duration": "900 seconds",
+      "image": "[[File:Smoked Infernal Eel.png|32px]]",
+      "name": "Smoked Infernal Eel",
+      "weight": "3.1",
+      "sustenance": "30",
+      "health": "45",
+      "stacklimit": "50",
+      "image_raw": "Smoked Infernal Eel.png"
+    },
+    "item_weight": 3.1,
+    "page_name_sub": "Smoked Infernal Eel"
+  },
+  {
+    "page_name": "Braised Catfish",
+    "item_description": "If your feline hungry, eat a catfish. Grants the Sea Life perk.",
+    "item_name": "Braised Catfish",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "If your feline hungry, eat a catfish. Grants the Sea Life perk.",
+      "duration": "900 seconds",
+      "image": "[[File:Braised Catfish.png|32px]]",
+      "name": "Braised Catfish",
+      "weight": "4.5",
+      "sustenance": "30",
+      "health": "60",
+      "stacklimit": "50",
+      "image_raw": "Braised Catfish.png"
+    },
+    "item_weight": 4.5,
+    "page_name_sub": "Braised Catfish"
+  },
+  {
+    "page_name": "The Importance of Chaos",
+    "item_description": "A religious tome discussing the god of rebellion.",
+    "item_name": "The Importance of Chaos",
+    "item_type": "Quest Item",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Quest Item",
+      "description": "A religious tome discussing the god of rebellion.",
+      "image": "[[File:Placeholder.png|32px]]",
+      "name": "The Importance of Chaos",
+      "weight": "0.0",
+      "stacklimit": "N/A",
+      "image_raw": "Placeholder.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "The Importance of Chaos"
+  },
+  {
+    "page_name": "The Wrath of Baba Potterington",
+    "item_description": "A sinister book of truly nasty curses.",
+    "item_name": "The Wrath of Baba Potterington",
+    "item_type": "Quest Item",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Quest Item",
+      "description": "A sinister book of truly nasty curses.",
+      "image": "[[File:Placeholder.png|32px]]",
+      "name": "The Wrath of Baba Potterington",
+      "weight": "0.0",
+      "stacklimit": "",
+      "image_raw": "Placeholder.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "The Wrath of Baba Potterington"
+  },
+  {
+    "page_name": "Leonard the Bound",
+    "item_description": "The book squirms in your backpack, as though trying to escape.",
+    "item_name": "Leonard the Bound",
+    "item_type": "Quest Item",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Quest Item",
+      "description": "The book squirms in your backpack, as though trying to escape.",
+      "image": "[[File:Placeholder.png|32px]]",
+      "name": "Leonard the Bound",
+      "weight": "0.0",
+      "stacklimit": "",
+      "image_raw": "Placeholder.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Leonard the Bound"
   }
 ]
