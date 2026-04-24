@@ -31,7 +31,7 @@ function TreeNodeNavigateMenu({
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button className="cursor-pointer p-1 rounded hover:bg-neutral-600 text-neutral-400 hover:text-white">
+        <button className="cursor-pointer p-1 rounded hover:bg-secondary text-muted-foreground hover:text-foreground">
           <Ellipsis className="size-3.5" />
         </button>
       </DropdownMenuTrigger>
@@ -161,7 +161,7 @@ export function MaterialTreeNode({
                 />
               )}
               {item.variantNumber === undefined && (
-                <span className="font-semibold text-white">
+                <span className="font-semibold text-foreground">
                   {item.quantity}x
                 </span>
               )}
@@ -172,7 +172,7 @@ export function MaterialTreeNode({
                 <span className="text-title">Recipe {item.variantNumber}</span>
               )}
 
-              <ChevronDown className="w-4 h-4 self-center justify-self-end ml-auto text-neutral-400 group-hover:text-neutral-200" />
+              <ChevronDown className="w-4 h-4 self-center justify-self-end ml-auto text-muted-foreground group-hover:text-foreground" />
             </div>
           </CollapsibleTrigger>
           {item.variantNumber === undefined && (
@@ -186,7 +186,7 @@ export function MaterialTreeNode({
         <div className="pl-2">
           <CollapsibleContent
             className={cn(
-              "border-l border-neutral-400 pl-2",
+              "border-l border-border pl-2",
               item.variantNumber !== undefined && "border-title ml-2",
             )}
           >

@@ -13,21 +13,21 @@ export function AccordionUsedIn({ itemId }: { itemId: string }) {
   return (
     <AccordionItem
       value="used-in"
-      className="bg-neutral-900 rounded-lg border border-accent"
+      className="bg-background rounded-lg border border-accent"
     >
-      <AccordionTrigger className="cursor-pointer text-white px-4">
+      <AccordionTrigger className="cursor-pointer text-foreground px-4">
         <div className="flex flex-col">
           Used in
-          <span className="text-xs text-neutral-300">
+          <span className="text-xs text-muted-foreground">
             See what items this material is used to craft.
           </span>
         </div>
       </AccordionTrigger>
 
-      <AccordionContent className="px-2 py-4 text-white">
+      <AccordionContent className="px-2 py-4 text-foreground">
         <ul className="flex flex-col flex-wrap">
           {usedIn.length === 0 && (
-            <li className="text-sm text-neutral-500">
+            <li className="text-sm text-muted-foreground">
               Not used in any recipes
             </li>
           )}

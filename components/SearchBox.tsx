@@ -114,7 +114,7 @@ export function SearchBox() {
                     {favouriteItems.includes(item.id) ? (
                       <StarIcon className="w-4 h-4 text-title fill-title ml-auto" />
                     ) : (
-                      <StarIcon className="w-4 h-4 text-neutral-400 ml-auto" />
+                      <StarIcon className="w-4 h-4 text-muted-foreground ml-auto" />
                     )}
                   </div>
                 </ComboboxItem>

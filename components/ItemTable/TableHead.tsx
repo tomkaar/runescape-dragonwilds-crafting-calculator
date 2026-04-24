@@ -15,13 +15,13 @@ export default function TableHead(props: TableHeadProps) {
         <tr
           key={headerGroup.id}
           style={{ display: "flex", width: "100%" }}
-          className="w-full border-b border-neutral-700"
+          className="w-full border-b border-border"
         >
           {headerGroup.headers.map((header) => {
             return (
               <th
                 key={header.id}
-                className="flex px-4 py-3 text-left text-xs font-semibold text-neutral-300 uppercase tracking-wider select-none whitespace-nowrap"
+                className="flex px-4 py-3 text-left text-xs font-semibold text-muted-foreground uppercase tracking-wider select-none whitespace-nowrap"
                 style={{ flex: `${header.getSize()} 0 0px` }}
               >
                 <div

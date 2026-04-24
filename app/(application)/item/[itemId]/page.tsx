@@ -47,7 +47,7 @@ export default async function ItemPage(props: Props) {
   return (
     <main className="lg:h-full flex flex-col">
       <div className="w-full flex flex-col gap-4 lg:hidden px-4 py-4">
-        <div className="sticky top-0 bg-neutral-900 border border-accent rounded-lg">
+        <div className="sticky top-0 bg-background border border-accent rounded-lg">
           <ItemInfoBox item={item} itemId={itemId} />
         </div>
 
@@ -71,7 +71,7 @@ export default async function ItemPage(props: Props) {
             position="top-left"
             className="h-full flex flex-col gap-4 overflow-scroll w-100"
           >
-            <div className="sticky top-0 bg-neutral-900 border border-accent rounded-lg">
+            <div className="sticky top-0 bg-background border border-accent rounded-lg">
               <ItemInfoBox item={item} itemId={itemId} />
             </div>
 

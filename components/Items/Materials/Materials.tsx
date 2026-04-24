@@ -16,18 +16,18 @@ export function AccordionMaterials({ itemId }: { itemId: string }) {
   return (
     <AccordionItem
       value="materials"
-      className="bg-neutral-900 rounded-lg border border-accent"
+      className="bg-background rounded-lg border border-accent"
     >
-      <AccordionTrigger className="cursor-pointer text-white px-4">
+      <AccordionTrigger className="cursor-pointer text-foreground px-4">
         <div className="flex flex-col">
           Recipe (x{multiplier})
-          <span className="text-xs text-neutral-300">
+          <span className="text-xs text-muted-foreground">
             The materials required to craft this item.
           </span>
         </div>
       </AccordionTrigger>
 
-      <AccordionContent className="px-4 pb-4 text-white flex flex-col gap-4 pt-1">
+      <AccordionContent className="px-4 pb-4 text-foreground flex flex-col gap-4 pt-1">
         <MultiplierAndClearInput itemId={itemId} />
         <RequiredMaterialsContent itemId={itemId} />
       </AccordionContent>

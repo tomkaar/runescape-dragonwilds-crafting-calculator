@@ -77,11 +77,11 @@ function MaterialRow({
                 alt={material.name}
               />
             )}
-            <span className="font-semibold text-white">{totalQuantity}x</span>
+            <span className="font-semibold text-foreground">{totalQuantity}x</span>
             <span className="text-left">{material.name}</span>
             <ChevronDown
               className={cn(
-                "w-4 h-4 self-center ml-auto text-neutral-400 group-hover:text-neutral-200 transition-transform duration-200",
+                "w-4 h-4 self-center ml-auto text-muted-foreground group-hover:text-foreground transition-transform duration-200",
                 open && "rotate-180",
               )}
             />
@@ -91,7 +91,7 @@ function MaterialRow({
       </div>
 
       <div className="pl-2">
-        <CollapsibleContent className="border-l border-neutral-400 pl-2">
+        <CollapsibleContent className="border-l border-border pl-2">
           <div className="flex flex-col pl-2">
             {recipes.map((recipe) => {
               const recipeItem = getItemById(recipe.recipeId);

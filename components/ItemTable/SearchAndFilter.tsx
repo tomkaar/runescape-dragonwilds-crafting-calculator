@@ -113,17 +113,17 @@ export default function SearchAndFilter(props: Props) {
   );
 
   return (
-    <div className="p-4 border-b border-neutral-700 flex flex-col gap-3">
+    <div className="p-4 border-b border-border flex flex-col gap-3">
       <div className="flex flex-wrap gap-4 items-start">
         <div className="flex flex-col gap-1 grow lg:grow-0 min-w-44">
           <div className="w-full relative lg:max-w-sm">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-neutral-400" />
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
             <Input
               type="text"
               value={globalFilter}
               onChange={(e) => setGlobalFilter(e.target.value)}
               placeholder="Filter items..."
-              className="w-full rounded-md border border-neutral-700 bg-background pl-9 pr-3 py-2 text-base placeholder:text-neutral-500 focus:outline-none focus:ring-1 focus:ring-neutral-500"
+              className="w-full rounded-md border border-border bg-background pl-9 pr-3 py-2 text-base placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring"
             />
           </div>
         </div>
@@ -163,7 +163,7 @@ export default function SearchAndFilter(props: Props) {
         <div className="hidden lg:contents">{filterControls}</div>
       </div>
 
-      <p className="text-xs text-neutral-400">{rowsCount} results</p>
+      <p className="text-xs text-muted-foreground">{rowsCount} results</p>
     </div>
   );
 }

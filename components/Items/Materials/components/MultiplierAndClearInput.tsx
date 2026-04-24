@@ -60,7 +60,7 @@ export function MultiplierAndClearInput(props: Props) {
   };
 
   return (
-    <div className="flex items-center gap-2 border-neutral-700 py-2">
+    <div className="flex items-center gap-2 border-border py-2">
       <span className="block mr-8">Recipe multiplier</span>
 
       <Input

@@ -33,7 +33,7 @@ export default function Home() {
 
           {/* Quick search */}
           <section className="flex flex-col gap-2">
-            <div className="flex items-center gap-2 text-sm text-neutral-400">
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <SearchIcon className="size-3.5" />
               <span>Quick search</span>
             </div>
@@ -44,12 +44,12 @@ export default function Home() {
           <section className="flex flex-col gap-2">
             <Link
               href="/item"
-              className="flex items-center gap-3 rounded-md border border-neutral-700 bg-background px-4 py-3 text-sm hover:bg-neutral-800/50 transition-colors"
+              className="flex items-center gap-3 rounded-md border border-border bg-background px-4 py-3 text-sm hover:bg-card/50 transition-colors"
             >
-              <TableIcon className="size-4 text-neutral-400 shrink-0" />
+              <TableIcon className="size-4 text-muted-foreground shrink-0" />
               <div>
                 <span className="font-medium">Browse all items</span>
-                <span className="block text-xs text-neutral-400">
+                <span className="block text-xs text-muted-foreground">
                   Search, filter, and sort the full item table
                 </span>
               </div>
@@ -58,12 +58,12 @@ export default function Home() {
 
           {/* Favourites */}
           <section className="flex flex-col gap-2">
-            <div className="flex items-center gap-2 text-sm text-neutral-400">
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <StarIcon className="size-3.5" />
               <span>Favourites</span>
             </div>
             <FavouriteItemsList />
-            <p className="text-xs text-neutral-500">
+            <p className="text-xs text-muted-foreground">
               Star items to add them here for quick access.
             </p>
           </section>

@@ -48,7 +48,7 @@ const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
       <div
         ref={ref}
         className={cn(
-          "flex flex-col items-center justify-center bg-neutral-800 hover:bg-neutral-700 border border-neutral-800 rounded-lg",
+          "flex flex-col items-center justify-center bg-card hover:bg-secondary border border-border rounded-lg",
           added && added.state === "TODO"
             ? "bg-blue-900/50 hover:bg-blue-900"
             : "",
@@ -213,7 +213,7 @@ const Content = memo(function InnerContent(props: ContentProps) {
               height={24}
             />
           )}
-          <div className="text-xs text-white">
+          <div className="text-xs text-foreground">
             <span className="font-semibold">{quantity}x</span> {label}
           </div>
         </button>
@@ -236,7 +236,7 @@ const Content = memo(function InnerContent(props: ContentProps) {
       )}
 
       {facility && (
-        <div className="w-full flex flex-row items-center gap-2 text-xs text-neutral-200 bg-card px-2 py-1 rounded-lg">
+        <div className="w-full flex flex-row items-center gap-2 text-xs text-foreground bg-card px-2 py-1 rounded-lg">
           {getFacilityIcon(facility as (typeof Facility)[number])}
           {facility}
         </div>

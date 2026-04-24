@@ -45,7 +45,7 @@ type Props = {
 export default function Layout(props: Props) {
   return (
     <div className="h-screen">
-      <div className="sticky top-0 z-10 border-b bg-background border-neutral-700 flex flex-col lg:flex-row gap-6 lg:items-center w-full p-4">
+      <div className="sticky top-0 z-10 border-b bg-background border-border flex flex-col lg:flex-row gap-6 lg:items-center w-full p-4">
         <div className="flex flex-row items-center justify-between">
           <Link href="/">
             <div className="flex flex-row gap-2 items-center">
@@ -83,14 +83,14 @@ export default function Layout(props: Props) {
                 <nav className="flex flex-col gap-1 px-4">
                   <Link
                     href="/"
-                    className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-neutral-800"
+                    className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-card"
                   >
                     <HomeIcon size={16} />
                     Home
                   </Link>
                   <Link
                     href="/item"
-                    className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-neutral-800"
+                    className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-card"
                   >
                     <ListIcon size={16} />
                     All items
@@ -99,7 +99,7 @@ export default function Layout(props: Props) {
                     href="https://dragonwilds.runescape.wiki"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-neutral-800"
+                    className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-card"
                   >
                     <Scale size={16} />
                     Official Wiki
@@ -108,7 +108,7 @@ export default function Layout(props: Props) {
                     href="https://github.com/tomkaar/runescape-dragonwilds-crafting-calculator"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-neutral-800"
+                    className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-card"
                   >
                     <GithubIcon size={16} />
                     GitHub
@@ -116,7 +116,7 @@ export default function Layout(props: Props) {
                 </nav>
                 <div className="px-6 mt-2 flex flex-col gap-3 text-start">
                   <LastSynced />
-                  <p className="text-xs text-muted-foreground border-t border-neutral-700 pt-3">
+                  <p className="text-xs text-muted-foreground border-t border-border pt-3">
                     Data from the RuneScape: Dragonwilds Wiki. Content licensed
                     under CC BY-NC-SA 3.0. Not affiliated with Jagex Ltd.,
                     RuneScape: Dragonwilds Wiki or Weird Gloop. Data may not
@@ -156,7 +156,7 @@ export default function Layout(props: Props) {
           <div className="hidden lg:block">
             <Link
               href="/item"
-              className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-neutral-800 whitespace-nowrap"
+              className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-card whitespace-nowrap"
             >
               <ListIcon size={16} />
               All items
@@ -170,7 +170,7 @@ export default function Layout(props: Props) {
           </div>
           <Dialog>
             <DialogTrigger asChild>
-              <button className="cursor-pointer border border-neutral-800 rounded-full p-1.5 size-9 flex items-center justify-center">
+              <button className="cursor-pointer border border-border rounded-full p-1.5 size-9 flex items-center justify-center">
                 <Scale className="w-4 h-4" />
               </button>
             </DialogTrigger>
@@ -178,7 +178,7 @@ export default function Layout(props: Props) {
               <DialogHeader>
                 <DialogTitle>Affirmation</DialogTitle>
                 <DialogDescription>
-                  <span className="text-xs text-neutral-200">
+                  <span className="text-xs text-foreground">
                     <span className="block mt-2">
                       Data from the RuneScape: Dragonwilds Wiki
                     </span>
@@ -205,7 +205,7 @@ export default function Layout(props: Props) {
 
           <Link
             href="https://github.com/tomkaar/runescape-dragonwilds-crafting-calculator"
-            className="border border-neutral-800 rounded-full p-1.5 size-9 flex items-center justify-center"
+            className="border border-border rounded-full p-1.5 size-9 flex items-center justify-center"
           >
             <GithubIcon size={20} />
           </Link>

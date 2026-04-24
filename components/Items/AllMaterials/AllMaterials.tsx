@@ -9,18 +9,18 @@ export function AccordionAllMaterials() {
   return (
     <AccordionItem
       value="selected"
-      className="bg-neutral-900 rounded-lg border border-accent"
+      className="bg-background rounded-lg border border-accent"
     >
-      <AccordionTrigger className="cursor-pointer text-white px-4">
+      <AccordionTrigger className="cursor-pointer text-foreground px-4">
         <div className="flex flex-col">
           Selected materials
-          <span className="text-xs text-neutral-300">
+          <span className="text-xs text-muted-foreground">
             Check materials as you gather/craft them.
           </span>
         </div>
       </AccordionTrigger>
 
-      <AccordionContent className="p-4 text-white">
+      <AccordionContent className="p-4 text-foreground">
         <AllMaterialsContent />
       </AccordionContent>
     </AccordionItem>

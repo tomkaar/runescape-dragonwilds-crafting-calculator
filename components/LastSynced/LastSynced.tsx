@@ -33,7 +33,7 @@ export function LastSynced() {
         <DialogHeader>
           <DialogTitle>Data last synced</DialogTitle>
           <DialogDescription asChild>
-            <span className="text-xs text-neutral-200">
+            <span className="text-xs text-foreground">
               <span className="block">
                 Last synced:{" "}
                 <Suspense fallback="Loading...">
