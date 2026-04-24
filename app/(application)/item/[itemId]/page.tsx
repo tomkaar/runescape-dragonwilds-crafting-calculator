@@ -61,7 +61,7 @@ export default async function ItemPage(props: Props) {
       </div>
 
       <div className="lg:h-full w-full hidden lg:block">
-        <CraftingTree itemId={itemId} treePaddingLeft={400}>
+        <CraftingTree itemId={itemId} treePaddingLeft={440}>
           <Panel position="top-left" className="flex gap-2 pl-104">
             <ClearSelected itemId={itemId} />
             <Direction />
