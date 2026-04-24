@@ -13,6 +13,10 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 import { cn } from "@/lib/utils";
+import {
+  AllMaterialsDropdownMenu,
+  MaterialNavigateMenu,
+} from "./AllMaterialsDropdownMenu";
 
 type RecipeEntry = {
   recipeId: string;
@@ -50,7 +54,7 @@ function MaterialRow({
     nodeId?: string,
   ) => void;
 }) {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const material = getItemById(materialId);
   if (!material) return null;
 
@@ -83,6 +87,7 @@ function MaterialRow({
             />
           </div>
         </CollapsibleTrigger>
+        <MaterialNavigateMenu materialId={materialId} />
       </div>
 
       <div className="pl-2">
@@ -113,7 +118,7 @@ function MaterialRow({
                       )
                     }
                   />
-                  <div className="flex flex-row gap-2 items-center px-2 py-1 rounded-lg text-sm w-full justify-start hover:bg-accent">
+                  <div className="flex flex-row gap-2 items-center px-2 py-1 rounded-lg text-sm flex-1 justify-start hover:bg-accent">
                     {recipeItem.image && (
                       <img
                         src={createImageUrlPath(recipeItem.image)}
@@ -132,6 +137,12 @@ function MaterialRow({
                       </span>
                     )}
                   </div>
+                  {recipe.nodeId && (
+                    <AllMaterialsDropdownMenu
+                      recipeId={recipe.recipeId}
+                      nodeId={recipe.nodeId}
+                    />
+                  )}
                 </div>
               );
             })}
