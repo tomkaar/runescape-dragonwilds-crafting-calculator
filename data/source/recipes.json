@@ -54428,7 +54428,7 @@
     "uses_material": [
       "Irit",
       "Grilled Trout",
-      "Clay Vessel"
+      "Glass Vessel"
     ],
     "uses_skill": [
       "Artisan"
@@ -54440,10 +54440,10 @@
       "facility": "Brewing Cauldron",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Irit",
           "link": "Irit",
-          "qty": 1,
+          "qty": "1",
           "item": "Irit",
           "image": "[[File:Irit.png|30px|link=Irit]]"
         },
@@ -54457,11 +54457,11 @@
         },
         {
           "quantity": 1,
-          "name": "Clay Vessel",
-          "link": "Clay Vessel",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
           "qty": 1,
-          "item": "Clay Vessel",
-          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
         }
       ],
       "skills": [
@@ -55682,6 +55682,121 @@
     },
     "output": [
       "Braised Catfish"
+    ]
+  },
+  {
+    "uses_material": [
+      "Oak Plank",
+      "Iron Bar"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Oak Plank",
+          "link": "Oak Plank",
+          "qty": "10",
+          "item": "Oak Plank",
+          "image": "[[File:Oak Plank.png|30px|link=Oak Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Iron Bar",
+          "link": "Iron Bar",
+          "qty": "2",
+          "item": "Iron Bar",
+          "image": "[[File:Iron Bar.png|30px|link=Iron Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "26"
+        }
+      ],
+      "outputs": [
+        "Fishing Barrel"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Fishing Barrel",
+        "link": "Fishing Barrel",
+        "qty": 1,
+        "item": "Fishing Barrel",
+        "image": "[[File:Fishing Barrel.png|30px|link=Fishing Barrel]]"
+      }
+    },
+    "output": [
+      "Fishing Barrel"
+    ]
+  },
+  {
+    "uses_material": [
+      "Oak Logs",
+      "Iron Bar",
+      "Wool Thread"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Oak Logs",
+          "link": "Oak Logs",
+          "qty": "5",
+          "item": "Oak Logs",
+          "image": "[[File:Oak Logs.png|30px|link=Oak Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Iron Bar",
+          "link": "Iron Bar",
+          "qty": "1",
+          "item": "Iron Bar",
+          "image": "[[File:Iron Bar.png|30px|link=Iron Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Wool Thread",
+          "link": "Wool Thread",
+          "qty": "1",
+          "item": "Wool Thread",
+          "image": "[[File:Wool Thread.png|30px|link=Wool Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "26"
+        }
+      ],
+      "outputs": [
+        "Tackle Box"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Tackle Box",
+        "link": "Tackle Box",
+        "qty": 1,
+        "item": "Tackle Box",
+        "image": "[[File:Tackle Box.png|30px|link=Tackle Box]]"
+      }
+    },
+    "output": [
+      "Tackle Box"
     ]
   }
 ]
