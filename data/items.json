@@ -35653,16 +35653,16 @@
     "image": "Focused Fishing Potion.png",
     "variants": [
       {
-        "id": "b69dc20c94e6",
+        "id": "c465cd83fa11",
         "name": "Focused Fishing Potion",
         "image": "Focused Fishing Potion.png",
         "variantName": null,
         "recipe": {
-          "id": "88f61f330ccb",
+          "id": "ad2f84026b6f",
           "facility": "Brewing Cauldron",
           "materials": [
             {
-              "itemId": "7922581c320e",
+              "itemId": "629a4abf66fd",
               "quantity": 1
             },
             {
@@ -36416,6 +36416,82 @@
     "wikiLink": "Braised_Catfish",
     "weight": 4.5,
     "stackLimit": 50
+  },
+  {
+    "id": "d4938c91c7c0",
+    "name": "Fishing Barrel",
+    "image": "Fishing Barrel.png",
+    "variants": [
+      {
+        "id": "0519f9b6788d",
+        "name": "Fishing Barrel",
+        "image": "Fishing Barrel.png",
+        "variantName": null,
+        "recipe": {
+          "id": "379d024f0def",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "e47d442af339",
+              "quantity": 2
+            },
+            {
+              "itemId": "ed4acb2676c2",
+              "quantity": 10
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Fishing_Barrel"
+  },
+  {
+    "id": "d325995374af",
+    "name": "Tackle Box",
+    "image": "Tackle Box.png",
+    "variants": [
+      {
+        "id": "f694bcaa0b03",
+        "name": "Tackle Box",
+        "image": "Tackle Box.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d8f81d5180b2",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "e47d442af339",
+              "quantity": 1
+            },
+            {
+              "itemId": "eedfb3dc7f45",
+              "quantity": 5
+            },
+            {
+              "itemId": "86f4896ec674",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Tackle_Box"
   },
   {
     "id": "6a5fa59fd28f",
