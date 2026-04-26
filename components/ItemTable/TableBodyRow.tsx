@@ -18,7 +18,7 @@ export default function TableBodyRow(props: Props) {
       data-index={virtualRow.index}
       ref={(node) => rowVirtualizer.measureElement(node)}
       key={row.id}
-      className={`flex absolute w-full border-b border-border hover:bg-card/50 cursor-pointer transition-colors ${virtualRow.index % 2 === 0 ? "bg-background" : "bg-card/50"}`}
+      className={`flex absolute w-full border-b border-border hover:bg-card/50 transition-colors ${virtualRow.index % 2 === 0 ? "bg-background" : "bg-card/50"}`}
       style={{ transform: `translateY(${virtualRow.start}px)` }}
       onClick={() => router.push(`/item/${row.original.itemId}`)}
     >

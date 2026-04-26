@@ -5,6 +5,7 @@ import { useMaterialMultiplier } from "@/store/material-multiplier";
 
 type Props = {
   itemId: string;
+  skipFirstLayer?: boolean;
 };
 
 function buildBaseQuantityMap(
@@ -18,7 +19,7 @@ function buildBaseQuantityMap(
   return map;
 }
 
-export function RequiredMaterialsContent({ itemId }: Props) {
+export function RequiredMaterialsContent({ itemId, skipFirstLayer = false }: Props) {
   const multipliers = useMaterialMultiplier((state) => state.items);
   const multiplier = multipliers[itemId] || 1;
   const treeData = resolveCraftingTree({ itemId, prevQuantity: multiplier });
@@ -31,9 +32,13 @@ export function RequiredMaterialsContent({ itemId }: Props) {
     : [];
   const baseQuantities = buildBaseQuantityMap(baseTree);
 
+  const nodes = skipFirstLayer
+    ? tree.flatMap((root) => ("children" in root ? root.children : []))
+    : tree;
+
   return (
     <div className="">
-      {tree.map((item) => (
+      {nodes.map((item) => (
         <MaterialTreeNode
           key={item.nodeId}
           item={item}

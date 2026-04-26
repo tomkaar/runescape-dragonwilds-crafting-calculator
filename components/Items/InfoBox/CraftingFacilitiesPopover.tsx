@@ -20,7 +20,7 @@ export function CraftingFacilitiesPopover({ facilities }: Props) {
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <Badge variant="outline" className="text-sm cursor-pointer select-none">
+        <Badge variant="outline" className="text-sm select-none">
           +{facilities.length}
         </Badge>
       </PopoverTrigger>

@@ -31,7 +31,7 @@ function TreeNodeNavigateMenu({
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button className="cursor-pointer p-1 rounded hover:bg-secondary text-muted-foreground hover:text-foreground">
+        <button className="p-1 rounded hover:bg-secondary text-muted-foreground hover:text-foreground">
           <Ellipsis className="size-3.5" />
         </button>
       </DropdownMenuTrigger>
@@ -144,7 +144,7 @@ export function MaterialTreeNode({
           <CollapsibleTrigger className="flex-1">
             <div
               className={cn(
-                "cursor-pointer flex flex-row gap-2 items-center pr-2 pl-2 py-0.5 rounded-lg text-sm group hover:bg-accent w-full justify-start transition-none",
+                "flex flex-row gap-2 items-center pr-2 pl-2 py-0.5 rounded-lg text-sm group hover:bg-accent w-full justify-start transition-none",
                 item.variantNumber !== undefined ? "pl-2 py-0.5" : "",
               )}
               onMouseEnter={() => enter(item.nodeId)}
@@ -222,7 +222,7 @@ export function MaterialTreeNode({
         <FieldContent>
           <FieldLabel
             htmlFor={checkboxId}
-            className="cursor-pointer flex flex-row gap-2 items-center px-2 py-1 rounded-lg text-sm text-foreground w-full justify-start transition-colors hover:bg-accent hover:text-accent-foreground"
+            className="flex flex-row gap-2 items-center px-2 py-1 rounded-lg text-sm text-foreground w-full justify-start transition-colors hover:bg-accent hover:text-accent-foreground"
             onMouseEnter={() => enter(item.nodeId)}
             onMouseLeave={() => reset()}
             onFocus={() => enter(item.nodeId)}

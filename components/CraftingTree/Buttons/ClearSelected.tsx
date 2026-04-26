@@ -35,7 +35,6 @@ export function ClearSelected(props: Props) {
         <Button
           type="button"
           variant="secondary"
-          className="cursor-pointer"
           aria-label="Clear selected materials"
         >
           <Eraser aria-hidden="true" />

@@ -68,7 +68,7 @@ function MaterialRow({
           }
         />
         <CollapsibleTrigger className="flex-1">
-          <div className="cursor-pointer flex flex-row gap-2 items-center pr-2 pl-2 py-0.5 rounded-lg text-sm group hover:bg-accent w-full justify-start transition-none">
+          <div className="flex flex-row gap-2 items-center pr-2 pl-2 py-0.5 rounded-lg text-sm group hover:bg-accent w-full justify-start transition-none">
             {material.image && (
               <img
                 src={createImageUrlPath(material.image)}
@@ -77,7 +77,9 @@ function MaterialRow({
                 alt={material.name}
               />
             )}
-            <span className="font-semibold text-foreground">{totalQuantity}x</span>
+            <span className="font-semibold text-foreground">
+              {totalQuantity}x
+            </span>
             <span className="text-left">{material.name}</span>
             <ChevronDown
               className={cn(

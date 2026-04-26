@@ -77,11 +77,9 @@ export const useSelectedMaterial = create<SelectedMaterialStore>()(
           },
         }),
       clearMarkedMaterials: (itemIdKey: string) =>
-        set({
-          items: {
-            ...get().items,
-            [itemIdKey]: [],
-          },
+        set((state) => {
+          const { [itemIdKey]: _, ...rest } = state.items;
+          return { items: rest };
         }),
       resetAllToTodo: (itemIdKey: string) =>
         set({

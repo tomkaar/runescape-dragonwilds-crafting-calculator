@@ -26,9 +26,7 @@ export default function TableHead(props: TableHeadProps) {
               >
                 <div
                   {...{
-                    className: header.column.getCanSort()
-                      ? "cursor-pointer select-none"
-                      : "",
+                    className: header.column.getCanSort() ? "select-none" : "",
                     onClick: header.column.getToggleSortingHandler(),
                   }}
                 >

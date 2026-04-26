@@ -16,7 +16,6 @@ export function Direction() {
     <Button
       type="button"
       variant="secondary"
-      className="cursor-pointer"
       onClick={handleChangeDirection}
       aria-pressed={!isTopToBottom}
       aria-label={

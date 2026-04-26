@@ -18,7 +18,7 @@ export function Favourite(props: Props) {
   };
 
   return (
-    <button onClick={toggleFavourite} className="cursor-pointer">
+    <button onClick={toggleFavourite}>
       {isFavourited ? (
         <StarIcon className="w-5 h-5 text-title fill-title" />
       ) : (

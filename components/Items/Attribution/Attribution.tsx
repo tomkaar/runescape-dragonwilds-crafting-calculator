@@ -10,7 +10,7 @@ export function AccordionAttribution() {
       value="attribution"
       className="bg-background rounded-lg border border-accent"
     >
-      <AccordionTrigger className="cursor-pointer text-foreground px-4">
+      <AccordionTrigger className="text-foreground px-4">
         <div className="flex flex-col">Attribution</div>
       </AccordionTrigger>
 

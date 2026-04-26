@@ -17,7 +17,7 @@ export function LastSynced() {
       <DialogTrigger asChild>
         <Button
           variant="ghost"
-          className="cursor-pointer text-left text-xs text-muted-foreground gap-3 whitespace-nowrap justify-start"
+          className="text-left text-xs text-muted-foreground gap-3 whitespace-nowrap justify-start"
         >
           <CalendarIcon size={14} />
           <span>

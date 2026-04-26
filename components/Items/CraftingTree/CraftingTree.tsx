@@ -14,7 +14,7 @@ export function AccordionCraftingTree({ itemId }: { itemId: string }) {
       value="crafting-tree"
       className="bg-background rounded-lg border border-accent"
     >
-      <AccordionTrigger className="cursor-pointer text-foreground px-4">
+      <AccordionTrigger className="text-foreground px-4">
         <div className="flex flex-col">
           Crafting Tree
           <span className="text-xs text-muted-foreground">

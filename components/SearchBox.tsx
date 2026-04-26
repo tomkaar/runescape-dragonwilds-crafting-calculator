@@ -94,7 +94,7 @@ export function SearchBox() {
                   key={item.id}
                   index={virtualItem.index}
                   value={item}
-                  className="absolute left-0 top-0 w-full cursor-pointer py-1"
+                  className="absolute left-0 top-0 w-full py-1"
                   style={{
                     height: virtualItem.size,
                     transform: `translateY(${virtualItem.start}px)`,

@@ -47,7 +47,7 @@ export function AllMaterialsDropdownMenu({
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button className="cursor-pointer p-1 rounded hover:bg-secondary text-muted-foreground hover:text-foreground">
+        <button className="p-1 rounded hover:bg-secondary text-muted-foreground hover:text-foreground">
           <Ellipsis className="size-3.5" />
         </button>
       </DropdownMenuTrigger>
@@ -105,7 +105,7 @@ export function MaterialNavigateMenu({ materialId }: { materialId: string }) {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button className="cursor-pointer p-1 rounded hover:bg-secondary text-muted-foreground hover:text-foreground">
+        <button className="p-1 rounded hover:bg-secondary text-muted-foreground hover:text-foreground">
           <Ellipsis className="size-3.5" />
         </button>
       </DropdownMenuTrigger>

@@ -10,12 +10,16 @@ import { getUsedIn } from "@/utils/getUsedIn";
 export function AccordionUsedIn({ itemId }: { itemId: string }) {
   const usedIn = getUsedIn(itemId);
 
+  if (usedIn === undefined || usedIn.length === 0) {
+    return null;
+  }
+
   return (
     <AccordionItem
       value="used-in"
       className="bg-background rounded-lg border border-accent"
     >
-      <AccordionTrigger className="cursor-pointer text-foreground px-4">
+      <AccordionTrigger className="text-foreground px-4">
         <div className="flex flex-col">
           Used in
           <span className="text-xs text-muted-foreground">

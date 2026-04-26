@@ -200,7 +200,7 @@ const Content = memo(function InnerContent(props: ContentProps) {
         <button
           onClick={handleToggleItem}
           className={cn(
-            "cursor-pointer flex flex-row gap-1 items-center pl-1 py-1",
+            "flex flex-row gap-1 items-center pl-1 py-1",
             isRecipeNumberVariant !== null && "pr-2",
           )}
           disabled={isRecipeNumberVariant !== null}

@@ -18,7 +18,7 @@ export function AccordionMaterials({ itemId }: { itemId: string }) {
       value="materials"
       className="bg-background rounded-lg border border-accent"
     >
-      <AccordionTrigger className="cursor-pointer text-foreground px-4">
+      <AccordionTrigger className="text-foreground px-4">
         <div className="flex flex-col">
           Recipe (x{multiplier})
           <span className="text-xs text-muted-foreground">

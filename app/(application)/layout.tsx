@@ -1,4 +1,5 @@
 import { SearchBox } from "@/components/SearchBox";
+import { ProgressNavLink } from "@/components/Progress/ProgressNavLink";
 import {
   AnvilIcon,
   GithubIcon,
@@ -66,11 +67,7 @@ export default function Layout(props: Props) {
             <Sheet>
               <SheetTrigger
                 render={
-                  <Button
-                    variant="ghost"
-                    size="icon-sm"
-                    className="cursor-pointer"
-                  >
+                  <Button variant="ghost" size="icon-sm">
                     <MenuIcon />
                     <span className="sr-only">Open menu</span>
                   </Button>
@@ -95,6 +92,7 @@ export default function Layout(props: Props) {
                     <ListIcon size={16} />
                     All items
                   </Link>
+                  <ProgressNavLink className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-card" />
                   <a
                     href="https://dragonwilds.runescape.wiki"
                     target="_blank"
@@ -134,7 +132,7 @@ export default function Layout(props: Props) {
           </div>
           <Popover>
             <PopoverTrigger asChild>
-              <Button variant="ghost" className="group cursor-pointer">
+              <Button variant="ghost" className="group">
                 <StarIcon className="group-data-[state=open]:text-title group-data-[state=open]:fill-title" />
                 Favourites
               </Button>
@@ -162,6 +160,9 @@ export default function Layout(props: Props) {
               All items
             </Link>
           </div>
+          <div className="hidden lg:block">
+            <ProgressNavLink className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-card whitespace-nowrap" />
+          </div>
         </div>
 
         <div className="shrink-0 hidden lg:flex gap-2 flex-row items-center">
@@ -170,7 +171,7 @@ export default function Layout(props: Props) {
           </div>
           <Dialog>
             <DialogTrigger asChild>
-              <button className="cursor-pointer border border-border rounded-full p-1.5 size-9 flex items-center justify-center">
+              <button className="border border-border rounded-full p-1.5 size-9 flex items-center justify-center">
                 <Scale className="w-4 h-4" />
               </button>
             </DialogTrigger>

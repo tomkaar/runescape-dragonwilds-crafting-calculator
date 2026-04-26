@@ -9,14 +9,10 @@ import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
 import { AccordionAllMaterials } from "../../../../components/Items/AllMaterials/AllMaterials";
 import { AccordionCraftingTree } from "../../../../components/Items/CraftingTree/CraftingTree";
 import { AccordionMaterials } from "../../../../components/Items/Materials/Materials";
+import { AccordionNextSteps } from "../../../../components/Items/NextSteps/NextSteps";
 import { AccordionUsedIn } from "../../../../components/Items/UsedIn/UsedIn";
 import { ClearSelected } from "../../../../components/CraftingTree/Buttons/ClearSelected";
 import { Direction } from "../../../../components/CraftingTree/Buttons/Direction";
-import itemJSON from "@/data/items.json";
-import { Item } from "@/Types";
-import { AccordionAttribution } from "@/components/Items/Attribution/Attribution";
-
-const items = itemJSON.sort((a, b) => a.name.localeCompare(b.name)) as Item[];
 
 type Props = {
   params: Promise<{ itemId: string }>;
@@ -53,10 +49,10 @@ export default async function ItemPage(props: Props) {
 
         <AccordionPersisted className="flex flex-col gap-2 pb-2">
           <AccordionMaterials itemId={itemId} />
+          <AccordionNextSteps itemId={itemId} />
           <AccordionUsedIn itemId={itemId} />
           <AccordionAllMaterials />
           <AccordionCraftingTree itemId={itemId} />
-          <AccordionAttribution />
         </AccordionPersisted>
       </div>
 
@@ -78,9 +74,9 @@ export default async function ItemPage(props: Props) {
             <div className="overflow-scroll rounded-lg flex flex-col gap-4 pb-8">
               <AccordionPersisted className="flex flex-col gap-2 pb-2">
                 <AccordionMaterials itemId={itemId} />
+                <AccordionNextSteps itemId={itemId} />
                 <AccordionUsedIn itemId={itemId} />
                 <AccordionAllMaterials />
-                <AccordionAttribution />
               </AccordionPersisted>
             </div>
           </Panel>

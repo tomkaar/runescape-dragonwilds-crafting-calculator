@@ -2,7 +2,7 @@ import { FavouriteItemsList } from "@/components/FavouriteItemsList";
 import { SearchBox } from "@/components/SearchBox";
 import { type Metadata } from "next";
 import Link from "next/link";
-import { AnvilIcon, SearchIcon, StarIcon, TableIcon } from "lucide-react";
+import { AnvilIcon, CheckSquareIcon, SearchIcon, StarIcon, TableIcon } from "lucide-react";
 
 export function generateMetadata(): Metadata {
   return {
@@ -51,6 +51,18 @@ export default function Home() {
                 <span className="font-medium">Browse all items</span>
                 <span className="block text-xs text-muted-foreground">
                   Search, filter, and sort the full item table
+                </span>
+              </div>
+            </Link>
+            <Link
+              href="/progress"
+              className="flex items-center gap-3 rounded-md border border-border bg-background px-4 py-3 text-sm hover:bg-card/50 transition-colors"
+            >
+              <CheckSquareIcon className="size-4 text-muted-foreground shrink-0" />
+              <div>
+                <span className="font-medium">Progress tracker</span>
+                <span className="block text-xs text-muted-foreground">
+                  Track materials and next steps across all items
                 </span>
               </div>
             </Link>
