@@ -1396,10 +1396,10 @@
       "Cooking"
     ],
     "uses_facility": [
-      "Cooking Range"
+      "Stone Range"
     ],
     "json": {
-      "facility": "Cooking Range",
+      "facility": "Stone Range",
       "materials": [
         {
           "quantity": "1",
@@ -1410,10 +1410,10 @@
           "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Feathers",
           "link": "Feathers",
-          "qty": 1,
+          "qty": "1",
           "item": "Feathers",
           "image": "[[File:Feathers.png|30px|link=Feathers]]"
         }
@@ -1428,10 +1428,63 @@
         "Fleet-Footed Infusion"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Fleet-Footed Infusion",
         "link": "Fleet-Footed Infusion",
-        "qty": 1,
+        "qty": "1",
+        "item": "Fleet-Footed Infusion",
+        "image": "[[File:Fleet-Footed Infusion.png|30px|link=Fleet-Footed Infusion]]"
+      }
+    },
+    "output": [
+      "Fleet-Footed Infusion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clean Water",
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clean Water",
+          "link": "Clean Water",
+          "qty": "1",
+          "item": "Clean Water",
+          "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "1",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "15"
+        }
+      ],
+      "outputs": [
+        "Fleet-Footed Infusion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Fleet-Footed Infusion",
+        "link": "Fleet-Footed Infusion",
+        "qty": "1",
         "item": "Fleet-Footed Infusion",
         "image": "[[File:Fleet-Footed Infusion.png|30px|link=Fleet-Footed Infusion]]"
       }
@@ -3564,6 +3617,68 @@
     },
     "output": [
       "Adhesive"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clean Water",
+      "Animal Bone",
+      "Harralander"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clean Water",
+          "link": "Clean Water",
+          "qty": "1",
+          "item": "Clean Water",
+          "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Animal Bone",
+          "link": "Animal Bone",
+          "qty": "1",
+          "item": "Animal Bone",
+          "image": "[[File:Animal Bone.png|30px|link=Animal Bone]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Harralander",
+          "link": "Harralander",
+          "qty": "1",
+          "item": "Harralander",
+          "image": "[[File:Harralander.png|30px|link=Harralander]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "15"
+        }
+      ],
+      "outputs": [
+        "Ferocious Infusion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ferocious Infusion",
+        "link": "Ferocious Infusion",
+        "qty": "1",
+        "item": "Ferocious Infusion",
+        "image": "[[File:Ferocious Infusion.png|30px|link=Ferocious Infusion]]"
+      }
+    },
+    "output": [
+      "Ferocious Infusion"
     ]
   },
   {
@@ -6748,6 +6863,59 @@
       "Cooking"
     ],
     "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clean Water",
+          "link": "Clean Water",
+          "qty": "1",
+          "item": "Clean Water",
+          "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Small Animal Fang",
+          "link": "Small Animal Fang",
+          "qty": "1",
+          "item": "Small Animal Fang",
+          "image": "[[File:Small Animal Fang.png|30px|link=Small Animal Fang]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "15"
+        }
+      ],
+      "outputs": [
+        "Evasive Infusion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Evasive Infusion",
+        "link": "Evasive Infusion",
+        "qty": "1",
+        "item": "Evasive Infusion",
+        "image": "[[File:Evasive Infusion.png|30px|link=Evasive Infusion]]"
+      }
+    },
+    "output": [
+      "Evasive Infusion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clean Water",
+      "Small Animal Fang"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
       "Cooking Range"
     ],
     "json": {
@@ -6780,10 +6948,10 @@
         "Evasive Infusion"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Evasive Infusion",
         "link": "Evasive Infusion",
-        "qty": 1,
+        "qty": "1",
         "item": "Evasive Infusion",
         "image": "[[File:Evasive Infusion.png|30px|link=Evasive Infusion]]"
       }
@@ -10917,6 +11085,59 @@
     },
     "output": [
       "Redberry Roast Rat"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clean Water",
+      "Redberries"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clean Water",
+          "link": "Clean Water",
+          "qty": "1",
+          "item": "Clean Water",
+          "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "1",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "15"
+        }
+      ],
+      "outputs": [
+        "Redberry Infusion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Redberry Infusion",
+        "link": "Redberry Infusion",
+        "qty": "1",
+        "item": "Redberry Infusion",
+        "image": "[[File:Redberry Infusion.png|30px|link=Redberry Infusion]]"
+      }
+    },
+    "output": [
+      "Redberry Infusion"
     ]
   },
   {
@@ -31234,6 +31455,68 @@
       "Cooking"
     ],
     "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clean Water",
+          "link": "Clean Water",
+          "qty": "1",
+          "item": "Clean Water",
+          "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Animal Hide Scraps",
+          "link": "Animal Hide Scraps",
+          "qty": "1",
+          "item": "Animal Hide Scraps",
+          "image": "[[File:Animal Hide Scraps.png|30px|link=Animal Hide Scraps]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Harralander",
+          "link": "Harralander",
+          "qty": "1",
+          "item": "Harralander",
+          "image": "[[File:Harralander.png|30px|link=Harralander]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "15"
+        }
+      ],
+      "outputs": [
+        "Relentless Infusion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Relentless Infusion",
+        "link": "Relentless Infusion",
+        "qty": "1",
+        "item": "Relentless Infusion",
+        "image": "[[File:Relentless Infusion.png|30px|link=Relentless Infusion]]"
+      }
+    },
+    "output": [
+      "Relentless Infusion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clean Water",
+      "Animal Hide Scraps",
+      "Harralander"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
       "Cooking Range"
     ],
     "json": {
@@ -31284,6 +31567,68 @@
     },
     "output": [
       "Relentless Infusion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clean Water",
+      "Antler",
+      "Harralander"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clean Water",
+          "link": "Clean Water",
+          "qty": "1",
+          "item": "Clean Water",
+          "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Antler",
+          "link": "Antler",
+          "qty": "1",
+          "item": "Antler",
+          "image": "[[File:Antler.png|30px|link=Antler]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Harralander",
+          "link": "Harralander",
+          "qty": "1",
+          "item": "Harralander",
+          "image": "[[File:Harralander.png|30px|link=Harralander]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "15"
+        }
+      ],
+      "outputs": [
+        "Arcane Infusion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Arcane Infusion",
+        "link": "Arcane Infusion",
+        "qty": "1",
+        "item": "Arcane Infusion",
+        "image": "[[File:Arcane Infusion.png|30px|link=Arcane Infusion]]"
+      }
+    },
+    "output": [
+      "Arcane Infusion"
     ]
   },
   {
@@ -53741,6 +54086,112 @@
     },
     "output": [
       "Herb Baked Trout"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fried Egg",
+      "Fried Salmon"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fried Egg",
+          "link": "Fried Egg",
+          "qty": "1",
+          "item": "Fried Egg",
+          "image": "[[File:Fried Egg.png|30px|link=Fried Egg]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Fried Salmon",
+          "link": "Fried Salmon",
+          "qty": "1",
+          "item": "Fried Salmon",
+          "image": "[[File:Fried Salmon.png|30px|link=Fried Salmon]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Eggs Royale"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Eggs Royale",
+        "link": "Eggs Royale",
+        "qty": "1",
+        "item": "Eggs Royale",
+        "image": "[[File:Eggs Royale.png|30px|link=Eggs Royale]]"
+      }
+    },
+    "output": [
+      "Eggs Royale"
+    ]
+  },
+  {
+    "uses_material": [
+      "Grilled Undead Bass",
+      "Grilled Tomatoes"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Grilled Undead Bass",
+          "link": "Grilled Undead Bass",
+          "qty": "1",
+          "item": "Grilled Undead Bass",
+          "image": "[[File:Grilled Undead Bass.png|30px|link=Grilled Undead Bass]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Grilled Tomatoes",
+          "link": "Grilled Tomatoes",
+          "qty": "1",
+          "item": "Grilled Tomatoes",
+          "image": "[[File:Grilled Tomatoes.png|30px|link=Grilled Tomatoes]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Undead Delight"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Undead Delight",
+        "link": "Undead Delight",
+        "qty": "1",
+        "item": "Undead Delight",
+        "image": "[[File:Undead Delight.png|30px|link=Undead Delight]]"
+      }
+    },
+    "output": [
+      "Undead Delight"
     ]
   },
   {
