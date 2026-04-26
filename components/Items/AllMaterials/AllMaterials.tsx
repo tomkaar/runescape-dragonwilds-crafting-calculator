@@ -1,3 +1,6 @@
+"use client";
+
+import { useSelectedMaterial } from "@/store/selected-material";
 import { AllMaterialsContent } from "@/components/Items/AllMaterials/Content";
 import {
   AccordionContent,
@@ -6,6 +9,11 @@ import {
 } from "@/components/ui/accordion";
 
 export function AccordionAllMaterials() {
+  const rawRecipes = useSelectedMaterial((state) => state.items);
+  const hasItems = Object.values(rawRecipes).some((v) => v.length > 0);
+
+  if (!hasItems) return null;
+
   return (
     <AccordionItem
       value="selected"
