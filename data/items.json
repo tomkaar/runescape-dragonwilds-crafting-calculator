@@ -29960,16 +29960,16 @@
     "image": "Blue Dragonhide Body.png",
     "variants": [
       {
-        "id": "c535bab4d3e0",
+        "id": "bce22edc07ca",
         "name": "Blue Dragonhide Body",
         "image": "Blue Dragonhide Body.png",
         "variantName": null,
         "recipe": {
-          "id": "aa580ebfd887",
+          "id": "0a6e91b8a409",
           "facility": "Smithing Anvil",
           "materials": [
             {
-              "itemId": "3e3501cafb37",
+              "itemId": "f81c9d2ccbe3",
               "quantity": 12
             },
             {
@@ -30051,16 +30051,16 @@
     "image": "Blue Dragonhide Coif.png",
     "variants": [
       {
-        "id": "1729557c294b",
+        "id": "dffa9f1bcf1b",
         "name": "Blue Dragonhide Coif",
         "image": "Blue Dragonhide Coif.png",
         "variantName": null,
         "recipe": {
-          "id": "87cd1fb97873",
+          "id": "7d03a0410ff1",
           "facility": "Smithing Anvil",
           "materials": [
             {
-              "itemId": "3e3501cafb37",
+              "itemId": "f81c9d2ccbe3",
               "quantity": 4
             },
             {
@@ -30096,16 +30096,16 @@
     "image": "Blue Dragonhide Chaps.png",
     "variants": [
       {
-        "id": "8f34a3cd8766",
+        "id": "529964968b74",
         "name": "Blue Dragonhide Chaps",
         "image": "Blue Dragonhide Chaps.png",
         "variantName": null,
         "recipe": {
-          "id": "6cde7be64c5d",
+          "id": "99fd87e8dd12",
           "facility": "Smithing Anvil",
           "materials": [
             {
-              "itemId": "3e3501cafb37",
+              "itemId": "f81c9d2ccbe3",
               "quantity": 6
             },
             {
