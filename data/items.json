@@ -903,6 +903,28 @@
     "image": "Fleet-Footed Infusion.png",
     "variants": [
       {
+        "id": "9b6416436d84",
+        "name": "Fleet-Footed Infusion",
+        "image": "Fleet-Footed Infusion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1f9fa36b1e48",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "cb9dc221c0f0",
+              "quantity": 1
+            },
+            {
+              "itemId": "7ddc50d536fd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
         "id": "524ea7e73c5f",
         "name": "Fleet-Footed Infusion",
         "image": "Fleet-Footed Infusion.png",
@@ -929,6 +951,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Fleet-Footed_Infusion",
@@ -2376,6 +2399,32 @@
     "image": "Ferocious Infusion.png",
     "variants": [
       {
+        "id": "0dc2c12a0565",
+        "name": "Ferocious Infusion",
+        "image": "Ferocious Infusion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "71a8fa97a8f6",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "797f584aebcf",
+              "quantity": 1
+            },
+            {
+              "itemId": "cb9dc221c0f0",
+              "quantity": 1
+            },
+            {
+              "itemId": "bc54ea66569d",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
         "id": "6148bd504286",
         "name": "Ferocious Infusion",
         "image": "Ferocious Infusion.png",
@@ -2406,6 +2455,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Ferocious_Infusion",
@@ -4414,6 +4464,28 @@
     "image": "Evasive Infusion.png",
     "variants": [
       {
+        "id": "ed83048ab106",
+        "name": "Evasive Infusion",
+        "image": "Evasive Infusion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4870756d3f1a",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "cb9dc221c0f0",
+              "quantity": 1
+            },
+            {
+              "itemId": "d32c9990fd10",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
         "id": "d6c5bc63e858",
         "name": "Evasive Infusion",
         "image": "Evasive Infusion.png",
@@ -4440,6 +4512,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Evasive_Infusion",
@@ -7260,6 +7333,28 @@
     "image": "Redberry Infusion.png",
     "variants": [
       {
+        "id": "91987f2e50de",
+        "name": "Redberry Infusion",
+        "image": "Redberry Infusion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b40cc7207fac",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "cb9dc221c0f0",
+              "quantity": 1
+            },
+            {
+              "itemId": "711fc213e603",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
         "id": "f9f7ee48ea21",
         "name": "Redberry Infusion",
         "image": "Redberry Infusion.png",
@@ -7286,6 +7381,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Redberry_Infusion",
@@ -19900,6 +19996,32 @@
     "image": "Relentless Infusion.png",
     "variants": [
       {
+        "id": "8b49823e8bdb",
+        "name": "Relentless Infusion",
+        "image": "Relentless Infusion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5391d911b41e",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "89a3b6b77425",
+              "quantity": 1
+            },
+            {
+              "itemId": "cb9dc221c0f0",
+              "quantity": 1
+            },
+            {
+              "itemId": "bc54ea66569d",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
         "id": "525137121526",
         "name": "Relentless Infusion",
         "image": "Relentless Infusion.png",
@@ -19930,6 +20052,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Relentless_Infusion",
@@ -19941,6 +20064,32 @@
     "name": "Arcane Infusion",
     "image": "Arcane Infusion.png",
     "variants": [
+      {
+        "id": "887f3bfbc2fa",
+        "name": "Arcane Infusion",
+        "image": "Arcane Infusion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "745928b55d30",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "1433631489c8",
+              "quantity": 1
+            },
+            {
+              "itemId": "cb9dc221c0f0",
+              "quantity": 1
+            },
+            {
+              "itemId": "bc54ea66569d",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
       {
         "id": "35803f8e9076",
         "name": "Arcane Infusion",
@@ -19972,6 +20121,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Arcane_Infusion",
@@ -35174,6 +35324,82 @@
       "Cooking Range"
     ],
     "wikiLink": "Herb_Baked_Trout",
+    "weight": 0.7,
+    "stackLimit": 50
+  },
+  {
+    "id": "6caaba07c4d9",
+    "name": "Eggs Royale",
+    "image": "Eggs Royale.png",
+    "variants": [
+      {
+        "id": "3645c99317d0",
+        "name": "Eggs Royale",
+        "image": "Eggs Royale.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b3cd5101424e",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "46356211ccca",
+              "quantity": 1
+            },
+            {
+              "itemId": "9184f8250bdd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Eggs_Royale",
+    "weight": 0.7,
+    "stackLimit": 50
+  },
+  {
+    "id": "ed5ad821a71a",
+    "name": "Undead Delight",
+    "image": "Undead Delight.png",
+    "variants": [
+      {
+        "id": "756e4eb7aa12",
+        "name": "Undead Delight",
+        "image": "Undead Delight.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c98a6d3f376f",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "161878ef1d4a",
+              "quantity": 1
+            },
+            {
+              "itemId": "fbe87846e31b",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Undead_Delight",
     "weight": 0.7,
     "stackLimit": 50
   },

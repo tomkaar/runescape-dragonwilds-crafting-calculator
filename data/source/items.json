@@ -586,18 +586,14 @@
   },
   {
     "page_name": "Fleet-Footed Infusion",
-    "item_description": "PERK: Fleet Footed<br><br>REDUCES the STAMINA cost of SPRINTING<br><br>A thirst-quenching drink that puts a spring in your step.",
+    "item_description": "A thirst-quenching drink that puts a spring in your step.",
     "item_name": "Fleet-Footed Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Fleet Footed<br><br>REDUCES the STAMINA cost of SPRINTING<br><br>A thirst-quenching drink that puts a spring in your step.",
+      "description": "A thirst-quenching drink that puts a spring in your step.",
       "duration": "300 seconds",
-      "perk": {
-        "name": "Fleet Footed",
-        "effect": "REDUCES the STAMINA cost of SPRINTING<br><br>A thirst-quenching drink that puts a spring in your step."
-      },
       "image": "[[File:Fleet-Footed Infusion.png|32px]]",
       "name": "Fleet-Footed Infusion",
       "hydration": "40",
@@ -1285,18 +1281,14 @@
   },
   {
     "page_name": "Ferocious Infusion",
-    "item_description": "PERK: Ferocious Fighter<br><br>REDUCES the STAMINA cost of PHYSICAL ATTACKS by 33%<br><br>A hydrating drink infused with primal fury.",
+    "item_description": "A hydrating drink infused with primal fury.",
     "item_name": "Ferocious Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Ferocious Fighter<br><br>REDUCES the STAMINA cost of PHYSICAL ATTACKS by 33%<br><br>A hydrating drink infused with primal fury.",
+      "description": "A hydrating drink infused with primal fury.",
       "duration": "300 seconds",
-      "perk": {
-        "name": "Ferocious Fighter",
-        "effect": "REDUCES the STAMINA cost of PHYSICAL ATTACKS by 33%<br><br>A hydrating drink infused with primal fury."
-      },
       "image": "[[File:Ferocious Infusion.png|32px]]",
       "name": "Ferocious Infusion",
       "hydration": "40",
@@ -2327,18 +2319,14 @@
   },
   {
     "page_name": "Evasive Infusion",
-    "item_description": "PERK: Evasion<br><br>REDUCES the STAMINA cost of DODGING<br><br>A thirst-quenching drink that improves your reflexes.",
+    "item_description": "A thirst-quenching drink that improves your reflexes.",
     "item_name": "Evasive Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Evasion<br><br>REDUCES the STAMINA cost of DODGING<br><br>A thirst-quenching drink that improves your reflexes.",
+      "description": "A thirst-quenching drink that improves your reflexes.",
       "duration": "300 seconds",
-      "perk": {
-        "name": "Evasion",
-        "effect": "REDUCES the STAMINA cost of DODGING<br><br>A thirst-quenching drink that improves your reflexes."
-      },
       "image": "[[File:Evasive Infusion.png|32px]]",
       "name": "Evasive Infusion",
       "hydration": "40",
@@ -4196,18 +4184,14 @@
   },
   {
     "page_name": "Redberry Infusion",
-    "item_description": "PERK: Quenched<br><br>REDUCES the rate at which you become THIRSTY<br><br>A refreshing, fruity drink. Good for hydration.",
+    "item_description": "A refreshing, fruity drink. Good for hydration.",
     "item_name": "Redberry Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Quenched<br><br>REDUCES the rate at which you become THIRSTY<br><br>A refreshing, fruity drink. Good for hydration.",
+      "description": "A refreshing, fruity drink. Good for hydration.",
       "duration": "300 seconds",
-      "perk": {
-        "name": "Quenched",
-        "effect": "REDUCES the rate at which you become THIRSTY<br><br>A refreshing, fruity drink. Good for hydration."
-      },
       "image": "[[File:Redberry Infusion.png|32px]]",
       "name": "Redberry Infusion",
       "hydration": "40",
@@ -7310,18 +7294,14 @@
   },
   {
     "page_name": "Relentless Infusion",
-    "item_description": "PERK: Relentless Ranger<br><br>REDUCES the STAMINA cost of RANGED ATTACKS by 33%<br><br>A tasty tipple that'll put a quiver in your quiver.",
+    "item_description": "A tasty tipple that'll put a quiver in your quiver.",
     "item_name": "Relentless Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Relentless Ranger<br><br>REDUCES the STAMINA cost of RANGED ATTACKS by 33%<br><br>A tasty tipple that'll put a quiver in your quiver.",
+      "description": "A tasty tipple that'll put a quiver in your quiver.",
       "duration": "300 seconds",
-      "perk": {
-        "name": "Relentless Ranger",
-        "effect": "REDUCES the STAMINA cost of RANGED ATTACKS by 33%<br><br>A tasty tipple that'll put a quiver in your quiver."
-      },
       "image": "[[File:Relentless Infusion.png|32px]]",
       "name": "Relentless Infusion",
       "hydration": "40",
@@ -7334,18 +7314,14 @@
   },
   {
     "page_name": "Arcane Infusion",
-    "item_description": "PERK: Arcane Aligned<br><br>REDUCES the STAMINA cost of MAGIC ATTACKS by 33%<br><br>Puts the whiz in wizard.",
+    "item_description": "Puts the whiz in wizard.",
     "item_name": "Arcane Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Arcane Aligned<br><br>REDUCES the STAMINA cost of MAGIC ATTACKS by 33%<br><br>Puts the whiz in wizard.",
+      "description": "Puts the whiz in wizard.",
       "duration": "300 seconds",
-      "perk": {
-        "name": "Arcane Aligned",
-        "effect": "REDUCES the STAMINA cost of MAGIC ATTACKS by 33%<br><br>Puts the whiz in wizard."
-      },
       "image": "[[File:Arcane Infusion.png|32px]]",
       "name": "Arcane Infusion",
       "hydration": "40",
@@ -16336,7 +16312,7 @@
       "image": "[[File:Victoria Sponge Cake.png|32px]]",
       "name": "Victoria Sponge Cake",
       "weight": "0.4",
-      "sustenance": "15",
+      "sustenance": "85",
       "stacklimit": "99",
       "image_raw": "Victoria Sponge Cake.png"
     },
@@ -16669,6 +16645,48 @@
     "page_name_sub": "Herb Baked Trout"
   },
   {
+    "page_name": "Eggs Royale",
+    "item_description": "Made by combining fried egg and fried salmon. Grants the Sea Life perk.",
+    "item_name": "Eggs Royale",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Made by combining fried egg and fried salmon. Grants the Sea Life perk.",
+      "duration": "900 seconds",
+      "image": "[[File:Eggs Royale.png|32px]]",
+      "name": "Eggs Royale",
+      "weight": "0.7",
+      "sustenance": "45",
+      "health": "35",
+      "stacklimit": "50",
+      "image_raw": "Eggs Royale.png"
+    },
+    "item_weight": 0.7,
+    "page_name_sub": "Eggs Royale"
+  },
+  {
+    "page_name": "Undead Delight",
+    "item_description": "Made by combining fried grilled undead bass and grilled tomato. Grants the Sea Life perk.",
+    "item_name": "Undead Delight",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Made by combining fried grilled undead bass and grilled tomato. Grants the Sea Life perk.",
+      "duration": "1,200 seconds",
+      "image": "[[File:Undead Delight.png|32px]]",
+      "name": "Undead Delight",
+      "weight": "0.7",
+      "sustenance": "50",
+      "health": "45",
+      "stacklimit": "50",
+      "image_raw": "Undead Delight.png"
+    },
+    "item_weight": 0.7,
+    "page_name_sub": "Undead Delight"
+  },
+  {
     "page_name": "Berry Drizzle Pan-Seared",
     "item_description": "Made by combining smoked herring, seared anchovies and dried dwellberry.",
     "item_name": "Berry Drizzle Pan-Seared",
@@ -16850,17 +16868,21 @@
   },
   {
     "page_name": "Weak Focused Fishing Potion",
-    "item_description": "Grants a boost to your Fishing XP for a short period of time.",
+    "item_description": "PERK: Weak Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
     "item_name": "Weak Focused Fishing Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "Grants a boost to your Fishing XP for a short period of time.",
+      "description": "PERK: Weak Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
       "duration": "300 seconds",
       "image": "[[File:Weak Focused Fishing Potion.png|32px]]",
       "name": "Weak Focused Fishing Potion",
       "weight": "1.0",
+      "perk": {
+        "name": "Weak Focused Fishing",
+        "effect": "Grants a boost to your Fishing XP for a short period of time."
+      },
       "stacklimit": "50",
       "image_raw": "Weak Focused Fishing Potion.png"
     },
@@ -16869,17 +16891,21 @@
   },
   {
     "page_name": "Lesser Focused Fishing Potion",
-    "item_description": "Grants a boost to your Fishing XP for a short period of time.",
+    "item_description": "PERK: Lesser Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
     "item_name": "Lesser Focused Fishing Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "Grants a boost to your Fishing XP for a short period of time.",
+      "description": "PERK: Lesser Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
       "duration": "600 seconds",
       "image": "[[File:Lesser Focused Fishing Potion.png|32px]]",
       "name": "Lesser Focused Fishing Potion",
       "weight": "1.0",
+      "perk": {
+        "name": "Lesser Focused Fishing",
+        "effect": "Grants a boost to your Fishing XP for a short period of time."
+      },
       "stacklimit": "50",
       "image_raw": "Lesser Focused Fishing Potion.png"
     },
@@ -16888,17 +16914,21 @@
   },
   {
     "page_name": "Focused Fishing Potion",
-    "item_description": "Grants a boost to your Fishing XP for a short period of time.",
+    "item_description": "PERK: Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
     "item_name": "Focused Fishing Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "Grants a boost to your Fishing XP for a short period of time.",
+      "description": "PERK: Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
       "duration": "300 seconds",
       "image": "[[File:Focused Fishing Potion.png|32px]]",
       "name": "Focused Fishing Potion",
       "weight": "1.0",
+      "perk": {
+        "name": "Focused Fishing",
+        "effect": "Grants a boost to your Fishing XP for a short period of time."
+      },
       "stacklimit": "50",
       "image_raw": "Focused Fishing Potion.png"
     },
