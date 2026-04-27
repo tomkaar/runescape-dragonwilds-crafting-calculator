@@ -1953,6 +1953,59 @@
       "Cooking"
     ],
     "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fillet",
+          "link": "Fillet",
+          "qty": "1",
+          "item": "Fillet",
+          "image": "[[File:Fillet.png|30px|link=Fillet]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Haunch",
+          "link": "Haunch",
+          "qty": "1",
+          "item": "Haunch",
+          "image": "[[File:Haunch.png|30px|link=Haunch]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Meat Stew"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Meat Stew",
+        "link": "Meat Stew",
+        "qty": "1",
+        "item": "Meat Stew",
+        "image": "[[File:Meat Stew.png|30px|link=Meat Stew]]"
+      }
+    },
+    "output": [
+      "Meat Stew"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fillet",
+      "Haunch"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
       "Cooking Range"
     ],
     "json": {
@@ -1985,10 +2038,10 @@
         "Meat Stew"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Meat Stew",
         "link": "Meat Stew",
-        "qty": 1,
+        "qty": "1",
         "item": "Meat Stew",
         "image": "[[File:Meat Stew.png|30px|link=Meat Stew]]"
       }
@@ -2311,6 +2364,59 @@
       "Cooking"
     ],
     "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fried Cabbage",
+          "link": "Fried Cabbage",
+          "qty": "1",
+          "item": "Fried Cabbage",
+          "image": "[[File:Fried Cabbage.png|30px|link=Fried Cabbage]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Baked Potato",
+          "link": "Baked Potato",
+          "qty": "1",
+          "item": "Baked Potato",
+          "image": "[[File:Baked Potato.png|30px|link=Baked Potato]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Vegetable Soup"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Vegetable Soup",
+        "link": "Vegetable Soup",
+        "qty": "1",
+        "item": "Vegetable Soup",
+        "image": "[[File:Vegetable Soup.png|30px|link=Vegetable Soup]]"
+      }
+    },
+    "output": [
+      "Vegetable Soup"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fried Cabbage",
+      "Baked Potato"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
       "Cooking Range"
     ],
     "json": {
@@ -2343,10 +2449,10 @@
         "Vegetable Soup"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Vegetable Soup",
         "link": "Vegetable Soup",
-        "qty": 1,
+        "qty": "1",
         "item": "Vegetable Soup",
         "image": "[[File:Vegetable Soup.png|30px|link=Vegetable Soup]]"
       }
@@ -2420,6 +2526,50 @@
     ],
     "json": {
       "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Bittercap Mushroom",
+          "link": "Bittercap Mushroom",
+          "qty": "1",
+          "item": "Bittercap Mushroom",
+          "image": "[[File:Bittercap Mushroom.png|30px|link=Bittercap Mushroom]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Grilled Mushrooms"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Grilled Mushrooms",
+        "link": "Grilled Mushrooms",
+        "qty": "1",
+        "item": "Grilled Mushrooms",
+        "image": "[[File:Grilled Mushrooms.png|30px|link=Grilled Mushrooms]]"
+      }
+    },
+    "output": [
+      "Grilled Mushrooms"
+    ]
+  },
+  {
+    "uses_material": [
+      "Bittercap Mushroom"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
       "materials": [
         {
           "quantity": "1",
@@ -3741,6 +3891,59 @@
     },
     "output": [
       "Ferocious Infusion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clean Water",
+      "Dwellberries"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clean Water",
+          "link": "Clean Water",
+          "qty": "1",
+          "item": "Clean Water",
+          "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dwellberries",
+          "link": "Dwellberries",
+          "qty": "1",
+          "item": "Dwellberries",
+          "image": "[[File:Dwellberries.png|30px|link=Dwellberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "15"
+        }
+      ],
+      "outputs": [
+        "Dwellberry Infusion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dwellberry Infusion",
+        "link": "Dwellberry Infusion",
+        "qty": "1",
+        "item": "Dwellberry Infusion",
+        "image": "[[File:Dwellberry Infusion.png|30px|link=Dwellberry Infusion]]"
+      }
+    },
+    "output": [
+      "Dwellberry Infusion"
     ]
   },
   {
@@ -10673,6 +10876,50 @@
   },
   {
     "uses_material": [
+      "Raw Bestial Meat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Bestial Meat",
+          "link": "Raw Bestial Meat",
+          "qty": "1",
+          "item": "Raw Bestial Meat",
+          "image": "[[File:Raw Bestial Meat.png|30px|link=Raw Bestial Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Flank Steak"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Flank Steak",
+        "link": "Flank Steak",
+        "qty": "1",
+        "item": "Flank Steak",
+        "image": "[[File:Flank Steak.png|30px|link=Flank Steak]]"
+      }
+    },
+    "output": [
+      "Flank Steak"
+    ]
+  },
+  {
+    "uses_material": [
       "Iron Bar",
       "Oak Logs",
       "Hard Leather",
@@ -10859,6 +11106,50 @@
   },
   {
     "uses_material": [
+      "Onion"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Onion",
+          "link": "Onion",
+          "qty": "1",
+          "item": "Onion",
+          "image": "[[File:Onion.png|30px|link=Onion]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Fried Onions"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Fried Onions",
+        "link": "Fried Onions",
+        "qty": "1",
+        "item": "Fried Onions",
+        "image": "[[File:Fried Onions.png|30px|link=Fried Onions]]"
+      }
+    },
+    "output": [
+      "Fried Onions"
+    ]
+  },
+  {
+    "uses_material": [
       "Raw Game Meat"
     ],
     "uses_skill": [
@@ -10982,6 +11273,68 @@
       "Cooking"
     ],
     "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fillet",
+          "link": "Fillet",
+          "qty": "1",
+          "item": "Fillet",
+          "image": "[[File:Fillet.png|30px|link=Fillet]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Haunch",
+          "link": "Haunch",
+          "qty": "1",
+          "item": "Haunch",
+          "image": "[[File:Haunch.png|30px|link=Haunch]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Steak",
+          "link": "Steak",
+          "qty": "1",
+          "item": "Steak",
+          "image": "[[File:Steak.png|30px|link=Steak]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Mixed Grill"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mixed Grill",
+        "link": "Mixed Grill",
+        "qty": "1",
+        "item": "Mixed Grill",
+        "image": "[[File:Mixed Grill.png|30px|link=Mixed Grill]]"
+      }
+    },
+    "output": [
+      "Mixed Grill"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fillet",
+      "Haunch",
+      "Steak"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
       "Cooking Range"
     ],
     "json": {
@@ -11022,16 +11375,69 @@
         "Mixed Grill"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Mixed Grill",
         "link": "Mixed Grill",
-        "qty": 1,
+        "qty": "1",
         "item": "Mixed Grill",
         "image": "[[File:Mixed Grill.png|30px|link=Mixed Grill]]"
       }
     },
     "output": [
       "Mixed Grill"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rat Roast",
+      "Dried Redberries"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Rat Roast",
+          "link": "Rat Roast",
+          "qty": "1",
+          "item": "Rat Roast",
+          "image": "[[File:Rat Roast.png|30px|link=Rat Roast]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dried Redberries",
+          "link": "Dried Redberries",
+          "qty": "1",
+          "item": "Dried Redberries",
+          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Redberry Roast Rat"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Redberry Roast Rat",
+        "link": "Redberry Roast Rat",
+        "qty": "1",
+        "item": "Redberry Roast Rat",
+        "image": "[[File:Redberry Roast Rat.png|30px|link=Redberry Roast Rat]]"
+      }
+    },
+    "output": [
+      "Redberry Roast Rat"
     ]
   },
   {
@@ -11075,10 +11481,10 @@
         "Redberry Roast Rat"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Redberry Roast Rat",
         "link": "Redberry Roast Rat",
-        "qty": 1,
+        "qty": "1",
         "item": "Redberry Roast Rat",
         "image": "[[File:Redberry Roast Rat.png|30px|link=Redberry Roast Rat]]"
       }
@@ -31740,7 +32146,7 @@
   {
     "uses_material": [
       "Flank Steak",
-      "Steak",
+      "Baked Potato",
       "Dried Redberries"
     ],
     "uses_skill": [
@@ -31762,11 +32168,11 @@
         },
         {
           "quantity": "1",
-          "name": "Steak",
-          "link": "Steak",
+          "name": "Baked Potato",
+          "link": "Baked Potato",
           "qty": "1",
-          "item": "Steak",
-          "image": "[[File:Steak.png|30px|link=Steak]]"
+          "item": "Baked Potato",
+          "image": "[[File:Baked Potato.png|30px|link=Baked Potato]]"
         },
         {
           "quantity": "1",
@@ -31797,6 +32203,59 @@
     },
     "output": [
       "Roast Dinner"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fried Egg",
+      "Steak"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fried Egg",
+          "link": "Fried Egg",
+          "qty": "1",
+          "item": "Fried Egg",
+          "image": "[[File:Fried Egg.png|30px|link=Fried Egg]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Steak",
+          "link": "Steak",
+          "qty": "1",
+          "item": "Steak",
+          "image": "[[File:Steak.png|30px|link=Steak]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Steak 'N' Eggs"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Steak 'N' Eggs",
+        "link": "Steak 'N' Eggs",
+        "qty": "1",
+        "item": "Steak 'N' Eggs",
+        "image": "[[File:Steak 'N' Eggs.png|30px|link=Steak 'N' Eggs]]"
+      }
+    },
+    "output": [
+      "Steak 'N' Eggs"
     ]
   },
   {
@@ -31840,16 +32299,78 @@
         "Steak 'N' Eggs"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Steak 'N' Eggs",
         "link": "Steak 'N' Eggs",
-        "qty": 1,
+        "qty": "1",
         "item": "Steak 'N' Eggs",
         "image": "[[File:Steak 'N' Eggs.png|30px|link=Steak 'N' Eggs]]"
       }
     },
     "output": [
       "Steak 'N' Eggs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fried Cabbage",
+      "Baked Potato",
+      "Dried Redberries"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fried Cabbage",
+          "link": "Fried Cabbage",
+          "qty": "1",
+          "item": "Fried Cabbage",
+          "image": "[[File:Fried Cabbage.png|30px|link=Fried Cabbage]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Baked Potato",
+          "link": "Baked Potato",
+          "qty": "1",
+          "item": "Baked Potato",
+          "image": "[[File:Baked Potato.png|30px|link=Baked Potato]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dried Redberries",
+          "link": "Dried Redberries",
+          "qty": "1",
+          "item": "Dried Redberries",
+          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Sweet Veg Ball"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Sweet Veg Ball",
+        "link": "Sweet Veg Ball",
+        "qty": "1",
+        "item": "Sweet Veg Ball",
+        "image": "[[File:Sweet Veg Ball.png|30px|link=Sweet Veg Ball]]"
+      }
+    },
+    "output": [
+      "Sweet Veg Ball"
     ]
   },
   {
@@ -31902,10 +32423,10 @@
         "Sweet Veg Ball"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Sweet Veg Ball",
         "link": "Sweet Veg Ball",
-        "qty": 1,
+        "qty": "1",
         "item": "Sweet Veg Ball",
         "image": "[[File:Sweet Veg Ball.png|30px|link=Sweet Veg Ball]]"
       }
@@ -31986,6 +32507,68 @@
       "Cooking"
     ],
     "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Rat Roast",
+          "link": "Rat Roast",
+          "qty": "1",
+          "item": "Rat Roast",
+          "image": "[[File:Rat Roast.png|30px|link=Rat Roast]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Baked Potato",
+          "link": "Baked Potato",
+          "qty": "1",
+          "item": "Baked Potato",
+          "image": "[[File:Baked Potato.png|30px|link=Baked Potato]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Fried Egg",
+          "link": "Fried Egg",
+          "qty": "1",
+          "item": "Fried Egg",
+          "image": "[[File:Fried Egg.png|30px|link=Fried Egg]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Cheeky Fryup"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Cheeky Fryup",
+        "link": "Cheeky Fryup",
+        "qty": "1",
+        "item": "Cheeky Fryup",
+        "image": "[[File:Cheeky Fryup.png|30px|link=Cheeky Fryup]]"
+      }
+    },
+    "output": [
+      "Cheeky Fryup"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rat Roast",
+      "Baked Potato",
+      "Fried Egg"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
       "Cooking Range"
     ],
     "json": {
@@ -32026,10 +32609,10 @@
         "Cheeky Fryup"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Cheeky Fryup",
         "link": "Cheeky Fryup",
-        "qty": 1,
+        "qty": "1",
         "item": "Cheeky Fryup",
         "image": "[[File:Cheeky Fryup.png|30px|link=Cheeky Fryup]]"
       }
@@ -34093,6 +34676,60 @@
     },
     "output": [
       "Oak Palisades"
+    ]
+  },
+  {
+    "uses_material": [
+      "Weeds",
+      "Animal Bone",
+      "Clean Water"
+    ],
+    "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Weeds",
+          "link": "Weeds",
+          "qty": "2",
+          "item": "Weeds",
+          "image": "[[File:Weeds.png|30px|link=Weeds]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Animal Bone",
+          "link": "Animal Bone",
+          "qty": "1",
+          "item": "Animal Bone",
+          "image": "[[File:Animal Bone.png|30px|link=Animal Bone]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clean Water",
+          "link": "Clean Water",
+          "qty": "1",
+          "item": "Clean Water",
+          "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Plant Cure"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Plant Cure",
+        "link": "Plant Cure",
+        "qty": "1",
+        "item": "Plant Cure",
+        "image": "[[File:Plant Cure.png|30px|link=Plant Cure]]"
+      }
+    },
+    "output": [
+      "Plant Cure"
     ]
   },
   {
@@ -39206,6 +39843,59 @@
       "Cooking"
     ],
     "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dried Redberries",
+          "link": "Dried Redberries",
+          "qty": "1",
+          "item": "Dried Redberries",
+          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Wheat",
+          "link": "Wheat",
+          "qty": "1",
+          "item": "Wheat",
+          "image": "[[File:Wheat.png|30px|link=Wheat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Redberry Crunchies"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Redberry Crunchies",
+        "link": "Redberry Crunchies",
+        "qty": "1",
+        "item": "Redberry Crunchies",
+        "image": "[[File:Redberry Crunchies.png|30px|link=Redberry Crunchies]]"
+      }
+    },
+    "output": [
+      "Redberry Crunchies"
+    ]
+  },
+  {
+    "uses_material": [
+      "Dried Redberries",
+      "Wheat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
       "Cooking Range"
     ],
     "json": {
@@ -39238,16 +39928,69 @@
         "Redberry Crunchies"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Redberry Crunchies",
         "link": "Redberry Crunchies",
-        "qty": 1,
+        "qty": "1",
         "item": "Redberry Crunchies",
         "image": "[[File:Redberry Crunchies.png|30px|link=Redberry Crunchies]]"
       }
     },
     "output": [
       "Redberry Crunchies"
+    ]
+  },
+  {
+    "uses_material": [
+      "Dried Dwellberries",
+      "Wheat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dried Dwellberries",
+          "link": "Dried Dwellberries",
+          "qty": "1",
+          "item": "Dried Dwellberries",
+          "image": "[[File:Dried Dwellberries.png|30px|link=Dried Dwellberries]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Wheat",
+          "link": "Wheat",
+          "qty": "1",
+          "item": "Wheat",
+          "image": "[[File:Wheat.png|30px|link=Wheat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Dwellberry Crunchies"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dwellberry Crunchies",
+        "link": "Dwellberry Crunchies",
+        "qty": "1",
+        "item": "Dwellberry Crunchies",
+        "image": "[[File:Dwellberry Crunchies.png|30px|link=Dwellberry Crunchies]]"
+      }
+    },
+    "output": [
+      "Dwellberry Crunchies"
     ]
   },
   {
@@ -39291,10 +40034,10 @@
         "Dwellberry Crunchies"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Dwellberry Crunchies",
         "link": "Dwellberry Crunchies",
-        "qty": 1,
+        "qty": "1",
         "item": "Dwellberry Crunchies",
         "image": "[[File:Dwellberry Crunchies.png|30px|link=Dwellberry Crunchies]]"
       }
@@ -39735,6 +40478,50 @@
     ],
     "json": {
       "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pumpkin",
+          "link": "Pumpkin",
+          "qty": "1",
+          "item": "Pumpkin",
+          "image": "[[File:Pumpkin.png|30px|link=Pumpkin]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Roast Pumpkin"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Roast Pumpkin",
+        "link": "Roast Pumpkin",
+        "qty": "1",
+        "item": "Roast Pumpkin",
+        "image": "[[File:Roast Pumpkin.png|30px|link=Roast Pumpkin]]"
+      }
+    },
+    "output": [
+      "Roast Pumpkin"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pumpkin"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
       "materials": [
         {
           "quantity": "1",
@@ -41330,9 +42117,9 @@
   },
   {
     "uses_material": [
-      "Dried Cadavaberries",
       "Roast Pumpkin",
-      "Cauterised Undead Steak"
+      "Cauterised Undead Steak",
+      "Bread"
     ],
     "uses_skill": [
       "Cooking"
@@ -41343,14 +42130,6 @@
     "json": {
       "facility": "Cooking Range",
       "materials": [
-        {
-          "quantity": "1",
-          "name": "Dried Cadavaberries",
-          "link": "Dried Cadavaberries",
-          "qty": "1",
-          "item": "Dried Cadavaberries",
-          "image": "[[File:Dried Cadavaberries.png|30px|link=Dried Cadavaberries]]"
-        },
         {
           "quantity": "1",
           "name": "Roast Pumpkin",
@@ -41366,6 +42145,14 @@
           "qty": "1",
           "item": "Cauterised Undead Steak",
           "image": "[[File:Cauterised Undead Steak.png|30px|link=Cauterised Undead Steak]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Bread",
+          "link": "Bread",
+          "qty": "1",
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
         }
       ],
       "skills": [
@@ -42891,6 +43678,68 @@
       "Cooking"
     ],
     "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Baked Potato",
+          "link": "Baked Potato",
+          "qty": "1",
+          "item": "Baked Potato",
+          "image": "[[File:Baked Potato.png|30px|link=Baked Potato]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Fried Cabbage",
+          "link": "Fried Cabbage",
+          "qty": "1",
+          "item": "Fried Cabbage",
+          "image": "[[File:Fried Cabbage.png|30px|link=Fried Cabbage]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Grilled Tomatoes",
+          "link": "Grilled Tomatoes",
+          "qty": "1",
+          "item": "Grilled Tomatoes",
+          "image": "[[File:Grilled Tomatoes.png|30px|link=Grilled Tomatoes]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Vegan Fryup"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Vegan Fryup",
+        "link": "Vegan Fryup",
+        "qty": "1",
+        "item": "Vegan Fryup",
+        "image": "[[File:Vegan Fryup.png|30px|link=Vegan Fryup]]"
+      }
+    },
+    "output": [
+      "Vegan Fryup"
+    ]
+  },
+  {
+    "uses_material": [
+      "Baked Potato",
+      "Fried Cabbage",
+      "Grilled Tomatoes"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
       "Cooking Range"
     ],
     "json": {
@@ -42941,6 +43790,68 @@
     },
     "output": [
       "Vegan Fryup"
+    ]
+  },
+  {
+    "uses_material": [
+      "Grilled Tomatoes",
+      "Steak",
+      "Dried Redberries"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Grilled Tomatoes",
+          "link": "Grilled Tomatoes",
+          "qty": "1",
+          "item": "Grilled Tomatoes",
+          "image": "[[File:Grilled Tomatoes.png|30px|link=Grilled Tomatoes]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Steak",
+          "link": "Steak",
+          "qty": "1",
+          "item": "Steak",
+          "image": "[[File:Steak.png|30px|link=Steak]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dried Redberries",
+          "link": "Dried Redberries",
+          "qty": "1",
+          "item": "Dried Redberries",
+          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Beef & Tomato Stew"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Beef & Tomato Stew",
+        "link": "Beef & Tomato Stew",
+        "qty": "1",
+        "item": "Beef & Tomato Stew",
+        "image": "[[File:Beef & Tomato Stew.png|30px|link=Beef & Tomato Stew]]"
+      }
+    },
+    "output": [
+      "Beef & Tomato Stew"
     ]
   },
   {
@@ -46171,10 +47082,10 @@
         "Maple Infusion"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Maple Infusion",
         "link": "Maple Infusion",
-        "qty": 1,
+        "qty": "1",
         "item": "Maple Infusion",
         "image": "[[File:Maple Infusion.png|30px|link=Maple Infusion]]"
       }
@@ -53938,6 +54849,59 @@
       "Cooking"
     ],
     "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fried Egg",
+          "link": "Fried Egg",
+          "qty": "1",
+          "item": "Fried Egg",
+          "image": "[[File:Fried Egg.png|30px|link=Fried Egg]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Sauteed Shrimp",
+          "link": "Sauteed Shrimp",
+          "qty": "1",
+          "item": "Sauteed Shrimp",
+          "image": "[[File:Sauteed Shrimp.png|30px|link=Sauteed Shrimp]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Shrimp Omelette"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Shrimp Omelette",
+        "link": "Shrimp Omelette",
+        "qty": "1",
+        "item": "Shrimp Omelette",
+        "image": "[[File:Shrimp Omelette.png|30px|link=Shrimp Omelette]]"
+      }
+    },
+    "output": [
+      "Shrimp Omelette"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fried Egg",
+      "Sauteed Shrimp"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
       "Cooking Range"
     ],
     "json": {
@@ -53980,6 +54944,59 @@
     },
     "output": [
       "Shrimp Omelette"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fried Sardine",
+      "Dried Redberries"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fried Sardine",
+          "link": "Fried Sardine",
+          "qty": "1",
+          "item": "Fried Sardine",
+          "image": "[[File:Fried Sardine.png|30px|link=Fried Sardine]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dried Redberries",
+          "link": "Dried Redberries",
+          "qty": "1",
+          "item": "Dried Redberries",
+          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Sauteed Sardines"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Sauteed Sardines",
+        "link": "Sauteed Sardines",
+        "qty": "1",
+        "item": "Sauteed Sardines",
+        "image": "[[File:Sauteed Sardines.png|30px|link=Sauteed Sardines]]"
+      }
+    },
+    "output": [
+      "Sauteed Sardines"
     ]
   },
   {
@@ -54044,6 +55061,59 @@
       "Cooking"
     ],
     "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Grilled Trout",
+          "link": "Grilled Trout",
+          "qty": "1",
+          "item": "Grilled Trout",
+          "image": "[[File:Grilled Trout.png|30px|link=Grilled Trout]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Baked Potato",
+          "link": "Baked Potato",
+          "qty": "1",
+          "item": "Baked Potato",
+          "image": "[[File:Baked Potato.png|30px|link=Baked Potato]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Herb Baked Trout"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Herb Baked Trout",
+        "link": "Herb Baked Trout",
+        "qty": "1",
+        "item": "Herb Baked Trout",
+        "image": "[[File:Herb Baked Trout.png|30px|link=Herb Baked Trout]]"
+      }
+    },
+    "output": [
+      "Herb Baked Trout"
+    ]
+  },
+  {
+    "uses_material": [
+      "Grilled Trout",
+      "Baked Potato"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
       "Cooking Range"
     ],
     "json": {
@@ -54097,6 +55167,59 @@
       "Cooking"
     ],
     "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fried Egg",
+          "link": "Fried Egg",
+          "qty": "1",
+          "item": "Fried Egg",
+          "image": "[[File:Fried Egg.png|30px|link=Fried Egg]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Fried Salmon",
+          "link": "Fried Salmon",
+          "qty": "1",
+          "item": "Fried Salmon",
+          "image": "[[File:Fried Salmon.png|30px|link=Fried Salmon]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Eggs Royale"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Eggs Royale",
+        "link": "Eggs Royale",
+        "qty": "1",
+        "item": "Eggs Royale",
+        "image": "[[File:Eggs Royale.png|30px|link=Eggs Royale]]"
+      }
+    },
+    "output": [
+      "Eggs Royale"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fried Egg",
+      "Fried Salmon"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
       "Cooking Range"
     ],
     "json": {
@@ -54139,6 +55262,59 @@
     },
     "output": [
       "Eggs Royale"
+    ]
+  },
+  {
+    "uses_material": [
+      "Grilled Undead Bass",
+      "Grilled Tomatoes"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Grilled Undead Bass",
+          "link": "Grilled Undead Bass",
+          "qty": "1",
+          "item": "Grilled Undead Bass",
+          "image": "[[File:Grilled Undead Bass.png|30px|link=Grilled Undead Bass]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Grilled Tomatoes",
+          "link": "Grilled Tomatoes",
+          "qty": "1",
+          "item": "Grilled Tomatoes",
+          "image": "[[File:Grilled Tomatoes.png|30px|link=Grilled Tomatoes]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Undead Delight"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Undead Delight",
+        "link": "Undead Delight",
+        "qty": "1",
+        "item": "Undead Delight",
+        "image": "[[File:Undead Delight.png|30px|link=Undead Delight]]"
+      }
+    },
+    "output": [
+      "Undead Delight"
     ]
   },
   {
@@ -56248,6 +57424,483 @@
     },
     "output": [
       "Tackle Box"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Lobster",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Lobster",
+          "link": "Pristine Lobster",
+          "qty": "1",
+          "item": "Pristine Lobster",
+          "image": "[[File:Pristine Lobster.png|30px|link=Pristine Lobster]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pristine Lobster Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Lobster Trophy",
+        "link": "Pristine Lobster Trophy",
+        "qty": 1,
+        "item": "Pristine Lobster Trophy",
+        "image": "[[File:Pristine Lobster Trophy.png|30px|link=Pristine Lobster Trophy]]"
+      }
+    },
+    "output": [
+      "Pristine Lobster Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Armoured Catfish",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Armoured Catfish",
+          "link": "Pristine Armoured Catfish",
+          "qty": "1",
+          "item": "Pristine Armoured Catfish",
+          "image": "[[File:Pristine Armoured Catfish.png|30px|link=Pristine Armoured Catfish]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pristine Armoured Catfish Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Armoured Catfish Trophy",
+        "link": "Pristine Armoured Catfish Trophy",
+        "qty": 1,
+        "item": "Pristine Armoured Catfish Trophy",
+        "image": "[[File:Pristine Armoured Catfish Trophy.png|30px|link=Pristine Armoured Catfish Trophy]]"
+      }
+    },
+    "output": [
+      "Pristine Armoured Catfish Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Infernal Eel",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Infernal Eel",
+          "link": "Pristine Infernal Eel",
+          "qty": "1",
+          "item": "Pristine Infernal Eel",
+          "image": "[[File:Pristine Infernal Eel.png|30px|link=Pristine Infernal Eel]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pristine Infernal Eel Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Infernal Eel Trophy",
+        "link": "Pristine Infernal Eel Trophy",
+        "qty": 1,
+        "item": "Pristine Infernal Eel Trophy",
+        "image": "[[File:Pristine Infernal Eel Trophy.png|30px|link=Pristine Infernal Eel Trophy]]"
+      }
+    },
+    "output": [
+      "Pristine Infernal Eel Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Herring",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Herring",
+          "link": "Pristine Herring",
+          "qty": "1",
+          "item": "Pristine Herring",
+          "image": "[[File:Pristine Herring.png|30px|link=Pristine Herring]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pristine Herring Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Herring Trophy",
+        "link": "Pristine Herring Trophy",
+        "qty": 1,
+        "item": "Pristine Herring Trophy",
+        "image": "[[File:Pristine Herring Trophy.png|30px|link=Pristine Herring Trophy]]"
+      }
+    },
+    "output": [
+      "Pristine Herring Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Sardine",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Sardine",
+          "link": "Pristine Sardine",
+          "qty": "1",
+          "item": "Pristine Sardine",
+          "image": "[[File:Pristine Sardine.png|30px|link=Pristine Sardine]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pristine Sardine Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Sardine Trophy",
+        "link": "Pristine Sardine Trophy",
+        "qty": 1,
+        "item": "Pristine Sardine Trophy",
+        "image": "[[File:Pristine Sardine Trophy.png|30px|link=Pristine Sardine Trophy]]"
+      }
+    },
+    "output": [
+      "Pristine Sardine Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Salmon",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Salmon",
+          "link": "Pristine Salmon",
+          "qty": "1",
+          "item": "Pristine Salmon",
+          "image": "[[File:Pristine Salmon.png|30px|link=Pristine Salmon]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pristine Salmon Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Salmon Trophy",
+        "link": "Pristine Salmon Trophy",
+        "qty": 1,
+        "item": "Pristine Salmon Trophy",
+        "image": "[[File:Pristine Salmon Trophy.png|30px|link=Pristine Salmon Trophy]]"
+      }
+    },
+    "output": [
+      "Pristine Salmon Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Trout",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Trout",
+          "link": "Pristine Trout",
+          "qty": "1",
+          "item": "Pristine Trout",
+          "image": "[[File:Pristine Trout.png|30px|link=Pristine Trout]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pristine Trout Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Trout Trophy",
+        "link": "Pristine Trout Trophy",
+        "qty": 1,
+        "item": "Pristine Trout Trophy",
+        "image": "[[File:Pristine Trout Trophy.png|30px|link=Pristine Trout Trophy]]"
+      }
+    },
+    "output": [
+      "Pristine Trout Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Undead Eel",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Undead Eel",
+          "link": "Pristine Undead Eel",
+          "qty": "1",
+          "item": "Pristine Undead Eel",
+          "image": "[[File:Pristine Undead Eel.png|30px|link=Pristine Undead Eel]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pristine Undead Eel Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Undead Eel Trophy",
+        "link": "Pristine Undead Eel Trophy",
+        "qty": 1,
+        "item": "Pristine Undead Eel Trophy",
+        "image": "[[File:Pristine Undead Eel Trophy.png|30px|link=Pristine Undead Eel Trophy]]"
+      }
+    },
+    "output": [
+      "Pristine Undead Eel Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Undead Bass",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Undead Bass",
+          "link": "Pristine Undead Bass",
+          "qty": "1",
+          "item": "Pristine Undead Bass",
+          "image": "[[File:Pristine Undead Bass.png|30px|link=Pristine Undead Bass]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pristine Undead Bass Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Undead Bass Trophy",
+        "link": "Pristine Undead Bass Trophy",
+        "qty": 1,
+        "item": "Pristine Undead Bass Trophy",
+        "image": "[[File:Pristine Undead Bass Trophy.png|30px|link=Pristine Undead Bass Trophy]]"
+      }
+    },
+    "output": [
+      "Pristine Undead Bass Trophy"
     ]
   }
 ]
