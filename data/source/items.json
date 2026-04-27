@@ -671,7 +671,7 @@
       "description": "A mysterious porous rock used as a base for powerful runes.",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
-      "weight": "0.2'\"`UNIQ--ref-00000008-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000001-QINU`\"'",
       "stacklimit": "99",
       "image_raw": "Rune Essence.png"
     },
@@ -872,7 +872,7 @@
       "image": "[[File:Wild Pie.png|32px]]",
       "name": "Wild Pie",
       "weight": "0.7",
-      "sustenance": "95",
+      "sustenance": "110",
       "stacklimit": "50",
       "image_raw": "Wild Pie.png"
     },
@@ -892,7 +892,7 @@
       "image": "[[File:Meat Pizza.png|32px]]",
       "name": "Meat Pizza",
       "weight": "0.7",
-      "sustenance": "105",
+      "sustenance": "110",
       "stacklimit": "50",
       "image_raw": "Meat Pizza.png"
     },
@@ -956,21 +956,18 @@
   },
   {
     "page_name": "Grilled Mushrooms",
-    "item_description": "PERK: Fungal Fortitude<br><br>Grants RESISTENCE<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be spelled RESISTANCE\">sic</span>&#93;</sup> to POISON effects<br><br>A rich and earthy treat.",
+    "item_description": "A rich and earthy treat.",
     "item_name": "Grilled Mushrooms",
     "item_type": "Food",
     "item_stacklimit": 99,
     "json": {
       "type": "Food",
-      "description": "PERK: Fungal Fortitude<br><br>Grants RESISTENCE<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be spelled RESISTANCE\">sic</span>&#93;</sup> to POISON effects<br><br>A rich and earthy treat.",
+      "description": "A rich and earthy treat.",
+      "duration": "150 seconds",
       "image": "[[File:Grilled Mushrooms.png|32px]]",
       "name": "Grilled Mushrooms",
       "weight": "0.4",
       "sustenance": "20",
-      "perk": {
-        "name": "Fungal Fortitude",
-        "effect": "Grants RESISTENCE<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"supposed to be spelled RESISTANCE\">sic</span>&#93;</sup> to POISON effects<br><br>A rich and earthy treat."
-      },
       "stacklimit": "99",
       "image_raw": "Grilled Mushrooms.png"
     },
@@ -1301,18 +1298,14 @@
   },
   {
     "page_name": "Dwellberry Infusion",
-    "item_description": "PERK: Quenched<br><br>THIRST drains 33% SLOWER<br><br>A refreshing, fruity drink. Good for hydration.",
+    "item_description": "A refreshing, fruity drink. Good for hydration.",
     "item_name": "Dwellberry Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Quenched<br><br>THIRST drains 33% SLOWER<br><br>A refreshing, fruity drink. Good for hydration.",
+      "description": "A refreshing, fruity drink. Good for hydration.",
       "duration": "600 seconds",
-      "perk": {
-        "name": "Quenched",
-        "effect": "THIRST drains 33% SLOWER<br><br>A refreshing, fruity drink. Good for hydration."
-      },
       "image": "[[File:Dwellberry Infusion.png|32px]]",
       "name": "Dwellberry Infusion",
       "hydration": "40",
@@ -3852,21 +3845,18 @@
   },
   {
     "page_name": "Flank Steak",
-    "item_description": "PERK: Coagulated<br><br>Grants RESISTANCE to BLEED effects<br><br>A thick and juicy steak.",
+    "item_description": "A thick and juicy steak.",
     "item_name": "Flank Steak",
     "item_type": "Food",
     "item_stacklimit": 99,
     "json": {
       "type": "Food",
-      "description": "PERK: Coagulated<br><br>Grants RESISTANCE to BLEED effects<br><br>A thick and juicy steak.",
+      "description": "A thick and juicy steak.",
+      "duration": "150 seconds",
       "image": "[[File:Flank Steak.png|32px]]",
       "name": "Flank Steak",
       "weight": "1.0",
       "sustenance": "25",
-      "perk": {
-        "name": "Coagulated",
-        "effect": "Grants RESISTANCE to BLEED effects<br><br>A thick and juicy steak."
-      },
       "stacklimit": "99",
       "image_raw": "Flank Steak.png"
     },
@@ -3949,25 +3939,22 @@
   },
   {
     "page_name": "Fried Onions",
-    "item_description": "PERK: GROUNDED<br><br>REDUCES the amount of SHOCK damage taken<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup><br><br>A pungent meal that brings a tear to your eye.",
+    "item_description": "A pungent meal that brings a tear to your eye.",
     "item_name": "Fried Onions",
     "item_type": "Food",
     "item_stacklimit": 99,
     "json": {
       "type": "Food",
-      "description": "PERK: GROUNDED<br><br>REDUCES the amount of SHOCK damage taken<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup><br><br>A pungent meal that brings a tear to your eye.",
+      "description": "A pungent meal that brings a tear to your eye.",
+      "duration": "150 seconds",
       "image": "[[File:Fried Onions.png|32px]]",
       "name": "Fried Onions",
-      "weight": "0.6",
+      "weight": "0.4",
       "sustenance": "20",
-      "perk": {
-        "name": "GROUNDED",
-        "effect": "REDUCES the amount of SHOCK damage taken<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup><br><br>A pungent meal that brings a tear to your eye."
-      },
       "stacklimit": "99",
       "image_raw": "Fried Onions.png"
     },
-    "item_weight": 0.6,
+    "item_weight": 0.4,
     "page_name_sub": "Fried Onions"
   },
   {
@@ -4078,7 +4065,7 @@
       "image": "[[File:Mushroom Kebab.png|32px]]",
       "name": "Mushroom Kebab",
       "weight": "0.7",
-      "sustenance": "100",
+      "sustenance": "110",
       "stacklimit": "50",
       "image_raw": "Mushroom Kebab.png"
     },
@@ -4087,21 +4074,18 @@
   },
   {
     "page_name": "Mixed Grill",
-    "item_description": "PERK: Meaty Meal<br><br>REDUCES HUNGER drain by 25%<br><br>Why eat just one animal? A carnivore's favourite.",
+    "item_description": "Why eat just one animal? A carnivore's favourite.",
     "item_name": "Mixed Grill",
     "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "PERK: Meaty Meal<br><br>REDUCES HUNGER drain by 25%<br><br>Why eat just one animal? A carnivore's favourite.",
+      "description": "Why eat just one animal? A carnivore's favourite.",
+      "duration": "300 seconds",
       "image": "[[File:Mixed Grill.png|32px]]",
       "name": "Mixed Grill",
       "weight": "2.0",
       "sustenance": "70",
-      "perk": {
-        "name": "Meaty Meal",
-        "effect": "REDUCES HUNGER drain by 25%<br><br>Why eat just one animal? A carnivore's favourite."
-      },
       "stacklimit": "50",
       "image_raw": "Mixed Grill.png"
     },
@@ -7233,22 +7217,18 @@
   },
   {
     "page_name": "Squeaking Sausage",
-    "item_description": "PERK: GROUNDED<br><br>REDUCES the amount of SHOCK damage taken",
+    "item_description": "Tail not included.",
     "item_name": "Squeaking Sausage",
     "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "PERK: GROUNDED<br><br>REDUCES the amount of SHOCK damage taken",
-      "duration": "300s",
+      "description": "Tail not included.",
+      "duration": "300 seconds",
       "image": "[[File:Squeaking Sausage.png|32px]]",
       "name": "Squeaking Sausage",
       "weight": "2.0",
       "sustenance": "80",
-      "perk": {
-        "name": "GROUNDED",
-        "effect": "REDUCES the amount of SHOCK damage taken"
-      },
       "stacklimit": "50",
       "image_raw": "Squeaking Sausage.png"
     },
@@ -7353,21 +7333,18 @@
   },
   {
     "page_name": "Roast Dinner",
-    "item_description": "PERK: Coagulated<br><br>Grants RESISTANCE to BLEED effects<br><br>It's not even Sunday.",
+    "item_description": "It's not even Sunday.",
     "item_name": "Roast Dinner",
     "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "PERK: Coagulated<br><br>Grants RESISTANCE to BLEED effects<br><br>It's not even Sunday.",
+      "description": "It's not even Sunday.",
+      "duration": "300 seconds",
       "image": "[[File:Roast Dinner.png|32px]]",
       "name": "Roast Dinner",
       "weight": "2.0",
       "sustenance": "80",
-      "perk": {
-        "name": "Coagulated",
-        "effect": "Grants RESISTANCE to BLEED effects<br><br>It's not even Sunday."
-      },
       "stacklimit": "50",
       "image_raw": "Roast Dinner.png"
     },
@@ -7376,13 +7353,13 @@
   },
   {
     "page_name": "Steak 'N' Eggs",
-    "item_description": "Deliciously roasted meat with a side of beautifully cooked eggs.",
+    "item_description": "A marvelous way, to start your day.",
     "item_name": "Steak 'N' Eggs",
     "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "Deliciously roasted meat with a side of beautifully cooked eggs.",
+      "description": "A marvelous way, to start your day.",
       "image": "[[File:Steak 'N' Eggs.png|32px]]",
       "name": "Steak 'N' Eggs",
       "weight": "1.2",
@@ -7395,21 +7372,18 @@
   },
   {
     "page_name": "Sweet Veg Ball",
-    "item_description": "PERK: Knowledgable Nourishment<br><br>Grants a 10% XP BOOST<br><br>A marvelous amalgamation of sweet and savoury.",
+    "item_description": "A marvelous amalgamation of sweet and savoury.",
     "item_name": "Sweet Veg Ball",
     "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "PERK: Knowledgable Nourishment<br><br>Grants a 10% XP BOOST<br><br>A marvelous amalgamation of sweet and savoury.",
+      "description": "A marvelous amalgamation of sweet and savoury.",
+      "duration": "300 seconds",
       "image": "[[File:Sweet Veg Ball.png|32px]]",
       "name": "Sweet Veg Ball",
       "weight": "0.4",
       "sustenance": "65",
-      "perk": {
-        "name": "Knowledgable Nourishment",
-        "effect": "Grants a 10% XP BOOST<br><br>A marvelous amalgamation of sweet and savoury."
-      },
       "stacklimit": "50",
       "image_raw": "Sweet Veg Ball.png"
     },
@@ -7418,21 +7392,18 @@
   },
   {
     "page_name": "Pungent Omelette",
-    "item_description": "PERK: Fungal Fortitude<br><br>Grants RESISTENCE<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"spelled Resistance\">sic</span>&#93;</sup> to POISON effects<br><br>Tastes much better than it's<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> name suggests.",
+    "item_description": "Tastes much better than it's<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> name suggests.",
     "item_name": "Pungent Omelette",
     "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "PERK: Fungal Fortitude<br><br>Grants RESISTENCE<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"spelled Resistance\">sic</span>&#93;</sup> to POISON effects<br><br>Tastes much better than it's<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> name suggests.",
+      "description": "Tastes much better than it's<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> name suggests.",
+      "duration": "300 seconds",
       "image": "[[File:Pungent Omelette.png|32px]]",
       "name": "Pungent Omelette",
       "weight": "2.0",
       "sustenance": "70",
-      "perk": {
-        "name": "Fungal Fortitude",
-        "effect": "Grants RESISTENCE<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"spelled Resistance\">sic</span>&#93;</sup> to POISON effects<br><br>Tastes much better than it's<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> name suggests."
-      },
       "stacklimit": "50",
       "image_raw": "Pungent Omelette.png"
     },
@@ -7441,21 +7412,18 @@
   },
   {
     "page_name": "Cheeky Fryup",
-    "item_description": "PERK: Foremans Feast<br><br>REDUCES the STAMINA cost of WOODCUTTING and MINING<br><br>A surefire hangover cure.",
+    "item_description": "A surefire hangover cure.",
     "item_name": "Cheeky Fryup",
     "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "PERK: Foremans Feast<br><br>REDUCES the STAMINA cost of WOODCUTTING and MINING<br><br>A surefire hangover cure.",
+      "description": "A surefire hangover cure.",
+      "duration": "300 seconds",
       "image": "[[File:Cheeky Fryup.png|32px]]",
       "name": "Cheeky Fryup",
       "weight": "2.0",
       "sustenance": "70",
-      "perk": {
-        "name": "Foremans Feast",
-        "effect": "REDUCES the STAMINA cost of WOODCUTTING and MINING<br><br>A surefire hangover cure."
-      },
       "stacklimit": "50",
       "image_raw": "Cheeky Fryup.png"
     },
@@ -9638,7 +9606,7 @@
     "item_description": "It smells quite fruity.",
     "item_name": "Redberry Crunchies",
     "item_type": "Food",
-    "item_stacklimit": 99,
+    "item_stacklimit": 50,
     "json": {
       "type": "Food",
       "description": "It smells quite fruity.",
@@ -9646,7 +9614,7 @@
       "name": "Redberry Crunchies",
       "weight": "1.0",
       "sustenance": "35",
-      "stacklimit": "99",
+      "stacklimit": "50",
       "image_raw": "Redberry Crunchies.png"
     },
     "item_weight": 1,
@@ -9657,7 +9625,7 @@
     "item_description": "Yum... smells fruity.",
     "item_name": "Dwellberry Crunchies",
     "item_type": "Food",
-    "item_stacklimit": 99,
+    "item_stacklimit": 50,
     "json": {
       "type": "Food",
       "description": "Yum... smells fruity.",
@@ -9665,7 +9633,7 @@
       "name": "Dwellberry Crunchies",
       "weight": "1.0",
       "sustenance": "40",
-      "stacklimit": "99",
+      "stacklimit": "50",
       "image_raw": "Dwellberry Crunchies.png"
     },
     "item_weight": 1,
@@ -9673,18 +9641,14 @@
   },
   {
     "page_name": "Cadavaberry Infusion",
-    "item_description": "PERK: Quenched<br><br>THIRST drains 33% SLOWER<br><br>A refreshing fruity drink. Excellent for hydration.",
+    "item_description": "A refreshing fruity drink. Excellent for hydration.",
     "item_name": "Cadavaberry Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Quenched<br><br>THIRST drains 33% SLOWER<br><br>A refreshing fruity drink. Excellent for hydration.",
+      "description": "A refreshing fruity drink. Excellent for hydration.",
       "duration": "900 seconds",
-      "perk": {
-        "name": "Quenched",
-        "effect": "THIRST drains 33% SLOWER<br><br>A refreshing fruity drink. Excellent for hydration."
-      },
       "image": "[[File:Cadavaberry Infusion.png|32px]]",
       "name": "Cadavaberry Infusion",
       "hydration": "40",
@@ -9716,18 +9680,14 @@
   },
   {
     "page_name": "Pumpkin Spice Infusion",
-    "item_description": "PERK: Soul Food<br><br>Recharges WARD SHIELD over time<br><br>A seasonal treat, popular with some.",
+    "item_description": "A seasonal treat, popular with some.",
     "item_name": "Pumpkin Spice Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Soul Food<br><br>Recharges WARD SHIELD over time<br><br>A seasonal treat, popular with some.",
+      "description": "A seasonal treat, popular with some.",
       "duration": "150 seconds",
-      "perk": {
-        "name": "Soul Food",
-        "effect": "Recharges WARD SHIELD over time<br><br>A seasonal treat, popular with some."
-      },
       "image": "[[File:Pumpkin Spice Infusion.png|32px]]",
       "name": "Pumpkin Spice Infusion",
       "hydration": "80",
@@ -9811,21 +9771,18 @@
   },
   {
     "page_name": "Roast Pumpkin",
-    "item_description": "PERK: Soul Food<br><br>Recharges WARD SHIELD over time<br><br>A tough but tasty treat.",
+    "item_description": "A tough but tasty treat.",
     "item_name": "Roast Pumpkin",
     "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "PERK: Soul Food<br><br>Recharges WARD SHIELD over time<br><br>A tough but tasty treat.",
+      "description": "A tough but tasty treat.",
+      "duration": "150 seconds",
       "image": "[[File:Roast Pumpkin.png|32px]]",
       "name": "Roast Pumpkin",
       "weight": "1.0",
       "sustenance": "25",
-      "perk": {
-        "name": "Soul Food",
-        "effect": "Recharges WARD SHIELD over time<br><br>A tough but tasty treat."
-      },
       "stacklimit": "50",
       "image_raw": "Roast Pumpkin.png"
     },
@@ -10359,7 +10316,7 @@
       "image": "[[File:Dubious Meat Pie.png|32px]]",
       "name": "Dubious Meat Pie",
       "weight": "2.0",
-      "sustenance": "90",
+      "sustenance": "100",
       "stacklimit": "50",
       "image_raw": "Dubious Meat Pie.png"
     },
@@ -10712,21 +10669,18 @@
   },
   {
     "page_name": "Pumpkin Soup",
-    "item_description": "PERK: Soul Food<br><br> Recharges WARD SHIELD over time<br><br>Sweet, yet savory.",
+    "item_description": "Sweet, yet savory.",
     "item_name": "Pumpkin Soup",
     "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "PERK: Soul Food<br><br> Recharges WARD SHIELD over time<br><br>Sweet, yet savory.",
+      "description": "Sweet, yet savory.",
+      "duration": "300 seconds",
       "image": "[[File:Pumpkin Soup.png|32px]]",
       "name": "Pumpkin Soup",
       "weight": "2.0",
       "sustenance": "75",
-      "perk": {
-        "name": "Soul Food",
-        "effect": "Recharges WARD SHIELD over time<br><br>Sweet, yet savory."
-      },
       "stacklimit": "50",
       "image_raw": "Pumpkin Soup.png"
     },
@@ -10919,17 +10873,17 @@
   },
   {
     "page_name": "Fruit Pie",
-    "item_description": "A fruit party, wrapped in a golden pastry.",
+    "item_description": "A fruit party, wrapped in golden pastry.",
     "item_name": "Fruit Pie",
     "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "A fruit party, wrapped in a golden pastry.",
+      "description": "A fruit party, wrapped in golden pastry.",
       "image": "[[File:Fruit Pie.png|32px]]",
       "name": "Fruit Pie",
       "weight": "2.0",
-      "sustenance": "75",
+      "sustenance": "85",
       "stacklimit": "50",
       "image_raw": "Fruit Pie.png"
     },
@@ -12634,18 +12588,14 @@
   },
   {
     "page_name": "Maple Infusion",
-    "item_description": "PERK: Stalwart Shield<br><br>REDUCES the STAMINA cost of BLOCK ACTIONS by 33%.<br><br>Made from clean water, maple sap and irit. Reduces thirst as well as stamina when blocking.",
+    "item_description": "Made from clean water, maple sap and irit. Reduces thirst as well as stamina when blocking.",
     "item_name": "Maple Infusion",
     "item_type": "Drink",
     "item_stacklimit": 50,
     "json": {
       "type": "Drink",
-      "description": "PERK: Stalwart Shield<br><br>REDUCES the STAMINA cost of BLOCK ACTIONS by 33%.<br><br>Made from clean water, maple sap and irit. Reduces thirst as well as stamina when blocking.",
+      "description": "Made from clean water, maple sap and irit. Reduces thirst as well as stamina when blocking.",
       "duration": "300 seconds",
-      "perk": {
-        "name": "Stalwart Shield",
-        "effect": "REDUCES the STAMINA cost of BLOCK ACTIONS by 33%.<br><br>Made from clean water, maple sap and irit. Reduces thirst as well as stamina when blocking."
-      },
       "image": "[[File:Maple Infusion.png|32px]]",
       "name": "Maple Infusion",
       "hydration": "80",
@@ -16521,13 +16471,13 @@
   },
   {
     "page_name": "Maple Rod",
-    "item_description": "A bad-@ss rod, effective in Dowdun Reach.",
+    "item_description": "A bad-ass rod, effective in Dowdun Reach.",
     "item_name": "Maple Rod",
     "item_weight": 1.5,
     "page_name_sub": "Maple Rod",
     "json": {
       "type": "Tool",
-      "description": "A bad-@ss rod, effective in Dowdun Reach.",
+      "description": "A bad-ass rod, effective in Dowdun Reach.",
       "image": "[[File:Maple Rod.png|32px]]",
       "name": "Maple Rod",
       "weight": "1.5",
@@ -17272,5 +17222,23 @@
     },
     "item_weight": 0,
     "page_name_sub": "Leonard the Bound"
+  },
+  {
+    "page_name": "Tome of Fishing - Vol 2",
+    "item_description": "A book filled with knowledge about how to efficiently tire out fish. Awards a decent amount of Fishing XP.",
+    "item_name": "Tome of Fishing - Vol 2",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "A book filled with knowledge about how to efficiently tire out fish. Awards a decent amount of Fishing XP.",
+      "image": "[[File:Tome of Fishing - Vol 2.png|32px]]",
+      "name": "Tome of Fishing - Vol 2",
+      "weight": "2.0",
+      "stacklimit": "99",
+      "image_raw": "Tome of Fishing - Vol 2.png"
+    },
+    "item_weight": 2,
+    "page_name_sub": "Tome of Fishing - Vol 2"
   }
 ]

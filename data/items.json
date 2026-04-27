@@ -1274,6 +1274,28 @@
     "image": "Meat Stew.png",
     "variants": [
       {
+        "id": "4eb237157990",
+        "name": "Meat Stew",
+        "image": "Meat Stew.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d41c5c71430f",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "60ede1aa9393",
+              "quantity": 1
+            },
+            {
+              "itemId": "d8e9441d3367",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
         "id": "19822aa66609",
         "name": "Meat Stew",
         "image": "Meat Stew.png",
@@ -1300,6 +1322,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Meat_Stew",
@@ -1517,6 +1540,28 @@
     "image": "Vegetable Soup.png",
     "variants": [
       {
+        "id": "b5b62527c0d7",
+        "name": "Vegetable Soup",
+        "image": "Vegetable Soup.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6f354a0c7322",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "2429b3a1919d",
+              "quantity": 1
+            },
+            {
+              "itemId": "88798eba6ad6",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
         "id": "b111d66caf8d",
         "name": "Vegetable Soup",
         "image": "Vegetable Soup.png",
@@ -1543,6 +1588,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Vegetable_Soup",
@@ -1607,13 +1653,32 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "05cbbc785f62",
+        "name": "Grilled Mushrooms",
+        "image": "Grilled Mushrooms.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8ad0a7574f78",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "1af09d8b8207",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Grilled_Mushrooms",
     "weight": 0.4,
@@ -2468,6 +2533,28 @@
     "image": "Dwellberry Infusion.png",
     "variants": [
       {
+        "id": "1c08e6c4b852",
+        "name": "Dwellberry Infusion",
+        "image": "Dwellberry Infusion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "956b2c5dcecd",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "cb9dc221c0f0",
+              "quantity": 1
+            },
+            {
+              "itemId": "4b3b28384d99",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
         "id": "9248f0b64017",
         "name": "Dwellberry Infusion",
         "image": "Dwellberry Infusion.png",
@@ -2494,6 +2581,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Dwellberry_Infusion",
@@ -7031,13 +7119,32 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "b26ce7f0f78d",
+        "name": "Flank Steak",
+        "image": "Flank Steak.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2bea99568a94",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "b0905b7a423e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Flank_Steak",
     "weight": 1,
@@ -7155,16 +7262,35 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "caffe1e4e21e",
+        "name": "Fried Onions",
+        "image": "Fried Onions.png",
+        "variantName": null,
+        "recipe": {
+          "id": "378443e10687",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "cc278ed65b2d",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Fried_Onions",
-    "weight": 0.6,
+    "weight": 0.4,
     "stackLimit": 99
   },
   {
@@ -7253,6 +7379,32 @@
     "image": "Mixed Grill.png",
     "variants": [
       {
+        "id": "fe5934a34095",
+        "name": "Mixed Grill",
+        "image": "Mixed Grill.png",
+        "variantName": null,
+        "recipe": {
+          "id": "20e0d17d0004",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "60ede1aa9393",
+              "quantity": 1
+            },
+            {
+              "itemId": "d8e9441d3367",
+              "quantity": 1
+            },
+            {
+              "itemId": "1df249fb3a6c",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
         "id": "b85bd5ebe9da",
         "name": "Mixed Grill",
         "image": "Mixed Grill.png",
@@ -7283,6 +7435,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Mixed_Grill",
@@ -7294,6 +7447,28 @@
     "name": "Redberry Roast Rat",
     "image": "Redberry Roast Rat.png",
     "variants": [
+      {
+        "id": "5425de2be0ee",
+        "name": "Redberry Roast Rat",
+        "image": "Redberry Roast Rat.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e2ad2c77289a",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "ea552b5a7378",
+              "quantity": 1
+            },
+            {
+              "itemId": "af1e0365c083",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
       {
         "id": "7f0070a30b82",
         "name": "Redberry Roast Rat",
@@ -7321,6 +7496,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Redberry_Roast_Rat",
@@ -20168,24 +20344,24 @@
     "image": "Roast Dinner.png",
     "variants": [
       {
-        "id": "3bef43ff7046",
+        "id": "86c1782781c9",
         "name": "Roast Dinner",
         "image": "Roast Dinner.png",
         "variantName": null,
         "recipe": {
-          "id": "5ad74232808d",
+          "id": "59e975986fc8",
           "facility": "Cooking Range",
           "materials": [
+            {
+              "itemId": "2429b3a1919d",
+              "quantity": 1
+            },
             {
               "itemId": "ea552b5a7378",
               "quantity": 1
             },
             {
               "itemId": "eff058045116",
-              "quantity": 1
-            },
-            {
-              "itemId": "1df249fb3a6c",
               "quantity": 1
             }
           ],
@@ -20209,6 +20385,28 @@
     "name": "Steak 'N' Eggs",
     "image": "Steak 'N' Eggs.png",
     "variants": [
+      {
+        "id": "0bd033c7a593",
+        "name": "Steak 'N' Eggs",
+        "image": "Steak 'N' Eggs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0cfffcfe8842",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "46356211ccca",
+              "quantity": 1
+            },
+            {
+              "itemId": "1df249fb3a6c",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
       {
         "id": "0bfc7f04b89c",
         "name": "Steak 'N' Eggs",
@@ -20236,6 +20434,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Steak_'N'_Eggs",
@@ -20247,6 +20446,32 @@
     "name": "Sweet Veg Ball",
     "image": "Sweet Veg Ball.png",
     "variants": [
+      {
+        "id": "9162c5121edd",
+        "name": "Sweet Veg Ball",
+        "image": "Sweet Veg Ball.png",
+        "variantName": null,
+        "recipe": {
+          "id": "86b573c36a5c",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "2429b3a1919d",
+              "quantity": 1
+            },
+            {
+              "itemId": "ea552b5a7378",
+              "quantity": 1
+            },
+            {
+              "itemId": "88798eba6ad6",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
       {
         "id": "fa52b87df640",
         "name": "Sweet Veg Ball",
@@ -20278,6 +20503,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Sweet_Veg_Ball",
@@ -20332,6 +20558,32 @@
     "image": "Cheeky Fryup.png",
     "variants": [
       {
+        "id": "91ceff771e12",
+        "name": "Cheeky Fryup",
+        "image": "Cheeky Fryup.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2d24155ce306",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "2429b3a1919d",
+              "quantity": 1
+            },
+            {
+              "itemId": "46356211ccca",
+              "quantity": 1
+            },
+            {
+              "itemId": "af1e0365c083",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
         "id": "0ff42e450ef0",
         "name": "Cheeky Fryup",
         "image": "Cheeky Fryup.png",
@@ -20362,6 +20614,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Cheeky_Fryup",
@@ -21852,6 +22105,32 @@
     "image": "Plant Cure.png",
     "variants": [
       {
+        "id": "50c5af80d422",
+        "name": "Plant Cure",
+        "image": "Plant Cure.png",
+        "variantName": null,
+        "recipe": {
+          "id": "acfc4d35790b",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "797f584aebcf",
+              "quantity": 1
+            },
+            {
+              "itemId": "cb9dc221c0f0",
+              "quantity": 1
+            },
+            {
+              "itemId": "8943b3cc1281",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
         "id": "faa1725a2af6",
         "name": "Plant Cure",
         "image": "Plant Cure.png",
@@ -21880,6 +22159,7 @@
     ],
     "skills": [],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Plant_Cure",
@@ -25211,6 +25491,28 @@
     "image": "Redberry Crunchies.png",
     "variants": [
       {
+        "id": "679a34ff9236",
+        "name": "Redberry Crunchies",
+        "image": "Redberry Crunchies.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5bd07a653877",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "ea552b5a7378",
+              "quantity": 1
+            },
+            {
+              "itemId": "cca303e99f5f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
         "id": "9c118fb2da2f",
         "name": "Redberry Crunchies",
         "image": "Redberry Crunchies.png",
@@ -25237,17 +25539,40 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Redberry_Crunchies",
     "weight": 1,
-    "stackLimit": 99
+    "stackLimit": 50
   },
   {
     "id": "fd3350027502",
     "name": "Dwellberry Crunchies",
     "image": "Dwellberry Crunchies.png",
     "variants": [
+      {
+        "id": "de007df23422",
+        "name": "Dwellberry Crunchies",
+        "image": "Dwellberry Crunchies.png",
+        "variantName": null,
+        "recipe": {
+          "id": "43702bb160aa",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "01dbea934488",
+              "quantity": 1
+            },
+            {
+              "itemId": "cca303e99f5f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
       {
         "id": "798c6f3921a4",
         "name": "Dwellberry Crunchies",
@@ -25275,11 +25600,12 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Dwellberry_Crunchies",
     "weight": 1,
-    "stackLimit": 99
+    "stackLimit": 50
   },
   {
     "id": "a5b868104307",
@@ -25588,13 +25914,32 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "ddcb60dc3720",
+        "name": "Roast Pumpkin",
+        "image": "Roast Pumpkin.png",
+        "variantName": null,
+        "recipe": {
+          "id": "833971e18b51",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "c6c5211a5079",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Roast_Pumpkin",
     "weight": 1,
@@ -26659,20 +27004,20 @@
     "image": "Dubious Meat Pie.png",
     "variants": [
       {
-        "id": "9947faca50a0",
+        "id": "b27d72c977da",
         "name": "Dubious Meat Pie",
         "image": "Dubious Meat Pie.png",
         "variantName": null,
         "recipe": {
-          "id": "42e312cfb006",
+          "id": "3df8fea38930",
           "facility": "Cooking Range",
           "materials": [
             {
-              "itemId": "1bf10e6e5e66",
+              "itemId": "e882154bb2ef",
               "quantity": 1
             },
             {
-              "itemId": "69153315ea03",
+              "itemId": "1bf10e6e5e66",
               "quantity": 1
             },
             {
@@ -27716,6 +28061,32 @@
     "image": "Vegan Fryup.png",
     "variants": [
       {
+        "id": "a66c9643b503",
+        "name": "Vegan Fryup",
+        "image": "Vegan Fryup.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0373b8321f98",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "2429b3a1919d",
+              "quantity": 1
+            },
+            {
+              "itemId": "88798eba6ad6",
+              "quantity": 1
+            },
+            {
+              "itemId": "161878ef1d4a",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
         "id": "b4d6dde7b628",
         "name": "Vegan Fryup",
         "image": "Vegan Fryup.png",
@@ -27746,6 +28117,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Vegan_Fryup",
@@ -27757,6 +28129,32 @@
     "name": "Beef & Tomato Stew",
     "image": "Beef & Tomato Stew.png",
     "variants": [
+      {
+        "id": "33fa4c843528",
+        "name": "Beef & Tomato Stew",
+        "image": "Beef & Tomato Stew.png",
+        "variantName": null,
+        "recipe": {
+          "id": "80cc5f03401d",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "ea552b5a7378",
+              "quantity": 1
+            },
+            {
+              "itemId": "161878ef1d4a",
+              "quantity": 1
+            },
+            {
+              "itemId": "1df249fb3a6c",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
       {
         "id": "023b58655748",
         "name": "Beef & Tomato Stew",
@@ -27788,6 +28186,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Beef_&_Tomato_Stew",
@@ -35219,6 +35618,28 @@
     "image": "Shrimp Omelette.png",
     "variants": [
       {
+        "id": "465b1a5fdd74",
+        "name": "Shrimp Omelette",
+        "image": "Shrimp Omelette.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ab663f47b1fb",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "46356211ccca",
+              "quantity": 1
+            },
+            {
+              "itemId": "6800c6c8df72",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
         "id": "1cbdbc747f41",
         "name": "Shrimp Omelette",
         "image": "Shrimp Omelette.png",
@@ -35245,6 +35666,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Shrimp_Omelette",
@@ -35256,6 +35678,28 @@
     "name": "Sauteed Sardines",
     "image": "Sauteed Sardines.png",
     "variants": [
+      {
+        "id": "99ebc96711b2",
+        "name": "Sauteed Sardines",
+        "image": "Sauteed Sardines.png",
+        "variantName": null,
+        "recipe": {
+          "id": "85fed86da1de",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "ea552b5a7378",
+              "quantity": 1
+            },
+            {
+              "itemId": "ed9c1a1c4a47",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
       {
         "id": "d4b1226ea506",
         "name": "Sauteed Sardines",
@@ -35283,6 +35727,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Sauteed_Sardines",
@@ -35294,6 +35739,28 @@
     "name": "Herb Baked Trout",
     "image": "Herb Baked Trout.png",
     "variants": [
+      {
+        "id": "47e1fcff4a08",
+        "name": "Herb Baked Trout",
+        "image": "Herb Baked Trout.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0ef07a56108d",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "2429b3a1919d",
+              "quantity": 1
+            },
+            {
+              "itemId": "37911a3d1e55",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
       {
         "id": "9d2ba0b2daaf",
         "name": "Herb Baked Trout",
@@ -35321,6 +35788,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Herb_Baked_Trout",
@@ -35332,6 +35800,28 @@
     "name": "Eggs Royale",
     "image": "Eggs Royale.png",
     "variants": [
+      {
+        "id": "5b06d0080042",
+        "name": "Eggs Royale",
+        "image": "Eggs Royale.png",
+        "variantName": null,
+        "recipe": {
+          "id": "407a1cd334d2",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "46356211ccca",
+              "quantity": 1
+            },
+            {
+              "itemId": "9184f8250bdd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
       {
         "id": "3645c99317d0",
         "name": "Eggs Royale",
@@ -35359,6 +35849,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Eggs_Royale",
@@ -35370,6 +35861,28 @@
     "name": "Undead Delight",
     "image": "Undead Delight.png",
     "variants": [
+      {
+        "id": "0b13ce92a837",
+        "name": "Undead Delight",
+        "image": "Undead Delight.png",
+        "variantName": null,
+        "recipe": {
+          "id": "225407f48bb8",
+          "facility": "Stone Range",
+          "materials": [
+            {
+              "itemId": "161878ef1d4a",
+              "quantity": 1
+            },
+            {
+              "itemId": "fbe87846e31b",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
       {
         "id": "756e4eb7aa12",
         "name": "Undead Delight",
@@ -35397,6 +35910,7 @@
       "Cooking"
     ],
     "facilities": [
+      "Stone Range",
       "Cooking Range"
     ],
     "wikiLink": "Undead_Delight",
@@ -36718,6 +37232,330 @@
       "Build Menu"
     ],
     "wikiLink": "Tackle_Box"
+  },
+  {
+    "id": "3ee81cf836f2",
+    "name": "Pristine Lobster Trophy",
+    "image": "Pristine Lobster Trophy.png",
+    "variants": [
+      {
+        "id": "0ea4f83beaae",
+        "name": "Pristine Lobster Trophy",
+        "image": "Pristine Lobster Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d1f3935ceaf4",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1101aadad529",
+              "quantity": 2
+            },
+            {
+              "itemId": "7297c9cf3bd6",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pristine_Lobster_Trophy"
+  },
+  {
+    "id": "c7a797b20320",
+    "name": "Pristine Armoured Catfish Trophy",
+    "image": "Pristine Armoured Catfish Trophy.png",
+    "variants": [
+      {
+        "id": "ae4f321a84b9",
+        "name": "Pristine Armoured Catfish Trophy",
+        "image": "Pristine Armoured Catfish Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "dee0b9c25f2b",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1101aadad529",
+              "quantity": 2
+            },
+            {
+              "itemId": "232f9d317bfb",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pristine_Armoured_Catfish_Trophy"
+  },
+  {
+    "id": "36828ae420b8",
+    "name": "Pristine Infernal Eel Trophy",
+    "image": "Pristine Infernal Eel Trophy.png",
+    "variants": [
+      {
+        "id": "d7156b4159bb",
+        "name": "Pristine Infernal Eel Trophy",
+        "image": "Pristine Infernal Eel Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "966b0c005e18",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1101aadad529",
+              "quantity": 2
+            },
+            {
+              "itemId": "e2a9defd9f1d",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pristine_Infernal_Eel_Trophy"
+  },
+  {
+    "id": "6e183083e215",
+    "name": "Pristine Herring Trophy",
+    "image": "Pristine Herring Trophy.png",
+    "variants": [
+      {
+        "id": "5ed676bd2612",
+        "name": "Pristine Herring Trophy",
+        "image": "Pristine Herring Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "910486b0afc3",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1101aadad529",
+              "quantity": 2
+            },
+            {
+              "itemId": "bdf2f47b11b0",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pristine_Herring_Trophy"
+  },
+  {
+    "id": "d8dada2e8265",
+    "name": "Pristine Sardine Trophy",
+    "image": "Pristine Sardine Trophy.png",
+    "variants": [
+      {
+        "id": "762c11d912b4",
+        "name": "Pristine Sardine Trophy",
+        "image": "Pristine Sardine Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f8988490d052",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1101aadad529",
+              "quantity": 2
+            },
+            {
+              "itemId": "ab2e50dad2d0",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pristine_Sardine_Trophy"
+  },
+  {
+    "id": "21a5a8786cae",
+    "name": "Pristine Salmon Trophy",
+    "image": "Pristine Salmon Trophy.png",
+    "variants": [
+      {
+        "id": "4096f7c69c2c",
+        "name": "Pristine Salmon Trophy",
+        "image": "Pristine Salmon Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0b9c6c56ab1d",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1101aadad529",
+              "quantity": 2
+            },
+            {
+              "itemId": "e9bcaf4825c3",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pristine_Salmon_Trophy"
+  },
+  {
+    "id": "b0d1e7ee4b4b",
+    "name": "Pristine Trout Trophy",
+    "image": "Pristine Trout Trophy.png",
+    "variants": [
+      {
+        "id": "1fb7b66e82d9",
+        "name": "Pristine Trout Trophy",
+        "image": "Pristine Trout Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "eae26efedb38",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1101aadad529",
+              "quantity": 2
+            },
+            {
+              "itemId": "61a69e785725",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pristine_Trout_Trophy"
+  },
+  {
+    "id": "1f7818b70499",
+    "name": "Pristine Undead Eel Trophy",
+    "image": "Pristine Undead Eel Trophy.png",
+    "variants": [
+      {
+        "id": "4e867c8fafd0",
+        "name": "Pristine Undead Eel Trophy",
+        "image": "Pristine Undead Eel Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0239139ef3d8",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1101aadad529",
+              "quantity": 2
+            },
+            {
+              "itemId": "000c2ec7562a",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pristine_Undead_Eel_Trophy"
+  },
+  {
+    "id": "1c2fa823aee4",
+    "name": "Pristine Undead Bass Trophy",
+    "image": "Pristine Undead Bass Trophy.png",
+    "variants": [
+      {
+        "id": "3c8b4165a581",
+        "name": "Pristine Undead Bass Trophy",
+        "image": "Pristine Undead Bass Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a4c8801519ed",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1101aadad529",
+              "quantity": 2
+            },
+            {
+              "itemId": "f21cfacda082",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pristine_Undead_Bass_Trophy"
   },
   {
     "id": "6a5fa59fd28f",
@@ -45147,5 +45985,25 @@
     "wikiLink": "Leonard_the_Bound",
     "weight": 0,
     "stackLimit": 0
+  },
+  {
+    "id": "17872a748149",
+    "name": "Tome of Fishing - Vol 2",
+    "image": "Tome of Fishing - Vol 2.png",
+    "variants": [
+      {
+        "id": "17872a748149",
+        "name": "Tome of Fishing - Vol 2",
+        "image": "Tome of Fishing - Vol 2.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Tome_of_Fishing_-_Vol_2",
+    "weight": 2,
+    "stackLimit": 99
   }
 ]
