@@ -26299,7 +26299,9 @@
           "materials": [],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Moth Eaten Black Cloth"
+        ]
       }
     ],
     "skills": [],
@@ -26409,7 +26411,9 @@
           "materials": [],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Moth Eaten Pink Cloth"
+        ]
       }
     ],
     "skills": [],
@@ -31010,83 +31014,6 @@
     "weight": 10
   },
   {
-    "id": "74f123590c03",
-    "name": "Enchanted Mithril Bolts",
-    "image": "Enchanted Mithril Bolts.png",
-    "variants": [
-      {
-        "id": "729232dfe65b",
-        "name": "Enchanted Mithril Bolts",
-        "image": "Enchanted Mithril Bolts.png",
-        "variantName": null,
-        "recipe": {
-          "id": "6dc91fdb357c",
-          "facility": "Enchanted Mithril Bolts",
-          "materials": [
-            {
-              "itemId": "0a3bcef8e149",
-              "quantity": 15
-            },
-            {
-              "itemId": "26a20b838fad",
-              "quantity": 33
-            },
-            {
-              "itemId": "0e2ba7342d33",
-              "quantity": 10
-            },
-            {
-              "itemId": "8c673a010857",
-              "quantity": 1
-            }
-          ],
-          "quantity": 33
-        },
-        "usesRecipe": null
-      },
-      {
-        "id": "12c7beeb9c11",
-        "name": "Enchanted Mithril Bolts",
-        "image": "Enchanted Mithril Bolts.png",
-        "variantName": null,
-        "recipe": {
-          "id": "8750cb8473ba",
-          "facility": "Fletching Bench",
-          "materials": [
-            {
-              "itemId": "0a3bcef8e149",
-              "quantity": 15
-            },
-            {
-              "itemId": "26a20b838fad",
-              "quantity": 33
-            },
-            {
-              "itemId": "0e2ba7342d33",
-              "quantity": 10
-            },
-            {
-              "itemId": "d142d3dd1dbb",
-              "quantity": 1
-            }
-          ],
-          "quantity": 33
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Artisan"
-    ],
-    "facilities": [
-      "Enchanted Mithril Bolts",
-      "Fletching Bench"
-    ],
-    "wikiLink": "Enchanted_Mithril_Bolts",
-    "weight": 0,
-    "stackLimit": 999
-  },
-  {
     "id": "6115d85377eb",
     "name": "Zamorak Staff",
     "image": "Zamorak Staff.png",
@@ -32029,6 +31956,52 @@
     ],
     "wikiLink": "Maple_Longbow",
     "weight": 15
+  },
+  {
+    "id": "74f123590c03",
+    "name": "Enchanted Mithril Bolts",
+    "image": "Enchanted Mithril Bolts.png",
+    "variants": [
+      {
+        "id": "12c7beeb9c11",
+        "name": "Enchanted Mithril Bolts",
+        "image": "Enchanted Mithril Bolts.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8750cb8473ba",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "0a3bcef8e149",
+              "quantity": 15
+            },
+            {
+              "itemId": "26a20b838fad",
+              "quantity": 33
+            },
+            {
+              "itemId": "0e2ba7342d33",
+              "quantity": 10
+            },
+            {
+              "itemId": "d142d3dd1dbb",
+              "quantity": 1
+            }
+          ],
+          "quantity": 33
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Enchanted_Mithril_Bolts",
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "0eb3c4abb6a8",
@@ -37556,6 +37529,40 @@
       "Build Menu"
     ],
     "wikiLink": "Pristine_Undead_Bass_Trophy"
+  },
+  {
+    "id": "3920e79ca6a3",
+    "name": "Glass Decoration",
+    "image": "Glass Decoration.png",
+    "variants": [
+      {
+        "id": "24d80b95352b",
+        "name": "Glass Decoration",
+        "image": "Glass Decoration.png",
+        "variantName": null,
+        "recipe": {
+          "id": "98554e5b5a2f",
+          "facility": "Pottery Wheel",
+          "materials": [
+            {
+              "itemId": "396ffa28eb6c",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Pottery Wheel"
+    ],
+    "wikiLink": "Glass_Decoration",
+    "weight": 0.1,
+    "stackLimit": 50
   },
   {
     "id": "6a5fa59fd28f",

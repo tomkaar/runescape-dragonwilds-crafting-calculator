@@ -17240,5 +17240,23 @@
     },
     "item_weight": 2,
     "page_name_sub": "Tome of Fishing - Vol 2"
+  },
+  {
+    "page_name": "Glass Decoration",
+    "item_description": "A delightful ornament that will really tie your home together.",
+    "item_name": "Glass Decoration",
+    "item_type": "Component",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Component",
+      "description": "A delightful ornament that will really tie your home together.",
+      "image": "[[File:Glass Decoration.png|32px]]",
+      "name": "Glass Decoration",
+      "weight": "0.1",
+      "stacklimit": "50",
+      "image_raw": "Glass Decoration.png"
+    },
+    "item_weight": 0.1,
+    "page_name_sub": "Glass Decoration"
   }
 ]
