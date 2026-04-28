@@ -41055,10 +41055,14 @@
     ]
   },
   {
+    "uses_recipe": [
+      "Moth Eaten Black Cloth"
+    ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
+      "recipe": "Moth Eaten Black Cloth",
       "facility": "Crafting Table",
       "materials": [],
       "skills": [],
@@ -41163,10 +41167,14 @@
     ]
   },
   {
+    "uses_recipe": [
+      "Moth Eaten Pink Cloth"
+    ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
+      "recipe": "Moth Eaten Pink Cloth",
       "facility": "Crafting Table",
       "materials": [],
       "skills": [],
@@ -48211,77 +48219,6 @@
     },
     "output": [
       "Maple Shortbow"
-    ]
-  },
-  {
-    "uses_material": [
-      "Mithril Bolts",
-      "sapphire",
-      "Nature Rune",
-      "Air Rune"
-    ],
-    "uses_skill": [
-      "Artisan"
-    ],
-    "uses_facility": [
-      "Enchanted Mithril Bolts"
-    ],
-    "json": {
-      "facility": "Enchanted Mithril Bolts",
-      "materials": [
-        {
-          "quantity": "33",
-          "name": "Mithril Bolts",
-          "link": "Mithril Bolts",
-          "qty": "33",
-          "item": "Mithril Bolts",
-          "image": "[[File:Mithril Bolts.png|30px|link=Mithril Bolts]]"
-        },
-        {
-          "quantity": "1",
-          "name": "sapphire",
-          "link": "sapphire",
-          "qty": "1",
-          "item": "sapphire",
-          "image": "[[File:sapphire.png|30px|link=sapphire]]"
-        },
-        {
-          "quantity": "10",
-          "name": "Nature Rune",
-          "link": "Nature Rune",
-          "qty": "10",
-          "item": "Nature Rune",
-          "image": "[[File:Nature Rune.png|30px|link=Nature Rune]]"
-        },
-        {
-          "quantity": "15",
-          "name": "Air Rune",
-          "link": "Air Rune",
-          "qty": "15",
-          "item": "Air Rune",
-          "image": "[[File:Air Rune.png|30px|link=Air Rune]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "60"
-        }
-      ],
-      "outputs": [
-        "Enchanted Mithril Bolts"
-      ],
-      "output": {
-        "quantity": "33",
-        "name": "Enchanted Mithril Bolts",
-        "link": "Enchanted Mithril Bolts",
-        "qty": "33",
-        "item": "Enchanted Mithril Bolts",
-        "image": "[[File:Enchanted Mithril Bolts.png|30px|link=Enchanted Mithril Bolts]]"
-      }
-    },
-    "output": [
-      "Enchanted Mithril Bolts"
     ]
   },
   {
@@ -57901,6 +57838,50 @@
     },
     "output": [
       "Pristine Undead Bass Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Molten Glass"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Pottery Wheel"
+    ],
+    "json": {
+      "facility": "Pottery Wheel",
+      "materials": [
+        {
+          "quantity": "",
+          "name": "Molten Glass",
+          "link": "Molten Glass",
+          "qty": "",
+          "item": "Molten Glass",
+          "image": "[[File:Molten Glass.png|30px|link=Molten Glass]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Glass Decoration"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Glass Decoration",
+        "link": "Glass Decoration",
+        "qty": 1,
+        "item": "Glass Decoration",
+        "image": "[[File:Glass Decoration.png|30px|link=Glass Decoration]]"
+      }
+    },
+    "output": [
+      "Glass Decoration"
     ]
   }
 ]
