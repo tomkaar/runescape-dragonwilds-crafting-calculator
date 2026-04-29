@@ -54262,10 +54262,81 @@
         "Victoria Sponge Cake"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Victoria Sponge Cake",
         "link": "Victoria Sponge Cake",
-        "qty": 1,
+        "qty": "1",
+        "item": "Victoria Sponge Cake",
+        "image": "[[File:Victoria Sponge Cake.png|30px|link=Victoria Sponge Cake]]"
+      }
+    },
+    "output": [
+      "Victoria Sponge Cake"
+    ]
+  },
+  {
+    "uses_material": [
+      "Dried Redberries",
+      "Egg",
+      "Redberry Infusion",
+      "Wheat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Dried Redberries",
+          "link": "Dried Redberries",
+          "qty": "2",
+          "item": "Dried Redberries",
+          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Egg",
+          "link": "Egg",
+          "qty": "2",
+          "item": "Egg",
+          "image": "[[File:Egg.png|30px|link=Egg]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Redberry Infusion",
+          "link": "Redberry Infusion",
+          "qty": "2",
+          "item": "Redberry Infusion",
+          "image": "[[File:Redberry Infusion.png|30px|link=Redberry Infusion]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Wheat",
+          "link": "Wheat",
+          "qty": "4",
+          "item": "Wheat",
+          "image": "[[File:Wheat.png|30px|link=Wheat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Victoria Sponge Cake"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Victoria Sponge Cake",
+        "link": "Victoria Sponge Cake",
+        "qty": "1",
         "item": "Victoria Sponge Cake",
         "image": "[[File:Victoria Sponge Cake.png|30px|link=Victoria Sponge Cake]]"
       }
