@@ -35215,13 +35215,44 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "c5eff43679c6",
+        "name": "Victoria Sponge Cake",
+        "image": "Victoria Sponge Cake.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0be5eb6905c1",
+          "facility": "Cooking Range",
+          "materials": [
+            {
+              "itemId": "ea552b5a7378",
+              "quantity": 2
+            },
+            {
+              "itemId": "37c50c935cd2",
+              "quantity": 2
+            },
+            {
+              "itemId": "82417536309d",
+              "quantity": 2
+            },
+            {
+              "itemId": "cca303e99f5f",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
       "Cooking"
     ],
     "facilities": [
-      "Stone Range"
+      "Stone Range",
+      "Cooking Range"
     ],
     "wikiLink": "Victoria_Sponge_Cake",
     "weight": 0.4,
