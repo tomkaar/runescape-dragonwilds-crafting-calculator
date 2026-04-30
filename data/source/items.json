@@ -17258,5 +17258,167 @@
     },
     "item_weight": 0.1,
     "page_name_sub": "Glass Decoration"
+  },
+  {
+    "page_name": "Pristine Sardine",
+    "item_description": "An unusually large Sardine, worthy of putting it on the wall as trophy or cook it to gain more food.",
+    "item_name": "Pristine Sardine",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "An unusually large Sardine, worthy of putting it on the wall as trophy or cook it to gain more food.",
+      "image": "[[File:Pristine Sardine.png|32px]]",
+      "name": "Pristine Sardine",
+      "weight": "2.2",
+      "stacklimit": "99",
+      "image_raw": "Pristine Sardine.png"
+    },
+    "item_weight": 2.2,
+    "page_name_sub": "Pristine Sardine"
+  },
+  {
+    "page_name": "Pristine Trout",
+    "item_description": "An unusually large Trout, worthy of putting it on the wall as trophy or cook it to gain more food.",
+    "item_name": "Pristine Trout",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "An unusually large Trout, worthy of putting it on the wall as trophy or cook it to gain more food.",
+      "image": "[[File:Pristine Trout.png|32px]]",
+      "name": "Pristine Trout",
+      "weight": "4.2",
+      "stacklimit": "99",
+      "image_raw": "Pristine Trout.png"
+    },
+    "item_weight": 4.2,
+    "page_name_sub": "Pristine Trout"
+  },
+  {
+    "page_name": "Pristine Undead Eel",
+    "item_description": "An unusually large Undead Eel, worthy of putting it on the wall as trophy or cook it to gain more food.",
+    "item_name": "Pristine Undead Eel",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "An unusually large Undead Eel, worthy of putting it on the wall as trophy or cook it to gain more food.",
+      "image": "[[File:Pristine Undead Eel.png|32px]]",
+      "name": "Pristine Undead Eel",
+      "weight": "5.1",
+      "stacklimit": "99",
+      "image_raw": "Pristine Undead Eel.png"
+    },
+    "item_weight": 5.1,
+    "page_name_sub": "Pristine Undead Eel"
+  },
+  {
+    "page_name": "Pristine Undead Bass",
+    "item_description": "An unusually large Undead Bass, worthy of putting it on the wall as trophy or cook it to gain more food.",
+    "item_name": "Pristine Undead Bass",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "An unusually large Undead Bass, worthy of putting it on the wall as trophy or cook it to gain more food.",
+      "image": "[[File:Pristine Undead Bass.png|32px]]",
+      "name": "Pristine Undead Bass",
+      "weight": "5.1",
+      "stacklimit": "99",
+      "image_raw": "Pristine Undead Bass.png"
+    },
+    "item_weight": 5.1,
+    "page_name_sub": "Pristine Undead Bass"
+  },
+  {
+    "page_name": "Pristine Salmon",
+    "item_description": "An unusually large Salmon, worthy of putting it on the wall as trophy or cook it to gain more food.",
+    "item_name": "Pristine Salmon",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "An unusually large Salmon, worthy of putting it on the wall as trophy or cook it to gain more food.",
+      "image": "[[File:Pristine Salmon.png|32px]]",
+      "name": "Pristine Salmon",
+      "weight": "5.1",
+      "stacklimit": "99",
+      "image_raw": "Pristine Salmon.png"
+    },
+    "item_weight": 5.1,
+    "page_name_sub": "Pristine Salmon"
+  },
+  {
+    "page_name": "Pristine Herring",
+    "item_description": "An unusually large Herring, worthy of putting it on the wall as trophy or cook it to gain more food.",
+    "item_name": "Pristine Herring",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "An unusually large Herring, worthy of putting it on the wall as trophy or cook it to gain more food.",
+      "image": "[[File:Pristine Herring.png|32px]]",
+      "name": "Pristine Herring",
+      "weight": "3.5",
+      "stacklimit": "99",
+      "image_raw": "Pristine Herring.png"
+    },
+    "item_weight": 3.5,
+    "page_name_sub": "Pristine Herring"
+  },
+  {
+    "page_name": "Pristine Armoured Catfish",
+    "item_description": "An unusually large Armoured Catfish, worthy of putting it on the wall as trophy or cook it to gain more food.",
+    "item_name": "Pristine Armoured Catfish",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "An unusually large Armoured Catfish, worthy of putting it on the wall as trophy or cook it to gain more food.",
+      "image": "[[File:Pristine Armoured Catfish.png|32px]]",
+      "name": "Pristine Armoured Catfish",
+      "weight": "9.0",
+      "stacklimit": "99",
+      "image_raw": "Pristine Armoured Catfish.png"
+    },
+    "item_weight": 9,
+    "page_name_sub": "Pristine Armoured Catfish"
+  },
+  {
+    "page_name": "Pristine Infernal Eel",
+    "item_description": "An unusually large Infernal Eel, worthy of putting it on the wall as trophy or cook it to gain more food.",
+    "item_name": "Pristine Infernal Eel",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "An unusually large Infernal Eel, worthy of putting it on the wall as trophy or cook it to gain more food.",
+      "image": "[[File:Pristine Infernal Eel.png|32px]]",
+      "name": "Pristine Infernal Eel",
+      "weight": "4.7",
+      "stacklimit": "99",
+      "image_raw": "Pristine Infernal Eel.png"
+    },
+    "item_weight": 4.7,
+    "page_name_sub": "Pristine Infernal Eel"
+  },
+  {
+    "page_name": "Pristine Lobster",
+    "item_description": "An unusually large Lobster, worthy of putting it on the wall as trophy or cook it to gain more food.",
+    "item_name": "Pristine Lobster",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "An unusually large Lobster, worthy of putting it on the wall as trophy or cook it to gain more food.",
+      "image": "[[File:Pristine Lobster.png|32px]]",
+      "name": "Pristine Lobster",
+      "weight": "4.8",
+      "stacklimit": "99",
+      "image_raw": "Pristine Lobster.png"
+    },
+    "item_weight": 4.8,
+    "page_name_sub": "Pristine Lobster"
   }
 ]

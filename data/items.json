@@ -46043,5 +46043,185 @@
     "wikiLink": "Tome_of_Fishing_-_Vol_2",
     "weight": 2,
     "stackLimit": 99
+  },
+  {
+    "id": "ab2e50dad2d0",
+    "name": "Pristine Sardine",
+    "image": "Pristine Sardine.png",
+    "variants": [
+      {
+        "id": "ab2e50dad2d0",
+        "name": "Pristine Sardine",
+        "image": "Pristine Sardine.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pristine_Sardine",
+    "weight": 2.2,
+    "stackLimit": 99
+  },
+  {
+    "id": "61a69e785725",
+    "name": "Pristine Trout",
+    "image": "Pristine Trout.png",
+    "variants": [
+      {
+        "id": "61a69e785725",
+        "name": "Pristine Trout",
+        "image": "Pristine Trout.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pristine_Trout",
+    "weight": 4.2,
+    "stackLimit": 99
+  },
+  {
+    "id": "000c2ec7562a",
+    "name": "Pristine Undead Eel",
+    "image": "Pristine Undead Eel.png",
+    "variants": [
+      {
+        "id": "000c2ec7562a",
+        "name": "Pristine Undead Eel",
+        "image": "Pristine Undead Eel.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pristine_Undead_Eel",
+    "weight": 5.1,
+    "stackLimit": 99
+  },
+  {
+    "id": "f21cfacda082",
+    "name": "Pristine Undead Bass",
+    "image": "Pristine Undead Bass.png",
+    "variants": [
+      {
+        "id": "f21cfacda082",
+        "name": "Pristine Undead Bass",
+        "image": "Pristine Undead Bass.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pristine_Undead_Bass",
+    "weight": 5.1,
+    "stackLimit": 99
+  },
+  {
+    "id": "e9bcaf4825c3",
+    "name": "Pristine Salmon",
+    "image": "Pristine Salmon.png",
+    "variants": [
+      {
+        "id": "e9bcaf4825c3",
+        "name": "Pristine Salmon",
+        "image": "Pristine Salmon.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pristine_Salmon",
+    "weight": 5.1,
+    "stackLimit": 99
+  },
+  {
+    "id": "bdf2f47b11b0",
+    "name": "Pristine Herring",
+    "image": "Pristine Herring.png",
+    "variants": [
+      {
+        "id": "bdf2f47b11b0",
+        "name": "Pristine Herring",
+        "image": "Pristine Herring.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pristine_Herring",
+    "weight": 3.5,
+    "stackLimit": 99
+  },
+  {
+    "id": "232f9d317bfb",
+    "name": "Pristine Armoured Catfish",
+    "image": "Pristine Armoured Catfish.png",
+    "variants": [
+      {
+        "id": "232f9d317bfb",
+        "name": "Pristine Armoured Catfish",
+        "image": "Pristine Armoured Catfish.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pristine_Armoured_Catfish",
+    "weight": 9,
+    "stackLimit": 99
+  },
+  {
+    "id": "e2a9defd9f1d",
+    "name": "Pristine Infernal Eel",
+    "image": "Pristine Infernal Eel.png",
+    "variants": [
+      {
+        "id": "e2a9defd9f1d",
+        "name": "Pristine Infernal Eel",
+        "image": "Pristine Infernal Eel.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pristine_Infernal_Eel",
+    "weight": 4.7,
+    "stackLimit": 99
+  },
+  {
+    "id": "7297c9cf3bd6",
+    "name": "Pristine Lobster",
+    "image": "Pristine Lobster.png",
+    "variants": [
+      {
+        "id": "7297c9cf3bd6",
+        "name": "Pristine Lobster",
+        "image": "Pristine Lobster.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pristine_Lobster",
+    "weight": 4.8,
+    "stackLimit": 99
   }
 ]
