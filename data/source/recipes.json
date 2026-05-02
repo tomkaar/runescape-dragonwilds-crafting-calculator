@@ -57954,5 +57954,129 @@
     "output": [
       "Glass Decoration"
     ]
+  },
+  {
+    "uses_material": [
+      "Padded Cloth",
+      "Rough Cloth",
+      "Swamp Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "4",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Rough Cloth",
+          "link": "Rough Cloth",
+          "qty": "4",
+          "item": "Rough Cloth",
+          "image": "[[File:Rough Cloth.png|30px|link=Rough Cloth]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Swamp Thread",
+          "link": "Swamp Thread",
+          "qty": "4",
+          "item": "Swamp Thread",
+          "image": "[[File:Swamp Thread.png|30px|link=Swamp Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Angler's Hat"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Angler's Hat",
+        "link": "Angler's Hat",
+        "qty": "1",
+        "item": "Angler's Hat",
+        "image": "[[File:Angler's Hat.png|30px|link=Angler's Hat]]"
+      }
+    },
+    "output": [
+      "Angler's Hat"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rough Cloth",
+      "Wool Thread",
+      "Flax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Rough Cloth",
+          "link": "Rough Cloth",
+          "qty": "4",
+          "item": "Rough Cloth",
+          "image": "[[File:Rough Cloth.png|30px|link=Rough Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Wool Thread",
+          "link": "Wool Thread",
+          "qty": "2",
+          "item": "Wool Thread",
+          "image": "[[File:Wool Thread.png|30px|link=Wool Thread]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Flax",
+          "link": "Flax",
+          "qty": "1",
+          "item": "Flax",
+          "image": "[[File:Flax.png|30px|link=Flax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Farmer's Hat"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Farmer's Hat",
+        "link": "Farmer's Hat",
+        "qty": "1",
+        "item": "Farmer's Hat",
+        "image": "[[File:Farmer's Hat.png|30px|link=Farmer's Hat]]"
+      }
+    },
+    "output": [
+      "Farmer's Hat"
+    ]
   }
 ]

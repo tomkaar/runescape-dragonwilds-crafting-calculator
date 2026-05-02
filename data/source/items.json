@@ -17420,5 +17420,37 @@
     },
     "item_weight": 4.8,
     "page_name_sub": "Pristine Lobster"
+  },
+  {
+    "page_name": "Angler's Hat",
+    "item_description": "A rather dapper looking cap that upon catching a fish has a chance to not reduce the amount of fish in the node.",
+    "item_name": "Angler's Hat",
+    "item_weight": 2,
+    "page_name_sub": "Angler's Hat",
+    "json": {
+      "type": "Basic Item",
+      "description": "A rather dapper looking cap that upon catching a fish has a chance to not reduce the amount of fish in the node.",
+      "image": "[[File:Angler's Hat.png|32px]]",
+      "name": "Angler's Hat",
+      "weight": "2.0",
+      "image_raw": "Angler's Hat.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Farmer's Hat",
+    "item_description": "A delightful piece of headwear, popular with those who toil the land.",
+    "item_name": "Farmer's Hat",
+    "item_weight": 6,
+    "page_name_sub": "Farmer's Hat",
+    "json": {
+      "type": "Basic Item",
+      "description": "A delightful piece of headwear, popular with those who toil the land.",
+      "image": "[[File:Farmer's Hat.png|32px]]",
+      "name": "Farmer's Hat",
+      "weight": "6.0",
+      "image_raw": "Farmer's Hat.png"
+    },
+    "item_type": "Basic Item"
   }
 ]

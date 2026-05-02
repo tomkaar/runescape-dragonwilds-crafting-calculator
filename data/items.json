@@ -37596,6 +37596,88 @@
     "stackLimit": 50
   },
   {
+    "id": "b8bdf562e409",
+    "name": "Angler's Hat",
+    "image": "Angler's Hat.png",
+    "variants": [
+      {
+        "id": "a5e8930f137d",
+        "name": "Angler's Hat",
+        "image": "Angler's Hat.png",
+        "variantName": null,
+        "recipe": {
+          "id": "db8e7c72c33c",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 4
+            },
+            {
+              "itemId": "dde1454118cf",
+              "quantity": 4
+            },
+            {
+              "itemId": "fb7a0a4a6f5c",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Angler's_Hat",
+    "weight": 2
+  },
+  {
+    "id": "37be449906a4",
+    "name": "Farmer's Hat",
+    "image": "Farmer's Hat.png",
+    "variants": [
+      {
+        "id": "b9a25f064531",
+        "name": "Farmer's Hat",
+        "image": "Farmer's Hat.png",
+        "variantName": null,
+        "recipe": {
+          "id": "95523c18c92c",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "81629dd6f277",
+              "quantity": 1
+            },
+            {
+              "itemId": "dde1454118cf",
+              "quantity": 4
+            },
+            {
+              "itemId": "86f4896ec674",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Farmer's_Hat",
+    "weight": 6
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
