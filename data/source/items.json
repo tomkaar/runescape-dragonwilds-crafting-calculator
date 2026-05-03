@@ -12982,14 +12982,14 @@
     "page_name": "Unusual Trout",
     "item_description": "This trout has seen things. You almost feel apologetic for catching it.",
     "item_name": "Unusual Trout",
-    "item_weight": 0.4,
+    "item_weight": 2.1,
     "page_name_sub": "Unusual Trout",
     "json": {
       "type": "Raw Ingredient",
       "description": "This trout has seen things. You almost feel apologetic for catching it.",
       "image": "[[File:Unusual Trout.png|32px]]",
       "name": "Unusual Trout",
-      "weight": "0.4",
+      "weight": "2.1",
       "image_raw": "Unusual Trout.png"
     },
     "item_type": "Raw Ingredient"
