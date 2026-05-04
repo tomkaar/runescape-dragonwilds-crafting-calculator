@@ -7712,6 +7712,40 @@
     "stackLimit": 50
   },
   {
+    "id": "b790aebc6675",
+    "name": "Ground Clay",
+    "image": "Ground Clay.png",
+    "variants": [
+      {
+        "id": "3aa69e7311ad",
+        "name": "Ground Clay",
+        "image": "Ground Clay.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7b81bfe37aa8",
+          "facility": "Grindstone",
+          "materials": [
+            {
+              "itemId": "05947b7bdbad",
+              "quantity": 1
+            }
+          ],
+          "quantity": 5
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Grindstone"
+    ],
+    "wikiLink": "Ground_Clay",
+    "weight": 1.5,
+    "stackLimit": 50
+  },
+  {
     "id": "c66e244ea17e",
     "name": "Bronze Sword",
     "image": "Bronze Sword.png",
@@ -39134,26 +39168,6 @@
     "wikiLink": "Dragon_Tooth",
     "weight": 5,
     "stackLimit": 25
-  },
-  {
-    "id": "b790aebc6675",
-    "name": "Ground Clay",
-    "image": "Ground Clay.png",
-    "variants": [
-      {
-        "id": "b790aebc6675",
-        "name": "Ground Clay",
-        "image": "Ground Clay.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Ground_Clay",
-    "weight": 1.5,
-    "stackLimit": 50
   },
   {
     "id": "ffe30d9b2a80",

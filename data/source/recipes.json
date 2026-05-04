@@ -11804,6 +11804,50 @@
   },
   {
     "uses_material": [
+      "Clay"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Grindstone"
+    ],
+    "json": {
+      "facility": "Grindstone",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Clay",
+          "link": "Clay",
+          "qty": 1,
+          "item": "Clay",
+          "image": "[[File:Clay.png|30px|link=Clay]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Ground Clay"
+      ],
+      "output": {
+        "quantity": "5",
+        "name": "Ground Clay",
+        "link": "Ground Clay",
+        "qty": "5",
+        "item": "Ground Clay",
+        "image": "[[File:Ground Clay.png|30px|link=Ground Clay]]"
+      }
+    },
+    "output": [
+      "Ground Clay"
+    ]
+  },
+  {
+    "uses_material": [
       "Bronze Bar",
       "Leather",
       "Wool Thread"
