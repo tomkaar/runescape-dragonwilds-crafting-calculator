@@ -16178,6 +16178,22 @@
     "page_name_sub": "Raw Giant Krill"
   },
   {
+    "page_name": "Bucket of Milk",
+    "item_description": "A bucket of milk from a stubborn cow.",
+    "item_name": "Bucket of Milk",
+    "item_type": "Quest Item",
+    "page_name_sub": "Bucket of Milk",
+    "json": {
+      "type": "Quest Item",
+      "description": "A bucket of milk from a stubborn cow.",
+      "image": "[[File:Bucket of Milk.png|32px]]",
+      "name": "Bucket of Milk",
+      "stacklimit": "99",
+      "image_raw": "Bucket of Milk.png"
+    },
+    "item_stacklimit": 99
+  },
+  {
     "page_name": "Raw Infernal Eel",
     "item_description": "Wriggly no more. Will need to be smoked before it goes near your palate.",
     "item_name": "Raw Infernal Eel",

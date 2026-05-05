@@ -45864,6 +45864,25 @@
     "stackLimit": 99
   },
   {
+    "id": "74f67bc4330a",
+    "name": "Bucket of Milk",
+    "image": "Bucket of Milk.png",
+    "variants": [
+      {
+        "id": "74f67bc4330a",
+        "name": "Bucket of Milk",
+        "image": "Bucket of Milk.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Bucket_of_Milk",
+    "stackLimit": 99
+  },
+  {
     "id": "8de0ccbd2d20",
     "name": "Raw Infernal Eel",
     "image": "Raw Infernal Eel.png",
