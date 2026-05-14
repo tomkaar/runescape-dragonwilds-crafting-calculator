@@ -26,10 +26,10 @@
     "json": {
       "type": "Drink",
       "description": "A source of hydration, tainted by the residue of a cataclysmic event.",
+      "weight": "1.0",
       "image": "[[File:Dirty Water.png|32px]]",
       "name": "Dirty Water",
       "hydration": "10",
-      "weight": "1.0",
       "stacklimit": "99",
       "image_raw": "Dirty Water.png"
     },
@@ -438,13 +438,13 @@
       "type": "Potion",
       "description": "PERK: Focused Cooking<br><br>Grants a 15% XP BOOST for the COOKING Skill",
       "duration": "300 seconds",
-      "image": "[[File:Weak Focused Cooking Potion.png|32px]]",
-      "name": "Weak Focused Cooking Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Cooking",
         "effect": "Grants a 15% XP BOOST for the COOKING Skill"
       },
+      "image": "[[File:Weak Focused Cooking Potion.png|32px]]",
+      "name": "Weak Focused Cooking Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Weak Focused Cooking Potion.png"
     },
@@ -461,13 +461,13 @@
       "type": "Potion",
       "description": "PERK: Focused Artisan<br><br>Grants a 15% XP BOOST for the ARTISAN Skill",
       "duration": "300 seconds",
-      "image": "[[File:Weak Focused Artisan Potion.png|32px]]",
-      "name": "Weak Focused Artisan Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Artisan",
         "effect": "Grants a 15% XP BOOST for the ARTISAN Skill"
       },
+      "image": "[[File:Weak Focused Artisan Potion.png|32px]]",
+      "name": "Weak Focused Artisan Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Weak Focused Artisan Potion.png"
     },
@@ -484,13 +484,13 @@
       "type": "Potion",
       "description": "PERK: Focused Woodcutting<br><br>Grants a 15% XP BOOST for the WOODCUTTING Skill",
       "duration": "300 seconds",
-      "image": "[[File:Weak Focused Woodcutting Potion.png|32px]]",
-      "name": "Weak Focused Woodcutting Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Woodcutting",
         "effect": "Grants a 15% XP BOOST for the WOODCUTTING Skill"
       },
+      "image": "[[File:Weak Focused Woodcutting Potion.png|32px]]",
+      "name": "Weak Focused Woodcutting Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Weak Focused Woodcutting Potion.png"
     },
@@ -507,13 +507,13 @@
       "type": "Potion",
       "description": "PERK: Antipoison<br><br>Negates and grants RESISTANCE to POISON effects",
       "duration": "300 seconds",
-      "image": "[[File:Weak Antipoison Potion.png|32px]]",
-      "name": "Weak Antipoison Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Antipoison",
         "effect": "Negates and grants RESISTANCE to POISON effects"
       },
+      "image": "[[File:Weak Antipoison Potion.png|32px]]",
+      "name": "Weak Antipoison Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Weak Antipoison Potion.png"
     },
@@ -548,13 +548,13 @@
       "type": "Potion",
       "description": "PERK: Lumberjack<br><br>REDUCES the STAMINA cost of WOODCUTTING by 33%",
       "duration": "300 seconds",
-      "image": "[[File:Weak Lumberjack Potion.png|32px]]",
-      "name": "Weak Lumberjack Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Lumberjack",
         "effect": "REDUCES the STAMINA cost of WOODCUTTING by 33%"
       },
+      "image": "[[File:Weak Lumberjack Potion.png|32px]]",
+      "name": "Weak Lumberjack Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Weak Lumberjack Potion.png"
     },
@@ -571,13 +571,13 @@
       "type": "Potion",
       "description": "PERK: Quarrymaster<br><br>REDUCES the STAMINA cost of Mining by 33%",
       "duration": "300 seconds",
-      "image": "[[File:Weak Quarrymaster Potion.png|32px]]",
-      "name": "Weak Quarrymaster Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Quarrymaster",
         "effect": "REDUCES the STAMINA cost of Mining by 33%"
       },
+      "image": "[[File:Weak Quarrymaster Potion.png|32px]]",
+      "name": "Weak Quarrymaster Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Weak Quarrymaster Potion.png"
     },
@@ -594,10 +594,10 @@
       "type": "Drink",
       "description": "A thirst-quenching drink that puts a spring in your step.",
       "duration": "300 seconds",
+      "weight": "1.0",
       "image": "[[File:Fleet-Footed Infusion.png|32px]]",
       "name": "Fleet-Footed Infusion",
       "hydration": "40",
-      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Fleet-Footed Infusion.png"
     },
@@ -650,10 +650,10 @@
     "json": {
       "type": "Drink",
       "description": "A source of hydration, free from the taint of natural water sources.",
+      "weight": "1.0",
       "image": "[[File:Clean Water.png|32px]]",
       "name": "Clean Water",
       "hydration": "25",
-      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Clean Water.png"
     },
@@ -671,7 +671,7 @@
       "description": "A mysterious porous rock used as a base for powerful runes.",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
-      "weight": "0.2'\"`UNIQ--ref-00000001-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000002-QINU`\"'",
       "stacklimit": "99",
       "image_raw": "Rune Essence.png"
     },
@@ -922,14 +922,14 @@
     "item_description": "Resource needed for teleportation.<br><br>Runes are retained if you happen to die.",
     "item_name": "Law Rune",
     "item_type": "Rune",
-    "item_stacklimit": 999,
+    "item_stacklimit": 9999,
     "json": {
       "type": "Rune",
       "description": "Resource needed for teleportation.<br><br>Runes are retained if you happen to die.",
       "image": "[[File:Law Rune.png|32px]]",
       "name": "Law Rune",
       "weight": "0.0",
-      "stacklimit": "999",
+      "stacklimit": "9999",
       "image_raw": "Law Rune.png"
     },
     "item_weight": 0,
@@ -1049,14 +1049,14 @@
     "item_description": "Astral runes are used for casting advanced magic spells and attacks. Runes are retained if you happen to die.",
     "item_name": "Astral Rune",
     "item_type": "Rune",
-    "item_stacklimit": 999,
+    "item_stacklimit": 9999,
     "json": {
       "type": "Rune",
       "description": "Astral runes are used for casting advanced magic spells and attacks. Runes are retained if you happen to die.",
       "image": "[[File:Astral Rune.png|32px]]",
       "name": "Astral Rune",
       "weight": "0.0",
-      "stacklimit": "999",
+      "stacklimit": "9999",
       "image_raw": "Astral Rune.png"
     },
     "item_weight": 0,
@@ -1085,14 +1085,14 @@
     "item_description": "A symbol of the earth's might, essential for earth-based magic. Runes are retained if you happen to die",
     "item_name": "Earth Rune",
     "item_type": "Rune",
-    "item_stacklimit": 999,
+    "item_stacklimit": 9999,
     "json": {
       "type": "Rune",
       "description": "A symbol of the earth's might, essential for earth-based magic. Runes are retained if you happen to die",
       "image": "[[File:Earth Rune.png|32px]]",
       "name": "Earth Rune",
       "weight": "0.0",
-      "stacklimit": "999",
+      "stacklimit": "9999",
       "image_raw": "Earth Rune.png"
     },
     "item_weight": 0,
@@ -1103,14 +1103,14 @@
     "item_description": "Equippable as ammo when using a magic weapon (provided the required skill perk is unlocked).<br><br>A symbol of blazing heat, essential for fire-based magic. Runes are retained if you happen to die.",
     "item_name": "Fire Rune",
     "item_type": "Rune",
-    "item_stacklimit": 999,
+    "item_stacklimit": 9999,
     "json": {
       "type": "Rune",
       "description": "Equippable as ammo when using a magic weapon (provided the required skill perk is unlocked).<br><br>A symbol of blazing heat, essential for fire-based magic. Runes are retained if you happen to die.",
       "image": "[[File:Fire Rune.png|32px]]",
       "name": "Fire Rune",
       "weight": "0.0",
-      "stacklimit": "999",
+      "stacklimit": "9999",
       "image_raw": "Fire Rune.png"
     },
     "item_weight": 0,
@@ -1120,17 +1120,19 @@
     "page_name": "Nature Rune",
     "item_description": "Nature runes are used for casting transumation spells. Runes are retained if you happen to die.",
     "item_name": "Nature Rune",
-    "item_weight": 0,
-    "page_name_sub": "Nature Rune",
+    "item_type": "Rune",
+    "item_stacklimit": 9999,
     "json": {
       "type": "Rune",
       "description": "Nature runes are used for casting transumation spells. Runes are retained if you happen to die.",
       "image": "[[File:Nature Rune.png|32px]]",
       "name": "Nature Rune",
       "weight": "0.0",
+      "stacklimit": "9999",
       "image_raw": "Nature Rune.png"
     },
-    "item_type": "Rune"
+    "item_weight": 0,
+    "page_name_sub": "Nature Rune"
   },
   {
     "page_name": "Ash Shortbow",
@@ -1286,10 +1288,10 @@
       "type": "Drink",
       "description": "A hydrating drink infused with primal fury.",
       "duration": "300 seconds",
+      "weight": "1.0",
       "image": "[[File:Ferocious Infusion.png|32px]]",
       "name": "Ferocious Infusion",
       "hydration": "40",
-      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Ferocious Infusion.png"
     },
@@ -1306,10 +1308,10 @@
       "type": "Drink",
       "description": "A refreshing, fruity drink. Good for hydration.",
       "duration": "600 seconds",
+      "weight": "1.0",
       "image": "[[File:Dwellberry Infusion.png|32px]]",
       "name": "Dwellberry Infusion",
       "hydration": "40",
-      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Dwellberry Infusion.png"
     },
@@ -1396,13 +1398,13 @@
       "type": "Potion",
       "description": "PERK: Focused Runecrafting<br><br>Grants a 15% XP BOOST for the RUNECRAFTING Skill",
       "duration": "300 seconds",
-      "image": "[[File:Weak Focused Runecrafting Potion.png|32px]]",
-      "name": "Weak Focused Runecrafting Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Runecrafting",
         "effect": "Grants a 15% XP BOOST for the RUNECRAFTING Skill"
       },
+      "image": "[[File:Weak Focused Runecrafting Potion.png|32px]]",
+      "name": "Weak Focused Runecrafting Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Weak Focused Runecrafting Potion.png"
     },
@@ -1419,13 +1421,13 @@
       "type": "Potion",
       "description": "PERK: Focused Construction<br><br>Grants a 15% XP BOOST for the CONSTRUCTION Skill",
       "duration": "300 seconds",
-      "image": "[[File:Weak Focused Construction Potion.png|32px]]",
-      "name": "Weak Focused Construction Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Construction",
         "effect": "Grants a 15% XP BOOST for the CONSTRUCTION Skill"
       },
+      "image": "[[File:Weak Focused Construction Potion.png|32px]]",
+      "name": "Weak Focused Construction Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Weak Focused Construction Potion.png"
     },
@@ -1840,14 +1842,14 @@
     "item_description": "Equippable as ammo when using a magic weapon.<br><br>A symbol of blustering winds, essential for air-based magic and other spells. Runes are retained if you happen to die.",
     "item_name": "Air Rune",
     "item_type": "Rune",
-    "item_stacklimit": 999,
+    "item_stacklimit": 9999,
     "json": {
       "type": "Rune",
       "description": "Equippable as ammo when using a magic weapon.<br><br>A symbol of blustering winds, essential for air-based magic and other spells. Runes are retained if you happen to die.",
       "image": "[[File:Air Rune.png|32px]]",
       "name": "Air Rune",
       "weight": "0.0",
-      "stacklimit": "999",
+      "stacklimit": "9999",
       "image_raw": "Air Rune.png"
     },
     "item_weight": 0,
@@ -1900,13 +1902,13 @@
       "type": "Potion",
       "description": "PERK: Focused Strikes<br><br>INCREASED chance of landing CRITICAL HITS with MELEE ATTACKS",
       "duration": "600 seconds",
-      "image": "[[File:Lesser Attack Potion.png|32px]]",
-      "name": "Lesser Attack Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Strikes",
         "effect": "INCREASED chance of landing CRITICAL HITS with MELEE ATTACKS"
       },
+      "image": "[[File:Lesser Attack Potion.png|32px]]",
+      "name": "Lesser Attack Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lesser Attack Potion.png"
     },
@@ -2261,14 +2263,14 @@
     "item_description": "A symbol of flowing waters, essential for water-based magic and other spells. <br /> <br />Runes are retained if you happen to die.",
     "item_name": "Water Rune",
     "item_type": "Rune",
-    "item_stacklimit": 999,
+    "item_stacklimit": 9999,
     "json": {
       "type": "Rune",
       "description": "A symbol of flowing waters, essential for water-based magic and other spells. <br /> <br />Runes are retained if you happen to die.",
       "image": "[[File:Water Rune.png|32px]]",
       "name": "Water Rune",
       "weight": "0.0",
-      "stacklimit": "999",
+      "stacklimit": "9999",
       "image_raw": "Water Rune.png"
     },
     "item_weight": 0,
@@ -2320,10 +2322,10 @@
       "type": "Drink",
       "description": "A thirst-quenching drink that improves your reflexes.",
       "duration": "300 seconds",
+      "weight": "1.0",
       "image": "[[File:Evasive Infusion.png|32px]]",
       "name": "Evasive Infusion",
       "hydration": "40",
-      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Evasive Infusion.png"
     },
@@ -3676,13 +3678,13 @@
       "type": "Potion",
       "description": "PERK: Focused Attack<br><br>Grants a 15% XP BOOST for the ATTACK Skill",
       "duration": "300 seconds",
-      "image": "[[File:Weak Focused Attack Potion.png|32px]]",
-      "name": "Weak Focused Attack Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Attack",
         "effect": "Grants a 15% XP BOOST for the ATTACK Skill"
       },
+      "image": "[[File:Weak Focused Attack Potion.png|32px]]",
+      "name": "Weak Focused Attack Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Weak Focused Attack Potion.png"
     },
@@ -3699,13 +3701,13 @@
       "type": "Potion",
       "description": "PERK: Focused Mining<br><br>Grants a 15% XP BOOST for the MINING Skill",
       "duration": "300 seconds",
-      "image": "[[File:Weak Focused Mining Potion.png|32px]]",
-      "name": "Weak Focused Mining Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Mining",
         "effect": "Grants a 15% XP BOOST for the MINING Skill"
       },
+      "image": "[[File:Weak Focused Mining Potion.png|32px]]",
+      "name": "Weak Focused Mining Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Weak Focused Mining Potion.png"
     },
@@ -4176,10 +4178,10 @@
       "type": "Drink",
       "description": "A refreshing, fruity drink. Good for hydration.",
       "duration": "300 seconds",
+      "weight": "1.0",
       "image": "[[File:Redberry Infusion.png|32px]]",
       "name": "Redberry Infusion",
       "hydration": "40",
-      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Redberry Infusion.png"
     },
@@ -6246,13 +6248,13 @@
       "type": "Potion",
       "description": "PERK: Focused Casting<br><br>INCREASED chance of landing CRITICAL HITS with COMBAT SPELLS",
       "duration": "600 seconds",
-      "image": "[[File:Lesser Magic Potion.png|32px]]",
-      "name": "Lesser Magic Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Casting",
         "effect": "INCREASED chance of landing CRITICAL HITS with COMBAT SPELLS"
       },
+      "image": "[[File:Lesser Magic Potion.png|32px]]",
+      "name": "Lesser Magic Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lesser Magic Potion.png"
     },
@@ -7282,10 +7284,10 @@
       "type": "Drink",
       "description": "A tasty tipple that'll put a quiver in your quiver.",
       "duration": "300 seconds",
+      "weight": "1.0",
       "image": "[[File:Relentless Infusion.png|32px]]",
       "name": "Relentless Infusion",
       "hydration": "40",
-      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Relentless Infusion.png"
     },
@@ -7302,10 +7304,10 @@
       "type": "Drink",
       "description": "Puts the whiz in wizard.",
       "duration": "300 seconds",
+      "weight": "1.0",
       "image": "[[File:Arcane Infusion.png|32px]]",
       "name": "Arcane Infusion",
       "hydration": "40",
-      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Arcane Infusion.png"
     },
@@ -8947,13 +8949,13 @@
       "type": "Potion",
       "description": "PERK: Focused Artisan<br><br>Grants a 15% XP BOOST for the ARTISAN Skill",
       "duration": "600 seconds",
-      "image": "[[File:Lesser Focused Artisan Potion.png|32px]]",
-      "name": "Lesser Focused Artisan Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Artisan",
         "effect": "Grants a 15% XP BOOST for the ARTISAN Skill"
       },
+      "image": "[[File:Lesser Focused Artisan Potion.png|32px]]",
+      "name": "Lesser Focused Artisan Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lesser Focused Artisan Potion.png"
     },
@@ -9075,10 +9077,10 @@
     "json": {
       "type": "Drink",
       "description": "A source of hydration, tainted by the realm of Imaru.",
+      "weight": "1.0",
       "image": "[[File:Wither Water.png|32px]]",
       "name": "Wither Water",
       "hydration": "10",
-      "weight": "1.0",
       "stacklimit": "99",
       "image_raw": "Wither Water.png"
     },
@@ -9649,10 +9651,10 @@
       "type": "Drink",
       "description": "A refreshing fruity drink. Excellent for hydration.",
       "duration": "900 seconds",
+      "weight": "1.0",
       "image": "[[File:Cadavaberry Infusion.png|32px]]",
       "name": "Cadavaberry Infusion",
       "hydration": "40",
-      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Cadavaberry Infusion.png"
     },
@@ -9688,10 +9690,10 @@
       "type": "Drink",
       "description": "A seasonal treat, popular with some.",
       "duration": "150 seconds",
+      "weight": "1.0",
       "image": "[[File:Pumpkin Spice Infusion.png|32px]]",
       "name": "Pumpkin Spice Infusion",
       "hydration": "80",
-      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Pumpkin Spice Infusion.png"
     },
@@ -10463,6 +10465,7 @@
       "name": "Burnt Watermelon",
       "weight": "1.0",
       "sustenance": "10",
+      "compostvalue": "10",
       "stacklimit": "50",
       "image_raw": "Burnt Watermelon.png"
     },
@@ -10697,13 +10700,13 @@
       "type": "Potion",
       "description": "PERK: Quarrymaster<br><br>REDUCES the STAMINA cost of MINING by 33%",
       "duration": "600 seconds",
-      "image": "[[File:Lesser Quarrymaster Potion.png|32px]]",
-      "name": "Lesser Quarrymaster Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Quarrymaster",
         "effect": "REDUCES the STAMINA cost of MINING by 33%"
       },
+      "image": "[[File:Lesser Quarrymaster Potion.png|32px]]",
+      "name": "Lesser Quarrymaster Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lesser Quarrymaster Potion.png"
     },
@@ -10720,13 +10723,13 @@
       "type": "Potion",
       "description": "PERK: Lumberjack<br><br>REDUCES the STAMINA cost of WOODCUTTING by 33%",
       "duration": "600 seconds",
-      "image": "[[File:Lesser Lumberjack Potion.png|32px]]",
-      "name": "Lesser Lumberjack Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Lumberjack",
         "effect": "REDUCES the STAMINA cost of WOODCUTTING by 33%"
       },
+      "image": "[[File:Lesser Lumberjack Potion.png|32px]]",
+      "name": "Lesser Lumberjack Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lesser Lumberjack Potion.png"
     },
@@ -10743,13 +10746,13 @@
       "type": "Potion",
       "description": "PERK: Focused Attack<br><br>Grants a 15% XP BOOST for the ATTACK Skill",
       "duration": "600 seconds",
-      "image": "[[File:Lesser Focused Attack Potion.png|32px]]",
-      "name": "Lesser Focused Attack Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Attack",
         "effect": "Grants a 15% XP BOOST for the ATTACK Skill"
       },
+      "image": "[[File:Lesser Focused Attack Potion.png|32px]]",
+      "name": "Lesser Focused Attack Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lesser Focused Attack Potion.png"
     },
@@ -10766,13 +10769,13 @@
       "type": "Potion",
       "description": "PERK: Focused Woodcutting<br><br>Grants a 15% XP BOOST for the WOODCUTTING Skill",
       "duration": "600 seconds",
-      "image": "[[File:Lesser Focused Woodcutting Potion.png|32px]]",
-      "name": "Lesser Focused Woodcutting Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Woodcutting",
         "effect": "Grants a 15% XP BOOST for the WOODCUTTING Skill"
       },
+      "image": "[[File:Lesser Focused Woodcutting Potion.png|32px]]",
+      "name": "Lesser Focused Woodcutting Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lesser Focused Woodcutting Potion.png"
     },
@@ -10789,13 +10792,13 @@
       "type": "Potion",
       "description": "PERK: Focused Cooking<br><br>Grants a 15% XP BOOST for the COOKING Skill",
       "duration": "600 seconds",
-      "image": "[[File:Lesser Focused Cooking Potion.png|32px]]",
-      "name": "Lesser Focused Cooking Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Cooking",
         "effect": "Grants a 15% XP BOOST for the COOKING Skill"
       },
+      "image": "[[File:Lesser Focused Cooking Potion.png|32px]]",
+      "name": "Lesser Focused Cooking Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lesser Focused Cooking Potion.png"
     },
@@ -10812,13 +10815,13 @@
       "type": "Potion",
       "description": "PERK: Focused Runecrafting <br><br>Grants a 15% XP BOOST for the RUNECRAFTING Skill",
       "duration": "600 seconds",
-      "image": "[[File:Lesser Focused Runecrafting Potion.png|32px]]",
-      "name": "Lesser Focused Runecrafting Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Runecrafting",
         "effect": "Grants a 15% XP BOOST for the RUNECRAFTING Skill"
       },
+      "image": "[[File:Lesser Focused Runecrafting Potion.png|32px]]",
+      "name": "Lesser Focused Runecrafting Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lesser Focused Runecrafting Potion.png"
     },
@@ -10835,13 +10838,13 @@
       "type": "Potion",
       "description": "PERK: Focused Mining<br><br>Grants a 15% XP BOOST for the MINING Skill",
       "duration": "600 seconds",
-      "image": "[[File:Lesser Focused Mining Potion.png|32px]]",
-      "name": "Lesser Focused Mining Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Mining",
         "effect": "Grants a 15% XP BOOST for the MINING Skill"
       },
+      "image": "[[File:Lesser Focused Mining Potion.png|32px]]",
+      "name": "Lesser Focused Mining Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lesser Focused Mining Potion.png"
     },
@@ -10858,13 +10861,13 @@
       "type": "Potion",
       "description": "PERK: Focused Construction<br><br>Grants a 15% XP BOOST for the CONSTRUCTION Skill",
       "duration": "600 seconds",
-      "image": "[[File:Lesser Focused Construction Potion.png|32px]]",
-      "name": "Lesser Focused Construction Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Construction",
         "effect": "Grants a 15% XP BOOST for the CONSTRUCTION Skill"
       },
+      "image": "[[File:Lesser Focused Construction Potion.png|32px]]",
+      "name": "Lesser Focused Construction Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lesser Focused Construction Potion.png"
     },
@@ -11033,18 +11036,18 @@
     "page_name_sub": "Zombie Axe"
   },
   {
-    "page_name": "Vestige: Rotten Farming Tool",
+    "page_name": "Rotten Farming Tool",
     "item_stacklimit": 1,
-    "item_name": "VESTIGE: Rotten Farming Tool",
+    "item_name": "Rotten Farming Tool",
     "item_weight": 0,
-    "page_name_sub": "Vestige: Rotten Farming Tool",
+    "page_name_sub": "Rotten Farming Tool",
     "json": {
       "type": "Vestige",
-      "image": "[[File:VESTIGE- Rotten Farming Tool.png|32px]]",
-      "name": "VESTIGE: Rotten Farming Tool",
+      "image": "[[File:Rotten Farming Tool.png|32px]]",
+      "name": "Rotten Farming Tool",
       "weight": "0.0",
       "stacklimit": "1",
-      "image_raw": "VESTIGE- Rotten Farming Tool.png"
+      "image_raw": "Rotten Farming Tool.png"
     },
     "item_type": "Vestige"
   },
@@ -11143,11 +11146,11 @@
     "json": {
       "type": "Consumable",
       "description": "",
-      "image": "[[File:PLAN- Headstone 01.png|32px]]",
+      "image": "[[File:PLAN: Headstone 01.png|32px]]",
       "name": "PLAN: Headstone 01",
       "weight": "0",
       "stacklimit": "99",
-      "image_raw": "PLAN- Headstone 01.png"
+      "image_raw": "PLAN: Headstone 01.png"
     },
     "item_weight": 0,
     "page_name_sub": "PLAN: Headstone 01"
@@ -11207,17 +11210,17 @@
   {
     "page_name": "VESTIGE: Tattered Time-Lost Cloth",
     "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
-    "item_name": "VESTIGE: Tattered Time-Lost Cloth",
+    "item_name": "Tattered Time-Lost Cloth",
     "item_type": "Vestige",
     "item_stacklimit": 99,
     "json": {
       "type": "Vestige",
       "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
-      "image": "[[File:VESTIGE: Tattered Time-Lost Cloth.png|32px]]",
-      "name": "VESTIGE: Tattered Time-Lost Cloth",
+      "image": "[[File:Tattered Time-Lost Cloth.png|32px]]",
+      "name": "Tattered Time-Lost Cloth",
       "weight": "0.0",
       "stacklimit": "99",
-      "image_raw": "VESTIGE: Tattered Time-Lost Cloth.png"
+      "image_raw": "Tattered Time-Lost Cloth.png"
     },
     "item_weight": 0,
     "page_name_sub": "VESTIGE: Tattered Time-Lost Cloth"
@@ -11337,11 +11340,11 @@
     "json": {
       "type": "Consumable",
       "description": "The remains of a longbow damaged in a dragon attack. Perhaps you could learn something from it.",
-      "image": "[[File:VESTIGE- A Simple Broken Bow.png|32px]]",
+      "image": "[[File:A Simple Broken Bow.png|32px]]",
       "name": "A Simple Broken Bow",
       "weight": "0",
       "stacklimit": "99",
-      "image_raw": "VESTIGE- A Simple Broken Bow.png"
+      "image_raw": "A Simple Broken Bow.png"
     },
     "item_weight": 0,
     "page_name_sub": "A Simple Broken Bow"
@@ -11554,11 +11557,11 @@
     "json": {
       "type": "Consumable",
       "description": "",
-      "image": "[[File:PLAN- Spectral Book.png|32px]]",
+      "image": "[[File:PLAN: Spectral Book.png|32px]]",
       "name": "PLAN: Spectral Book",
       "weight": "0",
       "stacklimit": "99",
-      "image_raw": "PLAN- Spectral Book.png"
+      "image_raw": "PLAN: Spectral Book.png"
     },
     "item_weight": 0,
     "page_name_sub": "PLAN: Spectral Book"
@@ -12277,13 +12280,13 @@
       "type": "Potion",
       "description": "PERK: Antifire<br><br>NEGATES and grants RESISTANCE to FIRE effects",
       "duration": "300 seconds",
-      "image": "[[File:Antifire Potion.png|32px]]",
-      "name": "Antifire Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Antifire",
         "effect": "NEGATES and grants RESISTANCE to FIRE effects"
       },
+      "image": "[[File:Antifire Potion.png|32px]]",
+      "name": "Antifire Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Antifire Potion.png"
     },
@@ -12596,10 +12599,10 @@
       "type": "Drink",
       "description": "Made from clean water, maple sap and irit. Reduces thirst as well as stamina when blocking.",
       "duration": "300 seconds",
+      "weight": "1.0",
       "image": "[[File:Maple Infusion.png|32px]]",
       "name": "Maple Infusion",
       "hydration": "80",
-      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Maple Infusion.png"
     },
@@ -13495,6 +13498,22 @@
     "page_name_sub": "Mithril Arrow"
   },
   {
+    "page_name": "Shadow Crossbow",
+    "item_description": "A crossbow made from black metal. Similar to those used by Black Knight snipers.",
+    "item_name": "Shadow Crossbow",
+    "item_weight": 10,
+    "page_name_sub": "Shadow Crossbow",
+    "json": {
+      "type": "Ranged Weapon",
+      "description": "A crossbow made from black metal. Similar to those used by Black Knight snipers.",
+      "image": "[[File:Shadow Crossbow.png|32px]]",
+      "name": "Shadow Crossbow",
+      "weight": "10.0",
+      "image_raw": "Shadow Crossbow.png"
+    },
+    "item_type": "Ranged Weapon"
+  },
+  {
     "page_name": "Broken Titan's Wrath",
     "item_description": "The shattered remnant of the Black Knight Titan's sword.",
     "item_name": "Broken Titan's Wrath",
@@ -13891,13 +13910,13 @@
     "json": {
       "type": "Potion",
       "description": "PERK: Focused Farming<br><br>Grants a 15% XP BOOST for the FARMING Skill",
-      "image": "[[File:Weak Focused Farming Potion.png|32px]]",
-      "name": "Weak Focused Farming Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Farming",
         "effect": "Grants a 15% XP BOOST for the FARMING Skill"
       },
+      "image": "[[File:Weak Focused Farming Potion.png|32px]]",
+      "name": "Weak Focused Farming Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Weak Focused Farming Potion.png"
     },
@@ -13913,13 +13932,13 @@
     "json": {
       "type": "Potion",
       "description": "PERK: Focused Farming<br><br>Grants a 15% XP BOOST for the FARMING Skill",
-      "image": "[[File:Lesser Focused Farming Potion.png|32px]]",
-      "name": "Lesser Focused Farming Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Farming",
         "effect": "Grants a 15% XP BOOST for the FARMING Skill"
       },
+      "image": "[[File:Lesser Focused Farming Potion.png|32px]]",
+      "name": "Lesser Focused Farming Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lesser Focused Farming Potion.png"
     },
@@ -13936,13 +13955,13 @@
       "type": "Potion",
       "description": "PERK: Antipoison II<br><br>NEGATES and grants RESISTANCE to POISON effects",
       "duration": "300 seconds",
-      "image": "[[File:Antipoison Potion.png|32px]]",
-      "name": "Antipoison Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Antipoison II",
         "effect": "NEGATES and grants RESISTANCE to POISON effects"
       },
+      "image": "[[File:Antipoison Potion.png|32px]]",
+      "name": "Antipoison Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Antipoison Potion.png"
     },
@@ -13959,13 +13978,13 @@
       "type": "Potion",
       "description": "PERK: Focused Artisan II<br><br>Grants a 30% XP BOOST for the ARTISAN Skill",
       "duration": "300 seconds",
-      "image": "[[File:Focused Artisan Potion.png|32px]]",
-      "name": "Focused Artisan Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Artisan II",
         "effect": "Grants a 30% XP BOOST for the ARTISAN Skill"
       },
+      "image": "[[File:Focused Artisan Potion.png|32px]]",
+      "name": "Focused Artisan Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Focused Artisan Potion.png"
     },
@@ -13982,13 +14001,13 @@
       "type": "Potion",
       "description": "PERK: Antipoison<br><br>NEGATES and grants RESISTENCE to POISON effects",
       "duration": "600 seconds",
-      "image": "[[File:Lesser Antipoison Potion.png|32px]]",
-      "name": "Lesser Antipoison Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Antipoison",
         "effect": "NEGATES and grants RESISTENCE to POISON effects"
       },
+      "image": "[[File:Lesser Antipoison Potion.png|32px]]",
+      "name": "Lesser Antipoison Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lesser Antipoison Potion.png"
     },
@@ -14005,13 +14024,13 @@
       "type": "Potion",
       "description": "PERK: Focused Attack II<br><br>Grants a 30% XP BOOST for the Attack Skill",
       "duration": "300 seconds",
-      "image": "[[File:Focused Attack Potion.png|32px]]",
-      "name": "Focused Attack Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Attack II",
         "effect": "Grants a 30% XP BOOST for the Attack Skill"
       },
+      "image": "[[File:Focused Attack Potion.png|32px]]",
+      "name": "Focused Attack Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Focused Attack Potion.png"
     },
@@ -14028,13 +14047,13 @@
       "type": "Potion",
       "description": "PERK: Focused Construction II<br><br>Grants a 30% XP BOOST for the Construction Skill",
       "duration": "300 seconds",
-      "image": "[[File:Focused Construction Potion.png|32px]]",
-      "name": "Focused Construction Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Construction II",
         "effect": "Grants a 30% XP BOOST for the Construction Skill"
       },
+      "image": "[[File:Focused Construction Potion.png|32px]]",
+      "name": "Focused Construction Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Focused Construction Potion.png"
     },
@@ -14051,13 +14070,13 @@
       "type": "Potion",
       "description": "PERK: Focused Cooking II<br><br>Grants a 30% XP BOOST for the Cooking Skill",
       "duration": "300 seconds",
-      "image": "[[File:Focused Cooking Potion.png|32px]]",
-      "name": "Focused Cooking Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Cooking II",
         "effect": "Grants a 30% XP BOOST for the Cooking Skill"
       },
+      "image": "[[File:Focused Cooking Potion.png|32px]]",
+      "name": "Focused Cooking Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Focused Cooking Potion.png"
     },
@@ -14074,13 +14093,13 @@
       "type": "Potion",
       "description": "PERK: Focused Mining II<br><br>Grants a 30% XP BOOST for the Mining Skill",
       "duration": "300 seconds",
-      "image": "[[File:Focused Mining Potion.png|32px]]",
-      "name": "Focused Mining Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Mining II",
         "effect": "Grants a 30% XP BOOST for the Mining Skill"
       },
+      "image": "[[File:Focused Mining Potion.png|32px]]",
+      "name": "Focused Mining Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Focused Mining Potion.png"
     },
@@ -14097,13 +14116,13 @@
       "type": "Potion",
       "description": "PERK: Focused Runecrafting II<br><br>Grants a 30% XP BOOST for the Runecrafting Skill",
       "duration": "300 seconds",
-      "image": "[[File:Focused Runecrafting Potion.png|32px]]",
-      "name": "Focused Runecrafting Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Runecrafting II",
         "effect": "Grants a 30% XP BOOST for the Runecrafting Skill"
       },
+      "image": "[[File:Focused Runecrafting Potion.png|32px]]",
+      "name": "Focused Runecrafting Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Focused Runecrafting Potion.png"
     },
@@ -14120,13 +14139,13 @@
       "type": "Potion",
       "description": "PERK: Focused Woodcutting II<br><br>Grants a 30% XP BOOST for the Woodcutting Skill",
       "duration": "300 seconds",
-      "image": "[[File:Focused Woodcutting Potion.png|32px]]",
-      "name": "Focused Woodcutting Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Woodcutting II",
         "effect": "Grants a 30% XP BOOST for the Woodcutting Skill"
       },
+      "image": "[[File:Focused Woodcutting Potion.png|32px]]",
+      "name": "Focused Woodcutting Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Focused Woodcutting Potion.png"
     },
@@ -14142,13 +14161,13 @@
     "json": {
       "type": "Potion",
       "description": "PERK: Focused Farming II<br><br>Grants a 30% XP BOOST for the Farming Skill",
-      "image": "[[File:Focused Farming Potion.png|32px]]",
-      "name": "Focused Farming Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Farming II",
         "effect": "Grants a 30% XP BOOST for the Farming Skill"
       },
+      "image": "[[File:Focused Farming Potion.png|32px]]",
+      "name": "Focused Farming Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Focused Farming Potion.png"
     },
@@ -14165,13 +14184,13 @@
       "type": "Potion",
       "description": "PERK: Lumberjack II<br><br>REDUCES the STAMINA cost of WOODCUTTING by 66%",
       "duration": "300 seconds",
-      "image": "[[File:Lumberjack Potion.png|32px]]",
-      "name": "Lumberjack Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Lumberjack II",
         "effect": "REDUCES the STAMINA cost of WOODCUTTING by 66%"
       },
+      "image": "[[File:Lumberjack Potion.png|32px]]",
+      "name": "Lumberjack Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lumberjack Potion.png"
     },
@@ -14188,13 +14207,13 @@
       "type": "Potion",
       "description": "PERK: Quarrymaster II<br><br>REDUCES the STAMINA cost of Mining by 66%",
       "duration": "300 seconds",
-      "image": "[[File:Quarrymaster Potion.png|32px]]",
-      "name": "Quarrymaster Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Quarrymaster II",
         "effect": "REDUCES the STAMINA cost of Mining by 66%"
       },
+      "image": "[[File:Quarrymaster Potion.png|32px]]",
+      "name": "Quarrymaster Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Quarrymaster Potion.png"
     },
@@ -16505,33 +16524,37 @@
     "page_name": "Shrimp Bait",
     "item_description": "Scraps of shrimp dressed to be eaten by fish. A Sardines favorite snack. Increases the catch chance of this fish.",
     "item_name": "Shrimp Bait",
-    "item_weight": 0,
-    "page_name_sub": "Shrimp Bait",
+    "item_type": "Tool",
+    "item_stacklimit": 999,
     "json": {
       "type": "Tool",
       "description": "Scraps of shrimp dressed to be eaten by fish. A Sardines favorite snack. Increases the catch chance of this fish.",
       "image": "[[File:Shrimp Bait.png|32px]]",
       "name": "Shrimp Bait",
       "weight": "0.0",
+      "stacklimit": "999",
       "image_raw": "Shrimp Bait.png"
     },
-    "item_type": "Tool"
+    "item_weight": 0,
+    "page_name_sub": "Shrimp Bait"
   },
   {
     "page_name": "Feather Bait",
     "item_description": "What is it about feathers that fascinates a fish? A great way to bait them. Trout seems the most susceptible. increases the catch chance of this fish.",
     "item_name": "Feather Bait",
-    "item_weight": 0,
-    "page_name_sub": "Feather Bait",
+    "item_type": "Tool",
+    "item_stacklimit": 999,
     "json": {
       "type": "Tool",
       "description": "What is it about feathers that fascinates a fish? A great way to bait them. Trout seems the most susceptible. increases the catch chance of this fish.",
       "image": "[[File:Feather Bait.png|32px]]",
       "name": "Feather Bait",
       "weight": "0.0",
+      "stacklimit": "999",
       "image_raw": "Feather Bait.png"
     },
-    "item_type": "Tool"
+    "item_weight": 0,
+    "page_name_sub": "Feather Bait"
   },
   {
     "page_name": "Magnet",
@@ -16557,11 +16580,11 @@
       "type": "Food",
       "description": "Made by combining fried egg and sauté shrimp. Grants the Sea Legs perk.",
       "duration": "600 seconds",
+      "health": "10",
       "image": "[[File:Shrimp Omelette.png|32px]]",
       "name": "Shrimp Omelette",
       "weight": "0.7",
       "sustenance": "15",
-      "health": "10",
       "stacklimit": "50",
       "image_raw": "Shrimp Omelette.png"
     },
@@ -16578,11 +16601,11 @@
       "type": "Food",
       "description": "Made by combining fried sardine and dried redberry. Grants the Warding Fish perk.",
       "duration": "600 seconds",
+      "health": "15",
       "image": "[[File:Sauteed Sardines.png|32px]]",
       "name": "Sauteed Sardines",
       "weight": "0.7",
       "sustenance": "25",
-      "health": "15",
       "stacklimit": "50",
       "image_raw": "Sauteed Sardines.png"
     },
@@ -16599,11 +16622,11 @@
       "type": "Food",
       "description": "Made by combining grilled trout and a baked potato. Grants the Sea Life perk.",
       "duration": "600 seconds",
+      "health": "25",
       "image": "[[File:Herb Baked Trout.png|32px]]",
       "name": "Herb Baked Trout",
       "weight": "0.7",
       "sustenance": "30",
-      "health": "25",
       "stacklimit": "50",
       "image_raw": "Herb Baked Trout.png"
     },
@@ -16620,11 +16643,11 @@
       "type": "Food",
       "description": "Made by combining fried egg and fried salmon. Grants the Sea Life perk.",
       "duration": "900 seconds",
+      "health": "35",
       "image": "[[File:Eggs Royale.png|32px]]",
       "name": "Eggs Royale",
       "weight": "0.7",
       "sustenance": "45",
-      "health": "35",
       "stacklimit": "50",
       "image_raw": "Eggs Royale.png"
     },
@@ -16641,11 +16664,11 @@
       "type": "Food",
       "description": "Made by combining fried grilled undead bass and grilled tomato. Grants the Sea Life perk.",
       "duration": "1,200 seconds",
+      "health": "45",
       "image": "[[File:Undead Delight.png|32px]]",
       "name": "Undead Delight",
       "weight": "0.7",
       "sustenance": "50",
-      "health": "45",
       "stacklimit": "50",
       "image_raw": "Undead Delight.png"
     },
@@ -16662,11 +16685,11 @@
       "type": "Food",
       "description": "Made by combining smoked herring, seared anchovies and dried dwellberry.",
       "duration": "900 seconds",
+      "health": "55",
       "image": "[[File:Berry Drizzle Pan-Seared.png|32px]]",
       "name": "Berry Drizzle Pan-Seared",
       "weight": "0.7",
       "sustenance": "65",
-      "health": "55",
       "stacklimit": "50",
       "image_raw": "Berry Drizzle Pan-Seared.png"
     },
@@ -16683,11 +16706,11 @@
       "type": "Food",
       "description": "Made by combining roasted lobster, braised undead eel and fried cabbage.",
       "duration": "1200 seconds",
+      "health": "50",
       "image": "[[File:Fish Fry.png|32px]]",
       "name": "Fish Fry",
       "weight": "0.7",
       "sustenance": "55",
-      "health": "50",
       "stacklimit": "50",
       "image_raw": "Fish Fry.png"
     },
@@ -16704,11 +16727,11 @@
       "type": "Food",
       "description": "Made by combining dried giant krill, dried redberry and smoked infernal eel.",
       "duration": "600 seconds",
+      "health": "70",
       "image": "[[File:Stir-Fry.png|32px]]",
       "name": "Stir-Fry",
       "weight": "0.7",
       "sustenance": "75",
-      "health": "70",
       "stacklimit": "50",
       "image_raw": "Stir-Fry.png"
     },
@@ -16725,11 +16748,11 @@
       "type": "Food",
       "description": "Made by combining dried giant krill, fried cabbage and a braised catfish.",
       "duration": "600 seconds",
+      "health": "80",
       "image": "[[File:Stuffed Catfish.png|32px]]",
       "name": "Stuffed Catfish",
       "weight": "0.7",
       "sustenance": "80",
-      "health": "80",
       "stacklimit": "50",
       "image_raw": "Stuffed Catfish.png"
     },
@@ -16740,97 +16763,109 @@
     "page_name": "Anchovy Bait",
     "item_description": "Cute little cannibal fish love some anchovy bait. Irresistible to Herring. Increases the catch chance of this fish.",
     "item_name": "Anchovy Bait",
-    "item_weight": 0,
-    "page_name_sub": "Anchovy Bait",
+    "item_type": "Tool",
+    "item_stacklimit": 999,
     "json": {
       "type": "Tool",
       "description": "Cute little cannibal fish love some anchovy bait. Irresistible to Herring. Increases the catch chance of this fish.",
       "image": "[[File:Anchovy Bait.png|32px]]",
       "name": "Anchovy Bait",
       "weight": "0.0",
+      "stacklimit": "999",
       "image_raw": "Anchovy Bait.png"
     },
-    "item_type": "Tool"
+    "item_weight": 0,
+    "page_name_sub": "Anchovy Bait"
   },
   {
     "page_name": "Feathered Lure",
     "item_description": "Entice Salmon with a knotted ball of bird knock-offs. Increases the catch chance of this fish.",
     "item_name": "Feathered Lure",
-    "item_weight": 0,
-    "page_name_sub": "Feathered Lure",
+    "item_type": "Tool",
+    "item_stacklimit": 999,
     "json": {
       "type": "Tool",
       "description": "Entice Salmon with a knotted ball of bird knock-offs. Increases the catch chance of this fish.",
       "image": "[[File:Feathered Lure.png|32px]]",
       "name": "Feathered Lure",
       "weight": "0.0",
+      "stacklimit": "999",
       "image_raw": "Feathered Lure.png"
     },
-    "item_type": "Tool"
+    "item_weight": 0,
+    "page_name_sub": "Feathered Lure"
   },
   {
     "page_name": "Lobster Bait",
     "item_description": "Scraps of lobster meat made into bait to draw in fish. A meal Undead Eels cannot resist. Increases the catch chance of this fish.",
     "item_name": "Lobster Bait",
-    "item_weight": 0,
-    "page_name_sub": "Lobster Bait",
+    "item_type": "Tool",
+    "item_stacklimit": 999,
     "json": {
       "type": "Tool",
       "description": "Scraps of lobster meat made into bait to draw in fish. A meal Undead Eels cannot resist. Increases the catch chance of this fish.",
       "image": "[[File:Lobster Bait.png|32px]]",
       "name": "Lobster Bait",
       "weight": "0.0",
+      "stacklimit": "999",
       "image_raw": "Lobster Bait.png"
     },
-    "item_type": "Tool"
+    "item_weight": 0,
+    "page_name_sub": "Lobster Bait"
   },
   {
     "page_name": "Spooky Bait",
     "item_description": "Bait that gives fish the heeby-jeebies, but draws them in anyway. Undead Bass love a jump scare. Increases the catch chance of this fish.",
     "item_name": "Spooky Bait",
-    "item_weight": 0,
-    "page_name_sub": "Spooky Bait",
+    "item_type": "Tool",
+    "item_stacklimit": 999,
     "json": {
       "type": "Tool",
       "description": "Bait that gives fish the heeby-jeebies, but draws them in anyway. Undead Bass love a jump scare. Increases the catch chance of this fish.",
       "image": "[[File:Spooky Bait.png|32px]]",
       "name": "Spooky Bait",
       "weight": "0.0",
+      "stacklimit": "999",
       "image_raw": "Spooky Bait.png"
     },
-    "item_type": "Tool"
+    "item_weight": 0,
+    "page_name_sub": "Spooky Bait"
   },
   {
     "page_name": "Animated Feather",
     "item_description": "To a fish, this feather looks like a long-lost love. Makes Armoured Catfish enamoured. Increases the catch chance of this fish.",
     "item_name": "Animated Feather",
-    "item_weight": 0,
-    "page_name_sub": "Animated Feather",
+    "item_type": "Tool",
+    "item_stacklimit": 999,
     "json": {
       "type": "Tool",
       "description": "To a fish, this feather looks like a long-lost love. Makes Armoured Catfish enamoured. Increases the catch chance of this fish.",
       "image": "[[File:Animated Feather.png|32px]]",
       "name": "Animated Feather",
       "weight": "0.0",
+      "stacklimit": "999",
       "image_raw": "Animated Feather.png"
     },
-    "item_type": "Tool"
+    "item_weight": 0,
+    "page_name_sub": "Animated Feather"
   },
   {
     "page_name": "Giant Krill Bait",
     "item_description": "If I told you why this bait works, I'd have to krill you. Infernal Eels look alive! Increases the catch chance of this fish.",
     "item_name": "Giant Krill Bait",
-    "item_weight": 0,
-    "page_name_sub": "Giant Krill Bait",
+    "item_type": "Tool",
+    "item_stacklimit": 999,
     "json": {
       "type": "Tool",
       "description": "If I told you why this bait works, I'd have to krill you. Infernal Eels look alive! Increases the catch chance of this fish.",
       "image": "[[File:Giant Krill Bait.png|32px]]",
       "name": "Giant Krill Bait",
       "weight": "0.0",
+      "stacklimit": "999",
       "image_raw": "Giant Krill Bait.png"
     },
-    "item_type": "Tool"
+    "item_weight": 0,
+    "page_name_sub": "Giant Krill Bait"
   },
   {
     "page_name": "Weak Focused Fishing Potion",
@@ -16842,13 +16877,13 @@
       "type": "Potion",
       "description": "PERK: Weak Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
       "duration": "300 seconds",
-      "image": "[[File:Weak Focused Fishing Potion.png|32px]]",
-      "name": "Weak Focused Fishing Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Weak Focused Fishing",
         "effect": "Grants a boost to your Fishing XP for a short period of time."
       },
+      "image": "[[File:Weak Focused Fishing Potion.png|32px]]",
+      "name": "Weak Focused Fishing Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Weak Focused Fishing Potion.png"
     },
@@ -16865,13 +16900,13 @@
       "type": "Potion",
       "description": "PERK: Lesser Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
       "duration": "600 seconds",
-      "image": "[[File:Lesser Focused Fishing Potion.png|32px]]",
-      "name": "Lesser Focused Fishing Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Lesser Focused Fishing",
         "effect": "Grants a boost to your Fishing XP for a short period of time."
       },
+      "image": "[[File:Lesser Focused Fishing Potion.png|32px]]",
+      "name": "Lesser Focused Fishing Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Lesser Focused Fishing Potion.png"
     },
@@ -16888,13 +16923,13 @@
       "type": "Potion",
       "description": "PERK: Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
       "duration": "300 seconds",
-      "image": "[[File:Focused Fishing Potion.png|32px]]",
-      "name": "Focused Fishing Potion",
-      "weight": "1.0",
       "perk": {
         "name": "Focused Fishing",
         "effect": "Grants a boost to your Fishing XP for a short period of time."
       },
+      "image": "[[File:Focused Fishing Potion.png|32px]]",
+      "name": "Focused Fishing Potion",
+      "weight": "1.0",
       "stacklimit": "50",
       "image_raw": "Focused Fishing Potion.png"
     },
@@ -16911,11 +16946,11 @@
       "type": "Food",
       "description": "Stave off hunger with this tasty bite. Grants the Sea Life perk.",
       "duration": "180 seconds",
+      "health": "15",
       "image": "[[File:Grilled Trout.png|32px]]",
       "name": "Grilled Trout",
       "weight": "2.1",
       "sustenance": "15",
-      "health": "15",
       "stacklimit": "50",
       "image_raw": "Grilled Trout.png"
     },
@@ -16932,11 +16967,11 @@
       "type": "Food",
       "description": "Delicious little fishies. Grants the Warding Fish perk.",
       "duration": "180 seconds",
+      "health": "10",
       "image": "[[File:Fried Sardine.png|32px]]",
       "name": "Fried Sardine",
       "weight": "1.5",
       "sustenance": "15",
-      "health": "10",
       "stacklimit": "50",
       "image_raw": "Fried Sardine.png"
     },
@@ -16953,11 +16988,11 @@
       "type": "Food",
       "description": "A simple meal but one that will hold back the hunger.",
       "duration": "180 seconds",
+      "health": "5",
       "image": "[[File:Sauteed Shrimp.png|32px]]",
       "name": "Sauteed Shrimp",
       "weight": "0.2",
       "sustenance": "10",
-      "health": "5",
       "stacklimit": "50",
       "image_raw": "Sauteed Shrimp.png"
     },
@@ -17006,11 +17041,11 @@
       "type": "Food",
       "description": "Nothing beats hunger like a herring. Grants the Warding Fish perk.",
       "duration": "300 seconds",
+      "health": "20",
       "image": "[[File:Smoked Herring.png|32px]]",
       "name": "Smoked Herring",
       "weight": "1.8",
       "sustenance": "20",
-      "health": "20",
       "stacklimit": "50",
       "image_raw": "Smoked Herring.png"
     },
@@ -17027,11 +17062,11 @@
       "type": "Food",
       "description": "Hold hunger back until lunch.",
       "duration": "300 seconds",
+      "health": "10",
       "image": "[[File:Seared Anchovies.png|32px]]",
       "name": "Seared Anchovies",
       "weight": "1.0",
       "sustenance": "15",
-      "health": "10",
       "stacklimit": "50",
       "image_raw": "Seared Anchovies.png"
     },
@@ -17048,11 +17083,11 @@
       "type": "Food",
       "description": "For when you feel like a hungry bear. Grants the Sea Life perk.",
       "duration": "300 seconds",
+      "health": "25",
       "image": "[[File:Fried Salmon.png|32px]]",
       "name": "Fried Salmon",
       "weight": "1.8",
       "sustenance": "20",
-      "health": "25",
       "stacklimit": "50",
       "image_raw": "Fried Salmon.png"
     },
@@ -17069,11 +17104,11 @@
       "type": "Food",
       "description": "Does wonders for your hunger bar. Grants the Sea Legs perk.",
       "duration": "120 seconds",
+      "health": "15",
       "image": "[[File:Roasted Lobster.png|32px]]",
       "name": "Roasted Lobster",
       "weight": "2.4",
       "sustenance": "20",
-      "health": "15",
       "stacklimit": "50",
       "image_raw": "Roasted Lobster.png"
     },
@@ -17090,11 +17125,11 @@
       "type": "Food",
       "description": "Makes you queasy but does wonders for hunger. Grants the Warding Fish perk.",
       "duration": "600 seconds",
+      "health": "30",
       "image": "[[File:Braised Undead Eel.png|32px]]",
       "name": "Braised Undead Eel",
       "weight": "3.4",
       "sustenance": "25",
-      "health": "30",
       "stacklimit": "50",
       "image_raw": "Braised Undead Eel.png"
     },
@@ -17111,11 +17146,11 @@
       "type": "Food",
       "description": "Undead and makes you unhungry. Grants the Sea Life perk.",
       "duration": "600 seconds",
+      "health": "35",
       "image": "[[File:Grilled Undead Bass.png|32px]]",
       "name": "Grilled Undead Bass",
       "weight": "3.1",
       "sustenance": "25",
-      "health": "35",
       "stacklimit": "50",
       "image_raw": "Grilled Undead Bass.png"
     },
@@ -17132,11 +17167,11 @@
       "type": "Food",
       "description": "Krills hunger with one bite. Grants the Sea Legs perk.",
       "duration": "300 seconds",
+      "health": "20",
       "image": "[[File:Dried Giant Krill.png|32px]]",
       "name": "Dried Giant Krill",
       "weight": "2.9",
       "sustenance": "25",
-      "health": "20",
       "stacklimit": "50",
       "image_raw": "Dried Giant Krill.png"
     },
@@ -17153,11 +17188,11 @@
       "type": "Food",
       "description": "An unusual meal, but a good one. Grants the Warding Fish perk.",
       "duration": "900 seconds",
+      "health": "45",
       "image": "[[File:Smoked Infernal Eel.png|32px]]",
       "name": "Smoked Infernal Eel",
       "weight": "3.1",
       "sustenance": "30",
-      "health": "45",
       "stacklimit": "50",
       "image_raw": "Smoked Infernal Eel.png"
     },
@@ -17174,11 +17209,11 @@
       "type": "Food",
       "description": "If your feline hungry, eat a catfish. Grants the Sea Life perk.",
       "duration": "900 seconds",
+      "health": "60",
       "image": "[[File:Braised Catfish.png|32px]]",
       "name": "Braised Catfish",
       "weight": "4.5",
       "sustenance": "30",
-      "health": "60",
       "stacklimit": "50",
       "image_raw": "Braised Catfish.png"
     },
@@ -17468,5 +17503,265 @@
       "image_raw": "Farmer's Hat.png"
     },
     "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Burnt Catfish",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Catfish",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Catfish.png|32px]]",
+      "name": "Burnt Catfish",
+      "weight": "4.5",
+      "sustenance": "10",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Catfish.png"
+    },
+    "item_weight": 4.5,
+    "page_name_sub": "Burnt Catfish"
+  },
+  {
+    "page_name": "Burnt Undead Eel",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Undead Eel",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Undead Eel.png|32px]]",
+      "name": "Burnt Undead Eel",
+      "weight": "3.4",
+      "sustenance": "10",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Undead Eel.png"
+    },
+    "item_weight": 3.4,
+    "page_name_sub": "Burnt Undead Eel"
+  },
+  {
+    "page_name": "Burnt Giant Krill",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Giant Krill",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Giant Krill.png|32px]]",
+      "name": "Burnt Giant Krill",
+      "weight": "2.9",
+      "sustenance": "10",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Giant Krill.png"
+    },
+    "item_weight": 2.9,
+    "page_name_sub": "Burnt Giant Krill"
+  },
+  {
+    "page_name": "Burnt Salmon",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Salmon",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Salmon.png|32px]]",
+      "name": "Burnt Salmon",
+      "weight": "1.8",
+      "sustenance": "10",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Salmon.png"
+    },
+    "item_weight": 1.8,
+    "page_name_sub": "Burnt Salmon"
+  },
+  {
+    "page_name": "Burnt Sardine",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Sardine",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Sardine.png|32px]]",
+      "name": "Burnt Sardine",
+      "weight": "1.5",
+      "sustenance": "10",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Sardine.png"
+    },
+    "item_weight": 1.5,
+    "page_name_sub": "Burnt Sardine"
+  },
+  {
+    "page_name": "Burnt Trout",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Trout",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Trout.png|32px]]",
+      "name": "Burnt Trout",
+      "weight": "2.1",
+      "sustenance": "10",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Trout.png"
+    },
+    "item_weight": 2.1,
+    "page_name_sub": "Burnt Trout"
+  },
+  {
+    "page_name": "Burnt Anchovies",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Anchovies",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Anchovies.png|32px]]",
+      "name": "Burnt Anchovies",
+      "weight": "1",
+      "sustenance": "10",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Anchovies.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Burnt Anchovies"
+  },
+  {
+    "page_name": "Burnt Herring",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Herring",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Herring.png|32px]]",
+      "name": "Burnt Herring",
+      "weight": "1.8",
+      "sustenance": "10",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Herring.png"
+    },
+    "item_weight": 1.8,
+    "page_name_sub": "Burnt Herring"
+  },
+  {
+    "page_name": "Burnt Infernal Eel",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Infernal Eel",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Infernal Eel.png|32px]]",
+      "name": "Burnt Infernal Eel",
+      "weight": "3.1",
+      "sustenance": "10",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Infernal Eel.png"
+    },
+    "item_weight": 3.1,
+    "page_name_sub": "Burnt Infernal Eel"
+  },
+  {
+    "page_name": "Burnt Lobster",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Lobster",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Lobster.png|32px]]",
+      "name": "Burnt Lobster",
+      "weight": "2.4",
+      "sustenance": "10",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Lobster.png"
+    },
+    "item_weight": 2.4,
+    "page_name_sub": "Burnt Lobster"
+  },
+  {
+    "page_name": "Burnt Shrimp",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Shrimp",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Shrimp.png|32px]]",
+      "name": "Burnt Shrimp",
+      "weight": "0.2",
+      "sustenance": "10",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Shrimp.png"
+    },
+    "item_weight": 0.2,
+    "page_name_sub": "Burnt Shrimp"
+  },
+  {
+    "page_name": "Burnt Undead Bass",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Undead Bass",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Undead Bass.png|32px]]",
+      "name": "Burnt Undead Bass",
+      "weight": "3.1",
+      "sustenance": "10",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Undead Bass.png"
+    },
+    "item_weight": 3.1,
+    "page_name_sub": "Burnt Undead Bass"
+  },
+  {
+    "page_name": "Burnt Bread",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Bread",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Bread.png|32px]]",
+      "name": "Burnt Bread",
+      "weight": "1",
+      "sustenance": "10",
+      "compostvalue": "10",
+      "stacklimit": "50",
+      "image_raw": "Burnt Bread.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Burnt Bread"
   }
 ]

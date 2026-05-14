@@ -53,10 +53,10 @@
         "usesRecipe": null
       },
       {
-        "id": "107c5da561d7",
+        "id": "a761cf914009",
         "name": "Wall",
         "image": "Wall_%28Castle%29.png",
-        "variantName": null,
+        "variantName": "Castle",
         "recipe": {
           "id": "22233cd37cd9",
           "facility": "Build Menu",
@@ -1532,7 +1532,7 @@
     ],
     "wikiLink": "Law_Rune",
     "weight": 0,
-    "stackLimit": 999
+    "stackLimit": 9999
   },
   {
     "id": "4ed094386ed6",
@@ -1964,7 +1964,7 @@
     ],
     "wikiLink": "Astral_Rune",
     "weight": 0,
-    "stackLimit": 999
+    "stackLimit": 9999
   },
   {
     "id": "2ffcb76da889",
@@ -1998,7 +1998,7 @@
     ],
     "wikiLink": "Earth_Rune",
     "weight": 0,
-    "stackLimit": 999
+    "stackLimit": 9999
   },
   {
     "id": "c9333acd646c",
@@ -2032,7 +2032,7 @@
     ],
     "wikiLink": "Fire_Rune",
     "weight": 0,
-    "stackLimit": 999
+    "stackLimit": 9999
   },
   {
     "id": "0e2ba7342d33",
@@ -2065,7 +2065,8 @@
       "Rune Altar"
     ],
     "wikiLink": "Nature_Rune",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 9999
   },
   {
     "id": "153fb73d9320",
@@ -3780,7 +3781,7 @@
     ],
     "wikiLink": "Air_Rune",
     "weight": 0,
-    "stackLimit": 999
+    "stackLimit": 9999
   },
   {
     "id": "2429b3a1919d",
@@ -4544,7 +4545,7 @@
     ],
     "wikiLink": "Water_Rune",
     "weight": 0,
-    "stackLimit": 999
+    "stackLimit": 9999
   },
   {
     "id": "fbc0b5e9c29d",
@@ -8581,10 +8582,10 @@
     "image": "30°_Stairs_%28Cabin%29.png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "30° Stairs",
         "image": "30°_Stairs_%28Cabin%29.png",
-        "variantName": null,
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -8599,10 +8600,10 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "30° Stairs",
         "image": "30°_Stairs_%28Cottage%29.png",
-        "variantName": null,
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
@@ -8617,10 +8618,10 @@
         "usesRecipe": null
       },
       {
-        "id": "09e7ccf1d6e8",
+        "id": "908d7cfca3e1",
         "name": "30° Stairs",
         "image": "30°_Stairs_%28Castle%29.png",
-        "variantName": null,
+        "variantName": "Castle",
         "recipe": {
           "id": "367e842dc50c",
           "facility": "Build Menu",
@@ -8649,10 +8650,10 @@
     "image": "45°_Stairs_%28Cabin%29.png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "45° Stairs",
         "image": "45°_Stairs_%28Cabin%29.png",
-        "variantName": null,
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -8667,10 +8668,10 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "45° Stairs",
         "image": "45°_Stairs_%28Cottage%29.png",
-        "variantName": null,
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
@@ -8685,10 +8686,10 @@
         "usesRecipe": null
       },
       {
-        "id": "09e7ccf1d6e8",
+        "id": "908d7cfca3e1",
         "name": "45° Stairs",
         "image": "45°_Stairs_%28Castle%29.png",
-        "variantName": null,
+        "variantName": "Castle",
         "recipe": {
           "id": "367e842dc50c",
           "facility": "Build Menu",
@@ -8717,10 +8718,10 @@
     "image": "Inner_Corner_45°_Stairs_%28Cabin%29.png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "Inner Corner 45° Stairs",
         "image": "Inner_Corner_45°_Stairs_%28Cabin%29.png",
-        "variantName": null,
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -8735,10 +8736,10 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "Inner Corner 45° Stairs",
         "image": "Inner_Corner_45°_Stairs_%28Cottage%29.png",
-        "variantName": null,
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
@@ -8753,10 +8754,10 @@
         "usesRecipe": null
       },
       {
-        "id": "09e7ccf1d6e8",
+        "id": "908d7cfca3e1",
         "name": "Inner Corner 45° Stairs",
         "image": "Inner_Corner_45°_Stairs_%28Castle%29.png",
-        "variantName": null,
+        "variantName": "Castle",
         "recipe": {
           "id": "367e842dc50c",
           "facility": "Build Menu",
@@ -8785,10 +8786,10 @@
     "image": "Small_Square_Tile_%28Cabin%29.png",
     "variants": [
       {
-        "id": "0cf4c744030c",
+        "id": "94a30cc7e967",
         "name": "Small Square Tile",
         "image": "Small_Square_Tile_%28Cabin%29.png",
-        "variantName": null,
+        "variantName": "Cabin",
         "recipe": {
           "id": "a267cebe6a9e",
           "facility": "Build Menu",
@@ -8803,10 +8804,10 @@
         "usesRecipe": null
       },
       {
-        "id": "5b17f3e32482",
+        "id": "87f33851c235",
         "name": "Small Square Tile",
         "image": "Small_Square_Tile_%28Cottage%29.png",
-        "variantName": null,
+        "variantName": "Cottage",
         "recipe": {
           "id": "b7558d4463ac",
           "facility": "Build Menu",
@@ -8821,10 +8822,10 @@
         "usesRecipe": null
       },
       {
-        "id": "d3ea43db5cdd",
+        "id": "7ea14f6b7616",
         "name": "Small Square Tile",
         "image": "Small_Square_Tile_%28Castle%29.png",
-        "variantName": null,
+        "variantName": "Castle",
         "recipe": {
           "id": "67e663e34b0a",
           "facility": "Build Menu",
@@ -8853,10 +8854,10 @@
     "image": "Square_Tile_%28Cabin%29.png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "Square Tile",
         "image": "Square_Tile_%28Cabin%29.png",
-        "variantName": null,
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -8871,10 +8872,10 @@
         "usesRecipe": null
       },
       {
-        "id": "1bf0dfa3ced6",
+        "id": "a58c4bee1009",
         "name": "Square Tile",
         "image": "Square_Tile_%28Cottage%29.png",
-        "variantName": null,
+        "variantName": "Cottage",
         "recipe": {
           "id": "e6e35740937d",
           "facility": "Build Menu",
@@ -8893,10 +8894,10 @@
         "usesRecipe": null
       },
       {
-        "id": "107c5da561d7",
+        "id": "a761cf914009",
         "name": "Square Tile",
         "image": "Square_Tile_%28Castle%29.png",
-        "variantName": null,
+        "variantName": "Castle",
         "recipe": {
           "id": "22233cd37cd9",
           "facility": "Build Menu",
@@ -8925,10 +8926,10 @@
     "image": "Medium_Square_Tile_%28Cabin%29.png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "Medium Square Tile",
         "image": "Medium_Square_Tile_%28Cabin%29.png",
-        "variantName": null,
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -8943,10 +8944,10 @@
         "usesRecipe": null
       },
       {
-        "id": "7606b0c023ad",
+        "id": "77cb0b59ad41",
         "name": "Medium Square Tile",
         "image": "Medium_Square_Tile_%28Cottage%29.png",
-        "variantName": null,
+        "variantName": "Cottage",
         "recipe": {
           "id": "ff4c55178c95",
           "facility": "Build Menu",
@@ -8965,10 +8966,10 @@
         "usesRecipe": null
       },
       {
-        "id": "09e7ccf1d6e8",
+        "id": "908d7cfca3e1",
         "name": "Medium Square Tile",
         "image": "Medium_Square_Tile_%28Castle%29.png",
-        "variantName": null,
+        "variantName": "Castle",
         "recipe": {
           "id": "367e842dc50c",
           "facility": "Build Menu",
@@ -8997,10 +8998,10 @@
     "image": "Triangular_Tile_%28Cabin%29.png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "Triangular Tile",
         "image": "Triangular_Tile_%28Cabin%29.png",
-        "variantName": null,
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -9015,10 +9016,10 @@
         "usesRecipe": null
       },
       {
-        "id": "1bf0dfa3ced6",
+        "id": "a58c4bee1009",
         "name": "Triangular Tile",
         "image": "Triangular_Tile_%28Cottage%29.png",
-        "variantName": null,
+        "variantName": "Cottage",
         "recipe": {
           "id": "e6e35740937d",
           "facility": "Build Menu",
@@ -9037,10 +9038,10 @@
         "usesRecipe": null
       },
       {
-        "id": "107c5da561d7",
+        "id": "a761cf914009",
         "name": "Triangular Tile",
         "image": "Triangular_Tile_%28Castle%29.png",
-        "variantName": null,
+        "variantName": "Castle",
         "recipe": {
           "id": "22233cd37cd9",
           "facility": "Build Menu",
@@ -9069,10 +9070,10 @@
     "image": "Medium_Triangular_Tile_%28Cabin%29.png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "Medium Triangular Tile",
         "image": "Medium_Triangular_Tile_%28Cabin%29.png",
-        "variantName": null,
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -9087,10 +9088,10 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "Medium Triangular Tile",
         "image": "Medium_Triangular_Tile_%28Cottage%29.png",
-        "variantName": null,
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
@@ -9105,17 +9106,17 @@
         "usesRecipe": null
       },
       {
-        "id": "d3ea43db5cdd",
+        "id": "908d7cfca3e1",
         "name": "Medium Triangular Tile",
         "image": "Medium_Triangular_Tile_%28Castle%29.png",
-        "variantName": null,
+        "variantName": "Castle",
         "recipe": {
-          "id": "67e663e34b0a",
+          "id": "367e842dc50c",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "df8fefb6944b",
-              "quantity": 1
+              "quantity": 2
             }
           ],
           "quantity": 1
@@ -9134,13 +9135,13 @@
   {
     "id": "19149f0000b8",
     "name": "45° Thick Beam",
-    "image": "45° Thick Beam.png",
+    "image": "45° Thick Beam (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "45° Thick Beam",
-        "image": "45° Thick Beam.png",
-        "variantName": null,
+        "image": "45° Thick Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -9155,10 +9156,10 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "45° Thick Beam",
-        "image": "45° Thick Beam.png",
-        "variantName": null,
+        "image": "45° Thick Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
@@ -9184,13 +9185,13 @@
   {
     "id": "2c2852ab49c8",
     "name": "Short Horizontal Thin Beam",
-    "image": "Short Horizontal Thin Beam.png",
+    "image": "Short Horizontal Thin Beam (Cabin).png",
     "variants": [
       {
-        "id": "0cf4c744030c",
+        "id": "94a30cc7e967",
         "name": "Short Horizontal Thin Beam",
-        "image": "Short Horizontal Thin Beam.png",
-        "variantName": null,
+        "image": "Short Horizontal Thin Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a267cebe6a9e",
           "facility": "Build Menu",
@@ -9205,16 +9206,34 @@
         "usesRecipe": null
       },
       {
-        "id": "5b17f3e32482",
+        "id": "87f33851c235",
         "name": "Short Horizontal Thin Beam",
-        "image": "Short Horizontal Thin Beam.png",
-        "variantName": null,
+        "image": "Short Horizontal Thin Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "b7558d4463ac",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7ea14f6b7616",
+        "name": "Short Horizontal Thin Beam",
+        "image": "Short Horizontal Thin Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "67e663e34b0a",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 1
             }
           ],
@@ -9234,13 +9253,13 @@
   {
     "id": "2f59604ca5c7",
     "name": "Short Vertical Thin Beam",
-    "image": "Short Vertical Thin Beam.png",
+    "image": "Short Vertical Thin Beam (Cabin).png",
     "variants": [
       {
-        "id": "0cf4c744030c",
+        "id": "94a30cc7e967",
         "name": "Short Vertical Thin Beam",
-        "image": "Short Vertical Thin Beam.png",
-        "variantName": null,
+        "image": "Short Vertical Thin Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a267cebe6a9e",
           "facility": "Build Menu",
@@ -9255,16 +9274,34 @@
         "usesRecipe": null
       },
       {
-        "id": "5b17f3e32482",
+        "id": "87f33851c235",
         "name": "Short Vertical Thin Beam",
-        "image": "Short Vertical Thin Beam.png",
-        "variantName": null,
+        "image": "Short Vertical Thin Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "b7558d4463ac",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7ea14f6b7616",
+        "name": "Short Vertical Thin Beam",
+        "image": "Short Vertical Thin Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "67e663e34b0a",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 1
             }
           ],
@@ -9284,13 +9321,13 @@
   {
     "id": "dbb94c733f20",
     "name": "45° Thin Beam",
-    "image": "45° Thin Beam.png",
+    "image": "45° Thin Beam (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "45° Thin Beam",
-        "image": "45° Thin Beam.png",
-        "variantName": null,
+        "image": "45° Thin Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -9305,16 +9342,34 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "45° Thin Beam",
-        "image": "45° Thin Beam.png",
-        "variantName": null,
+        "image": "45° Thin Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "908d7cfca3e1",
+        "name": "45° Thin Beam",
+        "image": "45° Thin Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "367e842dc50c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 2
             }
           ],
@@ -9334,13 +9389,13 @@
   {
     "id": "11e6fdb003c6",
     "name": "Short 60° Thick Beam",
-    "image": "Short 60° Thick Beam.png",
+    "image": "Short 60° Thick Beam (Cabin).png",
     "variants": [
       {
-        "id": "0cf4c744030c",
+        "id": "94a30cc7e967",
         "name": "Short 60° Thick Beam",
-        "image": "Short 60° Thick Beam.png",
-        "variantName": null,
+        "image": "Short 60° Thick Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a267cebe6a9e",
           "facility": "Build Menu",
@@ -9355,16 +9410,34 @@
         "usesRecipe": null
       },
       {
-        "id": "5b17f3e32482",
+        "id": "87f33851c235",
         "name": "Short 60° Thick Beam",
-        "image": "Short 60° Thick Beam.png",
-        "variantName": null,
+        "image": "Short 60° Thick Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "b7558d4463ac",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7ea14f6b7616",
+        "name": "Short 60° Thick Beam",
+        "image": "Short 60° Thick Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "67e663e34b0a",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 1
             }
           ],
@@ -9384,13 +9457,13 @@
   {
     "id": "2b1b803d9e7f",
     "name": "30° Thin Beam",
-    "image": "30° Thin Beam.png",
+    "image": "30° Thin Beam (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "30° Thin Beam",
-        "image": "30° Thin Beam.png",
-        "variantName": null,
+        "image": "30° Thin Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -9405,16 +9478,34 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "30° Thin Beam",
-        "image": "30° Thin Beam.png",
-        "variantName": null,
+        "image": "30° Thin Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "908d7cfca3e1",
+        "name": "30° Thin Beam",
+        "image": "30° Thin Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "367e842dc50c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 2
             }
           ],
@@ -9434,13 +9525,13 @@
   {
     "id": "ab3c20e46ec2",
     "name": "Horizontal Thick Beam",
-    "image": "Horizontal Thick Beam.png",
+    "image": "Horizontal Thick Beam (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "Horizontal Thick Beam",
-        "image": "Horizontal Thick Beam.png",
-        "variantName": null,
+        "image": "Horizontal Thick Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -9455,16 +9546,34 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "Horizontal Thick Beam",
-        "image": "Horizontal Thick Beam.png",
-        "variantName": null,
+        "image": "Horizontal Thick Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "908d7cfca3e1",
+        "name": "Horizontal Thick Beam",
+        "image": "Horizontal Thick Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "367e842dc50c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 2
             }
           ],
@@ -9484,13 +9593,13 @@
   {
     "id": "ee155ae3dd83",
     "name": "Vertical Thin Beam",
-    "image": "Vertical Thin Beam.png",
+    "image": "Vertical Thin Beam (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "Vertical Thin Beam",
-        "image": "Vertical Thin Beam.png",
-        "variantName": null,
+        "image": "Vertical Thin Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -9505,16 +9614,34 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "Vertical Thin Beam",
-        "image": "Vertical Thin Beam.png",
-        "variantName": null,
+        "image": "Vertical Thin Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "908d7cfca3e1",
+        "name": "Vertical Thin Beam",
+        "image": "Vertical Thin Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "367e842dc50c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 2
             }
           ],
@@ -9534,13 +9661,13 @@
   {
     "id": "59bc31a4d82d",
     "name": "30° Thick Beam",
-    "image": "30° Thick Beam.png",
+    "image": "30° Thick Beam (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "30° Thick Beam",
-        "image": "30° Thick Beam.png",
-        "variantName": null,
+        "image": "30° Thick Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -9555,16 +9682,34 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "30° Thick Beam",
-        "image": "30° Thick Beam.png",
-        "variantName": null,
+        "image": "30° Thick Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "908d7cfca3e1",
+        "name": "30° Thick Beam",
+        "image": "30° Thick Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "367e842dc50c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 2
             }
           ],
@@ -9584,13 +9729,13 @@
   {
     "id": "01a21776a770",
     "name": "Short 45° Thin Beam",
-    "image": "Short 45° Thin Beam.png",
+    "image": "Short 45° Thin Beam (Cabin).png",
     "variants": [
       {
-        "id": "0cf4c744030c",
+        "id": "94a30cc7e967",
         "name": "Short 45° Thin Beam",
-        "image": "Short 45° Thin Beam.png",
-        "variantName": null,
+        "image": "Short 45° Thin Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a267cebe6a9e",
           "facility": "Build Menu",
@@ -9605,16 +9750,34 @@
         "usesRecipe": null
       },
       {
-        "id": "5b17f3e32482",
+        "id": "87f33851c235",
         "name": "Short 45° Thin Beam",
-        "image": "Short 45° Thin Beam.png",
-        "variantName": null,
+        "image": "Short 45° Thin Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "b7558d4463ac",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7ea14f6b7616",
+        "name": "Short 45° Thin Beam",
+        "image": "Short 45° Thin Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "67e663e34b0a",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 1
             }
           ],
@@ -9634,13 +9797,13 @@
   {
     "id": "245cd27206cd",
     "name": "Vertical Thick Beam",
-    "image": "Vertical Thick Beam.png",
+    "image": "Vertical Thick Beam (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "Vertical Thick Beam",
-        "image": "Vertical Thick Beam.png",
-        "variantName": null,
+        "image": "Vertical Thick Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -9655,16 +9818,56 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "Vertical Thick Beam",
-        "image": "Vertical Thick Beam.png",
-        "variantName": null,
+        "image": "Vertical Thick Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "908d7cfca3e1",
+        "name": "Vertical Thick Beam",
+        "image": "Vertical Thick Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "367e842dc50c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "Vertical Thick Beam",
+        "image": "Vertical Thick Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
               "quantity": 2
             }
           ],
@@ -9684,13 +9887,13 @@
   {
     "id": "b1875b6b0b33",
     "name": "60° Thick Beam",
-    "image": "60° Thick Beam.png",
+    "image": "60° Thick Beam (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "60° Thick Beam",
-        "image": "60° Thick Beam.png",
-        "variantName": null,
+        "image": "60° Thick Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -9705,16 +9908,34 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "60° Thick Beam",
-        "image": "60° Thick Beam.png",
-        "variantName": null,
+        "image": "60° Thick Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "908d7cfca3e1",
+        "name": "60° Thick Beam",
+        "image": "60° Thick Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "367e842dc50c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 2
             }
           ],
@@ -9734,13 +9955,13 @@
   {
     "id": "d0166cc2bf45",
     "name": "Short Horizontal Thick Beam",
-    "image": "Short Horizontal Thick Beam.png",
+    "image": "Short Horizontal Thick Beam (Cabin).png",
     "variants": [
       {
-        "id": "0cf4c744030c",
+        "id": "94a30cc7e967",
         "name": "Short Horizontal Thick Beam",
-        "image": "Short Horizontal Thick Beam.png",
-        "variantName": null,
+        "image": "Short Horizontal Thick Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a267cebe6a9e",
           "facility": "Build Menu",
@@ -9755,16 +9976,34 @@
         "usesRecipe": null
       },
       {
-        "id": "5b17f3e32482",
+        "id": "87f33851c235",
         "name": "Short Horizontal Thick Beam",
-        "image": "Short Horizontal Thick Beam.png",
-        "variantName": null,
+        "image": "Short Horizontal Thick Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "b7558d4463ac",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7ea14f6b7616",
+        "name": "Short Horizontal Thick Beam",
+        "image": "Short Horizontal Thick Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "67e663e34b0a",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 1
             }
           ],
@@ -9784,13 +10023,13 @@
   {
     "id": "81e9384c7a67",
     "name": "Short 30° Thick Beam",
-    "image": "Short 30° Thick Beam.png",
+    "image": "Short 30° Thick Beam (Cabin).png",
     "variants": [
       {
-        "id": "0cf4c744030c",
+        "id": "94a30cc7e967",
         "name": "Short 30° Thick Beam",
-        "image": "Short 30° Thick Beam.png",
-        "variantName": null,
+        "image": "Short 30° Thick Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a267cebe6a9e",
           "facility": "Build Menu",
@@ -9805,16 +10044,34 @@
         "usesRecipe": null
       },
       {
-        "id": "5b17f3e32482",
+        "id": "87f33851c235",
         "name": "Short 30° Thick Beam",
-        "image": "Short 30° Thick Beam.png",
-        "variantName": null,
+        "image": "Short 30° Thick Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "b7558d4463ac",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7ea14f6b7616",
+        "name": "Short 30° Thick Beam",
+        "image": "Short 30° Thick Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "67e663e34b0a",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 1
             }
           ],
@@ -9834,13 +10091,13 @@
   {
     "id": "f1689840669c",
     "name": "Short 45° Thick Beam",
-    "image": "Short 45° Thick Beam.png",
+    "image": "Short 45° Thick Beam (Cabin).png",
     "variants": [
       {
-        "id": "0cf4c744030c",
+        "id": "94a30cc7e967",
         "name": "Short 45° Thick Beam",
-        "image": "Short 45° Thick Beam.png",
-        "variantName": null,
+        "image": "Short 45° Thick Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a267cebe6a9e",
           "facility": "Build Menu",
@@ -9855,16 +10112,34 @@
         "usesRecipe": null
       },
       {
-        "id": "5b17f3e32482",
+        "id": "87f33851c235",
         "name": "Short 45° Thick Beam",
-        "image": "Short 45° Thick Beam.png",
-        "variantName": null,
+        "image": "Short 45° Thick Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "b7558d4463ac",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7ea14f6b7616",
+        "name": "Short 45° Thick Beam",
+        "image": "Short 45° Thick Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "67e663e34b0a",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 1
             }
           ],
@@ -9884,13 +10159,13 @@
   {
     "id": "ca61f101a958",
     "name": "Short 60° Thin Beam",
-    "image": "Short 60° Thin Beam.png",
+    "image": "Short 60° Thin Beam (Cabin).png",
     "variants": [
       {
-        "id": "0cf4c744030c",
+        "id": "94a30cc7e967",
         "name": "Short 60° Thin Beam",
-        "image": "Short 60° Thin Beam.png",
-        "variantName": null,
+        "image": "Short 60° Thin Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a267cebe6a9e",
           "facility": "Build Menu",
@@ -9905,16 +10180,34 @@
         "usesRecipe": null
       },
       {
-        "id": "5b17f3e32482",
+        "id": "87f33851c235",
         "name": "Short 60° Thin Beam",
-        "image": "Short 60° Thin Beam.png",
-        "variantName": null,
+        "image": "Short 60° Thin Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "b7558d4463ac",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7ea14f6b7616",
+        "name": "Short 60° Thin Beam",
+        "image": "Short 60° Thin Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "67e663e34b0a",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 1
             }
           ],
@@ -9934,13 +10227,13 @@
   {
     "id": "47f654b27790",
     "name": "Short 30° Thin Beam",
-    "image": "Short 30° Thin Beam.png",
+    "image": "Short 30° Thin Beam (Cabin).png",
     "variants": [
       {
-        "id": "0cf4c744030c",
+        "id": "94a30cc7e967",
         "name": "Short 30° Thin Beam",
-        "image": "Short 30° Thin Beam.png",
-        "variantName": null,
+        "image": "Short 30° Thin Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a267cebe6a9e",
           "facility": "Build Menu",
@@ -9955,16 +10248,34 @@
         "usesRecipe": null
       },
       {
-        "id": "5b17f3e32482",
+        "id": "87f33851c235",
         "name": "Short 30° Thin Beam",
-        "image": "Short 30° Thin Beam.png",
-        "variantName": null,
+        "image": "Short 30° Thin Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "b7558d4463ac",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7ea14f6b7616",
+        "name": "Short 30° Thin Beam",
+        "image": "Short 30° Thin Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "67e663e34b0a",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 1
             }
           ],
@@ -9984,13 +10295,13 @@
   {
     "id": "72390ca80e3b",
     "name": "Short Vertical Thick Beam",
-    "image": "Short Vertical Thick Beam.png",
+    "image": "Short Vertical Thick Beam (Cabin).png",
     "variants": [
       {
-        "id": "0cf4c744030c",
+        "id": "94a30cc7e967",
         "name": "Short Vertical Thick Beam",
-        "image": "Short Vertical Thick Beam.png",
-        "variantName": null,
+        "image": "Short Vertical Thick Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a267cebe6a9e",
           "facility": "Build Menu",
@@ -10005,16 +10316,34 @@
         "usesRecipe": null
       },
       {
-        "id": "5b17f3e32482",
+        "id": "87f33851c235",
         "name": "Short Vertical Thick Beam",
-        "image": "Short Vertical Thick Beam.png",
-        "variantName": null,
+        "image": "Short Vertical Thick Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "b7558d4463ac",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7ea14f6b7616",
+        "name": "Short Vertical Thick Beam",
+        "image": "Short Vertical Thick Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "67e663e34b0a",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 1
             }
           ],
@@ -10034,13 +10363,13 @@
   {
     "id": "b0071f09c226",
     "name": "Horizontal Thin Beam",
-    "image": "Horizontal Thin Beam.png",
+    "image": "Horizontal Thin Beam (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "Horizontal Thin Beam",
-        "image": "Horizontal Thin Beam.png",
-        "variantName": null,
+        "image": "Horizontal Thin Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -10055,16 +10384,34 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "Horizontal Thin Beam",
-        "image": "Horizontal Thin Beam.png",
-        "variantName": null,
+        "image": "Horizontal Thin Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "908d7cfca3e1",
+        "name": "Horizontal Thin Beam",
+        "image": "Horizontal Thin Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "367e842dc50c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 2
             }
           ],
@@ -10084,13 +10431,13 @@
   {
     "id": "a21438f4160f",
     "name": "60° Thin Beam",
-    "image": "60° Thin Beam.png",
+    "image": "60° Thin Beam (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "60° Thin Beam",
-        "image": "60° Thin Beam.png",
-        "variantName": null,
+        "image": "60° Thin Beam (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -10105,16 +10452,34 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "60° Thin Beam",
-        "image": "60° Thin Beam.png",
-        "variantName": null,
+        "image": "60° Thin Beam (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "908d7cfca3e1",
+        "name": "60° Thin Beam",
+        "image": "60° Thin Beam (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "367e842dc50c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 2
             }
           ],
@@ -10137,10 +10502,10 @@
     "image": "Square_Foundation_%28Cabin%29.png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "Square Foundation",
         "image": "Square_Foundation_%28Cabin%29.png",
-        "variantName": null,
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -10155,10 +10520,10 @@
         "usesRecipe": null
       },
       {
-        "id": "1bf0dfa3ced6",
+        "id": "a58c4bee1009",
         "name": "Square Foundation",
         "image": "Square_Foundation_%28Cottage%29.png",
-        "variantName": null,
+        "variantName": "Cottage",
         "recipe": {
           "id": "e6e35740937d",
           "facility": "Build Menu",
@@ -10177,10 +10542,10 @@
         "usesRecipe": null
       },
       {
-        "id": "d35a0b26ee96",
+        "id": "f26361d7d65d",
         "name": "Square Foundation",
         "image": "Square_Foundation_%28Castle%29.png",
-        "variantName": null,
+        "variantName": "Castle",
         "recipe": {
           "id": "b501168cc981",
           "facility": "Build Menu",
@@ -10213,10 +10578,10 @@
     "image": "Medium_Triangular_Foundation_%28Cabin%29.png",
     "variants": [
       {
-        "id": "cd5a1e38c911",
+        "id": "ccc32bd7f6b2",
         "name": "Medium Triangular Foundation",
         "image": "Medium_Triangular_Foundation_%28Cabin%29.png",
-        "variantName": null,
+        "variantName": "Cabin",
         "recipe": {
           "id": "10e7b764ed34",
           "facility": "Build Menu",
@@ -10235,10 +10600,10 @@
         "usesRecipe": null
       },
       {
-        "id": "7606b0c023ad",
+        "id": "77cb0b59ad41",
         "name": "Medium Triangular Foundation",
         "image": "Medium_Triangular_Foundation_%28Cottage%29.png",
-        "variantName": null,
+        "variantName": "Cottage",
         "recipe": {
           "id": "ff4c55178c95",
           "facility": "Build Menu",
@@ -10257,10 +10622,10 @@
         "usesRecipe": null
       },
       {
-        "id": "3266d6e00bd9",
+        "id": "e761eb0c381f",
         "name": "Medium Triangular Foundation",
         "image": "Medium_Triangular_Foundation_%28Castle%29.png",
-        "variantName": null,
+        "variantName": "Castle",
         "recipe": {
           "id": "ad1203382a07",
           "facility": "Build Menu",
@@ -10293,10 +10658,10 @@
     "image": "Triangular_Foundation_%28Cabin%29.png",
     "variants": [
       {
-        "id": "017fe413c27c",
+        "id": "b163769c6bda",
         "name": "Triangular Foundation",
         "image": "Triangular_Foundation_%28Cabin%29.png",
-        "variantName": null,
+        "variantName": "Cabin",
         "recipe": {
           "id": "313fd683ee47",
           "facility": "Build Menu",
@@ -10315,10 +10680,10 @@
         "usesRecipe": null
       },
       {
-        "id": "1bf0dfa3ced6",
+        "id": "a58c4bee1009",
         "name": "Triangular Foundation",
         "image": "Triangular_Foundation_%28Cottage%29.png",
-        "variantName": null,
+        "variantName": "Cottage",
         "recipe": {
           "id": "e6e35740937d",
           "facility": "Build Menu",
@@ -10337,10 +10702,10 @@
         "usesRecipe": null
       },
       {
-        "id": "d35a0b26ee96",
+        "id": "f26361d7d65d",
         "name": "Triangular Foundation",
         "image": "Triangular_Foundation_%28Castle%29.png",
-        "variantName": null,
+        "variantName": "Castle",
         "recipe": {
           "id": "b501168cc981",
           "facility": "Build Menu",
@@ -10373,10 +10738,10 @@
     "image": "Medium_Square_Foundation_%28Cabin%29.png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "Medium Square Foundation",
         "image": "Medium_Square_Foundation_%28Cabin%29.png",
-        "variantName": null,
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -10391,10 +10756,10 @@
         "usesRecipe": null
       },
       {
-        "id": "7606b0c023ad",
+        "id": "77cb0b59ad41",
         "name": "Medium Square Foundation",
         "image": "Medium_Square_Foundation_%28Cottage%29.png",
-        "variantName": null,
+        "variantName": "Cottage",
         "recipe": {
           "id": "ff4c55178c95",
           "facility": "Build Menu",
@@ -10413,10 +10778,10 @@
         "usesRecipe": null
       },
       {
-        "id": "d35a0b26ee96",
+        "id": "f26361d7d65d",
         "name": "Medium Square Foundation",
         "image": "Medium_Square_Foundation_%28Castle%29.png",
-        "variantName": null,
+        "variantName": "Castle",
         "recipe": {
           "id": "b501168cc981",
           "facility": "Build Menu",
@@ -10446,13 +10811,13 @@
   {
     "id": "ea022e53b1de",
     "name": "45° Valley Roof",
-    "image": "45° Valley Roof.png",
+    "image": "45° Valley Roof (Cabin).png",
     "variants": [
       {
-        "id": "35c3baa2ae9f",
+        "id": "1dea2debab64",
         "name": "45° Valley Roof",
-        "image": "45° Valley Roof.png",
-        "variantName": null,
+        "image": "45° Valley Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a54fb1742a4c",
           "facility": "Build Menu",
@@ -10467,10 +10832,10 @@
         "usesRecipe": null
       },
       {
-        "id": "49d6466edfb3",
+        "id": "4a1e668a0948",
         "name": "45° Valley Roof",
-        "image": "45° Valley Roof.png",
-        "variantName": null,
+        "image": "45° Valley Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "dd44096f389c",
           "facility": "Build Menu",
@@ -10478,6 +10843,28 @@
             {
               "itemId": "eedfb3dc7f45",
               "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4006dae4413c",
+        "name": "45° Valley Roof",
+        "image": "45° Valley Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "ea705ea0ec00",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "ed4acb2676c2",
+              "quantity": 6
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 1
             }
           ],
           "quantity": 1
@@ -10496,13 +10883,13 @@
   {
     "id": "d48abb8c16ed",
     "name": "30° Valley Roof",
-    "image": "30° Valley Roof.png",
+    "image": "30° Valley Roof (Cabin).png",
     "variants": [
       {
-        "id": "35c3baa2ae9f",
+        "id": "1dea2debab64",
         "name": "30° Valley Roof",
-        "image": "30° Valley Roof.png",
-        "variantName": null,
+        "image": "30° Valley Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a54fb1742a4c",
           "facility": "Build Menu",
@@ -10517,10 +10904,10 @@
         "usesRecipe": null
       },
       {
-        "id": "49d6466edfb3",
+        "id": "4a1e668a0948",
         "name": "30° Valley Roof",
-        "image": "30° Valley Roof.png",
-        "variantName": null,
+        "image": "30° Valley Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "dd44096f389c",
           "facility": "Build Menu",
@@ -10528,6 +10915,28 @@
             {
               "itemId": "eedfb3dc7f45",
               "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4006dae4413c",
+        "name": "30° Valley Roof",
+        "image": "30° Valley Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "ea705ea0ec00",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "ed4acb2676c2",
+              "quantity": 6
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 1
             }
           ],
           "quantity": 1
@@ -10546,13 +10955,13 @@
   {
     "id": "65d759a819c0",
     "name": "Medium 30° Triangle Roof",
-    "image": "Medium 30° Triangle Roof.png",
+    "image": "Medium 30° Triangle Roof (Cabin).png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "Medium 30° Triangle Roof",
-        "image": "Medium 30° Triangle Roof.png",
-        "variantName": null,
+        "image": "Medium 30° Triangle Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -10567,16 +10976,34 @@
         "usesRecipe": null
       },
       {
-        "id": "8af5db3722c4",
+        "id": "b6f6bb83cb2a",
         "name": "Medium 30° Triangle Roof",
-        "image": "Medium 30° Triangle Roof.png",
-        "variantName": null,
+        "image": "Medium 30° Triangle Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "ab37d08d461c",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a761cf914009",
+        "name": "Medium 30° Triangle Roof",
+        "image": "Medium 30° Triangle Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "22233cd37cd9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 4
             }
           ],
@@ -10596,13 +11023,13 @@
   {
     "id": "da276ca7d962",
     "name": "45° Triangle Roof",
-    "image": "45° Triangle Roof.png",
+    "image": "45° Triangle Roof (Cabin).png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "45° Triangle Roof",
-        "image": "45° Triangle Roof.png",
-        "variantName": null,
+        "image": "45° Triangle Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -10617,16 +11044,34 @@
         "usesRecipe": null
       },
       {
-        "id": "49d6466edfb3",
+        "id": "4a1e668a0948",
         "name": "45° Triangle Roof",
-        "image": "45° Triangle Roof.png",
-        "variantName": null,
+        "image": "45° Triangle Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "dd44096f389c",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "11862ba71316",
+        "name": "45° Triangle Roof",
+        "image": "45° Triangle Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "052be54ffb3c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 6
             }
           ],
@@ -10646,13 +11091,13 @@
   {
     "id": "07f2eabef66a",
     "name": "Small 45° Valley Roof",
-    "image": "Small 45° Valley Roof.png",
+    "image": "Small 45° Valley Roof (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "Small 45° Valley Roof",
-        "image": "Small 45° Valley Roof.png",
-        "variantName": null,
+        "image": "Small 45° Valley Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -10667,16 +11112,34 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "Small 45° Valley Roof",
-        "image": "Small 45° Valley Roof.png",
-        "variantName": null,
+        "image": "Small 45° Valley Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "908d7cfca3e1",
+        "name": "Small 45° Valley Roof",
+        "image": "Small 45° Valley Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "367e842dc50c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 2
             }
           ],
@@ -10696,13 +11159,13 @@
   {
     "id": "b1d6685ab418",
     "name": "30° Hip Roof",
-    "image": "30° Hip Roof.png",
+    "image": "30° Hip Roof (Cabin).png",
     "variants": [
       {
-        "id": "35c3baa2ae9f",
+        "id": "1dea2debab64",
         "name": "30° Hip Roof",
-        "image": "30° Hip Roof.png",
-        "variantName": null,
+        "image": "30° Hip Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a54fb1742a4c",
           "facility": "Build Menu",
@@ -10717,10 +11180,10 @@
         "usesRecipe": null
       },
       {
-        "id": "49d6466edfb3",
+        "id": "4a1e668a0948",
         "name": "30° Hip Roof",
-        "image": "30° Hip Roof.png",
-        "variantName": null,
+        "image": "30° Hip Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "dd44096f389c",
           "facility": "Build Menu",
@@ -10735,10 +11198,10 @@
         "usesRecipe": null
       },
       {
-        "id": "aa83af90b9b5",
+        "id": "4006dae4413c",
         "name": "30° Hip Roof",
-        "image": "30° Hip Roof.png",
-        "variantName": null,
+        "image": "30° Hip Roof (Castle).png",
+        "variantName": "Castle",
         "recipe": {
           "id": "ea705ea0ec00",
           "facility": "Build Menu",
@@ -10768,13 +11231,13 @@
   {
     "id": "c4e4f202f6ef",
     "name": "45° Roof",
-    "image": "45° Roof.png",
+    "image": "45° Roof (Cabin).png",
     "variants": [
       {
-        "id": "35c3baa2ae9f",
+        "id": "1dea2debab64",
         "name": "45° Roof",
-        "image": "45° Roof.png",
-        "variantName": null,
+        "image": "45° Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a54fb1742a4c",
           "facility": "Build Menu",
@@ -10789,10 +11252,10 @@
         "usesRecipe": null
       },
       {
-        "id": "49d6466edfb3",
+        "id": "4a1e668a0948",
         "name": "45° Roof",
-        "image": "45° Roof.png",
-        "variantName": null,
+        "image": "45° Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "dd44096f389c",
           "facility": "Build Menu",
@@ -10800,6 +11263,28 @@
             {
               "itemId": "eedfb3dc7f45",
               "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4006dae4413c",
+        "name": "45° Roof",
+        "image": "45° Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "ea705ea0ec00",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "ed4acb2676c2",
+              "quantity": 6
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 1
             }
           ],
           "quantity": 1
@@ -10818,13 +11303,13 @@
   {
     "id": "1a678a961866",
     "name": "Small 30° Roof",
-    "image": "Small 30° Roof.png",
+    "image": "Small 30° Roof (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "Small 30° Roof",
-        "image": "Small 30° Roof.png",
-        "variantName": null,
+        "image": "Small 30° Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -10839,16 +11324,34 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "Small 30° Roof",
-        "image": "Small 30° Roof.png",
-        "variantName": null,
+        "image": "Small 30° Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "908d7cfca3e1",
+        "name": "Small 30° Roof",
+        "image": "Small 30° Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "367e842dc50c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 2
             }
           ],
@@ -10868,13 +11371,13 @@
   {
     "id": "addb83f8b748",
     "name": "45° Inverted Triangle Roof",
-    "image": "45° Inverted Triangle Roof.png",
+    "image": "45° Inverted Triangle Roof (Cabin).png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "45° Inverted Triangle Roof",
-        "image": "45° Inverted Triangle Roof.png",
-        "variantName": null,
+        "image": "45° Inverted Triangle Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -10889,16 +11392,34 @@
         "usesRecipe": null
       },
       {
-        "id": "49d6466edfb3",
+        "id": "4a1e668a0948",
         "name": "45° Inverted Triangle Roof",
-        "image": "45° Inverted Triangle Roof.png",
-        "variantName": null,
+        "image": "45° Inverted Triangle Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "dd44096f389c",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "11862ba71316",
+        "name": "45° Inverted Triangle Roof",
+        "image": "45° Inverted Triangle Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "052be54ffb3c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 6
             }
           ],
@@ -10952,13 +11473,13 @@
   {
     "id": "9cf620c948ae",
     "name": "30° Roof",
-    "image": "30° Roof.png",
+    "image": "30° Roof (Cabin).png",
     "variants": [
       {
-        "id": "35c3baa2ae9f",
+        "id": "1dea2debab64",
         "name": "30° Roof",
-        "image": "30° Roof.png",
-        "variantName": null,
+        "image": "30° Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a54fb1742a4c",
           "facility": "Build Menu",
@@ -10973,10 +11494,10 @@
         "usesRecipe": null
       },
       {
-        "id": "b7a3e99104fd",
+        "id": "4a1e668a0948",
         "name": "30° Roof",
-        "image": "30° Roof (Tier 2).png",
-        "variantName": "Tier 2",
+        "image": "30° Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "dd44096f389c",
           "facility": "Build Menu",
@@ -11024,13 +11545,13 @@
   {
     "id": "a2eb0da1df8f",
     "name": "Medium 45° Valley Roof",
-    "image": "Medium 45° Valley Roof.png",
+    "image": "Medium 45° Valley Roof (Cabin).png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "Medium 45° Valley Roof",
-        "image": "Medium 45° Valley Roof.png",
-        "variantName": null,
+        "image": "Medium 45° Valley Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -11045,16 +11566,34 @@
         "usesRecipe": null
       },
       {
-        "id": "8af5db3722c4",
+        "id": "b6f6bb83cb2a",
         "name": "Medium 45° Valley Roof",
-        "image": "Medium 45° Valley Roof.png",
-        "variantName": null,
+        "image": "Medium 45° Valley Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "ab37d08d461c",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a761cf914009",
+        "name": "Medium 45° Valley Roof",
+        "image": "Medium 45° Valley Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "22233cd37cd9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 4
             }
           ],
@@ -11074,13 +11613,13 @@
   {
     "id": "03c72a57633d",
     "name": "Small 30° Hip Roof",
-    "image": "Small 30° Hip Roof.png",
+    "image": "Small 30° Hip Roof (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "Small 30° Hip Roof",
-        "image": "Small 30° Hip Roof.png",
-        "variantName": null,
+        "image": "Small 30° Hip Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -11095,16 +11634,34 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "Small 30° Hip Roof",
-        "image": "Small 30° Hip Roof.png",
-        "variantName": null,
+        "image": "Small 30° Hip Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "908d7cfca3e1",
+        "name": "Small 30° Hip Roof",
+        "image": "Small 30° Hip Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "367e842dc50c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 2
             }
           ],
@@ -11124,13 +11681,13 @@
   {
     "id": "c59676e66354",
     "name": "30° Inverted Triangle Roof",
-    "image": "30° Inverted Triangle Roof.png",
+    "image": "30° Inverted Triangle Roof (Cabin).png",
     "variants": [
       {
-        "id": "35c3baa2ae9f",
+        "id": "1dea2debab64",
         "name": "30° Inverted Triangle Roof",
-        "image": "30° Inverted Triangle Roof.png",
-        "variantName": null,
+        "image": "30° Inverted Triangle Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a54fb1742a4c",
           "facility": "Build Menu",
@@ -11145,16 +11702,34 @@
         "usesRecipe": null
       },
       {
-        "id": "49d6466edfb3",
+        "id": "4a1e668a0948",
         "name": "30° Inverted Triangle Roof",
-        "image": "30° Inverted Triangle Roof.png",
-        "variantName": null,
+        "image": "30° Inverted Triangle Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "dd44096f389c",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "11862ba71316",
+        "name": "30° Inverted Triangle Roof",
+        "image": "30° Inverted Triangle Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "052be54ffb3c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 6
             }
           ],
@@ -11174,13 +11749,13 @@
   {
     "id": "5f96e3dddd99",
     "name": "Small 45° Roof",
-    "image": "Small 45° Roof.png",
+    "image": "Small 45° Roof (Cabin).png",
     "variants": [
       {
-        "id": "0cf4c744030c",
+        "id": "94a30cc7e967",
         "name": "Small 45° Roof",
-        "image": "Small 45° Roof.png",
-        "variantName": null,
+        "image": "Small 45° Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a267cebe6a9e",
           "facility": "Build Menu",
@@ -11195,16 +11770,34 @@
         "usesRecipe": null
       },
       {
-        "id": "5b17f3e32482",
+        "id": "87f33851c235",
         "name": "Small 45° Roof",
-        "image": "Small 45° Roof.png",
-        "variantName": null,
+        "image": "Small 45° Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "b7558d4463ac",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7ea14f6b7616",
+        "name": "Small 45° Roof",
+        "image": "Small 45° Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "67e663e34b0a",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 1
             }
           ],
@@ -11224,13 +11817,13 @@
   {
     "id": "fa4e1ac66959",
     "name": "Small 45° Hip Roof",
-    "image": "Small 45° Hip Roof.png",
+    "image": "Small 45° Hip Roof (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "Small 45° Hip Roof",
-        "image": "Small 45° Hip Roof.png",
-        "variantName": null,
+        "image": "Small 45° Hip Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -11245,16 +11838,34 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "Small 45° Hip Roof",
-        "image": "Small 45° Hip Roof.png",
-        "variantName": null,
+        "image": "Small 45° Hip Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "908d7cfca3e1",
+        "name": "Small 45° Hip Roof",
+        "image": "Small 45° Hip Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "367e842dc50c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 2
             }
           ],
@@ -11274,13 +11885,13 @@
   {
     "id": "983c93fb0df8",
     "name": "Medium 45° Roof",
-    "image": "Medium 45° Roof.png",
+    "image": "Medium 45° Roof (Cabin).png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "Medium 45° Roof",
-        "image": "Medium 45° Roof.png",
-        "variantName": null,
+        "image": "Medium 45° Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -11295,16 +11906,34 @@
         "usesRecipe": null
       },
       {
-        "id": "8af5db3722c4",
+        "id": "b6f6bb83cb2a",
         "name": "Medium 45° Roof",
-        "image": "Medium 45° Roof.png",
-        "variantName": null,
+        "image": "Medium 45° Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "ab37d08d461c",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a761cf914009",
+        "name": "Medium 45° Roof",
+        "image": "Medium 45° Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "22233cd37cd9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 4
             }
           ],
@@ -11324,13 +11953,13 @@
   {
     "id": "1e15d7a06698",
     "name": "Medium 45° Inverted Triangle Roof",
-    "image": "Medium 45° Inverted Triangle Roof.png",
+    "image": "Medium 45° Inverted Triangle Roof (Cabin).png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "Medium 45° Inverted Triangle Roof",
-        "image": "Medium 45° Inverted Triangle Roof.png",
-        "variantName": null,
+        "image": "Medium 45° Inverted Triangle Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -11345,16 +11974,34 @@
         "usesRecipe": null
       },
       {
-        "id": "8af5db3722c4",
+        "id": "b6f6bb83cb2a",
         "name": "Medium 45° Inverted Triangle Roof",
-        "image": "Medium 45° Inverted Triangle Roof.png",
-        "variantName": null,
+        "image": "Medium 45° Inverted Triangle Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "ab37d08d461c",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a761cf914009",
+        "name": "Medium 45° Inverted Triangle Roof",
+        "image": "Medium 45° Inverted Triangle Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "22233cd37cd9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 4
             }
           ],
@@ -11374,13 +12021,13 @@
   {
     "id": "8751881823fa",
     "name": "45° Hip Roof",
-    "image": "45° Hip Roof.png",
+    "image": "45° Hip Roof (Cabin).png",
     "variants": [
       {
-        "id": "35c3baa2ae9f",
+        "id": "1dea2debab64",
         "name": "45° Hip Roof",
-        "image": "45° Hip Roof.png",
-        "variantName": null,
+        "image": "45° Hip Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a54fb1742a4c",
           "facility": "Build Menu",
@@ -11395,10 +12042,10 @@
         "usesRecipe": null
       },
       {
-        "id": "49d6466edfb3",
+        "id": "4a1e668a0948",
         "name": "45° Hip Roof",
-        "image": "45° Hip Roof.png",
-        "variantName": null,
+        "image": "45° Hip Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "dd44096f389c",
           "facility": "Build Menu",
@@ -11406,6 +12053,28 @@
             {
               "itemId": "eedfb3dc7f45",
               "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4006dae4413c",
+        "name": "45° Hip Roof",
+        "image": "45° Hip Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "ea705ea0ec00",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "ed4acb2676c2",
+              "quantity": 6
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 1
             }
           ],
           "quantity": 1
@@ -11424,13 +12093,13 @@
   {
     "id": "999a3760b6ce",
     "name": "30° Triangle Roof",
-    "image": "30° Triangle Roof.png",
+    "image": "30° Triangle Roof (Cabin).png",
     "variants": [
       {
-        "id": "35c3baa2ae9f",
+        "id": "1dea2debab64",
         "name": "30° Triangle Roof",
-        "image": "30° Triangle Roof.png",
-        "variantName": null,
+        "image": "30° Triangle Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "a54fb1742a4c",
           "facility": "Build Menu",
@@ -11445,16 +12114,34 @@
         "usesRecipe": null
       },
       {
-        "id": "49d6466edfb3",
+        "id": "4a1e668a0948",
         "name": "30° Triangle Roof",
-        "image": "30° Triangle Roof.png",
-        "variantName": null,
+        "image": "30° Triangle Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "dd44096f389c",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "11862ba71316",
+        "name": "30° Triangle Roof",
+        "image": "30° Triangle Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "052be54ffb3c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 6
             }
           ],
@@ -11474,13 +12161,13 @@
   {
     "id": "e883e8ee8f57",
     "name": "Medium 30° Roof",
-    "image": "Medium 30° Roof.png",
+    "image": "Medium 30° Roof (Cabin).png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "Medium 30° Roof",
-        "image": "Medium 30° Roof.png",
-        "variantName": null,
+        "image": "Medium 30° Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -11495,16 +12182,34 @@
         "usesRecipe": null
       },
       {
-        "id": "8af5db3722c4",
+        "id": "564f7b1fbe50",
         "name": "Medium 30° Roof",
-        "image": "Medium 30° Roof.png",
-        "variantName": null,
+        "image": "Medium 30° Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "ab37d08d461c",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a761cf914009",
+        "name": "Medium 30° Roof",
+        "image": "Medium 30° Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "22233cd37cd9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 4
             }
           ],
@@ -11524,13 +12229,13 @@
   {
     "id": "2c36fa39d1c8",
     "name": "Medium 30° Hip Roof",
-    "image": "Medium 30° Hip Roof.png",
+    "image": "Medium 30° Hip Roof (Cabin).png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "Medium 30° Hip Roof",
-        "image": "Medium 30° Hip Roof.png",
-        "variantName": null,
+        "image": "Medium 30° Hip Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -11545,10 +12250,10 @@
         "usesRecipe": null
       },
       {
-        "id": "8af5db3722c4",
+        "id": "b6f6bb83cb2a",
         "name": "Medium 30° Hip Roof",
-        "image": "Medium 30° Hip Roof.png",
-        "variantName": null,
+        "image": "Medium 30° Hip Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "ab37d08d461c",
           "facility": "Build Menu",
@@ -11556,6 +12261,24 @@
             {
               "itemId": "eedfb3dc7f45",
               "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "11862ba71316",
+        "name": "Medium 30° Hip Roof",
+        "image": "Medium 30° Hip Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "052be54ffb3c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 6
             }
           ],
           "quantity": 1
@@ -11574,13 +12297,13 @@
   {
     "id": "8166de94c575",
     "name": "Medium 30° Valley Roof",
-    "image": "Medium 30° Valley Roof.png",
+    "image": "Medium 30° Valley Roof (Cabin).png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "Medium 30° Valley Roof",
-        "image": "Medium 30° Valley Roof.png",
-        "variantName": null,
+        "image": "Medium 30° Valley Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -11595,16 +12318,34 @@
         "usesRecipe": null
       },
       {
-        "id": "8af5db3722c4",
+        "id": "b6f6bb83cb2a",
         "name": "Medium 30° Valley Roof",
-        "image": "Medium 30° Valley Roof.png",
-        "variantName": null,
+        "image": "Medium 30° Valley Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "ab37d08d461c",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a761cf914009",
+        "name": "Medium 30° Valley Roof",
+        "image": "Medium 30° Valley Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "22233cd37cd9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 4
             }
           ],
@@ -11624,13 +12365,13 @@
   {
     "id": "3f19a9f276e9",
     "name": "Medium 45° Triangle Roof",
-    "image": "Medium 45° Triangle Roof.png",
+    "image": "Medium 45° Triangle Roof (Cabin).png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "Medium 45° Triangle Roof",
-        "image": "Medium 45° Triangle Roof.png",
-        "variantName": null,
+        "image": "Medium 45° Triangle Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -11645,16 +12386,34 @@
         "usesRecipe": null
       },
       {
-        "id": "8af5db3722c4",
+        "id": "b6f6bb83cb2a",
         "name": "Medium 45° Triangle Roof",
-        "image": "Medium 45° Triangle Roof.png",
-        "variantName": null,
+        "image": "Medium 45° Triangle Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "ab37d08d461c",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a761cf914009",
+        "name": "Medium 45° Triangle Roof",
+        "image": "Medium 45° Triangle Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "22233cd37cd9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 4
             }
           ],
@@ -11674,13 +12433,13 @@
   {
     "id": "2d6387c6625c",
     "name": "Medium 30° Inverted Triangle Roof",
-    "image": "Medium 30° Inverted Triangle Roof.png",
+    "image": "Medium 30° Inverted Triangle Roof (Cabin).png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "Medium 30° Inverted Triangle Roof",
-        "image": "Medium 30° Inverted Triangle Roof.png",
-        "variantName": null,
+        "image": "Medium 30° Inverted Triangle Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -11695,16 +12454,34 @@
         "usesRecipe": null
       },
       {
-        "id": "8af5db3722c4",
+        "id": "b6f6bb83cb2a",
         "name": "Medium 30° Inverted Triangle Roof",
-        "image": "Medium 30° Inverted Triangle Roof.png",
-        "variantName": null,
+        "image": "Medium 30° Inverted Triangle Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "ab37d08d461c",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a761cf914009",
+        "name": "Medium 30° Inverted Triangle Roof",
+        "image": "Medium 30° Inverted Triangle Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "22233cd37cd9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 4
             }
           ],
@@ -11724,13 +12501,13 @@
   {
     "id": "56de207e8d44",
     "name": "Small 30° Valley Roof",
-    "image": "Small 30° Valley Roof.png",
+    "image": "Small 30° Valley Roof (Cabin).png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "Small 30° Valley Roof",
-        "image": "Small 30° Valley Roof.png",
-        "variantName": null,
+        "image": "Small 30° Valley Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -11745,16 +12522,34 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "Small 30° Valley Roof",
-        "image": "Small 30° Valley Roof.png",
-        "variantName": null,
+        "image": "Small 30° Valley Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "908d7cfca3e1",
+        "name": "Small 30° Valley Roof",
+        "image": "Small 30° Valley Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "367e842dc50c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 2
             }
           ],
@@ -12147,7 +12942,7 @@
       {
         "id": "a761cf914009",
         "name": "Medium 30° Inverted Roof Support Wall",
-        "image": "30° Inverted Roof Support Wall (Castle).png",
+        "image": "Medium 30° Inverted Roof Support Wall (Castle).png",
         "variantName": "Castle",
         "recipe": {
           "id": "22233cd37cd9",
@@ -12227,7 +13022,7 @@
       {
         "id": "a761cf914009",
         "name": "Medium 30° Roof Support Wall",
-        "image": "30° Roof Support Wall (Castle).png",
+        "image": "Medium 30° Roof Support Wall (Castle).png",
         "variantName": "Castle",
         "recipe": {
           "id": "22233cd37cd9",
@@ -16699,10 +17494,10 @@
     "image": "Outer_Corner_45°_Stairs_%28Cabin%29.png",
     "variants": [
       {
-        "id": "d5300dee22cf",
+        "id": "4a9ebf6498fe",
         "name": "Outer Corner 45° Stairs",
         "image": "Outer_Corner_45°_Stairs_%28Cabin%29.png",
-        "variantName": null,
+        "variantName": "Cabin",
         "recipe": {
           "id": "e2add0ba037b",
           "facility": "Build Menu",
@@ -16717,10 +17512,10 @@
         "usesRecipe": null
       },
       {
-        "id": "c9759f55f7c7",
+        "id": "8b233039b15b",
         "name": "Outer Corner 45° Stairs",
         "image": "Outer_Corner_45°_Stairs_%28Cottage%29.png",
-        "variantName": null,
+        "variantName": "Cottage",
         "recipe": {
           "id": "0c04c65e332f",
           "facility": "Build Menu",
@@ -16735,10 +17530,10 @@
         "usesRecipe": null
       },
       {
-        "id": "09e7ccf1d6e8",
+        "id": "908d7cfca3e1",
         "name": "Outer Corner 45° Stairs",
         "image": "Outer_Corner_45°_Stairs_%28Castle%29.png",
-        "variantName": null,
+        "variantName": "Castle",
         "recipe": {
           "id": "367e842dc50c",
           "facility": "Build Menu",
@@ -16860,13 +17655,13 @@
   {
     "id": "7da0ccbbfa81",
     "name": "Medium 45° Hip Roof",
-    "image": "Medium 45° Hip Roof.png",
+    "image": "Medium 45° Hip Roof (Cabin).png",
     "variants": [
       {
-        "id": "1162eec32ea8",
+        "id": "022f81cadde1",
         "name": "Medium 45° Hip Roof",
-        "image": "Medium 45° Hip Roof.png",
-        "variantName": null,
+        "image": "Medium 45° Hip Roof (Cabin).png",
+        "variantName": "Cabin",
         "recipe": {
           "id": "eac49693ddeb",
           "facility": "Build Menu",
@@ -16881,16 +17676,34 @@
         "usesRecipe": null
       },
       {
-        "id": "8af5db3722c4",
+        "id": "b6f6bb83cb2a",
         "name": "Medium 45° Hip Roof",
-        "image": "Medium 45° Hip Roof.png",
-        "variantName": null,
+        "image": "Medium 45° Hip Roof (Cottage).png",
+        "variantName": "Cottage",
         "recipe": {
           "id": "ab37d08d461c",
           "facility": "Build Menu",
           "materials": [
             {
               "itemId": "eedfb3dc7f45",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a761cf914009",
+        "name": "Medium 45° Hip Roof",
+        "image": "Medium 45° Hip Roof (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "22233cd37cd9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
               "quantity": 4
             }
           ],
@@ -27298,6 +28111,24 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "a62c732289a8",
+        "name": "Burnt Watermelon",
+        "image": "Burnt Watermelon.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f513dcac1333",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "4b4e11cc0735",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -28082,7 +28913,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "Vestige: Rotten Farming Tool"
+          "Rotten Farming Tool"
         ]
       }
     ],
@@ -32123,7 +32954,8 @@
     "facilities": [
       "Fletching Bench"
     ],
-    "wikiLink": "Shadow_Crossbow"
+    "wikiLink": "Shadow_Crossbow",
+    "weight": 10
   },
   {
     "id": "037107e73c04",
@@ -32253,6 +33085,60 @@
     "weight": 12
   },
   {
+    "id": "0c658bfff6a9",
+    "name": "Agility Cape",
+    "image": "Agility Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Agility Cape",
+        "image": "Agility Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Agility_Cape"
+  },
+  {
+    "id": "e3c4c29e5742",
+    "name": "Agility Cape (Trimmed)",
+    "image": "Agility Cape (Trimmed).png",
+    "variants": [
+      {
+        "id": "58ff34f8459e",
+        "name": "Agility Cape (Trimmed)",
+        "image": "Agility Cape (Trimmed).png",
+        "variantName": "Trimmed",
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Agility_Cape_(Trimmed)"
+  },
+  {
     "id": "e9341608dfcc",
     "name": "Fishing Cape",
     "image": "Fishing Cape.png",
@@ -32306,6 +33192,60 @@
       "Crafting Table"
     ],
     "wikiLink": "Fishing_Cape_(Trimmed)"
+  },
+  {
+    "id": "ac9e01659da3",
+    "name": "Prayer Cape",
+    "image": "Prayer Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Prayer Cape",
+        "image": "Prayer Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Prayer_Cape"
+  },
+  {
+    "id": "347a4747d1bd",
+    "name": "Prayer Cape (Trimmed)",
+    "image": "Prayer Cape (Trimmed).png",
+    "variants": [
+      {
+        "id": "58ff34f8459e",
+        "name": "Prayer Cape (Trimmed)",
+        "image": "Prayer Cape (Trimmed).png",
+        "variantName": "Trimmed",
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Prayer_Cape_(Trimmed)"
   },
   {
     "id": "35085839b4ba",
@@ -35615,7 +36555,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Shrimp_Bait",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "c1663c82514c",
@@ -35648,7 +36589,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Feather_Bait",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "d2684789d047",
@@ -36154,7 +37096,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Anchovy_Bait",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "98cc039af0f0",
@@ -36191,7 +37134,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Feathered_Lure",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "40025f05e137",
@@ -36224,7 +37168,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Lobster_Bait",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "fa0bdffa580e",
@@ -36261,7 +37206,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Spooky_Bait",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "691fa3ab1084",
@@ -36302,7 +37248,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Animated_Feather",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "68d7147d3a64",
@@ -36339,7 +37286,8 @@
       "Crafting Table"
     ],
     "wikiLink": "Giant_Krill_Bait",
-    "weight": 0
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "4ed7e72ce49c",
@@ -37710,6 +38658,695 @@
     ],
     "wikiLink": "Farmer's_Hat",
     "weight": 6
+  },
+  {
+    "id": "6f8c09c139e6",
+    "name": "Burnt Catfish",
+    "image": "Burnt Catfish.png",
+    "variants": [
+      {
+        "id": "477d1c898027",
+        "name": "Burnt Catfish",
+        "image": "Burnt Catfish.png",
+        "variantName": null,
+        "recipe": {
+          "id": "93c408d2483d",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "bc822510c732",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "e3c135c81337",
+        "name": "Burnt Catfish",
+        "image": "Burnt Catfish.png",
+        "variantName": null,
+        "recipe": {
+          "id": "22558d230ee7",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "bc822510c732",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Catfish",
+    "weight": 4.5,
+    "stackLimit": 99
+  },
+  {
+    "id": "0668eb3d442d",
+    "name": "Burnt Undead Eel",
+    "image": "Burnt Undead Eel.png",
+    "variants": [
+      {
+        "id": "c4568dfa4571",
+        "name": "Burnt Undead Eel",
+        "image": "Burnt Undead Eel.png",
+        "variantName": null,
+        "recipe": {
+          "id": "785139a24cdf",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "257365e5bfbe",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "8f4201f78501",
+        "name": "Burnt Undead Eel",
+        "image": "Burnt Undead Eel.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1c0ad3ba1de3",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "257365e5bfbe",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Undead_Eel",
+    "weight": 3.4,
+    "stackLimit": 99
+  },
+  {
+    "id": "c95d5a029454",
+    "name": "Burnt Giant Krill",
+    "image": "Burnt Giant Krill.png",
+    "variants": [
+      {
+        "id": "2f31468b17eb",
+        "name": "Burnt Giant Krill",
+        "image": "Burnt Giant Krill.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4d8a8cf7f7da",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "049f4872c2c2",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "97176695d7c8",
+        "name": "Burnt Giant Krill",
+        "image": "Burnt Giant Krill.png",
+        "variantName": null,
+        "recipe": {
+          "id": "41846dc62ab2",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "049f4872c2c2",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Giant_Krill",
+    "weight": 2.9,
+    "stackLimit": 99
+  },
+  {
+    "id": "303fefb3f4ff",
+    "name": "Burnt Salmon",
+    "image": "Burnt Salmon.png",
+    "variants": [
+      {
+        "id": "edd4184a6f8f",
+        "name": "Burnt Salmon",
+        "image": "Burnt Salmon.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a8b41e80d94b",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "f06edd7974bc",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c40143dacc27",
+        "name": "Burnt Salmon",
+        "image": "Burnt Salmon.png",
+        "variantName": null,
+        "recipe": {
+          "id": "08d36cb824ac",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "f06edd7974bc",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Salmon",
+    "weight": 1.8,
+    "stackLimit": 99
+  },
+  {
+    "id": "d96ef23fad7a",
+    "name": "Burnt Sardine",
+    "image": "Burnt Sardine.png",
+    "variants": [
+      {
+        "id": "10f723c37e61",
+        "name": "Burnt Sardine",
+        "image": "Burnt Sardine.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4a86612cfa87",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "551e39b36141",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "13142fdee926",
+        "name": "Burnt Sardine",
+        "image": "Burnt Sardine.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fce1f163f85a",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "551e39b36141",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Sardine",
+    "weight": 1.5,
+    "stackLimit": 99
+  },
+  {
+    "id": "22fc1fd301d9",
+    "name": "Burnt Trout",
+    "image": "Burnt Trout.png",
+    "variants": [
+      {
+        "id": "456bd90f19bd",
+        "name": "Burnt Trout",
+        "image": "Burnt Trout.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9315af260f1f",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "6073bd40e35e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "0d1f8af49ff9",
+        "name": "Burnt Trout",
+        "image": "Burnt Trout.png",
+        "variantName": null,
+        "recipe": {
+          "id": "efffbaa38f9d",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "6073bd40e35e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Trout",
+    "weight": 2.1,
+    "stackLimit": 99
+  },
+  {
+    "id": "78e744fe69fb",
+    "name": "Burnt Anchovies",
+    "image": "Burnt Anchovies.png",
+    "variants": [
+      {
+        "id": "e7b645ef5451",
+        "name": "Burnt Anchovies",
+        "image": "Burnt Anchovies.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6b483828e2a8",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "3fe30a876d93",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "02cbc4cf14ab",
+        "name": "Burnt Anchovies",
+        "image": "Burnt Anchovies.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fbd447e96d12",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "3fe30a876d93",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Anchovies",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "b64ec11d8a90",
+    "name": "Burnt Herring",
+    "image": "Burnt Herring.png",
+    "variants": [
+      {
+        "id": "22c938fd34b6",
+        "name": "Burnt Herring",
+        "image": "Burnt Herring.png",
+        "variantName": null,
+        "recipe": {
+          "id": "537272d521f8",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "92d876b457bf",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "8b9cd5016049",
+        "name": "Burnt Herring",
+        "image": "Burnt Herring.png",
+        "variantName": null,
+        "recipe": {
+          "id": "330fa59472ec",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "92d876b457bf",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Herring",
+    "weight": 1.8,
+    "stackLimit": 99
+  },
+  {
+    "id": "30ec14b9736d",
+    "name": "Burnt Infernal Eel",
+    "image": "Burnt Infernal Eel.png",
+    "variants": [
+      {
+        "id": "d89210ec3757",
+        "name": "Burnt Infernal Eel",
+        "image": "Burnt Infernal Eel.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6a6bdb5d3c34",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "8de0ccbd2d20",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "9c7fce3691fb",
+        "name": "Burnt Infernal Eel",
+        "image": "Burnt Infernal Eel.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9b313b11d605",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "8de0ccbd2d20",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Infernal_Eel",
+    "weight": 3.1,
+    "stackLimit": 99
+  },
+  {
+    "id": "b37bf5ac2cf0",
+    "name": "Burnt Lobster",
+    "image": "Burnt Lobster.png",
+    "variants": [
+      {
+        "id": "3632a35c8087",
+        "name": "Burnt Lobster",
+        "image": "Burnt Lobster.png",
+        "variantName": null,
+        "recipe": {
+          "id": "10ddc2e5e234",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "f78b9f51fa02",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "339879371cd2",
+        "name": "Burnt Lobster",
+        "image": "Burnt Lobster.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8893d9fe4856",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "f78b9f51fa02",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Lobster",
+    "weight": 2.4,
+    "stackLimit": 99
+  },
+  {
+    "id": "24f2eaa5508e",
+    "name": "Burnt Shrimp",
+    "image": "Burnt Shrimp.png",
+    "variants": [
+      {
+        "id": "99b12b965547",
+        "name": "Burnt Shrimp",
+        "image": "Burnt Shrimp.png",
+        "variantName": null,
+        "recipe": {
+          "id": "51e3ba6a687c",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "a7693478504b",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "63fe8dfee8d8",
+        "name": "Burnt Shrimp",
+        "image": "Burnt Shrimp.png",
+        "variantName": null,
+        "recipe": {
+          "id": "44e5ee28cc48",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "a7693478504b",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Shrimp",
+    "weight": 0.2,
+    "stackLimit": 99
+  },
+  {
+    "id": "728ad205ca33",
+    "name": "Burnt Undead Bass",
+    "image": "Burnt Undead Bass.png",
+    "variants": [
+      {
+        "id": "e33864288e47",
+        "name": "Burnt Undead Bass",
+        "image": "Burnt Undead Bass.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ee2f425fb769",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "ca57b3e2c09e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4397deedbc65",
+        "name": "Burnt Undead Bass",
+        "image": "Burnt Undead Bass.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2a4a68ac7f7c",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "ca57b3e2c09e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Undead_Bass",
+    "weight": 3.1,
+    "stackLimit": 99
+  },
+  {
+    "id": "395877754a4e",
+    "name": "Burnt Bread",
+    "image": "Burnt Bread.png",
+    "variants": [
+      {
+        "id": "9bcb037ab713",
+        "name": "Burnt Bread",
+        "image": "Burnt Bread.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8c17358aa545",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "e882154bb2ef",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "411be6bff07c",
+        "name": "Burnt Bread",
+        "image": "Burnt Bread.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ac1fadea521c",
+          "facility": "Grill",
+          "materials": [
+            {
+              "itemId": "e882154bb2ef",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Bread",
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "6a5fa59fd28f",
@@ -42667,14 +44304,14 @@
     "stackLimit": 99
   },
   {
-    "id": "cb871a979b7d",
-    "name": "Vestige: Rotten Farming Tool",
-    "image": "VESTIGE- Rotten Farming Tool.png",
+    "id": "fad58f567abd",
+    "name": "Rotten Farming Tool",
+    "image": "Rotten Farming Tool.png",
     "variants": [
       {
-        "id": "2c7745753c2c",
-        "name": "VESTIGE: Rotten Farming Tool",
-        "image": "VESTIGE- Rotten Farming Tool.png",
+        "id": "fad58f567abd",
+        "name": "Rotten Farming Tool",
+        "image": "Rotten Farming Tool.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -42682,7 +44319,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Vestige:_Rotten_Farming_Tool",
+    "wikiLink": "Rotten_Farming_Tool",
     "weight": 0,
     "stackLimit": 1
   },
@@ -42727,12 +44364,12 @@
   {
     "id": "7a4aeb7c70ae",
     "name": "PLAN: Headstone 01",
-    "image": "PLAN- Headstone 01.png",
+    "image": "PLAN: Headstone 01.png",
     "variants": [
       {
         "id": "7a4aeb7c70ae",
         "name": "PLAN: Headstone 01",
-        "image": "PLAN- Headstone 01.png",
+        "image": "PLAN: Headstone 01.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -42810,9 +44447,9 @@
     "image": "VESTIGE-_Tattered_Time-Lost_Cloth.png",
     "variants": [
       {
-        "id": "058c08aac2f6",
-        "name": "VESTIGE: Tattered Time-Lost Cloth",
-        "image": "VESTIGE: Tattered Time-Lost Cloth.png",
+        "id": "5abe36301d3f",
+        "name": "Tattered Time-Lost Cloth",
+        "image": "Tattered Time-Lost Cloth.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -42867,12 +44504,12 @@
   {
     "id": "a122753d54ec",
     "name": "A Simple Broken Bow",
-    "image": "VESTIGE- A Simple Broken Bow.png",
+    "image": "A Simple Broken Bow.png",
     "variants": [
       {
         "id": "a122753d54ec",
         "name": "A Simple Broken Bow",
-        "image": "VESTIGE- A Simple Broken Bow.png",
+        "image": "A Simple Broken Bow.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -43027,12 +44664,12 @@
   {
     "id": "cd6fe88710e8",
     "name": "PLAN: Spectral Book",
-    "image": "PLAN- Spectral Book.png",
+    "image": "PLAN: Spectral Book.png",
     "variants": [
       {
         "id": "cd6fe88710e8",
         "name": "PLAN: Spectral Book",
-        "image": "PLAN- Spectral Book.png",
+        "image": "PLAN: Spectral Book.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null

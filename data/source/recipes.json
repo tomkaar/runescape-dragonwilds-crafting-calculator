@@ -151,7 +151,7 @@
         "link": "Wall",
         "qty": 1,
         "item": "Wall",
-        "image": "[[File:Wall.png|30px|link=Wall]]"
+        "image": "[[File:Wall (Castle).png|30px|link=Wall]]"
       }
     },
     "output": [
@@ -2343,10 +2343,10 @@
         "Law Rune"
       ],
       "output": {
-        "quantity": "10",
+        "quantity": "10-20",
         "name": "Law Rune",
         "link": "Law Rune",
-        "qty": "10",
+        "qty": "10-20",
         "item": "Law Rune",
         "image": "[[File:Law Rune.png|30px|link=Law Rune]]"
       }
@@ -3007,17 +3007,17 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "10"
+          "experience": "1"
         }
       ],
       "outputs": [
         "Astral Rune"
       ],
       "output": {
-        "quantity": "10",
+        "quantity": "10-20",
         "name": "Astral Rune",
         "link": "Astral Rune",
-        "qty": "10",
+        "qty": "10-20",
         "item": "Astral Rune",
         "image": "[[File:Astral Rune.png|30px|link=Astral Rune]]"
       }
@@ -3051,17 +3051,17 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "10"
+          "experience": "2"
         }
       ],
       "outputs": [
         "Earth Rune"
       ],
       "output": {
-        "quantity": "10",
+        "quantity": "10-20",
         "name": "Earth Rune",
         "link": "Earth Rune",
-        "qty": "10",
+        "qty": "10-20",
         "item": "Earth Rune",
         "image": "[[File:Earth Rune.png|30px|link=Earth Rune]]"
       }
@@ -3095,17 +3095,17 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "10"
+          "experience": "3"
         }
       ],
       "outputs": [
         "Fire Rune"
       ],
       "output": {
-        "quantity": "10",
+        "quantity": "10-20",
         "name": "Fire Rune",
         "link": "Fire Rune",
-        "qty": "10",
+        "qty": "10-20",
         "item": "Fire Rune",
         "image": "[[File:Fire Rune.png|30px|link=Fire Rune]]"
       }
@@ -3139,17 +3139,17 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "10"
+          "experience": "5"
         }
       ],
       "outputs": [
         "Nature Rune"
       ],
       "output": {
-        "quantity": "10",
+        "quantity": "10-20",
         "name": "Nature Rune",
         "link": "Nature Rune",
-        "qty": "10",
+        "qty": "10-20",
         "item": "Nature Rune",
         "image": "[[File:Nature Rune.png|30px|link=Nature Rune]]"
       }
@@ -5799,17 +5799,17 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "10"
+          "experience": "1"
         }
       ],
       "outputs": [
         "Air Rune"
       ],
       "output": {
-        "quantity": "10",
+        "quantity": "10-20",
         "name": "Air Rune",
         "link": "Air Rune",
-        "qty": "10",
+        "qty": "10-20",
         "item": "Air Rune",
         "image": "[[File:Air Rune.png|30px|link=Air Rune]]"
       }
@@ -7038,17 +7038,17 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "10"
+          "experience": "1"
         }
       ],
       "outputs": [
         "Water Rune"
       ],
       "output": {
-        "quantity": "10",
+        "quantity": "10-20",
         "name": "Water Rune",
         "link": "Water Rune",
-        "qty": "10",
+        "qty": "10-20",
         "item": "Water Rune",
         "image": "[[File:Water Rune.png|30px|link=Water Rune]]"
       }
@@ -8127,10 +8127,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Fletching Table"
+      "Fletching Bench"
     ],
     "json": {
-      "facility": "Fletching Table",
+      "facility": "Fletching Bench",
       "materials": [
         {
           "quantity": "1",
@@ -13120,7 +13120,7 @@
         "link": "30° Stairs",
         "qty": 1,
         "item": "30° Stairs",
-        "image": "[[File:30° Stairs.png|30px|link=30° Stairs]]"
+        "image": "[[File:30° Stairs (Cabin).png|30px|link=30° Stairs]]"
       }
     },
     "output": [
@@ -13164,7 +13164,7 @@
         "link": "30° Stairs",
         "qty": 1,
         "item": "30° Stairs",
-        "image": "[[File:30° Stairs.png|30px|link=30° Stairs]]"
+        "image": "[[File:30° Stairs (Cottage).png|30px|link=30° Stairs]]"
       }
     },
     "output": [
@@ -13196,7 +13196,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": ""
+          "experience": "8"
         }
       ],
       "outputs": [
@@ -13208,7 +13208,7 @@
         "link": "30° Stairs",
         "qty": 1,
         "item": "30° Stairs",
-        "image": "[[File:30° Stairs.png|30px|link=30° Stairs]]"
+        "image": "[[File:30° Stairs (Castle).png|30px|link=30° Stairs]]"
       }
     },
     "output": [
@@ -13252,7 +13252,7 @@
         "link": "45° Stairs",
         "qty": 1,
         "item": "45° Stairs",
-        "image": "[[File:45° Stairs.png|30px|link=45° Stairs]]"
+        "image": "[[File:45° Stairs (Cabin).png|30px|link=45° Stairs]]"
       }
     },
     "output": [
@@ -13296,7 +13296,7 @@
         "link": "45° Stairs",
         "qty": 1,
         "item": "45° Stairs",
-        "image": "[[File:45° Stairs.png|30px|link=45° Stairs]]"
+        "image": "[[File:45° Stairs (Cottage).png|30px|link=45° Stairs]]"
       }
     },
     "output": [
@@ -13340,7 +13340,7 @@
         "link": "45° Stairs",
         "qty": 1,
         "item": "45° Stairs",
-        "image": "[[File:45° Stairs.png|30px|link=45° Stairs]]"
+        "image": "[[File:45° Stairs (Castle).png|30px|link=45° Stairs]]"
       }
     },
     "output": [
@@ -13384,7 +13384,7 @@
         "link": "Inner Corner 45° Stairs",
         "qty": 1,
         "item": "Inner Corner 45° Stairs",
-        "image": "[[File:Inner Corner 45° Stairs.png|30px|link=Inner Corner 45° Stairs]]"
+        "image": "[[File:Inner Corner 45° Stairs (Cabin).png|30px|link=Inner Corner 45° Stairs]]"
       }
     },
     "output": [
@@ -13428,7 +13428,7 @@
         "link": "Inner Corner 45° Stairs",
         "qty": 1,
         "item": "Inner Corner 45° Stairs",
-        "image": "[[File:Inner Corner 45° Stairs.png|30px|link=Inner Corner 45° Stairs]]"
+        "image": "[[File:Inner Corner 45° Stairs (Cottage).png|30px|link=Inner Corner 45° Stairs]]"
       }
     },
     "output": [
@@ -13460,7 +13460,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": ""
+          "experience": "8"
         }
       ],
       "outputs": [
@@ -13472,7 +13472,7 @@
         "link": "Inner Corner 45° Stairs",
         "qty": 1,
         "item": "Inner Corner 45° Stairs",
-        "image": "[[File:Inner Corner 45° Stairs.png|30px|link=Inner Corner 45° Stairs]]"
+        "image": "[[File:Inner Corner 45° Stairs (Castle).png|30px|link=Inner Corner 45° Stairs]]"
       }
     },
     "output": [
@@ -13516,7 +13516,7 @@
         "link": "Small Square Tile",
         "qty": 1,
         "item": "Small Square Tile",
-        "image": "[[File:Small Square Tile.png|30px|link=Small Square Tile]]"
+        "image": "[[File:Small Square Tile (Cabin).png|30px|link=Small Square Tile]]"
       }
     },
     "output": [
@@ -13560,7 +13560,7 @@
         "link": "Small Square Tile",
         "qty": 1,
         "item": "Small Square Tile",
-        "image": "[[File:Small Square Tile.png|30px|link=Small Square Tile]]"
+        "image": "[[File:Small Square Tile (Cottage).png|30px|link=Small Square Tile]]"
       }
     },
     "output": [
@@ -13592,7 +13592,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": ""
+          "experience": "6"
         }
       ],
       "outputs": [
@@ -13604,7 +13604,7 @@
         "link": "Small Square Tile",
         "qty": 1,
         "item": "Small Square Tile",
-        "image": "[[File:Small Square Tile.png|30px|link=Small Square Tile]]"
+        "image": "[[File:Small Square Tile (Castle).png|30px|link=Small Square Tile]]"
       }
     },
     "output": [
@@ -13648,7 +13648,7 @@
         "link": "Square Tile",
         "qty": 1,
         "item": "Square Tile",
-        "image": "[[File:Square Tile.png|30px|link=Square Tile]]"
+        "image": "[[File:Square Tile (Cabin).png|30px|link=Square Tile]]"
       }
     },
     "output": [
@@ -13701,7 +13701,7 @@
         "link": "Square Tile",
         "qty": 1,
         "item": "Square Tile",
-        "image": "[[File:Square Tile.png|30px|link=Square Tile]]"
+        "image": "[[File:Square Tile (Cottage).png|30px|link=Square Tile]]"
       }
     },
     "output": [
@@ -13733,7 +13733,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": ""
+          "experience": "16"
         }
       ],
       "outputs": [
@@ -13745,7 +13745,7 @@
         "link": "Square Tile",
         "qty": 1,
         "item": "Square Tile",
-        "image": "[[File:Square Tile.png|30px|link=Square Tile]]"
+        "image": "[[File:Square Tile (Castle).png|30px|link=Square Tile]]"
       }
     },
     "output": [
@@ -13789,7 +13789,7 @@
         "link": "Medium Square Tile",
         "qty": 1,
         "item": "Medium Square Tile",
-        "image": "[[File:Medium Square Tile.png|30px|link=Medium Square Tile]]"
+        "image": "[[File:Medium Square Tile (Cabin).png|30px|link=Medium Square Tile]]"
       }
     },
     "output": [
@@ -13842,7 +13842,7 @@
         "link": "Medium Square Tile",
         "qty": 1,
         "item": "Medium Square Tile",
-        "image": "[[File:Medium Square Tile.png|30px|link=Medium Square Tile]]"
+        "image": "[[File:Medium Square Tile (Cottage).png|30px|link=Medium Square Tile]]"
       }
     },
     "output": [
@@ -13874,7 +13874,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": ""
+          "experience": "8"
         }
       ],
       "outputs": [
@@ -13886,7 +13886,7 @@
         "link": "Medium Square Tile",
         "qty": 1,
         "item": "Medium Square Tile",
-        "image": "[[File:Medium Square Tile.png|30px|link=Medium Square Tile]]"
+        "image": "[[File:Medium Square Tile (Castle).png|30px|link=Medium Square Tile]]"
       }
     },
     "output": [
@@ -13930,7 +13930,7 @@
         "link": "Triangular Tile",
         "qty": 1,
         "item": "Triangular Tile",
-        "image": "[[File:Triangular Tile.png|30px|link=Triangular Tile]]"
+        "image": "[[File:Triangular Tile (Cabin).png|30px|link=Triangular Tile]]"
       }
     },
     "output": [
@@ -13983,7 +13983,7 @@
         "link": "Triangular Tile",
         "qty": 1,
         "item": "Triangular Tile",
-        "image": "[[File:Triangular Tile.png|30px|link=Triangular Tile]]"
+        "image": "[[File:Triangular Tile (Cottage).png|30px|link=Triangular Tile]]"
       }
     },
     "output": [
@@ -14015,7 +14015,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": ""
+          "experience": "16"
         }
       ],
       "outputs": [
@@ -14027,7 +14027,7 @@
         "link": "Triangular Tile",
         "qty": 1,
         "item": "Triangular Tile",
-        "image": "[[File:Triangular Tile.png|30px|link=Triangular Tile]]"
+        "image": "[[File:Triangular Tile (Castle).png|30px|link=Triangular Tile]]"
       }
     },
     "output": [
@@ -14071,7 +14071,7 @@
         "link": "Medium Triangular Tile",
         "qty": 1,
         "item": "Medium Triangular Tile",
-        "image": "[[File:Medium Triangular Tile.png|30px|link=Medium Triangular Tile]]"
+        "image": "[[File:Medium Triangular Tile (Cabin).png|30px|link=Medium Triangular Tile]]"
       }
     },
     "output": [
@@ -14115,7 +14115,7 @@
         "link": "Medium Triangular Tile",
         "qty": 1,
         "item": "Medium Triangular Tile",
-        "image": "[[File:Medium Triangular Tile.png|30px|link=Medium Triangular Tile]]"
+        "image": "[[File:Medium Triangular Tile (Cottage).png|30px|link=Medium Triangular Tile]]"
       }
     },
     "output": [
@@ -14136,10 +14136,10 @@
       "facility": "Build Menu",
       "materials": [
         {
-          "quantity": "",
+          "quantity": "2",
           "name": "Stone Block",
           "link": "Stone Block",
-          "qty": "",
+          "qty": "2",
           "item": "Stone Block",
           "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
         }
@@ -14147,7 +14147,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": ""
+          "experience": "8"
         }
       ],
       "outputs": [
@@ -14159,7 +14159,7 @@
         "link": "Medium Triangular Tile",
         "qty": 1,
         "item": "Medium Triangular Tile",
-        "image": "[[File:Medium Triangular Tile.png|30px|link=Medium Triangular Tile]]"
+        "image": "[[File:Medium Triangular Tile (Castle).png|30px|link=Medium Triangular Tile]]"
       }
     },
     "output": [
@@ -14203,7 +14203,7 @@
         "link": "45° Thick Beam",
         "qty": 1,
         "item": "45° Thick Beam",
-        "image": "[[File:45° Thick Beam.png|30px|link=45° Thick Beam]]"
+        "image": "[[File:45° Thick Beam (Cabin).png|30px|link=45° Thick Beam]]"
       }
     },
     "output": [
@@ -14247,7 +14247,7 @@
         "link": "45° Thick Beam",
         "qty": 1,
         "item": "45° Thick Beam",
-        "image": "[[File:45° Thick Beam.png|30px|link=45° Thick Beam]]"
+        "image": "[[File:45° Thick Beam (Cottage).png|30px|link=45° Thick Beam]]"
       }
     },
     "output": [
@@ -14291,7 +14291,7 @@
         "link": "Short Horizontal Thin Beam",
         "qty": 1,
         "item": "Short Horizontal Thin Beam",
-        "image": "[[File:Short Horizontal Thin Beam.png|30px|link=Short Horizontal Thin Beam]]"
+        "image": "[[File:Short Horizontal Thin Beam (Cabin).png|30px|link=Short Horizontal Thin Beam]]"
       }
     },
     "output": [
@@ -14335,7 +14335,51 @@
         "link": "Short Horizontal Thin Beam",
         "qty": 1,
         "item": "Short Horizontal Thin Beam",
-        "image": "[[File:Short Horizontal Thin Beam.png|30px|link=Short Horizontal Thin Beam]]"
+        "image": "[[File:Short Horizontal Thin Beam (Cottage).png|30px|link=Short Horizontal Thin Beam]]"
+      }
+    },
+    "output": [
+      "Short Horizontal Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Short Horizontal Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short Horizontal Thin Beam",
+        "link": "Short Horizontal Thin Beam",
+        "qty": 1,
+        "item": "Short Horizontal Thin Beam",
+        "image": "[[File:Short Horizontal Thin Beam (Castle).png|30px|link=Short Horizontal Thin Beam]]"
       }
     },
     "output": [
@@ -14379,7 +14423,7 @@
         "link": "Short Vertical Thin Beam",
         "qty": 1,
         "item": "Short Vertical Thin Beam",
-        "image": "[[File:Short Vertical Thin Beam.png|30px|link=Short Vertical Thin Beam]]"
+        "image": "[[File:Short Vertical Thin Beam (Cabin).png|30px|link=Short Vertical Thin Beam]]"
       }
     },
     "output": [
@@ -14423,7 +14467,51 @@
         "link": "Short Vertical Thin Beam",
         "qty": 1,
         "item": "Short Vertical Thin Beam",
-        "image": "[[File:Short Vertical Thin Beam.png|30px|link=Short Vertical Thin Beam]]"
+        "image": "[[File:Short Vertical Thin Beam (Cottage).png|30px|link=Short Vertical Thin Beam]]"
+      }
+    },
+    "output": [
+      "Short Vertical Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Short Vertical Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short Vertical Thin Beam",
+        "link": "Short Vertical Thin Beam",
+        "qty": 1,
+        "item": "Short Vertical Thin Beam",
+        "image": "[[File:Short Vertical Thin Beam (Castle).png|30px|link=Short Vertical Thin Beam]]"
       }
     },
     "output": [
@@ -14467,7 +14555,7 @@
         "link": "45° Thin Beam",
         "qty": 1,
         "item": "45° Thin Beam",
-        "image": "[[File:45° Thin Beam.png|30px|link=45° Thin Beam]]"
+        "image": "[[File:45° Thin Beam (Cabin).png|30px|link=45° Thin Beam]]"
       }
     },
     "output": [
@@ -14511,7 +14599,51 @@
         "link": "45° Thin Beam",
         "qty": 1,
         "item": "45° Thin Beam",
-        "image": "[[File:45° Thin Beam.png|30px|link=45° Thin Beam]]"
+        "image": "[[File:45° Thin Beam (Cottage).png|30px|link=45° Thin Beam]]"
+      }
+    },
+    "output": [
+      "45° Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "2",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "45° Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "45° Thin Beam",
+        "link": "45° Thin Beam",
+        "qty": 1,
+        "item": "45° Thin Beam",
+        "image": "[[File:45° Thin Beam (Castle).png|30px|link=45° Thin Beam]]"
       }
     },
     "output": [
@@ -14555,7 +14687,7 @@
         "link": "Short 60° Thick Beam",
         "qty": 1,
         "item": "Short 60° Thick Beam",
-        "image": "[[File:Short 60° Thick Beam.png|30px|link=Short 60° Thick Beam]]"
+        "image": "[[File:Short 60° Thick Beam (Cabin).png|30px|link=Short 60° Thick Beam]]"
       }
     },
     "output": [
@@ -14599,7 +14731,51 @@
         "link": "Short 60° Thick Beam",
         "qty": 1,
         "item": "Short 60° Thick Beam",
-        "image": "[[File:Short 60° Thick Beam.png|30px|link=Short 60° Thick Beam]]"
+        "image": "[[File:Short 60° Thick Beam (Cottage).png|30px|link=Short 60° Thick Beam]]"
+      }
+    },
+    "output": [
+      "Short 60° Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Short 60° Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 60° Thick Beam",
+        "link": "Short 60° Thick Beam",
+        "qty": 1,
+        "item": "Short 60° Thick Beam",
+        "image": "[[File:Short 60° Thick Beam (Castle).png|30px|link=Short 60° Thick Beam]]"
       }
     },
     "output": [
@@ -14643,7 +14819,7 @@
         "link": "30° Thin Beam",
         "qty": 1,
         "item": "30° Thin Beam",
-        "image": "[[File:30° Thin Beam.png|30px|link=30° Thin Beam]]"
+        "image": "[[File:30° Thin Beam (Cabin).png|30px|link=30° Thin Beam]]"
       }
     },
     "output": [
@@ -14687,7 +14863,51 @@
         "link": "30° Thin Beam",
         "qty": 1,
         "item": "30° Thin Beam",
-        "image": "[[File:30° Thin Beam.png|30px|link=30° Thin Beam]]"
+        "image": "[[File:30° Thin Beam (Cottage).png|30px|link=30° Thin Beam]]"
+      }
+    },
+    "output": [
+      "30° Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "2",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "30° Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "30° Thin Beam",
+        "link": "30° Thin Beam",
+        "qty": 1,
+        "item": "30° Thin Beam",
+        "image": "[[File:30° Thin Beam (Castle).png|30px|link=30° Thin Beam]]"
       }
     },
     "output": [
@@ -14731,7 +14951,7 @@
         "link": "Horizontal Thick Beam",
         "qty": 1,
         "item": "Horizontal Thick Beam",
-        "image": "[[File:Horizontal Thick Beam.png|30px|link=Horizontal Thick Beam]]"
+        "image": "[[File:Horizontal Thick Beam (Cabin).png|30px|link=Horizontal Thick Beam]]"
       }
     },
     "output": [
@@ -14775,7 +14995,51 @@
         "link": "Horizontal Thick Beam",
         "qty": 1,
         "item": "Horizontal Thick Beam",
-        "image": "[[File:Horizontal Thick Beam.png|30px|link=Horizontal Thick Beam]]"
+        "image": "[[File:Horizontal Thick Beam (Cottage).png|30px|link=Horizontal Thick Beam]]"
+      }
+    },
+    "output": [
+      "Horizontal Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "2",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Horizontal Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Horizontal Thick Beam",
+        "link": "Horizontal Thick Beam",
+        "qty": 1,
+        "item": "Horizontal Thick Beam",
+        "image": "[[File:Horizontal Thick Beam (Castle).png|30px|link=Horizontal Thick Beam]]"
       }
     },
     "output": [
@@ -14819,7 +15083,7 @@
         "link": "Vertical Thin Beam",
         "qty": 1,
         "item": "Vertical Thin Beam",
-        "image": "[[File:Vertical Thin Beam.png|30px|link=Vertical Thin Beam]]"
+        "image": "[[File:Vertical Thin Beam (Cabin).png|30px|link=Vertical Thin Beam]]"
       }
     },
     "output": [
@@ -14863,7 +15127,51 @@
         "link": "Vertical Thin Beam",
         "qty": 1,
         "item": "Vertical Thin Beam",
-        "image": "[[File:Vertical Thin Beam.png|30px|link=Vertical Thin Beam]]"
+        "image": "[[File:Vertical Thin Beam (Cottage).png|30px|link=Vertical Thin Beam]]"
+      }
+    },
+    "output": [
+      "Vertical Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "2",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Vertical Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Vertical Thin Beam",
+        "link": "Vertical Thin Beam",
+        "qty": 1,
+        "item": "Vertical Thin Beam",
+        "image": "[[File:Vertical Thin Beam (Castle).png|30px|link=Vertical Thin Beam]]"
       }
     },
     "output": [
@@ -14907,7 +15215,7 @@
         "link": "30° Thick Beam",
         "qty": 1,
         "item": "30° Thick Beam",
-        "image": "[[File:30° Thick Beam.png|30px|link=30° Thick Beam]]"
+        "image": "[[File:30° Thick Beam (Cabin).png|30px|link=30° Thick Beam]]"
       }
     },
     "output": [
@@ -14951,7 +15259,51 @@
         "link": "30° Thick Beam",
         "qty": 1,
         "item": "30° Thick Beam",
-        "image": "[[File:30° Thick Beam.png|30px|link=30° Thick Beam]]"
+        "image": "[[File:30° Thick Beam (Cottage).png|30px|link=30° Thick Beam]]"
+      }
+    },
+    "output": [
+      "30° Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "2",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "30° Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "30° Thick Beam",
+        "link": "30° Thick Beam",
+        "qty": 1,
+        "item": "30° Thick Beam",
+        "image": "[[File:30° Thick Beam (Castle).png|30px|link=30° Thick Beam]]"
       }
     },
     "output": [
@@ -14995,7 +15347,7 @@
         "link": "Short 45° Thin Beam",
         "qty": 1,
         "item": "Short 45° Thin Beam",
-        "image": "[[File:Short 45° Thin Beam.png|30px|link=Short 45° Thin Beam]]"
+        "image": "[[File:Short 45° Thin Beam (Cabin).png|30px|link=Short 45° Thin Beam]]"
       }
     },
     "output": [
@@ -15039,7 +15391,51 @@
         "link": "Short 45° Thin Beam",
         "qty": 1,
         "item": "Short 45° Thin Beam",
-        "image": "[[File:Short 45° Thin Beam.png|30px|link=Short 45° Thin Beam]]"
+        "image": "[[File:Short 45° Thin Beam (Cottage).png|30px|link=Short 45° Thin Beam]]"
+      }
+    },
+    "output": [
+      "Short 45° Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Short 45° Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 45° Thin Beam",
+        "link": "Short 45° Thin Beam",
+        "qty": 1,
+        "item": "Short 45° Thin Beam",
+        "image": "[[File:Short 45° Thin Beam (Castle).png|30px|link=Short 45° Thin Beam]]"
       }
     },
     "output": [
@@ -15083,7 +15479,7 @@
         "link": "Vertical Thick Beam",
         "qty": 1,
         "item": "Vertical Thick Beam",
-        "image": "[[File:Vertical Thick Beam.png|30px|link=Vertical Thick Beam]]"
+        "image": "[[File:Vertical Thick Beam (Cabin).png|30px|link=Vertical Thick Beam]]"
       }
     },
     "output": [
@@ -15127,7 +15523,104 @@
         "link": "Vertical Thick Beam",
         "qty": 1,
         "item": "Vertical Thick Beam",
-        "image": "[[File:Vertical Thick Beam.png|30px|link=Vertical Thick Beam]]"
+        "image": "[[File:Vertical Thick Beam (Cottage).png|30px|link=Vertical Thick Beam]]"
+      }
+    },
+    "output": [
+      "Vertical Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "2",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Vertical Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Vertical Thick Beam",
+        "link": "Vertical Thick Beam",
+        "qty": 1,
+        "item": "Vertical Thick Beam",
+        "image": "[[File:Vertical Thick Beam (Castle).png|30px|link=Vertical Thick Beam]]"
+      }
+    },
+    "output": [
+      "Vertical Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Willow Logs",
+      "Black Salvage Pile"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "2",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Black Salvage Pile",
+          "link": "Black Salvage Pile",
+          "qty": "1",
+          "item": "Black Salvage Pile",
+          "image": "[[File:Black Salvage Pile.png|30px|link=Black Salvage Pile]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Vertical Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Vertical Thick Beam",
+        "link": "Vertical Thick Beam",
+        "qty": 1,
+        "item": "Vertical Thick Beam",
+        "image": "[[File:Vertical Thick Beam (Baroque).png|30px|link=Vertical Thick Beam]]"
       }
     },
     "output": [
@@ -15171,7 +15664,7 @@
         "link": "60° Thick Beam",
         "qty": 1,
         "item": "60° Thick Beam",
-        "image": "[[File:60° Thick Beam.png|30px|link=60° Thick Beam]]"
+        "image": "[[File:60° Thick Beam (Cabin).png|30px|link=60° Thick Beam]]"
       }
     },
     "output": [
@@ -15215,7 +15708,51 @@
         "link": "60° Thick Beam",
         "qty": 1,
         "item": "60° Thick Beam",
-        "image": "[[File:60° Thick Beam.png|30px|link=60° Thick Beam]]"
+        "image": "[[File:60° Thick Beam (Cottage).png|30px|link=60° Thick Beam]]"
+      }
+    },
+    "output": [
+      "60° Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "2",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "60° Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "60° Thick Beam",
+        "link": "60° Thick Beam",
+        "qty": 1,
+        "item": "60° Thick Beam",
+        "image": "[[File:60° Thick Beam (Castle).png|30px|link=60° Thick Beam]]"
       }
     },
     "output": [
@@ -15259,7 +15796,7 @@
         "link": "Short Horizontal Thick Beam",
         "qty": 1,
         "item": "Short Horizontal Thick Beam",
-        "image": "[[File:Short Horizontal Thick Beam.png|30px|link=Short Horizontal Thick Beam]]"
+        "image": "[[File:Short Horizontal Thick Beam (Cabin).png|30px|link=Short Horizontal Thick Beam]]"
       }
     },
     "output": [
@@ -15303,7 +15840,51 @@
         "link": "Short Horizontal Thick Beam",
         "qty": 1,
         "item": "Short Horizontal Thick Beam",
-        "image": "[[File:Short Horizontal Thick Beam.png|30px|link=Short Horizontal Thick Beam]]"
+        "image": "[[File:Short Horizontal Thick Beam (Cottage).png|30px|link=Short Horizontal Thick Beam]]"
+      }
+    },
+    "output": [
+      "Short Horizontal Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Short Horizontal Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short Horizontal Thick Beam",
+        "link": "Short Horizontal Thick Beam",
+        "qty": 1,
+        "item": "Short Horizontal Thick Beam",
+        "image": "[[File:Short Horizontal Thick Beam (Castle).png|30px|link=Short Horizontal Thick Beam]]"
       }
     },
     "output": [
@@ -15347,7 +15928,7 @@
         "link": "Short 30° Thick Beam",
         "qty": 1,
         "item": "Short 30° Thick Beam",
-        "image": "[[File:Short 30° Thick Beam.png|30px|link=Short 30° Thick Beam]]"
+        "image": "[[File:Short 30° Thick Beam (Cabin).png|30px|link=Short 30° Thick Beam]]"
       }
     },
     "output": [
@@ -15391,7 +15972,51 @@
         "link": "Short 30° Thick Beam",
         "qty": 1,
         "item": "Short 30° Thick Beam",
-        "image": "[[File:Short 30° Thick Beam.png|30px|link=Short 30° Thick Beam]]"
+        "image": "[[File:Short 30° Thick Beam (Cottage).png|30px|link=Short 30° Thick Beam]]"
+      }
+    },
+    "output": [
+      "Short 30° Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Short 30° Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 30° Thick Beam",
+        "link": "Short 30° Thick Beam",
+        "qty": 1,
+        "item": "Short 30° Thick Beam",
+        "image": "[[File:Short 30° Thick Beam (Castle).png|30px|link=Short 30° Thick Beam]]"
       }
     },
     "output": [
@@ -15435,7 +16060,7 @@
         "link": "Short 45° Thick Beam",
         "qty": 1,
         "item": "Short 45° Thick Beam",
-        "image": "[[File:Short 45° Thick Beam.png|30px|link=Short 45° Thick Beam]]"
+        "image": "[[File:Short 45° Thick Beam (Cabin).png|30px|link=Short 45° Thick Beam]]"
       }
     },
     "output": [
@@ -15479,7 +16104,51 @@
         "link": "Short 45° Thick Beam",
         "qty": 1,
         "item": "Short 45° Thick Beam",
-        "image": "[[File:Short 45° Thick Beam.png|30px|link=Short 45° Thick Beam]]"
+        "image": "[[File:Short 45° Thick Beam (Cottage).png|30px|link=Short 45° Thick Beam]]"
+      }
+    },
+    "output": [
+      "Short 45° Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Short 45° Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 45° Thick Beam",
+        "link": "Short 45° Thick Beam",
+        "qty": 1,
+        "item": "Short 45° Thick Beam",
+        "image": "[[File:Short 45° Thick Beam (Castle).png|30px|link=Short 45° Thick Beam]]"
       }
     },
     "output": [
@@ -15523,7 +16192,7 @@
         "link": "Short 60° Thin Beam",
         "qty": 1,
         "item": "Short 60° Thin Beam",
-        "image": "[[File:Short 60° Thin Beam.png|30px|link=Short 60° Thin Beam]]"
+        "image": "[[File:Short 60° Thin Beam (Cabin).png|30px|link=Short 60° Thin Beam]]"
       }
     },
     "output": [
@@ -15567,7 +16236,51 @@
         "link": "Short 60° Thin Beam",
         "qty": 1,
         "item": "Short 60° Thin Beam",
-        "image": "[[File:Short 60° Thin Beam.png|30px|link=Short 60° Thin Beam]]"
+        "image": "[[File:Short 60° Thin Beam (Cottage).png|30px|link=Short 60° Thin Beam]]"
+      }
+    },
+    "output": [
+      "Short 60° Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Short 60° Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 60° Thin Beam",
+        "link": "Short 60° Thin Beam",
+        "qty": 1,
+        "item": "Short 60° Thin Beam",
+        "image": "[[File:Short 60° Thin Beam (Castle).png|30px|link=Short 60° Thin Beam]]"
       }
     },
     "output": [
@@ -15611,7 +16324,7 @@
         "link": "Short 30° Thin Beam",
         "qty": 1,
         "item": "Short 30° Thin Beam",
-        "image": "[[File:Short 30° Thin Beam.png|30px|link=Short 30° Thin Beam]]"
+        "image": "[[File:Short 30° Thin Beam (Cabin).png|30px|link=Short 30° Thin Beam]]"
       }
     },
     "output": [
@@ -15655,7 +16368,51 @@
         "link": "Short 30° Thin Beam",
         "qty": 1,
         "item": "Short 30° Thin Beam",
-        "image": "[[File:Short 30° Thin Beam.png|30px|link=Short 30° Thin Beam]]"
+        "image": "[[File:Short 30° Thin Beam (Cottage).png|30px|link=Short 30° Thin Beam]]"
+      }
+    },
+    "output": [
+      "Short 30° Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Short 30° Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 30° Thin Beam",
+        "link": "Short 30° Thin Beam",
+        "qty": 1,
+        "item": "Short 30° Thin Beam",
+        "image": "[[File:Short 30° Thin Beam (Castle).png|30px|link=Short 30° Thin Beam]]"
       }
     },
     "output": [
@@ -15699,7 +16456,7 @@
         "link": "Short Vertical Thick Beam",
         "qty": 1,
         "item": "Short Vertical Thick Beam",
-        "image": "[[File:Short Vertical Thick Beam.png|30px|link=Short Vertical Thick Beam]]"
+        "image": "[[File:Short Vertical Thick Beam (Cabin).png|30px|link=Short Vertical Thick Beam]]"
       }
     },
     "output": [
@@ -15743,7 +16500,51 @@
         "link": "Short Vertical Thick Beam",
         "qty": 1,
         "item": "Short Vertical Thick Beam",
-        "image": "[[File:Short Vertical Thick Beam.png|30px|link=Short Vertical Thick Beam]]"
+        "image": "[[File:Short Vertical Thick Beam (Cottage).png|30px|link=Short Vertical Thick Beam]]"
+      }
+    },
+    "output": [
+      "Short Vertical Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Short Vertical Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short Vertical Thick Beam",
+        "link": "Short Vertical Thick Beam",
+        "qty": 1,
+        "item": "Short Vertical Thick Beam",
+        "image": "[[File:Short Vertical Thick Beam (Castle).png|30px|link=Short Vertical Thick Beam]]"
       }
     },
     "output": [
@@ -15787,7 +16588,7 @@
         "link": "Horizontal Thin Beam",
         "qty": 1,
         "item": "Horizontal Thin Beam",
-        "image": "[[File:Horizontal Thin Beam.png|30px|link=Horizontal Thin Beam]]"
+        "image": "[[File:Horizontal Thin Beam (Cabin).png|30px|link=Horizontal Thin Beam]]"
       }
     },
     "output": [
@@ -15831,7 +16632,51 @@
         "link": "Horizontal Thin Beam",
         "qty": 1,
         "item": "Horizontal Thin Beam",
-        "image": "[[File:Horizontal Thin Beam.png|30px|link=Horizontal Thin Beam]]"
+        "image": "[[File:Horizontal Thin Beam (Cottage).png|30px|link=Horizontal Thin Beam]]"
+      }
+    },
+    "output": [
+      "Horizontal Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "2",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Horizontal Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Horizontal Thin Beam",
+        "link": "Horizontal Thin Beam",
+        "qty": 1,
+        "item": "Horizontal Thin Beam",
+        "image": "[[File:Horizontal Thin Beam (Castle).png|30px|link=Horizontal Thin Beam]]"
       }
     },
     "output": [
@@ -15875,7 +16720,7 @@
         "link": "60° Thin Beam",
         "qty": 1,
         "item": "60° Thin Beam",
-        "image": "[[File:60° Thin Beam.png|30px|link=60° Thin Beam]]"
+        "image": "[[File:60° Thin Beam (Cabin).png|30px|link=60° Thin Beam]]"
       }
     },
     "output": [
@@ -15919,7 +16764,51 @@
         "link": "60° Thin Beam",
         "qty": 1,
         "item": "60° Thin Beam",
-        "image": "[[File:60° Thin Beam.png|30px|link=60° Thin Beam]]"
+        "image": "[[File:60° Thin Beam (Cottage).png|30px|link=60° Thin Beam]]"
+      }
+    },
+    "output": [
+      "60° Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "2",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "60° Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "60° Thin Beam",
+        "link": "60° Thin Beam",
+        "qty": 1,
+        "item": "60° Thin Beam",
+        "image": "[[File:60° Thin Beam (Castle).png|30px|link=60° Thin Beam]]"
       }
     },
     "output": [
@@ -15963,7 +16852,7 @@
         "link": "Square Foundation",
         "qty": 1,
         "item": "Square Foundation",
-        "image": "[[File:Square Foundation.png|30px|link=Square Foundation]]"
+        "image": "[[File:Square Foundation (Cabin).png|30px|link=Square Foundation]]"
       }
     },
     "output": [
@@ -16016,7 +16905,7 @@
         "link": "Square Foundation",
         "qty": 1,
         "item": "Square Foundation",
-        "image": "[[File:Square Foundation.png|30px|link=Square Foundation]]"
+        "image": "[[File:Square Foundation (Cottage).png|30px|link=Square Foundation]]"
       }
     },
     "output": [
@@ -16069,7 +16958,7 @@
         "link": "Square Foundation",
         "qty": 1,
         "item": "Square Foundation",
-        "image": "[[File:Square Foundation.png|30px|link=Square Foundation]]"
+        "image": "[[File:Square Foundation (Castle).png|30px|link=Square Foundation]]"
       }
     },
     "output": [
@@ -16122,7 +17011,7 @@
         "link": "Medium Triangular Foundation",
         "qty": 1,
         "item": "Medium Triangular Foundation",
-        "image": "[[File:Medium Triangular Foundation.png|30px|link=Medium Triangular Foundation]]"
+        "image": "[[File:Medium Triangular Foundation (Cabin).png|30px|link=Medium Triangular Foundation]]"
       }
     },
     "output": [
@@ -16175,7 +17064,7 @@
         "link": "Medium Triangular Foundation",
         "qty": 1,
         "item": "Medium Triangular Foundation",
-        "image": "[[File:Medium Triangular Foundation.png|30px|link=Medium Triangular Foundation]]"
+        "image": "[[File:Medium Triangular Foundation (Cottage).png|30px|link=Medium Triangular Foundation]]"
       }
     },
     "output": [
@@ -16228,7 +17117,7 @@
         "link": "Medium Triangular Foundation",
         "qty": 1,
         "item": "Medium Triangular Foundation",
-        "image": "[[File:Medium Triangular Foundation.png|30px|link=Medium Triangular Foundation]]"
+        "image": "[[File:Medium Triangular Foundation (Castle).png|30px|link=Medium Triangular Foundation]]"
       }
     },
     "output": [
@@ -16281,7 +17170,7 @@
         "link": "Triangular Foundation",
         "qty": 1,
         "item": "Triangular Foundation",
-        "image": "[[File:Triangular Foundation.png|30px|link=Triangular Foundation]]"
+        "image": "[[File:Triangular Foundation (Cabin).png|30px|link=Triangular Foundation]]"
       }
     },
     "output": [
@@ -16334,7 +17223,7 @@
         "link": "Triangular Foundation",
         "qty": 1,
         "item": "Triangular Foundation",
-        "image": "[[File:Triangular Foundation.png|30px|link=Triangular Foundation]]"
+        "image": "[[File:Triangular Foundation (Cottage).png|30px|link=Triangular Foundation]]"
       }
     },
     "output": [
@@ -16387,7 +17276,7 @@
         "link": "Triangular Foundation",
         "qty": 1,
         "item": "Triangular Foundation",
-        "image": "[[File:Triangular Foundation.png|30px|link=Triangular Foundation]]"
+        "image": "[[File:Triangular Foundation (Castle).png|30px|link=Triangular Foundation]]"
       }
     },
     "output": [
@@ -16431,7 +17320,7 @@
         "link": "Medium Square Foundation",
         "qty": 1,
         "item": "Medium Square Foundation",
-        "image": "[[File:Medium Square Foundation.png|30px|link=Medium Square Foundation]]"
+        "image": "[[File:Medium Square Foundation (Cabin).png|30px|link=Medium Square Foundation]]"
       }
     },
     "output": [
@@ -16484,7 +17373,7 @@
         "link": "Medium Square Foundation",
         "qty": 1,
         "item": "Medium Square Foundation",
-        "image": "[[File:Medium Square Foundation.png|30px|link=Medium Square Foundation]]"
+        "image": "[[File:Medium Square Foundation (Cottage).png|30px|link=Medium Square Foundation]]"
       }
     },
     "output": [
@@ -16537,7 +17426,7 @@
         "link": "Medium Square Foundation",
         "qty": 1,
         "item": "Medium Square Foundation",
-        "image": "[[File:Medium Square Foundation.png|30px|link=Medium Square Foundation]]"
+        "image": "[[File:Medium Square Foundation (Castle).png|30px|link=Medium Square Foundation]]"
       }
     },
     "output": [
@@ -16581,7 +17470,7 @@
         "link": "45° Valley Roof",
         "qty": 1,
         "item": "45° Valley Roof",
-        "image": "[[File:45° Valley Roof.png|30px|link=45° Valley Roof]]"
+        "image": "[[File:45° Valley Roof (Cabin).png|30px|link=45° Valley Roof]]"
       }
     },
     "output": [
@@ -16625,7 +17514,60 @@
         "link": "45° Valley Roof",
         "qty": 1,
         "item": "45° Valley Roof",
-        "image": "[[File:45° Valley Roof.png|30px|link=45° Valley Roof]]"
+        "image": "[[File:45° Valley Roof (Cottage).png|30px|link=45° Valley Roof]]"
+      }
+    },
+    "output": [
+      "45° Valley Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Oak Plank",
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Oak Plank",
+          "link": "Oak Plank",
+          "qty": "6",
+          "item": "Oak Plank",
+          "image": "[[File:Oak Plank.png|30px|link=Oak Plank]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "30"
+        }
+      ],
+      "outputs": [
+        "45° Valley Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "45° Valley Roof",
+        "link": "45° Valley Roof",
+        "qty": 1,
+        "item": "45° Valley Roof",
+        "image": "[[File:45° Valley Roof (Castle).png|30px|link=45° Valley Roof]]"
       }
     },
     "output": [
@@ -16669,7 +17611,7 @@
         "link": "30° Valley Roof",
         "qty": 1,
         "item": "30° Valley Roof",
-        "image": "[[File:30° Valley Roof.png|30px|link=30° Valley Roof]]"
+        "image": "[[File:30° Valley Roof (Cabin).png|30px|link=30° Valley Roof]]"
       }
     },
     "output": [
@@ -16713,7 +17655,60 @@
         "link": "30° Valley Roof",
         "qty": 1,
         "item": "30° Valley Roof",
-        "image": "[[File:30° Valley Roof.png|30px|link=30° Valley Roof]]"
+        "image": "[[File:30° Valley Roof (Cottage).png|30px|link=30° Valley Roof]]"
+      }
+    },
+    "output": [
+      "30° Valley Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Oak Plank",
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Oak Plank",
+          "link": "Oak Plank",
+          "qty": "6",
+          "item": "Oak Plank",
+          "image": "[[File:Oak Plank.png|30px|link=Oak Plank]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "24"
+        }
+      ],
+      "outputs": [
+        "30° Valley Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "30° Valley Roof",
+        "link": "30° Valley Roof",
+        "qty": 1,
+        "item": "30° Valley Roof",
+        "image": "[[File:30° Valley Roof (Castle).png|30px|link=30° Valley Roof]]"
       }
     },
     "output": [
@@ -16757,7 +17752,7 @@
         "link": "Medium 30° Triangle Roof",
         "qty": 1,
         "item": "Medium 30° Triangle Roof",
-        "image": "[[File:Medium 30° Triangle Roof.png|30px|link=Medium 30° Triangle Roof]]"
+        "image": "[[File:Medium 30° Triangle Roof (Cabin).png|30px|link=Medium 30° Triangle Roof]]"
       }
     },
     "output": [
@@ -16801,7 +17796,51 @@
         "link": "Medium 30° Triangle Roof",
         "qty": 1,
         "item": "Medium 30° Triangle Roof",
-        "image": "[[File:Medium 30° Triangle Roof.png|30px|link=Medium 30° Triangle Roof]]"
+        "image": "[[File:Medium 30° Triangle Roof (Cottage).png|30px|link=Medium 30° Triangle Roof]]"
+      }
+    },
+    "output": [
+      "Medium 30° Triangle Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "16"
+        }
+      ],
+      "outputs": [
+        "Medium 30° Triangle Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium 30° Triangle Roof",
+        "link": "Medium 30° Triangle Roof",
+        "qty": 1,
+        "item": "Medium 30° Triangle Roof",
+        "image": "[[File:Medium 30° Triangle Roof (Castle).png|30px|link=Medium 30° Triangle Roof]]"
       }
     },
     "output": [
@@ -16845,7 +17884,7 @@
         "link": "45° Triangle Roof",
         "qty": 1,
         "item": "45° Triangle Roof",
-        "image": "[[File:45° Triangle Roof.png|30px|link=45° Triangle Roof]]"
+        "image": "[[File:45° Triangle Roof (Cabin).png|30px|link=45° Triangle Roof]]"
       }
     },
     "output": [
@@ -16889,7 +17928,51 @@
         "link": "45° Triangle Roof",
         "qty": 1,
         "item": "45° Triangle Roof",
-        "image": "[[File:45° Triangle Roof.png|30px|link=45° Triangle Roof]]"
+        "image": "[[File:45° Triangle Roof (Cottage).png|30px|link=45° Triangle Roof]]"
+      }
+    },
+    "output": [
+      "45° Triangle Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "6",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "18"
+        }
+      ],
+      "outputs": [
+        "45° Triangle Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "45° Triangle Roof",
+        "link": "45° Triangle Roof",
+        "qty": 1,
+        "item": "45° Triangle Roof",
+        "image": "[[File:45° Triangle Roof (Castle).png|30px|link=45° Triangle Roof]]"
       }
     },
     "output": [
@@ -16933,7 +18016,7 @@
         "link": "Small 45° Valley Roof",
         "qty": 1,
         "item": "Small 45° Valley Roof",
-        "image": "[[File:Small 45° Valley Roof.png|30px|link=Small 45° Valley Roof]]"
+        "image": "[[File:Small 45° Valley Roof (Cabin).png|30px|link=Small 45° Valley Roof]]"
       }
     },
     "output": [
@@ -16977,7 +18060,51 @@
         "link": "Small 45° Valley Roof",
         "qty": 1,
         "item": "Small 45° Valley Roof",
-        "image": "[[File:Small 45° Valley Roof.png|30px|link=Small 45° Valley Roof]]"
+        "image": "[[File:Small 45° Valley Roof (Cottage).png|30px|link=Small 45° Valley Roof]]"
+      }
+    },
+    "output": [
+      "Small 45° Valley Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "2",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Small 45° Valley Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Small 45° Valley Roof",
+        "link": "Small 45° Valley Roof",
+        "qty": 1,
+        "item": "Small 45° Valley Roof",
+        "image": "[[File:Small 45° Valley Roof (Castle).png|30px|link=Small 45° Valley Roof]]"
       }
     },
     "output": [
@@ -17021,7 +18148,7 @@
         "link": "30° Hip Roof",
         "qty": 1,
         "item": "30° Hip Roof",
-        "image": "[[File:30° Hip Roof.png|30px|link=30° Hip Roof]]"
+        "image": "[[File:30° Hip Roof (Cabin).png|30px|link=30° Hip Roof]]"
       }
     },
     "output": [
@@ -17065,7 +18192,7 @@
         "link": "30° Hip Roof",
         "qty": 1,
         "item": "30° Hip Roof",
-        "image": "[[File:30° Hip Roof.png|30px|link=30° Hip Roof]]"
+        "image": "[[File:30° Hip Roof (Cottage).png|30px|link=30° Hip Roof]]"
       }
     },
     "output": [
@@ -17118,7 +18245,7 @@
         "link": "30° Hip Roof",
         "qty": 1,
         "item": "30° Hip Roof",
-        "image": "[[File:30° Hip Roof.png|30px|link=30° Hip Roof]]"
+        "image": "[[File:30° Hip Roof (Castle).png|30px|link=30° Hip Roof]]"
       }
     },
     "output": [
@@ -17162,7 +18289,7 @@
         "link": "45° Roof",
         "qty": 1,
         "item": "45° Roof",
-        "image": "[[File:45° Roof.png|30px|link=45° Roof]]"
+        "image": "[[File:45° Roof (Cabin).png|30px|link=45° Roof]]"
       }
     },
     "output": [
@@ -17206,7 +18333,60 @@
         "link": "45° Roof",
         "qty": 1,
         "item": "45° Roof",
-        "image": "[[File:45° Roof.png|30px|link=45° Roof]]"
+        "image": "[[File:45° Roof (Cottage).png|30px|link=45° Roof]]"
+      }
+    },
+    "output": [
+      "45° Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Oak Plank",
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Oak Plank",
+          "link": "Oak Plank",
+          "qty": "6",
+          "item": "Oak Plank",
+          "image": "[[File:Oak Plank.png|30px|link=Oak Plank]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "30"
+        }
+      ],
+      "outputs": [
+        "45° Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "45° Roof",
+        "link": "45° Roof",
+        "qty": 1,
+        "item": "45° Roof",
+        "image": "[[File:45° Roof (Castle).png|30px|link=45° Roof]]"
       }
     },
     "output": [
@@ -17250,7 +18430,7 @@
         "link": "Small 30° Roof",
         "qty": 1,
         "item": "Small 30° Roof",
-        "image": "[[File:Small 30° Roof.png|30px|link=Small 30° Roof]]"
+        "image": "[[File:Small 30° Roof (Cabin).png|30px|link=Small 30° Roof]]"
       }
     },
     "output": [
@@ -17294,7 +18474,51 @@
         "link": "Small 30° Roof",
         "qty": 1,
         "item": "Small 30° Roof",
-        "image": "[[File:Small 30° Roof.png|30px|link=Small 30° Roof]]"
+        "image": "[[File:Small 30° Roof (Cottage).png|30px|link=Small 30° Roof]]"
+      }
+    },
+    "output": [
+      "Small 30° Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "2",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Small 30° Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Small 30° Roof",
+        "link": "Small 30° Roof",
+        "qty": 1,
+        "item": "Small 30° Roof",
+        "image": "[[File:Small 30° Roof (Castle).png|30px|link=Small 30° Roof]]"
       }
     },
     "output": [
@@ -17338,7 +18562,7 @@
         "link": "45° Inverted Triangle Roof",
         "qty": 1,
         "item": "45° Inverted Triangle Roof",
-        "image": "[[File:45° Inverted Triangle Roof.png|30px|link=45° Inverted Triangle Roof]]"
+        "image": "[[File:45° Inverted Triangle Roof (Cabin).png|30px|link=45° Inverted Triangle Roof]]"
       }
     },
     "output": [
@@ -17382,7 +18606,51 @@
         "link": "45° Inverted Triangle Roof",
         "qty": 1,
         "item": "45° Inverted Triangle Roof",
-        "image": "[[File:45° Inverted Triangle Roof.png|30px|link=45° Inverted Triangle Roof]]"
+        "image": "[[File:45° Inverted Triangle Roof (Cottage).png|30px|link=45° Inverted Triangle Roof]]"
+      }
+    },
+    "output": [
+      "45° Inverted Triangle Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "6",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "18"
+        }
+      ],
+      "outputs": [
+        "45° Inverted Triangle Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "45° Inverted Triangle Roof",
+        "link": "45° Inverted Triangle Roof",
+        "qty": 1,
+        "item": "45° Inverted Triangle Roof",
+        "image": "[[File:45° Inverted Triangle Roof (Castle).png|30px|link=45° Inverted Triangle Roof]]"
       }
     },
     "output": [
@@ -17470,7 +18738,7 @@
         "link": "30° Roof",
         "qty": 1,
         "item": "30° Roof",
-        "image": "[[File:30° Roof.png|30px|link=30° Roof]]"
+        "image": "[[File:30° Roof (Cabin).png|30px|link=30° Roof]]"
       }
     },
     "output": [
@@ -17514,7 +18782,7 @@
         "link": "30° Roof",
         "qty": 1,
         "item": "30° Roof",
-        "image": "[[File:30° Roof (Tier 2).png|30px|link=30° Roof]]"
+        "image": "[[File:30° Roof (Cottage).png|30px|link=30° Roof]]"
       }
     },
     "output": [
@@ -17611,7 +18879,7 @@
         "link": "Medium 45° Valley Roof",
         "qty": 1,
         "item": "Medium 45° Valley Roof",
-        "image": "[[File:Medium 45° Valley Roof.png|30px|link=Medium 45° Valley Roof]]"
+        "image": "[[File:Medium 45° Valley Roof (Cabin).png|30px|link=Medium 45° Valley Roof]]"
       }
     },
     "output": [
@@ -17655,7 +18923,51 @@
         "link": "Medium 45° Valley Roof",
         "qty": 1,
         "item": "Medium 45° Valley Roof",
-        "image": "[[File:Medium 45° Valley Roof.png|30px|link=Medium 45° Valley Roof]]"
+        "image": "[[File:Medium 45° Valley Roof (Cottage).png|30px|link=Medium 45° Valley Roof]]"
+      }
+    },
+    "output": [
+      "Medium 45° Valley Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "16"
+        }
+      ],
+      "outputs": [
+        "Medium 45° Valley Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium 45° Valley Roof",
+        "link": "Medium 45° Valley Roof",
+        "qty": 1,
+        "item": "Medium 45° Valley Roof",
+        "image": "[[File:Medium 45° Valley Roof (Castle).png|30px|link=Medium 45° Valley Roof]]"
       }
     },
     "output": [
@@ -17699,7 +19011,7 @@
         "link": "Small 30° Hip Roof",
         "qty": 1,
         "item": "Small 30° Hip Roof",
-        "image": "[[File:Small 30° Hip Roof.png|30px|link=Small 30° Hip Roof]]"
+        "image": "[[File:Small 30° Hip Roof (Cabin).png|30px|link=Small 30° Hip Roof]]"
       }
     },
     "output": [
@@ -17743,7 +19055,51 @@
         "link": "Small 30° Hip Roof",
         "qty": 1,
         "item": "Small 30° Hip Roof",
-        "image": "[[File:Small 30° Hip Roof.png|30px|link=Small 30° Hip Roof]]"
+        "image": "[[File:Small 30° Hip Roof (Cottage).png|30px|link=Small 30° Hip Roof]]"
+      }
+    },
+    "output": [
+      "Small 30° Hip Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "2",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Small 30° Hip Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Small 30° Hip Roof",
+        "link": "Small 30° Hip Roof",
+        "qty": 1,
+        "item": "Small 30° Hip Roof",
+        "image": "[[File:Small 30° Hip Roof (Castle).png|30px|link=Small 30° Hip Roof]]"
       }
     },
     "output": [
@@ -17787,7 +19143,7 @@
         "link": "30° Inverted Triangle Roof",
         "qty": 1,
         "item": "30° Inverted Triangle Roof",
-        "image": "[[File:30° Inverted Triangle Roof.png|30px|link=30° Inverted Triangle Roof]]"
+        "image": "[[File:30° Inverted Triangle Roof (Cabin).png|30px|link=30° Inverted Triangle Roof]]"
       }
     },
     "output": [
@@ -17831,7 +19187,51 @@
         "link": "30° Inverted Triangle Roof",
         "qty": 1,
         "item": "30° Inverted Triangle Roof",
-        "image": "[[File:30° Inverted Triangle Roof.png|30px|link=30° Inverted Triangle Roof]]"
+        "image": "[[File:30° Inverted Triangle Roof (Cottage).png|30px|link=30° Inverted Triangle Roof]]"
+      }
+    },
+    "output": [
+      "30° Inverted Triangle Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "6",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "16"
+        }
+      ],
+      "outputs": [
+        "30° Inverted Triangle Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "30° Inverted Triangle Roof",
+        "link": "30° Inverted Triangle Roof",
+        "qty": 1,
+        "item": "30° Inverted Triangle Roof",
+        "image": "[[File:30° Inverted Triangle Roof (Castle).png|30px|link=30° Inverted Triangle Roof]]"
       }
     },
     "output": [
@@ -17875,7 +19275,7 @@
         "link": "Small 45° Roof",
         "qty": 1,
         "item": "Small 45° Roof",
-        "image": "[[File:Small 45° Roof.png|30px|link=Small 45° Roof]]"
+        "image": "[[File:Small 45° Roof (Cabin).png|30px|link=Small 45° Roof]]"
       }
     },
     "output": [
@@ -17919,7 +19319,51 @@
         "link": "Small 45° Roof",
         "qty": 1,
         "item": "Small 45° Roof",
-        "image": "[[File:Small 45° Roof.png|30px|link=Small 45° Roof]]"
+        "image": "[[File:Small 45° Roof (Cottage).png|30px|link=Small 45° Roof]]"
+      }
+    },
+    "output": [
+      "Small 45° Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Small 45° Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Small 45° Roof",
+        "link": "Small 45° Roof",
+        "qty": 1,
+        "item": "Small 45° Roof",
+        "image": "[[File:Small 45° Roof (Castle).png|30px|link=Small 45° Roof]]"
       }
     },
     "output": [
@@ -17963,7 +19407,7 @@
         "link": "Small 45° Hip Roof",
         "qty": 1,
         "item": "Small 45° Hip Roof",
-        "image": "[[File:Small 45° Hip Roof.png|30px|link=Small 45° Hip Roof]]"
+        "image": "[[File:Small 45° Hip Roof (Cabin).png|30px|link=Small 45° Hip Roof]]"
       }
     },
     "output": [
@@ -18007,7 +19451,51 @@
         "link": "Small 45° Hip Roof",
         "qty": 1,
         "item": "Small 45° Hip Roof",
-        "image": "[[File:Small 45° Hip Roof.png|30px|link=Small 45° Hip Roof]]"
+        "image": "[[File:Small 45° Hip Roof (Cottage).png|30px|link=Small 45° Hip Roof]]"
+      }
+    },
+    "output": [
+      "Small 45° Hip Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "2",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Small 45° Hip Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Small 45° Hip Roof",
+        "link": "Small 45° Hip Roof",
+        "qty": 1,
+        "item": "Small 45° Hip Roof",
+        "image": "[[File:Small 45° Hip Roof (Castle).png|30px|link=Small 45° Hip Roof]]"
       }
     },
     "output": [
@@ -18051,7 +19539,7 @@
         "link": "Medium 45° Roof",
         "qty": 1,
         "item": "Medium 45° Roof",
-        "image": "[[File:Medium 45° Roof.png|30px|link=Medium 45° Roof]]"
+        "image": "[[File:Medium 45° Roof (Cabin).png|30px|link=Medium 45° Roof]]"
       }
     },
     "output": [
@@ -18095,7 +19583,51 @@
         "link": "Medium 45° Roof",
         "qty": 1,
         "item": "Medium 45° Roof",
-        "image": "[[File:Medium 45° Roof.png|30px|link=Medium 45° Roof]]"
+        "image": "[[File:Medium 45° Roof (Cottage).png|30px|link=Medium 45° Roof]]"
+      }
+    },
+    "output": [
+      "Medium 45° Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "16"
+        }
+      ],
+      "outputs": [
+        "Medium 45° Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium 45° Roof",
+        "link": "Medium 45° Roof",
+        "qty": 1,
+        "item": "Medium 45° Roof",
+        "image": "[[File:Medium 45° Roof (Castle).png|30px|link=Medium 45° Roof]]"
       }
     },
     "output": [
@@ -18139,7 +19671,7 @@
         "link": "Medium 45° Inverted Triangle Roof",
         "qty": 1,
         "item": "Medium 45° Inverted Triangle Roof",
-        "image": "[[File:Medium 45° Inverted Triangle Roof.png|30px|link=Medium 45° Inverted Triangle Roof]]"
+        "image": "[[File:Medium 45° Inverted Triangle Roof (Cabin).png|30px|link=Medium 45° Inverted Triangle Roof]]"
       }
     },
     "output": [
@@ -18183,7 +19715,51 @@
         "link": "Medium 45° Inverted Triangle Roof",
         "qty": 1,
         "item": "Medium 45° Inverted Triangle Roof",
-        "image": "[[File:Medium 45° Inverted Triangle Roof.png|30px|link=Medium 45° Inverted Triangle Roof]]"
+        "image": "[[File:Medium 45° Inverted Triangle Roof (Cottage).png|30px|link=Medium 45° Inverted Triangle Roof]]"
+      }
+    },
+    "output": [
+      "Medium 45° Inverted Triangle Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "16"
+        }
+      ],
+      "outputs": [
+        "Medium 45° Inverted Triangle Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium 45° Inverted Triangle Roof",
+        "link": "Medium 45° Inverted Triangle Roof",
+        "qty": 1,
+        "item": "Medium 45° Inverted Triangle Roof",
+        "image": "[[File:Medium 45° Inverted Triangle Roof (Castle).png|30px|link=Medium 45° Inverted Triangle Roof]]"
       }
     },
     "output": [
@@ -18227,7 +19803,7 @@
         "link": "45° Hip Roof",
         "qty": 1,
         "item": "45° Hip Roof",
-        "image": "[[File:45° Hip Roof.png|30px|link=45° Hip Roof]]"
+        "image": "[[File:45° Hip Roof (Cabin).png|30px|link=45° Hip Roof]]"
       }
     },
     "output": [
@@ -18271,7 +19847,60 @@
         "link": "45° Hip Roof",
         "qty": 1,
         "item": "45° Hip Roof",
-        "image": "[[File:45° Hip Roof.png|30px|link=45° Hip Roof]]"
+        "image": "[[File:45° Hip Roof (Cottage).png|30px|link=45° Hip Roof]]"
+      }
+    },
+    "output": [
+      "45° Hip Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Oak Plank",
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Oak Plank",
+          "link": "Oak Plank",
+          "qty": "6",
+          "item": "Oak Plank",
+          "image": "[[File:Oak Plank.png|30px|link=Oak Plank]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "1",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "30"
+        }
+      ],
+      "outputs": [
+        "45° Hip Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "45° Hip Roof",
+        "link": "45° Hip Roof",
+        "qty": 1,
+        "item": "45° Hip Roof",
+        "image": "[[File:45° Hip Roof (Castle).png|30px|link=45° Hip Roof]]"
       }
     },
     "output": [
@@ -18315,7 +19944,7 @@
         "link": "30° Triangle Roof",
         "qty": 1,
         "item": "30° Triangle Roof",
-        "image": "[[File:30° Triangle Roof.png|30px|link=30° Triangle Roof]]"
+        "image": "[[File:30° Triangle Roof (Cabin).png|30px|link=30° Triangle Roof]]"
       }
     },
     "output": [
@@ -18359,7 +19988,51 @@
         "link": "30° Triangle Roof",
         "qty": 1,
         "item": "30° Triangle Roof",
-        "image": "[[File:30° Triangle Roof.png|30px|link=30° Triangle Roof]]"
+        "image": "[[File:30° Triangle Roof (Cottage).png|30px|link=30° Triangle Roof]]"
+      }
+    },
+    "output": [
+      "30° Triangle Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "6",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "16"
+        }
+      ],
+      "outputs": [
+        "30° Triangle Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "30° Triangle Roof",
+        "link": "30° Triangle Roof",
+        "qty": 1,
+        "item": "30° Triangle Roof",
+        "image": "[[File:30° Triangle Roof (Castle).png|30px|link=30° Triangle Roof]]"
       }
     },
     "output": [
@@ -18403,7 +20076,7 @@
         "link": "Medium 30° Roof",
         "qty": 1,
         "item": "Medium 30° Roof",
-        "image": "[[File:Medium 30° Roof.png|30px|link=Medium 30° Roof]]"
+        "image": "[[File:Medium 30° Roof (Cabin).png|30px|link=Medium 30° Roof]]"
       }
     },
     "output": [
@@ -18447,7 +20120,51 @@
         "link": "Medium 30° Roof",
         "qty": 1,
         "item": "Medium 30° Roof",
-        "image": "[[File:Medium 30° Roof.png|30px|link=Medium 30° Roof]]"
+        "image": "[[File:Medium 30° Roof (Cabin).png|30px|link=Medium 30° Roof]]"
+      }
+    },
+    "output": [
+      "Medium 30° Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "16"
+        }
+      ],
+      "outputs": [
+        "Medium 30° Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium 30° Roof",
+        "link": "Medium 30° Roof",
+        "qty": 1,
+        "item": "Medium 30° Roof",
+        "image": "[[File:Medium 30° Roof (Castle).png|30px|link=Medium 30° Roof]]"
       }
     },
     "output": [
@@ -18491,7 +20208,7 @@
         "link": "Medium 30° Hip Roof",
         "qty": 1,
         "item": "Medium 30° Hip Roof",
-        "image": "[[File:Medium 30° Hip Roof.png|30px|link=Medium 30° Hip Roof]]"
+        "image": "[[File:Medium 30° Hip Roof (Cabin).png|30px|link=Medium 30° Hip Roof]]"
       }
     },
     "output": [
@@ -18535,7 +20252,51 @@
         "link": "Medium 30° Hip Roof",
         "qty": 1,
         "item": "Medium 30° Hip Roof",
-        "image": "[[File:Medium 30° Hip Roof.png|30px|link=Medium 30° Hip Roof]]"
+        "image": "[[File:Medium 30° Hip Roof (Cottage).png|30px|link=Medium 30° Hip Roof]]"
+      }
+    },
+    "output": [
+      "Medium 30° Hip Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "6",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "24"
+        }
+      ],
+      "outputs": [
+        "Medium 30° Hip Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium 30° Hip Roof",
+        "link": "Medium 30° Hip Roof",
+        "qty": 1,
+        "item": "Medium 30° Hip Roof",
+        "image": "[[File:Medium 30° Hip Roof (Castle).png|30px|link=Medium 30° Hip Roof]]"
       }
     },
     "output": [
@@ -18579,7 +20340,7 @@
         "link": "Medium 30° Valley Roof",
         "qty": 1,
         "item": "Medium 30° Valley Roof",
-        "image": "[[File:Medium 30° Valley Roof.png|30px|link=Medium 30° Valley Roof]]"
+        "image": "[[File:Medium 30° Valley Roof (Cabin).png|30px|link=Medium 30° Valley Roof]]"
       }
     },
     "output": [
@@ -18623,7 +20384,51 @@
         "link": "Medium 30° Valley Roof",
         "qty": 1,
         "item": "Medium 30° Valley Roof",
-        "image": "[[File:Medium 30° Valley Roof.png|30px|link=Medium 30° Valley Roof]]"
+        "image": "[[File:Medium 30° Valley Roof (Cottage).png|30px|link=Medium 30° Valley Roof]]"
+      }
+    },
+    "output": [
+      "Medium 30° Valley Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "16"
+        }
+      ],
+      "outputs": [
+        "Medium 30° Valley Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium 30° Valley Roof",
+        "link": "Medium 30° Valley Roof",
+        "qty": 1,
+        "item": "Medium 30° Valley Roof",
+        "image": "[[File:Medium 30° Valley Roof (Castle).png|30px|link=Medium 30° Valley Roof]]"
       }
     },
     "output": [
@@ -18667,7 +20472,7 @@
         "link": "Medium 45° Triangle Roof",
         "qty": 1,
         "item": "Medium 45° Triangle Roof",
-        "image": "[[File:Medium 45° Triangle Roof.png|30px|link=Medium 45° Triangle Roof]]"
+        "image": "[[File:Medium 45° Triangle Roof (Cabin).png|30px|link=Medium 45° Triangle Roof]]"
       }
     },
     "output": [
@@ -18711,7 +20516,51 @@
         "link": "Medium 45° Triangle Roof",
         "qty": 1,
         "item": "Medium 45° Triangle Roof",
-        "image": "[[File:Medium 45° Triangle Roof.png|30px|link=Medium 45° Triangle Roof]]"
+        "image": "[[File:Medium 45° Triangle Roof (Cottage).png|30px|link=Medium 45° Triangle Roof]]"
+      }
+    },
+    "output": [
+      "Medium 45° Triangle Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "18"
+        }
+      ],
+      "outputs": [
+        "Medium 45° Triangle Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium 45° Triangle Roof",
+        "link": "Medium 45° Triangle Roof",
+        "qty": 1,
+        "item": "Medium 45° Triangle Roof",
+        "image": "[[File:Medium 45° Triangle Roof (Castle).png|30px|link=Medium 45° Triangle Roof]]"
       }
     },
     "output": [
@@ -18755,7 +20604,7 @@
         "link": "Medium 30° Inverted Triangle Roof",
         "qty": 1,
         "item": "Medium 30° Inverted Triangle Roof",
-        "image": "[[File:Medium 30° Inverted Triangle Roof.png|30px|link=Medium 30° Inverted Triangle Roof]]"
+        "image": "[[File:Medium 30° Inverted Triangle Roof (Cabin).png|30px|link=Medium 30° Inverted Triangle Roof]]"
       }
     },
     "output": [
@@ -18799,7 +20648,51 @@
         "link": "Medium 30° Inverted Triangle Roof",
         "qty": 1,
         "item": "Medium 30° Inverted Triangle Roof",
-        "image": "[[File:Medium 30° Inverted Triangle Roof.png|30px|link=Medium 30° Inverted Triangle Roof]]"
+        "image": "[[File:Medium 30° Inverted Triangle Roof (Cottage).png|30px|link=Medium 30° Inverted Triangle Roof]]"
+      }
+    },
+    "output": [
+      "Medium 30° Inverted Triangle Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "16"
+        }
+      ],
+      "outputs": [
+        "Medium 30° Inverted Triangle Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium 30° Inverted Triangle Roof",
+        "link": "Medium 30° Inverted Triangle Roof",
+        "qty": 1,
+        "item": "Medium 30° Inverted Triangle Roof",
+        "image": "[[File:Medium 30° Inverted Triangle Roof (Castle).png|30px|link=Medium 30° Inverted Triangle Roof]]"
       }
     },
     "output": [
@@ -18843,7 +20736,7 @@
         "link": "Small 30° Valley Roof",
         "qty": 1,
         "item": "Small 30° Valley Roof",
-        "image": "[[File:Small 30° Valley Roof.png|30px|link=Small 30° Valley Roof]]"
+        "image": "[[File:Small 30° Valley Roof (Cabin).png|30px|link=Small 30° Valley Roof]]"
       }
     },
     "output": [
@@ -18887,7 +20780,51 @@
         "link": "Small 30° Valley Roof",
         "qty": 1,
         "item": "Small 30° Valley Roof",
-        "image": "[[File:Small 30° Valley Roof.png|30px|link=Small 30° Valley Roof]]"
+        "image": "[[File:Small 30° Valley Roof (Cottage).png|30px|link=Small 30° Valley Roof]]"
+      }
+    },
+    "output": [
+      "Small 30° Valley Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "2",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Small 30° Valley Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Small 30° Valley Roof",
+        "link": "Small 30° Valley Roof",
+        "qty": 1,
+        "item": "Small 30° Valley Roof",
+        "image": "[[File:Small 30° Valley Roof (Castle).png|30px|link=Small 30° Valley Roof]]"
       }
     },
     "output": [
@@ -19523,7 +21460,7 @@
         "link": "Medium 30° Inverted Roof Support Wall",
         "qty": 1,
         "item": "Medium 30° Inverted Roof Support Wall",
-        "image": "[[File:30° Inverted Roof Support Wall (Castle).png|30px|link=Medium 30° Inverted Roof Support Wall]]"
+        "image": "[[File:Medium 30° Inverted Roof Support Wall (Castle).png|30px|link=Medium 30° Inverted Roof Support Wall]]"
       }
     },
     "output": [
@@ -19682,7 +21619,7 @@
         "link": "Medium 30° Roof Support Wall",
         "qty": 1,
         "item": "Medium 30° Roof Support Wall",
-        "image": "[[File:30° Roof Support Wall (Castle).png|30px|link=Medium 30° Roof Support Wall]]"
+        "image": "[[File:Medium 30° Roof Support Wall (Castle).png|30px|link=Medium 30° Roof Support Wall]]"
       }
     },
     "output": [
@@ -26810,7 +28747,7 @@
         "link": "Outer Corner 45° Stairs",
         "qty": 1,
         "item": "Outer Corner 45° Stairs",
-        "image": "[[File:Outer Corner 45° Stairs.png|30px|link=Outer Corner 45° Stairs]]"
+        "image": "[[File:Outer Corner 45° Stairs (Cabin).png|30px|link=Outer Corner 45° Stairs]]"
       }
     },
     "output": [
@@ -26854,7 +28791,7 @@
         "link": "Outer Corner 45° Stairs",
         "qty": 1,
         "item": "Outer Corner 45° Stairs",
-        "image": "[[File:Outer Corner 45° Stairs.png|30px|link=Outer Corner 45° Stairs]]"
+        "image": "[[File:Outer Corner 45° Stairs (Cottage).png|30px|link=Outer Corner 45° Stairs]]"
       }
     },
     "output": [
@@ -26886,7 +28823,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": ""
+          "experience": "12"
         }
       ],
       "outputs": [
@@ -26898,7 +28835,7 @@
         "link": "Outer Corner 45° Stairs",
         "qty": 1,
         "item": "Outer Corner 45° Stairs",
-        "image": "[[File:Outer Corner 45° Stairs.png|30px|link=Outer Corner 45° Stairs]]"
+        "image": "[[File:Outer Corner 45° Stairs (Castle).png|30px|link=Outer Corner 45° Stairs]]"
       }
     },
     "output": [
@@ -27074,7 +29011,7 @@
         "link": "Medium 45° Hip Roof",
         "qty": 1,
         "item": "Medium 45° Hip Roof",
-        "image": "[[File:Medium 45° Hip Roof.png|30px|link=Medium 45° Hip Roof]]"
+        "image": "[[File:Medium 45° Hip Roof (Cabin).png|30px|link=Medium 45° Hip Roof]]"
       }
     },
     "output": [
@@ -27118,7 +29055,51 @@
         "link": "Medium 45° Hip Roof",
         "qty": 1,
         "item": "Medium 45° Hip Roof",
-        "image": "[[File:Medium 45° Hip Roof.png|30px|link=Medium 45° Hip Roof]]"
+        "image": "[[File:Medium 45° Hip Roof (Cottage).png|30px|link=Medium 45° Hip Roof]]"
+      }
+    },
+    "output": [
+      "Medium 45° Hip Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "16"
+        }
+      ],
+      "outputs": [
+        "Medium 45° Hip Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium 45° Hip Roof",
+        "link": "Medium 45° Hip Roof",
+        "qty": 1,
+        "item": "Medium 45° Hip Roof",
+        "image": "[[File:Medium 45° Hip Roof (Castle).png|30px|link=Medium 45° Hip Roof]]"
       }
     },
     "output": [
@@ -42558,6 +44539,50 @@
   },
   {
     "uses_material": [
+      "Watermelon"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Watermelon",
+          "link": "Watermelon",
+          "qty": "1",
+          "item": "Watermelon",
+          "image": "[[File:Watermelon.png|30px|link=Watermelon]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Watermelon"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Watermelon",
+        "link": "Burnt Watermelon",
+        "qty": "1",
+        "item": "Burnt Watermelon",
+        "image": "[[File:Burnt Watermelon.png|30px|link=Burnt Watermelon]]"
+      }
+    },
+    "output": [
+      "Burnt Watermelon"
+    ]
+  },
+  {
+    "uses_material": [
       "Roast Pumpkin",
       "Baked Potato",
       "Fried Cabbage"
@@ -43661,13 +45686,13 @@
       "Draconic Leather"
     ],
     "uses_recipe": [
-      "Vestige: Rotten Farming Tool"
+      "Rotten Farming Tool"
     ],
     "uses_facility": [
       "Smithing Anvil"
     ],
     "json": {
-      "recipe": "Vestige: Rotten Farming Tool",
+      "recipe": "Rotten Farming Tool",
       "facility": "Smithing Anvil",
       "materials": [
         {
@@ -49964,6 +51989,70 @@
         }
       ],
       "outputs": [
+        "Agility Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Agility Cape",
+        "link": "Agility Cape",
+        "qty": 1,
+        "item": "Agility Cape",
+        "image": "[[File:Agility Cape.png|30px|link=Agility Cape]]"
+      }
+    },
+    "output": [
+      "Agility Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Agility Cape (Trimmed)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Agility Cape (Trimmed)",
+        "link": "Agility Cape (Trimmed)",
+        "qty": 1,
+        "item": "Agility Cape (Trimmed)",
+        "image": "[[File:Agility Cape (Trimmed).png|30px|link=Agility Cape (Trimmed)]]"
+      }
+    },
+    "output": [
+      "Agility Cape (Trimmed)"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
         "Fishing Cape"
       ],
       "output": {
@@ -50009,6 +52098,70 @@
     },
     "output": [
       "Fishing Cape (Trimmed)"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Prayer Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Prayer Cape",
+        "link": "Prayer Cape",
+        "qty": 1,
+        "item": "Prayer Cape",
+        "image": "[[File:Prayer Cape.png|30px|link=Prayer Cape]]"
+      }
+    },
+    "output": [
+      "Prayer Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Prayer Cape (Trimmed)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Prayer Cape (Trimmed)",
+        "link": "Prayer Cape (Trimmed)",
+        "qty": 1,
+        "item": "Prayer Cape (Trimmed)",
+        "image": "[[File:Prayer Cape (Trimmed).png|30px|link=Prayer Cape (Trimmed)]]"
+      }
+    },
+    "output": [
+      "Prayer Cape (Trimmed)"
     ]
   },
   {
@@ -58121,6 +60274,1150 @@
     },
     "output": [
       "Farmer's Hat"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Armoured Catfish"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Armoured Catfish",
+          "link": "Raw Armoured Catfish",
+          "qty": "1",
+          "item": "Raw Armoured Catfish",
+          "image": "[[File:Raw Armoured Catfish.png|30px|link=Raw Armoured Catfish]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Catfish"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Catfish",
+        "link": "Burnt Catfish",
+        "qty": "1",
+        "item": "Burnt Catfish",
+        "image": "[[File:Burnt Catfish.png|30px|link=Burnt Catfish]]"
+      }
+    },
+    "output": [
+      "Burnt Catfish"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Armoured Catfish"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Armoured Catfish",
+          "link": "Raw Armoured Catfish",
+          "qty": "1",
+          "item": "Raw Armoured Catfish",
+          "image": "[[File:Raw Armoured Catfish.png|30px|link=Raw Armoured Catfish]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Catfish"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Catfish",
+        "link": "Burnt Catfish",
+        "qty": "1",
+        "item": "Burnt Catfish",
+        "image": "[[File:Burnt Catfish.png|30px|link=Burnt Catfish]]"
+      }
+    },
+    "output": [
+      "Burnt Catfish"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Undead Eel"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Undead Eel",
+          "link": "Raw Undead Eel",
+          "qty": "1",
+          "item": "Raw Undead Eel",
+          "image": "[[File:Raw Undead Eel.png|30px|link=Raw Undead Eel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Undead Eel"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Undead Eel",
+        "link": "Burnt Undead Eel",
+        "qty": "1",
+        "item": "Burnt Undead Eel",
+        "image": "[[File:Burnt Undead Eel.png|30px|link=Burnt Undead Eel]]"
+      }
+    },
+    "output": [
+      "Burnt Undead Eel"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Undead Eel"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Undead Eel",
+          "link": "Raw Undead Eel",
+          "qty": "1",
+          "item": "Raw Undead Eel",
+          "image": "[[File:Raw Undead Eel.png|30px|link=Raw Undead Eel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Undead Eel"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Undead Eel",
+        "link": "Burnt Undead Eel",
+        "qty": "1",
+        "item": "Burnt Undead Eel",
+        "image": "[[File:Burnt Undead Eel.png|30px|link=Burnt Undead Eel]]"
+      }
+    },
+    "output": [
+      "Burnt Undead Eel"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Giant Krill"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Giant Krill",
+          "link": "Raw Giant Krill",
+          "qty": "1",
+          "item": "Raw Giant Krill",
+          "image": "[[File:Raw Giant Krill.png|30px|link=Raw Giant Krill]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Giant Krill"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Giant Krill",
+        "link": "Burnt Giant Krill",
+        "qty": "1",
+        "item": "Burnt Giant Krill",
+        "image": "[[File:Burnt Giant Krill.png|30px|link=Burnt Giant Krill]]"
+      }
+    },
+    "output": [
+      "Burnt Giant Krill"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Giant Krill"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Giant Krill",
+          "link": "Raw Giant Krill",
+          "qty": "1",
+          "item": "Raw Giant Krill",
+          "image": "[[File:Raw Giant Krill.png|30px|link=Raw Giant Krill]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Giant Krill"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Giant Krill",
+        "link": "Burnt Giant Krill",
+        "qty": "1",
+        "item": "Burnt Giant Krill",
+        "image": "[[File:Burnt Giant Krill.png|30px|link=Burnt Giant Krill]]"
+      }
+    },
+    "output": [
+      "Burnt Giant Krill"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Salmon"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Salmon",
+          "link": "Raw Salmon",
+          "qty": "1",
+          "item": "Raw Salmon",
+          "image": "[[File:Raw Salmon.png|30px|link=Raw Salmon]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Salmon"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Salmon",
+        "link": "Burnt Salmon",
+        "qty": "1",
+        "item": "Burnt Salmon",
+        "image": "[[File:Burnt Salmon.png|30px|link=Burnt Salmon]]"
+      }
+    },
+    "output": [
+      "Burnt Salmon"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Salmon"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Salmon",
+          "link": "Raw Salmon",
+          "qty": "1",
+          "item": "Raw Salmon",
+          "image": "[[File:Raw Salmon.png|30px|link=Raw Salmon]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Salmon"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Salmon",
+        "link": "Burnt Salmon",
+        "qty": "1",
+        "item": "Burnt Salmon",
+        "image": "[[File:Burnt Salmon.png|30px|link=Burnt Salmon]]"
+      }
+    },
+    "output": [
+      "Burnt Salmon"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Sardine"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Sardine",
+          "link": "Raw Sardine",
+          "qty": "1",
+          "item": "Raw Sardine",
+          "image": "[[File:Raw Sardine.png|30px|link=Raw Sardine]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Sardine"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Sardine",
+        "link": "Burnt Sardine",
+        "qty": "1",
+        "item": "Burnt Sardine",
+        "image": "[[File:Burnt Sardine.png|30px|link=Burnt Sardine]]"
+      }
+    },
+    "output": [
+      "Burnt Sardine"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Sardine"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Sardine",
+          "link": "Raw Sardine",
+          "qty": "1",
+          "item": "Raw Sardine",
+          "image": "[[File:Raw Sardine.png|30px|link=Raw Sardine]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Sardine"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Sardine",
+        "link": "Burnt Sardine",
+        "qty": "1",
+        "item": "Burnt Sardine",
+        "image": "[[File:Burnt Sardine.png|30px|link=Burnt Sardine]]"
+      }
+    },
+    "output": [
+      "Burnt Sardine"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Trout"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Trout",
+          "link": "Raw Trout",
+          "qty": "1",
+          "item": "Raw Trout",
+          "image": "[[File:Raw Trout.png|30px|link=Raw Trout]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Trout"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Trout",
+        "link": "Burnt Trout",
+        "qty": "1",
+        "item": "Burnt Trout",
+        "image": "[[File:Burnt Trout.png|30px|link=Burnt Trout]]"
+      }
+    },
+    "output": [
+      "Burnt Trout"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Trout"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Trout",
+          "link": "Raw Trout",
+          "qty": "1",
+          "item": "Raw Trout",
+          "image": "[[File:Raw Trout.png|30px|link=Raw Trout]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Trout"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Trout",
+        "link": "Burnt Trout",
+        "qty": "1",
+        "item": "Burnt Trout",
+        "image": "[[File:Burnt Trout.png|30px|link=Burnt Trout]]"
+      }
+    },
+    "output": [
+      "Burnt Trout"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Anchovies"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Anchovies",
+          "link": "Raw Anchovies",
+          "qty": "1",
+          "item": "Raw Anchovies",
+          "image": "[[File:Raw Anchovies.png|30px|link=Raw Anchovies]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Anchovies"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Anchovies",
+        "link": "Burnt Anchovies",
+        "qty": "1",
+        "item": "Burnt Anchovies",
+        "image": "[[File:Burnt Anchovies.png|30px|link=Burnt Anchovies]]"
+      }
+    },
+    "output": [
+      "Burnt Anchovies"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Anchovies"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Anchovies",
+          "link": "Raw Anchovies",
+          "qty": "1",
+          "item": "Raw Anchovies",
+          "image": "[[File:Raw Anchovies.png|30px|link=Raw Anchovies]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Anchovies"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Anchovies",
+        "link": "Burnt Anchovies",
+        "qty": "1",
+        "item": "Burnt Anchovies",
+        "image": "[[File:Burnt Anchovies.png|30px|link=Burnt Anchovies]]"
+      }
+    },
+    "output": [
+      "Burnt Anchovies"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Herring"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Herring",
+          "link": "Raw Herring",
+          "qty": "1",
+          "item": "Raw Herring",
+          "image": "[[File:Raw Herring.png|30px|link=Raw Herring]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Herring"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Herring",
+        "link": "Burnt Herring",
+        "qty": "1",
+        "item": "Burnt Herring",
+        "image": "[[File:Burnt Herring.png|30px|link=Burnt Herring]]"
+      }
+    },
+    "output": [
+      "Burnt Herring"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Herring"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Herring",
+          "link": "Raw Herring",
+          "qty": "1",
+          "item": "Raw Herring",
+          "image": "[[File:Raw Herring.png|30px|link=Raw Herring]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Herring"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Herring",
+        "link": "Burnt Herring",
+        "qty": "1",
+        "item": "Burnt Herring",
+        "image": "[[File:Burnt Herring.png|30px|link=Burnt Herring]]"
+      }
+    },
+    "output": [
+      "Burnt Herring"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Infernal Eel"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Infernal Eel",
+          "link": "Raw Infernal Eel",
+          "qty": "1",
+          "item": "Raw Infernal Eel",
+          "image": "[[File:Raw Infernal Eel.png|30px|link=Raw Infernal Eel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Infernal Eel"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Infernal Eel",
+        "link": "Burnt Infernal Eel",
+        "qty": "1",
+        "item": "Burnt Infernal Eel",
+        "image": "[[File:Burnt Infernal Eel.png|30px|link=Burnt Infernal Eel]]"
+      }
+    },
+    "output": [
+      "Burnt Infernal Eel"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Infernal Eel"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Infernal Eel",
+          "link": "Raw Infernal Eel",
+          "qty": "1",
+          "item": "Raw Infernal Eel",
+          "image": "[[File:Raw Infernal Eel.png|30px|link=Raw Infernal Eel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Infernal Eel"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Infernal Eel",
+        "link": "Burnt Infernal Eel",
+        "qty": "1",
+        "item": "Burnt Infernal Eel",
+        "image": "[[File:Burnt Infernal Eel.png|30px|link=Burnt Infernal Eel]]"
+      }
+    },
+    "output": [
+      "Burnt Infernal Eel"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Lobster"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Lobster",
+          "link": "Raw Lobster",
+          "qty": "1",
+          "item": "Raw Lobster",
+          "image": "[[File:Raw Lobster.png|30px|link=Raw Lobster]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Lobster"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Lobster",
+        "link": "Burnt Lobster",
+        "qty": "1",
+        "item": "Burnt Lobster",
+        "image": "[[File:Burnt Lobster.png|30px|link=Burnt Lobster]]"
+      }
+    },
+    "output": [
+      "Burnt Lobster"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Lobster"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Lobster",
+          "link": "Raw Lobster",
+          "qty": "1",
+          "item": "Raw Lobster",
+          "image": "[[File:Raw Lobster.png|30px|link=Raw Lobster]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Lobster"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Lobster",
+        "link": "Burnt Lobster",
+        "qty": "1",
+        "item": "Burnt Lobster",
+        "image": "[[File:Burnt Lobster.png|30px|link=Burnt Lobster]]"
+      }
+    },
+    "output": [
+      "Burnt Lobster"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Shrimp"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Shrimp",
+          "link": "Raw Shrimp",
+          "qty": "1",
+          "item": "Raw Shrimp",
+          "image": "[[File:Raw Shrimp.png|30px|link=Raw Shrimp]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Shrimp"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Shrimp",
+        "link": "Burnt Shrimp",
+        "qty": "1",
+        "item": "Burnt Shrimp",
+        "image": "[[File:Burnt Shrimp.png|30px|link=Burnt Shrimp]]"
+      }
+    },
+    "output": [
+      "Burnt Shrimp"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Shrimp"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Shrimp",
+          "link": "Raw Shrimp",
+          "qty": "1",
+          "item": "Raw Shrimp",
+          "image": "[[File:Raw Shrimp.png|30px|link=Raw Shrimp]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Shrimp"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Shrimp",
+        "link": "Burnt Shrimp",
+        "qty": "1",
+        "item": "Burnt Shrimp",
+        "image": "[[File:Burnt Shrimp.png|30px|link=Burnt Shrimp]]"
+      }
+    },
+    "output": [
+      "Burnt Shrimp"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Undead Bass"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Undead Bass",
+          "link": "Raw Undead Bass",
+          "qty": "1",
+          "item": "Raw Undead Bass",
+          "image": "[[File:Raw Undead Bass.png|30px|link=Raw Undead Bass]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Undead Bass"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Undead Bass",
+        "link": "Burnt Undead Bass",
+        "qty": "1",
+        "item": "Burnt Undead Bass",
+        "image": "[[File:Burnt Undead Bass.png|30px|link=Burnt Undead Bass]]"
+      }
+    },
+    "output": [
+      "Burnt Undead Bass"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Undead Bass"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Undead Bass",
+          "link": "Raw Undead Bass",
+          "qty": "1",
+          "item": "Raw Undead Bass",
+          "image": "[[File:Raw Undead Bass.png|30px|link=Raw Undead Bass]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Undead Bass"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Undead Bass",
+        "link": "Burnt Undead Bass",
+        "qty": "1",
+        "item": "Burnt Undead Bass",
+        "image": "[[File:Burnt Undead Bass.png|30px|link=Burnt Undead Bass]]"
+      }
+    },
+    "output": [
+      "Burnt Undead Bass"
+    ]
+  },
+  {
+    "uses_material": [
+      "Bread"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Bread",
+          "link": "Bread",
+          "qty": "1",
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Bread"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Bread",
+        "link": "Burnt Bread",
+        "qty": "1",
+        "item": "Burnt Bread",
+        "image": "[[File:Burnt Bread.png|30px|link=Burnt Bread]]"
+      }
+    },
+    "output": [
+      "Burnt Bread"
+    ]
+  },
+  {
+    "uses_material": [
+      "Bread"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Bread",
+          "link": "Bread",
+          "qty": "1",
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Bread"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Bread",
+        "link": "Burnt Bread",
+        "qty": "1",
+        "item": "Burnt Bread",
+        "image": "[[File:Burnt Bread.png|30px|link=Burnt Bread]]"
+      }
+    },
+    "output": [
+      "Burnt Bread"
     ]
   }
 ]
