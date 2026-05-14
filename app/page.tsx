@@ -2,7 +2,14 @@ import { FavouriteItemsList } from "@/components/FavouriteItemsList";
 import { SearchBox } from "@/components/SearchBox";
 import { type Metadata } from "next";
 import Link from "next/link";
-import { AnvilIcon, CheckSquareIcon, SearchIcon, StarIcon, TableIcon } from "lucide-react";
+import {
+  AnvilIcon,
+  CheckSquareIcon,
+  ExternalLinkIcon,
+  SearchIcon,
+  StarIcon,
+  TableIcon,
+} from "lucide-react";
 
 export function generateMetadata(): Metadata {
   return {
@@ -66,6 +73,37 @@ export default function Home() {
                 </span>
               </div>
             </Link>
+
+            <div className="grid grid-cols-2 gap-2">
+              <Link
+                href="https://dragonwilds.runescape.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 rounded-md border border-border bg-background px-4 py-3 text-sm hover:bg-card/50 transition-colors"
+              >
+                <ExternalLinkIcon className="size-4 text-muted-foreground shrink-0" />
+                <div>
+                  <span className="font-medium">Official site</span>
+                  <span className="block text-xs text-muted-foreground">
+                    Visit the official Dragonwilds website
+                  </span>
+                </div>
+              </Link>
+              <Link
+                href="https://dragonwilds.runescape.wiki/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 rounded-md border border-border bg-background px-4 py-3 text-sm hover:bg-card/50 transition-colors"
+              >
+                <ExternalLinkIcon className="size-4 text-muted-foreground shrink-0" />
+                <div>
+                  <span className="font-medium">Wiki</span>
+                  <span className="block text-xs text-muted-foreground">
+                    Visit the Dragonwilds wiki for detailed information
+                  </span>
+                </div>
+              </Link>
+            </div>
           </section>
 
           {/* Favourites */}
