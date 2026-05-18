@@ -30247,7 +30247,60 @@
         "link": "Wall-mounted Torch",
         "qty": 1,
         "item": "Wall-mounted Torch",
-        "image": "[[File:Wall-mounted Torch.png|30px|link=Wall-mounted Torch]]"
+        "image": "[[File:Wall-mounted Torch (Normal).png|30px|link=Wall-mounted Torch]]"
+      }
+    },
+    "output": [
+      "Wall-mounted Torch"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs",
+      "Coarse Animal Fur"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "1",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "1",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Wall-mounted Torch"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Wall-mounted Torch",
+        "link": "Wall-mounted Torch",
+        "qty": 1,
+        "item": "Wall-mounted Torch",
+        "image": "[[File:Wall-mounted Torch (Fellhollow).png|30px|link=Wall-mounted Torch]]"
       }
     },
     "output": [
@@ -30810,7 +30863,60 @@
         "link": "Standing Torch",
         "qty": 1,
         "item": "Standing Torch",
-        "image": "[[File:Standing Torch.png|30px|link=Standing Torch]]"
+        "image": "[[File:Standing Torch (Normal).png|30px|link=Standing Torch]]"
+      }
+    },
+    "output": [
+      "Standing Torch"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Scraps",
+      "Soft Animal Fur"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Soft Animal Fur",
+          "link": "Soft Animal Fur",
+          "qty": "2",
+          "item": "Soft Animal Fur",
+          "image": "[[File:Soft Animal Fur.png|30px|link=Soft Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Standing Torch"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Standing Torch",
+        "link": "Standing Torch",
+        "qty": 1,
+        "item": "Standing Torch",
+        "image": "[[File:Standing Torch (Dowdun Reach).png|30px|link=Standing Torch]]"
       }
     },
     "output": [
@@ -61418,6 +61524,1260 @@
     },
     "output": [
       "Burnt Bread"
+    ]
+  },
+  {
+    "uses_material": [
+      "Willow Logs",
+      "Black Metal Scraps",
+      "Swamp Tar"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "3",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Swamp Tar",
+          "link": "Swamp Tar",
+          "qty": "2",
+          "item": "Swamp Tar",
+          "image": "[[File:Swamp Tar.png|30px|link=Swamp Tar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Chandelier"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Chandelier",
+        "link": "Chandelier",
+        "qty": 1,
+        "item": "Chandelier",
+        "image": "[[File:Chandelier.png|30px|link=Chandelier]]"
+      }
+    },
+    "output": [
+      "Chandelier"
+    ]
+  },
+  {
+    "uses_material": [
+      "Willow Logs",
+      "Black Metal Scraps",
+      "Swamp Tar"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "3",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Swamp Tar",
+          "link": "Swamp Tar",
+          "qty": "2",
+          "item": "Swamp Tar",
+          "image": "[[File:Swamp Tar.png|30px|link=Swamp Tar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Blue Chandelier"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Blue Chandelier",
+        "link": "Blue Chandelier",
+        "qty": 1,
+        "item": "Blue Chandelier",
+        "image": "[[File:Blue Chandelier.png|30px|link=Blue Chandelier]]"
+      }
+    },
+    "output": [
+      "Blue Chandelier"
+    ]
+  },
+  {
+    "uses_material": [
+      "Willow Logs",
+      "Black Metal Scraps",
+      "Swamp Tar"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "3",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Swamp Tar",
+          "link": "Swamp Tar",
+          "qty": "2",
+          "item": "Swamp Tar",
+          "image": "[[File:Swamp Tar.png|30px|link=Swamp Tar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Red Chandelier"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Red Chandelier",
+        "link": "Red Chandelier",
+        "qty": 1,
+        "item": "Red Chandelier",
+        "image": "[[File:Red Chandelier.png|30px|link=Red Chandelier]]"
+      }
+    },
+    "output": [
+      "Red Chandelier"
+    ]
+  },
+  {
+    "uses_material": [
+      "Willow Logs",
+      "Black Metal Scraps",
+      "Swamp Tar"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "3",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Swamp Tar",
+          "link": "Swamp Tar",
+          "qty": "2",
+          "item": "Swamp Tar",
+          "image": "[[File:Swamp Tar.png|30px|link=Swamp Tar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Purple Chandelier"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Purple Chandelier",
+        "link": "Purple Chandelier",
+        "qty": 1,
+        "item": "Purple Chandelier",
+        "image": "[[File:Purple Chandelier.png|30px|link=Purple Chandelier]]"
+      }
+    },
+    "output": [
+      "Purple Chandelier"
+    ]
+  },
+  {
+    "uses_material": [
+      "Willow Logs",
+      "Black Metal Scraps",
+      "Swamp Tar"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "3",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Swamp Tar",
+          "link": "Swamp Tar",
+          "qty": "2",
+          "item": "Swamp Tar",
+          "image": "[[File:Swamp Tar.png|30px|link=Swamp Tar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Green Chandelier"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Green Chandelier",
+        "link": "Green Chandelier",
+        "qty": 1,
+        "item": "Green Chandelier",
+        "image": "[[File:Green Chandelier.png|30px|link=Green Chandelier]]"
+      }
+    },
+    "output": [
+      "Green Chandelier"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Scraps",
+      "Coarse Animal Fur"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "2",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Blue Standing Torch (Dowdun Reach)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Blue Standing Torch (Dowdun Reach)",
+        "link": "Blue Standing Torch (Dowdun Reach)",
+        "qty": 1,
+        "item": "Blue Standing Torch (Dowdun Reach)",
+        "image": "[[File:Blue Standing Torch (Dowdun Reach).png|30px|link=Blue Standing Torch (Dowdun Reach)]]"
+      }
+    },
+    "output": [
+      "Blue Standing Torch (Dowdun Reach)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Scraps",
+      "Coarse Animal Fur"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "2",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Red Standing Torch (Dowdun Reach)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Red Standing Torch (Dowdun Reach)",
+        "link": "Red Standing Torch (Dowdun Reach)",
+        "qty": 1,
+        "item": "Red Standing Torch (Dowdun Reach)",
+        "image": "[[File:Red Standing Torch (Dowdun Reach).png|30px|link=Red Standing Torch (Dowdun Reach)]]"
+      }
+    },
+    "output": [
+      "Red Standing Torch (Dowdun Reach)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Scraps",
+      "Coarse Animal Fur"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "2",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Green Standing Torch (Dowdun Reach)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Green Standing Torch (Dowdun Reach)",
+        "link": "Green Standing Torch (Dowdun Reach)",
+        "qty": 1,
+        "item": "Green Standing Torch (Dowdun Reach)",
+        "image": "[[File:Green Standing Torch (Dowdun Reach).png|30px|link=Green Standing Torch (Dowdun Reach)]]"
+      }
+    },
+    "output": [
+      "Green Standing Torch (Dowdun Reach)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Scraps",
+      "Coarse Animal Fur"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "2",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Purple Standing Torch (Dowdun Reach)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Purple Standing Torch (Dowdun Reach)",
+        "link": "Purple Standing Torch (Dowdun Reach)",
+        "qty": 1,
+        "item": "Purple Standing Torch (Dowdun Reach)",
+        "image": "[[File:Purple Standing Torch (Dowdun Reach).png|30px|link=Purple Standing Torch (Dowdun Reach)]]"
+      }
+    },
+    "output": [
+      "Purple Standing Torch (Dowdun Reach)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Scraps",
+      "Coarse Animal Fur"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "1",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "2",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Blue Wall-mounted Torch (Dowdun Reach)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Blue Wall-mounted Torch (Dowdun Reach)",
+        "link": "Blue Wall-mounted Torch (Dowdun Reach)",
+        "qty": 1,
+        "item": "Blue Wall-mounted Torch (Dowdun Reach)",
+        "image": "[[File:Blue Wall-mounted Torch (Dowdun Reach).png|30px|link=Blue Wall-mounted Torch (Dowdun Reach)]]"
+      }
+    },
+    "output": [
+      "Blue Wall-mounted Torch (Dowdun Reach)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Scraps",
+      "Coarse Animal Fur"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "1",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "2",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Red Wall-mounted Torch (Dowdun Reach)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Red Wall-mounted Torch (Dowdun Reach)",
+        "link": "Red Wall-mounted Torch (Dowdun Reach)",
+        "qty": 1,
+        "item": "Red Wall-mounted Torch (Dowdun Reach)",
+        "image": "[[File:Red Wall-mounted Torch (Dowdun Reach).png|30px|link=Red Wall-mounted Torch (Dowdun Reach)]]"
+      }
+    },
+    "output": [
+      "Red Wall-mounted Torch (Dowdun Reach)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Scraps",
+      "Coarse Animal Fur"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "1",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "2",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Purple Wall-mounted Torch (Dowdun Reach)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Purple Wall-mounted Torch (Dowdun Reach)",
+        "link": "Purple Wall-mounted Torch (Dowdun Reach)",
+        "qty": 1,
+        "item": "Purple Wall-mounted Torch (Dowdun Reach)",
+        "image": "[[File:Purple Wall-mounted Torch (Dowdun Reach).png|30px|link=Purple Wall-mounted Torch (Dowdun Reach)]]"
+      }
+    },
+    "output": [
+      "Purple Wall-mounted Torch (Dowdun Reach)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Metal Scraps",
+      "Coarse Animal Fur"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "1",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "2",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "3"
+        }
+      ],
+      "outputs": [
+        "Green Wall-mounted Torch (Dowdun Reach)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Green Wall-mounted Torch (Dowdun Reach)",
+        "link": "Green Wall-mounted Torch (Dowdun Reach)",
+        "qty": 1,
+        "item": "Green Wall-mounted Torch (Dowdun Reach)",
+        "image": "[[File:Green Wall-mounted Torch (Dowdun Reach).png|30px|link=Green Wall-mounted Torch (Dowdun Reach)]]"
+      }
+    },
+    "output": [
+      "Green Wall-mounted Torch (Dowdun Reach)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs",
+      "Tin Ore",
+      "Leather"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "5",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Tin Ore",
+          "link": "Tin Ore",
+          "qty": "3",
+          "item": "Tin Ore",
+          "image": "[[File:Tin Ore.png|30px|link=Tin Ore]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Leather",
+          "link": "Leather",
+          "qty": "2",
+          "item": "Leather",
+          "image": "[[File:Leather.png|30px|link=Leather]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Hanging Tools"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Hanging Tools",
+        "link": "Hanging Tools",
+        "qty": 1,
+        "item": "Hanging Tools",
+        "image": "[[File:Hanging Tools.png|30px|link=Hanging Tools]]"
+      }
+    },
+    "output": [
+      "Hanging Tools"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs",
+      "Clay"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "5",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Clay",
+          "link": "Clay",
+          "qty": "3",
+          "item": "Clay",
+          "image": "[[File:Clay.png|30px|link=Clay]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pots on a Bench"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pots on a Bench",
+        "link": "Pots on a Bench",
+        "qty": 1,
+        "item": "Pots on a Bench",
+        "image": "[[File:Pots on a Bench.png|30px|link=Pots on a Bench]]"
+      }
+    },
+    "output": [
+      "Pots on a Bench"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs",
+      "Tin Ore"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Tin Ore",
+          "link": "Tin Ore",
+          "qty": "2",
+          "item": "Tin Ore",
+          "image": "[[File:Tin Ore.png|30px|link=Tin Ore]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Sawhorse"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Sawhorse",
+        "link": "Sawhorse",
+        "qty": 1,
+        "item": "Sawhorse",
+        "image": "[[File:Sawhorse.png|30px|link=Sawhorse]]"
+      }
+    },
+    "output": [
+      "Sawhorse"
+    ]
+  },
+  {
+    "uses_material": [
+      "Wild Anima"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": 1,
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Wild Anima (Decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Wild Anima (Decoration)",
+        "link": "Wild Anima (Decoration)",
+        "qty": 1,
+        "item": "Wild Anima (Decoration)",
+        "image": "[[File:Wild Anima (Decoration).png|30px|link=Wild Anima (Decoration)]]"
+      }
+    },
+    "output": [
+      "Wild Anima (Decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Air Rune"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Air Rune",
+          "link": "Air Rune",
+          "qty": 1,
+          "item": "Air Rune",
+          "image": "[[File:Air Rune.png|30px|link=Air Rune]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "1"
+        }
+      ],
+      "outputs": [
+        "Air Rune (Decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Air Rune (Decoration)",
+        "link": "Air Rune (Decoration)",
+        "qty": 1,
+        "item": "Air Rune (Decoration)",
+        "image": "[[File:Air Rune (Decoration).png|30px|link=Air Rune (Decoration)]]"
+      }
+    },
+    "output": [
+      "Air Rune (Decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Water Rune"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Water Rune",
+          "link": "Water Rune",
+          "qty": 1,
+          "item": "Water Rune",
+          "image": "[[File:Water Rune.png|30px|link=Water Rune]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "1"
+        }
+      ],
+      "outputs": [
+        "Water Rune (Decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Water Rune (Decoration)",
+        "link": "Water Rune (Decoration)",
+        "qty": 1,
+        "item": "Water Rune (Decoration)",
+        "image": "[[File:Water Rune (Decoration).png|30px|link=Water Rune (Decoration)]]"
+      }
+    },
+    "output": [
+      "Water Rune (Decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Astral Rune"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Astral Rune",
+          "link": "Astral Rune",
+          "qty": 1,
+          "item": "Astral Rune",
+          "image": "[[File:Astral Rune.png|30px|link=Astral Rune]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "1"
+        }
+      ],
+      "outputs": [
+        "Astral Rune (Decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Astral Rune (Decoration)",
+        "link": "Astral Rune (Decoration)",
+        "qty": 1,
+        "item": "Astral Rune (Decoration)",
+        "image": "[[File:Astral Rune (Decoration).png|30px|link=Astral Rune (Decoration)]]"
+      }
+    },
+    "output": [
+      "Astral Rune (Decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Earth Rune"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Earth Rune",
+          "link": "Earth Rune",
+          "qty": 1,
+          "item": "Earth Rune",
+          "image": "[[File:Earth Rune.png|30px|link=Earth Rune]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "1"
+        }
+      ],
+      "outputs": [
+        "Earth Rune (Decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Earth Rune (Decoration)",
+        "link": "Earth Rune (Decoration)",
+        "qty": 1,
+        "item": "Earth Rune (Decoration)",
+        "image": "[[File:Earth Rune (Decoration).png|30px|link=Earth Rune (Decoration)]]"
+      }
+    },
+    "output": [
+      "Earth Rune (Decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fire Rune"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Fire Rune",
+          "link": "Fire Rune",
+          "qty": 1,
+          "item": "Fire Rune",
+          "image": "[[File:Fire Rune.png|30px|link=Fire Rune]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "1"
+        }
+      ],
+      "outputs": [
+        "Fire Rune (Decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Fire Rune (Decoration)",
+        "link": "Fire Rune (Decoration)",
+        "qty": 1,
+        "item": "Fire Rune (Decoration)",
+        "image": "[[File:Fire Rune (Decoration).png|30px|link=Fire Rune (Decoration)]]"
+      }
+    },
+    "output": [
+      "Fire Rune (Decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Nature Rune"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Nature Rune",
+          "link": "Nature Rune",
+          "qty": 1,
+          "item": "Nature Rune",
+          "image": "[[File:Nature Rune.png|30px|link=Nature Rune]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "1"
+        }
+      ],
+      "outputs": [
+        "Nature Rune (Decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Nature Rune (Decoration)",
+        "link": "Nature Rune (Decoration)",
+        "qty": 1,
+        "item": "Nature Rune (Decoration)",
+        "image": "[[File:Nature Rune (Decoration).png|30px|link=Nature Rune (Decoration)]]"
+      }
+    },
+    "output": [
+      "Nature Rune (Decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Law Rune"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Law Rune",
+          "link": "Law Rune",
+          "qty": 1,
+          "item": "Law Rune",
+          "image": "[[File:Law Rune.png|30px|link=Law Rune]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "1"
+        }
+      ],
+      "outputs": [
+        "Law Rune (Decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Law Rune (Decoration)",
+        "link": "Law Rune (Decoration)",
+        "qty": 1,
+        "item": "Law Rune (Decoration)",
+        "image": "[[File:Law Rune (Decoration).png|30px|link=Law Rune (Decoration)]]"
+      }
+    },
+    "output": [
+      "Law Rune (Decoration)"
     ]
   }
 ]
