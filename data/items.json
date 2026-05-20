@@ -40249,6 +40249,52 @@
     "wikiLink": "Law_Rune_(Decoration)"
   },
   {
+    "id": "8f19fbe4a62f",
+    "name": "Ravanna's Ring",
+    "image": "Ravanna's Ring.png",
+    "variants": [
+      {
+        "id": "1cc3ac2daf64",
+        "name": "Ravanna's Ring",
+        "image": "Ravanna's Ring.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6bd150c52742",
+          "facility": "Jeweler's Bench",
+          "materials": [
+            {
+              "itemId": "604b383a6ff3",
+              "quantity": 1
+            },
+            {
+              "itemId": "7ad3201eccae",
+              "quantity": 2
+            },
+            {
+              "itemId": "9788d67f4f47",
+              "quantity": 2
+            },
+            {
+              "itemId": "9ca5b1c17952",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Jeweler's Bench"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
+    ],
+    "wikiLink": "Ravanna's_Ring",
+    "weight": 1,
+    "stackLimit": 1
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
