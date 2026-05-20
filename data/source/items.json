@@ -17763,5 +17763,23 @@
     },
     "item_weight": 1,
     "page_name_sub": "Burnt Bread"
+  },
+  {
+    "page_name": "Ravanna's Ring",
+    "item_description": "",
+    "item_name": "Ravanna's Ring",
+    "item_type": "Trinket",
+    "item_stacklimit": 1,
+    "json": {
+      "type": "Trinket",
+      "description": "",
+      "image": "[[File:Ravanna's Ring.png|32px]]",
+      "name": "Ravanna's Ring",
+      "weight": "1.0",
+      "stacklimit": "1",
+      "image_raw": "Ravanna's Ring.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Ravanna's Ring"
   }
 ]

@@ -62779,5 +62779,76 @@
     "output": [
       "Law Rune (Decoration)"
     ]
+  },
+  {
+    "uses_material": [
+      "Vault Shard",
+      "Clay Mould",
+      "Silver Bar",
+      "Red Topaz"
+    ],
+    "uses_skill": [
+      "Jeweler's Bench"
+    ],
+    "uses_facility": [
+      "Jeweler's Bench"
+    ],
+    "json": {
+      "facility": "Jeweler's Bench",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "3",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Silver Bar",
+          "link": "Silver Bar",
+          "qty": "2",
+          "item": "Silver Bar",
+          "image": "[[File:Silver Bar.png|30px|link=Silver Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Red Topaz",
+          "link": "Red Topaz",
+          "qty": "2",
+          "item": "Red Topaz",
+          "image": "[[File:Red Topaz.png|30px|link=Red Topaz]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Jeweler's Bench",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Ravanna's Ring"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ravanna's Ring",
+        "link": "Ravanna's Ring",
+        "qty": "1",
+        "item": "Ravanna's Ring",
+        "image": "[[File:Ravanna's Ring.png|30px|link=Ravanna's Ring]]"
+      }
+    },
+    "output": [
+      "Ravanna's Ring"
+    ]
   }
 ]
