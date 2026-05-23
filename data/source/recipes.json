@@ -2336,17 +2336,17 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "16-25"
+          "experience": "25"
         }
       ],
       "outputs": [
         "Law Rune"
       ],
       "output": {
-        "quantity": "4-10",
+        "quantity": "10",
         "name": "Law Rune",
         "link": "Law Rune",
-        "qty": "4-10",
+        "qty": "10",
         "item": "Law Rune",
         "image": "[[File:Law Rune.png|30px|link=Law Rune]]"
       }
@@ -3007,17 +3007,17 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "2-3"
+          "experience": "2.5"
         }
       ],
       "outputs": [
         "Astral Rune"
       ],
       "output": {
-        "quantity": "4-10",
+        "quantity": "10",
         "name": "Astral Rune",
         "link": "Astral Rune",
-        "qty": "4-10",
+        "qty": "10",
         "item": "Astral Rune",
         "image": "[[File:Astral Rune.png|30px|link=Astral Rune]]"
       }
@@ -3051,17 +3051,17 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "5-8"
+          "experience": "7.5"
         }
       ],
       "outputs": [
         "Earth Rune"
       ],
       "output": {
-        "quantity": "4-10",
+        "quantity": "10",
         "name": "Earth Rune",
         "link": "Earth Rune",
-        "qty": "4-10",
+        "qty": "10",
         "item": "Earth Rune",
         "image": "[[File:Earth Rune.png|30px|link=Earth Rune]]"
       }
@@ -3095,17 +3095,17 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "7-10"
+          "experience": "10"
         }
       ],
       "outputs": [
         "Fire Rune"
       ],
       "output": {
-        "quantity": "4-10",
+        "quantity": "10",
         "name": "Fire Rune",
         "link": "Fire Rune",
-        "qty": "4-10",
+        "qty": "10",
         "item": "Fire Rune",
         "image": "[[File:Fire Rune.png|30px|link=Fire Rune]]"
       }
@@ -3139,17 +3139,17 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "8-13"
+          "experience": "12.5"
         }
       ],
       "outputs": [
         "Nature Rune"
       ],
       "output": {
-        "quantity": "4-10",
+        "quantity": "10",
         "name": "Nature Rune",
         "link": "Nature Rune",
-        "qty": "4-10",
+        "qty": "10",
         "item": "Nature Rune",
         "image": "[[File:Nature Rune.png|30px|link=Nature Rune]]"
       }
@@ -5799,17 +5799,17 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "2-3"
+          "experience": "2.5"
         }
       ],
       "outputs": [
         "Air Rune"
       ],
       "output": {
-        "quantity": "4-10",
+        "quantity": "10",
         "name": "Air Rune",
         "link": "Air Rune",
-        "qty": "4-10",
+        "qty": "10",
         "item": "Air Rune",
         "image": "[[File:Air Rune.png|30px|link=Air Rune]]"
       }
@@ -7038,17 +7038,17 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "4-5"
+          "experience": "5"
         }
       ],
       "outputs": [
         "Water Rune"
       ],
       "output": {
-        "quantity": "4-10",
+        "quantity": "10",
         "name": "Water Rune",
         "link": "Water Rune",
-        "qty": "4-10",
+        "qty": "10",
         "item": "Water Rune",
         "image": "[[File:Water Rune.png|30px|link=Water Rune]]"
       }
