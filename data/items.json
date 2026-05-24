@@ -29893,7 +29893,7 @@
     ],
     "wikiLink": "Glass_Vessel",
     "weight": 1,
-    "stackLimit": 50
+    "stackLimit": 20
   },
   {
     "id": "08c1ff83864e",
@@ -38593,13 +38593,13 @@
     "image": "Glass Decoration.png",
     "variants": [
       {
-        "id": "24d80b95352b",
+        "id": "fbf6f17af3f0",
         "name": "Glass Decoration",
         "image": "Glass Decoration.png",
         "variantName": null,
         "recipe": {
-          "id": "98554e5b5a2f",
-          "facility": "Pottery Wheel",
+          "id": "0a14a0ca62b2",
+          "facility": "Jeweler's Bench",
           "materials": [
             {
               "itemId": "396ffa28eb6c",
@@ -38615,7 +38615,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Pottery Wheel"
+      "Jeweler's Bench"
     ],
     "wikiLink": "Glass_Decoration",
     "weight": 0.1,
@@ -40285,7 +40285,7 @@
       }
     ],
     "skills": [
-      "Jeweler's Bench"
+      "Artisan"
     ],
     "facilities": [
       "Jeweler's Bench"
@@ -40293,6 +40293,470 @@
     "wikiLink": "Ravanna's_Ring",
     "weight": 1,
     "stackLimit": 1
+  },
+  {
+    "id": "3a5364b82c10",
+    "name": "Barricade",
+    "image": "Barricade.png",
+    "variants": [
+      {
+        "id": "fed962162316",
+        "name": "Barricade",
+        "image": "Barricade.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1056644c5e68",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 1
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Barricade"
+  },
+  {
+    "id": "87f8570d9246",
+    "name": "Barricade End",
+    "image": "Barricade End.png",
+    "variants": [
+      {
+        "id": "fed962162316",
+        "name": "Barricade End",
+        "image": "Barricade End.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1056644c5e68",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 1
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Barricade_End"
+  },
+  {
+    "id": "545c415a0d1f",
+    "name": "Stained Glass Window Wall",
+    "image": "Stained Glass Window Wall.png",
+    "variants": [
+      {
+        "id": "68bf9f23b3a3",
+        "name": "Stained Glass Window Wall",
+        "image": "Stained Glass Window Wall.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7b4f6ec449ea",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "c078da8a16a2",
+              "quantity": 2
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Stained_Glass_Window_Wall"
+  },
+  {
+    "id": "5f02dd4f17fb",
+    "name": "Arched Window Wall",
+    "image": "Arched Window Wall.png",
+    "variants": [
+      {
+        "id": "88527e346987",
+        "name": "Arched Window Wall",
+        "image": "Arched Window Wall.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e0466e5f7466",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 2
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Arched_Window_Wall"
+  },
+  {
+    "id": "a1eec43aaea8",
+    "name": "Stone Inset Window Wall",
+    "image": "Stone Inset Window Wall.png",
+    "variants": [
+      {
+        "id": "107c5da561d7",
+        "name": "Stone Inset Window Wall",
+        "image": "Stone Inset Window Wall.png",
+        "variantName": null,
+        "recipe": {
+          "id": "22233cd37cd9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Stone_Inset_Window_Wall"
+  },
+  {
+    "id": "d1ea50bb6bb2",
+    "name": "Tall Slit Wall",
+    "image": "Tall Slit Wall.png",
+    "variants": [
+      {
+        "id": "88527e346987",
+        "name": "Tall Slit Wall",
+        "image": "Tall Slit Wall.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e0466e5f7466",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 2
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Tall_Slit_Wall"
+  },
+  {
+    "id": "7281904bd3a7",
+    "name": "Dual Tall Slit Wall",
+    "image": "Dual Tall Slit Wall.png",
+    "variants": [
+      {
+        "id": "88527e346987",
+        "name": "Dual Tall Slit Wall",
+        "image": "Dual Tall Slit Wall.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e0466e5f7466",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 2
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Dual_Tall_Slit_Wall"
+  },
+  {
+    "id": "92fd7dbde481",
+    "name": "Cross Slit Wall",
+    "image": "Cross Slit Wall.png",
+    "variants": [
+      {
+        "id": "88527e346987",
+        "name": "Cross Slit Wall",
+        "image": "Cross Slit Wall.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e0466e5f7466",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 2
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Cross_Slit_Wall"
+  },
+  {
+    "id": "2134bffed934",
+    "name": "Narrow Stained Glass Window Wall",
+    "image": "Narrow Stained Glass Window Wall.png",
+    "variants": [
+      {
+        "id": "68bf9f23b3a3",
+        "name": "Narrow Stained Glass Window Wall",
+        "image": "Narrow Stained Glass Window Wall.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7b4f6ec449ea",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "c078da8a16a2",
+              "quantity": 2
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Narrow_Stained_Glass_Window_Wall"
+  },
+  {
+    "id": "130c35496661",
+    "name": "Narrow Arched Window Wall",
+    "image": "Narrow Arched Window Wall.png",
+    "variants": [
+      {
+        "id": "88527e346987",
+        "name": "Narrow Arched Window Wall",
+        "image": "Narrow Arched Window Wall.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e0466e5f7466",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 2
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Narrow_Arched_Window_Wall"
+  },
+  {
+    "id": "b0b122213f31",
+    "name": "Narrow Stone Inset Window Wall",
+    "image": "Narrow Stone Inset Window Wall.png",
+    "variants": [
+      {
+        "id": "88527e346987",
+        "name": "Narrow Stone Inset Window Wall",
+        "image": "Narrow Stone Inset Window Wall.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e0466e5f7466",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 2
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Narrow_Stone_Inset_Window_Wall"
+  },
+  {
+    "id": "ae54a9667bf5",
+    "name": "Narrow Tall Slit Wall",
+    "image": "Narrow Tall Slit Wall.png",
+    "variants": [
+      {
+        "id": "88527e346987",
+        "name": "Narrow Tall Slit Wall",
+        "image": "Narrow Tall Slit Wall.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e0466e5f7466",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 2
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Narrow_Tall_Slit_Wall"
+  },
+  {
+    "id": "5ae13cb5e7fa",
+    "name": "Narrow Cross Slit Wall",
+    "image": "Narrow Cross Slit Wall.png",
+    "variants": [
+      {
+        "id": "88527e346987",
+        "name": "Narrow Cross Slit Wall",
+        "image": "Narrow Cross Slit Wall.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e0466e5f7466",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 2
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Narrow_Cross_Slit_Wall"
   },
   {
     "id": "6a5fa59fd28f",

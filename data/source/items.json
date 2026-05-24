@@ -671,7 +671,7 @@
       "description": "A mysterious porous rock used as a base for powerful runes.",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
-      "weight": "0.2'\"`UNIQ--ref-00000002-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
       "stacklimit": "99",
       "image_raw": "Rune Essence.png"
     },
@@ -11767,17 +11767,17 @@
   {
     "page_name": "Glass Vessel",
     "item_description": "A glass item made by glassblowing.",
-    "item_name": "Glass  Vessel",
+    "item_name": "Glass Vessel",
     "item_type": "Component",
-    "item_stacklimit": 50,
+    "item_stacklimit": 20,
     "json": {
       "type": "Component",
       "description": "A glass item made by glassblowing.",
-      "image": "[[File:Glass  Vessel.png|32px]]",
-      "name": "Glass  Vessel",
+      "image": "[[File:Glass Vessel.png|32px]]",
+      "name": "Glass Vessel",
       "weight": "1.0",
-      "stacklimit": "50",
-      "image_raw": "Glass  Vessel.png"
+      "stacklimit": "20",
+      "image_raw": "Glass Vessel.png"
     },
     "item_weight": 1,
     "page_name_sub": "Glass Vessel"
@@ -17766,13 +17766,13 @@
   },
   {
     "page_name": "Ravanna's Ring",
-    "item_description": "",
+    "item_description": "This item loses durability over time when equipped.",
     "item_name": "Ravanna's Ring",
     "item_type": "Trinket",
     "item_stacklimit": 1,
     "json": {
       "type": "Trinket",
-      "description": "",
+      "description": "This item loses durability over time when equipped.",
       "image": "[[File:Ravanna's Ring.png|32px]]",
       "name": "Ravanna's Ring",
       "weight": "1.0",
