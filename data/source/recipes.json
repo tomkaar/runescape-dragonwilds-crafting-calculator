@@ -47241,7 +47241,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0.5"
         }
       ],
       "outputs": [
@@ -60222,16 +60222,16 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Pottery Wheel"
+      "Jeweler's Bench"
     ],
     "json": {
-      "facility": "Pottery Wheel",
+      "facility": "Jeweler's Bench",
       "materials": [
         {
-          "quantity": "",
+          "quantity": "1",
           "name": "Molten Glass",
           "link": "Molten Glass",
-          "qty": "",
+          "qty": "1",
           "item": "Molten Glass",
           "image": "[[File:Molten Glass.png|30px|link=Molten Glass]]"
         }
@@ -60239,7 +60239,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -62782,13 +62782,13 @@
   },
   {
     "uses_material": [
-      "Vault Shard",
       "Clay Mould",
       "Silver Bar",
-      "Red Topaz"
+      "Red Topaz",
+      "Vault Shard"
     ],
     "uses_skill": [
-      "Jeweler's Bench"
+      "Artisan"
     ],
     "uses_facility": [
       "Jeweler's Bench"
@@ -62796,14 +62796,6 @@
     "json": {
       "facility": "Jeweler's Bench",
       "materials": [
-        {
-          "quantity": "3",
-          "name": "Vault Shard",
-          "link": "Vault Shard",
-          "qty": "3",
-          "item": "Vault Shard",
-          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
-        },
         {
           "quantity": "1",
           "name": "Clay Mould",
@@ -62827,12 +62819,20 @@
           "qty": "2",
           "item": "Red Topaz",
           "image": "[[File:Red Topaz.png|30px|link=Red Topaz]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "3",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
         }
       ],
       "skills": [
         {
-          "name": "Jeweler's Bench",
-          "experience": "?"
+          "name": "Artisan",
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -62849,6 +62849,686 @@
     },
     "output": [
       "Ravanna's Ring"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block",
+      "Black Metal Scraps"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "3",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": 1,
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Barricade"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Barricade",
+        "link": "Barricade",
+        "qty": "1",
+        "item": "Barricade",
+        "image": "[[File:Barricade.png|30px|link=Barricade]]"
+      }
+    },
+    "output": [
+      "Barricade"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block",
+      "Black Metal Scraps"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "3",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": 1,
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Barricade End"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Barricade End",
+        "link": "Barricade End",
+        "qty": "1",
+        "item": "Barricade End",
+        "image": "[[File:Barricade End.png|30px|link=Barricade End]]"
+      }
+    },
+    "output": [
+      "Barricade End"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block",
+      "Glass Pane"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Glass Pane",
+          "link": "Glass Pane",
+          "qty": "2",
+          "item": "Glass Pane",
+          "image": "[[File:Glass Pane.png|30px|link=Glass Pane]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Stained Glass Window Wall"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Stained Glass Window Wall",
+        "link": "Stained Glass Window Wall",
+        "qty": "1",
+        "item": "Stained Glass Window Wall",
+        "image": "[[File:Stained Glass Window Wall.png|30px|link=Stained Glass Window Wall]]"
+      }
+    },
+    "output": [
+      "Stained Glass Window Wall"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block",
+      "Black Metal Scraps"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Arched Window Wall"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Arched Window Wall",
+        "link": "Arched Window Wall",
+        "qty": "1",
+        "item": "Arched Window Wall",
+        "image": "[[File:Arched Window Wall.png|30px|link=Arched Window Wall]]"
+      }
+    },
+    "output": [
+      "Arched Window Wall"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Stone Inset Window Wall"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Stone Inset Window Wall",
+        "link": "Stone Inset Window Wall",
+        "qty": "1",
+        "item": "Stone Inset Window Wall",
+        "image": "[[File:Stone Inset Window Wall.png|30px|link=Stone Inset Window Wall]]"
+      }
+    },
+    "output": [
+      "Stone Inset Window Wall"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block",
+      "Black Metal Scraps"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Tall Slit Wall"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Tall Slit Wall",
+        "link": "Tall Slit Wall",
+        "qty": "1",
+        "item": "Tall Slit Wall",
+        "image": "[[File:Tall Slit Wall.png|30px|link=Tall Slit Wall]]"
+      }
+    },
+    "output": [
+      "Tall Slit Wall"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block",
+      "Black Metal Scraps"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Dual Tall Slit Wall"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dual Tall Slit Wall",
+        "link": "Dual Tall Slit Wall",
+        "qty": "1",
+        "item": "Dual Tall Slit Wall",
+        "image": "[[File:Dual Tall Slit Wall.png|30px|link=Dual Tall Slit Wall]]"
+      }
+    },
+    "output": [
+      "Dual Tall Slit Wall"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block",
+      "Black Metal Scraps"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Cross Slit Wall"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Cross Slit Wall",
+        "link": "Cross Slit Wall",
+        "qty": "1",
+        "item": "Cross Slit Wall",
+        "image": "[[File:Cross Slit Wall.png|30px|link=Cross Slit Wall]]"
+      }
+    },
+    "output": [
+      "Cross Slit Wall"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block",
+      "Glass Pane"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Glass Pane",
+          "link": "Glass Pane",
+          "qty": "2",
+          "item": "Glass Pane",
+          "image": "[[File:Glass Pane.png|30px|link=Glass Pane]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Narrow Stained Glass Window Wall"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Narrow Stained Glass Window Wall",
+        "link": "Narrow Stained Glass Window Wall",
+        "qty": "1",
+        "item": "Narrow Stained Glass Window Wall",
+        "image": "[[File:Narrow Stained Glass Window Wall.png|30px|link=Narrow Stained Glass Window Wall]]"
+      }
+    },
+    "output": [
+      "Narrow Stained Glass Window Wall"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block",
+      "Black Metal Scraps"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Narrow Arched Window Wall"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Narrow Arched Window Wall",
+        "link": "Narrow Arched Window Wall",
+        "qty": "1",
+        "item": "Narrow Arched Window Wall",
+        "image": "[[File:Narrow Arched Window Wall.png|30px|link=Narrow Arched Window Wall]]"
+      }
+    },
+    "output": [
+      "Narrow Arched Window Wall"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block",
+      "Black Metal Scraps"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Narrow Stone Inset Window Wall"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Narrow Stone Inset Window Wall",
+        "link": "Narrow Stone Inset Window Wall",
+        "qty": "1",
+        "item": "Narrow Stone Inset Window Wall",
+        "image": "[[File:Narrow Stone Inset Window Wall.png|30px|link=Narrow Stone Inset Window Wall]]"
+      }
+    },
+    "output": [
+      "Narrow Stone Inset Window Wall"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block",
+      "Black Metal Scraps"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Narrow Tall Slit Wall"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Narrow Tall Slit Wall",
+        "link": "Narrow Tall Slit Wall",
+        "qty": "1",
+        "item": "Narrow Tall Slit Wall",
+        "image": "[[File:Narrow Tall Slit Wall.png|30px|link=Narrow Tall Slit Wall]]"
+      }
+    },
+    "output": [
+      "Narrow Tall Slit Wall"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone Block",
+      "Black Metal Scraps"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone Block",
+          "link": "Stone Block",
+          "qty": "4",
+          "item": "Stone Block",
+          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Metal Scraps",
+          "link": "Black Metal Scraps",
+          "qty": "2",
+          "item": "Black Metal Scraps",
+          "image": "[[File:Black Metal Scraps.png|30px|link=Black Metal Scraps]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Narrow Cross Slit Wall"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Narrow Cross Slit Wall",
+        "link": "Narrow Cross Slit Wall",
+        "qty": "1",
+        "item": "Narrow Cross Slit Wall",
+        "image": "[[File:Narrow Cross Slit Wall.png|30px|link=Narrow Cross Slit Wall]]"
+      }
+    },
+    "output": [
+      "Narrow Cross Slit Wall"
     ]
   }
 ]
