@@ -24773,7 +24773,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "20"
+          "experience": "12"
         }
       ],
       "outputs": [
@@ -24891,50 +24891,6 @@
     },
     "output": [
       "Pioneer's Tapestry"
-    ]
-  },
-  {
-    "uses_material": [
-      "Ash Logs"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "8",
-          "name": "Ash Logs",
-          "link": "Ash Logs",
-          "qty": "8",
-          "item": "Ash Logs",
-          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "20"
-        }
-      ],
-      "outputs": [
-        "Sealed Wooden Crate"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Sealed Wooden Crate",
-        "link": "Sealed Wooden Crate",
-        "qty": 1,
-        "item": "Sealed Wooden Crate",
-        "image": "[[File:Sealed Wooden Crate.png|30px|link=Sealed Wooden Crate]]"
-      }
-    },
-    "output": [
-      "Sealed Wooden Crate"
     ]
   },
   {
@@ -40085,13 +40041,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: Tattered Time-Lost Cloth"
+      "Tattered Time-Lost Cloth"
     ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
-      "recipe": "VESTIGE: Tattered Time-Lost Cloth",
+      "recipe": "Tattered Time-Lost Cloth",
       "facility": "Crafting Table",
       "materials": [],
       "skills": [
@@ -47521,10 +47477,14 @@
       "Opal",
       "Vault Shard"
     ],
+    "uses_recipe": [
+      "Corroded Jewellery"
+    ],
     "uses_facility": [
       "Jeweler's Bench"
     ],
     "json": {
+      "recipe": "Corroded Jewellery",
       "facility": "Jeweler's Bench",
       "materials": [
         {
@@ -52095,70 +52055,6 @@
         }
       ],
       "outputs": [
-        "Agility Cape"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Agility Cape",
-        "link": "Agility Cape",
-        "qty": 1,
-        "item": "Agility Cape",
-        "image": "[[File:Agility Cape.png|30px|link=Agility Cape]]"
-      }
-    },
-    "output": [
-      "Agility Cape"
-    ]
-  },
-  {
-    "uses_skill": [
-      "Artisan"
-    ],
-    "uses_facility": [
-      "Crafting Table"
-    ],
-    "json": {
-      "facility": "Crafting Table",
-      "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
-      "outputs": [
-        "Agility Cape (Trimmed)"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Agility Cape (Trimmed)",
-        "link": "Agility Cape (Trimmed)",
-        "qty": 1,
-        "item": "Agility Cape (Trimmed)",
-        "image": "[[File:Agility Cape (Trimmed).png|30px|link=Agility Cape (Trimmed)]]"
-      }
-    },
-    "output": [
-      "Agility Cape (Trimmed)"
-    ]
-  },
-  {
-    "uses_skill": [
-      "Artisan"
-    ],
-    "uses_facility": [
-      "Crafting Table"
-    ],
-    "json": {
-      "facility": "Crafting Table",
-      "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
-      "outputs": [
         "Fishing Cape"
       ],
       "output": {
@@ -52204,70 +52100,6 @@
     },
     "output": [
       "Fishing Cape (Trimmed)"
-    ]
-  },
-  {
-    "uses_skill": [
-      "Artisan"
-    ],
-    "uses_facility": [
-      "Crafting Table"
-    ],
-    "json": {
-      "facility": "Crafting Table",
-      "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
-      "outputs": [
-        "Prayer Cape"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Prayer Cape",
-        "link": "Prayer Cape",
-        "qty": 1,
-        "item": "Prayer Cape",
-        "image": "[[File:Prayer Cape.png|30px|link=Prayer Cape]]"
-      }
-    },
-    "output": [
-      "Prayer Cape"
-    ]
-  },
-  {
-    "uses_skill": [
-      "Artisan"
-    ],
-    "uses_facility": [
-      "Crafting Table"
-    ],
-    "json": {
-      "facility": "Crafting Table",
-      "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
-      "outputs": [
-        "Prayer Cape (Trimmed)"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Prayer Cape (Trimmed)",
-        "link": "Prayer Cape (Trimmed)",
-        "qty": 1,
-        "item": "Prayer Cape (Trimmed)",
-        "image": "[[File:Prayer Cape (Trimmed).png|30px|link=Prayer Cape (Trimmed)]]"
-      }
-    },
-    "output": [
-      "Prayer Cape (Trimmed)"
     ]
   },
   {
@@ -63529,6 +63361,633 @@
     },
     "output": [
       "Narrow Cross Slit Wall"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "8",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Sealed Wooden Crate"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Sealed Wooden Crate",
+        "link": "Sealed Wooden Crate",
+        "qty": 1,
+        "item": "Sealed Wooden Crate",
+        "image": "[[File:Sealed Wooden Crate.png|30px|link=Sealed Wooden Crate]]"
+      }
+    },
+    "output": [
+      "Sealed Wooden Crate"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pungent Omelette",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pungent Omelette",
+          "link": "Pungent Omelette",
+          "qty": "1",
+          "item": "Pungent Omelette",
+          "image": "[[File:Pungent Omelette.png|30px|link=Pungent Omelette]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pungent Omelette (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pungent Omelette (decoration)",
+        "link": "Pungent Omelette (decoration)",
+        "qty": 1,
+        "item": "Pungent Omelette (decoration)",
+        "image": "[[File:Pungent Omelette (decoration).png|30px|link=Pungent Omelette (decoration)]]"
+      }
+    },
+    "output": [
+      "Pungent Omelette (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Roast Dinner",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Roast Dinner",
+          "link": "Roast Dinner",
+          "qty": "1",
+          "item": "Roast Dinner",
+          "image": "[[File:Roast Dinner.png|30px|link=Roast Dinner]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Roast Dinner (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Roast Dinner (decoration)",
+        "link": "Roast Dinner (decoration)",
+        "qty": 1,
+        "item": "Roast Dinner (decoration)",
+        "image": "[[File:Roast Dinner (decoration).png|30px|link=Roast Dinner (decoration)]]"
+      }
+    },
+    "output": [
+      "Roast Dinner (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Steak 'N' Eggs",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Steak 'N' Eggs",
+          "link": "Steak 'N' Eggs",
+          "qty": "1",
+          "item": "Steak 'N' Eggs",
+          "image": "[[File:Steak 'N' Eggs.png|30px|link=Steak 'N' Eggs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Steak 'N' Eggs (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Steak 'N' Eggs (decoration)",
+        "link": "Steak 'N' Eggs (decoration)",
+        "qty": 1,
+        "item": "Steak 'N' Eggs (decoration)",
+        "image": "[[File:Steak 'N' Eggs (decoration).png|30px|link=Steak 'N' Eggs (decoration)]]"
+      }
+    },
+    "output": [
+      "Steak 'N' Eggs (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Sweet Veg Ball",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Sweet Veg Ball",
+          "link": "Sweet Veg Ball",
+          "qty": "1",
+          "item": "Sweet Veg Ball",
+          "image": "[[File:Sweet Veg Ball.png|30px|link=Sweet Veg Ball]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Sweet Veg Ball (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Sweet Veg Ball (decoration)",
+        "link": "Sweet Veg Ball (decoration)",
+        "qty": 1,
+        "item": "Sweet Veg Ball (decoration)",
+        "image": "[[File:Sweet Veg Ball (decoration).png|30px|link=Sweet Veg Ball (decoration)]]"
+      }
+    },
+    "output": [
+      "Sweet Veg Ball (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Cheeky Fryup",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cheeky Fryup",
+          "link": "Cheeky Fryup",
+          "qty": "1",
+          "item": "Cheeky Fryup",
+          "image": "[[File:Cheeky Fryup.png|30px|link=Cheeky Fryup]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Cheeky Fryup (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Cheeky Fryup (decoration)",
+        "link": "Cheeky Fryup (decoration)",
+        "qty": 1,
+        "item": "Cheeky Fryup (decoration)",
+        "image": "[[File:Cheeky Fryup (decoration).png|30px|link=Cheeky Fryup (decoration)]]"
+      }
+    },
+    "output": [
+      "Cheeky Fryup (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Vegan Fryup",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Vegan Fryup",
+          "link": "Vegan Fryup",
+          "qty": "1",
+          "item": "Vegan Fryup",
+          "image": "[[File:Vegan Fryup.png|30px|link=Vegan Fryup]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Vegan Fryup (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Vegan Fryup (decoration)",
+        "link": "Vegan Fryup (decoration)",
+        "qty": 1,
+        "item": "Vegan Fryup (decoration)",
+        "image": "[[File:Vegan Fryup (decoration).png|30px|link=Vegan Fryup (decoration)]]"
+      }
+    },
+    "output": [
+      "Vegan Fryup (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pumpkin Soup",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pumpkin Soup",
+          "link": "Pumpkin Soup",
+          "qty": "1",
+          "item": "Pumpkin Soup",
+          "image": "[[File:Pumpkin Soup.png|30px|link=Pumpkin Soup]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pumpkin Soup (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pumpkin Soup (decoration)",
+        "link": "Pumpkin Soup (decoration)",
+        "qty": 1,
+        "item": "Pumpkin Soup (decoration)",
+        "image": "[[File:Pumpkin Soup (decoration).png|30px|link=Pumpkin Soup (decoration)]]"
+      }
+    },
+    "output": [
+      "Pumpkin Soup (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Beef & Tomato Stew",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Beef & Tomato Stew",
+          "link": "Beef & Tomato Stew",
+          "qty": "1",
+          "item": "Beef & Tomato Stew",
+          "image": "[[File:Beef & Tomato Stew.png|30px|link=Beef & Tomato Stew]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Beef & Tomato Stew (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Beef & Tomato Stew (decoration)",
+        "link": "Beef & Tomato Stew (decoration)",
+        "qty": 1,
+        "item": "Beef & Tomato Stew (decoration)",
+        "image": "[[File:Beef & Tomato Stew (decoration).png|30px|link=Beef & Tomato Stew (decoration)]]"
+      }
+    },
+    "output": [
+      "Beef & Tomato Stew (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Meat Stew",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Meat Stew",
+          "link": "Meat Stew",
+          "qty": "1",
+          "item": "Meat Stew",
+          "image": "[[File:Meat Stew.png|30px|link=Meat Stew]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Meat Stew (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Meat Stew (decoration)",
+        "link": "Meat Stew (decoration)",
+        "qty": 1,
+        "item": "Meat Stew (decoration)",
+        "image": "[[File:Meat Stew (decoration).png|30px|link=Meat Stew (decoration)]]"
+      }
+    },
+    "output": [
+      "Meat Stew (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Evasive Infusion",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Evasive Infusion",
+          "link": "Evasive Infusion",
+          "qty": "1",
+          "item": "Evasive Infusion",
+          "image": "[[File:Evasive Infusion.png|30px|link=Evasive Infusion]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Evasive Infusion (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Evasive Infusion (decoration)",
+        "link": "Evasive Infusion (decoration)",
+        "qty": 1,
+        "item": "Evasive Infusion (decoration)",
+        "image": "[[File:Evasive Infusion (decoration).png|30px|link=Evasive Infusion (decoration)]]"
+      }
+    },
+    "output": [
+      "Evasive Infusion (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fleet-Footed Infusion",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fleet-Footed Infusion",
+          "link": "Fleet-Footed Infusion",
+          "qty": "1",
+          "item": "Fleet-Footed Infusion",
+          "image": "[[File:Fleet-Footed Infusion.png|30px|link=Fleet-Footed Infusion]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Fleet-Footed Infusion (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Fleet-Footed Infusion (decoration)",
+        "link": "Fleet-Footed Infusion (decoration)",
+        "qty": 1,
+        "item": "Fleet-Footed Infusion (decoration)",
+        "image": "[[File:Fleet-Footed Infusion (decoration).png|30px|link=Fleet-Footed Infusion (decoration)]]"
+      }
+    },
+    "output": [
+      "Fleet-Footed Infusion (decoration)"
     ]
   }
 ]

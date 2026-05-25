@@ -11208,7 +11208,7 @@
     "page_name_sub": "Doric's Superior Smithing Supplies"
   },
   {
-    "page_name": "VESTIGE: Tattered Time-Lost Cloth",
+    "page_name": "Tattered Time-Lost Cloth",
     "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
     "item_name": "Tattered Time-Lost Cloth",
     "item_type": "Vestige",
@@ -11223,7 +11223,7 @@
       "image_raw": "Tattered Time-Lost Cloth.png"
     },
     "item_weight": 0,
-    "page_name_sub": "VESTIGE: Tattered Time-Lost Cloth"
+    "page_name_sub": "Tattered Time-Lost Cloth"
   },
   {
     "page_name": "Abraxus Ring",
@@ -15045,24 +15045,6 @@
     "page_name_sub": "Moth Eaten White Cloth"
   },
   {
-    "page_name": "Tattered Time-Lost Cloth",
-    "item_description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
-    "item_name": "Tattered Time-Lost Cloth",
-    "item_type": "Vestige",
-    "item_stacklimit": 99,
-    "json": {
-      "type": "Vestige",
-      "description": "The tattered pieces of a mysterious object. Perhaps you could learn something from them.",
-      "image": "[[File:Tattered Time-Lost Cloth.png|32px]]",
-      "name": "Tattered Time-Lost Cloth",
-      "weight": "0.0",
-      "stacklimit": "99",
-      "image_raw": "Tattered Time-Lost Cloth.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "Tattered Time-Lost Cloth"
-  },
-  {
     "page_name": "Weighted Training Band",
     "item_description": "You can feel it pulling away from you. Perhaps you could learn from it.",
     "item_name": "Weighted Training Band",
@@ -17781,5 +17763,23 @@
     },
     "item_weight": 1,
     "page_name_sub": "Ravanna's Ring"
+  },
+  {
+    "page_name": "Corroded Jewellery",
+    "item_description": "A sinister piece of jewellery, corroded and burned. Perhaps you can learn something from it.",
+    "item_name": "Corroded Jewellery",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "A sinister piece of jewellery, corroded and burned. Perhaps you can learn something from it.",
+      "image": "[[File:Corroded Jewellery.png|32px]]",
+      "name": "Corroded Jewellery",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Corroded Jewellery.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Corroded Jewellery"
   }
 ]

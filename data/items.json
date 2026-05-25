@@ -14831,38 +14831,6 @@
     "wikiLink": "Pioneer's_Tapestry"
   },
   {
-    "id": "c8d4932ff2e1",
-    "name": "Sealed Wooden Crate",
-    "image": "Sealed Wooden Crate.png",
-    "variants": [
-      {
-        "id": "38adc3450701",
-        "name": "Sealed Wooden Crate",
-        "image": "Sealed Wooden Crate.png",
-        "variantName": null,
-        "recipe": {
-          "id": "94eb24f43d06",
-          "facility": "Build Menu",
-          "materials": [
-            {
-              "itemId": "15f83d07dd09",
-              "quantity": 8
-            }
-          ],
-          "quantity": 1
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Construction"
-    ],
-    "facilities": [
-      "Build Menu"
-    ],
-    "wikiLink": "Sealed_Wooden_Crate"
-  },
-  {
     "id": "c892ebbfadc6",
     "name": "Barrel Pile",
     "image": "Barrel Pile.png",
@@ -25114,7 +25082,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Tattered Time-Lost Cloth"
+          "Tattered Time-Lost Cloth"
         ]
       }
     ],
@@ -30101,7 +30069,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Corroded Jewellery"
+        ]
       }
     ],
     "skills": [],
@@ -33129,60 +33099,6 @@
     "weight": 12
   },
   {
-    "id": "0c658bfff6a9",
-    "name": "Agility Cape",
-    "image": "Agility Cape.png",
-    "variants": [
-      {
-        "id": "45e4d3b93d38",
-        "name": "Agility Cape",
-        "image": "Agility Cape.png",
-        "variantName": null,
-        "recipe": {
-          "id": "8a799c355230",
-          "facility": "Crafting Table",
-          "materials": [],
-          "quantity": 1
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Artisan"
-    ],
-    "facilities": [
-      "Crafting Table"
-    ],
-    "wikiLink": "Agility_Cape"
-  },
-  {
-    "id": "e3c4c29e5742",
-    "name": "Agility Cape (Trimmed)",
-    "image": "Agility Cape (Trimmed).png",
-    "variants": [
-      {
-        "id": "58ff34f8459e",
-        "name": "Agility Cape (Trimmed)",
-        "image": "Agility Cape (Trimmed).png",
-        "variantName": "Trimmed",
-        "recipe": {
-          "id": "8a799c355230",
-          "facility": "Crafting Table",
-          "materials": [],
-          "quantity": 1
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Artisan"
-    ],
-    "facilities": [
-      "Crafting Table"
-    ],
-    "wikiLink": "Agility_Cape_(Trimmed)"
-  },
-  {
     "id": "e9341608dfcc",
     "name": "Fishing Cape",
     "image": "Fishing Cape.png",
@@ -33236,60 +33152,6 @@
       "Crafting Table"
     ],
     "wikiLink": "Fishing_Cape_(Trimmed)"
-  },
-  {
-    "id": "ac9e01659da3",
-    "name": "Prayer Cape",
-    "image": "Prayer Cape.png",
-    "variants": [
-      {
-        "id": "45e4d3b93d38",
-        "name": "Prayer Cape",
-        "image": "Prayer Cape.png",
-        "variantName": null,
-        "recipe": {
-          "id": "8a799c355230",
-          "facility": "Crafting Table",
-          "materials": [],
-          "quantity": 1
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Artisan"
-    ],
-    "facilities": [
-      "Crafting Table"
-    ],
-    "wikiLink": "Prayer_Cape"
-  },
-  {
-    "id": "347a4747d1bd",
-    "name": "Prayer Cape (Trimmed)",
-    "image": "Prayer Cape (Trimmed).png",
-    "variants": [
-      {
-        "id": "58ff34f8459e",
-        "name": "Prayer Cape (Trimmed)",
-        "image": "Prayer Cape (Trimmed).png",
-        "variantName": "Trimmed",
-        "recipe": {
-          "id": "8a799c355230",
-          "facility": "Crafting Table",
-          "materials": [],
-          "quantity": 1
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Artisan"
-    ],
-    "facilities": [
-      "Crafting Table"
-    ],
-    "wikiLink": "Prayer_Cape_(Trimmed)"
   },
   {
     "id": "35085839b4ba",
@@ -40759,6 +40621,434 @@
     "wikiLink": "Narrow_Cross_Slit_Wall"
   },
   {
+    "id": "c8d4932ff2e1",
+    "name": "Sealed Wooden Crate",
+    "image": "Sealed Wooden Crate.png",
+    "variants": [
+      {
+        "id": "38adc3450701",
+        "name": "Sealed Wooden Crate",
+        "image": "Sealed Wooden Crate.png",
+        "variantName": null,
+        "recipe": {
+          "id": "94eb24f43d06",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 8
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Sealed_Wooden_Crate"
+  },
+  {
+    "id": "fdd53018803a",
+    "name": "Pungent Omelette (decoration)",
+    "image": "Pungent Omelette (decoration).png",
+    "variants": [
+      {
+        "id": "e1175778275d",
+        "name": "Pungent Omelette (decoration)",
+        "image": "Pungent Omelette (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "993e81ab9f1f",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            },
+            {
+              "itemId": "39f6925a4f9f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pungent_Omelette_(decoration)"
+  },
+  {
+    "id": "f8241b5dd116",
+    "name": "Roast Dinner (decoration)",
+    "image": "Roast Dinner (decoration).png",
+    "variants": [
+      {
+        "id": "89cc4d6e2462",
+        "name": "Roast Dinner (decoration)",
+        "image": "Roast Dinner (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "1ea822b592b0",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            },
+            {
+              "itemId": "e9f1e1dfeba7",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Roast_Dinner_(decoration)"
+  },
+  {
+    "id": "9b05c3d3c830",
+    "name": "Steak 'N' Eggs (decoration)",
+    "image": "Steak 'N' Eggs (decoration).png",
+    "variants": [
+      {
+        "id": "2bb9830d59d0",
+        "name": "Steak 'N' Eggs (decoration)",
+        "image": "Steak 'N' Eggs (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "720186413334",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            },
+            {
+              "itemId": "f22720ca9b0e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Steak_'N'_Eggs_(decoration)"
+  },
+  {
+    "id": "ecd68ca51f16",
+    "name": "Sweet Veg Ball (decoration)",
+    "image": "Sweet Veg Ball (decoration).png",
+    "variants": [
+      {
+        "id": "1eb6db33d426",
+        "name": "Sweet Veg Ball (decoration)",
+        "image": "Sweet Veg Ball (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "681110243f1b",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            },
+            {
+              "itemId": "921ec4aff5ff",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Sweet_Veg_Ball_(decoration)"
+  },
+  {
+    "id": "dee157b21b50",
+    "name": "Cheeky Fryup (decoration)",
+    "image": "Cheeky Fryup (decoration).png",
+    "variants": [
+      {
+        "id": "f5bcd5f7432b",
+        "name": "Cheeky Fryup (decoration)",
+        "image": "Cheeky Fryup (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "e6039cc8fe29",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "2c984bc6bd51",
+              "quantity": 1
+            },
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Cheeky_Fryup_(decoration)"
+  },
+  {
+    "id": "ff05d962d0fa",
+    "name": "Vegan Fryup (decoration)",
+    "image": "Vegan Fryup (decoration).png",
+    "variants": [
+      {
+        "id": "107580d16951",
+        "name": "Vegan Fryup (decoration)",
+        "image": "Vegan Fryup (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "2563a6ed9a49",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            },
+            {
+              "itemId": "663338a55ff5",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Vegan_Fryup_(decoration)"
+  },
+  {
+    "id": "a84253f7e93d",
+    "name": "Pumpkin Soup (decoration)",
+    "image": "Pumpkin Soup (decoration).png",
+    "variants": [
+      {
+        "id": "f1dc17a37a77",
+        "name": "Pumpkin Soup (decoration)",
+        "image": "Pumpkin Soup (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "dfee56de6256",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            },
+            {
+              "itemId": "f1153f93e23b",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pumpkin_Soup_(decoration)"
+  },
+  {
+    "id": "f06cb67fff74",
+    "name": "Beef & Tomato Stew (decoration)",
+    "image": "Beef & Tomato Stew (decoration).png",
+    "variants": [
+      {
+        "id": "5f375a8d950e",
+        "name": "Beef & Tomato Stew (decoration)",
+        "image": "Beef & Tomato Stew (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "b408a0364c7b",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "e5497b710f58",
+              "quantity": 1
+            },
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Beef_&_Tomato_Stew_(decoration)"
+  },
+  {
+    "id": "8bb03c8b0a4c",
+    "name": "Meat Stew (decoration)",
+    "image": "Meat Stew (decoration).png",
+    "variants": [
+      {
+        "id": "4fe08c0b84c3",
+        "name": "Meat Stew (decoration)",
+        "image": "Meat Stew (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "a4b4800647ff",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            },
+            {
+              "itemId": "f04ae53f070c",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Meat_Stew_(decoration)"
+  },
+  {
+    "id": "438ecc7da3f6",
+    "name": "Evasive Infusion (decoration)",
+    "image": "Evasive Infusion (decoration).png",
+    "variants": [
+      {
+        "id": "2e54b3d9b33e",
+        "name": "Evasive Infusion (decoration)",
+        "image": "Evasive Infusion (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "aedb263287a5",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            },
+            {
+              "itemId": "fbc0b5e9c29d",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Evasive_Infusion_(decoration)"
+  },
+  {
+    "id": "d3a4cb78483c",
+    "name": "Fleet-Footed Infusion (decoration)",
+    "image": "Fleet-Footed Infusion (decoration).png",
+    "variants": [
+      {
+        "id": "ba5c19b2f98d",
+        "name": "Fleet-Footed Infusion (decoration)",
+        "image": "Fleet-Footed Infusion (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "4e0f7efd1217",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            },
+            {
+              "itemId": "1d3fc0d52f1d",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Fleet-Footed_Infusion_(decoration)"
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -45852,9 +46142,9 @@
     "stackLimit": 10
   },
   {
-    "id": "058c08aac2f6",
-    "name": "VESTIGE: Tattered Time-Lost Cloth",
-    "image": "VESTIGE-_Tattered_Time-Lost_Cloth.png",
+    "id": "5abe36301d3f",
+    "name": "Tattered Time-Lost Cloth",
+    "image": "Tattered Time-Lost Cloth.png",
     "variants": [
       {
         "id": "5abe36301d3f",
@@ -45867,7 +46157,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "VESTIGE:_Tattered_Time-Lost_Cloth",
+    "wikiLink": "Tattered_Time-Lost_Cloth",
     "weight": 0,
     "stackLimit": 99
   },
@@ -47691,26 +47981,6 @@
     "stackLimit": 99
   },
   {
-    "id": "5abe36301d3f",
-    "name": "Tattered Time-Lost Cloth",
-    "image": "Tattered Time-Lost Cloth.png",
-    "variants": [
-      {
-        "id": "5abe36301d3f",
-        "name": "Tattered Time-Lost Cloth",
-        "image": "Tattered Time-Lost Cloth.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Tattered_Time-Lost_Cloth",
-    "weight": 0,
-    "stackLimit": 99
-  },
-  {
     "id": "5078bb4b693e",
     "name": "Weighted Training Band",
     "image": "Weighted Training Band.png",
@@ -49384,6 +49654,26 @@
     "facilities": [],
     "wikiLink": "Pristine_Lobster",
     "weight": 4.8,
+    "stackLimit": 99
+  },
+  {
+    "id": "76b71da228b6",
+    "name": "Corroded Jewellery",
+    "image": "Corroded Jewellery.png",
+    "variants": [
+      {
+        "id": "76b71da228b6",
+        "name": "Corroded Jewellery",
+        "image": "Corroded Jewellery.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Corroded_Jewellery",
+    "weight": 0,
     "stackLimit": 99
   }
 ]
