@@ -63989,5 +63989,323 @@
     "output": [
       "Fleet-Footed Infusion (decoration)"
     ]
+  },
+  {
+    "uses_material": [
+      "Ferocious Infusion",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ferocious Infusion",
+          "link": "Ferocious Infusion",
+          "qty": "1",
+          "item": "Ferocious Infusion",
+          "image": "[[File:Ferocious Infusion.png|30px|link=Ferocious Infusion]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Ferocious Infusion (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Ferocious Infusion (decoration)",
+        "link": "Ferocious Infusion (decoration)",
+        "qty": 1,
+        "item": "Ferocious Infusion (decoration)",
+        "image": "[[File:Ferocious Infusion (decoration).png|30px|link=Ferocious Infusion (decoration)]]"
+      }
+    },
+    "output": [
+      "Ferocious Infusion (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pumpkin Spice Infusion",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pumpkin Spice Infusion",
+          "link": "Pumpkin Spice Infusion",
+          "qty": "1",
+          "item": "Pumpkin Spice Infusion",
+          "image": "[[File:Pumpkin Spice Infusion.png|30px|link=Pumpkin Spice Infusion]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pumpkin Spice Infusion (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pumpkin Spice Infusion (decoration)",
+        "link": "Pumpkin Spice Infusion (decoration)",
+        "qty": 1,
+        "item": "Pumpkin Spice Infusion (decoration)",
+        "image": "[[File:Pumpkin Spice Infusion (decoration).png|30px|link=Pumpkin Spice Infusion (decoration)]]"
+      }
+    },
+    "output": [
+      "Pumpkin Spice Infusion (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Relentless Infusion",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Relentless Infusion",
+          "link": "Relentless Infusion",
+          "qty": "1",
+          "item": "Relentless Infusion",
+          "image": "[[File:Relentless Infusion.png|30px|link=Relentless Infusion]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Relentless Infusion (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Relentless Infusion (decoration)",
+        "link": "Relentless Infusion (decoration)",
+        "qty": 1,
+        "item": "Relentless Infusion (decoration)",
+        "image": "[[File:Relentless Infusion (decoration).png|30px|link=Relentless Infusion (decoration)]]"
+      }
+    },
+    "output": [
+      "Relentless Infusion (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Redberry Infusion",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Redberry Infusion",
+          "link": "Redberry Infusion",
+          "qty": "1",
+          "item": "Redberry Infusion",
+          "image": "[[File:Redberry Infusion.png|30px|link=Redberry Infusion]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Redberry Infusion (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Redberry Infusion (decoration)",
+        "link": "Redberry Infusion (decoration)",
+        "qty": 1,
+        "item": "Redberry Infusion (decoration)",
+        "image": "[[File:Redberry Infusion (decoration).png|30px|link=Redberry Infusion (decoration)]]"
+      }
+    },
+    "output": [
+      "Redberry Infusion (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Dwellberry Infusion",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dwellberry Infusion",
+          "link": "Dwellberry Infusion",
+          "qty": "1",
+          "item": "Dwellberry Infusion",
+          "image": "[[File:Dwellberry Infusion.png|30px|link=Dwellberry Infusion]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Dwellberry Infusion (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Dwellberry Infusion (decoration)",
+        "link": "Dwellberry Infusion (decoration)",
+        "qty": 1,
+        "item": "Dwellberry Infusion (decoration)",
+        "image": "[[File:Dwellberry Infusion (decoration).png|30px|link=Dwellberry Infusion (decoration)]]"
+      }
+    },
+    "output": [
+      "Dwellberry Infusion (decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Arcane Infusion",
+      "Clay Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Arcane Infusion",
+          "link": "Arcane Infusion",
+          "qty": "1",
+          "item": "Arcane Infusion",
+          "image": "[[File:Arcane Infusion.png|30px|link=Arcane Infusion]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "1",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Arcane Infusion (decoration)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Arcane Infusion (decoration)",
+        "link": "Arcane Infusion (decoration)",
+        "qty": 1,
+        "item": "Arcane Infusion (decoration)",
+        "image": "[[File:Arcane Infusion (decoration).png|30px|link=Arcane Infusion (decoration)]]"
+      }
+    },
+    "output": [
+      "Arcane Infusion (decoration)"
+    ]
   }
 ]

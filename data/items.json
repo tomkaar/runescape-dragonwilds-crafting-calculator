@@ -41049,6 +41049,222 @@
     "wikiLink": "Fleet-Footed_Infusion_(decoration)"
   },
   {
+    "id": "67ee87fc282d",
+    "name": "Ferocious Infusion (decoration)",
+    "image": "Ferocious Infusion (decoration).png",
+    "variants": [
+      {
+        "id": "0bafc6b24466",
+        "name": "Ferocious Infusion (decoration)",
+        "image": "Ferocious Infusion (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "2ea3122e05e1",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            },
+            {
+              "itemId": "a7477b36abaf",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Ferocious_Infusion_(decoration)"
+  },
+  {
+    "id": "8caa106b7a23",
+    "name": "Pumpkin Spice Infusion (decoration)",
+    "image": "Pumpkin Spice Infusion (decoration).png",
+    "variants": [
+      {
+        "id": "68adcd71ef19",
+        "name": "Pumpkin Spice Infusion (decoration)",
+        "image": "Pumpkin Spice Infusion (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "163fad5998d6",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            },
+            {
+              "itemId": "8dc0abfd3f69",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pumpkin_Spice_Infusion_(decoration)"
+  },
+  {
+    "id": "fdad7408f4cc",
+    "name": "Relentless Infusion (decoration)",
+    "image": "Relentless Infusion (decoration).png",
+    "variants": [
+      {
+        "id": "5c584d178541",
+        "name": "Relentless Infusion (decoration)",
+        "image": "Relentless Infusion (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "b4eee0db298c",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            },
+            {
+              "itemId": "ba5ba89ae2f3",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Relentless_Infusion_(decoration)"
+  },
+  {
+    "id": "fa1fa1d7a1b8",
+    "name": "Redberry Infusion (decoration)",
+    "image": "Redberry Infusion (decoration).png",
+    "variants": [
+      {
+        "id": "b50c40231f19",
+        "name": "Redberry Infusion (decoration)",
+        "image": "Redberry Infusion (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "8ad2d0626d52",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            },
+            {
+              "itemId": "82417536309d",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Redberry_Infusion_(decoration)"
+  },
+  {
+    "id": "fcad288f5d5f",
+    "name": "Dwellberry Infusion (decoration)",
+    "image": "Dwellberry Infusion (decoration).png",
+    "variants": [
+      {
+        "id": "666f3b5aa935",
+        "name": "Dwellberry Infusion (decoration)",
+        "image": "Dwellberry Infusion (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "f41a3db5c1fb",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            },
+            {
+              "itemId": "54427dd95068",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Dwellberry_Infusion_(decoration)"
+  },
+  {
+    "id": "b51447a219e8",
+    "name": "Arcane Infusion (decoration)",
+    "image": "Arcane Infusion (decoration).png",
+    "variants": [
+      {
+        "id": "8656ac96a64f",
+        "name": "Arcane Infusion (decoration)",
+        "image": "Arcane Infusion (decoration).png",
+        "variantName": "decoration",
+        "recipe": {
+          "id": "8f4ded02f95d",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "e38c5c27f629",
+              "quantity": 1
+            },
+            {
+              "itemId": "090c5b99512f",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Arcane_Infusion_(decoration)"
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
