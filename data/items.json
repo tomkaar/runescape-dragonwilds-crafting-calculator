@@ -9172,6 +9172,28 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "45° Thick Beam",
+        "image": "45° Thick Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9580,6 +9602,28 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "Horizontal Thick Beam",
+        "image": "Horizontal Thick Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9710,6 +9754,28 @@
           "materials": [
             {
               "itemId": "df8fefb6944b",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "30° Thick Beam",
+        "image": "30° Thick Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
               "quantity": 2
             }
           ],
@@ -9936,6 +10002,28 @@
           "materials": [
             {
               "itemId": "df8fefb6944b",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "60° Thick Beam",
+        "image": "60° Thick Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
               "quantity": 2
             }
           ],
@@ -10345,6 +10433,28 @@
             {
               "itemId": "df8fefb6944b",
               "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "Short Vertical Thick Beam",
+        "image": "Short Vertical Thick Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 2
             }
           ],
           "quantity": 1
@@ -41263,6 +41373,78 @@
       "Build Menu"
     ],
     "wikiLink": "Arcane_Infusion_(decoration)"
+  },
+  {
+    "id": "bd175ae8a507",
+    "name": "Grated Floor",
+    "image": "Grated Floor.png",
+    "variants": [
+      {
+        "id": "6dd095a2c9f6",
+        "name": "Grated Floor",
+        "image": "Grated Floor.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a32d64437553",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 2
+            },
+            {
+              "itemId": "c1117f9270a0",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Grated_Floor"
+  },
+  {
+    "id": "da7f2fd386fa",
+    "name": "Medium Grated Floor",
+    "image": "Medium Grated Floor.png",
+    "variants": [
+      {
+        "id": "6dd095a2c9f6",
+        "name": "Medium Grated Floor",
+        "image": "Medium Grated Floor.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a32d64437553",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 2
+            },
+            {
+              "itemId": "c1117f9270a0",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Medium_Grated_Floor"
   },
   {
     "id": "6a5fa59fd28f",
