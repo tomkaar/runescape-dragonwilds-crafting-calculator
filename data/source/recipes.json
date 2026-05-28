@@ -2336,7 +2336,7 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "25"
+          "experience": "50"
         }
       ],
       "outputs": [
@@ -3007,7 +3007,7 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "2.5"
+          "experience": "8"
         }
       ],
       "outputs": [
@@ -3051,7 +3051,7 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "7.5"
+          "experience": "13"
         }
       ],
       "outputs": [
@@ -3095,7 +3095,7 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "10"
+          "experience": "18"
         }
       ],
       "outputs": [
@@ -3139,7 +3139,7 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "12.5"
+          "experience": "25"
         }
       ],
       "outputs": [
@@ -5799,7 +5799,7 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "2.5"
+          "experience": "5"
         }
       ],
       "outputs": [
@@ -7038,7 +7038,7 @@
       "skills": [
         {
           "name": "Runecrafting",
-          "experience": "5"
+          "experience": "10"
         }
       ],
       "outputs": [
