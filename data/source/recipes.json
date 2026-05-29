@@ -14837,6 +14837,59 @@
   },
   {
     "uses_material": [
+      "Willow Logs",
+      "Black Salvage Pile"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "2",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Black Salvage Pile",
+          "link": "Black Salvage Pile",
+          "qty": 1,
+          "item": "Black Salvage Pile",
+          "image": "[[File:Black Salvage Pile.png|30px|link=Black Salvage Pile]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Short 60° Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 60° Thick Beam",
+        "link": "Short 60° Thick Beam",
+        "qty": 1,
+        "item": "Short 60° Thick Beam",
+        "image": "[[File:Short 60° Thick Beam (Baroque).png|30px|link=Short 60° Thick Beam]]"
+      }
+    },
+    "output": [
+      "Short 60° Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -16105,6 +16158,59 @@
   },
   {
     "uses_material": [
+      "Willow Logs",
+      "Black Salvage Pile"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "2",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Black Salvage Pile",
+          "link": "Black Salvage Pile",
+          "qty": 1,
+          "item": "Black Salvage Pile",
+          "image": "[[File:Black Salvage Pile.png|30px|link=Black Salvage Pile]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Short Horizontal Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short Horizontal Thick Beam",
+        "link": "Short Horizontal Thick Beam",
+        "qty": 1,
+        "item": "Short Horizontal Thick Beam",
+        "image": "[[File:Short Horizontal Thick Beam (Baroque).png|30px|link=Short Horizontal Thick Beam]]"
+      }
+    },
+    "output": [
+      "Short Horizontal Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -16237,6 +16343,59 @@
   },
   {
     "uses_material": [
+      "Willow Logs",
+      "Black Salvage Pile"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "2",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Black Salvage Pile",
+          "link": "Black Salvage Pile",
+          "qty": 1,
+          "item": "Black Salvage Pile",
+          "image": "[[File:Black Salvage Pile.png|30px|link=Black Salvage Pile]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Short 30° Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 30° Thick Beam",
+        "link": "Short 30° Thick Beam",
+        "qty": 1,
+        "item": "Short 30° Thick Beam",
+        "image": "[[File:Short 30° Thick Beam (Baroque).png|30px|link=Short 30° Thick Beam]]"
+      }
+    },
+    "output": [
+      "Short 30° Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -16361,6 +16520,59 @@
         "qty": 1,
         "item": "Short 45° Thick Beam",
         "image": "[[File:Short 45° Thick Beam (Castle).png|30px|link=Short 45° Thick Beam]]"
+      }
+    },
+    "output": [
+      "Short 45° Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Willow Logs",
+      "Black Salvage Pile"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "2",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Black Salvage Pile",
+          "link": "Black Salvage Pile",
+          "qty": 1,
+          "item": "Black Salvage Pile",
+          "image": "[[File:Black Salvage Pile.png|30px|link=Black Salvage Pile]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Short 45° Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 45° Thick Beam",
+        "link": "Short 45° Thick Beam",
+        "qty": 1,
+        "item": "Short 45° Thick Beam",
+        "image": "[[File:Short 45° Thick Beam (Baroque).png|30px|link=Short 45° Thick Beam]]"
       }
     },
     "output": [
