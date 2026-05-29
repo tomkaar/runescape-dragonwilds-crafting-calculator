@@ -9466,6 +9466,28 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "Short 60° Thick Beam",
+        "image": "Short 60° Thick Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10098,6 +10120,28 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "Short Horizontal Thick Beam",
+        "image": "Short Horizontal Thick Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10166,6 +10210,28 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "Short 30° Thick Beam",
+        "image": "Short 30° Thick Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10229,6 +10295,28 @@
             {
               "itemId": "df8fefb6944b",
               "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "Short 45° Thick Beam",
+        "image": "Short 45° Thick Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 2
             }
           ],
           "quantity": 1
