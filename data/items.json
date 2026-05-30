@@ -26246,7 +26246,7 @@
       "Grindstone"
     ],
     "wikiLink": "Bag_of_Flour",
-    "weight": 0.2,
+    "weight": 0.3,
     "stackLimit": 99
   },
   {
@@ -49979,7 +49979,7 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Pristine_Sardine",
-    "weight": 2.2,
+    "weight": 3,
     "stackLimit": 99
   },
   {
@@ -50019,7 +50019,7 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Pristine_Undead_Eel",
-    "weight": 5.1,
+    "weight": 6.8,
     "stackLimit": 99
   },
   {
@@ -50039,7 +50039,7 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Pristine_Undead_Bass",
-    "weight": 5.1,
+    "weight": 6.2,
     "stackLimit": 99
   },
   {
@@ -50059,7 +50059,7 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Pristine_Salmon",
-    "weight": 5.1,
+    "weight": 3.5,
     "stackLimit": 99
   },
   {
@@ -50119,7 +50119,7 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Pristine_Infernal_Eel",
-    "weight": 4.7,
+    "weight": 6.3,
     "stackLimit": 99
   },
   {
