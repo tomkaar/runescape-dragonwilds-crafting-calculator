@@ -9262,6 +9262,28 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "Short Horizontal Thin Beam",
+        "image": "Short Horizontal Thin Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9330,6 +9352,28 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "Short Vertical Thin Beam",
+        "image": "Short Vertical Thin Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9392,6 +9436,28 @@
           "materials": [
             {
               "itemId": "df8fefb6944b",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "45° Thin Beam",
+        "image": "45° Thin Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
               "quantity": 2
             }
           ],
@@ -9556,6 +9622,28 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "30° Thin Beam",
+        "image": "30° Thin Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -9708,6 +9796,28 @@
           "materials": [
             {
               "itemId": "df8fefb6944b",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "Vertical Thin Beam",
+        "image": "Vertical Thin Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
               "quantity": 2
             }
           ],
@@ -9867,6 +9977,28 @@
             {
               "itemId": "df8fefb6944b",
               "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "Short 45° Thin Beam",
+        "image": "Short 45° Thin Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 2
             }
           ],
           "quantity": 1
@@ -10390,6 +10522,28 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "Short 60° Thin Beam",
+        "image": "Short 60° Thin Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10453,6 +10607,28 @@
             {
               "itemId": "df8fefb6944b",
               "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "Short 30° Thin Beam",
+        "image": "Short 30° Thin Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 2
             }
           ],
           "quantity": 1
@@ -10616,6 +10792,28 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "Horizontal Thin Beam",
+        "image": "Horizontal Thin Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10678,6 +10876,28 @@
           "materials": [
             {
               "itemId": "df8fefb6944b",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c8b917e58e39",
+        "name": "60° Thin Beam",
+        "image": "60° Thin Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "e628440ad7d9",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "bd3258fe8e2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e484f65d7ba7",
               "quantity": 2
             }
           ],
@@ -41533,6 +41753,114 @@
       "Build Menu"
     ],
     "wikiLink": "Medium_Grated_Floor"
+  },
+  {
+    "id": "e5a5b0c4540f",
+    "name": "Thick Pillar",
+    "image": "Thick Pillar.png",
+    "variants": [
+      {
+        "id": "d1158d570d29",
+        "name": "Thick Pillar",
+        "image": "Thick Pillar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8ccfa5598f6b",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 1
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Thick_Pillar"
+  },
+  {
+    "id": "e9e3810bac95",
+    "name": "Short Thin Pillar",
+    "image": "Short Thin Pillar.png",
+    "variants": [
+      {
+        "id": "d1158d570d29",
+        "name": "Short Thin Pillar",
+        "image": "Short Thin Pillar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8ccfa5598f6b",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 1
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Short_Thin_Pillar"
+  },
+  {
+    "id": "288b71cd7bb1",
+    "name": "Thin Pillar",
+    "image": "Thin Pillar.png",
+    "variants": [
+      {
+        "id": "d1158d570d29",
+        "name": "Thin Pillar",
+        "image": "Thin Pillar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8ccfa5598f6b",
+          "facility": "Build Menu",
+          "materials": [
+            {
+              "itemId": "1d4c877dd611",
+              "quantity": 1
+            },
+            {
+              "itemId": "df8fefb6944b",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Thin_Pillar"
   },
   {
     "id": "6a5fa59fd28f",
