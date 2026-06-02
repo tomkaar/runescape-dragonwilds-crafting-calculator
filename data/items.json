@@ -26027,7 +26027,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Crafting Table"
     ],
@@ -41863,6 +41865,58 @@
     "wikiLink": "Thin_Pillar"
   },
   {
+    "id": "9c2150c74926",
+    "name": "Saradominist Cloak",
+    "image": "Saradominist Cloak.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Saradominist Cloak",
+        "image": "Saradominist Cloak.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Saradominist_Cloak",
+    "weight": 0
+  },
+  {
+    "id": "5dd45ef32b0a",
+    "name": "Community Cape",
+    "image": "Community Cape.png",
+    "variants": [
+      {
+        "id": "45e4d3b93d38",
+        "name": "Community Cape",
+        "image": "Community Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a799c355230",
+          "facility": "Crafting Table",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Community_Cape",
+    "weight": 0
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -50487,6 +50541,66 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Corroded_Jewellery",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "36766b72f5da",
+    "name": "Jade Emblem",
+    "image": "Jade Emblem.png",
+    "variants": [
+      {
+        "id": "36766b72f5da",
+        "name": "Jade Emblem",
+        "image": "Jade Emblem.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Jade_Emblem",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "22ecc8f68d35",
+    "name": "Opal Emblem",
+    "image": "Opal Emblem.png",
+    "variants": [
+      {
+        "id": "22ecc8f68d35",
+        "name": "Opal Emblem",
+        "image": "Opal Emblem.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Opal_Emblem",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "79102981232a",
+    "name": "Sapphire Emblem",
+    "image": "Sapphire Emblem.png",
+    "variants": [
+      {
+        "id": "79102981232a",
+        "name": "Sapphire Emblem",
+        "image": "Sapphire Emblem.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Sapphire_Emblem",
     "weight": 0,
     "stackLimit": 99
   }

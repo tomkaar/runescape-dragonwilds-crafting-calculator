@@ -41815,6 +41815,9 @@
       "Adhesive",
       "Coarse Animal Fur"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Crafting Table"
     ],
@@ -41846,7 +41849,12 @@
           "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Fuel Pellet"
       ],
@@ -65578,6 +65586,54 @@
     },
     "output": [
       "Thin Pillar"
+    ]
+  },
+  {
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Saradominist Cloak"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Saradominist Cloak",
+        "link": "Saradominist Cloak",
+        "qty": 1,
+        "item": "Saradominist Cloak",
+        "image": "[[File:Saradominist Cloak.png|30px|link=Saradominist Cloak]]"
+      }
+    },
+    "output": [
+      "Saradominist Cloak"
+    ]
+  },
+  {
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Community Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Community Cape",
+        "link": "Community Cape",
+        "qty": 1,
+        "item": "Community Cape",
+        "image": "[[File:Community Cape.png|30px|link=Community Cape]]"
+      }
+    },
+    "output": [
+      "Community Cape"
     ]
   }
 ]
