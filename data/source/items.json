@@ -671,7 +671,7 @@
       "description": "A mysterious porous rock used as a base for powerful runes.",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
-      "weight": "0.2'\"`UNIQ--ref-00000004-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
       "stacklimit": "99",
       "image_raw": "Rune Essence.png"
     },
@@ -17781,5 +17781,91 @@
     },
     "item_weight": 0,
     "page_name_sub": "Corroded Jewellery"
+  },
+  {
+    "page_name": "Jade Emblem",
+    "item_description": "One of three emblem keys required to unlock a statue.",
+    "item_name": "Jade Emblem",
+    "item_type": "Basic Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Item",
+      "description": "One of three emblem keys required to unlock a statue.",
+      "image": "[[File:Jade Emblem.png|32px]]",
+      "name": "Jade Emblem",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Jade Emblem.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Jade Emblem"
+  },
+  {
+    "page_name": "Opal Emblem",
+    "item_description": "One of three emblem keys required to unlock a statue.",
+    "item_name": "Opal Emblem",
+    "item_type": "Basic Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Item",
+      "description": "One of three emblem keys required to unlock a statue.",
+      "image": "[[File:Opal Emblem.png|32px]]",
+      "name": "Opal Emblem",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Opal Emblem.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Opal Emblem"
+  },
+  {
+    "page_name": "Sapphire Emblem",
+    "item_description": "One of three emblem keys required to unlock a statue.",
+    "item_name": "Sapphire Emblem",
+    "item_type": "Basic Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Item",
+      "description": "One of three emblem keys required to unlock a statue.",
+      "image": "[[File:Sapphire Emblem.png|32px]]",
+      "name": "Sapphire Emblem",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Sapphire Emblem.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Sapphire Emblem"
+  },
+  {
+    "page_name": "Saradominist Cloak",
+    "item_description": "Worn by followers of Saradomin, this clock reflects a commitment to justice and the light of reason.",
+    "item_name": "Saradominist Cloak",
+    "item_weight": 0,
+    "page_name_sub": "Saradominist Cloak",
+    "json": {
+      "type": "Basic Item",
+      "description": "Worn by followers of Saradomin, this clock reflects a commitment to justice and the light of reason.",
+      "image": "[[File:Saradominist Cloak.png|32px]]",
+      "name": "Saradominist Cloak",
+      "weight": "0.0",
+      "image_raw": "Saradominist Cloak.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Community Cape",
+    "item_description": "A symbol of dedication and support, this cape is granted to those who leave a lasting mark on the community.",
+    "item_name": "Community Cape",
+    "item_weight": 0,
+    "page_name_sub": "Community Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "A symbol of dedication and support, this cape is granted to those who leave a lasting mark on the community.",
+      "image": "[[File:Community Cape.png|32px]]",
+      "name": "Community Cape",
+      "weight": "0.0",
+      "image_raw": "Community Cape.png"
+    },
+    "item_type": "Basic Item"
   }
 ]
