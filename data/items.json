@@ -45684,6 +45684,26 @@
     "stackLimit": 99
   },
   {
+    "id": "3b31cae7f38f",
+    "name": "Wheat Seeds",
+    "image": "Wheat Seeds.png",
+    "variants": [
+      {
+        "id": "3b31cae7f38f",
+        "name": "Wheat Seeds",
+        "image": "Wheat Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Wheat_Seeds",
+    "weight": 0.2,
+    "stackLimit": 999
+  },
+  {
     "id": "2d2ad3207cbb",
     "name": "Cabbage Seeds",
     "image": "Cabbage Seeds.png",
@@ -45701,7 +45721,167 @@
     "facilities": [],
     "wikiLink": "Cabbage_Seeds",
     "weight": 0.2,
-    "stackLimit": 99
+    "stackLimit": 999
+  },
+  {
+    "id": "1e54f0d4cef3",
+    "name": "Flax Seeds",
+    "image": "Flax Seeds.png",
+    "variants": [
+      {
+        "id": "1e54f0d4cef3",
+        "name": "Flax Seeds",
+        "image": "Flax Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Flax_Seeds",
+    "weight": 0.2,
+    "stackLimit": 999
+  },
+  {
+    "id": "6e709f2dbc69",
+    "name": "Potato Seeds",
+    "image": "Potato Seeds.png",
+    "variants": [
+      {
+        "id": "6e709f2dbc69",
+        "name": "Potato Seeds",
+        "image": "Potato Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Potato_Seeds",
+    "weight": 0.2,
+    "stackLimit": 999
+  },
+  {
+    "id": "38ac51df0cc9",
+    "name": "Redberry Seeds",
+    "image": "Redberry Seeds.png",
+    "variants": [
+      {
+        "id": "38ac51df0cc9",
+        "name": "Redberry Seeds",
+        "image": "Redberry Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Redberry_Seeds",
+    "weight": 0.2,
+    "stackLimit": 999
+  },
+  {
+    "id": "2b8fdf4b680b",
+    "name": "Dwellberry Seeds",
+    "image": "Dwellberry Seeds.png",
+    "variants": [
+      {
+        "id": "2b8fdf4b680b",
+        "name": "Dwellberry Seeds",
+        "image": "Dwellberry Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Dwellberry_Seeds",
+    "weight": 0.2,
+    "stackLimit": 999
+  },
+  {
+    "id": "4c8e9dce94b7",
+    "name": "Tomato Seeds",
+    "image": "Tomato Seeds.png",
+    "variants": [
+      {
+        "id": "4c8e9dce94b7",
+        "name": "Tomato Seeds",
+        "image": "Tomato Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Tomato_Seeds",
+    "weight": 0.2,
+    "stackLimit": 999
+  },
+  {
+    "id": "fb2c2dde7641",
+    "name": "Kwuarm Seeds",
+    "image": "Kwuarm Seeds.png",
+    "variants": [
+      {
+        "id": "fb2c2dde7641",
+        "name": "Kwuarm Seeds",
+        "image": "Kwuarm Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Kwuarm_Seeds",
+    "weight": 0.2,
+    "stackLimit": 999
+  },
+  {
+    "id": "ae97a58f3847",
+    "name": "Marentill Seeds",
+    "image": "Marentill Seeds.png",
+    "variants": [
+      {
+        "id": "ae97a58f3847",
+        "name": "Marentill Seeds",
+        "image": "Marentill Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Marentill_Seeds",
+    "weight": 0.2,
+    "stackLimit": 999
+  },
+  {
+    "id": "292f06ceb12e",
+    "name": "Harralander Seeds",
+    "image": "Harralander Seeds.png",
+    "variants": [
+      {
+        "id": "292f06ceb12e",
+        "name": "Harralander Seeds",
+        "image": "Harralander Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Harralander_Seeds",
+    "weight": 0.2,
+    "stackLimit": 999
   },
   {
     "id": "a88a6422779d",
@@ -45721,7 +45901,27 @@
     "facilities": [],
     "wikiLink": "Ash_Tree_Seed",
     "weight": 0,
-    "stackLimit": 10
+    "stackLimit": 999
+  },
+  {
+    "id": "30772a41ef08",
+    "name": "Cadavaberry Seeds",
+    "image": "Cadavaberry Seeds.png",
+    "variants": [
+      {
+        "id": "30772a41ef08",
+        "name": "Cadavaberry Seeds",
+        "image": "Cadavaberry Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Cadavaberry_Seeds",
+    "weight": 0.2,
+    "stackLimit": 999
   },
   {
     "id": "d0e268428014",
@@ -45741,7 +45941,27 @@
     "facilities": [],
     "wikiLink": "Snapdragon_Seeds",
     "weight": 0.2,
-    "stackLimit": 99
+    "stackLimit": 999
+  },
+  {
+    "id": "199cb1c488fd",
+    "name": "Onion Seeds",
+    "image": "Onion Seeds.png",
+    "variants": [
+      {
+        "id": "199cb1c488fd",
+        "name": "Onion Seeds",
+        "image": "Onion Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Onion_Seeds",
+    "weight": 0.2,
+    "stackLimit": 999
   },
   {
     "id": "914914eab799",
@@ -45961,7 +46181,47 @@
     "facilities": [],
     "wikiLink": "Watermelon_Seeds",
     "weight": 0.2,
-    "stackLimit": 99
+    "stackLimit": 999
+  },
+  {
+    "id": "8a641e77a339",
+    "name": "Pumpkin Seeds",
+    "image": "Pumpkin Seeds.png",
+    "variants": [
+      {
+        "id": "8a641e77a339",
+        "name": "Pumpkin Seeds",
+        "image": "Pumpkin Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pumpkin_Seeds",
+    "weight": 0.2,
+    "stackLimit": 999
+  },
+  {
+    "id": "fdfef5473505",
+    "name": "Swamp Weed Seeds",
+    "image": "Swamp Weed Seeds.png",
+    "variants": [
+      {
+        "id": "fdfef5473505",
+        "name": "Swamp Weed Seeds",
+        "image": "Swamp Weed Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Swamp_Weed_Seeds",
+    "weight": 0.2,
+    "stackLimit": 999
   },
   {
     "id": "83039f9ea6c7",
@@ -45981,7 +46241,7 @@
     "facilities": [],
     "wikiLink": "Oak_Tree_Seed",
     "weight": 0,
-    "stackLimit": 10
+    "stackLimit": 999
   },
   {
     "id": "37cc51fa8fc2",
@@ -46001,7 +46261,27 @@
     "facilities": [],
     "wikiLink": "Willow_Tree_Seed",
     "weight": 0,
-    "stackLimit": 50
+    "stackLimit": 999
+  },
+  {
+    "id": "504d72a6141f",
+    "name": "Corpse Cotton Seeds",
+    "image": "Corpse Cotton Seeds.png",
+    "variants": [
+      {
+        "id": "504d72a6141f",
+        "name": "Corpse Cotton Seeds",
+        "image": "Corpse Cotton Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Corpse_Cotton_Seeds",
+    "weight": 0.2,
+    "stackLimit": 999
   },
   {
     "id": "24a13bcb072e",
@@ -46440,7 +46720,7 @@
     "facilities": [],
     "wikiLink": "Toadflax_Seeds",
     "weight": 0.2,
-    "stackLimit": 99
+    "stackLimit": 999
   },
   {
     "id": "6bd1a1deee1a",
@@ -50601,6 +50881,26 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Sapphire_Emblem",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "4e58090b366f",
+    "name": "Advert-Inna-Bottle",
+    "image": "Advert-Inna-Bottle (Item).png",
+    "variants": [
+      {
+        "id": "4e58090b366f",
+        "name": "Advert-Inna-Bottle",
+        "image": "Advert-Inna-Bottle (Item).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Advert-Inna-Bottle",
     "weight": 0,
     "stackLimit": 99
   }
