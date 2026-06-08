@@ -12107,6 +12107,24 @@
     "page_name_sub": "Corrupted Essence Sample"
   },
   {
+    "page_name": "Black Knight's Fortress Reward Pack",
+    "item_description": "A cloth shoulder bag<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+    "item_name": "Black Knight Fortress Reward Pack",
+    "item_type": "Container",
+    "item_stacklimit": 10,
+    "json": {
+      "type": "Container",
+      "description": "A cloth shoulder bag<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "image": "[[File:Black Knight Fortress Reward Pack.png|32px]]",
+      "name": "Black Knight Fortress Reward Pack",
+      "weight": "1.0",
+      "stacklimit": "10",
+      "image_raw": "Black Knight Fortress Reward Pack.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Black Knight's Fortress Reward Pack"
+  },
+  {
     "page_name": "Mithril Ore",
     "item_description": "Mined from Mithril deposits. It can be smelted in a Furnace.",
     "item_name": "Mithril Ore",
@@ -18137,5 +18155,23 @@
     },
     "item_weight": 0,
     "page_name_sub": "Advert-Inna-Bottle"
+  },
+  {
+    "page_name": "Portal Reward Pack",
+    "item_description": "",
+    "item_name": "Portal Reward Pack",
+    "item_type": "Container",
+    "item_stacklimit": 10,
+    "json": {
+      "type": "Container",
+      "description": "",
+      "image": "[[File:Portal Reward Pack.png|32px]]",
+      "name": "Portal Reward Pack",
+      "weight": "1.0",
+      "stacklimit": "10",
+      "image_raw": "Portal Reward Pack.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Portal Reward Pack"
   }
 ]

@@ -47750,6 +47750,26 @@
     "stackLimit": 99
   },
   {
+    "id": "73909230090d",
+    "name": "Black Knight's Fortress Reward Pack",
+    "image": "Black Knight Fortress Reward Pack.png",
+    "variants": [
+      {
+        "id": "4ca2428479c4",
+        "name": "Black Knight Fortress Reward Pack",
+        "image": "Black Knight Fortress Reward Pack.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Black_Knight's_Fortress_Reward_Pack",
+    "weight": 1,
+    "stackLimit": 10
+  },
+  {
     "id": "116469a2eea0",
     "name": "Mithril Ore",
     "image": "Mithril Ore.png",
@@ -50903,5 +50923,25 @@
     "wikiLink": "Advert-Inna-Bottle",
     "weight": 0,
     "stackLimit": 99
+  },
+  {
+    "id": "8a44ac3b0a33",
+    "name": "Portal Reward Pack",
+    "image": "Portal Reward Pack.png",
+    "variants": [
+      {
+        "id": "8a44ac3b0a33",
+        "name": "Portal Reward Pack",
+        "image": "Portal Reward Pack.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Portal_Reward_Pack",
+    "weight": 1,
+    "stackLimit": 10
   }
 ]
