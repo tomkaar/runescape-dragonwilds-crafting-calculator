@@ -50943,5 +50943,25 @@
     "wikiLink": "Portal_Reward_Pack",
     "weight": 1,
     "stackLimit": 10
+  },
+  {
+    "id": "c960466f7e2c",
+    "name": "Red Dragonhide Armour",
+    "image": "[[File:Red Dragonhide Armour.png]]",
+    "variants": [
+      {
+        "id": "c960466f7e2c",
+        "name": "Red Dragonhide Armour",
+        "image": "[[File:Red Dragonhide Armour.png]]",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Red_Dragonhide_Armour",
+    "weight": 0,
+    "stackLimit": 0
   }
 ]

@@ -18173,5 +18173,27 @@
     },
     "item_weight": 1,
     "page_name_sub": "Portal Reward Pack"
+  },
+  {
+    "page_name": "Red Dragonhide Armour",
+    "item_description": "",
+    "item_name": "Red Dragonhide Armour",
+    "item_type": "Ranged Armour",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Ranged Armour",
+      "description": "",
+      "health": "",
+      "weight": "",
+      "image": "[[File:Red Dragonhide Armour.png|32px]]",
+      "name": "Red Dragonhide Armour",
+      "hydration": "",
+      "sustenance": "",
+      "compostvalue": "",
+      "stacklimit": "",
+      "image_raw": "[[File:Red Dragonhide Armour.png]]"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Red Dragonhide Armour"
   }
 ]
