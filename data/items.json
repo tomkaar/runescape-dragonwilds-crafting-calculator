@@ -23434,7 +23434,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Farming"
+    ],
     "facilities": [
       "Stone Range",
       "Cooking Range"
@@ -24377,12 +24379,12 @@
     "image": "Steel Platebody.png",
     "variants": [
       {
-        "id": "3405e951cf56",
+        "id": "948de8f452c5",
         "name": "Steel Platebody",
         "image": "Steel Platebody.png",
         "variantName": null,
         "recipe": {
-          "id": "fe26e0100551",
+          "id": "47a17e1e2d31",
           "facility": "Smithing Anvil",
           "materials": [
             {
@@ -24403,7 +24405,7 @@
             },
             {
               "itemId": "9ca5b1c17952",
-              "quantity": 6
+              "quantity": 1
             }
           ],
           "quantity": 1
@@ -25504,9 +25506,7 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
       "Crafting Table"
     ],
@@ -26069,7 +26069,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Smithing Anvil"
     ],
@@ -30370,7 +30372,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Smithing Anvil"
     ],
@@ -30931,7 +30935,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Smithing Anvil"
     ],
@@ -30974,7 +30980,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Smithing Anvil"
     ],
@@ -31013,7 +31021,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Smithing Anvil"
     ],
@@ -32075,7 +32085,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Smithing Anvil"
     ],
@@ -32118,7 +32130,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Smithing Anvil"
     ],
@@ -32161,7 +32175,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Smithing Anvil"
     ],
@@ -33397,13 +33413,13 @@
     "image": "Black Crossbow Limbs.png",
     "variants": [
       {
-        "id": "ce119ecbb8a2",
+        "id": "20c53cfb05cd",
         "name": "Black Crossbow Limbs",
         "image": "Black Crossbow Limbs.png",
         "variantName": null,
         "recipe": {
-          "id": "1babd1b79c8f",
-          "facility": "Fletching Bench",
+          "id": "4dcda3d5e508",
+          "facility": "Smithing Anvil",
           "materials": [
             {
               "itemId": "3e7d4a89b0dc",
@@ -33419,7 +33435,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Fletching Bench"
+      "Smithing Anvil"
     ],
     "wikiLink": "Black_Crossbow_Limbs",
     "weight": 4.5
