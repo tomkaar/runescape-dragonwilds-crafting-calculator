@@ -2081,13 +2081,13 @@
   },
   {
     "page_name": "Reinforced Helmet",
-    "item_description": "Protect your noggin with this basic headgear made from Leather and Bone.",
+    "item_description": "Protect your noggin with this basic headgear made from leather and bone.",
     "item_name": "Reinforced Helmet",
     "item_type": "Melee Armour",
     "page_name_sub": "Reinforced Helmet",
     "json": {
       "type": "Melee Armour",
-      "description": "Protect your noggin with this basic headgear made from Leather and Bone.",
+      "description": "Protect your noggin with this basic headgear made from leather and bone.",
       "repaircost": "1 [[Animal Bone]]",
       "image": "[[File:Reinforced Helmet.png|32px]]",
       "name": "Reinforced Helmet",

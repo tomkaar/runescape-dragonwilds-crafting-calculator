@@ -616,7 +616,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "15"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -660,7 +660,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "15"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -846,7 +846,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "40"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -1889,7 +1889,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "15"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -2742,7 +2742,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "15"
+          "experience": "10"
         }
       ],
       "outputs": [
@@ -2786,7 +2786,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "10"
         }
       ],
       "outputs": [
@@ -4095,7 +4095,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "5"
         }
       ],
       "outputs": [
@@ -4139,7 +4139,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "5"
         }
       ],
       "outputs": [
@@ -4582,7 +4582,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -4644,7 +4644,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -4768,7 +4768,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -4821,7 +4821,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "15"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -4963,7 +4963,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -5410,7 +5410,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "8"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -5472,7 +5472,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "5"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -5578,7 +5578,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -5693,7 +5693,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -6091,7 +6091,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "10"
         }
       ],
       "outputs": [
@@ -6135,7 +6135,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "10"
         }
       ],
       "outputs": [
@@ -7763,7 +7763,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -7923,7 +7923,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "15"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -8231,7 +8231,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -8302,7 +8302,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -8412,7 +8412,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -8474,7 +8474,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -8527,7 +8527,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -8660,7 +8660,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -8766,7 +8766,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -8828,7 +8828,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -8899,7 +8899,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -8970,7 +8970,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -9094,7 +9094,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -9253,7 +9253,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "5"
         }
       ],
       "outputs": [
@@ -9297,7 +9297,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "5"
         }
       ],
       "outputs": [
@@ -10308,7 +10308,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "25"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -11889,7 +11889,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -12249,7 +12249,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -12444,7 +12444,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -12657,7 +12657,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -13064,17 +13064,17 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "40"
         }
       ],
       "outputs": [
         "Chieftain's Blade"
       ],
       "output": {
-        "quantity": "1",
+        "quantity": 1,
         "name": "Chieftain's Blade",
         "link": "Chieftain's Blade",
-        "qty": "1",
+        "qty": 1,
         "item": "Chieftain's Blade",
         "image": "[[File:Chieftain's Blade.png|30px|link=Chieftain's Blade]]"
       }
@@ -33195,7 +33195,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "10"
         }
       ],
       "outputs": [
@@ -33337,7 +33337,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "150"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -33705,7 +33705,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -33864,7 +33864,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -34156,7 +34156,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "8"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -34209,7 +34209,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "8"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -34262,7 +34262,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "8"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -34315,7 +34315,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "8"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -34368,7 +34368,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "8"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -34421,7 +34421,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "8"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -34474,7 +34474,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "8"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -37778,6 +37778,9 @@
       "Animal Bone",
       "Clean Water"
     ],
+    "uses_skill": [
+      "Farming"
+    ],
     "uses_facility": [
       "Stone Range"
     ],
@@ -37809,7 +37812,12 @@
           "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Farming",
+          "experience": "2"
+        }
+      ],
       "outputs": [
         "Plant Cure"
       ],
@@ -37831,6 +37839,9 @@
       "Weeds",
       "Animal Bone",
       "Clean Water"
+    ],
+    "uses_skill": [
+      "Farming"
     ],
     "uses_facility": [
       "Cooking Range"
@@ -37863,7 +37874,12 @@
           "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Farming",
+          "experience": "2"
+        }
+      ],
       "outputs": [
         "Plant Cure"
       ],
@@ -38804,7 +38820,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "15"
         }
       ],
       "outputs": [
@@ -38857,7 +38873,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "10"
         }
       ],
       "outputs": [
@@ -38910,7 +38926,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "15"
         }
       ],
       "outputs": [
@@ -38990,7 +39006,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -39377,10 +39393,10 @@
           "image": "[[File:Sacred Oil.png|30px|link=Sacred Oil]]"
         },
         {
-          "quantity": "6",
+          "quantity": 1,
           "name": "Vault Shard",
           "link": "Vault Shard",
-          "qty": "6",
+          "qty": 1,
           "item": "Vault Shard",
           "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
         }
@@ -39388,7 +39404,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -39468,7 +39484,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -40642,7 +40658,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -41044,9 +41060,6 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "Tattered Time-Lost Cloth"
     ],
@@ -41057,12 +41070,7 @@
       "recipe": "Tattered Time-Lost Cloth",
       "facility": "Crafting Table",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "40"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Shadowscale Cape"
       ],
@@ -41144,7 +41152,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "100"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -41877,6 +41885,9 @@
       "Draconic Leather",
       "Vault Shard"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
@@ -41908,7 +41919,12 @@
           "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
       "outputs": [
         "Steel Shield"
       ],
@@ -42119,7 +42135,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -42625,7 +42641,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "150"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -43381,7 +43397,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -43549,7 +43565,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -43805,7 +43821,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -43889,7 +43905,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -43973,7 +43989,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -44361,7 +44377,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -44445,7 +44461,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -44529,7 +44545,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -44706,7 +44722,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -44799,7 +44815,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -45507,7 +45523,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "8"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -47765,7 +47781,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -48296,7 +48312,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -48321,6 +48337,9 @@
       "Cursed Leather",
       "Mystic Cloth",
       "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Smithing Anvil"
@@ -48361,7 +48380,12 @@
           "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
       "outputs": [
         "Mithril Helmet"
       ],
@@ -48594,7 +48618,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -48647,7 +48671,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -49168,6 +49192,9 @@
       "Mystic Cloth",
       "Demonic Oil"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
@@ -49207,7 +49234,12 @@
           "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
       "outputs": [
         "Mithril Platebody"
       ],
@@ -49230,6 +49262,9 @@
       "Cursed Leather",
       "Mystic Cloth",
       "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Smithing Anvil"
@@ -49270,7 +49305,12 @@
           "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
       "outputs": [
         "Mithril Platelegs"
       ],
@@ -49292,6 +49332,9 @@
       "Mithril Bar",
       "Cursed Leather",
       "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Smithing Anvil"
@@ -49324,7 +49367,12 @@
           "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
       "outputs": [
         "Mithril Shield"
       ],
@@ -49406,17 +49454,17 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
         "Black Knight Platebody"
       ],
       "output": {
-        "quantity": "1",
+        "quantity": 1,
         "name": "Black Knight Platebody",
         "link": "Black Knight Platebody",
-        "qty": "1",
+        "qty": 1,
         "item": "Black Knight Platebody",
         "image": "[[File:Black Knight Platebody.png|30px|link=Black Knight Platebody]]"
       }
@@ -49490,17 +49538,17 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
         "Black Knight Platelegs"
       ],
       "output": {
-        "quantity": "1",
+        "quantity": 1,
         "name": "Black Knight Platelegs",
         "link": "Black Knight Platelegs",
-        "qty": "1",
+        "qty": 1,
         "item": "Black Knight Platelegs",
         "image": "[[File:Black Knight Platelegs.png|30px|link=Black Knight Platelegs]]"
       }
@@ -50428,7 +50476,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -50570,7 +50618,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -50641,7 +50689,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -50959,6 +51007,9 @@
       "Infernal Fragment",
       "Demonic Oil"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Smithing Anvil"
     ],
@@ -50998,7 +51049,12 @@
           "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
       "outputs": [
         "Mystic Hat"
       ],
@@ -51021,6 +51077,9 @@
       "Cursed Leather",
       "Infernal Fragment",
       "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Smithing Anvil"
@@ -51061,7 +51120,12 @@
           "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
       "outputs": [
         "Mystic Robes"
       ],
@@ -51084,6 +51148,9 @@
       "Cursed Leather",
       "Infernal Fragment",
       "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
       "Smithing Anvil"
@@ -51124,7 +51191,12 @@
           "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
       "outputs": [
         "Mystic Robe Legs"
       ],
@@ -51197,7 +51269,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -51272,17 +51344,17 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "100"
         }
       ],
       "outputs": [
         "Black Sword"
       ],
       "output": {
-        "quantity": "1",
+        "quantity": 1,
         "name": "Black Sword",
         "link": "Black Sword",
-        "qty": "1",
+        "qty": 1,
         "item": "Black Sword",
         "image": "[[File:Black Sword.png|30px|link=Black Sword]]"
       }
@@ -51653,17 +51725,17 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "100"
         }
       ],
       "outputs": [
         "Black Greataxe"
       ],
       "output": {
-        "quantity": "1",
+        "quantity": 1,
         "name": "Black Greataxe",
         "link": "Black Greataxe",
-        "qty": "1",
+        "qty": 1,
         "item": "Black Greataxe",
         "image": "[[File:Black Greataxe.png|30px|link=Black Greataxe]]"
       }
@@ -52236,7 +52308,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "150"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -52280,7 +52352,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -52632,7 +52704,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "60"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -52867,10 +52939,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Fletching Bench"
+      "Smithing Anvil"
     ],
     "json": {
-      "facility": "Fletching Bench",
+      "facility": "Smithing Anvil",
       "materials": [
         {
           "quantity": "2",
@@ -52959,7 +53031,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -53034,7 +53106,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -54663,7 +54735,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "8"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -54716,7 +54788,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "8"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -54769,7 +54841,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "8"
+          "experience": "40"
         }
       ],
       "outputs": [
