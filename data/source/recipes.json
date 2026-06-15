@@ -3365,10 +3365,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Fletching Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Fletching Bench",
       "materials": [
         {
           "quantity": "8",
@@ -26196,10 +26196,14 @@
     "uses_skill": [
       "Construction"
     ],
+    "uses_recipe": [
+      "PLAN: Potted Onion"
+    ],
     "uses_facility": [
       "Build Menu"
     ],
     "json": {
+      "recipe": "PLAN: Potted Onion",
       "facility": "Build Menu",
       "materials": [
         {
@@ -26249,10 +26253,14 @@
     "uses_skill": [
       "Construction"
     ],
+    "uses_recipe": [
+      "PLAN: Potted Dwellberry Bush"
+    ],
     "uses_facility": [
       "Build Menu"
     ],
     "json": {
+      "recipe": "PLAN: Potted Dwellberry Bush",
       "facility": "Build Menu",
       "materials": [
         {
@@ -26302,10 +26310,14 @@
     "uses_skill": [
       "Construction"
     ],
+    "uses_recipe": [
+      "PLAN: Potted Redberry Bush"
+    ],
     "uses_facility": [
       "Build Menu"
     ],
     "json": {
+      "recipe": "PLAN: Potted Redberry Bush",
       "facility": "Build Menu",
       "materials": [
         {
