@@ -2201,13 +2201,13 @@
     "image": "Blightwood Shortbow.png",
     "variants": [
       {
-        "id": "e30819db6e2a",
+        "id": "f83f0d23ed23",
         "name": "Blightwood Shortbow",
         "image": "Blightwood Shortbow.png",
         "variantName": null,
         "recipe": {
-          "id": "0df435029dc9",
-          "facility": "Smithing Anvil",
+          "id": "b595003273f0",
+          "facility": "Fletching Bench",
           "materials": [
             {
               "itemId": "ec1abb86508c",
@@ -2239,7 +2239,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Fletching Bench"
     ],
     "wikiLink": "Blightwood_Shortbow",
     "weight": 15
@@ -15477,7 +15477,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "PLAN: Potted Onion"
+        ]
       }
     ],
     "skills": [
@@ -15513,7 +15515,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "PLAN: Potted Dwellberry Bush"
+        ]
       }
     ],
     "skills": [
@@ -15549,7 +15553,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "PLAN: Potted Redberry Bush"
+        ]
       }
     ],
     "skills": [
