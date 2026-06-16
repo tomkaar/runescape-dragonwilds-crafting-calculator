@@ -6769,13 +6769,13 @@
   },
   {
     "page_name": "Blurite Bolts",
-    "item_description": "Crossbow bolts made from blurite",
+    "item_description": "Crossbow Bolts made from Blurite.",
     "item_name": "Blurite Bolts",
     "item_type": "Ammo",
     "item_stacklimit": 999,
     "json": {
       "type": "Ammo",
-      "description": "Crossbow bolts made from blurite",
+      "description": "Crossbow Bolts made from Blurite.",
       "image": "[[File:Blurite Bolts.png|32px]]",
       "name": "Blurite Bolts",
       "weight": "0.0",
@@ -18195,5 +18195,23 @@
     },
     "item_weight": 0,
     "page_name_sub": "Red Dragonhide Armour"
+  },
+  {
+    "page_name": "Scarecrow's Key",
+    "item_description": "A key from a scarecrow in Ghornfell.",
+    "item_name": "Scarecrow's Key",
+    "item_type": "Quest Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Quest Item",
+      "description": "A key from a scarecrow in Ghornfell.",
+      "image": "[[File:Scarecrow's Key.png|32px]]",
+      "name": "Scarecrow's Key",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Scarecrow's Key.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Scarecrow's Key"
   }
 ]

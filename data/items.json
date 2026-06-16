@@ -50985,5 +50985,25 @@
     "wikiLink": "Red_Dragonhide_Armour",
     "weight": 0,
     "stackLimit": 0
+  },
+  {
+    "id": "c22fceaec8f4",
+    "name": "Scarecrow's Key",
+    "image": "Scarecrow's Key.png",
+    "variants": [
+      {
+        "id": "c22fceaec8f4",
+        "name": "Scarecrow's Key",
+        "image": "Scarecrow's Key.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Scarecrow's_Key",
+    "weight": 0,
+    "stackLimit": 99
   }
 ]
