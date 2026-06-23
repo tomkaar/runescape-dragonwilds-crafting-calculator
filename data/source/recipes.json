@@ -41839,10 +41839,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Blacksmith Bench"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Blacksmith Bench",
       "materials": [
         {
           "quantity": "1",
@@ -65718,6 +65718,686 @@
     },
     "output": [
       "Community Cape"
+    ]
+  },
+  {
+    "uses_material": [
+      "Kalphite Ichor"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Kiln"
+    ],
+    "json": {
+      "facility": "Kiln",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Kalphite Ichor",
+          "link": "Kalphite Ichor",
+          "qty": "3",
+          "item": "Kalphite Ichor",
+          "image": "[[File:Kalphite Ichor.png|30px|link=Kalphite Ichor]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Acrid Adhesive"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Acrid Adhesive",
+        "link": "Acrid Adhesive",
+        "qty": 1,
+        "item": "Acrid Adhesive",
+        "image": "[[File:Acrid Adhesive.png|30px|link=Acrid Adhesive]]"
+      }
+    },
+    "output": [
+      "Acrid Adhesive"
+    ]
+  },
+  {
+    "uses_material": [
+      "Kalphite Shell Fragments",
+      "Acrid Adhesive"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Tannery"
+    ],
+    "json": {
+      "facility": "Tannery",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Kalphite Shell Fragments",
+          "link": "Kalphite Shell Fragments",
+          "qty": "3",
+          "item": "Kalphite Shell Fragments",
+          "image": "[[File:Kalphite Shell Fragments.png|30px|link=Kalphite Shell Fragments]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Acrid Adhesive",
+          "link": "Acrid Adhesive",
+          "qty": 1,
+          "item": "Acrid Adhesive",
+          "image": "[[File:Acrid Adhesive.png|30px|link=Acrid Adhesive]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Kalphite Shell"
+      ],
+      "output": {
+        "quantity": "2",
+        "name": "Kalphite Shell",
+        "link": "Kalphite Shell",
+        "qty": "2",
+        "item": "Kalphite Shell",
+        "image": "[[File:Kalphite Shell.png|30px|link=Kalphite Shell]]"
+      }
+    },
+    "output": [
+      "Kalphite Shell"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar"
+    ],
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "facility": "",
+      "materials": [
+        {
+          "quantity": "",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Adamant Pickaxe"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Adamant Pickaxe",
+        "link": "Adamant Pickaxe",
+        "qty": 1,
+        "item": "Adamant Pickaxe",
+        "image": "[[File:Adamant Pickaxe.png|30px|link=Adamant Pickaxe]]"
+      }
+    },
+    "output": [
+      "Adamant Pickaxe"
+    ]
+  },
+  {
+    "uses_material": [
+      "Dihydrogen Monoxide",
+      "Ground Gypsum",
+      "Acrid Adhesive"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Dihydrogen Monoxide",
+          "link": "Dihydrogen Monoxide",
+          "qty": 1,
+          "item": "Dihydrogen Monoxide",
+          "image": "[[File:Dihydrogen Monoxide.png|30px|link=Dihydrogen Monoxide]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Ground Gypsum",
+          "link": "Ground Gypsum",
+          "qty": "3",
+          "item": "Ground Gypsum",
+          "image": "[[File:Ground Gypsum.png|30px|link=Ground Gypsum]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Acrid Adhesive",
+          "link": "Acrid Adhesive",
+          "qty": 1,
+          "item": "Acrid Adhesive",
+          "image": "[[File:Acrid Adhesive.png|30px|link=Acrid Adhesive]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Gypsum Wax"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Gypsum Wax",
+        "link": "Gypsum Wax",
+        "qty": 1,
+        "item": "Gypsum Wax",
+        "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+      }
+    },
+    "output": [
+      "Gypsum Wax"
+    ]
+  },
+  {
+    "uses_material": [
+      "Gypsum"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Grindstone"
+    ],
+    "json": {
+      "facility": "Grindstone",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Gypsum",
+          "link": "Gypsum",
+          "qty": 1,
+          "item": "Gypsum",
+          "image": "[[File:Gypsum.png|30px|link=Gypsum]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Ground Gypsum"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Ground Gypsum",
+        "link": "Ground Gypsum",
+        "qty": 1,
+        "item": "Ground Gypsum",
+        "image": "[[File:Ground Gypsum.png|30px|link=Ground Gypsum]]"
+      }
+    },
+    "output": [
+      "Ground Gypsum"
+    ]
+  },
+  {
+    "uses_material": [
+      "Desert Weed"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Spinning Wheel"
+    ],
+    "json": {
+      "facility": "Spinning Wheel",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Desert Weed",
+          "link": "Desert Weed",
+          "qty": "3",
+          "item": "Desert Weed",
+          "image": "[[File:Desert Weed.png|30px|link=Desert Weed]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Desert Thread"
+      ],
+      "output": {
+        "quantity": "3",
+        "name": "Desert Thread",
+        "link": "Desert Thread",
+        "qty": "3",
+        "item": "Desert Thread",
+        "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+      }
+    },
+    "output": [
+      "Desert Thread"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fibrous Pipe Cactus"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Tannery"
+    ],
+    "json": {
+      "facility": "Tannery",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Fibrous Pipe Cactus",
+          "link": "Fibrous Pipe Cactus",
+          "qty": 1,
+          "item": "Fibrous Pipe Cactus",
+          "image": "[[File:Fibrous Pipe Cactus.png|30px|link=Fibrous Pipe Cactus]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Cactus Fibres"
+      ],
+      "output": {
+        "quantity": "3",
+        "name": "Cactus Fibres",
+        "link": "Cactus Fibres",
+        "qty": "3",
+        "item": "Cactus Fibres",
+        "image": "[[File:Cactus Fibres.png|30px|link=Cactus Fibres]]"
+      }
+    },
+    "output": [
+      "Cactus Fibres"
+    ]
+  },
+  {
+    "uses_material": [
+      "Desert Thread",
+      "Cactus Fibres"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Loom"
+    ],
+    "json": {
+      "facility": "Loom",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "3",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Cactus Fibres",
+          "link": "Cactus Fibres",
+          "qty": "3",
+          "item": "Cactus Fibres",
+          "image": "[[File:Cactus Fibres.png|30px|link=Cactus Fibres]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Desert Cloth"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Desert Cloth",
+        "link": "Desert Cloth",
+        "qty": "1",
+        "item": "Desert Cloth",
+        "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+      }
+    },
+    "output": [
+      "Desert Cloth"
+    ]
+  },
+  {
+    "uses_material": [
+      "Desert Cloth",
+      "Shimmerscale Powder"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Loom"
+    ],
+    "json": {
+      "facility": "Loom",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": 1,
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        },
+        {
+          "quantity": "9",
+          "name": "Shimmerscale Powder",
+          "link": "Shimmerscale Powder",
+          "qty": "9",
+          "item": "Shimmerscale Powder",
+          "image": "[[File:Shimmerscale Powder.png|30px|link=Shimmerscale Powder]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Infinity Cloth"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Infinity Cloth",
+        "link": "Infinity Cloth",
+        "qty": "1",
+        "item": "Infinity Cloth",
+        "image": "[[File:Infinity Cloth.png|30px|link=Infinity Cloth]]"
+      }
+    },
+    "output": [
+      "Infinity Cloth"
+    ]
+  },
+  {
+    "uses_material": [
+      "Kalphite Wing"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Grindstone"
+    ],
+    "json": {
+      "facility": "Grindstone",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Kalphite Wing",
+          "link": "Kalphite Wing",
+          "qty": 1,
+          "item": "Kalphite Wing",
+          "image": "[[File:Kalphite Wing.png|30px|link=Kalphite Wing]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Shimmerscale Powder"
+      ],
+      "output": {
+        "quantity": "2",
+        "name": "Shimmerscale Powder",
+        "link": "Shimmerscale Powder",
+        "qty": "2",
+        "item": "Shimmerscale Powder",
+        "image": "[[File:Shimmerscale Powder.png|30px|link=Shimmerscale Powder]]"
+      }
+    },
+    "output": [
+      "Shimmerscale Powder"
+    ]
+  },
+  {
+    "uses_material": [
+      "Greater Kalphite Wing"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Grindstone"
+    ],
+    "json": {
+      "facility": "Grindstone",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Greater Kalphite Wing",
+          "link": "Greater Kalphite Wing",
+          "qty": 1,
+          "item": "Greater Kalphite Wing",
+          "image": "[[File:Greater Kalphite Wing.png|30px|link=Greater Kalphite Wing]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Shimmerscale Powder"
+      ],
+      "output": {
+        "quantity": "3",
+        "name": "Shimmerscale Powder",
+        "link": "Shimmerscale Powder",
+        "qty": "3",
+        "item": "Shimmerscale Powder",
+        "image": "[[File:Shimmerscale Powder.png|30px|link=Shimmerscale Powder]]"
+      }
+    },
+    "output": [
+      "Shimmerscale Powder"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stunted Kalphite Wing"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Grindstone"
+    ],
+    "json": {
+      "facility": "Grindstone",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Stunted Kalphite Wing",
+          "link": "Stunted Kalphite Wing",
+          "qty": 1,
+          "item": "Stunted Kalphite Wing",
+          "image": "[[File:Stunted Kalphite Wing.png|30px|link=Stunted Kalphite Wing]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Shimmerscale Powder"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Shimmerscale Powder",
+        "link": "Shimmerscale Powder",
+        "qty": 1,
+        "item": "Shimmerscale Powder",
+        "image": "[[File:Shimmerscale Powder.png|30px|link=Shimmerscale Powder]]"
+      }
+    },
+    "output": [
+      "Shimmerscale Powder"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar",
+      "Maple Logs",
+      "Desert Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Smithing Anvil"
+    ],
+    "json": {
+      "facility": "Smithing Anvil",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "8",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "6",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "4",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Adamant Logging Axe"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Adamant Logging Axe",
+        "link": "Adamant Logging Axe",
+        "qty": 1,
+        "item": "Adamant Logging Axe",
+        "image": "[[File:Adamant Logging Axe.png|30px|link=Adamant Logging Axe]]"
+      }
+    },
+    "output": [
+      "Adamant Logging Axe"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Ore",
+      "Coal"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blast Furnace"
+    ],
+    "json": {
+      "facility": "Blast Furnace",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Adamant Ore",
+          "link": "Adamant Ore",
+          "qty": "3",
+          "item": "Adamant Ore",
+          "image": "[[File:Adamant Ore.png|30px|link=Adamant Ore]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Coal",
+          "link": "Coal",
+          "qty": "3",
+          "item": "Coal",
+          "image": "[[File:Coal.png|30px|link=Coal]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Adamant Bar"
+      ],
+      "output": {
+        "quantity": "2",
+        "name": "Adamant Bar",
+        "link": "Adamant Bar",
+        "qty": "2",
+        "item": "Adamant Bar",
+        "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+      }
+    },
+    "output": [
+      "Adamant Bar"
     ]
   }
 ]

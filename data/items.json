@@ -21790,7 +21790,7 @@
       "Cooking Range"
     ],
     "wikiLink": "Sweet_Veg_Ball",
-    "weight": 0.4,
+    "weight": 0.5,
     "stackLimit": 50
   },
   {
@@ -26007,13 +26007,13 @@
     "image": "Fuel Pellet.png",
     "variants": [
       {
-        "id": "a3f251677fcc",
+        "id": "8e744a00d903",
         "name": "Fuel Pellet",
         "image": "Fuel Pellet.png",
         "variantName": null,
         "recipe": {
-          "id": "8c0d652a31fd",
-          "facility": "Crafting Table",
+          "id": "abb554b8f4c6",
+          "facility": "Blacksmith Bench",
           "materials": [
             {
               "itemId": "c8dc4902a8c3",
@@ -26037,7 +26037,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Blacksmith Bench"
     ],
     "wikiLink": "Fuel_Pellet",
     "weight": 1,
@@ -41939,6 +41939,476 @@
     "weight": 0
   },
   {
+    "id": "9ac3057ca866",
+    "name": "Acrid Adhesive",
+    "image": "Acrid Adhesive.png",
+    "variants": [
+      {
+        "id": "570ede21eda8",
+        "name": "Acrid Adhesive",
+        "image": "Acrid Adhesive.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c8e450510f02",
+          "facility": "Kiln",
+          "materials": [
+            {
+              "itemId": "2df2148f258c",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Kiln"
+    ],
+    "wikiLink": "Acrid_Adhesive",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "aca722a510ea",
+    "name": "Kalphite Shell",
+    "image": "Kalphite Shell.png",
+    "variants": [
+      {
+        "id": "0a81308d4280",
+        "name": "Kalphite Shell",
+        "image": "Kalphite Shell.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5ee2b603a276",
+          "facility": "Tannery",
+          "materials": [
+            {
+              "itemId": "9ac3057ca866",
+              "quantity": 1
+            },
+            {
+              "itemId": "5f77b2e367a5",
+              "quantity": 3
+            }
+          ],
+          "quantity": 2
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Tannery"
+    ],
+    "wikiLink": "Kalphite_Shell",
+    "weight": 0.3,
+    "stackLimit": 99
+  },
+  {
+    "id": "95dd22eb76c2",
+    "name": "Adamant Pickaxe",
+    "image": "Adamant Pickaxe.png",
+    "variants": [
+      {
+        "id": "47d008fd24e7",
+        "name": "Adamant Pickaxe",
+        "image": "Adamant Pickaxe.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8081cbe0206c",
+          "facility": "",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Adamant_Pickaxe",
+    "weight": 0
+  },
+  {
+    "id": "463425cf6f65",
+    "name": "Gypsum Wax",
+    "image": "Gypsum Wax.png",
+    "variants": [
+      {
+        "id": "f7dbde402115",
+        "name": "Gypsum Wax",
+        "image": "Gypsum Wax.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0479d0a6592c",
+          "facility": "Brewing Cauldron",
+          "materials": [
+            {
+              "itemId": "9ac3057ca866",
+              "quantity": 1
+            },
+            {
+              "itemId": "8a6e5e75e3a4",
+              "quantity": 1
+            },
+            {
+              "itemId": "6b8dec62fdd7",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Gypsum_Wax",
+    "weight": 0.5,
+    "stackLimit": 50
+  },
+  {
+    "id": "6b8dec62fdd7",
+    "name": "Ground Gypsum",
+    "image": "Ground Gypsum.png",
+    "variants": [
+      {
+        "id": "9853a1b3c0f8",
+        "name": "Ground Gypsum",
+        "image": "Ground Gypsum.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ea568562f2a2",
+          "facility": "Grindstone",
+          "materials": [
+            {
+              "itemId": "00472783d4f9",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Grindstone"
+    ],
+    "wikiLink": "Ground_Gypsum",
+    "weight": 0.2,
+    "stackLimit": 99
+  },
+  {
+    "id": "9e1cedfc6c7e",
+    "name": "Desert Thread",
+    "image": "Desert Thread.png",
+    "variants": [
+      {
+        "id": "49d60817eb6c",
+        "name": "Desert Thread",
+        "image": "Desert Thread.png",
+        "variantName": null,
+        "recipe": {
+          "id": "3586be99c659",
+          "facility": "Spinning Wheel",
+          "materials": [
+            {
+              "itemId": "12febbdbde6c",
+              "quantity": 3
+            }
+          ],
+          "quantity": 3
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Spinning Wheel"
+    ],
+    "wikiLink": "Desert_Thread",
+    "weight": 0.6,
+    "stackLimit": 50
+  },
+  {
+    "id": "626235ff5645",
+    "name": "Cactus Fibres",
+    "image": "Cactus Fibres.png",
+    "variants": [
+      {
+        "id": "8727b0966d5d",
+        "name": "Cactus Fibres",
+        "image": "Cactus Fibres.png",
+        "variantName": null,
+        "recipe": {
+          "id": "bea84afa8bb2",
+          "facility": "Tannery",
+          "materials": [
+            {
+              "itemId": "ad8d315f027d",
+              "quantity": 1
+            }
+          ],
+          "quantity": 3
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Tannery"
+    ],
+    "wikiLink": "Cactus_Fibres",
+    "weight": 0.3,
+    "stackLimit": 50
+  },
+  {
+    "id": "7b98f89bbc65",
+    "name": "Desert Cloth",
+    "image": "Desert Cloth.png",
+    "variants": [
+      {
+        "id": "8dfe527a1963",
+        "name": "Desert Cloth",
+        "image": "Desert Cloth.png",
+        "variantName": null,
+        "recipe": {
+          "id": "11fc5a35b6be",
+          "facility": "Loom",
+          "materials": [
+            {
+              "itemId": "626235ff5645",
+              "quantity": 3
+            },
+            {
+              "itemId": "9e1cedfc6c7e",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Loom"
+    ],
+    "wikiLink": "Desert_Cloth",
+    "weight": 2,
+    "stackLimit": 50
+  },
+  {
+    "id": "543684a14c55",
+    "name": "Infinity Cloth",
+    "image": "Infinity Cloth.png",
+    "variants": [
+      {
+        "id": "a4b38d6f0b23",
+        "name": "Infinity Cloth",
+        "image": "Infinity Cloth.png",
+        "variantName": null,
+        "recipe": {
+          "id": "bec9c70e68e0",
+          "facility": "Loom",
+          "materials": [
+            {
+              "itemId": "7b98f89bbc65",
+              "quantity": 1
+            },
+            {
+              "itemId": "387cedd28bda",
+              "quantity": 9
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Loom"
+    ],
+    "wikiLink": "Infinity_Cloth",
+    "weight": 0.6,
+    "stackLimit": 50
+  },
+  {
+    "id": "387cedd28bda",
+    "name": "Shimmerscale Powder",
+    "image": "Shimmerscale Powder.png",
+    "variants": [
+      {
+        "id": "b28f4d2d7aac",
+        "name": "Shimmerscale Powder",
+        "image": "Shimmerscale Powder.png",
+        "variantName": null,
+        "recipe": {
+          "id": "329f170b649b",
+          "facility": "Grindstone",
+          "materials": [
+            {
+              "itemId": "b6b10c2ec14d",
+              "quantity": 1
+            }
+          ],
+          "quantity": 2
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "dfae238555dc",
+        "name": "Shimmerscale Powder",
+        "image": "Shimmerscale Powder.png",
+        "variantName": null,
+        "recipe": {
+          "id": "666b884ba5ec",
+          "facility": "Grindstone",
+          "materials": [
+            {
+              "itemId": "f3d092709153",
+              "quantity": 1
+            }
+          ],
+          "quantity": 3
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "aca466722745",
+        "name": "Shimmerscale Powder",
+        "image": "Shimmerscale Powder.png",
+        "variantName": null,
+        "recipe": {
+          "id": "280eb35c0b98",
+          "facility": "Grindstone",
+          "materials": [
+            {
+              "itemId": "614525a47761",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Grindstone"
+    ],
+    "wikiLink": "Shimmerscale_Powder",
+    "weight": 0.1,
+    "stackLimit": 99
+  },
+  {
+    "id": "d5d390bb0c29",
+    "name": "Adamant Logging Axe",
+    "image": "Adamant Logging Axe.png",
+    "variants": [
+      {
+        "id": "c40b1751feee",
+        "name": "Adamant Logging Axe",
+        "image": "Adamant Logging Axe.png",
+        "variantName": null,
+        "recipe": {
+          "id": "753047b90358",
+          "facility": "Smithing Anvil",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 8
+            },
+            {
+              "itemId": "9e1cedfc6c7e",
+              "quantity": 4
+            },
+            {
+              "itemId": "7d21f3c7ffc9",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Smithing Anvil"
+    ],
+    "wikiLink": "Adamant_Logging_Axe",
+    "weight": 0
+  },
+  {
+    "id": "7f7142fb8b46",
+    "name": "Adamant Bar",
+    "image": "Adamant Bar.png",
+    "variants": [
+      {
+        "id": "3efafb5e4327",
+        "name": "Adamant Bar",
+        "image": "Adamant Bar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "910f51938fa7",
+          "facility": "Blast Furnace",
+          "materials": [
+            {
+              "itemId": "fe5fc404a3cc",
+              "quantity": 3
+            },
+            {
+              "itemId": "4cc1d6e9f857",
+              "quantity": 3
+            }
+          ],
+          "quantity": 2
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blast Furnace"
+    ],
+    "wikiLink": "Adamant_Bar",
+    "weight": 5,
+    "stackLimit": 50
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -51005,5 +51475,125 @@
     "wikiLink": "Scarecrow's_Key",
     "weight": 0,
     "stackLimit": 99
+  },
+  {
+    "id": "2df2148f258c",
+    "name": "Kalphite Ichor",
+    "image": "Kalphite Ichor.png",
+    "variants": [
+      {
+        "id": "2df2148f258c",
+        "name": "Kalphite Ichor",
+        "image": "Kalphite Ichor.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Kalphite_Ichor",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "5f77b2e367a5",
+    "name": "Kalphite Shell Fragments",
+    "image": "Kalphite Shell Fragments.png",
+    "variants": [
+      {
+        "id": "5f77b2e367a5",
+        "name": "Kalphite Shell Fragments",
+        "image": "Kalphite Shell Fragments.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Kalphite_Shell_Fragments",
+    "weight": 0.1,
+    "stackLimit": 99
+  },
+  {
+    "id": "fe5fc404a3cc",
+    "name": "Adamant Ore",
+    "image": "Adamant Ore.png",
+    "variants": [
+      {
+        "id": "fe5fc404a3cc",
+        "name": "Adamant Ore",
+        "image": "Adamant Ore.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Adamant_Ore",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "00472783d4f9",
+    "name": "Gypsum",
+    "image": "Gypsum.png",
+    "variants": [
+      {
+        "id": "00472783d4f9",
+        "name": "Gypsum",
+        "image": "Gypsum.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Gypsum",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "888dae826aaa",
+    "name": "Dragonstone",
+    "image": "Dragonstone.png",
+    "variants": [
+      {
+        "id": "888dae826aaa",
+        "name": "Dragonstone",
+        "image": "Dragonstone.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Dragonstone",
+    "weight": 3,
+    "stackLimit": 99
+  },
+  {
+    "id": "8a6e5e75e3a4",
+    "name": "Dihydrogen Monoxide",
+    "image": "Dihydrogen Monoxide.png",
+    "variants": [
+      {
+        "id": "8a6e5e75e3a4",
+        "name": "Dihydrogen Monoxide",
+        "image": "Dihydrogen Monoxide.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Dihydrogen_Monoxide",
+    "weight": 1,
+    "stackLimit": 50
   }
 ]

@@ -671,7 +671,7 @@
       "description": "A mysterious porous rock used as a base for powerful runes.",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
-      "weight": "0.2'\"`UNIQ--ref-0000001D-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
       "stacklimit": "99",
       "image_raw": "Rune Essence.png"
     },
@@ -813,6 +813,7 @@
     "json": {
       "type": "Food",
       "description": "Meat and vegetables, the classic combination. A warm and pleasant meal.",
+      "health": "50",
       "image": "[[File:Meat Stew.png|32px]]",
       "name": "Meat Stew",
       "weight": "1.4",
@@ -869,6 +870,7 @@
       "type": "Food",
       "description": "A triumph of man over nature.",
       "duration": "600s",
+      "health": "90",
       "image": "[[File:Wild Pie.png|32px]]",
       "name": "Wild Pie",
       "weight": "0.7",
@@ -889,6 +891,7 @@
       "type": "Food",
       "description": "A pizza with bits of meat on it.",
       "duration": "600s",
+      "health": "90",
       "image": "[[File:Meat Pizza.png|32px]]",
       "name": "Meat Pizza",
       "weight": "0.7",
@@ -944,6 +947,7 @@
     "json": {
       "type": "Food",
       "description": "A tasty soup, good for the soul.",
+      "health": "40",
       "image": "[[File:Vegetable Soup.png|32px]]",
       "name": "Vegetable Soup",
       "weight": "0.8",
@@ -4064,6 +4068,7 @@
       "type": "Food",
       "description": "A meaty kebab with mushrooms.",
       "duration": "600s",
+      "health": "120",
       "image": "[[File:Mushroom Kebab.png|32px]]",
       "name": "Mushroom Kebab",
       "weight": "0.7",
@@ -4084,6 +4089,7 @@
       "type": "Food",
       "description": "Why eat just one animal? A carnivore's favourite.",
       "duration": "300 seconds",
+      "health": "70",
       "image": "[[File:Mixed Grill.png|32px]]",
       "name": "Mixed Grill",
       "weight": "2.0",
@@ -4158,6 +4164,7 @@
     "json": {
       "type": "Food",
       "description": "A juicy piece of roasted meat with a tangy redberry glazing. Tasty!",
+      "health": "30",
       "image": "[[File:Redberry Roast Rat.png|32px]]",
       "name": "Redberry Roast Rat",
       "weight": "1.2",
@@ -7227,6 +7234,7 @@
       "type": "Food",
       "description": "Tail not included.",
       "duration": "300 seconds",
+      "health": "80",
       "image": "[[File:Squeaking Sausage.png|32px]]",
       "name": "Squeaking Sausage",
       "weight": "2.0",
@@ -7343,6 +7351,7 @@
       "type": "Food",
       "description": "It's not even Sunday.",
       "duration": "300 seconds",
+      "health": "80",
       "image": "[[File:Roast Dinner.png|32px]]",
       "name": "Roast Dinner",
       "weight": "2.0",
@@ -7362,6 +7371,7 @@
     "json": {
       "type": "Food",
       "description": "A marvelous way, to start your day.",
+      "health": "40",
       "image": "[[File:Steak 'N' Eggs.png|32px]]",
       "name": "Steak 'N' Eggs",
       "weight": "1.2",
@@ -7382,14 +7392,15 @@
       "type": "Food",
       "description": "A marvelous amalgamation of sweet and savoury.",
       "duration": "300 seconds",
+      "health": "70",
       "image": "[[File:Sweet Veg Ball.png|32px]]",
       "name": "Sweet Veg Ball",
-      "weight": "0.4",
+      "weight": "0.5",
       "sustenance": "65",
       "stacklimit": "50",
       "image_raw": "Sweet Veg Ball.png"
     },
-    "item_weight": 0.4,
+    "item_weight": 0.5,
     "page_name_sub": "Sweet Veg Ball"
   },
   {
@@ -7402,6 +7413,7 @@
       "type": "Food",
       "description": "Tastes much better than it's<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> name suggests.",
       "duration": "300 seconds",
+      "health": "70",
       "image": "[[File:Pungent Omelette.png|32px]]",
       "name": "Pungent Omelette",
       "weight": "2.0",
@@ -7422,6 +7434,7 @@
       "type": "Food",
       "description": "A surefire hangover cure.",
       "duration": "300 seconds",
+      "health": "70",
       "image": "[[File:Cheeky Fryup.png|32px]]",
       "name": "Cheeky Fryup",
       "weight": "2.0",
@@ -9864,6 +9877,7 @@
     "json": {
       "type": "Food",
       "description": "It smells quite fruity.",
+      "health": "50",
       "image": "[[File:Redberry Crunchies.png|32px]]",
       "name": "Redberry Crunchies",
       "weight": "1.0",
@@ -9883,6 +9897,7 @@
     "json": {
       "type": "Food",
       "description": "Yum... smells fruity.",
+      "health": "70",
       "image": "[[File:Dwellberry Crunchies.png|32px]]",
       "name": "Dwellberry Crunchies",
       "weight": "1.0",
@@ -10567,6 +10582,7 @@
       "type": "Food",
       "description": "Pastry makes everything better.",
       "duration": "300s",
+      "health": "50",
       "image": "[[File:Dubious Meat Pie.png|32px]]",
       "name": "Dubious Meat Pie",
       "weight": "2.0",
@@ -10932,6 +10948,7 @@
       "type": "Food",
       "description": "Sweet, yet savory.",
       "duration": "300 seconds",
+      "health": "70",
       "image": "[[File:Pumpkin Soup.png|32px]]",
       "name": "Pumpkin Soup",
       "weight": "2.0",
@@ -11135,6 +11152,7 @@
     "json": {
       "type": "Food",
       "description": "A fruit party, wrapped in golden pastry.",
+      "health": "90",
       "image": "[[File:Fruit Pie.png|32px]]",
       "name": "Fruit Pie",
       "weight": "2.0",
@@ -11360,6 +11378,7 @@
     "json": {
       "type": "Food",
       "description": "All of the calories, none of the guilt.",
+      "health": "70",
       "image": "[[File:Vegan Fryup.png|32px]]",
       "name": "Vegan Fryup",
       "weight": "2.0",
@@ -11379,6 +11398,7 @@
     "json": {
       "type": "Food",
       "description": "Hearty, healthy & delicious.",
+      "health": "60",
       "image": "[[File:Beef & Tomato Stew.png|32px]]",
       "name": "Beef & Tomato Stew",
       "weight": "2.0",
@@ -16828,7 +16848,7 @@
       "type": "Food",
       "description": "Made by combining fried egg and sauté shrimp. Grants the Sea Legs perk.",
       "duration": "600 seconds",
-      "health": "10",
+      "health": "50",
       "image": "[[File:Shrimp Omelette.png|32px]]",
       "name": "Shrimp Omelette",
       "weight": "0.7",
@@ -16841,15 +16861,15 @@
   },
   {
     "page_name": "Sauteed Sardines",
-    "item_description": "Made by combining fried sardine and dried redberry. Grants the Warding Fish perk.",
+    "item_description": "Made by combining fried sardine and dried redberry. Grants Sea Life Perk.",
     "item_name": "Sauteed Sardines",
     "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "Made by combining fried sardine and dried redberry. Grants the Warding Fish perk.",
+      "description": "Made by combining fried sardine and dried redberry. Grants Sea Life Perk.",
       "duration": "600 seconds",
-      "health": "15",
+      "health": "70",
       "image": "[[File:Sauteed Sardines.png|32px]]",
       "name": "Sauteed Sardines",
       "weight": "0.7",
@@ -16862,15 +16882,15 @@
   },
   {
     "page_name": "Herb Baked Trout",
-    "item_description": "Made by combining grilled trout and a baked potato. Grants the Sea Life perk.",
+    "item_description": "Made by combining grilled trout and a baked potato.",
     "item_name": "Herb Baked Trout",
     "item_type": "Food",
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "Made by combining grilled trout and a baked potato. Grants the Sea Life perk.",
-      "duration": "600 seconds",
-      "health": "25",
+      "description": "Made by combining grilled trout and a baked potato.",
+      "duration": "600",
+      "health": "100",
       "image": "[[File:Herb Baked Trout.png|32px]]",
       "name": "Herb Baked Trout",
       "weight": "0.7",
@@ -16891,7 +16911,7 @@
       "type": "Food",
       "description": "Made by combining fried egg and fried salmon. Grants the Sea Life perk.",
       "duration": "900 seconds",
-      "health": "35",
+      "health": "120",
       "image": "[[File:Eggs Royale.png|32px]]",
       "name": "Eggs Royale",
       "weight": "0.7",
@@ -16933,7 +16953,7 @@
       "type": "Food",
       "description": "Made by combining smoked herring, seared anchovies and dried dwellberry.",
       "duration": "900 seconds",
-      "health": "55",
+      "health": "160",
       "image": "[[File:Berry Drizzle Pan-Seared.png|32px]]",
       "name": "Berry Drizzle Pan-Seared",
       "weight": "0.7",
@@ -16954,7 +16974,7 @@
       "type": "Food",
       "description": "Made by combining roasted lobster, braised undead eel and fried cabbage.",
       "duration": "1200 seconds",
-      "health": "50",
+      "health": "180",
       "image": "[[File:Fish Fry.png|32px]]",
       "name": "Fish Fry",
       "weight": "0.7",
@@ -18209,5 +18229,329 @@
     },
     "item_weight": 0,
     "page_name_sub": "Scarecrow's Key"
+  },
+  {
+    "page_name": "Kalphite Ichor",
+    "item_description": "A viscous, sticky fluid. Can be processed into a durable adhesive.",
+    "item_name": "Kalphite Ichor",
+    "item_type": "Basic Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Item",
+      "description": "A viscous, sticky fluid. Can be processed into a durable adhesive.",
+      "image": "[[File:Kalphite Ichor.png|32px]]",
+      "name": "Kalphite Ichor",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Kalphite Ichor.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Kalphite Ichor"
+  },
+  {
+    "page_name": "Acrid Adhesive",
+    "item_description": "A resilient adhesive that can withstand high temperatures.",
+    "item_name": "Acrid Adhesive",
+    "item_type": "Basic Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Item",
+      "description": "A resilient adhesive that can withstand high temperatures.",
+      "image": "[[File:Acrid Adhesive.png|32px]]",
+      "name": "Acrid Adhesive",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Acrid Adhesive.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Acrid Adhesive"
+  },
+  {
+    "page_name": "Kalphite Shell Fragments",
+    "item_description": "Shattered kalphite chitin. Could be salvaged with the right adhesive.",
+    "item_name": "Kalphite Shell Fragments",
+    "item_type": "Basic Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Item",
+      "description": "Shattered kalphite chitin. Could be salvaged with the right adhesive.",
+      "image": "[[File:Kalphite Shell Fragments.png|32px]]",
+      "name": "Kalphite Shell Fragments",
+      "weight": "0.1",
+      "stacklimit": "99",
+      "image_raw": "Kalphite Shell Fragments.png"
+    },
+    "item_weight": 0.1,
+    "page_name_sub": "Kalphite Shell Fragments"
+  },
+  {
+    "page_name": "Kalphite Shell",
+    "item_description": "A durable kalphite carapace, suitable for crafting.",
+    "item_name": "Kalphite Shell",
+    "item_type": "Basic Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Item",
+      "description": "A durable kalphite carapace, suitable for crafting.",
+      "image": "[[File:Kalphite Shell.png|32px]]",
+      "name": "Kalphite Shell",
+      "weight": "0.3",
+      "stacklimit": "99",
+      "image_raw": "Kalphite Shell.png"
+    },
+    "item_weight": 0.3,
+    "page_name_sub": "Kalphite Shell"
+  },
+  {
+    "page_name": "Adamant Ore",
+    "item_description": "",
+    "item_name": "Adamant Ore",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "",
+      "image": "[[File:Adamant Ore.png|32px]]",
+      "name": "Adamant Ore",
+      "weight": "",
+      "stacklimit": "99",
+      "image_raw": "Adamant Ore.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Adamant Ore"
+  },
+  {
+    "page_name": "Adamant Pickaxe",
+    "item_description": "",
+    "item_name": "Adamant Pickaxe",
+    "item_type": "Tool",
+    "page_name_sub": "Adamant Pickaxe",
+    "json": {
+      "type": "Tool",
+      "description": "",
+      "repaircost": "",
+      "image": "[[File:Adamant Pickaxe.png|32px]]",
+      "name": "Adamant Pickaxe",
+      "weight": "",
+      "image_raw": "Adamant Pickaxe.png"
+    },
+    "item_repair": "",
+    "item_weight": 0
+  },
+  {
+    "page_name": "Gypsum Wax",
+    "item_description": "A marvel of alchemy that, once applied to equipment, adds durability in extreme conditions.",
+    "item_name": "Gypsum Wax",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "A marvel of alchemy that, once applied to equipment, adds durability in extreme conditions.",
+      "image": "[[File:Gypsum Wax.png|32px]]",
+      "name": "Gypsum Wax",
+      "weight": "0.5",
+      "stacklimit": "50",
+      "image_raw": "Gypsum Wax.png"
+    },
+    "item_weight": 0.5,
+    "page_name_sub": "Gypsum Wax"
+  },
+  {
+    "page_name": "Ground Gypsum",
+    "item_description": "Ground from gypsum. This reagent seems to reflect light and therefore heat.",
+    "item_name": "Ground Gypsum",
+    "item_type": "Resource",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Resource",
+      "description": "Ground from gypsum. This reagent seems to reflect light and therefore heat.",
+      "image": "[[File:Ground Gypsum.png|32px]]",
+      "name": "Ground Gypsum",
+      "weight": "0.2",
+      "stacklimit": "99",
+      "image_raw": "Ground Gypsum.png"
+    },
+    "item_weight": 0.2,
+    "page_name_sub": "Ground Gypsum"
+  },
+  {
+    "page_name": "Gypsum",
+    "item_description": "A crumbly stone unsuitable for building but, once ground, offers unique properties.",
+    "item_name": "Gypsum",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "A crumbly stone unsuitable for building but, once ground, offers unique properties.",
+      "image": "[[File:Gypsum.png|32px]]",
+      "name": "Gypsum",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Gypsum.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Gypsum"
+  },
+  {
+    "page_name": "Dragonstone",
+    "item_description": "A rare and precious gem, coveted by jewelers.",
+    "item_name": "Dragonstone",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "A rare and precious gem, coveted by jewelers.",
+      "image": "[[File:Dragonstone.png|32px]]",
+      "name": "Dragonstone",
+      "weight": "3.0",
+      "stacklimit": "99",
+      "image_raw": "Dragonstone.png"
+    },
+    "item_weight": 3,
+    "page_name_sub": "Dragonstone"
+  },
+  {
+    "page_name": "Dihydrogen Monoxide",
+    "item_description": "Why did they laugh when I bought this? Sold by local traders.",
+    "item_name": "Dihydrogen Monoxide",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Why did they laugh when I bought this? Sold by local traders.",
+      "image": "[[File:Dihydrogen Monoxide.png|32px]]",
+      "name": "Dihydrogen Monoxide",
+      "weight": "1.0",
+      "stacklimit": "50",
+      "image_raw": "Dihydrogen Monoxide.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Dihydrogen Monoxide"
+  },
+  {
+    "page_name": "Desert Thread",
+    "item_description": "A strong but rough thread spun from desert weed.",
+    "item_name": "Desert Thread",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "A strong but rough thread spun from desert weed.",
+      "image": "[[File:Desert Thread.png|32px]]",
+      "name": "Desert Thread",
+      "weight": "0.6",
+      "stacklimit": "50",
+      "image_raw": "Desert Thread.png"
+    },
+    "item_weight": 0.6,
+    "page_name_sub": "Desert Thread"
+  },
+  {
+    "page_name": "Cactus Fibres",
+    "item_description": "Pipe cactus, sans water.",
+    "item_name": "Cactus Fibres",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "Pipe cactus, sans water.",
+      "image": "[[File:Cactus Fibres.png|32px]]",
+      "name": "Cactus Fibres",
+      "weight": "0.3",
+      "stacklimit": "50",
+      "image_raw": "Cactus Fibres.png"
+    },
+    "item_weight": 0.3,
+    "page_name_sub": "Cactus Fibres"
+  },
+  {
+    "page_name": "Desert Cloth",
+    "item_description": "A coarse but hard-wearing fabric made from local flora.",
+    "item_name": "Desert Cloth",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "A coarse but hard-wearing fabric made from local flora.",
+      "image": "[[File:Desert Cloth.png|32px]]",
+      "name": "Desert Cloth",
+      "weight": "2.0",
+      "stacklimit": "50",
+      "image_raw": "Desert Cloth.png"
+    },
+    "item_weight": 2,
+    "page_name_sub": "Desert Cloth"
+  },
+  {
+    "page_name": "Infinity Cloth",
+    "item_description": "Named as such due to the infinite number of colours it features. It's quite garish.",
+    "item_name": "Infinity Cloth",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "Named as such due to the infinite number of colours it features. It's quite garish.",
+      "image": "[[File:Infinity Cloth.png|32px]]",
+      "name": "Infinity Cloth",
+      "weight": "0.6",
+      "stacklimit": "50",
+      "image_raw": "Infinity Cloth.png"
+    },
+    "item_weight": 0.6,
+    "page_name_sub": "Infinity Cloth"
+  },
+  {
+    "page_name": "Shimmerscale Powder",
+    "item_description": "A shimmering iridescent powder. Its shifting hues are almost hypnotic.",
+    "item_name": "Shimmerscale Powder",
+    "item_type": "Processed Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Processed Material",
+      "description": "A shimmering iridescent powder. Its shifting hues are almost hypnotic.",
+      "image": "[[File:Shimmerscale Powder.png|32px]]",
+      "name": "Shimmerscale Powder",
+      "weight": "0.1",
+      "stacklimit": "99",
+      "image_raw": "Shimmerscale Powder.png"
+    },
+    "item_weight": 0.1,
+    "page_name_sub": "Shimmerscale Powder"
+  },
+  {
+    "page_name": "Adamant Logging Axe",
+    "item_description": "",
+    "item_name": "Adamant Logging Axe",
+    "item_type": "Tool",
+    "page_name_sub": "Adamant Logging Axe",
+    "json": {
+      "type": "Tool",
+      "description": "",
+      "repaircost": "",
+      "image": "[[File:Adamant Logging Axe.png|32px]]",
+      "name": "Adamant Logging Axe",
+      "weight": "",
+      "image_raw": "Adamant Logging Axe.png"
+    },
+    "item_repair": "",
+    "item_weight": 0
+  },
+  {
+    "page_name": "Adamant Bar",
+    "item_description": "A sturdy metal used for crafting weapons and armour.",
+    "item_name": "Adamant Bar",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "A sturdy metal used for crafting weapons and armour.",
+      "image": "[[File:Adamant Bar.png|32px]]",
+      "name": "Adamant Bar",
+      "weight": "5.0",
+      "stacklimit": "50",
+      "image_raw": "Adamant Bar.png"
+    },
+    "item_weight": 5,
+    "page_name_sub": "Adamant Bar"
   }
 ]
