@@ -9,6 +9,7 @@ import { CraftingFacilitiesPopover } from "./CraftingFacilitiesPopover";
 import { UnlockedBy } from "./UnlockedBy";
 import { WeightBadge } from "./WeightBadge";
 import { StackLimitBadge } from "./StackLimitBadge";
+import { HealthBadge } from "./HealthBadge";
 import { Badge } from "../../ui/badge";
 import { resolveCraftingTree } from "@/components/CraftingTree/resolve";
 
@@ -57,6 +58,7 @@ export function ItemInfoBox(props: Props) {
       {item.wikiLink ||
       uniqueFacilities.length > 0 ||
       item.weight != null ||
+      item.health != null ||
       item.stackLimit != null ? (
         <div className="flex flex-row flex-wrap gap-2 mt-2">
           {item.wikiLink && (
@@ -76,6 +78,7 @@ export function ItemInfoBox(props: Props) {
           )}
 
           <WeightBadge weight={item.weight} />
+          <HealthBadge health={item.health} />
           <StackLimitBadge stackLimit={item.stackLimit} />
         </div>
       ) : null}

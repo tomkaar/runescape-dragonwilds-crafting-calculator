@@ -20,6 +20,7 @@ export interface SourceItemJson {
   image_raw: string;
   hydration?: string;
   sustenance?: string;
+  health?: string;
   repaircost?: string;
   perk?: SourcePerk;
   duration?: string;
