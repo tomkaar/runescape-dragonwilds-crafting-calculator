@@ -67102,7 +67102,12 @@
   },
   {
     "uses_material": [
-      "Adamant Bar"
+      "Adamant Bar",
+      "Scorch Leather",
+      "Desert Cloth",
+      "Refined Obsidian",
+      "Gypsum Wax",
+      "Garou Weave"
     ],
     "uses_skill": [
       "Artisan"
@@ -67114,12 +67119,52 @@
       "facility": "Armour Bench",
       "materials": [
         {
-          "quantity": "?",
+          "quantity": "4",
           "name": "Adamant Bar",
           "link": "Adamant Bar",
-          "qty": "?",
+          "qty": "4",
           "item": "Adamant Bar",
           "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "4",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "1",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "1",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "1",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "1",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
         }
       ],
       "skills": [
@@ -67239,7 +67284,12 @@
   },
   {
     "uses_material": [
-      "Adamant Bar"
+      "Adamant Bar",
+      "Scorch Leather",
+      "Desert Cloth",
+      "Refined Obsidian",
+      "Gypsum Wax",
+      "Garou Weave"
     ],
     "uses_skill": [
       "Artisan"
@@ -67251,12 +67301,52 @@
       "facility": "Armour Bench",
       "materials": [
         {
-          "quantity": "?",
+          "quantity": "6",
           "name": "Adamant Bar",
           "link": "Adamant Bar",
-          "qty": "?",
+          "qty": "6",
           "item": "Adamant Bar",
           "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "6",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "2",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "2",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "2",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
         }
       ],
       "skills": [
@@ -67367,6 +67457,59 @@
     },
     "output": [
       "Monkfish Fillets"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar",
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "1",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "1",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
+      "outputs": [
+        "Adamant Bolt"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Adamant Bolt",
+        "link": "Adamant Bolt",
+        "qty": "33",
+        "item": "Adamant Bolt",
+        "image": "[[File:Adamant Bolt.png|30px|link=Adamant Bolt]]"
+      }
+    },
+    "output": [
+      "Adamant Bolt"
     ]
   }
 ]
