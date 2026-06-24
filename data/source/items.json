@@ -18916,5 +18916,45 @@
     },
     "item_weight": 1,
     "page_name_sub": "Monkfish Fillets"
+  },
+  {
+    "page_name": "Adamant Bolt",
+    "item_description": "A crossbow bolt with an adamant tip.",
+    "item_name": "Adamant Bolt",
+    "item_type": "Ammo",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Ammo",
+      "description": "A crossbow bolt with an adamant tip.",
+      "image": "[[File:Adamant Bolt.png|32px]]",
+      "name": "Adamant Bolt",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Adamant Bolt.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Adamant Bolt"
+  },
+  {
+    "page_name": "Desert Weed",
+    "item_description": "A Hearty Plant native to the region. Can be spun into durable thread",
+    "item_name": "Desert Weed",
+    "item_type": "Basic Material",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Basic Material",
+      "description": "A Hearty Plant native to the region. Can be spun into durable thread",
+      "health": "",
+      "weight": "",
+      "image": "[[File:Desert Weed.png|32px]]",
+      "name": "Desert Weed",
+      "hydration": "",
+      "sustenance": "",
+      "compostvalue": "",
+      "stacklimit": "",
+      "image_raw": "Desert Weed.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Desert Weed"
   }
 ]

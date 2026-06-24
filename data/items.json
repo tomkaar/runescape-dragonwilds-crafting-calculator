@@ -42960,17 +42960,37 @@
     "image": "Adamant Helmet.png",
     "variants": [
       {
-        "id": "981178f95ea1",
+        "id": "42a192142550",
         "name": "Adamant Helmet",
         "image": "Adamant Helmet.png",
         "variantName": null,
         "recipe": {
-          "id": "0fe1595c0116",
+          "id": "d67347a5d192",
           "facility": "Armour Bench",
           "materials": [
             {
               "itemId": "7f7142fb8b46",
+              "quantity": 4
+            },
+            {
+              "itemId": "7b98f89bbc65",
               "quantity": 1
+            },
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 1
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 1
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 1
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 4
             }
           ],
           "quantity": 1
@@ -43048,17 +43068,37 @@
     "image": "Adamant Platelegs.png",
     "variants": [
       {
-        "id": "981178f95ea1",
+        "id": "6c4d9e7ad0b1",
         "name": "Adamant Platelegs",
         "image": "Adamant Platelegs.png",
         "variantName": null,
         "recipe": {
-          "id": "0fe1595c0116",
+          "id": "17b977c1d08d",
           "facility": "Armour Bench",
           "materials": [
             {
               "itemId": "7f7142fb8b46",
-              "quantity": 1
+              "quantity": 6
+            },
+            {
+              "itemId": "7b98f89bbc65",
+              "quantity": 2
+            },
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 2
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 2
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 2
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 6
             }
           ],
           "quantity": 1
@@ -43141,6 +43181,44 @@
     "wikiLink": "Monkfish_Fillets",
     "weight": 1,
     "stackLimit": 99
+  },
+  {
+    "id": "80799d121607",
+    "name": "Adamant Bolt",
+    "image": "Adamant Bolt.png",
+    "variants": [
+      {
+        "id": "cf71973125fa",
+        "name": "Adamant Bolt",
+        "image": "Adamant Bolt.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0a4a2139e6f2",
+          "facility": "Fletching Bench",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            },
+            {
+              "itemId": "7ddc50d536fd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 33
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Adamant_Bolt",
+    "weight": 0,
+    "stackLimit": 999
   },
   {
     "id": "6a5fa59fd28f",
@@ -52369,5 +52447,25 @@
     "wikiLink": "Kot_Pack",
     "weight": 1,
     "stackLimit": 99
+  },
+  {
+    "id": "12febbdbde6c",
+    "name": "Desert Weed",
+    "image": "Desert Weed.png",
+    "variants": [
+      {
+        "id": "12febbdbde6c",
+        "name": "Desert Weed",
+        "image": "Desert Weed.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Desert_Weed",
+    "weight": 0,
+    "stackLimit": 0
   }
 ]
