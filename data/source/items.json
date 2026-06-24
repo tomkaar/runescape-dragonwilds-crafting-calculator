@@ -18322,21 +18322,21 @@
   },
   {
     "page_name": "Adamant Pickaxe",
-    "item_description": "",
+    "item_description": "A sturdy pickaxe made of adamant.",
     "item_name": "Adamant Pickaxe",
     "item_type": "Tool",
     "page_name_sub": "Adamant Pickaxe",
     "json": {
       "type": "Tool",
-      "description": "",
-      "repaircost": "",
+      "description": "A sturdy pickaxe made of adamant.",
+      "repaircost": "1 [[Adamant Bar]]",
       "image": "[[File:Adamant Pickaxe.png|32px]]",
       "name": "Adamant Pickaxe",
-      "weight": "",
+      "weight": "5.0",
       "image_raw": "Adamant Pickaxe.png"
     },
-    "item_repair": "",
-    "item_weight": 0
+    "item_repair": "1 [[Adamant Bar]]",
+    "item_weight": 5
   },
   {
     "page_name": "Gypsum Wax",
@@ -18520,21 +18520,39 @@
   },
   {
     "page_name": "Adamant Logging Axe",
-    "item_description": "",
+    "item_description": "A strong woodcutting axe, good for trees that hit back.",
     "item_name": "Adamant Logging Axe",
     "item_type": "Tool",
     "page_name_sub": "Adamant Logging Axe",
     "json": {
       "type": "Tool",
-      "description": "",
+      "description": "A strong woodcutting axe, good for trees that hit back.",
       "repaircost": "",
       "image": "[[File:Adamant Logging Axe.png|32px]]",
       "name": "Adamant Logging Axe",
-      "weight": "",
+      "weight": "5.0",
       "image_raw": "Adamant Logging Axe.png"
     },
     "item_repair": "",
-    "item_weight": 0
+    "item_weight": 5
+  },
+  {
+    "page_name": "Scorch Leather",
+    "item_description": "A light yet resilient leather, suited for survival in desert sands.",
+    "item_name": "Scorch Leather",
+    "item_type": "Processed Material",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Processed Material",
+      "description": "A light yet resilient leather, suited for survival in desert sands.",
+      "image": "[[File:Scorch Leather.png|32px]]",
+      "name": "Scorch Leather",
+      "weight": "1.2",
+      "stacklimit": "50",
+      "image_raw": "Scorch Leather.png"
+    },
+    "item_weight": 1.2,
+    "page_name_sub": "Scorch Leather"
   },
   {
     "page_name": "Adamant Bar",
@@ -18553,5 +18571,350 @@
     },
     "item_weight": 5,
     "page_name_sub": "Adamant Bar"
+  },
+  {
+    "page_name": "Adamant Spade",
+    "item_description": "A durable spade made from Adamantite.",
+    "item_name": "Adamant Spade",
+    "item_weight": 5.5,
+    "page_name_sub": "Adamant Spade",
+    "json": {
+      "type": "Tool",
+      "description": "A durable spade made from Adamantite.",
+      "image": "[[File:Adamant Spade.png|32px]]",
+      "name": "Adamant Spade",
+      "weight": "5.5",
+      "image_raw": "Adamant Spade.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Yew Logs",
+    "item_description": "An exceptionally durable and heat-resistant tree variety, yew is highly elastic, decay-resistant, and excellent for bending, making it a perfect choice for bows and high-quality furniture carving.",
+    "item_name": "Yew Logs",
+    "item_type": "Resource",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Resource",
+      "description": "An exceptionally durable and heat-resistant tree variety, yew is highly elastic, decay-resistant, and excellent for bending, making it a perfect choice for bows and high-quality furniture carving.",
+      "image": "[[File:Yew Logs.png|32px]]",
+      "name": "Yew Logs",
+      "weight": "1.5",
+      "stacklimit": "99",
+      "image_raw": "Yew Logs.png"
+    },
+    "item_weight": 1.5,
+    "page_name_sub": "Yew Logs"
+  },
+  {
+    "page_name": "Refined Obsidian",
+    "item_description": "An object of pure, refined obsidian.",
+    "item_name": "Refined Obsidian",
+    "item_type": "Processed Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Processed Material",
+      "description": "An object of pure, refined obsidian.",
+      "image": "[[File:Refined Obsidian.png|32px]]",
+      "name": "Refined Obsidian",
+      "weight": "2.0",
+      "stacklimit": "99",
+      "image_raw": "Refined Obsidian.png"
+    },
+    "item_weight": 2,
+    "page_name_sub": "Refined Obsidian"
+  },
+  {
+    "page_name": "Kot Pack",
+    "item_description": "",
+    "item_name": "Kot Pack",
+    "item_type": "Container",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Container",
+      "description": "",
+      "image": "[[File:Kot Pack.png|32px]]",
+      "name": "Kot Pack",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Kot Pack.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Kot Pack"
+  },
+  {
+    "page_name": "Ground Obsidian",
+    "item_description": "An object of pure, refined obsidian.",
+    "item_name": "Ground Obsidian",
+    "item_type": "Basic Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Item",
+      "description": "An object of pure, refined obsidian.",
+      "image": "[[File:Ground Obsidian.png|32px]]",
+      "name": "Ground Obsidian",
+      "weight": "2.0",
+      "stacklimit": "99",
+      "image_raw": "Ground Obsidian.png"
+    },
+    "item_weight": 2,
+    "page_name_sub": "Ground Obsidian"
+  },
+  {
+    "page_name": "Monkfish Bait",
+    "item_description": "Bait made from monkfish tail. Increases the catch chance of Desert Sole",
+    "item_name": "Monkfish Bait",
+    "item_type": "Tool",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Tool",
+      "description": "Bait made from monkfish tail. Increases the catch chance of Desert Sole",
+      "image": "[[File:Monkfish Bait.png|32px]]",
+      "name": "Monkfish Bait",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Monkfish Bait.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Monkfish Bait"
+  },
+  {
+    "page_name": "Adamant Crossbow Limbs",
+    "item_description": "A pair of adamant crossbow limbs. Used in crafting a adamant crossbow.",
+    "item_name": "Adamant Crossbow Limbs",
+    "item_weight": 4.5,
+    "page_name_sub": "Adamant Crossbow Limbs",
+    "json": {
+      "type": "Component",
+      "description": "A pair of adamant crossbow limbs. Used in crafting a adamant crossbow.",
+      "image": "[[File:Adamant Crossbow Limbs.png|32px]]",
+      "name": "Adamant Crossbow Limbs",
+      "weight": "4.5",
+      "image_raw": "Adamant Crossbow Limbs.png"
+    },
+    "item_type": "Component"
+  },
+  {
+    "page_name": "Adamant Crossbow",
+    "item_description": "A solid crossbow reinforced with adamant.",
+    "item_name": "Adamant Crossbow",
+    "item_type": "Ranged Weapon",
+    "page_name_sub": "Adamant Crossbow",
+    "json": {
+      "type": "Ranged Weapon",
+      "description": "A solid crossbow reinforced with adamant.",
+      "repaircost": "",
+      "image": "[[File:Adamant Crossbow.png|32px]]",
+      "name": "Adamant Crossbow",
+      "weight": "10.0",
+      "image_raw": "Adamant Crossbow.png"
+    },
+    "item_repair": "",
+    "item_weight": 10
+  },
+  {
+    "page_name": "Adamant Mace",
+    "item_description": "An adamant mace designed to crush your enemies.",
+    "item_name": "Adamant Mace",
+    "item_weight": 15,
+    "page_name_sub": "Adamant Mace",
+    "json": {
+      "type": "Melee Weapon",
+      "description": "An adamant mace designed to crush your enemies.",
+      "image": "[[File:Adamant Mace.png|32px]]",
+      "name": "Adamant Mace",
+      "weight": "15.0",
+      "image_raw": "Adamant Mace.png"
+    },
+    "item_type": "Melee Weapon"
+  },
+  {
+    "page_name": "Adamant Warhammer",
+    "item_description": "A heavy warhammer forged from adamant.",
+    "item_name": "Adamant Warhammer",
+    "item_weight": 25,
+    "page_name_sub": "Adamant Warhammer",
+    "json": {
+      "type": "Melee Weapon",
+      "description": "A heavy warhammer forged from adamant.",
+      "image": "[[File:Adamant Warhammer.png|32px]]",
+      "name": "Adamant Warhammer",
+      "weight": "25.0",
+      "image_raw": "Adamant Warhammer.png"
+    },
+    "item_type": "Melee Weapon"
+  },
+  {
+    "page_name": "Adamant Sword",
+    "item_description": "A reliable blade made of adamant.",
+    "item_name": "Adamant Sword",
+    "item_type": "Melee Weapon",
+    "item_stacklimit": 1,
+    "json": {
+      "type": "Melee Weapon",
+      "description": "A reliable blade made of adamant.",
+      "image": "[[File:Adamant Sword.png|32px]]",
+      "name": "Adamant Sword",
+      "weight": "15.0",
+      "stacklimit": "1",
+      "image_raw": "Adamant Sword.png"
+    },
+    "item_weight": 15,
+    "page_name_sub": "Adamant Sword"
+  },
+  {
+    "page_name": "Adamant Greatsword",
+    "item_description": "A strong and massive blade made of adamant.",
+    "item_name": "Adamant Greatsword",
+    "item_weight": 25,
+    "page_name_sub": "Adamant Greatsword",
+    "json": {
+      "type": "Melee Weapon",
+      "description": "A strong and massive blade made of adamant.",
+      "image": "[[File:Adamant Greatsword.png|32px]]",
+      "name": "Adamant Greatsword",
+      "weight": "25.0",
+      "image_raw": "Adamant Greatsword.png"
+    },
+    "item_type": "Melee Weapon"
+  },
+  {
+    "page_name": "Adamant Dagger",
+    "item_description": "Short, sharp and to the point.",
+    "item_name": "Adamant Dagger",
+    "item_weight": 5,
+    "page_name_sub": "Adamant Dagger",
+    "json": {
+      "type": "Melee Weapon",
+      "description": "Short, sharp and to the point.",
+      "image": "[[File:Adamant Dagger.png|32px]]",
+      "name": "Adamant Dagger",
+      "weight": "5.0",
+      "image_raw": "Adamant Dagger.png"
+    },
+    "item_type": "Melee Weapon"
+  },
+  {
+    "page_name": "Adamant Greataxe",
+    "item_description": "A big two-handed axe made of adamant.",
+    "item_name": "Adamant Greataxe",
+    "item_weight": 25,
+    "page_name_sub": "Adamant Greataxe",
+    "json": {
+      "type": "Melee Weapon",
+      "description": "A big two-handed axe made of adamant.",
+      "image": "[[File:Adamant Greataxe.png|32px]]",
+      "name": "Adamant Greataxe",
+      "weight": "25.0",
+      "image_raw": "Adamant Greataxe.png"
+    },
+    "item_type": "Melee Weapon"
+  },
+  {
+    "page_name": "Adamant Scimitar",
+    "item_description": "A fast, curved, and very efficient sword.",
+    "item_name": "Adamant Scimitar",
+    "item_weight": 15,
+    "page_name_sub": "Adamant Scimitar",
+    "json": {
+      "type": "Melee Weapon",
+      "description": "A fast, curved, and very efficient sword.",
+      "image": "[[File:Adamant Scimitar.png|32px]]",
+      "name": "Adamant Scimitar",
+      "weight": "15.0",
+      "image_raw": "Adamant Scimitar.png"
+    },
+    "item_type": "Melee Weapon"
+  },
+  {
+    "page_name": "Adamant Helmet",
+    "item_description": "A durable adamant helmet forged for the strongest of warriors.",
+    "item_name": "Adamant Helmet",
+    "item_type": "Melee Armour",
+    "page_name_sub": "Adamant Helmet",
+    "json": {
+      "type": "Melee Armour",
+      "description": "A durable adamant helmet forged for the strongest of warriors.",
+      "repaircost": "?",
+      "image": "[[File:Adamant Helmet.png|32px]]",
+      "name": "Adamant Helmet",
+      "weight": "8.0",
+      "image_raw": "Adamant Helmet.png"
+    },
+    "item_repair": "?",
+    "item_weight": 8
+  },
+  {
+    "page_name": "Adamant Platebody",
+    "item_description": "A sturdy set of adamant chest armour, forged for the strongest of warriors.",
+    "item_name": "Adamant Platebody",
+    "item_type": "Melee Armour",
+    "page_name_sub": "Adamant Platebody",
+    "json": {
+      "type": "Melee Armour",
+      "description": "A sturdy set of adamant chest armour, forged for the strongest of warriors.",
+      "repaircost": "?",
+      "image": "[[File:Adamant Platebody.png|32px]]",
+      "name": "Adamant Platebody",
+      "weight": "16.0",
+      "image_raw": "Adamant Platebody.png"
+    },
+    "item_repair": "?",
+    "item_weight": 16
+  },
+  {
+    "page_name": "Adamant Platelegs",
+    "item_description": "A sturdy set of adamant leg armour, forged for the strongest of warriors.",
+    "item_name": "Adamant Platelegs",
+    "item_type": "Melee Armour",
+    "page_name_sub": "Adamant Platelegs",
+    "json": {
+      "type": "Melee Armour",
+      "description": "A sturdy set of adamant leg armour, forged for the strongest of warriors.",
+      "repaircost": "?",
+      "image": "[[File:Adamant Platelegs.png|32px]]",
+      "name": "Adamant Platelegs",
+      "weight": "12.0",
+      "image_raw": "Adamant Platelegs.png"
+    },
+    "item_repair": "?",
+    "item_weight": 12
+  },
+  {
+    "page_name": "Adamant Shield",
+    "item_description": "Solid protection, slightly heavy.",
+    "item_name": "Adamant Shield",
+    "item_type": "Melee Armour",
+    "page_name_sub": "Adamant Shield",
+    "json": {
+      "type": "Melee Armour",
+      "description": "Solid protection, slightly heavy.",
+      "repaircost": "?",
+      "image": "[[File:Adamant Shield.png|32px]]",
+      "name": "Adamant Shield",
+      "weight": "10.0",
+      "image_raw": "Adamant Shield.png"
+    },
+    "item_repair": "?",
+    "item_weight": 10
+  },
+  {
+    "page_name": "Monkfish Fillets",
+    "item_description": "Tastier than the Piscatoris monkfish, in our humble opinion",
+    "item_name": "Monkfish Fillets",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Tastier than the Piscatoris monkfish, in our humble opinion",
+      "image": "[[File:Monkfish Fillets.png|32px]]",
+      "name": "Monkfish Fillets",
+      "weight": "1.0",
+      "sustenance": "20",
+      "stacklimit": "99",
+      "image_raw": "Monkfish Fillets.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Monkfish Fillets"
   }
 ]

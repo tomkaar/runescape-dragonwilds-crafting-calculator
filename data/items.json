@@ -42057,17 +42057,29 @@
     "image": "Adamant Pickaxe.png",
     "variants": [
       {
-        "id": "47d008fd24e7",
+        "id": "66ce2ce3db82",
         "name": "Adamant Pickaxe",
         "image": "Adamant Pickaxe.png",
         "variantName": null,
         "recipe": {
-          "id": "8081cbe0206c",
-          "facility": "",
+          "id": "9eb7f2c5944b",
+          "facility": "Blacksmith's Bench",
           "materials": [
             {
               "itemId": "7f7142fb8b46",
+              "quantity": 8
+            },
+            {
+              "itemId": "463425cf6f65",
               "quantity": 1
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 4
+            },
+            {
+              "itemId": "75f4482e4de5",
+              "quantity": 6
             }
           ],
           "quantity": 1
@@ -42075,10 +42087,14 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
     "wikiLink": "Adamant_Pickaxe",
-    "weight": 0
+    "weight": 5
   },
   {
     "id": "463425cf6f65",
@@ -42376,13 +42392,13 @@
     "image": "Adamant Logging Axe.png",
     "variants": [
       {
-        "id": "c40b1751feee",
+        "id": "ea7e799547ac",
         "name": "Adamant Logging Axe",
         "image": "Adamant Logging Axe.png",
         "variantName": null,
         "recipe": {
-          "id": "753047b90358",
-          "facility": "Smithing Anvil",
+          "id": "3637ce249b9b",
+          "facility": "Blacksmith's Bench",
           "materials": [
             {
               "itemId": "7f7142fb8b46",
@@ -42406,10 +42422,52 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Adamant_Logging_Axe",
-    "weight": 0
+    "weight": 5
+  },
+  {
+    "id": "71b251e7a3b5",
+    "name": "Scorch Leather",
+    "image": "Scorch Leather.png",
+    "variants": [
+      {
+        "id": "0aa190481d51",
+        "name": "Scorch Leather",
+        "image": "Scorch Leather.png",
+        "variantName": null,
+        "recipe": {
+          "id": "07269edf791e",
+          "facility": "Advanced Tannery",
+          "materials": [
+            {
+              "itemId": "9ac3057ca866",
+              "quantity": 1
+            },
+            {
+              "itemId": "9f851ce1db9e",
+              "quantity": 1
+            },
+            {
+              "itemId": "aca722a510ea",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Advanced Tannery"
+    ],
+    "wikiLink": "Scorch_Leather",
+    "weight": 1.2,
+    "stackLimit": 50
   },
   {
     "id": "7f7142fb8b46",
@@ -42448,6 +42506,641 @@
     "wikiLink": "Adamant_Bar",
     "weight": 5,
     "stackLimit": 50
+  },
+  {
+    "id": "3c6f44608830",
+    "name": "Adamant Spade",
+    "image": "Adamant Spade.png",
+    "variants": [
+      {
+        "id": "070360ba9042",
+        "name": "Adamant Spade",
+        "image": "Adamant Spade.png",
+        "variantName": null,
+        "recipe": {
+          "id": "31f3b2eea74d",
+          "facility": "Blacksmith's Bench",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 4
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 1
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 2
+            },
+            {
+              "itemId": "75f4482e4de5",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Adamant_Spade",
+    "weight": 5.5
+  },
+  {
+    "id": "9f21a3681ffa",
+    "name": "Refined Obsidian",
+    "image": "Refined Obsidian.png",
+    "variants": [
+      {
+        "id": "7163b39a6fbc",
+        "name": "Refined Obsidian",
+        "image": "Refined Obsidian.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6cf5f75bda93",
+          "facility": "Blast Furnace",
+          "materials": [
+            {
+              "itemId": "7b428e7ec5aa",
+              "quantity": 9
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blast Furnace"
+    ],
+    "wikiLink": "Refined_Obsidian",
+    "weight": 2,
+    "stackLimit": 99
+  },
+  {
+    "id": "7b428e7ec5aa",
+    "name": "Ground Obsidian",
+    "image": "Ground Obsidian.png",
+    "variants": [
+      {
+        "id": "35815d550caf",
+        "name": "Ground Obsidian",
+        "image": "Ground Obsidian.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e6577956af19",
+          "facility": "Grindstone",
+          "materials": [
+            {
+              "itemId": "67aa04688d12",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "0c10a548c291",
+        "name": "Ground Obsidian",
+        "image": "Ground Obsidian.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4620ffa1f816",
+          "facility": "Grindstone",
+          "materials": [
+            {
+              "itemId": "2183060bcd85",
+              "quantity": 1
+            }
+          ],
+          "quantity": 3
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Grindstone"
+    ],
+    "wikiLink": "Ground_Obsidian",
+    "weight": 2,
+    "stackLimit": 99
+  },
+  {
+    "id": "7f817e5cc73d",
+    "name": "Monkfish Bait",
+    "image": "Monkfish Bait.png",
+    "variants": [
+      {
+        "id": "7886f1f31a3d",
+        "name": "Monkfish Bait",
+        "image": "Monkfish Bait.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ff13e9b4c142",
+          "facility": "Crafting Table",
+          "materials": [
+            {
+              "itemId": "2f3b0f76d9bc",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Monkfish_Bait",
+    "weight": 0,
+    "stackLimit": 999
+  },
+  {
+    "id": "2b83b8b8fe4a",
+    "name": "Adamant Crossbow Limbs",
+    "image": "Adamant Crossbow Limbs.png",
+    "variants": [
+      {
+        "id": "fb997980f066",
+        "name": "Adamant Crossbow Limbs",
+        "image": "Adamant Crossbow Limbs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d297724210f8",
+          "facility": "",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Adamant_Crossbow_Limbs",
+    "weight": 4.5
+  },
+  {
+    "id": "542d3b379d0e",
+    "name": "Adamant Crossbow",
+    "image": "Adamant Crossbow.png",
+    "variants": [
+      {
+        "id": "4dc5421ed00a",
+        "name": "Adamant Crossbow",
+        "image": "Adamant Crossbow.png",
+        "variantName": null,
+        "recipe": {
+          "id": "eb473a30171f",
+          "facility": "Fletching Bench",
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Adamant_Crossbow",
+    "weight": 10
+  },
+  {
+    "id": "2434b7b20dc5",
+    "name": "Adamant Mace",
+    "image": "Adamant Mace.png",
+    "variants": [
+      {
+        "id": "6615020e8a5c",
+        "name": "Adamant Mace",
+        "image": "Adamant Mace.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a01dbe15bb0f",
+          "facility": "Blacksmith's Bench",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Adamant_Mace",
+    "weight": 15
+  },
+  {
+    "id": "d474d746de22",
+    "name": "Adamant Warhammer",
+    "image": "Adamant Warhammer.png",
+    "variants": [
+      {
+        "id": "6615020e8a5c",
+        "name": "Adamant Warhammer",
+        "image": "Adamant Warhammer.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a01dbe15bb0f",
+          "facility": "Blacksmith's Bench",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Adamant_Warhammer",
+    "weight": 25
+  },
+  {
+    "id": "93ca8f3484a6",
+    "name": "Adamant Sword",
+    "image": "Adamant Sword.png",
+    "variants": [
+      {
+        "id": "6615020e8a5c",
+        "name": "Adamant Sword",
+        "image": "Adamant Sword.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a01dbe15bb0f",
+          "facility": "Blacksmith's Bench",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Adamant_Sword",
+    "weight": 15,
+    "stackLimit": 1
+  },
+  {
+    "id": "0f12c0553a1c",
+    "name": "Adamant Greatsword",
+    "image": "Adamant Greatsword.png",
+    "variants": [
+      {
+        "id": "6615020e8a5c",
+        "name": "Adamant Greatsword",
+        "image": "Adamant Greatsword.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a01dbe15bb0f",
+          "facility": "Blacksmith's Bench",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Adamant_Greatsword",
+    "weight": 25
+  },
+  {
+    "id": "434a4f1ac58e",
+    "name": "Adamant Dagger",
+    "image": "Adamant Dagger.png",
+    "variants": [
+      {
+        "id": "6615020e8a5c",
+        "name": "Adamant Dagger",
+        "image": "Adamant Dagger.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a01dbe15bb0f",
+          "facility": "Blacksmith's Bench",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Adamant_Dagger",
+    "weight": 5
+  },
+  {
+    "id": "1f2c04589444",
+    "name": "Adamant Greataxe",
+    "image": "Adamant Greataxe.png",
+    "variants": [
+      {
+        "id": "6615020e8a5c",
+        "name": "Adamant Greataxe",
+        "image": "Adamant Greataxe.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a01dbe15bb0f",
+          "facility": "Blacksmith's Bench",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Adamant_Greataxe",
+    "weight": 25
+  },
+  {
+    "id": "46d680c0cdf0",
+    "name": "Adamant Scimitar",
+    "image": "Adamant Scimitar.png",
+    "variants": [
+      {
+        "id": "6615020e8a5c",
+        "name": "Adamant Scimitar",
+        "image": "Adamant Scimitar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a01dbe15bb0f",
+          "facility": "Blacksmith's Bench",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Adamant_Scimitar",
+    "weight": 15
+  },
+  {
+    "id": "7abc0e18054d",
+    "name": "Adamant Helmet",
+    "image": "Adamant Helmet.png",
+    "variants": [
+      {
+        "id": "981178f95ea1",
+        "name": "Adamant Helmet",
+        "image": "Adamant Helmet.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0fe1595c0116",
+          "facility": "Armour Bench",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Adamant_Helmet",
+    "weight": 8
+  },
+  {
+    "id": "031126aa03ff",
+    "name": "Adamant Platebody",
+    "image": "Adamant Platebody.png",
+    "variants": [
+      {
+        "id": "67226d9dd0cb",
+        "name": "Adamant Platebody",
+        "image": "Adamant Platebody.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4063871cc60e",
+          "facility": "Armour Bench",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 10
+            },
+            {
+              "itemId": "7b98f89bbc65",
+              "quantity": 3
+            },
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 3
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 3
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 3
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 8
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Adamant Platebody"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Adamant_Platebody",
+    "weight": 16
+  },
+  {
+    "id": "b00c19080f37",
+    "name": "Adamant Platelegs",
+    "image": "Adamant Platelegs.png",
+    "variants": [
+      {
+        "id": "981178f95ea1",
+        "name": "Adamant Platelegs",
+        "image": "Adamant Platelegs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0fe1595c0116",
+          "facility": "Armour Bench",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Adamant_Platelegs",
+    "weight": 12
+  },
+  {
+    "id": "c4bd7e16a05b",
+    "name": "Adamant Shield",
+    "image": "Adamant Shield.png",
+    "variants": [
+      {
+        "id": "6615020e8a5c",
+        "name": "Adamant Shield",
+        "image": "Adamant Shield.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a01dbe15bb0f",
+          "facility": "Blacksmith's Bench",
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Adamant_Shield",
+    "weight": 10
+  },
+  {
+    "id": "740e218149d8",
+    "name": "Monkfish Fillets",
+    "image": "Monkfish Fillets.png",
+    "variants": [
+      {
+        "id": "9c72a70e222b",
+        "name": "Monkfish Fillets",
+        "image": "Monkfish Fillets.png",
+        "variantName": null,
+        "recipe": {
+          "id": "12be6d323252",
+          "facility": "Campfire",
+          "materials": [
+            {
+              "itemId": "ef0641a10f63",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
+    ],
+    "wikiLink": "Monkfish_Fillets",
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "6a5fa59fd28f",
@@ -51636,5 +52329,45 @@
     "wikiLink": "Dihydrogen_Monoxide",
     "weight": 1,
     "stackLimit": 50
+  },
+  {
+    "id": "75f4482e4de5",
+    "name": "Yew Logs",
+    "image": "Yew Logs.png",
+    "variants": [
+      {
+        "id": "75f4482e4de5",
+        "name": "Yew Logs",
+        "image": "Yew Logs.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Yew_Logs",
+    "weight": 1.5,
+    "stackLimit": 99
+  },
+  {
+    "id": "39bd66a75d6a",
+    "name": "Kot Pack",
+    "image": "Kot Pack.png",
+    "variants": [
+      {
+        "id": "39bd66a75d6a",
+        "name": "Kot Pack",
+        "image": "Kot Pack.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Kot_Pack",
+    "weight": 1,
+    "stackLimit": 99
   }
 ]

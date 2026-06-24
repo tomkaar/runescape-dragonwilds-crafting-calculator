@@ -1,7 +1,19 @@
 [
   {
+    "id": "bee0607cf14b",
+    "name": "Advanced Tannery"
+  },
+  {
+    "id": "c0c6d4831467",
+    "name": "Armour Bench"
+  },
+  {
     "id": "c34abc9dce87",
     "name": "Blacksmith Bench"
+  },
+  {
+    "id": "72948755fb60",
+    "name": "Blacksmith's Bench"
   },
   {
     "id": "fa122c4ed88f",

@@ -65819,24 +65819,59 @@
   },
   {
     "uses_material": [
-      "Adamant Bar"
+      "Adamant Bar",
+      "Yew Logs",
+      "Scorch Leather",
+      "Gypsum Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "uses_facility": [
-      ""
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "",
+          "quantity": "8",
           "name": "Adamant Bar",
           "link": "Adamant Bar",
-          "qty": "",
+          "qty": "8",
           "item": "Adamant Bar",
           "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "6",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "4",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "1",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": ""
+        }
+      ],
       "outputs": [
         "Adamant Pickaxe"
       ],
@@ -66295,10 +66330,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -66345,6 +66380,68 @@
     },
     "output": [
       "Adamant Logging Axe"
+    ]
+  },
+  {
+    "uses_material": [
+      "Draconic Leather",
+      "Kalphite Shell",
+      "Acrid Adhesive"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Advanced Tannery"
+    ],
+    "json": {
+      "facility": "Advanced Tannery",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Draconic Leather",
+          "link": "Draconic Leather",
+          "qty": "1",
+          "item": "Draconic Leather",
+          "image": "[[File:Draconic Leather.png|30px|link=Draconic Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Kalphite Shell",
+          "link": "Kalphite Shell",
+          "qty": "2",
+          "item": "Kalphite Shell",
+          "image": "[[File:Kalphite Shell.png|30px|link=Kalphite Shell]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Acrid Adhesive",
+          "link": "Acrid Adhesive",
+          "qty": "1",
+          "item": "Acrid Adhesive",
+          "image": "[[File:Acrid Adhesive.png|30px|link=Acrid Adhesive]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Scorch Leather"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Scorch Leather",
+        "link": "Scorch Leather",
+        "qty": 1,
+        "item": "Scorch Leather",
+        "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+      }
+    },
+    "output": [
+      "Scorch Leather"
     ]
   },
   {
@@ -66398,6 +66495,878 @@
     },
     "output": [
       "Adamant Bar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar",
+      "Yew Logs",
+      "Scorch Leather",
+      "Gypsum Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "4",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "2",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "2",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "1",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Adamant Spade"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Adamant Spade",
+        "link": "Adamant Spade",
+        "qty": "1",
+        "item": "Adamant Spade",
+        "image": "[[File:Adamant Spade.png|30px|link=Adamant Spade]]"
+      }
+    },
+    "output": [
+      "Adamant Spade"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Obsidian"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blast Furnace"
+    ],
+    "json": {
+      "facility": "Blast Furnace",
+      "materials": [
+        {
+          "quantity": "9",
+          "name": "Ground Obsidian",
+          "link": "Ground Obsidian",
+          "qty": "9",
+          "item": "Ground Obsidian",
+          "image": "[[File:Ground Obsidian.png|30px|link=Ground Obsidian]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Refined Obsidian"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Refined Obsidian",
+        "link": "Refined Obsidian",
+        "qty": 1,
+        "item": "Refined Obsidian",
+        "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+      }
+    },
+    "output": [
+      "Refined Obsidian"
+    ]
+  },
+  {
+    "uses_material": [
+      "Elder Curiosities"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Grindstone"
+    ],
+    "json": {
+      "facility": "Grindstone",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Elder Curiosities",
+          "link": "Elder Curiosities",
+          "qty": "1",
+          "item": "Elder Curiosities",
+          "image": "[[File:Elder Curiosities.png|30px|link=Elder Curiosities]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Ground Obsidian"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ground Obsidian",
+        "link": "Ground Obsidian",
+        "qty": "1",
+        "item": "Ground Obsidian",
+        "image": "[[File:Ground Obsidian.png|30px|link=Ground Obsidian]]"
+      }
+    },
+    "output": [
+      "Ground Obsidian"
+    ]
+  },
+  {
+    "uses_material": [
+      "Obsidian Device"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Grindstone"
+    ],
+    "json": {
+      "facility": "Grindstone",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Obsidian Device",
+          "link": "Obsidian Device",
+          "qty": "1",
+          "item": "Obsidian Device",
+          "image": "[[File:Obsidian Device.png|30px|link=Obsidian Device]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Ground Obsidian"
+      ],
+      "output": {
+        "quantity": "3",
+        "name": "Ground Obsidian",
+        "link": "Ground Obsidian",
+        "qty": "3",
+        "item": "Ground Obsidian",
+        "image": "[[File:Ground Obsidian.png|30px|link=Ground Obsidian]]"
+      }
+    },
+    "output": [
+      "Ground Obsidian"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Monkfish"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Monkfish",
+          "link": "Raw Monkfish",
+          "qty": "1",
+          "item": "Raw Monkfish",
+          "image": "[[File:Raw Monkfish.png|30px|link=Raw Monkfish]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Monkfish Bait"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Monkfish Bait",
+        "link": "Monkfish Bait",
+        "qty": 1,
+        "item": "Monkfish Bait",
+        "image": "[[File:Monkfish Bait.png|30px|link=Monkfish Bait]]"
+      }
+    },
+    "output": [
+      "Monkfish Bait"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "facility": "",
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Adamant Crossbow Limbs"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Adamant Crossbow Limbs",
+        "link": "Adamant Crossbow Limbs",
+        "qty": 1,
+        "item": "Adamant Crossbow Limbs",
+        "image": "[[File:Adamant Crossbow Limbs.png|30px|link=Adamant Crossbow Limbs]]"
+      }
+    },
+    "output": [
+      "Adamant Crossbow Limbs"
+    ]
+  },
+  {
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Adamant Crossbow"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Adamant Crossbow",
+        "link": "Adamant Crossbow",
+        "qty": 1,
+        "item": "Adamant Crossbow",
+        "image": "[[File:Adamant Crossbow.png|30px|link=Adamant Crossbow]]"
+      }
+    },
+    "output": [
+      "Adamant Crossbow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Adamant Mace"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Adamant Mace",
+        "link": "Adamant Mace",
+        "qty": "1",
+        "item": "Adamant Mace",
+        "image": "[[File:Adamant Mace.png|30px|link=Adamant Mace]]"
+      }
+    },
+    "output": [
+      "Adamant Mace"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Adamant Warhammer"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Adamant Warhammer",
+        "link": "Adamant Warhammer",
+        "qty": "1",
+        "item": "Adamant Warhammer",
+        "image": "[[File:Adamant Warhammer.png|30px|link=Adamant Warhammer]]"
+      }
+    },
+    "output": [
+      "Adamant Warhammer"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Adamant Sword"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Adamant Sword",
+        "link": "Adamant Sword",
+        "qty": "1",
+        "item": "Adamant Sword",
+        "image": "[[File:Adamant Sword.png|30px|link=Adamant Sword]]"
+      }
+    },
+    "output": [
+      "Adamant Sword"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "?",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "?",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Adamant Greatsword"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Adamant Greatsword",
+        "link": "Adamant Greatsword",
+        "qty": "1",
+        "item": "Adamant Greatsword",
+        "image": "[[File:Adamant Greatsword.png|30px|link=Adamant Greatsword]]"
+      }
+    },
+    "output": [
+      "Adamant Greatsword"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "?",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "?",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Adamant Dagger"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Adamant Dagger",
+        "link": "Adamant Dagger",
+        "qty": "1",
+        "item": "Adamant Dagger",
+        "image": "[[File:Adamant Dagger.png|30px|link=Adamant Dagger]]"
+      }
+    },
+    "output": [
+      "Adamant Dagger"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "?",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "?",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Adamant Greataxe"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Adamant Greataxe",
+        "link": "Adamant Greataxe",
+        "qty": "1",
+        "item": "Adamant Greataxe",
+        "image": "[[File:Adamant Greataxe.png|30px|link=Adamant Greataxe]]"
+      }
+    },
+    "output": [
+      "Adamant Greataxe"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "?",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "?",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Adamant Scimitar"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Adamant Scimitar",
+        "link": "Adamant Scimitar",
+        "qty": "1",
+        "item": "Adamant Scimitar",
+        "image": "[[File:Adamant Scimitar.png|30px|link=Adamant Scimitar]]"
+      }
+    },
+    "output": [
+      "Adamant Scimitar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "?",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "?",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Adamant Helmet"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Adamant Helmet",
+        "link": "Adamant Helmet",
+        "qty": "1",
+        "item": "Adamant Helmet",
+        "image": "[[File:Adamant Helmet.png|30px|link=Adamant Helmet]]"
+      }
+    },
+    "output": [
+      "Adamant Helmet"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar",
+      "Scorch Leather",
+      "Desert Cloth",
+      "Refined Obsidian",
+      "Gypsum Wax",
+      "Garou Weave"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Adamant Platebody"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Adamant Platebody",
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "10",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "8",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "3",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "3",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "3",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "3",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Adamant Platebody"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Adamant Platebody",
+        "link": "Adamant Platebody",
+        "qty": "1",
+        "item": "Adamant Platebody",
+        "image": "[[File:Adamant Platebody.png|30px|link=Adamant Platebody]]"
+      }
+    },
+    "output": [
+      "Adamant Platebody"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "?",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "?",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Adamant Platelegs"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Adamant Platelegs",
+        "link": "Adamant Platelegs",
+        "qty": "1",
+        "item": "Adamant Platelegs",
+        "image": "[[File:Adamant Platelegs.png|30px|link=Adamant Platelegs]]"
+      }
+    },
+    "output": [
+      "Adamant Platelegs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "?",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "?",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Adamant Shield"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Adamant Shield",
+        "link": "Adamant Shield",
+        "qty": "1",
+        "item": "Adamant Shield",
+        "image": "[[File:Adamant Shield.png|30px|link=Adamant Shield]]"
+      }
+    },
+    "output": [
+      "Adamant Shield"
+    ]
+  },
+  {
+    "uses_material": [
+      "Monkfish"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Monkfish",
+          "link": "Monkfish",
+          "qty": "1",
+          "item": "Monkfish",
+          "image": "[[File:Monkfish.png|30px|link=Monkfish]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Monkfish Fillets"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Monkfish Fillets",
+        "link": "Monkfish Fillets",
+        "qty": "1",
+        "item": "Monkfish Fillets",
+        "image": "[[File:Monkfish Fillets.png|30px|link=Monkfish Fillets]]"
+      }
+    },
+    "output": [
+      "Monkfish Fillets"
     ]
   }
 ]
