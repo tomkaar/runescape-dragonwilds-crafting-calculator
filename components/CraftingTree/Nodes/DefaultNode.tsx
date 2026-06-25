@@ -72,7 +72,7 @@ const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
           initialItemId={props.data.initialItemId}
           image={props.data.image}
           label={props.data.label}
-          facility={props.data.facility}
+          facilities={props.data.facilities}
           quantity={props.data.quantityNeeded}
           quantityRecieved={props.data.quantityRecieved}
           numberOfRecipies={props.data.numberOfRecipies}
@@ -110,7 +110,7 @@ type ContentProps = {
   quantityRecieved: number;
   numberOfRecipies: number | null;
   isRecipeNumberVariant: number | null;
-  facility: string | null;
+  facilities: string[];
   hasExcessItems: boolean;
 };
 
@@ -121,7 +121,7 @@ const Content = memo(function InnerContent(props: ContentProps) {
     initialItemId,
     image,
     label,
-    facility,
+    facilities,
     quantity,
     quantityRecieved,
     numberOfRecipies,
@@ -235,15 +235,44 @@ const Content = memo(function InnerContent(props: ContentProps) {
         </div>
       )}
 
-      {facility && (
-        <div className="w-full flex flex-row items-center gap-2 text-xs text-foreground bg-card px-2 py-1 rounded-lg">
-          {getFacilityIcon(facility as (typeof Facility)[number])}
-          {facility}
-        </div>
-      )}
+      <Facilities facilities={facilities} />
     </>
   );
 });
+
+function Facilities({ facilities }: { facilities: string[] }) {
+  if (facilities.length === 0) return null;
+
+  if (facilities.length === 1) {
+    const facility = facilities[0];
+    return (
+      <div className="w-full flex flex-wrap gap-2 text-xs text-foreground bg-card px-2 py-1 rounded-lg">
+        <span className="flex items-center gap-2">
+          {getFacilityIcon(facility as (typeof Facility)[number])}
+          {facility}
+        </span>
+      </div>
+    );
+  }
+
+  return (
+    <div className="w-full flex flex-wrap gap-1.5 justify-center bg-card px-2 py-1 rounded-lg items-center">
+      <span className="text-xs text-foreground">One of facilities: </span>
+      {facilities.map((facility) => (
+        <TooltipProvider key={facility}>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <div className="flex items-center justify-center size-6 rounded-full bg-secondary border border-border cursor-default">
+                {getFacilityIcon(facility as (typeof Facility)[number], 20)}
+              </div>
+            </TooltipTrigger>
+            <TooltipContent side="bottom">{facility}</TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+      ))}
+    </div>
+  );
+}
 
 DefaultlNode.displayName = "DefaultlNode";
 

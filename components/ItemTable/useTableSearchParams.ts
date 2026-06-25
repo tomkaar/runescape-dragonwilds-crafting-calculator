@@ -19,7 +19,7 @@ function parseSearchParams(searchParams: URLSearchParams) {
   const columnFilters: ColumnFiltersState = [];
   const facility = searchParams.get("facility");
   if (facility)
-    columnFilters.push({ id: "facility", value: facility.split(",") });
+    columnFilters.push({ id: "facilities", value: facility.split(",") });
   const skills = searchParams.get("skills");
   if (skills) columnFilters.push({ id: "skills", value: skills.split(",") });
   const materials = searchParams.get("materials");
@@ -46,7 +46,7 @@ function buildSearchParams(
   for (const filter of columnFilters) {
     const values = filter.value as string[];
     if (!Array.isArray(values) || values.length === 0) continue;
-    if (filter.id === "facility") params.set("facility", values.join(","));
+    if (filter.id === "facilities") params.set("facility", values.join(","));
     else if (filter.id === "skills") params.set("skills", values.join(","));
     else if (filter.id === "materialCount")
       params.set("materials", values.join(","));

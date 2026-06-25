@@ -13,7 +13,7 @@ export type ItemTableRow = {
 
   image: string | null;
 
-  facility: string | null;
+  facilities: string[];
   skills: string[];
 
   outputQuantity: number;
@@ -64,23 +64,27 @@ export const columns = [
       </div>
     ),
   }),
-  columnHelper.accessor("facility", {
-    header: "Facility",
+  columnHelper.accessor("facilities", {
+    header: "Facilities",
     size: 180,
     cell: (info) => {
-      const facility = info.getValue();
-      if (!facility) return <div className="py-1 px-4">—</div>;
+      const facilities = info.getValue();
+      if (facilities.length === 0) return <div className="py-1 px-4">—</div>;
       return (
-        <div className="flex items-center gap-1.5  py-1 px-4">
-          {getFacilityIcon(facility as (typeof Facility)[number], 20)}
-          <span>{facility}</span>
+        <div>
+          {facilities.map((facility) => (
+            <div key={facility} className="flex items-center gap-1.5  py-1 px-4">
+              {getFacilityIcon(facility as (typeof Facility)[number], 20)}
+              <span>{facility}</span>
+            </div>
+          ))}
         </div>
       );
     },
     filterFn: (row, _columnId, filterValue: string[]) => {
       if (filterValue.length === 0) return true;
-      const facility = row.original.facility;
-      return facility !== null && filterValue.includes(facility);
+      const facilities = row.original.facilities;
+      return facilities.some((f) => filterValue.includes(f));
     },
   }),
   columnHelper.accessor("skills", {

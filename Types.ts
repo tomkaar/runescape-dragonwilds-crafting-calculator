@@ -50,11 +50,11 @@ export type ItemVariant = {
  */
 export type Recipe = {
   /**
-   * Generated from the recipe materials and facility.
-   * */
+   * Generated from the recipe materials, output, and quantity.
+   */
   id: string;
-  /* Facility required to craft the recipe */
-  facility: (typeof Facility)[number] | null;
+  /* All facilities that can craft this recipe */
+  facilities: (typeof Facility)[number][];
   /* Quantity produced by this recipe */
   quantity: number;
   /* List of materials required to craft the recipe */

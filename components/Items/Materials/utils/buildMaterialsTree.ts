@@ -11,7 +11,7 @@ type MaterialTreeItemData = {
   quantity: number;
   variant?: ItemVariant;
   variantNumber?: number;
-  facility: string | null;
+  facilities: string[];
   isEnd?: boolean;
 };
 
@@ -50,7 +50,7 @@ export const buildMaterialsTree = cache(
       if (!item) return null;
 
       const quantity = node.data.quantityNeeded || 1;
-      const facility = node.data.facility;
+      const facilities = node.data.facilities;
       const isEnd = node.data.leafNode || false;
 
       // Build base node
@@ -59,7 +59,7 @@ export const buildMaterialsTree = cache(
         nodeId: node.id,
         item,
         quantity,
-        facility,
+        facilities,
         isEnd,
         variantNumber: node.data.isRecipeNumberVariant || undefined,
       };

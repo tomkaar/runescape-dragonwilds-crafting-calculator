@@ -30,8 +30,8 @@ export function ItemInfoBox(props: Props) {
   // Collect all facilities from the crafting tree (sub-materials only)
   const { nodes } = resolveCraftingTree({ itemId });
   const treeFacilities = nodes
-    .filter((node) => !node.data.initialNode && node.data.facility)
-    .map((node) => node.data.facility as string);
+    .filter((node) => !node.data.initialNode)
+    .flatMap((node) => node.data.facilities);
   const extraFacilities = Array.from(
     new Set(
       treeFacilities.filter((f) => !uniqueFacilities.includes(f as never)),

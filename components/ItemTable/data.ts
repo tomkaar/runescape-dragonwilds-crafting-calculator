@@ -22,7 +22,7 @@ export const tableData: ItemTableRow[] = items.flatMap((item) =>
 
     image: variant.image,
 
-    facility: variant.recipe?.facility ?? null,
+    facilities: variant.recipe?.facilities ?? [],
     skills: (item.skills ?? []).filter(
       (s): s is NonNullable<typeof s> => s !== null,
     ),

@@ -19,20 +19,30 @@ export function resolveRecipe(rawRecipe: SourceRecipe): Recipe {
     rawRecipe.json.facility,
   ) as (typeof Facility)[number];
 
+  const quantity =
+    typeof rawRecipe.json.output.quantity === "string"
+      ? parseInt(rawRecipe.json.output.quantity)
+      : 1;
+
+  const outputItemId = idFromName(
+    rawRecipe.json.output.item || rawRecipe.json.output.name,
+  );
+
   const returnRecipe: Recipe = {
-    id: createRecipeId(facility, materials),
-    facility,
+    id: createRecipeId(outputItemId, quantity, materials),
+    facilities: facility ? [facility] : [],
     materials,
-    quantity:
-      typeof rawRecipe.json.output.quantity === "string"
-        ? parseInt(rawRecipe.json.output.quantity)
-        : 1,
+    quantity,
   };
 
   return returnRecipe;
 }
 
-function createRecipeId(facility: string, materials: Material[]): string {
+function createRecipeId(
+  outputItemId: string,
+  quantity: number,
+  materials: Material[],
+): string {
   const materialsString = materials
     .map((mat) => `${mat.quantity}_${mat.itemId}`)
     .join("_");
@@ -42,7 +52,7 @@ function createRecipeId(facility: string, materials: Material[]): string {
     .substring(0, 12);
 
   return createHash("sha256")
-    .update(`${materialsHash}_${facility}`)
+    .update(`${outputItemId}_${quantity}_${materialsHash}`)
     .digest("hex")
     .substring(0, 12);
 }

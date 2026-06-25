@@ -7,7 +7,6 @@ export const nodeSchema = z.object({
     id: z.string(),
     label: z.string(),
     image: z.string().nullable(),
-    facility: z.string().nullable(),
     numberOfRecipies: z
       .number()
       .nullable()
@@ -32,6 +31,9 @@ export const nodeSchema = z.object({
       .boolean()
       .nullable()
       .describe("Indicates if this is the starting point"),
+    facilities: z
+      .array(z.string())
+      .describe("All facilities that can craft this recipe"),
     leafNode: z
       .boolean()
       .nullable()

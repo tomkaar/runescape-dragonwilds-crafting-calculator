@@ -29,13 +29,38 @@ export default function listItems(
     /**
      * Resolve variants for item
      */
-    const variants: ItemVariant[] = [];
+    const variantMap = new Map<string, ItemVariant>();
     rawRecipes.forEach((recipeVariant) => {
       const parsedVariant = resolveVariant(recipeVariant);
-      if (parsedVariant) {
-        variants.push(parsedVariant);
+      if (!parsedVariant) return;
+
+      const existingVariant = variantMap.get(parsedVariant.id);
+      if (!existingVariant) {
+        variantMap.set(parsedVariant.id, parsedVariant);
+        return;
+      }
+
+      if (existingVariant.recipe && parsedVariant.recipe) {
+        const mergedFacilities = Array.from(
+          new Set([
+            ...existingVariant.recipe.facilities,
+            ...parsedVariant.recipe.facilities,
+          ]),
+        );
+        existingVariant.recipe.facilities = mergedFacilities;
+      }
+
+      if (parsedVariant.usesRecipe) {
+        existingVariant.usesRecipe = Array.from(
+          new Set([
+            ...(existingVariant.usesRecipe ?? []),
+            ...parsedVariant.usesRecipe,
+          ]),
+        );
       }
     });
+
+    const variants: ItemVariant[] = Array.from(variantMap.values());
 
     if (variants.length === 0) {
       rawItems.forEach((itemVariant) => {

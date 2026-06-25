@@ -1,5 +1,6 @@
 import { Hammer } from "lucide-react";
 import { Facility } from "@/Types";
+import facilitiesJSON from "@/data/facilities.json";
 
 export default function getFacilityIcon(
   facility: (typeof Facility)[number],
@@ -12,7 +13,7 @@ export default function getFacilityIcon(
       break;
   }
 
-  if (!Facility.includes(facility)) return null;
+  if (!facilitiesJSON.some((f) => f.name === facility)) return null;
 
   const encodedFilename = facility
     .replace(/ /g, "_")

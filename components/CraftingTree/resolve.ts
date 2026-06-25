@@ -43,9 +43,7 @@ export const resolveCraftingTree = cache((args: Args) => {
         image: item.image || null,
         numberOfRecipies: item.variants.length,
         isRecipeNumberVariant: null,
-        facility: !!item.variants.length
-          ? null
-          : (item.facilities[0] as unknown as string | null),
+        facilities: [],
         quantityNeeded: args.prevQuantity || 1,
         quantityRecieved: 0,
         hasExcessItems: false,
@@ -104,7 +102,7 @@ export const resolveCraftingTree = cache((args: Args) => {
         image: variant.image || null,
         numberOfRecipies: null,
         isRecipeNumberVariant: multipleVariants ? idx + 1 : null,
-        facility: variant.recipe?.facility as unknown as string | null,
+        facilities: variant.recipe?.facilities ?? [],
         quantityNeeded: previousRecipipeRequiresQuantity || 1,
         quantityRecieved: resultQuantity,
         hasExcessItems:

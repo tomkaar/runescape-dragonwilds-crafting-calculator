@@ -6,6 +6,7 @@ import { MultiSelectFilter } from "./filters/MultiSelectFilter";
 import { ItemTableRow } from "./columns";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
+import facilitiesJSON from "@/data/facilities.json";
 import {
   Sheet,
   SheetContent,
@@ -16,10 +17,10 @@ import {
 } from "@/components/ui/sheet";
 import { Input } from "../ui/input";
 
-const facilityOptions = Facility.map((f) => ({
-  label: f,
-  value: f,
-  icon: getFacilityIcon(f, 18),
+const facilityOptions = facilitiesJSON.map((f) => ({
+  label: f.name,
+  value: f.name,
+  icon: getFacilityIcon(f.name as (typeof Facility)[number], 18),
 }));
 const skillOptions = Skill.map((s) => ({ label: s, value: s }));
 
@@ -34,7 +35,7 @@ export default function SearchAndFilter(props: Props) {
   const { globalFilter, setGlobalFilter, rowsCount, table } = props;
   const [drawerOpen, setDrawerOpen] = useState(false);
 
-  const facilityColumn = table.getColumn("facility");
+  const facilityColumn = table.getColumn("facilities");
   const skillsColumn = table.getColumn("skills");
   const materialsColumn = table.getColumn("materialCount");
 
@@ -75,7 +76,7 @@ export default function SearchAndFilter(props: Props) {
   const filterControls = (
     <>
       <div className="flex flex-col gap-1 min-w-44">
-        {/* <span className="text-xs text-neutral-400">Facility</span> */}
+        {/* <span className="text-xs text-neutral-400">Facilities</span> */}
         <MultiSelectFilter
           options={facilityOptions}
           selected={selectedFacilities}
