@@ -79,14 +79,14 @@
     "item_description": "Spun from flax at a Spinning Wheel.",
     "item_name": "Coarse Thread",
     "item_type": "Processed Material",
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "type": "Processed Material",
       "description": "Spun from flax at a Spinning Wheel.",
       "image": "[[File:Coarse Thread.png|32px]]",
       "name": "Coarse Thread",
       "weight": "0.3",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Coarse Thread.png"
     },
     "item_weight": 0.3,
@@ -289,14 +289,14 @@
     "item_description": "A basic crafting material created from animal hide; commonly used for making equipment.",
     "item_name": "Leather",
     "item_type": "Basic Item",
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "type": "Basic Item",
       "description": "A basic crafting material created from animal hide; commonly used for making equipment.",
       "image": "[[File:Leather.png|32px]]",
       "name": "Leather",
       "weight": "0.3",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Leather.png"
     },
     "item_weight": 0.3,
@@ -701,14 +701,14 @@
     "item_description": "This bowl is empty.",
     "item_name": "Clay Vessel",
     "item_type": "Component",
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "type": "Component",
       "description": "This bowl is empty.",
       "image": "[[File:Clay Vessel.png|32px]]",
       "name": "Clay Vessel",
       "weight": "1.0",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Clay Vessel.png"
     },
     "item_weight": 1,
@@ -1001,14 +1001,14 @@
     "item_description": "A versatile metal used for crafting a wide range of durable items.",
     "item_name": "Iron Bar",
     "item_type": "Processed Material",
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "type": "Processed Material",
       "description": "A versatile metal used for crafting a wide range of durable items.",
       "image": "[[File:Iron Bar.png|32px]]",
       "name": "Iron Bar",
       "weight": "4.5",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Iron Bar.png"
     },
     "item_weight": 4.5,
@@ -1233,14 +1233,14 @@
     "item_description": "Sturdy material for crafting durable armour.",
     "item_name": "Hard Leather",
     "item_type": "Basic Item",
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "type": "Basic Item",
       "description": "Sturdy material for crafting durable armour.",
       "image": "[[File:Hard Leather.png|32px]]",
       "name": "Hard Leather",
       "weight": "0.6",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Hard Leather.png"
     },
     "item_weight": 0.6,
@@ -1251,14 +1251,14 @@
     "item_description": "Glue friendly or else I'll take away the glue and then nobody will have any glue to glue with!",
     "item_name": "Adhesive",
     "item_type": "Basic Item",
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "type": "Basic Item",
       "description": "Glue friendly or else I'll take away the glue and then nobody will have any glue to glue with!",
       "image": "[[File:Adhesive.png|32px]]",
       "name": "Adhesive",
       "weight": "0.5",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Adhesive.png"
     },
     "item_weight": 0.5,
@@ -1343,14 +1343,14 @@
     "item_description": "A versatile crafting material, smelted from bars of copper and tin.",
     "item_name": "Bronze Bar",
     "item_type": "Basic Item",
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "type": "Basic Item",
       "description": "A versatile crafting material, smelted from bars of copper and tin.",
       "image": "[[File:Bronze Bar.png|32px]]",
       "name": "Bronze Bar",
       "weight": "4.5",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Bronze Bar.png"
     },
     "item_weight": 4.5,
@@ -1361,14 +1361,14 @@
     "item_description": "Spun from sheep fleece, essential for making warm garments and padded cloth.",
     "item_name": "Wool Thread",
     "item_type": "Basic Item",
-    "item_stacklimit": 20,
+    "item_stacklimit": 99,
     "json": {
       "type": "Basic Item",
       "description": "Spun from sheep fleece, essential for making warm garments and padded cloth.",
       "image": "[[File:Wool Thread.png|32px]]",
       "name": "Wool Thread",
       "weight": "0.3",
-      "stacklimit": "20",
+      "stacklimit": "99",
       "image_raw": "Wool Thread.png"
     },
     "item_weight": 0.3,
@@ -1960,14 +1960,14 @@
     "item_description": "A precious metal found in the deepest parts of Ghornfell; used for crafting valuable items.",
     "item_name": "Gold Bar",
     "item_type": "Basic Item",
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "type": "Basic Item",
       "description": "A precious metal found in the deepest parts of Ghornfell; used for crafting valuable items.",
       "image": "[[File:Gold Bar.png|32px]]",
       "name": "Gold Bar",
       "weight": "5.0",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Gold Bar.png"
     },
     "item_weight": 5,
@@ -2106,14 +2106,14 @@
     "item_description": "Raw magical essence, extremely useful in magical recipes and equipment. Refined by herblore masters from anima-infused bark.",
     "item_name": "Wild Anima",
     "item_type": "Basic Item",
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "type": "Basic Item",
       "description": "Raw magical essence, extremely useful in magical recipes and equipment. Refined by herblore masters from anima-infused bark.",
       "image": "[[File:Wild Anima.png|32px]]",
       "name": "Wild Anima",
       "weight": "2.0",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Wild Anima.png"
     },
     "item_weight": 2,
@@ -3139,14 +3139,14 @@
     "item_description": "A precious and rare metal used to craft enchanting jewellery.",
     "item_name": "Silver Bar",
     "item_type": "Basic Item",
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "type": "Basic Item",
       "description": "A precious and rare metal used to craft enchanting jewellery.",
       "image": "[[File:Silver Bar.png|32px]]",
       "name": "Silver Bar",
       "weight": "4.8",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Silver Bar.png"
     },
     "item_weight": 4.8,
@@ -6455,14 +6455,14 @@
     "item_description": "Hot glass ready to be blown into useful objects.",
     "item_name": "Molten Glass",
     "item_type": "Resource",
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "type": "Resource",
       "description": "Hot glass ready to be blown into useful objects.",
       "image": "[[File:Molten Glass.png|32px]]",
       "name": "Molten Glass",
       "weight": "0.5",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Molten Glass.png"
     },
     "item_weight": 0.5,
@@ -8165,14 +8165,14 @@
     "item_description": "Made from spun corpse cotton. Can be used as a bow string and in stitching weapons and gear.",
     "item_name": "Fine Thread",
     "item_type": "Processed Material",
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "type": "Processed Material",
       "description": "Made from spun corpse cotton. Can be used as a bow string and in stitching weapons and gear.",
       "image": "[[File:Fine Thread.png|32px]]",
       "name": "Fine Thread",
       "weight": "0.3",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Fine Thread.png"
     },
     "item_weight": 0.3,
@@ -8207,11 +8207,11 @@
       "description": "Cabbage Seeds. Equip and use them to scatter these into a farming plot and start growing!<br /> <br />Best Planted in Brynmoor plots.",
       "image": "[[File:Cabbage Seeds.png|32px]]",
       "name": "Cabbage Seeds",
-      "weight": "0.2",
+      "weight": "0.0",
       "stacklimit": "999",
       "image_raw": "Cabbage Seeds.png"
     },
-    "item_weight": 0.2,
+    "item_weight": 0,
     "page_name_sub": "Cabbage Seeds"
   },
   {
@@ -8225,11 +8225,11 @@
       "description": "Flax seeds. Equip and use them to scatter these into a farming plot and start growing!<br /> <br />Best Planted in Brynmoor plots.",
       "image": "[[File:Flax Seeds.png|32px]]",
       "name": "Flax Seeds",
-      "weight": "0.2",
+      "weight": "0.0",
       "stacklimit": "999",
       "image_raw": "Flax Seeds.png"
     },
-    "item_weight": 0.2,
+    "item_weight": 0,
     "page_name_sub": "Flax Seeds"
   },
   {
@@ -8243,11 +8243,11 @@
       "description": "A Potato Seed. Equip and use them to scatter these into a farming plot and start growing!<br /> <br />Best Planted in Brynmoor plots.",
       "image": "[[File:Potato Seeds.png|32px]]",
       "name": "Potato Seeds",
-      "weight": "0.2",
+      "weight": "0.0",
       "stacklimit": "999",
       "image_raw": "Potato Seeds.png"
     },
-    "item_weight": 0.2,
+    "item_weight": 0,
     "page_name_sub": "Potato Seeds"
   },
   {
@@ -8261,11 +8261,11 @@
       "description": "A redberry seed. Equip and use them to scatter these into a farming plot and start growing!<br /> <br />Best Planted in Brynmoor plots.",
       "image": "[[File:Redberry Seeds.png|32px]]",
       "name": "Redberry Seeds",
-      "weight": "0.2",
+      "weight": "0.0",
       "stacklimit": "999",
       "image_raw": "Redberry Seeds.png"
     },
-    "item_weight": 0.2,
+    "item_weight": 0,
     "page_name_sub": "Redberry Seeds"
   },
   {
@@ -8297,11 +8297,11 @@
       "description": "A dwellberry seed. Equip and use them to scatter these into a farming plot and start growing!<br /> <br />Best planted in Ghornfell plots.",
       "image": "[[File:Dwellberry Seeds.png|32px]]",
       "name": "Dwellberry Seeds",
-      "weight": "0.2",
+      "weight": "0.0",
       "stacklimit": "999",
       "image_raw": "Dwellberry Seeds.png"
     },
-    "item_weight": 0.2,
+    "item_weight": 0,
     "page_name_sub": "Dwellberry Seeds"
   },
   {
@@ -8351,11 +8351,11 @@
       "description": "Marentill Seeds. Equip and use them to scatter these into a farming plot and start growing!<br /> <br />Best Planted in Brynmoor plots.",
       "image": "[[File:Marentill Seeds.png|32px]]",
       "name": "Marentill Seeds",
-      "weight": "0.2",
+      "weight": "0.0",
       "stacklimit": "999",
       "image_raw": "Marentill Seeds.png"
     },
-    "item_weight": 0.2,
+    "item_weight": 0,
     "page_name_sub": "Marentill Seeds"
   },
   {
@@ -8369,11 +8369,11 @@
       "description": "Harralander seeds. Equip and use them to scatter these into a farming plot and start growing!<br /> <br />Best Planted in Brynmoor plots.",
       "image": "[[File:Harralander Seeds.png|32px]]",
       "name": "Harralander Seeds",
-      "weight": "0.2",
+      "weight": "0.0",
       "stacklimit": "999",
       "image_raw": "Harralander Seeds.png"
     },
-    "item_weight": 0.2,
+    "item_weight": 0,
     "page_name_sub": "Harralander Seeds"
   },
   {
@@ -8519,11 +8519,11 @@
       "description": "A handful of Cadavaberry Seeds. Equip and use them to scatter these into a farming plot and start growing!<br /> <br />Best planted in Fellhollow plots.",
       "image": "[[File:Cadavaberry Seeds.png|32px]]",
       "name": "Cadavaberry Seeds",
-      "weight": "0.2",
+      "weight": "0.0",
       "stacklimit": "999",
       "image_raw": "Cadavaberry Seeds.png"
     },
-    "item_weight": 0.2,
+    "item_weight": 0,
     "page_name_sub": "Cadavaberry Seeds"
   },
   {
@@ -8555,11 +8555,11 @@
       "description": "Onion Seeds. Equip and use them to scatter these into a farming plot and start growing!<br /> <br />Best planted in Ghornfell plots.",
       "image": "[[File:Onion Seeds.png|32px]]",
       "name": "Onion Seeds",
-      "weight": "0.2",
+      "weight": "0.0",
       "stacklimit": "999",
       "image_raw": "Onion Seeds.png"
     },
-    "item_weight": 0.2,
+    "item_weight": 0,
     "page_name_sub": "Onion Seeds"
   },
   {
@@ -8845,11 +8845,11 @@
       "description": "Pumpkin Seeds. Equip and use them to scatter these into a farming plot and start growing!<br /> <br />Best Planted in Fellhollow plots.",
       "image": "[[File:Pumpkin Seeds.png|32px]]",
       "name": "Pumpkin Seeds",
-      "weight": "0.2",
+      "weight": "0.0",
       "stacklimit": "999",
       "image_raw": "Pumpkin Seeds.png"
     },
-    "item_weight": 0.2,
+    "item_weight": 0,
     "page_name_sub": "Pumpkin Seeds"
   },
   {
@@ -12041,14 +12041,14 @@
     "item_description": "A glass item made by glassblowing.",
     "item_name": "Glass Vessel",
     "item_type": "Component",
-    "item_stacklimit": 20,
+    "item_stacklimit": 99,
     "json": {
       "type": "Component",
       "description": "A glass item made by glassblowing.",
       "image": "[[File:Glass Vessel.png|32px]]",
       "name": "Glass Vessel",
       "weight": "1.0",
-      "stacklimit": "20",
+      "stacklimit": "99",
       "image_raw": "Glass Vessel.png"
     },
     "item_weight": 1,
@@ -13078,14 +13078,14 @@
     "item_description": "Made by tanning blue dragonhide. A key component for ranged armour.",
     "item_name": "Blue Dragon Leather",
     "item_type": "Processed Material",
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "type": "Processed Material",
       "description": "Made by tanning blue dragonhide. A key component for ranged armour.",
       "image": "[[File:Blue Dragon Leather.png|32px]]",
       "name": "Blue Dragon Leather",
       "weight": "0.6",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Blue Dragon Leather.png"
     },
     "item_weight": 0.6,
@@ -13771,13 +13771,13 @@
   },
   {
     "page_name": "Mithril Arrow",
-    "item_description": "Arrows with tips forged from Steel.",
+    "item_description": "Arrows with tips forged from mithril.",
     "item_name": "Mithril Arrow",
     "item_type": "Arrow",
     "item_stacklimit": 999,
     "json": {
       "type": "Arrow",
-      "description": "Arrows with tips forged from Steel.",
+      "description": "Arrows with tips forged from mithril.",
       "image": "[[File:Mithril Arrow.png|32px]]",
       "name": "Mithril Arrow",
       "weight": "0.0",
@@ -18937,24 +18937,462 @@
   },
   {
     "page_name": "Desert Weed",
-    "item_description": "A Hearty Plant native to the region. Can be spun into durable thread",
+    "item_description": "A hearty plant native to the region. Can be spun into a durable thread",
     "item_name": "Desert Weed",
     "item_type": "Basic Material",
-    "item_stacklimit": 0,
+    "item_stacklimit": 99,
     "json": {
       "type": "Basic Material",
-      "description": "A Hearty Plant native to the region. Can be spun into durable thread",
+      "description": "A hearty plant native to the region. Can be spun into a durable thread",
       "health": "",
-      "weight": "",
+      "weight": "0.4",
       "image": "[[File:Desert Weed.png|32px]]",
       "name": "Desert Weed",
       "hydration": "",
       "sustenance": "",
       "compostvalue": "",
-      "stacklimit": "",
+      "stacklimit": "99",
       "image_raw": "Desert Weed.png"
     },
-    "item_weight": 0,
+    "item_weight": 0.4,
     "page_name_sub": "Desert Weed"
+  },
+  {
+    "page_name": "Maple Tree Seed",
+    "item_description": "Maple tree seeds.<br /> <br />Plant this directly into the ground to grow your own Tree!",
+    "item_name": "Maple Tree Seed",
+    "item_type": "Seed",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Seed",
+      "description": "Maple tree seeds.<br /> <br />Plant this directly into the ground to grow your own Tree!",
+      "image": "[[File:Maple Tree Seed.png|32px]]",
+      "name": "Maple Tree Seed",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Maple Tree Seed.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Maple Tree Seed"
+  },
+  {
+    "page_name": "Yew Plank",
+    "item_description": "A milled piece of yew timber.",
+    "item_name": "Yew Plank",
+    "item_type": "Resource",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Resource",
+      "description": "A milled piece of yew timber.",
+      "image": "[[File:Yew Plank.png|32px]]",
+      "name": "Yew Plank",
+      "weight": "0.8",
+      "stacklimit": "99",
+      "image_raw": "Yew Plank.png"
+    },
+    "item_weight": 0.8,
+    "page_name_sub": "Yew Plank"
+  },
+  {
+    "page_name": "Yew Tree Seed",
+    "item_description": "Yew tree seeds.<br /> <br />Plant this directly into the ground to grow your own Tree!",
+    "item_name": "Yew Tree Seed",
+    "item_type": "Seed",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Seed",
+      "description": "Yew tree seeds.<br /> <br />Plant this directly into the ground to grow your own Tree!",
+      "image": "[[File:Yew Tree Seed.png|32px]]",
+      "name": "Yew Tree Seed",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Yew Tree Seed.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Yew Tree Seed"
+  },
+  {
+    "page_name": "Bunny Cactus Seed",
+    "item_description": "A Bunny Cactus seed. Pop it into a farming plot and start growing!<br><br>Best planted in Umbral Sand plots.",
+    "item_name": "Bunny Cactus Seed",
+    "item_type": "Seed",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Seed",
+      "description": "A Bunny Cactus seed. Pop it into a farming plot and start growing!<br><br>Best planted in Umbral Sand plots.",
+      "image": "[[File:Bunny Cactus Seed.png|32px]]",
+      "name": "Bunny Cactus Seed",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Bunny Cactus Seed.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Bunny Cactus Seed"
+  },
+  {
+    "page_name": "Barrel Cactus Seed",
+    "item_description": "A Barrel Cactus seed. Pop it into a farming plot and start growing!<br><br>Best planted in Umbral Sand plots.",
+    "item_name": "Barrel Cactus Seed",
+    "item_type": "Seed",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Seed",
+      "description": "A Barrel Cactus seed. Pop it into a farming plot and start growing!<br><br>Best planted in Umbral Sand plots.",
+      "image": "[[File:Barrel Cactus Seed.png|32px]]",
+      "name": "Barrel Cactus Seed",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Barrel Cactus Seed.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Barrel Cactus Seed"
+  },
+  {
+    "page_name": "Pipe Cactus Seed",
+    "item_description": "A Pipe Cactus seed. Pop it into a farming plot and start growing!<br><br>Best planted in Umbral Sand plots.",
+    "item_name": "Pipe Cactus Seed",
+    "item_type": "Seed",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Seed",
+      "description": "A Pipe Cactus seed. Pop it into a farming plot and start growing!<br><br>Best planted in Umbral Sand plots.",
+      "image": "[[File:Pipe Cactus Seed.png|32px]]",
+      "name": "Pipe Cactus Seed",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Pipe Cactus Seed.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Pipe Cactus Seed"
+  },
+  {
+    "page_name": "Desert Weed Seeds",
+    "item_description": "A handful of Desert Weed seeds. Equip and use them to scatter these into a farming plot and start growing!<br><br>Best planted in Umbral Sand plots.",
+    "item_name": "Desert Weed Seeds",
+    "item_type": "Seed",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Seed",
+      "description": "A handful of Desert Weed seeds. Equip and use them to scatter these into a farming plot and start growing!<br><br>Best planted in Umbral Sand plots.",
+      "image": "[[File:Desert Weed Seeds.png|32px]]",
+      "name": "Desert Weed Seeds",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Desert Weed Seeds.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Desert Weed Seeds"
+  },
+  {
+    "page_name": "Stunted Kalphite Wing",
+    "item_description": "",
+    "item_name": "Stunted Kalphite Wing",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "",
+      "image": "[[File:Stunted Kalphite Wing.png|32px]]",
+      "name": "Stunted Kalphite Wing",
+      "weight": "0.25",
+      "stacklimit": "99",
+      "image_raw": "Stunted Kalphite Wing.png"
+    },
+    "item_weight": 0.25,
+    "page_name_sub": "Stunted Kalphite Wing"
+  },
+  {
+    "page_name": "Kalphite Wing",
+    "item_description": "",
+    "item_name": "Kalphite Wing",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "",
+      "image": "[[File:Kalphite Wing.png|32px]]",
+      "name": "Kalphite Wing",
+      "weight": "0.25",
+      "stacklimit": "99",
+      "image_raw": "Kalphite Wing.png"
+    },
+    "item_weight": 0.25,
+    "page_name_sub": "Kalphite Wing"
+  },
+  {
+    "page_name": "Greater Kalphite Wing",
+    "item_description": "",
+    "item_name": "Greater Kalphite Wing",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "",
+      "image": "[[File:Greater Kalphite Wing.png|32px]]",
+      "name": "Greater Kalphite Wing",
+      "weight": "0.25",
+      "stacklimit": "99",
+      "image_raw": "Greater Kalphite Wing.png"
+    },
+    "item_weight": 0.25,
+    "page_name_sub": "Greater Kalphite Wing"
+  },
+  {
+    "page_name": "Cactus Steak",
+    "item_description": "A moist and sweet botanical edible. It has a fresh floral fragrance.",
+    "item_name": "Cactus Steak",
+    "item_type": "Raw Ingredient",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Raw Ingredient",
+      "description": "A moist and sweet botanical edible. It has a fresh floral fragrance.",
+      "image": "[[File:Cactus Steak.png|32px]]",
+      "name": "Cactus Steak",
+      "weight": "0.2",
+      "stacklimit": "99",
+      "image_raw": "Cactus Steak.png"
+    },
+    "item_weight": 0.2,
+    "page_name_sub": "Cactus Steak"
+  },
+  {
+    "page_name": "Ground Tea Leaves",
+    "item_description": "",
+    "item_name": "Ground Tea Leaves",
+    "item_weight": 0,
+    "page_name_sub": "Ground Tea Leaves",
+    "json": {
+      "type": "Basic Item",
+      "description": "",
+      "image": "[[File:Ground Tea Leaves.png|32px]]",
+      "name": "Ground Tea Leaves",
+      "weight": "0.0",
+      "image_raw": "Ground Tea Leaves.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Tea Leaves",
+    "item_description": "",
+    "item_name": "Tea Leaves",
+    "item_weight": 0.1,
+    "page_name_sub": "Tea Leaves",
+    "json": {
+      "type": "Resource",
+      "description": "",
+      "image": "[[File:Tea Leaves.png|32px]]",
+      "name": "Tea Leaves",
+      "weight": "0.1",
+      "image_raw": "Tea Leaves.png"
+    },
+    "item_type": "Resource"
+  },
+  {
+    "page_name": "Fibrous Pipe Cactus",
+    "item_description": "A complex network of fibres and water reservoirs. Can be tanned to produce a durable material.",
+    "item_name": "Fibrous Pipe Cactus",
+    "item_weight": 1,
+    "page_name_sub": "Fibrous Pipe Cactus",
+    "json": {
+      "type": "Basic Item",
+      "description": "A complex network of fibres and water reservoirs. Can be tanned to produce a durable material.",
+      "image": "[[File:Fibrous Pipe Cactus.png|32px]]",
+      "name": "Fibrous Pipe Cactus",
+      "weight": "1.0",
+      "image_raw": "Fibrous Pipe Cactus.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Adamant Watering Can",
+    "item_name": "Adamant Watering Can",
+    "item_weight": 5.5,
+    "page_name_sub": "Adamant Watering Can",
+    "json": {
+      "type": "Tool",
+      "image": "[[File:Adamant Watering Can.png|32px]]",
+      "name": "Adamant Watering Can",
+      "weight": "5.5",
+      "image_raw": "Adamant Watering Can.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Lunar Garou Hat",
+    "item_description": "A lenar-infused hood designed to complement the garou robes, Suitable for magic users, enhancing healing abilities at night.",
+    "item_name": "Lunar Garou Hat",
+    "item_type": "Mage Armour",
+    "page_name_sub": "Lunar Garou Hat",
+    "json": {
+      "type": "Mage Armour",
+      "description": "A lenar-infused hood designed to complement the garou robes, Suitable for magic users, enhancing healing abilities at night.",
+      "repaircost": "",
+      "image": "",
+      "name": "Lunar Garou Hat",
+      "weight": "4.0",
+      "image_raw": ""
+    },
+    "item_repair": "",
+    "item_weight": 4
+  },
+  {
+    "page_name": "Garou Weave",
+    "item_description": "A high quality material sold by local garou merchants.",
+    "item_name": "Garou Weave Cloth",
+    "item_type": "Processed Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Processed Material",
+      "description": "A high quality material sold by local garou merchants.",
+      "image": "[[File:Garou Weave Cloth.png|32px]]",
+      "name": "Garou Weave Cloth",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Garou Weave Cloth.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Garou Weave"
+  },
+  {
+    "page_name": "Adamant Arrow",
+    "item_description": "Arrows with tips forged from adamant.",
+    "item_name": "Adamant Arrow",
+    "item_type": "Arrow",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Arrow",
+      "description": "Arrows with tips forged from adamant.",
+      "image": "[[File:Adamant Arrow.png|32px]]",
+      "name": "Adamant Arrow",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Adamant Arrow.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Adamant Arrow"
+  },
+  {
+    "page_name": "Adamant Barbed Arrow",
+    "item_description": "Lacerating arrows with barbed tips forged from adamant.",
+    "item_name": "Adamant Barbed Arrow",
+    "item_type": "Arrow",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Arrow",
+      "description": "Lacerating arrows with barbed tips forged from adamant.",
+      "image": "[[File:Adamant Barbed Arrow.png|32px]]",
+      "name": "Adamant Barbed Arrow",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Adamant Barbed Arrow.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Adamant Barbed Arrow"
+  },
+  {
+    "page_name": "Poisoned Adamant Arrow",
+    "item_description": "Arrows with tips forged from adamant, coated in Weapon Poison.",
+    "item_name": "Poisoned Adamant Arrow",
+    "item_type": "Arrow",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Arrow",
+      "description": "Arrows with tips forged from adamant, coated in Weapon Poison.",
+      "image": "[[File:Poisoned Adamant Arrow.png|32px]]",
+      "name": "Poisoned Adamant Arrow",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Poisoned Adamant Arrow.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Poisoned Adamant Arrow"
+  },
+  {
+    "page_name": "Adamant Fire Arrow",
+    "item_description": "Burning arrows with tips forged from adamant, coated in fire oil.",
+    "item_name": "Adamant Fire Arrow",
+    "item_type": "Arrow",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Arrow",
+      "description": "Burning arrows with tips forged from adamant, coated in fire oil.",
+      "image": "[[File:Adamant Fire Arrow.png|32px]]",
+      "name": "Adamant Fire Arrow",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Adamant Fire Arrow.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Adamant Fire Arrow"
+  },
+  {
+    "page_name": "Infinity Robe Hat",
+    "item_description": "A wizard's hat, infused with boundless magical power.",
+    "item_name": "Infinity Robe Hat",
+    "item_type": "Mage Armour",
+    "page_name_sub": "Infinity Robe Hat",
+    "json": {
+      "type": "Mage Armour",
+      "description": "A wizard's hat, infused with boundless magical power.",
+      "repaircost": "",
+      "image": "[[File:Infinity Robe Hat.png|32px]]",
+      "name": "Infinity Robe Hat",
+      "weight": "4.0",
+      "image_raw": "Infinity Robe Hat.png"
+    },
+    "item_repair": "",
+    "item_weight": 4
+  },
+  {
+    "page_name": "Infinity Robe Body",
+    "item_description": "A wizard's robe, infused with endless arcane force.",
+    "item_name": "Infinity Robe Body",
+    "item_type": "Mage Armour",
+    "page_name_sub": "Infinity Robe Body",
+    "json": {
+      "type": "Mage Armour",
+      "description": "A wizard's robe, infused with endless arcane force.",
+      "repaircost": "",
+      "image": "[[File:Infinity Robe Body.png|32px]]",
+      "name": "Infinity Robe Body",
+      "weight": "8.0",
+      "image_raw": "Infinity Robe Body.png"
+    },
+    "item_repair": "",
+    "item_weight": 8
+  },
+  {
+    "page_name": "Infinity Robe Legs",
+    "item_description": "A wizard's hat, infused with boundless magical power.",
+    "item_name": "Infinity Robe Legs",
+    "item_type": "Mage Armour",
+    "page_name_sub": "Infinity Robe Legs",
+    "json": {
+      "type": "Mage Armour",
+      "description": "A wizard's hat, infused with boundless magical power.",
+      "repaircost": "",
+      "image": "[[File:Infinity Robe Legs.png|32px]]",
+      "name": "Infinity Robe Legs",
+      "weight": "6.0",
+      "image_raw": "Infinity Robe Legs.png"
+    },
+    "item_repair": "",
+    "item_weight": 6
+  },
+  {
+    "page_name": "Master's Staff",
+    "item_description": "A magical staff fashioned for a master of the mystic arts. It radiates with power.",
+    "item_name": "Master's Staff",
+    "item_weight": 15,
+    "page_name_sub": "Master's Staff",
+    "json": {
+      "type": "Magic Weapon",
+      "description": "A magical staff fashioned for a master of the mystic arts. It radiates with power.",
+      "image": "[[File:Master's Staff.png|32px]]",
+      "name": "Master's Staff",
+      "weight": "15",
+      "image_raw": "Master's Staff.png"
+    },
+    "item_type": "Magic Weapon"
   }
 ]

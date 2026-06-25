@@ -66213,7 +66213,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -66257,7 +66257,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -66301,7 +66301,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -66745,13 +66745,33 @@
     ]
   },
   {
+    "uses_material": [
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
-      ""
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "",
-      "materials": [],
-      "skills": [],
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "2",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
       "outputs": [
         "Adamant Crossbow Limbs"
       ],
@@ -66769,13 +66789,69 @@
     ]
   },
   {
+    "uses_material": [
+      "Yew Logs",
+      "Desert Thread",
+      "Adamant Crossbow Limbs",
+      "Dragonstone",
+      "Gypsum Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
       "Fletching Bench"
     ],
     "json": {
       "facility": "Fletching Bench",
-      "materials": [],
-      "skills": [],
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "16",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "6",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Adamant Crossbow Limbs",
+          "link": "Adamant Crossbow Limbs",
+          "qty": "1",
+          "item": "Adamant Crossbow Limbs",
+          "image": "[[File:Adamant Crossbow Limbs.png|30px|link=Adamant Crossbow Limbs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "1",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
       "outputs": [
         "Adamant Crossbow"
       ],
@@ -66794,7 +66870,10 @@
   },
   {
     "uses_material": [
-      "Adamant Bar"
+      "Adamant Bar",
+      "Yew Logs",
+      "Scorch Leather",
+      "Gypsum Wax"
     ],
     "uses_skill": [
       "Artisan"
@@ -66806,18 +66885,42 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "",
+          "quantity": "8",
           "name": "Adamant Bar",
           "link": "Adamant Bar",
-          "qty": "",
+          "qty": "8",
           "item": "Adamant Bar",
           "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "8",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "4",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
         }
       ],
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "?"
         }
       ],
       "outputs": [
@@ -66838,7 +66941,9 @@
   },
   {
     "uses_material": [
-      "Adamant Bar"
+      "Adamant Bar",
+      "Scorch Leather",
+      "Gypsum Wax"
     ],
     "uses_skill": [
       "Artisan"
@@ -66850,12 +66955,28 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "",
+          "quantity": "16",
           "name": "Adamant Bar",
           "link": "Adamant Bar",
-          "qty": "",
+          "qty": "16",
           "item": "Adamant Bar",
           "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "3",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "4",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
         }
       ],
       "skills": [
@@ -66882,7 +67003,10 @@
   },
   {
     "uses_material": [
-      "Adamant Bar"
+      "Adamant Bar",
+      "Scorch Leather",
+      "Desert Thread",
+      "Gypsum Wax"
     ],
     "uses_skill": [
       "Artisan"
@@ -66894,18 +67018,42 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "",
+          "quantity": "10",
           "name": "Adamant Bar",
           "link": "Adamant Bar",
-          "qty": "",
+          "qty": "10",
           "item": "Adamant Bar",
           "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "5",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "3",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
         }
       ],
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "?"
         }
       ],
       "outputs": [
@@ -66926,7 +67074,10 @@
   },
   {
     "uses_material": [
-      "Adamant Bar"
+      "Adamant Bar",
+      "Scorch Leather",
+      "Desert Thread",
+      "Gypsum Wax"
     ],
     "uses_skill": [
       "Artisan"
@@ -66938,12 +67089,36 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "?",
+          "quantity": "12",
           "name": "Adamant Bar",
           "link": "Adamant Bar",
-          "qty": "?",
+          "qty": "12",
           "item": "Adamant Bar",
           "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "5",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "4",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "4",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
         }
       ],
       "skills": [
@@ -66970,7 +67145,10 @@
   },
   {
     "uses_material": [
-      "Adamant Bar"
+      "Adamant Bar",
+      "Kalphite Shell",
+      "Desert Thread",
+      "Gypsum Wax"
     ],
     "uses_skill": [
       "Artisan"
@@ -66982,12 +67160,36 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "?",
+          "quantity": "8",
           "name": "Adamant Bar",
           "link": "Adamant Bar",
-          "qty": "?",
+          "qty": "8",
           "item": "Adamant Bar",
           "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Kalphite Shell",
+          "link": "Kalphite Shell",
+          "qty": "6",
+          "item": "Kalphite Shell",
+          "image": "[[File:Kalphite Shell.png|30px|link=Kalphite Shell]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "3",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
         }
       ],
       "skills": [
@@ -67014,7 +67216,10 @@
   },
   {
     "uses_material": [
-      "Adamant Bar"
+      "Adamant Bar",
+      "Yew Logs",
+      "Scorch Leather",
+      "Gypsum Wax"
     ],
     "uses_skill": [
       "Artisan"
@@ -67026,12 +67231,36 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "?",
+          "quantity": "16",
           "name": "Adamant Bar",
           "link": "Adamant Bar",
-          "qty": "?",
+          "qty": "16",
           "item": "Adamant Bar",
           "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "5",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "6",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "4",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
         }
       ],
       "skills": [
@@ -67058,7 +67287,10 @@
   },
   {
     "uses_material": [
-      "Adamant Bar"
+      "Adamant Bar",
+      "Scorch Leather",
+      "Infinity Cloth",
+      "Gypsum Wax"
     ],
     "uses_skill": [
       "Artisan"
@@ -67070,12 +67302,36 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "?",
+          "quantity": "10",
           "name": "Adamant Bar",
           "link": "Adamant Bar",
-          "qty": "?",
+          "qty": "10",
           "item": "Adamant Bar",
           "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "5",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Infinity Cloth",
+          "link": "Infinity Cloth",
+          "qty": "2",
+          "item": "Infinity Cloth",
+          "image": "[[File:Infinity Cloth.png|30px|link=Infinity Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
         }
       ],
       "skills": [
@@ -67511,5 +67767,798 @@
     "output": [
       "Adamant Bolt"
     ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Sawmill"
+    ],
+    "json": {
+      "facility": "Sawmill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "1",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Yew Plank"
+      ],
+      "output": {
+        "quantity": "2",
+        "name": "Yew Plank",
+        "link": "Yew Plank",
+        "qty": "2",
+        "item": "Yew Plank",
+        "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+      }
+    },
+    "output": [
+      "Yew Plank"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "8",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Yew Farming Plot"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Yew Farming Plot",
+        "link": "Yew Farming Plot",
+        "qty": 1,
+        "item": "Yew Farming Plot",
+        "image": "[[File:Yew Farming Plot.png|30px|link=Yew Farming Plot]]"
+      }
+    },
+    "output": [
+      "Yew Farming Plot"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar",
+      "Desert Cloth"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "6",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "2",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Adamant Watering Can"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Adamant Watering Can",
+        "link": "Adamant Watering Can",
+        "qty": 1,
+        "item": "Adamant Watering Can",
+        "image": "[[File:Adamant Watering Can.png|30px|link=Adamant Watering Can]]"
+      }
+    },
+    "output": [
+      "Adamant Watering Can"
+    ]
+  },
+  {
+    "uses_material": [
+      "Garou Weave",
+      "Infinity Cloth",
+      "Garou Artifact",
+      "Refined Obsidian",
+      "Gypsum Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      ""
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "",
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "3",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Infinity Cloth",
+          "link": "Infinity Cloth",
+          "qty": "4",
+          "item": "Infinity Cloth",
+          "image": "[[File:Infinity Cloth.png|30px|link=Infinity Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Garou Artifact",
+          "link": "Garou Artifact",
+          "qty": "1",
+          "item": "Garou Artifact",
+          "image": "[[File:Garou Artifact.png|30px|link=Garou Artifact]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "1",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "1",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Lunar Garou Hat"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Lunar Garou Hat",
+        "link": "Lunar Garou Hat",
+        "qty": 1,
+        "item": "Lunar Garou Hat",
+        "image": "[[File:Lunar Garou Hat.png|30px|link=Lunar Garou Hat]]"
+      }
+    },
+    "output": [
+      "Lunar Garou Hat"
+    ]
+  },
+  {
+    "uses_material": [
+      "Bronze Bar",
+      "Ash Logs",
+      "Coarse Thread",
+      "Vault Core"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Bronze Bar",
+          "link": "Bronze Bar",
+          "qty": "6",
+          "item": "Bronze Bar",
+          "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
+        },
+        {
+          "quantity": "20",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "20",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "8",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Vault Core",
+          "link": "Vault Core",
+          "qty": "1",
+          "item": "Vault Core",
+          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Blacksmith's Bench"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Blacksmith's Bench",
+        "link": "Blacksmith's Bench",
+        "qty": 1,
+        "item": "Blacksmith's Bench",
+        "image": "[[File:Blacksmith's Bench.png|30px|link=Blacksmith's Bench]]"
+      }
+    },
+    "output": [
+      "Blacksmith's Bench"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "?",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "?",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Adamant Arrow"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Adamant Arrow",
+        "link": "Adamant Arrow",
+        "qty": "33",
+        "item": "Adamant Arrow",
+        "image": "[[File:Adamant Arrow.png|30px|link=Adamant Arrow]]"
+      }
+    },
+    "output": [
+      "Adamant Arrow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Arrow"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "Adamant Arrow",
+          "link": "Adamant Arrow",
+          "qty": "33",
+          "item": "Adamant Arrow",
+          "image": "[[File:Adamant Arrow.png|30px|link=Adamant Arrow]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Adamant Barbed Arrow"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Adamant Barbed Arrow",
+        "link": "Adamant Barbed Arrow",
+        "qty": "33",
+        "item": "Adamant Barbed Arrow",
+        "image": "[[File:Adamant Barbed Arrow.png|30px|link=Adamant Barbed Arrow]]"
+      }
+    },
+    "output": [
+      "Adamant Barbed Arrow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Arrow"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "Adamant Arrow",
+          "link": "Adamant Arrow",
+          "qty": "33",
+          "item": "Adamant Arrow",
+          "image": "[[File:Adamant Arrow.png|30px|link=Adamant Arrow]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Poisoned Adamant Arrow"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Poisoned Adamant Arrow",
+        "link": "Poisoned Adamant Arrow",
+        "qty": "33",
+        "item": "Poisoned Adamant Arrow",
+        "image": "[[File:Poisoned Adamant Arrow.png|30px|link=Poisoned Adamant Arrow]]"
+      }
+    },
+    "output": [
+      "Poisoned Adamant Arrow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Arrow"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "Adamant Arrow",
+          "link": "Adamant Arrow",
+          "qty": "33",
+          "item": "Adamant Arrow",
+          "image": "[[File:Adamant Arrow.png|30px|link=Adamant Arrow]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Adamant Fire Arrow"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Adamant Fire Arrow",
+        "link": "Adamant Fire Arrow",
+        "qty": "33",
+        "item": "Adamant Fire Arrow",
+        "image": "[[File:Adamant Fire Arrow.png|30px|link=Adamant Fire Arrow]]"
+      }
+    },
+    "output": [
+      "Adamant Fire Arrow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Infinity Cloth",
+      "Scorch Leather",
+      "Adamant Bar",
+      "Refined Obsidian",
+      "Gypsum Wax",
+      "Garou Weave"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Infinity Cloth",
+          "link": "Infinity Cloth",
+          "qty": "2",
+          "item": "Infinity Cloth",
+          "image": "[[File:Infinity Cloth.png|30px|link=Infinity Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "1",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "1",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "1",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "1",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "2",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Infinity Robe Hat"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Infinity Robe Hat",
+        "link": "Infinity Robe Hat",
+        "qty": 1,
+        "item": "Infinity Robe Hat",
+        "image": "[[File:Infinity Robe Hat.png|30px|link=Infinity Robe Hat]]"
+      }
+    },
+    "output": [
+      "Infinity Robe Hat"
+    ]
+  },
+  {
+    "uses_material": [
+      "Infinity Cloth",
+      "Scorch Leather",
+      "Adamant Bar",
+      "Refined Obsidian",
+      "Gypsum Wax",
+      "Garou Weave"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Infinity Cloth",
+          "link": "Infinity Cloth",
+          "qty": "6",
+          "item": "Infinity Cloth",
+          "image": "[[File:Infinity Cloth.png|30px|link=Infinity Cloth]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "3",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "3",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "3",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "3",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "6",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Infinity Robe Body"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Infinity Robe Body",
+        "link": "Infinity Robe Body",
+        "qty": 1,
+        "item": "Infinity Robe Body",
+        "image": "[[File:Infinity Robe Body.png|30px|link=Infinity Robe Body]]"
+      }
+    },
+    "output": [
+      "Infinity Robe Body"
+    ]
+  },
+  {
+    "uses_material": [
+      "Infinity Cloth",
+      "Scorch Leather",
+      "Adamant Bar",
+      "Refined Obsidian",
+      "Gypsum Wax",
+      "Garou Weave"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Infinity Cloth",
+          "link": "Infinity Cloth",
+          "qty": "4",
+          "item": "Infinity Cloth",
+          "image": "[[File:Infinity Cloth.png|30px|link=Infinity Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "2",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "2",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "2",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "4",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": ""
+        }
+      ],
+      "outputs": []
+    }
+  },
+  {
+    "uses_material": [
+      "Yew Logs",
+      "Refined Obsidian",
+      "Infinity Cloth",
+      "Dragonstone",
+      "Gypsum Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "16",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "6",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Infinity Cloth",
+          "link": "Infinity Cloth",
+          "qty": "4",
+          "item": "Infinity Cloth",
+          "image": "[[File:Infinity Cloth.png|30px|link=Infinity Cloth]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "4",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "4",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
+      "outputs": []
+    }
   }
 ]
