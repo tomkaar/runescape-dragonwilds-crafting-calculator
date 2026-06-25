@@ -25,7 +25,7 @@ async function parseData() {
 
   const recipes = (JSON.parse(loadedRecipes) as unknown as SourceRecipe[]).map(
     normalizeRecipe,
-  );
+  ).filter((v): v is SourceRecipe => !!v);
   const items = (JSON.parse(loadedItems) as unknown as SourceItem[]).map(
     normalizeItem,
   );
@@ -70,7 +70,10 @@ function normalizeName(name: string): string {
   return name.replace(/\s+/g, " ").trim();
 }
 
-function normalizeRecipe(recipe: SourceRecipe): SourceRecipe {
+function normalizeRecipe(recipe: SourceRecipe): SourceRecipe | null {
+  if (!recipe.output) {
+    return null;
+  }
   return {
     ...recipe,
     output: recipe.output.map(normalizeName),
