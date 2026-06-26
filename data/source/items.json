@@ -6760,10 +6760,10 @@
     "page_name": "Blurite Crossbow Limbs",
     "item_description": "A pair of blurite crossbow limbs. Used in crafting a Blurite Crossbow.",
     "item_name": "Blurite Crossbow Limbs",
-    "item_type": "Basic Item",
+    "item_type": "Component",
     "item_stacklimit": 1,
     "json": {
-      "type": "Basic Item",
+      "type": "Component",
       "description": "A pair of blurite crossbow limbs. Used in crafting a Blurite Crossbow.",
       "image": "[[File:Blurite Crossbow Limbs.png|32px]]",
       "name": "Blurite Crossbow Limbs",
@@ -18680,13 +18680,13 @@
   },
   {
     "page_name": "Monkfish Bait",
-    "item_description": "Bait made from monkfish tail. Increases the catch chance of Desert Sole",
+    "item_description": "Bait made from monkfish tail. Increases the catch chance of Desert Sole.",
     "item_name": "Monkfish Bait",
     "item_type": "Tool",
     "item_stacklimit": 999,
     "json": {
       "type": "Tool",
-      "description": "Bait made from monkfish tail. Increases the catch chance of Desert Sole",
+      "description": "Bait made from monkfish tail. Increases the catch chance of Desert Sole.",
       "image": "[[File:Monkfish Bait.png|32px]]",
       "name": "Monkfish Bait",
       "weight": "0.0",
@@ -19412,5 +19412,109 @@
       "image_raw": "Master's Staff.png"
     },
     "item_type": "Magic Weapon"
+  },
+  {
+    "page_name": "Seared Cactus Steak",
+    "item_description": "You'd be surprised at how tasty an eight-ounce cactus, medium-rare can be.",
+    "item_name": "Seared Cactus Steak",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "You'd be surprised at how tasty an eight-ounce cactus, medium-rare can be.",
+      "image": "[[File:Seared Cactus Steak.png|32px]]",
+      "name": "Seared Cactus Steak",
+      "weight": "0.2",
+      "stacklimit": "99",
+      "image_raw": "Seared Cactus Steak.png"
+    },
+    "item_weight": 0.2,
+    "page_name_sub": "Seared Cactus Steak"
+  },
+  {
+    "page_name": "Elder Curiosities",
+    "item_description": "Obsidian curiosities that feel pleasing in the hand. Can be ground and smelted into pure obsidian.",
+    "item_name": "Elder Curiosities",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Obsidian curiosities that feel pleasing in the hand. Can be ground and smelted into pure obsidian.",
+      "image": "[[File:Elder Curiosities.png|32px]]",
+      "name": "Elder Curiosities",
+      "weight": "0.3",
+      "stacklimit": "99",
+      "image_raw": "Elder Curiosities.png"
+    },
+    "item_weight": 0.3,
+    "page_name_sub": "Elder Curiosities"
+  },
+  {
+    "page_name": "Obsidian Device",
+    "item_description": "An obsidian object, useful as little more than a paperweight. Can be ground and then smelted into pure obsidian.",
+    "item_name": "Obsidian Device",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "An obsidian object, useful as little more than a paperweight. Can be ground and then smelted into pure obsidian.",
+      "image": "[[File:Obsidian Device.png|32px]]",
+      "name": "Obsidian Device",
+      "weight": "0.3",
+      "stacklimit": "99",
+      "image_raw": "Obsidian Device.png"
+    },
+    "item_weight": 0.3,
+    "page_name_sub": "Obsidian Device"
+  },
+  {
+    "page_name": "Moonstone",
+    "item_description": "A glittering gemstone, desired by a merchant in the Alcarrid garou settlement.",
+    "item_name": "Moonstone",
+    "item_weight": 0,
+    "page_name_sub": "Moonstone",
+    "json": {
+      "type": "Quest Item",
+      "description": "A glittering gemstone, desired by a merchant in the Alcarrid garou settlement.",
+      "image": "[[File:Moonstone.png|32px]]",
+      "name": "Moonstone",
+      "weight": "0.0",
+      "image_raw": "Moonstone.png"
+    },
+    "item_type": "Quest Item"
+  },
+  {
+    "page_name": "Pharaoh's Sceptre",
+    "item_description": "This ancient and powerful weapon lets the wielder channel its sovereign authoriry into mind-controlling powers.",
+    "item_name": "Pharaoh's Sceptre",
+    "item_weight": 15,
+    "page_name_sub": "Pharaoh's Sceptre",
+    "json": {
+      "type": "Magic Weapon",
+      "description": "This ancient and powerful weapon lets the wielder channel its sovereign authoriry into mind-controlling powers.",
+      "image": "[[File:Pharaoh's Sceptre.png|32px]]",
+      "name": "Pharaoh's Sceptre",
+      "weight": "15",
+      "image_raw": "Pharaoh's Sceptre.png"
+    },
+    "item_type": "Magic Weapon"
+  },
+  {
+    "page_name": "Raw Monkfish",
+    "item_description": "Your mouth waters just looking at it.",
+    "item_name": "Raw Monkfish",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Your mouth waters just looking at it.",
+      "image": "[[File:Raw Monkfish.png|32px]]",
+      "name": "Raw Monkfish",
+      "weight": "2.5",
+      "stacklimit": "99",
+      "image_raw": "Raw Monkfish.png"
+    },
+    "item_weight": 2.5,
+    "page_name_sub": "Raw Monkfish"
   }
 ]
