@@ -12835,10 +12835,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "5",
@@ -32785,10 +32785,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "1",
@@ -32810,7 +32810,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "20"
+          "experience": "?"
         }
       ],
       "outputs": [
@@ -33535,10 +33535,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "2",
@@ -33744,10 +33744,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "2",
@@ -33788,10 +33788,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "2",
@@ -33967,10 +33967,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "1",
@@ -43560,10 +43560,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "2",
@@ -52347,10 +52347,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "2",
@@ -52951,10 +52951,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "2",
@@ -65721,6 +65721,38 @@
     ]
   },
   {
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Armour Bench"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Armour Bench",
+        "link": "Armour Bench",
+        "qty": 1,
+        "item": "Armour Bench",
+        "image": "[[File:Armour Bench.png|30px|link=Armour Bench]]"
+      }
+    },
+    "output": [
+      "Armour Bench"
+    ]
+  },
+  {
     "uses_material": [
       "Kalphite Ichor"
     ],
@@ -67629,7 +67661,9 @@
   },
   {
     "uses_material": [
-      "Adamant Bar"
+      "Adamant Bar",
+      "Scorch Leather",
+      "Gypsum Wax"
     ],
     "uses_skill": [
       "Artisan"
@@ -67641,18 +67675,34 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "?",
+          "quantity": "10",
           "name": "Adamant Bar",
           "link": "Adamant Bar",
-          "qty": "?",
+          "qty": "10",
           "item": "Adamant Bar",
           "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "4",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
         }
       ],
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -67673,7 +67723,7 @@
   },
   {
     "uses_material": [
-      "Monkfish"
+      "Raw Monkfish"
     ],
     "uses_skill": [
       "Cooking"
@@ -67686,11 +67736,11 @@
       "materials": [
         {
           "quantity": "1",
-          "name": "Monkfish",
-          "link": "Monkfish",
+          "name": "Raw Monkfish",
+          "link": "Raw Monkfish",
           "qty": "1",
-          "item": "Monkfish",
-          "image": "[[File:Monkfish.png|30px|link=Monkfish]]"
+          "item": "Raw Monkfish",
+          "image": "[[File:Raw Monkfish.png|30px|link=Raw Monkfish]]"
         }
       ],
       "skills": [
@@ -68310,17 +68360,17 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "100"
         }
       ],
       "outputs": [
         "Infinity Robe Hat"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Infinity Robe Hat",
         "link": "Infinity Robe Hat",
-        "qty": 1,
+        "qty": "1",
         "item": "Infinity Robe Hat",
         "image": "[[File:Infinity Robe Hat.png|30px|link=Infinity Robe Hat]]"
       }
@@ -68491,8 +68541,21 @@
           "experience": ""
         }
       ],
-      "outputs": []
-    }
+      "outputs": [
+        "Infinity Robe Legs"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Infinity Robe Legs",
+        "link": "Infinity Robe Legs",
+        "qty": 1,
+        "item": "Infinity Robe Legs",
+        "image": "[[File:Infinity Robe Legs.png|30px|link=Infinity Robe Legs]]"
+      }
+    },
+    "output": [
+      "Infinity Robe Legs"
+    ]
   },
   {
     "uses_material": [
@@ -68558,7 +68621,193 @@
           "experience": "60"
         }
       ],
+      "outputs": [
+        "Master's Staff"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Master's Staff",
+        "link": "Master's Staff",
+        "qty": 1,
+        "item": "Master's Staff",
+        "image": "[[File:Master's Staff.png|30px|link=Master's Staff]]"
+      }
+    },
+    "output": [
+      "Master's Staff"
+    ]
+  },
+  {
+    "uses_material": [
+      "Cactus Steak"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cactus Steak",
+          "link": "Cactus Steak",
+          "qty": "1",
+          "item": "Cactus Steak",
+          "image": "[[File:Cactus Steak.png|30px|link=Cactus Steak]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Seared Cactus Steak"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Seared Cactus Steak",
+        "link": "Seared Cactus Steak",
+        "qty": "1",
+        "item": "Seared Cactus Steak",
+        "image": "[[File:Seared Cactus Steak.png|30px|link=Seared Cactus Steak]]"
+      }
+    },
+    "output": [
+      "Seared Cactus Steak"
+    ]
+  },
+  {
+    "uses_material": [
+      "Gold Bar",
+      "Scorch Leather",
+      "Shimmerscale Powder",
+      "Dragonstone",
+      "Gypsum Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Gold Bar",
+          "link": "Gold Bar",
+          "qty": "10",
+          "item": "Gold Bar",
+          "image": "[[File:Gold Bar.png|30px|link=Gold Bar]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "10",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "32",
+          "name": "Shimmerscale Powder",
+          "link": "Shimmerscale Powder",
+          "qty": "32",
+          "item": "Shimmerscale Powder",
+          "image": "[[File:Shimmerscale Powder.png|30px|link=Shimmerscale Powder]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "4",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "4",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
       "outputs": []
     }
+  },
+  {
+    "uses_material": [
+      "Yew Logs",
+      "Mithril Bar",
+      "Desert Thread"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "12",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "12",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "4",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "2",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "200"
+        }
+      ],
+      "outputs": [
+        "Advanced Tannery"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Advanced Tannery",
+        "link": "Advanced Tannery",
+        "qty": "1",
+        "item": "Advanced Tannery",
+        "image": "[[File:Advanced Tannery.png|30px|link=Advanced Tannery]]"
+      }
+    },
+    "output": [
+      "Advanced Tannery"
+    ]
   }
 ]

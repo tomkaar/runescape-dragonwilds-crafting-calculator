@@ -8604,7 +8604,7 @@
         "recipe": {
           "id": "d77ec33729cb",
           "facilities": [
-            "Crafting Table"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -8625,7 +8625,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Whetstone",
     "weight": 5,
@@ -20936,7 +20936,7 @@
         "recipe": {
           "id": "446fdacc2551",
           "facilities": [
-            "Crafting Table"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -20957,7 +20957,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Magical_Focus",
     "weight": 5,
@@ -21488,7 +21488,7 @@
         "recipe": {
           "id": "e3e22467b6f9",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -21505,7 +21505,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Blurite_Crossbow_Limbs",
     "weight": 4.5,
@@ -21644,7 +21644,7 @@
         "recipe": {
           "id": "d242477867b0",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -21661,7 +21661,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Iron_Crossbow_Limbs",
     "weight": 4.5,
@@ -21680,7 +21680,7 @@
         "recipe": {
           "id": "0b5753676beb",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -21697,7 +21697,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Bronze_Crossbow_Limbs",
     "weight": 4.5,
@@ -21807,7 +21807,7 @@
         "recipe": {
           "id": "70e9e810bf9b",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -21832,7 +21832,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Weapon_Barbs",
     "weight": 1,
@@ -28309,7 +28309,7 @@
         "recipe": {
           "id": "439dbfcda28b",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -28326,7 +28326,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Steel_Crossbow_Limbs",
     "weight": 4.5
@@ -34293,7 +34293,7 @@
         "recipe": {
           "id": "163c5bc1cd56",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -34310,7 +34310,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Mithril_Crossbow_Limbs",
     "weight": 4.5
@@ -34719,7 +34719,7 @@
         "recipe": {
           "id": "710aa096ece6",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -34736,7 +34736,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Black_Crossbow_Limbs",
     "weight": 4.5
@@ -43124,6 +43124,35 @@
     "weight": 0
   },
   {
+    "id": "c0c6d4831467",
+    "name": "Armour Bench",
+    "image": "Armour Bench.png",
+    "variants": [
+      {
+        "id": "be865d214a0e",
+        "name": "Armour Bench",
+        "image": "Armour Bench.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a62dfc4dbde4",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Armour_Bench"
+  },
+  {
     "id": "9ac3057ca866",
     "name": "Acrid Adhesive",
     "image": "Acrid Adhesive.png",
@@ -44441,19 +44470,27 @@
     "image": "Adamant Shield.png",
     "variants": [
       {
-        "id": "c1915df6edb9",
+        "id": "580480d701cb",
         "name": "Adamant Shield",
         "image": "Adamant Shield.png",
         "variantName": null,
         "recipe": {
-          "id": "bf2915415961",
+          "id": "cffcc350f139",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
               "itemId": "7f7142fb8b46",
-              "quantity": 1
+              "quantity": 10
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 2
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 4
             }
           ],
           "quantity": 1
@@ -44476,18 +44513,18 @@
     "image": "Monkfish Fillets.png",
     "variants": [
       {
-        "id": "7e661a62044d",
+        "id": "d433cee9711e",
         "name": "Monkfish Fillets",
         "image": "Monkfish Fillets.png",
         "variantName": null,
         "recipe": {
-          "id": "974a4711024a",
+          "id": "82aa869bbf99",
           "facilities": [
             "Campfire"
           ],
           "materials": [
             {
-              "itemId": "ef0641a10f63",
+              "itemId": "2f3b0f76d9bc",
               "quantity": 1
             }
           ],
@@ -45007,6 +45044,190 @@
     ],
     "wikiLink": "Infinity_Robe_Body",
     "weight": 8
+  },
+  {
+    "id": "16c947fbcf41",
+    "name": "Infinity Robe Legs",
+    "image": "Infinity Robe Legs.png",
+    "variants": [
+      {
+        "id": "9384e62a4e4f",
+        "name": "Infinity Robe Legs",
+        "image": "Infinity Robe Legs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7246e42e9815",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 2
+            },
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 4
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 2
+            },
+            {
+              "itemId": "543684a14c55",
+              "quantity": 4
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 2
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Infinity_Robe_Legs",
+    "weight": 6
+  },
+  {
+    "id": "ca10ea150e6d",
+    "name": "Master's Staff",
+    "image": "Master's Staff.png",
+    "variants": [
+      {
+        "id": "7209ada208bb",
+        "name": "Master's Staff",
+        "image": "Master's Staff.png",
+        "variantName": null,
+        "recipe": {
+          "id": "857debd2e49c",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "888dae826aaa",
+              "quantity": 4
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 4
+            },
+            {
+              "itemId": "543684a14c55",
+              "quantity": 4
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 6
+            },
+            {
+              "itemId": "75f4482e4de5",
+              "quantity": 16
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Mystic Forge"
+    ],
+    "wikiLink": "Master's_Staff",
+    "weight": 15
+  },
+  {
+    "id": "c1986755bae1",
+    "name": "Seared Cactus Steak",
+    "image": "Seared Cactus Steak.png",
+    "variants": [
+      {
+        "id": "890e3e33572f",
+        "name": "Seared Cactus Steak",
+        "image": "Seared Cactus Steak.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5dbf3598c01d",
+          "facilities": [
+            "Grill"
+          ],
+          "materials": [
+            {
+              "itemId": "05644f195f14",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Grill"
+    ],
+    "wikiLink": "Seared_Cactus_Steak",
+    "weight": 0.2,
+    "stackLimit": 99
+  },
+  {
+    "id": "bee0607cf14b",
+    "name": "Advanced Tannery",
+    "image": "Advanced Tannery.png",
+    "variants": [
+      {
+        "id": "986caf4aec8e",
+        "name": "Advanced Tannery",
+        "image": "Advanced Tannery.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b262259a60bb",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "9e1cedfc6c7e",
+              "quantity": 2
+            },
+            {
+              "itemId": "2a7d7c1afd3f",
+              "quantity": 4
+            },
+            {
+              "itemId": "75f4482e4de5",
+              "quantity": 12
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Advanced_Tannery"
   },
   {
     "id": "6a5fa59fd28f",
@@ -54554,14 +54775,14 @@
     "stackLimit": 99
   },
   {
-    "id": "16c947fbcf41",
-    "name": "Infinity Robe Legs",
-    "image": "Infinity Robe Legs.png",
+    "id": "67aa04688d12",
+    "name": "Elder Curiosities",
+    "image": "Elder Curiosities.png",
     "variants": [
       {
-        "id": "16c947fbcf41",
-        "name": "Infinity Robe Legs",
-        "image": "Infinity Robe Legs.png",
+        "id": "67aa04688d12",
+        "name": "Elder Curiosities",
+        "image": "Elder Curiosities.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -54569,18 +54790,19 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Infinity_Robe_Legs",
-    "weight": 6
+    "wikiLink": "Elder_Curiosities",
+    "weight": 0.3,
+    "stackLimit": 99
   },
   {
-    "id": "ca10ea150e6d",
-    "name": "Master's Staff",
-    "image": "Master's Staff.png",
+    "id": "2183060bcd85",
+    "name": "Obsidian Device",
+    "image": "Obsidian Device.png",
     "variants": [
       {
-        "id": "ca10ea150e6d",
-        "name": "Master's Staff",
-        "image": "Master's Staff.png",
+        "id": "2183060bcd85",
+        "name": "Obsidian Device",
+        "image": "Obsidian Device.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -54588,7 +54810,66 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Master's_Staff",
+    "wikiLink": "Obsidian_Device",
+    "weight": 0.3,
+    "stackLimit": 99
+  },
+  {
+    "id": "0cdfe3677893",
+    "name": "Moonstone",
+    "image": "Moonstone.png",
+    "variants": [
+      {
+        "id": "0cdfe3677893",
+        "name": "Moonstone",
+        "image": "Moonstone.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Moonstone",
+    "weight": 0
+  },
+  {
+    "id": "b05f833ad81c",
+    "name": "Pharaoh's Sceptre",
+    "image": "Pharaoh's Sceptre.png",
+    "variants": [
+      {
+        "id": "b05f833ad81c",
+        "name": "Pharaoh's Sceptre",
+        "image": "Pharaoh's Sceptre.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pharaoh's_Sceptre",
     "weight": 15
+  },
+  {
+    "id": "2f3b0f76d9bc",
+    "name": "Raw Monkfish",
+    "image": "Raw Monkfish.png",
+    "variants": [
+      {
+        "id": "2f3b0f76d9bc",
+        "name": "Raw Monkfish",
+        "image": "Raw Monkfish.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Monkfish",
+    "weight": 2.5,
+    "stackLimit": 99
   }
 ]
