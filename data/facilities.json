@@ -60,6 +60,10 @@
     "name": "Grindstone"
   },
   {
+    "id": "2485989378b3",
+    "name": "Imbuing Barrel"
+  },
+  {
     "id": "5c2b1b80c56c",
     "name": "Jeweler's Bench"
   },
@@ -90,14 +94,6 @@
   {
     "id": "122a0693c622",
     "name": "Sawmill"
-  },
-  {
-    "id": "0fb174b57827",
-    "name": "Smithing Anvil"
-  },
-  {
-    "id": "dde87b553a5f",
-    "name": "Smithing Forge"
   },
   {
     "id": "feeedebfee67",

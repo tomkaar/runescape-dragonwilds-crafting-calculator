@@ -468,10 +468,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "1",
@@ -531,10 +531,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "7",
@@ -3387,18 +3387,18 @@
           "image": "[[File:Swamp Thread.png|30px|link=Swamp Thread]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Iron Bar",
           "link": "Iron Bar",
-          "qty": 1,
+          "qty": "1",
           "item": "Iron Bar",
           "image": "[[File:Iron Bar.png|30px|link=Iron Bar]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Jade",
           "link": "Jade",
-          "qty": 1,
+          "qty": "1",
           "item": "Jade",
           "image": "[[File:Jade.png|30px|link=Jade]]"
         },
@@ -3421,10 +3421,10 @@
         "Blightwood Shortbow"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Blightwood Shortbow",
         "link": "Blightwood Shortbow",
-        "qty": 1,
+        "qty": "1",
         "item": "Blightwood Shortbow",
         "image": "[[File:Blightwood Shortbow.png|30px|link=Blightwood Shortbow]]"
       }
@@ -4009,10 +4009,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "10",
@@ -4049,10 +4049,10 @@
         "Bronze Greatsword"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Bronze Greatsword",
         "link": "Bronze Greatsword",
-        "qty": 1,
+        "qty": "1",
         "item": "Bronze Greatsword",
         "image": "[[File:Bronze Greatsword.png|30px|link=Bronze Greatsword]]"
       }
@@ -4330,10 +4330,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "1",
@@ -4394,10 +4394,10 @@
         "Abyssal Whip"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Abyssal Whip",
         "link": "Abyssal Whip",
-        "qty": 1,
+        "qty": "1",
         "item": "Abyssal Whip",
         "image": "[[File:Abyssal Whip.png|30px|link=Abyssal Whip]]"
       }
@@ -4541,10 +4541,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "10",
@@ -4611,10 +4611,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "6",
@@ -4651,10 +4651,10 @@
         "Bronze Dagger"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Bronze Dagger",
         "link": "Bronze Dagger",
-        "qty": 1,
+        "qty": "1",
         "item": "Bronze Dagger",
         "image": "[[File:Bronze Dagger.png|30px|link=Bronze Dagger]]"
       }
@@ -4673,10 +4673,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "6",
@@ -4735,10 +4735,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "5",
@@ -4775,10 +4775,10 @@
         "Bronze Logging Axe"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Bronze Logging Axe",
         "link": "Bronze Logging Axe",
-        "qty": 1,
+        "qty": "1",
         "item": "Bronze Logging Axe",
         "image": "[[File:Bronze Logging Axe.png|30px|link=Bronze Logging Axe]]"
       }
@@ -4930,10 +4930,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Mystic Forge",
       "materials": [
         {
           "quantity": "12",
@@ -4970,10 +4970,10 @@
         "Oak Battlestaff"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Oak Battlestaff",
         "link": "Oak Battlestaff",
-        "qty": 1,
+        "qty": "1",
         "item": "Oak Battlestaff",
         "image": "[[File:Oak Battlestaff.png|30px|link=Oak Battlestaff]]"
       }
@@ -4993,10 +4993,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Mystic Forge",
       "materials": [
         {
           "quantity": "12",
@@ -5237,10 +5237,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Mystic Forge",
       "materials": [
         {
           "quantity": "16",
@@ -5293,10 +5293,10 @@
         "Staff of Light"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Staff of Light",
         "link": "Staff of Light",
-        "qty": 1,
+        "qty": "1",
         "item": "Staff of Light",
         "image": "[[File:Staff of Light.png|30px|link=Staff of Light]]"
       }
@@ -5545,10 +5545,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "5",
@@ -5585,10 +5585,10 @@
         "Bronze Pickaxe"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Bronze Pickaxe",
         "link": "Bronze Pickaxe",
-        "qty": 1,
+        "qty": "1",
         "item": "Bronze Pickaxe",
         "image": "[[File:Bronze Pickaxe.png|30px|link=Bronze Pickaxe]]"
       }
@@ -5660,10 +5660,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "6",
@@ -6289,10 +6289,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "1",
@@ -6337,10 +6337,10 @@
         "Dragonblight Shield"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Dragonblight Shield",
         "link": "Dragonblight Shield",
-        "qty": 1,
+        "qty": "1",
         "item": "Dragonblight Shield",
         "image": "[[File:Dragonblight Shield.png|30px|link=Dragonblight Shield]]"
       }
@@ -6866,10 +6866,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "12",
@@ -6930,10 +6930,10 @@
         "Anti-Dragon Shield"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Anti-Dragon Shield",
         "link": "Anti-Dragon Shield",
-        "qty": 1,
+        "qty": "1",
         "item": "Anti-Dragon Shield",
         "image": "[[File:Anti-Dragon Shield.png|30px|link=Anti-Dragon Shield]]"
       }
@@ -7632,24 +7632,24 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Dragon Tooth",
           "link": "Dragon Tooth",
-          "qty": 1,
+          "qty": "1",
           "item": "Dragon Tooth",
           "image": "[[File:Dragon Tooth.png|30px|link=Dragon Tooth]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Bloodwood Sap",
           "link": "Bloodwood Sap",
-          "qty": 1,
+          "qty": "1",
           "item": "Bloodwood Sap",
           "image": "[[File:Bloodwood Sap.png|30px|link=Bloodwood Sap]]"
         },
@@ -7672,10 +7672,10 @@
         "Challenge Horn"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Challenge Horn",
         "link": "Challenge Horn",
-        "qty": 1,
+        "qty": "1",
         "item": "Challenge Horn",
         "image": "[[File:Challenge Horn.png|30px|link=Challenge Horn]]"
       }
@@ -7730,10 +7730,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "10",
@@ -7829,10 +7829,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "10",
@@ -7877,10 +7877,10 @@
         "Dragonkin Mage Robes"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Dragonkin Mage Robes",
         "link": "Dragonkin Mage Robes",
-        "qty": 1,
+        "qty": "1",
         "item": "Dragonkin Mage Robes",
         "image": "[[File:Dragonkin Mage Robes.png|30px|link=Dragonkin Mage Robes]]"
       }
@@ -8057,10 +8057,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "3",
@@ -8105,10 +8105,10 @@
         "Dark Mage Hood"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Dark Mage Hood",
         "link": "Dark Mage Hood",
-        "qty": 1,
+        "qty": "1",
         "item": "Dark Mage Hood",
         "image": "[[File:Dark Mage Hood.png|30px|link=Dark Mage Hood]]"
       }
@@ -8190,10 +8190,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -8238,10 +8238,10 @@
         "Dark Mage Robe Legs"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Dark Mage Robe Legs",
         "link": "Dark Mage Robe Legs",
-        "qty": 1,
+        "qty": "1",
         "item": "Dark Mage Robe Legs",
         "image": "[[File:Dark Mage Robe Legs.png|30px|link=Dark Mage Robe Legs]]"
       }
@@ -8261,10 +8261,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "8",
@@ -8309,10 +8309,10 @@
         "Dark Mage Robes"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Dark Mage Robes",
         "link": "Dark Mage Robes",
-        "qty": 1,
+        "qty": "1",
         "item": "Dark Mage Robes",
         "image": "[[File:Dark Mage Robes.png|30px|link=Dark Mage Robes]]"
       }
@@ -8379,10 +8379,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -8441,10 +8441,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -8502,10 +8502,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -8557,10 +8557,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -8605,10 +8605,10 @@
         "Dragonkin Mage Robe Legs"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Dragonkin Mage Robe Legs",
         "link": "Dragonkin Mage Robe Legs",
-        "qty": 1,
+        "qty": "1",
         "item": "Dragonkin Mage Robe Legs",
         "image": "[[File:Dragonkin Mage Robe Legs.png|30px|link=Dragonkin Mage Robe Legs]]"
       }
@@ -8627,10 +8627,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "10",
@@ -8667,10 +8667,10 @@
         "Hard Leather Body"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Hard Leather Body",
         "link": "Hard Leather Body",
-        "qty": 1,
+        "qty": "1",
         "item": "Hard Leather Body",
         "image": "[[File:Hard Leather Body.png|30px|link=Hard Leather Body]]"
       }
@@ -8733,10 +8733,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -8773,10 +8773,10 @@
         "Hard Leather Chaps"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Hard Leather Chaps",
         "link": "Hard Leather Chaps",
-        "qty": 1,
+        "qty": "1",
         "item": "Hard Leather Chaps",
         "image": "[[File:Hard Leather Chaps.png|30px|link=Hard Leather Chaps]]"
       }
@@ -8795,10 +8795,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -8835,10 +8835,10 @@
         "Hard Leather Cowl"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Hard Leather Cowl",
         "link": "Hard Leather Cowl",
-        "qty": 1,
+        "qty": "1",
         "item": "Hard Leather Cowl",
         "image": "[[File:Hard Leather Cowl.png|30px|link=Hard Leather Cowl]]"
       }
@@ -8858,10 +8858,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -8929,10 +8929,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -9061,10 +9061,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -9168,10 +9168,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "12",
@@ -9327,10 +9327,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -9504,10 +9504,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "10",
@@ -9552,10 +9552,10 @@
         "Studded Leather Body"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Studded Leather Body",
         "link": "Studded Leather Body",
-        "qty": 1,
+        "qty": "1",
         "item": "Studded Leather Body",
         "image": "[[File:Studded Leather Body.png|30px|link=Studded Leather Body]]"
       }
@@ -9575,10 +9575,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -9623,10 +9623,10 @@
         "Studded Leather Chaps"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Studded Leather Chaps",
         "link": "Studded Leather Chaps",
-        "qty": 1,
+        "qty": "1",
         "item": "Studded Leather Chaps",
         "image": "[[File:Studded Leather Chaps.png|30px|link=Studded Leather Chaps]]"
       }
@@ -9683,32 +9683,32 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Imbued Granite Maul Head",
           "link": "Imbued Granite Maul Head",
-          "qty": 1,
+          "qty": "1",
           "item": "Imbued Granite Maul Head",
           "image": "[[File:Imbued Granite Maul Head.png|30px|link=Imbued Granite Maul Head]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Ornate Maul Handle",
           "link": "Ornate Maul Handle",
-          "qty": 1,
+          "qty": "1",
           "item": "Ornate Maul Handle",
           "image": "[[File:Ornate Maul Handle.png|30px|link=Ornate Maul Handle]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Imbued Leather Wrappings",
           "link": "Imbued Leather Wrappings",
-          "qty": 1,
+          "qty": "1",
           "item": "Imbued Leather Wrappings",
           "image": "[[File:Imbued Leather Wrappings.png|30px|link=Imbued Leather Wrappings]]"
         },
@@ -9721,10 +9721,10 @@
           "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Vault Core",
           "link": "Vault Core",
-          "qty": 1,
+          "qty": "1",
           "item": "Vault Core",
           "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
         }
@@ -9739,10 +9739,10 @@
         "Granite Maul"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Granite Maul",
         "link": "Granite Maul",
-        "qty": 1,
+        "qty": "1",
         "item": "Granite Maul",
         "image": "[[File:Granite Maul.png|30px|link=Granite Maul]]"
       }
@@ -9762,10 +9762,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -9810,10 +9810,10 @@
         "Studded Leather Cowl"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Studded Leather Cowl",
         "link": "Studded Leather Cowl",
-        "qty": 1,
+        "qty": "1",
         "item": "Studded Leather Cowl",
         "image": "[[File:Studded Leather Cowl.png|30px|link=Studded Leather Cowl]]"
       }
@@ -9833,10 +9833,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "12",
@@ -9881,10 +9881,10 @@
         "Wild Archer Body"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Wild Archer Body",
         "link": "Wild Archer Body",
-        "qty": 1,
+        "qty": "1",
         "item": "Wild Archer Body",
         "image": "[[File:Wild Archer Body.png|30px|link=Wild Archer Body]]"
       }
@@ -9904,10 +9904,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "8",
@@ -9952,10 +9952,10 @@
         "Wild Archer Chaps"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Wild Archer Chaps",
         "link": "Wild Archer Chaps",
-        "qty": 1,
+        "qty": "1",
         "item": "Wild Archer Chaps",
         "image": "[[File:Wild Archer Chaps.png|30px|link=Wild Archer Chaps]]"
       }
@@ -9975,10 +9975,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -10005,10 +10005,10 @@
           "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Vault Shard",
           "link": "Vault Shard",
-          "qty": 1,
+          "qty": "1",
           "item": "Vault Shard",
           "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
         }
@@ -10023,10 +10023,10 @@
         "Wild Archer Cowl"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Wild Archer Cowl",
         "link": "Wild Archer Cowl",
-        "qty": 1,
+        "qty": "1",
         "item": "Wild Archer Cowl",
         "image": "[[File:Wild Archer Cowl.png|30px|link=Wild Archer Cowl]]"
       }
@@ -10045,10 +10045,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "10",
@@ -10085,10 +10085,10 @@
         "Imbued Granite Maul Head"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Imbued Granite Maul Head",
         "link": "Imbued Granite Maul Head",
-        "qty": 1,
+        "qty": "1",
         "item": "Imbued Granite Maul Head",
         "image": "[[File:Imbued Granite Maul Head.png|30px|link=Imbued Granite Maul Head]]"
       }
@@ -10107,10 +10107,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -10147,10 +10147,10 @@
         "Wizard Hat"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Wizard Hat",
         "link": "Wizard Hat",
-        "qty": 1,
+        "qty": "1",
         "item": "Wizard Hat",
         "image": "[[File:Wizard Hat.png|30px|link=Wizard Hat]]"
       }
@@ -10169,10 +10169,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -10209,10 +10209,10 @@
         "Wizard Robe Legs"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Wizard Robe Legs",
         "link": "Wizard Robe Legs",
-        "qty": 1,
+        "qty": "1",
         "item": "Wizard Robe Legs",
         "image": "[[File:Wizard Robe Legs.png|30px|link=Wizard Robe Legs]]"
       }
@@ -10231,10 +10231,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "8",
@@ -10271,10 +10271,10 @@
         "Wizard Robes"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Wizard Robes",
         "link": "Wizard Robes",
-        "qty": 1,
+        "qty": "1",
         "item": "Wizard Robes",
         "image": "[[File:Wizard Robes.png|30px|link=Wizard Robes]]"
       }
@@ -10929,10 +10929,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -11000,10 +11000,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -11654,10 +11654,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "3",
@@ -11702,10 +11702,10 @@
         "Dragonkin Mage Hood"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Dragonkin Mage Hood",
         "link": "Dragonkin Mage Hood",
-        "qty": 1,
+        "qty": "1",
         "item": "Dragonkin Mage Hood",
         "image": "[[File:Dragonkin Mage Hood.png|30px|link=Dragonkin Mage Hood]]"
       }
@@ -11856,10 +11856,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -11966,11 +11966,11 @@
       "Parts of a Sinister-Looking Staff"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "json": {
       "recipe": "Parts of a Sinister-Looking Staff",
-      "facility": "Smithing Anvil",
+      "facility": "Mystic Forge",
       "materials": [
         {
           "quantity": "10",
@@ -12015,10 +12015,10 @@
         "Draconic Staff"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Draconic Staff",
         "link": "Draconic Staff",
-        "qty": 1,
+        "qty": "1",
         "item": "Draconic Staff",
         "image": "[[File:Draconic Staff.png|30px|link=Draconic Staff]]"
       }
@@ -12065,11 +12065,11 @@
       "VESTIGE: A Brutal Bladehead"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
       "recipe": "VESTIGE: A Brutal Bladehead",
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "10",
@@ -12114,10 +12114,10 @@
         "Thane's Authority"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Thane's Authority",
         "link": "Thane's Authority",
-        "qty": 1,
+        "qty": "1",
         "item": "Thane's Authority",
         "image": "[[File:Thane's Authority.png|30px|link=Thane's Authority]]"
       }
@@ -12216,10 +12216,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -12277,10 +12277,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "12",
@@ -12309,10 +12309,10 @@
         "Bronze Warhammer"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Bronze Warhammer",
         "link": "Bronze Warhammer",
-        "qty": 1,
+        "qty": "1",
         "item": "Bronze Warhammer",
         "image": "[[File:Bronze Warhammer.png|30px|link=Bronze Warhammer]]"
       }
@@ -12332,10 +12332,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "6",
@@ -12354,10 +12354,10 @@
           "image": "[[File:Antler.png|30px|link=Antler]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Hard Leather",
           "link": "Hard Leather",
-          "qty": 1,
+          "qty": "1",
           "item": "Hard Leather",
           "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
         },
@@ -12380,10 +12380,10 @@
         "Dragonbone Dagger"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Dragonbone Dagger",
         "link": "Dragonbone Dagger",
-        "qty": 1,
+        "qty": "1",
         "item": "Dragonbone Dagger",
         "image": "[[File:Dragonbone Dagger.png|30px|link=Dragonbone Dagger]]"
       }
@@ -12403,10 +12403,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "6",
@@ -12451,10 +12451,10 @@
         "Iron Dagger"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Iron Dagger",
         "link": "Iron Dagger",
-        "qty": 1,
+        "qty": "1",
         "item": "Iron Dagger",
         "image": "[[File:Iron Dagger.png|30px|link=Iron Dagger]]"
       }
@@ -12474,10 +12474,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "12",
@@ -12522,10 +12522,10 @@
         "Iron Greataxe"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Iron Greataxe",
         "link": "Iron Greataxe",
-        "qty": 1,
+        "qty": "1",
         "item": "Iron Greataxe",
         "image": "[[File:Iron Greataxe.png|30px|link=Iron Greataxe]]"
       }
@@ -12545,10 +12545,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "10",
@@ -12593,10 +12593,10 @@
         "Iron Greatsword"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Iron Greatsword",
         "link": "Iron Greatsword",
-        "qty": 1,
+        "qty": "1",
         "item": "Iron Greatsword",
         "image": "[[File:Iron Greatsword.png|30px|link=Iron Greatsword]]"
       }
@@ -12616,10 +12616,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -12664,10 +12664,10 @@
         "Iron Sword"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Iron Sword",
         "link": "Iron Sword",
-        "qty": 1,
+        "qty": "1",
         "item": "Iron Sword",
         "image": "[[File:Iron Sword.png|30px|link=Iron Sword]]"
       }
@@ -12686,10 +12686,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "12",
@@ -12726,10 +12726,10 @@
         "Iron Warhammer"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Iron Warhammer",
         "link": "Iron Warhammer",
-        "qty": 1,
+        "qty": "1",
         "item": "Iron Warhammer",
         "image": "[[File:Iron Warhammer.png|30px|link=Iron Warhammer]]"
       }
@@ -13030,11 +13030,11 @@
       "VESTIGE: A Corroded Serrated Blade"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
       "recipe": "VESTIGE: A Corroded Serrated Blade",
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "10",
@@ -32431,11 +32431,11 @@
       "Remnants of a Shattered Skull"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
       "recipe": "Remnants of a Shattered Skull",
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "6",
@@ -32526,14 +32526,14 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "VESTIGE: A Mysterious Crescent Carving"
+      "A Mysterious Crescent Carving"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "json": {
-      "recipe": "VESTIGE: A Mysterious Crescent Carving",
-      "facility": "Smithing Anvil",
+      "recipe": "A Mysterious Crescent Carving",
+      "facility": "Mystic Forge",
       "materials": [
         {
           "quantity": "8",
@@ -32840,10 +32840,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Forge"
+      "Jeweler's Bench"
     ],
     "json": {
-      "facility": "Smithing Forge",
+      "facility": "Jeweler's Bench",
       "materials": [
         {
           "quantity": "1",
@@ -38208,10 +38208,10 @@
       "Leather"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "4",
@@ -38265,10 +38265,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -38327,10 +38327,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -38386,10 +38386,10 @@
       "Draconic Leather"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "4",
@@ -38671,10 +38671,10 @@
       "Wool Cloth"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "6",
@@ -38698,10 +38698,10 @@
         "Bronze Watering Can"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Bronze Watering Can",
         "link": "Bronze Watering Can",
-        "qty": 1,
+        "qty": "1",
         "item": "Bronze Watering Can",
         "image": "[[File:Bronze Watering Can.png|30px|link=Bronze Watering Can]]"
       }
@@ -38969,10 +38969,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -39367,10 +39367,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "10",
@@ -39447,10 +39447,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -39577,10 +39577,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "6",
@@ -39821,11 +39821,11 @@
       "Shard of Smoky Glass"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
       "recipe": "Shard of Smoky Glass",
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "64",
@@ -40434,10 +40434,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Mystic Forge",
       "materials": [
         {
           "quantity": "16",
@@ -40505,10 +40505,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Mystic Forge",
       "materials": [
         {
           "quantity": "24",
@@ -40579,10 +40579,10 @@
       "facility": "Kiln",
       "materials": [
         {
-          "quantity": "3",
+          "quantity": "1",
           "name": "Withered Heart",
           "link": "Withered Heart",
-          "qty": "3",
+          "qty": "1",
           "item": "Withered Heart",
           "image": "[[File:Withered Heart.png|30px|link=Withered Heart]]"
         }
@@ -40597,10 +40597,10 @@
         "Ectoplasm"
       ],
       "output": {
-        "quantity": "1",
+        "quantity": "3",
         "name": "Ectoplasm",
         "link": "Ectoplasm",
-        "qty": "1",
+        "qty": "3",
         "item": "Ectoplasm",
         "image": "[[File:Ectoplasm.png|30px|link=Ectoplasm]]"
       }
@@ -40621,10 +40621,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -40677,10 +40677,10 @@
         "Green Dragonhide Coif"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Green Dragonhide Coif",
         "link": "Green Dragonhide Coif",
-        "qty": 1,
+        "qty": "1",
         "item": "Green Dragonhide Coif",
         "image": "[[File:Green Dragonhide Coif.png|30px|link=Green Dragonhide Coif]]"
       }
@@ -40701,10 +40701,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "12",
@@ -40757,10 +40757,10 @@
         "Green Dragonhide Body"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Green Dragonhide Body",
         "link": "Green Dragonhide Body",
-        "qty": 1,
+        "qty": "1",
         "item": "Green Dragonhide Body",
         "image": "[[File:Green Dragonhide Body.png|30px|link=Green Dragonhide Body]]"
       }
@@ -40781,10 +40781,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -40837,10 +40837,10 @@
         "Green Dragonhide Chaps"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Green Dragonhide Chaps",
         "link": "Green Dragonhide Chaps",
-        "qty": 1,
+        "qty": "1",
         "item": "Green Dragonhide Chaps",
         "image": "[[File:Green Dragonhide Chaps.png|30px|link=Green Dragonhide Chaps]]"
       }
@@ -41114,11 +41114,11 @@
       "Cloying Damp Cowl"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Cloying Damp Cowl",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -41191,11 +41191,14 @@
       "Sacred Oil",
       "Vault Shard"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -41238,7 +41241,12 @@
           "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
       "outputs": [
         "Fallen Hoplite's Helm"
       ],
@@ -41263,11 +41271,14 @@
       "Sacred Oil",
       "Vault Shard"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "10",
@@ -41310,7 +41321,12 @@
           "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
       "outputs": [
         "Fallen Hoplite's Chest"
       ],
@@ -41335,11 +41351,14 @@
       "Sacred Oil",
       "Vault Shard"
     ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -41382,7 +41401,12 @@
           "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
       "outputs": [
         "Fallen Hoplite's Tassets"
       ],
@@ -41410,10 +41434,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "6",
@@ -41697,10 +41721,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "2",
@@ -41901,10 +41925,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "10",
@@ -41941,10 +41965,10 @@
         "Steel Shield"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Steel Shield",
         "link": "Steel Shield",
-        "qty": 1,
+        "qty": "1",
         "item": "Steel Shield",
         "image": "[[File:Steel Shield.png|30px|link=Steel Shield]]"
       }
@@ -41964,10 +41988,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "10",
@@ -42035,10 +42059,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -42106,10 +42130,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "10",
@@ -42177,10 +42201,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -42248,10 +42272,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "12",
@@ -42319,10 +42343,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "1",
@@ -42367,10 +42391,10 @@
         "Dragoncurse Shield"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Dragoncurse Shield",
         "link": "Dragoncurse Shield",
-        "qty": 1,
+        "qty": "1",
         "item": "Dragoncurse Shield",
         "image": "[[File:Dragoncurse Shield.png|30px|link=Dragoncurse Shield]]"
       }
@@ -42390,10 +42414,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "16",
@@ -42460,10 +42484,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "16",
@@ -43351,11 +43375,11 @@
       "Crushed White Cuisse"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Crushed White Cuisse",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -43416,10 +43440,10 @@
         "White Platelegs"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "White Platelegs",
         "link": "White Platelegs",
-        "qty": 1,
+        "qty": "1",
         "item": "White Platelegs",
         "image": "[[File:White Platelegs.png|30px|link=White Platelegs]]"
       }
@@ -43783,11 +43807,11 @@
       "Burnished Belt Buckle"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Burnished Belt Buckle",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "12",
@@ -43840,10 +43864,10 @@
         "Necromancer's Robe Bottom"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Necromancer's Robe Bottom",
         "link": "Necromancer's Robe Bottom",
-        "qty": 1,
+        "qty": "1",
         "item": "Necromancer's Robe Bottom",
         "image": "[[File:Necromancer's Robe Bottom.png|30px|link=Necromancer's Robe Bottom]]"
       }
@@ -43867,11 +43891,11 @@
       "Curse Carrying Crown"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Curse Carrying Crown",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -43924,10 +43948,10 @@
         "Necromancer's Crown"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Necromancer's Crown",
         "link": "Necromancer's Crown",
-        "qty": 1,
+        "qty": "1",
         "item": "Necromancer's Crown",
         "image": "[[File:Necromancer's Crown.png|30px|link=Necromancer's Crown]]"
       }
@@ -43951,11 +43975,11 @@
       "Remnants of a Rotting Robe"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Remnants of a Rotting Robe",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "16",
@@ -44008,10 +44032,10 @@
         "Necromancer's Robe Top"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Necromancer's Robe Top",
         "link": "Necromancer's Robe Top",
-        "qty": 1,
+        "qty": "1",
         "item": "Necromancer's Robe Top",
         "image": "[[File:Necromancer's Robe Top.png|30px|link=Necromancer's Robe Top]]"
       }
@@ -44032,10 +44056,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "3",
@@ -44339,11 +44363,11 @@
       "Simply Splendid Feather"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Simply Splendid Feather",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -44396,10 +44420,10 @@
         "Ranger Hat"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Ranger Hat",
         "link": "Ranger Hat",
-        "qty": 1,
+        "qty": "1",
         "item": "Ranger Hat",
         "image": "[[File:Ranger Hat.png|30px|link=Ranger Hat]]"
       }
@@ -44423,11 +44447,11 @@
       "Slightly Chaffing Chestguard"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Slightly Chaffing Chestguard",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "12",
@@ -44480,10 +44504,10 @@
         "Ranger Tunic"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Ranger Tunic",
         "link": "Ranger Tunic",
-        "qty": 1,
+        "qty": "1",
         "item": "Ranger Tunic",
         "image": "[[File:Ranger Tunic.png|30px|link=Ranger Tunic]]"
       }
@@ -44504,14 +44528,14 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "Tastefully torn tights"
+      "Tastefully Torn Tights"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "recipe": "Tastefully torn tights",
-      "facility": "Smithing Anvil",
+      "recipe": "Tastefully Torn Tights",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -44564,10 +44588,10 @@
         "Ranger Tights"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Ranger Tights",
         "link": "Ranger Tights",
-        "qty": 1,
+        "qty": "1",
         "item": "Ranger Tights",
         "image": "[[File:Ranger Tights.png|30px|link=Ranger Tights]]"
       }
@@ -44676,11 +44700,11 @@
       "Corroded White Visor"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Corroded White Visor",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -44741,10 +44765,10 @@
         "White Full Helm"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "White Full Helm",
         "link": "White Full Helm",
-        "qty": 1,
+        "qty": "1",
         "item": "White Full Helm",
         "image": "[[File:White Full Helm.png|30px|link=White Full Helm]]"
       }
@@ -44769,11 +44793,11 @@
       "Dented White Pauldron"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Dented White Pauldron",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "10",
@@ -44834,10 +44858,10 @@
         "White Platebody"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "White Platebody",
         "link": "White Platebody",
-        "qty": 1,
+        "qty": "1",
         "item": "White Platebody",
         "image": "[[File:White Platebody.png|30px|link=White Platebody]]"
       }
@@ -44858,10 +44882,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "8",
@@ -44938,10 +44962,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -45020,11 +45044,11 @@
       "Sundering Spiked Slab"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
       "recipe": "Sundering Spiked Slab",
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "10",
@@ -45173,10 +45197,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "2",
@@ -46715,10 +46739,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "6",
@@ -46794,11 +46818,11 @@
       "Rotten Farming Tool"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
       "recipe": "Rotten Farming Tool",
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "4",
@@ -47240,11 +47264,11 @@
       "Serrated Claw"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
       "recipe": "Serrated Claw",
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "1",
@@ -47752,10 +47776,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "10",
@@ -48274,11 +48298,11 @@
       "Bloodstained Black Visor"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Bloodstained Black Visor",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -48331,10 +48355,10 @@
         "Black Knight Helmet"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Black Knight Helmet",
         "link": "Black Knight Helmet",
-        "qty": 1,
+        "qty": "1",
         "item": "Black Knight Helmet",
         "image": "[[File:Black Knight Helmet.png|30px|link=Black Knight Helmet]]"
       }
@@ -48354,10 +48378,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -48376,18 +48400,18 @@
           "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Mystic Cloth",
           "link": "Mystic Cloth",
-          "qty": 1,
+          "qty": "1",
           "item": "Mystic Cloth",
           "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Demonic Oil",
           "link": "Demonic Oil",
-          "qty": 1,
+          "qty": "1",
           "item": "Demonic Oil",
           "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
         }
@@ -48468,10 +48492,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -49145,10 +49169,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -49208,10 +49232,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "10",
@@ -49279,10 +49303,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -49349,10 +49373,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "10",
@@ -49416,11 +49440,11 @@
       "Shard of Black Pauldron"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Shard of Black Pauldron",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "10",
@@ -49473,10 +49497,10 @@
         "Black Knight Platebody"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Black Knight Platebody",
         "link": "Black Knight Platebody",
-        "qty": 1,
+        "qty": "1",
         "item": "Black Knight Platebody",
         "image": "[[File:Black Knight Platebody.png|30px|link=Black Knight Platebody]]"
       }
@@ -49500,11 +49524,11 @@
       "Grim Black Codpiece"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Grim Black Codpiece",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -49557,10 +49581,10 @@
         "Black Knight Platelegs"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Black Knight Platelegs",
         "link": "Black Knight Platelegs",
-        "qty": 1,
+        "qty": "1",
         "item": "Black Knight Platelegs",
         "image": "[[File:Black Knight Platelegs.png|30px|link=Black Knight Platelegs]]"
       }
@@ -49580,10 +49604,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "16",
@@ -49739,10 +49763,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "12",
@@ -49810,10 +49834,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -49881,10 +49905,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "10",
@@ -49952,10 +49976,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "8",
@@ -50022,10 +50046,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "16",
@@ -50447,10 +50471,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "12",
@@ -50495,10 +50519,10 @@
         "Blue Dragonhide Body"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Blue Dragonhide Body",
         "link": "Blue Dragonhide Body",
-        "qty": 1,
+        "qty": "1",
         "item": "Blue Dragonhide Body",
         "image": "[[File:Blue Dragonhide Body.png|30px|link=Blue Dragonhide Body]]"
       }
@@ -50589,10 +50613,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -50637,10 +50661,10 @@
         "Blue Dragonhide Coif"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Blue Dragonhide Coif",
         "link": "Blue Dragonhide Coif",
-        "qty": 1,
+        "qty": "1",
         "item": "Blue Dragonhide Coif",
         "image": "[[File:Blue Dragonhide Coif.png|30px|link=Blue Dragonhide Coif]]"
       }
@@ -50660,10 +50684,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -50708,10 +50732,10 @@
         "Blue Dragonhide Chaps"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Blue Dragonhide Chaps",
         "link": "Blue Dragonhide Chaps",
-        "qty": 1,
+        "qty": "1",
         "item": "Blue Dragonhide Chaps",
         "image": "[[File:Blue Dragonhide Chaps.png|30px|link=Blue Dragonhide Chaps]]"
       }
@@ -51023,10 +51047,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -51071,10 +51095,10 @@
         "Mystic Hat"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Mystic Hat",
         "link": "Mystic Hat",
-        "qty": 1,
+        "qty": "1",
         "item": "Mystic Hat",
         "image": "[[File:Mystic Hat.png|30px|link=Mystic Hat]]"
       }
@@ -51094,10 +51118,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "12",
@@ -51142,10 +51166,10 @@
         "Mystic Robes"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Mystic Robes",
         "link": "Mystic Robes",
-        "qty": 1,
+        "qty": "1",
         "item": "Mystic Robes",
         "image": "[[File:Mystic Robes.png|30px|link=Mystic Robes]]"
       }
@@ -51165,10 +51189,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "8",
@@ -51213,10 +51237,10 @@
         "Mystic Robe Legs"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Mystic Robe Legs",
         "link": "Mystic Robe Legs",
-        "qty": 1,
+        "qty": "1",
         "item": "Mystic Robe Legs",
         "image": "[[File:Mystic Robe Legs.png|30px|link=Mystic Robe Legs]]"
       }
@@ -51239,11 +51263,11 @@
       "Sodden Black Leather"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Sodden Black Leather",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -51288,10 +51312,10 @@
         "Shadow Cowl"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Shadow Cowl",
         "link": "Shadow Cowl",
-        "qty": 1,
+        "qty": "1",
         "item": "Shadow Cowl",
         "image": "[[File:Shadow Cowl.png|30px|link=Shadow Cowl]]"
       }
@@ -51314,11 +51338,11 @@
       "Shattered Black Blade"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
       "recipe": "Shattered Black Blade",
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "10",
@@ -51363,10 +51387,10 @@
         "Black Sword"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Black Sword",
         "link": "Black Sword",
-        "qty": 1,
+        "qty": "1",
         "item": "Black Sword",
         "image": "[[File:Black Sword.png|30px|link=Black Sword]]"
       }
@@ -51467,10 +51491,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Mystic Forge",
       "materials": [
         {
           "quantity": "10",
@@ -51549,11 +51573,11 @@
       "Demonic Metal Rod"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "json": {
       "recipe": "Demonic Metal Rod",
-      "facility": "Smithing Anvil",
+      "facility": "Mystic Forge",
       "materials": [
         {
           "quantity": "16",
@@ -51621,10 +51645,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Mystic Forge",
       "materials": [
         {
           "quantity": "16",
@@ -51695,11 +51719,11 @@
       "Bloodstained Hilt"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
       "recipe": "Bloodstained Hilt",
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "16",
@@ -51744,10 +51768,10 @@
         "Black Greataxe"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Black Greataxe",
         "link": "Black Greataxe",
-        "qty": 1,
+        "qty": "1",
         "item": "Black Greataxe",
         "image": "[[File:Black Greataxe.png|30px|link=Black Greataxe]]"
       }
@@ -52448,10 +52472,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "12",
@@ -52530,11 +52554,11 @@
       "Fabric That Hums With You"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Fabric That Hums With You",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "2",
@@ -52579,10 +52603,10 @@
         "Zamorak Hood"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Zamorak Hood",
         "link": "Zamorak Hood",
-        "qty": 1,
+        "qty": "1",
         "item": "Zamorak Hood",
         "image": "[[File:Zamorak Hood.png|30px|link=Zamorak Hood]]"
       }
@@ -53001,11 +53025,11 @@
       "Limp Black Lining"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Limp Black Lining",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "12",
@@ -53050,10 +53074,10 @@
         "Shadow Body"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Shadow Body",
         "link": "Shadow Body",
-        "qty": 1,
+        "qty": "1",
         "item": "Shadow Body",
         "image": "[[File:Shadow Body.png|30px|link=Shadow Body]]"
       }
@@ -53076,11 +53100,11 @@
       "Dusty Black Pocket"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Dusty Black Pocket",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "8",
@@ -53125,10 +53149,10 @@
         "Shadow Chaps"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Shadow Chaps",
         "link": "Shadow Chaps",
-        "qty": 1,
+        "qty": "1",
         "item": "Shadow Chaps",
         "image": "[[File:Shadow Chaps.png|30px|link=Shadow Chaps]]"
       }
@@ -53215,11 +53239,11 @@
       "Whispering Elbow Pad"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Whispering Elbow Pad",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "8",
@@ -53264,10 +53288,10 @@
         "Zamorak Robes"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Zamorak Robes",
         "link": "Zamorak Robes",
-        "qty": 1,
+        "qty": "1",
         "item": "Zamorak Robes",
         "image": "[[File:Zamorak Robes.png|30px|link=Zamorak Robes]]"
       }
@@ -53290,11 +53314,11 @@
       "Wizard's Kneecap"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Wizard's Kneecap",
-      "facility": "Smithing Anvil",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "6",
@@ -53339,10 +53363,10 @@
         "Zamorak Robe Legs"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Zamorak Robe Legs",
         "link": "Zamorak Robe Legs",
-        "qty": 1,
+        "qty": "1",
         "item": "Zamorak Robe Legs",
         "image": "[[File:Zamorak Robe Legs.png|30px|link=Zamorak Robe Legs]]"
       }
@@ -54264,11 +54288,11 @@
       "Battle-Scarred Black Metal"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
       "recipe": "Battle-Scarred Black Metal",
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "10",
@@ -57818,10 +57842,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "1",
@@ -57858,10 +57882,10 @@
         "Oak Rod"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Oak Rod",
         "link": "Oak Rod",
-        "qty": 1,
+        "qty": "1",
         "item": "Oak Rod",
         "image": "[[File:Oak Rod.png|30px|link=Oak Rod]]"
       }
@@ -57880,10 +57904,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "1",
@@ -57920,10 +57944,10 @@
         "Willow Rod"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Willow Rod",
         "link": "Willow Rod",
-        "qty": 1,
+        "qty": "1",
         "item": "Willow Rod",
         "image": "[[File:Willow Rod.png|30px|link=Willow Rod]]"
       }
@@ -57942,10 +57966,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "facility": "Smithing Anvil",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "1",
@@ -57982,10 +58006,10 @@
         "Maple Rod"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Maple Rod",
         "link": "Maple Rod",
-        "qty": 1,
+        "qty": "1",
         "item": "Maple Rod",
         "image": "[[File:Maple Rod.png|30px|link=Maple Rod]]"
       }
@@ -65721,6 +65745,12 @@
     ]
   },
   {
+    "uses_material": [
+      "Bronze Bar",
+      "Ash Logs",
+      "Coarse Thread",
+      "Vault Core"
+    ],
     "uses_skill": [
       "Construction"
     ],
@@ -65729,11 +65759,44 @@
     ],
     "json": {
       "facility": "Build Menu",
-      "materials": [],
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Bronze Bar",
+          "link": "Bronze Bar",
+          "qty": "6",
+          "item": "Bronze Bar",
+          "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
+        },
+        {
+          "quantity": "20",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "20",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "8",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Vault Core",
+          "link": "Vault Core",
+          "qty": "1",
+          "item": "Vault Core",
+          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
+        }
+      ],
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "12"
         }
       ],
       "outputs": [
@@ -65750,6 +65813,152 @@
     },
     "output": [
       "Armour Bench"
+    ]
+  },
+  {
+    "uses_material": [
+      "Bronze Bar",
+      "Ash Logs",
+      "Coarse Thread",
+      "Vault Core"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Bronze Bar",
+          "link": "Bronze Bar",
+          "qty": "6",
+          "item": "Bronze Bar",
+          "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
+        },
+        {
+          "quantity": "20",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "20",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "8",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Vault Core",
+          "link": "Vault Core",
+          "qty": "1",
+          "item": "Vault Core",
+          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Mystic Forge"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Mystic Forge",
+        "link": "Mystic Forge",
+        "qty": 1,
+        "item": "Mystic Forge",
+        "image": "[[File:Mystic Forge.png|30px|link=Mystic Forge]]"
+      }
+    },
+    "output": [
+      "Mystic Forge"
+    ]
+  },
+  {
+    "uses_material": [
+      "Garou Weave",
+      "Scorch Leather",
+      "Refined Obsidian",
+      "Gypsum Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Sun-Bleached Leggings"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Sun-Bleached Leggings",
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "12",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "12",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "3",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "3",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "3",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Desert Robes"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Desert Robes",
+        "link": "Desert Robes",
+        "qty": 1,
+        "item": "Desert Robes",
+        "image": "[[File:Desert Robes.png|30px|link=Desert Robes]]"
+      }
+    },
+    "output": [
+      "Desert Robes"
     ]
   },
   {
@@ -65837,10 +66046,10 @@
         "Kalphite Shell"
       ],
       "output": {
-        "quantity": "2",
+        "quantity": "1",
         "name": "Kalphite Shell",
         "link": "Kalphite Shell",
-        "qty": "2",
+        "qty": "1",
         "item": "Kalphite Shell",
         "image": "[[File:Kalphite Shell.png|30px|link=Kalphite Shell]]"
       }
@@ -67767,6 +67976,50 @@
   },
   {
     "uses_material": [
+      "Raw Monkfish"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Monkfish",
+          "link": "Raw Monkfish",
+          "qty": "1",
+          "item": "Raw Monkfish",
+          "image": "[[File:Raw Monkfish.png|30px|link=Raw Monkfish]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Monkfish Fillets"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Monkfish Fillets",
+        "link": "Monkfish Fillets",
+        "qty": "1",
+        "item": "Monkfish Fillets",
+        "image": "[[File:Monkfish Fillets.png|30px|link=Monkfish Fillets]]"
+      }
+    },
+    "output": [
+      "Monkfish Fillets"
+    ]
+  },
+  {
+    "uses_material": [
       "Adamant Bar",
       "Feathers"
     ],
@@ -67860,6 +68113,50 @@
     },
     "output": [
       "Yew Plank"
+    ]
+  },
+  {
+    "uses_material": [
+      "Dried Tea Leaves"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Grindstone"
+    ],
+    "json": {
+      "facility": "Grindstone",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dried Tea Leaves",
+          "link": "Dried Tea Leaves",
+          "qty": "1",
+          "item": "Dried Tea Leaves",
+          "image": "[[File:Dried Tea Leaves.png|30px|link=Dried Tea Leaves]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Ground Tea Leaves"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ground Tea Leaves",
+        "link": "Ground Tea Leaves",
+        "qty": "1",
+        "item": "Ground Tea Leaves",
+        "image": "[[File:Ground Tea Leaves.png|30px|link=Ground Tea Leaves]]"
+      }
+    },
+    "output": [
+      "Ground Tea Leaves"
     ]
   },
   {
@@ -68745,8 +69042,21 @@
           "experience": "60"
         }
       ],
-      "outputs": []
-    }
+      "outputs": [
+        "Pharaoh's Sceptre"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pharaoh's Sceptre",
+        "link": "Pharaoh's Sceptre",
+        "qty": 1,
+        "item": "Pharaoh's Sceptre",
+        "image": "[[File:Pharaoh's Sceptre.png|30px|link=Pharaoh's Sceptre]]"
+      }
+    },
+    "output": [
+      "Pharaoh's Sceptre"
+    ]
   },
   {
     "uses_material": [
@@ -68808,6 +69118,2667 @@
     },
     "output": [
       "Advanced Tannery"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "?",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "?",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Yew Longbow"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Yew Longbow",
+        "link": "Yew Longbow",
+        "qty": 1,
+        "item": "Yew Longbow",
+        "image": "[[File:Yew Longbow.png|30px|link=Yew Longbow]]"
+      }
+    },
+    "output": [
+      "Yew Longbow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "?",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "?",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Yew Shortbow"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Yew Shortbow",
+        "link": "Yew Shortbow",
+        "qty": 1,
+        "item": "Yew Shortbow",
+        "image": "[[File:Yew Shortbow.png|30px|link=Yew Shortbow]]"
+      }
+    },
+    "output": [
+      "Yew Shortbow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Gold Bar",
+      "Silver Bar",
+      "Desert Thread",
+      "Dragonstone",
+      "Gypsum Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "12",
+          "name": "Gold Bar",
+          "link": "Gold Bar",
+          "qty": "12",
+          "item": "Gold Bar",
+          "image": "[[File:Gold Bar.png|30px|link=Gold Bar]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Silver Bar",
+          "link": "Silver Bar",
+          "qty": "12",
+          "item": "Silver Bar",
+          "image": "[[File:Silver Bar.png|30px|link=Silver Bar]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "8",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "4",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "4",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Bow of Elidinis"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Bow of Elidinis",
+        "link": "Bow of Elidinis",
+        "qty": 1,
+        "item": "Bow of Elidinis",
+        "image": "[[File:Bow of Elidinis.png|30px|link=Bow of Elidinis]]"
+      }
+    },
+    "output": [
+      "Bow of Elidinis"
+    ]
+  },
+  {
+    "uses_material": [
+      "Refined Obsidian",
+      "Dragonstone"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Elongated Obsidian Construct"
+    ],
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "json": {
+      "recipe": "Elongated Obsidian Construct",
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "22",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "22",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "4",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
+      "outputs": [
+        "Toktz-Mej-Tal"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Toktz-Mej-Tal",
+        "link": "Toktz-Mej-Tal",
+        "qty": 1,
+        "item": "Toktz-Mej-Tal",
+        "image": "[[File:Toktz-Mej-Tal.png|30px|link=Toktz-Mej-Tal]]"
+      }
+    },
+    "output": [
+      "Toktz-Mej-Tal"
+    ]
+  },
+  {
+    "uses_material": [
+      "Red Dragon Hide"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Tannery"
+    ],
+    "json": {
+      "facility": "Tannery",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Red Dragon Hide",
+          "link": "Red Dragon Hide",
+          "qty": "1",
+          "item": "Red Dragon Hide",
+          "image": "[[File:Red Dragon Hide.png|30px|link=Red Dragon Hide]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Red Dragonhide Leather"
+      ],
+      "output": {
+        "quantity": "2",
+        "name": "Red Dragonhide Leather",
+        "link": "Red Dragonhide Leather",
+        "qty": "2",
+        "item": "Red Dragonhide Leather",
+        "image": "[[File:Red Dragonhide Leather.png|30px|link=Red Dragonhide Leather]]"
+      }
+    },
+    "output": [
+      "Red Dragonhide Leather"
+    ]
+  },
+  {
+    "uses_material": [
+      "Red Dragonhide Leather",
+      "Scorch Leather",
+      "Adamant Bar",
+      "Refined Obsidian",
+      "Gypsum Wax",
+      "Garou Weave"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "12",
+          "name": "Red Dragonhide Leather",
+          "link": "Red Dragonhide Leather",
+          "qty": "12",
+          "item": "Red Dragonhide Leather",
+          "image": "[[File:Red Dragonhide Leather.png|30px|link=Red Dragonhide Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "4",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "4",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "3",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "3",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "6",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "Red Dragon Chest"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Red Dragon Chest",
+        "link": "Red Dragon Chest",
+        "qty": 1,
+        "item": "Red Dragon Chest",
+        "image": "[[File:Red Dragon Chest.png|30px|link=Red Dragon Chest]]"
+      }
+    },
+    "output": [
+      "Red Dragon Chest"
+    ]
+  },
+  {
+    "uses_material": [
+      "Red Dragonhide Leather",
+      "Scorch Leather",
+      "Adamant Bar",
+      "Refined Obsidian",
+      "Gypsum Wax",
+      "Garou Weave"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Red Dragonhide Leather",
+          "link": "Red Dragonhide Leather",
+          "qty": "4",
+          "item": "Red Dragonhide Leather",
+          "image": "[[File:Red Dragonhide Leather.png|30px|link=Red Dragonhide Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "2",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "1",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "1",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "1",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "2",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "Red Dragon Helmet"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Red Dragon Helmet",
+        "link": "Red Dragon Helmet",
+        "qty": 1,
+        "item": "Red Dragon Helmet",
+        "image": "[[File:Red Dragon Helmet.png|30px|link=Red Dragon Helmet]]"
+      }
+    },
+    "output": [
+      "Red Dragon Helmet"
+    ]
+  },
+  {
+    "uses_material": [
+      "Red Dragonhide Leather",
+      "Scorch Leather",
+      "Adamant Bar",
+      "Refined Obsidian",
+      "Gypsum Wax",
+      "Garou Weave"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Red Dragonhide Leather",
+          "link": "Red Dragonhide Leather",
+          "qty": "6",
+          "item": "Red Dragonhide Leather",
+          "image": "[[File:Red Dragonhide Leather.png|30px|link=Red Dragonhide Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "4",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "2",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "2",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "4",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "Red Dragon Legs"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Red Dragon Legs",
+        "link": "Red Dragon Legs",
+        "qty": 1,
+        "item": "Red Dragon Legs",
+        "image": "[[File:Red Dragon Legs.png|30px|link=Red Dragon Legs]]"
+      }
+    },
+    "output": [
+      "Red Dragon Legs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Steamed Beltfish",
+      "Peach",
+      "Fried Cabbage"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Steamed Beltfish",
+          "link": "Steamed Beltfish",
+          "qty": "1",
+          "item": "Steamed Beltfish",
+          "image": "[[File:Steamed Beltfish.png|30px|link=Steamed Beltfish]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Peach",
+          "link": "Peach",
+          "qty": "1",
+          "item": "Peach",
+          "image": "[[File:Peach.png|30px|link=Peach]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Fried Cabbage",
+          "link": "Fried Cabbage",
+          "qty": "1",
+          "item": "Fried Cabbage",
+          "image": "[[File:Fried Cabbage.png|30px|link=Fried Cabbage]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Beltfish Broth"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Beltfish Broth",
+        "link": "Beltfish Broth",
+        "qty": 1,
+        "item": "Beltfish Broth",
+        "image": "[[File:Beltfish Broth.png|30px|link=Beltfish Broth]]"
+      }
+    },
+    "output": [
+      "Beltfish Broth"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar",
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "1",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "1",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Adamant Bolts"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Adamant Bolts",
+        "link": "Adamant Bolts",
+        "qty": "33",
+        "item": "Adamant Bolts",
+        "image": "[[File:Adamant Bolts.png|30px|link=Adamant Bolts]]"
+      }
+    },
+    "output": [
+      "Adamant Bolts"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs",
+      "Desert Thread",
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "1",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "1",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "1",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "15"
+        }
+      ],
+      "outputs": [
+        "Yew Rod"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Yew Rod",
+        "link": "Yew Rod",
+        "qty": 1,
+        "item": "Yew Rod",
+        "image": "[[File:Yew Rod.png|30px|link=Yew Rod]]"
+      }
+    },
+    "output": [
+      "Yew Rod"
+    ]
+  },
+  {
+    "uses_material": [
+      "Desert Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "2",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "15"
+        }
+      ],
+      "outputs": [
+        "Desert Net"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Desert Net",
+        "link": "Desert Net",
+        "qty": 1,
+        "item": "Desert Net",
+        "image": "[[File:Desert Net.png|30px|link=Desert Net]]"
+      }
+    },
+    "output": [
+      "Desert Net"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank",
+      "Desert Thread",
+      "Gypsum Wax",
+      "Wild Anima"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "16",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "4",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": "4",
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Imbuing Barrel"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Imbuing Barrel",
+        "link": "Imbuing Barrel",
+        "qty": 1,
+        "item": "Imbuing Barrel",
+        "image": "[[File:Imbuing Barrel.png|30px|link=Imbuing Barrel]]"
+      }
+    },
+    "output": [
+      "Imbuing Barrel"
+    ]
+  },
+  {
+    "uses_material": [
+      "Focused Mining Potion",
+      "Wild Anima"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Imbuing Barrel"
+    ],
+    "json": {
+      "facility": "Imbuing Barrel",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Focused Mining Potion",
+          "link": "Focused Mining Potion",
+          "qty": 1,
+          "item": "Focused Mining Potion",
+          "image": "[[File:Focused Mining Potion.png|30px|link=Focused Mining Potion]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": 1,
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Super Focused Mining Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Super Focused Mining Potion",
+        "link": "Super Focused Mining Potion",
+        "qty": 1,
+        "item": "Super Focused Mining Potion",
+        "image": "[[File:Super Focused Mining Potion.png|30px|link=Super Focused Mining Potion]]"
+      }
+    },
+    "output": [
+      "Super Focused Mining Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Cactus Water",
+      "Anima-Infused Bark",
+      "Toadflax"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cactus Water",
+          "link": "Cactus Water",
+          "qty": "1",
+          "item": "Cactus Water",
+          "image": "[[File:Cactus Water.png|30px|link=Cactus Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Anima-Infused Bark",
+          "link": "Anima-Infused Bark",
+          "qty": "1",
+          "item": "Anima-Infused Bark",
+          "image": "[[File:Anima-Infused Bark.png|30px|link=Anima-Infused Bark]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Toadflax",
+          "link": "Toadflax",
+          "qty": "1",
+          "item": "Toadflax",
+          "image": "[[File:Toadflax.png|30px|link=Toadflax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Cooling Arcane Infusion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Cooling Arcane Infusion",
+        "link": "Cooling Arcane Infusion",
+        "qty": 1,
+        "item": "Cooling Arcane Infusion",
+        "image": "[[File:Cooling Arcane Infusion.png|30px|link=Cooling Arcane Infusion]]"
+      }
+    },
+    "output": [
+      "Cooling Arcane Infusion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Cactus Water",
+      "Shocking Plant Bulb",
+      "Snapdragon"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cactus Water",
+          "link": "Cactus Water",
+          "qty": "1",
+          "item": "Cactus Water",
+          "image": "[[File:Cactus Water.png|30px|link=Cactus Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Shocking Plant Bulb",
+          "link": "Shocking Plant Bulb",
+          "qty": "1",
+          "item": "Shocking Plant Bulb",
+          "image": "[[File:Shocking Plant Bulb.png|30px|link=Shocking Plant Bulb]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Snapdragon",
+          "link": "Snapdragon",
+          "qty": "1",
+          "item": "Snapdragon",
+          "image": "[[File:Snapdragon.png|30px|link=Snapdragon]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Cooling Evasive Infusion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Cooling Evasive Infusion",
+        "link": "Cooling Evasive Infusion",
+        "qty": 1,
+        "item": "Cooling Evasive Infusion",
+        "image": "[[File:Cooling Evasive Infusion.png|30px|link=Cooling Evasive Infusion]]"
+      }
+    },
+    "output": [
+      "Cooling Evasive Infusion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Refined Obsidian",
+      "Scorch Leather",
+      "Desert Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Shattered Black Blade (Umbral Sands)"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "recipe": "Shattered Black Blade (Umbral Sands)",
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "10",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "5",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "3",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "TOKTZ-XIL-AK"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "TOKTZ-XIL-AK",
+        "link": "TOKTZ-XIL-AK",
+        "qty": "1",
+        "item": "TOKTZ-XIL-AK",
+        "image": "[[File:TOKTZ-XIL-AK.png|30px|link=TOKTZ-XIL-AK]]"
+      }
+    },
+    "output": [
+      "TOKTZ-XIL-AK"
+    ]
+  },
+  {
+    "uses_material": [
+      "Cactus Water",
+      "Dragon Tooth",
+      "Toadflax"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cactus Water",
+          "link": "Cactus Water",
+          "qty": "1",
+          "item": "Cactus Water",
+          "image": "[[File:Cactus Water.png|30px|link=Cactus Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dragon Tooth",
+          "link": "Dragon Tooth",
+          "qty": "1",
+          "item": "Dragon Tooth",
+          "image": "[[File:Dragon Tooth.png|30px|link=Dragon Tooth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Toadflax",
+          "link": "Toadflax",
+          "qty": "1",
+          "item": "Toadflax",
+          "image": "[[File:Toadflax.png|30px|link=Toadflax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Cooling Ferocious Infusion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Cooling Ferocious Infusion",
+        "link": "Cooling Ferocious Infusion",
+        "qty": 1,
+        "item": "Cooling Ferocious Infusion",
+        "image": "[[File:Cooling Ferocious Infusion.png|30px|link=Cooling Ferocious Infusion]]"
+      }
+    },
+    "output": [
+      "Cooling Ferocious Infusion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Cactus Water",
+      "Onion",
+      "Snapdragon"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cactus Water",
+          "link": "Cactus Water",
+          "qty": "1",
+          "item": "Cactus Water",
+          "image": "[[File:Cactus Water.png|30px|link=Cactus Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Onion",
+          "link": "Onion",
+          "qty": "1",
+          "item": "Onion",
+          "image": "[[File:Onion.png|30px|link=Onion]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Snapdragon",
+          "link": "Snapdragon",
+          "qty": "1",
+          "item": "Snapdragon",
+          "image": "[[File:Snapdragon.png|30px|link=Snapdragon]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Cooling Fleet-Footed Infusion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Cooling Fleet-Footed Infusion",
+        "link": "Cooling Fleet-Footed Infusion",
+        "qty": 1,
+        "item": "Cooling Fleet-Footed Infusion",
+        "image": "[[File:Cooling Fleet-Footed Infusion.png|30px|link=Cooling Fleet-Footed Infusion]]"
+      }
+    },
+    "output": [
+      "Cooling Fleet-Footed Infusion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Cactus Water",
+      "Shrapnel",
+      "Toadflax"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cactus Water",
+          "link": "Cactus Water",
+          "qty": "1",
+          "item": "Cactus Water",
+          "image": "[[File:Cactus Water.png|30px|link=Cactus Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Shrapnel",
+          "link": "Shrapnel",
+          "qty": "1",
+          "item": "Shrapnel",
+          "image": "[[File:Shrapnel.png|30px|link=Shrapnel]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Toadflax",
+          "link": "Toadflax",
+          "qty": "1",
+          "item": "Toadflax",
+          "image": "[[File:Toadflax.png|30px|link=Toadflax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Cooling Relentless  Infusion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Cooling Relentless  Infusion",
+        "link": "Cooling Relentless  Infusion",
+        "qty": 1,
+        "item": "Cooling Relentless  Infusion",
+        "image": "[[File:Cooling Relentless  Infusion.png|30px|link=Cooling Relentless  Infusion]]"
+      }
+    },
+    "output": [
+      "Cooling Relentless  Infusion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Refined Obsidian",
+      "Scorch Leather"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "10",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "6",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Obsidian Helmet"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Obsidian Helmet",
+        "link": "Obsidian Helmet",
+        "qty": "1",
+        "item": "Obsidian Helmet",
+        "image": "[[File:Obsidian Helmet.png|30px|link=Obsidian Helmet]]"
+      }
+    },
+    "output": [
+      "Obsidian Helmet"
+    ]
+  },
+  {
+    "uses_material": [
+      "Refined Obsidian",
+      "Scorch Leather"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "18",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "18",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "14",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "14",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Obsidian Chest"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Obsidian Chest",
+        "link": "Obsidian Chest",
+        "qty": "1",
+        "item": "Obsidian Chest",
+        "image": "[[File:Obsidian Chest.png|30px|link=Obsidian Chest]]"
+      }
+    },
+    "output": [
+      "Obsidian Chest"
+    ]
+  },
+  {
+    "uses_material": [
+      "Refined Obsidian",
+      "Scorch Leather"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "14",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "14",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "10",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Obsidian Legs"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Obsidian Legs",
+        "link": "Obsidian Legs",
+        "qty": "1",
+        "item": "Obsidian Legs",
+        "image": "[[File:Obsidian Legs.png|30px|link=Obsidian Legs]]"
+      }
+    },
+    "output": [
+      "Obsidian Legs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Beltfish"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Beltfish",
+          "link": "Raw Beltfish",
+          "qty": "1",
+          "item": "Raw Beltfish",
+          "image": "[[File:Raw Beltfish.png|30px|link=Raw Beltfish]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Steamed Beltfish"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Steamed Beltfish",
+        "link": "Steamed Beltfish",
+        "qty": "1",
+        "item": "Steamed Beltfish",
+        "image": "[[File:Steamed Beltfish.png|30px|link=Steamed Beltfish]]"
+      }
+    },
+    "output": [
+      "Steamed Beltfish"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Beltfish"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Beltfish",
+          "link": "Raw Beltfish",
+          "qty": "1",
+          "item": "Raw Beltfish",
+          "image": "[[File:Raw Beltfish.png|30px|link=Raw Beltfish]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Steamed Beltfish"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Steamed Beltfish",
+        "link": "Steamed Beltfish",
+        "qty": "1",
+        "item": "Steamed Beltfish",
+        "image": "[[File:Steamed Beltfish.png|30px|link=Steamed Beltfish]]"
+      }
+    },
+    "output": [
+      "Steamed Beltfish"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Beltfish",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Beltfish",
+          "link": "Pristine Beltfish",
+          "qty": "1",
+          "item": "Pristine Beltfish",
+          "image": "[[File:Pristine Beltfish.png|30px|link=Pristine Beltfish]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pristine Beltfish Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Beltfish Trophy",
+        "link": "Pristine Beltfish Trophy",
+        "qty": 1,
+        "item": "Pristine Beltfish Trophy",
+        "image": "[[File:Pristine Beltfish Trophy.png|30px|link=Pristine Beltfish Trophy]]"
+      }
+    },
+    "output": [
+      "Pristine Beltfish Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Monkfish",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Monkfish",
+          "link": "Pristine Monkfish",
+          "qty": "1",
+          "item": "Pristine Monkfish",
+          "image": "[[File:Pristine Monkfish.png|30px|link=Pristine Monkfish]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pristine Monkfish  Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Monkfish  Trophy",
+        "link": "Pristine Monkfish  Trophy",
+        "qty": 1,
+        "item": "Pristine Monkfish  Trophy",
+        "image": "[[File:Pristine Monkfish  Trophy.png|30px|link=Pristine Monkfish  Trophy]]"
+      }
+    },
+    "output": [
+      "Pristine Monkfish  Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Desert Sole",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Desert Sole",
+          "link": "Pristine Desert Sole",
+          "qty": "1",
+          "item": "Pristine Desert Sole",
+          "image": "[[File:Pristine Desert Sole.png|30px|link=Pristine Desert Sole]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Pristine Desert Sole Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Desert Sole Trophy",
+        "link": "Pristine Desert Sole Trophy",
+        "qty": 1,
+        "item": "Pristine Desert Sole Trophy",
+        "image": "[[File:Pristine Desert Sole Trophy.png|30px|link=Pristine Desert Sole Trophy]]"
+      }
+    },
+    "output": [
+      "Pristine Desert Sole Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Desert Sole"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Desert Sole",
+          "link": "Raw Desert Sole",
+          "qty": "1",
+          "item": "Raw Desert Sole",
+          "image": "[[File:Raw Desert Sole.png|30px|link=Raw Desert Sole]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Sun Baked Sole"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Sun Baked Sole",
+        "link": "Sun Baked Sole",
+        "qty": "1",
+        "item": "Sun Baked Sole",
+        "image": "[[File:Sun Baked Sole.png|30px|link=Sun Baked Sole]]"
+      }
+    },
+    "output": [
+      "Sun Baked Sole"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Desert Sole"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Grill"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Desert Sole",
+          "link": "Raw Desert Sole",
+          "qty": "1",
+          "item": "Raw Desert Sole",
+          "image": "[[File:Raw Desert Sole.png|30px|link=Raw Desert Sole]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Sun Baked Sole"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Sun Baked Sole",
+        "link": "Sun Baked Sole",
+        "qty": "1",
+        "item": "Sun Baked Sole",
+        "image": "[[File:Sun Baked Sole.png|30px|link=Sun Baked Sole]]"
+      }
+    },
+    "output": [
+      "Sun Baked Sole"
+    ]
+  },
+  {
+    "uses_material": [
+      "Sun Baked Sole",
+      "Steamed Beltfish",
+      "Bread",
+      "Baked Potato"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Sun Baked Sole",
+          "link": "Sun Baked Sole",
+          "qty": "1",
+          "item": "Sun Baked Sole",
+          "image": "[[File:Sun Baked Sole.png|30px|link=Sun Baked Sole]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Steamed Beltfish",
+          "link": "Steamed Beltfish",
+          "qty": "1",
+          "item": "Steamed Beltfish",
+          "image": "[[File:Steamed Beltfish.png|30px|link=Steamed Beltfish]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Bread",
+          "link": "Bread",
+          "qty": "1",
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Baked Potato",
+          "link": "Baked Potato",
+          "qty": "1",
+          "item": "Baked Potato",
+          "image": "[[File:Baked Potato.png|30px|link=Baked Potato]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Swabbie Pie"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Swabbie Pie",
+        "link": "Swabbie Pie",
+        "qty": 1,
+        "item": "Swabbie Pie",
+        "image": "[[File:Swabbie Pie.png|30px|link=Swabbie Pie]]"
+      }
+    },
+    "output": [
+      "Swabbie Pie"
+    ]
+  },
+  {
+    "uses_material": [
+      "Seared Cactus Steak",
+      "Bread",
+      "Roast Pumpkin",
+      "Steak"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Seared Cactus Steak",
+          "link": "Seared Cactus Steak",
+          "qty": "1",
+          "item": "Seared Cactus Steak",
+          "image": "[[File:Seared Cactus Steak.png|30px|link=Seared Cactus Steak]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Bread",
+          "link": "Bread",
+          "qty": "1",
+          "item": "Bread",
+          "image": "[[File:Bread.png|30px|link=Bread]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Roast Pumpkin",
+          "link": "Roast Pumpkin",
+          "qty": "1",
+          "item": "Roast Pumpkin",
+          "image": "[[File:Roast Pumpkin.png|30px|link=Roast Pumpkin]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Steak",
+          "link": "Steak",
+          "qty": "1",
+          "item": "Steak",
+          "image": "[[File:Steak.png|30px|link=Steak]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Umbral Kebab"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Umbral Kebab",
+        "link": "Umbral Kebab",
+        "qty": 1,
+        "item": "Umbral Kebab",
+        "image": "[[File:Umbral Kebab.png|30px|link=Umbral Kebab]]"
+      }
+    },
+    "output": [
+      "Umbral Kebab"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Tea Leaves",
+      "Clean Water",
+      "Maple Syrup"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ground Tea Leaves",
+          "link": "Ground Tea Leaves",
+          "qty": "1",
+          "item": "Ground Tea Leaves",
+          "image": "[[File:Ground Tea Leaves.png|30px|link=Ground Tea Leaves]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Clean Water",
+          "link": "Clean Water",
+          "qty": "3",
+          "item": "Clean Water",
+          "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Maple Syrup",
+          "link": "Maple Syrup",
+          "qty": "1",
+          "item": "Maple Syrup",
+          "image": "[[File:Maple Syrup.png|30px|link=Maple Syrup]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Strong Sweet Tea"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Strong Sweet Tea",
+        "link": "Strong Sweet Tea",
+        "qty": "1",
+        "item": "Strong Sweet Tea",
+        "image": "[[File:Strong Sweet Tea.png|30px|link=Strong Sweet Tea]]"
+      }
+    },
+    "output": [
+      "Strong Sweet Tea"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Tea Leaves",
+      "Clean Water"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ground Tea Leaves",
+          "link": "Ground Tea Leaves",
+          "qty": "1",
+          "item": "Ground Tea Leaves",
+          "image": "[[File:Ground Tea Leaves.png|30px|link=Ground Tea Leaves]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Clean Water",
+          "link": "Clean Water",
+          "qty": "3",
+          "item": "Clean Water",
+          "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Strong Tea"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Strong Tea",
+        "link": "Strong Tea",
+        "qty": "1",
+        "item": "Strong Tea",
+        "image": "[[File:Strong Tea.png|30px|link=Strong Tea]]"
+      }
+    },
+    "output": [
+      "Strong Tea"
+    ]
+  },
+  {
+    "uses_material": [
+      "Tea Leaves"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Kiln"
+    ],
+    "json": {
+      "facility": "Kiln",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Tea Leaves",
+          "link": "Tea Leaves",
+          "qty": "1",
+          "item": "Tea Leaves",
+          "image": "[[File:Tea Leaves.png|30px|link=Tea Leaves]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Dried Tea Leaves"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dried Tea Leaves",
+        "link": "Dried Tea Leaves",
+        "qty": "1",
+        "item": "Dried Tea Leaves",
+        "image": "[[File:Dried Tea Leaves.png|30px|link=Dried Tea Leaves]]"
+      }
+    },
+    "output": [
+      "Dried Tea Leaves"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar",
+      "Dragon Tooth",
+      "Desert Thread",
+      "Gypsum Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Keris"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "recipe": "Keris",
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "8",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Dragon Tooth",
+          "link": "Dragon Tooth",
+          "qty": "6",
+          "item": "Dragon Tooth",
+          "image": "[[File:Dragon Tooth.png|30px|link=Dragon Tooth]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "3",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "Keris"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Keris",
+        "link": "Keris",
+        "qty": "1",
+        "item": "Keris",
+        "image": "[[File:Keris.png|30px|link=Keris]]"
+      }
+    },
+    "output": [
+      "Keris"
+    ]
+  },
+  {
+    "uses_recipe": [
+      "Plate of Pure Obsidian"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Plate of Pure Obsidian",
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Obsidian Cape"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Obsidian Cape",
+        "link": "Obsidian Cape",
+        "qty": "1",
+        "item": "Obsidian Cape",
+        "image": "[[File:Obsidian Cape.png|30px|link=Obsidian Cape]]"
+      }
+    },
+    "output": [
+      "Obsidian Cape"
+    ]
+  },
+  {
+    "uses_material": [
+      "Garou Weave",
+      "Scorch Leather",
+      "Refined Obsidian",
+      "Gypsum Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Sun-Bleached Leggings"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Sun-Bleached Leggings",
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "8",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "2",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "2",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Desert Robe Legs"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Desert Robe Legs",
+        "link": "Desert Robe Legs",
+        "qty": 1,
+        "item": "Desert Robe Legs",
+        "image": "[[File:Desert Robe Legs.png|30px|link=Desert Robe Legs]]"
+      }
+    },
+    "output": [
+      "Desert Robe Legs"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Black Memory of Menaphos"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Black Memory of Menaphos",
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Black Desert Cape"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Black Desert Cape",
+        "link": "Black Desert Cape",
+        "qty": "1",
+        "item": "Black Desert Cape",
+        "image": "[[File:Black Desert Cape.png|30px|link=Black Desert Cape]]"
+      }
+    },
+    "output": [
+      "Black Desert Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Blue Memory of Menaphos"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Blue Memory of Menaphos",
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Blue Desert Cape"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Blue Desert Cape",
+        "link": "Blue Desert Cape",
+        "qty": "1",
+        "item": "Blue Desert Cape",
+        "image": "[[File:Blue Desert Cape.png|30px|link=Blue Desert Cape]]"
+      }
+    },
+    "output": [
+      "Blue Desert Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Green Memory of Menaphos"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Green Memory of Menaphos",
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Green Desert Cape"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Green Desert Cape",
+        "link": "Green Desert Cape",
+        "qty": "1",
+        "item": "Green Desert Cape",
+        "image": "[[File:Green Desert Cape.png|30px|link=Green Desert Cape]]"
+      }
+    },
+    "output": [
+      "Green Desert Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Orange Memory of Menaphos"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Orange Memory of Menaphos",
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Orange Desert Cape"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Orange Desert Cape",
+        "link": "Orange Desert Cape",
+        "qty": "1",
+        "item": "Orange Desert Cape",
+        "image": "[[File:Orange Desert Cape.png|30px|link=Orange Desert Cape]]"
+      }
+    },
+    "output": [
+      "Orange Desert Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Pink Memory of Menaphos"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Pink Memory of Menaphos",
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Pink Desert Cape"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Pink Desert Cape",
+        "link": "Pink Desert Cape",
+        "qty": "1",
+        "item": "Pink Desert Cape",
+        "image": "[[File:Pink Desert Cape.png|30px|link=Pink Desert Cape]]"
+      }
+    },
+    "output": [
+      "Pink Desert Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Purple Memory of Menaphos"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Purple Memory of Menaphos",
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Purple Desert Cape"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Purple Desert Cape",
+        "link": "Purple Desert Cape",
+        "qty": "1",
+        "item": "Purple Desert Cape",
+        "image": "[[File:Purple Desert Cape.png|30px|link=Purple Desert Cape]]"
+      }
+    },
+    "output": [
+      "Purple Desert Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Red Memory of Menaphos"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Red Memory of Menaphos",
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Red Desert Cape"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Red Desert Cape",
+        "link": "Red Desert Cape",
+        "qty": "1",
+        "item": "Red Desert Cape",
+        "image": "[[File:Red Desert Cape.png|30px|link=Red Desert Cape]]"
+      }
+    },
+    "output": [
+      "Red Desert Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "White Memory of Menaphos"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "White Memory of Menaphos",
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "White Desert Cape"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "White Desert Cape",
+        "link": "White Desert Cape",
+        "qty": "1",
+        "item": "White Desert Cape",
+        "image": "[[File:White Desert Cape.png|30px|link=White Desert Cape]]"
+      }
+    },
+    "output": [
+      "White Desert Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Yellow Memory of Menaphos"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Yellow Memory of Menaphos",
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Yellow Desert Cape"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Yellow Desert Cape",
+        "link": "Yellow Desert Cape",
+        "qty": "1",
+        "item": "Yellow Desert Cape",
+        "image": "[[File:Yellow Desert Cape.png|30px|link=Yellow Desert Cape]]"
+      }
+    },
+    "output": [
+      "Yellow Desert Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Kalphite Carapace Chest"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Kalphite Carapace Chest",
+        "link": "Kalphite Carapace Chest",
+        "qty": "1",
+        "item": "Kalphite Carapace Chest",
+        "image": "[[File:Kalphite Carapace Chest.png|30px|link=Kalphite Carapace Chest]]"
+      }
+    },
+    "output": [
+      "Kalphite Carapace Chest"
+    ]
+  },
+  {
+    "uses_material": [
+      "Garou Weave",
+      "Scorch Leather",
+      "Refined Obsidian",
+      "Gypsum Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Sun-Bleached Head Wrap"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Sun-Bleached Head Wrap",
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "4",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "1",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "1",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "1",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Desert Hood"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Desert Hood",
+        "link": "Desert Hood",
+        "qty": 1,
+        "item": "Desert Hood",
+        "image": "[[File:Desert Hood.png|30px|link=Desert Hood]]"
+      }
+    },
+    "output": [
+      "Desert Hood"
     ]
   }
 ]

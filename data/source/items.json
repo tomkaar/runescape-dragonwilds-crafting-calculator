@@ -18191,28 +18191,6 @@
     "page_name_sub": "Portal Reward Pack"
   },
   {
-    "page_name": "Red Dragonhide Armour",
-    "item_description": "",
-    "item_name": "Red Dragonhide Armour",
-    "item_type": "Ranged Armour",
-    "item_stacklimit": 0,
-    "json": {
-      "type": "Ranged Armour",
-      "description": "",
-      "health": "",
-      "weight": "",
-      "image": "[[File:Red Dragonhide Armour.png|32px]]",
-      "name": "Red Dragonhide Armour",
-      "hydration": "",
-      "sustenance": "",
-      "compostvalue": "",
-      "stacklimit": "",
-      "image_raw": "[[File:Red Dragonhide Armour.png]]"
-    },
-    "item_weight": 0,
-    "page_name_sub": "Red Dragonhide Armour"
-  },
-  {
     "page_name": "Scarecrow's Key",
     "item_description": "A key from a scarecrow in Ghornfell.",
     "item_name": "Scarecrow's Key",
@@ -18229,6 +18207,24 @@
     },
     "item_weight": 0,
     "page_name_sub": "Scarecrow's Key"
+  },
+  {
+    "page_name": "Desert Robes",
+    "item_description": "Loose-fitting and breathable, this robe protects against the sun's harsh glare while allowing air to flow freely.",
+    "item_name": "Desert Robes",
+    "item_type": "Mage Armour",
+    "page_name_sub": "Desert Robes",
+    "json": {
+      "type": "Mage Armour",
+      "description": "Loose-fitting and breathable, this robe protects against the sun's harsh glare while allowing air to flow freely.",
+      "repaircost": "2 [[Garou Weave]]",
+      "image": "[[File:Desert Robes.png|32px]]",
+      "name": "Desert Robes",
+      "weight": "8.0",
+      "image_raw": "Desert Robes.png"
+    },
+    "item_repair": "2 [[Garou Weave]]",
+    "item_weight": 8
   },
   {
     "page_name": "Kalphite Ichor",
@@ -18853,13 +18849,13 @@
     "json": {
       "type": "Melee Armour",
       "description": "A durable adamant helmet forged for the strongest of warriors.",
-      "repaircost": "?",
+      "repaircost": "1 [[Adamant Bar]]",
       "image": "[[File:Adamant Helmet.png|32px]]",
       "name": "Adamant Helmet",
       "weight": "8.0",
       "image_raw": "Adamant Helmet.png"
     },
-    "item_repair": "?",
+    "item_repair": "1 [[Adamant Bar]]",
     "item_weight": 8
   },
   {
@@ -18871,13 +18867,13 @@
     "json": {
       "type": "Melee Armour",
       "description": "A sturdy set of adamant chest armour, forged for the strongest of warriors.",
-      "repaircost": "?",
+      "repaircost": "2 [[Adamant Bar]]",
       "image": "[[File:Adamant Platebody.png|32px]]",
       "name": "Adamant Platebody",
       "weight": "16.0",
       "image_raw": "Adamant Platebody.png"
     },
-    "item_repair": "?",
+    "item_repair": "2 [[Adamant Bar]]",
     "item_weight": 16
   },
   {
@@ -18889,13 +18885,13 @@
     "json": {
       "type": "Melee Armour",
       "description": "A sturdy set of adamant leg armour, forged for the strongest of warriors.",
-      "repaircost": "?",
+      "repaircost": "1 [[Adamant Bar]]",
       "image": "[[File:Adamant Platelegs.png|32px]]",
       "name": "Adamant Platelegs",
       "weight": "12.0",
       "image_raw": "Adamant Platelegs.png"
     },
-    "item_repair": "?",
+    "item_repair": "1 [[Adamant Bar]]",
     "item_weight": 12
   },
   {
@@ -18907,13 +18903,13 @@
     "json": {
       "type": "Melee Armour",
       "description": "Solid protection, slightly heavy.",
-      "repaircost": "?",
+      "repaircost": "2 [[Adamant Bar]]",
       "image": "[[File:Adamant Shield.png|32px]]",
       "name": "Adamant Shield",
       "weight": "10.0",
       "image_raw": "Adamant Shield.png"
     },
-    "item_repair": "?",
+    "item_repair": "2 [[Adamant Bar]]",
     "item_weight": 10
   },
   {
@@ -18925,10 +18921,12 @@
     "json": {
       "type": "Food",
       "description": "Tastier than the Piscatoris monkfish, in our humble opinion",
+      "duration": "300 seconds",
+      "health": "60",
       "image": "[[File:Monkfish Fillets.png|32px]]",
       "name": "Monkfish Fillets",
       "weight": "1.0",
-      "sustenance": "20",
+      "sustenance": "25",
       "stacklimit": "99",
       "image_raw": "Monkfish Fillets.png"
     },
@@ -19485,13 +19483,13 @@
   },
   {
     "page_name": "Pharaoh's Sceptre",
-    "item_description": "This ancient and powerful weapon lets the wielder channel its sovereign authoriry into mind-controlling powers.",
+    "item_description": "This ancient and powerful weapon lets the wielder channel its sovereign authority into mind-controlling powers.",
     "item_name": "Pharaoh's Sceptre",
     "item_weight": 15,
     "page_name_sub": "Pharaoh's Sceptre",
     "json": {
       "type": "Magic Weapon",
-      "description": "This ancient and powerful weapon lets the wielder channel its sovereign authoriry into mind-controlling powers.",
+      "description": "This ancient and powerful weapon lets the wielder channel its sovereign authority into mind-controlling powers.",
       "image": "[[File:Pharaoh's Sceptre.png|32px]]",
       "name": "Pharaoh's Sceptre",
       "weight": "15",
@@ -19516,5 +19514,1105 @@
     },
     "item_weight": 2.5,
     "page_name_sub": "Raw Monkfish"
+  },
+  {
+    "page_name": "Yew Longbow",
+    "item_description": "?",
+    "item_name": "Yew Longbow",
+    "item_type": "Ranged Weapon",
+    "page_name_sub": "Yew Longbow",
+    "json": {
+      "type": "Ranged Weapon",
+      "description": "?",
+      "repaircost": "?",
+      "image": "[[File:Yew Longbow.png|32px]]",
+      "name": "Yew Longbow",
+      "weight": "?",
+      "image_raw": "Yew Longbow.png"
+    },
+    "item_repair": "?",
+    "item_weight": 0
+  },
+  {
+    "page_name": "Yew Shortbow",
+    "item_description": "?",
+    "item_name": "Yew Shortbow",
+    "item_type": "Ranged Weapon",
+    "page_name_sub": "Yew Shortbow",
+    "json": {
+      "type": "Ranged Weapon",
+      "description": "?",
+      "repaircost": "?",
+      "image": "[[File:Yew Shortbow.png|32px]]",
+      "name": "Yew Shortbow",
+      "weight": "?",
+      "image_raw": "Yew Shortbow.png"
+    },
+    "item_repair": "?",
+    "item_weight": 0
+  },
+  {
+    "page_name": "Bow of Elidinis",
+    "item_description": "?",
+    "item_name": "Bow of Elidinis",
+    "item_type": "Ranged Weapon",
+    "page_name_sub": "Bow of Elidinis",
+    "json": {
+      "type": "Ranged Weapon",
+      "description": "?",
+      "repaircost": "?",
+      "image": "[[File:Bow of Elidinis.png|32px]]",
+      "name": "Bow of Elidinis",
+      "weight": "15.0",
+      "image_raw": "Bow of Elidinis.png"
+    },
+    "item_repair": "?",
+    "item_weight": 15
+  },
+  {
+    "page_name": "Toktz-Mej-Tal",
+    "item_description": "Forged from volcanic glass, its pointed tip bleeds fire as though the earth itself burns within. The heat never fades.",
+    "item_name": "Toktz-Mej-Tal",
+    "item_weight": 15,
+    "page_name_sub": "Toktz-Mej-Tal",
+    "json": {
+      "type": "Magic Weapon",
+      "description": "Forged from volcanic glass, its pointed tip bleeds fire as though the earth itself burns within. The heat never fades.",
+      "image": "[[File:Toktz-Mej-Tal.png|32px]]",
+      "name": "Toktz-Mej-Tal",
+      "weight": "15",
+      "image_raw": "Toktz-Mej-Tal.png"
+    },
+    "item_type": "Magic Weapon"
+  },
+  {
+    "page_name": "Elongated Obsidian Construct",
+    "item_description": "Perhaps you could learn something from it.",
+    "item_name": "Elongated Obsidian Construct",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn something from it.",
+      "image": "[[File:Elongated Obsidian Construct.png|32px]]",
+      "name": "Elongated Obsidian Construct",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Elongated Obsidian Construct.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Elongated Obsidian Construct"
+  },
+  {
+    "page_name": "Red Dragon Hide",
+    "item_description": "Obtained from felling lesser red dragons. Can be processed at the tannery.",
+    "item_name": "Red Dragon Hide",
+    "item_type": "Basic Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Material",
+      "description": "Obtained from felling lesser red dragons. Can be processed at the tannery.",
+      "image": "[[File:Red Dragon Hide.png|32px]]",
+      "name": "Red Dragon Hide",
+      "weight": "1.2",
+      "stacklimit": "99",
+      "image_raw": "Red Dragon Hide.png"
+    },
+    "item_weight": 1.2,
+    "page_name_sub": "Red Dragon Hide"
+  },
+  {
+    "page_name": "Red Dragonhide Leather",
+    "item_description": "Made by tanning red dragonhide. A key crafting component for armour.",
+    "item_name": "Red Dragonhide Leather",
+    "item_type": "Processed Material",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Processed Material",
+      "description": "Made by tanning red dragonhide. A key crafting component for armour.",
+      "image": "[[File:Red Dragonhide Leather.png|32px]]",
+      "name": "Red Dragonhide Leather",
+      "weight": "0.6",
+      "stacklimit": "99",
+      "image_raw": "Red Dragonhide Leather.png"
+    },
+    "item_weight": 0.6,
+    "page_name_sub": "Red Dragonhide Leather"
+  },
+  {
+    "page_name": "Red Dragon Chest",
+    "item_description": "Agile chest armour stitched from  red dragonhide, fit for the finest of archers.",
+    "item_name": "Red Dragon Chest",
+    "item_weight": 12,
+    "page_name_sub": "Red Dragon Chest",
+    "json": {
+      "type": "Ranged Armour",
+      "description": "Agile chest armour stitched from  red dragonhide, fit for the finest of archers.",
+      "image": "[[File:Red Dragon Chest.png|32px]]",
+      "name": "Red Dragon Chest",
+      "weight": "12",
+      "image_raw": "Red Dragon Chest.png"
+    },
+    "item_type": "Ranged Armour"
+  },
+  {
+    "page_name": "Red Dragon Helmet",
+    "item_description": "Headgear made of red dragonhide, fit for the finest of archers.",
+    "item_name": "Red Dragon Helmet",
+    "item_weight": 6,
+    "page_name_sub": "Red Dragon Helmet",
+    "json": {
+      "type": "Ranged Armour",
+      "description": "Headgear made of red dragonhide, fit for the finest of archers.",
+      "image": "[[File:Red Dragon Helmet.png|32px]]",
+      "name": "Red Dragon Helmet",
+      "weight": "6",
+      "image_raw": "Red Dragon Helmet.png"
+    },
+    "item_type": "Ranged Armour"
+  },
+  {
+    "page_name": "Red Dragon Legs",
+    "item_description": "Headgear made of red dragonhide, fit for the finest of archers.",
+    "item_name": "Red Dragon Legs",
+    "item_weight": 9,
+    "page_name_sub": "Red Dragon Legs",
+    "json": {
+      "type": "Ranged Armour",
+      "description": "Headgear made of red dragonhide, fit for the finest of archers.",
+      "image": "[[File:Red Dragon Legs.png|32px]]",
+      "name": "Red Dragon Legs",
+      "weight": "9",
+      "image_raw": "Red Dragon Legs.png"
+    },
+    "item_type": "Ranged Armour"
+  },
+  {
+    "page_name": "Beltfish Broth",
+    "item_description": "A potent soup made from beltfish.",
+    "item_name": "Beltfish Broth",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "A potent soup made from beltfish.",
+      "duration": "300 seconds",
+      "image": "[[File:Beltfish Broth.png|32px]]",
+      "name": "Beltfish Broth",
+      "weight": "1.1",
+      "sustenance": "25",
+      "stacklimit": "99",
+      "image_raw": "Beltfish Broth.png"
+    },
+    "item_weight": 1.1,
+    "page_name_sub": "Beltfish Broth"
+  },
+  {
+    "page_name": "Adamant Bolts",
+    "item_description": "A crossbow bolt with an adamant tip.",
+    "item_name": "Adamant Bolts",
+    "item_type": "Ammo",
+    "item_stacklimit": 999,
+    "json": {
+      "type": "Ammo",
+      "description": "A crossbow bolt with an adamant tip.",
+      "image": "[[File:Steel Bolts.png|32px]]",
+      "name": "Adamant Bolts",
+      "weight": "0.0",
+      "stacklimit": "999",
+      "image_raw": "Steel Bolts.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Adamant Bolts"
+  },
+  {
+    "page_name": "Yew Rod",
+    "item_description": "A fishing rod made from yew and adamant.",
+    "item_name": "Yew Rod",
+    "item_weight": 1.5,
+    "page_name_sub": "Yew Rod",
+    "json": {
+      "type": "Tool",
+      "description": "A fishing rod made from yew and adamant.",
+      "image": "[[File:Yew Rod.png|32px]]",
+      "name": "Yew Rod",
+      "weight": "1.5",
+      "image_raw": "Yew Rod.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Desert Net",
+    "item_description": "A reliable and hard-wearing net made from desert thread.",
+    "item_name": "Desert Net",
+    "item_weight": 1,
+    "page_name_sub": "Desert Net",
+    "json": {
+      "type": "Tool",
+      "description": "A reliable and hard-wearing net made from desert thread.",
+      "image": "[[File:Desert Net.png|32px]]",
+      "name": "Desert Net",
+      "weight": "1.0",
+      "image_raw": "Desert Net.png"
+    },
+    "item_type": "Tool"
+  },
+  {
+    "page_name": "Cactus Water",
+    "item_description": "A brackish but refreshing beverage.",
+    "item_name": "Cactus Water",
+    "item_type": "Drink",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Drink",
+      "description": "A brackish but refreshing beverage.",
+      "duration": "300 seconds",
+      "weight": "1.0",
+      "image": "[[File:Cactus Water.png|32px]]",
+      "name": "Cactus Water",
+      "hydration": "25",
+      "stacklimit": "99",
+      "image_raw": "Cactus Water.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Cactus Water"
+  },
+  {
+    "page_name": "Super Focused Mining Potion",
+    "item_description": "PERK: Focused Mining II<br><br>Grants a 30% XP BOOST for the MINING Skill",
+    "item_name": "Super Focused Mining Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Mining II<br><br>Grants a 30% XP BOOST for the MINING Skill",
+      "duration": "600 seconds",
+      "perk": {
+        "name": "Focused Mining II",
+        "effect": "Grants a 30% XP BOOST for the MINING Skill"
+      },
+      "image": "[[File:Super Focused Mining Potion.png|32px]]",
+      "name": "Super Focused Mining Potion",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Super Focused Mining Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Super Focused Mining Potion"
+  },
+  {
+    "page_name": "Cooling Arcane Infusion",
+    "item_description": "Puts the whiz in wizard.",
+    "item_name": "Cooling Arcane Infusion",
+    "item_type": "Drink",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Drink",
+      "description": "Puts the whiz in wizard.",
+      "duration": "600 seconds",
+      "weight": "1.0",
+      "image": "[[File:Cooling Arcane Infusion.png|32px]]",
+      "name": "Cooling Arcane Infusion",
+      "hydration": "40",
+      "stacklimit": "50",
+      "image_raw": "Cooling Arcane Infusion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Cooling Arcane Infusion"
+  },
+  {
+    "page_name": "Cooling Evasive Infusion",
+    "item_description": "A thirst-quenching drink that improves your reflexes.",
+    "item_name": "Cooling Evasive Infusion",
+    "item_type": "Drink",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Drink",
+      "description": "A thirst-quenching drink that improves your reflexes.",
+      "duration": "600 seconds",
+      "weight": "1.0",
+      "image": "[[File:Cooling Evasive Infusion.png|32px]]",
+      "name": "Cooling Evasive Infusion",
+      "hydration": "40",
+      "stacklimit": "50",
+      "image_raw": "Cooling Evasive Infusion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Cooling Evasive Infusion"
+  },
+  {
+    "page_name": "Cooling Ferocious Infusion",
+    "item_description": "A hydrating drink infused with primal fury.",
+    "item_name": "Cooling Ferocious Infusion",
+    "item_type": "Drink",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Drink",
+      "description": "A hydrating drink infused with primal fury.",
+      "duration": "600 seconds",
+      "weight": "1.0",
+      "image": "[[File:Cooling Ferocious Infusion.png|32px]]",
+      "name": "Cooling Ferocious Infusion",
+      "hydration": "40",
+      "stacklimit": "50",
+      "image_raw": "Cooling Ferocious Infusion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Cooling Ferocious Infusion"
+  },
+  {
+    "page_name": "Cooling Fleet-Footed Infusion",
+    "item_description": "A thirst-quenching drink that puts a spring in your step.",
+    "item_name": "Cooling Fleet-Footed Infusion",
+    "item_type": "Drink",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Drink",
+      "description": "A thirst-quenching drink that puts a spring in your step.",
+      "duration": "600 seconds",
+      "weight": "1.0",
+      "image": "[[File:Cooling Fleet-Footed Infusion.png|32px]]",
+      "name": "Cooling Fleet-Footed Infusion",
+      "hydration": "40",
+      "stacklimit": "50",
+      "image_raw": "Cooling Fleet-Footed Infusion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Cooling Fleet-Footed Infusion"
+  },
+  {
+    "page_name": "Cooling Relentless Infusion",
+    "item_description": "A tasy tipple that'll put a quiver in your quiver.",
+    "item_name": "Cooling Relentless  Infusion",
+    "item_type": "Drink",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Drink",
+      "description": "A tasy tipple that'll put a quiver in your quiver.",
+      "duration": "600 seconds",
+      "weight": "1.0",
+      "image": "[[File:Cooling Relentless  Infusion.png|32px]]",
+      "name": "Cooling Relentless  Infusion",
+      "hydration": "40",
+      "stacklimit": "50",
+      "image_raw": "Cooling Relentless  Infusion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Cooling Relentless Infusion"
+  },
+  {
+    "page_name": "Obsidian Helmet",
+    "item_description": "A sturdy obsidian helmet designed for frontline warriors. Offers exceptional protection and resiliance in close combat.",
+    "item_name": "Obsidian Helmet",
+    "item_type": "Melee Armour",
+    "page_name_sub": "Obsidian Helmet",
+    "json": {
+      "type": "Melee Armour",
+      "description": "A sturdy obsidian helmet designed for frontline warriors. Offers exceptional protection and resiliance in close combat.",
+      "repaircost": "2 [[Refined Obsidian]]",
+      "image": "[[File:Obsidian Helmet.png|32px]]",
+      "name": "Obsidian Helmet",
+      "weight": "8.0",
+      "image_raw": "Obsidian Helmet.png"
+    },
+    "item_repair": "2 [[Refined Obsidian]]",
+    "item_weight": 8
+  },
+  {
+    "page_name": "Obsidian Chest",
+    "item_description": "Heavy obsidian chest armour designed for frontline warriors. Offers exceptional protection and resiliance in close combat.",
+    "item_name": "Obsidian Chest",
+    "item_type": "Melee Armour",
+    "page_name_sub": "Obsidian Chest",
+    "json": {
+      "type": "Melee Armour",
+      "description": "Heavy obsidian chest armour designed for frontline warriors. Offers exceptional protection and resiliance in close combat.",
+      "repaircost": "3 [[Refined Obsidian]]",
+      "image": "[[File:Obsidian Chest.png|32px]]",
+      "name": "Obsidian Chest",
+      "weight": "16.0",
+      "image_raw": "Obsidian Chest.png"
+    },
+    "item_repair": "3 [[Refined Obsidian]]",
+    "item_weight": 16
+  },
+  {
+    "page_name": "Obsidian Legs",
+    "item_description": "Heavy obsidian leg armour designed for frontline warriors. Offers exceptional protection and resiliance in close combat.",
+    "item_name": "Obsidian Legs",
+    "item_type": "Melee Armour",
+    "page_name_sub": "Obsidian Legs",
+    "json": {
+      "type": "Melee Armour",
+      "description": "Heavy obsidian leg armour designed for frontline warriors. Offers exceptional protection and resiliance in close combat.",
+      "repaircost": "2 [[Refined Obsidian]]",
+      "image": "[[File:Obsidian Legs.png|32px]]",
+      "name": "Obsidian Legs",
+      "weight": "12.0",
+      "image_raw": "Obsidian Legs.png"
+    },
+    "item_repair": "2 [[Refined Obsidian]]",
+    "item_weight": 12
+  },
+  {
+    "page_name": "Raw Beltfish",
+    "item_description": "You half expect it to start wriggling again.",
+    "item_name": "Raw Beltfish",
+    "item_type": "Raw Ingredient",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Raw Ingredient",
+      "description": "You half expect it to start wriggling again.",
+      "image": "[[File:Raw Beltfish.png|32px]]",
+      "name": "Raw Beltfish",
+      "weight": "2.5",
+      "stacklimit": "99",
+      "image_raw": "Raw Beltfish.png"
+    },
+    "item_weight": 2.5,
+    "page_name_sub": "Raw Beltfish"
+  },
+  {
+    "page_name": "Steamed Beltfish",
+    "item_description": "A long, tough meal. Don't eat it in one swallow.",
+    "item_name": "Steamed Beltfish",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "A long, tough meal. Don't eat it in one swallow.",
+      "duration": "300 seconds",
+      "health": "100",
+      "image": "[[File:Steamed Beltfish.png|32px]]",
+      "name": "Steamed Beltfish",
+      "weight": "1.0",
+      "sustenance": "30",
+      "stacklimit": "50",
+      "image_raw": "Steamed Beltfish.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Steamed Beltfish"
+  },
+  {
+    "page_name": "Pristine Beltfish",
+    "item_description": "",
+    "item_name": "Pristine Beltfish",
+    "item_type": "Raw Ingredient",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Raw Ingredient",
+      "description": "",
+      "image": "[[File:Pristine Beltfish.png|32px]]",
+      "name": "Pristine Beltfish",
+      "weight": "",
+      "stacklimit": "99",
+      "image_raw": "Pristine Beltfish.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Pristine Beltfish"
+  },
+  {
+    "page_name": "Raw Desert Sole",
+    "item_description": "You half expect it to start wriggling again.",
+    "item_name": "Raw Desert Sole",
+    "item_type": "Raw Ingredient",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Raw Ingredient",
+      "description": "You half expect it to start wriggling again.",
+      "image": "[[File:Raw Desert Sole.png|32px]]",
+      "name": "Raw Desert Sole",
+      "weight": "2.5",
+      "stacklimit": "99",
+      "image_raw": "Raw Desert Sole.png"
+    },
+    "item_weight": 2.5,
+    "page_name_sub": "Raw Desert Sole"
+  },
+  {
+    "page_name": "Sun Baked Sole",
+    "item_description": "Even when cooked it still smells a great deal.",
+    "item_name": "Sun Baked Sole",
+    "item_type": "Food",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Food",
+      "description": "Even when cooked it still smells a great deal.",
+      "duration": "300 seconds",
+      "health": "130",
+      "image": "[[File:Sun Baked Sole.png|32px]]",
+      "name": "Sun Baked Sole",
+      "weight": "1.0",
+      "sustenance": "30",
+      "stacklimit": "50",
+      "image_raw": "Sun Baked Sole.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Sun Baked Sole"
+  },
+  {
+    "page_name": "Pristine Desert Sole",
+    "item_description": "",
+    "item_name": "Pristine Desert Sole",
+    "item_type": "Raw Ingredient",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Raw Ingredient",
+      "description": "",
+      "image": "[[File:Pristine Desert Sole.png|32px]]",
+      "name": "Pristine Desert Sole",
+      "weight": "",
+      "stacklimit": "99",
+      "image_raw": "Pristine Desert Sole.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Pristine Desert Sole"
+  },
+  {
+    "page_name": "Pristine Monkfish",
+    "item_description": "",
+    "item_name": "Pristine Monkfish",
+    "item_type": "Raw Ingredient",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Raw Ingredient",
+      "description": "",
+      "image": "[[File:Pristine Monkfish.png|32px]]",
+      "name": "Pristine Monkfish",
+      "weight": "",
+      "stacklimit": "99",
+      "image_raw": "Pristine Monkfish.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Pristine Monkfish"
+  },
+  {
+    "page_name": "Swabbie Pie",
+    "item_description": "A pie reserved for the less prestigious members of a ship's crew.",
+    "item_name": "Swabbie Pie",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "A pie reserved for the less prestigious members of a ship's crew.",
+      "duration": "300 seconds",
+      "health": "220",
+      "image": "[[File:Swabbie Pie.png|32px]]",
+      "name": "Swabbie Pie",
+      "weight": "1.5",
+      "sustenance": "80",
+      "stacklimit": "99",
+      "image_raw": "Swabbie Pie.png"
+    },
+    "item_weight": 1.5,
+    "page_name_sub": "Swabbie Pie"
+  },
+  {
+    "page_name": "Umbral Kebab",
+    "item_description": "A garou delicacy, ideal for those night-time munchies.",
+    "item_name": "Umbral Kebab",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "A garou delicacy, ideal for those night-time munchies.",
+      "duration": "300 seconds",
+      "health": "80",
+      "image": "[[File:Umbral Kebab.png|32px]]",
+      "name": "Umbral Kebab",
+      "weight": "1.2",
+      "sustenance": "90",
+      "stacklimit": "99",
+      "image_raw": "Umbral Kebab.png"
+    },
+    "item_weight": 1.2,
+    "page_name_sub": "Umbral Kebab"
+  },
+  {
+    "page_name": "Strong Sweet Tea",
+    "item_description": "",
+    "item_name": "Strong Sweet Tea",
+    "item_type": "Drink",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Drink",
+      "description": "",
+      "duration": "300 seconds",
+      "weight": "1.0",
+      "image": "[[File:Strong Sweet Tea.png|32px]]",
+      "name": "Strong Sweet Tea",
+      "hydration": "10",
+      "stacklimit": "50",
+      "image_raw": "Strong Sweet Tea.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Strong Sweet Tea"
+  },
+  {
+    "page_name": "Strong Tea",
+    "item_description": "",
+    "item_name": "Strong Tea",
+    "item_type": "Drink",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Drink",
+      "description": "",
+      "weight": "1.0",
+      "image": "[[File:Strong Tea.png|32px]]",
+      "name": "Strong Tea",
+      "hydration": "10",
+      "stacklimit": "50",
+      "image_raw": "Strong Tea.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Strong Tea"
+  },
+  {
+    "page_name": "Dried Tea Leaves",
+    "item_description": "",
+    "item_name": "Dried Tea Leaves",
+    "item_weight": 0,
+    "page_name_sub": "Dried Tea Leaves",
+    "json": {
+      "type": "Resource",
+      "description": "",
+      "image": "[[File:Dried Tea Leaves.png|32px]]",
+      "name": "Dried Tea Leaves",
+      "weight": "0.0",
+      "image_raw": "Dried Tea Leaves.png"
+    },
+    "item_type": "Resource"
+  },
+  {
+    "page_name": "Keris",
+    "item_weight": 5,
+    "item_stacklimit": 1,
+    "json": {
+      "type": "Melee Weapon",
+      "description": "This dagger is thin and has a wavy edge to better slide through gaps in armour.",
+      "repaircost": "",
+      "image": "[[File:Keris.png|32px]]",
+      "name": "Keris",
+      "weight": "5.0",
+      "stacklimit": "1",
+      "image_raw": "Keris.png"
+    },
+    "item_type": "Melee Weapon",
+    "page_name_sub": "Keris",
+    "item_description": "This dagger is thin and has a wavy edge to better slide through gaps in armour.",
+    "item_repair": "",
+    "item_name": "Keris"
+  },
+  {
+    "page_name": "Obsidian Cape",
+    "item_description": "Black as cooled lava, this cape radiates a faint, lingering heat. It provides a small boost to Defence.",
+    "item_name": "Obsidian Cape",
+    "item_weight": 0,
+    "page_name_sub": "Obsidian Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Black as cooled lava, this cape radiates a faint, lingering heat. It provides a small boost to Defence.",
+      "image": "[[File:Obsidian Cape.png|32px]]",
+      "name": "Obsidian Cape",
+      "weight": "0.0",
+      "image_raw": "Obsidian Cape.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
+    "page_name": "Plate of Pure Obsidian",
+    "item_description": "Perhaps you could learn something from it.",
+    "item_name": "Plate of Pure Obsidian",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn something from it.",
+      "image": "[[File:Plate of Pure Obsidian.png|32px]]",
+      "name": "Plate of Pure Obsidian",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Plate of Pure Obsidian.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Plate of Pure Obsidian"
+  },
+  {
+    "page_name": "Desert Robe Legs",
+    "item_description": "Lightweight leggings made for desert travel, offering protection from heat while allowing easy movement across the sand",
+    "item_name": "Desert Robe Legs",
+    "item_type": "Mage Armour",
+    "page_name_sub": "Desert Robe Legs",
+    "json": {
+      "type": "Mage Armour",
+      "description": "Lightweight leggings made for desert travel, offering protection from heat while allowing easy movement across the sand",
+      "repaircost": "1 [[Garou Weave]]",
+      "image": "[[File:Desert Robe Legs.png|32px]]",
+      "name": "Desert Robe Legs",
+      "weight": "6.0",
+      "image_raw": "Desert Robe Legs.png"
+    },
+    "item_repair": "1 [[Garou Weave]]",
+    "item_weight": 6
+  },
+  {
+    "page_name": "Black Desert Cape",
+    "item_description": "A black cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+    "item_name": "Black Desert Cape",
+    "item_weight": 0,
+    "page_name_sub": "Black Desert Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A black cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+      "image": "[[File:Black Desert Cape.png|32px]]",
+      "name": "Black Desert Cape",
+      "weight": "0.0",
+      "image_raw": "Black Desert Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Blue Desert Cape",
+    "item_description": "A Blue cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+    "item_name": "Blue Desert Cape",
+    "item_weight": 0,
+    "page_name_sub": "Blue Desert Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A Blue cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+      "image": "[[File:Blue Desert Cape.png|32px]]",
+      "name": "Blue Desert Cape",
+      "weight": "0.0",
+      "image_raw": "Blue Desert Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Green Desert Cape",
+    "item_description": "A Green cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+    "item_name": "Green Desert Cape",
+    "item_weight": 0,
+    "page_name_sub": "Green Desert Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A Green cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+      "image": "[[File:Green Desert Cape.png|32px]]",
+      "name": "Green Desert Cape",
+      "weight": "0.0",
+      "image_raw": "Green Desert Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Orange Desert Cape",
+    "item_description": "A Orange cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+    "item_name": "Orange Desert Cape",
+    "item_weight": 0,
+    "page_name_sub": "Orange Desert Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A Orange cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+      "image": "[[File:Orange Desert Cape.png|32px]]",
+      "name": "Orange Desert Cape",
+      "weight": "0.0",
+      "image_raw": "Orange Desert Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Pink Desert Cape",
+    "item_description": "A Pink cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+    "item_name": "Pink Desert Cape",
+    "item_weight": 0,
+    "page_name_sub": "Pink Desert Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A Pink cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+      "image": "[[File:Pink Desert Cape.png|32px]]",
+      "name": "Pink Desert Cape",
+      "weight": "0.0",
+      "image_raw": "Pink Desert Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Purple Desert Cape",
+    "item_description": "A Purple cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+    "item_name": "Purple Desert Cape",
+    "item_weight": 0,
+    "page_name_sub": "Purple Desert Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A Purple cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+      "image": "[[File:Purple Desert Cape.png|32px]]",
+      "name": "Purple Desert Cape",
+      "weight": "0.0",
+      "image_raw": "Purple Desert Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Red Desert Cape",
+    "item_description": "A Red cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+    "item_name": "Red Desert Cape",
+    "item_weight": 0,
+    "page_name_sub": "Red Desert Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A Red cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+      "image": "[[File:Red Desert Cape.png|32px]]",
+      "name": "Red Desert Cape",
+      "weight": "0.0",
+      "image_raw": "Red Desert Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "White Desert Cape",
+    "item_description": "A White cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+    "item_name": "White Desert Cape",
+    "item_weight": 0,
+    "page_name_sub": "White Desert Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A White cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+      "image": "[[File:White Desert Cape.png|32px]]",
+      "name": "White Desert Cape",
+      "weight": "0.0",
+      "image_raw": "White Desert Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Yellow Desert Cape",
+    "item_description": "A Yellow cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+    "item_name": "Yellow Desert Cape",
+    "item_weight": 0,
+    "page_name_sub": "Yellow Desert Cape",
+    "json": {
+      "type": "Armour",
+      "description": "A Yellow cape, stitched in an ancient desert style. Its patterns reflect a long-standing mastery of life beneath the scorching sun.",
+      "image": "[[File:Yellow Desert Cape.png|32px]]",
+      "name": "Yellow Desert Cape",
+      "weight": "0.0",
+      "image_raw": "Yellow Desert Cape.png"
+    },
+    "item_type": "Armour"
+  },
+  {
+    "page_name": "Black Memory of Menaphos",
+    "item_description": "Perhaps you could learn something from it.",
+    "item_name": "Black Memory of Menaphos",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn something from it.",
+      "image": "[[File:Black Memory of Menaphos.png|32px]]",
+      "name": "Black Memory of Menaphos",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Black Memory of Menaphos.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Black Memory of Menaphos"
+  },
+  {
+    "page_name": "Blue Memory of Menaphos",
+    "item_description": "Perhaps you could learn something from it.",
+    "item_name": "Blue Memory of Menaphos",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn something from it.",
+      "image": "[[File:Blue Memory of Menaphos.png|32px]]",
+      "name": "Blue Memory of Menaphos",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Blue Memory of Menaphos.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Blue Memory of Menaphos"
+  },
+  {
+    "page_name": "Green Memory of Menaphos",
+    "item_description": "Perhaps you could learn something from it.",
+    "item_name": "Green Memory of Menaphos",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn something from it.",
+      "image": "[[File:Green Memory of Menaphos.png|32px]]",
+      "name": "Green Memory of Menaphos",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Green Memory of Menaphos.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Green Memory of Menaphos"
+  },
+  {
+    "page_name": "Orange Memory of Menaphos",
+    "item_description": "Perhaps you could learn something from it.",
+    "item_name": "Orange Memory of Menaphos",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn something from it.",
+      "image": "[[File:Orange Memory of Menaphos.png|32px]]",
+      "name": "Orange Memory of Menaphos",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Orange Memory of Menaphos.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Orange Memory of Menaphos"
+  },
+  {
+    "page_name": "Pink Memory of Menaphos",
+    "item_description": "Perhaps you could learn something from it.",
+    "item_name": "Pink Memory of Menaphos",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn something from it.",
+      "image": "[[File:Pink Memory of Menaphos.png|32px]]",
+      "name": "Pink Memory of Menaphos",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Pink Memory of Menaphos.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Pink Memory of Menaphos"
+  },
+  {
+    "page_name": "Purple Memory of Menaphos",
+    "item_description": "Perhaps you could learn something from it.",
+    "item_name": "Purple Memory of Menaphos",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn something from it.",
+      "image": "[[File:Purple Memory of Menaphos.png|32px]]",
+      "name": "Purple Memory of Menaphos",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Purple Memory of Menaphos.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Purple Memory of Menaphos"
+  },
+  {
+    "page_name": "Red Memory of Menaphos",
+    "item_description": "Perhaps you could learn something from it.",
+    "item_name": "Red Memory of Menaphos",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn something from it.",
+      "image": "[[File:Red Memory of Menaphos.png|32px]]",
+      "name": "Red Memory of Menaphos",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Red Memory of Menaphos.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Red Memory of Menaphos"
+  },
+  {
+    "page_name": "White Memory of Menaphos",
+    "item_description": "Perhaps you could learn something from it.",
+    "item_name": "White Memory of Menaphos",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn something from it.",
+      "image": "[[File:White Memory of Menaphos.png|32px]]",
+      "name": "White Memory of Menaphos",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "White Memory of Menaphos.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "White Memory of Menaphos"
+  },
+  {
+    "page_name": "Yellow Memory of Menaphos",
+    "item_description": "Perhaps you could learn something from it.",
+    "item_name": "Yellow Memory of Menaphos",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn something from it.",
+      "image": "[[File:Yellow Memory of Menaphos.png|32px]]",
+      "name": "Yellow Memory of Menaphos",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Yellow Memory of Menaphos.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Yellow Memory of Menaphos"
+  },
+  {
+    "page_name": "Artifact Salvage",
+    "item_description": "",
+    "item_name": "Artifact  Salvage",
+    "item_type": "Container",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Container",
+      "description": "",
+      "image": "[[File:Artifact  Salvage.png|32px]]",
+      "name": "Artifact  Salvage",
+      "weight": "",
+      "stacklimit": "",
+      "image_raw": "Artifact  Salvage.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Artifact Salvage"
+  },
+  {
+    "page_name": "Kalphite Carapace Chest",
+    "item_description": "?",
+    "item_name": "Kalphite Carapace Chest",
+    "item_type": "Ranged Armour",
+    "page_name_sub": "Kalphite Carapace Chest",
+    "json": {
+      "type": "Ranged Armour",
+      "description": "?",
+      "repaircost": "?",
+      "image": "[[File:Kalphite Carapace Chest.png|32px]]",
+      "name": "Kalphite Carapace Chest",
+      "weight": "12.0",
+      "image_raw": "Kalphite Carapace Chest.png"
+    },
+    "item_repair": "?",
+    "item_weight": 12
+  },
+  {
+    "page_name": "Desert Hood",
+    "item_description": "A lightweight hood woven for the harsh desert sun. It shields the wearer from heat and drifting sands.",
+    "item_name": "Desert Hood",
+    "item_type": "Mage Armour",
+    "page_name_sub": "Desert Hood",
+    "json": {
+      "type": "Mage Armour",
+      "description": "A lightweight hood woven for the harsh desert sun. It shields the wearer from heat and drifting sands.",
+      "repaircost": "1 [[Garou Weave]]",
+      "image": "[[File:Desert Hood.png|32px]]",
+      "name": "Desert Hood",
+      "weight": "4.0",
+      "image_raw": "Desert Hood.png"
+    },
+    "item_repair": "1 [[Garou Weave]]",
+    "item_weight": 4
   }
 ]

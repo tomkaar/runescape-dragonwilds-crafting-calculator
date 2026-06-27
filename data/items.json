@@ -308,7 +308,7 @@
         "recipe": {
           "id": "609572e091af",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -333,7 +333,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Imbued_Leather_Wrappings",
     "weight": 0
@@ -351,7 +351,7 @@
         "recipe": {
           "id": "6fbc26550859",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -380,7 +380,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Ornate_Maul_Handle",
     "weight": 0
@@ -2614,7 +2614,7 @@
         "recipe": {
           "id": "6a5683c44ece",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -2639,7 +2639,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Bronze_Greatsword",
     "weight": 25
@@ -2819,7 +2819,7 @@
         "recipe": {
           "id": "c806a4903ca0",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -2856,7 +2856,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Abyssal_Whip",
     "weight": 4.5
@@ -2962,7 +2962,7 @@
         "recipe": {
           "id": "7cfbf8391a6e",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -2991,7 +2991,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Iron_Platebody",
     "weight": 16
@@ -3009,7 +3009,7 @@
         "recipe": {
           "id": "b26c8def1786",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -3034,7 +3034,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Bronze_Dagger",
     "weight": 5,
@@ -3053,7 +3053,7 @@
         "recipe": {
           "id": "72cf1728a37f",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -3078,7 +3078,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Iron_Logging_Axe",
     "weight": 4.5
@@ -3096,7 +3096,7 @@
         "recipe": {
           "id": "2d8e2946bcf7",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -3121,7 +3121,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Bronze_Logging_Axe",
     "weight": 5
@@ -3229,7 +3229,7 @@
         "recipe": {
           "id": "3ea9e0b23ce1",
           "facilities": [
-            "Smithing Anvil"
+            "Mystic Forge"
           ],
           "materials": [
             {
@@ -3254,7 +3254,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "wikiLink": "Oak_Battlestaff",
     "weight": 15
@@ -3272,7 +3272,7 @@
         "recipe": {
           "id": "4b20c9ec412b",
           "facilities": [
-            "Smithing Anvil"
+            "Mystic Forge"
           ],
           "materials": [
             {
@@ -3301,7 +3301,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "wikiLink": "Blightwood_Battlestaff",
     "weight": 15
@@ -3445,7 +3445,7 @@
         "recipe": {
           "id": "a7f9046e5928",
           "facilities": [
-            "Smithing Anvil"
+            "Mystic Forge"
           ],
           "materials": [
             {
@@ -3478,7 +3478,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "wikiLink": "Staff_of_Light",
     "weight": 15
@@ -3664,7 +3664,7 @@
         "recipe": {
           "id": "66e9868f4511",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -3689,7 +3689,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Bronze_Pickaxe",
     "weight": 5
@@ -3746,7 +3746,7 @@
         "recipe": {
           "id": "d248c862575a",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -3771,7 +3771,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Iron_Pickaxe",
     "weight": 5
@@ -4184,7 +4184,7 @@
         "recipe": {
           "id": "088f8f16326f",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -4213,7 +4213,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Dragonblight_Shield",
     "weight": 10
@@ -4539,7 +4539,7 @@
         "recipe": {
           "id": "f00387f7b524",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -4576,7 +4576,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Anti-Dragon_Shield",
     "weight": 7
@@ -5064,7 +5064,7 @@
         "recipe": {
           "id": "3efaac38e50a",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -5089,7 +5089,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Challenge_Horn",
     "weight": 4
@@ -5139,7 +5139,7 @@
         "recipe": {
           "id": "ae7dbbf74b8e",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -5164,7 +5164,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Bronze_Platebody",
     "weight": 16
@@ -5214,7 +5214,7 @@
         "recipe": {
           "id": "ec26c0b3b9e1",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -5243,7 +5243,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Dragonkin_Mage_Robes",
     "weight": 8
@@ -5395,7 +5395,7 @@
         "recipe": {
           "id": "4069d39ca5c2",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -5424,7 +5424,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Dark_Mage_Hood",
     "weight": 4
@@ -5486,7 +5486,7 @@
         "recipe": {
           "id": "33e0788fb585",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -5515,7 +5515,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Dark_Mage_Robe_Legs",
     "weight": 6
@@ -5533,7 +5533,7 @@
         "recipe": {
           "id": "8aefea5cca6b",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -5562,7 +5562,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Dark_Mage_Robes",
     "weight": 8
@@ -5617,7 +5617,7 @@
         "recipe": {
           "id": "8aa7b9ee681b",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -5642,7 +5642,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Bronze_Helmet",
     "weight": 8
@@ -5660,7 +5660,7 @@
         "recipe": {
           "id": "d17bd6a1777f",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -5685,7 +5685,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Bronze_Platelegs",
     "weight": 12
@@ -5703,7 +5703,7 @@
         "recipe": {
           "id": "cca7d0b53abb",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -5724,7 +5724,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Bronze_Shield",
     "weight": 10
@@ -5742,7 +5742,7 @@
         "recipe": {
           "id": "f938dfca1a60",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -5771,7 +5771,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Dragonkin_Mage_Robe_Legs",
     "weight": 6
@@ -5789,7 +5789,7 @@
         "recipe": {
           "id": "2fb4ebece5c2",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -5814,7 +5814,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Hard_Leather_Body",
     "weight": 4.5
@@ -5868,7 +5868,7 @@
         "recipe": {
           "id": "63af13d9c9f8",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -5893,7 +5893,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Hard_Leather_Chaps",
     "weight": 9
@@ -5911,7 +5911,7 @@
         "recipe": {
           "id": "4d5f169a5ff9",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -5936,7 +5936,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Hard_Leather_Cowl",
     "weight": 6
@@ -5954,7 +5954,7 @@
         "recipe": {
           "id": "e6884a1aebca",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -5983,7 +5983,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Iron_Helmet",
     "weight": 8
@@ -6001,7 +6001,7 @@
         "recipe": {
           "id": "8beb904095c7",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -6030,7 +6030,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Iron_Platelegs",
     "weight": 12
@@ -6090,7 +6090,7 @@
         "recipe": {
           "id": "48850dbd0710",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -6115,7 +6115,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Iron_Shield",
     "weight": 10
@@ -6169,7 +6169,7 @@
         "recipe": {
           "id": "3aefa205a2b9",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -6198,7 +6198,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Paladin's_Platebody",
     "weight": 16
@@ -6272,7 +6272,7 @@
         "recipe": {
           "id": "b7a1ec917f60",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -6301,7 +6301,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Paladin_Platelegs",
     "weight": 12
@@ -6397,7 +6397,7 @@
         "recipe": {
           "id": "1130541de1b1",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -6426,7 +6426,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Studded_Leather_Body",
     "weight": 12
@@ -6444,7 +6444,7 @@
         "recipe": {
           "id": "8ce9eabfcb92",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -6473,7 +6473,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Studded_Leather_Chaps",
     "weight": 9
@@ -6523,7 +6523,7 @@
         "recipe": {
           "id": "0c0b7243b3fa",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -6556,7 +6556,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Granite_Maul",
     "weight": 25
@@ -6574,7 +6574,7 @@
         "recipe": {
           "id": "97e360cf9757",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -6603,7 +6603,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Studded_Leather_Cowl",
     "weight": 6
@@ -6621,7 +6621,7 @@
         "recipe": {
           "id": "3ccc889e7ad3",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -6650,7 +6650,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Wild_Archer_Body",
     "weight": 12
@@ -6668,7 +6668,7 @@
         "recipe": {
           "id": "603759ff638f",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -6697,7 +6697,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Wild_Archer_Chaps",
     "weight": 9
@@ -6715,7 +6715,7 @@
         "recipe": {
           "id": "ee561b58176f",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -6744,7 +6744,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Wild_Archer_Cowl",
     "weight": 6
@@ -6762,7 +6762,7 @@
         "recipe": {
           "id": "9bf6438ae683",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -6787,7 +6787,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Imbued_Granite_Maul_Head",
     "weight": 0
@@ -6805,7 +6805,7 @@
         "recipe": {
           "id": "12645518627d",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -6830,7 +6830,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Wizard_Hat",
     "weight": 4
@@ -6848,7 +6848,7 @@
         "recipe": {
           "id": "b27d0a4054db",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -6873,7 +6873,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Wizard_Robe_Legs",
     "weight": 6
@@ -6891,7 +6891,7 @@
         "recipe": {
           "id": "d0c5bf3fd10b",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -6916,7 +6916,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Wizard_Robes",
     "weight": 8
@@ -7374,7 +7374,7 @@
         "recipe": {
           "id": "c72465e66cd0",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -7403,7 +7403,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Iron_Mace",
     "weight": 6
@@ -7421,7 +7421,7 @@
         "recipe": {
           "id": "3c1c85d86d8a",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -7450,7 +7450,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Paladin's_Helm",
     "weight": 8
@@ -7759,7 +7759,7 @@
         "recipe": {
           "id": "c447e8af62f5",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -7788,7 +7788,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Dragonkin_Mage_Hood",
     "weight": 4
@@ -7914,7 +7914,7 @@
         "recipe": {
           "id": "aa8c7f320c99",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -7939,7 +7939,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Bronze_Sword",
     "weight": 15,
@@ -7994,7 +7994,7 @@
         "recipe": {
           "id": "c06c54e446c6",
           "facilities": [
-            "Smithing Anvil"
+            "Mystic Forge"
           ],
           "materials": [
             {
@@ -8025,7 +8025,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "wikiLink": "Draconic_Staff",
     "weight": 15
@@ -8071,7 +8071,7 @@
         "recipe": {
           "id": "a5d6f14aaf5c",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -8102,7 +8102,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Thane's_Authority",
     "weight": 8
@@ -8170,7 +8170,7 @@
         "recipe": {
           "id": "e91b27524cae",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -8195,7 +8195,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Bronze_Mace",
     "weight": 6
@@ -8213,7 +8213,7 @@
         "recipe": {
           "id": "64c4b6c56979",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -8234,7 +8234,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Bronze_Warhammer",
     "weight": 25
@@ -8252,7 +8252,7 @@
         "recipe": {
           "id": "06cef352a192",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -8281,7 +8281,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Dragonbone_Dagger",
     "weight": 5
@@ -8299,7 +8299,7 @@
         "recipe": {
           "id": "db44a3b0ef07",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -8328,7 +8328,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Iron_Dagger",
     "weight": 5,
@@ -8347,7 +8347,7 @@
         "recipe": {
           "id": "624d9f187913",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -8376,7 +8376,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Iron_Greataxe",
     "weight": 25
@@ -8394,7 +8394,7 @@
         "recipe": {
           "id": "8127a2a8b9c0",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -8423,7 +8423,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Iron_Greatsword",
     "weight": 25
@@ -8441,7 +8441,7 @@
         "recipe": {
           "id": "2c2c974b27ee",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -8470,7 +8470,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Iron_Sword",
     "weight": 15,
@@ -8489,7 +8489,7 @@
         "recipe": {
           "id": "1f383d50b968",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -8514,7 +8514,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Iron_Warhammer",
     "weight": 25
@@ -8738,7 +8738,7 @@
         "recipe": {
           "id": "a6e89fe7bfdf",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -8765,7 +8765,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Chieftain's_Blade",
     "weight": 5.5,
@@ -20668,7 +20668,7 @@
         "recipe": {
           "id": "041a930c0b63",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -20699,7 +20699,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Skullsplitter",
     "weight": 6
@@ -20745,7 +20745,7 @@
         "recipe": {
           "id": "f83eeca899b4",
           "facilities": [
-            "Smithing Anvil"
+            "Mystic Forge"
           ],
           "materials": [
             {
@@ -20764,7 +20764,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: A Mysterious Crescent Carving"
+          "A Mysterious Crescent Carving"
         ]
       }
     ],
@@ -20772,7 +20772,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "wikiLink": "Grieving_Moon_Staff",
     "weight": 6
@@ -20976,7 +20976,7 @@
         "recipe": {
           "id": "4e193fd30e9d",
           "facilities": [
-            "Smithing Forge"
+            "Jeweler's Bench"
           ],
           "materials": [
             {
@@ -21005,7 +21005,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Forge"
+      "Jeweler's Bench"
     ],
     "wikiLink": "Ring_of_Pursuit",
     "weight": 2
@@ -24670,7 +24670,7 @@
         "recipe": {
           "id": "b4e74a831081",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -24693,7 +24693,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Bronze_Spade",
     "weight": 5
@@ -24711,7 +24711,7 @@
         "recipe": {
           "id": "78fafdb36875",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -24736,7 +24736,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Steel_Pickaxe",
     "weight": 5
@@ -24754,7 +24754,7 @@
         "recipe": {
           "id": "71bbdfb52b7e",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -24779,7 +24779,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Steel_Logging_Axe",
     "weight": 5
@@ -24797,7 +24797,7 @@
         "recipe": {
           "id": "eabcb365bfa2",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -24820,7 +24820,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Steel_Spade",
     "weight": 5
@@ -25007,7 +25007,7 @@
         "recipe": {
           "id": "86e727594836",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -25026,7 +25026,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Bronze_Watering_Can",
     "weight": 5
@@ -25201,7 +25201,7 @@
         "recipe": {
           "id": "a384d116256f",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -25234,7 +25234,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Steel_Full_Helm",
     "weight": 8
@@ -25454,7 +25454,7 @@
         "recipe": {
           "id": "a8dedb6fe3bf",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -25487,7 +25487,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Steel_Platebody",
     "weight": 16
@@ -25505,7 +25505,7 @@
         "recipe": {
           "id": "8da5bf8cfff9",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -25538,7 +25538,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Steel_Platelegs",
     "weight": 12
@@ -25596,7 +25596,7 @@
         "recipe": {
           "id": "ec7fe22412f0",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -25617,7 +25617,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Steel_Watering_Can",
     "weight": 5.5
@@ -25764,7 +25764,7 @@
         "recipe": {
           "id": "fa25c7940c10",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -25795,7 +25795,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Shadow_Sword",
     "weight": 25
@@ -26183,7 +26183,7 @@
         "recipe": {
           "id": "25a5d068612f",
           "facilities": [
-            "Smithing Anvil"
+            "Mystic Forge"
           ],
           "materials": [
             {
@@ -26212,7 +26212,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "wikiLink": "Splitbark_Staff",
     "weight": 15
@@ -26230,7 +26230,7 @@
         "recipe": {
           "id": "03571b7300ec",
           "facilities": [
-            "Smithing Anvil"
+            "Mystic Forge"
           ],
           "materials": [
             {
@@ -26259,7 +26259,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "wikiLink": "Necromancer's_Staff",
     "weight": 15
@@ -26270,22 +26270,22 @@
     "image": "Ectoplasm.png",
     "variants": [
       {
-        "id": "fcf1f51b1fbd",
+        "id": "5ad246435fd3",
         "name": "Ectoplasm",
         "image": "Ectoplasm.png",
         "variantName": null,
         "recipe": {
-          "id": "658442722dd0",
+          "id": "a7e4dcf6d68c",
           "facilities": [
             "Kiln"
           ],
           "materials": [
             {
               "itemId": "15764a871dbe",
-              "quantity": 3
+              "quantity": 1
             }
           ],
-          "quantity": 1
+          "quantity": 3
         },
         "usesRecipe": null
       }
@@ -26313,7 +26313,7 @@
         "recipe": {
           "id": "433c1c662759",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -26346,7 +26346,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Green_Dragonhide_Coif",
     "weight": 6
@@ -26364,7 +26364,7 @@
         "recipe": {
           "id": "a07bbd474a20",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -26397,7 +26397,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Green_Dragonhide_Body",
     "weight": 12
@@ -26415,7 +26415,7 @@
         "recipe": {
           "id": "f1de03be1575",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -26448,7 +26448,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Green_Dragonhide_Chaps",
     "weight": 9
@@ -26646,7 +26646,7 @@
         "recipe": {
           "id": "9fcbfc554f1c",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -26681,7 +26681,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Shadowscale_Hood",
     "weight": 6
@@ -26699,7 +26699,7 @@
         "recipe": {
           "id": "11e3c34e8fe3",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -26728,9 +26728,11 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Fallen_Hoplite's_Helm",
     "weight": 8
@@ -26748,7 +26750,7 @@
         "recipe": {
           "id": "30a8f85979eb",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -26777,9 +26779,11 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Fallen_Hoplite's_Chest",
     "weight": 16
@@ -26797,7 +26801,7 @@
         "recipe": {
           "id": "a78fe139ffa6",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -26826,9 +26830,11 @@
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Fallen_Hoplite's_Tassets",
     "weight": 12
@@ -26846,7 +26852,7 @@
         "recipe": {
           "id": "3ba72ca3a1f3",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -26875,7 +26881,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Wolfbane_Dagger",
     "weight": 5,
@@ -27041,7 +27047,7 @@
         "recipe": {
           "id": "4d3d8e635def",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -27062,7 +27068,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Iron_Secateurs",
     "weight": 3
@@ -27194,7 +27200,7 @@
         "recipe": {
           "id": "a7f0bc54c046",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -27219,7 +27225,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Steel_Shield",
     "weight": 10
@@ -27237,7 +27243,7 @@
         "recipe": {
           "id": "f48a54aaefa8",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -27266,7 +27272,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Steel_Scimitar",
     "weight": 15,
@@ -27285,7 +27291,7 @@
         "recipe": {
           "id": "9fbe9f683f33",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -27314,7 +27320,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Steel_Dagger",
     "weight": 5,
@@ -27333,7 +27339,7 @@
         "recipe": {
           "id": "a26e0e06e71a",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -27362,7 +27368,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Steel_Sword",
     "weight": 15,
@@ -27381,7 +27387,7 @@
         "recipe": {
           "id": "1e430c414a05",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -27410,7 +27416,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Steel_Mace",
     "weight": 15,
@@ -27429,7 +27435,7 @@
         "recipe": {
           "id": "be7d43472de6",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -27458,7 +27464,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Steel_Greatsword",
     "weight": 15,
@@ -27477,7 +27483,7 @@
         "recipe": {
           "id": "ceb50979c917",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -27506,7 +27512,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Dragoncurse_Shield",
     "weight": 10
@@ -27524,7 +27530,7 @@
         "recipe": {
           "id": "2ae561ad00bc",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -27553,7 +27559,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Steel_Greataxe",
     "weight": 25,
@@ -27572,7 +27578,7 @@
         "recipe": {
           "id": "6a843e1f7563",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -27597,7 +27603,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Steel_Warhammer",
     "weight": 15,
@@ -28165,7 +28171,7 @@
         "recipe": {
           "id": "e8ce7e5eaa7e",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -28204,7 +28210,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "White_Platelegs",
     "weight": 6
@@ -28436,7 +28442,7 @@
         "recipe": {
           "id": "aaa53a299d9a",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -28471,7 +28477,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Necromancer's_Robe_Bottom",
     "weight": 6
@@ -28489,7 +28495,7 @@
         "recipe": {
           "id": "55af4ee3a806",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -28524,7 +28530,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Necromancer's_Crown",
     "weight": 4
@@ -28542,7 +28548,7 @@
         "recipe": {
           "id": "d6fbb780f8ef",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -28577,7 +28583,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Necromancer's_Robe_Top",
     "weight": 4
@@ -28595,7 +28601,7 @@
         "recipe": {
           "id": "dc040a972b63",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -28628,7 +28634,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Splitbark_Helm",
     "weight": 4
@@ -28886,7 +28892,7 @@
         "recipe": {
           "id": "542d3157304b",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -28921,7 +28927,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Ranger_Hat",
     "weight": 6
@@ -28939,7 +28945,7 @@
         "recipe": {
           "id": "b53617dd6c1c",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -28974,7 +28980,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Ranger_Tunic",
     "weight": 12
@@ -28992,7 +28998,7 @@
         "recipe": {
           "id": "dbe04e8d275f",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -29019,7 +29025,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "Tastefully torn tights"
+          "Tastefully Torn Tights"
         ]
       }
     ],
@@ -29027,7 +29033,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Ranger_Tights",
     "weight": 9
@@ -29099,7 +29105,7 @@
         "recipe": {
           "id": "84c9fc1a4409",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -29138,7 +29144,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "White_Full_Helm",
     "weight": 6
@@ -29156,7 +29162,7 @@
         "recipe": {
           "id": "003e1dd84951",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -29195,7 +29201,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "White_Platebody",
     "weight": 16
@@ -29213,7 +29219,7 @@
         "recipe": {
           "id": "f3a7bbc6d0be",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -29246,7 +29252,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Splitbark_Body",
     "weight": 8
@@ -29264,7 +29270,7 @@
         "recipe": {
           "id": "0db279619920",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -29297,7 +29303,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Splitbark_Legs",
     "weight": 6
@@ -29315,7 +29321,7 @@
         "recipe": {
           "id": "c868e97c703d",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -29346,7 +29352,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Fallen_Hoplite's_Aspis",
     "weight": 10
@@ -29418,7 +29424,7 @@
         "recipe": {
           "id": "5aadb717d6a7",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -29435,7 +29441,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Bone_Crossbow_Limbs",
     "weight": 4.5
@@ -30468,7 +30474,7 @@
         "recipe": {
           "id": "411134618bec",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -30501,7 +30507,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Zombie_Axe",
     "weight": 6,
@@ -30520,7 +30526,7 @@
         "recipe": {
           "id": "5d6b79ee70a4",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -30549,7 +30555,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Undead_Spade",
     "weight": 5
@@ -30749,7 +30755,7 @@
         "recipe": {
           "id": "1fb69d69e336",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -30780,7 +30786,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Imaru's_Talon",
     "weight": 15
@@ -31106,7 +31112,7 @@
         "recipe": {
           "id": "57bc1c74b2b5",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -31135,7 +31141,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Mithril_Sword",
     "weight": 15,
@@ -31490,7 +31496,7 @@
         "recipe": {
           "id": "4ba6e338c3ad",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -31525,7 +31531,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Black_Knight_Helmet",
     "weight": 8
@@ -31543,7 +31549,7 @@
         "recipe": {
           "id": "dd1483fd8d17",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -31572,7 +31578,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Mithril_Helmet",
     "weight": 8
@@ -31626,7 +31632,7 @@
         "recipe": {
           "id": "501f2d9acfd6",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -31651,7 +31657,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Mithril_Pickaxe",
     "weight": 5
@@ -32093,7 +32099,7 @@
         "recipe": {
           "id": "f2fb94cbff52",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -32118,7 +32124,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Mithril_Logging_Axe",
     "weight": 5
@@ -32136,7 +32142,7 @@
         "recipe": {
           "id": "73a8ebe47e45",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -32165,7 +32171,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Mithril_Platebody",
     "weight": 16
@@ -32183,7 +32189,7 @@
         "recipe": {
           "id": "8faa8a6aac4a",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -32212,7 +32218,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Mithril_Platelegs",
     "weight": 12
@@ -32230,7 +32236,7 @@
         "recipe": {
           "id": "cb1f89389810",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -32255,7 +32261,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Mithril_Shield",
     "weight": 12
@@ -32273,7 +32279,7 @@
         "recipe": {
           "id": "d7d479bdec58",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -32308,7 +32314,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Black_Knight_Platebody",
     "weight": 16
@@ -32326,7 +32332,7 @@
         "recipe": {
           "id": "cb367c57cd7f",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -32361,7 +32367,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Black_Knight_Platelegs",
     "weight": 12
@@ -32379,7 +32385,7 @@
         "recipe": {
           "id": "8ad631b294e1",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -32408,7 +32414,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Mithril_Greataxe",
     "weight": 25
@@ -32464,7 +32470,7 @@
         "recipe": {
           "id": "4897ddf9db2e",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -32493,7 +32499,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Mithril_Greatsword",
     "weight": 25
@@ -32511,7 +32517,7 @@
         "recipe": {
           "id": "79aeb05a4390",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -32540,7 +32546,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Mithril_Dagger",
     "weight": 5
@@ -32558,7 +32564,7 @@
         "recipe": {
           "id": "83387c420af2",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -32587,7 +32593,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Mithril_Scimitar",
     "weight": 15
@@ -32605,7 +32611,7 @@
         "recipe": {
           "id": "a9be72ded78d",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -32634,7 +32640,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Mithril_Mace",
     "weight": 6
@@ -32652,7 +32658,7 @@
         "recipe": {
           "id": "b783fb6cea5e",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -32677,7 +32683,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Mithril_Warhammer",
     "weight": 25
@@ -32886,7 +32892,7 @@
         "recipe": {
           "id": "f71f9cc4ab4c",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -32915,7 +32921,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Blue_Dragonhide_Body",
     "weight": 12
@@ -32981,7 +32987,7 @@
         "recipe": {
           "id": "2ac01fa7befc",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -33010,7 +33016,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Blue_Dragonhide_Coif",
     "weight": 6
@@ -33028,7 +33034,7 @@
         "recipe": {
           "id": "546cf5879c84",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -33057,7 +33063,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Blue_Dragonhide_Chaps",
     "weight": 9
@@ -33287,7 +33293,7 @@
         "recipe": {
           "id": "75518c738bb9",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -33316,7 +33322,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Mystic_Hat",
     "weight": 4
@@ -33334,7 +33340,7 @@
         "recipe": {
           "id": "108e69e4870e",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -33363,7 +33369,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Mystic_Robes",
     "weight": 8
@@ -33381,7 +33387,7 @@
         "recipe": {
           "id": "78b572cb0c7d",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -33410,7 +33416,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Mystic_Robe_Legs",
     "weight": 6
@@ -33428,7 +33434,7 @@
         "recipe": {
           "id": "00b9b84bcf12",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -33459,7 +33465,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Shadow_Cowl",
     "weight": 6
@@ -33477,7 +33483,7 @@
         "recipe": {
           "id": "8a453737a82c",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -33508,7 +33514,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Black_Sword",
     "weight": 15,
@@ -33578,7 +33584,7 @@
         "recipe": {
           "id": "5a6055c004d5",
           "facilities": [
-            "Smithing Anvil"
+            "Mystic Forge"
           ],
           "materials": [
             {
@@ -33611,7 +33617,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "wikiLink": "Zamorak_Staff",
     "weight": 15
@@ -33629,7 +33635,7 @@
         "recipe": {
           "id": "0fc7cd9ff163",
           "facilities": [
-            "Smithing Anvil"
+            "Mystic Forge"
           ],
           "materials": [
             {
@@ -33660,7 +33666,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "wikiLink": "Subjugation_Staff",
     "weight": 15
@@ -33678,7 +33684,7 @@
         "recipe": {
           "id": "c42d9426951f",
           "facilities": [
-            "Smithing Anvil"
+            "Mystic Forge"
           ],
           "materials": [
             {
@@ -33707,7 +33713,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Mystic Forge"
     ],
     "wikiLink": "Maple_Battlestaff",
     "weight": 15
@@ -33725,7 +33731,7 @@
         "recipe": {
           "id": "69c9e82c166a",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -33756,7 +33762,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Black_Greataxe",
     "weight": 25
@@ -34368,7 +34374,7 @@
         "recipe": {
           "id": "2807ae964ccc",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -34401,7 +34407,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Titan's_Wrath",
     "weight": 25
@@ -34419,7 +34425,7 @@
         "recipe": {
           "id": "f76fc574c88b",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -34450,7 +34456,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Zamorak_Hood",
     "weight": 4
@@ -34754,7 +34760,7 @@
         "recipe": {
           "id": "d64e765ceddc",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -34785,7 +34791,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Shadow_Body",
     "weight": 12
@@ -34803,7 +34809,7 @@
         "recipe": {
           "id": "8dff79b3ab93",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -34834,7 +34840,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Shadow_Chaps",
     "weight": 12
@@ -34911,7 +34917,7 @@
         "recipe": {
           "id": "3ffb64a57d39",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -34942,7 +34948,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Zamorak_Robes",
     "weight": 8
@@ -34960,7 +34966,7 @@
         "recipe": {
           "id": "1addaa4932cb",
           "facilities": [
-            "Smithing Anvil"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -34991,7 +34997,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Armour Bench"
     ],
     "wikiLink": "Zamorak_Robe_Legs",
     "weight": 6
@@ -35655,7 +35661,7 @@
         "recipe": {
           "id": "ee74a3984515",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -35682,7 +35688,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Black_Shield",
     "weight": 10,
@@ -38202,7 +38208,7 @@
         "recipe": {
           "id": "960c3950faa4",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -38227,7 +38233,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Oak_Rod",
     "weight": 1.5
@@ -38245,7 +38251,7 @@
         "recipe": {
           "id": "5b0a75ccc9d3",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -38270,7 +38276,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Willow_Rod",
     "weight": 1.5
@@ -38288,7 +38294,7 @@
         "recipe": {
           "id": "a22efa9c05b5",
           "facilities": [
-            "Smithing Anvil"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -38313,7 +38319,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Smithing Anvil"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Maple_Rod",
     "weight": 1.5
@@ -43129,16 +43135,33 @@
     "image": "Armour Bench.png",
     "variants": [
       {
-        "id": "be865d214a0e",
+        "id": "4297c1b74a02",
         "name": "Armour Bench",
         "image": "Armour Bench.png",
         "variantName": null,
         "recipe": {
-          "id": "a62dfc4dbde4",
+          "id": "8aab94c42a9d",
           "facilities": [
             "Build Menu"
           ],
-          "materials": [],
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 20
+            },
+            {
+              "itemId": "c1117f9270a0",
+              "quantity": 6
+            },
+            {
+              "itemId": "31bf063bedfe",
+              "quantity": 8
+            },
+            {
+              "itemId": "2cb47baaee19",
+              "quantity": 1
+            }
+          ],
           "quantity": 1
         },
         "usesRecipe": null
@@ -43151,6 +43174,101 @@
       "Build Menu"
     ],
     "wikiLink": "Armour_Bench"
+  },
+  {
+    "id": "75055fbb9316",
+    "name": "Mystic Forge",
+    "image": "Mystic Forge.png",
+    "variants": [
+      {
+        "id": "d4baf8e24514",
+        "name": "Mystic Forge",
+        "image": "Mystic Forge.png",
+        "variantName": null,
+        "recipe": {
+          "id": "901596bbfdb9",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 20
+            },
+            {
+              "itemId": "c1117f9270a0",
+              "quantity": 6
+            },
+            {
+              "itemId": "31bf063bedfe",
+              "quantity": 8
+            },
+            {
+              "itemId": "2cb47baaee19",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Mystic_Forge"
+  },
+  {
+    "id": "d14fa54a25c5",
+    "name": "Desert Robes",
+    "image": "Desert Robes.png",
+    "variants": [
+      {
+        "id": "7195d4f93896",
+        "name": "Desert Robes",
+        "image": "Desert Robes.png",
+        "variantName": null,
+        "recipe": {
+          "id": "dd2cdd560eae",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 12
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 3
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 3
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Sun-Bleached Leggings"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Desert_Robes",
+    "weight": 8
   },
   {
     "id": "9ac3057ca866",
@@ -43194,12 +43312,12 @@
     "image": "Kalphite Shell.png",
     "variants": [
       {
-        "id": "d40c917b1ed5",
+        "id": "0280d62f3d8e",
         "name": "Kalphite Shell",
         "image": "Kalphite Shell.png",
         "variantName": null,
         "recipe": {
-          "id": "18ac77dbcdbe",
+          "id": "6ca43bb41e45",
           "facilities": [
             "Tannery"
           ],
@@ -43213,7 +43331,7 @@
               "quantity": 3
             }
           ],
-          "quantity": 2
+          "quantity": 1
         },
         "usesRecipe": null
       }
@@ -44520,7 +44638,8 @@
         "recipe": {
           "id": "82aa869bbf99",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -44537,10 +44656,12 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Monkfish_Fillets",
     "weight": 1,
+    "health": 60,
     "stackLimit": 99
   },
   {
@@ -44618,6 +44739,41 @@
     "wikiLink": "Yew_Plank",
     "weight": 0.8,
     "stackLimit": 99
+  },
+  {
+    "id": "a5652385f07e",
+    "name": "Ground Tea Leaves",
+    "image": "Ground Tea Leaves.png",
+    "variants": [
+      {
+        "id": "8f2a6adcf7cc",
+        "name": "Ground Tea Leaves",
+        "image": "Ground Tea Leaves.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1e78c022b93c",
+          "facilities": [
+            "Grindstone"
+          ],
+          "materials": [
+            {
+              "itemId": "e06e03b5160e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Grindstone"
+    ],
+    "wikiLink": "Ground_Tea_Leaves",
+    "weight": 0
   },
   {
     "id": "27358a6966d4",
@@ -45188,6 +45344,57 @@
     "stackLimit": 99
   },
   {
+    "id": "b05f833ad81c",
+    "name": "Pharaoh's Sceptre",
+    "image": "Pharaoh's Sceptre.png",
+    "variants": [
+      {
+        "id": "5ac0d0fe7390",
+        "name": "Pharaoh's Sceptre",
+        "image": "Pharaoh's Sceptre.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5962a9922924",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "888dae826aaa",
+              "quantity": 4
+            },
+            {
+              "itemId": "4338f5798748",
+              "quantity": 10
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 4
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 10
+            },
+            {
+              "itemId": "387cedd28bda",
+              "quantity": 32
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Mystic Forge"
+    ],
+    "wikiLink": "Pharaoh's_Sceptre",
+    "weight": 15
+  },
+  {
     "id": "bee0607cf14b",
     "name": "Advanced Tannery",
     "image": "Advanced Tannery.png",
@@ -45228,6 +45435,1903 @@
       "Build Menu"
     ],
     "wikiLink": "Advanced_Tannery"
+  },
+  {
+    "id": "33b681e13df5",
+    "name": "Yew Longbow",
+    "image": "Yew Longbow.png",
+    "variants": [
+      {
+        "id": "39d4f8c5fda4",
+        "name": "Yew Longbow",
+        "image": "Yew Longbow.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4905aba325d3",
+          "facilities": [
+            "Fletching Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "75f4482e4de5",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Yew_Longbow",
+    "weight": 0
+  },
+  {
+    "id": "4a3b36bf8ff3",
+    "name": "Yew Shortbow",
+    "image": "Yew Shortbow.png",
+    "variants": [
+      {
+        "id": "81ad00c4c353",
+        "name": "Yew Shortbow",
+        "image": "Yew Shortbow.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f58690e79bf3",
+          "facilities": [
+            "Fletching Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "75f4482e4de5",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Yew_Shortbow",
+    "weight": 0
+  },
+  {
+    "id": "0b02dc4db389",
+    "name": "Bow of Elidinis",
+    "image": "Bow of Elidinis.png",
+    "variants": [
+      {
+        "id": "b9fe6c1b2869",
+        "name": "Bow of Elidinis",
+        "image": "Bow of Elidinis.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a9cadd8da2c",
+          "facilities": [
+            "Fletching Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "9e1cedfc6c7e",
+              "quantity": 8
+            },
+            {
+              "itemId": "888dae826aaa",
+              "quantity": 4
+            },
+            {
+              "itemId": "4338f5798748",
+              "quantity": 12
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 4
+            },
+            {
+              "itemId": "9788d67f4f47",
+              "quantity": 12
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Bow_of_Elidinis",
+    "weight": 15
+  },
+  {
+    "id": "adee36b5ab28",
+    "name": "Toktz-Mej-Tal",
+    "image": "Toktz-Mej-Tal.png",
+    "variants": [
+      {
+        "id": "328402db6a2d",
+        "name": "Toktz-Mej-Tal",
+        "image": "Toktz-Mej-Tal.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a3d9064e26ed",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "888dae826aaa",
+              "quantity": 4
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 22
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Elongated Obsidian Construct"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Mystic Forge"
+    ],
+    "wikiLink": "Toktz-Mej-Tal",
+    "weight": 15
+  },
+  {
+    "id": "cf0c0bc3d037",
+    "name": "Red Dragonhide Leather",
+    "image": "Red Dragonhide Leather.png",
+    "variants": [
+      {
+        "id": "c5fed7bb340d",
+        "name": "Red Dragonhide Leather",
+        "image": "Red Dragonhide Leather.png",
+        "variantName": null,
+        "recipe": {
+          "id": "66224a6767a7",
+          "facilities": [
+            "Tannery"
+          ],
+          "materials": [
+            {
+              "itemId": "6199a176ff0d",
+              "quantity": 1
+            }
+          ],
+          "quantity": 2
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Tannery"
+    ],
+    "wikiLink": "Red_Dragonhide_Leather",
+    "weight": 0.6,
+    "stackLimit": 99
+  },
+  {
+    "id": "8d9e9f38bdd1",
+    "name": "Red Dragon Chest",
+    "image": "Red Dragon Chest.png",
+    "variants": [
+      {
+        "id": "8e6a5763703f",
+        "name": "Red Dragon Chest",
+        "image": "Red Dragon Chest.png",
+        "variantName": null,
+        "recipe": {
+          "id": "79424fa7eac5",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 4
+            },
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 6
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 3
+            },
+            {
+              "itemId": "cf0c0bc3d037",
+              "quantity": 12
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 3
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Red_Dragon_Chest",
+    "weight": 12
+  },
+  {
+    "id": "dbca3f3f8231",
+    "name": "Red Dragon Helmet",
+    "image": "Red Dragon Helmet.png",
+    "variants": [
+      {
+        "id": "6733e650b2fb",
+        "name": "Red Dragon Helmet",
+        "image": "Red Dragon Helmet.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b4758d93bc6e",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            },
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 2
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 1
+            },
+            {
+              "itemId": "cf0c0bc3d037",
+              "quantity": 4
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 1
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Red_Dragon_Helmet",
+    "weight": 6
+  },
+  {
+    "id": "0b697ef924a3",
+    "name": "Red Dragon Legs",
+    "image": "Red Dragon Legs.png",
+    "variants": [
+      {
+        "id": "8f154e081873",
+        "name": "Red Dragon Legs",
+        "image": "Red Dragon Legs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b4dc26e1d48a",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 2
+            },
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 4
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 2
+            },
+            {
+              "itemId": "cf0c0bc3d037",
+              "quantity": 6
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 2
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Red_Dragon_Legs",
+    "weight": 9
+  },
+  {
+    "id": "d6d15e4269c7",
+    "name": "Beltfish Broth",
+    "image": "Beltfish Broth.png",
+    "variants": [
+      {
+        "id": "245a8384242a",
+        "name": "Beltfish Broth",
+        "image": "Beltfish Broth.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d3ad497caaa0",
+          "facilities": [
+            "Cooking Range"
+          ],
+          "materials": [
+            {
+              "itemId": "88798eba6ad6",
+              "quantity": 1
+            },
+            {
+              "itemId": "2b1f3f0b7afa",
+              "quantity": 1
+            },
+            {
+              "itemId": "d2fb864edd9a",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Beltfish_Broth",
+    "weight": 1.1,
+    "stackLimit": 99
+  },
+  {
+    "id": "7432ccb7ab9a",
+    "name": "Adamant Bolts",
+    "image": "Adamant Bolts.png",
+    "variants": [
+      {
+        "id": "9003af3fd457",
+        "name": "Adamant Bolts",
+        "image": "Adamant Bolts.png",
+        "variantName": null,
+        "recipe": {
+          "id": "378d761dc151",
+          "facilities": [
+            "Fletching Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            },
+            {
+              "itemId": "7ddc50d536fd",
+              "quantity": 1
+            }
+          ],
+          "quantity": 33
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Adamant_Bolts",
+    "weight": 0,
+    "stackLimit": 999
+  },
+  {
+    "id": "516b9c231aef",
+    "name": "Yew Rod",
+    "image": "Yew Rod.png",
+    "variants": [
+      {
+        "id": "062fcd18fe05",
+        "name": "Yew Rod",
+        "image": "Yew Rod.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d3ae5d7f23f9",
+          "facilities": [
+            "Blacksmith's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 1
+            },
+            {
+              "itemId": "9e1cedfc6c7e",
+              "quantity": 1
+            },
+            {
+              "itemId": "75f4482e4de5",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Yew_Rod",
+    "weight": 1.5
+  },
+  {
+    "id": "9ac8784e9e8c",
+    "name": "Desert Net",
+    "image": "Desert Net.png",
+    "variants": [
+      {
+        "id": "6626bf46cf5c",
+        "name": "Desert Net",
+        "image": "Desert Net.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a6089707056b",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "9e1cedfc6c7e",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Desert_Net",
+    "weight": 1
+  },
+  {
+    "id": "2485989378b3",
+    "name": "Imbuing Barrel",
+    "image": "Imbuing Barrel.png",
+    "variants": [
+      {
+        "id": "f717023d081f",
+        "name": "Imbuing Barrel",
+        "image": "Imbuing Barrel.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f4402d2cc673",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "9e1cedfc6c7e",
+              "quantity": 4
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 2
+            },
+            {
+              "itemId": "94649135f4eb",
+              "quantity": 4
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 16
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Imbuing_Barrel"
+  },
+  {
+    "id": "31299f210c73",
+    "name": "Super Focused Mining Potion",
+    "image": "Super Focused Mining Potion.png",
+    "variants": [
+      {
+        "id": "adc3f58c87ab",
+        "name": "Super Focused Mining Potion",
+        "image": "Super Focused Mining Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9a51fec8dd9d",
+          "facilities": [
+            "Imbuing Barrel"
+          ],
+          "materials": [
+            {
+              "itemId": "bdc2e4232ad6",
+              "quantity": 1
+            },
+            {
+              "itemId": "94649135f4eb",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Imbuing Barrel"
+    ],
+    "wikiLink": "Super_Focused_Mining_Potion",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "f28ad30db925",
+    "name": "Cooling Arcane Infusion",
+    "image": "Cooling Arcane Infusion.png",
+    "variants": [
+      {
+        "id": "9684c93c55cb",
+        "name": "Cooling Arcane Infusion",
+        "image": "Cooling Arcane Infusion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0842c4111b1a",
+          "facilities": [
+            "Cooking Range"
+          ],
+          "materials": [
+            {
+              "itemId": "3e0c3babe19d",
+              "quantity": 1
+            },
+            {
+              "itemId": "fa57fa3bd545",
+              "quantity": 1
+            },
+            {
+              "itemId": "aac9c06cd7a8",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Cooling_Arcane_Infusion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "460dd23706bc",
+    "name": "Cooling Evasive Infusion",
+    "image": "Cooling Evasive Infusion.png",
+    "variants": [
+      {
+        "id": "e076a1e99b4a",
+        "name": "Cooling Evasive Infusion",
+        "image": "Cooling Evasive Infusion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "485db90489f5",
+          "facilities": [
+            "Cooking Range"
+          ],
+          "materials": [
+            {
+              "itemId": "fa57fa3bd545",
+              "quantity": 1
+            },
+            {
+              "itemId": "04891907bf66",
+              "quantity": 1
+            },
+            {
+              "itemId": "e46d49c9e677",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Cooling_Evasive_Infusion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "96c305ad3967",
+    "name": "TOKTZ-XIL-AK",
+    "image": "TOKTZ-XIL-AK.png",
+    "variants": [
+      {
+        "id": "de996e1f560d",
+        "name": "TOKTZ-XIL-AK",
+        "image": "TOKTZ-XIL-AK.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2f4dee0b1f8e",
+          "facilities": [
+            "Blacksmith's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "9e1cedfc6c7e",
+              "quantity": 3
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 10
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 5
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Shattered Black Blade (Umbral Sands)"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "TOKTZ-XIL-AK"
+  },
+  {
+    "id": "564fc7c4d33a",
+    "name": "Cooling Ferocious Infusion",
+    "image": "Cooling Ferocious Infusion.png",
+    "variants": [
+      {
+        "id": "574b35dca4ad",
+        "name": "Cooling Ferocious Infusion",
+        "image": "Cooling Ferocious Infusion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "dbbd5bd90cfa",
+          "facilities": [
+            "Cooking Range"
+          ],
+          "materials": [
+            {
+              "itemId": "fa57fa3bd545",
+              "quantity": 1
+            },
+            {
+              "itemId": "406c61105dff",
+              "quantity": 1
+            },
+            {
+              "itemId": "aac9c06cd7a8",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Cooling_Ferocious_Infusion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "3aa4b82f90fd",
+    "name": "Cooling Fleet-Footed Infusion",
+    "image": "Cooling Fleet-Footed Infusion.png",
+    "variants": [
+      {
+        "id": "dac1c4c1b777",
+        "name": "Cooling Fleet-Footed Infusion",
+        "image": "Cooling Fleet-Footed Infusion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "457afec45238",
+          "facilities": [
+            "Cooking Range"
+          ],
+          "materials": [
+            {
+              "itemId": "fa57fa3bd545",
+              "quantity": 1
+            },
+            {
+              "itemId": "cc278ed65b2d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e46d49c9e677",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Cooling_Fleet-Footed_Infusion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "f3ad3e615055",
+    "name": "Cooling Relentless Infusion",
+    "image": "Cooling Relentless  Infusion.png",
+    "variants": [
+      {
+        "id": "8f15a5dc4b9f",
+        "name": "Cooling Relentless Infusion",
+        "image": "Cooling Relentless  Infusion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a701aebf4f36",
+          "facilities": [
+            "Cooking Range"
+          ],
+          "materials": [
+            {
+              "itemId": "fa57fa3bd545",
+              "quantity": 1
+            },
+            {
+              "itemId": "8a502ccc0bf5",
+              "quantity": 1
+            },
+            {
+              "itemId": "aac9c06cd7a8",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Cooling_Relentless_Infusion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "4f6f0ed4cc64",
+    "name": "Obsidian Helmet",
+    "image": "Obsidian Helmet.png",
+    "variants": [
+      {
+        "id": "b74306ab701a",
+        "name": "Obsidian Helmet",
+        "image": "Obsidian Helmet.png",
+        "variantName": null,
+        "recipe": {
+          "id": "86bc66487835",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 10
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Obsidian_Helmet",
+    "weight": 8
+  },
+  {
+    "id": "d6e2a3a6cd16",
+    "name": "Obsidian Chest",
+    "image": "Obsidian Chest.png",
+    "variants": [
+      {
+        "id": "51abcc73d5d2",
+        "name": "Obsidian Chest",
+        "image": "Obsidian Chest.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4719abaaad07",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 18
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 14
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Obsidian_Chest",
+    "weight": 16
+  },
+  {
+    "id": "0f4599bdffe0",
+    "name": "Obsidian Legs",
+    "image": "Obsidian Legs.png",
+    "variants": [
+      {
+        "id": "0ace6934e089",
+        "name": "Obsidian Legs",
+        "image": "Obsidian Legs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "abcae9e8cfaa",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 14
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 10
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Obsidian_Legs",
+    "weight": 12
+  },
+  {
+    "id": "d2fb864edd9a",
+    "name": "Steamed Beltfish",
+    "image": "Steamed Beltfish.png",
+    "variants": [
+      {
+        "id": "9253118ee3a4",
+        "name": "Steamed Beltfish",
+        "image": "Steamed Beltfish.png",
+        "variantName": null,
+        "recipe": {
+          "id": "96d7fda8dc2a",
+          "facilities": [
+            "Campfire",
+            "Grill"
+          ],
+          "materials": [
+            {
+              "itemId": "ca920f9dc229",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Steamed_Beltfish",
+    "weight": 1,
+    "health": 100,
+    "stackLimit": 50
+  },
+  {
+    "id": "b6efdda7ce2b",
+    "name": "Pristine Beltfish Trophy",
+    "image": "Pristine Beltfish Trophy.png",
+    "variants": [
+      {
+        "id": "8293d06244b6",
+        "name": "Pristine Beltfish Trophy",
+        "image": "Pristine Beltfish Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "dab9884d0bde",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "1101aadad529",
+              "quantity": 2
+            },
+            {
+              "itemId": "78a99ce92613",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pristine_Beltfish_Trophy"
+  },
+  {
+    "id": "92087f8ac8d6",
+    "name": "Pristine Monkfish Trophy",
+    "image": "Pristine Monkfish  Trophy.png",
+    "variants": [
+      {
+        "id": "bfb20f2b93b1",
+        "name": "Pristine Monkfish Trophy",
+        "image": "Pristine Monkfish  Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "70bd283604f1",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "1101aadad529",
+              "quantity": 2
+            },
+            {
+              "itemId": "e7a8eaf3e2ea",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pristine_Monkfish_Trophy"
+  },
+  {
+    "id": "74257c828239",
+    "name": "Pristine Desert Sole Trophy",
+    "image": "Pristine Desert Sole Trophy.png",
+    "variants": [
+      {
+        "id": "1e966b8cfe81",
+        "name": "Pristine Desert Sole Trophy",
+        "image": "Pristine Desert Sole Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d643c3b35d05",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "1101aadad529",
+              "quantity": 2
+            },
+            {
+              "itemId": "4f9633c3f45d",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Pristine_Desert_Sole_Trophy"
+  },
+  {
+    "id": "a52af5959ae2",
+    "name": "Sun Baked Sole",
+    "image": "Sun Baked Sole.png",
+    "variants": [
+      {
+        "id": "4be9a8c37559",
+        "name": "Sun Baked Sole",
+        "image": "Sun Baked Sole.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ddc019fb0310",
+          "facilities": [
+            "Campfire",
+            "Grill"
+          ],
+          "materials": [
+            {
+              "itemId": "0fc8e13cca63",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Sun_Baked_Sole",
+    "weight": 1,
+    "health": 130,
+    "stackLimit": 50
+  },
+  {
+    "id": "a5efec371949",
+    "name": "Swabbie Pie",
+    "image": "Swabbie Pie.png",
+    "variants": [
+      {
+        "id": "7b678e37b20c",
+        "name": "Swabbie Pie",
+        "image": "Swabbie Pie.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6b7a18a83b46",
+          "facilities": [
+            "Cooking Range"
+          ],
+          "materials": [
+            {
+              "itemId": "2429b3a1919d",
+              "quantity": 1
+            },
+            {
+              "itemId": "e882154bb2ef",
+              "quantity": 1
+            },
+            {
+              "itemId": "d2fb864edd9a",
+              "quantity": 1
+            },
+            {
+              "itemId": "a52af5959ae2",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Swabbie_Pie",
+    "weight": 1.5,
+    "health": 220,
+    "stackLimit": 99
+  },
+  {
+    "id": "4a4ab02de5ba",
+    "name": "Umbral Kebab",
+    "image": "Umbral Kebab.png",
+    "variants": [
+      {
+        "id": "8d075d7abb76",
+        "name": "Umbral Kebab",
+        "image": "Umbral Kebab.png",
+        "variantName": null,
+        "recipe": {
+          "id": "18268ebb2ac6",
+          "facilities": [
+            "Cooking Range"
+          ],
+          "materials": [
+            {
+              "itemId": "e882154bb2ef",
+              "quantity": 1
+            },
+            {
+              "itemId": "78aa61fac52a",
+              "quantity": 1
+            },
+            {
+              "itemId": "c1986755bae1",
+              "quantity": 1
+            },
+            {
+              "itemId": "1df249fb3a6c",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Umbral_Kebab",
+    "weight": 1.2,
+    "health": 80,
+    "stackLimit": 99
+  },
+  {
+    "id": "1809ba1f4e4e",
+    "name": "Strong Sweet Tea",
+    "image": "Strong Sweet Tea.png",
+    "variants": [
+      {
+        "id": "29582e13831a",
+        "name": "Strong Sweet Tea",
+        "image": "Strong Sweet Tea.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ca8fd22a89ce",
+          "facilities": [
+            "Cooking Range"
+          ],
+          "materials": [
+            {
+              "itemId": "cb9dc221c0f0",
+              "quantity": 3
+            },
+            {
+              "itemId": "a5652385f07e",
+              "quantity": 1
+            },
+            {
+              "itemId": "cb4ae20444fa",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Strong_Sweet_Tea",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "ca553335d833",
+    "name": "Strong Tea",
+    "image": "Strong Tea.png",
+    "variants": [
+      {
+        "id": "124e13e86307",
+        "name": "Strong Tea",
+        "image": "Strong Tea.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4b032ab0c5f5",
+          "facilities": [
+            "Cooking Range"
+          ],
+          "materials": [
+            {
+              "itemId": "cb9dc221c0f0",
+              "quantity": 3
+            },
+            {
+              "itemId": "a5652385f07e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Range"
+    ],
+    "wikiLink": "Strong_Tea",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
+    "id": "e06e03b5160e",
+    "name": "Dried Tea Leaves",
+    "image": "Dried Tea Leaves.png",
+    "variants": [
+      {
+        "id": "9258f3f28cec",
+        "name": "Dried Tea Leaves",
+        "image": "Dried Tea Leaves.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5e4ddad9e0a9",
+          "facilities": [
+            "Kiln"
+          ],
+          "materials": [
+            {
+              "itemId": "b9a80a2ee12e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Kiln"
+    ],
+    "wikiLink": "Dried_Tea_Leaves",
+    "weight": 0
+  },
+  {
+    "id": "c543256aa8f2",
+    "name": "Keris",
+    "image": "Keris.png",
+    "variants": [
+      {
+        "id": "53c1c20d77a7",
+        "name": "Keris",
+        "image": "Keris.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9f985c6f3252",
+          "facilities": [
+            "Blacksmith's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "7f7142fb8b46",
+              "quantity": 8
+            },
+            {
+              "itemId": "9e1cedfc6c7e",
+              "quantity": 3
+            },
+            {
+              "itemId": "406c61105dff",
+              "quantity": 6
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Keris"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Keris",
+    "weight": 5,
+    "stackLimit": 1
+  },
+  {
+    "id": "149715acf579",
+    "name": "Obsidian Cape",
+    "image": "Obsidian Cape.png",
+    "variants": [
+      {
+        "id": "2fc7853167bf",
+        "name": "Obsidian Cape",
+        "image": "Obsidian Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "bd3d5360665a",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Plate of Pure Obsidian"
+        ]
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Obsidian_Cape",
+    "weight": 0
+  },
+  {
+    "id": "eec3860be583",
+    "name": "Desert Robe Legs",
+    "image": "Desert Robe Legs.png",
+    "variants": [
+      {
+        "id": "5ab98e5071fa",
+        "name": "Desert Robe Legs",
+        "image": "Desert Robe Legs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f1b68d4b3f7d",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 8
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 2
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 2
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Sun-Bleached Leggings"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Desert_Robe_Legs",
+    "weight": 6
+  },
+  {
+    "id": "e5b859d541b7",
+    "name": "Black Desert Cape",
+    "image": "Black Desert Cape.png",
+    "variants": [
+      {
+        "id": "2f010d81b549",
+        "name": "Black Desert Cape",
+        "image": "Black Desert Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "151bef5a5a6b",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Black Memory of Menaphos"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Black_Desert_Cape",
+    "weight": 0
+  },
+  {
+    "id": "4dcfad51b946",
+    "name": "Blue Desert Cape",
+    "image": "Blue Desert Cape.png",
+    "variants": [
+      {
+        "id": "a1fb34887b6e",
+        "name": "Blue Desert Cape",
+        "image": "Blue Desert Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "da5d87983591",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Blue Memory of Menaphos"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Blue_Desert_Cape",
+    "weight": 0
+  },
+  {
+    "id": "30a5596c6618",
+    "name": "Green Desert Cape",
+    "image": "Green Desert Cape.png",
+    "variants": [
+      {
+        "id": "548674b24284",
+        "name": "Green Desert Cape",
+        "image": "Green Desert Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7bd11b9e76cf",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Green Memory of Menaphos"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Green_Desert_Cape",
+    "weight": 0
+  },
+  {
+    "id": "3a884192dd66",
+    "name": "Orange Desert Cape",
+    "image": "Orange Desert Cape.png",
+    "variants": [
+      {
+        "id": "3742583d5b83",
+        "name": "Orange Desert Cape",
+        "image": "Orange Desert Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fa72f2d4ddc7",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Orange Memory of Menaphos"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Orange_Desert_Cape",
+    "weight": 0
+  },
+  {
+    "id": "0d03d7adda8d",
+    "name": "Pink Desert Cape",
+    "image": "Pink Desert Cape.png",
+    "variants": [
+      {
+        "id": "a76569b18d73",
+        "name": "Pink Desert Cape",
+        "image": "Pink Desert Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "dc88b3878a8d",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Pink Memory of Menaphos"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Pink_Desert_Cape",
+    "weight": 0
+  },
+  {
+    "id": "a2b653b440d6",
+    "name": "Purple Desert Cape",
+    "image": "Purple Desert Cape.png",
+    "variants": [
+      {
+        "id": "d90ff94998af",
+        "name": "Purple Desert Cape",
+        "image": "Purple Desert Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "25ddf55e7bf9",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Purple Memory of Menaphos"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Purple_Desert_Cape",
+    "weight": 0
+  },
+  {
+    "id": "9af6342ecb8a",
+    "name": "Red Desert Cape",
+    "image": "Red Desert Cape.png",
+    "variants": [
+      {
+        "id": "9cfb8b5dad3d",
+        "name": "Red Desert Cape",
+        "image": "Red Desert Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6a1ec0981a05",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Red Memory of Menaphos"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Red_Desert_Cape",
+    "weight": 0
+  },
+  {
+    "id": "862455f80356",
+    "name": "White Desert Cape",
+    "image": "White Desert Cape.png",
+    "variants": [
+      {
+        "id": "b53bcf4e9cad",
+        "name": "White Desert Cape",
+        "image": "White Desert Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0dffe0946131",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "White Memory of Menaphos"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "White_Desert_Cape",
+    "weight": 0
+  },
+  {
+    "id": "d742ab0906c6",
+    "name": "Yellow Desert Cape",
+    "image": "Yellow Desert Cape.png",
+    "variants": [
+      {
+        "id": "e9774662c652",
+        "name": "Yellow Desert Cape",
+        "image": "Yellow Desert Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "da318336dc6c",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Yellow Memory of Menaphos"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Yellow_Desert_Cape",
+    "weight": 0
+  },
+  {
+    "id": "24471f82130e",
+    "name": "Kalphite Carapace Chest",
+    "image": "Kalphite Carapace Chest.png",
+    "variants": [
+      {
+        "id": "08ae118436e2",
+        "name": "Kalphite Carapace Chest",
+        "image": "Kalphite Carapace Chest.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a9d6e16ab434",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Kalphite_Carapace_Chest",
+    "weight": 12
+  },
+  {
+    "id": "56bf616057d1",
+    "name": "Desert Hood",
+    "image": "Desert Hood.png",
+    "variants": [
+      {
+        "id": "13780add223c",
+        "name": "Desert Hood",
+        "image": "Desert Hood.png",
+        "variantName": null,
+        "recipe": {
+          "id": "cd8712731fc5",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 4
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 1
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 1
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Sun-Bleached Head Wrap"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Desert_Hood",
+    "weight": 4
   },
   {
     "id": "6a5fa59fd28f",
@@ -54258,26 +56362,6 @@
     "stackLimit": 10
   },
   {
-    "id": "c960466f7e2c",
-    "name": "Red Dragonhide Armour",
-    "image": "[[File:Red Dragonhide Armour.png]]",
-    "variants": [
-      {
-        "id": "c960466f7e2c",
-        "name": "Red Dragonhide Armour",
-        "image": "[[File:Red Dragonhide Armour.png]]",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Red_Dragonhide_Armour",
-    "weight": 0,
-    "stackLimit": 0
-  },
-  {
     "id": "c22fceaec8f4",
     "name": "Scarecrow's Key",
     "image": "Scarecrow's Key.png",
@@ -54698,25 +56782,6 @@
     "stackLimit": 99
   },
   {
-    "id": "a5652385f07e",
-    "name": "Ground Tea Leaves",
-    "image": "Ground Tea Leaves.png",
-    "variants": [
-      {
-        "id": "a5652385f07e",
-        "name": "Ground Tea Leaves",
-        "image": "Ground Tea Leaves.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Ground_Tea_Leaves",
-    "weight": 0
-  },
-  {
     "id": "b9a80a2ee12e",
     "name": "Tea Leaves",
     "image": "Tea Leaves.png",
@@ -54834,25 +56899,6 @@
     "weight": 0
   },
   {
-    "id": "b05f833ad81c",
-    "name": "Pharaoh's Sceptre",
-    "image": "Pharaoh's Sceptre.png",
-    "variants": [
-      {
-        "id": "b05f833ad81c",
-        "name": "Pharaoh's Sceptre",
-        "image": "Pharaoh's Sceptre.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Pharaoh's_Sceptre",
-    "weight": 15
-  },
-  {
     "id": "2f3b0f76d9bc",
     "name": "Raw Monkfish",
     "image": "Raw Monkfish.png",
@@ -54871,5 +56917,385 @@
     "wikiLink": "Raw_Monkfish",
     "weight": 2.5,
     "stackLimit": 99
+  },
+  {
+    "id": "68e69dfa33c9",
+    "name": "Elongated Obsidian Construct",
+    "image": "Elongated Obsidian Construct.png",
+    "variants": [
+      {
+        "id": "68e69dfa33c9",
+        "name": "Elongated Obsidian Construct",
+        "image": "Elongated Obsidian Construct.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Elongated_Obsidian_Construct",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "6199a176ff0d",
+    "name": "Red Dragon Hide",
+    "image": "Red Dragon Hide.png",
+    "variants": [
+      {
+        "id": "6199a176ff0d",
+        "name": "Red Dragon Hide",
+        "image": "Red Dragon Hide.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Red_Dragon_Hide",
+    "weight": 1.2,
+    "stackLimit": 99
+  },
+  {
+    "id": "fa57fa3bd545",
+    "name": "Cactus Water",
+    "image": "Cactus Water.png",
+    "variants": [
+      {
+        "id": "fa57fa3bd545",
+        "name": "Cactus Water",
+        "image": "Cactus Water.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Cactus_Water",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "ca920f9dc229",
+    "name": "Raw Beltfish",
+    "image": "Raw Beltfish.png",
+    "variants": [
+      {
+        "id": "ca920f9dc229",
+        "name": "Raw Beltfish",
+        "image": "Raw Beltfish.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Beltfish",
+    "weight": 2.5,
+    "stackLimit": 99
+  },
+  {
+    "id": "78a99ce92613",
+    "name": "Pristine Beltfish",
+    "image": "Pristine Beltfish.png",
+    "variants": [
+      {
+        "id": "78a99ce92613",
+        "name": "Pristine Beltfish",
+        "image": "Pristine Beltfish.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pristine_Beltfish",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "0fc8e13cca63",
+    "name": "Raw Desert Sole",
+    "image": "Raw Desert Sole.png",
+    "variants": [
+      {
+        "id": "0fc8e13cca63",
+        "name": "Raw Desert Sole",
+        "image": "Raw Desert Sole.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Raw_Desert_Sole",
+    "weight": 2.5,
+    "stackLimit": 99
+  },
+  {
+    "id": "4f9633c3f45d",
+    "name": "Pristine Desert Sole",
+    "image": "Pristine Desert Sole.png",
+    "variants": [
+      {
+        "id": "4f9633c3f45d",
+        "name": "Pristine Desert Sole",
+        "image": "Pristine Desert Sole.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pristine_Desert_Sole",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "e7a8eaf3e2ea",
+    "name": "Pristine Monkfish",
+    "image": "Pristine Monkfish.png",
+    "variants": [
+      {
+        "id": "e7a8eaf3e2ea",
+        "name": "Pristine Monkfish",
+        "image": "Pristine Monkfish.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pristine_Monkfish",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "ca82c301e8d5",
+    "name": "Plate of Pure Obsidian",
+    "image": "Plate of Pure Obsidian.png",
+    "variants": [
+      {
+        "id": "ca82c301e8d5",
+        "name": "Plate of Pure Obsidian",
+        "image": "Plate of Pure Obsidian.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Plate_of_Pure_Obsidian",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "b8d41fdde3f0",
+    "name": "Black Memory of Menaphos",
+    "image": "Black Memory of Menaphos.png",
+    "variants": [
+      {
+        "id": "b8d41fdde3f0",
+        "name": "Black Memory of Menaphos",
+        "image": "Black Memory of Menaphos.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Black_Memory_of_Menaphos",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "4e532f3666e3",
+    "name": "Blue Memory of Menaphos",
+    "image": "Blue Memory of Menaphos.png",
+    "variants": [
+      {
+        "id": "4e532f3666e3",
+        "name": "Blue Memory of Menaphos",
+        "image": "Blue Memory of Menaphos.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Blue_Memory_of_Menaphos",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "5861ac41515d",
+    "name": "Green Memory of Menaphos",
+    "image": "Green Memory of Menaphos.png",
+    "variants": [
+      {
+        "id": "5861ac41515d",
+        "name": "Green Memory of Menaphos",
+        "image": "Green Memory of Menaphos.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Green_Memory_of_Menaphos",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "af240dba4cc1",
+    "name": "Orange Memory of Menaphos",
+    "image": "Orange Memory of Menaphos.png",
+    "variants": [
+      {
+        "id": "af240dba4cc1",
+        "name": "Orange Memory of Menaphos",
+        "image": "Orange Memory of Menaphos.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Orange_Memory_of_Menaphos",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "5905e579bedf",
+    "name": "Pink Memory of Menaphos",
+    "image": "Pink Memory of Menaphos.png",
+    "variants": [
+      {
+        "id": "5905e579bedf",
+        "name": "Pink Memory of Menaphos",
+        "image": "Pink Memory of Menaphos.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Pink_Memory_of_Menaphos",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "ac1b03573b4a",
+    "name": "Purple Memory of Menaphos",
+    "image": "Purple Memory of Menaphos.png",
+    "variants": [
+      {
+        "id": "ac1b03573b4a",
+        "name": "Purple Memory of Menaphos",
+        "image": "Purple Memory of Menaphos.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Purple_Memory_of_Menaphos",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "b529049a9fe9",
+    "name": "Red Memory of Menaphos",
+    "image": "Red Memory of Menaphos.png",
+    "variants": [
+      {
+        "id": "b529049a9fe9",
+        "name": "Red Memory of Menaphos",
+        "image": "Red Memory of Menaphos.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Red_Memory_of_Menaphos",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "84ed1c92be9b",
+    "name": "White Memory of Menaphos",
+    "image": "White Memory of Menaphos.png",
+    "variants": [
+      {
+        "id": "84ed1c92be9b",
+        "name": "White Memory of Menaphos",
+        "image": "White Memory of Menaphos.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "White_Memory_of_Menaphos",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "58f91433d224",
+    "name": "Yellow Memory of Menaphos",
+    "image": "Yellow Memory of Menaphos.png",
+    "variants": [
+      {
+        "id": "58f91433d224",
+        "name": "Yellow Memory of Menaphos",
+        "image": "Yellow Memory of Menaphos.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Yellow_Memory_of_Menaphos",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "2b6abb25b492",
+    "name": "Artifact Salvage",
+    "image": "Artifact  Salvage.png",
+    "variants": [
+      {
+        "id": "2b6abb25b492",
+        "name": "Artifact Salvage",
+        "image": "Artifact  Salvage.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Artifact_Salvage",
+    "weight": 0,
+    "stackLimit": 0
   }
 ]
