@@ -8,8 +8,9 @@ import { InputGroup, InputGroupInput } from "@/components/ui/input-group";
 
 import { type OwnedMaterialEntry } from "./buildOwnedMaterials";
 import { Button } from "@/components/ui/button";
-import { ArrowRightIcon, ArrowUpRight } from "lucide-react";
+import { ArrowRight, ArrowRightIcon, ArrowUpRight, Ellipsis, ExternalLink } from "lucide-react";
 import Link from "next/link";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 
 type Props = {
   entry: OwnedMaterialEntry;
@@ -61,23 +62,34 @@ export const OwnedMaterialRow = memo(function OwnedMaterialRow({
           className="shrink-0 size-6 ml-2"
         />
       )}
-      <Link href={`/item/${entry.itemId}`} className="flex items-center gap-1">
-        <Button variant="outline" size="icon-xs" className="px-1 py-0.5">
-          <ArrowRightIcon />
-        </Button>
-      </Link>
-      
-      {entry.wikiLink && (
-      <a
-        href={`https://dragonwilds.runescape.wiki/w/${encodeURIComponent(entry.wikiLink)}`}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Button variant="outline" size="icon-xs" className="px-1 py-0.5">
-            <ArrowUpRight />
-        </Button>
-        </a>
-      )}
+
+      <DropdownMenu>
+        <DropdownMenuTrigger asChild>
+          <Button size="icon" variant="outline" className="size-6 p-0">
+            <Ellipsis className="size-3.5" />
+            </Button>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent align="end" className="min-w-40">
+          <DropdownMenuItem asChild>
+            <a href={`/item/${entry.itemId}`}>
+              <ArrowRight className="size-4" />
+              View item
+            </a>
+          </DropdownMenuItem>
+          {entry.wikiLink && (
+            <DropdownMenuItem asChild>
+              <a
+                href={`https://dragonwilds.runescape.wiki/w/${encodeURIComponent(entry.wikiLink)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ExternalLink className="size-4" />
+                View on Wiki
+              </a>
+            </DropdownMenuItem>
+          )}
+        </DropdownMenuContent>
+      </DropdownMenu>
 
       <InputGroup className="w-12 h-6">
         <InputGroupInput
@@ -90,8 +102,11 @@ export const OwnedMaterialRow = memo(function OwnedMaterialRow({
           className="px-1 text-center"
         />
       </InputGroup>
+      <span className={`${isDone ? " line-through" : ""}`}>
+        of
+      </span>
       <span className={`font-semibold${isDone ? " line-through" : ""}`}>
-        / {entry.needed}×
+        {entry.needed}×
       </span>
       <span className={`flex-1${isDone ? " line-through" : ""}`}>
         {entry.name}
