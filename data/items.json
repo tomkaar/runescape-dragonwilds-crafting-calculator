@@ -86,48 +86,6 @@
     "wikiLink": "Wall"
   },
   {
-    "id": "d18e054c834f",
-    "name": "Cooking Pot",
-    "image": "Cooking Pot.png",
-    "variants": [
-      {
-        "id": "556d435da3aa",
-        "name": "Cooking Pot",
-        "image": "Cooking Pot.png",
-        "variantName": null,
-        "recipe": {
-          "id": "7007f28e6f32",
-          "facilities": [
-            "Build Menu"
-          ],
-          "materials": [
-            {
-              "itemId": "797f584aebcf",
-              "quantity": 3
-            },
-            {
-              "itemId": "15f83d07dd09",
-              "quantity": 8
-            },
-            {
-              "itemId": "6ffa6b8b1c9f",
-              "quantity": 12
-            }
-          ],
-          "quantity": 1
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Construction"
-    ],
-    "facilities": [
-      "Build Menu"
-    ],
-    "wikiLink": "Cooking_Pot"
-  },
-  {
     "id": "aeb29223319b",
     "name": "Crafting Table",
     "image": "Crafting Table.png",
@@ -812,50 +770,6 @@
       "Brewing Cauldron"
     ],
     "wikiLink": "Weak_Antipoison_Potion",
-    "weight": 1,
-    "stackLimit": 50
-  },
-  {
-    "id": "f066ef03e380",
-    "name": "Weak Healing Potion",
-    "image": "Weak Healing Potion.png",
-    "variants": [
-      {
-        "id": "4ab6dbd34c93",
-        "name": "Weak Healing Potion",
-        "image": "Weak Healing Potion.png",
-        "variantName": null,
-        "recipe": {
-          "id": "2fb6b760538e",
-          "facilities": [
-            "Brewing Cauldron"
-          ],
-          "materials": [
-            {
-              "itemId": "7922581c320e",
-              "quantity": 1
-            },
-            {
-              "itemId": "bc54ea66569d",
-              "quantity": 1
-            },
-            {
-              "itemId": "711fc213e603",
-              "quantity": 1
-            }
-          ],
-          "quantity": 1
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Artisan"
-    ],
-    "facilities": [
-      "Brewing Cauldron"
-    ],
-    "wikiLink": "Weak_Healing_Potion",
     "weight": 1,
     "stackLimit": 50
   },
@@ -1873,50 +1787,6 @@
     "weight": 10
   },
   {
-    "id": "f93cbe63a66a",
-    "name": "Large Wardstone",
-    "image": "Large Wardstone.png",
-    "variants": [
-      {
-        "id": "cdc109ff34b5",
-        "name": "Large Wardstone",
-        "image": "Large Wardstone.png",
-        "variantName": null,
-        "recipe": {
-          "id": "7bc1c1146a75",
-          "facilities": [
-            "Crafting Table"
-          ],
-          "materials": [
-            {
-              "itemId": "1a1409960a2b",
-              "quantity": 1
-            },
-            {
-              "itemId": "e5bbfdd1f5f6",
-              "quantity": 15
-            },
-            {
-              "itemId": "94649135f4eb",
-              "quantity": 1
-            }
-          ],
-          "quantity": 1
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Runecrafting"
-    ],
-    "facilities": [
-      "Crafting Table"
-    ],
-    "wikiLink": "Large_Wardstone",
-    "weight": 5,
-    "stackLimit": 25
-  },
-  {
     "id": "10d24c63de54",
     "name": "Tannery",
     "image": "Tannery.png",
@@ -2759,52 +2629,6 @@
     "wikiLink": "Wool_Thread",
     "weight": 0.3,
     "stackLimit": 99
-  },
-  {
-    "id": "0fb174b57827",
-    "name": "Smithing Anvil",
-    "image": "Smithing Anvil.png",
-    "variants": [
-      {
-        "id": "d702c19cb88c",
-        "name": "Smithing Anvil",
-        "image": "Smithing Anvil.png",
-        "variantName": null,
-        "recipe": {
-          "id": "097998510157",
-          "facilities": [
-            "Build Menu"
-          ],
-          "materials": [
-            {
-              "itemId": "15f83d07dd09",
-              "quantity": 20
-            },
-            {
-              "itemId": "c1117f9270a0",
-              "quantity": 6
-            },
-            {
-              "itemId": "31bf063bedfe",
-              "quantity": 8
-            },
-            {
-              "itemId": "2cb47baaee19",
-              "quantity": 1
-            }
-          ],
-          "quantity": 1
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Construction"
-    ],
-    "facilities": [
-      "Build Menu"
-    ],
-    "wikiLink": "Smithing_Anvil"
   },
   {
     "id": "734a9fa7b74a",
@@ -3936,50 +3760,6 @@
     "stackLimit": 50
   },
   {
-    "id": "53d81be3bab6",
-    "name": "Lesser Healing Potion",
-    "image": "Lesser Healing Potion.png",
-    "variants": [
-      {
-        "id": "52a3d94ea525",
-        "name": "Lesser Healing Potion",
-        "image": "Lesser Healing Potion.png",
-        "variantName": null,
-        "recipe": {
-          "id": "f59db39000aa",
-          "facilities": [
-            "Brewing Cauldron"
-          ],
-          "materials": [
-            {
-              "itemId": "7922581c320e",
-              "quantity": 1
-            },
-            {
-              "itemId": "4b3b28384d99",
-              "quantity": 2
-            },
-            {
-              "itemId": "e46d49c9e677",
-              "quantity": 1
-            }
-          ],
-          "quantity": 1
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Artisan"
-    ],
-    "facilities": [
-      "Brewing Cauldron"
-    ],
-    "wikiLink": "Lesser_Healing_Potion",
-    "weight": 1,
-    "stackLimit": 50
-  },
-  {
     "id": "1c875539a5a7",
     "name": "Furnace",
     "image": "Furnace.png",
@@ -4084,50 +3864,6 @@
     "wikiLink": "Gold_Bar",
     "weight": 5,
     "stackLimit": 99
-  },
-  {
-    "id": "1ff5e76a14a9",
-    "name": "Medium Wardstone",
-    "image": "Medium Wardstone.png",
-    "variants": [
-      {
-        "id": "b388aeb52458",
-        "name": "Medium Wardstone",
-        "image": "Medium Wardstone.png",
-        "variantName": null,
-        "recipe": {
-          "id": "e2b4f52a75ed",
-          "facilities": [
-            "Crafting Table"
-          ],
-          "materials": [
-            {
-              "itemId": "3e0c3babe19d",
-              "quantity": 2
-            },
-            {
-              "itemId": "e5bbfdd1f5f6",
-              "quantity": 10
-            },
-            {
-              "itemId": "9e51f828316a",
-              "quantity": 1
-            }
-          ],
-          "quantity": 1
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Runecrafting"
-    ],
-    "facilities": [
-      "Crafting Table"
-    ],
-    "wikiLink": "Medium_Wardstone",
-    "weight": 5,
-    "stackLimit": 25
   },
   {
     "id": "9e7b1dc0a230",
@@ -4470,6 +4206,71 @@
     "wikiLink": "Charcoal",
     "weight": 1,
     "stackLimit": 99
+  },
+  {
+    "id": "8dc7082e6ea1",
+    "name": "Redberry Crunchies",
+    "image": "Redberry Crunchies.png",
+    "variants": [
+      {
+        "id": "0b1a9f24a129",
+        "name": "Redberry Crunchies",
+        "image": "Redberry Crunchies.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d299b4e5c78f",
+          "facilities": [
+            "Cooking Pot"
+          ],
+          "materials": [
+            {
+              "itemId": "6d61374da4b4",
+              "quantity": 2
+            },
+            {
+              "itemId": "711fc213e603",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "0248f030e630",
+        "name": "Redberry Crunchies",
+        "image": "Redberry Crunchies.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a1f2a28a9ac6",
+          "facilities": [
+            "Cooking Pot"
+          ],
+          "materials": [
+            {
+              "itemId": "d37db9788605",
+              "quantity": 2
+            },
+            {
+              "itemId": "711fc213e603",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Cooking Pot"
+    ],
+    "wikiLink": "Redberry_Crunchies",
+    "weight": 0.6,
+    "health": 50,
+    "stackLimit": 50
   },
   {
     "id": "8c9652c33c61",
@@ -5010,46 +4811,6 @@
     ],
     "wikiLink": "Leather_Chaps",
     "weight": 9
-  },
-  {
-    "id": "774f9b915ef2",
-    "name": "Small Wardstone",
-    "image": "Small Wardstone.png",
-    "variants": [
-      {
-        "id": "d609c5e9fbbd",
-        "name": "Small Wardstone",
-        "image": "Small Wardstone.png",
-        "variantName": null,
-        "recipe": {
-          "id": "5bc71ca81744",
-          "facilities": [
-            "Crafting Table"
-          ],
-          "materials": [
-            {
-              "itemId": "e5bbfdd1f5f6",
-              "quantity": 5
-            },
-            {
-              "itemId": "6ffa6b8b1c9f",
-              "quantity": 1
-            }
-          ],
-          "quantity": 1
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Runecrafting"
-    ],
-    "facilities": [
-      "Crafting Table"
-    ],
-    "wikiLink": "Small_Wardstone",
-    "weight": 5,
-    "stackLimit": 25
   },
   {
     "id": "92c5689136c3",
@@ -27953,49 +27714,6 @@
     "wikiLink": "Super_Compost_Bin"
   },
   {
-    "id": "8dc7082e6ea1",
-    "name": "Redberry Crunchies",
-    "image": "Redberry Crunchies.png",
-    "variants": [
-      {
-        "id": "d393bc35ce16",
-        "name": "Redberry Crunchies",
-        "image": "Redberry Crunchies.png",
-        "variantName": null,
-        "recipe": {
-          "id": "2cf648c50c16",
-          "facilities": [
-            "Stone Range",
-            "Cooking Range"
-          ],
-          "materials": [
-            {
-              "itemId": "ea552b5a7378",
-              "quantity": 1
-            },
-            {
-              "itemId": "cca303e99f5f",
-              "quantity": 1
-            }
-          ],
-          "quantity": 1
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Cooking"
-    ],
-    "facilities": [
-      "Stone Range",
-      "Cooking Range"
-    ],
-    "wikiLink": "Redberry_Crunchies",
-    "weight": 1,
-    "health": 50,
-    "stackLimit": 50
-  },
-  {
     "id": "fd3350027502",
     "name": "Dwellberry Crunchies",
     "image": "Dwellberry Crunchies.png",
@@ -31362,50 +31080,6 @@
       "Build Menu"
     ],
     "wikiLink": "Grave_03"
-  },
-  {
-    "id": "66e790b90f03",
-    "name": "Healing Potion",
-    "image": "Healing Potion.png",
-    "variants": [
-      {
-        "id": "3e6cd77e1f27",
-        "name": "Healing Potion",
-        "image": "Healing Potion.png",
-        "variantName": null,
-        "recipe": {
-          "id": "1021c524bb52",
-          "facilities": [
-            "Brewing Cauldron"
-          ],
-          "materials": [
-            {
-              "itemId": "4b3b28384d99",
-              "quantity": 2
-            },
-            {
-              "itemId": "629a4abf66fd",
-              "quantity": 1
-            },
-            {
-              "itemId": "a61c2c747c0f",
-              "quantity": 1
-            }
-          ],
-          "quantity": 1
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Artisan"
-    ],
-    "facilities": [
-      "Brewing Cauldron"
-    ],
-    "wikiLink": "Healing_Potion",
-    "weight": 1,
-    "stackLimit": 50
   },
   {
     "id": "035b552de92e",
@@ -44665,46 +44339,6 @@
     "stackLimit": 99
   },
   {
-    "id": "80799d121607",
-    "name": "Adamant Bolt",
-    "image": "Adamant Bolt.png",
-    "variants": [
-      {
-        "id": "ae03cbbe31dc",
-        "name": "Adamant Bolt",
-        "image": "Adamant Bolt.png",
-        "variantName": null,
-        "recipe": {
-          "id": "a747132990cc",
-          "facilities": [
-            "Fletching Bench"
-          ],
-          "materials": [
-            {
-              "itemId": "7f7142fb8b46",
-              "quantity": 1
-            },
-            {
-              "itemId": "7ddc50d536fd",
-              "quantity": 1
-            }
-          ],
-          "quantity": 33
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Artisan"
-    ],
-    "facilities": [
-      "Fletching Bench"
-    ],
-    "wikiLink": "Adamant_Bolt",
-    "weight": 0,
-    "stackLimit": 999
-  },
-  {
     "id": "ac87b47c5ea7",
     "name": "Yew Plank",
     "image": "Yew Plank.png",
@@ -45442,19 +45076,35 @@
     "image": "Yew Longbow.png",
     "variants": [
       {
-        "id": "39d4f8c5fda4",
+        "id": "c04cfb6df5a9",
         "name": "Yew Longbow",
         "image": "Yew Longbow.png",
         "variantName": null,
         "recipe": {
-          "id": "4905aba325d3",
+          "id": "e9d7603097d1",
           "facilities": [
             "Fletching Bench"
           ],
           "materials": [
             {
+              "itemId": "7f7142fb8b46",
+              "quantity": 4
+            },
+            {
+              "itemId": "9e1cedfc6c7e",
+              "quantity": 8
+            },
+            {
+              "itemId": "888dae826aaa",
+              "quantity": 4
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 4
+            },
+            {
               "itemId": "75f4482e4de5",
-              "quantity": 1
+              "quantity": 16
             }
           ],
           "quantity": 1
@@ -45555,7 +45205,8 @@
       "Fletching Bench"
     ],
     "wikiLink": "Bow_of_Elidinis",
-    "weight": 15
+    "weight": 15,
+    "stackLimit": 1
   },
   {
     "id": "adee36b5ab28",
@@ -47334,6 +46985,568 @@
     "weight": 4
   },
   {
+    "id": "83fdfee87628",
+    "name": "Burnt Beltfish",
+    "image": "Burnt Beltfish.png",
+    "variants": [
+      {
+        "id": "8517a0972c49",
+        "name": "Burnt Beltfish",
+        "image": "Burnt Beltfish.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2843b5740257",
+          "facilities": [
+            "Campfire"
+          ],
+          "materials": [
+            {
+              "itemId": "ca920f9dc229",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
+    ],
+    "wikiLink": "Burnt_Beltfish",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "25e6bbb80751",
+    "name": "Burnt Desert Sole",
+    "image": "Burnt Desert Sole.png",
+    "variants": [
+      {
+        "id": "cafa31456b1b",
+        "name": "Burnt Desert Sole",
+        "image": "Burnt Desert Sole.png",
+        "variantName": null,
+        "recipe": {
+          "id": "593f37193c86",
+          "facilities": [
+            "Campfire"
+          ],
+          "materials": [
+            {
+              "itemId": "0fc8e13cca63",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
+    ],
+    "wikiLink": "Burnt_Desert_Sole",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "b4e98df1d922",
+    "name": "Zombie Arm",
+    "image": "Zombie Arm.png",
+    "variants": [
+      {
+        "id": "24b32bb40c9d",
+        "name": "Zombie Arm",
+        "image": "Zombie Arm.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4acedb32a2f7",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "797f584aebcf",
+              "quantity": 2
+            },
+            {
+              "itemId": "05893339befe",
+              "quantity": 2
+            },
+            {
+              "itemId": "04891907bf66",
+              "quantity": 3
+            },
+            {
+              "itemId": "740bef9b70ab",
+              "quantity": 2
+            },
+            {
+              "itemId": "9ca5b1c17952",
+              "quantity": 1
+            },
+            {
+              "itemId": "94649135f4eb",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Zombie Arm"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Zombie_Arm",
+    "weight": 15
+  },
+  {
+    "id": "87c38f42ad82",
+    "name": "Small Desert Vase",
+    "image": "Small Desert Vase.png",
+    "variants": [
+      {
+        "id": "dd9d45da284b",
+        "name": "Small Desert Vase",
+        "image": "Small Desert Vase.png",
+        "variantName": null,
+        "recipe": {
+          "id": "347e90c0b51f",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7922581c320e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Small_Desert_Vase"
+  },
+  {
+    "id": "748e59b99890",
+    "name": "Medium Desert Vase",
+    "image": "Medium Desert Vase.png",
+    "variants": [
+      {
+        "id": "df609ebadbc4",
+        "name": "Medium Desert Vase",
+        "image": "Medium Desert Vase.png",
+        "variantName": null,
+        "recipe": {
+          "id": "dca49b8fe11b",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7922581c320e",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Medium_Desert_Vase"
+  },
+  {
+    "id": "6b95c566da16",
+    "name": "Desert Vase Collection 02",
+    "image": "Desert Vase Collection 02.png",
+    "variants": [
+      {
+        "id": "2d6e3bef917f",
+        "name": "Desert Vase Collection 02",
+        "image": "Desert Vase Collection 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "038e8d9493ac",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7922581c320e",
+              "quantity": 10
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Desert_Vase_Collection_02"
+  },
+  {
+    "id": "52c04e627f3f",
+    "name": "Rolled Moon Garou Carpet 01",
+    "image": "Rolled Moon Garou Carpet 01.png",
+    "variants": [
+      {
+        "id": "71a3fb53b55c",
+        "name": "Rolled Moon Garou Carpet 01",
+        "image": "Rolled Moon Garou Carpet 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "be4da61c5726",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "d792567c3678",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Rolled_Moon_Garou_Carpet_01"
+  },
+  {
+    "id": "4caf21366ba0",
+    "name": "Moon Garou Cushion 01",
+    "image": "Moon Garou Cushion 01.png",
+    "variants": [
+      {
+        "id": "efc6628333a0",
+        "name": "Moon Garou Cushion 01",
+        "image": "Moon Garou Cushion 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1a88ab84febc",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Moon_Garou_Cushion_01"
+  },
+  {
+    "id": "6d0fc1557bcb",
+    "name": "Moon Garou Sunshade 01",
+    "image": "Moon Garou Sunshade 01.png",
+    "variants": [
+      {
+        "id": "3488d28c6098",
+        "name": "Moon Garou Sunshade 01",
+        "image": "Moon Garou Sunshade 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "47368481e046",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Moon_Garou_Sunshade_01"
+  },
+  {
+    "id": "bf20a42d9883",
+    "name": "Moon Garou Sunshade 02",
+    "image": "Moon Garou Sunshade 02.png",
+    "variants": [
+      {
+        "id": "70b4d605041b",
+        "name": "Moon Garou Sunshade 02",
+        "image": "Moon Garou Sunshade 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8229c6d64e16",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Moon_Garou_Sunshade_02"
+  },
+  {
+    "id": "edf37119e2d7",
+    "name": "Large Desert Vase",
+    "image": "Large Desert Vase.png",
+    "variants": [
+      {
+        "id": "7cafb8d4cb69",
+        "name": "Large Desert Vase",
+        "image": "Large Desert Vase.png",
+        "variantName": null,
+        "recipe": {
+          "id": "bbf1d61bc5e8",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Large_Desert_Vase"
+  },
+  {
+    "id": "9eb8a30cb5b4",
+    "name": "Desert Vase Collection 04",
+    "image": "Desert Vase Collection 04.png",
+    "variants": [
+      {
+        "id": "ee82718a8d5f",
+        "name": "Desert Vase Collection 04",
+        "image": "Desert Vase Collection 04.png",
+        "variantName": null,
+        "recipe": {
+          "id": "98bcd6f35c75",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7922581c320e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Desert_Vase_Collection_04"
+  },
+  {
+    "id": "7ed4d704b8a3",
+    "name": "Desert Vase Collection 03",
+    "image": "Desert Vase Collection 03.png",
+    "variants": [
+      {
+        "id": "8903877d941e",
+        "name": "Desert Vase Collection 03",
+        "image": "Desert Vase Collection 03.png",
+        "variantName": null,
+        "recipe": {
+          "id": "133aae65ad7d",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7922581c320e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Desert_Vase_Collection_03"
+  },
+  {
+    "id": "ad90ed9f3d42",
+    "name": "Desert Vase Collection 01",
+    "image": "Desert Vase Collection 01.png",
+    "variants": [
+      {
+        "id": "52cf1f27ab43",
+        "name": "Desert Vase Collection 01",
+        "image": "Desert Vase Collection 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c70b405ed77d",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7922581c320e",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Desert_Vase_Collection_01"
+  },
+  {
+    "id": "cca999ea2df8",
+    "name": "Burnt Monkfish",
+    "image": "Burnt Monkfish.png",
+    "variants": [
+      {
+        "id": "6c8c1c52ec57",
+        "name": "Burnt Monkfish",
+        "image": "Burnt Monkfish.png",
+        "variantName": null,
+        "recipe": {
+          "id": "39188e8a0386",
+          "facilities": [
+            "Campfire"
+          ],
+          "materials": [
+            {
+              "itemId": "2f3b0f76d9bc",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire"
+    ],
+    "wikiLink": "Burnt_Monkfish",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "d0b6f3765f23",
+    "name": "Toktz-Xil-Ak",
+    "image": "Toktz-Xil-Ak.png",
+    "variants": [
+      {
+        "id": "4b99ef60ba88",
+        "name": "Toktz-Xil-Ak",
+        "image": "Toktz-Xil-Ak.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b1981b4d302f",
+          "facilities": [
+            "Blacksmith's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "9e1cedfc6c7e",
+              "quantity": 3
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 10
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 5
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Toktz-Xil-Ak",
+    "weight": 15
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -47634,6 +47847,26 @@
     "stackLimit": 99
   },
   {
+    "id": "f066ef03e380",
+    "name": "Weak Healing Potion",
+    "image": "Weak Healing Potion.png",
+    "variants": [
+      {
+        "id": "f066ef03e380",
+        "name": "Weak Healing Potion",
+        "image": "Weak Healing Potion.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Weak_Healing_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
     "id": "4b3b28384d99",
     "name": "Dwellberries",
     "image": "Dwellberries.png",
@@ -47774,6 +48007,26 @@
     "stackLimit": 99
   },
   {
+    "id": "f93cbe63a66a",
+    "name": "Large Wardstone",
+    "image": "Large Wardstone.png",
+    "variants": [
+      {
+        "id": "f93cbe63a66a",
+        "name": "Large Wardstone",
+        "image": "Large Wardstone.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Large_Wardstone",
+    "weight": 5,
+    "stackLimit": 25
+  },
+  {
     "id": "6d61374da4b4",
     "name": "Potato",
     "image": "Potato.png",
@@ -47874,6 +48127,26 @@
     "stackLimit": 99
   },
   {
+    "id": "53d81be3bab6",
+    "name": "Lesser Healing Potion",
+    "image": "Lesser Healing Potion.png",
+    "variants": [
+      {
+        "id": "53d81be3bab6",
+        "name": "Lesser Healing Potion",
+        "image": "Lesser Healing Potion.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Lesser_Healing_Potion",
+    "weight": 1,
+    "stackLimit": 50
+  },
+  {
     "id": "46ac202422da",
     "name": "Tin Ore",
     "image": "Tin Ore.png",
@@ -47912,6 +48185,26 @@
     "wikiLink": "Gold_Ore",
     "weight": 2.6,
     "stackLimit": 99
+  },
+  {
+    "id": "1ff5e76a14a9",
+    "name": "Medium Wardstone",
+    "image": "Medium Wardstone.png",
+    "variants": [
+      {
+        "id": "1ff5e76a14a9",
+        "name": "Medium Wardstone",
+        "image": "Medium Wardstone.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Medium_Wardstone",
+    "weight": 5,
+    "stackLimit": 25
   },
   {
     "id": "aac9c06cd7a8",
@@ -47994,26 +48287,6 @@
     "stackLimit": 99
   },
   {
-    "id": "0e5697ab1427",
-    "name": "Redberry Crunchies (Removed)",
-    "image": "Redberry Crunchies.png",
-    "variants": [
-      {
-        "id": "8dc7082e6ea1",
-        "name": "Redberry Crunchies",
-        "image": "Redberry Crunchies.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Redberry_Crunchies_(Removed)",
-    "weight": 0.6,
-    "stackLimit": 50
-  },
-  {
     "id": "34694871e698",
     "name": "Iron Ore",
     "image": "Iron Ore.png",
@@ -48091,6 +48364,26 @@
     "wikiLink": "Sapphire",
     "weight": 3,
     "stackLimit": 99
+  },
+  {
+    "id": "774f9b915ef2",
+    "name": "Small Wardstone",
+    "image": "Small Wardstone.png",
+    "variants": [
+      {
+        "id": "774f9b915ef2",
+        "name": "Small Wardstone",
+        "image": "Small Wardstone.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Small_Wardstone",
+    "weight": 5,
+    "stackLimit": 25
   },
   {
     "id": "727346e1e9f2",
@@ -51737,7 +52030,7 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Withered_Heart",
-    "weight": 10,
+    "weight": 1,
     "stackLimit": 50
   },
   {
@@ -53105,6 +53398,26 @@
     "wikiLink": "Slightly_Chaffing_Chestguard",
     "weight": 0,
     "stackLimit": 99
+  },
+  {
+    "id": "66e790b90f03",
+    "name": "Healing Potion",
+    "image": "Healing Potion.png",
+    "variants": [
+      {
+        "id": "66e790b90f03",
+        "name": "Healing Potion",
+        "image": "Healing Potion.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Healing_Potion",
+    "weight": 1,
+    "stackLimit": 50
   },
   {
     "id": "c0013eba905b",
@@ -56801,6 +57114,25 @@
     "weight": 0.1
   },
   {
+    "id": "68920c0f0772",
+    "name": "Dragonfire Shield",
+    "image": "Dragonfire Shield.png",
+    "variants": [
+      {
+        "id": "68920c0f0772",
+        "name": "Dragonfire Shield",
+        "image": "Dragonfire Shield.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Dragonfire_Shield",
+    "weight": 0
+  },
+  {
     "id": "ad8d315f027d",
     "name": "Fibrous Pipe Cactus",
     "image": "Fibrous Pipe Cactus.png",
@@ -57079,6 +57411,26 @@
     "stackLimit": 99
   },
   {
+    "id": "81aa481ea9e7",
+    "name": "Amulet of Glory",
+    "image": "Amulet of Glory.png",
+    "variants": [
+      {
+        "id": "81aa481ea9e7",
+        "name": "Amulet of Glory",
+        "image": "Amulet of Glory.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Amulet_of_Glory",
+    "weight": 0,
+    "stackLimit": 1
+  },
+  {
     "id": "ca82c301e8d5",
     "name": "Plate of Pure Obsidian",
     "image": "Plate of Pure Obsidian.png",
@@ -57297,5 +57649,65 @@
     "wikiLink": "Artifact_Salvage",
     "weight": 0,
     "stackLimit": 0
+  },
+  {
+    "id": "a6f4f4572e9c",
+    "name": "Shattered Black Blade (Umbral Sands)",
+    "image": "Shattered Black Blade (Umbral Sands).png",
+    "variants": [
+      {
+        "id": "a6f4f4572e9c",
+        "name": "Shattered Black Blade (Umbral Sands)",
+        "image": "Shattered Black Blade (Umbral Sands).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Shattered_Black_Blade_(Umbral_Sands)",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "6937d64eb61a",
+    "name": "Bludgeoning Obsidian Construct",
+    "image": "Bludgeoning Obsidian Construct.png",
+    "variants": [
+      {
+        "id": "6937d64eb61a",
+        "name": "Bludgeoning Obsidian Construct",
+        "image": "Bludgeoning Obsidian Construct.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Bludgeoning_Obsidian_Construct",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "b6b522f65412",
+    "name": "Mount: Scorchsummer Ashbeak",
+    "image": "ScorchsummerMount.png",
+    "variants": [
+      {
+        "id": "b6b522f65412",
+        "name": "Mount: Scorchsummer Ashbeak",
+        "image": "ScorchsummerMount.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Mount:_Scorchsummer_Ashbeak",
+    "weight": 0,
+    "stackLimit": 99
   }
 ]

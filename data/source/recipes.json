@@ -160,68 +160,6 @@
   },
   {
     "uses_material": [
-      "Ash Logs",
-      "Stone",
-      "Animal Bone"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "8",
-          "name": "Ash Logs",
-          "link": "Ash Logs",
-          "qty": "8",
-          "item": "Ash Logs",
-          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
-        },
-        {
-          "quantity": "12",
-          "name": "Stone",
-          "link": "Stone",
-          "qty": "12",
-          "item": "Stone",
-          "image": "[[File:Stone.png|30px|link=Stone]]"
-        },
-        {
-          "quantity": "3",
-          "name": "Animal Bone",
-          "link": "Animal Bone",
-          "qty": "3",
-          "item": "Animal Bone",
-          "image": "[[File:Animal Bone.png|30px|link=Animal Bone]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "12"
-        }
-      ],
-      "outputs": [
-        "Cooking Pot"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Cooking Pot",
-        "link": "Cooking Pot",
-        "qty": 1,
-        "item": "Cooking Pot",
-        "image": "[[File:Cooking Pot.png|30px|link=Cooking Pot]]"
-      }
-    },
-    "output": [
-      "Cooking Pot"
-    ]
-  },
-  {
-    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -1199,68 +1137,6 @@
     },
     "output": [
       "Weak Antipoison Potion"
-    ]
-  },
-  {
-    "uses_material": [
-      "Harralander",
-      "Redberries",
-      "Clay Vessel"
-    ],
-    "uses_skill": [
-      "Artisan"
-    ],
-    "uses_facility": [
-      "Brewing Cauldron"
-    ],
-    "json": {
-      "facility": "Brewing Cauldron",
-      "materials": [
-        {
-          "quantity": 1,
-          "name": "Harralander",
-          "link": "Harralander",
-          "qty": 1,
-          "item": "Harralander",
-          "image": "[[File:Harralander.png|30px|link=Harralander]]"
-        },
-        {
-          "quantity": 1,
-          "name": "Redberries",
-          "link": "Redberries",
-          "qty": 1,
-          "item": "Redberries",
-          "image": "[[File:Redberries.png|30px|link=Redberries]]"
-        },
-        {
-          "quantity": 1,
-          "name": "Clay Vessel",
-          "link": "Clay Vessel",
-          "qty": 1,
-          "item": "Clay Vessel",
-          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
-      "outputs": [
-        "Weak Healing Potion"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Weak Healing Potion",
-        "link": "Weak Healing Potion",
-        "qty": 1,
-        "item": "Weak Healing Potion",
-        "image": "[[File:Weak Healing Potion.png|30px|link=Weak Healing Potion]]"
-      }
-    },
-    "output": [
-      "Weak Healing Potion"
     ]
   },
   {
@@ -2860,68 +2736,6 @@
   },
   {
     "uses_material": [
-      "Rune Essence",
-      "Granite",
-      "Wild Anima"
-    ],
-    "uses_skill": [
-      "Runecrafting"
-    ],
-    "uses_facility": [
-      "Crafting Table"
-    ],
-    "json": {
-      "facility": "Crafting Table",
-      "materials": [
-        {
-          "quantity": "15",
-          "name": "Rune Essence",
-          "link": "Rune Essence",
-          "qty": "15",
-          "item": "Rune Essence",
-          "image": "[[File:Rune Essence.png|30px|link=Rune Essence]]"
-        },
-        {
-          "quantity": "1",
-          "name": "Granite",
-          "link": "Granite",
-          "qty": "1",
-          "item": "Granite",
-          "image": "[[File:Granite.png|30px|link=Granite]]"
-        },
-        {
-          "quantity": "1",
-          "name": "Wild Anima",
-          "link": "Wild Anima",
-          "qty": "1",
-          "item": "Wild Anima",
-          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Runecrafting",
-          "experience": "10"
-        }
-      ],
-      "outputs": [
-        "Large Wardstone"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Large Wardstone",
-        "link": "Large Wardstone",
-        "qty": 1,
-        "item": "Large Wardstone",
-        "image": "[[File:Large Wardstone.png|30px|link=Large Wardstone]]"
-      }
-    },
-    "output": [
-      "Large Wardstone"
-    ]
-  },
-  {
-    "uses_material": [
       "Ash Logs",
       "Animal Bone",
       "Coarse Thread"
@@ -4244,77 +4058,6 @@
     },
     "output": [
       "Wool Thread"
-    ]
-  },
-  {
-    "uses_material": [
-      "Bronze Bar",
-      "Ash Logs",
-      "Coarse Thread",
-      "Vault Core"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "6",
-          "name": "Bronze Bar",
-          "link": "Bronze Bar",
-          "qty": "6",
-          "item": "Bronze Bar",
-          "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
-        },
-        {
-          "quantity": "20",
-          "name": "Ash Logs",
-          "link": "Ash Logs",
-          "qty": "20",
-          "item": "Ash Logs",
-          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
-        },
-        {
-          "quantity": "8",
-          "name": "Coarse Thread",
-          "link": "Coarse Thread",
-          "qty": "8",
-          "item": "Coarse Thread",
-          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
-        },
-        {
-          "quantity": "1",
-          "name": "Vault Core",
-          "link": "Vault Core",
-          "qty": "1",
-          "item": "Vault Core",
-          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "12"
-        }
-      ],
-      "outputs": [
-        "Smithing Anvil"
-      ],
-      "output": {
-        "quantity": "1",
-        "name": "Smithing Anvil",
-        "link": "Smithing Anvil",
-        "qty": "1",
-        "item": "Smithing Anvil",
-        "image": "[[File:Smithing Anvil.png|30px|link=Smithing Anvil]]"
-      }
-    },
-    "output": [
-      "Smithing Anvil"
     ]
   },
   {
@@ -5926,68 +5669,6 @@
   },
   {
     "uses_material": [
-      "Snapdragon",
-      "Dwellberries",
-      "Clay Vessel"
-    ],
-    "uses_skill": [
-      "Artisan"
-    ],
-    "uses_facility": [
-      "Brewing Cauldron"
-    ],
-    "json": {
-      "facility": "Brewing Cauldron",
-      "materials": [
-        {
-          "quantity": 1,
-          "name": "Snapdragon",
-          "link": "Snapdragon",
-          "qty": 1,
-          "item": "Snapdragon",
-          "image": "[[File:Snapdragon.png|30px|link=Snapdragon]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Dwellberries",
-          "link": "Dwellberries",
-          "qty": "2",
-          "item": "Dwellberries",
-          "image": "[[File:Dwellberries.png|30px|link=Dwellberries]]"
-        },
-        {
-          "quantity": 1,
-          "name": "Clay Vessel",
-          "link": "Clay Vessel",
-          "qty": 1,
-          "item": "Clay Vessel",
-          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
-      "outputs": [
-        "Lesser Healing Potion"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Lesser Healing Potion",
-        "link": "Lesser Healing Potion",
-        "qty": 1,
-        "item": "Lesser Healing Potion",
-        "image": "[[File:Lesser Healing Potion.png|30px|link=Lesser Healing Potion]]"
-      }
-    },
-    "output": [
-      "Lesser Healing Potion"
-    ]
-  },
-  {
-    "uses_material": [
       "Stone",
       "Clay",
       "Charcoal",
@@ -6152,68 +5833,6 @@
     },
     "output": [
       "Gold Bar"
-    ]
-  },
-  {
-    "uses_material": [
-      "Sandstone",
-      "Anima-Infused Bark",
-      "Rune Essence"
-    ],
-    "uses_skill": [
-      "Runecrafting"
-    ],
-    "uses_facility": [
-      "Crafting Table"
-    ],
-    "json": {
-      "facility": "Crafting Table",
-      "materials": [
-        {
-          "quantity": "1",
-          "name": "Sandstone",
-          "link": "Sandstone",
-          "qty": "1",
-          "item": "Sandstone",
-          "image": "[[File:Sandstone.png|30px|link=Sandstone]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Anima-Infused Bark",
-          "link": "Anima-Infused Bark",
-          "qty": "2",
-          "item": "Anima-Infused Bark",
-          "image": "[[File:Anima-Infused Bark.png|30px|link=Anima-Infused Bark]]"
-        },
-        {
-          "quantity": "10",
-          "name": "Rune Essence",
-          "link": "Rune Essence",
-          "qty": "10",
-          "item": "Rune Essence",
-          "image": "[[File:Rune Essence.png|30px|link=Rune Essence]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Runecrafting",
-          "experience": "10"
-        }
-      ],
-      "outputs": [
-        "Medium Wardstone"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Medium Wardstone",
-        "link": "Medium Wardstone",
-        "qty": 1,
-        "item": "Medium Wardstone",
-        "image": "[[File:Medium Wardstone.png|30px|link=Medium Wardstone]]"
-      }
-    },
-    "output": [
-      "Medium Wardstone"
     ]
   },
   {
@@ -6762,6 +6381,112 @@
     },
     "output": [
       "Charcoal"
+    ]
+  },
+  {
+    "uses_material": [
+      "Redberries",
+      "Potato"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Pot"
+    ],
+    "json": {
+      "facility": "Cooking Pot",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "2",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Potato",
+          "link": "Potato",
+          "qty": "2",
+          "item": "Potato",
+          "image": "[[File:Potato.png|30px|link=Potato]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "15"
+        }
+      ],
+      "outputs": [
+        "Redberry Crunchies"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Redberry Crunchies",
+        "link": "Redberry Crunchies",
+        "qty": 1,
+        "item": "Redberry Crunchies",
+        "image": "[[File:Redberry Crunchies.png|30px|link=Redberry Crunchies]]"
+      }
+    },
+    "output": [
+      "Redberry Crunchies"
+    ]
+  },
+  {
+    "uses_material": [
+      "Redberries",
+      "Cabbage"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Pot"
+    ],
+    "json": {
+      "facility": "Cooking Pot",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "2",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Cabbage",
+          "link": "Cabbage",
+          "qty": "2",
+          "item": "Cabbage",
+          "image": "[[File:Cabbage.png|30px|link=Cabbage]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "15"
+        }
+      ],
+      "outputs": [
+        "Redberry Crunchies"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Redberry Crunchies",
+        "link": "Redberry Crunchies",
+        "qty": 1,
+        "item": "Redberry Crunchies",
+        "image": "[[File:Redberry Crunchies.png|30px|link=Redberry Crunchies]]"
+      }
+    },
+    "output": [
+      "Redberry Crunchies"
     ]
   },
   {
@@ -7567,59 +7292,6 @@
     },
     "output": [
       "Leather Chaps"
-    ]
-  },
-  {
-    "uses_material": [
-      "Rune Essence",
-      "Stone"
-    ],
-    "uses_skill": [
-      "Runecrafting"
-    ],
-    "uses_facility": [
-      "Crafting Table"
-    ],
-    "json": {
-      "facility": "Crafting Table",
-      "materials": [
-        {
-          "quantity": "5",
-          "name": "Rune Essence",
-          "link": "Rune Essence",
-          "qty": "5",
-          "item": "Rune Essence",
-          "image": "[[File:Rune Essence.png|30px|link=Rune Essence]]"
-        },
-        {
-          "quantity": "1",
-          "name": "Stone",
-          "link": "Stone",
-          "qty": "1",
-          "item": "Stone",
-          "image": "[[File:Stone.png|30px|link=Stone]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Runecrafting",
-          "experience": "10"
-        }
-      ],
-      "outputs": [
-        "Small Wardstone"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Small Wardstone",
-        "link": "Small Wardstone",
-        "qty": 1,
-        "item": "Small Wardstone",
-        "image": "[[File:Small Wardstone.png|30px|link=Small Wardstone]]"
-      }
-    },
-    "output": [
-      "Small Wardstone"
     ]
   },
   {
@@ -42990,112 +42662,6 @@
   },
   {
     "uses_material": [
-      "Dried Redberries",
-      "Wheat"
-    ],
-    "uses_skill": [
-      "Cooking"
-    ],
-    "uses_facility": [
-      "Stone Range"
-    ],
-    "json": {
-      "facility": "Stone Range",
-      "materials": [
-        {
-          "quantity": "1",
-          "name": "Dried Redberries",
-          "link": "Dried Redberries",
-          "qty": "1",
-          "item": "Dried Redberries",
-          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
-        },
-        {
-          "quantity": "1",
-          "name": "Wheat",
-          "link": "Wheat",
-          "qty": "1",
-          "item": "Wheat",
-          "image": "[[File:Wheat.png|30px|link=Wheat]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Cooking",
-          "experience": "20"
-        }
-      ],
-      "outputs": [
-        "Redberry Crunchies"
-      ],
-      "output": {
-        "quantity": "1",
-        "name": "Redberry Crunchies",
-        "link": "Redberry Crunchies",
-        "qty": "1",
-        "item": "Redberry Crunchies",
-        "image": "[[File:Redberry Crunchies.png|30px|link=Redberry Crunchies]]"
-      }
-    },
-    "output": [
-      "Redberry Crunchies"
-    ]
-  },
-  {
-    "uses_material": [
-      "Dried Redberries",
-      "Wheat"
-    ],
-    "uses_skill": [
-      "Cooking"
-    ],
-    "uses_facility": [
-      "Cooking Range"
-    ],
-    "json": {
-      "facility": "Cooking Range",
-      "materials": [
-        {
-          "quantity": "1",
-          "name": "Dried Redberries",
-          "link": "Dried Redberries",
-          "qty": "1",
-          "item": "Dried Redberries",
-          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
-        },
-        {
-          "quantity": "1",
-          "name": "Wheat",
-          "link": "Wheat",
-          "qty": "1",
-          "item": "Wheat",
-          "image": "[[File:Wheat.png|30px|link=Wheat]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Cooking",
-          "experience": "20"
-        }
-      ],
-      "outputs": [
-        "Redberry Crunchies"
-      ],
-      "output": {
-        "quantity": "1",
-        "name": "Redberry Crunchies",
-        "link": "Redberry Crunchies",
-        "qty": "1",
-        "item": "Redberry Crunchies",
-        "image": "[[File:Redberry Crunchies.png|30px|link=Redberry Crunchies]]"
-      }
-    },
-    "output": [
-      "Redberry Crunchies"
-    ]
-  },
-  {
-    "uses_material": [
       "Dried Dwellberries",
       "Wheat"
     ],
@@ -48122,68 +47688,6 @@
     },
     "output": [
       "Grave 03"
-    ]
-  },
-  {
-    "uses_material": [
-      "Irit",
-      "Dwellberries",
-      "Glass Vessel"
-    ],
-    "uses_skill": [
-      "Artisan"
-    ],
-    "uses_facility": [
-      "Brewing Cauldron"
-    ],
-    "json": {
-      "facility": "Brewing Cauldron",
-      "materials": [
-        {
-          "quantity": 1,
-          "name": "Irit",
-          "link": "Irit",
-          "qty": 1,
-          "item": "Irit",
-          "image": "[[File:Irit.png|30px|link=Irit]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Dwellberries",
-          "link": "Dwellberries",
-          "qty": "2",
-          "item": "Dwellberries",
-          "image": "[[File:Dwellberries.png|30px|link=Dwellberries]]"
-        },
-        {
-          "quantity": 1,
-          "name": "Glass Vessel",
-          "link": "Glass Vessel",
-          "qty": 1,
-          "item": "Glass Vessel",
-          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
-      "outputs": [
-        "Healing Potion"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Healing Potion",
-        "link": "Healing Potion",
-        "qty": 1,
-        "item": "Healing Potion",
-        "image": "[[File:Healing Potion.png|30px|link=Healing Potion]]"
-      }
-    },
-    "output": [
-      "Healing Potion"
     ]
   },
   {
@@ -68020,59 +67524,6 @@
   },
   {
     "uses_material": [
-      "Adamant Bar",
-      "Feathers"
-    ],
-    "uses_skill": [
-      "Artisan"
-    ],
-    "uses_facility": [
-      "Fletching Bench"
-    ],
-    "json": {
-      "facility": "Fletching Bench",
-      "materials": [
-        {
-          "quantity": "1",
-          "name": "Adamant Bar",
-          "link": "Adamant Bar",
-          "qty": "1",
-          "item": "Adamant Bar",
-          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
-        },
-        {
-          "quantity": "1",
-          "name": "Feathers",
-          "link": "Feathers",
-          "qty": "1",
-          "item": "Feathers",
-          "image": "[[File:Feathers.png|30px|link=Feathers]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "60"
-        }
-      ],
-      "outputs": [
-        "Adamant Bolt"
-      ],
-      "output": {
-        "quantity": "33",
-        "name": "Adamant Bolt",
-        "link": "Adamant Bolt",
-        "qty": "33",
-        "item": "Adamant Bolt",
-        "image": "[[File:Adamant Bolt.png|30px|link=Adamant Bolt]]"
-      }
-    },
-    "output": [
-      "Adamant Bolt"
-    ]
-  },
-  {
-    "uses_material": [
       "Yew Logs"
     ],
     "uses_skill": [
@@ -69122,7 +68573,11 @@
   },
   {
     "uses_material": [
-      "Yew Logs"
+      "Yew Logs",
+      "Adamant Bar",
+      "Desert Thread",
+      "Dragonstone",
+      "Gypsum Wax"
     ],
     "uses_skill": [
       "Artisan"
@@ -69134,12 +68589,44 @@
       "facility": "Fletching Bench",
       "materials": [
         {
-          "quantity": "?",
+          "quantity": "16",
           "name": "Yew Logs",
           "link": "Yew Logs",
-          "qty": "?",
+          "qty": "16",
           "item": "Yew Logs",
           "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "4",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "8",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "4",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "4",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
         }
       ],
       "skills": [
@@ -69152,10 +68639,10 @@
         "Yew Longbow"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Yew Longbow",
         "link": "Yew Longbow",
-        "qty": 1,
+        "qty": "1",
         "item": "Yew Longbow",
         "image": "[[File:Yew Longbow.png|30px|link=Yew Longbow]]"
       }
@@ -71779,6 +71266,729 @@
     },
     "output": [
       "Desert Hood"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Beltfish"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Beltfish",
+          "link": "Raw Beltfish",
+          "qty": "1",
+          "item": "Raw Beltfish",
+          "image": "[[File:Raw Beltfish.png|30px|link=Raw Beltfish]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Beltfish"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Beltfish",
+        "link": "Burnt Beltfish",
+        "qty": "1",
+        "item": "Burnt Beltfish",
+        "image": "[[File:Burnt Beltfish.png|30px|link=Burnt Beltfish]]"
+      }
+    },
+    "output": [
+      "Burnt Beltfish"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Desert Sole"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Desert Sole",
+          "link": "Raw Desert Sole",
+          "qty": "1",
+          "item": "Raw Desert Sole",
+          "image": "[[File:Raw Desert Sole.png|30px|link=Raw Desert Sole]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Desert Sole"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Desert Sole",
+        "link": "Burnt Desert Sole",
+        "qty": "1",
+        "item": "Burnt Desert Sole",
+        "image": "[[File:Burnt Desert Sole.png|30px|link=Burnt Desert Sole]]"
+      }
+    },
+    "output": [
+      "Burnt Desert Sole"
+    ]
+  },
+  {
+    "uses_material": [
+      "Animal Bone",
+      "Hard Leather",
+      "Wild Anima",
+      "Vault Shard",
+      "Silver Ore",
+      "Shocking Plant Bulb"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Zombie Arm"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Zombie Arm",
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Animal Bone",
+          "link": "Animal Bone",
+          "qty": "2",
+          "item": "Animal Bone",
+          "image": "[[File:Animal Bone.png|30px|link=Animal Bone]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Hard Leather",
+          "link": "Hard Leather",
+          "qty": "2",
+          "item": "Hard Leather",
+          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": "4",
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "1",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Silver Ore",
+          "link": "Silver Ore",
+          "qty": "2",
+          "item": "Silver Ore",
+          "image": "[[File:Silver Ore.png|30px|link=Silver Ore]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Shocking Plant Bulb",
+          "link": "Shocking Plant Bulb",
+          "qty": "3",
+          "item": "Shocking Plant Bulb",
+          "image": "[[File:Shocking Plant Bulb.png|30px|link=Shocking Plant Bulb]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "300"
+        }
+      ],
+      "outputs": [
+        "Zombie Arm"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Zombie Arm",
+        "link": "Zombie Arm",
+        "qty": "1",
+        "item": "Zombie Arm",
+        "image": "[[File:Zombie Arm.png|30px|link=Zombie Arm]]"
+      }
+    },
+    "output": [
+      "Zombie Arm"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": "1",
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Small Desert Vase"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Small Desert Vase",
+        "link": "Small Desert Vase",
+        "qty": 1,
+        "item": "Small Desert Vase",
+        "image": "[[File:Small Desert Vase.png|30px|link=Small Desert Vase]]"
+      }
+    },
+    "output": [
+      "Small Desert Vase"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": "2",
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Medium Desert Vase"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Desert Vase",
+        "link": "Medium Desert Vase",
+        "qty": 1,
+        "item": "Medium Desert Vase",
+        "image": "[[File:Medium Desert Vase.png|30px|link=Medium Desert Vase]]"
+      }
+    },
+    "output": [
+      "Medium Desert Vase"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": "10",
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Desert Vase Collection 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Desert Vase Collection 02",
+        "link": "Desert Vase Collection 02",
+        "qty": 1,
+        "item": "Desert Vase Collection 02",
+        "image": "[[File:Desert Vase Collection 02.png|30px|link=Desert Vase Collection 02]]"
+      }
+    },
+    "output": [
+      "Desert Vase Collection 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Dessert Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Dessert Cloth",
+          "link": "Dessert Cloth",
+          "qty": "4",
+          "item": "Dessert Cloth",
+          "image": "[[File:Dessert Cloth.png|30px|link=Dessert Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Rolled Moon Garou Carpet 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Rolled Moon Garou Carpet 01",
+        "link": "Rolled Moon Garou Carpet 01",
+        "qty": 1,
+        "item": "Rolled Moon Garou Carpet 01",
+        "image": "[[File:Rolled Moon Garou Carpet 01.png|30px|link=Rolled Moon Garou Carpet 01]]"
+      }
+    },
+    "output": [
+      "Rolled Moon Garou Carpet 01"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Moon Garou Cushion 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Moon Garou Cushion 01",
+        "link": "Moon Garou Cushion 01",
+        "qty": 1,
+        "item": "Moon Garou Cushion 01",
+        "image": "[[File:Moon Garou Cushion 01.png|30px|link=Moon Garou Cushion 01]]"
+      }
+    },
+    "output": [
+      "Moon Garou Cushion 01"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Moon Garou Sunshade 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Moon Garou Sunshade 01",
+        "link": "Moon Garou Sunshade 01",
+        "qty": 1,
+        "item": "Moon Garou Sunshade 01",
+        "image": "[[File:Moon Garou Sunshade 01.png|30px|link=Moon Garou Sunshade 01]]"
+      }
+    },
+    "output": [
+      "Moon Garou Sunshade 01"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Moon Garou Sunshade 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Moon Garou Sunshade 02",
+        "link": "Moon Garou Sunshade 02",
+        "qty": 1,
+        "item": "Moon Garou Sunshade 02",
+        "image": "[[File:Moon Garou Sunshade 02.png|30px|link=Moon Garou Sunshade 02]]"
+      }
+    },
+    "output": [
+      "Moon Garou Sunshade 02"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Large Desert Vase"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Large Desert Vase",
+        "link": "Large Desert Vase",
+        "qty": 1,
+        "item": "Large Desert Vase",
+        "image": "[[File:Large Desert Vase.png|30px|link=Large Desert Vase]]"
+      }
+    },
+    "output": [
+      "Large Desert Vase"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "",
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": "",
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Desert Vase Collection 04"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Desert Vase Collection 04",
+        "link": "Desert Vase Collection 04",
+        "qty": 1,
+        "item": "Desert Vase Collection 04",
+        "image": "[[File:Desert Vase Collection 04.png|30px|link=Desert Vase Collection 04]]"
+      }
+    },
+    "output": [
+      "Desert Vase Collection 04"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "",
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": "",
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Desert Vase Collection 03"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Desert Vase Collection 03",
+        "link": "Desert Vase Collection 03",
+        "qty": 1,
+        "item": "Desert Vase Collection 03",
+        "image": "[[File:Desert Vase Collection 03.png|30px|link=Desert Vase Collection 03]]"
+      }
+    },
+    "output": [
+      "Desert Vase Collection 03"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Vessel"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "",
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": "",
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Desert Vase Collection 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Desert Vase Collection 01",
+        "link": "Desert Vase Collection 01",
+        "qty": 1,
+        "item": "Desert Vase Collection 01",
+        "image": "[[File:Desert Vase Collection 01.png|30px|link=Desert Vase Collection 01]]"
+      }
+    },
+    "output": [
+      "Desert Vase Collection 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Monkfish"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Campfire"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Monkfish",
+          "link": "Raw Monkfish",
+          "qty": "1",
+          "item": "Raw Monkfish",
+          "image": "[[File:Raw Monkfish.png|30px|link=Raw Monkfish]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Monkfish"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Monkfish",
+        "link": "Burnt Monkfish",
+        "qty": "1",
+        "item": "Burnt Monkfish",
+        "image": "[[File:Burnt Monkfish.png|30px|link=Burnt Monkfish]]"
+      }
+    },
+    "output": [
+      "Burnt Monkfish"
+    ]
+  },
+  {
+    "uses_material": [
+      "Refined Obsidian",
+      "Scorch Leather",
+      "Desert Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "10",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "5",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "3",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "Toktz-Xil-Ak"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Toktz-Xil-Ak",
+        "link": "Toktz-Xil-Ak",
+        "qty": "1",
+        "item": "Toktz-Xil-Ak",
+        "image": "[[File:Toktz-Xil-Ak.png|30px|link=Toktz-Xil-Ak]]"
+      }
+    },
+    "output": [
+      "Toktz-Xil-Ak"
     ]
   }
 ]

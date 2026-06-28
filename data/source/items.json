@@ -671,7 +671,7 @@
       "description": "A mysterious porous rock used as a base for powerful runes.",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
-      "weight": "0.2'\"`UNIQ--ref-00000002-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
       "stacklimit": "99",
       "image_raw": "Rune Essence.png"
     },
@@ -2174,7 +2174,7 @@
     "page_name_sub": "Copper Ore"
   },
   {
-    "page_name": "Redberry Crunchies (Removed)",
+    "page_name": "Redberry Crunchies",
     "item_description": "It smells quite fruity.",
     "item_name": "Redberry Crunchies",
     "item_type": "Food",
@@ -2182,15 +2182,16 @@
     "json": {
       "type": "Food",
       "description": "It smells quite fruity.",
+      "health": "50",
       "image": "[[File:Redberry Crunchies.png|32px]]",
       "name": "Redberry Crunchies",
       "weight": "0.6",
-      "sustenance": "Moderate (30)",
+      "sustenance": "35",
       "stacklimit": "50",
       "image_raw": "Redberry Crunchies.png"
     },
     "item_weight": 0.6,
-    "page_name_sub": "Redberry Crunchies (Removed)"
+    "page_name_sub": "Redberry Crunchies"
   },
   {
     "page_name": "Iron Ore",
@@ -9007,11 +9008,11 @@
       "description": "Dropped from withered enemies. Used as a crafting ingredient.",
       "image": "[[File:Withered Heart.png|32px]]",
       "name": "Withered Heart",
-      "weight": "10",
+      "weight": "1",
       "stacklimit": "50",
       "image_raw": "Withered Heart.png"
     },
-    "item_weight": 10,
+    "item_weight": 1,
     "page_name_sub": "Withered Heart"
   },
   {
@@ -9869,26 +9870,6 @@
     "page_name_sub": "Withering Heights Reward Pack"
   },
   {
-    "page_name": "Redberry Crunchies",
-    "item_description": "It smells quite fruity.",
-    "item_name": "Redberry Crunchies",
-    "item_type": "Food",
-    "item_stacklimit": 50,
-    "json": {
-      "type": "Food",
-      "description": "It smells quite fruity.",
-      "health": "50",
-      "image": "[[File:Redberry Crunchies.png|32px]]",
-      "name": "Redberry Crunchies",
-      "weight": "1.0",
-      "sustenance": "35",
-      "stacklimit": "50",
-      "image_raw": "Redberry Crunchies.png"
-    },
-    "item_weight": 1,
-    "page_name_sub": "Redberry Crunchies"
-  },
-  {
     "page_name": "Dwellberry Crunchies",
     "item_description": "Yum... smells fruity.",
     "item_name": "Dwellberry Crunchies",
@@ -10631,13 +10612,13 @@
   },
   {
     "page_name": "Enchanted Steel Bolts",
-    "item_description": "Steel crossbow bolts tipped with enchanted Red Topaz. Offers a chance to create a necrotic bolt that heals your lifeward for a proportion of the damage dealt.",
+    "item_description": "Steel crossbow bolts tipped with enchanted red topaz. Has a chance to create a necrotic bolt that heals you for a porportion of the damage dealt.",
     "item_name": "Enchanted Steel Bolts",
     "item_type": "Ammo",
     "item_stacklimit": 999,
     "json": {
       "type": "Ammo",
-      "description": "Steel crossbow bolts tipped with enchanted Red Topaz. Offers a chance to create a necrotic bolt that heals your lifeward for a proportion of the damage dealt.",
+      "description": "Steel crossbow bolts tipped with enchanted red topaz. Has a chance to create a necrotic bolt that heals you for a porportion of the damage dealt.",
       "image": "[[File:Enchanted Steel Bolts.png|32px]]",
       "name": "Enchanted Steel Bolts",
       "weight": "0.0",
@@ -18934,24 +18915,6 @@
     "page_name_sub": "Monkfish Fillets"
   },
   {
-    "page_name": "Adamant Bolt",
-    "item_description": "A crossbow bolt with an adamant tip.",
-    "item_name": "Adamant Bolt",
-    "item_type": "Ammo",
-    "item_stacklimit": 999,
-    "json": {
-      "type": "Ammo",
-      "description": "A crossbow bolt with an adamant tip.",
-      "image": "[[File:Adamant Bolt.png|32px]]",
-      "name": "Adamant Bolt",
-      "weight": "0.0",
-      "stacklimit": "999",
-      "image_raw": "Adamant Bolt.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "Adamant Bolt"
-  },
-  {
     "page_name": "Desert Weed",
     "item_description": "A hearty plant native to the region. Can be spun into a durable thread",
     "item_name": "Desert Weed",
@@ -19202,6 +19165,22 @@
       "image_raw": "Tea Leaves.png"
     },
     "item_type": "Resource"
+  },
+  {
+    "page_name": "Dragonfire Shield",
+    "item_description": "",
+    "item_name": "Dragonfire Shield",
+    "item_weight": 0,
+    "page_name_sub": "Dragonfire Shield",
+    "json": {
+      "type": "Shield",
+      "description": "",
+      "image": "[[File:Dragonfire Shield.png|32px]]",
+      "name": "Dragonfire Shield",
+      "weight": "",
+      "image_raw": "Dragonfire Shield.png"
+    },
+    "item_type": "Shield"
   },
   {
     "page_name": "Fibrous Pipe Cactus",
@@ -19553,21 +19532,23 @@
   },
   {
     "page_name": "Bow of Elidinis",
-    "item_description": "?",
-    "item_name": "Bow of Elidinis",
-    "item_type": "Ranged Weapon",
-    "page_name_sub": "Bow of Elidinis",
+    "item_weight": 15,
+    "item_stacklimit": 1,
     "json": {
       "type": "Ranged Weapon",
-      "description": "?",
-      "repaircost": "?",
+      "description": "This ancient bow is a relic of Elidnis: Goddess of the Moon, Rivers, Growth, and Fertility.",
+      "repaircost": "2 Gold Bars",
       "image": "[[File:Bow of Elidinis.png|32px]]",
       "name": "Bow of Elidinis",
       "weight": "15.0",
+      "stacklimit": "1",
       "image_raw": "Bow of Elidinis.png"
     },
-    "item_repair": "?",
-    "item_weight": 15
+    "item_type": "Ranged Weapon",
+    "page_name_sub": "Bow of Elidinis",
+    "item_description": "This ancient bow is a relic of Elidnis: Goddess of the Moon, Rivers, Growth, and Fertility.",
+    "item_repair": "2 Gold Bars",
+    "item_name": "Bow of Elidinis"
   },
   {
     "page_name": "Toktz-Mej-Tal",
@@ -20168,6 +20149,22 @@
     "page_name_sub": "Strong Tea"
   },
   {
+    "page_name": "Amulet of Glory",
+    "item_stacklimit": 1,
+    "item_name": "Amulet of Glory",
+    "item_weight": 0,
+    "page_name_sub": "Amulet of Glory",
+    "json": {
+      "type": "Trinket",
+      "image": "[[File:Amulet of Glory.png|32px]]",
+      "name": "Amulet of Glory",
+      "weight": "",
+      "stacklimit": "1",
+      "image_raw": "Amulet of Glory.png"
+    },
+    "item_type": "Trinket"
+  },
+  {
     "page_name": "Dried Tea Leaves",
     "item_description": "",
     "item_name": "Dried Tea Leaves",
@@ -20614,5 +20611,155 @@
     },
     "item_repair": "1 [[Garou Weave]]",
     "item_weight": 4
+  },
+  {
+    "page_name": "Shattered Black Blade (Umbral Sands)",
+    "item_description": "Perhaps you could learn something from it.",
+    "item_name": "Shattered Black Blade (Umbral Sands)",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn something from it.",
+      "image": "[[File:Shattered Black Blade (Umbral Sands).png|32px]]",
+      "name": "Shattered Black Blade (Umbral Sands)",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Shattered Black Blade (Umbral Sands).png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Shattered Black Blade (Umbral Sands)"
+  },
+  {
+    "page_name": "Bludgeoning Obsidian Construct",
+    "item_description": "Perhaps you could learn something from it.",
+    "item_name": "Bludgeoning Obsidian Construct",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn something from it.",
+      "image": "[[File:Bludgeoning Obsidian Construct.png|32px]]",
+      "name": "Bludgeoning Obsidian Construct",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Bludgeoning Obsidian Construct.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Bludgeoning Obsidian Construct"
+  },
+  {
+    "page_name": "Burnt Beltfish",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Beltfish",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Beltfish.png|32px]]",
+      "name": "Burnt Beltfish",
+      "weight": "1",
+      "sustenance": "15",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Beltfish.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Burnt Beltfish"
+  },
+  {
+    "page_name": "Burnt Desert Sole",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Desert Sole",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Desert Sole.png|32px]]",
+      "name": "Burnt Desert Sole",
+      "weight": "1",
+      "sustenance": "15",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Desert Sole.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Burnt Desert Sole"
+  },
+  {
+    "page_name": "Zombie Arm",
+    "item_description": "A zombie's arm with electrifying properties. High five!",
+    "item_name": "Zombie Arm",
+    "item_weight": 15,
+    "page_name_sub": "Zombie Arm",
+    "json": {
+      "type": "Melee Weapon",
+      "description": "A zombie's arm with electrifying properties. High five!",
+      "image": "[[File:Zombie Arm.png|32px]]",
+      "name": "Zombie Arm",
+      "weight": "15",
+      "image_raw": "Zombie Arm.png"
+    },
+    "item_type": "Melee Weapon"
+  },
+  {
+    "page_name": "Burnt Monkfish",
+    "item_description": "Too well done, but still edible.",
+    "item_name": "Burnt Monkfish",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Too well done, but still edible.",
+      "image": "[[File:Burnt Monkfish.png|32px]]",
+      "name": "Burnt Monkfish",
+      "weight": "1",
+      "sustenance": "15",
+      "compostvalue": "10",
+      "stacklimit": "99",
+      "image_raw": "Burnt Monkfish.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Burnt Monkfish"
+  },
+  {
+    "page_name": "Mount: Scorchsummer Ashbeak",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "Mount: Scorchsummer Ashbeak",
+    "item_type": "Basic Item",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "health": "",
+      "weight": "0.0",
+      "image": "[[File:ScorchsummerMount.png|32px]]",
+      "name": "Mount: Scorchsummer Ashbeak",
+      "hydration": "",
+      "sustenance": "",
+      "compostvalue": "",
+      "stacklimit": "99",
+      "image_raw": "ScorchsummerMount.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Mount: Scorchsummer Ashbeak"
+  },
+  {
+    "page_name": "Toktz-Xil-Ak",
+    "item_description": "A double-pointed sword that is extremely efficient at finding the weak spots in your enemies.",
+    "item_name": "Toktz-Xil-Ak",
+    "item_weight": 15,
+    "page_name_sub": "Toktz-Xil-Ak",
+    "json": {
+      "type": "Melee Weapon",
+      "description": "A double-pointed sword that is extremely efficient at finding the weak spots in your enemies.",
+      "image": "[[File:TOKTZ-XIL AK.png|32px]]",
+      "name": "Toktz-Xil-Ak",
+      "weight": "15",
+      "image_raw": "TOKTZ-XIL AK.png"
+    },
+    "item_type": "Melee Weapon"
   }
 ]
