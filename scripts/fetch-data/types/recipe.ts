@@ -7,7 +7,7 @@ export interface SourceRecipe {
   uses_recipe?: string[];
 }
 
-export interface SourceRecipeJson {
+interface SourceRecipeJson {
   facility: string;
   materials: SourceMaterial[];
   skills: SourceSkill[];
@@ -16,7 +16,7 @@ export interface SourceRecipeJson {
   recipe?: string;
 }
 
-export interface SourceMaterial {
+interface SourceMaterial {
   quantity: string | number;
   name: string;
   link: string;
@@ -25,12 +25,12 @@ export interface SourceMaterial {
   image: string;
 }
 
-export interface SourceSkill {
+interface SourceSkill {
   name: string;
   experience: string;
 }
 
-export interface SourceOutput {
+interface SourceOutput {
   quantity: string | number;
   name: string;
   link: string;

@@ -5,7 +5,13 @@ import {
 } from "@/components/Items/Materials/utils/buildMaterialsTree";
 import { getItemById } from "@/utils/itemById";
 
-import { type MarkedMaterial } from "../next-steps/types";
+type MarkedMaterial = {
+  id: string;
+  itemId: string;
+  quantity: number;
+  nodeId?: string;
+  state: "TODO" | "DONE";
+};
 
 export type OwnedMaterialEntry = {
   itemId: string;

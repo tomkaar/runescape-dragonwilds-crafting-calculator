@@ -47,7 +47,7 @@ export default function CraftingTreeContent({ treePaddingLeft }: Props) {
   return null;
 }
 
-export function getLayoutedNodes(
+function getLayoutedNodes(
   nodes: FlowNode<Node>[],
   edges: Edge[],
   direction: "TB" | "LR" = "TB",

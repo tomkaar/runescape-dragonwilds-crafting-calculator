@@ -1,6 +1,6 @@
 import * as z from "zod";
 
-export const edgeSchema = z.object({
+const edgeSchema = z.object({
   type: z.union([z.literal("edge"), z.literal("default")]),
   id: z.string(),
   source: z.string(),

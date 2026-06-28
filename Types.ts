@@ -99,14 +99,6 @@ export const Facility = [
   "Tannery",
 ] as const;
 
-/**
- * A parsed facility entry with a hashed ID and display name.
- */
-export type FacilityData = {
-  id: string;
-  name: string;
-};
-
 export const Skill = [
   "Artisan",
   "Construction",

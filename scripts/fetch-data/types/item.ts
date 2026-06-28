@@ -10,7 +10,7 @@ export interface SourceItem {
   item_repair?: string;
 }
 
-export interface SourceItemJson {
+interface SourceItemJson {
   type: string;
   description?: string;
   image: string;
@@ -26,7 +26,7 @@ export interface SourceItemJson {
   duration?: string;
 }
 
-export interface SourcePerk {
+interface SourcePerk {
   name: string;
   effect: string;
 }
