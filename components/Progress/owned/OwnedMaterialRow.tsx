@@ -8,8 +8,7 @@ import { InputGroup, InputGroupInput } from "@/components/ui/input-group";
 
 import { type OwnedMaterialEntry } from "./buildOwnedMaterials";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ArrowRightIcon, ArrowUpRight, Ellipsis, ExternalLink } from "lucide-react";
-import Link from "next/link";
+import { ArrowRight, Ellipsis, ExternalLink } from "lucide-react";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 
 type Props = {
