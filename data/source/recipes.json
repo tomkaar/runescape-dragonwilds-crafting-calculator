@@ -18114,6 +18114,68 @@
   },
   {
     "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "3",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Medium Square Foundation"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Square Foundation",
+        "link": "Medium Square Foundation",
+        "qty": 1,
+        "item": "Medium Square Foundation",
+        "image": "[[File:Medium Square Foundation (Kharidian).png|30px|link=Medium Square Foundation]]"
+      }
+    },
+    "output": [
+      "Medium Square Foundation"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -32901,8 +32963,9 @@
   {
     "uses_material": [
       "Ash Logs",
-      "Stone",
-      "Coarse Thread"
+      "Vault Core",
+      "Coarse Thread",
+      "Bronze Bar"
     ],
     "uses_skill": [
       "Construction"
@@ -32914,28 +32977,36 @@
       "facility": "Build Menu",
       "materials": [
         {
-          "quantity": "8",
+          "quantity": "20",
           "name": "Ash Logs",
           "link": "Ash Logs",
-          "qty": "8",
+          "qty": "20",
           "item": "Ash Logs",
           "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
         },
         {
-          "quantity": "4",
-          "name": "Stone",
-          "link": "Stone",
-          "qty": "4",
-          "item": "Stone",
-          "image": "[[File:Stone.png|30px|link=Stone]]"
+          "quantity": "1",
+          "name": "Vault Core",
+          "link": "Vault Core",
+          "qty": "1",
+          "item": "Vault Core",
+          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
         },
         {
-          "quantity": "1",
+          "quantity": "8",
           "name": "Coarse Thread",
           "link": "Coarse Thread",
-          "qty": "1",
+          "qty": "8",
           "item": "Coarse Thread",
           "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Bronze Bar",
+          "link": "Bronze Bar",
+          "qty": "6",
+          "item": "Bronze Bar",
+          "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
         }
       ],
       "skills": [
@@ -67793,6 +67864,174 @@
   },
   {
     "uses_material": [
+      "Garou Weave",
+      "Infinity Cloth",
+      "Garou Artifact",
+      "Refined Obsidian",
+      "Gypsum Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Lunate Shawl"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Lunate Shawl",
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "9",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "9",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Infinity Cloth",
+          "link": "Infinity Cloth",
+          "qty": "6",
+          "item": "Infinity Cloth",
+          "image": "[[File:Infinity Cloth.png|30px|link=Infinity Cloth]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Garou Artifact",
+          "link": "Garou Artifact",
+          "qty": "3",
+          "item": "Garou Artifact",
+          "image": "[[File:Garou Artifact.png|30px|link=Garou Artifact]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "3",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "3",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "125"
+        }
+      ],
+      "outputs": [
+        "Lunar Garou Robes"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Lunar Garou Robes",
+        "link": "Lunar Garou Robes",
+        "qty": "1",
+        "item": "Lunar Garou Robes",
+        "image": "[[File:Lunar Garou Robes.png|30px|link=Lunar Garou Robes]]"
+      }
+    },
+    "output": [
+      "Lunar Garou Robes"
+    ]
+  },
+  {
+    "uses_material": [
+      "Garou Weave",
+      "Infinity Cloth",
+      "Garou Artifact",
+      "Refined Obsidian",
+      "Gypsum Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Lunular Wrappings"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Lunular Wrappings",
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "6",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Infinity Cloth",
+          "link": "Infinity Cloth",
+          "qty": "4",
+          "item": "Infinity Cloth",
+          "image": "[[File:Infinity Cloth.png|30px|link=Infinity Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Garou Artifact",
+          "link": "Garou Artifact",
+          "qty": "2",
+          "item": "Garou Artifact",
+          "image": "[[File:Garou Artifact.png|30px|link=Garou Artifact]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "2",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "125"
+        }
+      ],
+      "outputs": [
+        "Lunar Garou Robe Legs"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Lunar Garou Robe Legs",
+        "link": "Lunar Garou Robe Legs",
+        "qty": "1",
+        "item": "Lunar Garou Robe Legs",
+        "image": "[[File:Lunar Garou Robe Legs.png|30px|link=Lunar Garou Robe Legs]]"
+      }
+    },
+    "output": [
+      "Lunar Garou Robe Legs"
+    ]
+  },
+  {
+    "uses_material": [
       "Bronze Bar",
       "Ash Logs",
       "Coarse Thread",
@@ -67843,7 +68082,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "12"
         }
       ],
       "outputs": [
@@ -69614,72 +69853,6 @@
   },
   {
     "uses_material": [
-      "Refined Obsidian",
-      "Scorch Leather",
-      "Desert Thread"
-    ],
-    "uses_skill": [
-      "Artisan"
-    ],
-    "uses_recipe": [
-      "Shattered Black Blade (Umbral Sands)"
-    ],
-    "uses_facility": [
-      "Blacksmith's Bench"
-    ],
-    "json": {
-      "recipe": "Shattered Black Blade (Umbral Sands)",
-      "facility": "Blacksmith's Bench",
-      "materials": [
-        {
-          "quantity": "10",
-          "name": "Refined Obsidian",
-          "link": "Refined Obsidian",
-          "qty": "10",
-          "item": "Refined Obsidian",
-          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
-        },
-        {
-          "quantity": "5",
-          "name": "Scorch Leather",
-          "link": "Scorch Leather",
-          "qty": "5",
-          "item": "Scorch Leather",
-          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
-        },
-        {
-          "quantity": "3",
-          "name": "Desert Thread",
-          "link": "Desert Thread",
-          "qty": "3",
-          "item": "Desert Thread",
-          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "100"
-        }
-      ],
-      "outputs": [
-        "TOKTZ-XIL-AK"
-      ],
-      "output": {
-        "quantity": "1",
-        "name": "TOKTZ-XIL-AK",
-        "link": "TOKTZ-XIL-AK",
-        "qty": "1",
-        "item": "TOKTZ-XIL-AK",
-        "image": "[[File:TOKTZ-XIL-AK.png|30px|link=TOKTZ-XIL-AK]]"
-      }
-    },
-    "output": [
-      "TOKTZ-XIL-AK"
-    ]
-  },
-  {
-    "uses_material": [
       "Cactus Water",
       "Dragon Tooth",
       "Toadflax"
@@ -70617,6 +70790,81 @@
   },
   {
     "uses_material": [
+      "Clay Mould",
+      "Gold Bar",
+      "Dragonstone",
+      "Vault Shard"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Commemorative Coin"
+    ],
+    "uses_facility": [
+      "Jeweler's Bench"
+    ],
+    "json": {
+      "recipe": "Commemorative Coin",
+      "facility": "Jeweler's Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Gold Bar",
+          "link": "Gold Bar",
+          "qty": "4",
+          "item": "Gold Bar",
+          "image": "[[File:Gold Bar.png|30px|link=Gold Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "4",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "6",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Amulet of Glory"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Amulet of Glory",
+        "link": "Amulet of Glory",
+        "qty": "1",
+        "item": "Amulet of Glory",
+        "image": "[[File:Amulet of Glory.png|30px|link=Amulet of Glory]]"
+      }
+    },
+    "output": [
+      "Amulet of Glory"
+    ]
+  },
+  {
+    "uses_material": [
       "Tea Leaves"
     ],
     "uses_skill": [
@@ -70670,13 +70918,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "Keris"
+      "Corroded Curved Blade"
     ],
     "uses_facility": [
       "Blacksmith's Bench"
     ],
     "json": {
-      "recipe": "Keris",
+      "recipe": "Corroded Curved Blade",
       "facility": "Blacksmith's Bench",
       "materials": [
         {
@@ -71938,10 +72186,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Shattered Black Blade (Umbral Sands)"
+    ],
     "uses_facility": [
       "Blacksmith's Bench"
     ],
     "json": {
+      "recipe": "Shattered Black Blade (Umbral Sands)",
       "facility": "Blacksmith's Bench",
       "materials": [
         {
@@ -71989,6 +72241,138 @@
     },
     "output": [
       "Toktz-Xil-Ak"
+    ]
+  },
+  {
+    "uses_material": [
+      "Refined Obsidian",
+      "Red Dragonhide Leather"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Bludgeoning Obsidian Construct"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "recipe": "Bludgeoning Obsidian Construct",
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "16",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Red Dragonhide Leather",
+          "link": "Red Dragonhide Leather",
+          "qty": "3",
+          "item": "Red Dragonhide Leather",
+          "image": "[[File:Red Dragonhide Leather.png|30px|link=Red Dragonhide Leather]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Tzhaar-Ket-Om"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Tzhaar-Ket-Om",
+        "link": "Tzhaar-Ket-Om",
+        "qty": "1",
+        "item": "Tzhaar-Ket-Om",
+        "image": "[[File:Tzhaar-Ket-Om.png|30px|link=Tzhaar-Ket-Om]]"
+      }
+    },
+    "output": [
+      "Tzhaar-Ket-Om"
+    ]
+  },
+  {
+    "uses_material": [
+      "Dire Wolf Leather",
+      "Padded Cloth",
+      "Iron Logging Axe",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Lumber Backpack"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Lumber Backpack",
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Dire Wolf Leather",
+          "link": "Dire Wolf Leather",
+          "qty": "3",
+          "item": "Dire Wolf Leather",
+          "image": "[[File:Dire Wolf Leather.png|30px|link=Dire Wolf Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Iron Logging Axe",
+          "link": "Iron Logging Axe",
+          "qty": "1",
+          "item": "Iron Logging Axe",
+          "image": "[[File:Iron Logging Axe.png|30px|link=Iron Logging Axe]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "3",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Lumber Backpack"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Lumber Backpack",
+        "link": "Lumber Backpack",
+        "qty": "1",
+        "item": "Lumber Backpack",
+        "image": "[[File:Lumber Backpack.png|30px|link=Lumber Backpack]]"
+      }
+    },
+    "output": [
+      "Lumber Backpack"
     ]
   }
 ]
