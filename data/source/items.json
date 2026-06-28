@@ -19168,19 +19168,21 @@
   },
   {
     "page_name": "Dragonfire Shield",
-    "item_description": "",
+    "item_description": "A shield forged in the wake of Fuzan's fall. Its scales still glow with a smoldering heat, as though the dragon's fury refuses to fade.",
     "item_name": "Dragonfire Shield",
-    "item_weight": 0,
-    "page_name_sub": "Dragonfire Shield",
+    "item_type": "Shield",
+    "item_stacklimit": 1,
     "json": {
       "type": "Shield",
-      "description": "",
+      "description": "A shield forged in the wake of Fuzan's fall. Its scales still glow with a smoldering heat, as though the dragon's fury refuses to fade.",
       "image": "[[File:Dragonfire Shield.png|32px]]",
       "name": "Dragonfire Shield",
-      "weight": "",
+      "weight": "10.0",
+      "stacklimit": "1",
       "image_raw": "Dragonfire Shield.png"
     },
-    "item_type": "Shield"
+    "item_weight": 10,
+    "page_name_sub": "Dragonfire Shield"
   },
   {
     "page_name": "Fibrous Pipe Cactus",
@@ -19222,13 +19224,45 @@
       "type": "Mage Armour",
       "description": "A lenar-infused hood designed to complement the garou robes, Suitable for magic users, enhancing healing abilities at night.",
       "repaircost": "",
-      "image": "",
+      "image": "[[File:Lunar Garou Hat.png|32px]]",
       "name": "Lunar Garou Hat",
       "weight": "4.0",
-      "image_raw": ""
+      "image_raw": "Lunar Garou Hat.png"
     },
     "item_repair": "",
     "item_weight": 4
+  },
+  {
+    "page_name": "Lunar Garou Robes",
+    "item_description": "Robes woven under the light of a full moon, imbued with the wild power of the garou. Suitable for magic users, enhancing healing abilities at night.",
+    "item_name": "Lunar Garou Robes",
+    "item_weight": 8,
+    "page_name_sub": "Lunar Garou Robes",
+    "json": {
+      "type": "Mage Armour",
+      "description": "Robes woven under the light of a full moon, imbued with the wild power of the garou. Suitable for magic users, enhancing healing abilities at night.",
+      "image": "[[File:Lunar Garou Robes.png|32px]]",
+      "name": "Lunar Garou Robes",
+      "weight": "8.0",
+      "image_raw": "Lunar Garou Robes.png"
+    },
+    "item_type": "Mage Armour"
+  },
+  {
+    "page_name": "Lunar Garou Robe Legs",
+    "item_description": "Lunar-imbued leggings that complete the garou robe set. Suitable for magic users, enhancing healing abilities at night.",
+    "item_name": "Lunar Garou Robe Legs",
+    "item_weight": 6,
+    "page_name_sub": "Lunar Garou Robe Legs",
+    "json": {
+      "type": "Mage Armour",
+      "description": "Lunar-imbued leggings that complete the garou robe set. Suitable for magic users, enhancing healing abilities at night.",
+      "image": "[[File:Lunar Garou Robe Legs.png|32px]]",
+      "name": "Lunar Garou Robe Legs",
+      "weight": "6.0",
+      "image_raw": "Lunar Garou Robe Legs.png"
+    },
+    "item_type": "Mage Armour"
   },
   {
     "page_name": "Garou Weave",
@@ -20152,13 +20186,13 @@
     "page_name": "Amulet of Glory",
     "item_stacklimit": 1,
     "item_name": "Amulet of Glory",
-    "item_weight": 0,
+    "item_weight": 2,
     "page_name_sub": "Amulet of Glory",
     "json": {
       "type": "Trinket",
       "image": "[[File:Amulet of Glory.png|32px]]",
       "name": "Amulet of Glory",
-      "weight": "",
+      "weight": "2.0",
       "stacklimit": "1",
       "image_raw": "Amulet of Glory.png"
     },
@@ -20613,6 +20647,24 @@
     "item_weight": 4
   },
   {
+    "page_name": "Commemorative Coin",
+    "item_description": "Perhaps you could learn something from it.",
+    "item_name": "Commemorative Coin",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn something from it.",
+      "image": "[[File:Commemorative Coin.png|32px]]",
+      "name": "Commemorative Coin",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Commemorative Coin.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Commemorative Coin"
+  },
+  {
     "page_name": "Shattered Black Blade (Umbral Sands)",
     "item_description": "Perhaps you could learn something from it.",
     "item_name": "Shattered Black Blade (Umbral Sands)",
@@ -20755,11 +20807,179 @@
     "json": {
       "type": "Melee Weapon",
       "description": "A double-pointed sword that is extremely efficient at finding the weak spots in your enemies.",
-      "image": "[[File:TOKTZ-XIL AK.png|32px]]",
+      "image": "[[File:Toktz-Xil-Ak.png|32px]]",
       "name": "Toktz-Xil-Ak",
       "weight": "15",
-      "image_raw": "TOKTZ-XIL AK.png"
+      "image_raw": "Toktz-Xil-Ak.png"
     },
     "item_type": "Melee Weapon"
+  },
+  {
+    "page_name": "Tzhaar-Ket-Om",
+    "item_description": "A massive warhammer of obsidian hue. Each swing carries the weight of something ancient.",
+    "item_name": "Tzhaar-Ket-Om",
+    "item_type": "Melee Weapon",
+    "item_stacklimit": 1,
+    "json": {
+      "type": "Melee Weapon",
+      "description": "A massive warhammer of obsidian hue. Each swing carries the weight of something ancient.",
+      "health": "",
+      "weight": "25.0",
+      "image": "[[File:Tzhaar-Ket-Om.png|32px]]",
+      "name": "Tzhaar-Ket-Om",
+      "hydration": "",
+      "sustenance": "",
+      "compostvalue": "",
+      "stacklimit": "1",
+      "image_raw": "Tzhaar-Ket-Om.png"
+    },
+    "item_weight": 25,
+    "page_name_sub": "Tzhaar-Ket-Om"
+  },
+  {
+    "page_name": "Tome of Volcano",
+    "item_description": "A powerful tome containing ancient techniques of warfare. Grants a large amount of experience in the [[Attack]], [[Magic]] and [[Ranged]] skills.",
+    "item_name": "Tome of Volcano",
+    "item_type": "Tome",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Tome",
+      "description": "A powerful tome containing ancient techniques of warfare. Grants a large amount of experience in the [[Attack]], [[Magic]] and [[Ranged]] skills.",
+      "health": "",
+      "weight": "6.0",
+      "image": "[[File:Tome of Volcano.png|32px]]",
+      "name": "Tome of Volcano",
+      "hydration": "",
+      "sustenance": "",
+      "compostvalue": "",
+      "stacklimit": "99",
+      "image_raw": "Tome of Volcano.png"
+    },
+    "item_weight": 6,
+    "page_name_sub": "Tome of Volcano"
+  },
+  {
+    "page_name": "Lumber Backpack",
+    "item_description": "Stylish? Yes! But not only that... A highly functional backpack that improves your luck with rare wood resource drops. It also lightens the weight of carried wood, and gives a gentle boost to woodcutting progression.",
+    "item_name": "Lumber Backpack",
+    "item_type": "Basic Item",
+    "item_stacklimit": 1,
+    "json": {
+      "type": "Basic Item",
+      "description": "Stylish? Yes! But not only that... A highly functional backpack that improves your luck with rare wood resource drops. It also lightens the weight of carried wood, and gives a gentle boost to woodcutting progression.",
+      "image": "[[File:Lumber Backpack.png|32px]]",
+      "name": "Lumber Backpack",
+      "weight": "0",
+      "stacklimit": "1",
+      "image_raw": "Lumber Backpack.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Lumber Backpack"
+  },
+  {
+    "page_name": "Lunate Shawl",
+    "item_description": "Perhaps you could learn from it",
+    "item_name": "Lunate Shawl",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn from it",
+      "image": "[[File:Lunate Shawl.png|32px]]",
+      "name": "Lunate Shawl",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "Lunate Shawl.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Lunate Shawl"
+  },
+  {
+    "page_name": "Garou Artifact",
+    "item_description": "An object of garou origin that might hold value with local traders.",
+    "item_name": "Garou Artifact",
+    "item_weight": 1.5,
+    "page_name_sub": "Garou Artifact",
+    "json": {
+      "type": "Basic Material",
+      "description": "An object of garou origin that might hold value with local traders.",
+      "image": "[[File:Garou Artifact.png|32px]]",
+      "name": "Garou Artifact",
+      "weight": "1.5",
+      "image_raw": "Garou Artifact.png"
+    },
+    "item_type": "Basic Material"
+  },
+  {
+    "page_name": "Lunular Wrappings",
+    "item_description": "Perhaps you could learn from it",
+    "item_name": "Lunular Wrappings",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn from it",
+      "image": "[[File:Lunular Wrappings.png|32px]]",
+      "name": "Lunular Wrappings",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "Lunular Wrappings.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Lunular Wrappings"
+  },
+  {
+    "page_name": "Selenic Veil",
+    "item_description": "Perhaps you could learn from it",
+    "item_name": "Selenic Veil",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn from it",
+      "image": "[[File:Selenic Veil.png|32px]]",
+      "name": "Selenic Veil",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "Selenic Veil.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Selenic Veil"
+  },
+  {
+    "page_name": "An Ember Edged Remnant of Cloth",
+    "item_description": "Perhaps you could learn from it",
+    "item_name": "An Ember Edged Remnant of Cloth",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn from it",
+      "image": "[[File:An Ember Edged Remnant of Cloth.png|32px]]",
+      "name": "An Ember Edged Remnant of Cloth",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "An Ember Edged Remnant of Cloth.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "An Ember Edged Remnant of Cloth"
+  },
+  {
+    "page_name": "Corroded Curved Blade",
+    "item_description": "Perhaps you could learn from it",
+    "item_name": "Corroded Curved Blade",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn from it",
+      "image": "[[File:Corroded Curved Blade.png|32px]]",
+      "name": "Corroded Curved Blade",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "Corroded Curved Blade.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Corroded Curved Blade"
   }
 ]

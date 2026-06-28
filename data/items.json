@@ -11402,6 +11402,34 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "15a34368bddb",
+        "name": "Medium Square Foundation",
+        "image": "Medium Square Foundation (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "95c34e511723",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ecd2d28bd4e4",
+              "quantity": 3
+            },
+            {
+              "itemId": "464881ef1d16",
+              "quantity": 3
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -21031,27 +21059,31 @@
     "image": "Fletching Bench.png",
     "variants": [
       {
-        "id": "65ca77139447",
+        "id": "648e9a4fb63e",
         "name": "Fletching Bench",
         "image": "Fletching Bench.png",
         "variantName": null,
         "recipe": {
-          "id": "d32447801d3b",
+          "id": "03ab97f49fb7",
           "facilities": [
             "Build Menu"
           ],
           "materials": [
             {
               "itemId": "15f83d07dd09",
-              "quantity": 8
+              "quantity": 20
+            },
+            {
+              "itemId": "c1117f9270a0",
+              "quantity": 6
             },
             {
               "itemId": "31bf063bedfe",
-              "quantity": 1
+              "quantity": 8
             },
             {
-              "itemId": "6ffa6b8b1c9f",
-              "quantity": 4
+              "itemId": "2cb47baaee19",
+              "quantity": 1
             }
           ],
           "quantity": 1
@@ -44536,6 +44568,112 @@
     "weight": 4
   },
   {
+    "id": "a19bac59d16a",
+    "name": "Lunar Garou Robes",
+    "image": "Lunar Garou Robes.png",
+    "variants": [
+      {
+        "id": "d2e2e3ea12fa",
+        "name": "Lunar Garou Robes",
+        "image": "Lunar Garou Robes.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f8a243df2e2b",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "5263805c3e23",
+              "quantity": 3
+            },
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 9
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 3
+            },
+            {
+              "itemId": "543684a14c55",
+              "quantity": 6
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Lunate Shawl"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Lunar_Garou_Robes",
+    "weight": 8
+  },
+  {
+    "id": "36044176bef0",
+    "name": "Lunar Garou Robe Legs",
+    "image": "Lunar Garou Robe Legs.png",
+    "variants": [
+      {
+        "id": "9e317b13b21f",
+        "name": "Lunar Garou Robe Legs",
+        "image": "Lunar Garou Robe Legs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "84e991426f38",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "5263805c3e23",
+              "quantity": 2
+            },
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 6
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 2
+            },
+            {
+              "itemId": "543684a14c55",
+              "quantity": 4
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Lunular Wrappings"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Lunar_Garou_Robe_Legs",
+    "weight": 6
+  },
+  {
     "id": "72948755fb60",
     "name": "Blacksmith's Bench",
     "image": "Blacksmith's Bench.png",
@@ -45787,50 +45925,6 @@
     "stackLimit": 50
   },
   {
-    "id": "96c305ad3967",
-    "name": "TOKTZ-XIL-AK",
-    "image": "TOKTZ-XIL-AK.png",
-    "variants": [
-      {
-        "id": "de996e1f560d",
-        "name": "TOKTZ-XIL-AK",
-        "image": "TOKTZ-XIL-AK.png",
-        "variantName": null,
-        "recipe": {
-          "id": "2f4dee0b1f8e",
-          "facilities": [
-            "Blacksmith's Bench"
-          ],
-          "materials": [
-            {
-              "itemId": "9e1cedfc6c7e",
-              "quantity": 3
-            },
-            {
-              "itemId": "9f21a3681ffa",
-              "quantity": 10
-            },
-            {
-              "itemId": "71b251e7a3b5",
-              "quantity": 5
-            }
-          ],
-          "quantity": 1
-        },
-        "usesRecipe": [
-          "Shattered Black Blade (Umbral Sands)"
-        ]
-      }
-    ],
-    "skills": [
-      "Artisan"
-    ],
-    "facilities": [
-      "Blacksmith's Bench"
-    ],
-    "wikiLink": "TOKTZ-XIL-AK"
-  },
-  {
     "id": "564fc7c4d33a",
     "name": "Cooling Ferocious Infusion",
     "image": "Cooling Ferocious Infusion.png",
@@ -46454,6 +46548,56 @@
     "stackLimit": 50
   },
   {
+    "id": "81aa481ea9e7",
+    "name": "Amulet of Glory",
+    "image": "Amulet of Glory.png",
+    "variants": [
+      {
+        "id": "f8da141e54f1",
+        "name": "Amulet of Glory",
+        "image": "Amulet of Glory.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f08182a4a479",
+          "facilities": [
+            "Jeweler's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "604b383a6ff3",
+              "quantity": 1
+            },
+            {
+              "itemId": "888dae826aaa",
+              "quantity": 4
+            },
+            {
+              "itemId": "4338f5798748",
+              "quantity": 4
+            },
+            {
+              "itemId": "9ca5b1c17952",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Commemorative Coin"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
+    ],
+    "wikiLink": "Amulet_of_Glory",
+    "weight": 2,
+    "stackLimit": 1
+  },
+  {
     "id": "e06e03b5160e",
     "name": "Dried Tea Leaves",
     "image": "Dried Tea Leaves.png",
@@ -46524,7 +46668,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "Keris"
+          "Corroded Curved Blade"
         ]
       }
     ],
@@ -47534,7 +47678,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Shattered Black Blade (Umbral Sands)"
+        ]
       }
     ],
     "skills": [
@@ -47545,6 +47691,98 @@
     ],
     "wikiLink": "Toktz-Xil-Ak",
     "weight": 15
+  },
+  {
+    "id": "b8d4930e8dc5",
+    "name": "Tzhaar-Ket-Om",
+    "image": "Tzhaar-Ket-Om.png",
+    "variants": [
+      {
+        "id": "b522f18c06bb",
+        "name": "Tzhaar-Ket-Om",
+        "image": "Tzhaar-Ket-Om.png",
+        "variantName": null,
+        "recipe": {
+          "id": "eb0bbebe4af2",
+          "facilities": [
+            "Blacksmith's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "cf0c0bc3d037",
+              "quantity": 3
+            },
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 16
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Bludgeoning Obsidian Construct"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Tzhaar-Ket-Om",
+    "weight": 25,
+    "stackLimit": 1
+  },
+  {
+    "id": "633edf7d13a9",
+    "name": "Lumber Backpack",
+    "image": "Lumber Backpack.png",
+    "variants": [
+      {
+        "id": "443efdb49f6c",
+        "name": "Lumber Backpack",
+        "image": "Lumber Backpack.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2b9b746b5ccd",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 3
+            },
+            {
+              "itemId": "0b1996917094",
+              "quantity": 3
+            },
+            {
+              "itemId": "7a693a4ca251",
+              "quantity": 1
+            },
+            {
+              "itemId": "2fe76a9f24cd",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Lumber Backpack"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Lumber_Backpack",
+    "weight": 0,
+    "stackLimit": 1
   },
   {
     "id": "6a5fa59fd28f",
@@ -57130,7 +57368,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Dragonfire_Shield",
-    "weight": 0
+    "weight": 10,
+    "stackLimit": 1
   },
   {
     "id": "ad8d315f027d",
@@ -57411,26 +57650,6 @@
     "stackLimit": 99
   },
   {
-    "id": "81aa481ea9e7",
-    "name": "Amulet of Glory",
-    "image": "Amulet of Glory.png",
-    "variants": [
-      {
-        "id": "81aa481ea9e7",
-        "name": "Amulet of Glory",
-        "image": "Amulet of Glory.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Amulet_of_Glory",
-    "weight": 0,
-    "stackLimit": 1
-  },
-  {
     "id": "ca82c301e8d5",
     "name": "Plate of Pure Obsidian",
     "image": "Plate of Pure Obsidian.png",
@@ -57651,6 +57870,26 @@
     "stackLimit": 0
   },
   {
+    "id": "001bf56f7721",
+    "name": "Commemorative Coin",
+    "image": "Commemorative Coin.png",
+    "variants": [
+      {
+        "id": "001bf56f7721",
+        "name": "Commemorative Coin",
+        "image": "Commemorative Coin.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Commemorative_Coin",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
     "id": "a6f4f4572e9c",
     "name": "Shattered Black Blade (Umbral Sands)",
     "image": "Shattered Black Blade (Umbral Sands).png",
@@ -57707,6 +57946,145 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Mount:_Scorchsummer_Ashbeak",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "e82aadf13a49",
+    "name": "Tome of Volcano",
+    "image": "Tome of Volcano.png",
+    "variants": [
+      {
+        "id": "e82aadf13a49",
+        "name": "Tome of Volcano",
+        "image": "Tome of Volcano.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Tome_of_Volcano",
+    "weight": 6,
+    "stackLimit": 99
+  },
+  {
+    "id": "400716a7ebe7",
+    "name": "Lunate Shawl",
+    "image": "Lunate Shawl.png",
+    "variants": [
+      {
+        "id": "400716a7ebe7",
+        "name": "Lunate Shawl",
+        "image": "Lunate Shawl.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Lunate_Shawl",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "5263805c3e23",
+    "name": "Garou Artifact",
+    "image": "Garou Artifact.png",
+    "variants": [
+      {
+        "id": "5263805c3e23",
+        "name": "Garou Artifact",
+        "image": "Garou Artifact.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Garou_Artifact",
+    "weight": 1.5
+  },
+  {
+    "id": "47aef52c0788",
+    "name": "Lunular Wrappings",
+    "image": "Lunular Wrappings.png",
+    "variants": [
+      {
+        "id": "47aef52c0788",
+        "name": "Lunular Wrappings",
+        "image": "Lunular Wrappings.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Lunular_Wrappings",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "a88d867de8f3",
+    "name": "Selenic Veil",
+    "image": "Selenic Veil.png",
+    "variants": [
+      {
+        "id": "a88d867de8f3",
+        "name": "Selenic Veil",
+        "image": "Selenic Veil.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Selenic_Veil",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "79ca410b40a1",
+    "name": "An Ember Edged Remnant of Cloth",
+    "image": "An Ember Edged Remnant of Cloth.png",
+    "variants": [
+      {
+        "id": "79ca410b40a1",
+        "name": "An Ember Edged Remnant of Cloth",
+        "image": "An Ember Edged Remnant of Cloth.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "An_Ember_Edged_Remnant_of_Cloth",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "3aea8b0681fe",
+    "name": "Corroded Curved Blade",
+    "image": "Corroded Curved Blade.png",
+    "variants": [
+      {
+        "id": "3aea8b0681fe",
+        "name": "Corroded Curved Blade",
+        "image": "Corroded Curved Blade.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Corroded_Curved_Blade",
     "weight": 0,
     "stackLimit": 99
   }
