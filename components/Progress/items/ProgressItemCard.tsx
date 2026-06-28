@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { ArrowRight, ChevronRight, RotateCcw, Trash2 } from "lucide-react";
+import { ChevronRight, Trash2 } from "lucide-react";
 
 import { type Item } from "@/Types";
 import {
@@ -38,8 +38,6 @@ type Props = {
 };
 
 export function ProgressItemCard({ itemId, item }: Props) {
-  const materials = useSelectedMaterial((state) => state.items[itemId] ?? []);
-  const resetAllToTodo = useSelectedMaterial((state) => state.resetAllToTodo);
   const clearMarkedMaterials = useSelectedMaterial(
     (state) => state.clearMarkedMaterials,
   );
@@ -96,9 +94,8 @@ export function ProgressItemCard({ itemId, item }: Props) {
 
       <AccordionContent className="px-4 pb-4 text-foreground flex flex-col gap-4 pt-4">
         <div className="flex items-center gap-2">
-          <Button variant="outline" className="cursor-pointer" asChild>
+          <Button variant="outline" size="icon" className="cursor-pointer" asChild>
             <Link href={`/item/${itemId}`}>
-              <span className="hidden md:inline lg:hidden xl:inline">Item</span>
               <ChevronRight className="size-4" />
             </Link>
           </Button>
@@ -113,24 +110,12 @@ export function ProgressItemCard({ itemId, item }: Props) {
             />
             <InputGroupAddon align="inline-end">×</InputGroupAddon>
           </InputGroup>
-          <Button
-            variant="outline"
-            size="sm"
-            disabled={materials.length === 0}
-            className="ml-auto"
-            onClick={() => resetAllToTodo(itemId)}
-          >
-            <RotateCcw className="size-4" />
-            <span className="hidden md:inline lg:hidden xl:inline">
-              Reset to Todo
-            </span>
-          </Button>
           <AlertDialog>
             <AlertDialogTrigger asChild>
               <Button
                 variant="outline"
                 size="sm"
-                className="text-destructive hover:text-destructive"
+                className="ml-auto text-destructive hover:text-destructive"
               >
                 <Trash2 className="size-4" />
                 <span className="hidden md:inline lg:hidden xl:inline">

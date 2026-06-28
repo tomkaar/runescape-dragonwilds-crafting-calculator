@@ -31,7 +31,6 @@ const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
       length: props.data.numberOfRecipies || 0,
     });
     const startsWith = items
-      .filter((i) => i.state === "DONE")
       .map((i) => i.nodeId)
       .filter((i) => i !== undefined)
       .some(
@@ -49,18 +48,12 @@ const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
         ref={ref}
         className={cn(
           "flex flex-col items-center justify-center bg-card hover:bg-secondary border border-border rounded-lg",
-          added && added.state === "TODO"
-            ? "bg-blue-900/50 hover:bg-blue-900"
-            : "",
-          added && added.state === "DONE"
-            ? "bg-green-900/50 hover:bg-green-900"
-            : "",
           props.data.numberOfRecipies &&
             props.data.numberOfRecipies > 1 &&
             "border border-dashed border-title",
           props.data.isRecipeNumberVariant !== null &&
             "border border-dashed border-title",
-          startsWith && "opacity-50",
+          // startsWith && "opacity-50",
           isSet && !isHovered && "opacity-25",
         )}
         onMouseEnter={() => enter(props.id)}
@@ -132,17 +125,12 @@ const Content = memo(function InnerContent(props: ContentProps) {
   const items = i[initialItemId] || [];
   const added = items.find((item) => item.nodeId === nodeId);
   const addAnItem = useSelectedMaterial((state) => state.addAnItem);
-  const markAsDone = useSelectedMaterial((state) => state.markAsDone);
   const removeAnItemByNodeId = useSelectedMaterial(
     (state) => state.removeAnItemByNodeId,
   );
 
   const handleToggleItem = () => {
     if (added) {
-      if (added.state === "TODO") {
-        markAsDone(initialItemId, added.id);
-        return;
-      }
       removeAnItemByNodeId(initialItemId, nodeId);
       return;
     }

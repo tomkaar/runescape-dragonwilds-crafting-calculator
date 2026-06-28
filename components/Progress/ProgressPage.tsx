@@ -11,8 +11,7 @@ import { useStoreHydration } from "@/store/useStoreHydration";
 
 import { ProgressEmptyState } from "./ProgressEmptyState";
 import { ProgressItemCard } from "./items/ProgressItemCard";
-import { ProgressNextSteps } from "./next-steps/ProgressNextSteps";
-import { ProgressSummary } from "./summary/ProgressSummary";
+import { ProgressOwnedMaterials } from "./owned/ProgressOwnedMaterials";
 
 export function ProgressPage() {
   const _hasHydrated = useStoreHydration(useSelectedMaterial);
@@ -66,11 +65,7 @@ export function ProgressPage() {
       </div>
 
       <div className="flex-1 lg:shrink-0 lg:overflow-y-auto">
-        <ProgressNextSteps trackedItemIds={trackedItemIds} />
-      </div>
-
-      <div className="lg:w-80 lg:shrink-0 lg:overflow-y-auto">
-        <ProgressSummary trackedItemIds={trackedItemIds} />
+        <ProgressOwnedMaterials trackedItemIds={trackedItemIds} />
       </div>
     </div>
   );

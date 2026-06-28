@@ -6,10 +6,8 @@ import { CraftingTree } from "@/components/CraftingTree/CraftingTree";
 import { Panel } from "@xyflow/react";
 import { ItemInfoBox } from "@/components/Items/InfoBox/InfoBox";
 import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
-import { AccordionAllMaterials } from "../../../../components/Items/AllMaterials/AllMaterials";
 import { AccordionCraftingTree } from "../../../../components/Items/CraftingTree/CraftingTree";
 import { AccordionMaterials } from "../../../../components/Items/Materials/Materials";
-import { AccordionNextSteps } from "../../../../components/Items/NextSteps/NextSteps";
 import { AccordionUsedIn } from "../../../../components/Items/UsedIn/UsedIn";
 import { ClearSelected } from "../../../../components/CraftingTree/Buttons/ClearSelected";
 import { Direction } from "../../../../components/CraftingTree/Buttons/Direction";
@@ -49,9 +47,7 @@ export default async function ItemPage(props: Props) {
 
         <AccordionPersisted className="flex flex-col gap-2 pb-2">
           <AccordionMaterials itemId={itemId} />
-          <AccordionNextSteps itemId={itemId} />
           <AccordionUsedIn itemId={itemId} />
-          <AccordionAllMaterials />
           <AccordionCraftingTree itemId={itemId} />
         </AccordionPersisted>
       </div>
@@ -74,9 +70,7 @@ export default async function ItemPage(props: Props) {
             <div className="overflow-scroll rounded-lg flex flex-col gap-4 pb-8">
               <AccordionPersisted className="flex flex-col gap-2 pb-2">
                 <AccordionMaterials itemId={itemId} />
-                <AccordionNextSteps itemId={itemId} />
                 <AccordionUsedIn itemId={itemId} />
-                <AccordionAllMaterials />
               </AccordionPersisted>
             </div>
           </Panel>

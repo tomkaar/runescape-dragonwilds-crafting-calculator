@@ -17,7 +17,7 @@ import { type MaterialTreeItem } from "../utils/buildMaterialsTree";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
-import { CheckboxIndeterminate } from "@/components/ui/checkbox";
+import { Checkbox } from "@/components/ui/checkbox";
 import { FieldContent, FieldGroup, FieldLabel } from "@/components/ui/field";
 import { useCraftingTreeHover } from "@/context/crafting-tree-hover";
 
@@ -90,7 +90,6 @@ export function MaterialTreeNode({
   const anyDescendantChecked = hasCheckedDescendant(item, items);
 
   const addAnItem = useSelectedMaterial((state) => state.addAnItem);
-  const markAsDone = useSelectedMaterial((state) => state.markAsDone);
   const removeAnItemByNodeId = useSelectedMaterial(
     (state) => state.removeAnItemByNodeId,
   );
@@ -101,10 +100,6 @@ export function MaterialTreeNode({
   const handleToggleItem = (e?: React.SyntheticEvent) => {
     e?.stopPropagation();
     if (added) {
-      if (added.state === "TODO") {
-        markAsDone(initialItemId, added.id);
-        return;
-      }
       removeAnItemByNodeId(initialItemId, item.nodeId);
       return;
     }
@@ -119,12 +114,7 @@ export function MaterialTreeNode({
   };
 
   const checkboxId = `material-checkbox-${item.nodeId}`;
-  const checkboxState =
-    added?.state === "DONE"
-      ? true
-      : added?.state === "TODO"
-        ? "indeterminate"
-        : false;
+  const checkboxState = !!added;
 
   if ("children" in item && item.children.length > 0) {
     return (
@@ -135,7 +125,7 @@ export function MaterialTreeNode({
       >
         <div className="flex flex-row gap-2 items-center">
           {item.variantNumber === undefined && (
-            <CheckboxIndeterminate
+            <Checkbox
               onClick={handleToggleItem}
               checked={checkboxState}
             />
@@ -214,7 +204,7 @@ export function MaterialTreeNode({
         data-orientation="horizontal"
         className="flex flex-row gap-2 items-center"
       >
-        <CheckboxIndeterminate
+        <Checkbox
           id={checkboxId}
           checked={checkboxState}
           onCheckedChange={() => handleToggleItem()}
