@@ -12889,6 +12889,68 @@
   },
   {
     "uses_material": [
+      "Yew Plank",
+      "Ground Sandstone",
+      "Dirty Water"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "4",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "3",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "30° Stairs"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "30° Stairs",
+        "link": "30° Stairs",
+        "qty": 1,
+        "item": "30° Stairs",
+        "image": "[[File:30° Stairs (Kharidian).png|30px|link=30° Stairs]]"
+      }
+    },
+    "output": [
+      "30° Stairs"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -13000,7 +13062,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": ""
+          "experience": "?"
         }
       ],
       "outputs": [
@@ -13013,6 +13075,68 @@
         "qty": 1,
         "item": "45° Stairs",
         "image": "[[File:45° Stairs (Castle).png|30px|link=45° Stairs]]"
+      }
+    },
+    "output": [
+      "45° Stairs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank",
+      "Ground Sandstone",
+      "Dirty Water"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "4",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "3",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "45° Stairs"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "45° Stairs",
+        "link": "45° Stairs",
+        "qty": 1,
+        "item": "45° Stairs",
+        "image": "[[File:45° Stairs (Kharidian).png|30px|link=45° Stairs]]"
       }
     },
     "output": [
@@ -13145,6 +13269,68 @@
         "qty": 1,
         "item": "Inner Corner 45° Stairs",
         "image": "[[File:Inner Corner 45° Stairs (Castle).png|30px|link=Inner Corner 45° Stairs]]"
+      }
+    },
+    "output": [
+      "Inner Corner 45° Stairs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank",
+      "Ground Sandstone",
+      "Dirty Water"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "4",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "3",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Inner Corner 45° Stairs"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Inner Corner 45° Stairs",
+        "link": "Inner Corner 45° Stairs",
+        "qty": 1,
+        "item": "Inner Corner 45° Stairs",
+        "image": "[[File:Inner Corner 45° Stairs (Kharidian).png|30px|link=Inner Corner 45° Stairs]]"
       }
     },
     "output": [
@@ -17805,6 +17991,210 @@
   },
   {
     "uses_material": [
+      "Sandstone",
+      "Dirty Water",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Sandstone",
+          "link": "Sandstone",
+          "qty": "2",
+          "item": "Sandstone",
+          "image": "[[File:Sandstone.png|30px|link=Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Medium Triangular Foundation"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Triangular Foundation",
+        "link": "Medium Triangular Foundation",
+        "qty": 1,
+        "item": "Medium Triangular Foundation",
+        "image": "[[File:Medium Triangular Foundation (Kharidian).png|30px|link=Medium Triangular Foundation]]"
+      }
+    },
+    "output": [
+      "Medium Triangular Foundation"
+    ]
+  },
+  {
+    "uses_material": [
+      "Redberries",
+      "Sandstone",
+      "Dirty Water",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "2",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Sandstone",
+          "link": "Sandstone",
+          "qty": "2",
+          "item": "Sandstone",
+          "image": "[[File:Sandstone.png|30px|link=Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Medium Triangular Foundation"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Triangular Foundation",
+        "link": "Medium Triangular Foundation",
+        "qty": 1,
+        "item": "Medium Triangular Foundation",
+        "image": "[[File:Medium Triangular Foundation (Kharidian) (Red).png|30px|link=Medium Triangular Foundation]]"
+      }
+    },
+    "output": [
+      "Medium Triangular Foundation"
+    ]
+  },
+  {
+    "uses_material": [
+      "Flax",
+      "Sandstone",
+      "Dirty Water",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Flax",
+          "link": "Flax",
+          "qty": "2",
+          "item": "Flax",
+          "image": "[[File:Flax.png|30px|link=Flax]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Sandstone",
+          "link": "Sandstone",
+          "qty": "2",
+          "item": "Sandstone",
+          "image": "[[File:Sandstone.png|30px|link=Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Medium Triangular Foundation"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Triangular Foundation",
+        "link": "Medium Triangular Foundation",
+        "qty": 1,
+        "item": "Medium Triangular Foundation",
+        "image": "[[File:Medium Triangular Foundation (Kharidian) (Blue).png|30px|link=Medium Triangular Foundation]]"
+      }
+    },
+    "output": [
+      "Medium Triangular Foundation"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs",
       "Stone"
     ],
@@ -18168,6 +18558,148 @@
         "qty": 1,
         "item": "Medium Square Foundation",
         "image": "[[File:Medium Square Foundation (Kharidian).png|30px|link=Medium Square Foundation]]"
+      }
+    },
+    "output": [
+      "Medium Square Foundation"
+    ]
+  },
+  {
+    "uses_material": [
+      "Redberries",
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": 1,
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "3",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Medium Square Foundation"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Square Foundation",
+        "link": "Medium Square Foundation",
+        "qty": 1,
+        "item": "Medium Square Foundation",
+        "image": "[[File:Medium Square Foundation (Kharidian) (Red).png|30px|link=Medium Square Foundation]]"
+      }
+    },
+    "output": [
+      "Medium Square Foundation"
+    ]
+  },
+  {
+    "uses_material": [
+      "Flax",
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Flax",
+          "link": "Flax",
+          "qty": 1,
+          "item": "Flax",
+          "image": "[[File:Flax.png|30px|link=Flax]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "3",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Medium Square Foundation"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Square Foundation",
+        "link": "Medium Square Foundation",
+        "qty": 1,
+        "item": "Medium Square Foundation",
+        "image": "[[File:Medium Square Foundation (Kharidian) (Blue).png|30px|link=Medium Square Foundation]]"
       }
     },
     "output": [
@@ -29553,6 +30085,68 @@
   },
   {
     "uses_material": [
+      "Yew Plank",
+      "Ground Sandstone",
+      "Dirty Water"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "4",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "3",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Outer Corner 45° Stairs"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Outer Corner 45° Stairs",
+        "link": "Outer Corner 45° Stairs",
+        "qty": 1,
+        "item": "Outer Corner 45° Stairs",
+        "image": "[[File:Outer Corner 45° Stairs (Castle).png|30px|link=Outer Corner 45° Stairs]]"
+      }
+    },
+    "output": [
+      "Outer Corner 45° Stairs"
+    ]
+  },
+  {
+    "uses_material": [
       "Oak Logs"
     ],
     "uses_skill": [
@@ -37089,10 +37683,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -37121,10 +37715,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51360,10 +51954,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51392,10 +51986,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51424,10 +52018,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51456,10 +52050,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51488,10 +52082,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51520,10 +52114,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51552,10 +52146,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51584,10 +52178,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51616,10 +52210,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51648,10 +52242,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51680,10 +52274,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51712,10 +52306,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51744,10 +52338,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51776,10 +52370,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51808,10 +52402,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -51840,10 +52434,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -52195,10 +52789,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -52227,10 +52821,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -52741,10 +53335,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -52773,10 +53367,10 @@
       "Artisan"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Mystic Forge",
       "materials": [],
       "skills": [
         {
@@ -71410,19 +72004,62 @@
     ]
   },
   {
+    "uses_material": [
+      "Kalphite Shell",
+      "Scorch Leather",
+      "Gypsum Wax",
+      "Garou Weave"
+    ],
     "uses_skill": [
       "Artisan"
+    ],
+    "uses_recipe": [
+      "Chitinous Carapace"
     ],
     "uses_facility": [
       "Armour Bench"
     ],
     "json": {
+      "recipe": "Chitinous Carapace",
       "facility": "Armour Bench",
-      "materials": [],
+      "materials": [
+        {
+          "quantity": "15",
+          "name": "Kalphite Shell",
+          "link": "Kalphite Shell",
+          "qty": "15",
+          "item": "Kalphite Shell",
+          "image": "[[File:Kalphite Shell.png|30px|link=Kalphite Shell]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "8",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "3",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "6",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        }
+      ],
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -72373,6 +73010,156 @@
     },
     "output": [
       "Lumber Backpack"
+    ]
+  },
+  {
+    "uses_material": [
+      "Kalphite Shell",
+      "Scorch Leather",
+      "Gypsum Wax",
+      "Garou Weave"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Twtiching Antenna"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Twtiching Antenna",
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Kalphite Shell",
+          "link": "Kalphite Shell",
+          "qty": "6",
+          "item": "Kalphite Shell",
+          "image": "[[File:Kalphite Shell.png|30px|link=Kalphite Shell]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "2",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "1",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "2",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Kalphite Carapace Helmet"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Kalphite Carapace Helmet",
+        "link": "Kalphite Carapace Helmet",
+        "qty": "1",
+        "item": "Kalphite Carapace Helmet",
+        "image": "[[File:Kalphite Carapace Helmet.png|30px|link=Kalphite Carapace Helmet]]"
+      }
+    },
+    "output": [
+      "Kalphite Carapace Helmet"
+    ]
+  },
+  {
+    "uses_material": [
+      "Kalphite Shell",
+      "Scorch Leather",
+      "Gypsum Wax",
+      "Garou Weave"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Barbed Appendage"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Barbed Appendage",
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Kalphite Shell",
+          "link": "Kalphite Shell",
+          "qty": "10",
+          "item": "Kalphite Shell",
+          "image": "[[File:Kalphite Shell.png|30px|link=Kalphite Shell]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "4",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "4",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Kalphite Carapace Legs"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Kalphite Carapace Legs",
+        "link": "Kalphite Carapace Legs",
+        "qty": "1",
+        "item": "Kalphite Carapace Legs",
+        "image": "[[File:Kalphite Carapace Legs.png|30px|link=Kalphite Carapace Legs]]"
+      }
+    },
+    "output": [
+      "Kalphite Carapace Legs"
     ]
   }
 ]

@@ -8596,6 +8596,34 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "2f238e454344",
+        "name": "30° Stairs",
+        "image": "30° Stairs (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "3682f5d1dbd7",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ecd2d28bd4e4",
+              "quantity": 3
+            },
+            {
+              "itemId": "464881ef1d16",
+              "quantity": 3
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8670,6 +8698,34 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "b804513a4326",
+        "name": "45° Stairs",
+        "image": "45° Stairs (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "a482db11aa76",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ecd2d28bd4e4",
+              "quantity": 3
+            },
+            {
+              "itemId": "464881ef1d16",
+              "quantity": 3
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -8739,6 +8795,34 @@
             {
               "itemId": "df8fefb6944b",
               "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "78a6f2ac28c5",
+        "name": "Inner Corner 45° Stairs",
+        "image": "Inner Corner 45° Stairs (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "4da388e8da44",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ecd2d28bd4e4",
+              "quantity": 3
+            },
+            {
+              "itemId": "464881ef1d16",
+              "quantity": 3
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 4
             }
           ],
           "quantity": 1
@@ -11234,6 +11318,98 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "af64864df117",
+        "name": "Medium Triangular Foundation",
+        "image": "Medium Triangular Foundation (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "8fc483602f5d",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ecd2d28bd4e4",
+              "quantity": 3
+            },
+            {
+              "itemId": "9e51f828316a",
+              "quantity": 2
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c5818cc9c80d",
+        "name": "Medium Triangular Foundation",
+        "image": "Medium Triangular Foundation (Kharidian) (Red).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "df7f0c774daf",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ecd2d28bd4e4",
+              "quantity": 3
+            },
+            {
+              "itemId": "711fc213e603",
+              "quantity": 2
+            },
+            {
+              "itemId": "9e51f828316a",
+              "quantity": 2
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "d6399f2fdeb3",
+        "name": "Medium Triangular Foundation",
+        "image": "Medium Triangular Foundation (Kharidian) (Blue).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "19f60b6abad7",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ecd2d28bd4e4",
+              "quantity": 3
+            },
+            {
+              "itemId": "81629dd6f277",
+              "quantity": 2
+            },
+            {
+              "itemId": "9e51f828316a",
+              "quantity": 2
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11417,6 +11593,70 @@
             {
               "itemId": "ecd2d28bd4e4",
               "quantity": 3
+            },
+            {
+              "itemId": "464881ef1d16",
+              "quantity": 3
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "102880b65814",
+        "name": "Medium Square Foundation",
+        "image": "Medium Square Foundation (Kharidian) (Red).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "dbf8aeb84164",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ecd2d28bd4e4",
+              "quantity": 3
+            },
+            {
+              "itemId": "464881ef1d16",
+              "quantity": 3
+            },
+            {
+              "itemId": "711fc213e603",
+              "quantity": 1
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "583cd47d9b93",
+        "name": "Medium Square Foundation",
+        "image": "Medium Square Foundation (Kharidian) (Blue).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "20e6d04ece59",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ecd2d28bd4e4",
+              "quantity": 3
+            },
+            {
+              "itemId": "81629dd6f277",
+              "quantity": 1
             },
             {
               "itemId": "464881ef1d16",
@@ -18596,6 +18836,34 @@
           "quantity": 1
         },
         "usesRecipe": null
+      },
+      {
+        "id": "477d1db66c75",
+        "name": "Outer Corner 45° Stairs",
+        "image": "Outer Corner 45° Stairs (Castle).png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "1a762bf0f959",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ecd2d28bd4e4",
+              "quantity": 3
+            },
+            {
+              "itemId": "464881ef1d16",
+              "quantity": 3
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -23880,7 +24148,7 @@
         "recipe": {
           "id": "f89d911bfdf9",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -23892,7 +24160,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Attack_Cape",
     "weight": 0
@@ -23910,7 +24178,7 @@
         "recipe": {
           "id": "df44793e85f8",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -23922,7 +24190,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Attack_Cape_(Trimmed)"
   },
@@ -33486,7 +33754,7 @@
         "recipe": {
           "id": "ff60bd69b821",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33498,7 +33766,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Artisan_Cape",
     "weight": 0
@@ -33516,7 +33784,7 @@
         "recipe": {
           "id": "5eb0ca638da7",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33528,7 +33796,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Artisan_Cape_(Trimmed)"
   },
@@ -33545,7 +33813,7 @@
         "recipe": {
           "id": "0cd061a49441",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33557,7 +33825,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Construction_Cape",
     "weight": 0
@@ -33575,7 +33843,7 @@
         "recipe": {
           "id": "d0154f5e6059",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33587,7 +33855,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Construction_Cape_(Trimmed)"
   },
@@ -33604,7 +33872,7 @@
         "recipe": {
           "id": "39bb2478dc67",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33616,7 +33884,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Cooking_Cape",
     "weight": 0
@@ -33634,7 +33902,7 @@
         "recipe": {
           "id": "ee8d1e62768e",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33646,7 +33914,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Cooking_Cape_(Trimmed)"
   },
@@ -33663,7 +33931,7 @@
         "recipe": {
           "id": "c95278ba93ee",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33675,7 +33943,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Farming_Cape",
     "weight": 0
@@ -33693,7 +33961,7 @@
         "recipe": {
           "id": "d1ecba8b12f5",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33705,7 +33973,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Farming_Cape_(Trimmed)"
   },
@@ -33722,7 +33990,7 @@
         "recipe": {
           "id": "0053e9d6624a",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33734,7 +34002,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Magic_Cape",
     "weight": 0
@@ -33752,7 +34020,7 @@
         "recipe": {
           "id": "f6b2480a70d4",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33764,7 +34032,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Magic_Cape_(Trimmed)"
   },
@@ -33781,7 +34049,7 @@
         "recipe": {
           "id": "9e44d22a6f71",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33793,7 +34061,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Ranged_Cape",
     "weight": 0
@@ -33811,7 +34079,7 @@
         "recipe": {
           "id": "2165c8ddadda",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33823,7 +34091,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Ranged_Cape_(Trimmed)"
   },
@@ -33840,7 +34108,7 @@
         "recipe": {
           "id": "6c20888c2ad4",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33852,7 +34120,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Runecrafting_Cape",
     "weight": 0
@@ -33870,7 +34138,7 @@
         "recipe": {
           "id": "18cd6ea1ff94",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33882,7 +34150,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Runecrafting_Cape_(Trimmed)"
   },
@@ -33899,7 +34167,7 @@
         "recipe": {
           "id": "1d1562156aee",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33911,7 +34179,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Woodcutting_Cape",
     "weight": 0
@@ -33929,7 +34197,7 @@
         "recipe": {
           "id": "afa8ee5fd79f",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -33941,7 +34209,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Woodcutting_Cape_(Trimmed)"
   },
@@ -34180,7 +34448,7 @@
         "recipe": {
           "id": "575dba92753b",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -34192,7 +34460,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Mining_Cape",
     "weight": 0
@@ -34210,7 +34478,7 @@
         "recipe": {
           "id": "5c08e17940ae",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -34222,7 +34490,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Mining_Cape_(Trimmed)"
   },
@@ -34564,7 +34832,7 @@
         "recipe": {
           "id": "01a50810100f",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -34576,7 +34844,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Fishing_Cape",
     "weight": 0
@@ -34594,7 +34862,7 @@
         "recipe": {
           "id": "2ab349688436",
           "facilities": [
-            "Crafting Table"
+            "Mystic Forge"
           ],
           "materials": [],
           "quantity": 1
@@ -34606,7 +34874,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Mystic Forge"
     ],
     "wikiLink": "Fishing_Cape_(Trimmed)"
   },
@@ -47055,19 +47323,38 @@
     "image": "Kalphite Carapace Chest.png",
     "variants": [
       {
-        "id": "08ae118436e2",
+        "id": "0bac83349f85",
         "name": "Kalphite Carapace Chest",
         "image": "Kalphite Carapace Chest.png",
         "variantName": null,
         "recipe": {
-          "id": "a9d6e16ab434",
+          "id": "3b6084317eff",
           "facilities": [
             "Armour Bench"
           ],
-          "materials": [],
+          "materials": [
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 6
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 3
+            },
+            {
+              "itemId": "aca722a510ea",
+              "quantity": 15
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 8
+            }
+          ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Chitinous Carapace"
+        ]
       }
     ],
     "skills": [
@@ -47783,6 +48070,104 @@
     "wikiLink": "Lumber_Backpack",
     "weight": 0,
     "stackLimit": 1
+  },
+  {
+    "id": "ae22e89235cd",
+    "name": "Kalphite Carapace Helmet",
+    "image": "Kalphite Carapace Helmet.png",
+    "variants": [
+      {
+        "id": "147af8788922",
+        "name": "Kalphite Carapace Helmet",
+        "image": "Kalphite Carapace Helmet.png",
+        "variantName": null,
+        "recipe": {
+          "id": "db0abf0cb199",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 2
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 1
+            },
+            {
+              "itemId": "aca722a510ea",
+              "quantity": 6
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Twtiching Antenna"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Kalphite_Carapace_Helmet",
+    "weight": 6
+  },
+  {
+    "id": "5aa971c9bef5",
+    "name": "Kalphite Carapace Legs",
+    "image": "Kalphite Carapace Legs.png",
+    "variants": [
+      {
+        "id": "ad04b1e08aa3",
+        "name": "Kalphite Carapace Legs",
+        "image": "Kalphite Carapace Legs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "aa6d24f6dd33",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "394bcca96bfa",
+              "quantity": 4
+            },
+            {
+              "itemId": "463425cf6f65",
+              "quantity": 2
+            },
+            {
+              "itemId": "aca722a510ea",
+              "quantity": 10
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Barbed Appendage"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Kalphite_Carapace_Legs",
+    "weight": 9
   },
   {
     "id": "6a5fa59fd28f",
@@ -58049,8 +58434,8 @@
     "stackLimit": 99
   },
   {
-    "id": "79ca410b40a1",
-    "name": "An Ember Edged Remnant of Cloth",
+    "id": "9419e65e0ca7",
+    "name": "An Ember-Edged Remnant of Cloth",
     "image": "An Ember Edged Remnant of Cloth.png",
     "variants": [
       {
@@ -58064,7 +58449,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "An_Ember_Edged_Remnant_of_Cloth",
+    "wikiLink": "An_Ember-Edged_Remnant_of_Cloth",
     "weight": 0,
     "stackLimit": 99
   },
