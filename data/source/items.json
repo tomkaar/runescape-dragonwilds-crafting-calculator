@@ -20612,20 +20612,20 @@
   },
   {
     "page_name": "Kalphite Carapace Chest",
-    "item_description": "?",
+    "item_description": "This chest armour is made from parts of the kalphites. Its durable but flexible nature makes it excellent for rangers.",
     "item_name": "Kalphite Carapace Chest",
     "item_type": "Ranged Armour",
     "page_name_sub": "Kalphite Carapace Chest",
     "json": {
       "type": "Ranged Armour",
-      "description": "?",
-      "repaircost": "?",
+      "description": "This chest armour is made from parts of the kalphites. Its durable but flexible nature makes it excellent for rangers.",
+      "repaircost": "3 [[Kalphite Shell|Kalphite Shells]]",
       "image": "[[File:Kalphite Carapace Chest.png|32px]]",
       "name": "Kalphite Carapace Chest",
       "weight": "12.0",
       "image_raw": "Kalphite Carapace Chest.png"
     },
-    "item_repair": "?",
+    "item_repair": "3 [[Kalphite Shell|Kalphite Shells]]",
     "item_weight": 12
   },
   {
@@ -20947,7 +20947,7 @@
     "page_name_sub": "Selenic Veil"
   },
   {
-    "page_name": "An Ember Edged Remnant of Cloth",
+    "page_name": "An Ember-Edged Remnant of Cloth",
     "item_description": "Perhaps you could learn from it",
     "item_name": "An Ember Edged Remnant of Cloth",
     "item_type": "Vestige",
@@ -20962,7 +20962,7 @@
       "image_raw": "An Ember Edged Remnant of Cloth.png"
     },
     "item_weight": 0,
-    "page_name_sub": "An Ember Edged Remnant of Cloth"
+    "page_name_sub": "An Ember-Edged Remnant of Cloth"
   },
   {
     "page_name": "Corroded Curved Blade",
@@ -20981,5 +20981,41 @@
     },
     "item_weight": 0,
     "page_name_sub": "Corroded Curved Blade"
+  },
+  {
+    "page_name": "Kalphite Carapace Helmet",
+    "item_description": "This helmet is made from parts of the kalphites. Its durable but flexible nature makes it excellent for rangers",
+    "item_name": "Kalphite Carapace Helmet",
+    "item_type": "Ranged Armour",
+    "page_name_sub": "Kalphite Carapace Helmet",
+    "json": {
+      "type": "Ranged Armour",
+      "description": "This helmet is made from parts of the kalphites. Its durable but flexible nature makes it excellent for rangers",
+      "repaircost": "1 [[Kalphite Shell]]",
+      "image": "[[File:Kalphite Carapace Helmet.png|32px]]",
+      "name": "Kalphite Carapace Helmet",
+      "weight": "6.0",
+      "image_raw": "Kalphite Carapace Helmet.png"
+    },
+    "item_repair": "1 [[Kalphite Shell]]",
+    "item_weight": 6
+  },
+  {
+    "page_name": "Kalphite Carapace Legs",
+    "item_description": "This leg armour is made from parts of the kalphites. Its durable but flexible nature makes it excellent for rangers.",
+    "item_name": "Kalphite Carapace Legs",
+    "item_type": "Ranged Armour",
+    "page_name_sub": "Kalphite Carapace Legs",
+    "json": {
+      "type": "Ranged Armour",
+      "description": "This leg armour is made from parts of the kalphites. Its durable but flexible nature makes it excellent for rangers.",
+      "repaircost": "2 [[Kalphite Shell|Kalphite Shells]]",
+      "image": "[[File:Kalphite Carapace Legs.png|32px]]",
+      "name": "Kalphite Carapace Legs",
+      "weight": "9.0",
+      "image_raw": "Kalphite Carapace Legs.png"
+    },
+    "item_repair": "2 [[Kalphite Shell|Kalphite Shells]]",
+    "item_weight": 9
   }
 ]
