@@ -1785,9 +1785,6 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "Tattered Time-Lost Cloth"
     ],
@@ -1798,12 +1795,35 @@
       "recipe": "Tattered Time-Lost Cloth",
       "facility": "Crafting Table",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "40"
-        }
+      "skills": [],
+      "outputs": [
+        "Tattered Cape"
       ],
+      "output": {
+        "quantity": 1,
+        "name": "Tattered Cape",
+        "link": "Tattered Cape",
+        "qty": 1,
+        "item": "Tattered Cape",
+        "image": "[[File:Tattered Cape.png|30px|link=Tattered Cape]]"
+      }
+    },
+    "output": [
+      "Tattered Cape"
+    ]
+  },
+  {
+    "uses_recipe": [
+      "Tattered Time-Lost Cloth"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "Tattered Time-Lost Cloth",
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [],
       "outputs": [
         "Tattered Cape"
       ],
@@ -6739,6 +6759,54 @@
     ]
   },
   {
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Goblin War Banner"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Goblin War Banner",
+        "link": "Goblin War Banner",
+        "qty": 1,
+        "item": "Goblin War Banner",
+        "image": "[[File:Goblin War Banner.png|30px|link=Goblin War Banner]]"
+      }
+    },
+    "output": [
+      "Goblin War Banner"
+    ]
+  },
+  {
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Goblin War Banner"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Goblin War Banner",
+        "link": "Goblin War Banner",
+        "qty": 1,
+        "item": "Goblin War Banner",
+        "image": "[[File:Goblin War Banner.png|30px|link=Goblin War Banner]]"
+      }
+    },
+    "output": [
+      "Goblin War Banner"
+    ]
+  },
+  {
     "uses_material": [
       "Rune Essence"
     ],
@@ -7655,6 +7723,42 @@
       "Artisan"
     ],
     "uses_recipe": [
+      "PATTERN: Bramblemead Cape"
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "PATTERN: Bramblemead Cape",
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Bramblemead Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Bramblemead Cape",
+        "link": "Bramblemead Cape",
+        "qty": 1,
+        "item": "Bramblemead Cape",
+        "image": "[[File:Bramblemead Cape.png|30px|link=Bramblemead Cape]]"
+      }
+    },
+    "output": [
+      "Bramblemead Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
       "PATTERN: Stormtouched Cape"
     ],
     "uses_facility": [
@@ -7687,21 +7791,37 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_facility": [
       "Crafting Table"
     ],
     "json": {
       "facility": "Crafting Table",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
+      "skills": [],
+      "outputs": [
+        "Pioneer's Cape"
       ],
+      "output": {
+        "quantity": 1,
+        "name": "Pioneer's Cape",
+        "link": "Pioneer's Cape",
+        "qty": 1,
+        "item": "Pioneer's Cape",
+        "image": "[[File:Pioneer's Cape.png|30px|link=Pioneer's Cape]]"
+      }
+    },
+    "output": [
+      "Pioneer's Cape"
+    ]
+  },
+  {
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [],
       "outputs": [
         "Pioneer's Cape"
       ],
@@ -11701,10 +11821,10 @@
   },
   {
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
       "skills": [],
       "outputs": [
@@ -17824,6 +17944,210 @@
         "qty": 1,
         "item": "Square Foundation",
         "image": "[[File:Square Foundation (Castle).png|30px|link=Square Foundation]]"
+      }
+    },
+    "output": [
+      "Square Foundation"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "5",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "5",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "16"
+        }
+      ],
+      "outputs": [
+        "Square Foundation"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Square Foundation",
+        "link": "Square Foundation",
+        "qty": 1,
+        "item": "Square Foundation",
+        "image": "[[File:Square Foundation (Kharidian).png|30px|link=Square Foundation]]"
+      }
+    },
+    "output": [
+      "Square Foundation"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Flax",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "5",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "5",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Flax",
+          "link": "Flax",
+          "qty": "2",
+          "item": "Flax",
+          "image": "[[File:Flax.png|30px|link=Flax]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "16"
+        }
+      ],
+      "outputs": [
+        "Square Foundation"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Square Foundation",
+        "link": "Square Foundation",
+        "qty": 1,
+        "item": "Square Foundation",
+        "image": "[[File:Square Foundation (Kharidian).png|30px|link=Square Foundation]]"
+      }
+    },
+    "output": [
+      "Square Foundation"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Redberries",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "5",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "5",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "2",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "16"
+        }
+      ],
+      "outputs": [
+        "Square Foundation"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Square Foundation",
+        "link": "Square Foundation",
+        "qty": 1,
+        "item": "Square Foundation",
+        "image": "[[File:Square Foundation (Kharidian).png|30px|link=Square Foundation]]"
       }
     },
     "output": [
@@ -37655,11 +37979,11 @@
       "Moth Eaten Blue Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Moth Eaten Blue Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
       "skills": [],
       "outputs": [
@@ -41413,11 +41737,11 @@
       "Tattered Time-Lost Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Tattered Time-Lost Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
       "skills": [],
       "outputs": [
@@ -44360,11 +44684,11 @@
       "Moth Eaten Yellow Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Moth Eaten Yellow Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
       "skills": [],
       "outputs": [
@@ -44388,11 +44712,11 @@
       "Moth Eaten Purple Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Moth Eaten Purple Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
       "skills": [],
       "outputs": [
@@ -44416,11 +44740,11 @@
       "Moth Eaten Green Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Moth Eaten Green Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
       "skills": [],
       "outputs": [
@@ -44444,11 +44768,11 @@
       "Moth Eaten Black Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Moth Eaten Black Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
       "skills": [],
       "outputs": [
@@ -44472,11 +44796,11 @@
       "Moth Eaten Orange Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Moth Eaten Orange Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
       "skills": [],
       "outputs": [
@@ -44500,11 +44824,11 @@
       "Moth Eaten Red Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Moth Eaten Red Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
       "skills": [],
       "outputs": [
@@ -44528,11 +44852,11 @@
       "Moth Eaten White Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Moth Eaten White Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
       "skills": [],
       "outputs": [
@@ -44556,11 +44880,11 @@
       "Moth Eaten Pink Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Moth Eaten Pink Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
       "skills": [],
       "outputs": [
@@ -54511,33 +54835,25 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "Torn Tapestry"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Torn Tapestry",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "40"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Dowdun Reach Cape"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Dowdun Reach Cape",
         "link": "Dowdun Reach Cape",
-        "qty": 1,
+        "qty": "1",
         "item": "Dowdun Reach Cape",
         "image": "[[File:Dowdun Reach Cape.png|30px|link=Dowdun Reach Cape]]"
       }
@@ -54547,25 +54863,17 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "Soiled Red Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Soiled Red Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Red Hex Cape"
       ],
@@ -54583,25 +54891,17 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "Chewed Red Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Chewed Red Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Red Dyad Cape"
       ],
@@ -54619,25 +54919,17 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "Chewed Green Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Chewed Green Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Green Dyad Cape"
       ],
@@ -54655,25 +54947,17 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "Chewed Blue Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Chewed Blue Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Blue Dyad Cape"
       ],
@@ -54691,25 +54975,17 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "Chewed Yellow Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Chewed Yellow Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Yellow Dyad Cape"
       ],
@@ -54727,25 +55003,17 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "Chewed Pink Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Chewed Pink Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Pink Dyad Cape"
       ],
@@ -54763,25 +55031,17 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "Soiled Pink Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Soiled Pink Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Pink Hex Cape"
       ],
@@ -54799,25 +55059,17 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "Soiled Yellow Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Soiled Yellow Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Yellow Hex Cape"
       ],
@@ -54835,25 +55087,17 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "Soiled Blue Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Soiled Blue Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Blue Hex Cape"
       ],
@@ -54871,25 +55115,17 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "Soiled Green Cloth"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "Soiled Green Cloth",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Green Hex Cape"
       ],
@@ -66132,6 +66368,63 @@
   },
   {
     "uses_material": [
+      "Yew Plank",
+      "Desert Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Moon Garou Bed"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Moon Garou Bed",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "8",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "4",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "24"
+        }
+      ],
+      "outputs": [
+        "Moon Garou Bed"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Moon Garou Bed",
+        "link": "Moon Garou Bed",
+        "qty": 1,
+        "item": "Moon Garou Bed",
+        "image": "[[File:Moon Garou Bed.png|30px|link=Moon Garou Bed]]"
+      }
+    },
+    "output": [
+      "Moon Garou Bed"
+    ]
+  },
+  {
+    "uses_material": [
       "Kalphite Ichor"
     ],
     "uses_skill": [
@@ -66279,17 +66572,17 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "100"
         }
       ],
       "outputs": [
         "Adamant Pickaxe"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Adamant Pickaxe",
         "link": "Adamant Pickaxe",
-        "qty": 1,
+        "qty": "1",
         "item": "Adamant Pickaxe",
         "image": "[[File:Adamant Pickaxe.png|30px|link=Adamant Pickaxe]]"
       }
@@ -66773,17 +67066,17 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "100"
         }
       ],
       "outputs": [
         "Adamant Logging Axe"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Adamant Logging Axe",
         "link": "Adamant Logging Axe",
-        "qty": 1,
+        "qty": "1",
         "item": "Adamant Logging Axe",
         "image": "[[File:Adamant Logging Axe.png|30px|link=Adamant Logging Axe]]"
       }
@@ -66959,7 +67252,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -67179,7 +67472,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -67259,7 +67552,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -67330,7 +67623,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -67392,7 +67685,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -67463,7 +67756,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -67534,7 +67827,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -67605,7 +67898,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -67676,7 +67969,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -67747,7 +68040,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -67836,7 +68129,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -67867,14 +68160,10 @@
     "uses_skill": [
       "Artisan"
     ],
-    "uses_recipe": [
-      "Adamant Platebody"
-    ],
     "uses_facility": [
       "Armour Bench"
     ],
     "json": {
-      "recipe": "Adamant Platebody",
       "facility": "Armour Bench",
       "materials": [
         {
@@ -67929,7 +68218,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -68018,7 +68307,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -68277,6 +68566,77 @@
   },
   {
     "uses_material": [
+      "Smouldering Draconic Visage",
+      "Anti-Dragon Shield",
+      "Vault Shard",
+      "Vault Core"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Smouldering Draconic Visage",
+          "link": "Smouldering Draconic Visage",
+          "qty": "1",
+          "item": "Smouldering Draconic Visage",
+          "image": "[[File:Smouldering Draconic Visage.png|30px|link=Smouldering Draconic Visage]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Anti-Dragon Shield",
+          "link": "Anti-Dragon Shield",
+          "qty": "1",
+          "item": "Anti-Dragon Shield",
+          "image": "[[File:Anti-Dragon Shield.png|30px|link=Anti-Dragon Shield]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "12",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Vault Core",
+          "link": "Vault Core",
+          "qty": "1",
+          "item": "Vault Core",
+          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Dragonfire Shield"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dragonfire Shield",
+        "link": "Dragonfire Shield",
+        "qty": "1",
+        "item": "Dragonfire Shield",
+        "image": "[[File:Dragonfire Shield.png|30px|link=Dragonfire Shield]]"
+      }
+    },
+    "output": [
+      "Dragonfire Shield"
+    ]
+  },
+  {
+    "uses_material": [
       "Yew Logs"
     ],
     "uses_skill": [
@@ -68353,17 +68713,17 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
         "Adamant Watering Can"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Adamant Watering Can",
         "link": "Adamant Watering Can",
-        "qty": 1,
+        "qty": "1",
         "item": "Adamant Watering Can",
         "image": "[[File:Adamant Watering Can.png|30px|link=Adamant Watering Can]]"
       }
@@ -69030,17 +69390,17 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "100"
         }
       ],
       "outputs": [
         "Infinity Robe Body"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Infinity Robe Body",
         "link": "Infinity Robe Body",
-        "qty": 1,
+        "qty": "1",
         "item": "Infinity Robe Body",
         "image": "[[File:Infinity Robe Body.png|30px|link=Infinity Robe Body]]"
       }
@@ -69119,7 +69479,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -69465,7 +69825,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -69779,7 +70139,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -69868,7 +70228,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -69957,7 +70317,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -72861,7 +73221,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -72922,19 +73282,19 @@
         }
       ],
       "outputs": [
-        "Tzhaar-Ket-Om"
+        "TzHaar-Ket-Om"
       ],
       "output": {
         "quantity": "1",
-        "name": "Tzhaar-Ket-Om",
-        "link": "Tzhaar-Ket-Om",
+        "name": "TzHaar-Ket-Om",
+        "link": "TzHaar-Ket-Om",
         "qty": "1",
-        "item": "Tzhaar-Ket-Om",
-        "image": "[[File:Tzhaar-Ket-Om.png|30px|link=Tzhaar-Ket-Om]]"
+        "item": "TzHaar-Ket-Om",
+        "image": "[[File:TzHaar-Ket-Om.png|30px|link=TzHaar-Ket-Om]]"
       }
     },
     "output": [
-      "Tzhaar-Ket-Om"
+      "TzHaar-Ket-Om"
     ]
   },
   {
@@ -73160,6 +73520,779 @@
     },
     "output": [
       "Kalphite Carapace Legs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank",
+      "Desert Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "4",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "2",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Moon Garou Armchair"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Moon Garou Armchair",
+        "link": "Moon Garou Armchair",
+        "qty": "1",
+        "item": "Moon Garou Armchair",
+        "image": "[[File:Moon Garou Armchair.png|30px|link=Moon Garou Armchair]]"
+      }
+    },
+    "output": [
+      "Moon Garou Armchair"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank",
+      "Desert Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "4",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "2",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Moon Garou Armchair 01"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Moon Garou Armchair 01",
+        "link": "Moon Garou Armchair 01",
+        "qty": "1",
+        "item": "Moon Garou Armchair 01",
+        "image": "[[File:Moon Garou Armchair 01.png|30px|link=Moon Garou Armchair 01]]"
+      }
+    },
+    "output": [
+      "Moon Garou Armchair 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank",
+      "Desert Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_recipe": [
+      "PLAN: Moon Garou Chair 02"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "recipe": "PLAN: Moon Garou Chair 02",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "4",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "2",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Moon Garou Armchair 02"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Moon Garou Armchair 02",
+        "link": "Moon Garou Armchair 02",
+        "qty": "1",
+        "item": "Moon Garou Armchair 02",
+        "image": "[[File:Moon Garou Armchair 02.png|30px|link=Moon Garou Armchair 02]]"
+      }
+    },
+    "output": [
+      "Moon Garou Armchair 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank",
+      "Desert Cloth",
+      "Clay Vessel",
+      "Silver Bar",
+      "Glass Decoration"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "12",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "12",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "2",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": "2",
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Silver Bar",
+          "link": "Silver Bar",
+          "qty": "8",
+          "item": "Silver Bar",
+          "image": "[[File:Silver Bar.png|30px|link=Silver Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Glass Decoration",
+          "link": "Glass Decoration",
+          "qty": "1",
+          "item": "Glass Decoration",
+          "image": "[[File:Glass Decoration.png|30px|link=Glass Decoration]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Moon Garou Table 02"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Moon Garou Table 02",
+        "link": "Moon Garou Table 02",
+        "qty": "1",
+        "item": "Moon Garou Table 02",
+        "image": "[[File:Moon Garou Table 02.png|30px|link=Moon Garou Table 02]]"
+      }
+    },
+    "output": [
+      "Moon Garou Table 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs",
+      "Desert Cloth",
+      "Redberries"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "2",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "4",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "2",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Large Awning Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Large Awning Roof",
+        "link": "Large Awning Roof",
+        "qty": 1,
+        "item": "Large Awning Roof",
+        "image": "[[File:Large Awning Roof (Red).png|30px|link=Large Awning Roof]]"
+      }
+    },
+    "output": [
+      "Large Awning Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs",
+      "Desert Cloth",
+      "Flax"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "2",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "4",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Flax",
+          "link": "Flax",
+          "qty": "2",
+          "item": "Flax",
+          "image": "[[File:Flax.png|30px|link=Flax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Large Awning Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Large Awning Roof",
+        "link": "Large Awning Roof",
+        "qty": 1,
+        "item": "Large Awning Roof",
+        "image": "[[File:Large Awning Roof (Blue).png|30px|link=Large Awning Roof]]"
+      }
+    },
+    "output": [
+      "Large Awning Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs",
+      "Desert Cloth",
+      "Redberries"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "2",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "1",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "1",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Medium Awning Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Awning Roof",
+        "link": "Medium Awning Roof",
+        "qty": 1,
+        "item": "Medium Awning Roof",
+        "image": "[[File:Medium Awning Roof (Red).png|30px|link=Medium Awning Roof]]"
+      }
+    },
+    "output": [
+      "Medium Awning Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs",
+      "Desert Cloth",
+      "Flax"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "2",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "1",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Flax",
+          "link": "Flax",
+          "qty": "1",
+          "item": "Flax",
+          "image": "[[File:Flax.png|30px|link=Flax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Medium Awning Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Awning Roof",
+        "link": "Medium Awning Roof",
+        "qty": 1,
+        "item": "Medium Awning Roof",
+        "image": "[[File:Medium Awning Roof (Blue).png|30px|link=Medium Awning Roof]]"
+      }
+    },
+    "output": [
+      "Medium Awning Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Refined Obsidian",
+      "Scorch Leather"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "10",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "4",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "TokTz-Ket-Xil"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "TokTz-Ket-Xil",
+        "link": "TokTz-Ket-Xil",
+        "qty": "1",
+        "item": "TokTz-Ket-Xil",
+        "image": "[[File:TokTz-Ket-Xil.png|30px|link=TokTz-Ket-Xil]]"
+      }
+    },
+    "output": [
+      "TokTz-Ket-Xil"
+    ]
+  },
+  {
+    "uses_material": [
+      "Antifire Potion",
+      "Wild Anima"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Imbuing Barrel"
+    ],
+    "json": {
+      "facility": "Imbuing Barrel",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Antifire Potion",
+          "link": "Antifire Potion",
+          "qty": "1",
+          "item": "Antifire Potion",
+          "image": "[[File:Antifire Potion.png|30px|link=Antifire Potion]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": 1,
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Super Antifire Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Super Antifire Potion",
+        "link": "Super Antifire Potion",
+        "qty": "1",
+        "item": "Super Antifire Potion",
+        "image": "[[File:Super Antifire Potion.png|30px|link=Super Antifire Potion]]"
+      }
+    },
+    "output": [
+      "Super Antifire Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Lumberjack Potion"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Imbuing Barrel"
+    ],
+    "json": {
+      "facility": "Imbuing Barrel",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Lumberjack Potion",
+          "link": "Lumberjack Potion",
+          "qty": "1",
+          "item": "Lumberjack Potion",
+          "image": "[[File:Lumberjack Potion.png|30px|link=Lumberjack Potion]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Super Lumberjack Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Super Lumberjack Potion",
+        "link": "Super Lumberjack Potion",
+        "qty": "1",
+        "item": "Super Lumberjack Potion",
+        "image": "[[File:Super Lumberjack Potion.png|30px|link=Super Lumberjack Potion]]"
+      }
+    },
+    "output": [
+      "Super Lumberjack Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Quarrymaster Potion"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Imbuing Barrel"
+    ],
+    "json": {
+      "facility": "Imbuing Barrel",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Quarrymaster Potion",
+          "link": "Quarrymaster Potion",
+          "qty": "1",
+          "item": "Quarrymaster Potion",
+          "image": "[[File:Quarrymaster Potion.png|30px|link=Quarrymaster Potion]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Super Quarrymaster Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Super Quarrymaster Potion",
+        "link": "Super Quarrymaster Potion",
+        "qty": "1",
+        "item": "Super Quarrymaster Potion",
+        "image": "[[File:Super Quarrymaster Potion.png|30px|link=Super Quarrymaster Potion]]"
+      }
+    },
+    "output": [
+      "Super Quarrymaster Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Antipoison Potion"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Imbuing Barrel"
+    ],
+    "json": {
+      "facility": "Imbuing Barrel",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Antipoison Potion",
+          "link": "Antipoison Potion",
+          "qty": "1",
+          "item": "Antipoison Potion",
+          "image": "[[File:Antipoison Potion.png|30px|link=Antipoison Potion]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Super Antipoison Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Super Antipoison Potion",
+        "link": "Super Antipoison Potion",
+        "qty": "1",
+        "item": "Super Antipoison Potion",
+        "image": "[[File:Super Antipoison Potion.png|30px|link=Super Antipoison Potion]]"
+      }
+    },
+    "output": [
+      "Super Antipoison Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Focused Artisan Potion"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Imbuing Barrel"
+    ],
+    "json": {
+      "facility": "Imbuing Barrel",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Focused Artisan Potion",
+          "link": "Focused Artisan Potion",
+          "qty": "1",
+          "item": "Focused Artisan Potion",
+          "image": "[[File:Focused Artisan Potion.png|30px|link=Focused Artisan Potion]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Super Focused Artisan Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Super Focused Artisan Potion",
+        "link": "Super Focused Artisan Potion",
+        "qty": "1",
+        "item": "Super Focused Artisan Potion",
+        "image": "[[File:Super Focused Artisan Potion.png|30px|link=Super Focused Artisan Potion]]"
+      }
+    },
+    "output": [
+      "Super Focused Artisan Potion"
     ]
   }
 ]

@@ -1212,7 +1212,8 @@
         "recipe": {
           "id": "81199f76ffd2",
           "facilities": [
-            "Crafting Table"
+            "Crafting Table",
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -1222,11 +1223,10 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Crafting Table",
+      "Armour Bench"
     ],
     "wikiLink": "Tattered_Cape",
     "weight": 5
@@ -4429,6 +4429,36 @@
     "wikiLink": "Grindstone"
   },
   {
+    "id": "d6edfecd4655",
+    "name": "Goblin War Banner",
+    "image": "Goblin War Banner.png",
+    "variants": [
+      {
+        "id": "73c6d6cafdcc",
+        "name": "Goblin War Banner",
+        "image": "Goblin War Banner.png",
+        "variantName": null,
+        "recipe": {
+          "id": "bb0960fa90dc",
+          "facilities": [
+            "Crafting Table",
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Crafting Table",
+      "Armour Bench"
+    ],
+    "wikiLink": "Goblin_War_Banner",
+    "weight": 0
+  },
+  {
     "id": "4226bf874573",
     "name": "Water Rune",
     "image": "Water Rune.png",
@@ -5062,7 +5092,8 @@
         "recipe": {
           "id": "84e67817b107",
           "facilities": [
-            "Crafting Table"
+            "Crafting Table",
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -5076,7 +5107,8 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Crafting Table",
+      "Armour Bench"
     ],
     "wikiLink": "Bramblemead_Cape",
     "weight": 0
@@ -5126,7 +5158,8 @@
         "recipe": {
           "id": "65124af4f151",
           "facilities": [
-            "Crafting Table"
+            "Crafting Table",
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -5134,11 +5167,10 @@
         "usesRecipe": null
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Crafting Table",
+      "Armour Bench"
     ],
     "wikiLink": "Pioneer's_Cape",
     "weight": 0
@@ -7804,7 +7836,7 @@
         "recipe": {
           "id": "d05edfa6e8fa",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -7814,7 +7846,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Dragonbane_Cape",
     "weight": 0
@@ -11227,6 +11259,98 @@
             {
               "itemId": "df8fefb6944b",
               "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "ce01c413329e",
+        "name": "Square Foundation",
+        "image": "Square Foundation (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "c5eeba8e0aa4",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ecd2d28bd4e4",
+              "quantity": 5
+            },
+            {
+              "itemId": "464881ef1d16",
+              "quantity": 5
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "480b3d443123",
+        "name": "Square Foundation",
+        "image": "Square Foundation (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "a480c115a230",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ecd2d28bd4e4",
+              "quantity": 5
+            },
+            {
+              "itemId": "81629dd6f277",
+              "quantity": 2
+            },
+            {
+              "itemId": "464881ef1d16",
+              "quantity": 5
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "46919a45b78a",
+        "name": "Square Foundation",
+        "image": "Square Foundation (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "604e7149b4b0",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ecd2d28bd4e4",
+              "quantity": 5
+            },
+            {
+              "itemId": "464881ef1d16",
+              "quantity": 5
+            },
+            {
+              "itemId": "711fc213e603",
+              "quantity": 2
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 2
             }
           ],
           "quantity": 1
@@ -24118,7 +24242,7 @@
         "recipe": {
           "id": "e1bfabc1a3f4",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -24130,7 +24254,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Blue_Adventurer's_Cape",
     "weight": 0
@@ -26677,7 +26801,7 @@
         "recipe": {
           "id": "d91c07f5e9e7",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -26689,7 +26813,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Shadowscale_Cape",
     "weight": 0
@@ -28670,7 +28794,7 @@
         "recipe": {
           "id": "0256b17994ea",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -28682,7 +28806,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Yellow_Adventurer's_Cape",
     "weight": 0
@@ -28700,7 +28824,7 @@
         "recipe": {
           "id": "db2913318ffe",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -28712,7 +28836,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Purple_Adventurer's_Cape",
     "weight": 0
@@ -28730,7 +28854,7 @@
         "recipe": {
           "id": "3ce6a28760c4",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -28742,7 +28866,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Green_Adventurer's_Cape",
     "weight": 0
@@ -28760,7 +28884,7 @@
         "recipe": {
           "id": "2a3acd0a8897",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -28772,7 +28896,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Black_Adventurer's_Cape",
     "weight": 0
@@ -28790,7 +28914,7 @@
         "recipe": {
           "id": "2c0118b0be06",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -28802,7 +28926,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Orange_Adventurer's_Cape",
     "weight": 0
@@ -28820,7 +28944,7 @@
         "recipe": {
           "id": "c131ab23eb8c",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -28832,7 +28956,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Red_Adventurer's_Cape",
     "weight": 0
@@ -28850,7 +28974,7 @@
         "recipe": {
           "id": "49e83aec3162",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -28862,7 +28986,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "White_Adventurer's_Cape",
     "weight": 0
@@ -28880,7 +29004,7 @@
         "recipe": {
           "id": "3f708abff1ec",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -28892,7 +29016,7 @@
     ],
     "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Pink_Adventurer's_Cape",
     "weight": 0
@@ -35681,7 +35805,7 @@
         "recipe": {
           "id": "ca1319ee17e2",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -35691,11 +35815,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Dowdun_Reach_Cape",
     "weight": 0
@@ -35713,7 +35835,7 @@
         "recipe": {
           "id": "e78fe52aab8f",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -35723,11 +35845,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Red_Hex_Cape",
     "weight": 0
@@ -35745,7 +35865,7 @@
         "recipe": {
           "id": "028f4e923cd0",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -35755,11 +35875,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Red_Dyad_Cape",
     "weight": 0
@@ -35777,7 +35895,7 @@
         "recipe": {
           "id": "3b2c8eea398a",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -35787,11 +35905,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Green_Dyad_Cape",
     "weight": 0
@@ -35809,7 +35925,7 @@
         "recipe": {
           "id": "f9dbf74176e8",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -35819,11 +35935,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Blue_Dyad_Cape",
     "weight": 0
@@ -35841,7 +35955,7 @@
         "recipe": {
           "id": "8bb9fcf68d31",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -35851,11 +35965,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Yellow_Dyad_Cape",
     "weight": 0
@@ -35873,7 +35985,7 @@
         "recipe": {
           "id": "789b68f83dab",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -35883,11 +35995,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Pink_Dyad_Cape",
     "weight": 0
@@ -35905,7 +36015,7 @@
         "recipe": {
           "id": "db2de6e2cf19",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -35915,11 +36025,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Pink_Hex_Cape",
     "weight": 0
@@ -35937,7 +36045,7 @@
         "recipe": {
           "id": "270e494a5cee",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -35947,11 +36055,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Yellow_Hex_Cape",
     "weight": 0
@@ -35969,7 +36075,7 @@
         "recipe": {
           "id": "15022da3f8c4",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -35979,11 +36085,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Blue_Hex_Cape",
     "weight": 0
@@ -36001,7 +36105,7 @@
         "recipe": {
           "id": "f36d23de2db1",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -36011,11 +36115,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Green_Hex_Cape",
     "weight": 0
@@ -43245,6 +43347,46 @@
     "weight": 8
   },
   {
+    "id": "eea7ca58c73b",
+    "name": "Moon Garou Bed",
+    "image": "Moon Garou Bed.png",
+    "variants": [
+      {
+        "id": "46ff8094f2e4",
+        "name": "Moon Garou Bed",
+        "image": "Moon Garou Bed.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a564e7135563",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7b98f89bbc65",
+              "quantity": 4
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 8
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Moon Garou Bed"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Moon_Garou_Bed"
+  },
+  {
     "id": "9ac3057ca866",
     "name": "Acrid Adhesive",
     "image": "Acrid Adhesive.png",
@@ -44487,9 +44629,7 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": [
-          "Adamant Platebody"
-        ]
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -44708,6 +44848,54 @@
     ],
     "wikiLink": "Ground_Tea_Leaves",
     "weight": 0
+  },
+  {
+    "id": "68920c0f0772",
+    "name": "Dragonfire Shield",
+    "image": "Dragonfire Shield.png",
+    "variants": [
+      {
+        "id": "a620b55ca0d5",
+        "name": "Dragonfire Shield",
+        "image": "Dragonfire Shield.png",
+        "variantName": null,
+        "recipe": {
+          "id": "422cee1b8fcb",
+          "facilities": [
+            "Blacksmith's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "29a1225f60fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "9a172c5cdf09",
+              "quantity": 1
+            },
+            {
+              "itemId": "2cb47baaee19",
+              "quantity": 1
+            },
+            {
+              "itemId": "9ca5b1c17952",
+              "quantity": 12
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Dragonfire_Shield",
+    "weight": 10,
+    "stackLimit": 1
   },
   {
     "id": "27358a6966d4",
@@ -47980,17 +48168,17 @@
     "weight": 15
   },
   {
-    "id": "b8d4930e8dc5",
-    "name": "Tzhaar-Ket-Om",
-    "image": "Tzhaar-Ket-Om.png",
+    "id": "87ff6393f61b",
+    "name": "TzHaar-Ket-Om",
+    "image": "TzHaar-Ket-Om.png",
     "variants": [
       {
-        "id": "b522f18c06bb",
-        "name": "Tzhaar-Ket-Om",
-        "image": "Tzhaar-Ket-Om.png",
+        "id": "4fa6e7a3227f",
+        "name": "TzHaar-Ket-Om",
+        "image": "TzHaar-Ket-Om.png",
         "variantName": null,
         "recipe": {
-          "id": "eb0bbebe4af2",
+          "id": "7c12b395b2d6",
           "facilities": [
             "Blacksmith's Bench"
           ],
@@ -48017,7 +48205,7 @@
     "facilities": [
       "Blacksmith's Bench"
     ],
-    "wikiLink": "Tzhaar-Ket-Om",
+    "wikiLink": "TzHaar-Ket-Om",
     "weight": 25,
     "stackLimit": 1
   },
@@ -48168,6 +48356,536 @@
     ],
     "wikiLink": "Kalphite_Carapace_Legs",
     "weight": 9
+  },
+  {
+    "id": "c76b0e39344f",
+    "name": "Moon Garou Armchair",
+    "image": "Moon Garou Armchair.png",
+    "variants": [
+      {
+        "id": "0b72d3ec3789",
+        "name": "Moon Garou Armchair",
+        "image": "Moon Garou Armchair.png",
+        "variantName": null,
+        "recipe": {
+          "id": "3e4c0afce6a6",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7b98f89bbc65",
+              "quantity": 2
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Moon_Garou_Armchair"
+  },
+  {
+    "id": "0103cea529e7",
+    "name": "Moon Garou Armchair 01",
+    "image": "Moon Garou Armchair 01.png",
+    "variants": [
+      {
+        "id": "117640965f18",
+        "name": "Moon Garou Armchair 01",
+        "image": "Moon Garou Armchair 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8d493c5f2a78",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7b98f89bbc65",
+              "quantity": 2
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Moon_Garou_Armchair_01"
+  },
+  {
+    "id": "be4912e6c3e9",
+    "name": "Moon Garou Armchair 02",
+    "image": "Moon Garou Armchair 02.png",
+    "variants": [
+      {
+        "id": "0c7a199ba367",
+        "name": "Moon Garou Armchair 02",
+        "image": "Moon Garou Armchair 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7495c8b9fde6",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7b98f89bbc65",
+              "quantity": 2
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "PLAN: Moon Garou Chair 02"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Moon_Garou_Armchair_02"
+  },
+  {
+    "id": "e947aac13232",
+    "name": "Moon Garou Table 02",
+    "image": "Moon Garou Table 02.png",
+    "variants": [
+      {
+        "id": "7111985ed504",
+        "name": "Moon Garou Table 02",
+        "image": "Moon Garou Table 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d799c3be4358",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7922581c320e",
+              "quantity": 2
+            },
+            {
+              "itemId": "7b98f89bbc65",
+              "quantity": 2
+            },
+            {
+              "itemId": "3920e79ca6a3",
+              "quantity": 1
+            },
+            {
+              "itemId": "9788d67f4f47",
+              "quantity": 8
+            },
+            {
+              "itemId": "ac87b47c5ea7",
+              "quantity": 12
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Moon_Garou_Table_02"
+  },
+  {
+    "id": "8f93d924e4fb",
+    "name": "Large Awning Roof",
+    "image": "Large Awning Roof (Red).png",
+    "variants": [
+      {
+        "id": "ac546a750d68",
+        "name": "Large Awning Roof",
+        "image": "Large Awning Roof (Red).png",
+        "variantName": "Red",
+        "recipe": {
+          "id": "df66944a4d13",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7b98f89bbc65",
+              "quantity": 4
+            },
+            {
+              "itemId": "711fc213e603",
+              "quantity": 2
+            },
+            {
+              "itemId": "75f4482e4de5",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "beb891dc14e1",
+        "name": "Large Awning Roof",
+        "image": "Large Awning Roof (Blue).png",
+        "variantName": "Blue",
+        "recipe": {
+          "id": "524f7cc426e1",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7b98f89bbc65",
+              "quantity": 4
+            },
+            {
+              "itemId": "81629dd6f277",
+              "quantity": 2
+            },
+            {
+              "itemId": "75f4482e4de5",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Large_Awning_Roof"
+  },
+  {
+    "id": "21dbf236514f",
+    "name": "Medium Awning Roof",
+    "image": "Medium Awning Roof (Red).png",
+    "variants": [
+      {
+        "id": "48043bd64a8a",
+        "name": "Medium Awning Roof",
+        "image": "Medium Awning Roof (Red).png",
+        "variantName": "Red",
+        "recipe": {
+          "id": "07be598b11c3",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7b98f89bbc65",
+              "quantity": 1
+            },
+            {
+              "itemId": "711fc213e603",
+              "quantity": 1
+            },
+            {
+              "itemId": "75f4482e4de5",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "679b232406fd",
+        "name": "Medium Awning Roof",
+        "image": "Medium Awning Roof (Blue).png",
+        "variantName": "Blue",
+        "recipe": {
+          "id": "a1593914b438",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "7b98f89bbc65",
+              "quantity": 1
+            },
+            {
+              "itemId": "81629dd6f277",
+              "quantity": 1
+            },
+            {
+              "itemId": "75f4482e4de5",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Medium_Awning_Roof"
+  },
+  {
+    "id": "c5284ea1eeea",
+    "name": "TokTz-Ket-Xil",
+    "image": "TokTz-Ket-Xil.png",
+    "variants": [
+      {
+        "id": "e9d39e33ba1a",
+        "name": "TokTz-Ket-Xil",
+        "image": "TokTz-Ket-Xil.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4ff72abf7b1a",
+          "facilities": [
+            "Blacksmith's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "9f21a3681ffa",
+              "quantity": 10
+            },
+            {
+              "itemId": "71b251e7a3b5",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "TokTz-Ket-Xil",
+    "weight": 10
+  },
+  {
+    "id": "985c1066f3b9",
+    "name": "Super Antifire Potion",
+    "image": "Super Antifire Potion.png",
+    "variants": [
+      {
+        "id": "376ebd8544c3",
+        "name": "Super Antifire Potion",
+        "image": "Super Antifire Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0d1e90cb7ce7",
+          "facilities": [
+            "Imbuing Barrel"
+          ],
+          "materials": [
+            {
+              "itemId": "a2106f8efa34",
+              "quantity": 1
+            },
+            {
+              "itemId": "94649135f4eb",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Imbuing Barrel"
+    ],
+    "wikiLink": "Super_Antifire_Potion",
+    "weight": 1,
+    "health": null,
+    "stackLimit": 50
+  },
+  {
+    "id": "ed23bfb4d0e1",
+    "name": "Super Lumberjack Potion",
+    "image": "Super Lumberjack Potion.png",
+    "variants": [
+      {
+        "id": "68e1b241f6ad",
+        "name": "Super Lumberjack Potion",
+        "image": "Super Lumberjack Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0d8b29ff56e8",
+          "facilities": [
+            "Imbuing Barrel"
+          ],
+          "materials": [
+            {
+              "itemId": "f6febb93f1d0",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Imbuing Barrel"
+    ],
+    "wikiLink": "Super_Lumberjack_Potion",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "af794fd1fd64",
+    "name": "Super Quarrymaster Potion",
+    "image": "Super Quarrymaster Potion.png",
+    "variants": [
+      {
+        "id": "30fc1c581595",
+        "name": "Super Quarrymaster Potion",
+        "image": "Super Quarrymaster Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c225954bc7f4",
+          "facilities": [
+            "Imbuing Barrel"
+          ],
+          "materials": [
+            {
+              "itemId": "754526adb448",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Imbuing Barrel"
+    ],
+    "wikiLink": "Super_Quarrymaster_Potion",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "14e421d9ee39",
+    "name": "Super Antipoison Potion",
+    "image": "Super Antipoison Potion.png",
+    "variants": [
+      {
+        "id": "a00903f8ff93",
+        "name": "Super Antipoison Potion",
+        "image": "Super Antipoison Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e8bd6460ccd5",
+          "facilities": [
+            "Imbuing Barrel"
+          ],
+          "materials": [
+            {
+              "itemId": "03d220fd86ac",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Imbuing Barrel"
+    ],
+    "wikiLink": "Super_Antipoison_Potion",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "71ba7274fda1",
+    "name": "Super Focused Artisan Potion",
+    "image": "Super Focused Artisan Potion.png",
+    "variants": [
+      {
+        "id": "5f8064948d68",
+        "name": "Super Focused Artisan Potion",
+        "image": "Super Focused Artisan Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d0184153fb3b",
+          "facilities": [
+            "Imbuing Barrel"
+          ],
+          "materials": [
+            {
+              "itemId": "490f71a93a93",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Imbuing Barrel"
+    ],
+    "wikiLink": "Super_Focused_Artisan_Potion",
+    "weight": 1,
+    "stackLimit": 99
   },
   {
     "id": "6a5fa59fd28f",
@@ -48928,25 +49646,6 @@
     "wikiLink": "Iron_Ore",
     "weight": 3.6,
     "stackLimit": 99
-  },
-  {
-    "id": "d6edfecd4655",
-    "name": "Goblin War Banner",
-    "image": "Goblin War Banner.png",
-    "variants": [
-      {
-        "id": "6149e5149335",
-        "name": "Goblin War Banner Cape",
-        "image": "Goblin War Banner.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Goblin_War_Banner",
-    "weight": 0
   },
   {
     "id": "3e0c3babe19d",
@@ -57737,26 +58436,6 @@
     "weight": 0.1
   },
   {
-    "id": "68920c0f0772",
-    "name": "Dragonfire Shield",
-    "image": "Dragonfire Shield.png",
-    "variants": [
-      {
-        "id": "68920c0f0772",
-        "name": "Dragonfire Shield",
-        "image": "Dragonfire Shield.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Dragonfire_Shield",
-    "weight": 10,
-    "stackLimit": 1
-  },
-  {
     "id": "ad8d315f027d",
     "name": "Fibrous Pipe Cactus",
     "image": "Fibrous Pipe Cactus.png",
@@ -57778,12 +58457,12 @@
   {
     "id": "394bcca96bfa",
     "name": "Garou Weave",
-    "image": "Garou Weave Cloth.png",
+    "image": "Garou Weave.png",
     "variants": [
       {
-        "id": "86c2ce30574c",
-        "name": "Garou Weave Cloth",
-        "image": "Garou Weave Cloth.png",
+        "id": "394bcca96bfa",
+        "name": "Garou Weave",
+        "image": "Garou Weave.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -58472,5 +59151,44 @@
     "wikiLink": "Corroded_Curved_Blade",
     "weight": 0,
     "stackLimit": 99
+  },
+  {
+    "id": "6fa10d2d6eff",
+    "name": "Fuzan's Head",
+    "image": "Fuzan's Head.png",
+    "variants": [
+      {
+        "id": "6fa10d2d6eff",
+        "name": "Fuzan's Head",
+        "image": "Fuzan's Head.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Fuzan's_Head",
+    "weight": 0,
+    "stackLimit": 0
+  },
+  {
+    "id": "9a172c5cdf09",
+    "name": "Smouldering Draconic Visage",
+    "image": "Smouldering Draconic Visage.png",
+    "variants": [
+      {
+        "id": "9a172c5cdf09",
+        "name": "Smouldering Draconic Visage",
+        "image": "Smouldering Draconic Visage.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Smouldering_Draconic_Visage",
+    "weight": 0.5
   }
 ]
