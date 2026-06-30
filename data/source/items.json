@@ -12347,10 +12347,10 @@
     "page_name": "Mystic Thread",
     "item_description": "Spun from mystic fibre. Magic courses through every thread.",
     "item_name": "Mystic Thread",
-    "item_type": "Processed Material",
+    "item_type": "Basic Item",
     "item_stacklimit": 50,
     "json": {
-      "type": "Processed Material",
+      "type": "Basic Item",
       "description": "Spun from mystic fibre. Magic courses through every thread.",
       "image": "[[File:Mystic Thread.png|32px]]",
       "name": "Mystic Thread",
@@ -19267,17 +19267,17 @@
   {
     "page_name": "Garou Weave",
     "item_description": "A high quality material sold by local garou merchants.",
-    "item_name": "Garou Weave Cloth",
+    "item_name": "Garou Weave",
     "item_type": "Processed Material",
     "item_stacklimit": 99,
     "json": {
       "type": "Processed Material",
       "description": "A high quality material sold by local garou merchants.",
-      "image": "[[File:Garou Weave Cloth.png|32px]]",
-      "name": "Garou Weave Cloth",
+      "image": "[[File:Garou Weave.png|32px]]",
+      "name": "Garou Weave",
       "weight": "1.0",
       "stacklimit": "99",
-      "image_raw": "Garou Weave Cloth.png"
+      "image_raw": "Garou Weave.png"
     },
     "item_weight": 1,
     "page_name_sub": "Garou Weave"
@@ -19697,7 +19697,7 @@
       "description": "Headgear made of red dragonhide, fit for the finest of archers.",
       "image": "[[File:Red Dragon Legs.png|32px]]",
       "name": "Red Dragon Legs",
-      "weight": "9",
+      "weight": "9.0",
       "image_raw": "Red Dragon Legs.png"
     },
     "item_type": "Ranged Armour"
@@ -20815,9 +20815,9 @@
     "item_type": "Melee Weapon"
   },
   {
-    "page_name": "Tzhaar-Ket-Om",
+    "page_name": "TzHaar-Ket-Om",
     "item_description": "A massive warhammer of obsidian hue. Each swing carries the weight of something ancient.",
-    "item_name": "Tzhaar-Ket-Om",
+    "item_name": "TzHaar-Ket-Om",
     "item_type": "Melee Weapon",
     "item_stacklimit": 1,
     "json": {
@@ -20825,16 +20825,16 @@
       "description": "A massive warhammer of obsidian hue. Each swing carries the weight of something ancient.",
       "health": "",
       "weight": "25.0",
-      "image": "[[File:Tzhaar-Ket-Om.png|32px]]",
-      "name": "Tzhaar-Ket-Om",
+      "image": "[[File:TzHaar-Ket-Om.png|32px]]",
+      "name": "TzHaar-Ket-Om",
       "hydration": "",
       "sustenance": "",
       "compostvalue": "",
       "stacklimit": "1",
-      "image_raw": "Tzhaar-Ket-Om.png"
+      "image_raw": "TzHaar-Ket-Om.png"
     },
     "item_weight": 25,
-    "page_name_sub": "Tzhaar-Ket-Om"
+    "page_name_sub": "TzHaar-Ket-Om"
   },
   {
     "page_name": "Tome of Volcano",
@@ -21017,5 +21017,174 @@
     },
     "item_repair": "2 [[Kalphite Shell|Kalphite Shells]]",
     "item_weight": 9
+  },
+  {
+    "page_name": "Fuzan's Head",
+    "item_description": "",
+    "item_name": "Fuzan's Head",
+    "item_type": "",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "",
+      "description": "",
+      "health": "",
+      "weight": "",
+      "image": "[[File:Fuzan's Head.png|32px]]",
+      "name": "Fuzan's Head",
+      "hydration": "",
+      "sustenance": "",
+      "compostvalue": "",
+      "stacklimit": "",
+      "image_raw": "Fuzan's Head.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Fuzan's Head"
+  },
+  {
+    "page_name": "TokTz-Ket-Xil",
+    "item_description": "A jagged shield of obsidian, shaped to deflect and punish in equal measure. Its edges are as dangerous as the blows it stops.",
+    "item_name": "TokTz-Ket-Xil",
+    "item_weight": 10,
+    "page_name_sub": "TokTz-Ket-Xil",
+    "json": {
+      "type": "Melee Armour",
+      "description": "A jagged shield of obsidian, shaped to deflect and punish in equal measure. Its edges are as dangerous as the blows it stops.",
+      "image": "[[File:TokTz-Ket-Xil.png|32px]]",
+      "name": "TokTz-Ket-Xil",
+      "weight": "10.0",
+      "image_raw": "TokTz-Ket-Xil.png"
+    },
+    "item_type": "Melee Armour"
+  },
+  {
+    "page_name": "Super Antifire Potion",
+    "item_description": "PERK: Antifire<br><br>NEGATES and grants RESISTANCE to FIRE effects",
+    "item_name": "Super Antifire Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Antifire<br><br>NEGATES and grants RESISTANCE to FIRE effects",
+      "perk": {
+        "name": "Antifire",
+        "effect": "NEGATES and grants RESISTANCE to FIRE effects"
+      },
+      "health": "600 seconds",
+      "image": "[[File:Super Antifire Potion.png|32px]]",
+      "name": "Super Antifire Potion",
+      "weight": "1.0",
+      "stacklimit": "50",
+      "image_raw": "Super Antifire Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Super Antifire Potion"
+  },
+  {
+    "page_name": "Super Lumberjack Potion",
+    "item_description": "PERK: Lumberjack II<br><br>REDUCES the STAMINA cost of WOODCUTTING by 66%",
+    "item_name": "Super Lumberjack Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Lumberjack II<br><br>REDUCES the STAMINA cost of WOODCUTTING by 66%",
+      "duration": "600 seconds",
+      "perk": {
+        "name": "Lumberjack II",
+        "effect": "REDUCES the STAMINA cost of WOODCUTTING by 66%"
+      },
+      "image": "[[File:Super Lumberjack Potion.png|32px]]",
+      "name": "Super Lumberjack Potion",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Super Lumberjack Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Super Lumberjack Potion"
+  },
+  {
+    "page_name": "Super Quarrymaster Potion",
+    "item_description": "PERK: Quarrymaster II<br><br>REDUCES the STAMINA cost of MINING by 66%",
+    "item_name": "Super Quarrymaster Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Quarrymaster II<br><br>REDUCES the STAMINA cost of MINING by 66%",
+      "duration": "600 seconds",
+      "perk": {
+        "name": "Quarrymaster II",
+        "effect": "REDUCES the STAMINA cost of MINING by 66%"
+      },
+      "image": "[[File:Super Quarrymaster Potion.png|32px]]",
+      "name": "Super Quarrymaster Potion",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Super Quarrymaster Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Super Quarrymaster Potion"
+  },
+  {
+    "page_name": "Super Antipoison Potion",
+    "item_description": "PERK: Antipoison II<br><br>NEGATES and grants RESISTENCE to POISON effects",
+    "item_name": "Super Antipoison Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Antipoison II<br><br>NEGATES and grants RESISTENCE to POISON effects",
+      "duration": "600 seconds",
+      "perk": {
+        "name": "Antipoison II",
+        "effect": "NEGATES and grants RESISTENCE to POISON effects"
+      },
+      "image": "[[File:Super Antipoison Potion.png|32px]]",
+      "name": "Super Antipoison Potion",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Super Antipoison Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Super Antipoison Potion"
+  },
+  {
+    "page_name": "Super Focused Artisan Potion",
+    "item_description": "PERK: Focused Artisan II<br><br> Grants a 30% XP BOOST for the ARTISAN Skill",
+    "item_name": "Super Focused Artisan Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Artisan II<br><br> Grants a 30% XP BOOST for the ARTISAN Skill",
+      "duration": "600 seconds",
+      "perk": {
+        "name": "Focused Artisan II",
+        "effect": "Grants a 30% XP BOOST for the ARTISAN Skill"
+      },
+      "image": "[[File:Super Focused Artisan Potion.png|32px]]",
+      "name": "Super Focused Artisan Potion",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Super Focused Artisan Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Super Focused Artisan Potion"
+  },
+  {
+    "page_name": "Smouldering Draconic Visage",
+    "item_description": "The image of a fearsome dragon. Used in crafting powerful equipment.",
+    "item_name": "Smouldering Draconic Visage",
+    "item_weight": 0.5,
+    "page_name_sub": "Smouldering Draconic Visage",
+    "json": {
+      "type": "Quest Item",
+      "description": "The image of a fearsome dragon. Used in crafting powerful equipment.",
+      "image": "[[File:Smouldering Draconic Visage.png|32px]]",
+      "name": "Smouldering Draconic Visage",
+      "weight": "0.5",
+      "image_raw": "Smouldering Draconic Visage.png"
+    },
+    "item_type": "Quest Item"
   }
 ]
