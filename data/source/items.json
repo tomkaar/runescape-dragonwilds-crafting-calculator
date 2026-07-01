@@ -12890,6 +12890,7 @@
       "type": "Food",
       "description": "A carnivore's favourite, made with flank steak and rat roast.",
       "duration": "600 seconds",
+      "health": "80",
       "image": "[[File:Meat Sandwich.png|32px]]",
       "name": "Meat Sandwich",
       "weight": "2.0",
@@ -12910,6 +12911,7 @@
       "type": "Food",
       "description": "A hunger-reducing snack made with fried cabbages and grilled mushrooms.",
       "duration": "600 seconds",
+      "health": "70",
       "image": "[[File:Forager's Sandwich.png|32px]]",
       "name": "Forager's Sandwich",
       "weight": "2.0",
@@ -12948,6 +12950,7 @@
       "type": "Food",
       "description": "A delectable treat made with flank steak, fried onions and grilled mushrooms.",
       "duration": "600 seconds",
+      "health": "90",
       "image": "[[File:Steak Sandwich.png|32px]]",
       "name": "Steak Sandwich",
       "weight": "2.0",
@@ -13004,6 +13007,7 @@
       "type": "Food",
       "description": "Meat, meat and more meat. A sandwich with flank steak, rat roast and dried redberries.",
       "duration": "600 seconds",
+      "health": "90",
       "image": "[[File:Meat Twist Sandwich.png|32px]]",
       "name": "Meat Twist Sandwich",
       "weight": "2.0",
@@ -13024,6 +13028,7 @@
       "type": "Food",
       "description": "A warming dish made with roast pumpkin, maple syrup and dried redberry.",
       "duration": "600 seconds",
+      "health": "80",
       "image": "[[File:Glazed Pumpkin Sandwich.png|32px]]",
       "name": "Glazed Pumpkin Sandwich",
       "weight": "2.0",
@@ -13044,6 +13049,7 @@
       "type": "Food",
       "description": "A sweet lunch made with maple syrup and dried redberry.",
       "duration": "600 seconds",
+      "health": "70",
       "image": "[[File:Maple Toastie.png|32px]]",
       "name": "Maple Toastie",
       "weight": "2.0",
@@ -16875,7 +16881,7 @@
       "image": "[[File:Herb Baked Trout.png|32px]]",
       "name": "Herb Baked Trout",
       "weight": "0.7",
-      "sustenance": "30",
+      "sustenance": "35",
       "stacklimit": "50",
       "image_raw": "Herb Baked Trout.png"
     },
@@ -16896,7 +16902,7 @@
       "image": "[[File:Eggs Royale.png|32px]]",
       "name": "Eggs Royale",
       "weight": "0.7",
-      "sustenance": "45",
+      "sustenance": "30",
       "stacklimit": "50",
       "image_raw": "Eggs Royale.png"
     },
@@ -16976,11 +16982,11 @@
       "type": "Food",
       "description": "Made by combining dried giant krill, dried redberry and smoked infernal eel.",
       "duration": "600 seconds",
-      "health": "70",
+      "health": "150",
       "image": "[[File:Stir-Fry.png|32px]]",
       "name": "Stir-Fry",
       "weight": "0.7",
-      "sustenance": "75",
+      "sustenance": "70",
       "stacklimit": "50",
       "image_raw": "Stir-Fry.png"
     },
@@ -20777,28 +20783,6 @@
     "page_name_sub": "Burnt Monkfish"
   },
   {
-    "page_name": "Mount: Scorchsummer Ashbeak",
-    "item_description": "Grants access to a visual mount variant",
-    "item_name": "Mount: Scorchsummer Ashbeak",
-    "item_type": "Basic Item",
-    "item_stacklimit": 99,
-    "json": {
-      "type": "Basic Item",
-      "description": "Grants access to a visual mount variant",
-      "health": "",
-      "weight": "0.0",
-      "image": "[[File:ScorchsummerMount.png|32px]]",
-      "name": "Mount: Scorchsummer Ashbeak",
-      "hydration": "",
-      "sustenance": "",
-      "compostvalue": "",
-      "stacklimit": "99",
-      "image_raw": "ScorchsummerMount.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "Mount: Scorchsummer Ashbeak"
-  },
-  {
     "page_name": "Toktz-Xil-Ak",
     "item_description": "A double-pointed sword that is extremely efficient at finding the weak spots in your enemies.",
     "item_name": "Toktz-Xil-Ak",
@@ -21186,5 +21170,203 @@
       "image_raw": "Smouldering Draconic Visage.png"
     },
     "item_type": "Quest Item"
+  },
+  {
+    "page_name": "MOUNT: Grassfoot Screecher",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Grassfoot Screecher",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Grassfoot Screecher.png|32px]]",
+      "name": "MOUNT: Grassfoot Screecher",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Grassfoot Screecher.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Grassfoot Screecher"
+  },
+  {
+    "page_name": "MOUNT: Crimson Crybaby",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Crimson Crybaby",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Crimson Crybaby.png|32px]]",
+      "name": "MOUNT: Crimson Crybaby",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Crimson Crybaby.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Crimson Crybaby"
+  },
+  {
+    "page_name": "MOUNT: Applefeather Mosstail",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Applefeather Mosstail",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Applefeather Mosstail.png|32px]]",
+      "name": "MOUNT: Applefeather Mosstail",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Applefeather Mosstail.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Applefeather Mosstail"
+  },
+  {
+    "page_name": "MOUNT: Scorchsummer Ashbeak",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Scorchsummer Ashbeak",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Scorchsummer Ashbeak.png|32px]]",
+      "name": "MOUNT: Scorchsummer Ashbeak",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Scorchsummer Ashbeak.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Scorchsummer Ashbeak"
+  },
+  {
+    "page_name": "MOUNT: Zamorakian Pledgesaddle",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Zamorakian Pledgesaddle",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Zamorakian Pledgesaddle.png|32px]]",
+      "name": "MOUNT: Zamorakian Pledgesaddle",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Zamorakian Pledgesaddle.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Zamorakian Pledgesaddle"
+  },
+  {
+    "page_name": "MOUNT: Infernal Blightbeak",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Infernal Blightbeak",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Infernal Blightbeak.png|32px]]",
+      "name": "MOUNT: Infernal Blightbeak",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Infernal Blightbeak.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Infernal Blightbeak"
+  },
+  {
+    "page_name": "MOUNT: Coastal Sunbeak",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Coastal Sunbeak",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Coastal Sunbeak.png|32px]]",
+      "name": "MOUNT: Coastal Sunbeak",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Coastal Sunbeak.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Coastal Sunbeak"
+  },
+  {
+    "page_name": "MOUNT: Astralbeak Warbler",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Astralbeak Warbler",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Astralbeak Warbler.png|32px]]",
+      "name": "MOUNT: Astralbeak Warbler",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Astralbeak Warbler.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Astralbeak Warbler"
+  },
+  {
+    "page_name": "MOUNT: Mossbeak Hunter",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Mossbeak Hunter",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Mossbeak Hunter.png|32px]]",
+      "name": "MOUNT: Mossbeak Hunter",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Mossbeak Hunter.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Mossbeak Hunter"
+  },
+  {
+    "page_name": "MOUNT: Oakfeather Raptor",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Oakfeather Raptor",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Oakfeather Raptor.png|32px]]",
+      "name": "MOUNT: Oakfeather Raptor",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Oakfeather Raptor.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Oakfeather Raptor"
+  },
+  {
+    "page_name": "MOUNT: Leafwood Strider",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Leafwood Strider",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Leafwood Strider.png|32px]]",
+      "name": "MOUNT: Leafwood Strider",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Leafwood Strider.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Leafwood Strider"
   }
 ]

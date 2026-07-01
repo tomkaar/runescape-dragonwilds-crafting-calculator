@@ -13438,7 +13438,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "8"
         }
       ],
       "outputs": [
@@ -69745,7 +69745,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "200"
+          "experience": "12"
         }
       ],
       "outputs": [
@@ -72903,6 +72903,10 @@
     ]
   },
   {
+    "uses_material": [
+      "Desert Cloth",
+      "Yew Logs"
+    ],
     "uses_skill": [
       "Construction"
     ],
@@ -72911,11 +72915,28 @@
     ],
     "json": {
       "facility": "Build Menu",
-      "materials": [],
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "3",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "6",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        }
+      ],
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -72935,6 +72956,10 @@
     ]
   },
   {
+    "uses_material": [
+      "Desert Cloth",
+      "Yew Logs"
+    ],
     "uses_skill": [
       "Construction"
     ],
@@ -72943,11 +72968,28 @@
     ],
     "json": {
       "facility": "Build Menu",
-      "materials": [],
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "6",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "12",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        }
+      ],
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "40"
         }
       ],
       "outputs": [
