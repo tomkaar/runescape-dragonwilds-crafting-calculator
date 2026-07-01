@@ -6,6 +6,7 @@ import { useMobilePanelsState } from "./mobile-panel-state";
 import { useSelectedMaterial } from "./selected-material";
 import { useMaterialMultiplier } from "./material-multiplier";
 import { useCraftingTreeDirection } from "./crafting-tree-direction";
+import { useStepsFilter } from "./steps-filter";
 
 /**
  * This component will rehydrate the provided store
@@ -18,6 +19,7 @@ export function HydrateStores() {
     useMobilePanelsState.persist.rehydrate();
     useSelectedMaterial.persist.rehydrate();
     useMaterialMultiplier.persist.rehydrate();
+    useStepsFilter.persist.rehydrate();
   };
 
   useEffect(() => {

@@ -39,7 +39,7 @@ export function ProgressOwnedMaterials({ trackedItemIds }: Props) {
   return (
     <div className="bg-background rounded-lg border border-accent p-4 flex flex-col gap-3">
       <div>
-        <h2 className="font-semibold text-sm">Progress</h2>
+        <h2 className="font-semibold text-sm">Collected Materials</h2>
         <p className="text-xs text-muted-foreground mt-0.5">
           Enter how many of each material you currently own to track your
           progress.
