@@ -32931,6 +32931,7 @@
     ],
     "wikiLink": "Meat_Sandwich",
     "weight": 2,
+    "health": 80,
     "stackLimit": 50
   },
   {
@@ -32975,6 +32976,7 @@
     ],
     "wikiLink": "Forager's_Sandwich",
     "weight": 2,
+    "health": 70,
     "stackLimit": 50
   },
   {
@@ -33070,6 +33072,7 @@
     ],
     "wikiLink": "Steak_Sandwich",
     "weight": 2,
+    "health": 90,
     "stackLimit": 50
   },
   {
@@ -33212,6 +33215,7 @@
     ],
     "wikiLink": "Meat_Twist_Sandwich",
     "weight": 2,
+    "health": 90,
     "stackLimit": 50
   },
   {
@@ -33260,6 +33264,7 @@
     ],
     "wikiLink": "Glazed_Pumpkin_Sandwich",
     "weight": 2,
+    "health": 80,
     "stackLimit": 50
   },
   {
@@ -33304,6 +33309,7 @@
     ],
     "wikiLink": "Maple_Toastie",
     "weight": 2,
+    "health": 70,
     "stackLimit": 50
   },
   {
@@ -38819,7 +38825,7 @@
     ],
     "wikiLink": "Stir-Fry",
     "weight": 0.7,
-    "health": 70,
+    "health": 150,
     "stackLimit": 50
   },
   {
@@ -47903,16 +47909,25 @@
     "image": "Moon Garou Sunshade 01.png",
     "variants": [
       {
-        "id": "3488d28c6098",
+        "id": "e68d55d2b8b6",
         "name": "Moon Garou Sunshade 01",
         "image": "Moon Garou Sunshade 01.png",
         "variantName": null,
         "recipe": {
-          "id": "47368481e046",
+          "id": "738c937df516",
           "facilities": [
             "Build Menu"
           ],
-          "materials": [],
+          "materials": [
+            {
+              "itemId": "7b98f89bbc65",
+              "quantity": 3
+            },
+            {
+              "itemId": "75f4482e4de5",
+              "quantity": 6
+            }
+          ],
           "quantity": 1
         },
         "usesRecipe": null
@@ -47932,16 +47947,25 @@
     "image": "Moon Garou Sunshade 02.png",
     "variants": [
       {
-        "id": "70b4d605041b",
+        "id": "d581978115d2",
         "name": "Moon Garou Sunshade 02",
         "image": "Moon Garou Sunshade 02.png",
         "variantName": null,
         "recipe": {
-          "id": "8229c6d64e16",
+          "id": "d07a067f3f54",
           "facilities": [
             "Build Menu"
           ],
-          "materials": [],
+          "materials": [
+            {
+              "itemId": "7b98f89bbc65",
+              "quantity": 6
+            },
+            {
+              "itemId": "75f4482e4de5",
+              "quantity": 12
+            }
+          ],
           "quantity": 1
         },
         "usesRecipe": null
@@ -58994,26 +59018,6 @@
     "stackLimit": 99
   },
   {
-    "id": "b6b522f65412",
-    "name": "Mount: Scorchsummer Ashbeak",
-    "image": "ScorchsummerMount.png",
-    "variants": [
-      {
-        "id": "b6b522f65412",
-        "name": "Mount: Scorchsummer Ashbeak",
-        "image": "ScorchsummerMount.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Mount:_Scorchsummer_Ashbeak",
-    "weight": 0,
-    "stackLimit": 99
-  },
-  {
     "id": "e82aadf13a49",
     "name": "Tome of Volcano",
     "image": "Tome of Volcano.png",
@@ -59190,5 +59194,225 @@
     "facilities": [],
     "wikiLink": "Smouldering_Draconic_Visage",
     "weight": 0.5
+  },
+  {
+    "id": "53d080f5e1d6",
+    "name": "MOUNT: Grassfoot Screecher",
+    "image": "MOUNT: Grassfoot Screecher.png",
+    "variants": [
+      {
+        "id": "53d080f5e1d6",
+        "name": "MOUNT: Grassfoot Screecher",
+        "image": "MOUNT: Grassfoot Screecher.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Grassfoot_Screecher",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "a2bf3f90bd5b",
+    "name": "MOUNT: Crimson Crybaby",
+    "image": "MOUNT: Crimson Crybaby.png",
+    "variants": [
+      {
+        "id": "a2bf3f90bd5b",
+        "name": "MOUNT: Crimson Crybaby",
+        "image": "MOUNT: Crimson Crybaby.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Crimson_Crybaby",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "5339fa924982",
+    "name": "MOUNT: Applefeather Mosstail",
+    "image": "MOUNT: Applefeather Mosstail.png",
+    "variants": [
+      {
+        "id": "5339fa924982",
+        "name": "MOUNT: Applefeather Mosstail",
+        "image": "MOUNT: Applefeather Mosstail.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Applefeather_Mosstail",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "30fddcfa673d",
+    "name": "MOUNT: Scorchsummer Ashbeak",
+    "image": "MOUNT: Scorchsummer Ashbeak.png",
+    "variants": [
+      {
+        "id": "30fddcfa673d",
+        "name": "MOUNT: Scorchsummer Ashbeak",
+        "image": "MOUNT: Scorchsummer Ashbeak.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Scorchsummer_Ashbeak",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "f2f8931fb98a",
+    "name": "MOUNT: Zamorakian Pledgesaddle",
+    "image": "MOUNT: Zamorakian Pledgesaddle.png",
+    "variants": [
+      {
+        "id": "f2f8931fb98a",
+        "name": "MOUNT: Zamorakian Pledgesaddle",
+        "image": "MOUNT: Zamorakian Pledgesaddle.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Zamorakian_Pledgesaddle",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "5676b8d312e3",
+    "name": "MOUNT: Infernal Blightbeak",
+    "image": "MOUNT: Infernal Blightbeak.png",
+    "variants": [
+      {
+        "id": "5676b8d312e3",
+        "name": "MOUNT: Infernal Blightbeak",
+        "image": "MOUNT: Infernal Blightbeak.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Infernal_Blightbeak",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "04aa1f7c88cb",
+    "name": "MOUNT: Coastal Sunbeak",
+    "image": "MOUNT: Coastal Sunbeak.png",
+    "variants": [
+      {
+        "id": "04aa1f7c88cb",
+        "name": "MOUNT: Coastal Sunbeak",
+        "image": "MOUNT: Coastal Sunbeak.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Coastal_Sunbeak",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "62b3ac6a846d",
+    "name": "MOUNT: Astralbeak Warbler",
+    "image": "MOUNT: Astralbeak Warbler.png",
+    "variants": [
+      {
+        "id": "62b3ac6a846d",
+        "name": "MOUNT: Astralbeak Warbler",
+        "image": "MOUNT: Astralbeak Warbler.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Astralbeak_Warbler",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "166f6496b861",
+    "name": "MOUNT: Mossbeak Hunter",
+    "image": "MOUNT: Mossbeak Hunter.png",
+    "variants": [
+      {
+        "id": "166f6496b861",
+        "name": "MOUNT: Mossbeak Hunter",
+        "image": "MOUNT: Mossbeak Hunter.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Mossbeak_Hunter",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "927fd8f7901c",
+    "name": "MOUNT: Oakfeather Raptor",
+    "image": "MOUNT: Oakfeather Raptor.png",
+    "variants": [
+      {
+        "id": "927fd8f7901c",
+        "name": "MOUNT: Oakfeather Raptor",
+        "image": "MOUNT: Oakfeather Raptor.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Oakfeather_Raptor",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "5934c7122245",
+    "name": "MOUNT: Leafwood Strider",
+    "image": "MOUNT: Leafwood Strider.png",
+    "variants": [
+      {
+        "id": "5934c7122245",
+        "name": "MOUNT: Leafwood Strider",
+        "image": "MOUNT: Leafwood Strider.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Leafwood_Strider",
+    "weight": 0,
+    "stackLimit": 50
   }
 ]
