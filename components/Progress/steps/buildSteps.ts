@@ -36,6 +36,7 @@ type Params = {
   filteredItemIds: string[];
   allItems: Record<string, MarkedMaterial[]>;
   multipliers: Record<string, number>;
+  owned: Record<string, number>;
 };
 
 function walkTree(
@@ -123,6 +124,7 @@ export function buildSteps({
   filteredItemIds,
   allItems,
   multipliers,
+  owned,
 }: Params): StepEntry[] {
   const aggregated = new Map<string, StepEntry>();
 
@@ -151,7 +153,23 @@ export function buildSteps({
     walkTree(tree, 0, null, trackedItemId, trackedItem.name, trackedItem.image, markedNodeIds, aggregated);
   }
 
-  return Array.from(aggregated.values()).sort((a, b) => {
+  const remainingMap = new Map<string, number>();
+  for (const entry of aggregated.values()) {
+    const remaining = entry.quantity - (owned[entry.itemId] ?? 0);
+    if (remaining > 0) remainingMap.set(entry.itemId, remaining);
+  }
+
+  const results: StepEntry[] = [];
+  for (const entry of aggregated.values()) {
+    const remaining = remainingMap.get(entry.itemId);
+    if (remaining === undefined) continue;
+    const adjustedParents = entry.parents
+      .filter((p) => remainingMap.has(p.itemId))
+      .map((p) => ({ ...p, quantity: remainingMap.get(p.itemId)! }));
+    results.push({ ...entry, quantity: remaining, parents: adjustedParents });
+  }
+
+  return results.sort((a, b) => {
     // Deepest materials (most raw) first
     if (b.depth !== a.depth) return b.depth - a.depth;
     // Intermediate steps (have sub-ingredients) before leaves at same depth

@@ -11,6 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
+import { useMaterialOwned } from "@/store/material-owned";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { useStepsFilter } from "@/store/steps-filter";
 import { getItemById } from "@/utils/itemById";
@@ -24,6 +25,7 @@ type Props = {
 export function ProgressSteps({ trackedItemIds }: Props) {
   const allItems = useSelectedMaterial((state) => state.items);
   const multipliers = useMaterialMultiplier((state) => state.items);
+  const owned = useMaterialOwned((state) => state.owned);
   const { isAll, selectedIds, selectAll, toggleItem } = useStepsFilter();
 
   const filteredItemIds = useMemo(
@@ -35,8 +37,8 @@ export function ProgressSteps({ trackedItemIds }: Props) {
   );
 
   const steps = useMemo(
-    () => buildSteps({ filteredItemIds, allItems, multipliers }),
-    [filteredItemIds, allItems, multipliers],
+    () => buildSteps({ filteredItemIds, allItems, multipliers, owned }),
+    [filteredItemIds, allItems, multipliers, owned],
   );
 
   return (
