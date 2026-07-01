@@ -1,5 +1,11 @@
 "use client";
 
+import {
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
 import { useSelectedMaterial } from "@/store/selected-material";
@@ -37,31 +43,40 @@ export function ProgressOwnedMaterials({ trackedItemIds }: Props) {
   };
 
   return (
-    <div className="bg-background rounded-lg border border-accent p-4 flex flex-col gap-3">
-      <div>
-        <h2 className="font-semibold text-sm">Collected Materials</h2>
-        <p className="text-xs text-muted-foreground mt-0.5">
-          Enter how many of each material you currently own to track your
-          progress.
-        </p>
-      </div>
+    <AccordionPersisted>
+      <AccordionItem
+        value="progress-owned-materials"
+        className="bg-background rounded-lg border border-accent"
+      >
+        <AccordionTrigger className="text-foreground px-4">
+          <div className="flex flex-col text-left">
+            <span className="font-semibold text-sm">Collected Materials</span>
+            <span className="text-xs text-muted-foreground font-normal mt-0.5">
+              Enter how many of each material you currently own to track your
+              progress.
+            </span>
+          </div>
+        </AccordionTrigger>
 
-      {rows.length === 0 ? (
-        <p className="text-xs text-muted-foreground">
-          Mark materials on the item cards to see them here.
-        </p>
-      ) : (
-        <div className="flex flex-col">
-          {rows.map((entry) => (
-            <OwnedMaterialRow
-              key={entry.itemId}
-              entry={entry}
-              owned={owned[entry.itemId] ?? 0}
-              onCommit={(qty) => commit(entry, qty)}
-            />
-          ))}
-        </div>
-      )}
-    </div>
+        <AccordionContent className="px-4 pb-4 text-foreground pt-4">
+          {rows.length === 0 ? (
+            <p className="text-xs text-muted-foreground">
+              Mark materials on the item cards to see them here.
+            </p>
+          ) : (
+            <div className="flex flex-col">
+              {rows.map((entry) => (
+                <OwnedMaterialRow
+                  key={entry.itemId}
+                  entry={entry}
+                  owned={owned[entry.itemId] ?? 0}
+                  onCommit={(qty) => commit(entry, qty)}
+                />
+              ))}
+            </div>
+          )}
+        </AccordionContent>
+      </AccordionItem>
+    </AccordionPersisted>
   );
 }
