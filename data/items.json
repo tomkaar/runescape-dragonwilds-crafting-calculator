@@ -43916,12 +43916,12 @@
     "image": "Adamant Bar.png",
     "variants": [
       {
-        "id": "c96170ed0649",
+        "id": "b8524836be0d",
         "name": "Adamant Bar",
         "image": "Adamant Bar.png",
         "variantName": null,
         "recipe": {
-          "id": "a45e69451855",
+          "id": "9e530bf4649a",
           "facilities": [
             "Blast Furnace"
           ],
@@ -43932,10 +43932,10 @@
             },
             {
               "itemId": "4cc1d6e9f857",
-              "quantity": 3
+              "quantity": 2
             }
           ],
-          "quantity": 2
+          "quantity": 1
         },
         "usesRecipe": null
       }
@@ -45671,6 +45671,49 @@
     "wikiLink": "Advanced_Tannery"
   },
   {
+    "id": "3d4f4c50c5b7",
+    "name": "Monkfish Skewers",
+    "image": "Monkfish Skewers.png",
+    "variants": [
+      {
+        "id": "0d5f12d1e0cc",
+        "name": "Monkfish Skewers",
+        "image": "Monkfish Skewers.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b84cb66cff50",
+          "facilities": [
+            "Stone Range",
+            "Cooking Range"
+          ],
+          "materials": [
+            {
+              "itemId": "740e218149d8",
+              "quantity": 1
+            },
+            {
+              "itemId": "c1986755bae1",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Stone Range",
+      "Cooking Range"
+    ],
+    "wikiLink": "Monkfish_Skewers",
+    "weight": 1.4,
+    "health": 120,
+    "stackLimit": 99
+  },
+  {
     "id": "33b681e13df5",
     "name": "Yew Longbow",
     "image": "Yew Longbow.png",
@@ -45719,7 +45762,7 @@
       "Fletching Bench"
     ],
     "wikiLink": "Yew_Longbow",
-    "weight": 0
+    "weight": 15
   },
   {
     "id": "4a3b36bf8ff3",
@@ -45727,19 +45770,35 @@
     "image": "Yew Shortbow.png",
     "variants": [
       {
-        "id": "81ad00c4c353",
+        "id": "0a17d346f734",
         "name": "Yew Shortbow",
         "image": "Yew Shortbow.png",
         "variantName": null,
         "recipe": {
-          "id": "f58690e79bf3",
+          "id": "f9ddbcc66f88",
           "facilities": [
             "Fletching Bench"
           ],
           "materials": [
             {
-              "itemId": "75f4482e4de5",
+              "itemId": "7f7142fb8b46",
+              "quantity": 2
+            },
+            {
+              "itemId": "9e1cedfc6c7e",
+              "quantity": 2
+            },
+            {
+              "itemId": "888dae826aaa",
+              "quantity": 2
+            },
+            {
+              "itemId": "463425cf6f65",
               "quantity": 1
+            },
+            {
+              "itemId": "75f4482e4de5",
+              "quantity": 10
             }
           ],
           "quantity": 1
@@ -45754,7 +45813,7 @@
       "Fletching Bench"
     ],
     "wikiLink": "Yew_Shortbow",
-    "weight": 0
+    "weight": 10
   },
   {
     "id": "0b02dc4db389",
@@ -48908,6 +48967,286 @@
       "Imbuing Barrel"
     ],
     "wikiLink": "Super_Focused_Artisan_Potion",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "ad0a23cbc85e",
+    "name": "Super Focused Attack Potion",
+    "image": "Super Focused Attack Potion.png",
+    "variants": [
+      {
+        "id": "fb2116c729f4",
+        "name": "Super Focused Attack Potion",
+        "image": "Super Focused Attack Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4e5678b1cf36",
+          "facilities": [
+            "Imbuing Barrel"
+          ],
+          "materials": [
+            {
+              "itemId": "6d357e577542",
+              "quantity": 1
+            },
+            {
+              "itemId": "94649135f4eb",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Imbuing Barrel"
+    ],
+    "wikiLink": "Super_Focused_Attack_Potion",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "0c5a1b4e218b",
+    "name": "Super Focused Construction Potion",
+    "image": "Super Focused Construction Potion.png",
+    "variants": [
+      {
+        "id": "3c39fc17acaa",
+        "name": "Super Focused Construction Potion",
+        "image": "Super Focused Construction Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5a43f59e5c09",
+          "facilities": [
+            "Imbuing Barrel"
+          ],
+          "materials": [
+            {
+              "itemId": "d64f5b96e066",
+              "quantity": 1
+            },
+            {
+              "itemId": "94649135f4eb",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Imbuing Barrel"
+    ],
+    "wikiLink": "Super_Focused_Construction_Potion",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "65cf96599225",
+    "name": "Super Focused Cooking Potion",
+    "image": "Super Focused Cooking Potion.png",
+    "variants": [
+      {
+        "id": "dac0ed106837",
+        "name": "Super Focused Cooking Potion",
+        "image": "Super Focused Cooking Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c7e1b3b61b24",
+          "facilities": [
+            "Imbuing Barrel"
+          ],
+          "materials": [
+            {
+              "itemId": "21f646c8b6e3",
+              "quantity": 1
+            },
+            {
+              "itemId": "94649135f4eb",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Imbuing Barrel"
+    ],
+    "wikiLink": "Super_Focused_Cooking_Potion",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "61fc3f2a3e06",
+    "name": "Super Focused Farming Potion",
+    "image": "Super Focused Farming Potion.png",
+    "variants": [
+      {
+        "id": "76912ed137b7",
+        "name": "Super Focused Farming Potion",
+        "image": "Super Focused Farming Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f47e41542596",
+          "facilities": [
+            "Imbuing Barrel"
+          ],
+          "materials": [
+            {
+              "itemId": "e05b4305f9e5",
+              "quantity": 1
+            },
+            {
+              "itemId": "94649135f4eb",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Imbuing Barrel"
+    ],
+    "wikiLink": "Super_Focused_Farming_Potion",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "b059479f7959",
+    "name": "Super Focused Fishing Potion",
+    "image": "Super Focused Fishing Potion.png",
+    "variants": [
+      {
+        "id": "2acdcafe871a",
+        "name": "Super Focused Fishing Potion",
+        "image": "Super Focused Fishing Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "166a4f6cbadf",
+          "facilities": [
+            "Imbuing Barrel"
+          ],
+          "materials": [
+            {
+              "itemId": "aa0ca971d9cb",
+              "quantity": 1
+            },
+            {
+              "itemId": "94649135f4eb",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Imbuing Barrel"
+    ],
+    "wikiLink": "Super_Focused_Fishing_Potion",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "b5aa3f1d5ce5",
+    "name": "Super Focused Runecrafting Potion",
+    "image": "Super Focused Runecrafting Potion.png",
+    "variants": [
+      {
+        "id": "9cb9077adfa0",
+        "name": "Super Focused Runecrafting Potion",
+        "image": "Super Focused Runecrafting Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "51adda7fef89",
+          "facilities": [
+            "Imbuing Barrel"
+          ],
+          "materials": [
+            {
+              "itemId": "74ac9c8345a2",
+              "quantity": 1
+            },
+            {
+              "itemId": "94649135f4eb",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Imbuing Barrel"
+    ],
+    "wikiLink": "Super_Focused_Runecrafting_Potion",
+    "weight": 1,
+    "stackLimit": 99
+  },
+  {
+    "id": "7a29f1da21a7",
+    "name": "Super Focused Woodcutting Potion",
+    "image": "Super Focused Woodcutting Potion.png",
+    "variants": [
+      {
+        "id": "dc5b6851a776",
+        "name": "Super Focused Woodcutting Potion",
+        "image": "Super Focused Woodcutting Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "08e67df59fd6",
+          "facilities": [
+            "Imbuing Barrel"
+          ],
+          "materials": [
+            {
+              "itemId": "e7a8ef651583",
+              "quantity": 1
+            },
+            {
+              "itemId": "94649135f4eb",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Imbuing Barrel"
+    ],
+    "wikiLink": "Super_Focused_Woodcutting_Potion",
     "weight": 1,
     "stackLimit": 99
   },
@@ -59157,6 +59496,25 @@
     "stackLimit": 99
   },
   {
+    "id": "6df9dbdaad0d",
+    "name": "Crucible Engram of Helplessness",
+    "image": "Crucible Engram of Helplessness.png",
+    "variants": [
+      {
+        "id": "6df9dbdaad0d",
+        "name": "Crucible Engram of Helplessness",
+        "image": "Crucible Engram of Helplessness.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Crucible_Engram_of_Helplessness",
+    "stackLimit": 99
+  },
+  {
     "id": "6fa10d2d6eff",
     "name": "Fuzan's Head",
     "image": "Fuzan's Head.png",
@@ -59412,6 +59770,163 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "MOUNT:_Leafwood_Strider",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "9820dafeea63",
+    "name": "Crucible Engram of Betrayal",
+    "image": "Crucible Engram of Betrayal.png",
+    "variants": [
+      {
+        "id": "9820dafeea63",
+        "name": "Crucible Engram of Betrayal",
+        "image": "Crucible Engram of Betrayal.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Crucible_Engram_of_Betrayal",
+    "stackLimit": 99
+  },
+  {
+    "id": "5a438b4a75ec",
+    "name": "Crucible Engram of the Hounded",
+    "image": "Crucible Engram of the Hounded.png",
+    "variants": [
+      {
+        "id": "5a438b4a75ec",
+        "name": "Crucible Engram of the Hounded",
+        "image": "Crucible Engram of the Hounded.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Crucible_Engram_of_the_Hounded",
+    "stackLimit": 99
+  },
+  {
+    "id": "f60baccb6180",
+    "name": "Crucible Engram of Humiliation",
+    "image": "Crucible Engram of Humiliation.png",
+    "variants": [
+      {
+        "id": "f60baccb6180",
+        "name": "Crucible Engram of Humiliation",
+        "image": "Crucible Engram of Humiliation.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Crucible_Engram_of_Humiliation",
+    "stackLimit": 99
+  },
+  {
+    "id": "b7b7ada04dd4",
+    "name": "MOUNT: Springdown Runner",
+    "image": "MOUNT: Springdown Runner.png",
+    "variants": [
+      {
+        "id": "b7b7ada04dd4",
+        "name": "MOUNT: Springdown Runner",
+        "image": "MOUNT: Springdown Runner.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Springdown_Runner",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "4a2ffea1c6a3",
+    "name": "MOUNT: Uzzerian Umber",
+    "image": "MOUNT: Uzzerian Umber.png",
+    "variants": [
+      {
+        "id": "4a2ffea1c6a3",
+        "name": "MOUNT: Uzzerian Umber",
+        "image": "MOUNT: Uzzerian Umber.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Uzzerian_Umber",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "d44dc8f755d4",
+    "name": "MOUNT: Eclipseborn Sharpbeak",
+    "image": "MOUNT: Eclipseborn Sharpbeak.png",
+    "variants": [
+      {
+        "id": "d44dc8f755d4",
+        "name": "MOUNT: Eclipseborn Sharpbeak",
+        "image": "MOUNT: Eclipseborn Sharpbeak.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Eclipseborn_Sharpbeak",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "33d0fce3bed5",
+    "name": "MOUNT: Sunkissed Clawfoot",
+    "image": "MOUNT: Sunkissed Clawfoot.png",
+    "variants": [
+      {
+        "id": "33d0fce3bed5",
+        "name": "MOUNT: Sunkissed Clawfoot",
+        "image": "MOUNT: Sunkissed Clawfoot.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Sunkissed_Clawfoot",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "0330038c87ce",
+    "name": "MOUNT: Summerbellied Wagtail",
+    "image": "MOUNT: Summerbellied Wagtail.png",
+    "variants": [
+      {
+        "id": "0330038c87ce",
+        "name": "MOUNT: Summerbellied Wagtail",
+        "image": "MOUNT: Summerbellied Wagtail.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Summerbellied_Wagtail",
     "weight": 0,
     "stackLimit": 50
   }
