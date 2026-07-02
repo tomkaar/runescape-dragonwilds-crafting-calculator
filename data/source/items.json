@@ -17124,16 +17124,16 @@
   },
   {
     "page_name": "Weak Focused Fishing Potion",
-    "item_description": "PERK: Weak Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
+    "item_description": "PERK: Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
     "item_name": "Weak Focused Fishing Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Weak Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
+      "description": "PERK: Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
       "duration": "300 seconds",
       "perk": {
-        "name": "Weak Focused Fishing",
+        "name": "Focused Fishing",
         "effect": "Grants a boost to your Fishing XP for a short period of time."
       },
       "image": "[[File:Weak Focused Fishing Potion.png|32px]]",
@@ -17147,16 +17147,16 @@
   },
   {
     "page_name": "Lesser Focused Fishing Potion",
-    "item_description": "PERK: Lesser Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
+    "item_description": "PERK: Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
     "item_name": "Lesser Focused Fishing Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Lesser Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
+      "description": "PERK: Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
       "duration": "600 seconds",
       "perk": {
-        "name": "Lesser Focused Fishing",
+        "name": "Focused Fishing",
         "effect": "Grants a boost to your Fishing XP for a short period of time."
       },
       "image": "[[File:Lesser Focused Fishing Potion.png|32px]]",
@@ -17170,16 +17170,16 @@
   },
   {
     "page_name": "Focused Fishing Potion",
-    "item_description": "PERK: Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
+    "item_description": "PERK: Focused Fishing II<br><br>Grants a boost to your Fishing XP for a short period of time.",
     "item_name": "Focused Fishing Potion",
     "item_type": "Potion",
     "item_stacklimit": 50,
     "json": {
       "type": "Potion",
-      "description": "PERK: Focused Fishing<br><br>Grants a boost to your Fishing XP for a short period of time.",
+      "description": "PERK: Focused Fishing II<br><br>Grants a boost to your Fishing XP for a short period of time.",
       "duration": "300 seconds",
       "perk": {
-        "name": "Focused Fishing",
+        "name": "Focused Fishing II",
         "effect": "Grants a boost to your Fishing XP for a short period of time."
       },
       "image": "[[File:Focused Fishing Potion.png|32px]]",
@@ -19535,40 +19535,61 @@
     "page_name_sub": "Raw Monkfish"
   },
   {
+    "page_name": "Monkfish Skewers",
+    "item_description": "Tasty monkfish meat, pierced on a skewer for convenient eating.",
+    "item_name": "Monkfish Skewers",
+    "item_type": "Food",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Food",
+      "description": "Tasty monkfish meat, pierced on a skewer for convenient eating.",
+      "duration": "300 seconds",
+      "health": "120",
+      "image": "[[File:Monkfish Skewers.png|32px]]",
+      "name": "Monkfish Skewers",
+      "weight": "1.4",
+      "sustenance": "50",
+      "stacklimit": "99",
+      "image_raw": "Monkfish Skewers.png"
+    },
+    "item_weight": 1.4,
+    "page_name_sub": "Monkfish Skewers"
+  },
+  {
     "page_name": "Yew Longbow",
-    "item_description": "?",
+    "item_description": "An impactful longbow carved from yew.",
     "item_name": "Yew Longbow",
     "item_type": "Ranged Weapon",
     "page_name_sub": "Yew Longbow",
     "json": {
       "type": "Ranged Weapon",
-      "description": "?",
+      "description": "An impactful longbow carved from yew.",
       "repaircost": "?",
       "image": "[[File:Yew Longbow.png|32px]]",
       "name": "Yew Longbow",
-      "weight": "?",
+      "weight": "15",
       "image_raw": "Yew Longbow.png"
     },
     "item_repair": "?",
-    "item_weight": 0
+    "item_weight": 15
   },
   {
     "page_name": "Yew Shortbow",
-    "item_description": "?",
+    "item_description": "A strong shortbow made from yew.",
     "item_name": "Yew Shortbow",
     "item_type": "Ranged Weapon",
     "page_name_sub": "Yew Shortbow",
     "json": {
       "type": "Ranged Weapon",
-      "description": "?",
+      "description": "A strong shortbow made from yew.",
       "repaircost": "?",
       "image": "[[File:Yew Shortbow.png|32px]]",
       "name": "Yew Shortbow",
-      "weight": "?",
+      "weight": "10",
       "image_raw": "Yew Shortbow.png"
     },
     "item_repair": "?",
-    "item_weight": 0
+    "item_weight": 10
   },
   {
     "page_name": "Bow of Elidinis",
@@ -21003,6 +21024,22 @@
     "item_weight": 9
   },
   {
+    "page_name": "Crucible Engram of Helplessness",
+    "item_description": "A key to a specific Nightmare Crucible.",
+    "item_name": "Crucible Engram of Helplessness",
+    "item_type": "Basic Material",
+    "page_name_sub": "Crucible Engram of Helplessness",
+    "json": {
+      "type": "Basic Material",
+      "description": "A key to a specific Nightmare Crucible.",
+      "image": "[[File:Crucible Engram of Helplessness.png|32px]]",
+      "name": "Crucible Engram of Helplessness",
+      "stacklimit": "99",
+      "image_raw": "Crucible Engram of Helplessness.png"
+    },
+    "item_stacklimit": 99
+  },
+  {
     "page_name": "Fuzan's Head",
     "item_description": "",
     "item_name": "Fuzan's Head",
@@ -21368,5 +21405,304 @@
     },
     "item_weight": 0,
     "page_name_sub": "MOUNT: Leafwood Strider"
+  },
+  {
+    "page_name": "Crucible Engram of Betrayal",
+    "item_description": "A key to a specific Nightmare Crucible.",
+    "item_name": "Crucible Engram of Betrayal",
+    "item_type": "Basic Material",
+    "page_name_sub": "Crucible Engram of Betrayal",
+    "json": {
+      "type": "Basic Material",
+      "description": "A key to a specific Nightmare Crucible.",
+      "image": "[[File:Crucible Engram of Betrayal.png|32px]]",
+      "name": "Crucible Engram of Betrayal",
+      "stacklimit": "99",
+      "image_raw": "Crucible Engram of Betrayal.png"
+    },
+    "item_stacklimit": 99
+  },
+  {
+    "page_name": "Crucible Engram of the Hounded",
+    "item_description": "A key to a specific Nightmare Crucible.",
+    "item_name": "Crucible Engram of the Hounded",
+    "item_type": "Basic Material",
+    "page_name_sub": "Crucible Engram of the Hounded",
+    "json": {
+      "type": "Basic Material",
+      "description": "A key to a specific Nightmare Crucible.",
+      "image": "[[File:Crucible Engram of the Hounded.png|32px]]",
+      "name": "Crucible Engram of the Hounded",
+      "stacklimit": "99",
+      "image_raw": "Crucible Engram of the Hounded.png"
+    },
+    "item_stacklimit": 99
+  },
+  {
+    "page_name": "Crucible Engram of Humiliation",
+    "item_description": "A key to a specific Nightmare Crucible.",
+    "item_name": "Crucible Engram of Humiliation",
+    "item_type": "Basic Material",
+    "page_name_sub": "Crucible Engram of Humiliation",
+    "json": {
+      "type": "Basic Material",
+      "description": "A key to a specific Nightmare Crucible.",
+      "image": "[[File:Crucible Engram of Humiliation.png|32px]]",
+      "name": "Crucible Engram of Humiliation",
+      "stacklimit": "99",
+      "image_raw": "Crucible Engram of Humiliation.png"
+    },
+    "item_stacklimit": 99
+  },
+  {
+    "page_name": "MOUNT: Springdown Runner",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Springdown Runner",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Springdown Runner.png|32px]]",
+      "name": "MOUNT: Springdown Runner",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Springdown Runner.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Springdown Runner"
+  },
+  {
+    "page_name": "MOUNT: Uzzerian Umber",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Uzzerian Umber",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Uzzerian Umber.png|32px]]",
+      "name": "MOUNT: Uzzerian Umber",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Uzzerian Umber.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Uzzerian Umber"
+  },
+  {
+    "page_name": "MOUNT: Eclipseborn Sharpbeak",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Eclipseborn Sharpbeak",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Eclipseborn Sharpbeak.png|32px]]",
+      "name": "MOUNT: Eclipseborn Sharpbeak",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Eclipseborn Sharpbeak.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Eclipseborn Sharpbeak"
+  },
+  {
+    "page_name": "MOUNT: Sunkissed Clawfoot",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Sunkissed Clawfoot",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Sunkissed Clawfoot.png|32px]]",
+      "name": "MOUNT: Sunkissed Clawfoot",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Sunkissed Clawfoot.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Sunkissed Clawfoot"
+  },
+  {
+    "page_name": "MOUNT: Summerbellied Wagtail",
+    "item_description": "Grants access to a visual mount variant",
+    "item_name": "MOUNT: Summerbellied Wagtail",
+    "item_type": "Basic Item",
+    "item_stacklimit": 50,
+    "json": {
+      "type": "Basic Item",
+      "description": "Grants access to a visual mount variant",
+      "image": "[[File:MOUNT: Summerbellied Wagtail.png|32px]]",
+      "name": "MOUNT: Summerbellied Wagtail",
+      "weight": "0.0",
+      "stacklimit": "50",
+      "image_raw": "MOUNT: Summerbellied Wagtail.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "MOUNT: Summerbellied Wagtail"
+  },
+  {
+    "page_name": "Super Focused Attack Potion",
+    "item_description": "PERK: Focused Attack II<br><br>Grants a 30% XP BOOST for the ATTACK Skill",
+    "item_name": "Super Focused Attack Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Attack II<br><br>Grants a 30% XP BOOST for the ATTACK Skill",
+      "duration": "600 seconds",
+      "perk": {
+        "name": "Focused Attack II",
+        "effect": "Grants a 30% XP BOOST for the ATTACK Skill"
+      },
+      "image": "[[File:Super Focused Attack Potion.png|32px]]",
+      "name": "Super Focused Attack Potion",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Super Focused Attack Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Super Focused Attack Potion"
+  },
+  {
+    "page_name": "Super Focused Construction Potion",
+    "item_description": "PERK: Focused Construction II<br><br>Grants a 30% XP BOOST for the CONTRSTUCTION Skill",
+    "item_name": "Super Focused Construction Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Construction II<br><br>Grants a 30% XP BOOST for the CONTRSTUCTION Skill",
+      "duration": "600 seconds",
+      "perk": {
+        "name": "Focused Construction II",
+        "effect": "Grants a 30% XP BOOST for the CONTRSTUCTION Skill"
+      },
+      "image": "[[File:Super Focused Construction Potion.png|32px]]",
+      "name": "Super Focused Construction Potion",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Super Focused Construction Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Super Focused Construction Potion"
+  },
+  {
+    "page_name": "Super Focused Cooking Potion",
+    "item_description": "PERK: Focused Cooking II<br><br>Grants a 30% XP BOOST for the COOKING Skill",
+    "item_name": "Super Focused Cooking Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Cooking II<br><br>Grants a 30% XP BOOST for the COOKING Skill",
+      "duration": "600 seconds",
+      "perk": {
+        "name": "Focused Cooking II",
+        "effect": "Grants a 30% XP BOOST for the COOKING Skill"
+      },
+      "image": "[[File:Super Focused Cooking Potion.png|32px]]",
+      "name": "Super Focused Cooking Potion",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Super Focused Cooking Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Super Focused Cooking Potion"
+  },
+  {
+    "page_name": "Super Focused Farming Potion",
+    "item_description": "PERK: Focused Farming II<br><br>Grants a 30% XP BOOST for the FARMING Skill",
+    "item_name": "Super Focused Farming Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Farming II<br><br>Grants a 30% XP BOOST for the FARMING Skill",
+      "duration": "600 seconds",
+      "perk": {
+        "name": "Focused Farming II",
+        "effect": "Grants a 30% XP BOOST for the FARMING Skill"
+      },
+      "image": "[[File:Super Focused Farming Potion.png|32px]]",
+      "name": "Super Focused Farming Potion",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Super Focused Farming Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Super Focused Farming Potion"
+  },
+  {
+    "page_name": "Super Focused Fishing Potion",
+    "item_description": "PERK: Focused Fishing II<br><br>Grants a 30% XP BOOST for the FISHING Skill",
+    "item_name": "Super Focused Fishing Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Fishing II<br><br>Grants a 30% XP BOOST for the FISHING Skill",
+      "duration": "600 seconds",
+      "perk": {
+        "name": "Focused Fishing II",
+        "effect": "Grants a 30% XP BOOST for the FISHING Skill"
+      },
+      "image": "[[File:Super Focused Fishing Potion.png|32px]]",
+      "name": "Super Focused Fishing Potion",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Super Focused Fishing Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Super Focused Fishing Potion"
+  },
+  {
+    "page_name": "Super Focused Runecrafting Potion",
+    "item_description": "PERK: Focused Runecrafting II<br><br>Grants a 30% XP BOOST for the RUNECRAFING Skill",
+    "item_name": "Super Focused Runecrafting Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Runecrafting II<br><br>Grants a 30% XP BOOST for the RUNECRAFING Skill",
+      "duration": "600 seconds",
+      "perk": {
+        "name": "Focused Runecrafting II",
+        "effect": "Grants a 30% XP BOOST for the RUNECRAFING Skill"
+      },
+      "image": "[[File:Super Focused Runecrafting Potion.png|32px]]",
+      "name": "Super Focused Runecrafting Potion",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Super Focused Runecrafting Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Super Focused Runecrafting Potion"
+  },
+  {
+    "page_name": "Super Focused Woodcutting Potion",
+    "item_description": "PERK: Focused Woodcutting II<br><br>Grants a 30% XP BOOST for the WOODCUTTING Skill",
+    "item_name": "Super Focused Woodcutting Potion",
+    "item_type": "Potion",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Potion",
+      "description": "PERK: Focused Woodcutting II<br><br>Grants a 30% XP BOOST for the WOODCUTTING Skill",
+      "duration": "600 seconds",
+      "perk": {
+        "name": "Focused Woodcutting II",
+        "effect": "Grants a 30% XP BOOST for the WOODCUTTING Skill"
+      },
+      "image": "[[File:Super Focused Woodcutting Potion.png|32px]]",
+      "name": "Super Focused Woodcutting Potion",
+      "weight": "1.0",
+      "stacklimit": "99",
+      "image_raw": "Super Focused Woodcutting Potion.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Super Focused Woodcutting Potion"
   }
 ]

@@ -67170,10 +67170,10 @@
           "image": "[[File:Adamant Ore.png|30px|link=Adamant Ore]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Coal",
           "link": "Coal",
-          "qty": "3",
+          "qty": "2",
           "item": "Coal",
           "image": "[[File:Coal.png|30px|link=Coal]]"
         }
@@ -67188,10 +67188,10 @@
         "Adamant Bar"
       ],
       "output": {
-        "quantity": "2",
+        "quantity": "1",
         "name": "Adamant Bar",
         "link": "Adamant Bar",
-        "qty": "2",
+        "qty": "1",
         "item": "Adamant Bar",
         "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
       }
@@ -69766,6 +69766,112 @@
   },
   {
     "uses_material": [
+      "Monkfish Fillets",
+      "Seared Cactus Steak"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Stone Range"
+    ],
+    "json": {
+      "facility": "Stone Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Monkfish Fillets",
+          "link": "Monkfish Fillets",
+          "qty": "1",
+          "item": "Monkfish Fillets",
+          "image": "[[File:Monkfish Fillets.png|30px|link=Monkfish Fillets]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Seared Cactus Steak",
+          "link": "Seared Cactus Steak",
+          "qty": "1",
+          "item": "Seared Cactus Steak",
+          "image": "[[File:Seared Cactus Steak.png|30px|link=Seared Cactus Steak]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Monkfish Skewers"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Monkfish Skewers",
+        "link": "Monkfish Skewers",
+        "qty": "1",
+        "item": "Monkfish Skewers",
+        "image": "[[File:Monkfish Skewers.png|30px|link=Monkfish Skewers]]"
+      }
+    },
+    "output": [
+      "Monkfish Skewers"
+    ]
+  },
+  {
+    "uses_material": [
+      "Monkfish Fillets",
+      "Seared Cactus Steak"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "uses_facility": [
+      "Cooking Range"
+    ],
+    "json": {
+      "facility": "Cooking Range",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Monkfish Fillets",
+          "link": "Monkfish Fillets",
+          "qty": "1",
+          "item": "Monkfish Fillets",
+          "image": "[[File:Monkfish Fillets.png|30px|link=Monkfish Fillets]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Seared Cactus Steak",
+          "link": "Seared Cactus Steak",
+          "qty": "1",
+          "item": "Seared Cactus Steak",
+          "image": "[[File:Seared Cactus Steak.png|30px|link=Seared Cactus Steak]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Monkfish Skewers"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Monkfish Skewers",
+        "link": "Monkfish Skewers",
+        "qty": "1",
+        "item": "Monkfish Skewers",
+        "image": "[[File:Monkfish Skewers.png|30px|link=Monkfish Skewers]]"
+      }
+    },
+    "output": [
+      "Monkfish Skewers"
+    ]
+  },
+  {
+    "uses_material": [
       "Yew Logs",
       "Adamant Bar",
       "Desert Thread",
@@ -69846,7 +69952,11 @@
   },
   {
     "uses_material": [
-      "Yew Logs"
+      "Yew Logs",
+      "Adamant Bar",
+      "Desert Thread",
+      "Dragonstone",
+      "Gypsum Wax"
     ],
     "uses_skill": [
       "Artisan"
@@ -69858,18 +69968,50 @@
       "facility": "Fletching Bench",
       "materials": [
         {
-          "quantity": "?",
+          "quantity": "10",
           "name": "Yew Logs",
           "link": "Yew Logs",
-          "qty": "?",
+          "qty": "10",
           "item": "Yew Logs",
           "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "2",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "2",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "2",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": 1,
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
         }
       ],
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "300"
         }
       ],
       "outputs": [
@@ -74335,6 +74477,377 @@
     },
     "output": [
       "Super Focused Artisan Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Focused Attack Potion",
+      "Wild Anima"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Imbuing Barrel"
+    ],
+    "json": {
+      "facility": "Imbuing Barrel",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Focused Attack Potion",
+          "link": "Focused Attack Potion",
+          "qty": 1,
+          "item": "Focused Attack Potion",
+          "image": "[[File:Focused Attack Potion.png|30px|link=Focused Attack Potion]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": 1,
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Super Focused Attack Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Super Focused Attack Potion",
+        "link": "Super Focused Attack Potion",
+        "qty": 1,
+        "item": "Super Focused Attack Potion",
+        "image": "[[File:Super Focused Attack Potion.png|30px|link=Super Focused Attack Potion]]"
+      }
+    },
+    "output": [
+      "Super Focused Attack Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Focused Construction Potion",
+      "Wild Anima"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Imbuing Barrel"
+    ],
+    "json": {
+      "facility": "Imbuing Barrel",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Focused Construction Potion",
+          "link": "Focused Construction Potion",
+          "qty": 1,
+          "item": "Focused Construction Potion",
+          "image": "[[File:Focused Construction Potion.png|30px|link=Focused Construction Potion]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": 1,
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Super Focused Construction Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Super Focused Construction Potion",
+        "link": "Super Focused Construction Potion",
+        "qty": 1,
+        "item": "Super Focused Construction Potion",
+        "image": "[[File:Super Focused Construction Potion.png|30px|link=Super Focused Construction Potion]]"
+      }
+    },
+    "output": [
+      "Super Focused Construction Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Focused Cooking Potion",
+      "Wild Anima"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Imbuing Barrel"
+    ],
+    "json": {
+      "facility": "Imbuing Barrel",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Focused Cooking Potion",
+          "link": "Focused Cooking Potion",
+          "qty": 1,
+          "item": "Focused Cooking Potion",
+          "image": "[[File:Focused Cooking Potion.png|30px|link=Focused Cooking Potion]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": 1,
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Super Focused Cooking Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Super Focused Cooking Potion",
+        "link": "Super Focused Cooking Potion",
+        "qty": 1,
+        "item": "Super Focused Cooking Potion",
+        "image": "[[File:Super Focused Cooking Potion.png|30px|link=Super Focused Cooking Potion]]"
+      }
+    },
+    "output": [
+      "Super Focused Cooking Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Focused Farming Potion",
+      "Wild Anima"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Imbuing Barrel"
+    ],
+    "json": {
+      "facility": "Imbuing Barrel",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Focused Farming Potion",
+          "link": "Focused Farming Potion",
+          "qty": 1,
+          "item": "Focused Farming Potion",
+          "image": "[[File:Focused Farming Potion.png|30px|link=Focused Farming Potion]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": 1,
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Super Focused Farming Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Super Focused Farming Potion",
+        "link": "Super Focused Farming Potion",
+        "qty": 1,
+        "item": "Super Focused Farming Potion",
+        "image": "[[File:Super Focused Farming Potion.png|30px|link=Super Focused Farming Potion]]"
+      }
+    },
+    "output": [
+      "Super Focused Farming Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Focused Fishing Potion",
+      "Wild Anima"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Imbuing Barrel"
+    ],
+    "json": {
+      "facility": "Imbuing Barrel",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Focused Fishing Potion",
+          "link": "Focused Fishing Potion",
+          "qty": 1,
+          "item": "Focused Fishing Potion",
+          "image": "[[File:Focused Fishing Potion.png|30px|link=Focused Fishing Potion]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": 1,
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Super Focused Fishing Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Super Focused Fishing Potion",
+        "link": "Super Focused Fishing Potion",
+        "qty": 1,
+        "item": "Super Focused Fishing Potion",
+        "image": "[[File:Super Focused Fishing Potion.png|30px|link=Super Focused Fishing Potion]]"
+      }
+    },
+    "output": [
+      "Super Focused Fishing Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Focused Runecrafting Potion",
+      "Wild Anima"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Imbuing Barrel"
+    ],
+    "json": {
+      "facility": "Imbuing Barrel",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Focused Runecrafting Potion",
+          "link": "Focused Runecrafting Potion",
+          "qty": 1,
+          "item": "Focused Runecrafting Potion",
+          "image": "[[File:Focused Runecrafting Potion.png|30px|link=Focused Runecrafting Potion]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": 1,
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Super Focused Runecrafting Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Super Focused Runecrafting Potion",
+        "link": "Super Focused Runecrafting Potion",
+        "qty": 1,
+        "item": "Super Focused Runecrafting Potion",
+        "image": "[[File:Super Focused Runecrafting Potion.png|30px|link=Super Focused Runecrafting Potion]]"
+      }
+    },
+    "output": [
+      "Super Focused Runecrafting Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Focused Woodcutting Potion",
+      "Wild Anima"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Imbuing Barrel"
+    ],
+    "json": {
+      "facility": "Imbuing Barrel",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Focused Woodcutting Potion",
+          "link": "Focused Woodcutting Potion",
+          "qty": 1,
+          "item": "Focused Woodcutting Potion",
+          "image": "[[File:Focused Woodcutting Potion.png|30px|link=Focused Woodcutting Potion]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": 1,
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Super Focused Woodcutting Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Super Focused Woodcutting Potion",
+        "link": "Super Focused Woodcutting Potion",
+        "qty": 1,
+        "item": "Super Focused Woodcutting Potion",
+        "image": "[[File:Super Focused Woodcutting Potion.png|30px|link=Super Focused Woodcutting Potion]]"
+      }
+    },
+    "output": [
+      "Super Focused Woodcutting Potion"
     ]
   }
 ]
