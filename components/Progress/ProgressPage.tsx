@@ -67,8 +67,8 @@ export function ProgressPage() {
       </div>
 
       <div className="flex-1 lg:shrink-0 lg:overflow-y-auto flex flex-col gap-4">
-        <ProgressOwnedMaterials trackedItemIds={trackedItemIds} />
         <ProgressSummary trackedItemIds={trackedItemIds} />
+        <ProgressOwnedMaterials trackedItemIds={trackedItemIds} />
       </div>
       
       <div className="flex-1 lg:shrink-0 lg:overflow-y-auto">
