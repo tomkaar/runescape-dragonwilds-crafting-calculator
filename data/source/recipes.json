@@ -67170,10 +67170,10 @@
           "image": "[[File:Adamant Ore.png|30px|link=Adamant Ore]]"
         },
         {
-          "quantity": "2",
+          "quantity": "3",
           "name": "Coal",
           "link": "Coal",
-          "qty": "2",
+          "qty": "3",
           "item": "Coal",
           "image": "[[File:Coal.png|30px|link=Coal]]"
         }
@@ -67181,7 +67181,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -68762,10 +68762,10 @@
           "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
         },
         {
-          "quantity": "4",
+          "quantity": "2",
           "name": "Infinity Cloth",
           "link": "Infinity Cloth",
-          "qty": "4",
+          "qty": "2",
           "item": "Infinity Cloth",
           "image": "[[File:Infinity Cloth.png|30px|link=Infinity Cloth]]"
         },
@@ -74393,7 +74393,8 @@
   },
   {
     "uses_material": [
-      "Antipoison Potion"
+      "Antipoison Potion",
+      "Wild Anima"
     ],
     "uses_skill": [
       "Artisan"
@@ -74411,6 +74412,14 @@
           "qty": "1",
           "item": "Antipoison Potion",
           "image": "[[File:Antipoison Potion.png|30px|link=Antipoison Potion]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": "1",
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
         }
       ],
       "skills": [
