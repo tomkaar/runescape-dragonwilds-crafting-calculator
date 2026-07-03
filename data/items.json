@@ -28515,6 +28515,7 @@
     ],
     "wikiLink": "Roast_Pumpkin",
     "weight": 1,
+    "health": 20,
     "stackLimit": 50
   },
   {
@@ -43916,12 +43917,12 @@
     "image": "Adamant Bar.png",
     "variants": [
       {
-        "id": "b8524836be0d",
+        "id": "69c9e3813d71",
         "name": "Adamant Bar",
         "image": "Adamant Bar.png",
         "variantName": null,
         "recipe": {
-          "id": "9e530bf4649a",
+          "id": "03200352da2e",
           "facilities": [
             "Blast Furnace"
           ],
@@ -43932,7 +43933,7 @@
             },
             {
               "itemId": "4cc1d6e9f857",
-              "quantity": 2
+              "quantity": 3
             }
           ],
           "quantity": 1
@@ -44982,12 +44983,12 @@
     "image": "Lunar Garou Hat.png",
     "variants": [
       {
-        "id": "973fced5b75a",
+        "id": "f3a9cecea31b",
         "name": "Lunar Garou Hat",
         "image": "Lunar Garou Hat.png",
         "variantName": null,
         "recipe": {
-          "id": "87104e3fabd9",
+          "id": "eb59933563e7",
           "facilities": [
             "Armour Bench"
           ],
@@ -45006,7 +45007,7 @@
             },
             {
               "itemId": "543684a14c55",
-              "quantity": 4
+              "quantity": 2
             },
             {
               "itemId": "9f21a3681ffa",
@@ -48904,18 +48905,22 @@
     "image": "Super Antipoison Potion.png",
     "variants": [
       {
-        "id": "a00903f8ff93",
+        "id": "6e5066f4c630",
         "name": "Super Antipoison Potion",
         "image": "Super Antipoison Potion.png",
         "variantName": null,
         "recipe": {
-          "id": "e8bd6460ccd5",
+          "id": "3799c7836cde",
           "facilities": [
             "Imbuing Barrel"
           ],
           "materials": [
             {
               "itemId": "03d220fd86ac",
+              "quantity": 1
+            },
+            {
+              "itemId": "94649135f4eb",
               "quantity": 1
             }
           ],
@@ -58420,6 +58425,42 @@
     "stackLimit": 99
   },
   {
+    "id": "219cbde23a77",
+    "name": "Ascension Core",
+    "image": "Ascension Core (Power Level 4).png",
+    "variants": [
+      {
+        "id": "219cbde23a77",
+        "name": "Ascension Core",
+        "image": "Ascension Core (Power Level 4).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      },
+      {
+        "id": "219cbde23a77",
+        "name": "Ascension Core",
+        "image": "Ascension Core (Power Level 5).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      },
+      {
+        "id": "219cbde23a77",
+        "name": "Ascension Core",
+        "image": "Ascension Core (Power Level 6).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Ascension_Core",
+    "weight": 0.3,
+    "stackLimit": 99
+  },
+  {
     "id": "fe5fc404a3cc",
     "name": "Adamant Ore",
     "image": "Adamant Ore.png",
@@ -59929,5 +59970,41 @@
     "wikiLink": "MOUNT:_Summerbellied_Wagtail",
     "weight": 0,
     "stackLimit": 50
+  },
+  {
+    "id": "b55ecf5ec1bb",
+    "name": "Ascension Shard",
+    "image": "Ascension Shard (Power Level 4).png",
+    "variants": [
+      {
+        "id": "b55ecf5ec1bb",
+        "name": "Ascension Shard",
+        "image": "Ascension Shard (Power Level 4).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      },
+      {
+        "id": "b55ecf5ec1bb",
+        "name": "Ascension Shard",
+        "image": "Ascension Shard (Power Level 5).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      },
+      {
+        "id": "b55ecf5ec1bb",
+        "name": "Ascension Shard",
+        "image": "Ascension Shard (Power Level 6).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Ascension_Shard",
+    "weight": 0.1,
+    "stackLimit": 99
   }
 ]
