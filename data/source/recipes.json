@@ -7425,33 +7425,25 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "PATTERN: Bloodblight Cape"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "PATTERN: Bloodblight Cape",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Bloodblight Cape"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Bloodblight Cape",
         "link": "Bloodblight Cape",
-        "qty": 1,
+        "qty": "1",
         "item": "Bloodblight Cape",
         "image": "[[File:Bloodblight Cape.png|30px|link=Bloodblight Cape]]"
       }
@@ -7523,25 +7515,17 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "PATTERN: Fractured Cape"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "PATTERN: Fractured Cape",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Fractured Cape"
       ],
@@ -7755,33 +7739,25 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "PATTERN: Stormtouched Cape"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "PATTERN: Stormtouched Cape",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Stormtouched Cape"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Stormtouched Cape",
         "link": "Stormtouched Cape",
-        "qty": 1,
+        "qty": "1",
         "item": "Stormtouched Cape",
         "image": "[[File:Stormtouched Cape.png|30px|link=Stormtouched Cape]]"
       }
@@ -9428,33 +9404,25 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "PATTERN: Whispering Cape"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "PATTERN: Whispering Cape",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Whispering Cape"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Whispering Cape",
         "link": "Whispering Cape",
-        "qty": 1,
+        "qty": "1",
         "item": "Whispering Cape",
         "image": "[[File:Whispering Cape.png|30px|link=Whispering Cape]]"
       }
@@ -31495,7 +31463,8 @@
   },
   {
     "uses_material": [
-      "Ash Logs"
+      "Maple Logs",
+      "Adhesive"
     ],
     "uses_skill": [
       "Construction"
@@ -31507,12 +31476,20 @@
       "facility": "Build Menu",
       "materials": [
         {
-          "quantity": "20",
-          "name": "Ash Logs",
-          "link": "Ash Logs",
-          "qty": "20",
-          "item": "Ash Logs",
-          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+          "quantity": "16",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "16",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Adhesive",
+          "link": "Adhesive",
+          "qty": "2",
+          "item": "Adhesive",
+          "image": "[[File:Adhesive.png|30px|link=Adhesive]]"
         }
       ],
       "skills": [
@@ -43446,25 +43423,17 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_recipe": [
       "PATTERN: Fell Cape"
     ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
       "recipe": "PATTERN: Fell Cape",
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Fellhollow Cape"
       ],
@@ -53869,29 +53838,21 @@
     ]
   },
   {
-    "uses_skill": [
-      "Artisan"
-    ],
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "0"
-        }
-      ],
+      "skills": [],
       "outputs": [
         "Zamorak Cape"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Zamorak Cape",
         "link": "Zamorak Cape",
-        "qty": 1,
+        "qty": "1",
         "item": "Zamorak Cape",
         "image": "[[File:Zamorak Cape.png|30px|link=Zamorak Cape]]"
       }
@@ -66302,13 +66263,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      "Sun-Bleached Leggings"
+      "Sun-Bleached Vest"
     ],
     "uses_facility": [
       "Armour Bench"
     ],
     "json": {
-      "recipe": "Sun-Bleached Leggings",
+      "recipe": "Sun-Bleached Vest",
       "facility": "Armour Bench",
       "materials": [
         {
@@ -68744,13 +68705,13 @@
       "Artisan"
     ],
     "uses_recipe": [
-      ""
+      "Selenic Veil"
     ],
     "uses_facility": [
       "Armour Bench"
     ],
     "json": {
-      "recipe": "",
+      "recipe": "Selenic Veil",
       "facility": "Armour Bench",
       "materials": [
         {
@@ -68797,7 +68758,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "125"
         }
       ],
       "outputs": [
@@ -69124,7 +69085,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -71141,10 +71102,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Chipped Obsidian Construct"
+    ],
     "uses_facility": [
       "Armour Bench"
     ],
     "json": {
+      "recipe": "Chipped Obsidian Construct",
       "facility": "Armour Bench",
       "materials": [
         {
@@ -71194,10 +71159,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Fractured Obsidian Construct"
+    ],
     "uses_facility": [
       "Armour Bench"
     ],
     "json": {
+      "recipe": "Fractured Obsidian Construct",
       "facility": "Armour Bench",
       "materials": [
         {
@@ -71247,10 +71216,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Crushed Obsidian Construct"
+    ],
     "uses_facility": [
       "Armour Bench"
     ],
     "json": {
+      "recipe": "Crushed Obsidian Construct",
       "facility": "Armour Bench",
       "materials": [
         {
@@ -72755,15 +72728,11 @@
     "uses_skill": [
       "Artisan"
     ],
-    "uses_recipe": [
-      "Zombie Arm"
-    ],
     "uses_facility": [
-      "Crafting Table"
+      "Blacksmith's Bench"
     ],
     "json": {
-      "recipe": "Zombie Arm",
-      "facility": "Crafting Table",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "2",
@@ -73704,6 +73673,34 @@
     },
     "output": [
       "Kalphite Carapace Legs"
+    ]
+  },
+  {
+    "uses_recipe": [
+      ""
+    ],
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "recipe": "",
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Umbral Sands Cape"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Umbral Sands Cape",
+        "link": "Umbral Sands Cape",
+        "qty": "1",
+        "item": "Umbral Sands Cape",
+        "image": "[[File:Umbral Sands Cape.png|30px|link=Umbral Sands Cape]]"
+      }
+    },
+    "output": [
+      "Umbral Sands Cape"
     ]
   },
   {

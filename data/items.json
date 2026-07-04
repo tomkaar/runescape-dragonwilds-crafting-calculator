@@ -4898,7 +4898,7 @@
         "recipe": {
           "id": "c620771c1e27",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -4908,11 +4908,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Bloodblight_Cape",
     "weight": 0
@@ -4973,7 +4971,7 @@
         "recipe": {
           "id": "08178db21666",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -4983,11 +4981,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Fractured_Cape",
     "weight": 0
@@ -5126,7 +5122,7 @@
         "recipe": {
           "id": "b07a43ecba34",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -5136,11 +5132,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Stormtouched_Cape",
     "weight": 0
@@ -6284,7 +6278,7 @@
         "recipe": {
           "id": "b70d67536ca7",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -6294,11 +6288,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Whispering_Cape",
     "weight": 0
@@ -19720,19 +19712,23 @@
     "image": "Lumber Storage.png",
     "variants": [
       {
-        "id": "9d6a33dee664",
+        "id": "fa1cf97f6f4a",
         "name": "Lumber Storage",
         "image": "Lumber Storage.png",
         "variantName": null,
         "recipe": {
-          "id": "8f7a45b2a618",
+          "id": "9f6963321866",
           "facilities": [
             "Build Menu"
           ],
           "materials": [
             {
-              "itemId": "15f83d07dd09",
-              "quantity": 20
+              "itemId": "c8dc4902a8c3",
+              "quantity": 2
+            },
+            {
+              "itemId": "7d21f3c7ffc9",
+              "quantity": 16
             }
           ],
           "quantity": 1
@@ -28000,7 +27996,7 @@
         "recipe": {
           "id": "7d35f66ffa55",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -28010,11 +28006,9 @@
         ]
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Fellhollow_Cape",
     "weight": 0
@@ -35120,7 +35114,7 @@
         "recipe": {
           "id": "407ad6d49b2b",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [],
           "quantity": 1
@@ -35128,11 +35122,9 @@
         "usesRecipe": null
       }
     ],
-    "skills": [
-      "Artisan"
-    ],
+    "skills": [],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Zamorak_Cape",
     "weight": 0
@@ -43340,7 +43332,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "Sun-Bleached Leggings"
+          "Sun-Bleached Vest"
         ]
       }
     ],
@@ -45017,7 +45009,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          ""
+          "Selenic Veil"
         ]
       }
     ],
@@ -46605,7 +46597,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Chipped Obsidian Construct"
+        ]
       }
     ],
     "skills": [
@@ -46644,7 +46638,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Fractured Obsidian Construct"
+        ]
       }
     ],
     "skills": [
@@ -46683,7 +46679,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Crushed Obsidian Construct"
+        ]
       }
     ],
     "skills": [
@@ -47754,7 +47752,7 @@
         "recipe": {
           "id": "4acedb32a2f7",
           "facilities": [
-            "Crafting Table"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -47784,16 +47782,14 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": [
-          "Zombie Arm"
-        ]
+        "usesRecipe": null
       }
     ],
     "skills": [
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Zombie_Arm",
     "weight": 15
@@ -48440,6 +48436,36 @@
     ],
     "wikiLink": "Kalphite_Carapace_Legs",
     "weight": 9
+  },
+  {
+    "id": "0d28cd44d731",
+    "name": "Umbral Sands Cape",
+    "image": "Umbral Sands Cape.png",
+    "variants": [
+      {
+        "id": "131a22da62d4",
+        "name": "Umbral Sands Cape",
+        "image": "Umbral Sands Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "54d10cb9a09f",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          ""
+        ]
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Umbral_Sands_Cape",
+    "weight": 0
   },
   {
     "id": "c76b0e39344f",
@@ -58385,6 +58411,25 @@
     "stackLimit": 99
   },
   {
+    "id": "8692d421307c",
+    "name": "Fire Cape",
+    "image": "Fire Cape.png",
+    "variants": [
+      {
+        "id": "8692d421307c",
+        "name": "Fire Cape",
+        "image": "Fire Cape.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Fire_Cape",
+    "weight": 0
+  },
+  {
     "id": "2df2148f258c",
     "name": "Kalphite Ichor",
     "image": "Kalphite Ichor.png",
@@ -59018,6 +59063,66 @@
     "stackLimit": 99
   },
   {
+    "id": "e5fd9d901f3d",
+    "name": "Chipped Obsidian Construct",
+    "image": "Chipped Obsidian Construct.png",
+    "variants": [
+      {
+        "id": "e5fd9d901f3d",
+        "name": "Chipped Obsidian Construct",
+        "image": "Chipped Obsidian Construct.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Chipped_Obsidian_Construct",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "9e2c7c7f4f24",
+    "name": "Fractured Obsidian Construct",
+    "image": "Fractured Obsidian Construct.png",
+    "variants": [
+      {
+        "id": "9e2c7c7f4f24",
+        "name": "Fractured Obsidian Construct",
+        "image": "Fractured Obsidian Construct.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Fractured_Obsidian_Construct",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "482581816c91",
+    "name": "Crushed Obsidian Construct",
+    "image": "Crushed Obsidian Construct.png",
+    "variants": [
+      {
+        "id": "482581816c91",
+        "name": "Crushed Obsidian Construct",
+        "image": "Crushed Obsidian Construct.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Crushed_Obsidian_Construct",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
     "id": "ca920f9dc229",
     "name": "Raw Beltfish",
     "image": "Raw Beltfish.png",
@@ -59116,6 +59221,25 @@
     "wikiLink": "Pristine_Monkfish",
     "weight": 0,
     "stackLimit": 99
+  },
+  {
+    "id": "28c05c906dff",
+    "name": "Sun-Bleached Leggings",
+    "image": "Sun-Bleached Leggings.png",
+    "variants": [
+      {
+        "id": "28c05c906dff",
+        "name": "Sun-Bleached Leggings",
+        "image": "Sun-Bleached Leggings.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Sun-Bleached_Leggings",
+    "weight": 0
   },
   {
     "id": "ca82c301e8d5",
@@ -59336,6 +59460,44 @@
     "wikiLink": "Artifact_Salvage",
     "weight": 0,
     "stackLimit": 0
+  },
+  {
+    "id": "1c456a7c9d3b",
+    "name": "Sun-Bleached Vest",
+    "image": "Sun-Bleached Vest.png",
+    "variants": [
+      {
+        "id": "1c456a7c9d3b",
+        "name": "Sun-Bleached Vest",
+        "image": "Sun-Bleached Vest.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Sun-Bleached_Vest",
+    "weight": 0
+  },
+  {
+    "id": "f63bf1aec186",
+    "name": "Sun-Bleached Head Wrap",
+    "image": "Sun-Bleached Head Wrap.png",
+    "variants": [
+      {
+        "id": "f63bf1aec186",
+        "name": "Sun-Bleached Head Wrap",
+        "image": "Sun-Bleached Head Wrap.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Sun-Bleached_Head_Wrap",
+    "weight": 0
   },
   {
     "id": "001bf56f7721",
@@ -60006,5 +60168,23 @@
     "wikiLink": "Ascension_Shard",
     "weight": 0.1,
     "stackLimit": 99
+  },
+  {
+    "id": "fb631834e055",
+    "name": "The Radiant Heart",
+    "image": "The Radiant Heart.png",
+    "variants": [
+      {
+        "id": "fb631834e055",
+        "name": "The Radiant Heart",
+        "image": "The Radiant Heart.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "The_Radiant_Heart"
   }
 ]

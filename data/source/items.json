@@ -18197,6 +18197,22 @@
     "page_name_sub": "Scarecrow's Key"
   },
   {
+    "page_name": "Fire Cape",
+    "item_description": "Receiving or blocking damage has a chance to triggering burning on your attacker. Melee kills on Burning enemies refill stamina.",
+    "item_name": "Fire Cape",
+    "item_weight": 0,
+    "page_name_sub": "Fire Cape",
+    "json": {
+      "type": "Basic Item",
+      "description": "Receiving or blocking damage has a chance to triggering burning on your attacker. Melee kills on Burning enemies refill stamina.",
+      "image": "[[File:Fire Cape.png|32px]]",
+      "name": "Fire Cape",
+      "weight": "0.0",
+      "image_raw": "Fire Cape.png"
+    },
+    "item_type": "Basic Item"
+  },
+  {
     "page_name": "Desert Robes",
     "item_description": "Loose-fitting and breathable, this robe protects against the sun's harsh glare while allowing air to flow freely.",
     "item_name": "Desert Robes",
@@ -19284,13 +19300,13 @@
     "json": {
       "type": "Mage Armour",
       "description": "A lenar-infused hood designed to complement the garou robes, Suitable for magic users, enhancing healing abilities at night.",
-      "repaircost": "",
+      "repaircost": "1 [[Infinity Cloth]]",
       "image": "[[File:Lunar Garou Hat.png|32px]]",
       "name": "Lunar Garou Hat",
       "weight": "4.0",
       "image_raw": "Lunar Garou Hat.png"
     },
-    "item_repair": "",
+    "item_repair": "1 [[Infinity Cloth]]",
     "item_weight": 4
   },
   {
@@ -19918,6 +19934,42 @@
     "page_name_sub": "Cooling Arcane Infusion"
   },
   {
+    "page_name": "Chipped Obsidian Construct",
+    "item_description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+    "item_name": "Chipped Obsidian Construct",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "image": "[[File:Chipped Obsidian Construct.png|32px]]",
+      "name": "Chipped Obsidian Construct",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Chipped Obsidian Construct.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Chipped Obsidian Construct"
+  },
+  {
+    "page_name": "Fractured Obsidian Construct",
+    "item_description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+    "item_name": "Fractured Obsidian Construct",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "image": "[[File:Fractured Obsidian Construct.png|32px]]",
+      "name": "Fractured Obsidian Construct",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Fractured Obsidian Construct.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Fractured Obsidian Construct"
+  },
+  {
     "page_name": "Cooling Evasive Infusion",
     "item_description": "A thirst-quenching drink that improves your reflexes.",
     "item_name": "Cooling Evasive Infusion",
@@ -19936,6 +19988,24 @@
     },
     "item_weight": 1,
     "page_name_sub": "Cooling Evasive Infusion"
+  },
+  {
+    "page_name": "Crushed Obsidian Construct",
+    "item_description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+    "item_name": "Crushed Obsidian Construct",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "image": "[[File:Crushed Obsidian Construct.png|32px]]",
+      "name": "Crushed Obsidian Construct",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Crushed Obsidian Construct.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Crushed Obsidian Construct"
   },
   {
     "page_name": "Cooling Ferocious Infusion",
@@ -19999,13 +20069,13 @@
   },
   {
     "page_name": "Obsidian Helmet",
-    "item_description": "A sturdy obsidian helmet designed for frontline warriors. Offers exceptional protection and resiliance in close combat.",
+    "item_description": "A sturdy obsidian helmet designed for frontline warriors. Offers exceptional protection and resilience in close combat.",
     "item_name": "Obsidian Helmet",
     "item_type": "Melee Armour",
     "page_name_sub": "Obsidian Helmet",
     "json": {
       "type": "Melee Armour",
-      "description": "A sturdy obsidian helmet designed for frontline warriors. Offers exceptional protection and resiliance in close combat.",
+      "description": "A sturdy obsidian helmet designed for frontline warriors. Offers exceptional protection and resilience in close combat.",
       "repaircost": "2 [[Refined Obsidian]]",
       "image": "[[File:Obsidian Helmet.png|32px]]",
       "name": "Obsidian Helmet",
@@ -20017,13 +20087,13 @@
   },
   {
     "page_name": "Obsidian Chest",
-    "item_description": "Heavy obsidian chest armour designed for frontline warriors. Offers exceptional protection and resiliance in close combat.",
+    "item_description": "Heavy obsidian chest armour designed for frontline warriors. Offers exceptional protection and resilience in close combat.",
     "item_name": "Obsidian Chest",
     "item_type": "Melee Armour",
     "page_name_sub": "Obsidian Chest",
     "json": {
       "type": "Melee Armour",
-      "description": "Heavy obsidian chest armour designed for frontline warriors. Offers exceptional protection and resiliance in close combat.",
+      "description": "Heavy obsidian chest armour designed for frontline warriors. Offers exceptional protection and resilience in close combat.",
       "repaircost": "3 [[Refined Obsidian]]",
       "image": "[[File:Obsidian Chest.png|32px]]",
       "name": "Obsidian Chest",
@@ -20035,13 +20105,13 @@
   },
   {
     "page_name": "Obsidian Legs",
-    "item_description": "Heavy obsidian leg armour designed for frontline warriors. Offers exceptional protection and resiliance in close combat.",
+    "item_description": "Heavy obsidian leg armour designed for frontline warriors. Offers exceptional protection and resilience in close combat.",
     "item_name": "Obsidian Legs",
     "item_type": "Melee Armour",
     "page_name_sub": "Obsidian Legs",
     "json": {
       "type": "Melee Armour",
-      "description": "Heavy obsidian leg armour designed for frontline warriors. Offers exceptional protection and resiliance in close combat.",
+      "description": "Heavy obsidian leg armour designed for frontline warriors. Offers exceptional protection and resilience in close combat.",
       "repaircost": "2 [[Refined Obsidian]]",
       "image": "[[File:Obsidian Legs.png|32px]]",
       "name": "Obsidian Legs",
@@ -20279,6 +20349,22 @@
       "image_raw": "Amulet of Glory.png"
     },
     "item_type": "Trinket"
+  },
+  {
+    "page_name": "Sun-Bleached Leggings",
+    "item_description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+    "item_name": "Sun-Bleached Leggings",
+    "item_weight": 0,
+    "page_name_sub": "Sun-Bleached Leggings",
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "image": "[[File:Sun-Bleached Leggings.png|32px]]",
+      "name": "Sun-Bleached Leggings",
+      "weight": "0.0",
+      "image_raw": "Sun-Bleached Leggings.png"
+    },
+    "item_type": "Vestige"
   },
   {
     "page_name": "Dried Tea Leaves",
@@ -20711,6 +20797,22 @@
     "item_weight": 12
   },
   {
+    "page_name": "Sun-Bleached Vest",
+    "item_description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+    "item_name": "Sun-Bleached Vest",
+    "item_weight": 0,
+    "page_name_sub": "Sun-Bleached Vest",
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "image": "[[File:Sun-Bleached Vest.png|32px]]",
+      "name": "Sun-Bleached Vest",
+      "weight": "0.0",
+      "image_raw": "Sun-Bleached Vest.png"
+    },
+    "item_type": "Vestige"
+  },
+  {
     "page_name": "Desert Hood",
     "item_description": "A lightweight hood woven for the harsh desert sun. It shields the wearer from heat and drifting sands.",
     "item_name": "Desert Hood",
@@ -20727,6 +20829,22 @@
     },
     "item_repair": "1 [[Garou Weave]]",
     "item_weight": 4
+  },
+  {
+    "page_name": "Sun-Bleached Head Wrap",
+    "item_description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+    "item_name": "Sun-Bleached Head Wrap",
+    "item_weight": 0,
+    "page_name_sub": "Sun-Bleached Head Wrap",
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "image": "[[File:Sun-Bleached Head Wrap.png|32px]]",
+      "name": "Sun-Bleached Head Wrap",
+      "weight": "0.0",
+      "image_raw": "Sun-Bleached Head Wrap.png"
+    },
+    "item_type": "Vestige"
   },
   {
     "page_name": "Commemorative Coin",
@@ -20990,13 +21108,13 @@
   },
   {
     "page_name": "Selenic Veil",
-    "item_description": "Perhaps you could learn from it",
+    "item_description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
     "item_name": "Selenic Veil",
     "item_type": "Vestige",
     "item_stacklimit": 99,
     "json": {
       "type": "Vestige",
-      "description": "Perhaps you could learn from it",
+      "description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
       "image": "[[File:Selenic Veil.png|32px]]",
       "name": "Selenic Veil",
       "weight": "0",
@@ -21077,6 +21195,22 @@
     },
     "item_repair": "2 [[Kalphite Shell|Kalphite Shells]]",
     "item_weight": 9
+  },
+  {
+    "page_name": "Umbral Sands Cape",
+    "item_description": "?",
+    "item_name": "Umbral Sands Cape",
+    "item_weight": 0,
+    "page_name_sub": "Umbral Sands Cape",
+    "json": {
+      "type": "Armour",
+      "description": "?",
+      "image": "[[File:Umbral Sands Cape.png|32px]]",
+      "name": "Umbral Sands Cape",
+      "weight": "0.0",
+      "image_raw": "Umbral Sands Cape.png"
+    },
+    "item_type": "Armour"
   },
   {
     "page_name": "Crucible Engram of Helplessness",
@@ -21813,5 +21947,19 @@
     },
     "item_weight": 0.1,
     "page_name_sub": "Ascension Shard"
+  },
+  {
+    "page_name": "The Radiant Heart",
+    "item_name": "The Radiant Heart",
+    "item_type": "Quest Item",
+    "page_name_sub": "The Radiant Heart",
+    "json": {
+      "type": "Quest Item",
+      "description": "The heart of an unpleasant red dragon, still smouldering. Hedric - The Hunter will want to see this.",
+      "image": "[[File:The Radiant Heart.png|32px]]",
+      "name": "The Radiant Heart",
+      "image_raw": "The Radiant Heart.png"
+    },
+    "item_description": "The heart of an unpleasant red dragon, still smouldering. Hedric - The Hunter will want to see this."
   }
 ]
