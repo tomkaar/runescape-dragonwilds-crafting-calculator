@@ -1,0 +1,3 @@
+procs:
+  dev: "pnpm dev"
+  test:watch:coverage: "pnpm test:coverage:watch"
