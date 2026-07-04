@@ -11,7 +11,9 @@
     "parse-data": "tsx ./scripts/parse-data/script.ts",
     "knip": "knip",
     "test": "vitest run",
-    "test:watch": "vitest watch"
+    "test:watch": "vitest watch",
+    "test:coverage": "vitest run --coverage",
+    "test:coverage:watch": "vitest watch --coverage"
   },
   "dependencies": {
     "@base-ui/react": "^1.1.0",
@@ -46,6 +48,7 @@
     "@types/node": "^20.19.30",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitest/coverage-v8": "^4.1.9",
     "eslint": "^9",
     "eslint-config-next": "16.1.5",
     "knip": "^6.22.0",
