@@ -1,6 +1,6 @@
 import { Item, ItemVariant } from "@/Types";
 import { Edge } from "@xyflow/react";
-import { Node } from "@/components/CraftingTree/nodes";
+import { type Node } from "@/features/crafting-tree/schemas/Node";
 import { sourceItemById } from "@/utils/source-item-by-id";
 import { cache } from "react";
 

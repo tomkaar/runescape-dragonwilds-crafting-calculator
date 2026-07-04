@@ -4,7 +4,7 @@ import "@xyflow/react/dist/style.css";
 
 import { ReactFlow, useEdgesState, useNodesState } from "@xyflow/react";
 
-import { resolveCraftingTree } from "./resolve";
+import { resolveCraftingTree } from "@/features/crafting-tree/utils/resolve-crafting-tree";
 
 import CraftingTreeContent from "./CraftingTreeContent";
 import DefaultlNode from "./Nodes/DefaultNode";

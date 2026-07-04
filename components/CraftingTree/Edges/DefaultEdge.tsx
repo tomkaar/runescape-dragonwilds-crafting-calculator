@@ -1,5 +1,5 @@
 import { BaseEdge, getBezierPath, type EdgeProps } from "@xyflow/react";
-import { Edge } from "../edges";
+import { type Edge } from "@/features/crafting-tree/schemas/Edge";
 
 export default function DefaultEdge({
   id,

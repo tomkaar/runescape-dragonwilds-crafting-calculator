@@ -1,4 +1,4 @@
-import { resolveCraftingTree } from "@/components/CraftingTree/resolve";
+import { resolveCraftingTree } from "@/features/crafting-tree/utils/resolve-crafting-tree";
 import {
   buildMaterialsTree,
   type MaterialTreeItem,

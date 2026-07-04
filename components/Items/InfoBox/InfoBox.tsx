@@ -11,7 +11,7 @@ import { WeightBadge } from "./WeightBadge";
 import { StackLimitBadge } from "./StackLimitBadge";
 import { HealthBadge } from "./HealthBadge";
 import { Badge } from "../../ui/badge";
-import { resolveCraftingTree } from "@/components/CraftingTree/resolve";
+import { resolveCraftingTree } from "@/features/crafting-tree/utils/resolve-crafting-tree";
 
 type Props = {
   item: Item;

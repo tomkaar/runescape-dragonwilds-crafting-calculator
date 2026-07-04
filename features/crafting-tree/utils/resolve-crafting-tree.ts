@@ -1,34 +1,59 @@
 import { sourceItemById } from "@/utils/source-item-by-id";
-import { type Node } from "./nodes";
-import { type Edge } from "./edges";
+
+import { type Node } from "../schemas/Node";
+import { type Edge } from "../schemas/Edge";
+
 import { cache } from "react";
 
 type Args = {
-  itemId: string;
-  prevQuantity?: number;
-  // When recursing, the previous item ID, used for building unique node IDs
-  prevItemId?: string;
-  // Indicates if this is the starting point of the tree resolution
-  initialNode?: boolean;
-  // The initial item ID for the tree
-  initialItemId?: string;
+    /**
+     * The item ID to resolve the crafting tree for
+     */
+    itemId: string;
+    /**
+     * The quantity of the item to resolve the crafting tree for,
+     * used for scaling the quantities of materials in the tree
+     */
+    prevQuantity?: number;
+    /**
+     * When recursing, the previous item ID, used for building unique node IDs
+     */
+    prevItemId?: string;
+    /**
+     * Indicates if this is the starting point of the tree resolution
+     */
+    initialNode?: boolean;
+    /**
+     * The initial item ID for the tree
+     */
+    initialItemId?: string;
 };
 
-export const resolveCraftingTree = cache((args: Args) => {
+type ResolveCraftingTreeResult = {
+    nodes: Node[];
+    edges: Edge[];
+};
+
+/**
+ * Resolves the crafting tree for a given item ID, returning the nodes and edges of the tree.
+ * Memoized per React request so multiple components resolving the same item share one result.
+ * 
+ * @param args - The arguments for resolving the crafting tree.
+ * @returns An object containing the nodes and edges of the crafting tree.
+ */
+export const resolveCraftingTree = cache((args: Args): ResolveCraftingTreeResult => {
   const { initialItemId = args.itemId } = args;
   let { initialNode = true } = args;
+
+  const item = sourceItemById(args.itemId);
+  if (!item) return { nodes: [], edges: [] }
 
   const nodes: Node[] = [];
   const edges: Edge[] = [];
 
-  const item = sourceItemById(args.itemId);
-
-  if (!item) {
-    return { nodes, edges };
-  }
-
-  // console.group("Item found:", item.name);
   const multipleVariants = item.variants.length > 1;
+  // Node IDs encode the parent chain (prevItemId_itemId) so the same item appearing
+  // in two different branches of the tree gets distinct node IDs.
   const variantNodeId = [args.prevItemId || null, item.id]
     .filter((part) => part !== null)
     .join("_");
@@ -64,12 +89,13 @@ export const resolveCraftingTree = cache((args: Args) => {
     };
     nodes.push(variantNode);
     edges.push(variantEdge);
-    initialNode = false; // Multiple variants mean this can't be the initial node
+    // The selector node is the entry point for this item; the individual variant
+    // nodes that follow are not the root of the tree even if this item is.
+    initialNode = false;
   }
 
-  item.variants.map((variant, idx) => {
-    // Create a unique ID for the node, incorporating previous item ID if available
-    // also handle multiple variants by appending variant index if necessary
+  for (let idx = 0; idx < item.variants.length; idx++) {
+    const variant = item.variants[idx];
     const itemId = [
       args.prevItemId || null,
       item.id,
@@ -83,7 +109,7 @@ export const resolveCraftingTree = cache((args: Args) => {
     const prevAndRecipeMatch =
       previousRecipipeRequiresQuantity === recipeWillCreateQuantity;
 
-    // How many times do we need to run the recipe to satisfy the previous quantity?
+    // ceil ensures we always produce enough; may overshoot and leave excess items.
     let recipeMultiplier = 1;
     if (!prevAndRecipeMatch) {
       recipeMultiplier = Math.ceil(
@@ -103,8 +129,10 @@ export const resolveCraftingTree = cache((args: Args) => {
         numberOfRecipies: null,
         isRecipeNumberVariant: multipleVariants ? idx + 1 : null,
         facilities: variant.recipe?.facilities ?? [],
-        quantityNeeded: previousRecipipeRequiresQuantity || 1,
+        quantityNeeded: previousRecipipeRequiresQuantity,
         quantityRecieved: resultQuantity,
+        // The root item is the craft target — excess never applies to it, only to
+        // intermediate sub-components whose recipes overshoot the required quantity.
         hasExcessItems:
           !initialNode &&
           resultQuantity > 0 &&
@@ -131,22 +159,23 @@ export const resolveCraftingTree = cache((args: Args) => {
     nodes.push(node);
     edges.push(edge);
 
-    variant.recipe?.materials.forEach((matArgs) => {
+    const materials = variant.recipe?.materials ?? [];
+    for (const matArgs of materials) {
       const material = sourceItemById(matArgs.itemId);
-      if (!material) return;
-      if (material.variants.length > 0) {
-        const subTree = resolveCraftingTree({
-          itemId: material.id,
-          prevQuantity: matArgs.quantity * recipeMultiplier,
-          prevItemId: itemId,
-          initialNode: false,
-          initialItemId,
-        });
-        nodes.push(...subTree.nodes);
-        edges.push(...subTree.edges);
-      }
-    });
-  });
+      // Materials with no variants have no resolvable recipe paths; skip silently.
+      if (!material || material.variants.length === 0) continue;
+      const subTree = resolveCraftingTree({
+        itemId: material.id,
+        prevQuantity: matArgs.quantity * recipeMultiplier,
+        prevItemId: itemId,
+        initialNode: false,
+        initialItemId,
+      });
+      nodes.push(...subTree.nodes);
+      edges.push(...subTree.edges);
+    }
+  }
 
   return { nodes, edges };
 });
+

@@ -2,7 +2,7 @@
 
 import { Handle, NodeProps, Position } from "@xyflow/react";
 
-import { type Node } from "@/components/CraftingTree/nodes";
+import { type Node } from "@/features/crafting-tree/schemas/Node";
 import { forwardRef, memo } from "react";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import { Facility } from "@/Types";

@@ -8,7 +8,7 @@ import {
 } from "@xyflow/react";
 import dagre from "@dagrejs/dagre";
 import { useEffect } from "react";
-import { Node } from "./nodes";
+import { type Node } from "@/features/crafting-tree/schemas/Node";
 import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";
 
 const dagreGraph = new dagre.graphlib.Graph().setDefaultEdgeLabel(() => ({}));
