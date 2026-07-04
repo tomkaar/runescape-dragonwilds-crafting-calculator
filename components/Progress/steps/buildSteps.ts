@@ -3,7 +3,7 @@ import {
   buildMaterialsTree,
   type MaterialTreeItem,
 } from "@/components/Items/Materials/utils/buildMaterialsTree";
-import { getItemById } from "@/utils/itemById";
+import { sourceItemById } from "@/utils/source-item-by-id";
 
 type MarkedMaterial = {
   id: string;
@@ -130,7 +130,7 @@ export function buildSteps({
 
   for (const trackedItemId of filteredItemIds) {
     const multiplier = multipliers[trackedItemId] || 1;
-    const trackedItem = getItemById(trackedItemId);
+    const trackedItem = sourceItemById(trackedItemId);
     if (!trackedItem) continue;
 
     const markedTodo = (allItems[trackedItemId] || []).filter(

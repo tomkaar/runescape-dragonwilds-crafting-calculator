@@ -1,7 +1,7 @@
 import { Item, ItemVariant } from "@/Types";
 import { Edge } from "@xyflow/react";
 import { Node } from "@/components/CraftingTree/nodes";
-import { getItemById } from "@/utils/itemById";
+import { sourceItemById } from "@/utils/source-item-by-id";
 import { cache } from "react";
 
 type MaterialTreeItemData = {
@@ -46,7 +46,7 @@ export const buildMaterialsTree = cache(
       if (!node) return null;
 
       // Get item data
-      const item = getItemById(node.data.id);
+      const item = sourceItemById(node.data.id);
       if (!item) return null;
 
       const quantity = node.data.quantityNeeded || 1;

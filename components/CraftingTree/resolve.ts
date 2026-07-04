@@ -1,4 +1,4 @@
-import { getItemById } from "@/utils/itemById";
+import { sourceItemById } from "@/utils/source-item-by-id";
 import { type Node } from "./nodes";
 import { type Edge } from "./edges";
 import { cache } from "react";
@@ -21,7 +21,7 @@ export const resolveCraftingTree = cache((args: Args) => {
   const nodes: Node[] = [];
   const edges: Edge[] = [];
 
-  const item = getItemById(args.itemId);
+  const item = sourceItemById(args.itemId);
 
   if (!item) {
     return { nodes, edges };
@@ -132,7 +132,7 @@ export const resolveCraftingTree = cache((args: Args) => {
     edges.push(edge);
 
     variant.recipe?.materials.forEach((matArgs) => {
-      const material = getItemById(matArgs.itemId);
+      const material = sourceItemById(matArgs.itemId);
       if (!material) return;
       if (material.variants.length > 0) {
         const subTree = resolveCraftingTree({

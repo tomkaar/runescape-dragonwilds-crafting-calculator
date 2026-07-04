@@ -14,7 +14,7 @@ import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { useStepsFilter } from "@/store/steps-filter";
-import { getItemById } from "@/utils/itemById";
+import { sourceItemById } from "@/utils/source-item-by-id";
 
 import { buildSteps } from "./buildSteps";
 
@@ -69,7 +69,7 @@ export function ProgressSteps({ trackedItemIds }: Props) {
                 All
               </Button>
               {trackedItemIds.map((id) => {
-                const item = getItemById(id);
+                const item = sourceItemById(id);
                 if (!item) return null;
                 const isSelected = isAll || selectedIds.includes(id);
                 return (

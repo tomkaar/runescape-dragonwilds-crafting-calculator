@@ -1,7 +1,7 @@
 "use client";
 
 import { useFavouriteItems } from "@/store/favourite-items";
-import { getItemById } from "@/utils/itemById";
+import { sourceItemById } from "@/utils/source-item-by-id";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import Link from "@/components/link";
 import { Badge } from "./ui/badge";
@@ -10,7 +10,7 @@ export function FavouriteItemsList() {
   const favouritedItems = useFavouriteItems((state) => state.items);
 
   const resolvedItems = favouritedItems
-    .map((itemId) => getItemById(itemId))
+    .map((itemId) => sourceItemById(itemId))
     .filter((item) => item !== undefined)
     .sort((a, b) => a.name.localeCompare(b.name));
 

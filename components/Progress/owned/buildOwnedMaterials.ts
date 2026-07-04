@@ -3,7 +3,7 @@ import {
   buildMaterialsTree,
   type MaterialTreeItem,
 } from "@/components/Items/Materials/utils/buildMaterialsTree";
-import { getItemById } from "@/utils/itemById";
+import { sourceItemById } from "@/utils/source-item-by-id";
 
 type MarkedMaterial = {
   id: string;
@@ -79,7 +79,7 @@ export function buildOwnedMaterials({
 
     for (const entry of allItems[trackedItemId] || []) {
       if (!entry.nodeId) continue;
-      const material = getItemById(entry.itemId);
+      const material = sourceItemById(entry.itemId);
       if (!material) continue;
 
       const quantity = quantityMap.get(entry.nodeId) ?? entry.quantity;

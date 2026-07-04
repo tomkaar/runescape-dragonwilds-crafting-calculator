@@ -4,7 +4,7 @@ import { useMemo } from "react";
 
 import { Loader2 } from "lucide-react";
 
-import { getItemById } from "@/utils/itemById";
+import { sourceItemById } from "@/utils/source-item-by-id";
 import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { useStoreHydration } from "@/store/useStoreHydration";
@@ -23,8 +23,8 @@ export function ProgressPage() {
   const trackedItemIds = useMemo(
     () =>
       Object.keys(items).sort((a, b) => {
-        const nameA = getItemById(a)?.name ?? a;
-        const nameB = getItemById(b)?.name ?? b;
+        const nameA = sourceItemById(a)?.name ?? a;
+        const nameB = sourceItemById(b)?.name ?? b;
         return nameA.localeCompare(nameB);
       }),
     [items],
@@ -51,7 +51,7 @@ export function ProgressPage() {
 
         <AccordionPersisted className="flex flex-col gap-2">
           {trackedItemIds.map((itemId) => {
-            const item = getItemById(itemId);
+            const item = sourceItemById(itemId);
             if (!item) return null;
             return (
               <ProgressItemCard key={itemId} itemId={itemId} item={item} />
