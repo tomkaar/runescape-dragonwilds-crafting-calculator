@@ -9,8 +9,19 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
+import {
+  Combobox,
+  ComboboxContent,
+  ComboboxList,
+  ComboboxItem,
+  ComboboxEmpty,
+  ComboboxChips,
+  ComboboxChip,
+  ComboboxChipsInput,
+  ComboboxValue,
+  useComboboxAnchor,
+} from "@/components/ui/combobox";
 import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
@@ -25,11 +36,14 @@ type Props = {
   trackedItemIds: string[];
 };
 
+type ItemOption = { value: string; label: string; image: string | null };
+
 export function ProgressSteps({ trackedItemIds }: Props) {
   const allItems = useSelectedMaterial((state) => state.items);
   const multipliers = useMaterialMultiplier((state) => state.items);
   const owned = useMaterialOwned((state) => state.owned);
-  const { isAll, selectedIds, selectAll, toggleItem } = useStepsFilter();
+  const { isAll, selectedIds, setSelected } = useStepsFilter();
+  const itemsAnchor = useComboboxAnchor();
 
   const filteredItemIds = useMemo(
     () =>
@@ -37,6 +51,16 @@ export function ProgressSteps({ trackedItemIds }: Props) {
         ? trackedItemIds
         : selectedIds.filter((id) => trackedItemIds.includes(id)),
     [isAll, selectedIds, trackedItemIds],
+  );
+
+  const itemOptions = useMemo(
+    () =>
+      trackedItemIds.reduce<ItemOption[]>((acc, id) => {
+        const item = sourceItemById(id);
+        if (item) acc.push({ value: id, label: item.name, image: item.image });
+        return acc;
+      }, []),
+    [trackedItemIds],
   );
 
   const steps = useMemo(
@@ -89,40 +113,71 @@ export function ProgressSteps({ trackedItemIds }: Props) {
           )}
 
           {trackedItemIds.length > 1 && (
-            <div className="flex flex-wrap gap-1.5 pt-2">
-              <Button
-                size="sm"
-                variant={isAll ? "default" : "outline"}
-                onClick={selectAll}
-                className="h-7 text-xs"
+            <div className="flex flex-col gap-1 pb-2">
+              <Combobox
+                multiple
+                autoHighlight
+                items={itemOptions}
+                value={itemOptions.filter((o) => filteredItemIds.includes(o.value))}
+                onValueChange={(values: ItemOption[], evt) => {
+                  evt.event.stopPropagation();
+                  setSelected(values.map((v) => v.value), trackedItemIds);
+                }}
+                itemToStringValue={(item: ItemOption) => item.label}
               >
-                All
-              </Button>
-              {trackedItemIds.map((id) => {
-                const item = sourceItemById(id);
-                if (!item) return null;
-                const isSelected = isAll || selectedIds.includes(id);
-                return (
-                  <Button
-                    key={id}
-                    size="sm"
-                    variant={isSelected ? "default" : "outline"}
-                    onClick={() => toggleItem(id, trackedItemIds)}
-                    className="h-7 text-xs gap-1.5"
-                  >
-                    {item.image && (
-                      <img
-                        src={createImageUrlPath(item.image)}
-                        alt={item.name}
-                        width={14}
-                        height={14}
-                        className="shrink-0"
-                      />
+                <ComboboxChips ref={itemsAnchor} className="w-full max-w-md">
+                  <ComboboxValue>
+                    {(values: ItemOption[]) => (
+                      <>
+                        {values.map(({ value, label, image }) => (
+                          <ComboboxChip key={value}>
+                            {image && (
+                              <img
+                                src={createImageUrlPath(image)}
+                                alt={label}
+                                width={14}
+                                height={14}
+                                className="shrink-0"
+                              />
+                            )}
+                            {label}
+                          </ComboboxChip>
+                        ))}
+                        <ComboboxChipsInput
+                          placeholder="Filter items…"
+                          className="text-xs"
+                        />
+                      </>
                     )}
-                    {item.name}
-                  </Button>
-                );
-              })}
+                  </ComboboxValue>
+                </ComboboxChips>
+                <ComboboxContent anchor={itemsAnchor}>
+                  <ComboboxEmpty>No items found.</ComboboxEmpty>
+                  <ComboboxList>
+                    {(option: ItemOption) => (
+                      <ComboboxItem
+                        key={option.value}
+                        value={option}
+                        className="text-xs"
+                      >
+                        {option.image && (
+                          <img
+                            src={createImageUrlPath(option.image)}
+                            alt={option.label}
+                            width={14}
+                            height={14}
+                            className="shrink-0"
+                          />
+                        )}
+                        {option.label}
+                      </ComboboxItem>
+                    )}
+                  </ComboboxList>
+                </ComboboxContent>
+              </Combobox>
+              <span className="text-xs text-muted-foreground">
+                {filteredItemIds.length} / {trackedItemIds.length} selected
+              </span>
             </div>
           )}
 
