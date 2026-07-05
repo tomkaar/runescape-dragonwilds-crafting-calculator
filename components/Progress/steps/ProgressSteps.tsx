@@ -10,6 +10,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
+import { Progress } from "@/components/ui/progress";
 import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
@@ -18,6 +19,7 @@ import { useStepsFilter } from "@/store/steps-filter";
 import { sourceItemById } from "@/utils/source-item-by-id";
 
 import { buildSteps } from "@/features/crafting-progress/utils/build-steps";
+import { buildOwnedMaterials } from "@/features/crafting-progress/utils/owned-materials";
 
 type Props = {
   trackedItemIds: string[];
@@ -42,6 +44,21 @@ export function ProgressSteps({ trackedItemIds }: Props) {
     [filteredItemIds, allItems, multipliers, owned],
   );
 
+  const ownedRows = useMemo(
+    () => buildOwnedMaterials({ trackedItemIds, allItems, multipliers }),
+    [trackedItemIds, allItems, multipliers],
+  );
+  const readyCount = ownedRows.filter(
+    (row) => (owned[row.itemId] ?? 0) >= row.needed,
+  ).length;
+  const totalNeeded = ownedRows.reduce((sum, row) => sum + row.needed, 0);
+  const totalOwned = ownedRows.reduce(
+    (sum, row) => sum + Math.min(owned[row.itemId] ?? 0, row.needed),
+    0,
+  );
+  const percentComplete =
+    totalNeeded === 0 ? 100 : Math.round((totalOwned / totalNeeded) * 100);
+
   return (
     <AccordionPersisted>
       <AccordionItem
@@ -59,8 +76,20 @@ export function ProgressSteps({ trackedItemIds }: Props) {
         </AccordionTrigger>
 
         <AccordionContent className="px-4 pb-4 text-foreground flex flex-col gap-4 pt-4">
+          {ownedRows.length > 0 && (
+            <div className="flex flex-col gap-1">
+              <div className="flex items-center justify-between text-xs">
+                <span className="text-muted-foreground">
+                  {readyCount} / {ownedRows.length} materials ready
+                </span>
+                <span className="font-semibold">{percentComplete}%</span>
+              </div>
+              <Progress value={percentComplete} className="h-1.5" />
+            </div>
+          )}
+
           {trackedItemIds.length > 1 && (
-            <div className="flex flex-wrap gap-1.5">
+            <div className="flex flex-wrap gap-1.5 pt-2">
               <Button
                 size="sm"
                 variant={isAll ? "default" : "outline"}
