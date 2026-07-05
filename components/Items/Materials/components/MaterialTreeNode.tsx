@@ -13,7 +13,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { type MaterialTreeItem } from "../utils/buildMaterialsTree";
+import { type MaterialTreeItem } from "@/features/materials-tree/types/material-tree";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";

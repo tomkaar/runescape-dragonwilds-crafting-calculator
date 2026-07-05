@@ -1,8 +1,5 @@
-import { resolveCraftingTree } from "@/features/crafting-tree/utils/resolve-crafting-tree";
-import {
-  buildMaterialsTree,
-  type MaterialTreeItem,
-} from "@/components/Items/Materials/utils/buildMaterialsTree";
+import { resolveMaterialsTree } from "@/features/materials-tree/utils/resolve-materials-tree";
+import { type MaterialTreeItem } from "@/features/materials-tree/types/material-tree";
 import { sourceItemById } from "@/utils/source-item-by-id";
 
 type MarkedMaterial = {
@@ -140,13 +137,7 @@ export function buildSteps({
 
     const markedNodeIds = new Set(markedTodo.map((m) => m.nodeId!));
 
-    const treeData = resolveCraftingTree({
-      itemId: trackedItemId,
-      prevQuantity: multiplier,
-    });
-    const tree = treeData
-      ? buildMaterialsTree(treeData.nodes, treeData.edges)
-      : [];
+    const tree = resolveMaterialsTree(trackedItemId, multiplier);
 
     // Root nodes are the tracked item itself (depth 0); its ingredients are at depth 1.
     // Parent for depth-1 materials is the tracked item.

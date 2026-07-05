@@ -1,5 +1,5 @@
-import { resolveCraftingTree } from "@/features/crafting-tree/utils/resolve-crafting-tree";
-import { buildMaterialsTree, type MaterialTreeItem } from "../utils/buildMaterialsTree";
+import { resolveMaterialsTree } from "@/features/materials-tree/utils/resolve-materials-tree";
+import { type MaterialTreeItem } from "@/features/materials-tree/types/material-tree";
 import { MaterialTreeNode } from "./MaterialTreeNode";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 
@@ -22,14 +22,8 @@ function buildBaseQuantityMap(
 export function RequiredMaterialsContent({ itemId, skipFirstLayer = false }: Props) {
   const multipliers = useMaterialMultiplier((state) => state.items);
   const multiplier = multipliers[itemId] || 1;
-  const treeData = resolveCraftingTree({ itemId, prevQuantity: multiplier });
-  const baseTreeData = resolveCraftingTree({ itemId });
-  const tree = treeData
-    ? buildMaterialsTree(treeData.nodes, treeData.edges)
-    : [];
-  const baseTree = baseTreeData
-    ? buildMaterialsTree(baseTreeData.nodes, baseTreeData.edges)
-    : [];
+  const tree = resolveMaterialsTree(itemId, multiplier);
+  const baseTree = resolveMaterialsTree(itemId);
   const baseQuantities = buildBaseQuantityMap(baseTree);
 
   const nodes = skipFirstLayer

@@ -1,8 +1,5 @@
-import { resolveCraftingTree } from "@/features/crafting-tree/utils/resolve-crafting-tree";
-import {
-  buildMaterialsTree,
-  type MaterialTreeItem,
-} from "@/components/Items/Materials/utils/buildMaterialsTree";
+import { resolveMaterialsTree } from "@/features/materials-tree/utils/resolve-materials-tree";
+import { type MaterialTreeItem } from "@/features/materials-tree/types/material-tree";
 import { sourceItemById } from "@/utils/source-item-by-id";
 
 type MarkedMaterial = {
@@ -64,14 +61,7 @@ export function buildOwnedMaterials({
   for (const trackedItemId of trackedItemIds) {
     const multiplier = multipliers[trackedItemId] || 1;
 
-    // Resolve the live crafting tree scaled to the current multiplier
-    const treeData = resolveCraftingTree({
-      itemId: trackedItemId,
-      prevQuantity: multiplier,
-    });
-    const tree = treeData
-      ? buildMaterialsTree(treeData.nodes, treeData.edges)
-      : [];
+    const tree = resolveMaterialsTree(trackedItemId, multiplier);
 
     const quantityMap = new Map(
       flattenQuantities(tree).map((n) => [n.nodeId, n.quantity]),
