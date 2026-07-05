@@ -1,5 +1,5 @@
-import { describe, it, expect, vi, beforeEach } from "vitest";
-import type { Item, ItemVariant, Recipe } from "@/Types";
+import { describe, it, expect, vi } from "vitest";
+import { makeItem, makeVariant, makeRecipe } from "@/test/crafting-helpers";
 
 // Disable React's cache so tests don't share memoized results
 vi.mock("react", async (importOriginal) => {
@@ -15,22 +15,6 @@ import { sourceItemById } from "@/utils/source-item-by-id";
 import { resolveCraftingTree } from "./resolve-crafting-tree";
 
 const mockSourceItemById = vi.mocked(sourceItemById);
-
-function makeItem(id: string, variants: ItemVariant[] = []): Item {
-    return { id, name: `${id}-name`, image: null, variants, facilities: [] };
-}
-
-function makeVariant(recipe: Recipe | null = null): ItemVariant {
-    return { id: "v1", name: "Variant", image: null, variantName: null, recipe, usesRecipe: null };
-}
-
-function makeRecipe(quantity = 1, materials: Recipe["materials"] = []): Recipe {
-    return { id: "r1", facilities: [], quantity, materials };
-}
-
-beforeEach(() => {
-    vi.resetAllMocks();
-});
 
 describe("item not found", () => {
     it("returns empty nodes and edges when sourceItemById returns undefined", () => {
