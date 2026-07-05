@@ -21961,5 +21961,21 @@
       "image_raw": "The Radiant Heart.png"
     },
     "item_description": "The heart of an unpleasant red dragon, still smouldering. Hedric - The Hunter will want to see this."
+  },
+  {
+    "page_name": "Skills Necklace",
+    "item_description": "Provides a small chance to get extra resources when gathering them in the world.",
+    "item_name": "Skills Necklace",
+    "item_weight": 2,
+    "page_name_sub": "Skills Necklace",
+    "json": {
+      "type": "Trinket",
+      "description": "Provides a small chance to get extra resources when gathering them in the world.",
+      "image": "[[File:Skills Necklace.png|32px]]",
+      "name": "Skills Necklace",
+      "weight": "2.0",
+      "image_raw": "Skills Necklace.png"
+    },
+    "item_type": "Trinket"
   }
 ]

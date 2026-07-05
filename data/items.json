@@ -25446,12 +25446,12 @@
         "usesRecipe": null
       },
       {
-        "id": "88028ce73ab4",
+        "id": "aab4537fa8f2",
         "name": "Draconic Leather",
         "image": "Draconic Leather.png",
         "variantName": null,
         "recipe": {
-          "id": "625203d3c0b8",
+          "id": "df79cdcccea4",
           "facilities": [
             "Tannery"
           ],
@@ -25465,7 +25465,7 @@
               "quantity": 3
             }
           ],
-          "quantity": 3
+          "quantity": 1
         },
         "usesRecipe": null
       },
@@ -43594,12 +43594,12 @@
     "image": "Desert Thread.png",
     "variants": [
       {
-        "id": "480fee3d6ae2",
+        "id": "e1f19dcc5e67",
         "name": "Desert Thread",
         "image": "Desert Thread.png",
         "variantName": null,
         "recipe": {
-          "id": "84e63deb4e27",
+          "id": "9d13e5c16895",
           "facilities": [
             "Spinning Wheel"
           ],
@@ -43609,7 +43609,7 @@
               "quantity": 3
             }
           ],
-          "quantity": 3
+          "quantity": 1
         },
         "usesRecipe": null
       }
@@ -49280,6 +49280,55 @@
     "wikiLink": "Super_Focused_Woodcutting_Potion",
     "weight": 1,
     "stackLimit": 99
+  },
+  {
+    "id": "565b65d37370",
+    "name": "Skills Necklace",
+    "image": "Skills Necklace.png",
+    "variants": [
+      {
+        "id": "2e8ffc382b18",
+        "name": "Skills Necklace",
+        "image": "Skills Necklace.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6bc24e0baf38",
+          "facilities": [
+            "Jeweler's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "604b383a6ff3",
+              "quantity": 1
+            },
+            {
+              "itemId": "888dae826aaa",
+              "quantity": 4
+            },
+            {
+              "itemId": "4338f5798748",
+              "quantity": 4
+            },
+            {
+              "itemId": "9ca5b1c17952",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Inspiring Insignia"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
+    ],
+    "wikiLink": "Skills_Necklace",
+    "weight": 2
   },
   {
     "id": "6a5fa59fd28f",

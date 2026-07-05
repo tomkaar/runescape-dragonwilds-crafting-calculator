@@ -39689,10 +39689,10 @@
       "facility": "Tannery",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Dragonwolf Hide",
           "link": "Dragonwolf Hide",
-          "qty": 1,
+          "qty": "1",
           "item": "Dragonwolf Hide",
           "image": "[[File:Dragonwolf Hide.png|30px|link=Dragonwolf Hide]]"
         }
@@ -39700,17 +39700,17 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "40"
         }
       ],
       "outputs": [
         "Draconic Leather"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Draconic Leather",
         "link": "Draconic Leather",
-        "qty": 1,
+        "qty": "1",
         "item": "Draconic Leather",
         "image": "[[File:Draconic Leather.png|30px|link=Draconic Leather]]"
       }
@@ -39753,17 +39753,17 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "40"
         }
       ],
       "outputs": [
         "Draconic Leather"
       ],
       "output": {
-        "quantity": "3",
+        "quantity": "1",
         "name": "Draconic Leather",
         "link": "Draconic Leather",
-        "qty": "3",
+        "qty": "1",
         "item": "Draconic Leather",
         "image": "[[File:Draconic Leather.png|30px|link=Draconic Leather]]"
       }
@@ -39797,17 +39797,17 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": ""
+          "experience": "40"
         }
       ],
       "outputs": [
         "Draconic Leather"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Draconic Leather",
         "link": "Draconic Leather",
-        "qty": 1,
+        "qty": "1",
         "item": "Draconic Leather",
         "image": "[[File:Draconic Leather.png|30px|link=Draconic Leather]]"
       }
@@ -48987,7 +48987,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "100"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -66690,10 +66690,10 @@
         "Desert Thread"
       ],
       "output": {
-        "quantity": "3",
+        "quantity": "1",
         "name": "Desert Thread",
         "link": "Desert Thread",
-        "qty": "3",
+        "qty": "1",
         "item": "Desert Thread",
         "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
       }
@@ -74854,6 +74854,81 @@
     },
     "output": [
       "Super Focused Woodcutting Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Mould",
+      "Gold Bar",
+      "Dragonstone",
+      "Vault Shard"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Inspiring Insignia"
+    ],
+    "uses_facility": [
+      "Jeweler's Bench"
+    ],
+    "json": {
+      "recipe": "Inspiring Insignia",
+      "facility": "Jeweler's Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Gold Bar",
+          "link": "Gold Bar",
+          "qty": "4",
+          "item": "Gold Bar",
+          "image": "[[File:Gold Bar.png|30px|link=Gold Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "4",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "6",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Skills Necklace"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Skills Necklace",
+        "link": "Skills Necklace",
+        "qty": "1",
+        "item": "Skills Necklace",
+        "image": "[[File:Skills Necklace.png|30px|link=Skills Necklace]]"
+      }
+    },
+    "output": [
+      "Skills Necklace"
     ]
   }
 ]
