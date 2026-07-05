@@ -10,7 +10,8 @@ import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
 import { useSelectedMaterial } from "@/store/selected-material";
 
-import { buildOwnedMaterials, type OwnedMaterialEntry } from "./buildOwnedMaterials";
+import { buildOwnedMaterials } from "@/features/crafting-progress/utils/owned-materials";
+import { type OwnedMaterialEntry } from "@/features/crafting-progress/types/owned-material-entry";
 import { OwnedMaterialRow } from "./OwnedMaterialRow";
 
 type Props = {

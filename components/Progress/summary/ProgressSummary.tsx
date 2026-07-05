@@ -13,7 +13,7 @@ import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
 import { useSelectedMaterial } from "@/store/selected-material";
 
-import { buildOwnedMaterials } from "../owned/buildOwnedMaterials";
+import { buildOwnedMaterials } from "@/features/crafting-progress/utils/owned-materials";
 
 type Props = {
   trackedItemIds: string[];
@@ -24,20 +24,16 @@ export function ProgressSummary({ trackedItemIds }: Props) {
   const multipliers = useMaterialMultiplier((state) => state.items);
   const owned = useMaterialOwned((state) => state.owned);
 
-  const rows = useMemo(
-    () =>
-      buildOwnedMaterials({ trackedItemIds, allItems, multipliers })
-        .map((entry) => {
-          const ownedQty = owned[entry.itemId] ?? 0;
-          return {
-            ...entry,
-            owned: ownedQty,
-            remaining: Math.max(0, entry.needed - ownedQty),
-          };
-        })
-        .sort((a, b) => a.name.localeCompare(b.name)),
-    [trackedItemIds, allItems, multipliers, owned],
-  );
+  const rows = buildOwnedMaterials({ trackedItemIds, allItems, multipliers })
+    .map((entry) => {
+      const ownedQty = owned[entry.itemId] ?? 0;
+      return {
+        ...entry,
+        owned: ownedQty,
+        remaining: Math.max(0, entry.needed - ownedQty),
+      };
+    })
+    .sort((a, b) => a.name.localeCompare(b.name))
 
   const readyCount = rows.filter((row) => row.remaining === 0).length;
   const totalNeeded = rows.reduce((sum, row) => sum + row.needed, 0);

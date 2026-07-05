@@ -6,7 +6,7 @@ import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { Checkbox } from "@/components/ui/checkbox";
 import { InputGroup, InputGroupInput } from "@/components/ui/input-group";
 
-import { type OwnedMaterialEntry } from "./buildOwnedMaterials";
+import { type OwnedMaterialEntry } from "@/features/crafting-progress/types/owned-material-entry";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Ellipsis, ExternalLink } from "lucide-react";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";

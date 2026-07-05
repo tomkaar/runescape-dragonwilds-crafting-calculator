@@ -1,33 +1,25 @@
 import { resolveMaterialsTree } from "@/features/materials-tree/utils/resolve-materials-tree";
 import { type MaterialTreeItem } from "@/features/materials-tree/types/material-tree";
+import { type SelectedMaterial } from "@/store/selected-material";
 import { sourceItemById } from "@/utils/source-item-by-id";
+import { type OwnedMaterialEntry } from "../types/owned-material-entry";
 
-type MarkedMaterial = {
-  id: string;
-  itemId: string;
-  quantity: number;
-  nodeId?: string;
-  state: "TODO" | "DONE";
-};
-
-export type OwnedMaterialEntry = {
-  itemId: string;
-  name: string;
-  wikiLink?: string;
-  image: string | null;
-  needed: number;
-  nodeRefs: { trackedItemId: string; nodeId: string }[];
-};
-
-// Flattens the material tree into a list of (nodeId, quantity) tuples.
-// Variant nodes (recipe alternates) are transparent — their children are
-// promoted to the variant's depth so each real material is still included.
-function flattenQuantities(
+/**
+ * Flattens a material tree into a list of (nodeId, quantity) pairs.
+ *
+ * Variant nodes (recipe alternates) are transparent — their children are
+ * promoted up so every real leaf material still appears in the output.
+ *
+ * @param nodes - Top-level nodes of a resolved material tree.
+ * @returns Flat array of { nodeId, quantity } for every non-variant node.
+ */
+export function flattenQuantities(
   nodes: MaterialTreeItem[],
 ): Array<{ nodeId: string; quantity: number }> {
   const result: Array<{ nodeId: string; quantity: number }> = [];
   for (const node of nodes) {
     if (node.variantNumber !== undefined) {
+      // Variant node: skip itself but recurse into its children
       if ("children" in node) {
         result.push(...flattenQuantities(node.children));
       }
@@ -42,15 +34,26 @@ function flattenQuantities(
 }
 
 type Params = {
+  /** Ids of the items the user is currently tracking. */
   trackedItemIds: string[];
-  // All marked material entries from the store, keyed by tracked item id
-  allItems: Record<string, MarkedMaterial[]>;
+  /** All marked material entries from the store, keyed by tracked item id. */
+  allItems: Record<string, SelectedMaterial[]>;
+  /** Per-tracked-item quantity multipliers (defaults to 1 when absent). */
   multipliers: Record<string, number>;
 };
 
-// Aggregates all marked materials across tracked items into per-material
-// totals, regardless of their current TODO/DONE state — "needed" is the
-// total quantity of that material across every recipe that references it.
+/**
+ * Aggregates marked materials across all tracked items into per-material totals.
+ *
+ * For each tracked item, the function resolves its material tree (respecting the
+ * multiplier), then sums the needed quantity for every material the user has
+ * marked — regardless of TODO/DONE state. Materials that appear in multiple
+ * tracked items are merged into a single entry with a combined `needed` count.
+ *
+ * @returns One `OwnedMaterialEntry` per distinct material, with the total
+ *   quantity needed and the list of (trackedItemId, nodeId) pairs that
+ *   contributed to it.
+ */
 export function buildOwnedMaterials({
   trackedItemIds,
   allItems,
@@ -59,15 +62,16 @@ export function buildOwnedMaterials({
   const aggregated = new Map<string, OwnedMaterialEntry>();
 
   for (const trackedItemId of trackedItemIds) {
-    const multiplier = multipliers[trackedItemId] || 1;
-
+    const multiplier = multipliers[trackedItemId] ?? 1;
     const tree = resolveMaterialsTree(trackedItemId, multiplier);
 
+    // Build a nodeId → quantity lookup from the resolved tree so we use the
+    // multiplied quantity rather than the raw value stored on the entry.
     const quantityMap = new Map(
       flattenQuantities(tree).map((n) => [n.nodeId, n.quantity]),
     );
 
-    for (const entry of allItems[trackedItemId] || []) {
+    for (const entry of allItems[trackedItemId] ?? []) {
       if (!entry.nodeId) continue;
       const material = sourceItemById(entry.itemId);
       if (!material) continue;

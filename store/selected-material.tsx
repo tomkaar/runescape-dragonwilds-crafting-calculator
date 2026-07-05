@@ -3,7 +3,7 @@
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 
-type Item = {
+export type SelectedMaterial = {
   // The unique id for this selected material entry
   id: string;
   // The id of the selected item
@@ -19,8 +19,8 @@ type Item = {
 };
 
 type SelectedMaterialStore = {
-  items: Record<string, Item[]>;
-  addAnItem: (itemIdKey: string, value: Item) => void;
+  items: Record<string, SelectedMaterial[]>;
+  addAnItem: (itemIdKey: string, value: SelectedMaterial) => void;
   markAsDone: (itemIdKey: string, id: string) => void;
   removeAnItemByNodeId: (itemIdKey: string, nodeId: string) => void;
   markAsDoneByNodeId: (itemIdKey: string, nodeId: string) => void;
@@ -33,7 +33,7 @@ export const useSelectedMaterial = create<SelectedMaterialStore>()(
   persist(
     (set, get) => ({
       items: {},
-      addAnItem: (itemIdKey: string, value: Item) =>
+      addAnItem: (itemIdKey: string, value: SelectedMaterial) =>
         set({
           items: {
             ...get().items,
