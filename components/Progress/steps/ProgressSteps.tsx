@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
+import { TriangleAlert } from "lucide-react";
 
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import {
@@ -16,7 +17,7 @@ import { useSelectedMaterial } from "@/store/selected-material";
 import { useStepsFilter } from "@/store/steps-filter";
 import { sourceItemById } from "@/utils/source-item-by-id";
 
-import { buildSteps } from "./buildSteps";
+import { buildSteps } from "@/features/crafting-progress/utils/build-steps";
 
 type Props = {
   trackedItemIds: string[];
@@ -146,24 +147,26 @@ export function ProgressSteps({ trackedItemIds }: Props) {
                       ))}
                     </div>
                   )}
-                  {/* <div className="flex flex-wrap items-center gap-x-1.5 gap-y-0.5 pl-7 text-xs text-muted-foreground">
-                    <span>Used for</span>
-                    {step.usedFor.map((u, i) => (
-                      <span key={u.itemId} className="flex items-center gap-1">
-                        {u.image && (
-                          <img
-                            src={createImageUrlPath(u.image)}
-                            alt={u.name}
-                            width={14}
-                            height={14}
-                            className="shrink-0"
-                          />
-                        )}
-                        {u.name}
-                        {i < step.usedFor.length - 1 && " and"}
-                      </span>
-                    ))}
-                  </div> */}
+                  {step.coverageWarnings.length > 0 && (
+                    <div className="flex flex-col gap-0.5 pt-1 pl-7">
+                      {step.coverageWarnings.map((w) => (
+                        <div
+                          key={w.parentItemId}
+                          className="flex items-start gap-1 text-xs text-amber-500"
+                        >
+                          <TriangleAlert className="size-3.5 shrink-0 mt-0.5" />
+                          <span>
+                            {listFormatter.format(w.missingRoots.map((r) => r.name))}{" "}
+                            {w.missingRoots.length === 1 ? "needs" : "need"}{" "}
+                            {w.parentName} too, but{" "}
+                            {w.missingRoots.length === 1 ? "hasn't" : "haven't"}{" "}
+                            marked this material as a step — this total may be
+                            higher than currently shown.
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
@@ -173,3 +176,5 @@ export function ProgressSteps({ trackedItemIds }: Props) {
     </AccordionPersisted>
   );
 }
+
+const listFormatter = new Intl.ListFormat("en", { style: "long", type: "conjunction" });
