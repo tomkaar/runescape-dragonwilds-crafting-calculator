@@ -25,21 +25,23 @@ import {
 import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
-import { useSelectedMaterial } from "@/store/selected-material";
+import { type SelectedMaterial } from "@/store/selected-material";
 import { useStepsFilter } from "@/store/steps-filter";
 import { sourceItemById } from "@/utils/source-item-by-id";
 
-import { buildSteps } from "@/features/crafting-progress/utils/build-steps";
-import { buildOwnedMaterials } from "@/features/crafting-progress/utils/owned-materials";
+import { useTrackedItemIds } from "../hooks/useTrackedItemIds";
+import { buildSteps } from "../utils/build-steps";
+import { buildOwnedMaterials } from "../utils/owned-materials";
+import { buildProgressSummary } from "../utils/progress-summary";
 
 type Props = {
-  trackedItemIds: string[];
+  allItems: Record<string, SelectedMaterial[]>;
 };
 
 type ItemOption = { value: string; label: string; image: string | null };
 
-export function ProgressSteps({ trackedItemIds }: Props) {
-  const allItems = useSelectedMaterial((state) => state.items);
+export function Steps({ allItems }: Props) {
+  const trackedItemIds = useTrackedItemIds(allItems);
   const multipliers = useMaterialMultiplier((state) => state.items);
   const owned = useMaterialOwned((state) => state.owned);
   const { isAll, selectedIds, setSelected } = useStepsFilter();
@@ -72,16 +74,10 @@ export function ProgressSteps({ trackedItemIds }: Props) {
     () => buildOwnedMaterials({ trackedItemIds, allItems, multipliers }),
     [trackedItemIds, allItems, multipliers],
   );
-  const readyCount = ownedRows.filter(
-    (row) => (owned[row.itemId] ?? 0) >= row.needed,
-  ).length;
-  const totalNeeded = ownedRows.reduce((sum, row) => sum + row.needed, 0);
-  const totalOwned = ownedRows.reduce(
-    (sum, row) => sum + Math.min(owned[row.itemId] ?? 0, row.needed),
-    0,
+  const { readyCount, percentComplete } = buildProgressSummary(
+    ownedRows,
+    owned,
   );
-  const percentComplete =
-    totalNeeded === 0 ? 100 : Math.round((totalOwned / totalNeeded) * 100);
 
   return (
     <AccordionPersisted>

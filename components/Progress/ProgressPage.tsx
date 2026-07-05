@@ -1,33 +1,24 @@
 "use client";
 
-import { useMemo } from "react";
-
 import { Loader2 } from "lucide-react";
 
 import { sourceItemById } from "@/utils/source-item-by-id";
 import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { useStoreHydration } from "@/store/useStoreHydration";
+import { useTrackedItemIds } from "@/features/crafting-progress/hooks/useTrackedItemIds";
+import { Steps } from "@/features/crafting-progress/components/steps";
 
 import { ProgressEmptyState } from "./ProgressEmptyState";
 import { ProgressItemCard } from "./items/ProgressItemCard";
 import { ProgressOwnedMaterials } from "./owned/ProgressOwnedMaterials";
-import { ProgressSteps } from "./steps/ProgressSteps";
 
 export function ProgressPage() {
   const _hasHydrated = useStoreHydration(useSelectedMaterial);
 
   const items = useSelectedMaterial((state) => state.items);
 
-  const trackedItemIds = useMemo(
-    () =>
-      Object.keys(items).sort((a, b) => {
-        const nameA = sourceItemById(a)?.name ?? a;
-        const nameB = sourceItemById(b)?.name ?? b;
-        return nameA.localeCompare(nameB);
-      }),
-    [items],
-  );
+  const trackedItemIds = useTrackedItemIds(items);
 
   if (!_hasHydrated) {
     return (
@@ -70,7 +61,7 @@ export function ProgressPage() {
       </div>
       
       <div className="flex-1 lg:shrink-0 lg:overflow-y-auto">
-        <ProgressSteps trackedItemIds={trackedItemIds} />
+        <Steps allItems={items} />
       </div>
     </div>
   );
