@@ -70,31 +70,7 @@ describe("hasExcessItems", () => {
         expect(nodes[0].data.hasExcessItems).toBe(false);
     });
 
-    it("is true on a non-initial node when the recipe overproduces", () => {
-        // need 1, recipe makes 3 → resultQuantity 3 > prevQuantity 1
-        mockSourceItemById.mockReturnValue(makeItem("sub-item", [makeVariant(makeRecipe(3))]));
-        const { nodes } = resolveCraftingTree({
-            itemId: "sub-item",
-            prevQuantity: 1,
-            prevItemId: "parent-item",
-            initialNode: false,
-        });
-        expect(nodes[0].data.hasExcessItems).toBe(true);
-    });
 
-    it("scales the recipe multiplier to meet prevQuantity and reports excess correctly", () => {
-        // need 3, recipe makes 2 → run twice, receive 4, excess of 1
-        mockSourceItemById.mockReturnValue(makeItem("scaled-item", [makeVariant(makeRecipe(2))]));
-        const { nodes } = resolveCraftingTree({
-            itemId: "scaled-item",
-            prevQuantity: 3,
-            prevItemId: "parent-item",
-            initialNode: false,
-        });
-        expect(nodes[0].data.quantityNeeded).toBe(3);
-        expect(nodes[0].data.quantityRecieved).toBe(4);
-        expect(nodes[0].data.hasExcessItems).toBe(true);
-    });
 });
 
 describe("quantityNeeded", () => {

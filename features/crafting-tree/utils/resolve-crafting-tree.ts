@@ -1,32 +1,32 @@
-import { sourceItemById } from "@/utils/source-item-by-id";
+import { resolveItemTree } from "@/domain/crafting/utils/resolve-item-tree";
+import { type ResolvedItem } from "@/domain/crafting/types/resolved-item";
+import { cache } from "react";
 
 import { type Node } from "../schemas/Node";
 import { type Edge } from "../schemas/Edge";
 
-import { cache } from "react";
-
 type Args = {
-    /**
-     * The item ID to resolve the crafting tree for
-     */
-    itemId: string;
-    /**
-     * The quantity of the item to resolve the crafting tree for,
-     * used for scaling the quantities of materials in the tree
-     */
-    prevQuantity?: number;
-    /**
-     * When recursing, the previous item ID, used for building unique node IDs
-     */
-    prevItemId?: string;
-    /**
-     * Indicates if this is the starting point of the tree resolution
-     */
-    initialNode?: boolean;
-    /**
-     * The initial item ID for the tree
-     */
-    initialItemId?: string;
+  /**
+   * The item ID to resolve the crafting tree for
+   */
+  itemId: string;
+  /**
+   * The quantity of the item to resolve the crafting tree for,
+   * used for scaling the quantities of materials in the tree
+   */
+  prevQuantity?: number;
+  /**
+   * When recursing, the previous item ID, used for building unique node IDs
+   */
+  prevItemId?: string;
+  /**
+   * Indicates if this is the starting point of the tree resolution
+   */
+  initialNode?: boolean;
+  /**
+   * The initial item ID for the tree
+   */
+  initialItemId?: string;
 };
 
 type ResolveCraftingTreeResult = {
@@ -35,147 +35,188 @@ type ResolveCraftingTreeResult = {
 };
 
 /**
- * Resolves the crafting tree for a given item ID, returning the nodes and edges of the tree.
+ * Builds a unique node ID for a given item in the crafting tree, based on its parent node ID, item ID, and optional variant suffix.
+ * @param parentNodeId The ID of the parent node in the crafting tree. Can be null for root nodes.
+ * @param itemId The ID of the item for which the node is being created.
+ * @param variantSuffix An optional suffix to distinguish between different recipe variants of the same item.
+ * @returns A unique string that serves as the node ID in the crafting tree.
+ */
+function buildNodeId(parentNodeId: string | null, itemId: string, variantSuffix: string | null = null): string {
+    return [parentNodeId, itemId, variantSuffix]
+        .filter((p): p is string => p !== null)
+        .join("_");
+}
+
+/**
+ * Groups consecutive ResolvedItems that belong to the same multi-variant item into
+ * a single array, so they can be rendered as a selector + variant node pair.
+ * Single-variant items are wrapped in a one-element array for uniform iteration.
+ */
+function groupVariants(items: ResolvedItem[]): ResolvedItem[][] {
+    return items.reduce<ResolvedItem[][]>((groups, item) => {
+        const last = groups[groups.length - 1];
+        if (last && last[0].item.id === item.item.id && item.variantIndex !== null) {
+            last.push(item);
+        } else {
+            groups.push([item]);
+        }
+        return groups;
+    }, []);
+}
+
+/**
+ * Converts a flat list of ResolvedItems into React Flow nodes and edges.
+ * Recurses into children so the full tree is flattened into a single nodes/edges result.
+ */
+function adaptToNodesAndEdges(
+    resolvedItems: ResolvedItem[],
+    parentNodeId: string | null,
+    initialItemId: string,
+    isInitialNode: boolean,
+): ResolveCraftingTreeResult {
+    const nodes: Node[] = [];
+    const edges: Edge[] = [];
+
+    // Each group is either a single-item array (one recipe variant) or a multi-item
+    // array (multiple recipe variants for the same item).
+    for (const group of groupVariants(resolvedItems)) {
+        const [first] = group;
+
+        if (first.variantIndex === null) {
+            const nodeId = buildNodeId(parentNodeId, first.item.id);
+
+            nodes.push({
+                type: "node",
+                id: nodeId,
+                data: {
+                    id: first.item.id,
+                    label: first.item.name,
+                    image: first.variant.image || null,
+                    numberOfRecipies: null,
+                    isRecipeNumberVariant: null,
+                    facilities: first.facilities,
+                    quantityNeeded: first.quantityNeeded,
+                    quantityRecieved: first.quantityRecieved,
+                    hasExcessItems: first.hasExcessItems,
+                    initialItemId,
+                    initialNode: isInitialNode,
+                    leafNode: first.isLeaf,
+                },
+                position: { x: 0, y: 0 },
+            });
+
+            edges.push({
+                type: "edge",
+                id: nodeId,
+                source: parentNodeId || "root",
+                target: nodeId,
+                data: { highlighted: false },
+            });
+
+            if (first.children.length > 0) {
+                const sub = adaptToNodesAndEdges(first.children, nodeId, initialItemId, false);
+                nodes.push(...sub.nodes);
+                edges.push(...sub.edges);
+            }
+
+            continue;
+        }
+
+        // Multi-variant: create a selector node that the user picks a recipe from,
+        // then one child node per variant connected to it with highlighted edges.
+        const selectorNodeId = buildNodeId(parentNodeId, first.item.id);
+
+        nodes.push({
+            type: "node",
+            id: selectorNodeId,
+            data: {
+                id: first.item.id,
+                label: first.item.name,
+                image: first.item.image || null,
+                numberOfRecipies: group.length,
+                isRecipeNumberVariant: null,
+                facilities: [],
+                quantityNeeded: first.quantityNeeded,
+                quantityRecieved: 0,
+                hasExcessItems: false,
+                initialItemId,
+                initialNode: isInitialNode,
+                leafNode: null,
+            },
+            position: { x: 0, y: 0 },
+        });
+
+        edges.push({
+            type: "edge",
+            id: selectorNodeId,
+            source: parentNodeId || "root",
+            target: selectorNodeId,
+            data: { highlighted: false },
+        });
+
+        // One node and edge per recipe variant, rooted at the selector node.
+        group.forEach((variantItem, vi) => {
+            const variantNodeId = buildNodeId(parentNodeId, first.item.id, `v${vi}`);
+
+            nodes.push({
+                type: "node",
+                id: variantNodeId,
+                data: {
+                    id: first.item.id,
+                    label: first.item.name,
+                    image: variantItem.variant.image || null,
+                    numberOfRecipies: null,
+                    isRecipeNumberVariant: vi + 1,
+                    facilities: variantItem.facilities,
+                    quantityNeeded: variantItem.quantityNeeded,
+                    quantityRecieved: variantItem.quantityRecieved,
+                    hasExcessItems: variantItem.hasExcessItems,
+                    initialItemId,
+                    initialNode: false,
+                    leafNode: variantItem.isLeaf,
+                },
+                position: { x: 0, y: 0 },
+            });
+
+            edges.push({
+                type: "edge",
+                id: variantNodeId,
+                source: selectorNodeId,
+                target: variantNodeId,
+                data: { highlighted: true },
+            });
+
+            if (variantItem.children.length > 0) {
+                const sub = adaptToNodesAndEdges(variantItem.children, variantNodeId, initialItemId, false);
+                nodes.push(...sub.nodes);
+                edges.push(...sub.edges);
+            }
+        });
+    }
+
+    return { nodes, edges };
+}
+
+/**
+ * Resolves the crafting tree for a given item, returning React Flow nodes and edges.
+ * Delegates business logic (quantities, multipliers, excess) to resolveItemTree and
+ * adapts the result into the flat nodes/edges structure React Flow expects.
  * Memoized per React request so multiple components resolving the same item share one result.
- * 
- * @param args - The arguments for resolving the crafting tree.
- * @returns An object containing the nodes and edges of the crafting tree.
+ * @param args The arguments for resolving the crafting tree, including itemId, previous quantity, and other optional parameters.
+ * @returns An object containing the nodes and edges representing the crafting tree.
  */
 export const resolveCraftingTree = cache((args: Args): ResolveCraftingTreeResult => {
-  const { initialItemId = args.itemId } = args;
-  let { initialNode = true } = args;
+    const { initialItemId = args.itemId } = args;
+    const isInitialNode = args.initialNode ?? true;
+    const quantityNeeded = args.prevQuantity ?? 1;
 
-  const item = sourceItemById(args.itemId);
-  if (!item) return { nodes: [], edges: [] }
+    const resolvedItems = resolveItemTree(args.itemId, quantityNeeded);
+    if (resolvedItems.length === 0) return { nodes: [], edges: [] };
 
-  const nodes: Node[] = [];
-  const edges: Edge[] = [];
-
-  const multipleVariants = item.variants.length > 1;
-  // Node IDs encode the parent chain (prevItemId_itemId) so the same item appearing
-  // in two different branches of the tree gets distinct node IDs.
-  const variantNodeId = [args.prevItemId || null, item.id]
-    .filter((part) => part !== null)
-    .join("_");
-
-  if (multipleVariants) {
-    const variantNode: Node = {
-      type: "node",
-      id: variantNodeId,
-      data: {
-        id: item.id,
-        label: item.name,
-        image: item.image || null,
-        numberOfRecipies: item.variants.length,
-        isRecipeNumberVariant: null,
-        facilities: [],
-        quantityNeeded: args.prevQuantity || 1,
-        quantityRecieved: 0,
-        hasExcessItems: false,
+    return adaptToNodesAndEdges(
+        resolvedItems,
+        args.prevItemId ?? null,
         initialItemId,
-        initialNode: initialNode,
-        leafNode: null,
-      },
-      position: { x: 0, y: 0 },
-    };
-    const variantEdge: Edge = {
-      type: "edge",
-      id: variantNodeId,
-      source: args.prevItemId || "root",
-      target: variantNodeId,
-      data: {
-        highlighted: false,
-      },
-    };
-    nodes.push(variantNode);
-    edges.push(variantEdge);
-    // The selector node is the entry point for this item; the individual variant
-    // nodes that follow are not the root of the tree even if this item is.
-    initialNode = false;
-  }
-
-  for (let idx = 0; idx < item.variants.length; idx++) {
-    const variant = item.variants[idx];
-    const itemId = [
-      args.prevItemId || null,
-      item.id,
-      multipleVariants ? `v${idx}` : null,
-    ]
-      .filter((part) => part !== null)
-      .join("_");
-
-    const previousRecipipeRequiresQuantity = args.prevQuantity || 1;
-    const recipeWillCreateQuantity = variant.recipe?.quantity || 1;
-    const prevAndRecipeMatch =
-      previousRecipipeRequiresQuantity === recipeWillCreateQuantity;
-
-    // ceil ensures we always produce enough; may overshoot and leave excess items.
-    let recipeMultiplier = 1;
-    if (!prevAndRecipeMatch) {
-      recipeMultiplier = Math.ceil(
-        previousRecipipeRequiresQuantity / recipeWillCreateQuantity,
-      );
-    }
-
-    const resultQuantity = recipeMultiplier * recipeWillCreateQuantity;
-
-    const node: Node = {
-      type: "node",
-      id: itemId,
-      data: {
-        id: item.id,
-        label: item.name,
-        image: variant.image || null,
-        numberOfRecipies: null,
-        isRecipeNumberVariant: multipleVariants ? idx + 1 : null,
-        facilities: variant.recipe?.facilities ?? [],
-        quantityNeeded: previousRecipipeRequiresQuantity,
-        quantityRecieved: resultQuantity,
-        // The root item is the craft target — excess never applies to it, only to
-        // intermediate sub-components whose recipes overshoot the required quantity.
-        hasExcessItems:
-          !initialNode &&
-          resultQuantity > 0 &&
-          resultQuantity > previousRecipipeRequiresQuantity,
-        initialItemId,
-        initialNode,
-        leafNode: !variant.recipe || false,
-      },
-      position: { x: 0, y: 0 },
-    };
-    let edgeSource = args.prevItemId || "root";
-    if (multipleVariants) {
-      edgeSource = variantNodeId;
-    }
-    const edge: Edge = {
-      type: "edge",
-      id: itemId,
-      source: edgeSource,
-      target: itemId,
-      data: {
-        highlighted: multipleVariants ? true : false,
-      },
-    };
-    nodes.push(node);
-    edges.push(edge);
-
-    const materials = variant.recipe?.materials ?? [];
-    for (const matArgs of materials) {
-      const material = sourceItemById(matArgs.itemId);
-      // Materials with no variants have no resolvable recipe paths; skip silently.
-      if (!material || material.variants.length === 0) continue;
-      const subTree = resolveCraftingTree({
-        itemId: material.id,
-        prevQuantity: matArgs.quantity * recipeMultiplier,
-        prevItemId: itemId,
-        initialNode: false,
-        initialItemId,
-      });
-      nodes.push(...subTree.nodes);
-      edges.push(...subTree.edges);
-    }
-  }
-
-  return { nodes, edges };
+        isInitialNode,
+    );
 });
-
