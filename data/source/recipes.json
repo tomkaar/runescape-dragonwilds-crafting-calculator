@@ -33468,10 +33468,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Carved Bone Animal Lure"
+    ],
     "uses_facility": [
       "Jeweler's Bench"
     ],
     "json": {
+      "recipe": "Carved Bone Animal Lure",
       "facility": "Jeweler's Bench",
       "materials": [
         {
@@ -47703,7 +47707,7 @@
       "Necrotic Bonemeal"
     ],
     "uses_skill": [
-      "Jeweler's Bench"
+      "Artisan"
     ],
     "uses_facility": [
       "Jeweler's Bench"
@@ -47754,7 +47758,7 @@
       ],
       "skills": [
         {
-          "name": "Jeweler's Bench",
+          "name": "Artisan",
           "experience": "?"
         }
       ],
@@ -61705,6 +61709,77 @@
   },
   {
     "uses_material": [
+      "Ash Plank",
+      "Oak Logs",
+      "Ground Stone",
+      "Ground Sandstone"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Oak Logs",
+          "link": "Oak Logs",
+          "qty": "1",
+          "item": "Oak Logs",
+          "image": "[[File:Oak Logs.png|30px|link=Oak Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Ground Stone",
+          "link": "Ground Stone",
+          "qty": "1",
+          "item": "Ground Stone",
+          "image": "[[File:Ground Stone.png|30px|link=Ground Stone]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "1",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Fence"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Fence",
+        "link": "Fence",
+        "qty": "1",
+        "item": "Fence",
+        "image": "[[File:Fence.png|30px|link=Fence]]"
+      }
+    },
+    "output": [
+      "Fence"
+    ]
+  },
+  {
+    "uses_material": [
       "Raw Armoured Catfish"
     ],
     "uses_skill": [
@@ -69537,6 +69612,68 @@
     },
     "output": [
       "Master's Staff"
+    ]
+  },
+  {
+    "uses_material": [
+      "Feathers",
+      "Desert Thread",
+      "Kalphite Ichor"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "1",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "1",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Kalphite Ichor",
+          "link": "Kalphite Ichor",
+          "qty": "1",
+          "item": "Kalphite Ichor",
+          "image": "[[File:Kalphite Ichor.png|30px|link=Kalphite Ichor]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Kalphite Bait"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Kalphite Bait",
+        "link": "Kalphite Bait",
+        "qty": "1",
+        "item": "Kalphite Bait",
+        "image": "[[File:Kalphite Bait.png|30px|link=Kalphite Bait]]"
+      }
+    },
+    "output": [
+      "Kalphite Bait"
     ]
   },
   {

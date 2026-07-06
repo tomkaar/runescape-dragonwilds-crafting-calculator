@@ -21175,7 +21175,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Carved Bone Animal Lure"
+        ]
       }
     ],
     "skills": [
@@ -21185,7 +21187,7 @@
       "Jeweler's Bench"
     ],
     "wikiLink": "Ring_of_Pursuit",
-    "weight": 2
+    "weight": 1
   },
   {
     "id": "18bf739d4da5",
@@ -30870,7 +30872,7 @@
       }
     ],
     "skills": [
-      "Jeweler's Bench"
+      "Artisan"
     ],
     "facilities": [
       "Jeweler's Bench"
@@ -40343,6 +40345,52 @@
     "weight": 6
   },
   {
+    "id": "96c0727e4b12",
+    "name": "Fence",
+    "image": "Fence.png",
+    "variants": [
+      {
+        "id": "8c3b2a0e50d6",
+        "name": "Fence",
+        "image": "Fence.png",
+        "variantName": null,
+        "recipe": {
+          "id": "29e2c8561897",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "1101aadad529",
+              "quantity": 2
+            },
+            {
+              "itemId": "464881ef1d16",
+              "quantity": 1
+            },
+            {
+              "itemId": "3e6aa25999b7",
+              "quantity": 1
+            },
+            {
+              "itemId": "eedfb3dc7f45",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Fence"
+  },
+  {
     "id": "6f8c09c139e6",
     "name": "Burnt Catfish",
     "image": "Burnt Catfish.png",
@@ -45533,6 +45581,50 @@
     ],
     "wikiLink": "Master's_Staff",
     "weight": 15
+  },
+  {
+    "id": "4f64e157d0a7",
+    "name": "Kalphite Bait",
+    "image": "Kalphite Bait.png",
+    "variants": [
+      {
+        "id": "e48a699c3974",
+        "name": "Kalphite Bait",
+        "image": "Kalphite Bait.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d6f901c29aef",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "9e1cedfc6c7e",
+              "quantity": 1
+            },
+            {
+              "itemId": "7ddc50d536fd",
+              "quantity": 1
+            },
+            {
+              "itemId": "2df2148f258c",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Kalphite_Bait",
+    "weight": 0,
+    "stackLimit": 99
   },
   {
     "id": "c1986755bae1",
@@ -54527,6 +54619,26 @@
     "stackLimit": 99
   },
   {
+    "id": "f42da8b834b7",
+    "name": "Carved Bone Animal Lure",
+    "image": "Carved Bone Animal Lure.png",
+    "variants": [
+      {
+        "id": "f42da8b834b7",
+        "name": "Carved Bone Animal Lure",
+        "image": "Carved Bone Animal Lure.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Carved_Bone_Animal_Lure",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
     "id": "85e93bf880b6",
     "name": "Curse Carrying Crown",
     "image": "Curse Carrying Crown.png",
@@ -59783,8 +59895,7 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Fuzan's_Head",
-    "weight": 0,
-    "stackLimit": 0
+    "stackLimit": 25
   },
   {
     "id": "9a172c5cdf09",
@@ -60235,5 +60346,24 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "The_Radiant_Heart"
+  },
+  {
+    "id": "829aae344c22",
+    "name": "Glass Owl",
+    "image": "Glass Owl.png",
+    "variants": [
+      {
+        "id": "829aae344c22",
+        "name": "Glass Owl",
+        "image": "Glass Owl.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Glass_Owl",
+    "weight": 0.1
   }
 ]
