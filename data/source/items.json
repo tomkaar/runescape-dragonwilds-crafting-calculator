@@ -6305,16 +6305,16 @@
   },
   {
     "page_name": "Ring of Pursuit",
-    "item_description": "ANIMALS are less AWARE of your PRESENCE",
+    "item_description": "A magical ring that makes you sneakier.",
     "item_name": "Ring of Pursuit",
-    "item_weight": 2,
+    "item_weight": 1,
     "page_name_sub": "Ring of Pursuit",
     "json": {
       "type": "Basic Item",
-      "description": "ANIMALS are less AWARE of your PRESENCE",
+      "description": "A magical ring that makes you sneakier.",
       "image": "[[File:Ring of Pursuit.png|32px]]",
       "name": "Ring of Pursuit",
-      "weight": "2.0",
+      "weight": "1.0",
       "image_raw": "Ring of Pursuit.png"
     },
     "item_type": "Basic Item"
@@ -10919,6 +10919,24 @@
     },
     "item_weight": 0,
     "page_name_sub": "A Cracked Bronze Vanity Mirror"
+  },
+  {
+    "page_name": "Carved Bone Animal Lure",
+    "item_description": "Seems eager to be elsewhere. Perhaps you could learn from it.",
+    "item_name": "Carved Bone Animal Lure",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Seems eager to be elsewhere. Perhaps you could learn from it.",
+      "image": "[[File:Carved Bone Animal Lure.png|32px]]",
+      "name": "Carved Bone Animal Lure",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Carved Bone Animal Lure.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Carved Bone Animal Lure"
   },
   {
     "page_name": "Pumpkin Soup",
@@ -19502,6 +19520,24 @@
     "item_type": "Magic Weapon"
   },
   {
+    "page_name": "Kalphite Bait",
+    "item_description": "Kalphite bait. Increases the catch chance of fish.",
+    "item_name": "Kalphite Bait",
+    "item_type": "Tool",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Tool",
+      "description": "Kalphite bait. Increases the catch chance of fish.",
+      "image": "[[File:Kalphite Bait.png|32px]]",
+      "name": "Kalphite Bait",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Kalphite Bait.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Kalphite Bait"
+  },
+  {
     "page_name": "Seared Cactus Steak",
     "item_description": "You'd be surprised at how tasty an eight-ounce cactus, medium-rare can be.",
     "item_name": "Seared Cactus Steak",
@@ -21230,25 +21266,19 @@
   },
   {
     "page_name": "Fuzan's Head",
-    "item_description": "",
+    "item_description": "It's tempting to leave it out in the Scorch to give it a taste of its own medicine.",
     "item_name": "Fuzan's Head",
-    "item_type": "",
-    "item_stacklimit": 0,
+    "item_type": "Quest Item",
+    "page_name_sub": "Fuzan's Head",
     "json": {
-      "type": "",
-      "description": "",
-      "weight": "",
-      "compostvalue": "",
+      "type": "Quest Item",
+      "description": "It's tempting to leave it out in the Scorch to give it a taste of its own medicine.",
       "image": "[[File:Fuzan's Head.png|32px]]",
       "name": "Fuzan's Head",
-      "hydration": "",
-      "sustenance": "",
-      "health": "",
-      "stacklimit": "",
+      "stacklimit": "25",
       "image_raw": "Fuzan's Head.png"
     },
-    "item_weight": 0,
-    "page_name_sub": "Fuzan's Head"
+    "item_stacklimit": 25
   },
   {
     "page_name": "TokTz-Ket-Xil",
@@ -21977,5 +22007,21 @@
       "image_raw": "Skills Necklace.png"
     },
     "item_type": "Trinket"
+  },
+  {
+    "page_name": "Glass Owl",
+    "item_description": "A handcrafted owl made of glass. It seems to have great sentimental value to someone.",
+    "item_name": "Glass Owl",
+    "item_weight": 0.1,
+    "page_name_sub": "Glass Owl",
+    "json": {
+      "type": "Quest Item",
+      "description": "A handcrafted owl made of glass. It seems to have great sentimental value to someone.",
+      "image": "[[File:Glass Owl.png|32px]]",
+      "name": "Glass Owl",
+      "weight": "0.1",
+      "image_raw": "Glass Owl.png"
+    },
+    "item_type": "Quest Item"
   }
 ]
