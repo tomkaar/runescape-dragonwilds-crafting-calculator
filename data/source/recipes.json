@@ -75067,5 +75067,290 @@
     "output": [
       "Skills Necklace"
     ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs",
+      "Coarse Animal Fur"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Extinguished Blue Remnants"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Extinguished Blue Remnants",
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "1",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "1",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Blue Torch"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Blue Torch",
+        "link": "Blue Torch",
+        "qty": "1",
+        "item": "Blue Torch",
+        "image": "[[File:Blue Torch.png|30px|link=Blue Torch]]"
+      }
+    },
+    "output": [
+      "Blue Torch"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs",
+      "Coarse Animal Fur"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Extinguished Green Remnants"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Extinguished Green Remnants",
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "1",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "1",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Green Torch"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Green Torch",
+        "link": "Green Torch",
+        "qty": "1",
+        "item": "Green Torch",
+        "image": "[[File:Green Torch.png|30px|link=Green Torch]]"
+      }
+    },
+    "output": [
+      "Green Torch"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs",
+      "Coarse Animal Fur"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Extinguished Purple Remnants"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Extinguished Purple Remnants",
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "1",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "1",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Purple Torch"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Purple Torch",
+        "link": "Purple Torch",
+        "qty": "1",
+        "item": "Purple Torch",
+        "image": "[[File:Purple Torch.png|30px|link=Purple Torch]]"
+      }
+    },
+    "output": [
+      "Purple Torch"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs",
+      "Coarse Animal Fur"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Extinguished Yellow Remnants"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Extinguished Yellow Remnants",
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "1",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "1",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Yellow Torch"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Yellow Torch",
+        "link": "Yellow Torch",
+        "qty": "1",
+        "item": "Yellow Torch",
+        "image": "[[File:Yellow Torch.png|30px|link=Yellow Torch]]"
+      }
+    },
+    "output": [
+      "Yellow Torch"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs",
+      "Coarse Animal Fur"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "uses_recipe": [
+      "Extinguished Red Remnants"
+    ],
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "json": {
+      "recipe": "Extinguished Red Remnants",
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "1",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Coarse Animal Fur",
+          "link": "Coarse Animal Fur",
+          "qty": "1",
+          "item": "Coarse Animal Fur",
+          "image": "[[File:Coarse Animal Fur.png|30px|link=Coarse Animal Fur]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Red Torch"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Red Torch",
+        "link": "Red Torch",
+        "qty": "1",
+        "item": "Red Torch",
+        "image": "[[File:Red Torch.png|30px|link=Red Torch]]"
+      }
+    },
+    "output": [
+      "Red Torch"
+    ]
   }
 ]

@@ -22023,5 +22023,223 @@
       "image_raw": "Glass Owl.png"
     },
     "item_type": "Quest Item"
+  },
+  {
+    "page_name": "Inspiring Insignia",
+    "item_description": "Perhaps you can learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+    "item_name": "Inspiring Insignia",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you can learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "image": "[[File:Inspiring Insignia.png|32px]]",
+      "name": "Inspiring Insignia",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Inspiring Insignia.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Inspiring Insignia"
+  },
+  {
+    "page_name": "Blue Torch",
+    "item_description": "A trusty lightsource - now in blue.",
+    "item_name": "Blue Torch",
+    "item_type": "Tool",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Tool",
+      "description": "A trusty lightsource - now in blue.",
+      "weight": "1.5",
+      "compostvalue": "",
+      "image": "[[File:Blue Torch.png|32px]]",
+      "name": "Blue Torch",
+      "hydration": "",
+      "sustenance": "",
+      "health": "",
+      "stacklimit": "",
+      "image_raw": "Blue Torch.png"
+    },
+    "item_weight": 1.5,
+    "page_name_sub": "Blue Torch"
+  },
+  {
+    "page_name": "Extinguished Blue Remnants",
+    "item_description": "A long extinguished torch with unique charactersitics<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"incorrectly spelled &quot;characteristics&quot; from the cache\">sic</span>&#93;</sup>.",
+    "item_name": "Extinguished Blue Remnants",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "A long extinguished torch with unique charactersitics<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"incorrectly spelled &quot;characteristics&quot; from the cache\">sic</span>&#93;</sup>.",
+      "image": "[[File:Extinguished Blue Remnants.png|32px]]",
+      "name": "Extinguished Blue Remnants",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Extinguished Blue Remnants.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Extinguished Blue Remnants"
+  },
+  {
+    "page_name": "Green Torch",
+    "item_description": "A trusty lightsource - now in green.",
+    "item_name": "Green Torch",
+    "item_type": "Tool",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Tool",
+      "description": "A trusty lightsource - now in green.",
+      "weight": "1.5",
+      "compostvalue": "",
+      "image": "[[File:Green Torch.png|32px]]",
+      "name": "Green Torch",
+      "hydration": "",
+      "sustenance": "",
+      "health": "",
+      "stacklimit": "",
+      "image_raw": "Green Torch.png"
+    },
+    "item_weight": 1.5,
+    "page_name_sub": "Green Torch"
+  },
+  {
+    "page_name": "Purple Torch",
+    "item_description": "A trusty lightsource - now in purple.",
+    "item_name": "Purple Torch",
+    "item_type": "Tool",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Tool",
+      "description": "A trusty lightsource - now in purple.",
+      "weight": "1.5",
+      "compostvalue": "",
+      "image": "[[File:Purple Torch.png|32px]]",
+      "name": "Purple Torch",
+      "hydration": "",
+      "sustenance": "",
+      "health": "",
+      "stacklimit": "",
+      "image_raw": "Purple Torch.png"
+    },
+    "item_weight": 1.5,
+    "page_name_sub": "Purple Torch"
+  },
+  {
+    "page_name": "Yellow Torch",
+    "item_description": "A trusty lightsource - now in yellow.",
+    "item_name": "Yellow Torch",
+    "item_type": "Tool",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Tool",
+      "description": "A trusty lightsource - now in yellow.",
+      "weight": "1.5",
+      "compostvalue": "",
+      "image": "[[File:Yellow Torch.png|32px]]",
+      "name": "Yellow Torch",
+      "hydration": "",
+      "sustenance": "",
+      "health": "",
+      "stacklimit": "",
+      "image_raw": "Yellow Torch.png"
+    },
+    "item_weight": 1.5,
+    "page_name_sub": "Yellow Torch"
+  },
+  {
+    "page_name": "Red Torch",
+    "item_description": "A trusty lightsource - now in red.",
+    "item_name": "Red Torch",
+    "item_type": "Tool",
+    "item_stacklimit": 0,
+    "json": {
+      "type": "Tool",
+      "description": "A trusty lightsource - now in red.",
+      "weight": "1.5",
+      "compostvalue": "",
+      "image": "[[File:Red Torch.png|32px]]",
+      "name": "Red Torch",
+      "hydration": "",
+      "sustenance": "",
+      "health": "",
+      "stacklimit": "",
+      "image_raw": "Red Torch.png"
+    },
+    "item_weight": 1.5,
+    "page_name_sub": "Red Torch"
+  },
+  {
+    "page_name": "Extinguished Yellow Remnants",
+    "item_description": "A long extinguished torch with unique charactersitics<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"incorrectly spelled &quot;characteristics&quot; from the cache\">sic</span>&#93;</sup>.",
+    "item_name": "Extinguished Yellow Remnants",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "A long extinguished torch with unique charactersitics<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"incorrectly spelled &quot;characteristics&quot; from the cache\">sic</span>&#93;</sup>.",
+      "image": "[[File:Extinguished Yellow Remnants.png|32px]]",
+      "name": "Extinguished Yellow Remnants",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Extinguished Yellow Remnants.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Extinguished Yellow Remnants"
+  },
+  {
+    "page_name": "Extinguished Green Remnants",
+    "item_description": "A long extinguished torch with unique charactersitics<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"incorrectly spelled &quot;characteristics&quot; from the cache\">sic</span>&#93;</sup>.",
+    "item_name": "Extinguished Green Remnants",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "A long extinguished torch with unique charactersitics<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"incorrectly spelled &quot;characteristics&quot; from the cache\">sic</span>&#93;</sup>.",
+      "image": "[[File:Extinguished Green Remnants.png|32px]]",
+      "name": "Extinguished Green Remnants",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Extinguished Green Remnants.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Extinguished Green Remnants"
+  },
+  {
+    "page_name": "Extinguished Purple Remnants",
+    "item_description": "A long extinguished torch with unique charactersitics<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"incorrectly spelled &quot;characteristics&quot; from the cache\">sic</span>&#93;</sup>.",
+    "item_name": "Extinguished Purple Remnants",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "A long extinguished torch with unique charactersitics<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"incorrectly spelled &quot;characteristics&quot; from the cache\">sic</span>&#93;</sup>.",
+      "image": "[[File:Extinguished Purple Remnants.png|32px]]",
+      "name": "Extinguished Purple Remnants",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Extinguished Purple Remnants.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Extinguished Purple Remnants"
+  },
+  {
+    "page_name": "Extinguished Red Remnants",
+    "item_description": "A long extinguished torch with unique charactersitics<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"incorrectly spelled &quot;characteristics&quot; from the cache\">sic</span>&#93;</sup>.",
+    "item_name": "Extinguished Red Remnants",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "A long extinguished torch with unique charactersitics<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"incorrectly spelled &quot;characteristics&quot; from the cache\">sic</span>&#93;</sup>.",
+      "image": "[[File:Extinguished Red Remnants.png|32px]]",
+      "name": "Extinguished Red Remnants",
+      "weight": "0.0",
+      "stacklimit": "99",
+      "image_raw": "Extinguished Red Remnants.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Extinguished Red Remnants"
   }
 ]

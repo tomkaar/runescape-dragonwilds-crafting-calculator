@@ -49423,6 +49423,216 @@
     "weight": 2
   },
   {
+    "id": "027ba940de53",
+    "name": "Blue Torch",
+    "image": "Blue Torch.png",
+    "variants": [
+      {
+        "id": "0d4d928d2a01",
+        "name": "Blue Torch",
+        "image": "Blue Torch.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1f8b7ae038e8",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 1
+            },
+            {
+              "itemId": "9fcd40f856e6",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Extinguished Blue Remnants"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Blue_Torch",
+    "weight": 1.5,
+    "stackLimit": 0
+  },
+  {
+    "id": "c9526706e563",
+    "name": "Green Torch",
+    "image": "Green Torch.png",
+    "variants": [
+      {
+        "id": "df66b1b57213",
+        "name": "Green Torch",
+        "image": "Green Torch.png",
+        "variantName": null,
+        "recipe": {
+          "id": "96ef93cde010",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 1
+            },
+            {
+              "itemId": "9fcd40f856e6",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Extinguished Green Remnants"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Green_Torch",
+    "weight": 1.5,
+    "stackLimit": 0
+  },
+  {
+    "id": "afffbdcbbd46",
+    "name": "Purple Torch",
+    "image": "Purple Torch.png",
+    "variants": [
+      {
+        "id": "96b142bb6669",
+        "name": "Purple Torch",
+        "image": "Purple Torch.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2ab988af2fd8",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 1
+            },
+            {
+              "itemId": "9fcd40f856e6",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Extinguished Purple Remnants"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Purple_Torch",
+    "weight": 1.5,
+    "stackLimit": 0
+  },
+  {
+    "id": "ee325f3baa1a",
+    "name": "Yellow Torch",
+    "image": "Yellow Torch.png",
+    "variants": [
+      {
+        "id": "6b620289617a",
+        "name": "Yellow Torch",
+        "image": "Yellow Torch.png",
+        "variantName": null,
+        "recipe": {
+          "id": "be1e37e368d4",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 1
+            },
+            {
+              "itemId": "9fcd40f856e6",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Extinguished Yellow Remnants"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Yellow_Torch",
+    "weight": 1.5,
+    "stackLimit": 0
+  },
+  {
+    "id": "ee67e5e94af8",
+    "name": "Red Torch",
+    "image": "Red Torch.png",
+    "variants": [
+      {
+        "id": "f1ec36d28473",
+        "name": "Red Torch",
+        "image": "Red Torch.png",
+        "variantName": null,
+        "recipe": {
+          "id": "19ecac195240",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "15f83d07dd09",
+              "quantity": 1
+            },
+            {
+              "itemId": "9fcd40f856e6",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": [
+          "Extinguished Red Remnants"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Red_Torch",
+    "weight": 1.5,
+    "stackLimit": 0
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -60365,5 +60575,125 @@
     "facilities": [],
     "wikiLink": "Glass_Owl",
     "weight": 0.1
+  },
+  {
+    "id": "57c2ce5922c6",
+    "name": "Inspiring Insignia",
+    "image": "Inspiring Insignia.png",
+    "variants": [
+      {
+        "id": "57c2ce5922c6",
+        "name": "Inspiring Insignia",
+        "image": "Inspiring Insignia.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Inspiring_Insignia",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "4ebf299b14d9",
+    "name": "Extinguished Blue Remnants",
+    "image": "Extinguished Blue Remnants.png",
+    "variants": [
+      {
+        "id": "4ebf299b14d9",
+        "name": "Extinguished Blue Remnants",
+        "image": "Extinguished Blue Remnants.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Extinguished_Blue_Remnants",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "5fa2df48d8a8",
+    "name": "Extinguished Yellow Remnants",
+    "image": "Extinguished Yellow Remnants.png",
+    "variants": [
+      {
+        "id": "5fa2df48d8a8",
+        "name": "Extinguished Yellow Remnants",
+        "image": "Extinguished Yellow Remnants.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Extinguished_Yellow_Remnants",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "75457e020c7a",
+    "name": "Extinguished Green Remnants",
+    "image": "Extinguished Green Remnants.png",
+    "variants": [
+      {
+        "id": "75457e020c7a",
+        "name": "Extinguished Green Remnants",
+        "image": "Extinguished Green Remnants.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Extinguished_Green_Remnants",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "12e8ebf0467e",
+    "name": "Extinguished Purple Remnants",
+    "image": "Extinguished Purple Remnants.png",
+    "variants": [
+      {
+        "id": "12e8ebf0467e",
+        "name": "Extinguished Purple Remnants",
+        "image": "Extinguished Purple Remnants.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Extinguished_Purple_Remnants",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "8fd973afc6a2",
+    "name": "Extinguished Red Remnants",
+    "image": "Extinguished Red Remnants.png",
+    "variants": [
+      {
+        "id": "8fd973afc6a2",
+        "name": "Extinguished Red Remnants",
+        "image": "Extinguished Red Remnants.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Extinguished_Red_Remnants",
+    "weight": 0,
+    "stackLimit": 99
   }
 ]
