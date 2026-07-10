@@ -13,6 +13,8 @@ import { useSelectedMaterial } from "@/store/selected-material";
 import { buildOwnedMaterials } from "@/features/crafting-progress/utils/owned-materials";
 import { type OwnedMaterialEntry } from "@/features/crafting-progress/types/owned-material-entry";
 import { OwnedMaterialRow } from "./OwnedMaterialRow";
+import { Button } from "@/components/ui/button";
+import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/ui/alert-dialog";
 
 type Props = {
   trackedItemIds: string[];
@@ -29,6 +31,7 @@ export function ProgressOwnedMaterials({ trackedItemIds }: Props) {
   );
   const owned = useMaterialOwned((state) => state.owned);
   const setOwned = useMaterialOwned((state) => state.setOwned);
+  const resetOwned = useMaterialOwned((state) => state.resetOwned);
 
   const rows = buildOwnedMaterials({ trackedItemIds, allItems, multipliers }).sort(
     (a, b) => a.name.localeCompare(b.name),
@@ -74,6 +77,37 @@ export function ProgressOwnedMaterials({ trackedItemIds }: Props) {
                   onCommit={(qty) => commit(entry, qty)}
                 />
               ))}
+                <div className="mt-4">
+                  <AlertDialog>
+                    <AlertDialogTrigger asChild>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="ml-auto text-destructive hover:text-destructive"
+                      >
+                        <span className="hidden md:inline lg:hidden xl:inline">
+                          Reset collected materials
+                        </span>
+                      </Button>
+                    </AlertDialogTrigger>
+                    <AlertDialogContent>
+                      <AlertDialogHeader>
+                        <AlertDialogTitle>
+                          Reset progress?
+                        </AlertDialogTitle>
+                        <AlertDialogDescription>
+                          This will clear all tracked materials for all items. This action cannot be undone.
+                        </AlertDialogDescription>
+                      </AlertDialogHeader>
+                      <AlertDialogFooter>
+                        <AlertDialogCancel>Cancel</AlertDialogCancel>
+                        <AlertDialogAction onClick={resetOwned}>
+                          Remove
+                        </AlertDialogAction>
+                      </AlertDialogFooter>
+                    </AlertDialogContent>
+                  </AlertDialog>
+                </div>
             </div>
           )}
         </AccordionContent>
