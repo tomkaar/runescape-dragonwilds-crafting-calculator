@@ -245,7 +245,7 @@ function Facilities({ facilities }: { facilities: string[] }) {
 
   return (
     <div className="w-full flex flex-wrap gap-1.5 justify-center bg-card px-2 py-1 rounded-lg items-center">
-      <span className="text-xs text-foreground">One of facilities: </span>
+      <span className="text-xs text-foreground">One of: </span>
       {facilities.map((facility) => (
         <TooltipProvider key={facility}>
           <Tooltip>
