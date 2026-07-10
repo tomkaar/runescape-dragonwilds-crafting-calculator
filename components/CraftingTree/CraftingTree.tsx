@@ -1,8 +1,9 @@
 "use client";
 
+// @ts-expect-error
 import "@xyflow/react/dist/style.css";
 
-import { ReactFlow, useEdgesState, useNodesState } from "@xyflow/react";
+import { EdgeTypes, NodeTypes, ReactFlow, useEdgesState, useNodesState } from "@xyflow/react";
 
 import { resolveCraftingTree } from "@/features/crafting-tree/utils/resolve-crafting-tree";
 
@@ -11,11 +12,13 @@ import DefaultlNode from "./Nodes/DefaultNode";
 import DefaultEdge from "./Edges/DefaultEdge";
 import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
+import { type Node } from "@/features/crafting-tree/schemas/Node";
+import { Edge } from "@/features/crafting-tree/schemas/Edge";
 
-const nodeTypes = {
+const nodeTypes: NodeTypes = {
   node: DefaultlNode,
 };
-const edgeTypes = {
+const edgeTypes: EdgeTypes = {
   edge: DefaultEdge,
 };
 
@@ -31,8 +34,8 @@ export function CraftingTree(props: Props) {
 
   const anotherTree = resolveCraftingTree({ itemId: itemId });
 
-  const [nodes, , onNodesChange] = useNodesState(anotherTree?.nodes || []);
-  const [edges, , onEdgesChange] = useEdgesState(anotherTree?.edges || []);
+  const [nodes, , onNodesChange] = useNodesState<Node>(anotherTree?.nodes || []);
+  const [edges, , onEdgesChange] = useEdgesState<Edge>(anotherTree?.edges || []);
 
   return (
     <div
@@ -41,16 +44,14 @@ export function CraftingTree(props: Props) {
         className,
       )}
     >
-      <ReactFlow
+      <ReactFlow<Node, Edge>
         nodes={nodes}
         edges={edges}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         draggable={false}
         maxZoom={1.75}
-        // @ts-expect-error - invalid types
         nodeTypes={nodeTypes}
-        // @ts-expect-error - invalid types
         edgeTypes={edgeTypes}
       >
         {children}

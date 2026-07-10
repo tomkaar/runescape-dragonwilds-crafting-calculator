@@ -1,12 +1,13 @@
 import * as z from "zod";
+import { type Edge as RFEdge } from "@xyflow/react";
 
-const edgeSchema = z.object({
-  type: z.union([z.literal("edge"), z.literal("default")]),
-  id: z.string(),
-  source: z.string(),
-  target: z.string(),
-  data: z.object({
-    highlighted: z.boolean().optional(),
-  }),
+const edgeDataSchema = z.object({
+  highlighted: z.boolean().optional(),
 });
-export type Edge = z.infer<typeof edgeSchema>;
+
+export type Edge = Omit<
+  RFEdge<z.infer<typeof edgeDataSchema>, "edge" | "default">,
+  "data"
+> & {
+  data: z.infer<typeof edgeDataSchema>;
+};
