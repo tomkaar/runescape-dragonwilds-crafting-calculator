@@ -3,6 +3,7 @@ import {
   AnvilIcon,
   GithubIcon,
   HomeIcon,
+  ListChecksIcon,
   ListIcon,
   MenuIcon,
   Scale,
@@ -117,9 +118,21 @@ export default function Layout(props: Props) {
         </div>
 
         <div className="grow flex flex-row justify-center md:justify-start items-center gap-4">
-          <div className="w-full md:max-w-120">
+          <div className="md:max-w-120">
             <CommandWithShortcuts />
           </div>
+          <Link href="/item">
+            <Button variant="outline" size="icon-sm">
+              <span className="sr-only">All items</span>
+              <ListIcon className="w-4 h-4" />
+            </Button>
+          </Link>
+          <Link href="/progress">
+            <Button variant="outline" size="icon-sm">
+              <span className="sr-only">Progress</span>
+              <ListChecksIcon className="w-4 h-4" />
+            </Button>
+          </Link>
         </div>
 
         <div className="shrink-0 hidden md:flex gap-2 flex-row items-center">
