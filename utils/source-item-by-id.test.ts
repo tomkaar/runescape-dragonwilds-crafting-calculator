@@ -2,7 +2,7 @@ import { it, expect } from "vitest";
 import { sourceItemById } from "./source-item-by-id";
 
   it("returns the item when a valid id is provided", () => {
-    const item = sourceItemById("f76ea921edc2");
+    const item = sourceItemById("wall");
     expect(item).toBeDefined();
     expect(item?.name).toBe("Wall");
   });
@@ -12,17 +12,17 @@ import { sourceItemById } from "./source-item-by-id";
   });
 
   it("is case-insensitive", () => {
-    const lower = sourceItemById("f76ea921edc2");
-    const upper = sourceItemById("F76EA921EDC2");
+    const lower = sourceItemById("wall");
+    const upper = sourceItemById("WALL");
     expect(lower).toBeDefined();
     expect(upper).toBeDefined();
     expect(lower?.id).toBe(upper?.id);
   });
 
   it("returns a correctly shaped item", () => {
-    const item = sourceItemById("f76ea921edc2");
+    const item = sourceItemById("wall");
     expect(item).toMatchObject({
-      id: "f76ea921edc2",
+      id: "wall",
       name: "Wall",
       variants: expect.arrayContaining([
         expect.objectContaining({

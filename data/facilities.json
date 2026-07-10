@@ -1,118 +1,118 @@
 [
   {
-    "id": "bee0607cf14b",
+    "id": "advanced-tannery",
     "name": "Advanced Tannery"
   },
   {
-    "id": "c0c6d4831467",
+    "id": "armour-bench",
     "name": "Armour Bench"
   },
   {
-    "id": "c34abc9dce87",
+    "id": "blacksmith-bench",
     "name": "Blacksmith Bench"
   },
   {
-    "id": "72948755fb60",
+    "id": "blacksmiths-bench",
     "name": "Blacksmith's Bench"
   },
   {
-    "id": "fa122c4ed88f",
+    "id": "blast-furnace",
     "name": "Blast Furnace"
   },
   {
-    "id": "dd92804b0586",
+    "id": "brewing-cauldron",
     "name": "Brewing Cauldron"
   },
   {
-    "id": "4fda6e6141c1",
+    "id": "build-menu",
     "name": "Build Menu"
   },
   {
-    "id": "bf3fac40de1b",
+    "id": "campfire",
     "name": "Campfire"
   },
   {
-    "id": "d18e054c834f",
+    "id": "cooking-pot",
     "name": "Cooking Pot"
   },
   {
-    "id": "d85246cf6102",
+    "id": "cooking-range",
     "name": "Cooking Range"
   },
   {
-    "id": "aeb29223319b",
+    "id": "crafting-table",
     "name": "Crafting Table"
   },
   {
-    "id": "71505c0b9773",
+    "id": "edna",
     "name": "Edna"
   },
   {
-    "id": "49aa06386591",
+    "id": "fletching-bench",
     "name": "Fletching Bench"
   },
   {
-    "id": "1c875539a5a7",
+    "id": "furnace",
     "name": "Furnace"
   },
   {
-    "id": "738c8bf7038c",
+    "id": "grill",
     "name": "Grill"
   },
   {
-    "id": "5c6d854cbd02",
+    "id": "grindstone",
     "name": "Grindstone"
   },
   {
-    "id": "2485989378b3",
+    "id": "imbuing-barrel",
     "name": "Imbuing Barrel"
   },
   {
-    "id": "5c2b1b80c56c",
+    "id": "jewelers-bench",
     "name": "Jeweler's Bench"
   },
   {
-    "id": "61bf3cf0d02b",
+    "id": "kiln",
     "name": "Kiln"
   },
   {
-    "id": "33d0fa882c35",
+    "id": "loom",
     "name": "Loom"
   },
   {
-    "id": "f505eb92a0a3",
+    "id": "lougrims-shrine",
     "name": "Lougrim's Shrine"
   },
   {
-    "id": "75055fbb9316",
+    "id": "mystic-forge",
     "name": "Mystic Forge"
   },
   {
-    "id": "8d2955fe99cb",
+    "id": "pottery-wheel",
     "name": "Pottery Wheel"
   },
   {
-    "id": "64853b498ad8",
+    "id": "rune-altar",
     "name": "Rune Altar"
   },
   {
-    "id": "122a0693c622",
+    "id": "sawmill",
     "name": "Sawmill"
   },
   {
-    "id": "feeedebfee67",
+    "id": "spinning-wheel",
     "name": "Spinning Wheel"
   },
   {
-    "id": "adc9dac02e07",
+    "id": "stone-range",
     "name": "Stone Range"
   },
   {
-    "id": "91cdb651ff27",
+    "id": "stonecutter",
     "name": "Stonecutter"
   },
   {
-    "id": "10d24c63de54",
+    "id": "tannery",
     "name": "Tannery"
   }
 ]

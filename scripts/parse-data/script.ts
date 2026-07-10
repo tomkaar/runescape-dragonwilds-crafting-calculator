@@ -5,6 +5,7 @@ import { SourceItem } from "../fetch-data/types/item";
 import listItems from "./utils/list-items";
 import { applyFacilityNameOverride } from "./utils/apply-facility-name-override";
 import { idFromName } from "./utils/id-from-name";
+import { assertUniqueIds } from "./utils/assert-unique-ids";
 
 async function parseData() {
   const dataDir = join(__dirname, "..", "..", "data");
@@ -35,6 +36,22 @@ async function parseData() {
 
   const listedItems = listItems(recipes, items);
 
+  assertUniqueIds(
+    "item",
+    listedItems.map((item) => ({ id: item.id, name: item.name })),
+  );
+  assertUniqueIds(
+    "variant",
+    listedItems.flatMap((item) =>
+      item.variants.map((variant) => ({
+        id: variant.id,
+        name: variant.variantName
+          ? `${item.name} (${variant.variantName})`
+          : item.name,
+      })),
+    ),
+  );
+
   fs.writeFileSync(
     join(dataDir, "items.json"),
     JSON.stringify(listedItems, null, 2),
@@ -54,6 +71,8 @@ async function parseData() {
   const facilities = Array.from(facilitiesSet)
     .sort()
     .map((name) => ({ id: idFromName(name), name }));
+
+  assertUniqueIds("facility", facilities);
 
   fs.writeFileSync(
     join(dataDir, "facilities.json"),
