@@ -75352,5 +75352,58 @@
     "output": [
       "Red Torch"
     ]
+  },
+  {
+    "uses_material": [
+      "Maple Logs",
+      "Adhesive"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "16",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Adhesive",
+          "link": "Adhesive",
+          "qty": "2",
+          "item": "Adhesive",
+          "image": "[[File:Adhesive.png|30px|link=Adhesive]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "26"
+        }
+      ],
+      "outputs": [
+        "Ore & Stone Storage"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Ore & Stone Storage",
+        "link": "Ore & Stone Storage",
+        "qty": 1,
+        "item": "Ore & Stone Storage",
+        "image": "[[File:Ore & Stone Storage.png|30px|link=Ore & Stone Storage]]"
+      }
+    },
+    "output": [
+      "Ore & Stone Storage"
+    ]
   }
 ]

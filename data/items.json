@@ -49633,6 +49633,44 @@
     "stackLimit": 0
   },
   {
+    "id": "d387dfd34934",
+    "name": "Ore & Stone Storage",
+    "image": "Ore & Stone Storage.png",
+    "variants": [
+      {
+        "id": "ea0feee940cc",
+        "name": "Ore & Stone Storage",
+        "image": "Ore & Stone Storage.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6ea7575bcad5",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "c8dc4902a8c3",
+              "quantity": 2
+            },
+            {
+              "itemId": "7d21f3c7ffc9",
+              "quantity": 16
+            }
+          ],
+          "quantity": 1
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Ore_&_Stone_Storage"
+  },
+  {
     "id": "6a5fa59fd28f",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
