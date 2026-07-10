@@ -152,6 +152,44 @@ describe("buildSteps", () => {
     expect(leaf.usedFor.map((u) => u.itemId).sort()).toEqual(["rootA", "rootB"]);
   });
 
+  it("keeps a root tracked item as a parent when a material is also used directly by it", () => {
+    // rootA needs 3 mid, mid needs 2 leaf each (6 leaf via mid).
+    // rootB needs 4 leaf directly — rootB is never itself a "marked" step,
+    // so it has no aggregated/remainingMap entry, but should still show up
+    // as a "used for" parent instead of being silently dropped.
+    registerItems({
+      rootA: makeItem("rootA", [makeVariant(makeRecipe(1, [{ itemId: "mid", quantity: 3 }]))]),
+      rootB: makeItem("rootB", [makeVariant(makeRecipe(1, [{ itemId: "leaf", quantity: 4 }]))]),
+      mid: makeItem("mid", [makeVariant(makeRecipe(1, [{ itemId: "leaf", quantity: 2 }]))]),
+      leaf: makeItem("leaf", [makeVariant(null)]),
+    });
+
+    const result = buildSteps({
+      filteredItemIds: ["rootA", "rootB"],
+      allItems: {
+        rootA: [
+          { id: "a1", itemId: "mid", quantity: 3, nodeId: "rootA_mid", state: "TODO" },
+          { id: "a2", itemId: "leaf", quantity: 6, nodeId: "rootA_mid_leaf", state: "TODO" },
+        ],
+        rootB: [
+          { id: "b1", itemId: "leaf", quantity: 4, nodeId: "rootB_leaf", state: "TODO" },
+        ],
+      },
+      multipliers: { rootA: 1, rootB: 1 },
+      owned: {},
+    });
+
+    const leaf = result.find((r) => r.itemId === "leaf")!;
+    expect(leaf.quantity).toBe(10);
+    expect(leaf.parents).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ itemId: "mid", quantity: 3 }),
+        expect.objectContaining({ itemId: "rootB", quantity: 1 }),
+      ]),
+    );
+    expect(leaf.parents).toHaveLength(2);
+  });
+
   it("sorts deepest materials first, then intermediates before leaves, then by name", () => {
     registerItems({
       root: makeItem("root", [makeVariant(makeRecipe(1, [

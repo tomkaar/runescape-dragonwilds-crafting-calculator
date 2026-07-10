@@ -238,13 +238,24 @@ export function buildSteps({
 
   const remainingMap = computeRemainingQuantities(aggregated, owned);
 
+  const rootItemIds = new Set(filteredItemIds);
+
   const results: StepEntry[] = [];
   for (const entry of aggregated.values()) {
     const remaining = remainingMap.get(entry.itemId);
     if (remaining === undefined) continue;
+    // A parent may itself be a tracked root item (e.g. this material is a
+    // direct ingredient of the finished piece, not of an intermediate
+    // material) — those never get their own aggregated/remainingMap entry
+    // since they're never "marked" as a step, only crafted. Keep them with
+    // the tracked quantity instead of dropping them from the parent list.
     const adjustedParents = entry.parents
-      .filter((p) => remainingMap.has(p.itemId))
-      .map((p) => ({ ...p, quantity: remainingMap.get(p.itemId)! }));
+      .filter((p) => remainingMap.has(p.itemId) || rootItemIds.has(p.itemId))
+      .map((p) =>
+        remainingMap.has(p.itemId)
+          ? { ...p, quantity: remainingMap.get(p.itemId)! }
+          : { ...p, quantity: multipliers[p.itemId] || 1 },
+      );
     results.push({
       ...entry,
       quantity: remaining,
