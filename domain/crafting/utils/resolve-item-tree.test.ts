@@ -42,6 +42,32 @@ describe("single variant leaf node", () => {
         expect(node.children).toHaveLength(0);
     });
 
+    it("marks a variant with a recipe but no materials as a leaf", () => {
+        // e.g. Obsidian Cape: has a recipe (facility + output) but an empty materials list
+        mockSourceItemById.mockReturnValue(makeItem("empty-recipe-item", [makeVariant(makeRecipe(1))]));
+        const [node] = resolveItemTree("empty-recipe-item");
+        expect(node.isLeaf).toBe(true);
+    });
+
+    it("marks a node as a leaf when its only recipe material cannot be resolved", () => {
+        const item = makeItem("parent-missing-only", [makeVariant(makeRecipe(1, [{ itemId: "missing", quantity: 1 }]))]);
+        mockSourceItemById.mockImplementation((id) => (id === "parent-missing-only" ? item : undefined));
+        const [node] = resolveItemTree("parent-missing-only");
+        expect(node.isLeaf).toBe(true);
+    });
+
+    it("does not mark a node with resolvable recipe materials as a leaf", () => {
+        const mat = makeItem("mat-item", [makeVariant(null)]);
+        const item = makeItem("parent-with-mat", [makeVariant(makeRecipe(1, [{ itemId: "mat-item", quantity: 1 }]))]);
+        mockSourceItemById.mockImplementation((id) => {
+            if (id === "parent-with-mat") return item;
+            if (id === "mat-item") return mat;
+            return undefined;
+        });
+        const [node] = resolveItemTree("parent-with-mat");
+        expect(node.isLeaf).toBe(false);
+    });
+
     it("sets variantIndex to null for a single variant", () => {
         mockSourceItemById.mockReturnValue(makeItem("single-item", [makeVariant(null)]));
         const [node] = resolveItemTree("single-item");

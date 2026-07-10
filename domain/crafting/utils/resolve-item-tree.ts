@@ -43,7 +43,7 @@ function resolveItemTreeInternal(
       quantityRecieved,
       hasExcessItems: !isRoot && quantityRecieved > quantityNeeded,
       facilities: variant.recipe?.facilities ?? [],
-      isLeaf: !variant.recipe,
+      isLeaf: children.length === 0,
       children,
     };
   });

@@ -44,6 +44,44 @@ describe("single variant leaf node", () => {
         expect(edges[0].source).toBe("root");
         expect(edges[0].target).toBe(nodes[0].id);
     });
+
+    it("marks a variant with a recipe but no materials as a leaf node", () => {
+        // e.g. Obsidian Cape: has a recipe (facility + output) but an empty materials list —
+        // must not render a source Handle with nothing connected to it
+        mockSourceItemById.mockReturnValue(makeItem("empty-recipe-item", [makeVariant(makeRecipe(1))]));
+        const { nodes } = resolveCraftingTree({ itemId: "empty-recipe-item" });
+        expect(nodes).toHaveLength(1);
+        expect(nodes[0].data.leafNode).toBe(true);
+    });
+
+    it("marks a node whose only recipe material cannot be resolved as a leaf node", () => {
+        const item = makeItem("parent-missing-only", [makeVariant(makeRecipe(1, [{ itemId: "missing", quantity: 1 }]))]);
+        mockSourceItemById.mockImplementation((id) => (id === "parent-missing-only" ? item : undefined));
+        const { nodes } = resolveCraftingTree({ itemId: "parent-missing-only" });
+        expect(nodes[0].data.leafNode).toBe(true);
+    });
+
+    it("does not mark a node with resolvable children as a leaf node", () => {
+        const mat = makeItem("mat-item", [makeVariant(null)]);
+        const item = makeItem("parent-with-mat", [makeVariant(makeRecipe(1, [{ itemId: "mat-item", quantity: 1 }]))]);
+        mockSourceItemById.mockImplementation((id) => {
+            if (id === "parent-with-mat") return item;
+            if (id === "mat-item") return mat;
+            return undefined;
+        });
+        const { nodes } = resolveCraftingTree({ itemId: "parent-with-mat" });
+        const parentNode = nodes.find((n) => n.id === "parent-with-mat");
+        expect(parentNode?.data.leafNode).toBe(false);
+    });
+
+    it("marks a variant option with a recipe but no materials as a leaf node", () => {
+        mockSourceItemById.mockReturnValue(
+            makeItem("multi-leaf-item", [makeVariant(makeRecipe(1)), makeVariant(null)]),
+        );
+        const { nodes } = resolveCraftingTree({ itemId: "multi-leaf-item" });
+        const variants = nodes.filter((n) => n.id !== "multi-leaf-item");
+        variants.forEach((v) => expect(v.data.leafNode).toBe(true));
+    });
 });
 
 describe("hasExcessItems", () => {

@@ -46,6 +46,12 @@ describe("single variant leaf node", () => {
         expect("children" in node).toBe(false);
     });
 
+    it("marks a variant with a recipe but no materials as isEnd: true", () => {
+        mockSourceItemById.mockReturnValue(makeItem("empty-recipe-item", [makeVariant(makeRecipe(1))]));
+        const [node] = resolveMaterialsTree("empty-recipe-item");
+        expect(node.isEnd).toBe(true);
+    });
+
     it("sets id to the item id", () => {
         mockSourceItemById.mockReturnValue(makeItem("iron-ore", [makeVariant(null)]));
         const [node] = resolveMaterialsTree("iron-ore");
