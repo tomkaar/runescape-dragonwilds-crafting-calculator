@@ -1,5 +1,4 @@
 import { FavouriteItemsList } from "@/components/FavouriteItemsList";
-import { SearchBox } from "@/components/SearchBox";
 import { type Metadata } from "next";
 import Link from "next/link";
 import {
@@ -10,6 +9,7 @@ import {
   StarIcon,
   TableIcon,
 } from "lucide-react";
+import { CommandWithShortcuts } from "@/features/command/components/command-with-shortcuts";
 
 export function generateMetadata(): Metadata {
   return {
@@ -44,7 +44,7 @@ export default function Home() {
               <SearchIcon className="size-3.5" />
               <span>Quick search</span>
             </div>
-            <SearchBox />
+            <CommandWithShortcuts buttonClassName="lg:w-full" />
           </section>
 
           {/* Navigation links */}
