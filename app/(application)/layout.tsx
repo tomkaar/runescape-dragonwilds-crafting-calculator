@@ -1,9 +1,9 @@
 import { ProgressNavLink } from "@/components/Progress/ProgressNavLink";
 import {
   AnvilIcon,
+  CheckCircleIcon,
   GithubIcon,
   HomeIcon,
-  ListChecksIcon,
   ListIcon,
   MenuIcon,
   Scale,
@@ -122,15 +122,17 @@ export default function Layout(props: Props) {
             <CommandWithShortcuts />
           </div>
           <Link href="/item">
-            <Button variant="outline" size="icon-sm">
+            <Button variant="outline" size="sm">
+              <span className="text-muted-foreground">⇧I</span>
               <span className="sr-only">All items</span>
               <ListIcon className="w-4 h-4" />
             </Button>
           </Link>
           <Link href="/progress">
-            <Button variant="outline" size="icon-sm">
+            <Button variant="outline" size="sm">
+              <span className="text-muted-foreground">⇧P</span>
               <span className="sr-only">Progress</span>
-              <ListChecksIcon className="w-4 h-4" />
+              <CheckCircleIcon className="w-4 h-4" />
             </Button>
           </Link>
         </div>

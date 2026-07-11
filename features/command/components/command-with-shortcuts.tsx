@@ -10,6 +10,7 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
+  CommandShortcut,
 } from "@/components/ui/command"
 import { Button } from "@/components/ui/button"
 
@@ -27,9 +28,9 @@ const items = itemJSON.sort((a, b) => a.name.localeCompare(b.name)) as Item[];
 type Page = "favourites" | null
 
 const navigationCommands = [
-  { id: "favourites", name: "Favourites", icon: StarIcon, shortcut: "⌘L" },
-  { id: "all-items", name: "All items", icon: ListIcon, shortcut: "⌘I" },
-  { id: "progress", name: "Progress", icon: ListChecksIcon, shortcut: "⌘P" },
+  { id: "favourites", name: "Favourites", icon: StarIcon, shortcut: "⇧F" },
+  { id: "all-items", name: "All items", icon: ListIcon, shortcut: "⇧I" },
+  { id: "progress", name: "Progress", icon: ListChecksIcon, shortcut: "⇧P" },
 ]
 
 const ROW_HEIGHT = 40;
@@ -52,9 +53,26 @@ export function CommandWithShortcuts({ buttonClassName = ""}: Props) {
   // Toggle the menu when ⌘K is pressed
   useEffect(() => {
     const down = (e: KeyboardEvent) => {
-      if (e.key === 'k' && (e.metaKey || e.ctrlKey)) {
+      if (["k", "K"].includes(e.key) && (e.metaKey || e.ctrlKey)) {
         e.preventDefault()
         setOpen((open) => !open)
+        return
+      }
+      if (["p", "P"].includes(e.key) && e.shiftKey) {
+        e.preventDefault()
+        router.push("/progress")
+        return
+      }
+      if (["i", "I"].includes(e.key) && e.shiftKey) {
+        e.preventDefault()
+        router.push("/item")
+        return
+      }
+      if (["f", "F"].includes(e.key) && e.shiftKey) {
+        e.preventDefault()
+        setPage("favourites")
+        setOpen(true)
+        return
       }
     }
 
@@ -202,6 +220,7 @@ export function CommandWithShortcuts({ buttonClassName = ""}: Props) {
                   >
                     <command.icon />
                     <span>{command.name}</span>
+                    <CommandShortcut>{command.shortcut}</CommandShortcut>
                   </CommandItem>
                 ))}
               </CommandGroup>
