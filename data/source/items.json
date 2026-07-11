@@ -16941,8 +16941,8 @@
       "image": "[[File:Undead Delight.png|32px]]",
       "name": "Undead Delight",
       "weight": "0.7",
-      "sustenance": "50",
-      "health": "45",
+      "sustenance": "70",
+      "health": "180",
       "stacklimit": "50",
       "image_raw": "Undead Delight.png"
     },
