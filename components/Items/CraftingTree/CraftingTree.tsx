@@ -1,12 +1,12 @@
-import { CraftingTree } from "@/components/CraftingTree/CraftingTree";
+import { CraftingTree } from "@/features/crafting-tree/components/crafting-tree";
 import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Panel } from "@xyflow/react";
-import { ClearSelected } from "../../CraftingTree/Buttons/ClearSelected";
-import { Direction } from "../../CraftingTree/Buttons/Direction";
+import { ClearSelected } from "../../../features/crafting-tree/components/actions/clear-selected";
+import { Direction } from "../../../features/crafting-tree/components/actions/direction";
 
 export function AccordionCraftingTree({ itemId }: { itemId: string }) {
   return (

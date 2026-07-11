@@ -2,15 +2,15 @@ import { sourceItemById } from "@/utils/source-item-by-id";
 import { notFound } from "next/navigation";
 import { type Metadata } from "next";
 
-import { CraftingTree } from "@/components/CraftingTree/CraftingTree";
+import { CraftingTree } from "@/features/crafting-tree/components/crafting-tree";
 import { Panel } from "@xyflow/react";
 import { ItemInfoBox } from "@/components/Items/InfoBox/InfoBox";
 import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
 import { AccordionCraftingTree } from "../../../../components/Items/CraftingTree/CraftingTree";
 import { AccordionMaterials } from "../../../../components/Items/Materials/Materials";
 import { AccordionUsedIn } from "../../../../components/Items/UsedIn/UsedIn";
-import { ClearSelected } from "../../../../components/CraftingTree/Buttons/ClearSelected";
-import { Direction } from "../../../../components/CraftingTree/Buttons/Direction";
+import { ClearSelected } from "../../../../features/crafting-tree/components/actions/clear-selected";
+import { Direction } from "../../../../features/crafting-tree/components/actions/direction";
 
 type Props = {
   params: Promise<{ itemId: string }>;

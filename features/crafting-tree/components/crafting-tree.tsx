@@ -2,20 +2,20 @@
 
 import "@xyflow/react/dist/style.css";
 
+import { ReactNode } from "react";
 import { EdgeTypes, NodeTypes, ReactFlow, useEdgesState, useNodesState } from "@xyflow/react";
 
 import { resolveCraftingTree } from "@/features/crafting-tree/utils/resolve-crafting-tree";
 
-import CraftingTreeContent from "./CraftingTreeContent";
-import DefaultlNode from "./Nodes/DefaultNode";
-import DefaultEdge from "./Edges/DefaultEdge";
+import CraftingTreeLayout from "./crafting-tree-layout";
+import DefaultNode from "@/features/crafting-tree/components/nodes/default-node";
+import DefaultEdge from "@/features/crafting-tree/components/edges/default-edge";
 import { cn } from "@/lib/utils";
-import { ReactNode } from "react";
 import { type Node } from "@/features/crafting-tree/schemas/Node";
 import { Edge } from "@/features/crafting-tree/schemas/Edge";
 
 const nodeTypes: NodeTypes = {
-  node: DefaultlNode,
+  node: DefaultNode,
 };
 const edgeTypes: EdgeTypes = {
   edge: DefaultEdge,
@@ -28,13 +28,18 @@ type Props = {
   treePaddingLeft?: number;
 };
 
+/**
+ * Renders a crafting tree for the given item ID.
+ * The crafting tree is generated based on the item's crafting requirements
+ * and displays the necessary nodes and edges.
+ */
 export function CraftingTree(props: Props) {
   const { itemId, className, children, treePaddingLeft } = props;
 
-  const anotherTree = resolveCraftingTree({ itemId: itemId });
+  const craftingTree = resolveCraftingTree({ itemId: itemId });
 
-  const [nodes, , onNodesChange] = useNodesState<Node>(anotherTree?.nodes || []);
-  const [edges, , onEdgesChange] = useEdgesState<Edge>(anotherTree?.edges || []);
+  const [nodes, , onNodesChange] = useNodesState<Node>(craftingTree?.nodes || []);
+  const [edges, , onEdgesChange] = useEdgesState<Edge>(craftingTree?.edges || []);
 
   return (
     <div
@@ -54,7 +59,7 @@ export function CraftingTree(props: Props) {
         edgeTypes={edgeTypes}
       >
         {children}
-        <CraftingTreeContent treePaddingLeft={treePaddingLeft} />
+        <CraftingTreeLayout treePaddingLeft={treePaddingLeft} />
       </ReactFlow>
     </div>
   );

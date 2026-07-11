@@ -4,42 +4,20 @@ import { Handle, NodeProps, Position } from "@xyflow/react";
 
 import { type Node } from "@/features/crafting-tree/schemas/Node";
 import { forwardRef, memo } from "react";
-import getFacilityIcon from "@/utils/getFacilityIcon";
-import { Facility } from "@/Types";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { useCraftingTreeHover } from "@/context/crafting-tree-hover";
 import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
-import { NodeDropdownMenu } from "@/components/CraftingTree/Nodes/NodeDropdownMenu";
+import { NodeDropdownMenu } from "@/features/crafting-tree/components/nodes/node-dropdown-menu";
+import { Facilities } from "@/features/crafting-tree/components/nodes/facilities";
+import { RecipeNumberTooltip } from "@/features/crafting-tree/components/nodes/recipe-number-tooltip";
+import { ExcessItemsTooltip } from "@/features/crafting-tree/components/nodes/excess-items-tooltip";
 
 const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
   function InnerMaterialNode(props, ref) {
-    const i = useSelectedMaterial((state) => state.items);
-    const items = i[props.data.initialItemId] || [];
-    const added = items.find((item) => item.nodeId === props.id);
     const { enter, reset, check, isSet } = useCraftingTreeHover();
     const direction = useCraftingTreeDirection((state) => state.direction);
-
-    const recipesArray = Array.from({
-      length: props.data.numberOfRecipies || 0,
-    });
-    const startsWith = items
-      .map((i) => i.nodeId)
-      .filter((i) => i !== undefined)
-      .some(
-        (nodeId) =>
-          props.id.startsWith(nodeId) ||
-          recipesArray.some((_, index) =>
-            props.id.startsWith(`${nodeId}_v${index + 1}`),
-          ),
-      );
 
     const isHovered = check(props.id);
 
@@ -53,7 +31,6 @@ const DefaultlNode = forwardRef<HTMLDivElement, NodeProps<Node>>(
             "border border-dashed border-title",
           props.data.isRecipeNumberVariant !== null &&
             "border border-dashed border-title",
-          // startsWith && "opacity-50",
           isSet && !isHovered && "opacity-25",
         )}
         onMouseEnter={() => enter(props.id)}
@@ -150,38 +127,10 @@ const Content = memo(function InnerContent(props: ContentProps) {
         {isRecipeNumberVariant !== null || hasExcessItems ? (
           <div className="absolute z-10 flex flex-row gap-1 -top-3 left-1/2 -translate-x-1/2">
             {isRecipeNumberVariant !== null && (
-              <TooltipProvider>
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <div className="whitespace-nowrap rounded-lg px-2 py-0.5 bg-title text-[8px] text-black cursor-default">
-                      Recipe option {isRecipeNumberVariant}
-                    </div>
-                  </TooltipTrigger>
-                  <TooltipContent side="top">
-                    This item has multiple ways to be crafted.
-                    <br />
-                    This branch shows recipe option {isRecipeNumberVariant}.
-                    <br /> Only one recipe option needs to be completed.
-                  </TooltipContent>
-                </Tooltip>
-              </TooltipProvider>
+              <RecipeNumberTooltip isRecipeNumberVariant={isRecipeNumberVariant} />
             )}
             {hasExcessItems && (
-              <TooltipProvider>
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <div className="whitespace-nowrap rounded-lg px-2 py-0.5 bg-blue-600 text-[8px] text-white cursor-default">
-                      {quantityRecieved - quantity} extra
-                    </div>
-                  </TooltipTrigger>
-                  <TooltipContent side="top">
-                    After finishing this recipe you will <br />
-                    have {quantityRecieved - quantity} extra{" "}
-                    {quantityRecieved - quantity === 1 ? "item" : "items"} left
-                    over.
-                  </TooltipContent>
-                </Tooltip>
-              </TooltipProvider>
+              <ExcessItemsTooltip quantityRecieved={quantityRecieved} quantity={quantity} />
             )}
           </div>
         ) : null}
@@ -227,40 +176,6 @@ const Content = memo(function InnerContent(props: ContentProps) {
     </>
   );
 });
-
-function Facilities({ facilities }: { facilities: string[] }) {
-  if (facilities.length === 0) return null;
-
-  if (facilities.length === 1) {
-    const facility = facilities[0];
-    return (
-      <div className="w-full flex flex-wrap gap-2 text-xs text-foreground bg-card px-2 py-1 rounded-lg">
-        <span className="flex items-center gap-2">
-          {getFacilityIcon(facility as (typeof Facility)[number])}
-          {facility}
-        </span>
-      </div>
-    );
-  }
-
-  return (
-    <div className="w-full flex flex-wrap gap-1.5 justify-center bg-card px-2 py-1 rounded-lg items-center">
-      <span className="text-xs text-foreground">One of: </span>
-      {facilities.map((facility) => (
-        <TooltipProvider key={facility}>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <div className="flex items-center justify-center size-6 rounded-full bg-secondary border border-border cursor-default">
-                {getFacilityIcon(facility as (typeof Facility)[number], 20)}
-              </div>
-            </TooltipTrigger>
-            <TooltipContent side="bottom">{facility}</TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
-      ))}
-    </div>
-  );
-}
 
 DefaultlNode.displayName = "DefaultlNode";
 
