@@ -1,3 +1,5 @@
+"use client"
+
 import { resolveMaterialsTree } from "@/features/materials-tree/utils/resolve-materials-tree";
 import { type MaterialTreeItem } from "@/features/materials-tree/types/material-tree";
 import { MaterialTreeNode } from "./MaterialTreeNode";

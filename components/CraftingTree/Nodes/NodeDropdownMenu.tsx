@@ -12,6 +12,7 @@ import { Ellipsis, Plus, ExternalLink, ArrowRight } from "lucide-react";
 import { useSelectedMaterial } from "@/store/selected-material";
 import itemsData from "@/data/items.json";
 import type { Item } from "@/Types";
+import Link from "@/components/link";
 
 type NodeDropdownMenuProps = {
   id: string;
@@ -77,10 +78,10 @@ export function NodeDropdownMenu({
         <DropdownMenuSeparator />
         <DropdownMenuLabel>See more</DropdownMenuLabel>
         <DropdownMenuItem asChild>
-          <a href={`/item/${id}`}>
+          <Link href={{ pathname: `/item/${id}` }}>
             <ArrowRight className="size-4" />
             View item
-          </a>
+          </Link>
         </DropdownMenuItem>
         {item?.name && (
           <DropdownMenuItem asChild>

@@ -11,7 +11,8 @@ import { WeightBadge } from "./WeightBadge";
 import { StackLimitBadge } from "./StackLimitBadge";
 import { HealthBadge } from "./HealthBadge";
 import { Badge } from "../../ui/badge";
-import { resolveCraftingTree } from "@/features/crafting-tree/utils/resolve-crafting-tree";
+import { resolveItemTree } from "@/domain/crafting/utils/resolve-item-tree";
+import { resolveUniqueFacilitiesFromItemTree } from "@/domain/crafting/utils/resolve-unique-facilities-from-item-tree";
 
 type Props = {
   item: Item;
@@ -28,14 +29,10 @@ export function ItemInfoBox(props: Props) {
   );
 
   // Collect all facilities from the crafting tree (sub-materials only)
-  const { nodes } = resolveCraftingTree({ itemId });
-  const treeFacilities = nodes
-    .filter((node) => !node.data.initialNode)
-    .flatMap((node) => node.data.facilities);
-  const extraFacilities = Array.from(
-    new Set(
-      treeFacilities.filter((f) => !uniqueFacilities.includes(f as never)),
-    ),
+  const itemTree = resolveItemTree(itemId);
+  const treeFacilities = resolveUniqueFacilitiesFromItemTree(itemTree);
+  const extraFacilities = treeFacilities.filter(
+    (f) => !uniqueFacilities.includes(f as never),
   );
 
   return (
@@ -83,7 +80,7 @@ export function ItemInfoBox(props: Props) {
         </div>
       ) : null}
 
-      <div className="flex flex-row gap-2 mt-2 items-center">
+      <div className="flex flex-row flex-wrap gap-2 mt-2 items-center">
         {uniqueFacilities &&
           uniqueFacilities.map(
             (facility) =>

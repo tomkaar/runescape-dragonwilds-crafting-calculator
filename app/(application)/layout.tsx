@@ -32,6 +32,7 @@ import { CommandWithShortcuts } from "@/features/command/components/command-with
 
 type Props = {
   children: ReactNode;
+  modal: ReactNode;
 };
 
 export default function Layout(props: Props) {
@@ -186,6 +187,7 @@ export default function Layout(props: Props) {
       </div>
 
       <div className="md:h-[calc(100vh-69px)]">{props.children}</div>
+      {props.modal}
     </div>
   );
 }

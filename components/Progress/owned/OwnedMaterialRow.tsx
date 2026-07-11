@@ -7,9 +7,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { InputGroup, InputGroupInput } from "@/components/ui/input-group";
 
 import { type OwnedMaterialEntry } from "@/features/crafting-progress/types/owned-material-entry";
-import { Button } from "@/components/ui/button";
-import { ArrowRight, Ellipsis, ExternalLink } from "lucide-react";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import Link from "@/components/link";
 
 type Props = {
   entry: OwnedMaterialEntry;
@@ -52,43 +50,22 @@ export const OwnedMaterialRow = memo(function OwnedMaterialRow({
         checked={isDone}
         onCheckedChange={(checked) => onCommit(checked ? entry.needed : 0)}
       />
-      {entry.image && (
-        <img
-          src={createImageUrlPath(entry.image)}
-          alt={entry.name}
-          width={24}
-          height={24}
-          className="shrink-0 size-6 ml-2"
-        />
-      )}
 
-      <DropdownMenu>
-        <DropdownMenuTrigger asChild>
-          <Button size="icon" variant="outline" className="size-6 p-0">
-            <Ellipsis className="size-3.5" />
-            </Button>
-        </DropdownMenuTrigger>
-        <DropdownMenuContent align="end" className="min-w-40">
-          <DropdownMenuItem asChild>
-            <a href={`/item/${entry.itemId}`}>
-              <ArrowRight className="size-4" />
-              View item
-            </a>
-          </DropdownMenuItem>
-          {entry.wikiLink && (
-            <DropdownMenuItem asChild>
-              <a
-                href={`https://dragonwilds.runescape.wiki/w/${encodeURIComponent(entry.wikiLink)}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <ExternalLink className="size-4" />
-                View on Wiki
-              </a>
-            </DropdownMenuItem>
-          )}
-        </DropdownMenuContent>
-      </DropdownMenu>
+      <Link
+        href={{ pathname: `/item/${entry.itemId}` }}
+        className={`flex flex-row items-center gap-2 flex-1 min-w-0 ml-2 hover:opacity-80${isDone ? " line-through" : ""}`}
+      >
+        {entry.image && (
+          <img
+            src={createImageUrlPath(entry.image)}
+            alt={entry.name}
+            width={24}
+            height={24}
+            className="shrink-0 size-6"
+          />
+        )}
+        <span className="truncate">{entry.name}</span>
+      </Link>
 
       <InputGroup className="w-12 h-6">
         <InputGroupInput
@@ -106,9 +83,6 @@ export const OwnedMaterialRow = memo(function OwnedMaterialRow({
       </span>
       <span className={`font-semibold${isDone ? " line-through" : ""}`}>
         {entry.needed}×
-      </span>
-      <span className={`flex-1${isDone ? " line-through" : ""}`}>
-        {entry.name}
       </span>
     </div>
   );

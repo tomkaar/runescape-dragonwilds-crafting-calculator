@@ -20,6 +20,7 @@ import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { Checkbox } from "@/components/ui/checkbox";
 import { FieldContent, FieldGroup, FieldLabel } from "@/components/ui/field";
 import { useCraftingTreeHover } from "@/context/crafting-tree-hover";
+import Link from "@/components/link";
 
 function TreeNodeNavigateMenu({
   itemId,
@@ -37,10 +38,10 @@ function TreeNodeNavigateMenu({
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="min-w-40">
         <DropdownMenuItem asChild>
-          <a href={`/item/${itemId}`}>
+          <Link href={{ pathname: `/item/${itemId}` }}>
             <ArrowRight className="size-4" />
             View item
-          </a>
+          </Link>
         </DropdownMenuItem>
         {wikiLink && (
           <DropdownMenuItem asChild>
