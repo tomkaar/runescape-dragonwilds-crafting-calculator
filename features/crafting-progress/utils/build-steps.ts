@@ -10,7 +10,7 @@ type MarkedMaterial = {
   state: "TODO" | "DONE";
 };
 
-export type StepParent = {
+type StepParent = {
   itemId: string;
   name: string;
   quantity: number;

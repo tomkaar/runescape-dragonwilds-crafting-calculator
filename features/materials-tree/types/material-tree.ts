@@ -1,6 +1,6 @@
 import { Item, ItemVariant } from "@/Types"; 
 
-export type MaterialTreeItemData = {
+type MaterialTreeItemData = {
   id: string;
   nodeId: string;
   item: Item;
