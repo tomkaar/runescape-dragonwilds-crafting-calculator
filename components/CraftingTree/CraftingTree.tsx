@@ -1,6 +1,5 @@
 "use client";
 
-// @ts-expect-error
 import "@xyflow/react/dist/style.css";
 
 import { EdgeTypes, NodeTypes, ReactFlow, useEdgesState, useNodesState } from "@xyflow/react";
