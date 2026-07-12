@@ -8,8 +8,8 @@ import {
 } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { FavouriteItemsList } from "@/components/FavouriteItemsList";
 import { CommandWithShortcuts } from "@/features/command/components/command-with-shortcuts";
+import { FavouriteItemsList } from "@/features/favourites/components/favourite-items-list";
 
 export function generateMetadata(): Metadata {
 	return {

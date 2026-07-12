@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { Badge } from "@/components/ui/badge";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { useFavouriteItems } from "@/store/favourite-items";
 import { sourceItemById } from "@/utils/source-item-by-id";
-import { Badge } from "./ui/badge";
 
 export function FavouriteItemsList() {
 	const favouritedItems = useFavouriteItems((state) => state.items);
