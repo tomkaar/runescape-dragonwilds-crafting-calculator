@@ -6,20 +6,20 @@ vi.mock("react", async (importOriginal) => {
 	return { ...actual, cache: (fn: unknown) => fn };
 });
 
-vi.mock("@/features/materials-tree/utils/resolve-materials-tree", () => ({
-	resolveMaterialsTree: vi.fn(),
+vi.mock("@/features/material-tree/utils/resolve-material-tree", () => ({
+	resolveMaterialTree: vi.fn(),
 }));
 
 vi.mock("@/utils/source-item-by-id", () => ({
 	sourceItemById: vi.fn(),
 }));
 
-import type { MaterialTreeItem } from "@/features/materials-tree/types/material-tree";
-import { resolveMaterialsTree } from "@/features/materials-tree/utils/resolve-materials-tree";
+import type { MaterialTreeItem } from "@/features/material-tree/types/material-tree";
+import { resolveMaterialTree } from "@/features/material-tree/utils/resolve-material-tree";
 import { sourceItemById } from "@/utils/source-item-by-id";
 import { buildOwnedMaterials } from "./owned-materials";
 
-const mockResolve = vi.mocked(resolveMaterialsTree);
+const mockResolve = vi.mocked(resolveMaterialTree);
 const mockSource = vi.mocked(sourceItemById);
 
 function makeTreeLeaf(nodeId: string, quantity: number): MaterialTreeItem {
@@ -204,7 +204,7 @@ describe("buildOwnedMaterials", () => {
 		expect(result.find((r) => r.itemId === "wood")?.needed).toBe(5);
 	});
 
-	it("passes the multiplier to resolveMaterialsTree", () => {
+	it("passes the multiplier to resolveMaterialTree", () => {
 		mockResolve.mockReturnValue([]);
 		buildOwnedMaterials({
 			trackedItemIds: ["sword"],

@@ -1,4 +1,4 @@
-import type { MaterialTreeItem } from "@/features/materials-tree/types/material-tree";
+import type { MaterialTreeItem } from "@/features/material-tree/types/material-tree";
 
 /**
  * Flattens a material tree into a list of (nodeId, quantity) pairs.

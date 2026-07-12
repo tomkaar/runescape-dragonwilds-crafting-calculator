@@ -1,9 +1,9 @@
 "use client";
 
-import type { MaterialTreeItem } from "@/features/materials-tree/types/material-tree";
-import { resolveMaterialsTree } from "@/features/materials-tree/utils/resolve-materials-tree";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
-import { MaterialTreeNode } from "./MaterialTreeNode";
+import type { MaterialTreeItem } from "../types/material-tree";
+import { resolveMaterialTree } from "../utils/resolve-material-tree";
+import { MaterialTreeNode } from "./material-tree-node";
 
 type Props = {
 	itemId: string;
@@ -27,8 +27,8 @@ export function RequiredMaterialsContent({
 }: Props) {
 	const multipliers = useMaterialMultiplier((state) => state.items);
 	const multiplier = multipliers[itemId] || 1;
-	const tree = resolveMaterialsTree(itemId, multiplier);
-	const baseTree = resolveMaterialsTree(itemId);
+	const tree = resolveMaterialTree(itemId, multiplier);
+	const baseTree = resolveMaterialTree(itemId);
 	const baseQuantities = buildBaseQuantityMap(baseTree);
 
 	const nodes = skipFirstLayer

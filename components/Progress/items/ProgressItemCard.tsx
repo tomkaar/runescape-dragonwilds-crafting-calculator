@@ -3,7 +3,6 @@
 import { ChevronRight, Trash2 } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { RequiredMaterialsContent } from "@/components/Items/Materials/components/Tree";
 import {
 	AccordionContent,
 	AccordionItem,
@@ -26,6 +25,7 @@ import {
 	InputGroupAddon,
 	InputGroupInput,
 } from "@/components/ui/input-group";
+import { RequiredMaterialsContent } from "@/features/material-tree/components/required-materials-content";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useSelectedMaterial } from "@/store/selected-material";

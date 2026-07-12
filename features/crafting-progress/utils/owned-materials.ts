@@ -1,4 +1,4 @@
-import { resolveMaterialsTree } from "@/features/materials-tree/utils/resolve-materials-tree";
+import { resolveMaterialTree } from "@/features/material-tree/utils/resolve-material-tree";
 import type { SelectedMaterial } from "@/store/selected-material";
 import { sourceItemById } from "@/utils/source-item-by-id";
 import type { OwnedMaterialEntry } from "../types/owned-material-entry";
@@ -34,7 +34,7 @@ export function buildOwnedMaterials({
 
 	for (const trackedItemId of trackedItemIds) {
 		const multiplier = multipliers[trackedItemId] ?? 1;
-		const tree = resolveMaterialsTree(trackedItemId, multiplier);
+		const tree = resolveMaterialTree(trackedItemId, multiplier);
 
 		// Build a nodeId → quantity lookup from the resolved tree so we use the
 		// multiplied quantity rather than the raw value stored on the entry.

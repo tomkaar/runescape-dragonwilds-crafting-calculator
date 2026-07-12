@@ -1,13 +1,13 @@
 "use client";
 
-import { MultiplierAndClearInput } from "@/components/Items/Materials/components/MultiplierAndClearInput";
-import { RequiredMaterialsContent } from "@/components/Items/Materials/components/Tree";
 import {
 	AccordionContent,
 	AccordionItem,
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
+import { MultiplierAndClearInput } from "./multiplier-and-clear-input";
+import { RequiredMaterialsContent } from "./required-materials-content";
 
 export function AccordionMaterials({ itemId }: { itemId: string }) {
 	const multipliers = useMaterialMultiplier((state) => state.items);

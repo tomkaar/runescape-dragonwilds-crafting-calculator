@@ -12,19 +12,19 @@ vi.mock("@/utils/source-item-by-id", () => ({
 }));
 
 import { sourceItemById } from "@/utils/source-item-by-id";
-import { resolveMaterialsTree } from "./resolve-materials-tree";
+import { resolveMaterialTree } from "./resolve-material-tree";
 
 const mockSourceItemById = vi.mocked(sourceItemById);
 
 describe("item not found", () => {
 	it("returns empty array when sourceItemById returns undefined", () => {
 		mockSourceItemById.mockReturnValue(undefined);
-		expect(resolveMaterialsTree("unknown-item")).toEqual([]);
+		expect(resolveMaterialTree("unknown-item")).toEqual([]);
 	});
 
 	it("returns empty array when item has no variants", () => {
 		mockSourceItemById.mockReturnValue(makeItem("empty-item", []));
-		expect(resolveMaterialsTree("empty-item")).toEqual([]);
+		expect(resolveMaterialTree("empty-item")).toEqual([]);
 	});
 });
 
@@ -33,14 +33,14 @@ describe("single variant leaf node", () => {
 		mockSourceItemById.mockReturnValue(
 			makeItem("leaf-item", [makeVariant(null)]),
 		);
-		expect(resolveMaterialsTree("leaf-item")).toHaveLength(1);
+		expect(resolveMaterialTree("leaf-item")).toHaveLength(1);
 	});
 
 	it("marks a leaf as isEnd: true", () => {
 		mockSourceItemById.mockReturnValue(
 			makeItem("leaf-item", [makeVariant(null)]),
 		);
-		const [node] = resolveMaterialsTree("leaf-item");
+		const [node] = resolveMaterialTree("leaf-item");
 		expect(node.isEnd).toBe(true);
 	});
 
@@ -48,7 +48,7 @@ describe("single variant leaf node", () => {
 		mockSourceItemById.mockReturnValue(
 			makeItem("leaf-item", [makeVariant(null)]),
 		);
-		const [node] = resolveMaterialsTree("leaf-item");
+		const [node] = resolveMaterialTree("leaf-item");
 		expect("children" in node).toBe(false);
 	});
 
@@ -56,7 +56,7 @@ describe("single variant leaf node", () => {
 		mockSourceItemById.mockReturnValue(
 			makeItem("empty-recipe-item", [makeVariant(makeRecipe(1))]),
 		);
-		const [node] = resolveMaterialsTree("empty-recipe-item");
+		const [node] = resolveMaterialTree("empty-recipe-item");
 		expect(node.isEnd).toBe(true);
 	});
 
@@ -64,7 +64,7 @@ describe("single variant leaf node", () => {
 		mockSourceItemById.mockReturnValue(
 			makeItem("iron-ore", [makeVariant(null)]),
 		);
-		const [node] = resolveMaterialsTree("iron-ore");
+		const [node] = resolveMaterialTree("iron-ore");
 		expect(node.id).toBe("iron-ore");
 	});
 
@@ -72,7 +72,7 @@ describe("single variant leaf node", () => {
 		mockSourceItemById.mockReturnValue(
 			makeItem("iron-ore", [makeVariant(null)]),
 		);
-		const [node] = resolveMaterialsTree("iron-ore");
+		const [node] = resolveMaterialTree("iron-ore");
 		expect(node.nodeId).toBe("iron-ore");
 	});
 
@@ -80,7 +80,7 @@ describe("single variant leaf node", () => {
 		mockSourceItemById.mockReturnValue(
 			makeItem("iron-bar", [makeVariant(makeRecipe(1, [], [Facility[7]]))]),
 		);
-		const [node] = resolveMaterialsTree("iron-bar");
+		const [node] = resolveMaterialTree("iron-bar");
 		expect(node.facilities).toEqual(["Furnace"]);
 	});
 });
@@ -90,7 +90,7 @@ describe("quantityNeeded", () => {
 		mockSourceItemById.mockReturnValue(
 			makeItem("qty-item", [makeVariant(null)]),
 		);
-		const [node] = resolveMaterialsTree("qty-item");
+		const [node] = resolveMaterialTree("qty-item");
 		expect(node.quantity).toBe(1);
 	});
 
@@ -98,7 +98,7 @@ describe("quantityNeeded", () => {
 		mockSourceItemById.mockReturnValue(
 			makeItem("qty-item", [makeVariant(null)]),
 		);
-		const [node] = resolveMaterialsTree("qty-item", 5);
+		const [node] = resolveMaterialTree("qty-item", 5);
 		expect(node.quantity).toBe(5);
 	});
 });
@@ -115,7 +115,7 @@ describe("children", () => {
 			return undefined;
 		});
 
-		const [node] = resolveMaterialsTree("parent-item");
+		const [node] = resolveMaterialTree("parent-item");
 		expect("children" in node).toBe(true);
 		if ("children" in node) {
 			expect(node.children).toHaveLength(1);
@@ -131,7 +131,7 @@ describe("children", () => {
 			id === "parent" ? parent : undefined,
 		);
 
-		const [node] = resolveMaterialsTree("parent");
+		const [node] = resolveMaterialTree("parent");
 		expect("children" in node).toBe(false);
 	});
 
@@ -146,7 +146,7 @@ describe("children", () => {
 			return undefined;
 		});
 
-		const [node] = resolveMaterialsTree("iron-bar");
+		const [node] = resolveMaterialTree("iron-bar");
 		if ("children" in node) {
 			expect(node.children[0].nodeId).toBe("iron-bar_coal");
 		}
@@ -158,7 +158,7 @@ describe("multiple variants", () => {
 		mockSourceItemById.mockReturnValue(
 			makeItem("multi-item", [makeVariant(null), makeVariant(null)]),
 		);
-		const result = resolveMaterialsTree("multi-item");
+		const result = resolveMaterialTree("multi-item");
 		// one selector at root
 		expect(result).toHaveLength(1);
 		const [selector] = result;
@@ -173,7 +173,7 @@ describe("multiple variants", () => {
 		mockSourceItemById.mockReturnValue(
 			makeItem("multi-item", [makeVariant(null), makeVariant(null)]),
 		);
-		const [selector] = resolveMaterialsTree("multi-item");
+		const [selector] = resolveMaterialTree("multi-item");
 		expect(selector.variantNumber).toBeUndefined();
 	});
 
@@ -181,7 +181,7 @@ describe("multiple variants", () => {
 		mockSourceItemById.mockReturnValue(
 			makeItem("multi-item", [makeVariant(null), makeVariant(null)]),
 		);
-		const [selector] = resolveMaterialsTree("multi-item");
+		const [selector] = resolveMaterialTree("multi-item");
 		if ("children" in selector) {
 			expect(selector.children.map((c) => c.variantNumber)).toEqual([1, 2]);
 		}
@@ -194,7 +194,7 @@ describe("multiple variants", () => {
 				makeVariant(null),
 			]),
 		);
-		const [selector] = resolveMaterialsTree("multi-item");
+		const [selector] = resolveMaterialTree("multi-item");
 		expect(selector.facilities).toEqual([]);
 	});
 
@@ -202,7 +202,7 @@ describe("multiple variants", () => {
 		mockSourceItemById.mockReturnValue(
 			makeItem("multi-item", [makeVariant(null), makeVariant(null)]),
 		);
-		const [selector] = resolveMaterialsTree("multi-item");
+		const [selector] = resolveMaterialTree("multi-item");
 		if ("children" in selector) {
 			expect(selector.children[0].nodeId).toBe("multi-item_v0");
 			expect(selector.children[1].nodeId).toBe("multi-item_v1");
@@ -213,7 +213,7 @@ describe("multiple variants", () => {
 		mockSourceItemById.mockReturnValue(
 			makeItem("multi-item", [makeVariant(null), makeVariant(null)]),
 		);
-		const [selector] = resolveMaterialsTree("multi-item");
+		const [selector] = resolveMaterialTree("multi-item");
 		expect(selector.nodeId).toBe("multi-item");
 	});
 });

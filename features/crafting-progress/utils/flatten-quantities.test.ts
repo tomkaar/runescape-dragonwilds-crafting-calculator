@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import type { MaterialTreeItem } from "@/features/materials-tree/types/material-tree";
+import type { MaterialTreeItem } from "@/features/material-tree/types/material-tree";
 import { flattenQuantities } from "./flatten-quantities";
 
 function makeLeaf(nodeId: string, quantity: number): MaterialTreeItem {

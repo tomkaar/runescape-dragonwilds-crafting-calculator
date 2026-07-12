@@ -112,7 +112,7 @@ function adaptToMaterialTree(
  * and adapts the result into the nested format the UI expects.
  * Memoized per React request so multiple components resolving the same item share one result.
  */
-export const resolveMaterialsTree = cache(
+export const resolveMaterialTree = cache(
 	(itemId: string, quantityNeeded = 1): MaterialTreeItem[] => {
 		const resolvedItems = resolveItemTree(itemId, quantityNeeded);
 		if (resolvedItems.length === 0) return [];
