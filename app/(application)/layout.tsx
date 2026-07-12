@@ -2,7 +2,6 @@ import { ProgressNavLink } from "@/components/Progress/ProgressNavLink";
 import {
   AnvilIcon,
   CheckCircleIcon,
-  GithubIcon,
   HomeIcon,
   ListIcon,
   MenuIcon,
@@ -100,7 +99,7 @@ export default function Layout(props: Props) {
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-card"
                   >
-                    <GithubIcon size={16} />
+                    <img src="/github.svg" alt="" width={16} height={16} className="invert" />
                     GitHub
                   </a>
                 </nav>
@@ -181,7 +180,7 @@ export default function Layout(props: Props) {
             href="https://github.com/tomkaar/runescape-dragonwilds-crafting-calculator"
             className="border border-border rounded-full p-1.5 size-9 flex items-center justify-center"
           >
-            <GithubIcon size={20} />
+            <img src="/github.svg" alt="" width={20} height={20} className="invert" />
           </Link>
         </div>
       </div>

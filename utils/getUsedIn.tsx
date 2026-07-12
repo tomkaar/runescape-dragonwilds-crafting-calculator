@@ -1,4 +1,4 @@
-import itemsData from "@/data/items.json" assert { type: "json" };
+import itemsData from "@/data/items.json" with { type: "json" };
 import { Item } from "@/Types";
 
 const items = itemsData as Item[];
