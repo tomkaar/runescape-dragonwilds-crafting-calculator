@@ -50,6 +50,7 @@ export default function Home() {
 					{/* Navigation links */}
 					<section className="flex flex-col gap-2">
 						<Link
+							prefetch={false}
 							href="/item"
 							className="flex items-center gap-3 rounded-md border border-border bg-background px-4 py-3 text-sm hover:bg-card/50 transition-colors"
 						>
@@ -62,6 +63,7 @@ export default function Home() {
 							</div>
 						</Link>
 						<Link
+							prefetch={false}
 							href="/progress"
 							className="flex items-center gap-3 rounded-md border border-border bg-background px-4 py-3 text-sm hover:bg-card/50 transition-colors"
 						>
@@ -76,6 +78,7 @@ export default function Home() {
 
 						<div className="grid grid-cols-2 gap-2">
 							<Link
+								prefetch={false}
 								href="https://dragonwilds.runescape.com/"
 								target="_blank"
 								rel="noopener noreferrer"
@@ -90,6 +93,7 @@ export default function Home() {
 								</div>
 							</Link>
 							<Link
+								prefetch={false}
 								href="https://dragonwilds.runescape.wiki/"
 								target="_blank"
 								rel="noopener noreferrer"

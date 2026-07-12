@@ -29,6 +29,7 @@ export function CraftingFacilitiesPopover({ facilities }: Props) {
 					{facilities.map((facility) => (
 						<Link
 							key={facility}
+							prefetch={false}
 							href={{
 								pathname: `/item`,
 								search: `?facility=${encodeURIComponent(facility)}`,

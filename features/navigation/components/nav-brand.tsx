@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function NavBrand() {
 	return (
-		<Link href="/">
+		<Link href="/" prefetch={false}>
 			<div className="flex flex-row gap-2 items-center">
 				<div className="text-title border-2 border-title rounded-full p-1.5">
 					<AnvilIcon size={20} />

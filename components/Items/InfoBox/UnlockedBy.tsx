@@ -21,6 +21,7 @@ export function UnlockedBy({ usesRecipes }: Props) {
 					<Link
 						href={`https://dragonwilds.runescape.wiki/w/${recipeName.replace(/ /g, "_")}`}
 						target="_blank"
+						prefetch={false}
 						rel="noopener noreferrer"
 					>
 						Unlocked by: {recipeName}

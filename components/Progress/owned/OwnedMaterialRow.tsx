@@ -1,7 +1,7 @@
 "use client";
 
+import Link from "next/link";
 import { memo, useEffect, useState } from "react";
-import Link from "@/components/link";
 import { Checkbox } from "@/components/ui/checkbox";
 import { InputGroup, InputGroupInput } from "@/components/ui/input-group";
 
@@ -52,6 +52,7 @@ export const OwnedMaterialRow = memo(function OwnedMaterialRow({
 
 			<Link
 				href={{ pathname: `/item/${entry.itemId}` }}
+				prefetch={false}
 				className={`flex flex-row items-center gap-2 flex-1 min-w-0 ml-2 hover:opacity-80${isDone ? " line-through" : ""}`}
 			>
 				{entry.image && (

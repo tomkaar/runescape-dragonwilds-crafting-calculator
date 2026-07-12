@@ -1,8 +1,8 @@
 "use client";
 
 import { ArrowRight, ChevronDown, Ellipsis, ExternalLink } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
-import Link from "@/components/link";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
 	Collapsible,
@@ -42,7 +42,7 @@ function TreeNodeNavigateMenu({
 			</DropdownMenuTrigger>
 			<DropdownMenuContent align="end" className="min-w-40">
 				<DropdownMenuItem asChild>
-					<Link href={{ pathname: `/item/${itemId}` }}>
+					<Link href={{ pathname: `/item/${itemId}` }} prefetch={false}>
 						<ArrowRight className="size-4" />
 						View item
 					</Link>

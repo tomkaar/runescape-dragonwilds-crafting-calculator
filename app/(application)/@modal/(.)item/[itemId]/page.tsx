@@ -60,6 +60,7 @@ export default async function InterceptedItemModal(props: Props) {
 								href={{
 									pathname: `https://dragonwilds.runescape.wiki/w/${item.wikiLink}`,
 								}}
+								prefetch={false}
 								target="_blank"
 								rel="noopener noreferrer"
 							>
@@ -82,6 +83,7 @@ export default async function InterceptedItemModal(props: Props) {
 						{uniqueFacilities.map((facility) => (
 							<Link
 								key={facility}
+								prefetch={false}
 								href={{
 									pathname: `/item`,
 									search: `?facility=${encodeURIComponent(facility as string)}`,

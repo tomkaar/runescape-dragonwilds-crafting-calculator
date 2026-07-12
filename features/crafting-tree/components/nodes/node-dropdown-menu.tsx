@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowRight, Ellipsis, ExternalLink, Plus } from "lucide-react";
-import Link from "@/components/link";
+import Link from "next/link";
 import {
 	DropdownMenu,
 	DropdownMenuContent,
@@ -81,7 +81,7 @@ export function NodeDropdownMenu({
 				<DropdownMenuSeparator />
 				<DropdownMenuLabel>See more</DropdownMenuLabel>
 				<DropdownMenuItem asChild>
-					<Link href={{ pathname: `/item/${id}` }}>
+					<Link href={{ pathname: `/item/${id}` }} prefetch={false}>
 						<ArrowRight className="size-4" />
 						View item
 					</Link>

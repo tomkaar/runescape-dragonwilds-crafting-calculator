@@ -20,6 +20,7 @@ export function ProgressNavLink({ className, onClick }: Props) {
 		<Link
 			href="/progress"
 			className={cn("relative", className)}
+			prefetch={false}
 			onClick={onClick}
 		>
 			<ListChecksIcon size={16} />

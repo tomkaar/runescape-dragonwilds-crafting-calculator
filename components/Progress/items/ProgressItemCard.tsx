@@ -99,7 +99,7 @@ export function ProgressItemCard({ itemId, item }: Props) {
 						className="cursor-pointer"
 						asChild
 					>
-						<Link href={`/item/${itemId}`}>
+						<Link href={`/item/${itemId}`} prefetch={false}>
 							<ChevronRight className="size-4" />
 						</Link>
 					</Button>

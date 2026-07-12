@@ -7,14 +7,14 @@ export function QuickNavActions() {
 	return (
 		<div className="grow flex flex-row justify-center lg:justify-start items-center gap-4">
 			<CommandWithShortcuts buttonClassName="grow lg:grow-0" />
-			<Link href="/item">
+			<Link href="/item" prefetch={false}>
 				<Button variant="outline" size="sm">
 					<span className="text-muted-foreground">⇧I</span>
 					<span className="sr-only">All items</span>
 					<ListIcon className="w-4 h-4" />
 				</Button>
 			</Link>
-			<Link href="/progress">
+			<Link href="/progress" prefetch={false}>
 				<Button variant="outline" size="sm">
 					<span className="text-muted-foreground">⇧P</span>
 					<span className="sr-only">Progress</span>

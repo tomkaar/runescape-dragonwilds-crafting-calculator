@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "@/components/link";
+import Link from "next/link";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { useFavouriteItems } from "@/store/favourite-items";
 import { sourceItemById } from "@/utils/source-item-by-id";
@@ -41,7 +41,7 @@ function FavouriteItem({ id, name, image }: FavouriteItemProps) {
 	return (
 		<li>
 			<Badge asChild variant="secondary" className="text-sm">
-				<Link href={{ pathname: `/item/${id}` }}>
+				<Link href={{ pathname: `/item/${id}` }} prefetch={false}>
 					{image && (
 						<img
 							src={createImageUrlPath(image)}

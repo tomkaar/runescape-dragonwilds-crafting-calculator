@@ -10,6 +10,7 @@ export function DesktopNavUtilities() {
 			</div>
 			<AffirmationDialog />
 			<Link
+				prefetch={false}
 				href="https://github.com/tomkaar/runescape-dragonwilds-crafting-calculator"
 				className="border border-border rounded-full p-1.5 size-9 flex items-center justify-center"
 			>
