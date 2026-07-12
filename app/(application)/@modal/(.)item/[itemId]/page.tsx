@@ -7,15 +7,15 @@ import { WeightBadge } from "@/components/Items/InfoBox/WeightBadge";
 import { RequiredMaterialsContent } from "@/components/Items/Materials/components/Tree";
 import { MultiplierInput } from "@/components/Items/MultiplierInput";
 import { ItemQuickView } from "@/components/Items/QuickView/ItemQuickView";
-import { UsedInList } from "@/components/Items/UsedIn/UsedInList";
 import { Badge } from "@/components/ui/badge";
 import { resolveItemTree } from "@/domain/crafting/utils/resolve-item-tree";
 import { resolveUniqueFacilitiesFromItemTree } from "@/domain/crafting/utils/resolve-unique-facilities-from-item-tree";
 import { Favourite } from "@/features/favourites/components/favourite-button";
+import { UsedInList } from "@/features/used-in/components/used-in-list";
+import { getUsedIn } from "@/features/used-in/utils/get-used-in";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import type { Facility } from "@/Types";
 import getFacilityIcon from "@/utils/getFacilityIcon";
-import { getUsedIn } from "@/utils/getUsedIn";
 import { sourceItemById } from "@/utils/source-item-by-id";
 
 type Props = {

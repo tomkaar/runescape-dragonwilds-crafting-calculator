@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
-import type { getUsedIn } from "@/utils/getUsedIn";
+import type { UsedInItem } from "../types/used-in-item";
 
 type Props = {
-	usedIn: ReturnType<typeof getUsedIn>;
+	usedIn: UsedInItem[];
 };
 
 export function UsedInList({ usedIn }: Props) {

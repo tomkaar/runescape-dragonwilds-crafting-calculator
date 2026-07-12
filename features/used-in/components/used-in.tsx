@@ -3,13 +3,13 @@ import {
 	AccordionItem,
 	AccordionTrigger,
 } from "@/components/ui/accordion";
-import { getUsedIn } from "@/utils/getUsedIn";
-import { UsedInList } from "./UsedInList";
+import { getUsedIn } from "../utils/get-used-in";
+import { UsedInList } from "./used-in-list";
 
 export function AccordionUsedIn({ itemId }: { itemId: string }) {
 	const usedIn = getUsedIn(itemId);
 
-	if (usedIn === undefined || usedIn.length === 0) {
+	if (usedIn.length === 0) {
 		return null;
 	}
 
