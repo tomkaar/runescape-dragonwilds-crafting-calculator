@@ -36,6 +36,9 @@ jobs:
       - name: Parse data
         run: pnpm run parse-data
 
+      - name: Run prepush checks
+        run: pnpm run prepush
+
       - name: Check for data changes
         id: check-changes
         run: |
