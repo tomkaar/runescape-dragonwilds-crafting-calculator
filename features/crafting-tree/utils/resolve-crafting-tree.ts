@@ -86,21 +86,20 @@ function adaptToNodesAndEdges(
             const nodeId = buildNodeId(parentNodeId, first.item.id);
 
             nodes.push({
-                type: "node",
+                type: "material",
                 id: nodeId,
                 data: {
                     id: first.item.id,
                     label: first.item.name,
                     image: first.variant.image || null,
-                    numberOfRecipies: null,
                     isRecipeNumberVariant: null,
                     facilities: first.facilities,
                     quantityNeeded: first.quantityNeeded,
                     quantityRecieved: first.quantityRecieved,
                     hasExcessItems: first.hasExcessItems,
                     initialItemId,
-                    initialNode: isInitialNode,
                     leafNode: first.isLeaf,
+                    isRoot: isInitialNode,
                 },
                 position: { x: 0, y: 0 },
             });
@@ -127,21 +126,16 @@ function adaptToNodesAndEdges(
         const selectorNodeId = buildNodeId(parentNodeId, first.item.id);
 
         nodes.push({
-            type: "node",
+            type: "recipe-group",
             id: selectorNodeId,
             data: {
                 id: first.item.id,
                 label: first.item.name,
                 image: first.item.image || null,
                 numberOfRecipies: group.length,
-                isRecipeNumberVariant: null,
-                facilities: [],
                 quantityNeeded: first.quantityNeeded,
-                quantityRecieved: 0,
-                hasExcessItems: false,
                 initialItemId,
-                initialNode: isInitialNode,
-                leafNode: null,
+                isRoot: isInitialNode,
             },
             position: { x: 0, y: 0 },
         });
@@ -159,21 +153,20 @@ function adaptToNodesAndEdges(
             const variantNodeId = buildNodeId(parentNodeId, first.item.id, `v${vi}`);
 
             nodes.push({
-                type: "node",
+                type: "material",
                 id: variantNodeId,
                 data: {
                     id: first.item.id,
                     label: first.item.name,
                     image: variantItem.variant.image || null,
-                    numberOfRecipies: null,
                     isRecipeNumberVariant: vi + 1,
                     facilities: variantItem.facilities,
                     quantityNeeded: variantItem.quantityNeeded,
                     quantityRecieved: variantItem.quantityRecieved,
                     hasExcessItems: variantItem.hasExcessItems,
                     initialItemId,
-                    initialNode: false,
                     leafNode: variantItem.isLeaf,
+                    isRoot: false,
                 },
                 position: { x: 0, y: 0 },
             });

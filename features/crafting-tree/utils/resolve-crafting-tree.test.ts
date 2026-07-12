@@ -13,8 +13,17 @@ vi.mock("@/utils/source-item-by-id", () => ({
 
 import { sourceItemById } from "@/utils/source-item-by-id";
 import { resolveCraftingTree } from "./resolve-crafting-tree";
+import { type Node } from "../schemas/Node";
 
 const mockSourceItemById = vi.mocked(sourceItemById);
+
+/** Narrows a union Node to a specific `type`, asserting on the discriminant along the way. */
+function assertNodeType<T extends Node["type"]>(
+    node: Node,
+    type: T,
+): asserts node is Extract<Node, { type: T }> {
+    expect(node.type).toBe(type);
+}
 
 describe("item not found", () => {
     it("returns empty nodes and edges when sourceItemById returns undefined", () => {
@@ -33,7 +42,10 @@ describe("single variant leaf node", () => {
         mockSourceItemById.mockReturnValue(makeItem("leaf-item", [makeVariant(null)]));
         const { nodes } = resolveCraftingTree({ itemId: "leaf-item" });
         expect(nodes).toHaveLength(1);
-        expect(nodes[0].data.leafNode).toBe(true);
+        const node = nodes[0];
+        assertNodeType(node, "material");
+        expect(node.data.isRoot).toBe(true);
+        expect(node.data.leafNode).toBe(true);
     });
 
     it("produces one node and one edge rooted at 'root'", () => {
@@ -51,14 +63,20 @@ describe("single variant leaf node", () => {
         mockSourceItemById.mockReturnValue(makeItem("empty-recipe-item", [makeVariant(makeRecipe(1))]));
         const { nodes } = resolveCraftingTree({ itemId: "empty-recipe-item" });
         expect(nodes).toHaveLength(1);
-        expect(nodes[0].data.leafNode).toBe(true);
+        const node = nodes[0];
+        assertNodeType(node, "material");
+        expect(node.data.isRoot).toBe(true);
+        expect(node.data.leafNode).toBe(true);
     });
 
     it("marks a node whose only recipe material cannot be resolved as a leaf node", () => {
         const item = makeItem("parent-missing-only", [makeVariant(makeRecipe(1, [{ itemId: "missing", quantity: 1 }]))]);
         mockSourceItemById.mockImplementation((id) => (id === "parent-missing-only" ? item : undefined));
         const { nodes } = resolveCraftingTree({ itemId: "parent-missing-only" });
-        expect(nodes[0].data.leafNode).toBe(true);
+        const node = nodes[0];
+        assertNodeType(node, "material");
+        expect(node.data.isRoot).toBe(true);
+        expect(node.data.leafNode).toBe(true);
     });
 
     it("does not mark a node with resolvable children as a leaf node", () => {
@@ -71,7 +89,15 @@ describe("single variant leaf node", () => {
         });
         const { nodes } = resolveCraftingTree({ itemId: "parent-with-mat" });
         const parentNode = nodes.find((n) => n.id === "parent-with-mat");
-        expect(parentNode?.data.leafNode).toBe(false);
+        if (!parentNode) throw new Error("expected parent node");
+        assertNodeType(parentNode, "material");
+        expect(parentNode.data.isRoot).toBe(true);
+        expect(parentNode.data.leafNode).toBe(false);
+
+        const matNode = nodes.find((n) => n.data.id === "mat-item");
+        if (!matNode) throw new Error("expected material node");
+        assertNodeType(matNode, "material");
+        expect(matNode.data.isRoot).toBe(false);
     });
 
     it("marks a variant option with a recipe but no materials as a leaf node", () => {
@@ -80,7 +106,11 @@ describe("single variant leaf node", () => {
         );
         const { nodes } = resolveCraftingTree({ itemId: "multi-leaf-item" });
         const variants = nodes.filter((n) => n.id !== "multi-leaf-item");
-        variants.forEach((v) => expect(v.data.leafNode).toBe(true));
+        variants.forEach((v) => {
+            assertNodeType(v, "material");
+            expect(v.data.isRoot).toBe(false);
+            expect(v.data.leafNode).toBe(true);
+        });
     });
 });
 
@@ -89,23 +119,31 @@ describe("hasExcessItems", () => {
         // recipe makes 3 but prevQuantity defaults to 1 — would be excess on a sub-node
         mockSourceItemById.mockReturnValue(makeItem("root-item", [makeVariant(makeRecipe(3))]));
         const { nodes } = resolveCraftingTree({ itemId: "root-item" });
-        expect(nodes[0].data.hasExcessItems).toBe(false);
+        const node = nodes[0];
+        assertNodeType(node, "material");
+        expect(node.data.isRoot).toBe(true);
+        expect(node.data.hasExcessItems).toBe(false);
     });
-
-
 });
 
 describe("quantityNeeded", () => {
     it("defaults to 1 when prevQuantity is not provided", () => {
         mockSourceItemById.mockReturnValue(makeItem("qty-item", [makeVariant(null)]));
         const { nodes } = resolveCraftingTree({ itemId: "qty-item" });
-        expect(nodes[0].data.quantityNeeded).toBe(1);
+        const node = nodes[0];
+        assertNodeType(node, "material");
+        expect(node.data.isRoot).toBe(true);
+        expect(node.data.quantityNeeded).toBe(1);
     });
 
     it("reflects prevQuantity when provided", () => {
         mockSourceItemById.mockReturnValue(makeItem("qty-item-2", [makeVariant(null)]));
         const { nodes } = resolveCraftingTree({ itemId: "qty-item-2", prevQuantity: 7, prevItemId: "parent" });
-        expect(nodes[0].data.quantityNeeded).toBe(7);
+        // `initialNode` isn't overridden here, so this is still treated as the root call.
+        const node = nodes[0];
+        assertNodeType(node, "material");
+        expect(node.data.isRoot).toBe(true);
+        expect(node.data.quantityNeeded).toBe(7);
     });
 });
 
@@ -117,6 +155,9 @@ describe("recipe materials", () => {
         // only the parent's own node and edge — no sub-tree
         expect(nodes).toHaveLength(1);
         expect(edges).toHaveLength(1);
+        const node = nodes[0];
+        assertNodeType(node, "material");
+        expect(node.data.isRoot).toBe(true);
     });
 
     it("silently skips a material that exists but has no variants", () => {
@@ -130,6 +171,9 @@ describe("recipe materials", () => {
         const { nodes, edges } = resolveCraftingTree({ itemId: "parent-empty-mat" });
         expect(nodes).toHaveLength(1);
         expect(edges).toHaveLength(1);
+        const node = nodes[0];
+        assertNodeType(node, "material");
+        expect(node.data.isRoot).toBe(true);
     });
 
     it("includes found materials and skips missing ones when a recipe has multiple materials", () => {
@@ -149,7 +193,10 @@ describe("recipe materials", () => {
         // parent + found-mat; missing-mat produces nothing
         expect(nodes).toHaveLength(2);
         expect(edges).toHaveLength(2);
-        expect(nodes.some((n) => n.data.id === "found-mat")).toBe(true);
+        const foundMatNode = nodes.find((n) => n.data.id === "found-mat");
+        if (!foundMatNode) throw new Error("expected found-mat node");
+        assertNodeType(foundMatNode, "material");
+        expect(foundMatNode.data.isRoot).toBe(false);
     });
 });
 
@@ -161,6 +208,11 @@ describe("multiple variants", () => {
         const { nodes } = resolveCraftingTree({ itemId: "multi-item" });
         // 1 selector + 2 variant nodes
         expect(nodes).toHaveLength(3);
+        // the selector is the root item itself here, so it's "recipe-group" with isRoot: true
+        const selector = nodes.find((n) => n.id === "multi-item");
+        if (!selector) throw new Error("expected selector node");
+        assertNodeType(selector, "recipe-group");
+        expect(selector.data.isRoot).toBe(true);
     });
 
     it("routes edges through the variant selector: root → selector → each variant", () => {
@@ -191,8 +243,49 @@ describe("multiple variants", () => {
         );
         const { nodes } = resolveCraftingTree({ itemId: "multi-item-4" });
         const selector = nodes.find((n) => n.id === "multi-item-4");
+        if (!selector) throw new Error("expected selector node");
+        assertNodeType(selector, "recipe-group");
+        expect(selector.data.numberOfRecipies).toBe(2);
+
         const variants = nodes.filter((n) => n.id !== "multi-item-4");
-        expect(selector?.data.numberOfRecipies).toBe(2);
-        expect(variants.map((n) => n.data.isRecipeNumberVariant).sort()).toEqual([1, 2]);
+        variants.forEach((v) => assertNodeType(v, "material"));
+        expect(
+            variants
+                .map((n) => (n.type === "material" ? n.data.isRecipeNumberVariant : null))
+                .sort(),
+        ).toEqual([1, 2]);
+    });
+
+    it("assigns type 'recipe-group' to a non-root multi-variant material", () => {
+        const childMulti = makeItem("child-multi", [makeVariant(null), makeVariant(null)]);
+        const parent = makeItem("parent-nested-multi", [
+            makeVariant(makeRecipe(1, [{ itemId: "child-multi", quantity: 1 }])),
+        ]);
+        mockSourceItemById.mockImplementation((id) => {
+            if (id === "parent-nested-multi") return parent;
+            if (id === "child-multi") return childMulti;
+            return undefined;
+        });
+        const { nodes } = resolveCraftingTree({ itemId: "parent-nested-multi" });
+
+        const parentNode = nodes.find((n) => n.id === "parent-nested-multi");
+        if (!parentNode) throw new Error("expected parent node");
+        assertNodeType(parentNode, "material");
+        expect(parentNode.data.isRoot).toBe(true);
+
+        const selector = nodes.find((n) => n.data.id === "child-multi" && n.type === "recipe-group");
+        if (!selector) throw new Error("expected a non-root recipe-group selector node");
+        assertNodeType(selector, "recipe-group");
+        expect(selector.data.numberOfRecipies).toBe(2);
+        expect(selector.data.isRoot).toBe(false);
+
+        const variants = nodes.filter((n) => n.type === "material" && n.data.id === "child-multi");
+        expect(variants).toHaveLength(2);
+        variants.forEach((v) => assertNodeType(v, "material"));
+        expect(
+            variants
+                .map((n) => (n.type === "material" ? n.data.isRecipeNumberVariant : null))
+                .sort(),
+        ).toEqual([1, 2]);
     });
 });

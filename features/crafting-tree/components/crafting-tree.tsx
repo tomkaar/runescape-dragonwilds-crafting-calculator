@@ -8,14 +8,16 @@ import { EdgeTypes, NodeTypes, ReactFlow, useEdgesState, useNodesState } from "@
 import { resolveCraftingTree } from "@/features/crafting-tree/utils/resolve-crafting-tree";
 
 import CraftingTreeLayout from "./crafting-tree-layout";
-import DefaultNode from "@/features/crafting-tree/components/nodes/default-node";
+import RecipeGroupNode from "@/features/crafting-tree/components/nodes/recipe-group-node";
+import MaterialNode from "@/features/crafting-tree/components/nodes/material-node";
 import DefaultEdge from "@/features/crafting-tree/components/edges/default-edge";
 import { cn } from "@/lib/utils";
 import { type Node } from "@/features/crafting-tree/schemas/Node";
 import { Edge } from "@/features/crafting-tree/schemas/Edge";
 
 const nodeTypes: NodeTypes = {
-  node: DefaultNode,
+  "recipe-group": RecipeGroupNode,
+  material: MaterialNode,
 };
 const edgeTypes: EdgeTypes = {
   edge: DefaultEdge,
