@@ -73076,7 +73076,7 @@
   },
   {
     "uses_material": [
-      "Dessert Cloth"
+      "Desert Cloth"
     ],
     "uses_skill": [
       "Construction"
@@ -73089,17 +73089,17 @@
       "materials": [
         {
           "quantity": "4",
-          "name": "Dessert Cloth",
-          "link": "Dessert Cloth",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
           "qty": "4",
-          "item": "Dessert Cloth",
-          "image": "[[File:Dessert Cloth.png|30px|link=Dessert Cloth]]"
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
         }
       ],
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "40"
         }
       ],
       "outputs": [

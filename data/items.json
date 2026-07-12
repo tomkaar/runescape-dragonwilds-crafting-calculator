@@ -47994,18 +47994,18 @@
     "image": "Rolled Moon Garou Carpet 01.png",
     "variants": [
       {
-        "id": "a74b67d5cdb2",
+        "id": "29ddd36c302f",
         "name": "Rolled Moon Garou Carpet 01",
         "image": "Rolled Moon Garou Carpet 01.png",
         "variantName": null,
         "recipe": {
-          "id": "4a1bf96398f6",
+          "id": "466536ad6b2a",
           "facilities": [
             "Build Menu"
           ],
           "materials": [
             {
-              "itemId": "dessert-cloth",
+              "itemId": "desert-cloth",
               "quantity": 4
             }
           ],

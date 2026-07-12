@@ -1,118 +1,118 @@
 [
-	{
-		"id": "advanced-tannery",
-		"name": "Advanced Tannery"
-	},
-	{
-		"id": "armour-bench",
-		"name": "Armour Bench"
-	},
-	{
-		"id": "blacksmith-bench",
-		"name": "Blacksmith Bench"
-	},
-	{
-		"id": "blacksmiths-bench",
-		"name": "Blacksmith's Bench"
-	},
-	{
-		"id": "blast-furnace",
-		"name": "Blast Furnace"
-	},
-	{
-		"id": "brewing-cauldron",
-		"name": "Brewing Cauldron"
-	},
-	{
-		"id": "build-menu",
-		"name": "Build Menu"
-	},
-	{
-		"id": "campfire",
-		"name": "Campfire"
-	},
-	{
-		"id": "cooking-pot",
-		"name": "Cooking Pot"
-	},
-	{
-		"id": "cooking-range",
-		"name": "Cooking Range"
-	},
-	{
-		"id": "crafting-table",
-		"name": "Crafting Table"
-	},
-	{
-		"id": "edna",
-		"name": "Edna"
-	},
-	{
-		"id": "fletching-bench",
-		"name": "Fletching Bench"
-	},
-	{
-		"id": "furnace",
-		"name": "Furnace"
-	},
-	{
-		"id": "grill",
-		"name": "Grill"
-	},
-	{
-		"id": "grindstone",
-		"name": "Grindstone"
-	},
-	{
-		"id": "imbuing-barrel",
-		"name": "Imbuing Barrel"
-	},
-	{
-		"id": "jewelers-bench",
-		"name": "Jeweler's Bench"
-	},
-	{
-		"id": "kiln",
-		"name": "Kiln"
-	},
-	{
-		"id": "loom",
-		"name": "Loom"
-	},
-	{
-		"id": "lougrims-shrine",
-		"name": "Lougrim's Shrine"
-	},
-	{
-		"id": "mystic-forge",
-		"name": "Mystic Forge"
-	},
-	{
-		"id": "pottery-wheel",
-		"name": "Pottery Wheel"
-	},
-	{
-		"id": "rune-altar",
-		"name": "Rune Altar"
-	},
-	{
-		"id": "sawmill",
-		"name": "Sawmill"
-	},
-	{
-		"id": "spinning-wheel",
-		"name": "Spinning Wheel"
-	},
-	{
-		"id": "stone-range",
-		"name": "Stone Range"
-	},
-	{
-		"id": "stonecutter",
-		"name": "Stonecutter"
-	},
-	{
-		"id": "tannery",
-		"name": "Tannery"
-	}
+  {
+    "id": "advanced-tannery",
+    "name": "Advanced Tannery"
+  },
+  {
+    "id": "armour-bench",
+    "name": "Armour Bench"
+  },
+  {
+    "id": "blacksmith-bench",
+    "name": "Blacksmith Bench"
+  },
+  {
+    "id": "blacksmiths-bench",
+    "name": "Blacksmith's Bench"
+  },
+  {
+    "id": "blast-furnace",
+    "name": "Blast Furnace"
+  },
+  {
+    "id": "brewing-cauldron",
+    "name": "Brewing Cauldron"
+  },
+  {
+    "id": "build-menu",
+    "name": "Build Menu"
+  },
+  {
+    "id": "campfire",
+    "name": "Campfire"
+  },
+  {
+    "id": "cooking-pot",
+    "name": "Cooking Pot"
+  },
+  {
+    "id": "cooking-range",
+    "name": "Cooking Range"
+  },
+  {
+    "id": "crafting-table",
+    "name": "Crafting Table"
+  },
+  {
+    "id": "edna",
+    "name": "Edna"
+  },
+  {
+    "id": "fletching-bench",
+    "name": "Fletching Bench"
+  },
+  {
+    "id": "furnace",
+    "name": "Furnace"
+  },
+  {
+    "id": "grill",
+    "name": "Grill"
+  },
+  {
+    "id": "grindstone",
+    "name": "Grindstone"
+  },
+  {
+    "id": "imbuing-barrel",
+    "name": "Imbuing Barrel"
+  },
+  {
+    "id": "jewelers-bench",
+    "name": "Jeweler's Bench"
+  },
+  {
+    "id": "kiln",
+    "name": "Kiln"
+  },
+  {
+    "id": "loom",
+    "name": "Loom"
+  },
+  {
+    "id": "lougrims-shrine",
+    "name": "Lougrim's Shrine"
+  },
+  {
+    "id": "mystic-forge",
+    "name": "Mystic Forge"
+  },
+  {
+    "id": "pottery-wheel",
+    "name": "Pottery Wheel"
+  },
+  {
+    "id": "rune-altar",
+    "name": "Rune Altar"
+  },
+  {
+    "id": "sawmill",
+    "name": "Sawmill"
+  },
+  {
+    "id": "spinning-wheel",
+    "name": "Spinning Wheel"
+  },
+  {
+    "id": "stone-range",
+    "name": "Stone Range"
+  },
+  {
+    "id": "stonecutter",
+    "name": "Stonecutter"
+  },
+  {
+    "id": "tannery",
+    "name": "Tannery"
+  }
 ]
