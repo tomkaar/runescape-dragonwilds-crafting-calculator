@@ -159,11 +159,11 @@ export function CommandWithShortcuts({ buttonClassName = "" }: Props) {
 				: null;
 
 	return (
-		<div className="flex flex-col gap-4">
+		<>
 			<Button
 				onClick={() => setOpen(true)}
 				variant="outline"
-				className={cn("w-full lg:w-fit", buttonClassName)}
+				className={cn("", buttonClassName)}
 			>
 				<span className="text-muted-foreground">⌘K</span> Search and navigate
 			</Button>
@@ -280,6 +280,6 @@ export function CommandWithShortcuts({ buttonClassName = "" }: Props) {
 					</CommandList>
 				</Command>
 			</CommandDialog>
-		</div>
+		</>
 	);
 }

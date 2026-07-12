@@ -9,7 +9,7 @@ import {
 	DialogTitle,
 	DialogTrigger,
 } from "@/components/ui/dialog";
-import LastSyncDate from "./LastSyncDate";
+import LastSyncDate from "./last-synced-date";
 
 export function LastSynced() {
 	return (
