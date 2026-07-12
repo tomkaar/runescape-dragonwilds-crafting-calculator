@@ -1,21 +1,21 @@
-import { SourceRecipe } from "@/scripts/fetch-data/types/recipe";
-import { Item } from "@/Types";
+import type { SourceRecipe } from "@/scripts/fetch-data/types/recipe";
+import type { Item } from "@/Types";
 
 export function resolveSkills(recipes: SourceRecipe[]): Item["skills"] {
-  // collect all unique skills from the recipes
-  const skillsSet = new Set<string>();
+	// collect all unique skills from the recipes
+	const skillsSet = new Set<string>();
 
-  recipes.forEach((recipe) => {
-    recipe.uses_skill?.forEach((skill) => {
-      if (skill) {
-        skillsSet.add(skill);
-      }
-    });
-  });
+	recipes.forEach((recipe) => {
+		recipe.uses_skill?.forEach((skill) => {
+			if (skill) {
+				skillsSet.add(skill);
+			}
+		});
+	});
 
-  if (skillsSet.size > 0) {
-    return Array.from(skillsSet) as Item["skills"];
-  }
+	if (skillsSet.size > 0) {
+		return Array.from(skillsSet) as Item["skills"];
+	}
 
-  return [];
+	return [];
 }

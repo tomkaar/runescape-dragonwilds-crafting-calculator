@@ -1,39 +1,39 @@
-import { lastSynced } from "@/utils/lastSynced";
 import { cacheLife, cacheTag } from "next/cache";
 import { cache } from "react";
+import { lastSynced } from "@/utils/lastSynced";
 
 type Props = {
-  format: "short" | "long";
+	format: "short" | "long";
 };
 
 const formatShort = Intl.DateTimeFormat("en-GB", {
-  year: "numeric",
-  month: "short",
-  day: "numeric",
+	year: "numeric",
+	month: "short",
+	day: "numeric",
 });
 
 const formatLong = Intl.DateTimeFormat("en-GB", {
-  year: "numeric",
-  month: "short",
-  day: "numeric",
-  hour: "2-digit",
-  minute: "2-digit",
+	year: "numeric",
+	month: "short",
+	day: "numeric",
+	hour: "2-digit",
+	minute: "2-digit",
 });
 
 const LastSyncedDate = cache(async function LastSyncDate(props: Props) {
-  "use cache";
-  cacheLife("hours");
-  cacheTag("lastSynced");
-  const updatedAt = await lastSynced();
-  if (!updatedAt) {
-    return "Unknown";
-  }
+	"use cache";
+	cacheLife("hours");
+	cacheTag("lastSynced");
+	const updatedAt = await lastSynced();
+	if (!updatedAt) {
+		return "Unknown";
+	}
 
-  const formatted =
-    props.format === "short"
-      ? formatShort.format(new Date(updatedAt))
-      : formatLong.format(new Date(updatedAt));
-  return formatted;
+	const formatted =
+		props.format === "short"
+			? formatShort.format(new Date(updatedAt))
+			: formatLong.format(new Date(updatedAt));
+	return formatted;
 });
 
 export default LastSyncedDate;

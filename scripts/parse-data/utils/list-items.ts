@@ -1,93 +1,94 @@
-import { Item, ItemVariant } from "@/Types";
-
-import { type SourceItem } from "@/scripts/fetch-data/types/item";
-import { SourceRecipe } from "@/scripts/fetch-data/types/recipe";
-import { getUniqueItems } from "./unique-items";
-import { resolveImage } from "./resolve-image";
-import { resolveFacilities } from "./resolve-facility";
-import { resolveSkills } from "./resolve-skill";
+import type { SourceItem } from "@/scripts/fetch-data/types/item";
+import type { SourceRecipe } from "@/scripts/fetch-data/types/recipe";
+import type { Item, ItemVariant } from "@/Types";
 import { idFromName } from "./id-from-name";
+import { resolveFacilities } from "./resolve-facility";
+import { resolveImage } from "./resolve-image";
 import { resolveItemVariant } from "./resolve-item-variant";
+import { resolveSkills } from "./resolve-skill";
 import { resolveVariant } from "./resolve-variant";
+import { getUniqueItems } from "./unique-items";
 
 export default function listItems(
-  recipes: SourceRecipe[],
-  items: SourceItem[],
+	recipes: SourceRecipe[],
+	items: SourceItem[],
 ) {
-  const uniqueItems = getUniqueItems(recipes, items);
-  console.log(`Found ${uniqueItems.size} unique items`);
+	const uniqueItems = getUniqueItems(recipes, items);
+	console.log(`Found ${uniqueItems.size} unique items`);
 
-  /**
-   * Build items with variants and recipes
-   */
-  const finishedItems: Item[] = [];
+	/**
+	 * Build items with variants and recipes
+	 */
+	const finishedItems: Item[] = [];
 
-  uniqueItems.forEach((itemName) => {
-    const rawRecipes = recipes.filter((item) => item.output.includes(itemName));
-    const rawItems = items.filter((item) => item.page_name === itemName);
+	uniqueItems.forEach((itemName) => {
+		const rawRecipes = recipes.filter((item) => item.output.includes(itemName));
+		const rawItems = items.filter((item) => item.page_name === itemName);
 
-    /**
-     * Resolve variants for item
-     */
-    const variantMap = new Map<string, ItemVariant>();
-    rawRecipes.forEach((recipeVariant) => {
-      const parsedVariant = resolveVariant(recipeVariant);
-      if (!parsedVariant) return;
+		/**
+		 * Resolve variants for item
+		 */
+		const variantMap = new Map<string, ItemVariant>();
+		rawRecipes.forEach((recipeVariant) => {
+			const parsedVariant = resolveVariant(recipeVariant);
+			if (!parsedVariant) return;
 
-      const existingVariant = variantMap.get(parsedVariant.id);
-      if (!existingVariant) {
-        variantMap.set(parsedVariant.id, parsedVariant);
-        return;
-      }
+			const existingVariant = variantMap.get(parsedVariant.id);
+			if (!existingVariant) {
+				variantMap.set(parsedVariant.id, parsedVariant);
+				return;
+			}
 
-      if (existingVariant.recipe && parsedVariant.recipe) {
-        const mergedFacilities = Array.from(
-          new Set([
-            ...existingVariant.recipe.facilities,
-            ...parsedVariant.recipe.facilities,
-          ]),
-        );
-        existingVariant.recipe.facilities = mergedFacilities;
-      }
+			if (existingVariant.recipe && parsedVariant.recipe) {
+				const mergedFacilities = Array.from(
+					new Set([
+						...existingVariant.recipe.facilities,
+						...parsedVariant.recipe.facilities,
+					]),
+				);
+				existingVariant.recipe.facilities = mergedFacilities;
+			}
 
-      if (parsedVariant.usesRecipe) {
-        existingVariant.usesRecipe = Array.from(
-          new Set([
-            ...(existingVariant.usesRecipe ?? []),
-            ...parsedVariant.usesRecipe,
-          ]),
-        );
-      }
-    });
+			if (parsedVariant.usesRecipe) {
+				existingVariant.usesRecipe = Array.from(
+					new Set([
+						...(existingVariant.usesRecipe ?? []),
+						...parsedVariant.usesRecipe,
+					]),
+				);
+			}
+		});
 
-    const variants: ItemVariant[] = Array.from(variantMap.values());
+		const variants: ItemVariant[] = Array.from(variantMap.values());
 
-    if (variants.length === 0) {
-      rawItems.forEach((itemVariant) => {
-        const parsedVariant = resolveItemVariant(itemVariant);
-        if (parsedVariant) {
-          variants.push(parsedVariant);
-        }
-      });
-    }
+		if (variants.length === 0) {
+			rawItems.forEach((itemVariant) => {
+				const parsedVariant = resolveItemVariant(itemVariant);
+				if (parsedVariant) {
+					variants.push(parsedVariant);
+				}
+			});
+		}
 
-    const finishedItem: Item = {
-      id: idFromName(itemName),
-      name: itemName,
-      image: resolveImage(rawRecipes[0], rawItems, itemName),
-      variants: variants,
-      skills: resolveSkills(rawRecipes),
-      facilities: resolveFacilities(rawRecipes),
-      wikiLink:
-        rawRecipes[0]?.json.output.link.replaceAll(" ", "_") ||
-        rawItems[0]?.page_name.replaceAll(" ", "_") ||
-        undefined,
-      weight: rawItems[0]?.item_weight ?? undefined,
-      health: rawItems[0]?.json?.health ? Number(rawItems[0].json.health) : undefined,
-      stackLimit: rawItems[0]?.item_stacklimit ?? undefined,
-    };
-    finishedItems.push(finishedItem);
-  });
+		const finishedItem: Item = {
+			id: idFromName(itemName),
+			name: itemName,
+			image: resolveImage(rawRecipes[0], rawItems, itemName),
+			variants: variants,
+			skills: resolveSkills(rawRecipes),
+			facilities: resolveFacilities(rawRecipes),
+			wikiLink:
+				rawRecipes[0]?.json.output.link.replaceAll(" ", "_") ||
+				rawItems[0]?.page_name.replaceAll(" ", "_") ||
+				undefined,
+			weight: rawItems[0]?.item_weight ?? undefined,
+			health: rawItems[0]?.json?.health
+				? Number(rawItems[0].json.health)
+				: undefined,
+			stackLimit: rawItems[0]?.item_stacklimit ?? undefined,
+		};
+		finishedItems.push(finishedItem);
+	});
 
-  return finishedItems;
+	return finishedItems;
 }

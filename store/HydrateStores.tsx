@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect } from "react";
+import { useCraftingTreeDirection } from "./crafting-tree-direction";
 import { useFavouriteItems } from "./favourite-items";
+import { useMaterialMultiplier } from "./material-multiplier";
 import { useMobilePanelsState } from "./mobile-panel-state";
 import { useSelectedMaterial } from "./selected-material";
-import { useMaterialMultiplier } from "./material-multiplier";
-import { useCraftingTreeDirection } from "./crafting-tree-direction";
 import { useStepsFilter } from "./steps-filter";
 
 /**
@@ -13,22 +13,23 @@ import { useStepsFilter } from "./steps-filter";
  * when the document becomes visible or the window gains focus.
  */
 export function HydrateStores() {
-  const updateStore = () => {
-    useCraftingTreeDirection.persist.rehydrate();
-    useFavouriteItems.persist.rehydrate();
-    useMobilePanelsState.persist.rehydrate();
-    useSelectedMaterial.persist.rehydrate();
-    useMaterialMultiplier.persist.rehydrate();
-    useStepsFilter.persist.rehydrate();
-  };
+	const updateStore = () => {
+		useCraftingTreeDirection.persist.rehydrate();
+		useFavouriteItems.persist.rehydrate();
+		useMobilePanelsState.persist.rehydrate();
+		useSelectedMaterial.persist.rehydrate();
+		useMaterialMultiplier.persist.rehydrate();
+		useStepsFilter.persist.rehydrate();
+	};
 
-  useEffect(() => {
-    document.addEventListener("visibilitychange", updateStore);
-    window.addEventListener("focus", updateStore);
-    return () => {
-      document.removeEventListener("visibilitychange", updateStore);
-      window.removeEventListener("focus", updateStore);
-    };
-  }, []);
-  return null;
+	// biome-ignore lint/correctness/useExhaustiveDependencies: <known>
+	useEffect(() => {
+		document.addEventListener("visibilitychange", updateStore);
+		window.addEventListener("focus", updateStore);
+		return () => {
+			document.removeEventListener("visibilitychange", updateStore);
+			window.removeEventListener("focus", updateStore);
+		};
+	}, []);
+	return null;
 }

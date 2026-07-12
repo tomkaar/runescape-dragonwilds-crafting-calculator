@@ -1,30 +1,30 @@
-import { FilterFn } from "@tanstack/react-table";
-import { ItemTableRow } from "./columns";
 import { rankItem } from "@tanstack/match-sorter-utils";
+import type { FilterFn } from "@tanstack/react-table";
+import type { ItemTableRow } from "./columns";
 
 export const fuzzyFilter: FilterFn<ItemTableRow> = (
-  row,
-  columnId,
-  value,
-  addMeta,
+	row,
+	columnId,
+	value,
+	addMeta,
 ) => {
-  const itemRank = rankItem(row.getValue(columnId), value);
+	const itemRank = rankItem(row.getValue(columnId), value);
 
-  addMeta({ itemRank });
+	addMeta({ itemRank });
 
-  return itemRank.passed;
+	return itemRank.passed;
 };
 
 import { compareItems } from "@tanstack/match-sorter-utils";
-import { SortingFn } from "@tanstack/react-table";
+import type { SortingFn } from "@tanstack/react-table";
 
 export const fuzzySort: SortingFn<ItemTableRow> = (rowA, rowB, columnId) => {
-  const metaA = rowA.columnFiltersMeta[columnId]?.itemRank;
-  const metaB = rowB.columnFiltersMeta[columnId]?.itemRank;
+	const metaA = rowA.columnFiltersMeta[columnId]?.itemRank;
+	const metaB = rowB.columnFiltersMeta[columnId]?.itemRank;
 
-  if (metaA && metaB) {
-    return compareItems(metaA, metaB);
-  }
+	if (metaA && metaB) {
+		return compareItems(metaA, metaB);
+	}
 
-  return 0;
+	return 0;
 };

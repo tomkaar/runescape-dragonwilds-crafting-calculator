@@ -4,26 +4,30 @@ import { StarIcon } from "lucide-react";
 import { useFavouriteItems } from "@/store/favourite-items";
 
 type Props = {
-  itemId: string;
+	itemId: string;
 };
 
 export function Favourite(props: Props) {
-  const { itemId } = props;
-  const favouritedItems = useFavouriteItems((state) => state.items);
-  const toggleAnItem = useFavouriteItems((state) => state.toggleAnItem);
-  const isFavourited = favouritedItems.includes(itemId);
+	const { itemId } = props;
+	const favouritedItems = useFavouriteItems((state) => state.items);
+	const toggleAnItem = useFavouriteItems((state) => state.toggleAnItem);
+	const isFavourited = favouritedItems.includes(itemId);
 
-  const toggleFavourite = () => {
-    toggleAnItem(itemId);
-  };
+	const toggleFavourite = () => {
+		toggleAnItem(itemId);
+	};
 
-  return (
-    <button onClick={toggleFavourite}>
-      {isFavourited ? (
-        <StarIcon className="w-5 h-5 text-title fill-title" />
-      ) : (
-        <StarIcon className="w-5 h-5 text-foreground" />
-      )}
-    </button>
-  );
+	return (
+		<button
+			onClick={toggleFavourite}
+			type="button"
+			aria-label="Toggle favourite"
+		>
+			{isFavourited ? (
+				<StarIcon className="w-5 h-5 text-title fill-title" />
+			) : (
+				<StarIcon className="w-5 h-5 text-foreground" />
+			)}
+		</button>
+	);
 }

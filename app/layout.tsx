@@ -1,24 +1,24 @@
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
-import { HydrateStores } from "@/store/HydrateStores";
 import { CraftingTreeHoverProvider } from "@/context/crafting-tree-hover";
+import { HydrateStores } from "@/store/HydrateStores";
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className="antialiased dark">
-        <CraftingTreeHoverProvider>
-          {children}
-          <HydrateStores />
-          <Analytics />
-          <SpeedInsights />
-        </CraftingTreeHoverProvider>
-      </body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body className="antialiased dark">
+				<CraftingTreeHoverProvider>
+					{children}
+					<HydrateStores />
+					<Analytics />
+					<SpeedInsights />
+				</CraftingTreeHoverProvider>
+			</body>
+		</html>
+	);
 }

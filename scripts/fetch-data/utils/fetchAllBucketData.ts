@@ -5,39 +5,39 @@ const ACTION = "action=bucket";
 const FORMAT = "format=json";
 
 export default async function fetchAllBucketData<T>(
-  bucketName: string,
-  selectQuery: string,
+	bucketName: string,
+	selectQuery: string,
 ): Promise<T[]> {
-  let offset = 0;
-  let allData: T[] = [];
-  let hasMore = true;
+	let offset = 0;
+	let allData: T[] = [];
+	let hasMore = true;
 
-  while (hasMore) {
-    const query = `select(${selectQuery}).limit(${LIMIT}).offset(${offset})`;
-    const url = `${BASE_URL}?${ACTION}&query=bucket(%27${bucketName}%27).${query}.run()&${FORMAT}`;
+	while (hasMore) {
+		const query = `select(${selectQuery}).limit(${LIMIT}).offset(${offset})`;
+		const url = `${BASE_URL}?${ACTION}&query=bucket(%27${bucketName}%27).${query}.run()&${FORMAT}`;
 
-    console.log(`Fetching ${bucketName} with offset ${offset}...`);
+		console.log(`Fetching ${bucketName} with offset ${offset}...`);
 
-    const response = await fetch(url);
-    const data = await response.json();
+		const response = await fetch(url);
+		const data = await response.json();
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const items = data.bucket.map((b: any) => ({
-      ...b,
-      json: b.json ? JSON.parse(b.json) : undefined,
-    }));
+		// biome-ignore lint/suspicious/noExplicitAny: <We don't know the structure of the data returned from the API, so we have to use any here.>
+		const items = data.bucket.map((b: any) => ({
+			...b,
+			json: b.json ? JSON.parse(b.json) : undefined,
+		}));
 
-    allData = [...allData, ...items];
+		allData = [...allData, ...items];
 
-    // If we got exactly LIMIT items, there might be more
-    if (items.length === LIMIT) {
-      offset += LIMIT;
-      hasMore = true;
-    } else {
-      hasMore = false;
-    }
-  }
+		// If we got exactly LIMIT items, there might be more
+		if (items.length === LIMIT) {
+			offset += LIMIT;
+			hasMore = true;
+		} else {
+			hasMore = false;
+		}
+	}
 
-  console.log(`Total ${bucketName} fetched: ${allData.length}`);
-  return allData;
+	console.log(`Total ${bucketName} fetched: ${allData.length}`);
+	return allData;
 }

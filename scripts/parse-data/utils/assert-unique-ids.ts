@@ -4,24 +4,22 @@
  * silently corrupts data instead of failing loudly.
  */
 export function assertUniqueIds(
-  label: string,
-  entries: { id: string; name: string }[],
+	label: string,
+	entries: { id: string; name: string }[],
 ): void {
-  const nameById = new Map<string, string>();
-  const duplicates: string[] = [];
+	const nameById = new Map<string, string>();
+	const duplicates: string[] = [];
 
-  entries.forEach(({ id, name }) => {
-    const existingName = nameById.get(id);
-    if (existingName === undefined) {
-      nameById.set(id, name);
-    } else if (existingName !== name) {
-      duplicates.push(`"${id}" used by both "${existingName}" and "${name}"`);
-    }
-  });
+	entries.forEach(({ id, name }) => {
+		const existingName = nameById.get(id);
+		if (existingName === undefined) {
+			nameById.set(id, name);
+		} else if (existingName !== name) {
+			duplicates.push(`"${id}" used by both "${existingName}" and "${name}"`);
+		}
+	});
 
-  if (duplicates.length > 0) {
-    console.warn(
-      `Duplicate ${label} ids found:\n${duplicates.join("\n")}`,
-    );
-  }
+	if (duplicates.length > 0) {
+		console.warn(`Duplicate ${label} ids found:\n${duplicates.join("\n")}`);
+	}
 }

@@ -1,14 +1,14 @@
 "use client";
 
-import { useEffect } from "react";
 import { useNodesInitialized, useReactFlow } from "@xyflow/react";
+import { useEffect } from "react";
 
-import { type Node } from "@/features/crafting-tree/schemas/Node";
-import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";
+import type { Node } from "@/features/crafting-tree/schemas/Node";
 import { getLayoutNodes } from "@/features/crafting-tree/utils/get-layout-nodes";
+import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";
 
 type Props = {
-  treePaddingLeft?: number;
+	treePaddingLeft?: number;
 };
 
 /**
@@ -19,32 +19,31 @@ type Props = {
  * The layout is then applied to the nodes, and the view is adjusted to fit the entire crafting tree.
  */
 export default function CraftingTreeLayout({ treePaddingLeft }: Props) {
-  const { setNodes, getEdges, fitView } = useReactFlow<Node>();
-  const nodesInitialized = useNodesInitialized();
-  const { direction } = useCraftingTreeDirection();
+	const { setNodes, getEdges, fitView } = useReactFlow<Node>();
+	const nodesInitialized = useNodesInitialized();
+	const { direction } = useCraftingTreeDirection();
 
-  useEffect(() => {
-    if (!nodesInitialized) return;
+	useEffect(() => {
+		if (!nodesInitialized) return;
 
-    const edges = getEdges();
-    setNodes((nds) => getLayoutNodes(nds, edges, direction));
-    fitView({
-      padding: {
-        top: "70px",
-        left: `${treePaddingLeft ?? 20}px`,
-        right: "20px",
-        bottom: "20px",
-      },
-    });
-  }, [
-    nodesInitialized,
-    getEdges,
-    setNodes,
-    fitView,
-    direction,
-    treePaddingLeft,
-  ]);
+		const edges = getEdges();
+		setNodes((nds) => getLayoutNodes(nds, edges, direction));
+		fitView({
+			padding: {
+				top: "70px",
+				left: `${treePaddingLeft ?? 20}px`,
+				right: "20px",
+				bottom: "20px",
+			},
+		});
+	}, [
+		nodesInitialized,
+		getEdges,
+		setNodes,
+		fitView,
+		direction,
+		treePaddingLeft,
+	]);
 
-  return null;
+	return null;
 }
-
