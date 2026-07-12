@@ -1,0 +1,17 @@
+# EXAMPLE USAGE:
+#
+#   Refer for explanation to following link:
+#   https://lefthook.dev/configuration/
+#
+pre-push:
+  jobs:
+    - name: prepush
+      tags:
+        - verify
+      run: pnpm prepush
+pre-commit:
+  jobs:
+    - name: prepush
+      tags:
+        - verify
+      run: pnpm prepush
