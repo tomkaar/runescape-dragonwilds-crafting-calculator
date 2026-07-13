@@ -1,6 +1,6 @@
 import itemsJSON from "@/data/items.json";
 import type { Item } from "@/Types";
-import type { ItemTableRow } from "./columns";
+import type { TableBodyRowType } from "../types/table-body-row";
 
 const items = itemsJSON as Item[];
 
@@ -12,13 +12,13 @@ for (const item of items) {
 	itemImageById.set(item.id, item.image);
 }
 
-export const tableData: ItemTableRow[] = items.flatMap((item) =>
+export const tableData: TableBodyRowType[] = items.flatMap((item) =>
 	item.variants.map((variant) => ({
 		itemId: item.id,
-		itemName: item.name,
+		name: item.name,
 
 		variantId: variant.id,
-		variantName: variant.variantName,
+		variant: variant.variantName,
 
 		image: variant.image,
 
@@ -27,14 +27,15 @@ export const tableData: ItemTableRow[] = items.flatMap((item) =>
 			(s): s is NonNullable<typeof s> => s !== null,
 		),
 
+		health: item.health ?? 0,
 		outputQuantity: variant.recipe?.quantity ?? 0,
 
-		materialCount: variant.recipe?.materials.length ?? 0,
+		materialsCount: variant.recipe?.materials.length ?? 0,
 		materials:
 			variant.recipe?.materials.map((mat) => ({
 				itemId: mat.itemId,
-				itemName: itemNameById.get(mat.itemId) ?? mat.itemId,
-				itemImage: itemImageById.get(mat.itemId) ?? null,
+				name: itemNameById.get(mat.itemId) ?? mat.itemId,
+				image: itemImageById.get(mat.itemId) ?? null,
 				quantity: mat.quantity,
 			})) ?? [],
 

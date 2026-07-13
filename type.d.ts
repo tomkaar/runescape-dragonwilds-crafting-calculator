@@ -9,6 +9,10 @@ declare module "@tanstack/react-table" {
 		itemRank: RankingInfo;
 	}
 
+	interface ColumnMeta<TData extends RowData, TValue> {
+		filterVariant?: "materials" | "facilities" | "range" | "skills";
+	}
+
 	interface SortingFns {
 		fuzzySort: (rowA: RowData, rowB: RowData, columnId: string) => number;
 	}

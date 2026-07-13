@@ -99,7 +99,7 @@ export const Facility = [
 	"Tannery",
 ] as const;
 
-export const Skill = [
+const Skill = [
 	"Artisan",
 	"Construction",
 	"Cooking",

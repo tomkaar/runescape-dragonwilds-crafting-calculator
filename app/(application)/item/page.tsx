@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { ItemTable } from "@/components/ItemTable/ItemTable";
+import { Suspense } from "react";
+import Table from "@/features/table/components/table";
 
 export async function generateMetadata(): Promise<Metadata> {
 	return {
@@ -11,8 +12,8 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function ItemPage() {
 	return (
-		<main className="h-full flex flex-col">
-			<ItemTable />
-		</main>
+		<Suspense>
+			<Table />
+		</Suspense>
 	);
 }
