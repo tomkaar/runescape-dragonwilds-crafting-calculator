@@ -67185,7 +67185,7 @@
   },
   {
     "uses_material": [
-      "Adamant Ore",
+      "Adamantite Ore",
       "Coal"
     ],
     "uses_skill": [
@@ -67199,11 +67199,11 @@
       "materials": [
         {
           "quantity": "3",
-          "name": "Adamant Ore",
-          "link": "Adamant Ore",
+          "name": "Adamantite Ore",
+          "link": "Adamantite Ore",
           "qty": "3",
-          "item": "Adamant Ore",
-          "image": "[[File:Adamant Ore.png|30px|link=Adamant Ore]]"
+          "item": "Adamantite Ore",
+          "image": "[[File:Adamantite Ore.png|30px|link=Adamantite Ore]]"
         },
         {
           "quantity": "3",
@@ -69731,10 +69731,14 @@
     "uses_skill": [
       "Artisan"
     ],
+    "uses_recipe": [
+      "Icthlarian Fetish"
+    ],
     "uses_facility": [
       "Mystic Forge"
     ],
     "json": {
+      "recipe": "Icthlarian Fetish",
       "facility": "Mystic Forge",
       "materials": [
         {
@@ -70676,19 +70680,19 @@
         }
       ],
       "outputs": [
-        "Adamant Bolts"
+        "Adamant Bolt"
       ],
       "output": {
         "quantity": "33",
-        "name": "Adamant Bolts",
-        "link": "Adamant Bolts",
+        "name": "Adamant Bolt",
+        "link": "Adamant Bolt",
         "qty": "33",
-        "item": "Adamant Bolts",
-        "image": "[[File:Adamant Bolts.png|30px|link=Adamant Bolts]]"
+        "item": "Adamant Bolt",
+        "image": "[[File:Adamant Bolt.png|30px|link=Adamant Bolt]]"
       }
     },
     "output": [
-      "Adamant Bolts"
+      "Adamant Bolt"
     ]
   },
   {
@@ -72115,7 +72119,7 @@
   },
   {
     "uses_material": [
-      "Adamant Bar",
+      "Adamantite Bar",
       "Dragon Tooth",
       "Desert Thread",
       "Gypsum Wax"
@@ -72135,11 +72139,11 @@
       "materials": [
         {
           "quantity": "8",
-          "name": "Adamant Bar",
-          "link": "Adamant Bar",
+          "name": "Adamantite Bar",
+          "link": "Adamantite Bar",
           "qty": "8",
-          "item": "Adamant Bar",
-          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+          "item": "Adamantite Bar",
+          "image": "[[File:Adamantite Bar.png|30px|link=Adamantite Bar]]"
         },
         {
           "quantity": "6",

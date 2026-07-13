@@ -671,7 +671,7 @@
       "description": "A mysterious porous rock used as a base for powerful runes.",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
-      "weight": "0.2'\"`UNIQ--ref-00000001-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
       "stacklimit": "99",
       "image_raw": "Rune Essence.png"
     },
@@ -13170,24 +13170,6 @@
     "item_weight": 6
   },
   {
-    "page_name": "Metal Salvage",
-    "item_description": "",
-    "item_name": "Metal Salvage",
-    "item_type": "Container",
-    "item_stacklimit": 0,
-    "json": {
-      "type": "Container",
-      "description": "",
-      "image": "[[File:Metal Salvage.png|32px]]",
-      "name": "Metal Salvage",
-      "weight": "",
-      "stacklimit": "",
-      "image_raw": "Metal Salvage.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "Metal Salvage"
-  },
-  {
     "page_name": "Aetheric Fundamentals, a Primordial Primer",
     "item_description": "A study on elemental forces and their interactions with runic energies.",
     "item_name": "Aetheric Fundamentals, a Primordial Primer",
@@ -14004,96 +13986,6 @@
     },
     "item_weight": 1,
     "page_name_sub": "Bronze Salvage Pile"
-  },
-  {
-    "page_name": "Leather Salvage",
-    "item_description": "",
-    "item_name": "Leather Salvage",
-    "item_type": "Container",
-    "item_stacklimit": 0,
-    "json": {
-      "type": "Container",
-      "description": "",
-      "image": "[[File:Leather Salvage.png|32px]]",
-      "name": "Leather Salvage",
-      "weight": "",
-      "stacklimit": "",
-      "image_raw": "Leather Salvage.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "Leather Salvage"
-  },
-  {
-    "page_name": "Textile Salvage",
-    "item_description": "",
-    "item_name": "Textile Salvage",
-    "item_type": "Container",
-    "item_stacklimit": 0,
-    "json": {
-      "type": "Container",
-      "description": "",
-      "image": "[[File:Textile Salvage.png|32px]]",
-      "name": "Textile Salvage",
-      "weight": "",
-      "stacklimit": "",
-      "image_raw": "Textile Salvage.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "Textile Salvage"
-  },
-  {
-    "page_name": "Misc. Salvage",
-    "item_description": "",
-    "item_name": "Misc. Salvage",
-    "item_type": "Container",
-    "item_stacklimit": 0,
-    "json": {
-      "type": "Container",
-      "description": "",
-      "image": "[[File:Misc. Salvage.png|32px]]",
-      "name": "Misc. Salvage",
-      "weight": "",
-      "stacklimit": "",
-      "image_raw": "Misc. Salvage.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "Misc. Salvage"
-  },
-  {
-    "page_name": "Plant Salvage",
-    "item_description": "",
-    "item_name": "Plant Salvage",
-    "item_type": "Container",
-    "item_stacklimit": 0,
-    "json": {
-      "type": "Container",
-      "description": "",
-      "image": "[[File:Plant Salvage.png|32px]]",
-      "name": "Plant Salvage",
-      "weight": "",
-      "stacklimit": "",
-      "image_raw": "Plant Salvage.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "Plant Salvage"
-  },
-  {
-    "page_name": "Potion Salvage",
-    "item_description": "",
-    "item_name": "Potion Salvage",
-    "item_type": "Container",
-    "item_stacklimit": 0,
-    "json": {
-      "type": "Container",
-      "description": "",
-      "image": "[[File:Potion Salvage.png|32px]]",
-      "name": "Potion Salvage",
-      "weight": "",
-      "stacklimit": "",
-      "image_raw": "Potion Salvage.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "Potion Salvage"
   },
   {
     "page_name": "Food & Drink Salvage",
@@ -18375,22 +18267,22 @@
     "page_name_sub": "Ascension Core"
   },
   {
-    "page_name": "Adamant Ore",
-    "item_description": "",
-    "item_name": "Adamant Ore",
+    "page_name": "Adamantite Ore",
+    "item_description": "Mined from adamantite deposits. It can be smelted into bars at a Blast Furnace.",
+    "item_name": "Adamantite Ore",
     "item_type": "Basic Material",
     "item_stacklimit": 99,
     "json": {
       "type": "Basic Material",
-      "description": "",
-      "image": "[[File:Adamant Ore.png|32px]]",
-      "name": "Adamant Ore",
-      "weight": "",
+      "description": "Mined from adamantite deposits. It can be smelted into bars at a Blast Furnace.",
+      "image": "[[File:Adamantite Ore.png|32px]]",
+      "name": "Adamantite Ore",
+      "weight": "3.6",
       "stacklimit": "99",
-      "image_raw": "Adamant Ore.png"
+      "image_raw": "Adamantite Ore.png"
     },
-    "item_weight": 0,
-    "page_name_sub": "Adamant Ore"
+    "item_weight": 3.6,
+    "page_name_sub": "Adamantite Ore"
   },
   {
     "page_name": "Adamant Pickaxe",
@@ -19857,22 +19749,22 @@
     "page_name_sub": "Beltfish Broth"
   },
   {
-    "page_name": "Adamant Bolts",
+    "page_name": "Adamant Bolt",
     "item_description": "A crossbow bolt with an adamant tip.",
-    "item_name": "Adamant Bolts",
+    "item_name": "Adamant Bolt",
     "item_type": "Ammo",
     "item_stacklimit": 999,
     "json": {
       "type": "Ammo",
       "description": "A crossbow bolt with an adamant tip.",
-      "image": "[[File:Steel Bolts.png|32px]]",
-      "name": "Adamant Bolts",
+      "image": "[[File:Adamant Bolt.png|32px]]",
+      "name": "Adamant Bolt",
       "weight": "0.0",
       "stacklimit": "999",
-      "image_raw": "Steel Bolts.png"
+      "image_raw": "Adamant Bolt.png"
     },
     "item_weight": 0,
-    "page_name_sub": "Adamant Bolts"
+    "page_name_sub": "Adamant Bolt"
   },
   {
     "page_name": "Yew Rod",
@@ -20797,24 +20689,6 @@
     "page_name_sub": "Yellow Memory of Menaphos"
   },
   {
-    "page_name": "Artifact Salvage",
-    "item_description": "",
-    "item_name": "Artifact  Salvage",
-    "item_type": "Container",
-    "item_stacklimit": 0,
-    "json": {
-      "type": "Container",
-      "description": "",
-      "image": "[[File:Artifact  Salvage.png|32px]]",
-      "name": "Artifact  Salvage",
-      "weight": "",
-      "stacklimit": "",
-      "image_raw": "Artifact  Salvage.png"
-    },
-    "item_weight": 0,
-    "page_name_sub": "Artifact Salvage"
-  },
-  {
     "page_name": "Kalphite Carapace Chest",
     "item_description": "This chest armour is made from parts of the kalphites. Its durable but flexible nature makes it excellent for rangers.",
     "item_name": "Kalphite Carapace Chest",
@@ -20899,6 +20773,24 @@
     },
     "item_weight": 0,
     "page_name_sub": "Commemorative Coin"
+  },
+  {
+    "page_name": "Moon Garou Pack",
+    "item_description": "A reward for helping the Moon Garou.",
+    "item_name": "Moon Garou Pack",
+    "item_type": "Container",
+    "item_stacklimit": 10,
+    "json": {
+      "type": "Container",
+      "description": "A reward for helping the Moon Garou.",
+      "image": "[[File:Moon Garou Pack.png|32px]]",
+      "name": "Moon Garou Pack",
+      "weight": "1.0",
+      "stacklimit": "10",
+      "image_raw": "Moon Garou Pack.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Moon Garou Pack"
   },
   {
     "page_name": "Shattered Black Blade (Umbral Sands)",
@@ -21436,11 +21328,11 @@
     "json": {
       "type": "Basic Item",
       "description": "Grants access to a visual mount variant",
-      "image": "[[File:MOUNT: Grassfoot Screecher.png|32px]]",
+      "image": "[[File:Grassfoot_Screecher.webp|32px]]",
       "name": "MOUNT: Grassfoot Screecher",
       "weight": "0.0",
       "stacklimit": "50",
-      "image_raw": "MOUNT: Grassfoot Screecher.png"
+      "image_raw": "Grassfoot_Screecher.webp"
     },
     "item_weight": 0,
     "page_name_sub": "MOUNT: Grassfoot Screecher"
@@ -21626,6 +21518,24 @@
     "page_name_sub": "MOUNT: Leafwood Strider"
   },
   {
+    "page_name": "Icthlarian Fetish",
+    "item_description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+    "item_name": "Icthlarian Fetish",
+    "item_type": "Vestige",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Vestige",
+      "description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "image": "[[File:Icthlarian Fetish.png|32px]]",
+      "name": "Icthlarian Fetish",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "Icthlarian Fetish.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Icthlarian Fetish"
+  },
+  {
     "page_name": "Crucible Engram of Betrayal",
     "item_description": "A key to a specific Nightmare Crucible.",
     "item_name": "Crucible Engram of Betrayal",
@@ -21682,11 +21592,11 @@
     "json": {
       "type": "Basic Item",
       "description": "Grants access to a visual mount variant",
-      "image": "[[File:MOUNT: Springdown Runner.png|32px]]",
+      "image": "[[File:Springdown_Runner.webp|32px]]",
       "name": "MOUNT: Springdown Runner",
       "weight": "0.0",
       "stacklimit": "50",
-      "image_raw": "MOUNT: Springdown Runner.png"
+      "image_raw": "Springdown_Runner.webp"
     },
     "item_weight": 0,
     "page_name_sub": "MOUNT: Springdown Runner"
