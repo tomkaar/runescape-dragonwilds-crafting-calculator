@@ -43957,18 +43957,18 @@
     "image": "Adamant Bar.png",
     "variants": [
       {
-        "id": "9d44f45a9575",
+        "id": "b14ff088c14f",
         "name": "Adamant Bar",
         "image": "Adamant Bar.png",
         "variantName": null,
         "recipe": {
-          "id": "a69df0922e4a",
+          "id": "261b8fe673e7",
           "facilities": [
             "Blast Furnace"
           ],
           "materials": [
             {
-              "itemId": "adamant-ore",
+              "itemId": "adamantite-ore",
               "quantity": 3
             },
             {
@@ -45701,7 +45701,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Icthlarian Fetish"
+        ]
       }
     ],
     "skills": [
@@ -46239,17 +46241,17 @@
     "stackLimit": 99
   },
   {
-    "id": "adamant-bolts",
-    "name": "Adamant Bolts",
-    "image": "Adamant Bolts.png",
+    "id": "adamant-bolt",
+    "name": "Adamant Bolt",
+    "image": "Adamant Bolt.png",
     "variants": [
       {
-        "id": "f25ab48fe17e",
-        "name": "Adamant Bolts",
-        "image": "Adamant Bolts.png",
+        "id": "a14cbe024887",
+        "name": "Adamant Bolt",
+        "image": "Adamant Bolt.png",
         "variantName": null,
         "recipe": {
-          "id": "abce94555aec",
+          "id": "752fda6c6d9c",
           "facilities": [
             "Fletching Bench"
           ],
@@ -46274,7 +46276,7 @@
     "facilities": [
       "Fletching Bench"
     ],
-    "wikiLink": "Adamant_Bolts",
+    "wikiLink": "Adamant_Bolt",
     "weight": 0,
     "stackLimit": 999
   },
@@ -47250,18 +47252,18 @@
     "image": "Keris.png",
     "variants": [
       {
-        "id": "c0a2088f09ca",
+        "id": "14bb86ae069c",
         "name": "Keris",
         "image": "Keris.png",
         "variantName": null,
         "recipe": {
-          "id": "9ff0bd87575d",
+          "id": "1a01808c8249",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
-              "itemId": "adamant-bar",
+              "itemId": "adamantite-bar",
               "quantity": 8
             },
             {
@@ -55945,26 +55947,6 @@
     "stackLimit": 999
   },
   {
-    "id": "metal-salvage",
-    "name": "Metal Salvage",
-    "image": "Metal Salvage.png",
-    "variants": [
-      {
-        "id": "metal-salvage",
-        "name": "Metal Salvage",
-        "image": "Metal Salvage.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Metal_Salvage",
-    "weight": 0,
-    "stackLimit": 0
-  },
-  {
     "id": "aetheric-fundamentals-a-primordial-primer",
     "name": "Aetheric Fundamentals, a Primordial Primer",
     "image": "Aetheric Fundamentals, a Primordial Primer.png",
@@ -56182,106 +56164,6 @@
     "wikiLink": "Bronze_Salvage_Pile",
     "weight": 1,
     "stackLimit": 99
-  },
-  {
-    "id": "leather-salvage",
-    "name": "Leather Salvage",
-    "image": "Leather Salvage.png",
-    "variants": [
-      {
-        "id": "leather-salvage",
-        "name": "Leather Salvage",
-        "image": "Leather Salvage.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Leather_Salvage",
-    "weight": 0,
-    "stackLimit": 0
-  },
-  {
-    "id": "textile-salvage",
-    "name": "Textile Salvage",
-    "image": "Textile Salvage.png",
-    "variants": [
-      {
-        "id": "textile-salvage",
-        "name": "Textile Salvage",
-        "image": "Textile Salvage.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Textile_Salvage",
-    "weight": 0,
-    "stackLimit": 0
-  },
-  {
-    "id": "misc-salvage",
-    "name": "Misc. Salvage",
-    "image": "Misc. Salvage.png",
-    "variants": [
-      {
-        "id": "misc-salvage",
-        "name": "Misc. Salvage",
-        "image": "Misc. Salvage.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Misc._Salvage",
-    "weight": 0,
-    "stackLimit": 0
-  },
-  {
-    "id": "plant-salvage",
-    "name": "Plant Salvage",
-    "image": "Plant Salvage.png",
-    "variants": [
-      {
-        "id": "plant-salvage",
-        "name": "Plant Salvage",
-        "image": "Plant Salvage.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Plant_Salvage",
-    "weight": 0,
-    "stackLimit": 0
-  },
-  {
-    "id": "potion-salvage",
-    "name": "Potion Salvage",
-    "image": "Potion Salvage.png",
-    "variants": [
-      {
-        "id": "potion-salvage",
-        "name": "Potion Salvage",
-        "image": "Potion Salvage.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Potion_Salvage",
-    "weight": 0,
-    "stackLimit": 0
   },
   {
     "id": "food-drink-salvage",
@@ -58915,14 +58797,14 @@
     "stackLimit": 99
   },
   {
-    "id": "adamant-ore",
-    "name": "Adamant Ore",
-    "image": "Adamant Ore.png",
+    "id": "adamantite-ore",
+    "name": "Adamantite Ore",
+    "image": "Adamantite Ore.png",
     "variants": [
       {
-        "id": "adamant-ore",
-        "name": "Adamant Ore",
-        "image": "Adamant Ore.png",
+        "id": "adamantite-ore",
+        "name": "Adamantite Ore",
+        "image": "Adamantite Ore.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -58930,8 +58812,8 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Adamant_Ore",
-    "weight": 0,
+    "wikiLink": "Adamantite_Ore",
+    "weight": 3.6,
     "stackLimit": 99
   },
   {
@@ -59851,26 +59733,6 @@
     "stackLimit": 99
   },
   {
-    "id": "artifact-salvage",
-    "name": "Artifact Salvage",
-    "image": "Artifact  Salvage.png",
-    "variants": [
-      {
-        "id": "artifact-salvage",
-        "name": "Artifact Salvage",
-        "image": "Artifact  Salvage.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Artifact_Salvage",
-    "weight": 0,
-    "stackLimit": 0
-  },
-  {
     "id": "sun-bleached-vest",
     "name": "Sun-Bleached Vest",
     "image": "Sun-Bleached Vest.png",
@@ -59927,6 +59789,26 @@
     "wikiLink": "Commemorative_Coin",
     "weight": 0,
     "stackLimit": 99
+  },
+  {
+    "id": "moon-garou-pack",
+    "name": "Moon Garou Pack",
+    "image": "Moon Garou Pack.png",
+    "variants": [
+      {
+        "id": "moon-garou-pack",
+        "name": "Moon Garou Pack",
+        "image": "Moon Garou Pack.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Moon_Garou_Pack",
+    "weight": 1,
+    "stackLimit": 10
   },
   {
     "id": "shattered-black-blade-umbral-sands",
@@ -60167,12 +60049,12 @@
   {
     "id": "mount-grassfoot-screecher",
     "name": "MOUNT: Grassfoot Screecher",
-    "image": "MOUNT: Grassfoot Screecher.png",
+    "image": "Grassfoot_Screecher.webp",
     "variants": [
       {
         "id": "mount-grassfoot-screecher",
         "name": "MOUNT: Grassfoot Screecher",
-        "image": "MOUNT: Grassfoot Screecher.png",
+        "image": "Grassfoot_Screecher.webp",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -60385,6 +60267,26 @@
     "stackLimit": 50
   },
   {
+    "id": "icthlarian-fetish",
+    "name": "Icthlarian Fetish",
+    "image": "Icthlarian Fetish.png",
+    "variants": [
+      {
+        "id": "icthlarian-fetish",
+        "name": "Icthlarian Fetish",
+        "image": "Icthlarian Fetish.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Icthlarian_Fetish",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
     "id": "crucible-engram-of-betrayal",
     "name": "Crucible Engram of Betrayal",
     "image": "Crucible Engram of Betrayal.png",
@@ -60444,12 +60346,12 @@
   {
     "id": "mount-springdown-runner",
     "name": "MOUNT: Springdown Runner",
-    "image": "MOUNT: Springdown Runner.png",
+    "image": "Springdown_Runner.webp",
     "variants": [
       {
         "id": "mount-springdown-runner",
         "name": "MOUNT: Springdown Runner",
-        "image": "MOUNT: Springdown Runner.png",
+        "image": "Springdown_Runner.webp",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
