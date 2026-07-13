@@ -74,13 +74,15 @@ export default function FilterSelectMultipleMaterial({ column, table }: Props) {
 														}}
 													/>
 													<div className="h-5 w-5 shrink-0 mr-1 overflow-hidden">
-														<img
-															src={createImageUrlPath(value.image)}
-															alt={value.name}
-															width={120}
-															height={120}
-															className="shrink-0"
-														/>
+														{value.image ? (
+															<img
+																src={createImageUrlPath(value.image)}
+																alt={value.name}
+																width={120}
+																height={120}
+																className="shrink-0"
+															/>
+														) : null}
 													</div>
 													<div className="grow">{value.name}</div>
 													<div className="font-semibold">{value.amount}</div>
