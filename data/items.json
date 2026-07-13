@@ -16019,7 +16019,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "PLAN: Stacked Wooden Crates"
+        ]
       }
     ],
     "skills": [
@@ -42349,7 +42351,9 @@
           ],
           "quantity": 1
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "PLAN: Sealed Wooden Crate"
+        ]
       }
     ],
     "skills": [
@@ -60633,6 +60637,46 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Extinguished_Red_Remnants",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "plan-sealed-wooden-crate",
+    "name": "PLAN: Sealed Wooden Crate",
+    "image": "PLAN- Sealed Wooden Crate.png",
+    "variants": [
+      {
+        "id": "plan-sealed-wooden-crate",
+        "name": "PLAN: Sealed Wooden Crate",
+        "image": "PLAN- Sealed Wooden Crate.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Sealed_Wooden_Crate",
+    "weight": 0,
+    "stackLimit": 99
+  },
+  {
+    "id": "plan-stacked-wooden-crates",
+    "name": "PLAN: Stacked Wooden Crates",
+    "image": "PLAN- Stacked Wooden Crates.png",
+    "variants": [
+      {
+        "id": "plan-stacked-wooden-crates",
+        "name": "PLAN: Stacked Wooden Crates",
+        "image": "PLAN- Stacked Wooden Crates.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Stacked_Wooden_Crates",
     "weight": 0,
     "stackLimit": 99
   }

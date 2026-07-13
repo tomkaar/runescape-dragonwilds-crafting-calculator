@@ -26320,10 +26320,14 @@
     "uses_skill": [
       "Construction"
     ],
+    "uses_recipe": [
+      "PLAN: Stacked Wooden Crates"
+    ],
     "uses_facility": [
       "Build Menu"
     ],
     "json": {
+      "recipe": "PLAN: Stacked Wooden Crates",
       "facility": "Build Menu",
       "materials": [
         {
@@ -64934,10 +64938,14 @@
     "uses_skill": [
       "Construction"
     ],
+    "uses_recipe": [
+      "PLAN: Sealed Wooden Crate"
+    ],
     "uses_facility": [
       "Build Menu"
     ],
     "json": {
+      "recipe": "PLAN: Sealed Wooden Crate",
       "facility": "Build Menu",
       "materials": [
         {

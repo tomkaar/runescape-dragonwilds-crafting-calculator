@@ -19563,13 +19563,13 @@
     "json": {
       "type": "Ranged Weapon",
       "description": "An impactful longbow carved from yew.",
-      "repaircost": "?",
+      "repaircost": "3 Yew Logs",
       "image": "[[File:Yew Longbow.png|32px]]",
       "name": "Yew Longbow",
       "weight": "15",
       "image_raw": "Yew Longbow.png"
     },
-    "item_repair": "?",
+    "item_repair": "3 Yew Logs",
     "item_weight": 15
   },
   {
@@ -19581,13 +19581,13 @@
     "json": {
       "type": "Ranged Weapon",
       "description": "A strong shortbow made from yew.",
-      "repaircost": "?",
+      "repaircost": "2 Yew Logs",
       "image": "[[File:Yew Shortbow.png|32px]]",
       "name": "Yew Shortbow",
       "weight": "10",
       "image_raw": "Yew Shortbow.png"
     },
-    "item_repair": "?",
+    "item_repair": "2 Yew Logs",
     "item_weight": 10
   },
   {
@@ -22151,5 +22151,41 @@
     },
     "item_weight": 0,
     "page_name_sub": "Extinguished Red Remnants"
+  },
+  {
+    "page_name": "PLAN: Sealed Wooden Crate",
+    "item_description": "",
+    "item_name": "PLAN: Sealed Wooden Crate",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN- Sealed Wooden Crate.png|32px]]",
+      "name": "PLAN: Sealed Wooden Crate",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "PLAN- Sealed Wooden Crate.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Sealed Wooden Crate"
+  },
+  {
+    "page_name": "PLAN: Stacked Wooden Crates",
+    "item_description": "",
+    "item_name": "PLAN: Stacked Wooden Crates",
+    "item_type": "Consumable",
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN- Stacked Wooden Crates.png|32px]]",
+      "name": "PLAN: Stacked Wooden Crates",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "PLAN- Stacked Wooden Crates.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Stacked Wooden Crates"
   }
 ]
