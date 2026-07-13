@@ -32,6 +32,7 @@ export default function Filter({
 }: Props) {
 	const [sheetOpen, setSheetOpen] = useState(false);
 
+	const numberOfItems = table.getFilteredRowModel().rows.length;
 	const defaultValue = columnFilters.map((filter) => filter.id);
 
 	function resetFilters() {
@@ -42,7 +43,15 @@ export default function Filter({
 	return (
 		<div className="flex flex-col gap-4 min-w-68 pb-8 text-muted-foreground overflow-scroll h-full">
 			<div className="flex flex-row gap-2 w-full items-center justify-between px-4 py-2">
-				<h2 className="font-semibold">Filter</h2>
+				<div className="flex flex-col gap-0 justify-center">
+					<h2 className="text-accent-foreground font-semibold text-lg leading-5">
+						Filter
+					</h2>
+					<span className="text-muted-foreground text-xs leading-4">
+						{numberOfItems} item{numberOfItems !== 1 ? "s" : ""}
+					</span>
+				</div>
+
 				<div className="flex flex-row gap-2">
 					<Button variant="outline" onClick={resetFilters}>
 						Reset
