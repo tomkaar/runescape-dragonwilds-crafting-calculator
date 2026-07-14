@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { ProgressPage } from "@/components/Progress/ProgressPage";
+import { ProgressPage } from "@/features/crafting-progress/components/page";
 
 export const metadata: Metadata = {
 	title: "Progress | Dragonwilds Crafting Calculator",

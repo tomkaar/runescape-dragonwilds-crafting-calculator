@@ -39,7 +39,7 @@ type Props = {
 
 type ItemOption = { value: string; label: string; image: string | null };
 
-export function Steps({ allItems }: Props) {
+export function NextSteps({ allItems }: Props) {
 	const trackedItemIds = useTrackedItemIds(allItems);
 	const multipliers = useMaterialMultiplier((state) => state.items);
 	const owned = useMaterialOwned((state) => state.owned);

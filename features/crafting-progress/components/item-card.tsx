@@ -36,7 +36,7 @@ type Props = {
 	item: Item;
 };
 
-export function ProgressItemCard({ itemId, item }: Props) {
+export function ItemCard({ itemId, item }: Props) {
 	const clearMarkedMaterials = useSelectedMaterial(
 		(state) => state.clearMarkedMaterials,
 	);

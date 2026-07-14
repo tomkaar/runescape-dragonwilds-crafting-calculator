@@ -14,7 +14,7 @@ type Props = {
 	onCommit: (qty: number) => void;
 };
 
-export const OwnedMaterialRow = memo(function OwnedMaterialRow({
+export const CollectedMaterialsRow = memo(function CollectedMaterialsRow({
 	entry,
 	owned,
 	onCommit,

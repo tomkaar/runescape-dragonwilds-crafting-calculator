@@ -24,13 +24,13 @@ import { buildOwnedMaterials } from "@/features/crafting-progress/utils/owned-ma
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
 import { useSelectedMaterial } from "@/store/selected-material";
-import { OwnedMaterialRow } from "./OwnedMaterialRow";
+import { CollectedMaterialsRow } from "./collected-materials-row";
 
 type Props = {
 	trackedItemIds: string[];
 };
 
-export function ProgressOwnedMaterials({ trackedItemIds }: Props) {
+export function CollectedMaterials({ trackedItemIds }: Props) {
 	const allItems = useSelectedMaterial((state) => state.items);
 	const multipliers = useMaterialMultiplier((state) => state.items);
 	const markAsDoneByNodeId = useSelectedMaterial(
@@ -82,7 +82,7 @@ export function ProgressOwnedMaterials({ trackedItemIds }: Props) {
 					) : (
 						<div className="flex flex-col">
 							{rows.map((entry) => (
-								<OwnedMaterialRow
+								<CollectedMaterialsRow
 									key={entry.itemId}
 									entry={entry}
 									owned={owned[entry.itemId] ?? 0}
