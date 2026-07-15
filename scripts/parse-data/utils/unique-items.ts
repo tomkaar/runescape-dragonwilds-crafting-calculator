@@ -11,9 +11,6 @@ export function getUniqueItems(recipes: SourceRecipe[], items: SourceItem[]) {
 	});
 
 	items.forEach((item) => {
-		// if (["Consumable", "Vestige"].includes(item.item_type)) {
-		//   return;
-		// }
 		uniqueItems.add(item.page_name);
 	});
 

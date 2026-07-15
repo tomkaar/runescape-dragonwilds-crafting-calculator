@@ -31,7 +31,6 @@ export default function listItems(
 		const variantMap = new Map<string, ItemVariant>();
 		rawRecipes.forEach((recipeVariant) => {
 			const parsedVariant = resolveVariant(recipeVariant);
-			if (!parsedVariant) return;
 
 			const existingVariant = variantMap.get(parsedVariant.id);
 			if (!existingVariant) {
@@ -63,10 +62,7 @@ export default function listItems(
 
 		if (variants.length === 0) {
 			rawItems.forEach((itemVariant) => {
-				const parsedVariant = resolveItemVariant(itemVariant);
-				if (parsedVariant) {
-					variants.push(parsedVariant);
-				}
+				variants.push(resolveItemVariant(itemVariant));
 			});
 		}
 

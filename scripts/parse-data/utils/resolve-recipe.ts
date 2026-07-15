@@ -21,8 +21,8 @@ export function resolveRecipe(rawRecipe: SourceRecipe): Recipe {
 
 	const quantity =
 		typeof rawRecipe.json.output.quantity === "string"
-			? parseInt(rawRecipe.json.output.quantity, 10)
-			: 1;
+			? parseInt(rawRecipe.json.output.quantity, 10) || 1
+			: rawRecipe.json.output.quantity || 1;
 
 	const outputItemId = idFromName(
 		rawRecipe.json.output.item || rawRecipe.json.output.name,

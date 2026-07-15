@@ -5,7 +5,7 @@ import { resolveImage } from "./resolve-image";
 import { resolveRecipe } from "./resolve-recipe";
 import variantFromImage from "./variant-from-image";
 
-export function resolveVariant(rawRecipe: SourceRecipe): ItemVariant | null {
+export function resolveVariant(rawRecipe: SourceRecipe): ItemVariant {
 	const recipe = resolveRecipe(rawRecipe);
 	const variantName = variantFromImage(rawRecipe.json.output.image) || null;
 
