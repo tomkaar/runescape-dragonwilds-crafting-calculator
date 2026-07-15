@@ -153,6 +153,7 @@
     ],
     "wikiLink": "Rat_Roast",
     "weight": 1,
+    "health": 20,
     "stackLimit": 99
   },
   {
@@ -1608,6 +1609,7 @@
     ],
     "wikiLink": "Grilled_Mushrooms",
     "weight": 0.4,
+    "health": 20,
     "stackLimit": 99
   },
   {
@@ -3713,6 +3715,7 @@
     ],
     "wikiLink": "Baked_Potato",
     "weight": 0.4,
+    "health": 20,
     "stackLimit": 99
   },
   {
@@ -4570,6 +4573,7 @@
     ],
     "wikiLink": "Dried_Redberries",
     "weight": 0.1,
+    "health": 20,
     "stackLimit": 99
   },
   {
@@ -4606,6 +4610,7 @@
     ],
     "wikiLink": "Fried_Cabbage",
     "weight": 0.4,
+    "health": 20,
     "stackLimit": 99
   },
   {
@@ -7034,6 +7039,7 @@
     ],
     "wikiLink": "Dried_Dwellberries",
     "weight": 0.1,
+    "health": 20,
     "stackLimit": 99
   },
   {
@@ -7106,6 +7112,7 @@
     ],
     "wikiLink": "Fillet",
     "weight": 1,
+    "health": 20,
     "stackLimit": 99
   },
   {
@@ -7144,6 +7151,7 @@
     ],
     "wikiLink": "Flank_Steak",
     "weight": 1,
+    "health": 30,
     "stackLimit": 99
   },
   {
@@ -7276,6 +7284,7 @@
     ],
     "wikiLink": "Fried_Onions",
     "weight": 0.4,
+    "health": 20,
     "stackLimit": 99
   },
   {
@@ -7312,6 +7321,7 @@
     ],
     "wikiLink": "Haunch",
     "weight": 1,
+    "health": 30,
     "stackLimit": 99
   },
   {
@@ -7529,6 +7539,7 @@
     ],
     "wikiLink": "Steak",
     "weight": 1,
+    "health": 30,
     "stackLimit": 99
   },
   {
@@ -19752,26 +19763,22 @@
     "image": "Ash Chest.png",
     "variants": [
       {
-        "id": "890f574cdbc0",
+        "id": "61c341735897",
         "name": "Ash Chest",
         "image": "Ash Chest.png",
         "variantName": null,
         "recipe": {
-          "id": "226823b17e4d",
+          "id": "45f0b3b8c76c",
           "facilities": [
             "Build Menu"
           ],
           "materials": [
             {
               "itemId": "ash-logs",
-              "quantity": 10
+              "quantity": 16
             },
             {
               "itemId": "coarse-thread",
-              "quantity": 4
-            },
-            {
-              "itemId": "swamp-tar",
               "quantity": 2
             }
           ],
@@ -22608,6 +22615,7 @@
     ],
     "wikiLink": "Fried_Egg",
     "weight": 0.4,
+    "health": 20,
     "stackLimit": 99
   },
   {
@@ -22823,8 +22831,9 @@
       "Campfire"
     ],
     "wikiLink": "Dried_Peach",
-    "weight": 0.2,
-    "stackLimit": 0
+    "weight": 0.1,
+    "health": 20,
+    "stackLimit": 99
   },
   {
     "id": "roast-dinner",
@@ -27862,6 +27871,7 @@
     ],
     "wikiLink": "Bread",
     "weight": 1,
+    "health": 20,
     "stackLimit": 50
   },
   {
@@ -27985,6 +27995,7 @@
     ],
     "wikiLink": "Cauterised_Undead_Steak",
     "weight": 1,
+    "health": 2,
     "stackLimit": 50
   },
   {
@@ -28252,6 +28263,7 @@
     ],
     "wikiLink": "Dried_Cadavaberries",
     "weight": 0.1,
+    "health": 20,
     "stackLimit": 99
   },
   {
@@ -29874,6 +29886,7 @@
     ],
     "wikiLink": "Watermelon_Jerky",
     "weight": 1,
+    "health": 20,
     "stackLimit": 50
   },
   {
@@ -30388,6 +30401,7 @@
     ],
     "wikiLink": "Grilled_Tomatoes",
     "weight": 1,
+    "health": 20,
     "stackLimit": 50
   },
   {
@@ -32552,6 +32566,7 @@
     ],
     "wikiLink": "Maple_Syrup",
     "weight": 1,
+    "health": 20,
     "stackLimit": 50
   },
   {
@@ -38093,6 +38108,7 @@
     ],
     "wikiLink": "Victoria_Sponge_Cake",
     "weight": 0.4,
+    "health": 50,
     "stackLimit": 99
   },
   {
@@ -45232,18 +45248,26 @@
     "image": "Adamant Arrow.png",
     "variants": [
       {
-        "id": "d674631caa71",
+        "id": "0b9d6aba12d5",
         "name": "Adamant Arrow",
         "image": "Adamant Arrow.png",
         "variantName": null,
         "recipe": {
-          "id": "760c7a20e324",
+          "id": "d81ba6d8655b",
           "facilities": [
             "Fletching Bench"
           ],
           "materials": [
             {
               "itemId": "adamant-bar",
+              "quantity": 1
+            },
+            {
+              "itemId": "feathers",
+              "quantity": 1
+            },
+            {
+              "itemId": "yew-logs",
               "quantity": 1
             }
           ],
@@ -45268,12 +45292,12 @@
     "image": "Adamant Barbed Arrow.png",
     "variants": [
       {
-        "id": "2576e597fb66",
+        "id": "1b0ce908fc85",
         "name": "Adamant Barbed Arrow",
         "image": "Adamant Barbed Arrow.png",
         "variantName": null,
         "recipe": {
-          "id": "7ef4bf8c49fe",
+          "id": "3322479c9dc8",
           "facilities": [
             "Fletching Bench"
           ],
@@ -45281,6 +45305,10 @@
             {
               "itemId": "adamant-arrow",
               "quantity": 33
+            },
+            {
+              "itemId": "weapon-barbs",
+              "quantity": 1
             }
           ],
           "quantity": 33
@@ -45304,12 +45332,12 @@
     "image": "Poisoned Adamant Arrow.png",
     "variants": [
       {
-        "id": "d6d5482923b0",
+        "id": "b04059e685f3",
         "name": "Poisoned Adamant Arrow",
         "image": "Poisoned Adamant Arrow.png",
         "variantName": null,
         "recipe": {
-          "id": "551a2ac82b92",
+          "id": "a295aa2ffe01",
           "facilities": [
             "Fletching Bench"
           ],
@@ -45317,6 +45345,10 @@
             {
               "itemId": "adamant-arrow",
               "quantity": 33
+            },
+            {
+              "itemId": "weapon-poison",
+              "quantity": 1
             }
           ],
           "quantity": 33
@@ -45340,12 +45372,12 @@
     "image": "Adamant Fire Arrow.png",
     "variants": [
       {
-        "id": "8dd1d7d3b18e",
+        "id": "5841b359822d",
         "name": "Adamant Fire Arrow",
         "image": "Adamant Fire Arrow.png",
         "variantName": null,
         "recipe": {
-          "id": "e886fd016570",
+          "id": "3cfbe418d770",
           "facilities": [
             "Fletching Bench"
           ],
@@ -45353,6 +45385,10 @@
             {
               "itemId": "adamant-arrow",
               "quantity": 33
+            },
+            {
+              "itemId": "fire-oil",
+              "quantity": 1
             }
           ],
           "quantity": 33
@@ -46242,6 +46278,7 @@
     ],
     "wikiLink": "Beltfish_Broth",
     "weight": 1.1,
+    "health": 130,
     "stackLimit": 99
   },
   {
@@ -47569,38 +47606,6 @@
       "Armour Bench"
     ],
     "wikiLink": "Purple_Desert_Cape",
-    "weight": 0
-  },
-  {
-    "id": "red-desert-cape",
-    "name": "Red Desert Cape",
-    "image": "Red Desert Cape.png",
-    "variants": [
-      {
-        "id": "1cad44ab9ce1",
-        "name": "Red Desert Cape",
-        "image": "Red Desert Cape.png",
-        "variantName": null,
-        "recipe": {
-          "id": "2b708757d832",
-          "facilities": [
-            "Armour Bench"
-          ],
-          "materials": [],
-          "quantity": 1
-        },
-        "usesRecipe": [
-          "Red Memory of Menaphos"
-        ]
-      }
-    ],
-    "skills": [
-      "Artisan"
-    ],
-    "facilities": [
-      "Armour Bench"
-    ],
-    "wikiLink": "Red_Desert_Cape",
     "weight": 0
   },
   {
@@ -58566,6 +58571,26 @@
     "stackLimit": 99
   },
   {
+    "id": "mount-magic-carpet",
+    "name": "MOUNT: Magic Carpet",
+    "image": "Magic Carpet.png",
+    "variants": [
+      {
+        "id": "mount-magic-carpet",
+        "name": "MOUNT: Magic Carpet",
+        "image": "Magic Carpet.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Magic_Carpet",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
     "id": "corroded-jewellery",
     "name": "Corroded Jewellery",
     "image": "Corroded Jewellery.png",
@@ -59555,6 +59580,25 @@
     "wikiLink": "Plate_of_Pure_Obsidian",
     "weight": 0,
     "stackLimit": 99
+  },
+  {
+    "id": "red-desert-cape",
+    "name": "Red Desert Cape",
+    "image": "Red Desert Cape.png",
+    "variants": [
+      {
+        "id": "red-desert-cape",
+        "name": "Red Desert Cape",
+        "image": "Red Desert Cape.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Red_Desert_Cape",
+    "weight": 0
   },
   {
     "id": "black-memory-of-menaphos",
@@ -60679,5 +60723,45 @@
     "wikiLink": "PLAN:_Stacked_Wooden_Crates",
     "weight": 0,
     "stackLimit": 99
+  },
+  {
+    "id": "mount-scorchweave-rug",
+    "name": "MOUNT: Scorchweave Rug",
+    "image": "Scorchweave Rug.png",
+    "variants": [
+      {
+        "id": "mount-scorchweave-rug",
+        "name": "MOUNT: Scorchweave Rug",
+        "image": "Scorchweave Rug.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Scorchweave_Rug",
+    "weight": 0,
+    "stackLimit": 50
+  },
+  {
+    "id": "mount-terrorbird",
+    "name": "MOUNT: Terrorbird",
+    "image": "Terrorbird.png",
+    "variants": [
+      {
+        "id": "mount-terrorbird",
+        "name": "MOUNT: Terrorbird",
+        "image": "Terrorbird.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Terrorbird",
+    "weight": 0,
+    "stackLimit": 50
   }
 ]

@@ -7,7 +7,6 @@ export interface SourceItem {
 	json: SourceItemJson;
 	item_weight: number;
 	page_name_sub: string;
-	item_repair?: string;
 }
 
 interface SourceItemJson {
