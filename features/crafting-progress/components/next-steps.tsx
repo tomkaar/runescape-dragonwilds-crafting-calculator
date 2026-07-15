@@ -2,7 +2,7 @@
 
 import { TriangleAlert } from "lucide-react";
 import { useMemo } from "react";
-import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
+import { AccordionPersisted } from "@/components/accordion-persisted";
 import {
 	AccordionContent,
 	AccordionItem,

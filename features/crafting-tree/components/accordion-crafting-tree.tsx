@@ -4,9 +4,9 @@ import {
 	AccordionItem,
 	AccordionTrigger,
 } from "@/components/ui/accordion";
-import { CraftingTree } from "@/features/crafting-tree/components/crafting-tree";
-import { ClearSelected } from "../../../features/crafting-tree/components/actions/clear-selected";
-import { Direction } from "../../../features/crafting-tree/components/actions/direction";
+import { ClearSelected } from "./actions/clear-selected";
+import { Direction } from "./actions/direction";
+import { CraftingTree } from "./crafting-tree";
 
 export function AccordionCraftingTree({ itemId }: { itemId: string }) {
 	return (

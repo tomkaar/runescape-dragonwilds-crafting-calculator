@@ -1,6 +1,6 @@
 "use client";
 
-import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
+import { AccordionPersisted } from "@/components/accordion-persisted";
 import {
 	AccordionContent,
 	AccordionItem,

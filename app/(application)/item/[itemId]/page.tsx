@@ -1,15 +1,15 @@
 import { Panel } from "@xyflow/react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
-import { ItemInfoBox } from "@/components/Items/InfoBox/InfoBox";
+import { AccordionPersisted } from "@/components/accordion-persisted";
+import { AccordionCraftingTree } from "@/features/crafting-tree/components/accordion-crafting-tree";
+import { ClearSelected } from "@/features/crafting-tree/components/actions/clear-selected";
+import { Direction } from "@/features/crafting-tree/components/actions/direction";
 import { CraftingTree } from "@/features/crafting-tree/components/crafting-tree";
+import { ItemInfoBox } from "@/features/item-detail/components/item-info-box";
 import { AccordionMaterials } from "@/features/material-tree/components/accordion-materials";
 import { AccordionUsedIn } from "@/features/used-in/components/used-in";
 import { sourceItemById } from "@/utils/source-item-by-id";
-import { AccordionCraftingTree } from "../../../../components/Items/CraftingTree/CraftingTree";
-import { ClearSelected } from "../../../../features/crafting-tree/components/actions/clear-selected";
-import { Direction } from "../../../../features/crafting-tree/components/actions/direction";
 
 type Props = {
 	params: Promise<{ itemId: string }>;

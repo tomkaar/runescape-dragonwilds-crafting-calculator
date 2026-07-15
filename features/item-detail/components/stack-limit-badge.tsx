@@ -1,11 +1,11 @@
 import { Layers } from "lucide-react";
-import { Badge } from "../../ui/badge";
+import { Badge } from "@/components/ui/badge";
 import {
 	Tooltip,
 	TooltipContent,
 	TooltipProvider,
 	TooltipTrigger,
-} from "../../ui/tooltip";
+} from "@/components/ui/tooltip";
 
 type Props = {
 	stackLimit: number | undefined;

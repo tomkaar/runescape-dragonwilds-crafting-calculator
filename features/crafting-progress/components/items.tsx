@@ -1,4 +1,4 @@
-import { AccordionPersisted } from "@/components/Items/AccordionPersisted";
+import { AccordionPersisted } from "@/components/accordion-persisted";
 import { ItemCard } from "@/features/crafting-progress/components/item-card";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { sourceItemById } from "@/utils/source-item-by-id";

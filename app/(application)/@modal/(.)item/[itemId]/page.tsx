@@ -1,19 +1,15 @@
-import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { HealthBadge } from "@/components/Items/InfoBox/HealthBadge";
-import { StackLimitBadge } from "@/components/Items/InfoBox/StackLimitBadge";
-import { WeightBadge } from "@/components/Items/InfoBox/WeightBadge";
-import { MultiplierInput } from "@/components/Items/MultiplierInput";
-import { ItemQuickView } from "@/components/Items/QuickView/ItemQuickView";
 import { Badge } from "@/components/ui/badge";
 import { resolveItemTree } from "@/domain/crafting/utils/resolve-item-tree";
 import { resolveUniqueFacilitiesFromItemTree } from "@/domain/crafting/utils/resolve-unique-facilities-from-item-tree";
-import { Favourite } from "@/features/favourites/components/favourite-button";
+import { ItemAttributeBadges } from "@/features/item-detail/components/item-attribute-badges";
+import { ItemHeader } from "@/features/item-detail/components/item-header";
+import { ItemQuickView } from "@/features/item-detail/components/item-quick-view";
+import { MultiplierInput } from "@/features/material-tree/components/multiplier-input";
 import { RequiredMaterialsContent } from "@/features/material-tree/components/required-materials-content";
 import { UsedInList } from "@/features/used-in/components/used-in-list";
 import { getUsedIn } from "@/features/used-in/utils/get-used-in";
-import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import type { Facility } from "@/Types";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import { sourceItemById } from "@/utils/source-item-by-id";
@@ -38,44 +34,17 @@ export default async function InterceptedItemModal(props: Props) {
 	return (
 		<ItemQuickView itemName={item.name}>
 			<div>
-				<div className="flex flex-row gap-4 items-center pr-2">
-					<div className="flex flex-row items-center gap-2">
-						{item.image && (
-							<img
-								src={createImageUrlPath(item.image, 64)}
-								alt={item.name}
-								width={40}
-								height={40}
-							/>
-						)}
-						<h2 className="text-white font-bold">{item.name}</h2>
-					</div>
-					<Favourite itemId={itemId} />
-				</div>
+				<ItemHeader item={item} itemId={itemId} />
 
 				<div className="flex flex-row flex-wrap gap-2 mt-2">
-					{item.wikiLink && (
-						<Badge asChild variant="outline" className="text-sm">
-							<Link
-								href={{
-									pathname: `https://dragonwilds.runescape.wiki/w/${item.wikiLink}`,
-								}}
-								prefetch={false}
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								Wiki
-								<ArrowUpRight width={12} height={12} data-icon="inline-end" />
-							</Link>
-						</Badge>
-					)}
-					<Badge asChild variant="outline" className="text-sm">
-						<a href={`/item/${itemId}`}>View full crafting tree</a>
-					</Badge>
-
-					<WeightBadge weight={item.weight} />
-					<HealthBadge health={item.health} />
-					<StackLimitBadge stackLimit={item.stackLimit} />
+					<ItemAttributeBadges
+						item={item}
+						afterWiki={
+							<Badge asChild variant="outline" className="text-sm">
+								<a href={`/item/${itemId}`}>View full crafting tree</a>
+							</Badge>
+						}
+					/>
 				</div>
 
 				{uniqueFacilities.length > 0 && (
