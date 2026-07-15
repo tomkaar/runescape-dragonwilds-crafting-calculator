@@ -27350,7 +27350,7 @@
         "recipe": {
           "id": "d146360eae68",
           "facilities": [
-            "Blacksmith Bench"
+            "Blacksmith's Bench"
           ],
           "materials": [
             {
@@ -27375,7 +27375,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Blacksmith Bench"
+      "Blacksmith's Bench"
     ],
     "wikiLink": "Fuel_Pellet",
     "weight": 1,
