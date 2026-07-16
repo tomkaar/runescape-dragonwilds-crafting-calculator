@@ -11,7 +11,7 @@ type CraftingTreeDirectionStore = {
 export const useCraftingTreeDirection = create<CraftingTreeDirectionStore>()(
 	persist(
 		(set) => ({
-			direction: "LR",
+			direction: "TB",
 			setDirection: (direction: "TB" | "LR") => set({ direction }),
 		}),
 		{
