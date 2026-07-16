@@ -1,4 +1,5 @@
-import { BaseEdge, type EdgeProps, getBezierPath } from "@xyflow/react";
+import { BaseEdge, type EdgeProps, getSmoothStepPath } from "@xyflow/react";
+import { useCraftingTreeHover } from "@/features/crafting-tree/context/crafting-tree-hover";
 import type { Edge } from "@/features/crafting-tree/schemas/Edge";
 
 export default function DefaultEdge({
@@ -11,9 +12,13 @@ export default function DefaultEdge({
 	sourcePosition,
 	targetPosition,
 	selected,
+	target,
 	data,
 }: EdgeProps<Edge>) {
-	const [edgePath] = getBezierPath({
+	const { check, isSet } = useCraftingTreeHover();
+	const isHovered = check(target);
+
+	const [edgePath] = getSmoothStepPath({
 		sourceX,
 		sourceY,
 		sourcePosition,
@@ -27,14 +32,14 @@ export default function DefaultEdge({
 		: selected
 			? "#777"
 			: "#888";
-	const strokeDasharray = data.highlighted ? "3.1" : "0";
 
 	return (
 		<BaseEdge
 			id={id}
 			path={edgePath}
-			style={{ stroke, strokeDasharray }}
+			style={{ stroke, opacity: isSet && !isHovered ? 0.25 : 1 }}
 			label={label}
+			className="edge-animated"
 		/>
 	);
 }

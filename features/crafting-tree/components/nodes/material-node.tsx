@@ -1,6 +1,7 @@
 "use client";
 
 import { Handle, type NodeProps, Position } from "@xyflow/react";
+import { ArrowBigLeftIcon, ArrowBigUpIcon } from "lucide-react";
 import { forwardRef } from "react";
 import { Facilities } from "@/features/crafting-tree/components/nodes/facilities";
 import { NodeDropdownMenu } from "@/features/crafting-tree/components/nodes/node-dropdown-menu";
@@ -76,7 +77,24 @@ const MaterialNode = forwardRef<HTMLDivElement, NodeProps<MaterialNodeType>>(
 						position={direction === "LR" ? Position.Right : Position.Bottom}
 						draggable={false}
 						isConnectable={false}
-					/>
+						className="handle-border relative bg-none border-none w-4 h-4"
+					>
+						{direction === "LR" ? (
+							<ArrowBigLeftIcon
+								size={16}
+								color="#777"
+								fill="#777"
+								className="pointer-events-none relative -translate-y-1/2 -left-1.5"
+							/>
+						) : (
+							<ArrowBigUpIcon
+								size={16}
+								color="#777"
+								fill="#777"
+								className="pointer-events-none relative w-4 h-4 -left-1.25 -top-1.25"
+							/>
+						)}
+					</Handle>
 				)}
 			</div>
 		);

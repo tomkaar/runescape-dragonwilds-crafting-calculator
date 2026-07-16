@@ -184,6 +184,25 @@ body {
 	background-size: 20px 20px;
 }
 
+.react-flow__handle-right.handle-border {
+	width: 0px !important;
+	min-width: 0px !important;
+	height: 0px !important;
+	min-height: 0px !important;
+	border: 0px solid transparent !important;
+}
+.edge-animated {
+	stroke-dasharray: 5;
+	stroke-dashoffset: 0;
+	animation: dash 1s linear infinite;
+}
+
+@keyframes dash {
+	to {
+		stroke-dashoffset: 10;
+	}
+}
+
 /* Add cursor pointer to interactive elements */
 button,
 [role="button"],

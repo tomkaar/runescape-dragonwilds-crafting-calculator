@@ -57,7 +57,11 @@ export function CraftingTreeHoverProvider({ children }: Props): ReactElement {
 
 	const check = (nodeId: string) => {
 		if (!hoveredNodeId) return false;
-		return nodeId.startsWith(hoveredNodeId);
+		if (nodeId === hoveredNodeId) return true;
+		return (
+			nodeId.startsWith(`${hoveredNodeId}_`) ||
+			hoveredNodeId.startsWith(`${nodeId}_`)
+		);
 	};
 
 	return (
