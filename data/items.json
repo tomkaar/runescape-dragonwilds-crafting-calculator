@@ -47293,18 +47293,18 @@
     "image": "Keris.png",
     "variants": [
       {
-        "id": "14bb86ae069c",
+        "id": "c0a2088f09ca",
         "name": "Keris",
         "image": "Keris.png",
         "variantName": null,
         "recipe": {
-          "id": "1a01808c8249",
+          "id": "9ff0bd87575d",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
-              "itemId": "adamantite-bar",
+              "itemId": "adamant-bar",
               "quantity": 8
             },
             {
