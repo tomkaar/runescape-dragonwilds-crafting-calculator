@@ -72163,7 +72163,7 @@
   },
   {
     "uses_material": [
-      "Adamantite Bar",
+      "Adamant Bar",
       "Dragon Tooth",
       "Desert Thread",
       "Gypsum Wax"
@@ -72177,11 +72177,11 @@
       "materials": [
         {
           "quantity": "8",
-          "name": "Adamantite Bar",
-          "link": "Adamantite Bar",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
           "qty": "8",
-          "item": "Adamantite Bar",
-          "image": "[[File:Adamantite Bar.png|30px|link=Adamantite Bar]]"
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
         },
         {
           "quantity": "6",
