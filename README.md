@@ -33,10 +33,12 @@ pnpm fetch-data
 pnpm parse-data
 ```
 
-### 5. Start the development server:
+### 5. Start the development workflow
+
+This will start the development server and run tests in watch mode using mprocs.
 
 ```bash
-pnpm dev
+pnpm workflow
 ```
 
 ## Attribution
