@@ -2,11 +2,11 @@
 
 import { Handle, type NodeProps, Position } from "@xyflow/react";
 import { forwardRef } from "react";
-import { useCraftingTreeHover } from "@/context/crafting-tree-hover";
 import { Facilities } from "@/features/crafting-tree/components/nodes/facilities";
 import { NodeDropdownMenu } from "@/features/crafting-tree/components/nodes/node-dropdown-menu";
 import { NodeOverlayTags } from "@/features/crafting-tree/components/nodes/node-overlay-tags";
 import { NodeToggleButton } from "@/features/crafting-tree/components/nodes/node-toggle-button";
+import { useCraftingTreeHover } from "@/features/crafting-tree/context/crafting-tree-hover";
 import type { MaterialNode as MaterialNodeType } from "@/features/crafting-tree/schemas/Node";
 import { cn } from "@/lib/utils";
 import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";

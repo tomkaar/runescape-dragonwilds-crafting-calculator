@@ -2,10 +2,10 @@
 
 import { Handle, type NodeProps, Position } from "@xyflow/react";
 import { forwardRef } from "react";
-import { useCraftingTreeHover } from "@/context/crafting-tree-hover";
 import { NodeDropdownMenu } from "@/features/crafting-tree/components/nodes/node-dropdown-menu";
 import { NodeToggleButton } from "@/features/crafting-tree/components/nodes/node-toggle-button";
 import { RecipeCountBadge } from "@/features/crafting-tree/components/nodes/recipe-count-badge";
+import { useCraftingTreeHover } from "@/features/crafting-tree/context/crafting-tree-hover";
 import type { RecipeGroupNode as RecipeGroupNodeType } from "@/features/crafting-tree/schemas/Node";
 import { cn } from "@/lib/utils";
 import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";

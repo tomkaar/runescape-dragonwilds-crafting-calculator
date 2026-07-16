@@ -22,12 +22,28 @@ const Context = createContext<CraftingTreeHoverContext>({
 	isSet: false,
 });
 
-export const useCraftingTreeHover = () => useContext(Context);
+/**
+ * Hook to access the crafting tree hover context.
+ * @returns The crafting tree hover context.
+ * @throws Will throw an error if used outside of a CraftingTreeHoverProvider.
+ */
+export const useCraftingTreeHover = () => {
+	const c = useContext(Context);
+	if (!c) {
+		throw new Error(
+			"useCraftingTreeHover must be used within a CraftingTreeHoverProvider",
+		);
+	}
+	return c;
+};
 
 type Props = {
 	children: ReactNode;
 };
 
+/**
+ * Provides context for handling hover state within the crafting tree.
+ */
 export function CraftingTreeHoverProvider({ children }: Props): ReactElement {
 	const [hoveredNodeId, setHoveredNodeId] = useState<string | null>(null);
 

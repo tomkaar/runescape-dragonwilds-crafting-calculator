@@ -16,7 +16,7 @@ import {
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { FieldContent, FieldGroup, FieldLabel } from "@/components/ui/field";
-import { useCraftingTreeHover } from "@/context/crafting-tree-hover";
+import { useCraftingTreeHover } from "@/features/crafting-tree/context/crafting-tree-hover";
 import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { useSelectedMaterial } from "@/store/selected-material";
