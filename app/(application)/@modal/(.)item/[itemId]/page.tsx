@@ -30,6 +30,9 @@ export default async function InterceptedItemModal(props: Props) {
 	const usedIn = getUsedIn(itemId);
 	const itemTree = resolveItemTree(itemId);
 	const uniqueFacilities = resolveUniqueFacilitiesFromItemTree(itemTree);
+	const usesRecipes = Array.from(
+		new Set(item.variants.flatMap((v) => v.usesRecipe ?? [])),
+	);
 
 	return (
 		<ItemQuickView itemName={item.name}>
@@ -46,34 +49,59 @@ export default async function InterceptedItemModal(props: Props) {
 						}
 					/>
 				</div>
+			</div>
 
-				{uniqueFacilities.length > 0 && (
-					<div className="mt-2">
-						{uniqueFacilities.map((facility) => (
-							<Link
-								key={facility}
-								prefetch={false}
-								href={{
-									pathname: `/item`,
-									search: `?facility=${encodeURIComponent(facility as string)}`,
-								}}
-							>
-								<Badge variant="outline" className="text-sm">
-									{getFacilityIcon(facility as (typeof Facility)[number], 22)}
-									{facility}
-								</Badge>
-							</Link>
+			{uniqueFacilities.length > 0 && (
+				<div className="mt-2">
+					<h3 className="text-sm font-semibold text-foreground">
+						Required Facilities
+					</h3>
+					<span className="block mt-0.5 mb-4 text-xs text-foreground">
+						To craft this item, you must first unlock it by crafting the
+						following recipes
+					</span>
+
+					{uniqueFacilities.map((facility) => (
+						<Link
+							key={facility}
+							prefetch={false}
+							href={{
+								pathname: `/item`,
+								search: `?facility=${encodeURIComponent(facility as string)}`,
+							}}
+						>
+							<Badge variant="outline" className="text-sm">
+								{getFacilityIcon(facility as (typeof Facility)[number], 22)}
+								{facility}
+							</Badge>
+						</Link>
+					))}
+				</div>
+			)}
+
+			{usesRecipes.length > 0 && (
+				<div>
+					<h3 className="text-sm font-semibold text-foreground">Unlocked by</h3>
+					<span className="block mt-0.5 text-xs text-foreground">
+						To craft this item, you must first unlock it by crafting the
+						following recipes
+					</span>
+					<div className="mt-4">
+						{usesRecipes.map((recipeName) => (
+							<Badge key={recipeName} variant="outline" className="text-sm">
+								{recipeName}
+							</Badge>
 						))}
 					</div>
-				)}
-			</div>
+				</div>
+			)}
 
 			<div>
 				<h3 className="text-sm font-semibold text-foreground">Multiplier</h3>
-				<span className="relative -mt-2 text-xs text-foreground">
+				<span className="block mt-0.5 text-xs text-foreground">
 					How many of this item are needed for each craft
 				</span>
-				<div className="mt-1">
+				<div className="mt-4">
 					<MultiplierInput itemId={itemId} />
 				</div>
 			</div>
