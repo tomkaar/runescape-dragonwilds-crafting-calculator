@@ -1,38 +1,11 @@
 import { cache } from "react";
 import type { ResolvedItem } from "@/domain/crafting/types/resolved-item";
+import {
+	buildNodeId,
+	groupVariants,
+} from "@/domain/crafting/utils/group-variants";
 import { resolveItemTree } from "@/domain/crafting/utils/resolve-item-tree";
 import type { MaterialTreeItem } from "../types/material-tree";
-
-// Produces a path-based ID so the same item appearing at different positions
-// in the tree (e.g. coal as a child of iron-bar vs steel-bar) gets a unique key.
-function buildNodeId(
-	parentNodeId: string | null,
-	itemId: string,
-	variantSuffix: string | null = null,
-): string {
-	return [parentNodeId, itemId, variantSuffix]
-		.filter((p): p is string => p !== null)
-		.join("_");
-}
-
-// Groups consecutive ResolvedItems that belong to the same multi-variant item
-// so they can be rendered as a selector + variant pair.
-// Single-variant items are wrapped in a one-element array for uniform iteration.
-function groupVariants(items: ResolvedItem[]): ResolvedItem[][] {
-	return items.reduce<ResolvedItem[][]>((groups, item) => {
-		const last = groups[groups.length - 1];
-		if (
-			last &&
-			last[0].item.id === item.item.id &&
-			item.variantIndex !== null
-		) {
-			last.push(item);
-		} else {
-			groups.push([item]);
-		}
-		return groups;
-	}, []);
-}
 
 // Converts a flat list of ResolvedItems into a MaterialTreeItem hierarchy.
 // Multi-variant items produce a selector node whose children are the variant nodes,

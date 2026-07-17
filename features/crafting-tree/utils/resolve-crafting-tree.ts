@@ -1,5 +1,9 @@
 import { cache } from "react";
 import type { ResolvedItem } from "@/domain/crafting/types/resolved-item";
+import {
+	buildNodeId,
+	groupVariants,
+} from "@/domain/crafting/utils/group-variants";
 import { resolveItemTree } from "@/domain/crafting/utils/resolve-item-tree";
 import type { Edge } from "../schemas/Edge";
 import type { Node } from "../schemas/Node";
@@ -32,44 +36,6 @@ type ResolveCraftingTreeResult = {
 	nodes: Node[];
 	edges: Edge[];
 };
-
-/**
- * Builds a unique node ID for a given item in the crafting tree, based on its parent node ID, item ID, and optional variant suffix.
- * @param parentNodeId The ID of the parent node in the crafting tree. Can be null for root nodes.
- * @param itemId The ID of the item for which the node is being created.
- * @param variantSuffix An optional suffix to distinguish between different recipe variants of the same item.
- * @returns A unique string that serves as the node ID in the crafting tree.
- */
-function buildNodeId(
-	parentNodeId: string | null,
-	itemId: string,
-	variantSuffix: string | null = null,
-): string {
-	return [parentNodeId, itemId, variantSuffix]
-		.filter((p): p is string => p !== null)
-		.join("_");
-}
-
-/**
- * Groups consecutive ResolvedItems that belong to the same multi-variant item into
- * a single array, so they can be rendered as a selector + variant node pair.
- * Single-variant items are wrapped in a one-element array for uniform iteration.
- */
-function groupVariants(items: ResolvedItem[]): ResolvedItem[][] {
-	return items.reduce<ResolvedItem[][]>((groups, item) => {
-		const last = groups[groups.length - 1];
-		if (
-			last &&
-			last[0].item.id === item.item.id &&
-			item.variantIndex !== null
-		) {
-			last.push(item);
-		} else {
-			groups.push([item]);
-		}
-		return groups;
-	}, []);
-}
 
 /**
  * Converts a flat list of ResolvedItems into React Flow nodes and edges.
