@@ -1,5 +1,6 @@
 import { HomeIcon, ListIcon, MenuIcon, Scale } from "lucide-react";
 import Link from "next/link";
+import { GitHubMark } from "@/components/github-mark";
 import { Button } from "@/components/ui/button";
 import {
 	Sheet,
@@ -60,13 +61,7 @@ export function MobileNavMenu() {
 							rel="noopener noreferrer"
 							className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-card"
 						>
-							<img
-								src="/github.svg"
-								alt=""
-								width={16}
-								height={16}
-								className="invert"
-							/>
+							<GitHubMark size={16} />
 							GitHub
 						</a>
 					</nav>

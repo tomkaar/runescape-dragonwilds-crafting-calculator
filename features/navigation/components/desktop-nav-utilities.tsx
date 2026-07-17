@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GitHubMark } from "@/components/github-mark";
 import { AffirmationDialog } from "./affirmation-dialog";
 import { LastSynced } from "./last-synced";
 
@@ -14,13 +15,7 @@ export function DesktopNavUtilities() {
 				href="https://github.com/tomkaar/runescape-dragonwilds-crafting-calculator"
 				className="border border-border rounded-full p-1.5 size-9 flex items-center justify-center"
 			>
-				<img
-					src="/github.svg"
-					alt=""
-					width={20}
-					height={20}
-					className="invert"
-				/>
+				<GitHubMark size={20} />
 			</Link>
 		</div>
 	);
