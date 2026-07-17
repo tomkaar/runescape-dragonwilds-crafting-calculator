@@ -57,8 +57,7 @@ export default async function InterceptedItemModal(props: Props) {
 						Required Facilities
 					</h3>
 					<span className="block mt-0.5 mb-4 text-xs text-foreground">
-						To craft this item, you must first unlock it by crafting the
-						following recipes
+						To craft this item, you must first unlock the following facilities
 					</span>
 
 					{uniqueFacilities.map((facility) => (
