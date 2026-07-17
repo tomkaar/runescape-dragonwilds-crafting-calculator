@@ -32,7 +32,7 @@ export function CraftingFacilitiesPopover({ facilities }: Props) {
 							prefetch={false}
 							href={{
 								pathname: `/item`,
-								search: `?facility=${encodeURIComponent(facility)}`,
+								search: `?facilities=${encodeURIComponent(facility)}`,
 							}}
 							className="flex items-center gap-2 px-2 py-1.5 rounded text-sm hover:bg-secondary transition-colors"
 						>
