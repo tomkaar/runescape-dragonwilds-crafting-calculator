@@ -21005,11 +21005,11 @@
     "json": {
       "type": "Basic Item",
       "description": "Grants access to a visual mount variant",
-      "image": "[[File:Grassfoot_Screecher.webp|32px]]",
+      "image": "[[File:MOUNT: Grassfoot Screecher.png|32px]]",
       "name": "MOUNT: Grassfoot Screecher",
       "weight": "0.0",
       "stacklimit": "50",
-      "image_raw": "Grassfoot_Screecher.webp"
+      "image_raw": "MOUNT: Grassfoot Screecher.png"
     },
     "item_type": "Basic Item",
     "item_name": "MOUNT: Grassfoot Screecher"
@@ -21269,11 +21269,11 @@
     "json": {
       "type": "Basic Item",
       "description": "Grants access to a visual mount variant",
-      "image": "[[File:Springdown_Runner.webp|32px]]",
+      "image": "[[File:MOUNT: Springdown Runner.png|32px]]",
       "name": "MOUNT: Springdown Runner",
       "weight": "0.0",
       "stacklimit": "50",
-      "image_raw": "Springdown_Runner.webp"
+      "image_raw": "MOUNT: Springdown Runner.png"
     },
     "item_type": "Basic Item",
     "item_name": "MOUNT: Springdown Runner"

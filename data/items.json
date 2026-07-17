@@ -60097,12 +60097,12 @@
   {
     "id": "mount-grassfoot-screecher",
     "name": "MOUNT: Grassfoot Screecher",
-    "image": "Grassfoot_Screecher.webp",
+    "image": "MOUNT: Grassfoot Screecher.png",
     "variants": [
       {
         "id": "mount-grassfoot-screecher",
         "name": "MOUNT: Grassfoot Screecher",
-        "image": "Grassfoot_Screecher.webp",
+        "image": "MOUNT: Grassfoot Screecher.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -60394,12 +60394,12 @@
   {
     "id": "mount-springdown-runner",
     "name": "MOUNT: Springdown Runner",
-    "image": "Springdown_Runner.webp",
+    "image": "MOUNT: Springdown Runner.png",
     "variants": [
       {
         "id": "mount-springdown-runner",
         "name": "MOUNT: Springdown Runner",
-        "image": "Springdown_Runner.webp",
+        "image": "MOUNT: Springdown Runner.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
