@@ -2,22 +2,12 @@
 
 import { ChevronRight, Trash2 } from "lucide-react";
 import Link from "next/link";
+import { ConfirmAlertDialog } from "@/components/confirm-alert-dialog";
 import {
 	AccordionContent,
 	AccordionItem,
 	AccordionTrigger,
 } from "@/components/ui/accordion";
-import {
-	AlertDialog,
-	AlertDialogAction,
-	AlertDialogCancel,
-	AlertDialogContent,
-	AlertDialogDescription,
-	AlertDialogFooter,
-	AlertDialogHeader,
-	AlertDialogTitle,
-	AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";
 import {
 	InputGroup,
@@ -100,8 +90,8 @@ export function ItemCard({ itemId, item }: Props) {
 						/>
 						<InputGroupAddon align="inline-end">×</InputGroupAddon>
 					</InputGroup>
-					<AlertDialog>
-						<AlertDialogTrigger asChild>
+					<ConfirmAlertDialog
+						trigger={
 							<Button
 								variant="outline"
 								size="sm"
@@ -112,25 +102,12 @@ export function ItemCard({ itemId, item }: Props) {
 									Remove
 								</span>
 							</Button>
-						</AlertDialogTrigger>
-						<AlertDialogContent>
-							<AlertDialogHeader>
-								<AlertDialogTitle>
-									Remove {item.name} from progress?
-								</AlertDialogTitle>
-								<AlertDialogDescription>
-									This will clear all tracked materials for {item.name}. This
-									action cannot be undone.
-								</AlertDialogDescription>
-							</AlertDialogHeader>
-							<AlertDialogFooter>
-								<AlertDialogCancel>Cancel</AlertDialogCancel>
-								<AlertDialogAction onClick={() => clearMarkedMaterials(itemId)}>
-									Remove
-								</AlertDialogAction>
-							</AlertDialogFooter>
-						</AlertDialogContent>
-					</AlertDialog>
+						}
+						title={`Remove ${item.name} from progress?`}
+						description={`This will clear all tracked materials for ${item.name}. This action cannot be undone.`}
+						confirmLabel="Remove"
+						onConfirm={() => clearMarkedMaterials(itemId)}
+					/>
 				</div>
 
 				<RequiredMaterialsContent itemId={itemId} skipFirstLayer />

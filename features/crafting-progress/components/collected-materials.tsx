@@ -1,22 +1,12 @@
 "use client";
 
 import { AccordionPersisted } from "@/components/accordion-persisted";
+import { ConfirmAlertDialog } from "@/components/confirm-alert-dialog";
 import {
 	AccordionContent,
 	AccordionItem,
 	AccordionTrigger,
 } from "@/components/ui/accordion";
-import {
-	AlertDialog,
-	AlertDialogAction,
-	AlertDialogCancel,
-	AlertDialogContent,
-	AlertDialogDescription,
-	AlertDialogFooter,
-	AlertDialogHeader,
-	AlertDialogTitle,
-	AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";
 import type { OwnedMaterialEntry } from "@/features/crafting-progress/types/owned-material-entry";
 
@@ -90,8 +80,8 @@ export function CollectedMaterials({ trackedItemIds }: Props) {
 								/>
 							))}
 							<div className="mt-4">
-								<AlertDialog>
-									<AlertDialogTrigger asChild>
+								<ConfirmAlertDialog
+									trigger={
 										<Button
 											variant="outline"
 											size="sm"
@@ -101,23 +91,12 @@ export function CollectedMaterials({ trackedItemIds }: Props) {
 												Reset collected materials
 											</span>
 										</Button>
-									</AlertDialogTrigger>
-									<AlertDialogContent>
-										<AlertDialogHeader>
-											<AlertDialogTitle>Reset progress?</AlertDialogTitle>
-											<AlertDialogDescription>
-												This will clear all tracked materials for all items.
-												This action cannot be undone.
-											</AlertDialogDescription>
-										</AlertDialogHeader>
-										<AlertDialogFooter>
-											<AlertDialogCancel>Cancel</AlertDialogCancel>
-											<AlertDialogAction onClick={resetOwned}>
-												Remove
-											</AlertDialogAction>
-										</AlertDialogFooter>
-									</AlertDialogContent>
-								</AlertDialog>
+									}
+									title="Reset progress?"
+									description="This will clear all tracked materials for all items. This action cannot be undone."
+									confirmLabel="Remove"
+									onConfirm={resetOwned}
+								/>
 							</div>
 						</div>
 					)}
