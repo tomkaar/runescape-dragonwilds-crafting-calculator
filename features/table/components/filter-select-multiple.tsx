@@ -13,6 +13,11 @@ import { Input } from "@/components/ui/input";
 import type { Facility } from "@/Types";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import type { TableBodyRowType } from "../types/table-body-row";
+import {
+	fuzzyMatch,
+	getUniqueKeys,
+	selectedFirst,
+} from "../utils/filter-helpers";
 
 type Props = {
 	showMoreButton?: boolean;
@@ -112,67 +117,4 @@ export default function FilterSelectMultiple({
 			</AccordionContent>
 		</AccordionItem>
 	);
-}
-
-/**
- * Get the unique values for a column, sorted alphabetically.
- * @param column The column to get the unique values for.
- * @returns An array of unique values for the column.
- */
-function getUniqueKeys(
-	column: Column<TableBodyRowType, unknown>,
-): { name: string; amount: number }[] {
-	const rawKeys = column.getFacetedUniqueValues().keys() ?? [];
-	const allKeys = Array.from(rawKeys).flatMap((value) =>
-		Array.isArray(value) ? value : [value],
-	);
-
-	const keys = new Map<string, number>();
-	allKeys.forEach((key) => {
-		const stringKey = String(key);
-		keys.set(stringKey, (keys.get(stringKey) ?? 0) + 1);
-	});
-
-	return Array.from(keys.entries())
-		.sort(([a], [b]) => a.localeCompare(b))
-		.map(([name, amount]) => ({ name, amount }));
-}
-
-/**
- * Sort the values so that the selected values are first, and then sort the rest alphabetically.
- * @param selectedValues The values that are selected.
- * @returns A function that sorts the values.
- */
-function selectedFirst(selectedValues: unknown) {
-	if (!Array.isArray(selectedValues)) {
-		return () => 0;
-	}
-	const selected = selectedValues as string[];
-
-	return (a: { name: string }, b: { name: string }) => {
-		const aSelected = selected.includes(a.name);
-		const bSelected = selected.includes(b.name);
-
-		if (aSelected && !bSelected) return -1;
-		if (!aSelected && bSelected) return 1;
-
-		return a.name.localeCompare(b.name);
-	};
-}
-
-/**
- * Fuzzy match the value against the filter value.
- * @param filterValue The value to match against.
- * @returns A function that returns true if the value matches the filter value.
- */
-function fuzzyMatch(filterValue: string) {
-	return (value: { name: string }) => {
-		if (typeof value.name !== "string") return false;
-		if (!filterValue) return true;
-
-		const lowerValue = value.name.toLowerCase();
-		const lowerFilter = filterValue.toLowerCase();
-
-		return lowerValue.includes(lowerFilter);
-	};
 }

@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Slider } from "@/components/ui/slider";
 import type { TableBodyRowType } from "../types/table-body-row";
+import { getUniqueKeys } from "../utils/filter-helpers";
 
 type Props = {
 	showMoreButton?: boolean;
@@ -45,7 +46,6 @@ export default function FilterRange({ column }: Props) {
 					step={1}
 					className="mx-auto w-full max-w-xs"
 					onValueChange={([min, max]) => {
-						console.log([min, max]);
 						column.setFilterValue([min, max]);
 					}}
 				/>
@@ -80,30 +80,6 @@ export default function FilterRange({ column }: Props) {
 			</AccordionContent>
 		</AccordionItem>
 	);
-}
-
-/**
- * Get the unique values for a column, sorted alphabetically.
- * @param column The column to get the unique values for.
- * @returns An array of unique values for the column.
- */
-function getUniqueKeys(
-	column: Column<TableBodyRowType, unknown>,
-): { name: string; amount: number }[] {
-	const rawKeys = column.getFacetedUniqueValues().keys() ?? [];
-	const allKeys = Array.from(rawKeys).flatMap((value) =>
-		Array.isArray(value) ? value : [value],
-	);
-
-	const keys = new Map<string, number>();
-	allKeys.forEach((key) => {
-		const stringKey = String(key);
-		keys.set(stringKey, (keys.get(stringKey) ?? 0) + 1);
-	});
-
-	return Array.from(keys.entries())
-		.sort(([a], [b]) => a.localeCompare(b))
-		.map(([name, amount]) => ({ name, amount }));
 }
 
 /**
