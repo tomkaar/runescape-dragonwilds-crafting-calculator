@@ -67,7 +67,7 @@ export default async function InterceptedItemModal(props: Props) {
 								prefetch={false}
 								href={{
 									pathname: `/item`,
-									search: `?facility=${encodeURIComponent(facility as string)}`,
+									search: `?facilities=${encodeURIComponent(facility as string)}`,
 								}}
 							>
 								<Badge
