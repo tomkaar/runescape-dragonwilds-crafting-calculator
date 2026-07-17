@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Field, FieldGroup, FieldLabel } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
+import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import type { Facility } from "@/Types";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import type { TableBodyRowType } from "../types/table-body-row";
@@ -21,7 +22,8 @@ import {
 
 type Props = {
 	showMoreButton?: boolean;
-	showFacilityIcon?: boolean;
+	/** Renders a facility icon or the material's item image next to each option. */
+	icon?: "facility" | "material";
 	table: Table<TableBodyRowType>;
 	column: Column<TableBodyRowType, unknown>;
 };
@@ -30,7 +32,7 @@ export default function FilterSelectMultiple({
 	column,
 	table,
 	showMoreButton,
-	showFacilityIcon,
+	icon,
 }: Props) {
 	const [filterValue, setFilterValue] = useState<string>("");
 	const [showAll, setShowAll] = useState<boolean>(false);
@@ -86,12 +88,24 @@ export default function FilterSelectMultiple({
 															});
 														}}
 													/>
-													{showFacilityIcon ? (
+													{icon === "facility" ? (
 														<div className="h-5 w-5 shrink-0 mr-1 overflow-hidden">
 															{getFacilityIcon(
 																value.name as (typeof Facility)[number],
 																20,
 															)}
+														</div>
+													) : icon === "material" ? (
+														<div className="h-5 w-5 shrink-0 mr-1 overflow-hidden">
+															{value.image ? (
+																<img
+																	src={createImageUrlPath(value.image)}
+																	alt={value.name}
+																	width={120}
+																	height={120}
+																	className="shrink-0"
+																/>
+															) : null}
 														</div>
 													) : null}
 													<div className="grow">{value.name}</div>

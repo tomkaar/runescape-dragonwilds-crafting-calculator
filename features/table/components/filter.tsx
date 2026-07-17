@@ -15,7 +15,6 @@ import {
 import type { TableBodyRowType } from "../types/table-body-row";
 import FilterRange from "./filter-range";
 import FilterSelectMultiple from "./filter-select-multiple";
-import FilterSelectMultipleMaterial from "./filter-select-multiple-material";
 
 type Props = {
 	table: Table<TableBodyRowType>;
@@ -127,7 +126,7 @@ function Columns({ table }: { table: Table<TableBodyRowType> }) {
 								key={column.id}
 								column={column}
 								table={table}
-								showFacilityIcon
+								icon="facility"
 								showMoreButton
 							/>
 						);
@@ -141,10 +140,12 @@ function Columns({ table }: { table: Table<TableBodyRowType> }) {
 						);
 					case "materials":
 						return (
-							<FilterSelectMultipleMaterial
+							<FilterSelectMultiple
 								key={column.id}
 								column={column}
 								table={table}
+								icon="material"
+								showMoreButton
 							/>
 						);
 					case "range":
