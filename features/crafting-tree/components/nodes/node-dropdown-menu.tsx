@@ -11,7 +11,7 @@ import {
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import itemsData from "@/data/items.json";
-import { useSelectedMaterial } from "@/store/selected-material";
+import { useTrackedMaterialToggle } from "@/hooks/useTrackedMaterialToggle";
 import type { Item } from "@/Types";
 
 type NodeDropdownMenuProps = {
@@ -27,36 +27,17 @@ export function NodeDropdownMenu({
 	initialItemId,
 	quantity,
 }: NodeDropdownMenuProps) {
-	const i = useSelectedMaterial((state) => state.items);
-	const items = i[initialItemId] || [];
-	const added = items.find((item) => item.nodeId === nodeId);
-	const addAnItem = useSelectedMaterial((state) => state.addAnItem);
-	const removeAnItemByNodeId = useSelectedMaterial(
-		(state) => state.removeAnItemByNodeId,
-	);
+	const { added, add, remove } = useTrackedMaterialToggle({
+		initialItemId,
+		nodeId,
+		itemId: id,
+		quantity,
+	});
 
 	const item = itemsData.find(
 		(item) => item.id.toLowerCase() === id.toLowerCase(),
 	) as Item | undefined;
 	const wikiLink = item?.wikiLink;
-
-	const handleAddToTracking = () => {
-		if (added) return;
-		addAnItem(initialItemId, {
-			id: self.crypto.randomUUID(),
-			itemId: id,
-			quantity,
-			nodeId,
-			nodeOriginalId: initialItemId,
-			state: "TODO",
-		});
-	};
-
-	const handleClearState = () => {
-		if (added) {
-			removeAnItemByNodeId(initialItemId, nodeId);
-		}
-	};
 
 	return (
 		<DropdownMenu>
@@ -70,11 +51,11 @@ export function NodeDropdownMenu({
 			</DropdownMenuTrigger>
 			<DropdownMenuContent align="start" className="min-w-40">
 				<DropdownMenuLabel>Check</DropdownMenuLabel>
-				<DropdownMenuItem onClick={handleAddToTracking} disabled={!!added}>
+				<DropdownMenuItem onClick={add} disabled={!!added}>
 					<Plus className="size-4" />
 					Add to tracking
 				</DropdownMenuItem>
-				<DropdownMenuItem onClick={handleClearState} disabled={!added}>
+				<DropdownMenuItem onClick={remove} disabled={!added}>
 					<div className="size-4" />
 					Clear
 				</DropdownMenuItem>

@@ -1,8 +1,8 @@
 "use client";
 
+import { useTrackedMaterialToggle } from "@/hooks/useTrackedMaterialToggle";
 import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
-import { useSelectedMaterial } from "@/store/selected-material";
 
 type Props = {
 	id: string;
@@ -17,33 +17,17 @@ type Props = {
 export function NodeToggleButton(props: Props) {
 	const { id, nodeId, initialItemId, image, label, quantity, disabled } = props;
 
-	const i = useSelectedMaterial((state) => state.items);
-	const items = i[initialItemId] || [];
-	const added = items.find((item) => item.nodeId === nodeId);
-	const addAnItem = useSelectedMaterial((state) => state.addAnItem);
-	const removeAnItemByNodeId = useSelectedMaterial(
-		(state) => state.removeAnItemByNodeId,
-	);
-
-	const handleToggleItem = () => {
-		if (added) {
-			removeAnItemByNodeId(initialItemId, nodeId);
-			return;
-		}
-		addAnItem(initialItemId, {
-			id: self.crypto.randomUUID(),
-			itemId: id,
-			quantity,
-			nodeId,
-			nodeOriginalId: initialItemId,
-			state: "TODO",
-		});
-	};
+	const { toggle } = useTrackedMaterialToggle({
+		initialItemId,
+		nodeId,
+		itemId: id,
+		quantity,
+	});
 
 	return (
 		<button
 			type="button"
-			onClick={handleToggleItem}
+			onClick={toggle}
 			className={cn(
 				"flex flex-row gap-1 items-center pl-1 py-1",
 				disabled && "pr-2",

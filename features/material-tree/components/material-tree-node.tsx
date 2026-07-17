@@ -17,9 +17,9 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { FieldContent, FieldGroup, FieldLabel } from "@/components/ui/field";
 import { useCraftingTreeHover } from "@/features/crafting-tree/context/crafting-tree-hover";
+import { useTrackedMaterialToggle } from "@/hooks/useTrackedMaterialToggle";
 import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
-import { useSelectedMaterial } from "@/store/selected-material";
 import type { MaterialTreeItem } from "../types/material-tree";
 
 function TreeNodeNavigateMenu({
@@ -86,36 +86,22 @@ export function MaterialTreeNode({
 	baseQuantities: Map<string, number>;
 }) {
 	const { enter, reset } = useCraftingTreeHover();
-	const i = useSelectedMaterial((state) => state.items);
-	const items = i[initialItemId] || [];
-	const added = items.find(
-		(selectedItem) => selectedItem.nodeId === item.nodeId,
-	);
+	const { items, added, toggle } = useTrackedMaterialToggle({
+		initialItemId,
+		nodeId: item.nodeId,
+		itemId: item.id,
+		quantity: baseQuantities.get(item.nodeId) ?? item.quantity,
+	});
 
 	const anyDescendantChecked = hasCheckedDescendant(item, items);
 
-	const addAnItem = useSelectedMaterial((state) => state.addAnItem);
-	const removeAnItemByNodeId = useSelectedMaterial(
-		(state) => state.removeAnItemByNodeId,
-	);
 	const [manualOpen, setManualOpen] = useState(
 		item.nodeId === initialItemId || anyDescendantChecked,
 	);
 
 	const handleToggleItem = (e?: React.SyntheticEvent) => {
 		e?.stopPropagation();
-		if (added) {
-			removeAnItemByNodeId(initialItemId, item.nodeId);
-			return;
-		}
-		addAnItem(initialItemId, {
-			id: self.crypto.randomUUID(),
-			itemId: item.id,
-			quantity: baseQuantities.get(item.nodeId) ?? item.quantity,
-			nodeId: item.nodeId,
-			nodeOriginalId: initialItemId,
-			state: "TODO",
-		});
+		toggle();
 	};
 
 	const checkboxId = `material-checkbox-${item.nodeId}`;
