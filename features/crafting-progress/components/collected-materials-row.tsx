@@ -1,11 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { memo, useEffect, useState } from "react";
+import { memo } from "react";
 import { Checkbox } from "@/components/ui/checkbox";
 import { InputGroup, InputGroupInput } from "@/components/ui/input-group";
 
 import type { OwnedMaterialEntry } from "@/features/crafting-progress/types/owned-material-entry";
+import { useClampedNumberInput } from "@/hooks/useClampedNumberInput";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 
 type Props = {
@@ -19,27 +20,13 @@ export const CollectedMaterialsRow = memo(function CollectedMaterialsRow({
 	owned,
 	onCommit,
 }: Props) {
-	const [inputValue, setInputValue] = useState(String(owned));
 	const isDone = entry.needed > 0 && owned >= entry.needed;
 
-	// Sync local input state when the store value changes externally (e.g. checkbox toggle, hydration).
-	useEffect(() => {
-		setInputValue(String(owned));
-	}, [owned]);
-
-	const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-		const raw = e.target.value;
-		setInputValue(raw);
-		const parsed = parseInt(raw, 10);
-		if (!Number.isNaN(parsed) && parsed >= 0) {
-			onCommit(parsed);
-		}
-	};
-
-	const handleBlur = () => {
-		const parsed = parseInt(inputValue, 10);
-		if (Number.isNaN(parsed) || parsed < 0) setInputValue(String(owned));
-	};
+	const { inputValue, onChange, onBlur } = useClampedNumberInput({
+		value: owned,
+		onCommit,
+		min: 0,
+	});
 
 	return (
 		<div
@@ -73,8 +60,8 @@ export const CollectedMaterialsRow = memo(function CollectedMaterialsRow({
 					min={0}
 					autoComplete="off"
 					value={inputValue}
-					onChange={handleChange}
-					onBlur={handleBlur}
+					onChange={onChange}
+					onBlur={onBlur}
 					className="px-1 text-center"
 				/>
 			</InputGroup>

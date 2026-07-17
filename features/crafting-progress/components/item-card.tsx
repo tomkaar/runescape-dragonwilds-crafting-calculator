@@ -2,7 +2,6 @@
 
 import { ChevronRight, Trash2 } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 import {
 	AccordionContent,
 	AccordionItem,
@@ -26,6 +25,7 @@ import {
 	InputGroupInput,
 } from "@/components/ui/input-group";
 import { RequiredMaterialsContent } from "@/features/material-tree/components/required-materials-content";
+import { useClampedNumberInput } from "@/hooks/useClampedNumberInput";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useSelectedMaterial } from "@/store/selected-material";
@@ -45,26 +45,12 @@ export function ItemCard({ itemId, item }: Props) {
 	const setMultiplier = useMaterialMultiplier((state) => state.setMultiplier);
 	const multiplier = multipliers[itemId] || 1;
 
-	const [inputValue, setInputValue] = useState(String(multiplier));
-
-	// Sync local input state when the store value changes externally (e.g. on hydration).
-	useEffect(() => {
-		setInputValue(String(multiplier));
-	}, [multiplier]);
-
-	const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-		const raw = e.target.value;
-		setInputValue(raw);
-		const parsed = parseInt(raw, 10);
-		if (!Number.isNaN(parsed) && parsed >= 1 && parsed <= 1000) {
-			setMultiplier(itemId, parsed);
-		}
-	};
-
-	const handleBlur = () => {
-		const parsed = parseInt(inputValue, 10);
-		if (Number.isNaN(parsed) || parsed < 1) setInputValue(String(multiplier));
-	};
+	const { inputValue, onChange, onBlur } = useClampedNumberInput({
+		value: multiplier,
+		onCommit: (parsed) => setMultiplier(itemId, parsed),
+		min: 1,
+		max: 1000,
+	});
 
 	return (
 		<AccordionItem
@@ -109,8 +95,8 @@ export function ItemCard({ itemId, item }: Props) {
 							autoComplete="off"
 							placeholder="Multiplier"
 							value={inputValue}
-							onChange={handleChange}
-							onBlur={handleBlur}
+							onChange={onChange}
+							onBlur={onBlur}
 						/>
 						<InputGroupAddon align="inline-end">×</InputGroupAddon>
 					</InputGroup>
