@@ -47,7 +47,7 @@ export function ItemInfoBox(props: Props) {
 								prefetch={false}
 								href={{
 									pathname: `/item`,
-									search: `?facility=${encodeURIComponent(facility)}`,
+									search: `?facilities=${encodeURIComponent(facility)}`,
 								}}
 							>
 								<Badge variant="outline" className="text-sm">
