@@ -60,21 +60,26 @@ export default async function InterceptedItemModal(props: Props) {
 						To craft this item, you must first unlock the following facilities
 					</span>
 
-					{uniqueFacilities.map((facility) => (
-						<Link
-							key={facility}
-							prefetch={false}
-							href={{
-								pathname: `/item`,
-								search: `?facility=${encodeURIComponent(facility as string)}`,
-							}}
-						>
-							<Badge variant="outline" className="text-sm">
-								{getFacilityIcon(facility as (typeof Facility)[number], 22)}
-								{facility}
-							</Badge>
-						</Link>
-					))}
+					<div className="flex flex-row flex-wrap gap-2">
+						{uniqueFacilities.map((facility) => (
+							<Link
+								key={facility}
+								prefetch={false}
+								href={{
+									pathname: `/item`,
+									search: `?facility=${encodeURIComponent(facility as string)}`,
+								}}
+							>
+								<Badge
+									variant="outline"
+									className="text-sm flex flex-row items-center"
+								>
+									{getFacilityIcon(facility as (typeof Facility)[number], 22)}
+									<span className="min-h-5.5">{facility}</span>
+								</Badge>
+							</Link>
+						))}
+					</div>
 				</div>
 			)}
 
