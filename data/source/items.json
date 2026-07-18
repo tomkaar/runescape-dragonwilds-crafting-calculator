@@ -11348,22 +11348,22 @@
     "item_weight": 1
   },
   {
-    "page_name": "Shroud of Noggin (vestige)",
-    "item_description": "A ghostly sackcloth mask. Reduces Wither buildup while worn.",
-    "page_name_sub": "Shroud of Noggin (vestige)",
+    "page_name": "Scratchy Sackcloth",
+    "item_description": "A ghostly bundle of scratchy sackcloth. It's unsettling to hold. Still, perhaps you could learn something from it.",
+    "page_name_sub": "Scratchy Sackcloth",
     "item_weight": 0,
     "item_stacklimit": 99,
     "json": {
-      "type": "Consumable",
-      "description": "A ghostly sackcloth mask. Reduces Wither buildup while worn.",
-      "image": "[[File:Shroud of Noggin.png|32px]]",
-      "name": "Shroud of Noggin (vestige)",
-      "weight": "0",
+      "type": "Vestige",
+      "description": "A ghostly bundle of scratchy sackcloth. It's unsettling to hold. Still, perhaps you could learn something from it.",
+      "image": "[[File:Scratchy Sackcloth.png|32px]]",
+      "name": "Scratchy Sackcloth",
+      "weight": "0.0",
       "stacklimit": "99",
-      "image_raw": "Shroud of Noggin.png"
+      "image_raw": "Scratchy Sackcloth.png"
     },
-    "item_type": "Consumable",
-    "item_name": "Shroud of Noggin (vestige)"
+    "item_type": "Vestige",
+    "item_name": "Scratchy Sackcloth"
   },
   {
     "page_name": "A Simple Broken Bow",
@@ -21882,23 +21882,5 @@
     },
     "item_type": "Basic Item",
     "item_name": "MOUNT: Scorchweave Rug"
-  },
-  {
-    "page_name": "MOUNT: Terrorbird",
-    "item_description": "",
-    "page_name_sub": "MOUNT: Terrorbird",
-    "item_weight": 0,
-    "item_stacklimit": 50,
-    "json": {
-      "type": "Basic Item",
-      "description": "",
-      "image": "[[File:Terrorbird.png|32px]]",
-      "name": "MOUNT: Terrorbird",
-      "weight": "0.0",
-      "stacklimit": "50",
-      "image_raw": "Terrorbird.png"
-    },
-    "item_type": "Basic Item",
-    "item_name": "MOUNT: Terrorbird"
   }
 ]
