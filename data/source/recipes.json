@@ -47938,7 +47938,7 @@
       "Artisan"
     ],
     "json": {
-      "recipe": "VESTIGE: Shroud of Noggin",
+      "recipe": "Scratchy Sackcloth",
       "facility": "Crafting Table",
       "materials": [
         {
@@ -47988,7 +47988,7 @@
       "Crafting Table"
     ],
     "uses_recipe": [
-      "VESTIGE: Shroud of Noggin"
+      "Scratchy Sackcloth"
     ],
     "output": [
       "Shroud of Noggin"

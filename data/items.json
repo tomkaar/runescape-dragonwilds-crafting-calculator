@@ -31029,7 +31029,7 @@
           "quantity": 1
         },
         "usesRecipe": [
-          "VESTIGE: Shroud of Noggin"
+          "Scratchy Sackcloth"
         ]
       }
     ],
@@ -55176,14 +55176,14 @@
     "stackLimit": 99
   },
   {
-    "id": "shroud-of-noggin-vestige",
-    "name": "Shroud of Noggin (vestige)",
-    "image": "Shroud of Noggin.png",
+    "id": "scratchy-sackcloth",
+    "name": "Scratchy Sackcloth",
+    "image": "Scratchy Sackcloth.png",
     "variants": [
       {
-        "id": "shroud-of-noggin-vestige",
-        "name": "Shroud of Noggin (vestige)",
-        "image": "Shroud of Noggin.png",
+        "id": "scratchy-sackcloth",
+        "name": "Scratchy Sackcloth",
+        "image": "Scratchy Sackcloth.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -55191,7 +55191,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Shroud_of_Noggin_(vestige)",
+    "wikiLink": "Scratchy_Sackcloth",
     "weight": 0,
     "stackLimit": 99
   },
@@ -60741,26 +60741,6 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "MOUNT:_Scorchweave_Rug",
-    "weight": 0,
-    "stackLimit": 50
-  },
-  {
-    "id": "mount-terrorbird",
-    "name": "MOUNT: Terrorbird",
-    "image": "Terrorbird.png",
-    "variants": [
-      {
-        "id": "mount-terrorbird",
-        "name": "MOUNT: Terrorbird",
-        "image": "Terrorbird.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "MOUNT:_Terrorbird",
     "weight": 0,
     "stackLimit": 50
   }
