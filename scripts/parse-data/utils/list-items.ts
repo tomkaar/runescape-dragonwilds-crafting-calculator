@@ -78,6 +78,7 @@ export default function listItems(
 				rawItems[0]?.page_name.replaceAll(" ", "_") ||
 				undefined,
 			weight: rawItems[0]?.item_weight ?? undefined,
+			itemType: rawItems[0]?.item_type ?? undefined,
 			health: rawItems[0]?.json?.health
 				? Number(rawItems[0].json.health)
 				: undefined,

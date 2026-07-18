@@ -10,7 +10,12 @@ declare module "@tanstack/react-table" {
 	}
 
 	interface ColumnMeta<TData extends RowData, TValue> {
-		filterVariant?: "materials" | "facilities" | "range" | "skills";
+		filterVariant?:
+			| "materials"
+			| "facilities"
+			| "range"
+			| "skills"
+			| "itemType";
 	}
 
 	interface SortingFns {

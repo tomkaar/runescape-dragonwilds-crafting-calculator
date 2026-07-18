@@ -5,6 +5,8 @@ export type TableBodyRowType = {
 	variantId: string;
 	variant: string | null;
 
+	itemType?: string;
+
 	image: string | null;
 
 	facilities: string[];

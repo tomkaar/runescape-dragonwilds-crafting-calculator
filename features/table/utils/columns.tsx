@@ -45,6 +45,21 @@ export const columns = [
 			</div>
 		),
 	}),
+	columnHelper.accessor(ColumnId.ItemType, {
+		header: "Type",
+		size: 140,
+		meta: { filterVariant: "itemType" },
+		cell: (info) => (
+			<div className="flex items-center py-1 px-4">
+				{info.getValue() ?? "—"}
+			</div>
+		),
+		filterFn: (row, _columnId, filterValue: string[]) => {
+			if (filterValue.length === 0) return true;
+			const itemType = row.original.itemType;
+			return itemType ? filterValue.includes(itemType) : false;
+		},
+	}),
 	columnHelper.accessor(ColumnId.Facilities, {
 		header: "Facilities",
 		size: 180,

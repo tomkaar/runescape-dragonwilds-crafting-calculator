@@ -120,6 +120,15 @@ function Columns({ table }: { table: Table<TableBodyRowType> }) {
 				const { filterVariant } = column.columnDef.meta ?? {};
 
 				switch (filterVariant) {
+					case "itemType":
+						return (
+							<FilterSelectMultiple
+								key={column.id}
+								column={column}
+								table={table}
+								showMoreButton
+							/>
+						);
 					case "facilities":
 						return (
 							<FilterSelectMultiple

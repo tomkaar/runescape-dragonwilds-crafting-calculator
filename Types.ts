@@ -12,6 +12,8 @@ export type Item = {
 	image: string | null;
 	/* All available variants for this item, can be one or many */
 	variants: ItemVariant[];
+	/* The item's category from the wiki, if the item was scraped as a source item (e.g. recipe-only outputs like buildables have none) */
+	itemType?: string;
 	/* Facilities where this item can be crafted */
 	facilities: ((typeof Facility)[number] | null)[];
 	/* Skills required to craft this item */

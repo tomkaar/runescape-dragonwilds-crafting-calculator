@@ -9,6 +9,7 @@ import { useCallback, useMemo, useRef } from "react";
 import { ColumnId } from "../types/column-id";
 
 const FILTERABLE_COLUMN_IDS = [
+	ColumnId.ItemType,
 	ColumnId.Facilities,
 	ColumnId.Skills,
 	ColumnId.Materials,
@@ -196,6 +197,7 @@ function parseSortState(value: string | null): SortingState {
 function parseColumnFilters(searchParams: URLSearchParams) {
 	const columnFilters: ColumnFiltersState = [];
 
+	const itemType = splitAndFilter(searchParams.get(ColumnId.ItemType));
 	const facilities = splitAndFilter(searchParams.get(ColumnId.Facilities));
 	const skills = splitAndFilter(searchParams.get(ColumnId.Skills));
 	const materials = splitAndFilter(searchParams.get(ColumnId.Materials));
@@ -204,6 +206,9 @@ function parseColumnFilters(searchParams: URLSearchParams) {
 		searchParams.get(ColumnId.OutputQuantity),
 	);
 
+	if (itemType.length > 0) {
+		columnFilters.push({ id: ColumnId.ItemType, value: itemType });
+	}
 	if (facilities.length > 0) {
 		columnFilters.push({ id: ColumnId.Facilities, value: facilities });
 	}

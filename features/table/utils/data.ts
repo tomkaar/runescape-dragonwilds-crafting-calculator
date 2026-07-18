@@ -20,6 +20,8 @@ export const tableData: TableBodyRowType[] = items.flatMap((item) =>
 		variantId: variant.id,
 		variant: variant.variantName,
 
+		itemType: item.itemType,
+
 		image: variant.image,
 
 		facilities: variant.recipe?.facilities ?? [],

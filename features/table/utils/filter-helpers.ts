@@ -11,26 +11,34 @@ export type FilterOption = {
  * Get the unique values for a column, sorted alphabetically. Facet keys may be
  * plain strings/numbers (facilities, skills, health, output quantity) or
  * objects carrying an image (materials) — both shapes are normalized here.
+ *
+ * For array-valued columns (facilities, skills, materials), tanstack never
+ * dedupes the raw per-row arrays against each other (each row produces a new
+ * array reference), so its facet count is always 1 per entry - the real count
+ * per name comes from how many of those per-row arrays contain it once
+ * flattened here. For scalar-valued columns (itemType), tanstack dedupes by
+ * value directly, so the facet count *is* already the real per-value count -
+ * that's why it's added rather than treated as always 1.
  * @param column The column to get the unique values for.
  * @returns An array of unique values for the column.
  */
 export function getUniqueKeys(
 	column: Column<TableBodyRowType, unknown>,
 ): FilterOption[] {
-	const rawKeys = column.getFacetedUniqueValues().keys() ?? [];
-	const allKeys = Array.from(rawKeys).flatMap((value) =>
-		Array.isArray(value) ? value : [value],
-	);
+	const facetedUniqueValues = column.getFacetedUniqueValues() ?? new Map();
 
 	const keys = new Map<string, { image?: string | null; amount: number }>();
-	allKeys.forEach((key) => {
-		const isObject = typeof key === "object" && key !== null;
-		const stringKey = String(isObject ? key.name : key);
-		const image = isObject ? key.image : undefined;
-		const existing = keys.get(stringKey);
-		keys.set(stringKey, {
-			image: image ?? existing?.image,
-			amount: (existing?.amount ?? 0) + 1,
+	facetedUniqueValues.forEach((count, value) => {
+		const values = Array.isArray(value) ? value : [value];
+		values.forEach((key) => {
+			const isObject = typeof key === "object" && key !== null;
+			const stringKey = String(isObject ? key.name : key);
+			const image = isObject ? key.image : undefined;
+			const existing = keys.get(stringKey);
+			keys.set(stringKey, {
+				image: image ?? existing?.image,
+				amount: (existing?.amount ?? 0) + count,
+			});
 		});
 	});
 
