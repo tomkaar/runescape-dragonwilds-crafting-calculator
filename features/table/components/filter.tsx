@@ -9,6 +9,7 @@ import {
 	Heart,
 	type LucideIcon,
 	PackageCheck,
+	Shapes,
 	Tags,
 } from "lucide-react";
 import { useState } from "react";
@@ -132,6 +133,16 @@ function Columns({ table }: { table: Table<TableBodyRowType> }) {
 				const { filterVariant } = column.columnDef.meta ?? {};
 
 				switch (filterVariant) {
+					case "variant":
+						return (
+							<FilterSelectMultiple
+								key={column.id}
+								column={column}
+								table={table}
+								headerIcon={Shapes}
+								showMoreButton
+							/>
+						);
 					case "itemType":
 						return (
 							<FilterSelectMultiple

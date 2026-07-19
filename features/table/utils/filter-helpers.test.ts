@@ -61,4 +61,18 @@ describe("getUniqueKeys", () => {
 	it("returns an empty array when there are no facets", () => {
 		expect(getUniqueKeys(makeColumn(new Map()))).toEqual([]);
 	});
+
+	it("excludes null and undefined facet values (e.g. rows with no variant)", () => {
+		const column = makeColumn(
+			new Map<unknown, number>([
+				["Cabin", 80],
+				[null, 1551],
+				[undefined, 3],
+			]),
+		);
+
+		expect(getUniqueKeys(column)).toEqual([
+			{ name: "Cabin", image: undefined, amount: 80 },
+		]);
+	});
 });

@@ -13,3 +13,8 @@ export type FacilityNameOverride = {
 	from: string;
 	to: string;
 };
+
+export type VariantNameOverride = {
+	from: string;
+	to: string;
+};

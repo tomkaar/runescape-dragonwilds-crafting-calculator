@@ -56,11 +56,21 @@ export const columns = [
 	columnHelper.accessor(ColumnId.Variant, {
 		header: "Variant",
 		size: 120,
+		meta: {
+			filterVariant: "variant",
+			description:
+				"The specific style of the item, if it has one, like Cabin, Cottage, or Castle.",
+		},
 		cell: (info) => (
 			<div className="flex items-center py-1 px-4">
 				{info.getValue() ?? "—"}
 			</div>
 		),
+		filterFn: (row, _columnId, filterValue: string[]) => {
+			if (filterValue.length === 0) return true;
+			const variant = row.original.variant;
+			return variant ? filterValue.includes(variant) : false;
+		},
 	}),
 	columnHelper.accessor(ColumnId.ItemType, {
 		header: "Type",

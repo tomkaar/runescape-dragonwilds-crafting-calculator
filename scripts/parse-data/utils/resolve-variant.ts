@@ -1,13 +1,17 @@
 import { createHash } from "node:crypto";
 import type { SourceRecipe } from "@/scripts/fetch-data/types/recipe";
 import type { ItemVariant } from "@/Types";
+import { applyVariantNameOverride } from "./apply-variant-name-override";
 import { resolveImage } from "./resolve-image";
 import { resolveRecipe } from "./resolve-recipe";
 import variantFromImage from "./variant-from-image";
 
 export function resolveVariant(rawRecipe: SourceRecipe): ItemVariant {
 	const recipe = resolveRecipe(rawRecipe);
-	const variantName = variantFromImage(rawRecipe.json.output.image) || null;
+	const rawVariantName = variantFromImage(rawRecipe.json.output.image);
+	const variantName = rawVariantName
+		? applyVariantNameOverride(rawVariantName)
+		: null;
 
 	const variantIdParts: Record<string, string> = {
 		recipeId: recipe.id,

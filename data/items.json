@@ -20973,10 +20973,10 @@
     "image": "Silver Bar (decoration).png",
     "variants": [
       {
-        "id": "511f6eb649ac",
+        "id": "e706c4505fd4",
         "name": "Silver Bar (decoration)",
         "image": "Silver Bar (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "99acb2326cba",
           "facilities": [
@@ -24883,10 +24883,10 @@
     "image": "Bronze Bar (decoration).png",
     "variants": [
       {
-        "id": "66fd089394c8",
+        "id": "61f6537d9e40",
         "name": "Bronze Bar (decoration)",
         "image": "Bronze Bar (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "98309e2d7365",
           "facilities": [
@@ -24923,10 +24923,10 @@
     "image": "Gold Bar (decoration).png",
     "variants": [
       {
-        "id": "21d501a22f93",
+        "id": "87907006cc8a",
         "name": "Gold Bar (decoration)",
         "image": "Gold Bar (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "c06274d9fd95",
           "facilities": [
@@ -24963,10 +24963,10 @@
     "image": "Iron Bar (decoration).png",
     "variants": [
       {
-        "id": "5b86cfcc04b1",
+        "id": "d42586e910d1",
         "name": "Iron Bar (decoration)",
         "image": "Iron Bar (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "028c5dd4c4a0",
           "facilities": [
@@ -28061,10 +28061,10 @@
     "image": "Blurite Bar (decoration).png",
     "variants": [
       {
-        "id": "348ce948a0d9",
+        "id": "43069d9961c2",
         "name": "Blurite Bar (decoration)",
         "image": "Blurite Bar (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "970c30903e62",
           "facilities": [
@@ -28181,10 +28181,10 @@
     "image": "Opal (decoration).png",
     "variants": [
       {
-        "id": "38aaf2bfc2b0",
+        "id": "99e6b8a39d86",
         "name": "Opal (decoration)",
         "image": "Opal (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "bf949bfd4f84",
           "facilities": [
@@ -28221,10 +28221,10 @@
     "image": "Jade (decoration).png",
     "variants": [
       {
-        "id": "5a8401008871",
+        "id": "27c5edec5d7a",
         "name": "Jade (decoration)",
         "image": "Jade (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "4e55861d9418",
           "facilities": [
@@ -28261,10 +28261,10 @@
     "image": "Red Topaz (decoration).png",
     "variants": [
       {
-        "id": "2a831c2b4452",
+        "id": "7d3aae85f3db",
         "name": "Red Topaz (decoration)",
         "image": "Red Topaz (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "aae4f6fd4cce",
           "facilities": [
@@ -28301,10 +28301,10 @@
     "image": "Sapphire (decoration).png",
     "variants": [
       {
-        "id": "13da80fa49f0",
+        "id": "3da8a171efd4",
         "name": "Sapphire (decoration)",
         "image": "Sapphire (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "ed67fa87e937",
           "facilities": [
@@ -49728,10 +49728,10 @@
     "image": "Pungent Omelette (decoration).png",
     "variants": [
       {
-        "id": "4d2018e789cc",
+        "id": "6725bdf23069",
         "name": "Pungent Omelette (decoration)",
         "image": "Pungent Omelette (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "ba5da78c3157",
           "facilities": [
@@ -49772,10 +49772,10 @@
     "image": "Roast Dinner (decoration).png",
     "variants": [
       {
-        "id": "d578f8bea004",
+        "id": "2e4a302e40d8",
         "name": "Roast Dinner (decoration)",
         "image": "Roast Dinner (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "650fe1df9e48",
           "facilities": [
@@ -49816,10 +49816,10 @@
     "image": "Steak 'N' Eggs (decoration).png",
     "variants": [
       {
-        "id": "7461083f8755",
+        "id": "0b635dd5bebb",
         "name": "Steak 'N' Eggs (decoration)",
         "image": "Steak 'N' Eggs (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "0259a50df9d5",
           "facilities": [
@@ -49860,10 +49860,10 @@
     "image": "Sweet Veg Ball (decoration).png",
     "variants": [
       {
-        "id": "333f5551cf5f",
+        "id": "0188f489e2b6",
         "name": "Sweet Veg Ball (decoration)",
         "image": "Sweet Veg Ball (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "124f4b34fa02",
           "facilities": [
@@ -49904,10 +49904,10 @@
     "image": "Cheeky Fryup (decoration).png",
     "variants": [
       {
-        "id": "d372a660173d",
+        "id": "f42d0f6af6b9",
         "name": "Cheeky Fryup (decoration)",
         "image": "Cheeky Fryup (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "77c26ef50b68",
           "facilities": [
@@ -49948,10 +49948,10 @@
     "image": "Vegan Fryup (decoration).png",
     "variants": [
       {
-        "id": "6dd2ee62ac7b",
+        "id": "9887359a9071",
         "name": "Vegan Fryup (decoration)",
         "image": "Vegan Fryup (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "806867f59c1d",
           "facilities": [
@@ -49992,10 +49992,10 @@
     "image": "Pumpkin Soup (decoration).png",
     "variants": [
       {
-        "id": "d38ad1c62a5a",
+        "id": "61ca3d458c40",
         "name": "Pumpkin Soup (decoration)",
         "image": "Pumpkin Soup (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "513ea2c95af6",
           "facilities": [
@@ -50036,10 +50036,10 @@
     "image": "Beef & Tomato Stew (decoration).png",
     "variants": [
       {
-        "id": "188b20d4d383",
+        "id": "978ef56d8d92",
         "name": "Beef & Tomato Stew (decoration)",
         "image": "Beef & Tomato Stew (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "6bb4a92eb8b4",
           "facilities": [
@@ -50080,10 +50080,10 @@
     "image": "Meat Stew (decoration).png",
     "variants": [
       {
-        "id": "c8ba191e9818",
+        "id": "858c77ec83c5",
         "name": "Meat Stew (decoration)",
         "image": "Meat Stew (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "8ca53032312b",
           "facilities": [
@@ -50124,10 +50124,10 @@
     "image": "Evasive Infusion (decoration).png",
     "variants": [
       {
-        "id": "38fbce7b81c7",
+        "id": "fcdb25118bd9",
         "name": "Evasive Infusion (decoration)",
         "image": "Evasive Infusion (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "21bca02ccd4f",
           "facilities": [
@@ -50168,10 +50168,10 @@
     "image": "Fleet-Footed Infusion (decoration).png",
     "variants": [
       {
-        "id": "e5054a8a8c6f",
+        "id": "22d95b574c10",
         "name": "Fleet-Footed Infusion (decoration)",
         "image": "Fleet-Footed Infusion (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "531c61381ac6",
           "facilities": [
@@ -50212,10 +50212,10 @@
     "image": "Ferocious Infusion (decoration).png",
     "variants": [
       {
-        "id": "95128e3d327c",
+        "id": "fbb7151fbfa5",
         "name": "Ferocious Infusion (decoration)",
         "image": "Ferocious Infusion (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "96053c89252c",
           "facilities": [
@@ -50256,10 +50256,10 @@
     "image": "Pumpkin Spice Infusion (decoration).png",
     "variants": [
       {
-        "id": "3ba55f67fe9d",
+        "id": "c08e79765187",
         "name": "Pumpkin Spice Infusion (decoration)",
         "image": "Pumpkin Spice Infusion (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "a869a58504a4",
           "facilities": [
@@ -50300,10 +50300,10 @@
     "image": "Relentless Infusion (decoration).png",
     "variants": [
       {
-        "id": "c9f99c726310",
+        "id": "01edbdc3232c",
         "name": "Relentless Infusion (decoration)",
         "image": "Relentless Infusion (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "20f65b5f1b88",
           "facilities": [
@@ -50344,10 +50344,10 @@
     "image": "Redberry Infusion (decoration).png",
     "variants": [
       {
-        "id": "cdee09fa9bf3",
+        "id": "35784dbcdf67",
         "name": "Redberry Infusion (decoration)",
         "image": "Redberry Infusion (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "29de3c70deda",
           "facilities": [
@@ -50388,10 +50388,10 @@
     "image": "Dwellberry Infusion (decoration).png",
     "variants": [
       {
-        "id": "32316785826f",
+        "id": "78d5424247e1",
         "name": "Dwellberry Infusion (decoration)",
         "image": "Dwellberry Infusion (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "7fb8ca0307c0",
           "facilities": [
@@ -50432,10 +50432,10 @@
     "image": "Arcane Infusion (decoration).png",
     "variants": [
       {
-        "id": "8158c898dba7",
+        "id": "06f374e45e80",
         "name": "Arcane Infusion (decoration)",
         "image": "Arcane Infusion (decoration).png",
-        "variantName": "decoration",
+        "variantName": "Decoration",
         "recipe": {
           "id": "ed89245ddfa1",
           "facilities": [

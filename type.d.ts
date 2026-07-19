@@ -15,7 +15,8 @@ declare module "@tanstack/react-table" {
 			| "facilities"
 			| "range"
 			| "skills"
-			| "itemType";
+			| "itemType"
+			| "variant";
 		/** Short hint shown under the filter title in the sidebar. */
 		description?: string;
 	}

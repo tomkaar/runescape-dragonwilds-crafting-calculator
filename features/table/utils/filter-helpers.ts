@@ -31,6 +31,7 @@ export function getUniqueKeys(
 	facetedUniqueValues.forEach((count, value) => {
 		const values = Array.isArray(value) ? value : [value];
 		values.forEach((key) => {
+			if (key === null || key === undefined) return;
 			const isObject = typeof key === "object" && key !== null;
 			const stringKey = String(isObject ? key.name : key);
 			const image = isObject ? key.image : undefined;
