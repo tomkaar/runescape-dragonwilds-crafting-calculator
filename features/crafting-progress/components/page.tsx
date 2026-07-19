@@ -41,8 +41,8 @@ export function ProgressPage() {
 			</div>
 
 			<div className="flex-1 flex flex-col gap-4 lg:shrink-0 lg:overflow-y-auto">
-				<ExperienceSummary allItems={items} />
 				<NextSteps allItems={items} />
+				<ExperienceSummary allItems={items} />
 			</div>
 		</div>
 	);
