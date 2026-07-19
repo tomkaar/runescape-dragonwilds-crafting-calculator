@@ -54,9 +54,7 @@ export default async function InterceptedItemModal(props: Props) {
 
 			{ownFacilities.length > 0 && (
 				<div className="mt-2">
-					<h3 className="text-sm font-semibold text-foreground">
-						Required Facilities
-					</h3>
+					<h3 className="text-sm font-semibold text-foreground">Facilities</h3>
 					<span className="block mt-0.5 mb-4 text-xs text-foreground">
 						This item can be crafted at any of the following facilities
 					</span>
@@ -66,10 +64,7 @@ export default async function InterceptedItemModal(props: Props) {
 			)}
 
 			{additionalFacilities.length > 0 && (
-				<div className="mt-2">
-					<h3 className="text-sm font-semibold text-foreground">
-						Additional Required Facilities
-					</h3>
+				<div className="-mt-2">
 					<span className="block mt-0.5 mb-4 text-xs text-foreground">
 						The materials used to craft this item may require these additional
 						facilities
