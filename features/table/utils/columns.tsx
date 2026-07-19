@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import type { Facility } from "@/Types";
 import getFacilityIcon from "@/utils/getFacilityIcon";
+import { getSkillImageUrl } from "@/utils/getSkillImageUrl";
 import { ColumnId } from "../types/column-id";
 import type { TableBodyRowType } from "../types/table-body-row";
 import { tableData } from "./data";
@@ -129,6 +130,13 @@ export const columns = [
 								}
 							>
 								<Badge key={skill} variant="secondary" className="text-xs">
+									<img
+										src={getSkillImageUrl(skill)}
+										alt={skill}
+										width={20}
+										height={20}
+										className="shrink-0"
+									/>{" "}
 									{skill}
 								</Badge>
 							</button>
