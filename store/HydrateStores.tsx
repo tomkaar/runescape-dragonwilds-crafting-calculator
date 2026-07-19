@@ -6,6 +6,7 @@ import { useFavouriteItems } from "./favourite-items";
 import { useMaterialMultiplier } from "./material-multiplier";
 import { useMobilePanelsState } from "./mobile-panel-state";
 import { useSelectedMaterial } from "./selected-material";
+import { useSkillLevels } from "./skill-levels";
 import { useStepsFilter } from "./steps-filter";
 
 /**
@@ -19,6 +20,7 @@ export function HydrateStores() {
 		useMobilePanelsState.persist.rehydrate();
 		useSelectedMaterial.persist.rehydrate();
 		useMaterialMultiplier.persist.rehydrate();
+		useSkillLevels.persist.rehydrate();
 		useStepsFilter.persist.rehydrate();
 	};
 
