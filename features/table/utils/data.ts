@@ -30,6 +30,8 @@ export const tableData: TableBodyRowType[] = items.flatMap((item) =>
 		),
 
 		health: item.health ?? 0,
+		hydration: item.hydration,
+		sustenance: item.sustenance,
 		outputQuantity: variant.recipe?.quantity ?? 0,
 
 		materialsCount: variant.recipe?.materials.length ?? 0,

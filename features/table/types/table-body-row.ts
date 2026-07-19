@@ -13,6 +13,8 @@ export type TableBodyRowType = {
 	skills: string[];
 
 	health?: number;
+	hydration?: number;
+	sustenance?: number;
 	outputQuantity: number;
 
 	materialsCount: number;

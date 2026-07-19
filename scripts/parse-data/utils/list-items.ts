@@ -2,6 +2,7 @@ import type { SourceItem } from "@/scripts/fetch-data/types/item";
 import type { SourceRecipe } from "@/scripts/fetch-data/types/recipe";
 import type { Item, ItemVariant } from "@/Types";
 import { idFromName } from "./id-from-name";
+import { parseNumericStat } from "./parse-numeric-stat";
 import { resolveFacilities } from "./resolve-facility";
 import { resolveImage } from "./resolve-image";
 import { resolveItemVariant } from "./resolve-item-variant";
@@ -83,6 +84,8 @@ export default function listItems(
 				? Number(rawItems[0].json.health)
 				: undefined,
 			stackLimit: rawItems[0]?.item_stacklimit ?? undefined,
+			hydration: parseNumericStat(rawItems[0]?.json?.hydration),
+			sustenance: parseNumericStat(rawItems[0]?.json?.sustenance),
 		};
 		finishedItems.push(finishedItem);
 	});

@@ -26,6 +26,10 @@ export type Item = {
 	health?: number;
 	/* Maximum stack size for this item */
 	stackLimit?: number;
+	/* How much hydration this item restores (if applicable) */
+	hydration?: number;
+	/* How much sustenance this item restores (if applicable) */
+	sustenance?: number;
 };
 
 /**

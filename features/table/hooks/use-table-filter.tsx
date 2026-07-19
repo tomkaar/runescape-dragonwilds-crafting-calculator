@@ -14,6 +14,8 @@ const FILTERABLE_COLUMN_IDS = [
 	ColumnId.Skills,
 	ColumnId.Materials,
 	ColumnId.Health,
+	ColumnId.Hydration,
+	ColumnId.Sustenance,
 	ColumnId.OutputQuantity,
 ];
 
@@ -202,6 +204,8 @@ function parseColumnFilters(searchParams: URLSearchParams) {
 	const skills = splitAndFilter(searchParams.get(ColumnId.Skills));
 	const materials = splitAndFilter(searchParams.get(ColumnId.Materials));
 	const health = parseRangeFilter(searchParams.get(ColumnId.Health));
+	const hydration = parseRangeFilter(searchParams.get(ColumnId.Hydration));
+	const sustenance = parseRangeFilter(searchParams.get(ColumnId.Sustenance));
 	const outputQuantity = parseRangeFilter(
 		searchParams.get(ColumnId.OutputQuantity),
 	);
@@ -220,6 +224,12 @@ function parseColumnFilters(searchParams: URLSearchParams) {
 	}
 	if (health) {
 		columnFilters.push({ id: ColumnId.Health, value: health });
+	}
+	if (hydration) {
+		columnFilters.push({ id: ColumnId.Hydration, value: hydration });
+	}
+	if (sustenance) {
+		columnFilters.push({ id: ColumnId.Sustenance, value: sustenance });
 	}
 	if (outputQuantity) {
 		columnFilters.push({ id: ColumnId.OutputQuantity, value: outputQuantity });

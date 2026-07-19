@@ -6,8 +6,24 @@ import type { Facility } from "@/Types";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import { ColumnId } from "../types/column-id";
 import type { TableBodyRowType } from "../types/table-body-row";
+import { tableData } from "./data";
 
 const columnHelper = createColumnHelper<TableBodyRowType>();
+
+/**
+ * The [min, max] the FilterRange slider renders for a column (mirrors its
+ * `Math.min/max(..., 0)` floor). A filter spanning this whole range is
+ * indistinguishable from an untouched slider, so it's treated as "no
+ * filter" - otherwise it would incorrectly hide every row that has no
+ * value for this stat at all.
+ */
+function fullRangeOf(values: (number | undefined)[]): [number, number] {
+	const defined = values.filter((v): v is number => v !== undefined);
+	return [Math.min(...defined, 0), Math.max(...defined, 0)];
+}
+
+const HYDRATION_RANGE = fullRangeOf(tableData.map((row) => row.hydration));
+const SUSTENANCE_RANGE = fullRangeOf(tableData.map((row) => row.sustenance));
 
 export const columns = [
 	columnHelper.accessor(ColumnId.Name, {
@@ -147,6 +163,60 @@ export const columns = [
 			const val = row.original.health;
 			if (val === undefined) return false;
 			const [min, max] = filterValue;
+			if (min !== undefined && val < min) return false;
+			if (max !== undefined && val > max) return false;
+			return true;
+		},
+	}),
+	columnHelper.accessor(ColumnId.Hydration, {
+		header: "Hydration",
+		size: 120,
+		meta: { filterVariant: "range" },
+		cell: (info) => (
+			<div className="flex items-center py-1 px-4">{info.getValue() ?? ""}</div>
+		),
+		filterFn: (
+			row,
+			_columnId,
+			filterValue: [number | undefined, number | undefined],
+		) => {
+			if (!filterValue) return true;
+			const [min, max] = filterValue;
+			if (
+				(min ?? HYDRATION_RANGE[0]) <= HYDRATION_RANGE[0] &&
+				(max ?? HYDRATION_RANGE[1]) >= HYDRATION_RANGE[1]
+			) {
+				return true;
+			}
+			const val = row.original.hydration;
+			if (val === undefined) return false;
+			if (min !== undefined && val < min) return false;
+			if (max !== undefined && val > max) return false;
+			return true;
+		},
+	}),
+	columnHelper.accessor(ColumnId.Sustenance, {
+		header: "Sustenance",
+		size: 140,
+		meta: { filterVariant: "range" },
+		cell: (info) => (
+			<div className="flex items-center py-1 px-4">{info.getValue() ?? ""}</div>
+		),
+		filterFn: (
+			row,
+			_columnId,
+			filterValue: [number | undefined, number | undefined],
+		) => {
+			if (!filterValue) return true;
+			const [min, max] = filterValue;
+			if (
+				(min ?? SUSTENANCE_RANGE[0]) <= SUSTENANCE_RANGE[0] &&
+				(max ?? SUSTENANCE_RANGE[1]) >= SUSTENANCE_RANGE[1]
+			) {
+				return true;
+			}
+			const val = row.original.sustenance;
+			if (val === undefined) return false;
 			if (min !== undefined && val < min) return false;
 			if (max !== undefined && val > max) return false;
 			return true;

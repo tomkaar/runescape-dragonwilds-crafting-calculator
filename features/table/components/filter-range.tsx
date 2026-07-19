@@ -20,8 +20,11 @@ type Props = {
 export default function FilterRange({ column }: Props) {
 	const columnFilterValue = column.getFilterValue();
 	const uniqueKeys = getUniqueKeys(column);
-	const max = Math.max(...uniqueKeys.map((key) => Number(key.name)), 0);
-	const min = Math.min(...uniqueKeys.map((key) => Number(key.name)), 0);
+	const numericKeys = uniqueKeys
+		.map((key) => Number(key.name))
+		.filter((n) => !Number.isNaN(n));
+	const max = Math.max(...numericKeys, 0);
+	const min = Math.min(...numericKeys, 0);
 
 	const activeFilterString = activeFilterToString(columnFilterValue, min, max);
 

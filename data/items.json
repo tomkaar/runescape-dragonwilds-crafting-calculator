@@ -185,7 +185,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 20
   },
   {
     "id": "spinning-wheel",
@@ -1062,7 +1063,8 @@
     "wikiLink": "Fleet-Footed_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 40
   },
   {
     "id": "clean-water",
@@ -1131,7 +1133,8 @@
     "wikiLink": "Clean_Water",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 25
   },
   {
     "id": "clay-vessel",
@@ -1495,7 +1498,8 @@
     "weight": 1.4,
     "itemType": "Food",
     "health": 50,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 50
   },
   {
     "id": "leggings-of-lightness",
@@ -1599,7 +1603,8 @@
     "weight": 0.7,
     "itemType": "Food",
     "health": 90,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 110
   },
   {
     "id": "meat-pizza",
@@ -1655,7 +1660,8 @@
     "weight": 0.7,
     "itemType": "Food",
     "health": 90,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 110
   },
   {
     "id": "lodestone",
@@ -1796,7 +1802,8 @@
     "weight": 0.8,
     "itemType": "Food",
     "health": 40,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 50
   },
   {
     "id": "rune-altar",
@@ -1886,7 +1893,8 @@
     "weight": 0.4,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 20
   },
   {
     "id": "campfire",
@@ -2846,7 +2854,8 @@
     "wikiLink": "Ferocious_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 40
   },
   {
     "id": "dwellberry-infusion",
@@ -2895,7 +2904,8 @@
     "wikiLink": "Dwellberry_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 40
   },
   {
     "id": "bronze-greatsword",
@@ -4348,7 +4358,8 @@
     "weight": 0.4,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 20
   },
   {
     "id": "lesser-attack-potion",
@@ -5010,7 +5021,8 @@
     "weight": 0.6,
     "itemType": "Food",
     "health": 50,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 35
   },
   {
     "id": "crystal-bow",
@@ -5310,7 +5322,8 @@
     "wikiLink": "Evasive_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 40
   },
   {
     "id": "dried-redberries",
@@ -5354,7 +5367,8 @@
     "weight": 0.1,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 15
   },
   {
     "id": "fried-cabbage",
@@ -5398,7 +5412,8 @@
     "weight": 0.4,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 20
   },
   {
     "id": "apprentice-hat",
@@ -8211,7 +8226,8 @@
     "weight": 0.1,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 20
   },
   {
     "id": "ground-granite",
@@ -8298,7 +8314,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 20
   },
   {
     "id": "flank-steak",
@@ -8344,7 +8361,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 30,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 25
   },
   {
     "id": "iron-mace",
@@ -8498,7 +8516,8 @@
     "weight": 0.4,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 20
   },
   {
     "id": "haunch",
@@ -8542,7 +8561,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 30,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 20
   },
   {
     "id": "mushroom-kebab",
@@ -8598,7 +8618,8 @@
     "weight": 0.7,
     "itemType": "Food",
     "health": 120,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 110
   },
   {
     "id": "mixed-grill",
@@ -8652,7 +8673,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 70,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 70
   },
   {
     "id": "redberry-roast-rat",
@@ -8702,7 +8724,8 @@
     "weight": 1.2,
     "itemType": "Food",
     "health": 30,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 45
   },
   {
     "id": "redberry-infusion",
@@ -8751,7 +8774,8 @@
     "wikiLink": "Redberry_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 40
   },
   {
     "id": "steak",
@@ -8795,7 +8819,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 30,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 20
   },
   {
     "id": "dragonkin-mage-hood",
@@ -26738,7 +26763,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 80,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 80
   },
   {
     "id": "fried-egg",
@@ -26782,7 +26808,8 @@
     "weight": 0.4,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 20
   },
   {
     "id": "grill",
@@ -26935,7 +26962,8 @@
     "wikiLink": "Relentless_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 40
   },
   {
     "id": "arcane-infusion",
@@ -26988,7 +27016,8 @@
     "wikiLink": "Arcane_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 40
   },
   {
     "id": "dried-peach",
@@ -27032,7 +27061,8 @@
     "weight": 0.1,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 25
   },
   {
     "id": "roast-dinner",
@@ -27084,7 +27114,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 80,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 80
   },
   {
     "id": "steak-n-eggs",
@@ -27134,7 +27165,8 @@
     "weight": 1.2,
     "itemType": "Food",
     "health": 40,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 50
   },
   {
     "id": "sweet-veg-ball",
@@ -27188,7 +27220,8 @@
     "weight": 0.5,
     "itemType": "Food",
     "health": 70,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 65
   },
   {
     "id": "pungent-omelette",
@@ -27240,7 +27273,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 70,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 70
   },
   {
     "id": "cheeky-fryup",
@@ -27294,7 +27328,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 70,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 70
   },
   {
     "id": "burnt-potato",
@@ -27337,7 +27372,8 @@
     "wikiLink": "Burnt_Potato",
     "weight": 0.2,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-onion",
@@ -27380,7 +27416,8 @@
     "wikiLink": "Burnt_Onion",
     "weight": 0.4,
     "itemType": "Food",
-    "stackLimit": 0
+    "stackLimit": 0,
+    "sustenance": 10
   },
   {
     "id": "burnt-mushroom",
@@ -27423,7 +27460,8 @@
     "wikiLink": "Burnt_Mushroom",
     "weight": 0.4,
     "itemType": "Food",
-    "stackLimit": 0
+    "stackLimit": 0,
+    "sustenance": 10
   },
   {
     "id": "burnt-flank",
@@ -27466,7 +27504,8 @@
     "wikiLink": "Burnt_Flank",
     "weight": 1,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 15
   },
   {
     "id": "burnt-steak",
@@ -27509,7 +27548,8 @@
     "wikiLink": "Burnt_Steak",
     "weight": 1,
     "itemType": "Food",
-    "stackLimit": 0
+    "stackLimit": 0,
+    "sustenance": 10
   },
   {
     "id": "burnt-cabbage",
@@ -27552,7 +27592,8 @@
     "wikiLink": "Burnt_Cabbage",
     "weight": 0.1,
     "itemType": "Food",
-    "stackLimit": 0
+    "stackLimit": 0,
+    "sustenance": 10
   },
   {
     "id": "burnt-dwellberries",
@@ -27595,7 +27636,8 @@
     "wikiLink": "Burnt_Dwellberries",
     "weight": 0.1,
     "itemType": "Food",
-    "stackLimit": 0
+    "stackLimit": 0,
+    "sustenance": 10
   },
   {
     "id": "burnt-rat-roast",
@@ -27638,7 +27680,8 @@
     "wikiLink": "Burnt_Rat_Roast",
     "weight": 1,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-haunch",
@@ -27681,7 +27724,8 @@
     "wikiLink": "Burnt_Haunch",
     "weight": 1,
     "itemType": "Food",
-    "stackLimit": 0
+    "stackLimit": 0,
+    "sustenance": 10
   },
   {
     "id": "burnt-fillet",
@@ -27724,7 +27768,8 @@
     "wikiLink": "Burnt_Fillet",
     "weight": 1,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-redberries",
@@ -27769,7 +27814,8 @@
     "wikiLink": "Burnt_Redberries",
     "weight": 0.1,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 10
   },
   {
     "id": "burnt-peach",
@@ -27812,7 +27858,8 @@
     "wikiLink": "Burnt_Peach",
     "weight": 0.2,
     "itemType": "Food",
-    "stackLimit": 0
+    "stackLimit": 0,
+    "sustenance": 15
   },
   {
     "id": "burnt-egg",
@@ -27881,7 +27928,8 @@
     "wikiLink": "Burnt_Egg",
     "weight": 0.4,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "small-blurite-nugget",
@@ -32848,7 +32896,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "steel-crossbow",
@@ -33211,7 +33260,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 70,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 40
   },
   {
     "id": "cadavaberry-infusion",
@@ -33258,7 +33308,8 @@
     "wikiLink": "Cadavaberry_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 40
   },
   {
     "id": "dried-cadavaberries",
@@ -33302,7 +33353,8 @@
     "weight": 0.1,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 20
   },
   {
     "id": "pumpkin-spice-infusion",
@@ -33353,7 +33405,8 @@
     "wikiLink": "Pumpkin_Spice_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 80
   },
   {
     "id": "white-platelegs",
@@ -33518,7 +33571,8 @@
     "wikiLink": "Burnt_Cadavaberries",
     "weight": 0.1,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "steel-crossbow-limbs",
@@ -33606,7 +33660,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 25
   },
   {
     "id": "amulet-of-strength",
@@ -34900,7 +34955,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 50,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 100
   },
   {
     "id": "steel-arrow",
@@ -35144,7 +35200,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 25
   },
   {
     "id": "burnt-watermelon",
@@ -35187,7 +35244,8 @@
     "wikiLink": "Burnt_Watermelon",
     "weight": 1,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 10
   },
   {
     "id": "pumpkin-soup",
@@ -35239,7 +35297,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 70,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 75
   },
   {
     "id": "lesser-quarrymaster-potion",
@@ -35692,7 +35751,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 90,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 85
   },
   {
     "id": "grilled-tomatoes",
@@ -35738,7 +35798,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 20
   },
   {
     "id": "medium-30-curved-roof-support-wall",
@@ -36149,7 +36210,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 70,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 70
   },
   {
     "id": "beef-tomato-stew",
@@ -36203,7 +36265,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 60,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 65
   },
   {
     "id": "headstone-01",
@@ -36653,7 +36716,8 @@
     "wikiLink": "Burnt_Pumpkin",
     "weight": 1,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 15
   },
   {
     "id": "spectral-silver-thread",
@@ -38231,7 +38295,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 25
   },
   {
     "id": "mithril-greatsword",
@@ -38569,7 +38634,8 @@
     "wikiLink": "Burnt_Maple_Syrup",
     "weight": 1,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 15
   },
   {
     "id": "maple-infusion",
@@ -38620,7 +38686,8 @@
     "wikiLink": "Maple_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 80
   },
   {
     "id": "meat-sandwich",
@@ -38672,7 +38739,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 80,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 85
   },
   {
     "id": "foragers-sandwich",
@@ -38724,7 +38792,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 70,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 80
   },
   {
     "id": "blue-dragonhide-body",
@@ -38834,7 +38903,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 90,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 80
   },
   {
     "id": "blue-dragonhide-coif",
@@ -38998,7 +39068,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 90,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 80
   },
   {
     "id": "glazed-pumpkin-sandwich",
@@ -39054,7 +39125,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 80,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 100
   },
   {
     "id": "maple-toastie",
@@ -39106,7 +39178,8 @@
     "weight": 2,
     "itemType": "Food",
     "health": 70,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 80
   },
   {
     "id": "blue-dragon-leather",
@@ -44630,7 +44703,8 @@
     "weight": 0.4,
     "itemType": "Food",
     "health": 50,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 85
   },
   {
     "id": "coarse-net",
@@ -45130,7 +45204,8 @@
     "weight": 0.7,
     "itemType": "Food",
     "health": 50,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 15
   },
   {
     "id": "sauteed-sardines",
@@ -45180,7 +45255,8 @@
     "weight": 0.7,
     "itemType": "Food",
     "health": 70,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 25
   },
   {
     "id": "herb-baked-trout",
@@ -45230,7 +45306,8 @@
     "weight": 0.7,
     "itemType": "Food",
     "health": 100,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 35
   },
   {
     "id": "eggs-royale",
@@ -45280,7 +45357,8 @@
     "weight": 0.7,
     "itemType": "Food",
     "health": 120,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "undead-delight",
@@ -45330,7 +45408,8 @@
     "weight": 0.7,
     "itemType": "Food",
     "health": 180,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 70
   },
   {
     "id": "berry-drizzle-pan-seared",
@@ -45382,7 +45461,8 @@
     "weight": 0.7,
     "itemType": "Food",
     "health": 160,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 65
   },
   {
     "id": "fish-fry",
@@ -45434,7 +45514,8 @@
     "weight": 0.7,
     "itemType": "Food",
     "health": 180,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 55
   },
   {
     "id": "stir-fry",
@@ -45486,7 +45567,8 @@
     "weight": 0.7,
     "itemType": "Food",
     "health": 150,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 70
   },
   {
     "id": "stuffed-catfish",
@@ -45538,7 +45620,8 @@
     "weight": 0.7,
     "itemType": "Food",
     "health": 80,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 80
   },
   {
     "id": "anchovy-bait",
@@ -46015,7 +46098,8 @@
     "weight": 2.1,
     "itemType": "Food",
     "health": 15,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 15
   },
   {
     "id": "fried-sardine",
@@ -46059,9 +46143,10 @@
     ],
     "wikiLink": "Fried_Sardine",
     "weight": 1.5,
-    "health": 30,
     "itemType": "Food",
-    "stackLimit": 50
+    "health": 30,
+    "stackLimit": 50,
+    "sustenance": 15
   },
   {
     "id": "sauteed-shrimp",
@@ -46107,7 +46192,8 @@
     "weight": 0.2,
     "itemType": "Food",
     "health": 5,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 10
   },
   {
     "id": "inspiring-ring-of-farming",
@@ -46262,8 +46348,9 @@
     "wikiLink": "Smoked_Herring",
     "weight": 1.8,
     "itemType": "Food",
-    "health": 20,
-    "stackLimit": 50
+    "health": 50,
+    "stackLimit": 50,
+    "sustenance": 20
   },
   {
     "id": "seared-anchovies",
@@ -46309,7 +46396,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 10,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 15
   },
   {
     "id": "fried-salmon",
@@ -46355,7 +46443,8 @@
     "weight": 1.8,
     "itemType": "Food",
     "health": 25,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 20
   },
   {
     "id": "roasted-lobster",
@@ -46401,7 +46490,8 @@
     "weight": 2.4,
     "itemType": "Food",
     "health": 15,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 20
   },
   {
     "id": "braised-undead-eel",
@@ -46446,8 +46536,9 @@
     "wikiLink": "Braised_Undead_Eel",
     "weight": 3.4,
     "itemType": "Food",
-    "health": 30,
-    "stackLimit": 50
+    "health": 60,
+    "stackLimit": 50,
+    "sustenance": 25
   },
   {
     "id": "grilled-undead-bass",
@@ -46493,7 +46584,8 @@
     "weight": 3.1,
     "itemType": "Food",
     "health": 35,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 25
   },
   {
     "id": "dried-giant-krill",
@@ -46539,7 +46631,8 @@
     "weight": 2.9,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 25
   },
   {
     "id": "smoked-infernal-eel",
@@ -46584,8 +46677,9 @@
     "wikiLink": "Smoked_Infernal_Eel",
     "weight": 3.1,
     "itemType": "Food",
-    "health": 45,
-    "stackLimit": 50
+    "health": 100,
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "braised-catfish",
@@ -46631,7 +46725,8 @@
     "weight": 4.5,
     "itemType": "Food",
     "health": 60,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "fishing-barrel",
@@ -47359,7 +47454,8 @@
     "wikiLink": "Burnt_Catfish",
     "weight": 4.5,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-undead-eel",
@@ -47404,7 +47500,8 @@
     "wikiLink": "Burnt_Undead_Eel",
     "weight": 3.4,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-giant-krill",
@@ -47449,7 +47546,8 @@
     "wikiLink": "Burnt_Giant_Krill",
     "weight": 2.9,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-salmon",
@@ -47494,7 +47592,8 @@
     "wikiLink": "Burnt_Salmon",
     "weight": 1.8,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-sardine",
@@ -47539,7 +47638,8 @@
     "wikiLink": "Burnt_Sardine",
     "weight": 1.5,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-trout",
@@ -47584,7 +47684,8 @@
     "wikiLink": "Burnt_Trout",
     "weight": 2.1,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-anchovies",
@@ -47629,7 +47730,8 @@
     "wikiLink": "Burnt_Anchovies",
     "weight": 1,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-herring",
@@ -47674,7 +47776,8 @@
     "wikiLink": "Burnt_Herring",
     "weight": 1.8,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-infernal-eel",
@@ -47719,7 +47822,8 @@
     "wikiLink": "Burnt_Infernal_Eel",
     "weight": 3.1,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-lobster",
@@ -47764,7 +47868,8 @@
     "wikiLink": "Burnt_Lobster",
     "weight": 2.4,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-shrimp",
@@ -47809,7 +47914,8 @@
     "wikiLink": "Burnt_Shrimp",
     "weight": 0.2,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-undead-bass",
@@ -47854,7 +47960,8 @@
     "wikiLink": "Burnt_Undead_Bass",
     "weight": 3.1,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "burnt-bread",
@@ -47899,7 +48006,8 @@
     "wikiLink": "Burnt_Bread",
     "weight": 1,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 10
   },
   {
     "id": "chandelier",
@@ -52473,7 +52581,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 60,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 25
   },
   {
     "id": "yew-plank",
@@ -53619,7 +53728,8 @@
     "weight": 1.4,
     "itemType": "Food",
     "health": 120,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 50
   },
   {
     "id": "yew-longbow",
@@ -54123,7 +54233,8 @@
     "weight": 1.1,
     "itemType": "Food",
     "health": 130,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 25
   },
   {
     "id": "adamant-bolt",
@@ -54412,7 +54523,8 @@
     "wikiLink": "Cooling_Arcane_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 40
   },
   {
     "id": "cooling-evasive-infusion",
@@ -54463,7 +54575,8 @@
     "wikiLink": "Cooling_Evasive_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 40
   },
   {
     "id": "cooling-ferocious-infusion",
@@ -54514,7 +54627,8 @@
     "wikiLink": "Cooling_Ferocious_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 40
   },
   {
     "id": "cooling-fleet-footed-infusion",
@@ -54565,7 +54679,8 @@
     "wikiLink": "Cooling_Fleet-Footed_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 40
   },
   {
     "id": "cooling-relentless-infusion",
@@ -54616,7 +54731,8 @@
     "wikiLink": "Cooling_Relentless_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 40
   },
   {
     "id": "obsidian-helmet",
@@ -54806,7 +54922,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 100,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "pristine-beltfish-trophy",
@@ -54984,7 +55101,8 @@
     "weight": 1,
     "itemType": "Food",
     "health": 130,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "swabbie-pie",
@@ -55040,7 +55158,8 @@
     "weight": 1.5,
     "itemType": "Food",
     "health": 220,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 80
   },
   {
     "id": "umbral-kebab",
@@ -55096,7 +55215,8 @@
     "weight": 1.2,
     "itemType": "Food",
     "health": 80,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 90
   },
   {
     "id": "strong-sweet-tea",
@@ -55147,7 +55267,8 @@
     "wikiLink": "Strong_Sweet_Tea",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 10
   },
   {
     "id": "strong-tea",
@@ -55194,7 +55315,8 @@
     "wikiLink": "Strong_Tea",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "hydration": 10
   },
   {
     "id": "amulet-of-glory",
@@ -55905,7 +56027,8 @@
     "wikiLink": "Burnt_Beltfish",
     "weight": 1,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 15
   },
   {
     "id": "burnt-desert-sole",
@@ -55948,7 +56071,8 @@
     "wikiLink": "Burnt_Desert_Sole",
     "weight": 1,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 15
   },
   {
     "id": "zombie-arm",
@@ -56491,7 +56615,8 @@
     "wikiLink": "Burnt_Monkfish",
     "weight": 1,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 15
   },
   {
     "id": "toktz-xil-ak",
@@ -58133,7 +58258,8 @@
     "wikiLink": "Dirty_Water",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "hydration": 10
   },
   {
     "id": "redberries",
@@ -58154,7 +58280,8 @@
     "wikiLink": "Redberries",
     "weight": 0.1,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 5
   },
   {
     "id": "cabbage",
@@ -58448,7 +58575,8 @@
     "wikiLink": "Dwellberries",
     "weight": 0.1,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "raw-rat-meat",
@@ -58679,7 +58807,8 @@
     "wikiLink": "Redberry_Glazed_Roast_Flank",
     "weight": 1.2,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "snapdragon",
@@ -59224,7 +59353,8 @@
     "wikiLink": "Fortifying_Stew",
     "weight": 1.4,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "abyssal-ashes",
@@ -59371,7 +59501,8 @@
     "wikiLink": "Berry_Compote",
     "weight": 0.4,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "sandstone",
@@ -59413,7 +59544,8 @@
     "wikiLink": "Dwellberry_Crunchies_(Removed)",
     "weight": 0.6,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "dwellberry-glazed-roast-flank",
@@ -59434,7 +59566,8 @@
     "wikiLink": "Dwellberry_Glazed_Roast_Flank",
     "weight": 1.2,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "dwellberry-glazed-roast-meat",
@@ -59455,7 +59588,8 @@
     "wikiLink": "Dwellberry_Glazed_Roast_Meat",
     "weight": 1.2,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "fortifying-crunchies",
@@ -59476,7 +59610,8 @@
     "wikiLink": "Fortifying_Crunchies",
     "weight": 0.6,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "fortifying-soup",
@@ -59497,7 +59632,8 @@
     "wikiLink": "Fortifying_Soup",
     "weight": 0.8,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "hearty-crunchies",
@@ -59518,7 +59654,8 @@
     "wikiLink": "Hearty_Crunchies",
     "weight": 0.6,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "hearty-fortifying-soup",
@@ -59539,7 +59676,8 @@
     "wikiLink": "Hearty_Fortifying_Soup",
     "weight": 0.8,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "hearty-soup",
@@ -59560,7 +59698,8 @@
     "wikiLink": "Hearty_Soup",
     "weight": 0.8,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "hearty-stew",
@@ -59581,7 +59720,8 @@
     "wikiLink": "Hearty_Stew",
     "weight": 1.4,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "mixed-platter",
@@ -59602,7 +59742,8 @@
     "wikiLink": "Mixed_Platter",
     "weight": 2,
     "itemType": "Food",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 30
   },
   {
     "id": "raw-bestial-meat",
@@ -60018,7 +60159,8 @@
     "wikiLink": "Peach",
     "weight": 0.2,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 15
   },
   {
     "id": "tome-of-the-dragon-slayer",
@@ -62427,7 +62569,8 @@
     "wikiLink": "Cadavaberries",
     "weight": 0.1,
     "itemType": "Food",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 10
   },
   {
     "id": "corpse-cotton",
@@ -62616,7 +62759,8 @@
     "wikiLink": "Watermelon",
     "weight": 1,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sustenance": 15
   },
   {
     "id": "watermelon-seeds",
@@ -62910,7 +63054,8 @@
     "wikiLink": "Wither_Water",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "hydration": 10
   },
   {
     "id": "cloying-damp-cowl",
@@ -68279,7 +68424,8 @@
     "wikiLink": "Cactus_Water",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "hydration": 25
   },
   {
     "id": "chipped-obsidian-construct",
@@ -69729,6 +69875,7 @@
     "facilities": [],
     "wikiLink": "PLAN:_Moon_Garou_Bed",
     "weight": 0,
+    "itemType": "Consumable",
     "stackLimit": 99
   }
 ]
