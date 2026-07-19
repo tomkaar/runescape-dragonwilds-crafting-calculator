@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Slider } from "@/components/ui/slider";
 import type { TableBodyRowType } from "../types/table-body-row";
 import { getUniqueKeys } from "../utils/filter-helpers";
+import FilterAccordionHeader from "./filter-accordion-header";
 
 type Props = {
 	showMoreButton?: boolean;
@@ -34,17 +35,16 @@ export default function FilterRange({ column, headerIcon: HeaderIcon }: Props) {
 	return (
 		<AccordionItem key={column.id} value={column.id}>
 			<AccordionTrigger className="w-full px-4 py-2 text-left">
-				<div className="flex flex-row gap-2 items-center">
-					{HeaderIcon ? (
-						<HeaderIcon className="h-4 w-4 shrink-0 text-accent-foreground" />
-					) : null}
-					<span className="text-accent-foreground">
-						{column.columnDef.header as string}
-					</span>
-					{activeFilterString ? (
-						<Badge className="text-[10px]">{activeFilterString}</Badge>
-					) : null}
-				</div>
+				<FilterAccordionHeader
+					title={column.columnDef.header as string}
+					headerIcon={HeaderIcon}
+					description={column.columnDef.meta?.description}
+					badge={
+						activeFilterString ? (
+							<Badge className="text-[10px]">{activeFilterString}</Badge>
+						) : null
+					}
+				/>
 			</AccordionTrigger>
 			<AccordionContent className="px-4 py-2 pb-2 pt-4">
 				<Slider

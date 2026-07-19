@@ -4,10 +4,10 @@ import {
 	Boxes,
 	ChartColumn,
 	Droplet,
+	FilterIcon,
 	Hammer,
 	Heart,
 	type LucideIcon,
-	MenuIcon,
 	PackageCheck,
 	Tags,
 } from "lucide-react";
@@ -52,7 +52,7 @@ export default function Filter({
 	}
 
 	return (
-		<div className="flex flex-col gap-4 min-w-68 pb-8 text-muted-foreground overflow-scroll h-full">
+		<div className="flex flex-col gap-4 min-w-68 max-w-72 pb-8 text-muted-foreground overflow-scroll h-full">
 			<div className="flex flex-row gap-2 w-full items-center justify-between px-4 py-2">
 				<div className="flex flex-col gap-0 justify-center">
 					<h2 className="text-accent-foreground font-semibold text-lg leading-5">
@@ -71,7 +71,7 @@ export default function Filter({
 						<SheetTrigger
 							render={
 								<Button variant="outline" size="icon" className="lg:hidden">
-									<MenuIcon className="h-4 w-4" />
+									<FilterIcon className="h-4 w-4" />
 								</Button>
 							}
 						/>

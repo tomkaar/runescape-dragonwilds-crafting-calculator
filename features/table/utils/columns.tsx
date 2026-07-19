@@ -65,7 +65,10 @@ export const columns = [
 	columnHelper.accessor(ColumnId.ItemType, {
 		header: "Type",
 		size: 140,
-		meta: { filterVariant: "itemType" },
+		meta: {
+			filterVariant: "itemType",
+			description: "The kind of item, like tools, weapons, or food.",
+		},
 		cell: (info) => (
 			<div className="flex items-center py-1 px-4">
 				{info.getValue() ?? "—"}
@@ -80,7 +83,10 @@ export const columns = [
 	columnHelper.accessor(ColumnId.Facilities, {
 		header: "Facilities",
 		size: 180,
-		meta: { filterVariant: "facilities" },
+		meta: {
+			filterVariant: "facilities",
+			description: "The crafting facility required to make the item.",
+		},
 		cell: (info) => {
 			const facilities = info.getValue();
 			if (facilities.length === 0) return <div className="py-1 px-4">—</div>;
@@ -113,7 +119,10 @@ export const columns = [
 	columnHelper.accessor(ColumnId.Skills, {
 		header: "Skills",
 		size: 150,
-		meta: { filterVariant: "skills" },
+		meta: {
+			filterVariant: "skills",
+			description: "The skill used to craft the item.",
+		},
 		cell: (info) => {
 			const skills = info.getValue();
 			if (skills.length === 0) return <div className="py-1 px-4">—</div>;
@@ -158,7 +167,10 @@ export const columns = [
 	columnHelper.accessor(ColumnId.Health, {
 		header: "Health",
 		size: 100,
-		meta: { filterVariant: "range" },
+		meta: {
+			filterVariant: "range",
+			description: "The amount of health the item restores when consumed.",
+		},
 		cell: (info) => (
 			<div className="flex items-center py-1 px-4">{info.getValue() || ""}</div>
 		),
@@ -179,7 +191,10 @@ export const columns = [
 	columnHelper.accessor(ColumnId.Hydration, {
 		header: "Hydration",
 		size: 120,
-		meta: { filterVariant: "range" },
+		meta: {
+			filterVariant: "range",
+			description: "The amount of hydration the item restores when consumed.",
+		},
 		cell: (info) => (
 			<div className="flex items-center py-1 px-4">{info.getValue() ?? ""}</div>
 		),
@@ -206,7 +221,10 @@ export const columns = [
 	columnHelper.accessor(ColumnId.Sustenance, {
 		header: "Sustenance",
 		size: 140,
-		meta: { filterVariant: "range" },
+		meta: {
+			filterVariant: "range",
+			description: "The amount of sustenance the item restores when consumed.",
+		},
 		cell: (info) => (
 			<div className="flex items-center py-1 px-4">{info.getValue() ?? ""}</div>
 		),
@@ -233,7 +251,10 @@ export const columns = [
 	columnHelper.accessor(ColumnId.OutputQuantity, {
 		header: "Output",
 		size: 100,
-		meta: { filterVariant: "range" },
+		meta: {
+			filterVariant: "range",
+			description: "The number of items a single craft produces.",
+		},
 		cell: (info) => (
 			<div className="flex items-center py-1 px-4">{info.getValue()}</div>
 		),
@@ -252,7 +273,10 @@ export const columns = [
 	columnHelper.accessor(ColumnId.Materials, {
 		header: "Materials",
 		size: 480,
-		meta: { filterVariant: "materials" },
+		meta: {
+			filterVariant: "materials",
+			description: "The materials required to craft the item.",
+		},
 		filterFn: (row, _columnId, filterValue: string[]) => {
 			if (filterValue.length === 0) return true;
 			return row.original.materials.some((m) => filterValue.includes(m.name));

@@ -16,6 +16,8 @@ declare module "@tanstack/react-table" {
 			| "range"
 			| "skills"
 			| "itemType";
+		/** Short hint shown under the filter title in the sidebar. */
+		description?: string;
 	}
 
 	interface SortingFns {
