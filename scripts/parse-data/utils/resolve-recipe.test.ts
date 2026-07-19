@@ -8,6 +8,7 @@ function makeRecipe(overrides: {
 	outputItem?: string;
 	outputName?: string;
 	outputQuantity?: string | number;
+	skills?: { name: string; experience: string }[];
 }): SourceRecipe {
 	const materials = overrides.materials ?? [];
 	return {
@@ -23,7 +24,7 @@ function makeRecipe(overrides: {
 				item: mat.name,
 				image: "",
 			})),
-			skills: [],
+			skills: overrides.skills ?? [],
 			outputs: [],
 			output: {
 				quantity: overrides.outputQuantity ?? 1,
@@ -102,5 +103,24 @@ describe("resolveRecipe", () => {
 		const a = resolveRecipe(makeRecipe({ outputQuantity: 1 }));
 		const b = resolveRecipe(makeRecipe({ outputQuantity: 2 }));
 		expect(a.id).not.toBe(b.id);
+	});
+
+	it("maps skills to their name and parsed experience", () => {
+		const result = resolveRecipe(
+			makeRecipe({ skills: [{ name: "Construction", experience: "8" }] }),
+		);
+		expect(result.skills).toEqual([{ name: "Construction", experience: 8 }]);
+	});
+
+	it("defaults a skill's experience to 0 when it doesn't parse", () => {
+		const result = resolveRecipe(
+			makeRecipe({ skills: [{ name: "Construction", experience: "" }] }),
+		);
+		expect(result.skills).toEqual([{ name: "Construction", experience: 0 }]);
+	});
+
+	it("returns an empty skills array when the recipe grants no skills", () => {
+		const result = resolveRecipe(makeRecipe({}));
+		expect(result.skills).toEqual([]);
 	});
 });

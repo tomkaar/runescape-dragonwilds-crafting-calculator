@@ -425,6 +425,45 @@ describe("buildSteps", () => {
 		]);
 		expect(mid.coverageWarnings).toEqual([]);
 	});
+
+	it("scales a step's recipe contribution by its remaining (post-owned) quantity", () => {
+		registerItems({
+			root: makeItem("root", [
+				makeVariant(makeRecipe(1, [{ itemId: "leaf", quantity: 20 }])),
+			]),
+			leaf: makeItem("leaf", [
+				makeVariant(
+					makeRecipe(4, [], [], [{ name: "Cooking", experience: 5 }]),
+				),
+			]),
+		});
+
+		const result = buildSteps({
+			filteredItemIds: ["root"],
+			allItems: {
+				root: [
+					{
+						id: "m1",
+						itemId: "leaf",
+						quantity: 20,
+						nodeId: "root_leaf",
+						state: "TODO",
+					},
+				],
+			},
+			multipliers: { root: 1 },
+			owned: { leaf: 12 },
+		});
+
+		expect(result[0].quantity).toBe(8);
+		expect(result[0].recipeContributions).toEqual([
+			{
+				skills: [{ name: "Cooking", experience: 5 }],
+				recipeQuantity: 4,
+				remainingQuantity: 8,
+			},
+		]);
+	});
 });
 
 describe("computeCoverageWarnings", () => {

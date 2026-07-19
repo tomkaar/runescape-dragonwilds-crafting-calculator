@@ -61,6 +61,13 @@ export type Recipe = {
 	quantity: number;
 	/* List of materials required to craft the recipe */
 	materials: Material[];
+	/* Skills and the experience granted per craft of this recipe */
+	skills: RecipeSkill[];
+};
+
+export type RecipeSkill = {
+	name: (typeof Skill)[number];
+	experience: number;
 };
 
 /**

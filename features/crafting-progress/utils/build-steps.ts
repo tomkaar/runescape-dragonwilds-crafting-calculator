@@ -1,14 +1,31 @@
 import type { MaterialTreeItem } from "@/features/material-tree/types/material-tree";
 import { resolveMaterialTree } from "@/features/material-tree/utils/resolve-material-tree";
+import type { RecipeSkill } from "@/Types";
 import { sourceItemById } from "@/utils/source-item-by-id";
 
-type MarkedMaterial = {
+export type MarkedMaterial = {
 	id: string;
 	itemId: string;
 	quantity: number;
 	nodeId?: string;
 	state: "TODO" | "DONE";
 };
+
+/**
+ * Shared by anything that needs to know which nodes of a tracked item's tree
+ * the user has marked as todo — null when there's nothing marked yet, so
+ * callers can bail out in one check instead of re-deriving it themselves.
+ */
+export function getMarkedNodeIds(
+	marked: MarkedMaterial[] | undefined,
+): Set<string> | null {
+	const markedTodo = (marked ?? []).filter(
+		(m) => m.state === "TODO" && m.nodeId,
+	);
+	if (markedTodo.length === 0) return null;
+	// biome-ignore lint/style/noNonNullAssertion: <Marked TODOs are filtered to only include entries with a nodeId>
+	return new Set(markedTodo.map((m) => m.nodeId!));
+}
 
 type StepParent = {
 	itemId: string;
@@ -23,6 +40,16 @@ export type CoverageWarning = {
 	missingRoots: Array<{ itemId: string; name: string; image: string | null }>;
 };
 
+// One distinct recipe that (partly) produces this step's item, and how much
+// of the step's final remaining quantity is attributed to that recipe —
+// scaled from this recipe's share of the item's gross demand, since a single
+// item can be reached through more than one variant/recipe across the tree.
+type StepRecipeContribution = {
+	skills: RecipeSkill[];
+	recipeQuantity: number;
+	remainingQuantity: number;
+};
+
 export type StepEntry = {
 	itemId: string;
 	name: string;
@@ -34,9 +61,19 @@ export type StepEntry = {
 	depth: number;
 	hasChildren: boolean;
 	coverageWarnings: CoverageWarning[];
+	recipeContributions?: StepRecipeContribution[];
 };
 
-type Params = {
+// Internal-only accumulator used while walking the tree: tracks each
+// distinct recipe's gross (pre owned-stock-discount) contribution to a step,
+// keyed by recipe id so quantities from repeated marked nodes sharing the
+// same recipe accumulate together.
+type RecipeContributionAccumulator = Map<
+	string,
+	{ skills: RecipeSkill[]; recipeQuantity: number; grossQuantity: number }
+>;
+
+export type Params = {
 	filteredItemIds: string[];
 	allItems: Record<string, MarkedMaterial[]>;
 	multipliers: Record<string, number>;
@@ -52,6 +89,7 @@ function walkTree(
 	trackedItemImage: string | null,
 	markedNodeIds: Set<string>,
 	aggregated: Map<string, StepEntry>,
+	recipeAccumulators: Map<string, RecipeContributionAccumulator>,
 ) {
 	for (const node of nodes) {
 		// Variant nodes are transparent — skip but still recurse with the same parent/depth
@@ -66,6 +104,7 @@ function walkTree(
 					trackedItemImage,
 					markedNodeIds,
 					aggregated,
+					recipeAccumulators,
 				);
 			}
 			continue;
@@ -79,6 +118,24 @@ function walkTree(
 			);
 
 		if (isMarked) {
+			const recipe = node.variant?.recipe;
+			const recipeKey = recipe?.id ?? "no-recipe";
+			let accumulator = recipeAccumulators.get(node.id);
+			if (!accumulator) {
+				accumulator = new Map();
+				recipeAccumulators.set(node.id, accumulator);
+			}
+			const recipeContribution = accumulator.get(recipeKey);
+			if (recipeContribution) {
+				recipeContribution.grossQuantity += node.quantity;
+			} else {
+				accumulator.set(recipeKey, {
+					skills: recipe?.skills ?? [],
+					recipeQuantity: recipe?.quantity || 1,
+					grossQuantity: node.quantity,
+				});
+			}
+
 			const existing = aggregated.get(node.id);
 			if (existing) {
 				existing.quantity += node.quantity;
@@ -143,6 +200,7 @@ function walkTree(
 				trackedItemImage,
 				markedNodeIds,
 				aggregated,
+				recipeAccumulators,
 			);
 		}
 	}
@@ -244,19 +302,15 @@ export function buildSteps({
 	owned,
 }: Params): StepEntry[] {
 	const aggregated = new Map<string, StepEntry>();
+	const recipeAccumulators = new Map<string, RecipeContributionAccumulator>();
 
 	for (const trackedItemId of filteredItemIds) {
 		const multiplier = multipliers[trackedItemId] || 1;
 		const trackedItem = sourceItemById(trackedItemId);
 		if (!trackedItem) continue;
 
-		const markedTodo = (allItems[trackedItemId] || []).filter(
-			(m) => m.state === "TODO" && m.nodeId,
-		);
-		if (markedTodo.length === 0) continue;
-
-		// biome-ignore lint/style/noNonNullAssertion: <Marked TODOs are filtered to only include entries with a nodeId>
-		const markedNodeIds = new Set(markedTodo.map((m) => m.nodeId!));
+		const markedNodeIds = getMarkedNodeIds(allItems[trackedItemId]);
+		if (!markedNodeIds) continue;
 
 		const tree = resolveMaterialTree(trackedItemId, multiplier);
 
@@ -271,6 +325,7 @@ export function buildSteps({
 			trackedItem.image,
 			markedNodeIds,
 			aggregated,
+			recipeAccumulators,
 		);
 	}
 
@@ -295,11 +350,29 @@ export function buildSteps({
 						{ ...p, quantity: remainingMap.get(p.itemId)! }
 					: { ...p, quantity: multipliers[p.itemId] || 1 },
 			);
+		// Split the item's remaining (post owned-discount) quantity back across
+		// each recipe that contributed to it, weighted by that recipe's share of
+		// the gross total — exact when a single recipe produced the item (the
+		// overwhelming common case), an approximation when it was reached via
+		// more than one variant/recipe across the tree.
+		const accumulator = recipeAccumulators.get(entry.itemId);
+		const recipeContributions: StepRecipeContribution[] = accumulator
+			? Array.from(accumulator.values()).map((contribution) => ({
+					skills: contribution.skills,
+					recipeQuantity: contribution.recipeQuantity,
+					remainingQuantity:
+						entry.quantity > 0
+							? (contribution.grossQuantity / entry.quantity) * remaining
+							: 0,
+				}))
+			: [];
+
 		results.push({
 			...entry,
 			quantity: remaining,
 			parents: adjustedParents,
 			coverageWarnings: computeCoverageWarnings(entry, aggregated),
+			recipeContributions,
 		});
 	}
 

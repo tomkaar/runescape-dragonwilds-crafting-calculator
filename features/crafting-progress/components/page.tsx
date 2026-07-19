@@ -9,6 +9,7 @@ import { useTrackedItemIds } from "@/features/crafting-progress/hooks/useTracked
 import { useSelectedMaterial } from "@/store/selected-material";
 import { useStoreHydration } from "@/store/useStoreHydration";
 import { CollectedMaterials } from "./collected-materials";
+import { ExperienceSummary } from "./experience-summary";
 
 export function ProgressPage() {
 	const _hasHydrated = useStoreHydration(useSelectedMaterial);
@@ -39,7 +40,8 @@ export function ProgressPage() {
 				<CollectedMaterials trackedItemIds={trackedItemIds} />
 			</div>
 
-			<div className="flex-1 lg:shrink-0 lg:overflow-y-auto">
+			<div className="flex-1 flex flex-col gap-4 lg:shrink-0 lg:overflow-y-auto">
+				<ExperienceSummary allItems={items} />
 				<NextSteps allItems={items} />
 			</div>
 		</div>

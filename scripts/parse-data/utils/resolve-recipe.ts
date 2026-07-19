@@ -1,6 +1,6 @@
 import { createHash } from "node:crypto";
 import type { SourceRecipe } from "@/scripts/fetch-data/types/recipe";
-import type { Facility, Material, Recipe } from "@/Types";
+import type { Facility, Material, Recipe, RecipeSkill } from "@/Types";
 import { applyFacilityNameOverride } from "./apply-facility-name-override";
 import { idFromName } from "./id-from-name";
 
@@ -14,6 +14,11 @@ export function resolveRecipe(rawRecipe: SourceRecipe): Recipe {
 					? parseFloat(mat.quantity) || 1
 					: mat.quantity || 1,
 		}));
+
+	const skills: RecipeSkill[] = (rawRecipe.json.skills ?? []).map((skill) => ({
+		name: skill.name as RecipeSkill["name"],
+		experience: parseFloat(skill.experience) || 0,
+	}));
 
 	const facility = applyFacilityNameOverride(
 		rawRecipe.json.facility,
@@ -33,6 +38,7 @@ export function resolveRecipe(rawRecipe: SourceRecipe): Recipe {
 		facilities: facility ? [facility] : [],
 		materials,
 		quantity,
+		skills,
 	};
 
 	return returnRecipe;
