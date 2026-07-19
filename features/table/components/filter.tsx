@@ -97,14 +97,14 @@ export default function Filter({
 				<Field>
 					<FieldLabel
 						htmlFor="input-item-name"
-						className="text-accent-foreground"
+						className="text-accent-foreground sr-only"
 					>
 						Item name
 					</FieldLabel>
 					<Input
 						id="input-item-name"
 						type="text"
-						placeholder="Item name"
+						placeholder="Search for an item ..."
 						value={globalFilter}
 						onChange={(e) => setGlobalFilter(e.target.value)}
 					/>
