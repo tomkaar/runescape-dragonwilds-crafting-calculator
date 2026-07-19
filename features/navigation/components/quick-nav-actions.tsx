@@ -10,15 +10,15 @@ export function QuickNavActions() {
 			<Link href="/item" prefetch={false}>
 				<Button variant="outline" size="sm">
 					<span className="text-muted-foreground">⇧I</span>
-					<span className="sr-only">All items</span>
-					<ListIcon className="w-4 h-4" />
+					<span className="sr-only md:not-sr-only">All items</span>
+					<ListIcon className="w-4 h-4 md:hidden" />
 				</Button>
 			</Link>
 			<Link href="/progress" prefetch={false}>
 				<Button variant="outline" size="sm">
 					<span className="text-muted-foreground">⇧P</span>
-					<span className="sr-only">Progress</span>
-					<CheckCircleIcon className="w-4 h-4" />
+					<span className="sr-only md:not-sr-only">Progress</span>
+					<CheckCircleIcon className="w-4 h-4 md:hidden" />
 				</Button>
 			</Link>
 		</div>
