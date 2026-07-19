@@ -90,10 +90,6 @@ export function ExperienceSummary({ allItems }: Props) {
 				</AccordionTrigger>
 
 				<AccordionContent className="px-4 pb-4 text-foreground pt-4 flex flex-col gap-3">
-					<div className="flex justify-end">
-						<SkillLevelsDialog />
-					</div>
-
 					{displaySkills.length === 0 ? (
 						<p className="text-xs text-muted-foreground">
 							No experience to show yet — mark materials as todo on the item
@@ -190,6 +186,10 @@ export function ExperienceSummary({ allItems }: Props) {
 							</span>
 						</div>
 					)}
+
+					<div className="flex justify-start">
+						<SkillLevelsDialog />
+					</div>
 				</AccordionContent>
 			</AccordionItem>
 		</AccordionPersisted>
