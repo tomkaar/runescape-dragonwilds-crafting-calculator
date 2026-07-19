@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { Badge } from "@/components/ui/badge";
 import type { Item } from "@/Types";
+import { ExperienceBadge } from "./experience-badge";
 import { HealthBadge } from "./health-badge";
 import { HydrationBadge } from "./hydration-badge";
 import { StackLimitBadge } from "./stack-limit-badge";
@@ -12,7 +13,13 @@ import { WeightBadge } from "./weight-badge";
 type Props = {
 	item: Pick<
 		Item,
-		"wikiLink" | "weight" | "health" | "stackLimit" | "hydration" | "sustenance"
+		| "wikiLink"
+		| "weight"
+		| "health"
+		| "stackLimit"
+		| "hydration"
+		| "sustenance"
+		| "variants"
 	>;
 	/** Rendered immediately after the wiki badge, before the weight/health/stack-limit badges. */
 	afterWiki?: ReactNode;
@@ -39,6 +46,7 @@ export function ItemAttributeBadges({ item, afterWiki }: Props) {
 
 			{afterWiki}
 
+			<ExperienceBadge variants={item.variants} />
 			<WeightBadge weight={item.weight} />
 			<HealthBadge health={item.health} />
 			<HydrationBadge hydration={item.hydration} />
