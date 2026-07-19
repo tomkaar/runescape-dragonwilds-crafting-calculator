@@ -39329,7 +39329,7 @@
     ],
     "wikiLink": "Fried_Sardine",
     "weight": 1.5,
-    "health": 10,
+    "health": 30,
     "stackLimit": 50
   },
   {
@@ -39503,7 +39503,7 @@
     ],
     "wikiLink": "Smoked_Herring",
     "weight": 1.8,
-    "health": 20,
+    "health": 50,
     "stackLimit": 50
   },
   {
@@ -39659,7 +39659,7 @@
     ],
     "wikiLink": "Braised_Undead_Eel",
     "weight": 3.4,
-    "health": 30,
+    "health": 60,
     "stackLimit": 50
   },
   {
@@ -39776,7 +39776,7 @@
     ],
     "wikiLink": "Smoked_Infernal_Eel",
     "weight": 3.1,
-    "health": 45,
+    "health": 100,
     "stackLimit": 50
   },
   {
@@ -60743,5 +60743,25 @@
     "wikiLink": "MOUNT:_Scorchweave_Rug",
     "weight": 0,
     "stackLimit": 50
+  },
+  {
+    "id": "plan-moon-garou-bed",
+    "name": "PLAN: Moon Garou Bed",
+    "image": "PLAN- Moon Garou Bed.png",
+    "variants": [
+      {
+        "id": "plan-moon-garou-bed",
+        "name": "PLAN: Moon Garou Bed",
+        "image": "PLAN- Moon Garou Bed.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Moon_Garou_Bed",
+    "weight": 0,
+    "stackLimit": 99
   }
 ]
