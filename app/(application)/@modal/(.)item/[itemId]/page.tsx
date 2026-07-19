@@ -1,8 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
-import { resolveItemTree } from "@/domain/crafting/utils/resolve-item-tree";
-import { resolveUniqueFacilitiesFromItemTree } from "@/domain/crafting/utils/resolve-unique-facilities-from-item-tree";
+import { resolveFacilityRequirements } from "@/domain/crafting/utils/resolve-facility-requirements";
 import { ItemAttributeBadges } from "@/features/item-detail/components/item-attribute-badges";
 import { ItemHeader } from "@/features/item-detail/components/item-header";
 import { ItemQuickView } from "@/features/item-detail/components/item-quick-view";
@@ -28,8 +27,10 @@ export default async function InterceptedItemModal(props: Props) {
 	}
 
 	const usedIn = getUsedIn(itemId);
-	const itemTree = resolveItemTree(itemId);
-	const uniqueFacilities = resolveUniqueFacilitiesFromItemTree(itemTree);
+	const { ownFacilities, additionalFacilities } = resolveFacilityRequirements(
+		item,
+		itemId,
+	);
 	const usesRecipes = Array.from(
 		new Set(item.variants.flatMap((v) => v.usesRecipe ?? [])),
 	);
@@ -51,35 +52,30 @@ export default async function InterceptedItemModal(props: Props) {
 				</div>
 			</div>
 
-			{uniqueFacilities.length > 0 && (
+			{ownFacilities.length > 0 && (
 				<div className="mt-2">
 					<h3 className="text-sm font-semibold text-foreground">
 						Required Facilities
 					</h3>
 					<span className="block mt-0.5 mb-4 text-xs text-foreground">
-						To craft this item, you must first unlock the following facilities
+						This item can be crafted at any of the following facilities
 					</span>
 
-					<div className="flex flex-row flex-wrap gap-2">
-						{uniqueFacilities.map((facility) => (
-							<Link
-								key={facility}
-								prefetch={false}
-								href={{
-									pathname: `/item`,
-									search: `?facilities=${encodeURIComponent(facility as string)}`,
-								}}
-							>
-								<Badge
-									variant="outline"
-									className="text-sm flex flex-row items-center"
-								>
-									{getFacilityIcon(facility as (typeof Facility)[number], 22)}
-									<span className="min-h-5.5">{facility}</span>
-								</Badge>
-							</Link>
-						))}
-					</div>
+					<FacilityBadgeRow facilities={ownFacilities} />
+				</div>
+			)}
+
+			{additionalFacilities.length > 0 && (
+				<div className="mt-2">
+					<h3 className="text-sm font-semibold text-foreground">
+						Additional Required Facilities
+					</h3>
+					<span className="block mt-0.5 mb-4 text-xs text-foreground">
+						The materials used to craft this item may require these additional
+						facilities
+					</span>
+
+					<FacilityBadgeRow facilities={additionalFacilities} />
 				</div>
 			)}
 
@@ -119,5 +115,30 @@ export default async function InterceptedItemModal(props: Props) {
 				</div>
 			)}
 		</ItemQuickView>
+	);
+}
+
+function FacilityBadgeRow({ facilities }: { facilities: string[] }) {
+	return (
+		<div className="flex flex-row flex-wrap gap-2">
+			{facilities.map((facility) => (
+				<Link
+					key={facility}
+					prefetch={false}
+					href={{
+						pathname: `/item`,
+						search: `?facilities=${encodeURIComponent(facility)}`,
+					}}
+				>
+					<Badge
+						variant="outline"
+						className="text-sm flex flex-row items-center"
+					>
+						{getFacilityIcon(facility as (typeof Facility)[number], 22)}
+						<span className="min-h-5.5">{facility}</span>
+					</Badge>
+				</Link>
+			))}
+		</div>
 	);
 }
