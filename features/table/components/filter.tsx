@@ -1,5 +1,16 @@
 import type { ColumnFiltersState, Table } from "@tanstack/react-table";
-import { MenuIcon } from "lucide-react";
+import {
+	BicepsFlexed,
+	Boxes,
+	ChartColumn,
+	Droplet,
+	Hammer,
+	Heart,
+	type LucideIcon,
+	MenuIcon,
+	PackageCheck,
+	Tags,
+} from "lucide-react";
 import { useState } from "react";
 import { Accordion } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
@@ -12,6 +23,7 @@ import {
 	SheetTitle,
 	SheetTrigger,
 } from "@/components/ui/sheet";
+import { ColumnId } from "../types/column-id";
 import type { TableBodyRowType } from "../types/table-body-row";
 import FilterRange from "./filter-range";
 import FilterSelectMultiple from "./filter-select-multiple";
@@ -126,6 +138,7 @@ function Columns({ table }: { table: Table<TableBodyRowType> }) {
 								key={column.id}
 								column={column}
 								table={table}
+								headerIcon={Tags}
 								showMoreButton
 							/>
 						);
@@ -136,6 +149,7 @@ function Columns({ table }: { table: Table<TableBodyRowType> }) {
 								column={column}
 								table={table}
 								icon="facility"
+								headerIcon={Hammer}
 								showMoreButton
 							/>
 						);
@@ -145,6 +159,7 @@ function Columns({ table }: { table: Table<TableBodyRowType> }) {
 								key={column.id}
 								column={column}
 								table={table}
+								headerIcon={ChartColumn}
 							/>
 						);
 					case "materials":
@@ -154,13 +169,35 @@ function Columns({ table }: { table: Table<TableBodyRowType> }) {
 								column={column}
 								table={table}
 								icon="material"
+								headerIcon={Boxes}
 								showMoreButton
 							/>
 						);
-					case "range":
+					case "range": {
+						let headerIcon: LucideIcon | undefined;
+						switch (column.id) {
+							case ColumnId.Health:
+								headerIcon = Heart;
+								break;
+							case ColumnId.Hydration:
+								headerIcon = Droplet;
+								break;
+							case ColumnId.Sustenance:
+								headerIcon = BicepsFlexed;
+								break;
+							case ColumnId.OutputQuantity:
+								headerIcon = PackageCheck;
+								break;
+						}
 						return (
-							<FilterRange key={column.id} column={column} table={table} />
+							<FilterRange
+								key={column.id}
+								column={column}
+								table={table}
+								headerIcon={headerIcon}
+							/>
 						);
+					}
 					default:
 						return null;
 				}

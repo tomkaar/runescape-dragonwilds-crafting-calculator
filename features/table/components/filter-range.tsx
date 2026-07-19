@@ -1,4 +1,5 @@
 import type { Column, Table } from "@tanstack/react-table";
+import type { LucideIcon } from "lucide-react";
 import {
 	AccordionContent,
 	AccordionItem,
@@ -13,11 +14,13 @@ import { getUniqueKeys } from "../utils/filter-helpers";
 type Props = {
 	showMoreButton?: boolean;
 	showFacilityIcon?: boolean;
+	/** Icon shown to the left of the header title in the accordion trigger. */
+	headerIcon?: LucideIcon;
 	table: Table<TableBodyRowType>;
 	column: Column<TableBodyRowType, unknown>;
 };
 
-export default function FilterRange({ column }: Props) {
+export default function FilterRange({ column, headerIcon: HeaderIcon }: Props) {
 	const columnFilterValue = column.getFilterValue();
 	const uniqueKeys = getUniqueKeys(column);
 	const numericKeys = uniqueKeys
@@ -32,6 +35,9 @@ export default function FilterRange({ column }: Props) {
 		<AccordionItem key={column.id} value={column.id}>
 			<AccordionTrigger className="w-full px-4 py-2 text-left">
 				<div className="flex flex-row gap-2 items-center">
+					{HeaderIcon ? (
+						<HeaderIcon className="h-4 w-4 shrink-0 text-accent-foreground" />
+					) : null}
 					<span className="text-accent-foreground">
 						{column.columnDef.header as string}
 					</span>

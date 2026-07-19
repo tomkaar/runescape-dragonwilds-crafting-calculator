@@ -1,4 +1,5 @@
 import type { Column, Table } from "@tanstack/react-table";
+import type { LucideIcon } from "lucide-react";
 import { useState } from "react";
 import {
 	AccordionContent,
@@ -24,6 +25,8 @@ type Props = {
 	showMoreButton?: boolean;
 	/** Renders a facility icon or the material's item image next to each option. */
 	icon?: "facility" | "material";
+	/** Icon shown to the left of the header title in the accordion trigger. */
+	headerIcon?: LucideIcon;
 	table: Table<TableBodyRowType>;
 	column: Column<TableBodyRowType, unknown>;
 };
@@ -33,6 +36,7 @@ export default function FilterSelectMultiple({
 	table,
 	showMoreButton,
 	icon,
+	headerIcon: HeaderIcon,
 }: Props) {
 	const [filterValue, setFilterValue] = useState<string>("");
 	const [showAll, setShowAll] = useState<boolean>(false);
@@ -44,6 +48,9 @@ export default function FilterSelectMultiple({
 		<AccordionItem key={column.id} value={column.id}>
 			<AccordionTrigger className="w-full px-4 py-2 text-left">
 				<div className="flex flex-row gap-2 items-center">
+					{HeaderIcon ? (
+						<HeaderIcon className="h-4 w-4 shrink-0 text-accent-foreground" />
+					) : null}
 					<span className="text-accent-foreground">
 						{column.columnDef.header as string}
 					</span>
