@@ -1,4 +1,15 @@
 import { createColumnHelper } from "@tanstack/react-table";
+import {
+	BicepsFlexed,
+	Boxes,
+	ChartColumn,
+	Droplet,
+	Hammer,
+	Heart,
+	PackageCheck,
+	Shapes,
+	Tags,
+} from "lucide-react";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
@@ -57,7 +68,9 @@ export const columns = [
 		header: "Variant",
 		size: 120,
 		meta: {
-			filterVariant: "variant",
+			filterVariant: "select-multiple",
+			headerIcon: Shapes,
+			showMoreButton: true,
 			description:
 				"The specific style of the item, if it has one, like Cabin, Cottage, or Castle.",
 		},
@@ -76,7 +89,9 @@ export const columns = [
 		header: "Type",
 		size: 140,
 		meta: {
-			filterVariant: "itemType",
+			filterVariant: "select-multiple",
+			headerIcon: Tags,
+			showMoreButton: true,
 			description: "The kind of item, like tools, weapons, or food.",
 		},
 		cell: (info) => (
@@ -94,7 +109,10 @@ export const columns = [
 		header: "Facilities",
 		size: 180,
 		meta: {
-			filterVariant: "facilities",
+			filterVariant: "select-multiple",
+			headerIcon: Hammer,
+			icon: "facility",
+			showMoreButton: true,
 			description: "The crafting facility required to make the item.",
 		},
 		cell: (info) => {
@@ -130,7 +148,8 @@ export const columns = [
 		header: "Skills",
 		size: 150,
 		meta: {
-			filterVariant: "skills",
+			filterVariant: "select-multiple",
+			headerIcon: ChartColumn,
 			description: "The skill used to craft the item.",
 		},
 		cell: (info) => {
@@ -179,6 +198,7 @@ export const columns = [
 		size: 100,
 		meta: {
 			filterVariant: "range",
+			headerIcon: Heart,
 			description: "The amount of health the item restores when consumed.",
 		},
 		cell: (info) => (
@@ -203,6 +223,7 @@ export const columns = [
 		size: 120,
 		meta: {
 			filterVariant: "range",
+			headerIcon: Droplet,
 			description: "The amount of hydration the item restores when consumed.",
 		},
 		cell: (info) => (
@@ -233,6 +254,7 @@ export const columns = [
 		size: 140,
 		meta: {
 			filterVariant: "range",
+			headerIcon: BicepsFlexed,
 			description: "The amount of sustenance the item restores when consumed.",
 		},
 		cell: (info) => (
@@ -263,6 +285,7 @@ export const columns = [
 		size: 100,
 		meta: {
 			filterVariant: "range",
+			headerIcon: PackageCheck,
 			description: "The number of items a single craft produces.",
 		},
 		cell: (info) => (
@@ -284,7 +307,10 @@ export const columns = [
 		header: "Materials",
 		size: 480,
 		meta: {
-			filterVariant: "materials",
+			filterVariant: "select-multiple",
+			headerIcon: Boxes,
+			icon: "material",
+			showMoreButton: true,
 			description: "The materials required to craft the item.",
 		},
 		filterFn: (row, _columnId, filterValue: string[]) => {

@@ -1,17 +1,5 @@
 import type { ColumnFiltersState, Table } from "@tanstack/react-table";
-import {
-	BicepsFlexed,
-	Boxes,
-	ChartColumn,
-	Droplet,
-	FilterIcon,
-	Hammer,
-	Heart,
-	type LucideIcon,
-	PackageCheck,
-	Shapes,
-	Tags,
-} from "lucide-react";
+import { FilterIcon } from "lucide-react";
 import { useState } from "react";
 import { Accordion } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
@@ -24,7 +12,6 @@ import {
 	SheetTitle,
 	SheetTrigger,
 } from "@/components/ui/sheet";
-import { ColumnId } from "../types/column-id";
 import type { TableBodyRowType } from "../types/table-body-row";
 import FilterRange from "./filter-range";
 import FilterSelectMultiple from "./filter-select-multiple";
@@ -130,76 +117,22 @@ function Columns({ table }: { table: Table<TableBodyRowType> }) {
 	return (
 		<>
 			{leafColumns.map((column) => {
-				const { filterVariant } = column.columnDef.meta ?? {};
+				const { filterVariant, headerIcon, icon, showMoreButton } =
+					column.columnDef.meta ?? {};
 
 				switch (filterVariant) {
-					case "variant":
+					case "select-multiple":
 						return (
 							<FilterSelectMultiple
 								key={column.id}
 								column={column}
 								table={table}
-								headerIcon={Shapes}
-								showMoreButton
+								headerIcon={headerIcon}
+								icon={icon}
+								showMoreButton={showMoreButton}
 							/>
 						);
-					case "itemType":
-						return (
-							<FilterSelectMultiple
-								key={column.id}
-								column={column}
-								table={table}
-								headerIcon={Tags}
-								showMoreButton
-							/>
-						);
-					case "facilities":
-						return (
-							<FilterSelectMultiple
-								key={column.id}
-								column={column}
-								table={table}
-								icon="facility"
-								headerIcon={Hammer}
-								showMoreButton
-							/>
-						);
-					case "skills":
-						return (
-							<FilterSelectMultiple
-								key={column.id}
-								column={column}
-								table={table}
-								headerIcon={ChartColumn}
-							/>
-						);
-					case "materials":
-						return (
-							<FilterSelectMultiple
-								key={column.id}
-								column={column}
-								table={table}
-								icon="material"
-								headerIcon={Boxes}
-								showMoreButton
-							/>
-						);
-					case "range": {
-						let headerIcon: LucideIcon | undefined;
-						switch (column.id) {
-							case ColumnId.Health:
-								headerIcon = Heart;
-								break;
-							case ColumnId.Hydration:
-								headerIcon = Droplet;
-								break;
-							case ColumnId.Sustenance:
-								headerIcon = BicepsFlexed;
-								break;
-							case ColumnId.OutputQuantity:
-								headerIcon = PackageCheck;
-								break;
-						}
+					case "range":
 						return (
 							<FilterRange
 								key={column.id}
@@ -208,7 +141,6 @@ function Columns({ table }: { table: Table<TableBodyRowType> }) {
 								headerIcon={headerIcon}
 							/>
 						);
-					}
 					default:
 						return null;
 				}
