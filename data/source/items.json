@@ -16465,13 +16465,13 @@
   },
   {
     "page_name": "Sauteed Sardines",
-    "item_description": "Made by combining fried sardine and dried redberry. Grants Sea Life Perk.",
+    "item_description": "Made by combining fried sardine and dried redberry. Grants the Warding Fish perk.<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The Sea Life perk replaced the Warding Fish perk.\">sic</span>&#93;</sup>",
     "page_name_sub": "Sauteed Sardines",
     "item_weight": 0.7,
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "Made by combining fried sardine and dried redberry. Grants Sea Life Perk.",
+      "description": "Made by combining fried sardine and dried redberry. Grants the Warding Fish perk.<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The Sea Life perk replaced the Warding Fish perk.\">sic</span>&#93;</sup>",
       "duration": "600 seconds",
       "image": "[[File:Sauteed Sardines.png|32px]]",
       "name": "Sauteed Sardines",
@@ -16577,7 +16577,6 @@
     "json": {
       "type": "Food",
       "description": "Made by combining roasted lobster, braised undead eel and fried cabbage.",
-      "duration": "1200 seconds",
       "image": "[[File:Fish Fry.png|32px]]",
       "name": "Fish Fry",
       "weight": "0.7",
@@ -16831,19 +16830,19 @@
   },
   {
     "page_name": "Fried Sardine",
-    "item_description": "Delicious little fishies. Grants the Warding Fish perk.",
+    "item_description": "Delicious little fishies.",
     "page_name_sub": "Fried Sardine",
     "item_weight": 1.5,
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "Delicious little fishies. Grants the Warding Fish perk.",
-      "duration": "180 seconds",
+      "description": "Delicious little fishies.",
+      "compostvalue": "10",
       "image": "[[File:Fried Sardine.png|32px]]",
       "name": "Fried Sardine",
       "weight": "1.5",
       "sustenance": "15",
-      "health": "10",
+      "health": "30",
       "stacklimit": "50",
       "image_raw": "Fried Sardine.png"
     },
@@ -16905,19 +16904,18 @@
   },
   {
     "page_name": "Smoked Herring",
-    "item_description": "Nothing beats hunger like a herring. Grants the Warding Fish perk.",
+    "item_description": "Nothing beats hunger like a herring. Grants the Warding Fish perk.<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The Warding Fish perk was removed from the game.\">sic</span>&#93;</sup>",
     "page_name_sub": "Smoked Herring",
     "item_weight": 1.8,
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "Nothing beats hunger like a herring. Grants the Warding Fish perk.",
-      "duration": "300 seconds",
+      "description": "Nothing beats hunger like a herring. Grants the Warding Fish perk.<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The Warding Fish perk was removed from the game.\">sic</span>&#93;</sup>",
       "image": "[[File:Smoked Herring.png|32px]]",
       "name": "Smoked Herring",
       "weight": "1.8",
       "sustenance": "20",
-      "health": "20",
+      "health": "50",
       "stacklimit": "50",
       "image_raw": "Smoked Herring.png"
     },
@@ -16989,19 +16987,18 @@
   },
   {
     "page_name": "Braised Undead Eel",
-    "item_description": "Makes you queasy but does wonders for hunger. Grants the Warding Fish perk.",
+    "item_description": "Makes you queasy but does wonders for hunger. Grants the Warding Fish perk.<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"Warding Fish was removed from the game.\">sic</span>&#93;</sup>",
     "page_name_sub": "Braised Undead Eel",
     "item_weight": 3.4,
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "Makes you queasy but does wonders for hunger. Grants the Warding Fish perk.",
-      "duration": "600 seconds",
+      "description": "Makes you queasy but does wonders for hunger. Grants the Warding Fish perk.<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"Warding Fish was removed from the game.\">sic</span>&#93;</sup>",
       "image": "[[File:Braised Undead Eel.png|32px]]",
       "name": "Braised Undead Eel",
       "weight": "3.4",
       "sustenance": "25",
-      "health": "30",
+      "health": "60",
       "stacklimit": "50",
       "image_raw": "Braised Undead Eel.png"
     },
@@ -17052,19 +17049,19 @@
   },
   {
     "page_name": "Smoked Infernal Eel",
-    "item_description": "An unusual meal, but a good one. Grants the Warding Fish perk.",
+    "item_description": "An unusual meal, but a good one.",
     "page_name_sub": "Smoked Infernal Eel",
     "item_weight": 3.1,
     "item_stacklimit": 50,
     "json": {
       "type": "Food",
-      "description": "An unusual meal, but a good one. Grants the Warding Fish perk.",
-      "duration": "900 seconds",
+      "description": "An unusual meal, but a good one.",
+      "duration": "",
       "image": "[[File:Smoked Infernal Eel.png|32px]]",
       "name": "Smoked Infernal Eel",
       "weight": "3.1",
       "sustenance": "30",
-      "health": "45",
+      "health": "100",
       "stacklimit": "50",
       "image_raw": "Smoked Infernal Eel.png"
     },
@@ -17747,12 +17744,12 @@
   {
     "page_name": "Saradominist Cloak",
     "page_name_sub": "Saradominist Cloak",
-    "item_description": "Worn by followers of Saradomin, this clock reflects a commitment to justice and the light of reason.",
+    "item_description": "Worn by followers of Saradomin, this cloak reflects a commitment to justice and the light of reason.",
     "item_type": "Basic Item",
     "item_name": "Saradominist Cloak",
     "json": {
       "type": "Basic Item",
-      "description": "Worn by followers of Saradomin, this clock reflects a commitment to justice and the light of reason.",
+      "description": "Worn by followers of Saradomin, this cloak reflects a commitment to justice and the light of reason.",
       "image": "[[File:Saradominist Cloak.png|32px]]",
       "name": "Saradominist Cloak",
       "weight": "0.0",
@@ -21882,5 +21879,23 @@
     },
     "item_type": "Basic Item",
     "item_name": "MOUNT: Scorchweave Rug"
+  },
+  {
+    "page_name": "PLAN: Moon Garou Bed",
+    "item_description": "",
+    "page_name_sub": "PLAN: Moon Garou Bed",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "type": "Consumable",
+      "description": "",
+      "image": "[[File:PLAN- Moon Garou Bed.png|32px]]",
+      "name": "PLAN: Moon Garou Bed",
+      "weight": "0",
+      "stacklimit": "99",
+      "image_raw": "PLAN- Moon Garou Bed.png"
+    },
+    "item_type": "Consumable",
+    "item_name": "PLAN: Moon Garou Bed"
   }
 ]
