@@ -1,6 +1,6 @@
 import type { MaterialTreeItem } from "@/features/material-tree/types/material-tree";
 import { resolveMaterialTree } from "@/features/material-tree/utils/resolve-material-tree";
-import type { RecipeSkill } from "@/Types";
+import type { Recipe, RecipeSkill } from "@/Types";
 import { sourceItemById } from "@/utils/source-item-by-id";
 
 export type MarkedMaterial = {
@@ -25,6 +25,42 @@ export function getMarkedNodeIds(
 	if (markedTodo.length === 0) return null;
 	// biome-ignore lint/style/noNonNullAssertion: <Marked TODOs are filtered to only include entries with a nodeId>
 	return new Set(markedTodo.map((m) => m.nodeId!));
+}
+
+// The tracked item's own top-level node never appears in `steps` — the item
+// cards only ever expose its *children* for marking (see skipFirstLayer in
+// RequiredMaterialsContent), so crafting the finished piece itself is never
+// a markable "step". Finds that top-level node's recipe so callers (XP,
+// facilities) don't silently drop whatever it grants/requires. For a
+// multi-variant item there's no top-level node with its own recipe (variants
+// are children of a selector) — the "active" variant is inferred from
+// whichever ones have a marked descendant, mirroring how walkTree already
+// scopes marked nodeIds by their variant-path prefix. More than one active
+// variant means there's no way to know which recipe will actually be
+// crafted; the first one found is used, and the caller is told it's
+// ambiguous.
+export function findRootRecipe(
+	tree: MaterialTreeItem[],
+	markedNodeIds: Set<string>,
+): { recipe: Recipe | null; isAmbiguous: boolean } {
+	for (const node of tree) {
+		if (node.variant)
+			return { recipe: node.variant.recipe, isAmbiguous: false };
+		if ("children" in node) {
+			const activeVariants = node.children.filter(
+				(child) =>
+					child.variantNumber !== undefined &&
+					Array.from(markedNodeIds).some(
+						(id) => id === child.nodeId || id.startsWith(`${child.nodeId}_`),
+					),
+			);
+			return {
+				recipe: activeVariants[0]?.variant?.recipe ?? null,
+				isAmbiguous: activeVariants.length > 1,
+			};
+		}
+	}
+	return { recipe: null, isAmbiguous: false };
 }
 
 type StepParent = {
@@ -62,6 +98,7 @@ export type StepEntry = {
 	hasChildren: boolean;
 	coverageWarnings: CoverageWarning[];
 	recipeContributions?: StepRecipeContribution[];
+	facilities: string[];
 };
 
 // Internal-only accumulator used while walking the tree: tracks each
@@ -162,6 +199,11 @@ function walkTree(
 				}
 				if (depth > existing.depth) existing.depth = depth;
 				if (hasChildren) existing.hasChildren = true;
+				for (const facility of node.facilities) {
+					if (!existing.facilities.includes(facility)) {
+						existing.facilities.push(facility);
+					}
+				}
 			} else {
 				aggregated.set(node.id, {
 					itemId: node.id,
@@ -180,6 +222,7 @@ function walkTree(
 					depth,
 					hasChildren,
 					coverageWarnings: [],
+					facilities: [...node.facilities],
 				});
 			}
 		}

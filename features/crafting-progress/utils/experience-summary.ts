@@ -1,8 +1,7 @@
-import type { MaterialTreeItem } from "@/features/material-tree/types/material-tree";
 import { resolveMaterialTree } from "@/features/material-tree/utils/resolve-material-tree";
-import type { Recipe } from "@/Types";
 import {
 	buildSteps,
+	findRootRecipe,
 	getMarkedNodeIds,
 	type Params,
 	type StepEntry,
@@ -69,41 +68,6 @@ export function computeExperienceSummary(
 	return { totals: sortedTotals(totals), ambiguousItemNames };
 }
 
-// The tracked item's own top-level node never appears in `steps` — the item
-// cards only ever expose its *children* for marking (see skipFirstLayer in
-// RequiredMaterialsContent), so crafting the finished piece itself is never
-// a markable "step". Finds that top-level node's recipe so its experience
-// isn't silently dropped. For a multi-variant item there's no top-level node
-// with its own recipe (variants are children of a selector) — the "active"
-// variant is inferred from whichever ones have a marked descendant,
-// mirroring how build-steps.ts's walkTree already scopes marked nodeIds by
-// their variant-path prefix. More than one active variant means there's no
-// way to know which recipe will actually be crafted; the first one found is
-// used for the total, and the caller is told it's ambiguous.
-function findRootRecipe(
-	tree: MaterialTreeItem[],
-	markedNodeIds: Set<string>,
-): { recipe: Recipe | null; isAmbiguous: boolean } {
-	for (const node of tree) {
-		if (node.variant)
-			return { recipe: node.variant.recipe, isAmbiguous: false };
-		if ("children" in node) {
-			const activeVariants = node.children.filter(
-				(child) =>
-					child.variantNumber !== undefined &&
-					Array.from(markedNodeIds).some(
-						(id) => id === child.nodeId || id.startsWith(`${child.nodeId}_`),
-					),
-			);
-			return {
-				recipe: activeVariants[0]?.variant?.recipe ?? null,
-				isAmbiguous: activeVariants.length > 1,
-			};
-		}
-	}
-	return { recipe: null, isAmbiguous: false };
-}
-
 /**
  * Computes the experience summary for the tracked root items themselves, which are
  * never included in the steps' contributions. This function resolves the material
@@ -153,8 +117,8 @@ export function computeRootExperienceSummary({
  *
  * These two sources never overlap and neither can stand in for the other:
  * `roots` exists because a tracked item's own top-level node is never
- * markable (see findRootRecipe above), so its experience can't come from
- * `steps` at all — it has to be resolved independently.
+ * markable (see findRootRecipe in build-steps.ts), so its experience can't
+ * come from `steps` at all — it has to be resolved independently.
  *
  * @param params - The parameters for building the experience summary.
  * @returns An object containing the total experience per skill and any ambiguous item names.

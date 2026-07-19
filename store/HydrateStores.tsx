@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { useCraftingTreeDirection } from "./crafting-tree-direction";
+import { useFacilitiesOwned } from "./facilities-owned";
 import { useFavouriteItems } from "./favourite-items";
 import { useMaterialMultiplier } from "./material-multiplier";
 import { useMobilePanelsState } from "./mobile-panel-state";
@@ -16,6 +17,7 @@ import { useStepsFilter } from "./steps-filter";
 export function HydrateStores() {
 	const updateStore = () => {
 		useCraftingTreeDirection.persist.rehydrate();
+		useFacilitiesOwned.persist.rehydrate();
 		useFavouriteItems.persist.rehydrate();
 		useMobilePanelsState.persist.rehydrate();
 		useSelectedMaterial.persist.rehydrate();

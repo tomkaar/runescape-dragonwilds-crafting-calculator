@@ -43,6 +43,7 @@ describe("computeExperienceSummary", () => {
 			hasChildren: false,
 			coverageWarnings: [],
 			recipeContributions: [],
+			facilities: [],
 			...overrides,
 		};
 	}

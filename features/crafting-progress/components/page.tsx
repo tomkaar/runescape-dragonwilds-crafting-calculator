@@ -10,6 +10,7 @@ import { useSelectedMaterial } from "@/store/selected-material";
 import { useStoreHydration } from "@/store/useStoreHydration";
 import { CollectedMaterials } from "./collected-materials";
 import { ExperienceSummary } from "./experience-summary";
+import { FacilityChecklist } from "./facility-checklist";
 
 export function ProgressPage() {
 	const _hasHydrated = useStoreHydration(useSelectedMaterial);
@@ -38,6 +39,7 @@ export function ProgressPage() {
 
 			<div className="flex-1 lg:shrink-0 lg:overflow-y-auto flex flex-col gap-4">
 				<CollectedMaterials trackedItemIds={trackedItemIds} />
+				<FacilityChecklist allItems={items} />
 			</div>
 
 			<div className="flex-1 flex flex-col gap-4 lg:shrink-0 lg:overflow-y-auto">

@@ -478,6 +478,7 @@ describe("computeCoverageWarnings", () => {
 			depth: 0,
 			hasChildren: false,
 			coverageWarnings: [],
+			facilities: [],
 			...overrides,
 		};
 	}
@@ -554,6 +555,7 @@ describe("computeRemainingQuantities", () => {
 			depth: 0,
 			hasChildren: false,
 			coverageWarnings: [],
+			facilities: [],
 			...overrides,
 		};
 	}
