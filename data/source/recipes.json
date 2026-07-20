@@ -13015,7 +13015,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "12"
         }
       ],
       "outputs": [
@@ -17766,360 +17766,6 @@
     ],
     "output": [
       "60° Thin Beam"
-    ]
-  },
-  {
-    "uses_material": [
-      "Ash Logs"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "4",
-          "name": "Ash Logs",
-          "link": "Ash Logs",
-          "qty": "4",
-          "item": "Ash Logs",
-          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "8"
-        }
-      ],
-      "outputs": [
-        "Square Foundation"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Square Foundation",
-        "link": "Square Foundation",
-        "qty": 1,
-        "item": "Square Foundation",
-        "image": "[[File:Square Foundation (Cabin).png|30px|link=Square Foundation]]"
-      }
-    },
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "output": [
-      "Square Foundation"
-    ]
-  },
-  {
-    "uses_material": [
-      "Ash Plank",
-      "Oak Logs"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "4",
-          "name": "Ash Plank",
-          "link": "Ash Plank",
-          "qty": "4",
-          "item": "Ash Plank",
-          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Oak Logs",
-          "link": "Oak Logs",
-          "qty": "2",
-          "item": "Oak Logs",
-          "image": "[[File:Oak Logs.png|30px|link=Oak Logs]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "12"
-        }
-      ],
-      "outputs": [
-        "Square Foundation"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Square Foundation",
-        "link": "Square Foundation",
-        "qty": 1,
-        "item": "Square Foundation",
-        "image": "[[File:Square Foundation (Cottage).png|30px|link=Square Foundation]]"
-      }
-    },
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "output": [
-      "Square Foundation"
-    ]
-  },
-  {
-    "uses_material": [
-      "Stone Block",
-      "Oak Plank"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "4",
-          "name": "Stone Block",
-          "link": "Stone Block",
-          "qty": "4",
-          "item": "Stone Block",
-          "image": "[[File:Stone Block.png|30px|link=Stone Block]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Oak Plank",
-          "link": "Oak Plank",
-          "qty": "2",
-          "item": "Oak Plank",
-          "image": "[[File:Oak Plank.png|30px|link=Oak Plank]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "16"
-        }
-      ],
-      "outputs": [
-        "Square Foundation"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Square Foundation",
-        "link": "Square Foundation",
-        "qty": 1,
-        "item": "Square Foundation",
-        "image": "[[File:Square Foundation (Castle).png|30px|link=Square Foundation]]"
-      }
-    },
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "output": [
-      "Square Foundation"
-    ]
-  },
-  {
-    "uses_material": [
-      "Ground Sandstone",
-      "Dirty Water",
-      "Yew Plank"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "5",
-          "name": "Ground Sandstone",
-          "link": "Ground Sandstone",
-          "qty": "5",
-          "item": "Ground Sandstone",
-          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
-        },
-        {
-          "quantity": "5",
-          "name": "Dirty Water",
-          "link": "Dirty Water",
-          "qty": "5",
-          "item": "Dirty Water",
-          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Yew Plank",
-          "link": "Yew Plank",
-          "qty": "2",
-          "item": "Yew Plank",
-          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "16"
-        }
-      ],
-      "outputs": [
-        "Square Foundation"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Square Foundation",
-        "link": "Square Foundation",
-        "qty": 1,
-        "item": "Square Foundation",
-        "image": "[[File:Square Foundation (Kharidian).png|30px|link=Square Foundation]]"
-      }
-    },
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "output": [
-      "Square Foundation"
-    ]
-  },
-  {
-    "uses_material": [
-      "Ground Sandstone",
-      "Dirty Water",
-      "Flax",
-      "Yew Plank"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "5",
-          "name": "Ground Sandstone",
-          "link": "Ground Sandstone",
-          "qty": "5",
-          "item": "Ground Sandstone",
-          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
-        },
-        {
-          "quantity": "5",
-          "name": "Dirty Water",
-          "link": "Dirty Water",
-          "qty": "5",
-          "item": "Dirty Water",
-          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Flax",
-          "link": "Flax",
-          "qty": "2",
-          "item": "Flax",
-          "image": "[[File:Flax.png|30px|link=Flax]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Yew Plank",
-          "link": "Yew Plank",
-          "qty": "2",
-          "item": "Yew Plank",
-          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "16"
-        }
-      ],
-      "outputs": [
-        "Square Foundation"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Square Foundation",
-        "link": "Square Foundation",
-        "qty": 1,
-        "item": "Square Foundation",
-        "image": "[[File:Square Foundation (Kharidian).png|30px|link=Square Foundation]]"
-      }
-    },
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "output": [
-      "Square Foundation"
-    ]
-  },
-  {
-    "uses_material": [
-      "Ground Sandstone",
-      "Dirty Water",
-      "Redberries",
-      "Yew Plank"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "5",
-          "name": "Ground Sandstone",
-          "link": "Ground Sandstone",
-          "qty": "5",
-          "item": "Ground Sandstone",
-          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
-        },
-        {
-          "quantity": "5",
-          "name": "Dirty Water",
-          "link": "Dirty Water",
-          "qty": "5",
-          "item": "Dirty Water",
-          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Redberries",
-          "link": "Redberries",
-          "qty": "2",
-          "item": "Redberries",
-          "image": "[[File:Redberries.png|30px|link=Redberries]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Yew Plank",
-          "link": "Yew Plank",
-          "qty": "2",
-          "item": "Yew Plank",
-          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "16"
-        }
-      ],
-      "outputs": [
-        "Square Foundation"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Square Foundation",
-        "link": "Square Foundation",
-        "qty": 1,
-        "item": "Square Foundation",
-        "image": "[[File:Square Foundation (Kharidian).png|30px|link=Square Foundation]]"
-      }
-    },
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "output": [
-      "Square Foundation"
     ]
   },
   {
@@ -39685,10 +39331,10 @@
       "facility": "Tannery",
       "materials": [
         {
-          "quantity": "1",
+          "quantity": "2",
           "name": "Dragonwolf Hide",
           "link": "Dragonwolf Hide",
-          "qty": "1",
+          "qty": "2",
           "item": "Dragonwolf Hide",
           "image": "[[File:Dragonwolf Hide.png|30px|link=Dragonwolf Hide]]"
         }
@@ -71261,22 +70907,22 @@
         }
       ],
       "outputs": [
-        "Cooling Relentless  Infusion"
+        "Cooling Relentless Infusion"
       ],
       "output": {
         "quantity": 1,
-        "name": "Cooling Relentless  Infusion",
-        "link": "Cooling Relentless  Infusion",
+        "name": "Cooling Relentless Infusion",
+        "link": "Cooling Relentless Infusion",
         "qty": 1,
-        "item": "Cooling Relentless  Infusion",
-        "image": "[[File:Cooling Relentless  Infusion.png|30px|link=Cooling Relentless  Infusion]]"
+        "item": "Cooling Relentless Infusion",
+        "image": "[[File:Cooling Relentless Infusion.png|30px|link=Cooling Relentless Infusion]]"
       }
     },
     "uses_facility": [
       "Cooking Range"
     ],
     "output": [
-      "Cooling Relentless  Infusion"
+      "Cooling Relentless Infusion"
     ]
   },
   {
