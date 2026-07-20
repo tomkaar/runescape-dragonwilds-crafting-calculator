@@ -10115,7 +10115,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 12
             }
           ]
         },
@@ -13267,216 +13267,6 @@
       "Build Menu"
     ],
     "wikiLink": "60°_Thin_Beam"
-  },
-  {
-    "id": "square-foundation",
-    "name": "Square Foundation",
-    "image": "Square_Foundation_%28Cabin%29.png",
-    "variants": [
-      {
-        "id": "1077487d7b8a",
-        "name": "Square Foundation",
-        "image": "Square_Foundation_%28Cabin%29.png",
-        "variantName": "Cabin",
-        "recipe": {
-          "id": "62c360060cd2",
-          "facilities": [
-            "Build Menu"
-          ],
-          "materials": [
-            {
-              "itemId": "ash-logs",
-              "quantity": 4
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Construction",
-              "experience": 8
-            }
-          ]
-        },
-        "usesRecipe": null
-      },
-      {
-        "id": "f2ff3f574fdd",
-        "name": "Square Foundation",
-        "image": "Square_Foundation_%28Cottage%29.png",
-        "variantName": "Cottage",
-        "recipe": {
-          "id": "dbaedd970ebe",
-          "facilities": [
-            "Build Menu"
-          ],
-          "materials": [
-            {
-              "itemId": "ash-plank",
-              "quantity": 4
-            },
-            {
-              "itemId": "oak-logs",
-              "quantity": 2
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Construction",
-              "experience": 12
-            }
-          ]
-        },
-        "usesRecipe": null
-      },
-      {
-        "id": "8e199d06f040",
-        "name": "Square Foundation",
-        "image": "Square_Foundation_%28Castle%29.png",
-        "variantName": "Castle",
-        "recipe": {
-          "id": "eedd64b1d104",
-          "facilities": [
-            "Build Menu"
-          ],
-          "materials": [
-            {
-              "itemId": "oak-plank",
-              "quantity": 2
-            },
-            {
-              "itemId": "stone-block",
-              "quantity": 4
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Construction",
-              "experience": 16
-            }
-          ]
-        },
-        "usesRecipe": null
-      },
-      {
-        "id": "5d1bf0e5eb68",
-        "name": "Square Foundation",
-        "image": "Square Foundation (Kharidian).png",
-        "variantName": "Kharidian",
-        "recipe": {
-          "id": "febb99ef3ce7",
-          "facilities": [
-            "Build Menu"
-          ],
-          "materials": [
-            {
-              "itemId": "dirty-water",
-              "quantity": 5
-            },
-            {
-              "itemId": "ground-sandstone",
-              "quantity": 5
-            },
-            {
-              "itemId": "yew-plank",
-              "quantity": 2
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Construction",
-              "experience": 16
-            }
-          ]
-        },
-        "usesRecipe": null
-      },
-      {
-        "id": "8399bdf7ec82",
-        "name": "Square Foundation",
-        "image": "Square Foundation (Kharidian).png",
-        "variantName": "Kharidian",
-        "recipe": {
-          "id": "c7ad4d06c741",
-          "facilities": [
-            "Build Menu"
-          ],
-          "materials": [
-            {
-              "itemId": "dirty-water",
-              "quantity": 5
-            },
-            {
-              "itemId": "flax",
-              "quantity": 2
-            },
-            {
-              "itemId": "ground-sandstone",
-              "quantity": 5
-            },
-            {
-              "itemId": "yew-plank",
-              "quantity": 2
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Construction",
-              "experience": 16
-            }
-          ]
-        },
-        "usesRecipe": null
-      },
-      {
-        "id": "97da911e8eb1",
-        "name": "Square Foundation",
-        "image": "Square Foundation (Kharidian).png",
-        "variantName": "Kharidian",
-        "recipe": {
-          "id": "3e8a0689b4e8",
-          "facilities": [
-            "Build Menu"
-          ],
-          "materials": [
-            {
-              "itemId": "dirty-water",
-              "quantity": 5
-            },
-            {
-              "itemId": "ground-sandstone",
-              "quantity": 5
-            },
-            {
-              "itemId": "redberries",
-              "quantity": 2
-            },
-            {
-              "itemId": "yew-plank",
-              "quantity": 2
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Construction",
-              "experience": 16
-            }
-          ]
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Construction"
-    ],
-    "facilities": [
-      "Build Menu"
-    ],
-    "wikiLink": "Square_Foundation"
   },
   {
     "id": "medium-triangular-foundation",
@@ -30106,19 +29896,19 @@
     "image": "Draconic Leather.png",
     "variants": [
       {
-        "id": "13cf185f1b0d",
+        "id": "297db4cd9023",
         "name": "Draconic Leather",
         "image": "Draconic Leather.png",
         "variantName": null,
         "recipe": {
-          "id": "778fd23d86c7",
+          "id": "0747f647c974",
           "facilities": [
             "Tannery"
           ],
           "materials": [
             {
               "itemId": "dragonwolf-hide",
-              "quantity": 1
+              "quantity": 2
             }
           ],
           "quantity": 1,
@@ -45619,7 +45409,7 @@
     "wikiLink": "Stuffed_Catfish",
     "weight": 0.7,
     "itemType": "Food",
-    "health": 80,
+    "health": 200,
     "stackLimit": 50,
     "sustenance": 80
   },
@@ -46095,10 +45885,10 @@
       "Grill"
     ],
     "wikiLink": "Grilled_Trout",
-    "weight": 2.1,
+    "weight": 0.7,
     "itemType": "Food",
-    "health": 15,
-    "stackLimit": 50,
+    "health": 40,
+    "stackLimit": 99,
     "sustenance": 15
   },
   {
@@ -46142,10 +45932,10 @@
       "Grill"
     ],
     "wikiLink": "Fried_Sardine",
-    "weight": 1.5,
+    "weight": 0.5,
     "itemType": "Food",
     "health": 30,
-    "stackLimit": 50,
+    "stackLimit": 99,
     "sustenance": 15
   },
   {
@@ -46189,10 +45979,10 @@
       "Grill"
     ],
     "wikiLink": "Sauteed_Shrimp",
-    "weight": 0.2,
+    "weight": 0.5,
     "itemType": "Food",
-    "health": 5,
-    "stackLimit": 50,
+    "health": 20,
+    "stackLimit": 99,
     "sustenance": 10
   },
   {
@@ -46346,10 +46136,10 @@
       "Grill"
     ],
     "wikiLink": "Smoked_Herring",
-    "weight": 1.8,
+    "weight": 0.7,
     "itemType": "Food",
     "health": 50,
-    "stackLimit": 50,
+    "stackLimit": 99,
     "sustenance": 20
   },
   {
@@ -46393,10 +46183,10 @@
       "Grill"
     ],
     "wikiLink": "Seared_Anchovies",
-    "weight": 1,
+    "weight": 0.5,
     "itemType": "Food",
-    "health": 10,
-    "stackLimit": 50,
+    "health": 30,
+    "stackLimit": 99,
     "sustenance": 15
   },
   {
@@ -46440,10 +46230,10 @@
       "Grill"
     ],
     "wikiLink": "Fried_Salmon",
-    "weight": 1.8,
+    "weight": 0.7,
     "itemType": "Food",
-    "health": 25,
-    "stackLimit": 50,
+    "health": 70,
+    "stackLimit": 99,
     "sustenance": 20
   },
   {
@@ -46487,10 +46277,10 @@
       "Grill"
     ],
     "wikiLink": "Roasted_Lobster",
-    "weight": 2.4,
+    "weight": 0.7,
     "itemType": "Food",
-    "health": 15,
-    "stackLimit": 50,
+    "health": 50,
+    "stackLimit": 99,
     "sustenance": 20
   },
   {
@@ -46534,10 +46324,10 @@
       "Grill"
     ],
     "wikiLink": "Braised_Undead_Eel",
-    "weight": 3.4,
+    "weight": 1,
     "itemType": "Food",
     "health": 60,
-    "stackLimit": 50,
+    "stackLimit": 99,
     "sustenance": 25
   },
   {
@@ -46581,10 +46371,10 @@
       "Grill"
     ],
     "wikiLink": "Grilled_Undead_Bass",
-    "weight": 3.1,
+    "weight": 1,
     "itemType": "Food",
-    "health": 35,
-    "stackLimit": 50,
+    "health": 80,
+    "stackLimit": 99,
     "sustenance": 25
   },
   {
@@ -46628,10 +46418,10 @@
       "Grill"
     ],
     "wikiLink": "Dried_Giant_Krill",
-    "weight": 2.9,
+    "weight": 0.7,
     "itemType": "Food",
-    "health": 20,
-    "stackLimit": 50,
+    "health": 50,
+    "stackLimit": 99,
     "sustenance": 25
   },
   {
@@ -46675,10 +46465,10 @@
       "Grill"
     ],
     "wikiLink": "Smoked_Infernal_Eel",
-    "weight": 3.1,
+    "weight": 1,
     "itemType": "Food",
     "health": 100,
-    "stackLimit": 50,
+    "stackLimit": 99,
     "sustenance": 30
   },
   {
@@ -46722,10 +46512,10 @@
       "Grill"
     ],
     "wikiLink": "Braised_Catfish",
-    "weight": 4.5,
+    "weight": 2,
     "itemType": "Food",
-    "health": 60,
-    "stackLimit": 50,
+    "health": 120,
+    "stackLimit": 99,
     "sustenance": 30
   },
   {
@@ -54523,7 +54313,7 @@
     "wikiLink": "Cooling_Arcane_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50,
+    "stackLimit": 99,
     "hydration": 40
   },
   {
@@ -54679,18 +54469,18 @@
     "wikiLink": "Cooling_Fleet-Footed_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50,
+    "stackLimit": 99,
     "hydration": 40
   },
   {
     "id": "cooling-relentless-infusion",
     "name": "Cooling Relentless Infusion",
-    "image": "Cooling Relentless  Infusion.png",
+    "image": "Cooling Relentless Infusion.png",
     "variants": [
       {
         "id": "9f43f87875e6",
         "name": "Cooling Relentless Infusion",
-        "image": "Cooling Relentless  Infusion.png",
+        "image": "Cooling Relentless Infusion.png",
         "variantName": null,
         "recipe": {
           "id": "c14a6b594885",
@@ -54731,7 +54521,7 @@
     "wikiLink": "Cooling_Relentless_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50,
+    "stackLimit": 99,
     "hydration": 40
   },
   {
@@ -54922,7 +54712,7 @@
     "weight": 1,
     "itemType": "Food",
     "health": 100,
-    "stackLimit": 50,
+    "stackLimit": 99,
     "sustenance": 30
   },
   {
@@ -55101,7 +54891,7 @@
     "weight": 1,
     "itemType": "Food",
     "health": 130,
-    "stackLimit": 50,
+    "stackLimit": 99,
     "sustenance": 30
   },
   {
@@ -55267,7 +55057,7 @@
     "wikiLink": "Strong_Sweet_Tea",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50,
+    "stackLimit": 99,
     "hydration": 10
   },
   {
@@ -55315,7 +55105,7 @@
     "wikiLink": "Strong_Tea",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50,
+    "stackLimit": 99,
     "hydration": 10
   },
   {
@@ -61857,7 +61647,6 @@
     "facilities": [],
     "wikiLink": "Clay_Slab",
     "weight": 0,
-    "itemType": "Unknown",
     "stackLimit": 0
   },
   {
@@ -69793,6 +69582,24 @@
     "weight": 0,
     "itemType": "Vestige",
     "stackLimit": 99
+  },
+  {
+    "id": "mount-moonsilk-weave",
+    "name": "MOUNT: Moonsilk Weave",
+    "image": "MOUNT: Moonsilk Weave",
+    "variants": [
+      {
+        "id": "mount-moonsilk-weave",
+        "name": "MOUNT: Moonsilk Weave",
+        "image": "MOUNT: Moonsilk Weave",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Moonsilk_Weave"
   },
   {
     "id": "plan-sealed-wooden-crate",
