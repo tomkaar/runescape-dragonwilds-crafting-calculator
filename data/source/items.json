@@ -9578,11 +9578,13 @@
     "item_stacklimit": 50,
     "json": {
       "description": "A technically edible steak. Morally? That's another question<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "duration": "150 seconds",
       "weight": "1.0",
       "health": "2",
       "image": "[[File:Cauterised Undead Steak.png|32px]]",
       "name": "Cauterised Undead Steak",
       "item_type": "Food",
+      "sustenance": "25",
       "stacklimit": "50",
       "image_raw": "Cauterised Undead Steak.png"
     },
@@ -19135,10 +19137,13 @@
     "item_stacklimit": 99,
     "json": {
       "description": "You'd be surprised at how tasty an eight-ounce cactus, medium-rare can be.",
+      "duration": "120 seconds",
       "weight": "0.2",
+      "health": "20",
       "image": "[[File:Seared Cactus Steak.png|32px]]",
       "name": "Seared Cactus Steak",
       "item_type": "Food",
+      "sustenance": "20",
       "stacklimit": "99",
       "image_raw": "Seared Cactus Steak.png"
     },
@@ -19595,7 +19600,7 @@
     "item_description": "A thirst-quenching drink that improves your reflexes.",
     "page_name_sub": "Cooling Evasive Infusion",
     "item_weight": 1,
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "description": "A thirst-quenching drink that improves your reflexes.",
       "duration": "600 seconds",
@@ -19604,7 +19609,7 @@
       "name": "Cooling Evasive Infusion",
       "item_type": "Drink",
       "hydration": "40",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Cooling Evasive Infusion.png"
     },
     "item_type": "Drink",
@@ -19633,7 +19638,7 @@
     "item_description": "A hydrating drink infused with primal fury.",
     "page_name_sub": "Cooling Ferocious Infusion",
     "item_weight": 1,
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "description": "A hydrating drink infused with primal fury.",
       "duration": "600 seconds",
@@ -19642,7 +19647,7 @@
       "name": "Cooling Ferocious Infusion",
       "item_type": "Drink",
       "hydration": "40",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Cooling Ferocious Infusion.png"
     },
     "item_type": "Drink",

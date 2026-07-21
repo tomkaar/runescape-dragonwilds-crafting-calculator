@@ -29896,19 +29896,19 @@
     "image": "Draconic Leather.png",
     "variants": [
       {
-        "id": "297db4cd9023",
+        "id": "13cf185f1b0d",
         "name": "Draconic Leather",
         "image": "Draconic Leather.png",
         "variantName": null,
         "recipe": {
-          "id": "0747f647c974",
+          "id": "778fd23d86c7",
           "facilities": [
             "Tannery"
           ],
           "materials": [
             {
               "itemId": "dragonwolf-hide",
-              "quantity": 2
+              "quantity": 1
             }
           ],
           "quantity": 1,
@@ -32803,6 +32803,7 @@
         "recipe": {
           "id": "5de84f3a60a4",
           "facilities": [
+            "Campfire",
             "Grill"
           ],
           "materials": [
@@ -32815,7 +32816,7 @@
           "skills": [
             {
               "name": "Cooking",
-              "experience": 8
+              "experience": 10
             }
           ]
         },
@@ -32826,13 +32827,15 @@
       "Cooking"
     ],
     "facilities": [
+      "Campfire",
       "Grill"
     ],
     "wikiLink": "Cauterised_Undead_Steak",
     "weight": 1,
     "itemType": "Food",
     "health": 2,
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sustenance": 25
   },
   {
     "id": "fellhollow-cape",
@@ -53332,6 +53335,7 @@
         "recipe": {
           "id": "164e5e4dc0c6",
           "facilities": [
+            "Campfire",
             "Grill"
           ],
           "materials": [
@@ -53355,12 +53359,15 @@
       "Cooking"
     ],
     "facilities": [
+      "Campfire",
       "Grill"
     ],
     "wikiLink": "Seared_Cactus_Steak",
     "weight": 0.2,
     "itemType": "Food",
-    "stackLimit": 99
+    "health": 20,
+    "stackLimit": 99,
+    "sustenance": 20
   },
   {
     "id": "pharaohs-sceptre",
@@ -54365,7 +54372,7 @@
     "wikiLink": "Cooling_Evasive_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50,
+    "stackLimit": 99,
     "hydration": 40
   },
   {
@@ -54417,7 +54424,7 @@
     "wikiLink": "Cooling_Ferocious_Infusion",
     "weight": 1,
     "itemType": "Drink",
-    "stackLimit": 50,
+    "stackLimit": 99,
     "hydration": 40
   },
   {

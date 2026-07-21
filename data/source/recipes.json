@@ -39331,10 +39331,10 @@
       "facility": "Tannery",
       "materials": [
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Dragonwolf Hide",
           "link": "Dragonwolf Hide",
-          "qty": "2",
+          "qty": "1",
           "item": "Dragonwolf Hide",
           "image": "[[File:Dragonwolf Hide.png|30px|link=Dragonwolf Hide]]"
         }
@@ -43031,6 +43031,50 @@
       "Cooking"
     ],
     "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Undead Meat",
+          "link": "Undead Meat",
+          "qty": "1",
+          "item": "Undead Meat",
+          "image": "[[File:Undead Meat.png|30px|link=Undead Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Cauterised Undead Steak"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Cauterised Undead Steak",
+        "link": "Cauterised Undead Steak",
+        "qty": "1",
+        "item": "Cauterised Undead Steak",
+        "image": "[[File:Cauterised Undead Steak.png|30px|link=Cauterised Undead Steak]]"
+      }
+    },
+    "uses_facility": [
+      "Campfire"
+    ],
+    "output": [
+      "Cauterised Undead Steak"
+    ]
+  },
+  {
+    "uses_material": [
+      "Undead Meat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
       "facility": "Grill",
       "materials": [
         {
@@ -43045,7 +43089,7 @@
       "skills": [
         {
           "name": "Cooking",
-          "experience": "8"
+          "experience": "10"
         }
       ],
       "outputs": [
@@ -69364,6 +69408,50 @@
     ],
     "output": [
       "Kalphite Bait"
+    ]
+  },
+  {
+    "uses_material": [
+      "Cactus Steak"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cactus Steak",
+          "link": "Cactus Steak",
+          "qty": "1",
+          "item": "Cactus Steak",
+          "image": "[[File:Cactus Steak.png|30px|link=Cactus Steak]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Seared Cactus Steak"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Seared Cactus Steak",
+        "link": "Seared Cactus Steak",
+        "qty": "1",
+        "item": "Seared Cactus Steak",
+        "image": "[[File:Seared Cactus Steak.png|30px|link=Seared Cactus Steak]]"
+      }
+    },
+    "uses_facility": [
+      "Campfire"
+    ],
+    "output": [
+      "Seared Cactus Steak"
     ]
   },
   {
