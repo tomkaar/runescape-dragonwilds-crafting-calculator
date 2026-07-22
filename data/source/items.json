@@ -14426,18 +14426,18 @@
     "item_weight": 0
   },
   {
-    "page_name": "Blue Dyad Cape",
-    "page_name_sub": "Blue Dyad Cape",
+    "page_name": "Blue Dyed Cape",
+    "page_name_sub": "Blue Dyed Cape",
     "item_description": "A cape made for its looks more than any kind of magical potency.",
     "item_type": "Armour",
-    "item_name": "Blue Dyad Cape",
+    "item_name": "Blue Dyed Cape",
     "json": {
       "description": "A cape made for its looks more than any kind of magical potency.",
       "weight": "0.0",
-      "image": "[[File:Blue Dyad Cape.png|32px]]",
-      "name": "Blue Dyad Cape",
+      "image": "[[File:Blue Dyed Cape.png|32px]]",
+      "name": "Blue Dyed Cape",
       "item_type": "Armour",
-      "image_raw": "Blue Dyad Cape.png"
+      "image_raw": "Blue Dyed Cape.png"
     },
     "item_weight": 0
   },
@@ -14719,12 +14719,12 @@
   },
   {
     "page_name": "Unholy Water",
-    "item_description": "Water blessed by the priests of Zamorak",
+    "item_description": "Water blessed by the priests of Zamorak.",
     "page_name_sub": "Unholy Water",
     "item_weight": 0,
     "item_stacklimit": 1,
     "json": {
-      "description": "Water blessed by the priests of Zamorak",
+      "description": "Water blessed by the priests of Zamorak.",
       "weight": "0.0",
       "image": "[[File:Unholy Water.png|32px]]",
       "name": "Unholy Water",
