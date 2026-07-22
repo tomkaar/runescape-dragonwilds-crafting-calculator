@@ -6760,10 +6760,10 @@
   },
   {
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [],
       "skills": [],
       "outputs": [
@@ -49038,7 +49038,7 @@
       "Artisan"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Armour Bench",
       "materials": [
         {
           "quantity": "4",
@@ -49092,7 +49092,7 @@
       }
     },
     "uses_facility": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "output": [
       "Ava's Accumulator"
@@ -54603,15 +54603,15 @@
       "materials": [],
       "skills": [],
       "outputs": [
-        "Blue Dyad Cape"
+        "Blue Dyed Cape"
       ],
       "output": {
         "quantity": 1,
-        "name": "Blue Dyad Cape",
-        "link": "Blue Dyad Cape",
+        "name": "Blue Dyed Cape",
+        "link": "Blue Dyed Cape",
         "qty": 1,
-        "item": "Blue Dyad Cape",
-        "image": "[[File:Blue Dyad Cape.png|30px|link=Blue Dyad Cape]]"
+        "item": "Blue Dyed Cape",
+        "image": "[[File:Blue Dyed Cape.png|30px|link=Blue Dyed Cape]]"
       }
     },
     "uses_facility": [
@@ -54621,7 +54621,7 @@
       "Chewed Blue Cloth"
     ],
     "output": [
-      "Blue Dyad Cape"
+      "Blue Dyed Cape"
     ]
   },
   {

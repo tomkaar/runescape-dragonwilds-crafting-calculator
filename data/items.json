@@ -5213,7 +5213,6 @@
         "recipe": {
           "id": "058d7fd7fe51",
           "facilities": [
-            "Crafting Table",
             "Armour Bench"
           ],
           "materials": [],
@@ -5225,7 +5224,6 @@
     ],
     "skills": [],
     "facilities": [
-      "Crafting Table",
       "Armour Bench"
     ],
     "wikiLink": "Goblin_War_Banner",
@@ -37449,7 +37447,7 @@
         "recipe": {
           "id": "59c465a83244",
           "facilities": [
-            "Crafting Table"
+            "Armour Bench"
           ],
           "materials": [
             {
@@ -37484,7 +37482,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Armour Bench"
     ],
     "wikiLink": "Ava's_Accumulator",
     "weight": 0,
@@ -42006,17 +42004,17 @@
     "itemType": "Armour"
   },
   {
-    "id": "blue-dyad-cape",
-    "name": "Blue Dyad Cape",
-    "image": "Blue Dyad Cape.png",
+    "id": "blue-dyed-cape",
+    "name": "Blue Dyed Cape",
+    "image": "Blue Dyed Cape.png",
     "variants": [
       {
-        "id": "7c1564953582",
-        "name": "Blue Dyad Cape",
-        "image": "Blue Dyad Cape.png",
+        "id": "40e5425fb960",
+        "name": "Blue Dyed Cape",
+        "image": "Blue Dyed Cape.png",
         "variantName": null,
         "recipe": {
-          "id": "3c1c64975ef8",
+          "id": "801e06a5b6ff",
           "facilities": [
             "Armour Bench"
           ],
@@ -42033,7 +42031,7 @@
     "facilities": [
       "Armour Bench"
     ],
-    "wikiLink": "Blue_Dyad_Cape",
+    "wikiLink": "Blue_Dyed_Cape",
     "weight": 0,
     "itemType": "Armour"
   },
