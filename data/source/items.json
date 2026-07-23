@@ -18067,6 +18067,7 @@
     "json": {
       "description": "A crumbly stone unsuitable for building but, once ground, offers unique properties.",
       "weight": "1.0",
+      "health": "450",
       "image": "[[File:Gypsum.png|32px]]",
       "name": "Gypsum",
       "item_type": "Basic Material",

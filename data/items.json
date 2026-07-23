@@ -67675,6 +67675,7 @@
     "wikiLink": "Gypsum",
     "weight": 1,
     "itemType": "Basic Material",
+    "health": 450,
     "stackLimit": 99
   },
   {
