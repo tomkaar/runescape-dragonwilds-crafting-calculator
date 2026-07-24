@@ -13802,6 +13802,7 @@
     "item_stacklimit": 50,
     "json": {
       "description": "PERK: Focused Farming<br><br>Grants a 15% XP BOOST for the FARMING Skill",
+      "duration": "300 seconds",
       "stacklimit": "50",
       "weight": "1.0",
       "image": "[[File:Weak Focused Farming Potion.png|32px]]",
@@ -13824,6 +13825,7 @@
     "item_stacklimit": 50,
     "json": {
       "description": "PERK: Focused Farming<br><br>Grants a 15% XP BOOST for the FARMING Skill",
+      "duration": "600 seconds",
       "stacklimit": "50",
       "weight": "1.0",
       "image": "[[File:Lesser Focused Farming Potion.png|32px]]",
@@ -14049,6 +14051,7 @@
     "item_stacklimit": 50,
     "json": {
       "description": "PERK: Focused Farming II<br><br>Grants a 30% XP BOOST for the Farming Skill",
+      "duration": "300 seconds",
       "stacklimit": "50",
       "weight": "1.0",
       "image": "[[File:Focused Farming Potion.png|32px]]",
