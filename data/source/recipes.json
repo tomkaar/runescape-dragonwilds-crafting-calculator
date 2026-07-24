@@ -53625,26 +53625,26 @@
       "facility": "Brewing Cauldron",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Snapdragon",
           "link": "Snapdragon",
-          "qty": 1,
+          "qty": "1",
           "item": "Snapdragon",
           "image": "[[File:Snapdragon.png|30px|link=Snapdragon]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Wheat",
           "link": "Wheat",
-          "qty": 1,
+          "qty": "1",
           "item": "Wheat",
           "image": "[[File:Wheat.png|30px|link=Wheat]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Clay Vessel",
           "link": "Clay Vessel",
-          "qty": 1,
+          "qty": "1",
           "item": "Clay Vessel",
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         }
@@ -70662,10 +70662,10 @@
       "facility": "Imbuing Barrel",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Focused Mining Potion",
           "link": "Focused Mining Potion",
-          "qty": 1,
+          "qty": "1",
           "item": "Focused Mining Potion",
           "image": "[[File:Focused Mining Potion.png|30px|link=Focused Mining Potion]]"
         },
@@ -70688,10 +70688,10 @@
         "Super Focused Mining Potion"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Super Focused Mining Potion",
         "link": "Super Focused Mining Potion",
-        "qty": 1,
+        "qty": "1",
         "item": "Super Focused Mining Potion",
         "image": "[[File:Super Focused Mining Potion.png|30px|link=Super Focused Mining Potion]]"
       }
