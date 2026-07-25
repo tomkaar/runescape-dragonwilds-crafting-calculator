@@ -8714,12 +8714,12 @@
   },
   {
     "page_name": "Willow Tree Seed",
-    "item_description": "Willow Tree Seeds.<br /> <br />Plant this directly into the ground to grow your own Tree!",
+    "item_description": "Willow Tree Seeds.<br /> <\nbr />Plant this directly into the ground to grow your own Tree!",
     "page_name_sub": "Willow Tree Seed",
     "item_weight": 0,
     "item_stacklimit": 999,
     "json": {
-      "description": "Willow Tree Seeds.<br /> <br />Plant this directly into the ground to grow your own Tree!",
+      "description": "Willow Tree Seeds.<br /> <\nbr />Plant this directly into the ground to grow your own Tree!",
       "weight": "0.0",
       "image": "[[File:Willow Tree Seed.png|32px]]",
       "name": "Willow Tree Seed",
