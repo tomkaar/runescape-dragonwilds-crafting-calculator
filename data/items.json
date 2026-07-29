@@ -4804,32 +4804,6 @@
         "usesRecipe": null
       },
       {
-        "id": "4dfea8c1de56",
-        "name": "Charcoal",
-        "image": "Charcoal.png",
-        "variantName": null,
-        "recipe": {
-          "id": "71cd494c8da4",
-          "facilities": [
-            "Kiln"
-          ],
-          "materials": [
-            {
-              "itemId": "ash-plank",
-              "quantity": 1
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Artisan",
-              "experience": 20
-            }
-          ]
-        },
-        "usesRecipe": null
-      },
-      {
         "id": "c991e9e490de",
         "name": "Charcoal",
         "image": "Charcoal.png",
@@ -4842,32 +4816,6 @@
           "materials": [
             {
               "itemId": "oak-logs",
-              "quantity": 1
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Artisan",
-              "experience": 20
-            }
-          ]
-        },
-        "usesRecipe": null
-      },
-      {
-        "id": "96b11368bc28",
-        "name": "Charcoal",
-        "image": "Charcoal.png",
-        "variantName": null,
-        "recipe": {
-          "id": "1f4cb6455d80",
-          "facilities": [
-            "Kiln"
-          ],
-          "materials": [
-            {
-              "itemId": "oak-plank",
               "quantity": 1
             }
           ],
@@ -4920,6 +4868,136 @@
           "materials": [
             {
               "itemId": "blightwood",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "01d2d332ec17",
+        "name": "Charcoal",
+        "image": "Charcoal.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2aa81be21c36",
+          "facilities": [
+            "Kiln"
+          ],
+          "materials": [
+            {
+              "itemId": "maple-logs",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "ce5e0cd35b74",
+        "name": "Charcoal",
+        "image": "Charcoal.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f463430081f8",
+          "facilities": [
+            "Kiln"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-logs",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4dfea8c1de56",
+        "name": "Charcoal",
+        "image": "Charcoal.png",
+        "variantName": null,
+        "recipe": {
+          "id": "71cd494c8da4",
+          "facilities": [
+            "Kiln"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "96b11368bc28",
+        "name": "Charcoal",
+        "image": "Charcoal.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1f4cb6455d80",
+          "facilities": [
+            "Kiln"
+          ],
+          "materials": [
+            {
+              "itemId": "oak-plank",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "646e95c90514",
+        "name": "Charcoal",
+        "image": "Charcoal.png",
+        "variantName": null,
+        "recipe": {
+          "id": "09f02ac774a9",
+          "facilities": [
+            "Kiln"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
               "quantity": 1
             }
           ],
@@ -38978,18 +39056,18 @@
     "image": "Blue Dragon Leather.png",
     "variants": [
       {
-        "id": "a08399beb7f0",
+        "id": "07794d6716ce",
         "name": "Blue Dragon Leather",
         "image": "Blue Dragon Leather.png",
         "variantName": null,
         "recipe": {
-          "id": "d3b9607454fb",
+          "id": "08709104a90c",
           "facilities": [
             "Tannery"
           ],
           "materials": [
             {
-              "itemId": "blue-dragon-hide",
+              "itemId": "blue-dragonhide",
               "quantity": 1
             }
           ],
@@ -63867,27 +63945,6 @@
     "stackLimit": 99
   },
   {
-    "id": "blue-dragon-hide",
-    "name": "Blue Dragon Hide",
-    "image": "Blue Dragon Hide.png",
-    "variants": [
-      {
-        "id": "blue-dragon-hide",
-        "name": "Blue Dragon Hide",
-        "image": "Blue Dragon Hide.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Blue_Dragon_Hide",
-    "weight": 3,
-    "itemType": "Basic Material",
-    "stackLimit": 99
-  },
-  {
     "id": "bedraggled-spellbook",
     "name": "Bedraggled Spellbook",
     "image": "Bedraggled Spellbook.png",
@@ -68076,6 +68133,69 @@
     "stackLimit": 99
   },
   {
+    "id": "twtiching-antenna",
+    "name": "Twtiching Antenna",
+    "image": "Twtiching Antenna.png",
+    "variants": [
+      {
+        "id": "twtichingsup-classnoprint91span-classfact-text-titlethe-preceding-quoted-material-has-been-reproduced-verbatim-from-the-quoted-original-and-is-not-a-transcription-errorsicspan93sup-antenna",
+        "name": "Twtiching<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> Antenna",
+        "image": "Twtiching Antenna.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Twtiching_Antenna",
+    "weight": 0,
+    "itemType": "Vestige",
+    "stackLimit": 99
+  },
+  {
+    "id": "chitinous-carapace",
+    "name": "Chitinous Carapace",
+    "image": "Chitinous Carapace.png",
+    "variants": [
+      {
+        "id": "chitinous-carapace",
+        "name": "Chitinous Carapace",
+        "image": "Chitinous Carapace.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Chitinous_Carapace",
+    "weight": 0,
+    "itemType": "Vestige",
+    "stackLimit": 99
+  },
+  {
+    "id": "barbed-appendage",
+    "name": "Barbed Appendage",
+    "image": "Barbed Appendage.png",
+    "variants": [
+      {
+        "id": "barbed-appendage",
+        "name": "Barbed Appendage",
+        "image": "Barbed Appendage.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Barbed_Appendage",
+    "weight": 0,
+    "itemType": "Vestige",
+    "stackLimit": 99
+  },
+  {
     "id": "elder-curiosities",
     "name": "Elder Curiosities",
     "image": "Elder Curiosities.png",
@@ -69690,5 +69810,46 @@
     "weight": 0,
     "itemType": "Consumable",
     "stackLimit": 99
+  },
+  {
+    "id": "blue-dragonhide",
+    "name": "Blue Dragonhide",
+    "image": "Blue Dragonhide.png",
+    "variants": [
+      {
+        "id": "blue-dragonhide",
+        "name": "Blue Dragonhide",
+        "image": "Blue Dragonhide.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Blue_Dragonhide",
+    "weight": 3,
+    "itemType": "Resource",
+    "stackLimit": 99
+  },
+  {
+    "id": "beast-training-notes",
+    "name": "Beast-Training Notes",
+    "image": "Beast-Training Notes.png",
+    "variants": [
+      {
+        "id": "beast-training-notes",
+        "name": "Beast-Training Notes",
+        "image": "Beast-Training Notes.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Beast-Training_Notes",
+    "weight": 0,
+    "itemType": "Quest Item"
   }
 ]
