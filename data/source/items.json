@@ -11439,24 +11439,6 @@
     "item_name": "Burnt Pumpkin"
   },
   {
-    "page_name": "Blue Dragon Hide",
-    "item_description": "Obtained from felling lesser blue dragons. Can be processed at the tannery.",
-    "page_name_sub": "Blue Dragon Hide",
-    "item_weight": 3,
-    "item_stacklimit": 99,
-    "json": {
-      "description": "Obtained from felling lesser blue dragons. Can be processed at the tannery.",
-      "weight": "3.0",
-      "image": "[[File:Blue Dragon Hide.png|32px]]",
-      "name": "Blue Dragon Hide",
-      "item_type": "Basic Material",
-      "stacklimit": "99",
-      "image_raw": "Blue Dragon Hide.png"
-    },
-    "item_type": "Basic Material",
-    "item_name": "Blue Dragon Hide"
-  },
-  {
     "page_name": "Bedraggled Spellbook",
     "item_description": "An ancient book of spells by Agatha's mail-order magic service. \"Guaranteed to put warts on your nose, or your money back!\"",
     "page_name_sub": "Bedraggled Spellbook",
@@ -19134,6 +19116,60 @@
     "item_name": "Kalphite Bait"
   },
   {
+    "page_name": "Twtiching Antenna",
+    "item_description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+    "page_name_sub": "Twtiching Antenna",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "weight": "0.0",
+      "image": "[[File:Twtiching Antenna.png|32px]]",
+      "name": "Twtiching<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> Antenna",
+      "item_type": "Vestige",
+      "stacklimit": "99",
+      "image_raw": "Twtiching Antenna.png"
+    },
+    "item_type": "Vestige",
+    "item_name": "Twtiching<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> Antenna"
+  },
+  {
+    "page_name": "Chitinous Carapace",
+    "item_description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+    "page_name_sub": "Chitinous Carapace",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "weight": "0.0",
+      "image": "[[File:Chitinous Carapace.png|32px]]",
+      "name": "Chitinous Carapace",
+      "item_type": "Vestige",
+      "stacklimit": "99",
+      "image_raw": "Chitinous Carapace.png"
+    },
+    "item_type": "Vestige",
+    "item_name": "Chitinous Carapace"
+  },
+  {
+    "page_name": "Barbed Appendage",
+    "item_description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+    "page_name_sub": "Barbed Appendage",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "weight": "0.0",
+      "image": "[[File:Barbed Appendage.png|32px]]",
+      "name": "Barbed Appendage",
+      "item_type": "Vestige",
+      "stacklimit": "99",
+      "image_raw": "Barbed Appendage.png"
+    },
+    "item_type": "Vestige",
+    "item_name": "Barbed Appendage"
+  },
+  {
     "page_name": "Seared Cactus Steak",
     "item_description": "You'd be surprised at how tasty an eight-ounce cactus, medium-rare can be.",
     "page_name_sub": "Seared Cactus Steak",
@@ -21919,5 +21955,39 @@
     },
     "item_type": "Consumable",
     "item_name": "PLAN: Moon Garou Bed"
+  },
+  {
+    "page_name": "Blue Dragonhide",
+    "item_description": "Obtained from felled Lesser Blue Dragons. Can be processed at the tannery.",
+    "page_name_sub": "Blue Dragonhide",
+    "item_weight": 3,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Obtained from felled Lesser Blue Dragons. Can be processed at the tannery.",
+      "weight": "3.0",
+      "image": "[[File:Blue Dragonhide.png|32px]]",
+      "name": "Blue Dragonhide",
+      "item_type": "Resource",
+      "stacklimit": "99",
+      "image_raw": "Blue Dragonhide.png"
+    },
+    "item_type": "Resource",
+    "item_name": "Blue Dragonhide"
+  },
+  {
+    "page_name": "Beast-Training Notes",
+    "page_name_sub": "Beast-Training Notes",
+    "item_description": "Notes, from the beastmasters of Dowdun Reach, on how to train various creatures.",
+    "item_type": "Quest Item",
+    "item_name": "Beast-Training Notes",
+    "json": {
+      "description": "Notes, from the beastmasters of Dowdun Reach, on how to train various creatures.",
+      "weight": "0.0",
+      "image": "[[File:Beast-Training Notes.png|32px]]",
+      "name": "Beast-Training Notes",
+      "item_type": "Quest Item",
+      "image_raw": "Beast-Training Notes.png"
+    },
+    "item_weight": 0
   }
 ]

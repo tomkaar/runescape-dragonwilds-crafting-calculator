@@ -6185,50 +6185,6 @@
   },
   {
     "uses_material": [
-      "Ash Plank"
-    ],
-    "uses_skill": [
-      "Artisan"
-    ],
-    "json": {
-      "facility": "Kiln",
-      "materials": [
-        {
-          "quantity": 1,
-          "name": "Ash Plank",
-          "link": "Ash Plank",
-          "qty": 1,
-          "item": "Ash Plank",
-          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "20"
-        }
-      ],
-      "outputs": [
-        "Charcoal"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Charcoal",
-        "link": "Charcoal",
-        "qty": 1,
-        "item": "Charcoal",
-        "image": "[[File:Charcoal.png|30px|link=Charcoal]]"
-      }
-    },
-    "uses_facility": [
-      "Kiln"
-    ],
-    "output": [
-      "Charcoal"
-    ]
-  },
-  {
-    "uses_material": [
       "Oak Logs"
     ],
     "uses_skill": [
@@ -6244,50 +6200,6 @@
           "qty": 1,
           "item": "Oak Logs",
           "image": "[[File:Oak Logs.png|30px|link=Oak Logs]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "20"
-        }
-      ],
-      "outputs": [
-        "Charcoal"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Charcoal",
-        "link": "Charcoal",
-        "qty": 1,
-        "item": "Charcoal",
-        "image": "[[File:Charcoal.png|30px|link=Charcoal]]"
-      }
-    },
-    "uses_facility": [
-      "Kiln"
-    ],
-    "output": [
-      "Charcoal"
-    ]
-  },
-  {
-    "uses_material": [
-      "Oak Plank"
-    ],
-    "uses_skill": [
-      "Artisan"
-    ],
-    "json": {
-      "facility": "Kiln",
-      "materials": [
-        {
-          "quantity": 1,
-          "name": "Oak Plank",
-          "link": "Oak Plank",
-          "qty": 1,
-          "item": "Oak Plank",
-          "image": "[[File:Oak Plank.png|30px|link=Oak Plank]]"
         }
       ],
       "skills": [
@@ -6376,6 +6288,226 @@
           "qty": 1,
           "item": "Blightwood",
           "image": "[[File:Blightwood.png|30px|link=Blightwood]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Charcoal"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Charcoal",
+        "link": "Charcoal",
+        "qty": 1,
+        "item": "Charcoal",
+        "image": "[[File:Charcoal.png|30px|link=Charcoal]]"
+      }
+    },
+    "uses_facility": [
+      "Kiln"
+    ],
+    "output": [
+      "Charcoal"
+    ]
+  },
+  {
+    "uses_material": [
+      "Maple Logs"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Kiln",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": 1,
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Charcoal"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Charcoal",
+        "link": "Charcoal",
+        "qty": 1,
+        "item": "Charcoal",
+        "image": "[[File:Charcoal.png|30px|link=Charcoal]]"
+      }
+    },
+    "uses_facility": [
+      "Kiln"
+    ],
+    "output": [
+      "Charcoal"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Kiln",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": 1,
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Charcoal"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Charcoal",
+        "link": "Charcoal",
+        "qty": 1,
+        "item": "Charcoal",
+        "image": "[[File:Charcoal.png|30px|link=Charcoal]]"
+      }
+    },
+    "uses_facility": [
+      "Kiln"
+    ],
+    "output": [
+      "Charcoal"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Kiln",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": 1,
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Charcoal"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Charcoal",
+        "link": "Charcoal",
+        "qty": 1,
+        "item": "Charcoal",
+        "image": "[[File:Charcoal.png|30px|link=Charcoal]]"
+      }
+    },
+    "uses_facility": [
+      "Kiln"
+    ],
+    "output": [
+      "Charcoal"
+    ]
+  },
+  {
+    "uses_material": [
+      "Oak Plank"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Kiln",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Oak Plank",
+          "link": "Oak Plank",
+          "qty": 1,
+          "item": "Oak Plank",
+          "image": "[[File:Oak Plank.png|30px|link=Oak Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Charcoal"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Charcoal",
+        "link": "Charcoal",
+        "qty": 1,
+        "item": "Charcoal",
+        "image": "[[File:Charcoal.png|30px|link=Charcoal]]"
+      }
+    },
+    "uses_facility": [
+      "Kiln"
+    ],
+    "output": [
+      "Charcoal"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Kiln",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": 1,
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
         }
       ],
       "skills": [
@@ -39366,8 +39498,8 @@
   },
   {
     "uses_material": [
-      "Dragon Blood",
-      "Hard Leather"
+      "Hard Leather",
+      "Dragon Blood"
     ],
     "uses_skill": [
       "Artisan"
@@ -39376,20 +39508,20 @@
       "facility": "Tannery",
       "materials": [
         {
-          "quantity": "1",
-          "name": "Dragon Blood",
-          "link": "Dragon Blood",
-          "qty": "1",
-          "item": "Dragon Blood",
-          "image": "[[File:Dragon Blood.png|30px|link=Dragon Blood]]"
-        },
-        {
           "quantity": "3",
           "name": "Hard Leather",
           "link": "Hard Leather",
           "qty": "3",
           "item": "Hard Leather",
           "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dragon Blood",
+          "link": "Dragon Blood",
+          "qty": "1",
+          "item": "Dragon Blood",
+          "image": "[[File:Dragon Blood.png|30px|link=Dragon Blood]]"
         }
       ],
       "skills": [
@@ -51101,7 +51233,7 @@
   },
   {
     "uses_material": [
-      "Blue Dragon Hide"
+      "Blue Dragonhide"
     ],
     "uses_skill": [
       "Artisan"
@@ -51111,11 +51243,11 @@
       "materials": [
         {
           "quantity": "1",
-          "name": "Blue Dragon Hide",
-          "link": "Blue Dragon Hide",
+          "name": "Blue Dragonhide",
+          "link": "Blue Dragonhide",
           "qty": "1",
-          "item": "Blue Dragon Hide",
-          "image": "[[File:Blue Dragon Hide.png|30px|link=Blue Dragon Hide]]"
+          "item": "Blue Dragonhide",
+          "image": "[[File:Blue Dragonhide.png|30px|link=Blue Dragonhide]]"
         }
       ],
       "skills": [
