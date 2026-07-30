@@ -74218,6 +74218,7 @@
       "Artisan"
     ],
     "json": {
+      "recipe": "Unyielding Obsidian Construct",
       "facility": "Blacksmith's Bench",
       "materials": [
         {
@@ -74257,6 +74258,9 @@
     },
     "uses_facility": [
       "Blacksmith's Bench"
+    ],
+    "uses_recipe": [
+      "Unyielding Obsidian Construct"
     ],
     "output": [
       "TokTz-Ket-Xil"
@@ -75282,6 +75286,431 @@
     ],
     "output": [
       "Ore & Stone Storage"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Vessel",
+      "Snapdragon",
+      "Sandstone"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": 1,
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Snapdragon",
+          "link": "Snapdragon",
+          "qty": 1,
+          "item": "Snapdragon",
+          "image": "[[File:Snapdragon.png|30px|link=Snapdragon]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Sandstone",
+          "link": "Sandstone",
+          "qty": 1,
+          "item": "Sandstone",
+          "image": "[[File:Sandstone.png|30px|link=Sandstone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Lesser Focused Agility Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Lesser Focused Agility Potion",
+        "link": "Lesser Focused Agility Potion",
+        "qty": 1,
+        "item": "Lesser Focused Agility Potion",
+        "image": "[[File:Lesser Focused Agility Potion.png|30px|link=Lesser Focused Agility Potion]]"
+      }
+    },
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "output": [
+      "Lesser Focused Agility Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Vessel",
+      "Marrentill",
+      "Bronze Leaf"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Clay Vessel",
+          "link": "Clay Vessel",
+          "qty": 1,
+          "item": "Clay Vessel",
+          "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Marrentill",
+          "link": "Marrentill",
+          "qty": 1,
+          "item": "Marrentill",
+          "image": "[[File:Marrentill.png|30px|link=Marrentill]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Bronze Leaf",
+          "link": "Bronze Leaf",
+          "qty": 1,
+          "item": "Bronze Leaf",
+          "image": "[[File:Bronze Leaf.png|30px|link=Bronze Leaf]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Weak Focused Agility Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Weak Focused Agility Potion",
+        "link": "Weak Focused Agility Potion",
+        "qty": 1,
+        "item": "Weak Focused Agility Potion",
+        "image": "[[File:Weak Focused Agility Potion.png|30px|link=Weak Focused Agility Potion]]"
+      }
+    },
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "output": [
+      "Weak Focused Agility Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Glass Vessel",
+      "Avantoe",
+      "Gold Leaf"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "1",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Avantoe",
+          "link": "Avantoe",
+          "qty": 1,
+          "item": "Avantoe",
+          "image": "[[File:Avantoe.png|30px|link=Avantoe]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Gold Leaf",
+          "link": "Gold Leaf",
+          "qty": 1,
+          "item": "Gold Leaf",
+          "image": "[[File:Gold Leaf.png|30px|link=Gold Leaf]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Focused Agility Potion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Focused Agility Potion",
+        "link": "Focused Agility Potion",
+        "qty": "1",
+        "item": "Focused Agility Potion",
+        "image": "[[File:Focused Agility Potion.png|30px|link=Focused Agility Potion]]"
+      }
+    },
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "output": [
+      "Focused Agility Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Focused Agility Potion",
+      "Wild Anima"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Imbuing Barrel",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Focused Agility Potion",
+          "link": "Focused Agility Potion",
+          "qty": 1,
+          "item": "Focused Agility Potion",
+          "image": "[[File:Focused Agility Potion.png|30px|link=Focused Agility Potion]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": 1,
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Super Focused Agility Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Super Focused Agility Potion",
+        "link": "Super Focused Agility Potion",
+        "qty": 1,
+        "item": "Super Focused Agility Potion",
+        "image": "[[File:Super Focused Agility Potion.png|30px|link=Super Focused Agility Potion]]"
+      }
+    },
+    "uses_facility": [
+      "Imbuing Barrel"
+    ],
+    "output": [
+      "Super Focused Agility Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Warped Feathers"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "5",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Warped Feathers",
+          "link": "Warped Feathers",
+          "qty": "8",
+          "item": "Warped Feathers",
+          "image": "[[File:Warped Feathers.png|30px|link=Warped Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Gyrhawk Amulet"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Gyrhawk Amulet",
+        "link": "Gyrhawk Amulet",
+        "qty": 1,
+        "item": "Gyrhawk Amulet",
+        "image": "[[File:Gyrhawk Amulet.png|30px|link=Gyrhawk Amulet]]"
+      }
+    },
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "output": [
+      "Gyrhawk Amulet"
+    ]
+  },
+  {
+    "uses_material": [
+      "Avantoe",
+      "Amylase Crystal",
+      "Glass Vessel"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Brewing Cauldron",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Avantoe",
+          "link": "Avantoe",
+          "qty": 1,
+          "item": "Avantoe",
+          "image": "[[File:Avantoe.png|30px|link=Avantoe]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Amylase Crystal",
+          "link": "Amylase Crystal",
+          "qty": 1,
+          "item": "Amylase Crystal",
+          "image": "[[File:Amylase Crystal.png|30px|link=Amylase Crystal]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": 1,
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Stamina Potion"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Stamina Potion",
+        "link": "Stamina Potion",
+        "qty": 1,
+        "item": "Stamina Potion",
+        "image": "[[File:Stamina Potion.png|30px|link=Stamina Potion]]"
+      }
+    },
+    "uses_facility": [
+      "Brewing Cauldron"
+    ],
+    "output": [
+      "Stamina Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Mould",
+      "Silver Bar",
+      "Opal",
+      "Vault Shard"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Jeweler's Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Silver Bar",
+          "link": "Silver Bar",
+          "qty": "2",
+          "item": "Silver Bar",
+          "image": "[[File:Silver Bar.png|30px|link=Silver Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Opal",
+          "link": "Opal",
+          "qty": "2",
+          "item": "Opal",
+          "image": "[[File:Opal.png|30px|link=Opal]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "3",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Inspiring Ring of Agility"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Inspiring Ring of Agility",
+        "link": "Inspiring Ring of Agility",
+        "qty": "1",
+        "item": "Inspiring Ring of Agility",
+        "image": "[[File:Inspiring Ring of Agility.png|30px|link=Inspiring Ring of Agility]]"
+      }
+    },
+    "uses_facility": [
+      "Jeweler's Bench"
+    ],
+    "output": [
+      "Inspiring Ring of Agility"
     ]
   }
 ]

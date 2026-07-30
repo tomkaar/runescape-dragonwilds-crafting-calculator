@@ -57180,7 +57180,9 @@
             }
           ]
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Unyielding Obsidian Construct"
+        ]
       }
     ],
     "skills": [
@@ -58090,6 +58092,359 @@
       "Build Menu"
     ],
     "wikiLink": "Ore_&_Stone_Storage"
+  },
+  {
+    "id": "lesser-focused-agility-potion",
+    "name": "Lesser Focused Agility Potion",
+    "image": "Lesser Focused Agility Potion.png",
+    "variants": [
+      {
+        "id": "602c9c4cead1",
+        "name": "Lesser Focused Agility Potion",
+        "image": "Lesser Focused Agility Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "cb4132e01be7",
+          "facilities": [
+            "Brewing Cauldron"
+          ],
+          "materials": [
+            {
+              "itemId": "clay-vessel",
+              "quantity": 1
+            },
+            {
+              "itemId": "sandstone",
+              "quantity": 1
+            },
+            {
+              "itemId": "snapdragon",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Lesser_Focused_Agility_Potion",
+    "weight": 1,
+    "itemType": "Potion",
+    "stackLimit": 50
+  },
+  {
+    "id": "weak-focused-agility-potion",
+    "name": "Weak Focused Agility Potion",
+    "image": "Weak Focused Agility Potion.png",
+    "variants": [
+      {
+        "id": "aba0e1b108fc",
+        "name": "Weak Focused Agility Potion",
+        "image": "Weak Focused Agility Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "36311e67ec91",
+          "facilities": [
+            "Brewing Cauldron"
+          ],
+          "materials": [
+            {
+              "itemId": "bronze-leaf",
+              "quantity": 1
+            },
+            {
+              "itemId": "clay-vessel",
+              "quantity": 1
+            },
+            {
+              "itemId": "marrentill",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Weak_Focused_Agility_Potion",
+    "weight": 1,
+    "itemType": "Potion",
+    "stackLimit": 50
+  },
+  {
+    "id": "focused-agility-potion",
+    "name": "Focused Agility Potion",
+    "image": "Focused Agility Potion.png",
+    "variants": [
+      {
+        "id": "b1fc94253ee6",
+        "name": "Focused Agility Potion",
+        "image": "Focused Agility Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5535b83c47d9",
+          "facilities": [
+            "Brewing Cauldron"
+          ],
+          "materials": [
+            {
+              "itemId": "avantoe",
+              "quantity": 1
+            },
+            {
+              "itemId": "glass-vessel",
+              "quantity": 1
+            },
+            {
+              "itemId": "gold-leaf",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Focused_Agility_Potion",
+    "weight": 1,
+    "itemType": "Potion",
+    "stackLimit": 50
+  },
+  {
+    "id": "super-focused-agility-potion",
+    "name": "Super Focused Agility Potion",
+    "image": "Super Focused Agility Potion.png",
+    "variants": [
+      {
+        "id": "775b033d2560",
+        "name": "Super Focused Agility Potion",
+        "image": "Super Focused Agility Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8ea01f547788",
+          "facilities": [
+            "Imbuing Barrel"
+          ],
+          "materials": [
+            {
+              "itemId": "focused-agility-potion",
+              "quantity": 1
+            },
+            {
+              "itemId": "wild-anima",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 40
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Imbuing Barrel"
+    ],
+    "wikiLink": "Super_Focused_Agility_Potion",
+    "weight": 1,
+    "itemType": "Potion",
+    "stackLimit": 99
+  },
+  {
+    "id": "gyrhawk-amulet",
+    "name": "Gyrhawk Amulet",
+    "image": "Gyrhawk Amulet.png",
+    "variants": [
+      {
+        "id": "c5725d2c2a38",
+        "name": "Gyrhawk Amulet",
+        "image": "Gyrhawk Amulet.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0ca6817d406c",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "coarse-thread",
+              "quantity": 5
+            },
+            {
+              "itemId": "warped-feathers",
+              "quantity": 8
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Gyrhawk_Amulet",
+    "weight": 2,
+    "itemType": "Trinket",
+    "stackLimit": 1
+  },
+  {
+    "id": "stamina-potion",
+    "name": "Stamina Potion",
+    "image": "Stamina Potion.png",
+    "variants": [
+      {
+        "id": "cfcd3c3e4da4",
+        "name": "Stamina Potion",
+        "image": "Stamina Potion.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7bdfef6c5f4e",
+          "facilities": [
+            "Brewing Cauldron"
+          ],
+          "materials": [
+            {
+              "itemId": "amylase-crystal",
+              "quantity": 1
+            },
+            {
+              "itemId": "avantoe",
+              "quantity": 1
+            },
+            {
+              "itemId": "glass-vessel",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Stamina_Potion",
+    "weight": 1,
+    "itemType": "Potion",
+    "stackLimit": 50
+  },
+  {
+    "id": "inspiring-ring-of-agility",
+    "name": "Inspiring Ring of Agility",
+    "image": "Inspiring Ring of Agility.png",
+    "variants": [
+      {
+        "id": "58ec02446447",
+        "name": "Inspiring Ring of Agility",
+        "image": "Inspiring Ring of Agility.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1620a69fb502",
+          "facilities": [
+            "Jeweler's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "clay-mould",
+              "quantity": 1
+            },
+            {
+              "itemId": "opal",
+              "quantity": 2
+            },
+            {
+              "itemId": "silver-bar",
+              "quantity": 2
+            },
+            {
+              "itemId": "vault-shard",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
+    ],
+    "wikiLink": "Inspiring_Ring_of_Agility",
+    "weight": 1,
+    "itemType": "Trinket",
+    "stackLimit": 1
   },
   {
     "id": "goblin-pack",
@@ -64931,6 +65286,34 @@
     "stackLimit": 0
   },
   {
+    "id": "agility-cape",
+    "name": "Agility Cape",
+    "image": "Agility Cape.png",
+    "variants": [
+      {
+        "id": "agility-cape",
+        "name": "Agility Cape",
+        "image": "Agility Cape.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      },
+      {
+        "id": "agility-cape-trimmed",
+        "name": "Agility Cape (Trimmed)",
+        "image": "Agility Cape (Trimmed).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Agility_Cape",
+    "weight": 0,
+    "itemType": "Basic Item"
+  },
+  {
     "id": "bloodstained-black-visor",
     "name": "Bloodstained Black Visor",
     "image": "Bloodstained Black Visor.png",
@@ -67683,13 +68066,21 @@
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
+      },
+      {
+        "id": "ascension-core",
+        "name": "Ascension Core",
+        "image": "Ascension Core (Power Level 7).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
     "facilities": [],
     "wikiLink": "Ascension_Core",
     "weight": 0.3,
-    "itemType": "Basic Item",
+    "itemType": "Basic Material",
     "stackLimit": 99
   },
   {
@@ -69535,13 +69926,21 @@
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
+      },
+      {
+        "id": "ascension-shard",
+        "name": "Ascension Shard",
+        "image": "Ascension Shard (Power Level 7).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
       }
     ],
     "skills": [],
     "facilities": [],
     "wikiLink": "Ascension_Shard",
     "weight": 0.1,
-    "itemType": "Basic Item",
+    "itemType": "Basic Material",
     "stackLimit": 99
   },
   {
@@ -69851,5 +70250,236 @@
     "wikiLink": "Beast-Training_Notes",
     "weight": 0,
     "itemType": "Quest Item"
+  },
+  {
+    "id": "avantoe",
+    "name": "Avantoe",
+    "image": "Avantoe.png",
+    "variants": [
+      {
+        "id": "avantoe",
+        "name": "Avantoe",
+        "image": "Avantoe.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Avantoe",
+    "weight": 0.1,
+    "itemType": "Resource",
+    "stackLimit": 99
+  },
+  {
+    "id": "avantoe-seeds",
+    "name": "Avantoe Seeds",
+    "image": "Avantoe Seeds.png",
+    "variants": [
+      {
+        "id": "avantoe-seeds",
+        "name": "Avantoe Seeds",
+        "image": "Avantoe Seeds.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Avantoe_Seeds",
+    "weight": 0.2,
+    "itemType": "Seed",
+    "stackLimit": 999
+  },
+  {
+    "id": "amylase-crystal",
+    "name": "Amylase Crystal",
+    "image": "Amylase Crystal.png",
+    "variants": [
+      {
+        "id": "amylase-crystal",
+        "name": "Amylase Crystal",
+        "image": "Amylase Crystal.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Amylase_Crystal",
+    "weight": 0.1,
+    "itemType": "Component",
+    "stackLimit": 99
+  },
+  {
+    "id": "warped-feathers",
+    "name": "Warped Feathers",
+    "image": "Warped Feathers.png",
+    "variants": [
+      {
+        "id": "warped-feathers",
+        "name": "Warped Feathers",
+        "image": "Warped Feathers.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Warped_Feathers",
+    "weight": 0.1,
+    "itemType": "Basic Material",
+    "stackLimit": 99
+  },
+  {
+    "id": "gold-leaf",
+    "name": "Gold Leaf",
+    "image": "Gold Leaf.png",
+    "variants": [
+      {
+        "id": "gold-leaf",
+        "name": "Gold Leaf",
+        "image": "Gold Leaf.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Gold_Leaf",
+    "weight": 0.1,
+    "itemType": "Component",
+    "stackLimit": 99
+  },
+  {
+    "id": "silver-leaf",
+    "name": "Silver Leaf",
+    "image": "Silver Leaf.png",
+    "variants": [
+      {
+        "id": "silver-leaf",
+        "name": "Silver Leaf",
+        "image": "Silver Leaf.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Silver_Leaf",
+    "weight": 0.1,
+    "itemType": "Component",
+    "stackLimit": 99
+  },
+  {
+    "id": "bronze-leaf",
+    "name": "Bronze Leaf",
+    "image": "Bronze Leaf.png",
+    "variants": [
+      {
+        "id": "bronze-leaf",
+        "name": "Bronze Leaf",
+        "image": "Bronze Leaf.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Bronze_Leaf",
+    "weight": 0.1,
+    "itemType": "Component",
+    "stackLimit": 99
+  },
+  {
+    "id": "reward-pack-brynmoor-gold",
+    "name": "Reward Pack: Brynmoor Gold",
+    "image": "Reward Pack: Brynmoor Gold.png",
+    "variants": [
+      {
+        "id": "reward-pack-brynmoor-gold",
+        "name": "Reward Pack: Brynmoor Gold",
+        "image": "Reward Pack: Brynmoor Gold.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Brynmoor_Gold",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "gilded-gyrhawk-amulet",
+    "name": "Gilded Gyrhawk Amulet",
+    "image": "Gilded Gyrhawk Amulet.png",
+    "variants": [
+      {
+        "id": "gilded-gyrhawk-amulet",
+        "name": "Gilded Gyrhawk Amulet",
+        "image": "Gilded Gyrhawk Amulet.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Gilded_Gyrhawk_Amulet",
+    "weight": 2,
+    "itemType": "Trinket",
+    "stackLimit": 1
+  },
+  {
+    "id": "reward-pack-ghornfell-gold",
+    "name": "Reward Pack: Ghornfell Gold",
+    "image": "Reward Pack: Ghornfell Gold.png",
+    "variants": [
+      {
+        "id": "reward-pack-ghornfell-gold",
+        "name": "Reward Pack: Ghornfell Gold",
+        "image": "Reward Pack: Ghornfell Gold.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Ghornfell_Gold",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "unyielding-obsidian-construct",
+    "name": "Unyielding Obsidian Construct",
+    "image": "Unyielding Obsidian Construct.png",
+    "variants": [
+      {
+        "id": "unyielding-obsidian-construct",
+        "name": "Unyielding Obsidian Construct",
+        "image": "Unyielding Obsidian Construct.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Unyielding_Obsidian_Construct",
+    "weight": 1,
+    "itemType": "Vestige",
+    "stackLimit": 99
   }
 ]
