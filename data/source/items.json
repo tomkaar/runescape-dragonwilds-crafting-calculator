@@ -13697,6 +13697,38 @@
     "item_name": "Food & Drink Salvage"
   },
   {
+    "page_name": "Agility Cape",
+    "page_name_sub": "Agility Cape",
+    "item_description": "Congratulations! Reaching level 99 in Agility is an astonishing feat. Wear this cape with pride.",
+    "item_type": "Basic Item",
+    "item_name": "Agility Cape",
+    "json": {
+      "description": "Congratulations! Reaching level 99 in Agility is an astonishing feat. Wear this cape with pride.",
+      "weight": "0.0",
+      "image": "[[File:Agility Cape.png|32px]]",
+      "name": "Agility Cape",
+      "item_type": "Basic Item",
+      "image_raw": "Agility Cape.png"
+    },
+    "item_weight": 0
+  },
+  {
+    "page_name": "Agility Cape",
+    "page_name_sub": "Agility Cape",
+    "item_description": "Congratulations! Reaching level 99 in Agility is an astonishing feat. Wear this cape with pride.",
+    "item_type": "Basic Item",
+    "item_name": "Agility Cape (Trimmed)",
+    "json": {
+      "description": "Congratulations! Reaching level 99 in Agility is an astonishing feat. Wear this cape with pride.",
+      "weight": "0.0",
+      "image": "[[File:Agility Cape (Trimmed).png|32px]]",
+      "name": "Agility Cape (Trimmed)",
+      "item_type": "Basic Item",
+      "image_raw": "Agility Cape (Trimmed).png"
+    },
+    "item_weight": 0
+  },
+  {
     "page_name": "Fishing Cape",
     "page_name_sub": "Fishing Cape",
     "item_description": "Congratulations! Reaching level 99 in Fishing is an astonishing feat. Wear this cape with pride.",
@@ -13866,22 +13898,18 @@
   },
   {
     "page_name": "Lesser Antipoison Potion",
-    "item_description": "PERK: Antipoison<br><br>NEGATES and grants RESISTENCE to POISON effects",
+    "item_description": "Removes poison and grants resistance to it.",
     "page_name_sub": "Lesser Antipoison Potion",
     "item_weight": 1,
     "item_stacklimit": 50,
     "json": {
-      "description": "PERK: Antipoison<br><br>NEGATES and grants RESISTENCE to POISON effects",
+      "description": "Removes poison and grants resistance to it.",
       "duration": "600 seconds",
-      "stacklimit": "50",
       "weight": "1.0",
       "image": "[[File:Lesser Antipoison Potion.png|32px]]",
       "name": "Lesser Antipoison Potion",
       "item_type": "Potion",
-      "perk": {
-        "name": "Antipoison",
-        "effect": "NEGATES and grants RESISTENCE to POISON effects"
-      },
+      "stacklimit": "50",
       "image_raw": "Lesser Antipoison Potion.png"
     },
     "item_type": "Potion",
@@ -17921,56 +17949,74 @@
   },
   {
     "page_name": "Ascension Core",
-    "item_description": "Used to Upgrade a Masterwork Weapon from Power Level 4 to Power Level 5 - COMING SOON",
+    "item_description": "Used to upgrade Masterwork Weapons and Vestiges from a lower Power level to Power Level 4.",
     "page_name_sub": "Ascension Core",
     "item_weight": 0.3,
     "item_stacklimit": 99,
     "json": {
-      "description": "Used to Upgrade a Masterwork Weapon from Power Level 4 to Power Level 5 - COMING SOON",
+      "description": "Used to upgrade Masterwork Weapons and Vestiges from a lower Power level to Power Level 4.",
       "weight": "0.3",
       "image": "[[File:Ascension Core (Power Level 4).png|32px]]",
       "name": "Ascension Core",
-      "item_type": "Basic Item",
+      "item_type": "Basic Material",
       "stacklimit": "99",
       "image_raw": "Ascension Core (Power Level 4).png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Basic Material",
     "item_name": "Ascension Core"
   },
   {
     "page_name": "Ascension Core",
-    "item_description": "Used to Upgrade a Masterwork Weapon from Power Level 5 to Power Level 6 - COMING SOON",
+    "item_description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 4 to Power Level 5",
     "page_name_sub": "Ascension Core",
     "item_weight": 0.3,
     "item_stacklimit": 99,
     "json": {
-      "description": "Used to Upgrade a Masterwork Weapon from Power Level 5 to Power Level 6 - COMING SOON",
+      "description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 4 to Power Level 5",
       "weight": "0.3",
       "image": "[[File:Ascension Core (Power Level 5).png|32px]]",
       "name": "Ascension Core",
-      "item_type": "Basic Item",
+      "item_type": "Basic Material",
       "stacklimit": "99",
       "image_raw": "Ascension Core (Power Level 5).png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Basic Material",
     "item_name": "Ascension Core"
   },
   {
     "page_name": "Ascension Core",
-    "item_description": "Used to Upgrade a Masterwork Weapon from Power Level 6 to Power Level 7 - COMING SOON",
+    "item_description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 5 to Power Level 6",
     "page_name_sub": "Ascension Core",
     "item_weight": 0.3,
     "item_stacklimit": 99,
     "json": {
-      "description": "Used to Upgrade a Masterwork Weapon from Power Level 6 to Power Level 7 - COMING SOON",
+      "description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 5 to Power Level 6",
       "weight": "0.3",
       "image": "[[File:Ascension Core (Power Level 6).png|32px]]",
       "name": "Ascension Core",
-      "item_type": "Basic Item",
+      "item_type": "Basic Material",
       "stacklimit": "99",
       "image_raw": "Ascension Core (Power Level 6).png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Basic Material",
+    "item_name": "Ascension Core"
+  },
+  {
+    "page_name": "Ascension Core",
+    "item_description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 6 to Power Level 7",
+    "page_name_sub": "Ascension Core",
+    "item_weight": 0.3,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 6 to Power Level 7",
+      "weight": "0.3",
+      "image": "[[File:Ascension Core (Power Level 7).png|32px]]",
+      "name": "Ascension Core",
+      "item_type": "Basic Material",
+      "stacklimit": "99",
+      "image_raw": "Ascension Core (Power Level 7).png"
+    },
+    "item_type": "Basic Material",
     "item_name": "Ascension Core"
   },
   {
@@ -21556,56 +21602,74 @@
   },
   {
     "page_name": "Ascension Shard",
-    "item_description": "Used to craft a Tier 4 Ascension Core - COMING SOON",
+    "item_description": "Used to craft a Tier 4 Ascension Core",
     "page_name_sub": "Ascension Shard",
     "item_weight": 0.1,
     "item_stacklimit": 99,
     "json": {
-      "description": "Used to craft a Tier 4 Ascension Core - COMING SOON",
+      "description": "Used to craft a Tier 4 Ascension Core",
       "weight": "0.1",
       "image": "[[File:Ascension Shard (Power Level 4).png|32px]]",
       "name": "Ascension Shard",
-      "item_type": "Basic Item",
+      "item_type": "Basic Material",
       "stacklimit": "99",
       "image_raw": "Ascension Shard (Power Level 4).png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Basic Material",
     "item_name": "Ascension Shard"
   },
   {
     "page_name": "Ascension Shard",
-    "item_description": "Used to craft a Tier 5 Ascension Core - COMING SOON",
+    "item_description": "Used to craft a Tier 5 Ascension Core",
     "page_name_sub": "Ascension Shard",
     "item_weight": 0.1,
     "item_stacklimit": 99,
     "json": {
-      "description": "Used to craft a Tier 5 Ascension Core - COMING SOON",
+      "description": "Used to craft a Tier 5 Ascension Core",
       "weight": "0.1",
       "image": "[[File:Ascension Shard (Power Level 5).png|32px]]",
       "name": "Ascension Shard",
-      "item_type": "Basic Item",
+      "item_type": "Basic Material",
       "stacklimit": "99",
       "image_raw": "Ascension Shard (Power Level 5).png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Basic Material",
     "item_name": "Ascension Shard"
   },
   {
     "page_name": "Ascension Shard",
-    "item_description": "Used to craft a Tier 6 Ascension Core - COMING SOON",
+    "item_description": "Used to craft a Tier 6 Ascension Core",
     "page_name_sub": "Ascension Shard",
     "item_weight": 0.1,
     "item_stacklimit": 99,
     "json": {
-      "description": "Used to craft a Tier 6 Ascension Core - COMING SOON",
+      "description": "Used to craft a Tier 6 Ascension Core",
       "weight": "0.1",
       "image": "[[File:Ascension Shard (Power Level 6).png|32px]]",
       "name": "Ascension Shard",
-      "item_type": "Basic Item",
+      "item_type": "Basic Material",
       "stacklimit": "99",
       "image_raw": "Ascension Shard (Power Level 6).png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Basic Material",
+    "item_name": "Ascension Shard"
+  },
+  {
+    "page_name": "Ascension Shard",
+    "item_description": "Used to craft a Tier 7 Ascension Core",
+    "page_name_sub": "Ascension Shard",
+    "item_weight": 0.1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Used to craft a Tier 7 Ascension Core",
+      "weight": "0.1",
+      "image": "[[File:Ascension Shard (Power Level 7).png|32px]]",
+      "name": "Ascension Shard",
+      "item_type": "Basic Material",
+      "stacklimit": "99",
+      "image_raw": "Ascension Shard (Power Level 7).png"
+    },
+    "item_type": "Basic Material",
     "item_name": "Ascension Shard"
   },
   {
@@ -21989,5 +22053,344 @@
       "image_raw": "Beast-Training Notes.png"
     },
     "item_weight": 0
+  },
+  {
+    "page_name": "Lesser Focused Agility Potion",
+    "item_description": "PERK: Focused Agility<br><br>Grants a 15% XP BOOST for the Agility Skill",
+    "page_name_sub": "Lesser Focused Agility Potion",
+    "item_weight": 1,
+    "item_stacklimit": 50,
+    "json": {
+      "description": "PERK: Focused Agility<br><br>Grants a 15% XP BOOST for the Agility Skill",
+      "duration": "600 seconds",
+      "stacklimit": "50",
+      "weight": "1.0",
+      "image": "[[File:Lesser Focused Agility Potion.png|32px]]",
+      "name": "Lesser Focused Agility Potion",
+      "item_type": "Potion",
+      "perk": {
+        "name": "Focused Agility",
+        "effect": "Grants a 15% XP BOOST for the Agility Skill"
+      },
+      "image_raw": "Lesser Focused Agility Potion.png"
+    },
+    "item_type": "Potion",
+    "item_name": "Lesser Focused Agility Potion"
+  },
+  {
+    "page_name": "Weak Focused Agility Potion",
+    "item_description": "PERK: Focused Agility<br><br>Grants a 15% XP BOOST for the Agility Skill",
+    "page_name_sub": "Weak Focused Agility Potion",
+    "item_weight": 1,
+    "item_stacklimit": 50,
+    "json": {
+      "description": "PERK: Focused Agility<br><br>Grants a 15% XP BOOST for the Agility Skill",
+      "duration": "300 seconds",
+      "stacklimit": "50",
+      "weight": "1.0",
+      "image": "[[File:Weak Focused Agility Potion.png|32px]]",
+      "name": "Weak Focused Agility Potion",
+      "item_type": "Potion",
+      "perk": {
+        "name": "Focused Agility",
+        "effect": "Grants a 15% XP BOOST for the Agility Skill"
+      },
+      "image_raw": "Weak Focused Agility Potion.png"
+    },
+    "item_type": "Potion",
+    "item_name": "Weak Focused Agility Potion"
+  },
+  {
+    "page_name": "Focused Agility Potion",
+    "item_description": "PERK: Focused Agility<br><br>Grants a 30% XP BOOST for the Agility Skill",
+    "page_name_sub": "Focused Agility Potion",
+    "item_weight": 1,
+    "item_stacklimit": 50,
+    "json": {
+      "description": "PERK: Focused Agility<br><br>Grants a 30% XP BOOST for the Agility Skill",
+      "duration": "300 seconds",
+      "stacklimit": "50",
+      "weight": "1.0",
+      "image": "[[File:Focused Agility Potion.png|32px]]",
+      "name": "Focused Agility Potion",
+      "item_type": "Potion",
+      "perk": {
+        "name": "Focused Agility",
+        "effect": "Grants a 30% XP BOOST for the Agility Skill"
+      },
+      "image_raw": "Focused Agility Potion.png"
+    },
+    "item_type": "Potion",
+    "item_name": "Focused Agility Potion"
+  },
+  {
+    "page_name": "Super Focused Agility Potion",
+    "item_description": "PERK: Focused Agility II<br><br>Grants a 30% XP BOOST for the Agility Skill",
+    "page_name_sub": "Super Focused Agility Potion",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "PERK: Focused Agility II<br><br>Grants a 30% XP BOOST for the Agility Skill",
+      "duration": "600 seconds",
+      "stacklimit": "99",
+      "weight": "1.0",
+      "image": "[[File:Super Focused Agility Potion.png|32px]]",
+      "name": "Super Focused Agility Potion",
+      "item_type": "Potion",
+      "perk": {
+        "name": "Focused Agility II",
+        "effect": "Grants a 30% XP BOOST for the Agility Skill"
+      },
+      "image_raw": "Super Focused Agility Potion.png"
+    },
+    "item_type": "Potion",
+    "item_name": "Super Focused Agility Potion"
+  },
+  {
+    "page_name": "Avantoe",
+    "item_description": "",
+    "page_name_sub": "Avantoe",
+    "item_weight": 0.1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "",
+      "weight": "0.1",
+      "image": "[[File:Avantoe.png|32px]]",
+      "name": "Avantoe",
+      "item_type": "Resource",
+      "stacklimit": "99",
+      "image_raw": "Avantoe.png"
+    },
+    "item_type": "Resource",
+    "item_name": "Avantoe"
+  },
+  {
+    "page_name": "Avantoe Seeds",
+    "item_description": "Avantoe seeds. Equip and use them to scatter these into a farming plot and start growing!",
+    "page_name_sub": "Avantoe Seeds",
+    "item_weight": 0.2,
+    "item_stacklimit": 999,
+    "json": {
+      "description": "Avantoe seeds. Equip and use them to scatter these into a farming plot and start growing!",
+      "weight": "0.2",
+      "image": "[[File:Avantoe Seeds.png|32px]]",
+      "name": "Avantoe Seeds",
+      "item_type": "Seed",
+      "stacklimit": "999",
+      "image_raw": "Avantoe Seeds.png"
+    },
+    "item_type": "Seed",
+    "item_name": "Avantoe Seeds"
+  },
+  {
+    "page_name": "Amylase Crystal",
+    "item_description": "A crystallised mass of amylase enzymes, can be used as a reagent potions.",
+    "page_name_sub": "Amylase Crystal",
+    "item_weight": 0.1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A crystallised mass of amylase enzymes, can be used as a reagent potions.",
+      "weight": "0.1",
+      "image": "[[File:Amylase Crystal.png|32px]]",
+      "name": "Amylase Crystal",
+      "item_type": "Component",
+      "stacklimit": "99",
+      "image_raw": "Amylase Crystal.png"
+    },
+    "item_type": "Component",
+    "item_name": "Amylase Crystal"
+  },
+  {
+    "page_name": "Warped Feathers",
+    "item_description": "Beautiful feather used to power the Gyrhawk Amulet, which grants additional experience for exploration.",
+    "page_name_sub": "Warped Feathers",
+    "item_weight": 0.1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Beautiful feather used to power the Gyrhawk Amulet, which grants additional experience for exploration.",
+      "weight": "0.1",
+      "image": "[[File:Warped Feathers.png|32px]]",
+      "name": "Warped Feathers",
+      "item_type": "Basic Material",
+      "stacklimit": "99",
+      "image_raw": "Warped Feathers.png"
+    },
+    "item_type": "Basic Material",
+    "item_name": "Warped Feathers"
+  },
+  {
+    "page_name": "Gyrhawk Amulet",
+    "page_name_sub": "Gyrhawk Amulet",
+    "item_weight": 2,
+    "item_stacklimit": 1,
+    "json": {
+      "weight": "2.0",
+      "image": "[[File:Gyrhawk Amulet.png|32px]]",
+      "name": "Gyrhawk Amulet",
+      "item_type": "Trinket",
+      "stacklimit": "1",
+      "image_raw": "Gyrhawk Amulet.png"
+    },
+    "item_type": "Trinket",
+    "item_name": "Gyrhawk Amulet"
+  },
+  {
+    "page_name": "Gold Leaf",
+    "item_description": "A thin sheet of brilliant gold, can be used for demonstrating your prowess, potion making or even recycling into gold bars.",
+    "page_name_sub": "Gold Leaf",
+    "item_weight": 0.1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A thin sheet of brilliant gold, can be used for demonstrating your prowess, potion making or even recycling into gold bars.",
+      "weight": "0.1",
+      "image": "[[File:Gold Leaf.png|32px]]",
+      "name": "Gold Leaf",
+      "item_type": "Component",
+      "stacklimit": "99",
+      "image_raw": "Gold Leaf.png"
+    },
+    "item_type": "Component",
+    "item_name": "Gold Leaf"
+  },
+  {
+    "page_name": "Silver Leaf",
+    "item_description": "A thin sheet of finest silver, can be used for demonstrating your prowess, potion making or even recycling into silver bars.",
+    "page_name_sub": "Silver Leaf",
+    "item_weight": 0.1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A thin sheet of finest silver, can be used for demonstrating your prowess, potion making or even recycling into silver bars.",
+      "weight": "0.1",
+      "image": "[[File:Silver Leaf.png|32px]]",
+      "name": "Silver Leaf",
+      "item_type": "Component",
+      "stacklimit": "99",
+      "image_raw": "Silver Leaf.png"
+    },
+    "item_type": "Component",
+    "item_name": "Silver Leaf"
+  },
+  {
+    "page_name": "Bronze Leaf",
+    "item_description": "A thin sheet of purest bronze, can be used for demonstrating your prowess, potion making or even recycling into bronze bars.",
+    "page_name_sub": "Bronze Leaf",
+    "item_weight": 0.1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A thin sheet of purest bronze, can be used for demonstrating your prowess, potion making or even recycling into bronze bars.",
+      "weight": "0.1",
+      "image": "[[File:Bronze Leaf.png|32px]]",
+      "name": "Bronze Leaf",
+      "item_type": "Component",
+      "stacklimit": "99",
+      "image_raw": "Bronze Leaf.png"
+    },
+    "item_type": "Component",
+    "item_name": "Bronze Leaf"
+  },
+  {
+    "page_name": "Reward Pack: Brynmoor Gold",
+    "item_description": "A reward for finishing Brynmoor Agility Course with a gold medal.",
+    "page_name_sub": "Reward Pack: Brynmoor Gold",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Brynmoor Agility Course with a gold medal.",
+      "weight": "1",
+      "image": "[[File:Reward Pack: Brynmoor Gold.png|32px]]",
+      "name": "Reward Pack: Brynmoor Gold",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Brynmoor Gold.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Brynmoor Gold"
+  },
+  {
+    "page_name": "Stamina Potion",
+    "item_description": "Consuming a stamina potion will prevent all loss of stamina for a short duration, however you'll need a moment to recover before you have another as such unbridled energy is taxing on the body.",
+    "page_name_sub": "Stamina Potion",
+    "item_weight": 1,
+    "item_stacklimit": 50,
+    "json": {
+      "description": "Consuming a stamina potion will prevent all loss of stamina for a short duration, however you'll need a moment to recover before you have another as such unbridled energy is taxing on the body.",
+      "duration": "20 seconds",
+      "weight": "1.0",
+      "image": "[[File:Stamina Potion.png|32px]]",
+      "name": "Stamina Potion",
+      "item_type": "Potion",
+      "stacklimit": "50",
+      "image_raw": "Stamina Potion.png"
+    },
+    "item_type": "Potion",
+    "item_name": "Stamina Potion"
+  },
+  {
+    "page_name": "Gilded Gyrhawk Amulet",
+    "page_name_sub": "Gilded Gyrhawk Amulet",
+    "item_weight": 2,
+    "item_stacklimit": 1,
+    "json": {
+      "weight": "2.0",
+      "image": "[[File:Gilded Gyrhawk Amulet.png|32px]]",
+      "name": "Gilded Gyrhawk Amulet",
+      "item_type": "Trinket",
+      "stacklimit": "1",
+      "image_raw": "Gilded Gyrhawk Amulet.png"
+    },
+    "item_type": "Trinket",
+    "item_name": "Gilded Gyrhawk Amulet"
+  },
+  {
+    "page_name": "Inspiring Ring of Agility",
+    "page_name_sub": "Inspiring Ring of Agility",
+    "item_weight": 1,
+    "item_stacklimit": 1,
+    "json": {
+      "weight": "1.0",
+      "image": "[[File:Inspiring Ring of Agility.png|32px]]",
+      "name": "Inspiring Ring of Agility",
+      "item_type": "Trinket",
+      "stacklimit": "1",
+      "image_raw": "Inspiring Ring of Agility.png"
+    },
+    "item_type": "Trinket",
+    "item_name": "Inspiring Ring of Agility"
+  },
+  {
+    "page_name": "Reward Pack: Ghornfell Gold",
+    "item_description": "A reward for finishing Ghornfell Agility Course with a gold medal.",
+    "page_name_sub": "Reward Pack: Ghornfell Gold",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Ghornfell Agility Course with a gold medal.",
+      "weight": "1.0",
+      "image": "[[File:Reward Pack: Ghornfell Gold.png|32px]]",
+      "name": "Reward Pack: Ghornfell Gold",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Ghornfell Gold.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Ghornfell Gold"
+  },
+  {
+    "page_name": "Unyielding Obsidian Construct",
+    "item_description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+    "page_name_sub": "Unyielding Obsidian Construct",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
+      "weight": "1.0",
+      "image": "[[File:Unyielding Obsidian Construct.png|32px]]",
+      "name": "Unyielding Obsidian Construct",
+      "item_type": "Vestige",
+      "stacklimit": "99",
+      "image_raw": "Unyielding Obsidian Construct.png"
+    },
+    "item_type": "Vestige",
+    "item_name": "Unyielding Obsidian Construct"
   }
 ]
