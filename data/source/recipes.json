@@ -73692,7 +73692,7 @@
   },
   {
     "json": {
-      "recipe": "",
+      "recipe": "Shred of Sunbleached Weave",
       "facility": "Armour Bench",
       "materials": [],
       "skills": [],
@@ -73712,7 +73712,7 @@
       "Armour Bench"
     ],
     "uses_recipe": [
-      ""
+      "Shred of Sunbleached Weave"
     ],
     "output": [
       "Umbral Sands Cape"
@@ -75640,6 +75640,59 @@
     ],
     "output": [
       "Stamina Potion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Gyrhawk Amulet",
+      "Gold Leaf"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Gyrhawk Amulet",
+          "link": "Gyrhawk Amulet",
+          "qty": "1",
+          "item": "Gyrhawk Amulet",
+          "image": "[[File:Gyrhawk Amulet.png|30px|link=Gyrhawk Amulet]]"
+        },
+        {
+          "quantity": "20",
+          "name": "Gold Leaf",
+          "link": "Gold Leaf",
+          "qty": "20",
+          "item": "Gold Leaf",
+          "image": "[[File:Gold Leaf.png|30px|link=Gold Leaf]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Gilded Gyrhawk Amulet"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Gilded Gyrhawk Amulet",
+        "link": "Gilded Gyrhawk Amulet",
+        "qty": 1,
+        "item": "Gilded Gyrhawk Amulet",
+        "image": "[[File:Gilded Gyrhawk Amulet.png|30px|link=Gilded Gyrhawk Amulet]]"
+      }
+    },
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "output": [
+      "Gilded Gyrhawk Amulet"
     ]
   },
   {

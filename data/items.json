@@ -56781,7 +56781,7 @@
           "skills": []
         },
         "usesRecipe": [
-          ""
+          "Shred of Sunbleached Weave"
         ]
       }
     ],
@@ -58390,6 +58390,53 @@
     "weight": 1,
     "itemType": "Potion",
     "stackLimit": 50
+  },
+  {
+    "id": "gilded-gyrhawk-amulet",
+    "name": "Gilded Gyrhawk Amulet",
+    "image": "Gilded Gyrhawk Amulet.png",
+    "variants": [
+      {
+        "id": "cdfae77b6927",
+        "name": "Gilded Gyrhawk Amulet",
+        "image": "Gilded Gyrhawk Amulet.png",
+        "variantName": null,
+        "recipe": {
+          "id": "208654a42f50",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "gold-leaf",
+              "quantity": 20
+            },
+            {
+              "itemId": "gyrhawk-amulet",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Gilded_Gyrhawk_Amulet",
+    "weight": 2,
+    "itemType": "Trinket",
+    "stackLimit": 1
   },
   {
     "id": "inspiring-ring-of-agility",
@@ -70291,7 +70338,7 @@
     "wikiLink": "Avantoe_Seeds",
     "weight": 0.2,
     "itemType": "Seed",
-    "stackLimit": 999
+    "stackLimit": 99
   },
   {
     "id": "amylase-crystal",
@@ -70420,27 +70467,6 @@
     "stackLimit": 99
   },
   {
-    "id": "gilded-gyrhawk-amulet",
-    "name": "Gilded Gyrhawk Amulet",
-    "image": "Gilded Gyrhawk Amulet.png",
-    "variants": [
-      {
-        "id": "gilded-gyrhawk-amulet",
-        "name": "Gilded Gyrhawk Amulet",
-        "image": "Gilded Gyrhawk Amulet.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Gilded_Gyrhawk_Amulet",
-    "weight": 2,
-    "itemType": "Trinket",
-    "stackLimit": 1
-  },
-  {
     "id": "reward-pack-ghornfell-gold",
     "name": "Reward Pack: Ghornfell Gold",
     "image": "Reward Pack: Ghornfell Gold.png",
@@ -70479,6 +70505,300 @@
     "facilities": [],
     "wikiLink": "Unyielding_Obsidian_Construct",
     "weight": 1,
+    "itemType": "Vestige",
+    "stackLimit": 99
+  },
+  {
+    "id": "reward-pack-brynmoor-bronze",
+    "name": "Reward Pack: Brynmoor Bronze",
+    "image": "Reward Pack: Brynmoor Bronze.png",
+    "variants": [
+      {
+        "id": "reward-pack-brynmoor-bronze",
+        "name": "Reward Pack: Brynmoor Bronze",
+        "image": "Reward Pack: Brynmoor Bronze.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Brynmoor_Bronze",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "reward-pack-brynmoor-silver",
+    "name": "Reward Pack: Brynmoor Silver",
+    "image": "Reward Pack: Brynmoor Silver.png",
+    "variants": [
+      {
+        "id": "reward-pack-brynmoor-silver",
+        "name": "Reward Pack: Brynmoor Silver",
+        "image": "Reward Pack: Brynmoor Silver.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Brynmoor_Silver",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "reward-pack-dowdun-reach-bronze",
+    "name": "Reward Pack: Dowdun Reach Bronze",
+    "image": "Reward Pack: Dowdun Reach Bronze.png",
+    "variants": [
+      {
+        "id": "reward-pack-dowdun-reach-bronze",
+        "name": "Reward Pack: Dowdun Reach Bronze",
+        "image": "Reward Pack: Dowdun Reach Bronze.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Dowdun_Reach_Bronze",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "reward-pack-dowdun-reach-gold",
+    "name": "Reward Pack: Dowdun Reach Gold",
+    "image": "Reward Pack: Dowdun Reach Gold.png",
+    "variants": [
+      {
+        "id": "reward-pack-dowdun-reach-gold",
+        "name": "Reward Pack: Dowdun Reach Gold",
+        "image": "Reward Pack: Dowdun Reach Gold.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Dowdun_Reach_Gold",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "reward-pack-dowdun-reach-silver",
+    "name": "Reward Pack: Dowdun Reach Silver",
+    "image": "Reward Pack: Dowdun Reach Silver.png",
+    "variants": [
+      {
+        "id": "reward-pack-dowdun-reach-silver",
+        "name": "Reward Pack: Dowdun Reach Silver",
+        "image": "Reward Pack: Dowdun Reach Silver.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Dowdun_Reach_Silver",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "reward-pack-fellhollow-bronze",
+    "name": "Reward Pack: Fellhollow Bronze",
+    "image": "Reward Pack: Fellhollow Bronze.png",
+    "variants": [
+      {
+        "id": "reward-pack-fellhollow-bronze",
+        "name": "Reward Pack: Fellhollow Bronze",
+        "image": "Reward Pack: Fellhollow Bronze.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Fellhollow_Bronze",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "reward-pack-fellhollow-gold",
+    "name": "Reward Pack: Fellhollow Gold",
+    "image": "Reward Pack: Fellhollow Gold.png",
+    "variants": [
+      {
+        "id": "reward-pack-fellhollow-gold",
+        "name": "Reward Pack: Fellhollow Gold",
+        "image": "Reward Pack: Fellhollow Gold.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Fellhollow_Gold",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "reward-pack-fellhollow-silver",
+    "name": "Reward Pack: Fellhollow Silver",
+    "image": "Reward Pack: Fellhollow Silver.png",
+    "variants": [
+      {
+        "id": "reward-pack-fellhollow-silver",
+        "name": "Reward Pack: Fellhollow Silver",
+        "image": "Reward Pack: Fellhollow Silver.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Fellhollow_Silver",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "reward-pack-ghornfell-bronze",
+    "name": "Reward Pack: Ghornfell Bronze",
+    "image": "Reward Pack: Ghornfell Bronze.png",
+    "variants": [
+      {
+        "id": "reward-pack-ghornfell-bronze",
+        "name": "Reward Pack: Ghornfell Bronze",
+        "image": "Reward Pack: Ghornfell Bronze.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Ghornfell_Bronze",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "reward-pack-ghornfell-silver",
+    "name": "Reward Pack: Ghornfell Silver",
+    "image": "Reward Pack: Ghornfell Silver.png",
+    "variants": [
+      {
+        "id": "reward-pack-ghornfell-silver",
+        "name": "Reward Pack: Ghornfell Silver",
+        "image": "Reward Pack: Ghornfell Silver.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Ghornfell_Silver",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "reward-pack-umbral-sands-bronze",
+    "name": "Reward Pack: Umbral Sands Bronze",
+    "image": "Reward Pack: Umbral Sands Bronze.png",
+    "variants": [
+      {
+        "id": "reward-pack-umbral-sands-bronze",
+        "name": "Reward Pack: Umbral Sands Bronze",
+        "image": "Reward Pack: Umbral Sands Bronze.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Umbral_Sands_Bronze",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "reward-pack-umbral-sands-gold",
+    "name": "Reward Pack: Umbral Sands Gold",
+    "image": "Reward Pack: Umbral Sands Gold.png",
+    "variants": [
+      {
+        "id": "reward-pack-umbral-sands-gold",
+        "name": "Reward Pack: Umbral Sands Gold",
+        "image": "Reward Pack: Umbral Sands Gold.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Umbral_Sands_Gold",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "reward-pack-umbral-sands-silver",
+    "name": "Reward Pack: Umbral Sands Silver",
+    "image": "Reward Pack: Umbral Sands Silver.png",
+    "variants": [
+      {
+        "id": "reward-pack-umbral-sands-silver",
+        "name": "Reward Pack: Umbral Sands Silver",
+        "image": "Reward Pack: Umbral Sands Silver.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Reward_Pack:_Umbral_Sands_Silver",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 99
+  },
+  {
+    "id": "shred-of-sunbleached-weave",
+    "name": "Shred of Sunbleached Weave",
+    "image": "Shred of Sunbleached Weave.png",
+    "variants": [
+      {
+        "id": "shred-of-sunbleached-weave",
+        "name": "Shred of Sunbleached Weave",
+        "image": "Shred of Sunbleached Weave.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Shred_of_Sunbleached_Weave",
+    "weight": 0,
     "itemType": "Vestige",
     "stackLimit": 99
   }
