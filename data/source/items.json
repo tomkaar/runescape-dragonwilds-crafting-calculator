@@ -20893,11 +20893,11 @@
   {
     "page_name": "Umbral Sands Cape",
     "page_name_sub": "Umbral Sands Cape",
-    "item_description": "?",
+    "item_description": "A light desert cape designed to shield against sun and sand. Offers comfort during long journeys across the dunes.",
     "item_type": "Armour",
     "item_name": "Umbral Sands Cape",
     "json": {
-      "description": "?",
+      "description": "A light desert cape designed to shield against sun and sand. Offers comfort during long journeys across the dunes.",
       "weight": "0.0",
       "image": "[[File:Umbral Sands Cape.png|32px]]",
       "name": "Umbral Sands Cape",
@@ -22166,17 +22166,17 @@
   },
   {
     "page_name": "Avantoe Seeds",
-    "item_description": "Avantoe seeds. Equip and use them to scatter these into a farming plot and start growing!",
+    "item_description": "Equip and use these seeds to scatter them in a farming plot and start growing!<br><br>Best planted in Fellhollow plots.",
     "page_name_sub": "Avantoe Seeds",
     "item_weight": 0.2,
-    "item_stacklimit": 999,
+    "item_stacklimit": 99,
     "json": {
-      "description": "Avantoe seeds. Equip and use them to scatter these into a farming plot and start growing!",
+      "description": "Equip and use these seeds to scatter them in a farming plot and start growing!<br><br>Best planted in Fellhollow plots.",
       "weight": "0.2",
       "image": "[[File:Avantoe Seeds.png|32px]]",
       "name": "Avantoe Seeds",
       "item_type": "Seed",
-      "stacklimit": "999",
+      "stacklimit": "99",
       "image_raw": "Avantoe Seeds.png"
     },
     "item_type": "Seed",
@@ -22327,10 +22327,12 @@
   },
   {
     "page_name": "Gilded Gyrhawk Amulet",
+    "item_description": "While wearing this amulet, Warped Feathers are consumed to award additional XP while exploring the world. Additionally increases the amount of experience gained from courses.",
     "page_name_sub": "Gilded Gyrhawk Amulet",
     "item_weight": 2,
     "item_stacklimit": 1,
     "json": {
+      "description": "While wearing this amulet, Warped Feathers are consumed to award additional XP while exploring the world. Additionally increases the amount of experience gained from courses.",
       "weight": "2.0",
       "image": "[[File:Gilded Gyrhawk Amulet.png|32px]]",
       "name": "Gilded Gyrhawk Amulet",
@@ -22392,5 +22394,257 @@
     },
     "item_type": "Vestige",
     "item_name": "Unyielding Obsidian Construct"
+  },
+  {
+    "page_name": "Reward Pack: Brynmoor Bronze",
+    "item_description": "A reward for finishing Brynmoor Agility Course with a bronze medal.",
+    "page_name_sub": "Reward Pack: Brynmoor Bronze",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Brynmoor Agility Course with a bronze medal.",
+      "weight": "1",
+      "image": "[[File:Reward Pack: Brynmoor Bronze.png|32px]]",
+      "name": "Reward Pack: Brynmoor Bronze",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Brynmoor Bronze.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Brynmoor Bronze"
+  },
+  {
+    "page_name": "Reward Pack: Brynmoor Silver",
+    "item_description": "A reward for finishing Brynmoor Agility Course with a silver medal.",
+    "page_name_sub": "Reward Pack: Brynmoor Silver",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Brynmoor Agility Course with a silver medal.",
+      "weight": "1",
+      "image": "[[File:Reward Pack: Brynmoor Silver.png|32px]]",
+      "name": "Reward Pack: Brynmoor Silver",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Brynmoor Silver.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Brynmoor Silver"
+  },
+  {
+    "page_name": "Reward Pack: Dowdun Reach Bronze",
+    "item_description": "A reward for finishing Dowdun Reach Agility Course with a bronze medal.",
+    "page_name_sub": "Reward Pack: Dowdun Reach Bronze",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Dowdun Reach Agility Course with a bronze medal.",
+      "weight": "1",
+      "image": "[[File:Reward Pack: Dowdun Reach Bronze.png|32px]]",
+      "name": "Reward Pack: Dowdun Reach Bronze",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Dowdun Reach Bronze.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Dowdun Reach Bronze"
+  },
+  {
+    "page_name": "Reward Pack: Dowdun Reach Gold",
+    "item_description": "A reward for finishing Dowdun Reach Agility Course with a gold medal.",
+    "page_name_sub": "Reward Pack: Dowdun Reach Gold",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Dowdun Reach Agility Course with a gold medal.",
+      "weight": "1",
+      "image": "[[File:Reward Pack: Dowdun Reach Gold.png|32px]]",
+      "name": "Reward Pack: Dowdun Reach Gold",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Dowdun Reach Gold.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Dowdun Reach Gold"
+  },
+  {
+    "page_name": "Reward Pack: Dowdun Reach Silver",
+    "item_description": "A reward for finishing Dowdun Reach Agility Course with a silver medal.",
+    "page_name_sub": "Reward Pack: Dowdun Reach Silver",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Dowdun Reach Agility Course with a silver medal.",
+      "weight": "1",
+      "image": "[[File:Reward Pack: Dowdun Reach Silver.png|32px]]",
+      "name": "Reward Pack: Dowdun Reach Silver",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Dowdun Reach Silver.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Dowdun Reach Silver"
+  },
+  {
+    "page_name": "Reward Pack: Fellhollow Bronze",
+    "item_description": "A reward for finishing Fellhollow Agility Course with a bronze medal.",
+    "page_name_sub": "Reward Pack: Fellhollow Bronze",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Fellhollow Agility Course with a bronze medal.",
+      "weight": "1",
+      "image": "[[File:Reward Pack: Fellhollow Bronze.png|32px]]",
+      "name": "Reward Pack: Fellhollow Bronze",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Fellhollow Bronze.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Fellhollow Bronze"
+  },
+  {
+    "page_name": "Reward Pack: Fellhollow Gold",
+    "item_description": "A reward for finishing Fellhollow Agility Course with a gold medal.",
+    "page_name_sub": "Reward Pack: Fellhollow Gold",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Fellhollow Agility Course with a gold medal.",
+      "weight": "1",
+      "image": "[[File:Reward Pack: Fellhollow Gold.png|32px]]",
+      "name": "Reward Pack: Fellhollow Gold",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Fellhollow Gold.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Fellhollow Gold"
+  },
+  {
+    "page_name": "Reward Pack: Fellhollow Silver",
+    "item_description": "A reward for finishing Fellhollow Agility Course with a silver medal.",
+    "page_name_sub": "Reward Pack: Fellhollow Silver",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Fellhollow Agility Course with a silver medal.",
+      "weight": "1",
+      "image": "[[File:Reward Pack: Fellhollow Silver.png|32px]]",
+      "name": "Reward Pack: Fellhollow Silver",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Fellhollow Silver.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Fellhollow Silver"
+  },
+  {
+    "page_name": "Reward Pack: Ghornfell Bronze",
+    "item_description": "A reward for finishing Ghornfell Agility Course with a bronze medal.",
+    "page_name_sub": "Reward Pack: Ghornfell Bronze",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Ghornfell Agility Course with a bronze medal.",
+      "weight": "1.0",
+      "image": "[[File:Reward Pack: Ghornfell Bronze.png|32px]]",
+      "name": "Reward Pack: Ghornfell Bronze",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Ghornfell Bronze.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Ghornfell Bronze"
+  },
+  {
+    "page_name": "Reward Pack: Ghornfell Silver",
+    "item_description": "A reward for finishing Ghornfell Agility Course with a silver medal.",
+    "page_name_sub": "Reward Pack: Ghornfell Silver",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Ghornfell Agility Course with a silver medal.",
+      "weight": "1.0",
+      "image": "[[File:Reward Pack: Ghornfell Silver.png|32px]]",
+      "name": "Reward Pack: Ghornfell Silver",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Ghornfell Silver.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Ghornfell Silver"
+  },
+  {
+    "page_name": "Reward Pack: Umbral Sands Bronze",
+    "item_description": "A reward for finishing Umbral Sands Agility Course with a bronze medal.",
+    "page_name_sub": "Reward Pack: Umbral Sands Bronze",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Umbral Sands Agility Course with a bronze medal.",
+      "weight": "1",
+      "image": "[[File:Reward Pack: Umbral Sands Bronze.png|32px]]",
+      "name": "Reward Pack: Umbral Sands Bronze",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Umbral Sands Bronze.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Umbral Sands Bronze"
+  },
+  {
+    "page_name": "Reward Pack: Umbral Sands Gold",
+    "item_description": "A reward for finishing Umbral Sands Agility Course with a gold medal.",
+    "page_name_sub": "Reward Pack: Umbral Sands Gold",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Umbral Sands Agility Course with a gold medal.",
+      "weight": "1",
+      "image": "[[File:Reward Pack: Umbral Sands Gold.png|32px]]",
+      "name": "Reward Pack: Umbral Sands Gold",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Umbral Sands Gold.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Umbral Sands Gold"
+  },
+  {
+    "page_name": "Reward Pack: Umbral Sands Silver",
+    "item_description": "A reward for finishing Umbral Sands Agility Course with a silver medal.",
+    "page_name_sub": "Reward Pack: Umbral Sands Silver",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A reward for finishing Umbral Sands Agility Course with a silver medal.",
+      "weight": "1",
+      "image": "[[File:Reward Pack: Umbral Sands Silver.png|32px]]",
+      "name": "Reward Pack: Umbral Sands Silver",
+      "item_type": "Container",
+      "stacklimit": "99",
+      "image_raw": "Reward Pack: Umbral Sands Silver.png"
+    },
+    "item_type": "Container",
+    "item_name": "Reward Pack: Umbral Sands Silver"
+  },
+  {
+    "page_name": "Shred of Sunbleached Weave",
+    "item_description": "Perhaps you could learn from it",
+    "page_name_sub": "Shred of Sunbleached Weave",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Perhaps you could learn from it",
+      "weight": "0.0",
+      "image": "[[File:Shred of Sunbleached Weave.png|32px]]",
+      "name": "Shred of Sunbleached Weave",
+      "item_type": "Vestige",
+      "stacklimit": "99",
+      "image_raw": "Shred of Sunbleached Weave.png"
+    },
+    "item_type": "Vestige",
+    "item_name": "Shred of Sunbleached Weave"
   }
 ]
