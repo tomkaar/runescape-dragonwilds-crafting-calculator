@@ -75765,5 +75765,67 @@
     "output": [
       "Inspiring Ring of Agility"
     ]
+  },
+  {
+    "uses_material": [
+      "Oak Logs",
+      "Padded Cloth",
+      "Warped Feathers"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Oak Logs",
+          "link": "Oak Logs",
+          "qty": 1,
+          "item": "Oak Logs",
+          "image": "[[File:Oak Logs.png|30px|link=Oak Logs]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": 1,
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Warped Feathers",
+          "link": "Warped Feathers",
+          "qty": 1,
+          "item": "Warped Feathers",
+          "image": "[[File:Warped Feathers.png|30px|link=Warped Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "60"
+        }
+      ],
+      "outputs": [
+        "Agility Flag"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Agility Flag",
+        "link": "Agility Flag",
+        "qty": 1,
+        "item": "Agility Flag",
+        "image": "[[File:Agility Flag.png|30px|link=Agility Flag]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Agility Flag"
+    ]
   }
 ]
