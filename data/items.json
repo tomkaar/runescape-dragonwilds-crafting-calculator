@@ -58494,6 +58494,54 @@
     "stackLimit": 1
   },
   {
+    "id": "agility-flag",
+    "name": "Agility Flag",
+    "image": "Agility Flag.png",
+    "variants": [
+      {
+        "id": "910f97d3ac63",
+        "name": "Agility Flag",
+        "image": "Agility Flag.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d3e151fa2dac",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "oak-logs",
+              "quantity": 1
+            },
+            {
+              "itemId": "padded-cloth",
+              "quantity": 1
+            },
+            {
+              "itemId": "warped-feathers",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 60
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Agility_Flag"
+  },
+  {
     "id": "goblin-pack",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -60251,13 +60299,13 @@
     "stackLimit": 99
   },
   {
-    "id": "draconic-visage",
-    "name": "Draconic Visage",
+    "id": "noxious-draconic-visage",
+    "name": "Noxious Draconic Visage",
     "image": "Draconic Visage.png",
     "variants": [
       {
-        "id": "draconic-visage",
-        "name": "Draconic Visage",
+        "id": "noxious-draconic-visage",
+        "name": "Noxious Draconic Visage",
         "image": "Draconic Visage.png",
         "variantName": null,
         "recipe": null,
@@ -60266,7 +60314,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Draconic_Visage",
+    "wikiLink": "Noxious_Draconic_Visage",
     "weight": 0.5,
     "itemType": "Quest Item"
   },

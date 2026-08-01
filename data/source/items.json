@@ -663,7 +663,7 @@
     "item_stacklimit": 99,
     "json": {
       "description": "A mysterious porous rock used as a base for powerful runes.",
-      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000002-QINU`\"'",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
       "item_type": "Basic Item",
@@ -4547,16 +4547,16 @@
     "item_name": "Ash Plank"
   },
   {
-    "page_name": "Draconic Visage",
-    "page_name_sub": "Draconic Visage",
+    "page_name": "Noxious Draconic Visage",
+    "page_name_sub": "Noxious Draconic Visage",
     "item_description": "Dragon Visage",
     "item_type": "Quest Item",
-    "item_name": "Draconic Visage",
+    "item_name": "Noxious Draconic Visage",
     "json": {
       "description": "Dragon Visage",
       "weight": "0.5",
       "image": "[[File:Draconic Visage.png|32px]]",
-      "name": "Draconic Visage",
+      "name": "Noxious Draconic Visage",
       "item_type": "Quest Item",
       "image_raw": "Draconic Visage.png"
     },
