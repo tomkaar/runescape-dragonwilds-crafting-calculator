@@ -67531,12 +67531,12 @@
   {
     "id": "coclear-malificarum",
     "name": "Coclear Malificarum",
-    "image": "Placeholder.png",
+    "image": "Coclear Malificarum.png",
     "variants": [
       {
         "id": "coclear-malificarum",
         "name": "Coclear Malificarum",
-        "image": "Placeholder.png",
+        "image": "Coclear Malificarum.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -67547,7 +67547,7 @@
     "wikiLink": "Coclear_Malificarum",
     "weight": 0,
     "itemType": "Quest Item",
-    "stackLimit": 0
+    "stackLimit": 99
   },
   {
     "id": "eventide-a-new-spawn",
