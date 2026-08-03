@@ -75827,5 +75827,67 @@
     "output": [
       "Agility Flag"
     ]
+  },
+  {
+    "uses_material": [
+      "Wild Anima",
+      "Warped Feathers",
+      "Air Rune"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": "1",
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Warped Feathers",
+          "link": "Warped Feathers",
+          "qty": "1",
+          "item": "Warped Feathers",
+          "image": "[[File:Warped Feathers.png|30px|link=Warped Feathers]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Air Rune",
+          "link": "Air Rune",
+          "qty": "1",
+          "item": "Air Rune",
+          "image": "[[File:Air Rune.png|30px|link=Air Rune]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Agility Orb"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Agility Orb",
+        "link": "Agility Orb",
+        "qty": "1",
+        "item": "Agility Orb",
+        "image": "[[File:Agility Orb.png|30px|link=Agility Orb]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Agility Orb"
+    ]
   }
 ]

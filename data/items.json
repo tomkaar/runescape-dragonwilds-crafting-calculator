@@ -58542,6 +58542,54 @@
     "wikiLink": "Agility_Flag"
   },
   {
+    "id": "agility-orb",
+    "name": "Agility Orb",
+    "image": "Agility Orb.png",
+    "variants": [
+      {
+        "id": "8d99865fb7b3",
+        "name": "Agility Orb",
+        "image": "Agility Orb.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d5a37e622cf5",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "air-rune",
+              "quantity": 1
+            },
+            {
+              "itemId": "warped-feathers",
+              "quantity": 1
+            },
+            {
+              "itemId": "wild-anima",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Agility_Orb"
+  },
+  {
     "id": "goblin-pack",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
