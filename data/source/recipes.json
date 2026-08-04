@@ -3994,6 +3994,50 @@
   },
   {
     "uses_material": [
+      "Bronze Leaf"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blast Furnace",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Bronze Leaf",
+          "link": "Bronze Leaf",
+          "qty": "10",
+          "item": "Bronze Leaf",
+          "image": "[[File:Bronze Leaf.png|30px|link=Bronze Leaf]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Bronze Bar"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Bronze Bar",
+        "link": "Bronze Bar",
+        "qty": "1",
+        "item": "Bronze Bar",
+        "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
+      }
+    },
+    "uses_facility": [
+      "Blast Furnace"
+    ],
+    "output": [
+      "Bronze Bar"
+    ]
+  },
+  {
+    "uses_material": [
       "Fleece"
     ],
     "uses_skill": [
@@ -5850,6 +5894,50 @@
     },
     "uses_facility": [
       "Furnace"
+    ],
+    "output": [
+      "Gold Bar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Gold Leaf"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blast Furnace",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Gold Leaf",
+          "link": "Gold Leaf",
+          "qty": "10",
+          "item": "Gold Leaf",
+          "image": "[[File:Gold Leaf.png|30px|link=Gold Leaf]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "16"
+        }
+      ],
+      "outputs": [
+        "Gold Bar"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Gold Bar",
+        "link": "Gold Bar",
+        "qty": 1,
+        "item": "Gold Bar",
+        "image": "[[File:Gold Bar.png|30px|link=Gold Bar]]"
+      }
+    },
+    "uses_facility": [
+      "Blast Furnace"
     ],
     "output": [
       "Gold Bar"
@@ -9211,6 +9299,50 @@
     },
     "uses_facility": [
       "Furnace"
+    ],
+    "output": [
+      "Silver Bar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Silver Leaf"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blast Furnace",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Silver Leaf",
+          "link": "Silver Leaf",
+          "qty": "10",
+          "item": "Silver Leaf",
+          "image": "[[File:Silver Leaf.png|30px|link=Silver Leaf]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Silver Bar"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Silver Bar",
+        "link": "Silver Bar",
+        "qty": "1",
+        "item": "Silver Bar",
+        "image": "[[File:Silver Bar.png|30px|link=Silver Bar]]"
+      }
+    },
+    "uses_facility": [
+      "Blast Furnace"
     ],
     "output": [
       "Silver Bar"
@@ -54639,6 +54771,51 @@
     ],
     "uses_recipe": [
       "Torn Tapestry"
+    ],
+    "output": [
+      "Dowdun Reach Cape"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Dowdun Reach Cape",
+          "link": "Dowdun Reach Cape",
+          "qty": 1,
+          "item": "Dowdun Reach Cape",
+          "image": "[[File:Dowdun Reach Cape.png|30px|link=Dowdun Reach Cape]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Gold Leaf",
+          "link": "Gold Leaf",
+          "qty": "5",
+          "item": "Gold Leaf",
+          "image": "[[File:Gold Leaf.png|30px|link=Gold Leaf]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Dowdun Reach Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Dowdun Reach Cape",
+        "link": "Dowdun Reach Cape",
+        "qty": 1,
+        "item": "Dowdun Reach Cape",
+        "image": "[[File:Dowdun Reach Cape (gilded).png|30px|link=Dowdun Reach Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "uses_material": [
+      "Dowdun Reach Cape",
+      "Gold Leaf"
     ],
     "output": [
       "Dowdun Reach Cape"
