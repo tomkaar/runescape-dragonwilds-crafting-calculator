@@ -3017,13 +3017,40 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "5923ce0cf385",
+        "name": "Bronze Bar",
+        "image": "Bronze Bar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e16f50584394",
+          "facilities": [
+            "Blast Furnace"
+          ],
+          "materials": [
+            {
+              "itemId": "bronze-leaf",
+              "quantity": 10
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 10
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
       "Artisan"
     ],
     "facilities": [
-      "Furnace"
+      "Furnace",
+      "Blast Furnace"
     ],
     "wikiLink": "Bronze_Bar",
     "weight": 4.5,
@@ -4524,13 +4551,40 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "e10020a39860",
+        "name": "Gold Bar",
+        "image": "Gold Bar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a0b702db58db",
+          "facilities": [
+            "Blast Furnace"
+          ],
+          "materials": [
+            {
+              "itemId": "gold-leaf",
+              "quantity": 10
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 16
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
       "Artisan"
     ],
     "facilities": [
-      "Furnace"
+      "Furnace",
+      "Blast Furnace"
     ],
     "wikiLink": "Gold_Bar",
     "weight": 5,
@@ -7146,13 +7200,40 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "ab0bb20e6788",
+        "name": "Silver Bar",
+        "image": "Silver Bar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9d11a331a297",
+          "facilities": [
+            "Blast Furnace"
+          ],
+          "materials": [
+            {
+              "itemId": "silver-leaf",
+              "quantity": 10
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 10
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
       "Artisan"
     ],
     "facilities": [
-      "Furnace"
+      "Furnace",
+      "Blast Furnace"
     ],
     "wikiLink": "Silver_Bar",
     "weight": 4.8,
@@ -41975,6 +42056,31 @@
         "usesRecipe": [
           "Torn Tapestry"
         ]
+      },
+      {
+        "id": "edb25ad0faa9",
+        "name": "Dowdun Reach Cape",
+        "image": "Dowdun Reach Cape (gilded).png",
+        "variantName": "gilded",
+        "recipe": {
+          "id": "c02721dfeb25",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "dowdun-reach-cape",
+              "quantity": 1
+            },
+            {
+              "itemId": "gold-leaf",
+              "quantity": 5
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -69438,6 +69544,27 @@
     "weight": 6,
     "itemType": "Tome",
     "stackLimit": 99
+  },
+  {
+    "id": "icthlarins-little-helper-reward-pack",
+    "name": "Icthlarin's Little Helper Reward Pack",
+    "image": "Icthlarin's Little Helper Reward Pack.png",
+    "variants": [
+      {
+        "id": "icthlarins-little-helper-reward-pack",
+        "name": "Icthlarin's Little Helper Reward Pack",
+        "image": "Icthlarin's Little Helper Reward Pack.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Icthlarin's_Little_Helper_Reward_Pack",
+    "weight": 1,
+    "itemType": "Container",
+    "stackLimit": 10
   },
   {
     "id": "lunate-shawl",

@@ -663,7 +663,7 @@
     "item_stacklimit": 99,
     "json": {
       "description": "A mysterious porous rock used as a base for powerful runes.",
-      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000026-QINU`\"'",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
       "item_type": "Basic Item",
@@ -14365,10 +14365,9 @@
     "json": {
       "description": "There is no better display of mastery of the Dowdun Reach area.",
       "weight": "0.0",
-      "image": "[[File:Dowdun Reach Cape.png|32px]]",
+      "image": "",
       "name": "Dowdun Reach Cape",
-      "item_type": "Armour",
-      "image_raw": "Dowdun Reach Cape.png"
+      "item_type": "Armour"
     },
     "item_weight": 0
   },
@@ -20721,18 +20720,30 @@
     "json": {
       "description": "A powerful tome containing ancient techniques of warfare. Grants a large amount of experience in the [[Attack]], [[Magic]] and [[Ranged]] skills.",
       "weight": "6.0",
-      "compostvalue": "",
-      "health": "",
       "image": "[[File:Tome of Volcano.png|32px]]",
       "name": "Tome of Volcano",
       "item_type": "Tome",
-      "sustenance": "",
-      "hydration": "",
       "stacklimit": "99",
       "image_raw": "Tome of Volcano.png"
     },
     "item_type": "Tome",
     "item_name": "Tome of Volcano"
+  },
+  {
+    "page_name": "Icthlarin's Little Helper Reward Pack",
+    "page_name_sub": "Icthlarin's Little Helper Reward Pack",
+    "item_weight": 1,
+    "item_stacklimit": 10,
+    "json": {
+      "weight": "1.0",
+      "image": "[[File:Icthlarin's Little Helper Reward Pack.png|32px]]",
+      "name": "Icthlarin's Little Helper Reward Pack",
+      "item_type": "Container",
+      "stacklimit": "10",
+      "image_raw": "Icthlarin's Little Helper Reward Pack.png"
+    },
+    "item_type": "Container",
+    "item_name": "Icthlarin's Little Helper Reward Pack"
   },
   {
     "page_name": "Lumber Backpack",
