@@ -11055,21 +11055,19 @@
   },
   {
     "page_name": "Zombie Axe",
-    "item_description": "Made in the style of an ancient axe often found in the hands of zombies, it is capable of dealing both Crush and Slash damage at the same time. There seems to be more to this axe though...",
     "page_name_sub": "Zombie Axe",
-    "item_weight": 6,
-    "item_stacklimit": 1,
+    "item_description": "Made in the style of an ancient axe often found in the hands of zombies, it is capable of dealing both Crush and Slash damage at the same time. There seems to be more to this axe though...",
+    "item_type": "Melee Weapon",
+    "item_name": "Zombie Axe",
     "json": {
       "description": "Made in the style of an ancient axe often found in the hands of zombies, it is capable of dealing both Crush and Slash damage at the same time. There seems to be more to this axe though...",
-      "weight": "6",
+      "weight": "15.0",
       "image": "[[File:Zombie Axe.png|32px]]",
       "name": "Zombie Axe",
       "item_type": "Melee Weapon",
-      "stacklimit": "1",
       "image_raw": "Zombie Axe.png"
     },
-    "item_type": "Melee Weapon",
-    "item_name": "Zombie Axe"
+    "item_weight": 15
   },
   {
     "page_name": "Rotten Farming Tool",

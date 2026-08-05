@@ -36055,9 +36055,8 @@
       "Blacksmith's Bench"
     ],
     "wikiLink": "Zombie_Axe",
-    "weight": 6,
-    "itemType": "Melee Weapon",
-    "stackLimit": 1
+    "weight": 15,
+    "itemType": "Melee Weapon"
   },
   {
     "id": "undead-spade",
