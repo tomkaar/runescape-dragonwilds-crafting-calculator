@@ -663,7 +663,7 @@
     "item_stacklimit": 99,
     "json": {
       "description": "A mysterious porous rock used as a base for powerful runes.",
-      "weight": "0.2'\"`UNIQ--ref-00000026-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
       "item_type": "Basic Item",
@@ -21747,25 +21747,19 @@
   },
   {
     "page_name": "Blue Torch",
-    "item_description": "A trusty lightsource - now in blue.",
     "page_name_sub": "Blue Torch",
-    "item_weight": 1.5,
-    "item_stacklimit": 0,
+    "item_description": "A trusty lightsource<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> - now in blue.",
+    "item_type": "Tool",
+    "item_name": "Blue Torch",
     "json": {
-      "description": "A trusty lightsource - now in blue.",
+      "description": "A trusty lightsource<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> - now in blue.",
       "weight": "1.5",
-      "compostvalue": "",
-      "health": "",
       "image": "[[File:Blue Torch.png|32px]]",
       "name": "Blue Torch",
       "item_type": "Tool",
-      "sustenance": "",
-      "hydration": "",
-      "stacklimit": "",
       "image_raw": "Blue Torch.png"
     },
-    "item_type": "Tool",
-    "item_name": "Blue Torch"
+    "item_weight": 1.5
   },
   {
     "page_name": "Extinguished Blue Remnants",
@@ -22157,12 +22151,12 @@
   },
   {
     "page_name": "Avantoe",
-    "item_description": "",
+    "item_description": "Can be used for potions.",
     "page_name_sub": "Avantoe",
     "item_weight": 0.1,
     "item_stacklimit": 99,
     "json": {
-      "description": "",
+      "description": "Can be used for potions.",
       "weight": "0.1",
       "image": "[[File:Avantoe.png|32px]]",
       "name": "Avantoe",
@@ -22655,5 +22649,23 @@
     },
     "item_type": "Vestige",
     "item_name": "Shred of Sunbleached Weave"
+  },
+  {
+    "page_name": "Tome of Fishing - Vol 1",
+    "item_description": "A book filled with knowledge about how to efficiently tire out fish. Awards a small amount of Fishing XP.",
+    "page_name_sub": "Tome of Fishing - Vol 1",
+    "item_weight": 2,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A book filled with knowledge about how to efficiently tire out fish. Awards a small amount of Fishing XP.",
+      "weight": "2.0",
+      "image": "[[File:Tome of Fishing - Vol 1.png|32px]]",
+      "name": "Tome of Fishing - Vol 1",
+      "item_type": "Consumable",
+      "stacklimit": "99",
+      "image_raw": "Tome of Fishing - Vol 1.png"
+    },
+    "item_type": "Consumable",
+    "item_name": "Tome of Fishing - Vol 1"
   }
 ]
