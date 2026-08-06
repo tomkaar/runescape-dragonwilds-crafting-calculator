@@ -56097,7 +56097,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 300
+              "experience": 40
             }
           ]
         },
@@ -57955,8 +57955,7 @@
     ],
     "wikiLink": "Blue_Torch",
     "weight": 1.5,
-    "itemType": "Tool",
-    "stackLimit": 0
+    "itemType": "Tool"
   },
   {
     "id": "green-torch",
@@ -71022,6 +71021,27 @@
     "wikiLink": "Shred_of_Sunbleached_Weave",
     "weight": 0,
     "itemType": "Vestige",
+    "stackLimit": 99
+  },
+  {
+    "id": "tome-of-fishing-vol-1",
+    "name": "Tome of Fishing - Vol 1",
+    "image": "Tome of Fishing - Vol 1.png",
+    "variants": [
+      {
+        "id": "tome-of-fishing-vol-1",
+        "name": "Tome of Fishing - Vol 1",
+        "image": "Tome of Fishing - Vol 1.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Tome_of_Fishing_-_Vol_1",
+    "weight": 2,
+    "itemType": "Consumable",
     "stackLimit": 99
   }
 ]
