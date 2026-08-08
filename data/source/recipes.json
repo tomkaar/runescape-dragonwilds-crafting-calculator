@@ -5950,7 +5950,7 @@
       "Stone"
     ],
     "uses_skill": [
-      "Construction"
+      "Artisan"
     ],
     "json": {
       "facility": "Build Menu",
@@ -5982,7 +5982,7 @@
       ],
       "skills": [
         {
-          "name": "Construction",
+          "name": "Artisan",
           "experience": "40"
         }
       ],
@@ -75828,7 +75828,7 @@
       "Artisan"
     ],
     "json": {
-      "facility": "Crafting Table",
+      "facility": "Jeweler's Bench",
       "materials": [
         {
           "quantity": "1",
@@ -75866,7 +75866,7 @@
       }
     },
     "uses_facility": [
-      "Crafting Table"
+      "Jeweler's Bench"
     ],
     "output": [
       "Gilded Gyrhawk Amulet"
