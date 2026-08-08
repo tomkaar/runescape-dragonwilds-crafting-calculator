@@ -11001,18 +11001,18 @@
   },
   {
     "page_name": "Sundering Spiked Slab",
-    "item_description": "",
+    "item_description": "Splattered with blood. Perhaps you could learn from it.",
     "page_name_sub": "Sundering Spiked Slab",
     "item_weight": 0,
     "item_stacklimit": 99,
     "json": {
-      "description": "",
+      "description": "Splattered with blood. Perhaps you could learn from it.",
       "weight": "0.0",
-      "image": "[[File:VESTIGE- Sundering Spiked Slab.png|32px]]",
+      "image": "[[File:Sundering Spiked Slab.png|32px]]",
       "name": "Sundering Spiked Slab",
       "item_type": "Vestige",
       "stacklimit": "99",
-      "image_raw": "VESTIGE- Sundering Spiked Slab.png"
+      "image_raw": "Sundering Spiked Slab.png"
     },
     "item_type": "Vestige",
     "item_name": "Sundering Spiked Slab"

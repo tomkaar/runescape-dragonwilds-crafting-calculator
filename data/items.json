@@ -4623,7 +4623,7 @@
           "quantity": 1,
           "skills": [
             {
-              "name": "Construction",
+              "name": "Artisan",
               "experience": 40
             }
           ]
@@ -4632,7 +4632,7 @@
       }
     ],
     "skills": [
-      "Construction"
+      "Artisan"
     ],
     "facilities": [
       "Build Menu"
@@ -58508,7 +58508,7 @@
         "recipe": {
           "id": "208654a42f50",
           "facilities": [
-            "Crafting Table"
+            "Jeweler's Bench"
           ],
           "materials": [
             {
@@ -58535,7 +58535,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Crafting Table"
+      "Jeweler's Bench"
     ],
     "wikiLink": "Gilded_Gyrhawk_Amulet",
     "weight": 2,
@@ -64257,12 +64257,12 @@
   {
     "id": "sundering-spiked-slab",
     "name": "Sundering Spiked Slab",
-    "image": "VESTIGE- Sundering Spiked Slab.png",
+    "image": "Sundering Spiked Slab.png",
     "variants": [
       {
         "id": "sundering-spiked-slab",
         "name": "Sundering Spiked Slab",
-        "image": "VESTIGE- Sundering Spiked Slab.png",
+        "image": "Sundering Spiked Slab.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
