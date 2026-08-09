@@ -663,7 +663,7 @@
     "item_stacklimit": 99,
     "json": {
       "description": "A mysterious porous rock used as a base for powerful runes.",
-      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000002-QINU`\"'",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
       "item_type": "Basic Item",
@@ -16293,11 +16293,11 @@
   {
     "page_name": "Bundle of Undead Twigs",
     "page_name_sub": "Bundle of Undead Twigs",
-    "item_description": "[[Manktongue]] needs these undead twigs to make [[Ava's Accumulator]]",
+    "item_description": "[[Manktongue]] needs these undead twigs to make [[Ava's accumulator]]",
     "item_type": "Quest Item",
     "item_name": "Bundle of Undead Twigs",
     "json": {
-      "description": "[[Manktongue]] needs these undead twigs to make [[Ava's Accumulator]]",
+      "description": "[[Manktongue]] needs these undead twigs to make [[Ava's accumulator]]",
       "weight": "0.0",
       "image": "[[File:Bundle of Undead Twigs.png|32px]]",
       "name": "Bundle of Undead Twigs",
