@@ -13823,6 +13823,210 @@
   },
   {
     "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "2",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "2",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "1",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Small Square Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Small Square Tile",
+        "link": "Small Square Tile",
+        "qty": 1,
+        "item": "Small Square Tile",
+        "image": "[[File:Small Square Tile (Kharidian).png|30px|link=Small Square Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Small Square Tile"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank",
+      "Redberries"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "2",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "2",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "1",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "1",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Small Square Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Small Square Tile",
+        "link": "Small Square Tile",
+        "qty": 1,
+        "item": "Small Square Tile",
+        "image": "[[File:Small Square Tile (Kharidian) (Red).png|30px|link=Small Square Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Small Square Tile"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank",
+      "Flax"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "2",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "2",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "1",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Flax",
+          "link": "Flax",
+          "qty": "1",
+          "item": "Flax",
+          "image": "[[File:Flax.png|30px|link=Flax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Small Square Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Small Square Tile",
+        "link": "Small Square Tile",
+        "qty": 1,
+        "item": "Small Square Tile",
+        "image": "[[File:Small Square Tile (Kharidian) (Blue).png|30px|link=Small Square Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Small Square Tile"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -13953,6 +14157,210 @@
         "qty": 1,
         "item": "Square Tile",
         "image": "[[File:Square Tile (Castle).png|30px|link=Square Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Square Tile"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "5",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "5",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "3",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Square Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Square Tile",
+        "link": "Square Tile",
+        "qty": 1,
+        "item": "Square Tile",
+        "image": "[[File:Square Tile (Kharidian).png|30px|link=Square Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Square Tile"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank",
+      "Redberries"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "5",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "5",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "3",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "2",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Square Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Square Tile",
+        "link": "Square Tile",
+        "qty": 1,
+        "item": "Square Tile",
+        "image": "[[File:Square Tile (Kharidian) (Red).png|30px|link=Square Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Square Tile"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank",
+      "Flax"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "5",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "5",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "3",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Flax",
+          "link": "Flax",
+          "qty": "2",
+          "item": "Flax",
+          "image": "[[File:Flax.png|30px|link=Flax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Square Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Square Tile",
+        "link": "Square Tile",
+        "qty": 1,
+        "item": "Square Tile",
+        "image": "[[File:Square Tile (Kharidian) (Blue).png|30px|link=Square Tile]]"
       }
     },
     "uses_facility": [
@@ -14105,6 +14513,210 @@
   },
   {
     "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "3",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Medium Square Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Square Tile",
+        "link": "Medium Square Tile",
+        "qty": 1,
+        "item": "Medium Square Tile",
+        "image": "[[File:Medium Square Tile (Kharidian).png|30px|link=Medium Square Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Medium Square Tile"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank",
+      "Redberries"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "3",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "1",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Medium Square Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Square Tile",
+        "link": "Medium Square Tile",
+        "qty": 1,
+        "item": "Medium Square Tile",
+        "image": "[[File:Medium Square Tile (Kharidian) (Red).png|30px|link=Medium Square Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Medium Square Tile"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank",
+      "Flax"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "3",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Flax",
+          "link": "Flax",
+          "qty": "1",
+          "item": "Flax",
+          "image": "[[File:Flax.png|30px|link=Flax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Medium Square Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Square Tile",
+        "link": "Medium Square Tile",
+        "qty": 1,
+        "item": "Medium Square Tile",
+        "image": "[[File:Medium Square Tile (Kharidian) (Blue).png|30px|link=Medium Square Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Medium Square Tile"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -14235,6 +14847,210 @@
         "qty": 1,
         "item": "Triangular Tile",
         "image": "[[File:Triangular Tile (Castle).png|30px|link=Triangular Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Triangular Tile"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "5",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "5",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "3",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Triangular Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Triangular Tile",
+        "link": "Triangular Tile",
+        "qty": 1,
+        "item": "Triangular Tile",
+        "image": "[[File:Triangular Tile (Kharidian).png|30px|link=Triangular Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Triangular Tile"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank",
+      "Redberries"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "5",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "5",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "3",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "2",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Triangular Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Triangular Tile",
+        "link": "Triangular Tile",
+        "qty": 1,
+        "item": "Triangular Tile",
+        "image": "[[File:Triangular Tile (Kharidian) (Red).png|30px|link=Triangular Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Triangular Tile"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank",
+      "Flax"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "5",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "5",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "3",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Flax",
+          "link": "Flax",
+          "qty": "2",
+          "item": "Flax",
+          "image": "[[File:Flax.png|30px|link=Flax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Triangular Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Triangular Tile",
+        "link": "Triangular Tile",
+        "qty": 1,
+        "item": "Triangular Tile",
+        "image": "[[File:Triangular Tile (Kharidian) (Blue).png|30px|link=Triangular Tile]]"
       }
     },
     "uses_facility": [
@@ -18545,6 +19361,210 @@
         "qty": 1,
         "item": "Triangular Foundation",
         "image": "[[File:Triangular Foundation (Castle).png|30px|link=Triangular Foundation]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Triangular Foundation"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "5",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "5",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "3",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Triangular Foundation"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Triangular Foundation",
+        "link": "Triangular Foundation",
+        "qty": 1,
+        "item": "Triangular Foundation",
+        "image": "[[File:Triangular Foundation (Kharidian).png|30px|link=Triangular Foundation]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Triangular Foundation"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank",
+      "Redberries"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "5",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "5",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "3",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "2",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Triangular Foundation"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Triangular Foundation",
+        "link": "Triangular Foundation",
+        "qty": 1,
+        "item": "Triangular Foundation",
+        "image": "[[File:Triangular Foundation (Kharidian) (Red).png|30px|link=Triangular Foundation]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Triangular Foundation"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank",
+      "Flax"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "5",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "5",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "3",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Flax",
+          "link": "Flax",
+          "qty": "2",
+          "item": "Flax",
+          "image": "[[File:Flax.png|30px|link=Flax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "6"
+        }
+      ],
+      "outputs": [
+        "Triangular Foundation"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Triangular Foundation",
+        "link": "Triangular Foundation",
+        "qty": 1,
+        "item": "Triangular Foundation",
+        "image": "[[File:Triangular Foundation (Kharidian) (Blue).png|30px|link=Triangular Foundation]]"
       }
     },
     "uses_facility": [
@@ -73647,7 +74667,7 @@
       "Dire Wolf Leather",
       "Padded Cloth",
       "Iron Logging Axe",
-      "Ash Logs"
+      "Hollow Bark"
     ],
     "uses_skill": [
       "Artisan"
@@ -73682,11 +74702,11 @@
         },
         {
           "quantity": "3",
-          "name": "Ash Logs",
-          "link": "Ash Logs",
+          "name": "Hollow Bark",
+          "link": "Hollow Bark",
           "qty": "3",
-          "item": "Ash Logs",
-          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+          "item": "Hollow Bark",
+          "image": "[[File:Hollow Bark.png|30px|link=Hollow Bark]]"
         }
       ],
       "skills": [
@@ -76065,6 +77085,323 @@
     ],
     "output": [
       "Agility Orb"
+    ]
+  },
+  {
+    "uses_material": [
+      "Desert Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "4",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Moon Garou Carpet 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Moon Garou Carpet 01",
+        "link": "Moon Garou Carpet 01",
+        "qty": 1,
+        "item": "Moon Garou Carpet 01",
+        "image": "[[File:Moon Garou Carpet 01.png|30px|link=Moon Garou Carpet 01]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Moon Garou Carpet 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Desert Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "2",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Moon Garou Carpet 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Moon Garou Carpet 02",
+        "link": "Moon Garou Carpet 02",
+        "qty": 1,
+        "item": "Moon Garou Carpet 02",
+        "image": "[[File:Moon Garou Carpet 02.png|30px|link=Moon Garou Carpet 02]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Moon Garou Carpet 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Desert Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "2",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Rolled Moon Garou Carpet 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Rolled Moon Garou Carpet 02",
+        "link": "Rolled Moon Garou Carpet 02",
+        "qty": 1,
+        "item": "Rolled Moon Garou Carpet 02",
+        "image": "[[File:Rolled Moon Garou Carpet 02.png|30px|link=Rolled Moon Garou Carpet 02]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Rolled Moon Garou Carpet 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Desert Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "4",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Standing Moon Garou Carpet 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Standing Moon Garou Carpet 01",
+        "link": "Standing Moon Garou Carpet 01",
+        "qty": 1,
+        "item": "Standing Moon Garou Carpet 01",
+        "image": "[[File:Standing Moon Garou Carpet 01.png|30px|link=Standing Moon Garou Carpet 01]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Standing Moon Garou Carpet 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Desert Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "2",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Standing Moon Garou Carpet 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Standing Moon Garou Carpet 02",
+        "link": "Standing Moon Garou Carpet 02",
+        "qty": 1,
+        "item": "Standing Moon Garou Carpet 02",
+        "image": "[[File:Standing Moon Garou Carpet 02.png|30px|link=Standing Moon Garou Carpet 02]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Standing Moon Garou Carpet 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Desert Thread"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Desert Thread",
+          "link": "Desert Thread",
+          "qty": "4",
+          "item": "Desert Thread",
+          "image": "[[File:Desert Thread.png|30px|link=Desert Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Coiled Desert Rope"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Coiled Desert Rope",
+        "link": "Coiled Desert Rope",
+        "qty": 1,
+        "item": "Coiled Desert Rope",
+        "image": "[[File:Coiled Desert Rope.png|30px|link=Coiled Desert Rope]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Coiled Desert Rope"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank",
+      "Desert Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "12",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "12",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "2",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Moon Garou Table 01"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Moon Garou Table 01",
+        "link": "Moon Garou Table 01",
+        "qty": "1",
+        "item": "Moon Garou Table 01",
+        "image": "[[File:Moon Garou Table 01.png|30px|link=Moon Garou Table 01]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Moon Garou Table 01"
     ]
   }
 ]

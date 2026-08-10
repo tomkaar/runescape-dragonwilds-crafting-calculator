@@ -10621,6 +10621,116 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "8a5660ae0246",
+        "name": "Small Square Tile",
+        "image": "Small Square Tile (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "12202ca4b33c",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 2
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 2
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "827aef48b219",
+        "name": "Small Square Tile",
+        "image": "Small Square Tile (Kharidian) (Red).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "24193aa59fbf",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 2
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 2
+            },
+            {
+              "itemId": "redberries",
+              "quantity": 1
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "e4058f6cef7c",
+        "name": "Small Square Tile",
+        "image": "Small Square Tile (Kharidian) (Blue).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "398def9646b1",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 2
+            },
+            {
+              "itemId": "flax",
+              "quantity": 1
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 2
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10713,6 +10823,116 @@
             {
               "name": "Construction",
               "experience": 16
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7c8a7a24d48f",
+        "name": "Square Tile",
+        "image": "Square Tile (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "b68a66f58ebc",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 5
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 5
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "01a3ced583f3",
+        "name": "Square Tile",
+        "image": "Square Tile (Kharidian) (Red).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "d348c769e1eb",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 5
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 5
+            },
+            {
+              "itemId": "redberries",
+              "quantity": 2
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a254457bfd41",
+        "name": "Square Tile",
+        "image": "Square Tile (Kharidian) (Blue).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "8e3d5d8bc758",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 5
+            },
+            {
+              "itemId": "flax",
+              "quantity": 2
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 5
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
             }
           ]
         },
@@ -10813,6 +11033,116 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "d6c48da1fc7a",
+        "name": "Medium Square Tile",
+        "image": "Medium Square Tile (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "d3e6defa7b5f",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 3
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 3
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a8a7d4980493",
+        "name": "Medium Square Tile",
+        "image": "Medium Square Tile (Kharidian) (Red).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "caa8198ffb32",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 3
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 3
+            },
+            {
+              "itemId": "redberries",
+              "quantity": 1
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "25f62ceb1a4c",
+        "name": "Medium Square Tile",
+        "image": "Medium Square Tile (Kharidian) (Blue).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "e55bcefac017",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 3
+            },
+            {
+              "itemId": "flax",
+              "quantity": 1
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 3
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -10905,6 +11235,116 @@
             {
               "name": "Construction",
               "experience": 16
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "5887d27c3ea5",
+        "name": "Triangular Tile",
+        "image": "Triangular Tile (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "a3dc2d5bca3a",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 5
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 5
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "d7dfa5c1f489",
+        "name": "Triangular Tile",
+        "image": "Triangular Tile (Kharidian) (Red).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "c410a24adb83",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 5
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 5
+            },
+            {
+              "itemId": "redberries",
+              "quantity": 2
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "b62bf310d959",
+        "name": "Triangular Tile",
+        "image": "Triangular Tile (Kharidian) (Blue).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "1e783160c794",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 5
+            },
+            {
+              "itemId": "flax",
+              "quantity": 2
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 5
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
             }
           ]
         },
@@ -13729,6 +14169,116 @@
             {
               "name": "Construction",
               "experience": 16
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "8bbad815d80f",
+        "name": "Triangular Foundation",
+        "image": "Triangular Foundation (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "056a3da12f49",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 5
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 5
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 6
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "1d6bf51c9bf1",
+        "name": "Triangular Foundation",
+        "image": "Triangular Foundation (Kharidian) (Red).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "48b28a651727",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 5
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 5
+            },
+            {
+              "itemId": "redberries",
+              "quantity": 2
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 6
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "21a56017ac7b",
+        "name": "Triangular Foundation",
+        "image": "Triangular Foundation (Kharidian) (Blue).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "23246c5c53c7",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 5
+            },
+            {
+              "itemId": "flax",
+              "quantity": 2
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 5
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 6
             }
           ]
         },
@@ -56703,22 +57253,22 @@
     "image": "Lumber Backpack.png",
     "variants": [
       {
-        "id": "a8422d69cdcc",
+        "id": "8a8f438a5576",
         "name": "Lumber Backpack",
         "image": "Lumber Backpack.png",
         "variantName": null,
         "recipe": {
-          "id": "fd293baf60c7",
+          "id": "db0c50b6296a",
           "facilities": [
             "Armour Bench"
           ],
           "materials": [
             {
-              "itemId": "ash-logs",
+              "itemId": "dire-wolf-leather",
               "quantity": 3
             },
             {
-              "itemId": "dire-wolf-leather",
+              "itemId": "hollow-bark",
               "quantity": 3
             },
             {
@@ -58692,6 +59242,290 @@
       "Build Menu"
     ],
     "wikiLink": "Agility_Orb"
+  },
+  {
+    "id": "moon-garou-carpet-01",
+    "name": "Moon Garou Carpet 01",
+    "image": "Moon Garou Carpet 01.png",
+    "variants": [
+      {
+        "id": "510e3136ea2d",
+        "name": "Moon Garou Carpet 01",
+        "image": "Moon Garou Carpet 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "cc71bf1c92dd",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "desert-cloth",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Moon_Garou_Carpet_01"
+  },
+  {
+    "id": "moon-garou-carpet-02",
+    "name": "Moon Garou Carpet 02",
+    "image": "Moon Garou Carpet 02.png",
+    "variants": [
+      {
+        "id": "8d80a9e6af93",
+        "name": "Moon Garou Carpet 02",
+        "image": "Moon Garou Carpet 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "700406e8f0f8",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "desert-cloth",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Moon_Garou_Carpet_02"
+  },
+  {
+    "id": "rolled-moon-garou-carpet-02",
+    "name": "Rolled Moon Garou Carpet 02",
+    "image": "Rolled Moon Garou Carpet 02.png",
+    "variants": [
+      {
+        "id": "7bcdb302491d",
+        "name": "Rolled Moon Garou Carpet 02",
+        "image": "Rolled Moon Garou Carpet 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f67fb801875d",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "desert-cloth",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Rolled_Moon_Garou_Carpet_02"
+  },
+  {
+    "id": "standing-moon-garou-carpet-01",
+    "name": "Standing Moon Garou Carpet 01",
+    "image": "Standing Moon Garou Carpet 01.png",
+    "variants": [
+      {
+        "id": "b3fab2c171a0",
+        "name": "Standing Moon Garou Carpet 01",
+        "image": "Standing Moon Garou Carpet 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "942f0f45a116",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "desert-cloth",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Standing_Moon_Garou_Carpet_01"
+  },
+  {
+    "id": "standing-moon-garou-carpet-02",
+    "name": "Standing Moon Garou Carpet 02",
+    "image": "Standing Moon Garou Carpet 02.png",
+    "variants": [
+      {
+        "id": "7f2515081c17",
+        "name": "Standing Moon Garou Carpet 02",
+        "image": "Standing Moon Garou Carpet 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6f01ea500942",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "desert-cloth",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Standing_Moon_Garou_Carpet_02"
+  },
+  {
+    "id": "coiled-desert-rope",
+    "name": "Coiled Desert Rope",
+    "image": "Coiled Desert Rope.png",
+    "variants": [
+      {
+        "id": "9effceabd247",
+        "name": "Coiled Desert Rope",
+        "image": "Coiled Desert Rope.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c6678a9dfb74",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "desert-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Coiled_Desert_Rope"
+  },
+  {
+    "id": "moon-garou-table-01",
+    "name": "Moon Garou Table 01",
+    "image": "Moon Garou Table 01.png",
+    "variants": [
+      {
+        "id": "5516d97cd7f2",
+        "name": "Moon Garou Table 01",
+        "image": "Moon Garou Table 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c38769bf2430",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "desert-cloth",
+              "quantity": 2
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 12
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Moon_Garou_Table_01"
   },
   {
     "id": "goblin-pack",
