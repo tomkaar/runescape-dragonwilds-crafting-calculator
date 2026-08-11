@@ -51571,6 +51571,175 @@
     "stackLimit": 99
   },
   {
+    "id": "ascension-core",
+    "name": "Ascension Core",
+    "image": "Ascension Core (Power Level 4).png",
+    "variants": [
+      {
+        "id": "f030f992b1aa",
+        "name": "Ascension Core",
+        "image": "Ascension Core (Power Level 4).png",
+        "variantName": "Power Level 4",
+        "recipe": {
+          "id": "4552d20ab9c2",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "ascension-shard-power-level-4",
+              "quantity": 99
+            },
+            {
+              "itemId": "dire-wolf-leather",
+              "quantity": 10
+            },
+            {
+              "itemId": "iron-bar",
+              "quantity": 10
+            },
+            {
+              "itemId": "padded-cloth",
+              "quantity": 10
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 40
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "914108e74317",
+        "name": "Ascension Core",
+        "image": "Ascension Core (Power Level 5).png",
+        "variantName": "Power Level 5",
+        "recipe": {
+          "id": "6ece4d1ae74e",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "ascension-shard-power-level-5",
+              "quantity": 99
+            },
+            {
+              "itemId": "draconic-leather",
+              "quantity": 10
+            },
+            {
+              "itemId": "fine-cloth",
+              "quantity": 10
+            },
+            {
+              "itemId": "steel-bar",
+              "quantity": 10
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 40
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "574566762060",
+        "name": "Ascension Core",
+        "image": "Ascension Core (Power Level 6).png",
+        "variantName": "Power Level 6",
+        "recipe": {
+          "id": "56561415a322",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "ascension-shard-power-level-6",
+              "quantity": 99
+            },
+            {
+              "itemId": "cursed-leather",
+              "quantity": 10
+            },
+            {
+              "itemId": "mithril-bar",
+              "quantity": 10
+            },
+            {
+              "itemId": "mystic-cloth",
+              "quantity": 10
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 40
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4f0c49ca0dc3",
+        "name": "Ascension Core",
+        "image": "Ascension Core (Power Level 7).png",
+        "variantName": "Power Level 7",
+        "recipe": {
+          "id": "4a96e694c146",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "adamant-bar",
+              "quantity": 10
+            },
+            {
+              "itemId": "ascension-shard-power-level-7",
+              "quantity": 99
+            },
+            {
+              "itemId": "infinity-cloth",
+              "quantity": 10
+            },
+            {
+              "itemId": "scorch-leather",
+              "quantity": 10
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 40
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Mystic Forge"
+    ],
+    "wikiLink": "Ascension_Core",
+    "weight": 0.3,
+    "itemType": "Basic Material",
+    "stackLimit": 99
+  },
+  {
     "id": "adamant-pickaxe",
     "name": "Adamant Pickaxe",
     "image": "Adamant Pickaxe.png",
@@ -69117,51 +69286,6 @@
     "wikiLink": "Kalphite_Shell_Fragments",
     "weight": 0.1,
     "itemType": "Basic Item",
-    "stackLimit": 99
-  },
-  {
-    "id": "ascension-core",
-    "name": "Ascension Core",
-    "image": "Ascension Core (Power Level 4).png",
-    "variants": [
-      {
-        "id": "ascension-core",
-        "name": "Ascension Core",
-        "image": "Ascension Core (Power Level 4).png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      },
-      {
-        "id": "ascension-core",
-        "name": "Ascension Core",
-        "image": "Ascension Core (Power Level 5).png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      },
-      {
-        "id": "ascension-core",
-        "name": "Ascension Core",
-        "image": "Ascension Core (Power Level 6).png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      },
-      {
-        "id": "ascension-core",
-        "name": "Ascension Core",
-        "image": "Ascension Core (Power Level 7).png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Ascension_Core",
-    "weight": 0.3,
-    "itemType": "Basic Material",
     "stackLimit": 99
   },
   {

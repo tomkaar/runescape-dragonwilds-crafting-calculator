@@ -67576,6 +67576,290 @@
   },
   {
     "uses_material": [
+      "Ascension Shard (Power Level 4)",
+      "Iron Bar",
+      "Dire Wolf Leather",
+      "Padded Cloth"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "99",
+          "name": "Ascension Shard (Power Level 4)",
+          "link": "Ascension Shard (Power Level 4)",
+          "qty": "99",
+          "item": "Ascension Shard (Power Level 4)",
+          "image": "[[File:Ascension Shard (Power Level 4).png|30px|link=Ascension Shard (Power Level 4)]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Iron Bar",
+          "link": "Iron Bar",
+          "qty": "10",
+          "item": "Iron Bar",
+          "image": "[[File:Iron Bar.png|30px|link=Iron Bar]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Dire Wolf Leather",
+          "link": "Dire Wolf Leather",
+          "qty": "10",
+          "item": "Dire Wolf Leather",
+          "image": "[[File:Dire Wolf Leather.png|30px|link=Dire Wolf Leather]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "10",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Ascension Core"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Ascension Core",
+        "link": "Ascension Core",
+        "qty": 1,
+        "item": "Ascension Core",
+        "image": "[[File:Ascension Core (Power Level 4).png|30px|link=Ascension Core]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "output": [
+      "Ascension Core"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ascension Shard (Power Level 5)",
+      "Steel Bar",
+      "Draconic Leather",
+      "Fine Cloth"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "99",
+          "name": "Ascension Shard (Power Level 5)",
+          "link": "Ascension Shard (Power Level 5)",
+          "qty": "99",
+          "item": "Ascension Shard (Power Level 5)",
+          "image": "[[File:Ascension Shard (Power Level 5).png|30px|link=Ascension Shard (Power Level 5)]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Steel Bar",
+          "link": "Steel Bar",
+          "qty": "10",
+          "item": "Steel Bar",
+          "image": "[[File:Steel Bar.png|30px|link=Steel Bar]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Draconic Leather",
+          "link": "Draconic Leather",
+          "qty": "10",
+          "item": "Draconic Leather",
+          "image": "[[File:Draconic Leather.png|30px|link=Draconic Leather]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Fine Cloth",
+          "link": "Fine Cloth",
+          "qty": "10",
+          "item": "Fine Cloth",
+          "image": "[[File:Fine Cloth.png|30px|link=Fine Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Ascension Core"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Ascension Core",
+        "link": "Ascension Core",
+        "qty": 1,
+        "item": "Ascension Core",
+        "image": "[[File:Ascension Core (Power Level 5).png|30px|link=Ascension Core]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "output": [
+      "Ascension Core"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ascension Shard (Power Level 6)",
+      "Mithril Bar",
+      "Cursed Leather",
+      "Mystic Cloth"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "99",
+          "name": "Ascension Shard (Power Level 6)",
+          "link": "Ascension Shard (Power Level 6)",
+          "qty": "99",
+          "item": "Ascension Shard (Power Level 6)",
+          "image": "[[File:Ascension Shard (Power Level 6).png|30px|link=Ascension Shard (Power Level 6)]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "10",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "10",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "10",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Ascension Core"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Ascension Core",
+        "link": "Ascension Core",
+        "qty": 1,
+        "item": "Ascension Core",
+        "image": "[[File:Ascension Core (Power Level 6).png|30px|link=Ascension Core]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "output": [
+      "Ascension Core"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ascension Shard (Power Level 7)",
+      "Adamant Bar",
+      "Scorch Leather",
+      "Infinity Cloth"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "99",
+          "name": "Ascension Shard (Power Level 7)",
+          "link": "Ascension Shard (Power Level 7)",
+          "qty": "99",
+          "item": "Ascension Shard (Power Level 7)",
+          "image": "[[File:Ascension Shard (Power Level 7).png|30px|link=Ascension Shard (Power Level 7)]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "10",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "10",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Infinity Cloth",
+          "link": "Infinity Cloth",
+          "qty": "10",
+          "item": "Infinity Cloth",
+          "image": "[[File:Infinity Cloth.png|30px|link=Infinity Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Ascension Core"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Ascension Core",
+        "link": "Ascension Core",
+        "qty": 1,
+        "item": "Ascension Core",
+        "image": "[[File:Ascension Core (Power Level 7).png|30px|link=Ascension Core]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "output": [
+      "Ascension Core"
+    ]
+  },
+  {
+    "uses_material": [
       "Adamant Bar",
       "Yew Logs",
       "Scorch Leather",
