@@ -36874,19 +36874,19 @@
     "image": "Imaru's Talon.png",
     "variants": [
       {
-        "id": "b3bc452495d8",
+        "id": "6a1830cbcac9",
         "name": "Imaru's Talon",
         "image": "Imaru's Talon.png",
         "variantName": null,
         "recipe": {
-          "id": "f89781e2e221",
+          "id": "e1af181c1a26",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
               "itemId": "steel-scimitar",
-              "quantity": 5
+              "quantity": 1
             },
             {
               "itemId": "undead-draconic-visage",
