@@ -3795,7 +3795,7 @@
       "Crafting Table"
     ],
     "wikiLink": "Goblin_\"Swingslash\"",
-    "weight": 4.5,
+    "weight": 8,
     "itemType": "Melee Weapon",
     "stackLimit": 1
   },
@@ -5083,60 +5083,30 @@
     "image": "Redberry Crunchies.png",
     "variants": [
       {
-        "id": "89d9b2b9247f",
+        "id": "eb4908d19d1c",
         "name": "Redberry Crunchies",
         "image": "Redberry Crunchies.png",
         "variantName": null,
         "recipe": {
-          "id": "4285e807aacf",
+          "id": "fd3005ab516d",
           "facilities": [
             "Cooking Pot"
           ],
           "materials": [
             {
-              "itemId": "potato",
-              "quantity": 2
+              "itemId": "dried-redberries",
+              "quantity": 1
             },
             {
-              "itemId": "redberries",
-              "quantity": 2
+              "itemId": "wheat",
+              "quantity": 1
             }
           ],
           "quantity": 1,
           "skills": [
             {
               "name": "Cooking",
-              "experience": 15
-            }
-          ]
-        },
-        "usesRecipe": null
-      },
-      {
-        "id": "68b1bbcd28f8",
-        "name": "Redberry Crunchies",
-        "image": "Redberry Crunchies.png",
-        "variantName": null,
-        "recipe": {
-          "id": "0c92b24f2abd",
-          "facilities": [
-            "Cooking Pot"
-          ],
-          "materials": [
-            {
-              "itemId": "cabbage",
-              "quantity": 2
-            },
-            {
-              "itemId": "redberries",
-              "quantity": 2
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Cooking",
-              "experience": 15
+              "experience": 20
             }
           ]
         },
@@ -8187,7 +8157,7 @@
       "Crafting Table"
     ],
     "wikiLink": "Wooden_Training_Sword",
-    "weight": 15,
+    "weight": 10,
     "itemType": "Melee Weapon",
     "stackLimit": 1
   },
@@ -25289,7 +25259,7 @@
       "Blacksmith's Bench"
     ],
     "wikiLink": "Skullsplitter",
-    "weight": 6,
+    "weight": 15,
     "itemType": "Melee Weapon"
   },
   {
@@ -59164,6 +59134,135 @@
     "stackLimit": 1
   },
   {
+    "id": "gold-leaf",
+    "name": "Gold Leaf",
+    "image": "Gold Leaf.png",
+    "variants": [
+      {
+        "id": "14d295079839",
+        "name": "Gold Leaf",
+        "image": "Gold Leaf.png",
+        "variantName": null,
+        "recipe": {
+          "id": "06ae5671fc7d",
+          "facilities": [
+            "Jeweler's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "gold-bar",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 10
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
+    ],
+    "wikiLink": "Gold_Leaf",
+    "weight": 0.1,
+    "itemType": "Component",
+    "stackLimit": 99
+  },
+  {
+    "id": "silver-leaf",
+    "name": "Silver Leaf",
+    "image": "Silver Leaf.png",
+    "variants": [
+      {
+        "id": "02ba804d06ae",
+        "name": "Silver Leaf",
+        "image": "Silver Leaf.png",
+        "variantName": null,
+        "recipe": {
+          "id": "dd8753b8e67c",
+          "facilities": [
+            "Jeweler's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "silver-bar",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 10
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
+    ],
+    "wikiLink": "Silver_Leaf",
+    "weight": 0.1,
+    "itemType": "Component",
+    "stackLimit": 99
+  },
+  {
+    "id": "bronze-leaf",
+    "name": "Bronze Leaf",
+    "image": "Bronze Leaf.png",
+    "variants": [
+      {
+        "id": "33c5290f9dec",
+        "name": "Bronze Leaf",
+        "image": "Bronze Leaf.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b6ce556b5021",
+          "facilities": [
+            "Jeweler's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "bronze-bar",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 10
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Jeweler's Bench"
+    ],
+    "wikiLink": "Bronze_Leaf",
+    "weight": 0.1,
+    "itemType": "Component",
+    "stackLimit": 99
+  },
+  {
     "id": "stamina-potion",
     "name": "Stamina Potion",
     "image": "Stamina Potion.png",
@@ -71559,69 +71658,6 @@
     "wikiLink": "Warped_Feathers",
     "weight": 0.1,
     "itemType": "Basic Material",
-    "stackLimit": 99
-  },
-  {
-    "id": "gold-leaf",
-    "name": "Gold Leaf",
-    "image": "Gold Leaf.png",
-    "variants": [
-      {
-        "id": "gold-leaf",
-        "name": "Gold Leaf",
-        "image": "Gold Leaf.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Gold_Leaf",
-    "weight": 0.1,
-    "itemType": "Component",
-    "stackLimit": 99
-  },
-  {
-    "id": "silver-leaf",
-    "name": "Silver Leaf",
-    "image": "Silver Leaf.png",
-    "variants": [
-      {
-        "id": "silver-leaf",
-        "name": "Silver Leaf",
-        "image": "Silver Leaf.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Silver_Leaf",
-    "weight": 0.1,
-    "itemType": "Component",
-    "stackLimit": 99
-  },
-  {
-    "id": "bronze-leaf",
-    "name": "Bronze Leaf",
-    "image": "Bronze Leaf.png",
-    "variants": [
-      {
-        "id": "bronze-leaf",
-        "name": "Bronze Leaf",
-        "image": "Bronze Leaf.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Bronze_Leaf",
-    "weight": 0.1,
-    "itemType": "Component",
     "stackLimit": 99
   },
   {
