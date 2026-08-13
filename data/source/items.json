@@ -1586,11 +1586,11 @@
     "page_name": "Goblin \"Swingslash\"",
     "item_description": "A surprisingly nasty little axe. Popular with goblin warriors.",
     "page_name_sub": "Goblin \"Swingslash\"",
-    "item_weight": 4.5,
+    "item_weight": 8,
     "item_stacklimit": 1,
     "json": {
       "description": "A surprisingly nasty little axe. Popular with goblin warriors.",
-      "weight": "4.5",
+      "weight": "8.0",
       "image": "[[File:Goblin \"Swingslash\".png|32px]]",
       "name": "Goblin \"Swingslash\"",
       "item_type": "Melee Weapon",
@@ -3524,11 +3524,11 @@
     "page_name": "Wooden Training Sword",
     "item_description": "Causes damage to their self esteem more than anything really.",
     "page_name_sub": "Wooden Training Sword",
-    "item_weight": 15,
+    "item_weight": 10,
     "item_stacklimit": 1,
     "json": {
       "description": "Causes damage to their self esteem more than anything really.",
-      "weight": "15.0",
+      "weight": "10.0",
       "image": "[[File:Wooden Training Sword.png|32px]]",
       "name": "Wooden Training Sword",
       "item_type": "Melee Weapon",
@@ -4736,21 +4736,21 @@
   },
   {
     "page_name": "Chieftain's Blade",
-    "item_description": "The sword of a goblin cheiftain, used to spread war in the name of the Big High War God.",
+    "item_description": "The sword of a goblin chieftain, used to spread war in the name of the Big High War God.",
     "page_name_sub": "Chieftain's Blade",
     "item_weight": 5.5,
     "item_stacklimit": 1,
     "json": {
-      "description": "The sword of a goblin cheiftain, used to spread war in the name of the Big High War God.",
+      "description": "The sword of a goblin chieftain, used to spread war in the name of the Big High War God.",
       "weight": "5.5",
       "image": "[[File:Chieftain's Blade.png|32px]]",
-      "name": "Chieftain's Blade",
+      "name": "Chieftain's<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"This weapon is misspelled in-game, even though the description spells the same word correctly.\">sic</span>&#93;</sup> Blade",
       "item_type": "Melee Weapon",
       "stacklimit": "1",
       "image_raw": "Chieftain's Blade.png"
     },
     "item_type": "Melee Weapon",
-    "item_name": "Chieftain's Blade"
+    "item_name": "Chieftain's<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"This weapon is misspelled in-game, even though the description spells the same word correctly.\">sic</span>&#93;</sup> Blade"
   },
   {
     "page_name": "Ground Sandstone",
@@ -4773,18 +4773,18 @@
   {
     "page_name": "Skullsplitter",
     "page_name_sub": "Skullsplitter",
-    "item_description": "A deadly weapon, with a disturbingly accurate name.",
+    "item_description": "A deadly weapon with a disturbingly accurate name.",
     "item_type": "Melee Weapon",
     "item_name": "Skullsplitter",
     "json": {
-      "description": "A deadly weapon, with a disturbingly accurate name.",
-      "weight": "6.0",
+      "description": "A deadly weapon with a disturbingly accurate name.",
+      "weight": "15.0",
       "image": "[[File:Skullsplitter.png|32px]]",
       "name": "Skullsplitter",
       "item_type": "Melee Weapon",
       "image_raw": "Skullsplitter.png"
     },
-    "item_weight": 6
+    "item_weight": 15
   },
   {
     "page_name": "Pioneer's Scarf",

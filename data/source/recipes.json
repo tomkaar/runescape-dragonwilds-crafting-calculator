@@ -6625,8 +6625,8 @@
   },
   {
     "uses_material": [
-      "Redberries",
-      "Potato"
+      "Dried Redberries",
+      "Wheat"
     ],
     "uses_skill": [
       "Cooking"
@@ -6635,79 +6635,26 @@
       "facility": "Cooking Pot",
       "materials": [
         {
-          "quantity": "2",
-          "name": "Redberries",
-          "link": "Redberries",
-          "qty": "2",
-          "item": "Redberries",
-          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+          "quantity": "1",
+          "name": "Dried Redberries",
+          "link": "Dried Redberries",
+          "qty": "1",
+          "item": "Dried Redberries",
+          "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
         },
         {
-          "quantity": "2",
-          "name": "Potato",
-          "link": "Potato",
-          "qty": "2",
-          "item": "Potato",
-          "image": "[[File:Potato.png|30px|link=Potato]]"
+          "quantity": "1",
+          "name": "Wheat",
+          "link": "Wheat",
+          "qty": "1",
+          "item": "Wheat",
+          "image": "[[File:Wheat.png|30px|link=Wheat]]"
         }
       ],
       "skills": [
         {
           "name": "Cooking",
-          "experience": "15"
-        }
-      ],
-      "outputs": [
-        "Redberry Crunchies"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Redberry Crunchies",
-        "link": "Redberry Crunchies",
-        "qty": 1,
-        "item": "Redberry Crunchies",
-        "image": "[[File:Redberry Crunchies.png|30px|link=Redberry Crunchies]]"
-      }
-    },
-    "uses_facility": [
-      "Cooking Pot"
-    ],
-    "output": [
-      "Redberry Crunchies"
-    ]
-  },
-  {
-    "uses_material": [
-      "Redberries",
-      "Cabbage"
-    ],
-    "uses_skill": [
-      "Cooking"
-    ],
-    "json": {
-      "facility": "Cooking Pot",
-      "materials": [
-        {
-          "quantity": "2",
-          "name": "Redberries",
-          "link": "Redberries",
-          "qty": "2",
-          "item": "Redberries",
-          "image": "[[File:Redberries.png|30px|link=Redberries]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Cabbage",
-          "link": "Cabbage",
-          "qty": "2",
-          "item": "Cabbage",
-          "image": "[[File:Cabbage.png|30px|link=Cabbage]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Cooking",
-          "experience": "15"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -77059,6 +77006,138 @@
     ],
     "output": [
       "Gyrhawk Amulet"
+    ]
+  },
+  {
+    "uses_material": [
+      "Gold Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Jeweler's Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Gold Bar",
+          "link": "Gold Bar",
+          "qty": "1",
+          "item": "Gold Bar",
+          "image": "[[File:Gold Bar.png|30px|link=Gold Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Gold Leaf"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Gold Leaf",
+        "link": "Gold Leaf",
+        "qty": "1",
+        "item": "Gold Leaf",
+        "image": "[[File:Gold Leaf.png|30px|link=Gold Leaf]]"
+      }
+    },
+    "uses_facility": [
+      "Jeweler's Bench"
+    ],
+    "output": [
+      "Gold Leaf"
+    ]
+  },
+  {
+    "uses_material": [
+      "Silver Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Jeweler's Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Silver Bar",
+          "link": "Silver Bar",
+          "qty": "1",
+          "item": "Silver Bar",
+          "image": "[[File:Silver Bar.png|30px|link=Silver Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Silver Leaf"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Silver Leaf",
+        "link": "Silver Leaf",
+        "qty": "1",
+        "item": "Silver Leaf",
+        "image": "[[File:Silver Leaf.png|30px|link=Silver Leaf]]"
+      }
+    },
+    "uses_facility": [
+      "Jeweler's Bench"
+    ],
+    "output": [
+      "Silver Leaf"
+    ]
+  },
+  {
+    "uses_material": [
+      "Bronze Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Jeweler's Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Bronze Bar",
+          "link": "Bronze Bar",
+          "qty": "1",
+          "item": "Bronze Bar",
+          "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Bronze Leaf"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Bronze Leaf",
+        "link": "Bronze Leaf",
+        "qty": "1",
+        "item": "Bronze Leaf",
+        "image": "[[File:Bronze Leaf.png|30px|link=Bronze Leaf]]"
+      }
+    },
+    "uses_facility": [
+      "Jeweler's Bench"
+    ],
+    "output": [
+      "Bronze Leaf"
     ]
   },
   {
