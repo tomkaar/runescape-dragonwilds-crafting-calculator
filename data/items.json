@@ -59139,12 +59139,12 @@
     "image": "Gold Leaf.png",
     "variants": [
       {
-        "id": "14d295079839",
+        "id": "945c40fd53be",
         "name": "Gold Leaf",
         "image": "Gold Leaf.png",
         "variantName": null,
         "recipe": {
-          "id": "06ae5671fc7d",
+          "id": "09e2b2e539ef",
           "facilities": [
             "Jeweler's Bench"
           ],
@@ -59154,7 +59154,7 @@
               "quantity": 1
             }
           ],
-          "quantity": 1,
+          "quantity": 10,
           "skills": [
             {
               "name": "Artisan",
@@ -59182,12 +59182,12 @@
     "image": "Silver Leaf.png",
     "variants": [
       {
-        "id": "02ba804d06ae",
+        "id": "707ebc0a9e3d",
         "name": "Silver Leaf",
         "image": "Silver Leaf.png",
         "variantName": null,
         "recipe": {
-          "id": "dd8753b8e67c",
+          "id": "1b38e0483781",
           "facilities": [
             "Jeweler's Bench"
           ],
@@ -59197,7 +59197,7 @@
               "quantity": 1
             }
           ],
-          "quantity": 1,
+          "quantity": 10,
           "skills": [
             {
               "name": "Artisan",
@@ -59225,12 +59225,12 @@
     "image": "Bronze Leaf.png",
     "variants": [
       {
-        "id": "33c5290f9dec",
+        "id": "08ab140fba41",
         "name": "Bronze Leaf",
         "image": "Bronze Leaf.png",
         "variantName": null,
         "recipe": {
-          "id": "b6ce556b5021",
+          "id": "d5d6e7da6fc7",
           "facilities": [
             "Jeweler's Bench"
           ],
@@ -59240,7 +59240,7 @@
               "quantity": 1
             }
           ],
-          "quantity": 1,
+          "quantity": 10,
           "skills": [
             {
               "name": "Artisan",
@@ -72036,6 +72036,48 @@
     "wikiLink": "Tome_of_Fishing_-_Vol_1",
     "weight": 2,
     "itemType": "Consumable",
+    "stackLimit": 99
+  },
+  {
+    "id": "tome-of-agility-vol-1",
+    "name": "Tome of Agility - Vol 1",
+    "image": "Tome of Agility - Vol 1.png",
+    "variants": [
+      {
+        "id": "tome-of-agility-vol-1",
+        "name": "Tome of Agility - Vol 1",
+        "image": "Tome of Agility - Vol 1.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Tome_of_Agility_-_Vol_1",
+    "weight": 2,
+    "itemType": "Resource",
+    "stackLimit": 99
+  },
+  {
+    "id": "tome-of-agility-vol-2",
+    "name": "Tome of Agility - Vol 2",
+    "image": "Tome of Agility - Vol 1.png",
+    "variants": [
+      {
+        "id": "tome-of-agility-vol-2",
+        "name": "Tome of Agility - Vol 2",
+        "image": "Tome of Agility - Vol 1.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Tome_of_Agility_-_Vol_2",
+    "weight": 2,
+    "itemType": "Resource",
     "stackLimit": 99
   }
 ]
