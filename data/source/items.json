@@ -22667,5 +22667,41 @@
     },
     "item_type": "Consumable",
     "item_name": "Tome of Fishing - Vol 1"
+  },
+  {
+    "page_name": "Tome of Agility - Vol 1",
+    "item_description": "A book filled with knowledge on how to move more efficiently. Awards a small amount of Agility XP.",
+    "page_name_sub": "Tome of Agility - Vol 1",
+    "item_weight": 2,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A book filled with knowledge on how to move more efficiently. Awards a small amount of Agility XP.",
+      "weight": "2.0",
+      "image": "[[File:Tome of Agility - Vol 1.png|32px]]",
+      "name": "Tome of Agility - Vol 1",
+      "item_type": "Resource",
+      "stacklimit": "99",
+      "image_raw": "Tome of Agility - Vol 1.png"
+    },
+    "item_type": "Resource",
+    "item_name": "Tome of Agility - Vol 1"
+  },
+  {
+    "page_name": "Tome of Agility - Vol 2",
+    "item_description": "A book filled with knowledge on how to move more efficiently. Awards a decent amount of Agility XP.",
+    "page_name_sub": "Tome of Agility - Vol 2",
+    "item_weight": 2,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A book filled with knowledge on how to move more efficiently. Awards a decent amount of Agility XP.",
+      "weight": "2.0",
+      "image": "[[File:Tome of Agility - Vol 1.png|32px]]",
+      "name": "Tome of Agility - Vol 2",
+      "item_type": "Resource",
+      "stacklimit": "99",
+      "image_raw": "Tome of Agility - Vol 1.png"
+    },
+    "item_type": "Resource",
+    "item_name": "Tome of Agility - Vol 2"
   }
 ]

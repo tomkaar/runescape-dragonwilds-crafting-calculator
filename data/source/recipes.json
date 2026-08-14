@@ -77037,10 +77037,10 @@
         "Gold Leaf"
       ],
       "output": {
-        "quantity": "1",
+        "quantity": "10",
         "name": "Gold Leaf",
         "link": "Gold Leaf",
-        "qty": "1",
+        "qty": "10",
         "item": "Gold Leaf",
         "image": "[[File:Gold Leaf.png|30px|link=Gold Leaf]]"
       }
@@ -77081,10 +77081,10 @@
         "Silver Leaf"
       ],
       "output": {
-        "quantity": "1",
+        "quantity": "10",
         "name": "Silver Leaf",
         "link": "Silver Leaf",
-        "qty": "1",
+        "qty": "10",
         "item": "Silver Leaf",
         "image": "[[File:Silver Leaf.png|30px|link=Silver Leaf]]"
       }
@@ -77125,10 +77125,10 @@
         "Bronze Leaf"
       ],
       "output": {
-        "quantity": "1",
+        "quantity": "10",
         "name": "Bronze Leaf",
         "link": "Bronze Leaf",
-        "qty": "1",
+        "qty": "10",
         "item": "Bronze Leaf",
         "image": "[[File:Bronze Leaf.png|30px|link=Bronze Leaf]]"
       }
