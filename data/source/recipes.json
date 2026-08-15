@@ -77766,5 +77766,164 @@
     "output": [
       "Moon Garou Table 01"
     ]
+  },
+  {
+    "uses_material": [
+      "Bronze Leaf",
+      "Padded Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Bronze Leaf",
+          "link": "Bronze Leaf",
+          "qty": "1",
+          "item": "Bronze Leaf",
+          "image": "[[File:Bronze Leaf.png|30px|link=Bronze Leaf]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Bronze Medal"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Bronze Medal",
+        "link": "Bronze Medal",
+        "qty": "1",
+        "item": "Bronze Medal",
+        "image": "[[File:Bronze Medal.png|30px|link=Bronze Medal]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Bronze Medal"
+    ]
+  },
+  {
+    "uses_material": [
+      "Silver Leaf",
+      "Padded Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Silver Leaf",
+          "link": "Silver Leaf",
+          "qty": "1",
+          "item": "Silver Leaf",
+          "image": "[[File:Silver Leaf.png|30px|link=Silver Leaf]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Silver Medal"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Silver Medal",
+        "link": "Silver Medal",
+        "qty": "1",
+        "item": "Silver Medal",
+        "image": "[[File:Silver Medal.png|30px|link=Silver Medal]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Silver Medal"
+    ]
+  },
+  {
+    "uses_material": [
+      "Gold Leaf",
+      "Padded Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Gold Leaf",
+          "link": "Gold Leaf",
+          "qty": "1",
+          "item": "Gold Leaf",
+          "image": "[[File:Gold Leaf.png|30px|link=Gold Leaf]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Gold Medal"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Gold Medal",
+        "link": "Gold Medal",
+        "qty": "1",
+        "item": "Gold Medal",
+        "image": "[[File:Gold Medal.png|30px|link=Gold Medal]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Gold Medal"
+    ]
   }
 ]
