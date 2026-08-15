@@ -59796,6 +59796,138 @@
     "wikiLink": "Moon_Garou_Table_01"
   },
   {
+    "id": "bronze-medal",
+    "name": "Bronze Medal",
+    "image": "Bronze Medal.png",
+    "variants": [
+      {
+        "id": "f309ce579b26",
+        "name": "Bronze Medal",
+        "image": "Bronze Medal.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9f28eb31f867",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "bronze-leaf",
+              "quantity": 1
+            },
+            {
+              "itemId": "padded-cloth",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Bronze_Medal"
+  },
+  {
+    "id": "silver-medal",
+    "name": "Silver Medal",
+    "image": "Silver Medal.png",
+    "variants": [
+      {
+        "id": "7c6dec022af7",
+        "name": "Silver Medal",
+        "image": "Silver Medal.png",
+        "variantName": null,
+        "recipe": {
+          "id": "bd1847ffe6e3",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "padded-cloth",
+              "quantity": 1
+            },
+            {
+              "itemId": "silver-leaf",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Silver_Medal"
+  },
+  {
+    "id": "gold-medal",
+    "name": "Gold Medal",
+    "image": "Gold Medal.png",
+    "variants": [
+      {
+        "id": "6379938758f3",
+        "name": "Gold Medal",
+        "image": "Gold Medal.png",
+        "variantName": null,
+        "recipe": {
+          "id": "df7a20bc4617",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "gold-leaf",
+              "quantity": 1
+            },
+            {
+              "itemId": "padded-cloth",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Gold_Medal"
+  },
+  {
     "id": "goblin-pack",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
