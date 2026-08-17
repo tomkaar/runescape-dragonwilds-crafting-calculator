@@ -7605,14 +7605,14 @@
     "item_description": "Someone may have use for this.",
     "page_name_sub": "Soul Fragment",
     "item_weight": 0,
-    "item_stacklimit": 999,
+    "item_stacklimit": 9999,
     "json": {
       "description": "Someone may have use for this.",
       "weight": "0.0",
       "image": "[[File:Soul Fragment.png|32px]]",
       "name": "Soul Fragment",
       "item_type": "Special Material",
-      "stacklimit": "999",
+      "stacklimit": "9999",
       "image_raw": "Soul Fragment.png"
     },
     "item_type": "Special Material",
@@ -11801,14 +11801,14 @@
     "item_description": "Used to craft magical equipment. Postie Pete also has a use for them.",
     "page_name_sub": "Infernal Fragment",
     "item_weight": 0,
-    "item_stacklimit": 999,
+    "item_stacklimit": 9999,
     "json": {
       "description": "Used to craft magical equipment. Postie Pete also has a use for them.",
       "weight": "0.0",
       "image": "[[File:Infernal Fragment.png|32px]]",
       "name": "Infernal Fragment",
       "item_type": "Special Material",
-      "stacklimit": "999",
+      "stacklimit": "9999",
       "image_raw": "Infernal Fragment.png"
     },
     "item_type": "Special Material",
@@ -18941,11 +18941,11 @@
   {
     "page_name": "Lunar Garou Hat",
     "page_name_sub": "Lunar Garou Hat",
-    "item_description": "A lenar-infused hood designed to complement the garou robes, Suitable for magic users, enhancing healing abilities at night.",
+    "item_description": "A lunar-infused hood designed to complement the garou robes, Suitable for magic users, enhancing healing abilities at night.",
     "item_type": "Mage Armour",
     "item_name": "Lunar Garou Hat",
     "json": {
-      "description": "A lenar-infused hood designed to complement the garou robes, Suitable for magic users, enhancing healing abilities at night.",
+      "description": "A lunar-infused hood designed to complement the garou robes, Suitable for magic users, enhancing healing abilities at night.",
       "weight": "4.0",
       "image": "[[File:Lunar Garou Hat.png|32px]]",
       "name": "Lunar Garou Hat",

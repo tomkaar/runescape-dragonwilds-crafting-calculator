@@ -63941,7 +63941,7 @@
     "wikiLink": "Soul_Fragment",
     "weight": 0,
     "itemType": "Special Material",
-    "stackLimit": 999
+    "stackLimit": 9999
   },
   {
     "id": "wheat",
@@ -66135,7 +66135,7 @@
     "wikiLink": "Infernal_Fragment",
     "weight": 0,
     "itemType": "Special Material",
-    "stackLimit": 999
+    "stackLimit": 9999
   },
   {
     "id": "corrupted-essence-sample",
