@@ -13836,6 +13836,216 @@
     "wikiLink": "60°_Thin_Beam"
   },
   {
+    "id": "square-foundation",
+    "name": "Square Foundation",
+    "image": "Square_Foundation_%28Cabin%29.png",
+    "variants": [
+      {
+        "id": "1077487d7b8a",
+        "name": "Square Foundation",
+        "image": "Square_Foundation_%28Cabin%29.png",
+        "variantName": "Cabin",
+        "recipe": {
+          "id": "62c360060cd2",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 8
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "f2ff3f574fdd",
+        "name": "Square Foundation",
+        "image": "Square_Foundation_%28Cottage%29.png",
+        "variantName": "Cottage",
+        "recipe": {
+          "id": "dbaedd970ebe",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 4
+            },
+            {
+              "itemId": "oak-logs",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "8e199d06f040",
+        "name": "Square Foundation",
+        "image": "Square_Foundation_%28Castle%29.png",
+        "variantName": "Castle",
+        "recipe": {
+          "id": "eedd64b1d104",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "oak-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "stone-block",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 16
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "caea89313bde",
+        "name": "Square Foundation",
+        "image": "Square Foundation (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "74bc46c21f13",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 3
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 3
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 16
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4b4937bef811",
+        "name": "Square Foundation",
+        "image": "Square Foundation (Kharidian) (Red).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "5e0513f6d752",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 3
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 3
+            },
+            {
+              "itemId": "redberries",
+              "quantity": 1
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 16
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "2e6bf0027e2a",
+        "name": "Square Foundation",
+        "image": "Square Foundation (Kharidian) (Blue).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "65d80a35111c",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 3
+            },
+            {
+              "itemId": "flax",
+              "quantity": 1
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 3
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 16
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Square_Foundation"
+  },
+  {
     "id": "medium-triangular-foundation",
     "name": "Medium Triangular Foundation",
     "image": "Medium_Triangular_Foundation_%28Cabin%29.png",
@@ -13864,7 +14074,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 2
+              "experience": 4
             }
           ]
         },
@@ -13958,7 +14168,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 40
+              "experience": 10
             }
           ]
         },
@@ -13996,7 +14206,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 40
+              "experience": 10
             }
           ]
         },
@@ -14034,7 +14244,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 40
+              "experience": 10
             }
           ]
         },
@@ -14172,7 +14382,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 6
+              "experience": 16
             }
           ]
         },
@@ -14210,7 +14420,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 6
+              "experience": 16
             }
           ]
         },
@@ -14248,7 +14458,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 6
+              "experience": 16
             }
           ]
         },
@@ -14288,7 +14498,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 2
+              "experience": 4
             }
           ]
         },
@@ -14348,7 +14558,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 6
+              "experience": 10
             }
           ]
         },
@@ -14382,19 +14592,19 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 6
+              "experience": 10
             }
           ]
         },
         "usesRecipe": null
       },
       {
-        "id": "1b92e0483928",
+        "id": "df7ead2c1b48",
         "name": "Medium Square Foundation",
         "image": "Medium Square Foundation (Kharidian) (Red).png",
         "variantName": "Kharidian",
         "recipe": {
-          "id": "4c1411f0dfb1",
+          "id": "2317b611374a",
           "facilities": [
             "Build Menu"
           ],
@@ -14409,7 +14619,7 @@
             },
             {
               "itemId": "redberries",
-              "quantity": 1
+              "quantity": 2
             },
             {
               "itemId": "yew-plank",
@@ -14420,19 +14630,19 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 6
+              "experience": 10
             }
           ]
         },
         "usesRecipe": null
       },
       {
-        "id": "5e5ed92db26b",
+        "id": "aadc0284da67",
         "name": "Medium Square Foundation",
         "image": "Medium Square Foundation (Kharidian) (Blue).png",
         "variantName": "Kharidian",
         "recipe": {
-          "id": "c2fe60c31fa1",
+          "id": "f30ea309f8f1",
           "facilities": [
             "Build Menu"
           ],
@@ -14443,7 +14653,7 @@
             },
             {
               "itemId": "flax",
-              "quantity": 1
+              "quantity": 2
             },
             {
               "itemId": "ground-sandstone",
@@ -14458,7 +14668,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 6
+              "experience": 10
             }
           ]
         },
@@ -17917,7 +18127,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 12
+              "experience": 16
             }
           ]
         },
@@ -29499,7 +29709,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 16
+              "experience": 8
             }
           ]
         },
@@ -32454,8 +32664,7 @@
     ],
     "wikiLink": "Wolfbane_Dagger",
     "weight": 5,
-    "itemType": "Melee Weapon",
-    "stackLimit": 1
+    "itemType": "Melee Weapon"
   },
   {
     "id": "dorgeshuun-crossbow",

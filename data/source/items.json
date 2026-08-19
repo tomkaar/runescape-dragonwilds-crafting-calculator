@@ -8946,21 +8946,19 @@
   },
   {
     "page_name": "Wolfbane Dagger",
-    "item_description": "A silver dagger that brings fear to all those who howl in the night.",
     "page_name_sub": "Wolfbane Dagger",
-    "item_weight": 5,
-    "item_stacklimit": 1,
+    "item_description": "A silver dagger that brings fear to all those who howl in the night.",
+    "item_type": "Melee Weapon",
+    "item_name": "Wolfbane Dagger",
     "json": {
       "description": "A silver dagger that brings fear to all those who howl in the night.",
       "weight": "5.0",
       "image": "[[File:Wolfbane Dagger.png|32px]]",
       "name": "Wolfbane Dagger",
       "item_type": "Melee Weapon",
-      "stacklimit": "1",
       "image_raw": "Wolfbane Dagger.png"
     },
-    "item_type": "Melee Weapon",
-    "item_name": "Wolfbane Dagger"
+    "item_weight": 5
   },
   {
     "page_name": "Dorgeshuun Crossbow",
@@ -20643,7 +20641,7 @@
     "item_name": "Zombie Arm",
     "json": {
       "description": "A zombie's arm with electrifying properties. High five!",
-      "weight": "15",
+      "weight": "15.0",
       "image": "[[File:Zombie Arm.png|32px]]",
       "name": "Zombie Arm",
       "item_type": "Melee Weapon",
