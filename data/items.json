@@ -10826,7 +10826,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 16
             }
           ]
         },
@@ -10864,7 +10864,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 16
             }
           ]
         },
@@ -10902,7 +10902,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 16
             }
           ]
         },
@@ -70174,8 +70174,8 @@
     "image": "Twtiching Antenna.png",
     "variants": [
       {
-        "id": "twtichingsup-classnoprint91span-classfact-text-titlethe-preceding-quoted-material-has-been-reproduced-verbatim-from-the-quoted-original-and-is-not-a-transcription-errorsicspan93sup-antenna",
-        "name": "Twtiching<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> Antenna",
+        "id": "twtiching-antenna",
+        "name": "Twtiching Antenna",
         "image": "Twtiching Antenna.png",
         "variantName": null,
         "recipe": null,
