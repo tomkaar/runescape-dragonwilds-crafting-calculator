@@ -19166,13 +19166,13 @@
       "description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
       "weight": "0.0",
       "image": "[[File:Twtiching Antenna.png|32px]]",
-      "name": "Twtiching<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> Antenna",
+      "name": "Twtiching Antenna",
       "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "Twtiching Antenna.png"
     },
     "item_type": "Vestige",
-    "item_name": "Twtiching<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> Antenna"
+    "item_name": "Twtiching Antenna"
   },
   {
     "page_name": "Chitinous Carapace",
