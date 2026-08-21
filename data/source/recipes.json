@@ -48612,11 +48612,8 @@
       "Willow Logs",
       "Draconic Leather"
     ],
-    "uses_recipe": [
-      "Rotten Farming Tool"
-    ],
-    "uses_facility": [
-      "Blacksmith's Bench"
+    "uses_skill": [
+      "Artisan"
     ],
     "json": {
       "recipe": "Rotten Farming Tool",
@@ -48655,7 +48652,12 @@
           "image": "[[File:Draconic Leather.png|30px|link=Draconic Leather]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "50"
+        }
+      ],
       "outputs": [
         "Undead Spade"
       ],
@@ -48668,6 +48670,12 @@
         "image": "[[File:Undead Spade.png|30px|link=Undead Spade]]"
       }
     },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "uses_recipe": [
+      "Rotten Farming Tool"
+    ],
     "output": [
       "Undead Spade"
     ]
