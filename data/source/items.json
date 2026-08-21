@@ -5616,11 +5616,11 @@
       "weight": "0",
       "image": "[[File:Suspiciously Light Tattered Boots.png|32px]]",
       "name": "Suspiciously Light Tattered Boots",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "Suspiciously Light Tattered Boots.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "Suspiciously Light Tattered Boots"
   },
   {
@@ -5634,11 +5634,11 @@
       "weight": "0",
       "image": "[[File:An Educational Blade.png|32px]]",
       "name": "An Educational Blade",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "An Educational Blade.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "An Educational Blade"
   },
   {
@@ -5652,11 +5652,11 @@
       "weight": "0",
       "image": "[[File:Parts of a Sinister-Looking Staff.png|32px]]",
       "name": "Parts of a Sinister-Looking Staff",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "Parts of a Sinister-Looking Staff.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "Parts of a Sinister-Looking Staff"
   },
   {
@@ -5670,11 +5670,11 @@
       "weight": "0",
       "image": "[[File:A Corroded Serrated Blade.png|32px]]",
       "name": "A Corroded Serrated Blade",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "A Corroded Serrated Blade.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "A Corroded Serrated Blade"
   },
   {
@@ -5688,11 +5688,11 @@
       "weight": "0",
       "image": "[[File:Remnants of a Shattered Skull.png|32px]]",
       "name": "Remnants of a Shattered Skull",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "Remnants of a Shattered Skull.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "Remnants of a Shattered Skull"
   },
   {
@@ -5706,11 +5706,11 @@
       "weight": "0",
       "image": "[[File:A Cruel Goblin Blade.png|32px]]",
       "name": "A Cruel Goblin Blade",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "A Cruel Goblin Blade.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "A Cruel Goblin Blade"
   },
   {
@@ -5724,11 +5724,11 @@
       "weight": "0",
       "image": "[[File:A Brutal Bladehead.png|32px]]",
       "name": "A Brutal Bladehead",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "A Brutal Bladehead.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "A Brutal Bladehead"
   },
   {
@@ -5742,11 +5742,11 @@
       "weight": "0",
       "image": "[[File:A String of Sinew.png|32px]]",
       "name": "A String of Sinew",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "A String of Sinew.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "A String of Sinew"
   },
   {
@@ -5760,11 +5760,11 @@
       "weight": "0",
       "image": "[[File:A Mysterious Crescent Carving.png|32px]]",
       "name": "A Mysterious Crescent Carving",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "A Mysterious Crescent Carving.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "A Mysterious Crescent Carving"
   },
   {
@@ -6737,11 +6737,11 @@
       "weight": "0",
       "image": "[[File:Azure Metal Contraption.png|32px]]",
       "name": "Azure Metal Contraption",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "Azure Metal Contraption.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "Azure Metal Contraption"
   },
   {
@@ -9888,11 +9888,11 @@
       "weight": "0.0",
       "image": "[[File:Burnished Belt Buckle.png|32px]]",
       "name": "Burnished Belt Buckle",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "Burnished Belt Buckle.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "Burnished Belt Buckle"
   },
   {
@@ -11331,14 +11331,14 @@
     "page_name": "Shroud of Noggin",
     "page_name_sub": "Shroud of Noggin",
     "item_description": "A ghostly sackcloth mask. Reduces Wither buildup while worn.",
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "Shroud of Noggin",
     "json": {
       "description": "A ghostly sackcloth mask. Reduces Wither buildup while worn.",
       "weight": "1.0",
       "image": "[[File:Shroud of Noggin.png|32px]]",
       "name": "Shroud of Noggin",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "image_raw": "Shroud of Noggin.png"
     },
     "item_weight": 1
@@ -11369,14 +11369,14 @@
     "item_stacklimit": 99,
     "json": {
       "description": "The remains of a longbow damaged in a dragon attack. Perhaps you could learn something from it.",
-      "weight": "0",
+      "weight": "0.0",
       "image": "[[File:A Simple Broken Bow.png|32px]]",
       "name": "A Simple Broken Bow",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "A Simple Broken Bow.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "A Simple Broken Bow"
   },
   {
@@ -11390,11 +11390,11 @@
       "weight": "0",
       "image": "[[File:A Threadbare Grain Sack.png|32px]]",
       "name": "A Threadbare Grain Sack",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "A Threadbare Grain Sack.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "A Threadbare Grain Sack"
   },
   {
@@ -11625,11 +11625,11 @@
       "weight": "0.0",
       "image": "[[File:Corroded White Visor.png|32px]]",
       "name": "Corroded White Visor",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "Corroded White Visor.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "Corroded White Visor"
   },
   {
@@ -11643,11 +11643,11 @@
       "weight": "0.0",
       "image": "[[File:VESTIGE: Crushed White Cuisse.png|32px]]",
       "name": "Crushed White Cuisse",
-      "item_type": "Consumable",
+      "item_type": "Vestige",
       "stacklimit": "99",
       "image_raw": "VESTIGE: Crushed White Cuisse.png"
     },
-    "item_type": "Consumable",
+    "item_type": "Vestige",
     "item_name": "Crushed White Cuisse"
   },
   {
@@ -12932,21 +12932,19 @@
   },
   {
     "page_name": "Black Sword",
-    "item_description": "A sword in the style of the Black Knights, forged from black metal.",
     "page_name_sub": "Black Sword",
-    "item_weight": 15,
-    "item_stacklimit": 1,
+    "item_description": "A sword in the style of the Black Knights, forged from black metal.",
+    "item_type": "Melee Weapon",
+    "item_name": "Black Sword",
     "json": {
       "description": "A sword in the style of the Black Knights, forged from black metal.",
       "weight": "15.0",
       "image": "[[File:Black Sword.png|32px]]",
       "name": "Black Sword",
       "item_type": "Melee Weapon",
-      "stacklimit": "1",
       "image_raw": "Black Sword.png"
     },
-    "item_type": "Melee Weapon",
-    "item_name": "Black Sword"
+    "item_weight": 15
   },
   {
     "page_name": "Maple Shortbow",
@@ -20085,21 +20083,19 @@
   },
   {
     "page_name": "Keris",
-    "item_description": "This dagger is thin and has a wavy edge to better slide through gaps in armour.",
     "page_name_sub": "Keris",
-    "item_weight": 5,
-    "item_stacklimit": 1,
+    "item_description": "This dagger is thin and has a wavy edge to better slide through gaps in armour.",
+    "item_type": "Melee Weapon",
+    "item_name": "Keris",
     "json": {
       "description": "This dagger is thin and has a wavy edge to better slide through gaps in armour.",
       "weight": "5.0",
       "image": "[[File:Keris.png|32px]]",
       "name": "Keris",
       "item_type": "Melee Weapon",
-      "stacklimit": "1",
       "image_raw": "Keris.png"
     },
-    "item_type": "Melee Weapon",
-    "item_name": "Keris"
+    "item_weight": 5
   },
   {
     "page_name": "Obsidian Cape",

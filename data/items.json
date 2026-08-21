@@ -36821,14 +36821,21 @@
             }
           ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 50
+            }
+          ]
         },
         "usesRecipe": [
           "Rotten Farming Tool"
         ]
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Blacksmith's Bench"
     ],
@@ -37211,7 +37218,7 @@
     ],
     "wikiLink": "Shroud_of_Noggin",
     "weight": 1,
-    "itemType": "Basic Item"
+    "itemType": "Vestige"
   },
   {
     "id": "postbox",
@@ -40217,8 +40224,7 @@
     ],
     "wikiLink": "Black_Sword",
     "weight": 15,
-    "itemType": "Melee Weapon",
-    "stackLimit": 1
+    "itemType": "Melee Weapon"
   },
   {
     "id": "maple-shortbow",
@@ -56347,8 +56353,7 @@
     ],
     "wikiLink": "Keris",
     "weight": 5,
-    "itemType": "Melee Weapon",
-    "stackLimit": 1
+    "itemType": "Melee Weapon"
   },
   {
     "id": "obsidian-cape",
@@ -62977,7 +62982,7 @@
     "facilities": [],
     "wikiLink": "Suspiciously_Light_Tattered_Boots",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
@@ -62998,7 +63003,7 @@
     "facilities": [],
     "wikiLink": "An_Educational_Blade",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
@@ -63019,7 +63024,7 @@
     "facilities": [],
     "wikiLink": "Parts_of_a_Sinister-Looking_Staff",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
@@ -63040,7 +63045,7 @@
     "facilities": [],
     "wikiLink": "A_Corroded_Serrated_Blade",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
@@ -63061,7 +63066,7 @@
     "facilities": [],
     "wikiLink": "Remnants_of_a_Shattered_Skull",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
@@ -63082,7 +63087,7 @@
     "facilities": [],
     "wikiLink": "A_Cruel_Goblin_Blade",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
@@ -63103,7 +63108,7 @@
     "facilities": [],
     "wikiLink": "A_Brutal_Bladehead",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
@@ -63124,7 +63129,7 @@
     "facilities": [],
     "wikiLink": "A_String_of_Sinew",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
@@ -63145,7 +63150,7 @@
     "facilities": [],
     "wikiLink": "A_Mysterious_Crescent_Carving",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
@@ -63941,7 +63946,7 @@
     "facilities": [],
     "wikiLink": "Azure_Metal_Contraption",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
@@ -65285,7 +65290,7 @@
     "facilities": [],
     "wikiLink": "Burnished_Belt_Buckle",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
@@ -65965,7 +65970,7 @@
     "facilities": [],
     "wikiLink": "A_Simple_Broken_Bow",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
@@ -65986,7 +65991,7 @@
     "facilities": [],
     "wikiLink": "A_Threadbare_Grain_Sack",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
@@ -66175,7 +66180,7 @@
     "facilities": [],
     "wikiLink": "Corroded_White_Visor",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
@@ -66196,7 +66201,7 @@
     "facilities": [],
     "wikiLink": "Crushed_White_Cuisse",
     "weight": 0,
-    "itemType": "Consumable",
+    "itemType": "Vestige",
     "stackLimit": 99
   },
   {
