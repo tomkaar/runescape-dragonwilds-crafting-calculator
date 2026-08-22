@@ -20673,7 +20673,7 @@
     "item_name": "Toktz-Xil-Ak",
     "json": {
       "description": "A double-pointed sword that is extremely efficient at finding the weak spots in your enemies.",
-      "weight": "15",
+      "weight": "15.0",
       "image": "[[File:Toktz-Xil-Ak.png|32px]]",
       "name": "Toktz-Xil-Ak",
       "item_type": "Melee Weapon",

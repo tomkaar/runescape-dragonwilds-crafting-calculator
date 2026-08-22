@@ -13120,7 +13120,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "6"
+          "experience": "8"
         }
       ],
       "outputs": [
@@ -13164,7 +13164,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "8"
+          "experience": "12"
         }
       ],
       "outputs": [
@@ -13314,7 +13314,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "6"
+          "experience": "8"
         }
       ],
       "outputs": [
@@ -13358,7 +13358,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "12"
         }
       ],
       "outputs": [
@@ -13420,7 +13420,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "12"
         }
       ],
       "outputs": [
@@ -13508,7 +13508,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "6"
+          "experience": "8"
         }
       ],
       "outputs": [
@@ -13552,7 +13552,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "8"
+          "experience": "12"
         }
       ],
       "outputs": [
@@ -13614,7 +13614,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "8"
+          "experience": "12"
         }
       ],
       "outputs": [
@@ -13702,7 +13702,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "4"
+          "experience": "5"
         }
       ],
       "outputs": [
@@ -13746,7 +13746,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "6"
+          "experience": "9"
         }
       ],
       "outputs": [
@@ -13808,7 +13808,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "9"
         }
       ],
       "outputs": [
@@ -13879,7 +13879,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "9"
         }
       ],
       "outputs": [
@@ -13950,7 +13950,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "9"
         }
       ],
       "outputs": [
@@ -14436,7 +14436,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "8"
+          "experience": "10"
         }
       ],
       "outputs": [
@@ -14498,7 +14498,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "10"
         }
       ],
       "outputs": [
@@ -14569,7 +14569,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "10"
         }
       ],
       "outputs": [
@@ -14640,7 +14640,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "10"
         }
       ],
       "outputs": [
@@ -14843,7 +14843,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "16"
         }
       ],
       "outputs": [
@@ -14914,7 +14914,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "16"
         }
       ],
       "outputs": [
@@ -14985,7 +14985,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "16"
         }
       ],
       "outputs": [
@@ -15117,7 +15117,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "8"
+          "experience": "10"
         }
       ],
       "outputs": [
@@ -15130,6 +15130,210 @@
         "qty": 1,
         "item": "Medium Triangular Tile",
         "image": "[[File:Medium Triangular Tile (Castle).png|30px|link=Medium Triangular Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Medium Triangular Tile"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "3",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Medium Triangular Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Triangular Tile",
+        "link": "Medium Triangular Tile",
+        "qty": 1,
+        "item": "Medium Triangular Tile",
+        "image": "[[File:Medium Triangular Tile (Kharidian).png|30px|link=Medium Triangular Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Medium Triangular Tile"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank",
+      "Redberries"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "3",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "2",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Medium Triangular Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Triangular Tile",
+        "link": "Medium Triangular Tile",
+        "qty": 1,
+        "item": "Medium Triangular Tile",
+        "image": "[[File:Medium Triangular Tile (Kharidian) (Red).png|30px|link=Medium Triangular Tile]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Medium Triangular Tile"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ground Sandstone",
+      "Dirty Water",
+      "Yew Plank",
+      "Flax"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Ground Sandstone",
+          "link": "Ground Sandstone",
+          "qty": "3",
+          "item": "Ground Sandstone",
+          "image": "[[File:Ground Sandstone.png|30px|link=Ground Sandstone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "3",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Flax",
+          "link": "Flax",
+          "qty": "2",
+          "item": "Flax",
+          "image": "[[File:Flax.png|30px|link=Flax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Medium Triangular Tile"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium Triangular Tile",
+        "link": "Medium Triangular Tile",
+        "qty": 1,
+        "item": "Medium Triangular Tile",
+        "image": "[[File:Medium Triangular Tile (Kharidian) (Red).png|30px|link=Medium Triangular Tile]]"
       }
     },
     "uses_facility": [
@@ -31500,7 +31704,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "6"
+          "experience": "4"
         }
       ],
       "outputs": [
@@ -31588,7 +31792,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "12"
+          "experience": "8"
         }
       ],
       "outputs": [
@@ -31650,7 +31854,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "8"
         }
       ],
       "outputs": [
@@ -67230,7 +67434,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "10"
+          "experience": "16"
         }
       ],
       "outputs": [
