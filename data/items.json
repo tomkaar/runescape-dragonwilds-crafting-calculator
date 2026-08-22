@@ -10182,7 +10182,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 6
+              "experience": 8
             }
           ]
         },
@@ -10208,7 +10208,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 8
+              "experience": 12
             }
           ]
         },
@@ -10308,7 +10308,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 6
+              "experience": 8
             }
           ]
         },
@@ -10334,7 +10334,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 12
             }
           ]
         },
@@ -10368,7 +10368,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 12
             }
           ]
         },
@@ -10434,7 +10434,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 6
+              "experience": 8
             }
           ]
         },
@@ -10460,7 +10460,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 8
+              "experience": 12
             }
           ]
         },
@@ -10494,7 +10494,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 8
+              "experience": 12
             }
           ]
         },
@@ -10560,7 +10560,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 4
+              "experience": 5
             }
           ]
         },
@@ -10586,7 +10586,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 6
+              "experience": 9
             }
           ]
         },
@@ -10620,7 +10620,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 9
             }
           ]
         },
@@ -10658,7 +10658,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 9
             }
           ]
         },
@@ -10696,7 +10696,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 9
             }
           ]
         },
@@ -10998,7 +10998,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 8
+              "experience": 10
             }
           ]
         },
@@ -11032,7 +11032,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 10
             }
           ]
         },
@@ -11070,7 +11070,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 10
             }
           ]
         },
@@ -11108,7 +11108,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 10
             }
           ]
         },
@@ -11238,7 +11238,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 16
             }
           ]
         },
@@ -11276,7 +11276,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 16
             }
           ]
         },
@@ -11314,7 +11314,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 16
             }
           ]
         },
@@ -11406,7 +11406,117 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 8
+              "experience": 10
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "0f00e501df5c",
+        "name": "Medium Triangular Tile",
+        "image": "Medium Triangular Tile (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "e63a049f0274",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 3
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 3
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 10
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "09cd13687609",
+        "name": "Medium Triangular Tile",
+        "image": "Medium Triangular Tile (Kharidian) (Red).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "d8e29848da12",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 3
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 3
+            },
+            {
+              "itemId": "redberries",
+              "quantity": 2
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 10
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "34cdec7387cb",
+        "name": "Medium Triangular Tile",
+        "image": "Medium Triangular Tile (Kharidian) (Red).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "1176c812b76f",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "dirty-water",
+              "quantity": 3
+            },
+            {
+              "itemId": "flax",
+              "quantity": 2
+            },
+            {
+              "itemId": "ground-sandstone",
+              "quantity": 3
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 10
             }
           ]
         },
@@ -23171,7 +23281,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 6
+              "experience": 4
             }
           ]
         },
@@ -23223,7 +23333,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 12
+              "experience": 8
             }
           ]
         },
@@ -23257,7 +23367,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 8
             }
           ]
         },
@@ -51208,7 +51318,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 10
+              "experience": 16
             }
           ]
         },
