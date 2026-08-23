@@ -4645,12 +4645,12 @@
     "image": "Dragonblight Shield.png",
     "variants": [
       {
-        "id": "df24d0f6f340",
+        "id": "47d9440b5ba1",
         "name": "Dragonblight Shield",
         "image": "Dragonblight Shield.png",
         "variantName": null,
         "recipe": {
-          "id": "392ceec7d973",
+          "id": "62264ea10cb4",
           "facilities": [
             "Blacksmith's Bench"
           ],
@@ -4660,7 +4660,7 @@
               "quantity": 1
             },
             {
-              "itemId": "draconic-visage",
+              "itemId": "noxious-draconic-visage",
               "quantity": 1
             },
             {
@@ -5247,7 +5247,7 @@
       "Blacksmith's Bench"
     ],
     "wikiLink": "Anti-Dragon_Shield",
-    "weight": 7,
+    "weight": 10,
     "itemType": "Basic Item"
   },
   {
@@ -9365,7 +9365,7 @@
       "Blacksmith's Bench"
     ],
     "wikiLink": "Thane's_Authority",
-    "weight": 8,
+    "weight": 25,
     "itemType": "Melee Weapon"
   },
   {
@@ -57707,8 +57707,7 @@
     ],
     "wikiLink": "TzHaar-Ket-Om",
     "weight": 25,
-    "itemType": "Melee Weapon",
-    "stackLimit": 1
+    "itemType": "Melee Weapon"
   },
   {
     "id": "lumber-backpack",
@@ -62011,12 +62010,12 @@
   {
     "id": "noxious-draconic-visage",
     "name": "Noxious Draconic Visage",
-    "image": "Draconic Visage.png",
+    "image": "Noxious Draconic Visage.png",
     "variants": [
       {
         "id": "noxious-draconic-visage",
         "name": "Noxious Draconic Visage",
-        "image": "Draconic Visage.png",
+        "image": "Noxious Draconic Visage.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -62026,7 +62025,7 @@
     "facilities": [],
     "wikiLink": "Noxious_Draconic_Visage",
     "weight": 0.5,
-    "itemType": "Quest Item"
+    "itemType": "Component"
   },
   {
     "id": "coal",

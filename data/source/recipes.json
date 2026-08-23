@@ -6007,7 +6007,7 @@
   },
   {
     "uses_material": [
-      "Draconic Visage",
+      "Noxious Draconic Visage",
       "Anti-Dragon Shield",
       "Vault Shard",
       "Vault Core"
@@ -6020,11 +6020,11 @@
       "materials": [
         {
           "quantity": "1",
-          "name": "Draconic Visage",
-          "link": "Draconic Visage",
+          "name": "Noxious Draconic Visage",
+          "link": "Noxious Draconic Visage",
           "qty": "1",
-          "item": "Draconic Visage",
-          "image": "[[File:Draconic Visage.png|30px|link=Draconic Visage]]"
+          "item": "Noxious Draconic Visage",
+          "image": "[[File:Noxious Draconic Visage.png|30px|link=Noxious Draconic Visage]]"
         },
         {
           "quantity": "1",
