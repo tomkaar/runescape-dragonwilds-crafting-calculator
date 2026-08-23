@@ -1997,11 +1997,11 @@
   {
     "page_name": "Dragonblight Shield",
     "page_name_sub": "Dragonblight Shield",
-    "item_description": "The Spirit of Velgar lives on within this shield corrupting your enemies.",
+    "item_description": "The Spirit of Velgar lives on within this shield, corrupting your enemies.",
     "item_type": "Basic Item",
     "item_name": "Dragonblight Shield",
     "json": {
-      "description": "The Spirit of Velgar lives on within this shield corrupting your enemies.",
+      "description": "The Spirit of Velgar lives on within this shield, corrupting your enemies.",
       "weight": "10.0",
       "image": "[[File:Dragonblight Shield.png|32px]]",
       "name": "Dragonblight Shield",
@@ -2178,13 +2178,13 @@
     "item_name": "Anti-Dragon Shield",
     "json": {
       "description": "This provides partial protection from dragonbreath attacks.",
-      "weight": "7.0",
+      "weight": "10.0",
       "image": "[[File:Anti-Dragon Shield.png|32px]]",
       "name": "Anti-Dragon Shield",
       "item_type": "Basic Item",
       "image_raw": "Anti-Dragon Shield.png"
     },
-    "item_weight": 7
+    "item_weight": 10
   },
   {
     "page_name": "Goblin War Banner",
@@ -4300,13 +4300,13 @@
     "item_name": "Thane's Authority",
     "json": {
       "description": "A hefting greataxe, wielded by the powerful garou thanes.",
-      "weight": "8.0",
+      "weight": "25.0",
       "image": "[[File:Thane's Authority.png|32px]]",
       "name": "Thane's Authority",
       "item_type": "Melee Weapon",
       "image_raw": "Thane's Authority.png"
     },
-    "item_weight": 8
+    "item_weight": 25
   },
   {
     "page_name": "Mysterious Orb (Uncharged)",
@@ -4549,16 +4549,16 @@
   {
     "page_name": "Noxious Draconic Visage",
     "page_name_sub": "Noxious Draconic Visage",
-    "item_description": "Dragon Visage",
-    "item_type": "Quest Item",
+    "item_description": "The image of a fearsome dragon. Used in crafting powerful equipment.",
+    "item_type": "Component",
     "item_name": "Noxious Draconic Visage",
     "json": {
-      "description": "Dragon Visage",
+      "description": "The image of a fearsome dragon. Used in crafting powerful equipment.",
       "weight": "0.5",
-      "image": "[[File:Draconic Visage.png|32px]]",
+      "image": "[[File:Noxious Draconic Visage.png|32px]]",
       "name": "Noxious Draconic Visage",
-      "item_type": "Quest Item",
-      "image_raw": "Draconic Visage.png"
+      "item_type": "Component",
+      "image_raw": "Noxious Draconic Visage.png"
     },
     "item_weight": 0.5
   },
@@ -20683,25 +20683,19 @@
   },
   {
     "page_name": "TzHaar-Ket-Om",
-    "item_description": "A massive warhammer of obsidian hue. Each swing carries the weight of something ancient.",
     "page_name_sub": "TzHaar-Ket-Om",
-    "item_weight": 25,
-    "item_stacklimit": 1,
+    "item_description": "A massive warhammer of obsidian hue. Each swing carries the weight of something ancient.",
+    "item_type": "Melee Weapon",
+    "item_name": "TzHaar-Ket-Om",
     "json": {
       "description": "A massive warhammer of obsidian hue. Each swing carries the weight of something ancient.",
       "weight": "25.0",
-      "compostvalue": "",
-      "health": "",
       "image": "[[File:TzHaar-Ket-Om.png|32px]]",
       "name": "TzHaar-Ket-Om",
       "item_type": "Melee Weapon",
-      "sustenance": "",
-      "hydration": "",
-      "stacklimit": "1",
       "image_raw": "TzHaar-Ket-Om.png"
     },
-    "item_type": "Melee Weapon",
-    "item_name": "TzHaar-Ket-Om"
+    "item_weight": 25
   },
   {
     "page_name": "Tome of Volcano",
