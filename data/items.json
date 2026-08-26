@@ -42875,8 +42875,7 @@
     ],
     "wikiLink": "Black_Shield",
     "weight": 10,
-    "itemType": "Melee Armour",
-    "stackLimit": 0
+    "itemType": "Shield"
   },
   {
     "id": "dowdun-reach-cape",
@@ -58310,7 +58309,7 @@
     ],
     "wikiLink": "TokTz-Ket-Xil",
     "weight": 10,
-    "itemType": "Melee Armour"
+    "itemType": "Shield"
   },
   {
     "id": "super-antifire-potion",

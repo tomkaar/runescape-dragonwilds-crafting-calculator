@@ -663,7 +663,7 @@
     "item_stacklimit": 99,
     "json": {
       "description": "A mysterious porous rock used as a base for powerful runes.",
-      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000002-QINU`\"'",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
       "item_type": "Basic Item",
@@ -9380,7 +9380,7 @@
     "item_name": "Dragoncurse Shield",
     "json": {
       "description": "The spirit of Imaru lives on within this shield.",
-      "weight": "10",
+      "weight": "10.0",
       "image": "[[File:Dragoncurse Shield.png|32px]]",
       "name": "Dragoncurse Shield",
       "item_type": "Shield",
@@ -14118,21 +14118,19 @@
   },
   {
     "page_name": "Black Shield",
-    "item_description": "A shield popularised by the Black Knights and made from black matal.",
     "page_name_sub": "Black Shield",
-    "item_weight": 10,
-    "item_stacklimit": 0,
+    "item_description": "A shield popularised by the Black Knights and made from black matal.",
+    "item_type": "Shield",
+    "item_name": "Black Shield",
     "json": {
       "description": "A shield popularised by the Black Knights and made from black matal.",
       "weight": "10.0",
       "image": "[[File:Black Shield.png|32px]]",
       "name": "Black Shield",
-      "item_type": "Melee Armour",
-      "stacklimit": "",
+      "item_type": "Shield",
       "image_raw": "Black Shield.png"
     },
-    "item_type": "Melee Armour",
-    "item_name": "Black Shield"
+    "item_weight": 10
   },
   {
     "page_name": "Bloodstained Black Visor",
@@ -20939,14 +20937,14 @@
     "page_name": "TokTz-Ket-Xil",
     "page_name_sub": "TokTz-Ket-Xil",
     "item_description": "A jagged shield of obsidian, shaped to deflect and punish in equal measure. Its edges are as dangerous as the blows it stops.",
-    "item_type": "Melee Armour",
+    "item_type": "Shield",
     "item_name": "TokTz-Ket-Xil",
     "json": {
       "description": "A jagged shield of obsidian, shaped to deflect and punish in equal measure. Its edges are as dangerous as the blows it stops.",
       "weight": "10.0",
       "image": "[[File:TokTz-Ket-Xil.png|32px]]",
       "name": "TokTz-Ket-Xil",
-      "item_type": "Melee Armour",
+      "item_type": "Shield",
       "image_raw": "TokTz-Ket-Xil.png"
     },
     "item_weight": 10
