@@ -34620,15 +34620,15 @@
         }
       ],
       "outputs": [
-        "Grieving Moon Staff"
+        "Grieving Moonstaff"
       ],
       "output": {
         "quantity": "1",
-        "name": "Grieving Moon Staff",
-        "link": "Grieving Moon Staff",
+        "name": "Grieving Moonstaff",
+        "link": "Grieving Moonstaff",
         "qty": "1",
-        "item": "Grieving Moon Staff",
-        "image": "[[File:Grieving Moon Staff.png|30px|link=Grieving Moon Staff]]"
+        "item": "Grieving Moonstaff",
+        "image": "[[File:Grieving Moonstaff.png|30px|link=Grieving Moonstaff]]"
       }
     },
     "uses_facility": [
@@ -34638,7 +34638,7 @@
       "A Mysterious Crescent Carving"
     ],
     "output": [
-      "Grieving Moon Staff"
+      "Grieving Moonstaff"
     ]
   },
   {

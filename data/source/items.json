@@ -4803,20 +4803,20 @@
     "item_weight": 2
   },
   {
-    "page_name": "Grieving Moon Staff",
-    "page_name_sub": "Grieving Moon Staff",
+    "page_name": "Grieving Moonstaff",
+    "page_name_sub": "Grieving Moonstaff",
     "item_description": "This staff is dedicated to Lougrim, the fallen Garou goddess of the Moon.",
     "item_type": "Magic Weapon",
-    "item_name": "Grieving Moon Staff",
+    "item_name": "Grieving Moonstaff",
     "json": {
       "description": "This staff is dedicated to Lougrim, the fallen Garou goddess of the Moon.",
-      "weight": "6.0",
-      "image": "[[File:Grieving Moon Staff.png|32px]]",
-      "name": "Grieving Moon Staff",
+      "weight": "15.0",
+      "image": "[[File:Grieving Moonstaff.png|32px]]",
+      "name": "Grieving Moonstaff",
       "item_type": "Magic Weapon",
-      "image_raw": "Grieving Moon Staff.png"
+      "image_raw": "Grieving Moonstaff.png"
     },
-    "item_weight": 6
+    "item_weight": 15
   },
   {
     "page_name": "Bird Nest",
@@ -18886,21 +18886,19 @@
   },
   {
     "page_name": "Dragonfire Shield",
-    "item_description": "A shield forged in the wake of Fuzan's fall. Its scales still glow with a smoldering heat, as though the dragon's fury refuses to fade.",
     "page_name_sub": "Dragonfire Shield",
-    "item_weight": 10,
-    "item_stacklimit": 1,
+    "item_description": "A shield forged in the wake of Fuzan's fall. Its scales still glow with a smoldering heat, as though the dragon's fury refuses to fade.",
+    "item_type": "Shield",
+    "item_name": "Dragonfire Shield",
     "json": {
       "description": "A shield forged in the wake of Fuzan's fall. Its scales still glow with a smoldering heat, as though the dragon's fury refuses to fade.",
       "weight": "10.0",
       "image": "[[File:Dragonfire Shield.png|32px]]",
       "name": "Dragonfire Shield",
       "item_type": "Shield",
-      "stacklimit": "1",
       "image_raw": "Dragonfire Shield.png"
     },
-    "item_type": "Shield",
-    "item_name": "Dragonfire Shield"
+    "item_weight": 10
   },
   {
     "page_name": "Fibrous Pipe Cactus",
