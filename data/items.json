@@ -25613,17 +25613,17 @@
     "itemType": "Basic Item"
   },
   {
-    "id": "grieving-moon-staff",
-    "name": "Grieving Moon Staff",
-    "image": "Grieving Moon Staff.png",
+    "id": "grieving-moonstaff",
+    "name": "Grieving Moonstaff",
+    "image": "Grieving Moonstaff.png",
     "variants": [
       {
-        "id": "2472f896bf23",
-        "name": "Grieving Moon Staff",
-        "image": "Grieving Moon Staff.png",
+        "id": "87d03b90506f",
+        "name": "Grieving Moonstaff",
+        "image": "Grieving Moonstaff.png",
         "variantName": null,
         "recipe": {
-          "id": "61ca56ae1fdf",
+          "id": "9f991bfb09d2",
           "facilities": [
             "Mystic Forge"
           ],
@@ -25660,8 +25660,8 @@
     "facilities": [
       "Mystic Forge"
     ],
-    "wikiLink": "Grieving_Moon_Staff",
-    "weight": 6,
+    "wikiLink": "Grieving_Moonstaff",
+    "weight": 15,
     "itemType": "Magic Weapon"
   },
   {
@@ -53708,8 +53708,7 @@
     ],
     "wikiLink": "Dragonfire_Shield",
     "weight": 10,
-    "itemType": "Shield",
-    "stackLimit": 1
+    "itemType": "Shield"
   },
   {
     "id": "yew-farming-plot",
