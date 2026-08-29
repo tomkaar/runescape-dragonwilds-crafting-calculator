@@ -12997,11 +12997,11 @@
   {
     "page_name": "Subjugation Staff",
     "page_name_sub": "Subjugation Staff",
-    "item_description": "A powerful battlestaff, once owned and used by Arcmage Alric",
+    "item_description": "A powerful battlestaff, once owned and used by Arcmage Alric.",
     "item_type": "Magic Weapon",
     "item_name": "Subjugation Staff",
     "json": {
-      "description": "A powerful battlestaff, once owned and used by Arcmage Alric",
+      "description": "A powerful battlestaff, once owned and used by Arcmage Alric.",
       "weight": "15.0",
       "image": "[[File:Subjugation Staff.png|32px]]",
       "name": "Subjugation Staff",
@@ -22687,5 +22687,21 @@
     },
     "item_type": "Resource",
     "item_name": "Tome of Agility - Vol 2"
+  },
+  {
+    "page_name": "Dormant Abyssal Whip",
+    "page_name_sub": "Dormant Abyssal Whip",
+    "item_description": "",
+    "item_type": "Melee Weapon",
+    "item_name": "Dormant Abyssal Whip",
+    "json": {
+      "description": "",
+      "weight": "",
+      "image": "[[File:Dormant Abyssal Whip.png|32px]]",
+      "name": "Dormant Abyssal Whip",
+      "item_type": "Melee Weapon",
+      "image_raw": "Dormant Abyssal Whip.png"
+    },
+    "item_weight": 0
   }
 ]
