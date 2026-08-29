@@ -78491,5 +78491,94 @@
     "output": [
       "Gold Medal"
     ]
+  },
+  {
+    "uses_material": [
+      "Abyssal Spine",
+      "Hard Leather",
+      "Swamp Thread",
+      "Poison Ichor",
+      "Vault Shard",
+      "Vault Core"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Abyssal Spine",
+          "link": "Abyssal Spine",
+          "qty": "1",
+          "item": "Abyssal Spine",
+          "image": "[[File:Abyssal Spine.png|30px|link=Abyssal Spine]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Hard Leather",
+          "link": "Hard Leather",
+          "qty": "12",
+          "item": "Hard Leather",
+          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Swamp Thread",
+          "link": "Swamp Thread",
+          "qty": "12",
+          "item": "Swamp Thread",
+          "image": "[[File:Swamp Thread.png|30px|link=Swamp Thread]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Poison Ichor",
+          "link": "Poison Ichor",
+          "qty": "6",
+          "item": "Poison Ichor",
+          "image": "[[File:Poison Ichor.png|30px|link=Poison Ichor]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "12",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Vault Core",
+          "link": "Vault Core",
+          "qty": "1",
+          "item": "Vault Core",
+          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Abyssal Whip"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Abyssal Whip",
+        "link": "Abyssal Whip",
+        "qty": "1",
+        "item": "Abyssal Whip",
+        "image": "[[File:Abyssal Whip.png|30px|link=Abyssal Whip]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "output": [
+      "Abyssal Whip"
+    ]
   }
 ]

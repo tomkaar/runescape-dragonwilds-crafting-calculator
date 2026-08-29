@@ -72532,5 +72532,25 @@
     "weight": 2,
     "itemType": "Resource",
     "stackLimit": 99
+  },
+  {
+    "id": "dormant-abyssal-whip",
+    "name": "Dormant Abyssal Whip",
+    "image": "Dormant Abyssal Whip.png",
+    "variants": [
+      {
+        "id": "dormant-abyssal-whip",
+        "name": "Dormant Abyssal Whip",
+        "image": "Dormant Abyssal Whip.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Dormant_Abyssal_Whip",
+    "weight": 0,
+    "itemType": "Melee Weapon"
   }
 ]
