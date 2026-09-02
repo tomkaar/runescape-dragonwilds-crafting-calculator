@@ -156,7 +156,8 @@
         "recipe": {
           "id": "3f3b117e65ce",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -179,7 +180,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Rat_Roast",
     "weight": 1,
@@ -1079,7 +1081,8 @@
         "recipe": {
           "id": "c7bb9daaf5a4",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -1105,7 +1108,8 @@
         "recipe": {
           "id": "32795a630a6d",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -1128,7 +1132,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Clean_Water",
     "weight": 1,
@@ -4356,7 +4361,8 @@
         "recipe": {
           "id": "c445c1b3f178",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -4379,7 +4385,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Baked_Potato",
     "weight": 0.4,
@@ -5438,7 +5445,8 @@
         "recipe": {
           "id": "10efee3e6d51",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -5461,7 +5469,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Dried_Redberries",
     "weight": 0.1,
@@ -5483,7 +5492,8 @@
         "recipe": {
           "id": "b3a345d8222e",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -5506,7 +5516,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Fried_Cabbage",
     "weight": 0.4,
@@ -8324,7 +8335,8 @@
         "recipe": {
           "id": "f181f4aa5799",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -8347,7 +8359,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Dried_Dwellberries",
     "weight": 0.1,
@@ -8412,7 +8425,8 @@
         "recipe": {
           "id": "8acf750f93c0",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -8435,7 +8449,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Fillet",
     "weight": 1,
@@ -8659,7 +8674,8 @@
         "recipe": {
           "id": "938b193d1c49",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -8682,7 +8698,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Haunch",
     "weight": 1,
@@ -8917,7 +8934,8 @@
         "recipe": {
           "id": "1e5a4c2fe39c",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -8940,7 +8958,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Steak",
     "weight": 1,
@@ -9299,12 +9318,19 @@
           ],
           "materials": [],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Armour Bench"
     ],
@@ -27566,7 +27592,8 @@
         "recipe": {
           "id": "f800a8011db4",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -27589,7 +27616,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Fried_Egg",
     "weight": 0.4,
@@ -27819,7 +27847,8 @@
         "recipe": {
           "id": "976a3da21169",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -27842,7 +27871,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Dried_Peach",
     "weight": 0.1,
@@ -28131,7 +28161,8 @@
         "recipe": {
           "id": "41ca4a58530a",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -28154,7 +28185,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Potato",
     "weight": 0.2,
@@ -28175,7 +28207,8 @@
         "recipe": {
           "id": "735f0694cecb",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -28198,7 +28231,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Onion",
     "weight": 0.4,
@@ -28219,7 +28253,8 @@
         "recipe": {
           "id": "7fd76fe39a38",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -28242,7 +28277,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Mushroom",
     "weight": 0.4,
@@ -28263,7 +28299,8 @@
         "recipe": {
           "id": "e70f19937c0a",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -28286,7 +28323,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Flank",
     "weight": 1,
@@ -28307,7 +28345,8 @@
         "recipe": {
           "id": "2d3206f79e55",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -28330,7 +28369,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Steak",
     "weight": 1,
@@ -28351,7 +28391,8 @@
         "recipe": {
           "id": "8e72d560b4b0",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -28374,7 +28415,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Cabbage",
     "weight": 0.1,
@@ -28395,7 +28437,8 @@
         "recipe": {
           "id": "7c246e8cac5c",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -28418,7 +28461,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Dwellberries",
     "weight": 0.1,
@@ -28439,7 +28483,8 @@
         "recipe": {
           "id": "028139c91d06",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -28462,7 +28507,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Rat_Roast",
     "weight": 1,
@@ -28483,7 +28529,8 @@
         "recipe": {
           "id": "63cb46e85b1d",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -28506,7 +28553,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Haunch",
     "weight": 1,
@@ -28527,7 +28575,8 @@
         "recipe": {
           "id": "62e33df54dbf",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -28550,7 +28599,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Fillet",
     "weight": 1,
@@ -28617,7 +28667,8 @@
         "recipe": {
           "id": "992aeb50dd54",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -28640,7 +28691,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Peach",
     "weight": 0.2,
@@ -28661,7 +28713,8 @@
         "recipe": {
           "id": "acf03627bb8e",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -28687,7 +28740,8 @@
         "recipe": {
           "id": "7fe370e00a2a",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -28710,7 +28764,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Egg",
     "weight": 0.4,
@@ -34113,7 +34168,8 @@
         "recipe": {
           "id": "fccda8d196aa",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -34136,7 +34192,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Dried_Cadavaberries",
     "weight": 0.1,
@@ -34332,7 +34389,8 @@
         "recipe": {
           "id": "2301972bd9a1",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -34355,7 +34413,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Cadavaberries",
     "weight": 0.1,
@@ -35960,7 +36019,8 @@
         "recipe": {
           "id": "19adf26887a3",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -35983,7 +36043,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Watermelon_Jerky",
     "weight": 1,
@@ -36005,7 +36066,8 @@
         "recipe": {
           "id": "0082929c1308",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -36028,7 +36090,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Watermelon",
     "weight": 1,
@@ -37483,7 +37546,8 @@
         "recipe": {
           "id": "cb3ffd551486",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -37506,7 +37570,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Pumpkin",
     "weight": 1,
@@ -51525,12 +51590,19 @@
           ],
           "materials": [],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Crafting Table"
     ],
@@ -56988,7 +57060,8 @@
         "recipe": {
           "id": "4fc758b3d41e",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -57011,7 +57084,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Beltfish",
     "weight": 1,
@@ -57032,7 +57106,8 @@
         "recipe": {
           "id": "d7afc3af827b",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -57055,7 +57130,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Desert_Sole",
     "weight": 1,
@@ -57576,7 +57652,8 @@
         "recipe": {
           "id": "034c55e9dc47",
           "facilities": [
-            "Campfire"
+            "Campfire",
+            "Grill"
           ],
           "materials": [
             {
@@ -57599,7 +57676,8 @@
       "Cooking"
     ],
     "facilities": [
-      "Campfire"
+      "Campfire",
+      "Grill"
     ],
     "wikiLink": "Burnt_Monkfish",
     "weight": 1,

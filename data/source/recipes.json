@@ -231,16 +231,60 @@
         "Rat Roast"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Rat Roast",
         "link": "Rat Roast",
-        "qty": 1,
+        "qty": "1",
         "item": "Rat Roast",
         "image": "[[File:Rat Roast.png|30px|link=Rat Roast]]"
       }
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Rat Roast"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Rat Meat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Rat Meat",
+          "link": "Raw Rat Meat",
+          "qty": "1",
+          "item": "Raw Rat Meat",
+          "image": "[[File:Raw Rat Meat.png|30px|link=Raw Rat Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Rat Roast"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rat Roast",
+        "link": "Rat Roast",
+        "qty": "1",
+        "item": "Rat Roast",
+        "image": "[[File:Rat Roast.png|30px|link=Rat Roast]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Rat Roast"
@@ -1415,6 +1459,50 @@
   },
   {
     "uses_material": [
+      "Dirty Water"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dirty Water",
+          "link": "Dirty Water",
+          "qty": "1",
+          "item": "Dirty Water",
+          "image": "[[File:Dirty Water.png|30px|link=Dirty Water]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "1"
+        }
+      ],
+      "outputs": [
+        "Clean Water"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Clean Water",
+        "link": "Clean Water",
+        "qty": "1",
+        "item": "Clean Water",
+        "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Clean Water"
+    ]
+  },
+  {
+    "uses_material": [
       "Wither Water"
     ],
     "uses_skill": [
@@ -1452,6 +1540,50 @@
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Clean Water"
+    ]
+  },
+  {
+    "uses_material": [
+      "Wither Water"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Wither Water",
+          "link": "Wither Water",
+          "qty": "1",
+          "item": "Wither Water",
+          "image": "[[File:Wither Water.png|30px|link=Wither Water]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "1"
+        }
+      ],
+      "outputs": [
+        "Clean Water"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Clean Water",
+        "link": "Clean Water",
+        "qty": "1",
+        "item": "Clean Water",
+        "image": "[[File:Clean Water.png|30px|link=Clean Water]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Clean Water"
@@ -5654,16 +5786,60 @@
         "Baked Potato"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Baked Potato",
         "link": "Baked Potato",
-        "qty": 1,
+        "qty": "1",
         "item": "Baked Potato",
         "image": "[[File:Baked Potato.png|30px|link=Baked Potato]]"
       }
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Baked Potato"
+    ]
+  },
+  {
+    "uses_material": [
+      "Potato"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Potato",
+          "link": "Potato",
+          "qty": "1",
+          "item": "Potato",
+          "image": "[[File:Potato.png|30px|link=Potato]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Baked Potato"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Baked Potato",
+        "link": "Baked Potato",
+        "qty": "1",
+        "item": "Baked Potato",
+        "image": "[[File:Baked Potato.png|30px|link=Baked Potato]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Baked Potato"
@@ -7169,6 +7345,50 @@
   },
   {
     "uses_material": [
+      "Redberries"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "1",
+          "item": "Redberries",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Dried Redberries"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dried Redberries",
+        "link": "Dried Redberries",
+        "qty": "1",
+        "item": "Dried Redberries",
+        "image": "[[File:Dried Redberries.png|30px|link=Dried Redberries]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Dried Redberries"
+    ]
+  },
+  {
+    "uses_material": [
       "Cabbage"
     ],
     "uses_skill": [
@@ -7206,6 +7426,50 @@
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Fried Cabbage"
+    ]
+  },
+  {
+    "uses_material": [
+      "Cabbage"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cabbage",
+          "link": "Cabbage",
+          "qty": "1",
+          "item": "Cabbage",
+          "image": "[[File:Cabbage.png|30px|link=Cabbage]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Fried Cabbage"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Fried Cabbage",
+        "link": "Fried Cabbage",
+        "qty": "1",
+        "item": "Fried Cabbage",
+        "image": "[[File:Fried Cabbage.png|30px|link=Fried Cabbage]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Fried Cabbage"
@@ -10715,6 +10979,50 @@
   },
   {
     "uses_material": [
+      "Dwellberries"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dwellberries",
+          "link": "Dwellberries",
+          "qty": "1",
+          "item": "Dwellberries",
+          "image": "[[File:Dwellberries.png|30px|link=Dwellberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Dried Dwellberries"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dried Dwellberries",
+        "link": "Dried Dwellberries",
+        "qty": "1",
+        "item": "Dried Dwellberries",
+        "image": "[[File:Dried Dwellberries.png|30px|link=Dried Dwellberries]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Dried Dwellberries"
+    ]
+  },
+  {
+    "uses_material": [
       "Granite"
     ],
     "uses_skill": [
@@ -10796,6 +11104,50 @@
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Fillet"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Bird Meat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Bird Meat",
+          "link": "Raw Bird Meat",
+          "qty": "1",
+          "item": "Raw Bird Meat",
+          "image": "[[File:Raw Bird Meat.png|30px|link=Raw Bird Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Fillet"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Fillet",
+        "link": "Fillet",
+        "qty": "1",
+        "item": "Fillet",
+        "image": "[[File:Fillet.png|30px|link=Fillet]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Fillet"
@@ -11148,16 +11500,60 @@
         "Haunch"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Haunch",
         "link": "Haunch",
-        "qty": 1,
+        "qty": "1",
         "item": "Haunch",
         "image": "[[File:Haunch.png|30px|link=Haunch]]"
       }
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Haunch"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Game Meat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Game Meat",
+          "link": "Raw Game Meat",
+          "qty": "1",
+          "item": "Raw Game Meat",
+          "image": "[[File:Raw Game Meat.png|30px|link=Raw Game Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Haunch"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Haunch",
+        "link": "Haunch",
+        "qty": "1",
+        "item": "Haunch",
+        "image": "[[File:Haunch.png|30px|link=Haunch]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Haunch"
@@ -11599,16 +11995,60 @@
         "Steak"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Steak",
         "link": "Steak",
-        "qty": 1,
+        "qty": "1",
         "item": "Steak",
         "image": "[[File:Steak.png|30px|link=Steak]]"
       }
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Steak"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Farm Meat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Farm Meat",
+          "link": "Raw Farm Meat",
+          "qty": "1",
+          "item": "Raw Farm Meat",
+          "image": "[[File:Raw Farm Meat.png|30px|link=Raw Farm Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Steak"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Steak",
+        "link": "Steak",
+        "qty": "1",
+        "item": "Steak",
+        "image": "[[File:Steak.png|30px|link=Steak]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Steak"
@@ -11999,25 +12439,33 @@
     ]
   },
   {
-    "uses_facility": [
-      "Armour Bench"
-    ],
     "json": {
       "facility": "Armour Bench",
       "materials": [],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Dragonbane Cape"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Dragonbane Cape",
         "link": "Dragonbane Cape",
-        "qty": 1,
+        "qty": "1",
         "item": "Dragonbane Cape",
         "image": "[[File:Dragonbane Cape.png|30px|link=Dragonbane Cape]]"
       }
     },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "output": [
       "Dragonbane Cape"
     ]
@@ -12884,10 +13332,10 @@
         "Purified King's Token"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Purified King's Token",
         "link": "Purified King's Token",
-        "qty": 1,
+        "qty": "1",
         "item": "Purified King's Token",
         "image": "[[File:Purified King's Token.png|30px|link=Purified King's Token]]"
       }
@@ -36898,6 +37346,50 @@
   },
   {
     "uses_material": [
+      "Egg"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Egg",
+          "link": "Egg",
+          "qty": "1",
+          "item": "Egg",
+          "image": "[[File:Egg.png|30px|link=Egg]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Fried Egg"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Fried Egg",
+        "link": "Fried Egg",
+        "qty": "1",
+        "item": "Fried Egg",
+        "image": "[[File:Fried Egg.png|30px|link=Fried Egg]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Fried Egg"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs",
       "Stone",
       "Leather",
@@ -37316,6 +37808,50 @@
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Dried Peach"
+    ]
+  },
+  {
+    "uses_material": [
+      "Peach"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Peach",
+          "link": "Peach",
+          "qty": "1",
+          "item": "Peach",
+          "image": "[[File:Peach.png|30px|link=Peach]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Dried Peach"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dried Peach",
+        "link": "Dried Peach",
+        "qty": "1",
+        "item": "Dried Peach",
+        "image": "[[File:Dried Peach.png|30px|link=Dried Peach]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Dried Peach"
@@ -37845,6 +38381,50 @@
   },
   {
     "uses_material": [
+      "Potato"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Potato",
+          "link": "Potato",
+          "qty": "1",
+          "item": "Potato",
+          "image": "[[File:Potato.png|30px|link=Potato]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Potato"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Potato",
+        "link": "Burnt Potato",
+        "qty": "1",
+        "item": "Burnt Potato",
+        "image": "[[File:Burnt Potato.png|30px|link=Burnt Potato]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Burnt Potato"
+    ]
+  },
+  {
+    "uses_material": [
       "Onion"
     ],
     "uses_skill": [
@@ -37882,6 +38462,50 @@
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Burnt Onion"
+    ]
+  },
+  {
+    "uses_material": [
+      "Onion"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Onion",
+          "link": "Onion",
+          "qty": "1",
+          "item": "Onion",
+          "image": "[[File:Onion.png|30px|link=Onion]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Onion"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Onion",
+        "link": "Burnt Onion",
+        "qty": "1",
+        "item": "Burnt Onion",
+        "image": "[[File:Burnt Onion.png|30px|link=Burnt Onion]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Burnt Onion"
@@ -37933,6 +38557,50 @@
   },
   {
     "uses_material": [
+      "Bittercap Mushroom"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Bittercap Mushroom",
+          "link": "Bittercap Mushroom",
+          "qty": "1",
+          "item": "Bittercap Mushroom",
+          "image": "[[File:Bittercap Mushroom.png|30px|link=Bittercap Mushroom]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Mushroom"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Mushroom",
+        "link": "Burnt Mushroom",
+        "qty": "1",
+        "item": "Burnt Mushroom",
+        "image": "[[File:Burnt Mushroom.png|30px|link=Burnt Mushroom]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Burnt Mushroom"
+    ]
+  },
+  {
+    "uses_material": [
       "Raw Bestial Meat"
     ],
     "uses_skill": [
@@ -37970,6 +38638,50 @@
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Burnt Flank"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Bestial Meat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Bestial Meat",
+          "link": "Raw Bestial Meat",
+          "qty": "1",
+          "item": "Raw Bestial Meat",
+          "image": "[[File:Raw Bestial Meat.png|30px|link=Raw Bestial Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Flank"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Flank",
+        "link": "Burnt Flank",
+        "qty": "1",
+        "item": "Burnt Flank",
+        "image": "[[File:Burnt Flank.png|30px|link=Burnt Flank]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Burnt Flank"
@@ -38021,6 +38733,50 @@
   },
   {
     "uses_material": [
+      "Raw Farm Meat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Farm Meat",
+          "link": "Raw Farm Meat",
+          "qty": "1",
+          "item": "Raw Farm Meat",
+          "image": "[[File:Raw Farm Meat.png|30px|link=Raw Farm Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Steak"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Steak",
+        "link": "Burnt Steak",
+        "qty": "1",
+        "item": "Burnt Steak",
+        "image": "[[File:Burnt Steak.png|30px|link=Burnt Steak]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Burnt Steak"
+    ]
+  },
+  {
+    "uses_material": [
       "Cabbage"
     ],
     "uses_skill": [
@@ -38058,6 +38814,50 @@
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Burnt Cabbage"
+    ]
+  },
+  {
+    "uses_material": [
+      "Cabbage"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cabbage",
+          "link": "Cabbage",
+          "qty": "1",
+          "item": "Cabbage",
+          "image": "[[File:Cabbage.png|30px|link=Cabbage]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Cabbage"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Cabbage",
+        "link": "Burnt Cabbage",
+        "qty": "1",
+        "item": "Burnt Cabbage",
+        "image": "[[File:Burnt Cabbage.png|30px|link=Burnt Cabbage]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Burnt Cabbage"
@@ -38109,6 +38909,50 @@
   },
   {
     "uses_material": [
+      "Dwellberries"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dwellberries",
+          "link": "Dwellberries",
+          "qty": "1",
+          "item": "Dwellberries",
+          "image": "[[File:Dwellberries.png|30px|link=Dwellberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Dwellberries"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Dwellberries",
+        "link": "Burnt Dwellberries",
+        "qty": "1",
+        "item": "Burnt Dwellberries",
+        "image": "[[File:Burnt Dwellberries.png|30px|link=Burnt Dwellberries]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Burnt Dwellberries"
+    ]
+  },
+  {
+    "uses_material": [
       "Raw Rat Meat"
     ],
     "uses_skill": [
@@ -38146,6 +38990,50 @@
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Burnt Rat Roast"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Rat Meat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Rat Meat",
+          "link": "Raw Rat Meat",
+          "qty": "1",
+          "item": "Raw Rat Meat",
+          "image": "[[File:Raw Rat Meat.png|30px|link=Raw Rat Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Rat Roast"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Rat Roast",
+        "link": "Burnt Rat Roast",
+        "qty": "1",
+        "item": "Burnt Rat Roast",
+        "image": "[[File:Burnt Rat Roast.png|30px|link=Burnt Rat Roast]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Burnt Rat Roast"
@@ -38197,6 +39085,50 @@
   },
   {
     "uses_material": [
+      "Raw Game Meat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Game Meat",
+          "link": "Raw Game Meat",
+          "qty": "1",
+          "item": "Raw Game Meat",
+          "image": "[[File:Raw Game Meat.png|30px|link=Raw Game Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Haunch"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Haunch",
+        "link": "Burnt Haunch",
+        "qty": "1",
+        "item": "Burnt Haunch",
+        "image": "[[File:Burnt Haunch.png|30px|link=Burnt Haunch]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Burnt Haunch"
+    ]
+  },
+  {
+    "uses_material": [
       "Raw Bird Meat"
     ],
     "uses_skill": [
@@ -38234,6 +39166,50 @@
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Burnt Fillet"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Bird Meat"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Bird Meat",
+          "link": "Raw Bird Meat",
+          "qty": "1",
+          "item": "Raw Bird Meat",
+          "image": "[[File:Raw Bird Meat.png|30px|link=Raw Bird Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Fillet"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Fillet",
+        "link": "Burnt Fillet",
+        "qty": "1",
+        "item": "Burnt Fillet",
+        "image": "[[File:Burnt Fillet.png|30px|link=Burnt Fillet]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Burnt Fillet"
@@ -38373,6 +39349,50 @@
   },
   {
     "uses_material": [
+      "Peach"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Peach",
+          "link": "Peach",
+          "qty": "1",
+          "item": "Peach",
+          "image": "[[File:Peach.png|30px|link=Peach]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Peach"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Peach",
+        "link": "Burnt Peach",
+        "qty": "1",
+        "item": "Burnt Peach",
+        "image": "[[File:Burnt Peach.png|30px|link=Burnt Peach]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Burnt Peach"
+    ]
+  },
+  {
+    "uses_material": [
       "Egg"
     ],
     "uses_skill": [
@@ -38417,6 +39437,50 @@
   },
   {
     "uses_material": [
+      "Egg"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Egg",
+          "link": "Egg",
+          "qty": "1",
+          "item": "Egg",
+          "image": "[[File:Egg.png|30px|link=Egg]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Egg"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Egg",
+        "link": "Burnt Egg",
+        "qty": "1",
+        "item": "Burnt Egg",
+        "image": "[[File:Burnt Egg.png|30px|link=Burnt Egg]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Burnt Egg"
+    ]
+  },
+  {
+    "uses_material": [
       "Fried Egg"
     ],
     "uses_skill": [
@@ -38454,6 +39518,50 @@
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Burnt Egg"
+    ]
+  },
+  {
+    "uses_material": [
+      "Fried Egg"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fried Egg",
+          "link": "Fried Egg",
+          "qty": "1",
+          "item": "Fried Egg",
+          "image": "[[File:Fried Egg.png|30px|link=Fried Egg]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Egg"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Egg",
+        "link": "Burnt Egg",
+        "qty": "1",
+        "item": "Burnt Egg",
+        "image": "[[File:Burnt Egg.png|30px|link=Burnt Egg]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Burnt Egg"
@@ -45301,6 +46409,50 @@
   },
   {
     "uses_material": [
+      "Cadavaberries"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cadavaberries",
+          "link": "Cadavaberries",
+          "qty": "1",
+          "item": "Cadavaberries",
+          "image": "[[File:Cadavaberries.png|30px|link=Cadavaberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Dried Cadavaberries"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dried Cadavaberries",
+        "link": "Dried Cadavaberries",
+        "qty": "1",
+        "item": "Dried Cadavaberries",
+        "image": "[[File:Dried Cadavaberries.png|30px|link=Dried Cadavaberries]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Dried Cadavaberries"
+    ]
+  },
+  {
+    "uses_material": [
       "Clean Water",
       "Roast Pumpkin",
       "Irit"
@@ -45573,6 +46725,50 @@
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Burnt Cadavaberries"
+    ]
+  },
+  {
+    "uses_material": [
+      "Cadavaberries"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cadavaberries",
+          "link": "Cadavaberries",
+          "qty": "1",
+          "item": "Cadavaberries",
+          "image": "[[File:Cadavaberries.png|30px|link=Cadavaberries]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Cadavaberries"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Cadavaberries",
+        "link": "Burnt Cadavaberries",
+        "qty": "1",
+        "item": "Burnt Cadavaberries",
+        "image": "[[File:Burnt Cadavaberries.png|30px|link=Burnt Cadavaberries]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Burnt Cadavaberries"
@@ -47609,16 +48805,60 @@
         "Watermelon Jerky"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Watermelon Jerky",
         "link": "Watermelon Jerky",
-        "qty": 1,
+        "qty": "1",
         "item": "Watermelon Jerky",
         "image": "[[File:Watermelon Jerky.png|30px|link=Watermelon Jerky]]"
       }
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Watermelon Jerky"
+    ]
+  },
+  {
+    "uses_material": [
+      "Watermelon"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Watermelon",
+          "link": "Watermelon",
+          "qty": "1",
+          "item": "Watermelon",
+          "image": "[[File:Watermelon.png|30px|link=Watermelon]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Watermelon Jerky"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Watermelon Jerky",
+        "link": "Watermelon Jerky",
+        "qty": "1",
+        "item": "Watermelon Jerky",
+        "image": "[[File:Watermelon Jerky.png|30px|link=Watermelon Jerky]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Watermelon Jerky"
@@ -47676,7 +48916,7 @@
       "Cooking"
     ],
     "json": {
-      "facility": "Campfire",
+      "facility": "Grill",
       "materials": [
         {
           "quantity": "1",
@@ -47706,7 +48946,7 @@
       }
     },
     "uses_facility": [
-      "Campfire"
+      "Grill"
     ],
     "output": [
       "Burnt Watermelon"
@@ -49698,6 +50938,50 @@
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Burnt Pumpkin"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pumpkin"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pumpkin",
+          "link": "Pumpkin",
+          "qty": "1",
+          "item": "Pumpkin",
+          "image": "[[File:Pumpkin.png|30px|link=Pumpkin]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Pumpkin"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Pumpkin",
+        "link": "Burnt Pumpkin",
+        "qty": "1",
+        "item": "Burnt Pumpkin",
+        "image": "[[File:Burnt Pumpkin.png|30px|link=Burnt Pumpkin]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Burnt Pumpkin"
@@ -67669,25 +68953,33 @@
     ]
   },
   {
-    "uses_facility": [
-      "Crafting Table"
-    ],
     "json": {
       "facility": "Crafting Table",
       "materials": [],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Saradominist Cloak"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Saradominist Cloak",
         "link": "Saradominist Cloak",
-        "qty": 1,
+        "qty": "1",
         "item": "Saradominist Cloak",
         "image": "[[File:Saradominist Cloak.png|30px|link=Saradominist Cloak]]"
       }
     },
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "output": [
       "Saradominist Cloak"
     ]
@@ -74683,6 +75975,50 @@
   },
   {
     "uses_material": [
+      "Raw Beltfish"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Beltfish",
+          "link": "Raw Beltfish",
+          "qty": "1",
+          "item": "Raw Beltfish",
+          "image": "[[File:Raw Beltfish.png|30px|link=Raw Beltfish]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Beltfish"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Beltfish",
+        "link": "Burnt Beltfish",
+        "qty": "1",
+        "item": "Burnt Beltfish",
+        "image": "[[File:Burnt Beltfish.png|30px|link=Burnt Beltfish]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Burnt Beltfish"
+    ]
+  },
+  {
+    "uses_material": [
       "Raw Desert Sole"
     ],
     "uses_skill": [
@@ -74720,6 +76056,50 @@
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Burnt Desert Sole"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Desert Sole"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Desert Sole",
+          "link": "Raw Desert Sole",
+          "qty": "1",
+          "item": "Raw Desert Sole",
+          "image": "[[File:Raw Desert Sole.png|30px|link=Raw Desert Sole]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Desert Sole"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Desert Sole",
+        "link": "Burnt Desert Sole",
+        "qty": "1",
+        "item": "Burnt Desert Sole",
+        "image": "[[File:Burnt Desert Sole.png|30px|link=Burnt Desert Sole]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Burnt Desert Sole"
@@ -75331,6 +76711,50 @@
     },
     "uses_facility": [
       "Campfire"
+    ],
+    "output": [
+      "Burnt Monkfish"
+    ]
+  },
+  {
+    "uses_material": [
+      "Raw Monkfish"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Monkfish",
+          "link": "Raw Monkfish",
+          "qty": "1",
+          "item": "Raw Monkfish",
+          "image": "[[File:Raw Monkfish.png|30px|link=Raw Monkfish]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Monkfish"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Monkfish",
+        "link": "Burnt Monkfish",
+        "qty": "1",
+        "item": "Burnt Monkfish",
+        "image": "[[File:Burnt Monkfish.png|30px|link=Burnt Monkfish]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
     ],
     "output": [
       "Burnt Monkfish"
