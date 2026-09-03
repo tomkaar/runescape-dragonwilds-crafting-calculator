@@ -4721,18 +4721,18 @@
   {
     "page_name": "Hunter Stagbow",
     "page_name_sub": "Hunter Stagbow",
-    "item_description": "With it's aerodynamic antlers, this bow is very popular with Garou scouts.",
+    "item_description": "With it's<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> aerodynamic antlers, this bow is very popular with garou scouts.",
     "item_type": "Ranged Weapon",
     "item_name": "Hunter Stagbow",
     "json": {
-      "description": "With it's aerodynamic antlers, this bow is very popular with Garou scouts.",
-      "weight": "5.0",
+      "description": "With it's<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> aerodynamic antlers, this bow is very popular with garou scouts.",
+      "weight": "15.0",
       "image": "[[File:Hunter Stagbow.png|32px]]",
       "name": "Hunter Stagbow",
       "item_type": "Ranged Weapon",
       "image_raw": "Hunter Stagbow.png"
     },
-    "item_weight": 5
+    "item_weight": 15
   },
   {
     "page_name": "Chieftain's Blade",
@@ -7785,11 +7785,11 @@
   {
     "page_name": "Undead Ranger's Bow",
     "page_name_sub": "Undead Ranger's Bow",
-    "item_description": "This now still fires with undeadly precision.",
+    "item_description": "This bow still fires with undeadly precision.",
     "item_type": "Bow",
     "item_name": "Undead Ranger Bow",
     "json": {
-      "description": "This now still fires with undeadly precision.",
+      "description": "This bow still fires with undeadly precision.",
       "weight": "10",
       "image": "[[File:Undead Ranger Bow.png|32px]]",
       "name": "Undead Ranger Bow",
@@ -19366,21 +19366,19 @@
   },
   {
     "page_name": "Bow of Elidinis",
-    "item_description": "This ancient bow is a relic of Elidnis: Goddess of the Moon, Rivers, Growth, and Fertility.",
     "page_name_sub": "Bow of Elidinis",
-    "item_weight": 15,
-    "item_stacklimit": 1,
+    "item_description": "This ancient bow is a relic of Elidnis: Goddess of the Moon, Rivers, Growth and Fertility.",
+    "item_type": "Ranged Weapon",
+    "item_name": "Bow of Elidinis",
     "json": {
-      "description": "This ancient bow is a relic of Elidnis: Goddess of the Moon, Rivers, Growth, and Fertility.",
+      "description": "This ancient bow is a relic of Elidnis: Goddess of the Moon, Rivers, Growth and Fertility.",
       "weight": "15.0",
       "image": "[[File:Bow of Elidinis.png|32px]]",
       "name": "Bow of Elidinis",
       "item_type": "Ranged Weapon",
-      "stacklimit": "1",
       "image_raw": "Bow of Elidinis.png"
     },
-    "item_type": "Ranged Weapon",
-    "item_name": "Bow of Elidinis"
+    "item_weight": 15
   },
   {
     "page_name": "Toktz-Mej-Tal",
