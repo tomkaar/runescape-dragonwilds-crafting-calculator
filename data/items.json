@@ -10101,7 +10101,7 @@
       "Fletching Bench"
     ],
     "wikiLink": "Hunter_Stagbow",
-    "weight": 5,
+    "weight": 15,
     "itemType": "Ranged Weapon"
   },
   {
@@ -54965,8 +54965,7 @@
     ],
     "wikiLink": "Bow_of_Elidinis",
     "weight": 15,
-    "itemType": "Ranged Weapon",
-    "stackLimit": 1
+    "itemType": "Ranged Weapon"
   },
   {
     "id": "toktz-mej-tal",
