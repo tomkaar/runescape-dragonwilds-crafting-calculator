@@ -79318,6 +79318,77 @@
   },
   {
     "uses_material": [
+      "Iron Bar",
+      "Gold Bar",
+      "Vault Core",
+      "Granite"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Iron Bar",
+          "link": "Iron Bar",
+          "qty": "6",
+          "item": "Iron Bar",
+          "image": "[[File:Iron Bar.png|30px|link=Iron Bar]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Gold Bar",
+          "link": "Gold Bar",
+          "qty": "3",
+          "item": "Gold Bar",
+          "image": "[[File:Gold Bar.png|30px|link=Gold Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Vault Core",
+          "link": "Vault Core",
+          "qty": "2",
+          "item": "Vault Core",
+          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
+        },
+        {
+          "quantity": "18",
+          "name": "Granite",
+          "link": "Granite",
+          "qty": "18",
+          "item": "Granite",
+          "image": "[[File:Granite.png|30px|link=Granite]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Lightning Rod"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Lightning Rod",
+        "link": "Lightning Rod",
+        "qty": 1,
+        "item": "Lightning Rod",
+        "image": "[[File:Lightning Rod.png|30px|link=Lightning Rod]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Lightning Rod"
+    ]
+  },
+  {
+    "uses_material": [
       "Oak Logs",
       "Padded Cloth",
       "Warped Feathers"

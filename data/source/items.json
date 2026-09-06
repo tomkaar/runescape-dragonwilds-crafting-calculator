@@ -22701,5 +22701,59 @@
       "image_raw": "Dormant Abyssal Whip.png"
     },
     "item_weight": 0
+  },
+  {
+    "page_name": "Human Torso",
+    "item_description": "A surprisingly well-preserved human torso, must be ancient. Doctor Fenkenstrain is looking for something just like it.",
+    "page_name_sub": "Human Torso",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A surprisingly well-preserved human torso, must be ancient. Doctor Fenkenstrain is looking for something just like it.",
+      "weight": "0.0",
+      "image": "[[File:Human Torso.png|32px]]",
+      "name": "Human Torso",
+      "item_type": "Quest Item",
+      "stacklimit": "99",
+      "image_raw": "Human Torso.png"
+    },
+    "item_type": "Quest Item",
+    "item_name": "Human Torso"
+  },
+  {
+    "page_name": "Garou Arms",
+    "item_description": "A pair of well-preserved garou arms, the perfect gift for any mad scientist.",
+    "page_name_sub": "Garou Arms",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A pair of well-preserved garou arms, the perfect gift for any mad scientist.",
+      "weight": "0.0",
+      "image": "[[File:Garou Arms.png|32px]]",
+      "name": "Garou Arms",
+      "item_type": "Quest Item",
+      "stacklimit": "99",
+      "image_raw": "Garou Arms.png"
+    },
+    "item_type": "Quest Item",
+    "item_name": "Garou Arms"
+  },
+  {
+    "page_name": "Goblin Legs",
+    "item_description": "A pair of worryingly fresh goblin legs. Doctor Fenkenstrain will be interested in these.",
+    "page_name_sub": "Goblin Legs",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A pair of worryingly fresh goblin legs. Doctor Fenkenstrain will be interested in these.",
+      "weight": "0.0",
+      "image": "[[File:Goblin Legs.png|32px]]",
+      "name": "Goblin Legs",
+      "item_type": "Quest Item",
+      "stacklimit": "99",
+      "image_raw": "Goblin Legs.png"
+    },
+    "item_type": "Quest Item",
+    "item_name": "Goblin Legs"
   }
 ]
