@@ -59814,6 +59814,58 @@
     "stackLimit": 1
   },
   {
+    "id": "lightning-rod",
+    "name": "Lightning Rod",
+    "image": "Lightning Rod.png",
+    "variants": [
+      {
+        "id": "d37244980f04",
+        "name": "Lightning Rod",
+        "image": "Lightning Rod.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5881556e44d9",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "gold-bar",
+              "quantity": 3
+            },
+            {
+              "itemId": "granite",
+              "quantity": 18
+            },
+            {
+              "itemId": "iron-bar",
+              "quantity": 6
+            },
+            {
+              "itemId": "vault-core",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Lightning_Rod"
+  },
+  {
     "id": "agility-flag",
     "name": "Agility Flag",
     "image": "Agility Flag.png",
@@ -72629,5 +72681,68 @@
     "wikiLink": "Dormant_Abyssal_Whip",
     "weight": 0,
     "itemType": "Melee Weapon"
+  },
+  {
+    "id": "human-torso",
+    "name": "Human Torso",
+    "image": "Human Torso.png",
+    "variants": [
+      {
+        "id": "human-torso",
+        "name": "Human Torso",
+        "image": "Human Torso.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Human_Torso",
+    "weight": 0,
+    "itemType": "Quest Item",
+    "stackLimit": 99
+  },
+  {
+    "id": "garou-arms",
+    "name": "Garou Arms",
+    "image": "Garou Arms.png",
+    "variants": [
+      {
+        "id": "garou-arms",
+        "name": "Garou Arms",
+        "image": "Garou Arms.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Garou_Arms",
+    "weight": 0,
+    "itemType": "Quest Item",
+    "stackLimit": 99
+  },
+  {
+    "id": "goblin-legs",
+    "name": "Goblin Legs",
+    "image": "Goblin Legs.png",
+    "variants": [
+      {
+        "id": "goblin-legs",
+        "name": "Goblin Legs",
+        "image": "Goblin Legs.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Goblin_Legs",
+    "weight": 0,
+    "itemType": "Quest Item",
+    "stackLimit": 99
   }
 ]
