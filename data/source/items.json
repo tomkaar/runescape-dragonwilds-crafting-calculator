@@ -21664,15 +21664,15 @@
     "item_name": "Ascension Shard"
   },
   {
-    "page_name": "The Radiant Heart",
-    "page_name_sub": "The Radiant Heart",
+    "page_name": "The Radiant's Heart",
+    "page_name_sub": "The Radiant's Heart",
     "item_description": "The heart of an unpleasant red dragon, still smouldering. Hedric - The Hunter will want to see this.",
     "item_type": "Quest Item",
-    "item_name": "The Radiant Heart",
+    "item_name": "The Radiant's Heart",
     "json": {
       "description": "The heart of an unpleasant red dragon, still smouldering. Hedric - The Hunter will want to see this.",
       "image": "[[File:The Radiant Heart.png|32px]]",
-      "name": "The Radiant Heart",
+      "name": "The Radiant's Heart",
       "item_type": "Quest Item",
       "image_raw": "The Radiant Heart.png"
     }
@@ -22687,18 +22687,18 @@
     "item_name": "Tome of Agility - Vol 2"
   },
   {
-    "page_name": "Dormant Abyssal Whip",
-    "page_name_sub": "Dormant Abyssal Whip",
+    "page_name": "Abysmal Whip",
+    "page_name_sub": "Abysmal Whip",
     "item_description": "",
     "item_type": "Melee Weapon",
-    "item_name": "Dormant Abyssal Whip",
+    "item_name": "Abysmal Whip",
     "json": {
       "description": "",
       "weight": "",
-      "image": "[[File:Dormant Abyssal Whip.png|32px]]",
-      "name": "Dormant Abyssal Whip",
+      "image": "[[File:Abysmal Whip.png|32px]]",
+      "name": "Abysmal Whip",
       "item_type": "Melee Weapon",
-      "image_raw": "Dormant Abyssal Whip.png"
+      "image_raw": "Abysmal Whip.png"
     },
     "item_weight": 0
   },
@@ -22755,5 +22755,41 @@
     },
     "item_type": "Quest Item",
     "item_name": "Goblin Legs"
+  },
+  {
+    "page_name": "Empty Vial",
+    "item_description": "Apparently this will collect lightning if you get struck by it.",
+    "page_name_sub": "Empty Vial",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Apparently this will collect lightning if you get struck by it.",
+      "weight": "0.0",
+      "image": "[[File:Empty Vial.png|32px]]",
+      "name": "Empty Vial",
+      "item_type": "Basic Item",
+      "stacklimit": "99",
+      "image_raw": "Empty Vial.png"
+    },
+    "item_type": "Basic Item",
+    "item_name": "Empty Vial"
+  },
+  {
+    "page_name": "Lightning-in-a-bottle",
+    "item_description": "A lightning bolt trapped in glass. It's best not to think too hard about the physics of it.",
+    "page_name_sub": "Lightning-in-a-bottle",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A lightning bolt trapped in glass. It's best not to think too hard about the physics of it.",
+      "weight": "0.0",
+      "image": "[[File:Lightning-in-a-bottle.png|32px]]",
+      "name": "Lightning-in-a-bottle",
+      "item_type": "Basic Item",
+      "stacklimit": "99",
+      "image_raw": "Lightning-in-a-bottle.png"
+    },
+    "item_type": "Basic Item",
+    "item_name": "Lightning-in-a-bottle"
   }
 ]

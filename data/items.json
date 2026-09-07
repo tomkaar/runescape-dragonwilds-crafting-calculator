@@ -71851,13 +71851,13 @@
     "stackLimit": 99
   },
   {
-    "id": "the-radiant-heart",
-    "name": "The Radiant Heart",
+    "id": "the-radiants-heart",
+    "name": "The Radiant's Heart",
     "image": "The Radiant Heart.png",
     "variants": [
       {
-        "id": "the-radiant-heart",
-        "name": "The Radiant Heart",
+        "id": "the-radiants-heart",
+        "name": "The Radiant's Heart",
         "image": "The Radiant Heart.png",
         "variantName": null,
         "recipe": null,
@@ -71866,7 +71866,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "The_Radiant_Heart",
+    "wikiLink": "The_Radiant's_Heart",
     "itemType": "Quest Item"
   },
   {
@@ -72663,14 +72663,14 @@
     "stackLimit": 99
   },
   {
-    "id": "dormant-abyssal-whip",
-    "name": "Dormant Abyssal Whip",
-    "image": "Dormant Abyssal Whip.png",
+    "id": "abysmal-whip",
+    "name": "Abysmal Whip",
+    "image": "Abysmal Whip.png",
     "variants": [
       {
-        "id": "dormant-abyssal-whip",
-        "name": "Dormant Abyssal Whip",
-        "image": "Dormant Abyssal Whip.png",
+        "id": "abysmal-whip",
+        "name": "Abysmal Whip",
+        "image": "Abysmal Whip.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -72678,7 +72678,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Dormant_Abyssal_Whip",
+    "wikiLink": "Abysmal_Whip",
     "weight": 0,
     "itemType": "Melee Weapon"
   },
@@ -72743,6 +72743,48 @@
     "wikiLink": "Goblin_Legs",
     "weight": 0,
     "itemType": "Quest Item",
+    "stackLimit": 99
+  },
+  {
+    "id": "empty-vial",
+    "name": "Empty Vial",
+    "image": "Empty Vial.png",
+    "variants": [
+      {
+        "id": "empty-vial",
+        "name": "Empty Vial",
+        "image": "Empty Vial.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Empty_Vial",
+    "weight": 0,
+    "itemType": "Basic Item",
+    "stackLimit": 99
+  },
+  {
+    "id": "lightning-in-a-bottle",
+    "name": "Lightning-in-a-bottle",
+    "image": "Lightning-in-a-bottle.png",
+    "variants": [
+      {
+        "id": "lightning-in-a-bottle",
+        "name": "Lightning-in-a-bottle",
+        "image": "Lightning-in-a-bottle.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Lightning-in-a-bottle",
+    "weight": 0,
+    "itemType": "Basic Item",
     "stackLimit": 99
   }
 ]
