@@ -2455,10 +2455,9 @@
     "json": {
       "description": "A cloak commemorating a dragon's vengeance.",
       "weight": "0.0",
-      "image": "[[File:Bloodblight Cape.png|32px]]",
+      "image": "",
       "name": "Bloodblight Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Bloodblight Cape.png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -2487,10 +2486,9 @@
     "json": {
       "description": "A cloak warning against the danger of hubris.",
       "weight": "0.0",
-      "image": "[[File:Fractured Cape.png|32px]]",
+      "image": "",
       "name": "Fractured Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Fractured Cape.png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -2537,10 +2535,9 @@
     "json": {
       "description": "A cloak to remember simpler times.",
       "weight": "0.0",
-      "image": "[[File:Bramblemead Cape.png|32px]]",
+      "image": "",
       "name": "Bramblemead Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Bramblemead Cape.png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -2553,10 +2550,9 @@
     "json": {
       "description": "A cloak depicting ancient monsters and a mage's fury.",
       "weight": "0.0",
-      "image": "[[File:Stormtouched Cape.png|32px]]",
+      "image": "",
       "name": "Stormtouched Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Stormtouched Cape.png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -3173,10 +3169,9 @@
     "json": {
       "description": "A cloak that makes you shiver, even as it protects against the cold.",
       "weight": "0.0",
-      "image": "[[File:Whispering Cape.png|32px]]",
+      "image": "",
       "name": "Whispering Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Whispering Cape.png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -9598,10 +9593,9 @@
     "json": {
       "description": "A cloak depicting the ethereal beauty of Fellhollow.",
       "weight": "0.0",
-      "image": "[[File:Fellhollow_Cape.png|32px]]",
+      "image": "",
       "name": "Fellhollow Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Fellhollow_Cape.png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -20890,10 +20884,9 @@
     "json": {
       "description": "A light desert cape designed to shield against sun and sand. Offers comfort during long journeys across the dunes.",
       "weight": "0.0",
-      "image": "[[File:Umbral Sands Cape.png|32px]]",
+      "image": "",
       "name": "Umbral Sands Cape",
-      "item_type": "Armour",
-      "image_raw": "Umbral Sands Cape.png"
+      "item_type": "Armour"
     },
     "item_weight": 0
   },

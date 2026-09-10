@@ -7884,6 +7884,51 @@
     ]
   },
   {
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Bloodblight Cape",
+          "link": "Bloodblight Cape",
+          "qty": 1,
+          "item": "Bloodblight Cape",
+          "image": "[[File:Bloodblight Cape.png|30px|link=Bloodblight Cape]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Gold Leaf",
+          "link": "Gold Leaf",
+          "qty": "5",
+          "item": "Gold Leaf",
+          "image": "[[File:Gold Leaf.png|30px|link=Gold Leaf]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Golden Bloodblight Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Golden Bloodblight Cape",
+        "link": "Golden Bloodblight Cape",
+        "qty": 1,
+        "item": "Golden Bloodblight Cape",
+        "image": "[[File:Bloodblight Cape (gilded).png|30px|link=Golden Bloodblight Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "uses_material": [
+      "Bloodblight Cape",
+      "Gold Leaf"
+    ],
+    "output": [
+      "Golden Bloodblight Cape"
+    ]
+  },
+  {
     "uses_material": [
       "Bronze Bar",
       "Hard Leather",
@@ -7971,6 +8016,51 @@
     ],
     "output": [
       "Fractured Cape"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Fractured Cape",
+          "link": "Fractured Cape",
+          "qty": 1,
+          "item": "Fractured Cape",
+          "image": "[[File:Fractured Cape.png|30px|link=Fractured Cape]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Gold Leaf",
+          "link": "Gold Leaf",
+          "qty": "5",
+          "item": "Gold Leaf",
+          "image": "[[File:Gold Leaf.png|30px|link=Gold Leaf]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Golden Fractured Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Golden Fractured Cape",
+        "link": "Golden Fractured Cape",
+        "qty": 1,
+        "item": "Golden Fractured Cape",
+        "image": "[[File:Fractured Cape (gilded).png|30px|link=Golden Fractured Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "uses_material": [
+      "Fractured Cape",
+      "Gold Leaf"
+    ],
+    "output": [
+      "Golden Fractured Cape"
     ]
   },
   {
@@ -8171,6 +8261,51 @@
   },
   {
     "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Bramblemead Cape",
+          "link": "Bramblemead Cape",
+          "qty": 1,
+          "item": "Bramblemead Cape",
+          "image": "[[File:Bramblemead Cape.png|30px|link=Bramblemead Cape]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Gold Leaf",
+          "link": "Gold Leaf",
+          "qty": "5",
+          "item": "Gold Leaf",
+          "image": "[[File:Gold Leaf.png|30px|link=Gold Leaf]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Golden Bramblemead Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Golden Bramblemead Cape",
+        "link": "Golden Bramblemead Cape",
+        "qty": 1,
+        "item": "Golden Bramblemead Cape",
+        "image": "[[File:Bramblemead Cape (gilded).png|30px|link=Golden Bramblemead Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "uses_material": [
+      "Bramblemead Cape",
+      "Gold Leaf"
+    ],
+    "output": [
+      "Golden Bramblemead Cape"
+    ]
+  },
+  {
+    "json": {
       "recipe": "PATTERN: Stormtouched Cape",
       "facility": "Armour Bench",
       "materials": [],
@@ -8195,6 +8330,51 @@
     ],
     "output": [
       "Stormtouched Cape"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Stormtouched Cape",
+          "link": "Stormtouched Cape",
+          "qty": 1,
+          "item": "Stormtouched Cape",
+          "image": "[[File:Stormtouched Cape.png|30px|link=Stormtouched Cape]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Gold Leaf",
+          "link": "Gold Leaf",
+          "qty": "5",
+          "item": "Gold Leaf",
+          "image": "[[File:Gold Leaf.png|30px|link=Gold Leaf]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Golden Stormtouched Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Golden Stormtouched Cape",
+        "link": "Golden Stormtouched Cape",
+        "qty": 1,
+        "item": "Golden Stormtouched Cape",
+        "image": "[[File:Stormtouched Cape (gilded).png|30px|link=Golden Stormtouched Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "uses_material": [
+      "Stormtouched Cape",
+      "Gold Leaf"
+    ],
+    "output": [
+      "Golden Stormtouched Cape"
     ]
   },
   {
@@ -9904,6 +10084,51 @@
     ],
     "output": [
       "Whispering Cape"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Whispering Cape",
+          "link": "Whispering Cape",
+          "qty": 1,
+          "item": "Whispering Cape",
+          "image": "[[File:Whispering Cape.png|30px|link=Whispering Cape]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Gold Leaf",
+          "link": "Gold Leaf",
+          "qty": "5",
+          "item": "Gold Leaf",
+          "image": "[[File:Gold Leaf.png|30px|link=Gold Leaf]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Golden Whispering Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Golden Whispering Cape",
+        "link": "Golden Whispering Cape",
+        "qty": 1,
+        "item": "Golden Whispering Cape",
+        "image": "[[File:Whispering Cape (gilded).png|30px|link=Golden Whispering Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "uses_material": [
+      "Whispering Cape",
+      "Gold Leaf"
+    ],
+    "output": [
+      "Golden Whispering Cape"
     ]
   },
   {
@@ -46037,6 +46262,51 @@
     ]
   },
   {
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Fellhollow Cape",
+          "link": "Fellhollow Cape",
+          "qty": 1,
+          "item": "Fellhollow Cape",
+          "image": "[[File:Fellhollow Cape.png|30px|link=Fellhollow Cape]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Gold Leaf",
+          "link": "Gold Leaf",
+          "qty": "5",
+          "item": "Gold Leaf",
+          "image": "[[File:Gold Leaf.png|30px|link=Gold Leaf]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Golden Fellhollow Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Golden Fellhollow Cape",
+        "link": "Golden Fellhollow Cape",
+        "qty": 1,
+        "item": "Golden Fellhollow Cape",
+        "image": "[[File:Fellhollow Cape (gilded).png|30px|link=Golden Fellhollow Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "uses_material": [
+      "Fellhollow Cape",
+      "Gold Leaf"
+    ],
+    "output": [
+      "Golden Fellhollow Cape"
+    ]
+  },
+  {
     "uses_material": [
       "Oak Logs",
       "Watermelon",
@@ -57616,15 +57886,15 @@
       ],
       "skills": [],
       "outputs": [
-        "Dowdun Reach Cape"
+        "Golden Dowdun Reach Cape"
       ],
       "output": {
         "quantity": 1,
-        "name": "Dowdun Reach Cape",
-        "link": "Dowdun Reach Cape",
+        "name": "Golden Dowdun Reach Cape",
+        "link": "Golden Dowdun Reach Cape",
         "qty": 1,
-        "item": "Dowdun Reach Cape",
-        "image": "[[File:Dowdun Reach Cape (gilded).png|30px|link=Dowdun Reach Cape]]"
+        "item": "Golden Dowdun Reach Cape",
+        "image": "[[File:Dowdun Reach Cape (gilded).png|30px|link=Golden Dowdun Reach Cape]]"
       }
     },
     "uses_facility": [
@@ -57635,7 +57905,7 @@
       "Gold Leaf"
     ],
     "output": [
-      "Dowdun Reach Cape"
+      "Golden Dowdun Reach Cape"
     ]
   },
   {
@@ -77137,6 +77407,51 @@
     ]
   },
   {
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Umbral Sands Cape",
+          "link": "Umbral Sands Cape",
+          "qty": 1,
+          "item": "Umbral Sands Cape",
+          "image": "[[File:Umbral Sands Cape.png|30px|link=Umbral Sands Cape]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Gold Leaf",
+          "link": "Gold Leaf",
+          "qty": "5",
+          "item": "Gold Leaf",
+          "image": "[[File:Gold Leaf.png|30px|link=Gold Leaf]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Golden Umbral Sands Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Golden Umbral Sands Cape",
+        "link": "Golden Umbral Sands Cape",
+        "qty": 1,
+        "item": "Golden Umbral Sands Cape",
+        "image": "[[File:Umbral Sands Cape (gilded).png|30px|link=Golden Umbral Sands Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "uses_material": [
+      "Umbral Sands Cape",
+      "Gold Leaf"
+    ],
+    "output": [
+      "Golden Umbral Sands Cape"
+    ]
+  },
+  {
     "uses_material": [
       "Yew Plank",
       "Desert Cloth"
@@ -79489,7 +79804,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -79912,7 +80227,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "0"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -79965,7 +80280,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "0"
+          "experience": "80"
         }
       ],
       "outputs": [

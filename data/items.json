@@ -5885,6 +5885,43 @@
     "itemType": "Basic Item"
   },
   {
+    "id": "golden-bloodblight-cape",
+    "name": "Golden Bloodblight Cape",
+    "image": "Bloodblight Cape (gilded).png",
+    "variants": [
+      {
+        "id": "f9bc1d684674",
+        "name": "Golden Bloodblight Cape",
+        "image": "Bloodblight Cape (gilded).png",
+        "variantName": "gilded",
+        "recipe": {
+          "id": "c63f56be4409",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "bloodblight-cape",
+              "quantity": 1
+            },
+            {
+              "itemId": "gold-leaf",
+              "quantity": 5
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Golden_Bloodblight_Cape"
+  },
+  {
     "id": "bronze-platebody",
     "name": "Bronze Platebody",
     "image": "Bronze Platebody.png",
@@ -5965,6 +6002,43 @@
     "wikiLink": "Fractured_Cape",
     "weight": 0,
     "itemType": "Basic Item"
+  },
+  {
+    "id": "golden-fractured-cape",
+    "name": "Golden Fractured Cape",
+    "image": "Fractured Cape (gilded).png",
+    "variants": [
+      {
+        "id": "23859519b815",
+        "name": "Golden Fractured Cape",
+        "image": "Fractured Cape (gilded).png",
+        "variantName": "gilded",
+        "recipe": {
+          "id": "01b47e167fb6",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "fractured-cape",
+              "quantity": 1
+            },
+            {
+              "itemId": "gold-leaf",
+              "quantity": 5
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Golden_Fractured_Cape"
   },
   {
     "id": "dragonkin-mage-robes",
@@ -6109,6 +6183,43 @@
     "itemType": "Basic Item"
   },
   {
+    "id": "golden-bramblemead-cape",
+    "name": "Golden Bramblemead Cape",
+    "image": "Bramblemead Cape (gilded).png",
+    "variants": [
+      {
+        "id": "dc10c74cb6ef",
+        "name": "Golden Bramblemead Cape",
+        "image": "Bramblemead Cape (gilded).png",
+        "variantName": "gilded",
+        "recipe": {
+          "id": "4bf066088564",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "bramblemead-cape",
+              "quantity": 1
+            },
+            {
+              "itemId": "gold-leaf",
+              "quantity": 5
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Golden_Bramblemead_Cape"
+  },
+  {
     "id": "stormtouched-cape",
     "name": "Stormtouched Cape",
     "image": "Stormtouched Cape.png",
@@ -6139,6 +6250,43 @@
     "wikiLink": "Stormtouched_Cape",
     "weight": 0,
     "itemType": "Basic Item"
+  },
+  {
+    "id": "golden-stormtouched-cape",
+    "name": "Golden Stormtouched Cape",
+    "image": "Stormtouched Cape (gilded).png",
+    "variants": [
+      {
+        "id": "09ab6a9d687e",
+        "name": "Golden Stormtouched Cape",
+        "image": "Stormtouched Cape (gilded).png",
+        "variantName": "gilded",
+        "recipe": {
+          "id": "94d159032550",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "gold-leaf",
+              "quantity": 5
+            },
+            {
+              "itemId": "stormtouched-cape",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Golden_Stormtouched_Cape"
   },
   {
     "id": "pioneers-cape",
@@ -7506,6 +7654,43 @@
     "wikiLink": "Whispering_Cape",
     "weight": 0,
     "itemType": "Basic Item"
+  },
+  {
+    "id": "golden-whispering-cape",
+    "name": "Golden Whispering Cape",
+    "image": "Whispering Cape (gilded).png",
+    "variants": [
+      {
+        "id": "fc0869a603ef",
+        "name": "Golden Whispering Cape",
+        "image": "Whispering Cape (gilded).png",
+        "variantName": "gilded",
+        "recipe": {
+          "id": "33bd6b99fad0",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "gold-leaf",
+              "quantity": 5
+            },
+            {
+              "itemId": "whispering-cape",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Golden_Whispering_Cape"
   },
   {
     "id": "granite-maul",
@@ -33921,6 +34106,43 @@
     "itemType": "Basic Item"
   },
   {
+    "id": "golden-fellhollow-cape",
+    "name": "Golden Fellhollow Cape",
+    "image": "Fellhollow Cape (gilded).png",
+    "variants": [
+      {
+        "id": "c02eff183b0a",
+        "name": "Golden Fellhollow Cape",
+        "image": "Fellhollow Cape (gilded).png",
+        "variantName": "gilded",
+        "recipe": {
+          "id": "2d5d8366487d",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "fellhollow-cape",
+              "quantity": 1
+            },
+            {
+              "itemId": "gold-leaf",
+              "quantity": 5
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Golden_Fellhollow_Cape"
+  },
+  {
     "id": "scarecrow",
     "name": "Scarecrow",
     "image": "Scarecrow.png",
@@ -42964,14 +43186,28 @@
         "usesRecipe": [
           "Torn Tapestry"
         ]
-      },
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Dowdun_Reach_Cape",
+    "weight": 0,
+    "itemType": "Armour"
+  },
+  {
+    "id": "golden-dowdun-reach-cape",
+    "name": "Golden Dowdun Reach Cape",
+    "image": "Dowdun Reach Cape (gilded).png",
+    "variants": [
       {
-        "id": "edb25ad0faa9",
-        "name": "Dowdun Reach Cape",
+        "id": "63b10d1c4985",
+        "name": "Golden Dowdun Reach Cape",
         "image": "Dowdun Reach Cape (gilded).png",
         "variantName": "gilded",
         "recipe": {
-          "id": "c02721dfeb25",
+          "id": "57c54831ba9c",
           "facilities": [
             "Armour Bench"
           ],
@@ -42995,9 +43231,7 @@
     "facilities": [
       "Armour Bench"
     ],
-    "wikiLink": "Dowdun_Reach_Cape",
-    "weight": 0,
-    "itemType": "Armour"
+    "wikiLink": "Golden_Dowdun_Reach_Cape"
   },
   {
     "id": "red-hex-cape",
@@ -57986,6 +58220,43 @@
     "itemType": "Armour"
   },
   {
+    "id": "golden-umbral-sands-cape",
+    "name": "Golden Umbral Sands Cape",
+    "image": "Umbral Sands Cape (gilded).png",
+    "variants": [
+      {
+        "id": "e333f1f96646",
+        "name": "Golden Umbral Sands Cape",
+        "image": "Umbral Sands Cape (gilded).png",
+        "variantName": "gilded",
+        "recipe": {
+          "id": "c247791f30ab",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "gold-leaf",
+              "quantity": 5
+            },
+            {
+              "itemId": "umbral-sands-cape",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Golden_Umbral_Sands_Cape"
+  },
+  {
     "id": "moon-garou-armchair",
     "name": "Moon Garou Armchair",
     "image": "Moon Garou Armchair.png",
@@ -59946,7 +60217,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 60
             }
           ]
         },
@@ -60318,7 +60589,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 60
             }
           ]
         },
@@ -60362,7 +60633,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 80
             }
           ]
         },
