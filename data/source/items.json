@@ -21448,12 +21448,12 @@
   },
   {
     "page_name": "Super Focused Construction Potion",
-    "item_description": "PERK: Focused Construction II<br><br>Grants a 30% XP BOOST for the CONTRSTUCTION Skill",
+    "item_description": "PERK: Focused Construction II<br><br>Grants a 30% XP BOOST for the CONSTRUCTION Skill",
     "page_name_sub": "Super Focused Construction Potion",
     "item_weight": 1,
     "item_stacklimit": 99,
     "json": {
-      "description": "PERK: Focused Construction II<br><br>Grants a 30% XP BOOST for the CONTRSTUCTION Skill",
+      "description": "PERK: Focused Construction II<br><br>Grants a 30% XP BOOST for the CONSTRUCTION Skill",
       "duration": "600 seconds",
       "stacklimit": "99",
       "weight": "1.0",
@@ -21462,7 +21462,7 @@
       "item_type": "Potion",
       "perk": {
         "name": "Focused Construction II",
-        "effect": "Grants a 30% XP BOOST for the CONTRSTUCTION Skill"
+        "effect": "Grants a 30% XP BOOST for the CONSTRUCTION Skill"
       },
       "image_raw": "Super Focused Construction Potion.png"
     },
@@ -22784,5 +22784,317 @@
     },
     "item_type": "Basic Item",
     "item_name": "Lightning-in-a-bottle"
+  },
+  {
+    "page_name": "Luminite Ore",
+    "item_description": "Mined from luminite deposits. A catalysing material that can help to make rare metals.",
+    "page_name_sub": "Luminite Ore",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Mined from luminite deposits. A catalysing material that can help to make rare metals.",
+      "weight": "",
+      "image": "[[File:Luminite Ore.png|32px]]",
+      "name": "Luminite Ore",
+      "item_type": "Processed Material",
+      "stacklimit": "99",
+      "image_raw": "Luminite Ore.png"
+    },
+    "item_type": "Processed Material",
+    "item_name": "Luminite Ore"
+  },
+  {
+    "page_name": "Discordant Residue",
+    "page_name_sub": "Discordant Residue",
+    "item_type": "Processed Material",
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Obtained from creatures in Kuldra's Tower. A core component of vis cloth.",
+      "image": "[[File:Discordant Residue.png|32px]]",
+      "name": "Discordant Residue",
+      "item_type": "Processed Material",
+      "stacklimit": "99",
+      "image_raw": "Discordant Residue.png"
+    },
+    "item_description": "Obtained from creatures in Kuldra's Tower. A core component of vis cloth.",
+    "item_name": "Discordant Residue"
+  },
+  {
+    "page_name": "Abyssal remains",
+    "item_description": "",
+    "page_name_sub": "Abyssal remains",
+    "item_weight": 0,
+    "item_stacklimit": 0,
+    "json": {
+      "description": "",
+      "weight": "",
+      "compostvalue": "",
+      "health": "",
+      "image": "[[File:Abyssal remains.png|32px]]",
+      "name": "Abyssal Remains",
+      "item_type": "",
+      "sustenance": "",
+      "hydration": "",
+      "stacklimit": "",
+      "image_raw": "Abyssal remains.png"
+    },
+    "item_type": "",
+    "item_name": "Abyssal Remains"
+  },
+  {
+    "page_name": "Harmonised Compound",
+    "item_description": "Made from discordant residue in a kiln. Can be combined with runic powder on an advanced spinning wheel.",
+    "page_name_sub": "Harmonised Compound",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Made from discordant residue in a kiln. Can be combined with runic powder on an advanced spinning wheel.",
+      "weight": "0.0",
+      "image": "[[File:Harmonised Compound.png|32px]]",
+      "name": "Harmonised Compound",
+      "item_type": "Processed Material",
+      "stacklimit": "99",
+      "image_raw": "Harmonised Compound.png"
+    },
+    "item_type": "Processed Material",
+    "item_name": "Harmonised Compound"
+  },
+  {
+    "page_name": "Runite Ore",
+    "item_description": "",
+    "page_name_sub": "Runite Ore",
+    "item_weight": 2.7,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "",
+      "weight": "2.7",
+      "image": "[[File:Runite Ore.png|32px]]",
+      "name": "Runite Ore",
+      "item_type": "Basic Material",
+      "stacklimit": "99",
+      "image_raw": "Runite Ore.png"
+    },
+    "item_type": "Basic Material",
+    "item_name": "Runite Ore"
+  },
+  {
+    "page_name": "Vis Fibres",
+    "item_description": "Spun on an advanced spinning wheel. Threads that can be spun into vis cloth on a loom.",
+    "page_name_sub": "Vis Fibres",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Spun on an advanced spinning wheel. Threads that can be spun into vis cloth on a loom.",
+      "weight": "0.0",
+      "image": "[[File:Vis Fibres.png|32px]]",
+      "name": "Vis Fibres",
+      "item_type": "Processed Material",
+      "stacklimit": "99",
+      "image_raw": "Vis Fibres.png"
+    },
+    "item_type": "Processed Material",
+    "item_name": "Vis Fibres"
+  },
+  {
+    "page_name": "Black Dragon Hide",
+    "item_description": "Obtained from felling  black dragons. Can be processed at the tannery.",
+    "page_name_sub": "Black Dragon Hide",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Obtained from felling  black dragons. Can be processed at the tannery.",
+      "weight": "",
+      "image": "[[File:Black Dragon Hide.png|32px]]",
+      "name": "Black Dragon Hide",
+      "item_type": "Basic Material",
+      "stacklimit": "99",
+      "image_raw": "Black Dragon Hide.png"
+    },
+    "item_type": "Basic Material",
+    "item_name": "Black Dragon Hide"
+  },
+  {
+    "page_name": "Vis Cloth",
+    "item_description": "Spun on a loom from vis fibres and draconic vis wax. Now it's time to make some mage armour.",
+    "page_name_sub": "Vis Cloth",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Spun on a loom from vis fibres and draconic vis wax. Now it's time to make some mage armour.",
+      "weight": "0.0",
+      "image": "[[File:Vis Cloth.png|32px]]",
+      "name": "Vis Cloth",
+      "item_type": "Processed Material",
+      "stacklimit": "99",
+      "image_raw": "Vis Cloth.png"
+    },
+    "item_type": "Processed Material",
+    "item_name": "Vis Cloth"
+  },
+  {
+    "page_name": "Draconic Vis Wax",
+    "item_description": "Made in a brewing cauldron. Alongside vis fibres, it can be spun into vis cloth on a loom.",
+    "page_name_sub": "Draconic Vis Wax",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Made in a brewing cauldron. Alongside vis fibres, it can be spun into vis cloth on a loom.",
+      "weight": "0.0",
+      "image": "[[File:Draconic Vis Wax.png|32px]]",
+      "name": "Draconic Vis Wax",
+      "item_type": "Processed Material",
+      "stacklimit": "99",
+      "image_raw": "Draconic Vis Wax.png"
+    },
+    "item_type": "Processed Material",
+    "item_name": "Draconic Vis Wax"
+  },
+  {
+    "page_name": "Rune Helm",
+    "page_name_sub": "Rune Helm",
+    "item_description": "A sturdy rune helm built to withstand the chaos of close combat.",
+    "item_type": "Melee Armour",
+    "item_name": "Rune Helm",
+    "json": {
+      "description": "A sturdy rune helm built to withstand the chaos of close combat.",
+      "weight": "8.0",
+      "image": "[[File:Rune Helm.png|32px]]",
+      "name": "Rune Helm",
+      "item_type": "Melee Armour",
+      "image_raw": "Rune Helm.png"
+    },
+    "item_weight": 8
+  },
+  {
+    "page_name": "Rune Bar",
+    "item_description": "A magically resonant metal used for crafting weapons and armour.",
+    "page_name_sub": "Rune Bar",
+    "item_weight": 4.5,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A magically resonant metal used for crafting weapons and armour.",
+      "weight": "4.5",
+      "image": "[[File:Rune Bar.png|32px]]",
+      "name": "Rune Bar",
+      "item_type": "Processed Material",
+      "stacklimit": "99",
+      "image_raw": "Rune Bar.png"
+    },
+    "item_type": "Processed Material",
+    "item_name": "Rune Bar"
+  },
+  {
+    "page_name": "Black Dragon Leather",
+    "item_description": "Made by tanning black dragonhide. A key component for ranged armour.",
+    "page_name_sub": "Black Dragon Leather",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Made by tanning black dragonhide. A key component for ranged armour.",
+      "weight": "0.0",
+      "image": "[[File:Black Dragon Leather.png|32px]]",
+      "name": "Black Dragon Leather",
+      "item_type": "Processed Material",
+      "stacklimit": "99",
+      "image_raw": "Black Dragon Leather.png"
+    },
+    "item_type": "Processed Material",
+    "item_name": "Black Dragon Leather"
+  },
+  {
+    "page_name": "Dragon Full Helm",
+    "page_name_sub": "Dragon Full Helm",
+    "item_description": "A fearsome helm forged from dragon metal. Protects your head. Dragons generally aim downwards.",
+    "item_type": "Melee Armour",
+    "item_name": "Dragon Full Helm",
+    "json": {
+      "description": "A fearsome helm forged from dragon metal. Protects your head. Dragons generally aim downwards.",
+      "weight": "8.0",
+      "image": "[[File:Dragon Full Helm.png|32px]]",
+      "name": "Dragon Full Helm",
+      "item_type": "Melee Armour",
+      "image_raw": "Dragon Full Helm.png"
+    },
+    "item_weight": 8
+  },
+  {
+    "page_name": "Rune Platebody",
+    "page_name_sub": "Rune Platebody",
+    "item_description": "Thick rune plates forged into armour for the strongest of warriors.",
+    "item_type": "Melee Armour",
+    "item_name": "Rune Platebody",
+    "json": {
+      "description": "Thick rune plates forged into armour for the strongest of warriors.",
+      "weight": "16.0",
+      "image": "[[File:Rune Platebody.png|32px]]",
+      "name": "Rune Platebody",
+      "item_type": "Melee Armour",
+      "image_raw": "Rune Platebody.png"
+    },
+    "item_weight": 16
+  },
+  {
+    "page_name": "Rune Platelegs",
+    "page_name_sub": "Rune Platelegs",
+    "item_description": "Durable rune platelegs designed for warriors who spend more time fighting than running.",
+    "item_type": "Melee Armour",
+    "item_name": "Rune Platelegs",
+    "json": {
+      "description": "Durable rune platelegs designed for warriors who spend more time fighting than running.",
+      "weight": "12",
+      "image": "[[File:Rune Platelegs.png|32px]]",
+      "name": "Rune Platelegs",
+      "item_type": "Melee Armour",
+      "image_raw": "Rune Platelegs.png"
+    },
+    "item_weight": 12
+  },
+  {
+    "page_name": "Dragon Platebody",
+    "page_name_sub": "Dragon Platebody",
+    "item_description": "The centrepiece of the dragon armour set, forged to withstand blows that would cripple lesser warriors.",
+    "item_type": "Melee Armour",
+    "item_name": "Dragon Platebody",
+    "json": {
+      "description": "The centrepiece of the dragon armour set, forged to withstand blows that would cripple lesser warriors.",
+      "weight": "16",
+      "image": "[[File:Dragon Platebody.png|32px]]",
+      "name": "Dragon Platebody",
+      "item_type": "Melee Armour",
+      "image_raw": "Dragon Platebody.png"
+    },
+    "item_weight": 16
+  },
+  {
+    "page_name": "Dragon Platelegs",
+    "page_name_sub": "Dragon Platelegs",
+    "item_description": "Dragon-forged platelegs offering exceptional protection without sacrificing mobility.",
+    "item_type": "Melee Armour",
+    "item_name": "Dragon Platelegs",
+    "json": {
+      "description": "Dragon-forged platelegs offering exceptional protection without sacrificing mobility.",
+      "weight": "12.0",
+      "image": "[[File:Dragon Platelegs.png|32px]]",
+      "name": "Dragon Platelegs",
+      "item_type": "Melee Armour",
+      "image_raw": "Dragon Platelegs.png"
+    },
+    "item_weight": 12
+  },
+  {
+    "page_name": "Dragon Kiteshield",
+    "page_name_sub": "Dragon Kiteshield",
+    "item_description": "A dragon-forged kiteshield built to stand firm against overwhelming odds.",
+    "item_type": "Shield",
+    "item_name": "Dragon Kiteshield",
+    "json": {
+      "description": "A dragon-forged kiteshield built to stand firm against overwhelming odds.",
+      "weight": "10.0",
+      "image": "[[File:Dragon Kiteshield.png|32px]]",
+      "name": "Dragon Kiteshield",
+      "item_type": "Shield",
+      "image_raw": "Dragon Kiteshield.png"
+    },
+    "item_weight": 10
   }
 ]
