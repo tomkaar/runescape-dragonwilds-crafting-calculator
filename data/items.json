@@ -3132,68 +3132,6 @@
     "stackLimit": 99
   },
   {
-    "id": "abyssal-whip",
-    "name": "Abyssal Whip",
-    "image": "Abyssal Whip.png",
-    "variants": [
-      {
-        "id": "dc500770260e",
-        "name": "Abyssal Whip",
-        "image": "Abyssal Whip.png",
-        "variantName": null,
-        "recipe": {
-          "id": "de54bb39623f",
-          "facilities": [
-            "Blacksmith's Bench"
-          ],
-          "materials": [
-            {
-              "itemId": "abyssal-spine",
-              "quantity": 1
-            },
-            {
-              "itemId": "hard-leather",
-              "quantity": 12
-            },
-            {
-              "itemId": "poison-ichor",
-              "quantity": 6
-            },
-            {
-              "itemId": "swamp-thread",
-              "quantity": 12
-            },
-            {
-              "itemId": "vault-core",
-              "quantity": 1
-            },
-            {
-              "itemId": "vault-shard",
-              "quantity": 12
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Artisan",
-              "experience": 100
-            }
-          ]
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Artisan"
-    ],
-    "facilities": [
-      "Blacksmith's Bench"
-    ],
-    "wikiLink": "Abyssal_Whip",
-    "weight": 4.5,
-    "itemType": "Melee Weapon"
-  },
-  {
     "id": "weak-focused-runecrafting-potion",
     "name": "Weak Focused Runecrafting Potion",
     "image": "Weak Focused Runecrafting Potion.png",
@@ -60649,6 +60587,556 @@
     "wikiLink": "Gold_Medal"
   },
   {
+    "id": "abyssal-whip",
+    "name": "Abyssal Whip",
+    "image": "Abyssal Whip.png",
+    "variants": [
+      {
+        "id": "dc500770260e",
+        "name": "Abyssal Whip",
+        "image": "Abyssal Whip.png",
+        "variantName": null,
+        "recipe": {
+          "id": "de54bb39623f",
+          "facilities": [
+            "Blacksmith's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "abyssal-spine",
+              "quantity": 1
+            },
+            {
+              "itemId": "hard-leather",
+              "quantity": 12
+            },
+            {
+              "itemId": "poison-ichor",
+              "quantity": 6
+            },
+            {
+              "itemId": "swamp-thread",
+              "quantity": 12
+            },
+            {
+              "itemId": "vault-core",
+              "quantity": 1
+            },
+            {
+              "itemId": "vault-shard",
+              "quantity": 12
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 100
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Abyssal_Whip",
+    "weight": 4.5,
+    "itemType": "Melee Weapon"
+  },
+  {
+    "id": "advanced-spinning-wheel",
+    "name": "Advanced Spinning Wheel",
+    "image": "Advanced Spinning Wheel.png",
+    "variants": [
+      {
+        "id": "275eff8e05b2",
+        "name": "Advanced Spinning Wheel",
+        "image": "Advanced Spinning Wheel.png",
+        "variantName": null,
+        "recipe": {
+          "id": "786637c23eb2",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Advanced_Spinning_Wheel"
+  },
+  {
+    "id": "harmonised-compound",
+    "name": "Harmonised Compound",
+    "image": "Harmonised Compound.png",
+    "variants": [
+      {
+        "id": "6827cf99e3bd",
+        "name": "Harmonised Compound",
+        "image": "Harmonised Compound.png",
+        "variantName": null,
+        "recipe": {
+          "id": "85b931b0bdb4",
+          "facilities": [
+            "Kiln"
+          ],
+          "materials": [
+            {
+              "itemId": "discordant-residue",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Kiln"
+    ],
+    "wikiLink": "Harmonised_Compound",
+    "weight": 0,
+    "itemType": "Processed Material",
+    "stackLimit": 99
+  },
+  {
+    "id": "vis-fibres",
+    "name": "Vis Fibres",
+    "image": "Vis Fibres.png",
+    "variants": [
+      {
+        "id": "1f7e5282759a",
+        "name": "Vis Fibres",
+        "image": "Vis Fibres.png",
+        "variantName": null,
+        "recipe": {
+          "id": "649f84a35843",
+          "facilities": [
+            "Advanced Spinning Wheel"
+          ],
+          "materials": [
+            {
+              "itemId": "ground-rune-essence",
+              "quantity": 3
+            },
+            {
+              "itemId": "harmonised-compound",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Advanced Spinning Wheel"
+    ],
+    "wikiLink": "Vis_Fibres",
+    "weight": 0,
+    "itemType": "Processed Material",
+    "stackLimit": 99
+  },
+  {
+    "id": "vis-cloth",
+    "name": "Vis Cloth",
+    "image": "Vis Cloth.png",
+    "variants": [
+      {
+        "id": "9b85b9ceb57f",
+        "name": "Vis Cloth",
+        "image": "Vis Cloth.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7e187b45ee10",
+          "facilities": [
+            "Loom"
+          ],
+          "materials": [
+            {
+              "itemId": "draconic-vis-wax",
+              "quantity": 3
+            },
+            {
+              "itemId": "vis-fibres",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Loom"
+    ],
+    "wikiLink": "Vis_Cloth",
+    "weight": 0,
+    "itemType": "Processed Material",
+    "stackLimit": 99
+  },
+  {
+    "id": "draconic-vis-wax",
+    "name": "Draconic Vis Wax",
+    "image": "Draconic Vis Wax.png",
+    "variants": [
+      {
+        "id": "0783447cdbcc",
+        "name": "Draconic Vis Wax",
+        "image": "Draconic Vis Wax.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b6e7509d54d2",
+          "facilities": [
+            "Brewing Cauldron"
+          ],
+          "materials": [
+            {
+              "itemId": "ground-dragon-tooth",
+              "quantity": 3
+            },
+            {
+              "itemId": "ground-rune-essence",
+              "quantity": 3
+            },
+            {
+              "itemId": "harmonised-compound",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Brewing Cauldron"
+    ],
+    "wikiLink": "Draconic_Vis_Wax",
+    "weight": 0,
+    "itemType": "Processed Material",
+    "stackLimit": 99
+  },
+  {
+    "id": "rune-helm",
+    "name": "Rune Helm",
+    "image": "Rune Helm.png",
+    "variants": [
+      {
+        "id": "12dbb482dd99",
+        "name": "Rune Helm",
+        "image": "Rune Helm.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f6bfc1961f27",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "black-dragon-leather",
+              "quantity": 4
+            },
+            {
+              "itemId": "draconic-vis-wax",
+              "quantity": 1
+            },
+            {
+              "itemId": "harmonised-compound",
+              "quantity": 1
+            },
+            {
+              "itemId": "rune-bar",
+              "quantity": 4
+            },
+            {
+              "itemId": "vis-cloth",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 125
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Rune_Helm",
+    "weight": 8,
+    "itemType": "Melee Armour"
+  },
+  {
+    "id": "rune-bar",
+    "name": "Rune Bar",
+    "image": "Rune Bar.png",
+    "variants": [
+      {
+        "id": "5aaa38b2fea2",
+        "name": "Rune Bar",
+        "image": "Rune Bar.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2a1bd8fc210a",
+          "facilities": [
+            "Blast Furnace"
+          ],
+          "materials": [
+            {
+              "itemId": "luminite-ore",
+              "quantity": 3
+            },
+            {
+              "itemId": "runite-ore",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blast Furnace"
+    ],
+    "wikiLink": "Rune_Bar",
+    "weight": 4.5,
+    "itemType": "Processed Material",
+    "stackLimit": 99
+  },
+  {
+    "id": "black-dragon-leather",
+    "name": "Black Dragon Leather",
+    "image": "Black Dragon Leather.png",
+    "variants": [
+      {
+        "id": "f6da7e074f82",
+        "name": "Black Dragon Leather",
+        "image": "Black Dragon Leather.png",
+        "variantName": null,
+        "recipe": {
+          "id": "3e2a0f72ddc3",
+          "facilities": [
+            "Advanced Tannery"
+          ],
+          "materials": [
+            {
+              "itemId": "black-dragon-hide",
+              "quantity": 1
+            },
+            {
+              "itemId": "dragon-blood",
+              "quantity": 1
+            },
+            {
+              "itemId": "ground-rune-essence",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Advanced Tannery"
+    ],
+    "wikiLink": "Black_Dragon_Leather",
+    "weight": 0,
+    "itemType": "Processed Material",
+    "stackLimit": 99
+  },
+  {
+    "id": "rune-platebody",
+    "name": "Rune Platebody",
+    "image": "Rune Platebody.png",
+    "variants": [
+      {
+        "id": "bbd34c42513d",
+        "name": "Rune Platebody",
+        "image": "Rune Platebody.png",
+        "variantName": null,
+        "recipe": {
+          "id": "19fa977d306d",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "black-dragon-leather",
+              "quantity": 8
+            },
+            {
+              "itemId": "draconic-vis-wax",
+              "quantity": 3
+            },
+            {
+              "itemId": "harmonised-compound",
+              "quantity": 3
+            },
+            {
+              "itemId": "rune-bar",
+              "quantity": 10
+            },
+            {
+              "itemId": "vis-cloth",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Rune_Platebody",
+    "weight": 16,
+    "itemType": "Melee Armour"
+  },
+  {
+    "id": "rune-platelegs",
+    "name": "Rune Platelegs",
+    "image": "Rune Platelegs.png",
+    "variants": [
+      {
+        "id": "ce897b6cab3f",
+        "name": "Rune Platelegs",
+        "image": "Rune Platelegs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "88621edbd91f",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "black-dragon-leather",
+              "quantity": 6
+            },
+            {
+              "itemId": "draconic-vis-wax",
+              "quantity": 2
+            },
+            {
+              "itemId": "harmonised-compound",
+              "quantity": 2
+            },
+            {
+              "itemId": "rune-bar",
+              "quantity": 6
+            },
+            {
+              "itemId": "vis-cloth",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Rune_Platelegs",
+    "weight": 12,
+    "itemType": "Melee Armour"
+  },
+  {
     "id": "goblin-pack",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -73057,5 +73545,189 @@
     "weight": 0,
     "itemType": "Basic Item",
     "stackLimit": 99
+  },
+  {
+    "id": "luminite-ore",
+    "name": "Luminite Ore",
+    "image": "Luminite Ore.png",
+    "variants": [
+      {
+        "id": "luminite-ore",
+        "name": "Luminite Ore",
+        "image": "Luminite Ore.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Luminite_Ore",
+    "weight": 0,
+    "itemType": "Processed Material",
+    "stackLimit": 99
+  },
+  {
+    "id": "discordant-residue",
+    "name": "Discordant Residue",
+    "image": "Discordant Residue.png",
+    "variants": [
+      {
+        "id": "discordant-residue",
+        "name": "Discordant Residue",
+        "image": "Discordant Residue.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Discordant_Residue",
+    "itemType": "Processed Material",
+    "stackLimit": 99
+  },
+  {
+    "id": "abyssal-remains",
+    "name": "Abyssal remains",
+    "image": "Abyssal remains.png",
+    "variants": [
+      {
+        "id": "abyssal-remains",
+        "name": "Abyssal Remains",
+        "image": "Abyssal remains.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Abyssal_remains",
+    "weight": 0,
+    "itemType": "",
+    "stackLimit": 0
+  },
+  {
+    "id": "runite-ore",
+    "name": "Runite Ore",
+    "image": "Runite Ore.png",
+    "variants": [
+      {
+        "id": "runite-ore",
+        "name": "Runite Ore",
+        "image": "Runite Ore.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Runite_Ore",
+    "weight": 2.7,
+    "itemType": "Basic Material",
+    "stackLimit": 99
+  },
+  {
+    "id": "black-dragon-hide",
+    "name": "Black Dragon Hide",
+    "image": "Black Dragon Hide.png",
+    "variants": [
+      {
+        "id": "black-dragon-hide",
+        "name": "Black Dragon Hide",
+        "image": "Black Dragon Hide.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Black_Dragon_Hide",
+    "weight": 0,
+    "itemType": "Basic Material",
+    "stackLimit": 99
+  },
+  {
+    "id": "dragon-full-helm",
+    "name": "Dragon Full Helm",
+    "image": "Dragon Full Helm.png",
+    "variants": [
+      {
+        "id": "dragon-full-helm",
+        "name": "Dragon Full Helm",
+        "image": "Dragon Full Helm.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Dragon_Full_Helm",
+    "weight": 8,
+    "itemType": "Melee Armour"
+  },
+  {
+    "id": "dragon-platebody",
+    "name": "Dragon Platebody",
+    "image": "Dragon Platebody.png",
+    "variants": [
+      {
+        "id": "dragon-platebody",
+        "name": "Dragon Platebody",
+        "image": "Dragon Platebody.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Dragon_Platebody",
+    "weight": 16,
+    "itemType": "Melee Armour"
+  },
+  {
+    "id": "dragon-platelegs",
+    "name": "Dragon Platelegs",
+    "image": "Dragon Platelegs.png",
+    "variants": [
+      {
+        "id": "dragon-platelegs",
+        "name": "Dragon Platelegs",
+        "image": "Dragon Platelegs.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Dragon_Platelegs",
+    "weight": 12,
+    "itemType": "Melee Armour"
+  },
+  {
+    "id": "dragon-kiteshield",
+    "name": "Dragon Kiteshield",
+    "image": "Dragon Kiteshield.png",
+    "variants": [
+      {
+        "id": "dragon-kiteshield",
+        "name": "Dragon Kiteshield",
+        "image": "Dragon Kiteshield.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Dragon_Kiteshield",
+    "weight": 10,
+    "itemType": "Shield"
   }
 ]
