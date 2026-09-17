@@ -663,7 +663,7 @@
     "item_stacklimit": 99,
     "json": {
       "description": "A mysterious porous rock used as a base for powerful runes.",
-      "weight": "0.2'\"`UNIQ--ref-00000002-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000001-QINU`\"'",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
       "item_type": "Basic Item",
@@ -21915,6 +21915,22 @@
     "item_name": "Extinguished Red Remnants"
   },
   {
+    "page_name": "Ancestral Robes",
+    "page_name_sub": "Ancestral Robes",
+    "item_description": "Robes worn in the pursuit of magical mastery, embroidered with symbols whose meaning has long been forgotten.",
+    "item_type": "Mage Armour",
+    "item_name": "Ancestral Robes",
+    "json": {
+      "description": "Robes worn in the pursuit of magical mastery, embroidered with symbols whose meaning has long been forgotten.",
+      "weight": "8.0",
+      "image": "[[File:Ancestral Robes.png|32px]]",
+      "name": "Ancestral Robes",
+      "item_type": "Mage Armour",
+      "image_raw": "Ancestral Robes.png"
+    },
+    "item_weight": 8
+  },
+  {
     "page_name": "MOUNT: Moonsilk Weave",
     "item_name": "MOUNT: Moonsilk Weave",
     "page_name_sub": "MOUNT: Moonsilk Weave",
@@ -22680,6 +22696,22 @@
     "item_name": "Tome of Agility - Vol 2"
   },
   {
+    "page_name": "Dragon Scimitar",
+    "page_name_sub": "Dragon Scimitar",
+    "item_description": "A razor-sharp dragon scimitar favoured by warriors who value speed as much as strength.",
+    "item_type": "Melee Weapon",
+    "item_name": "Dragon Scimitar",
+    "json": {
+      "description": "A razor-sharp dragon scimitar favoured by warriors who value speed as much as strength.",
+      "weight": "15.0",
+      "image": "[[File:Dragon Scimitar.png|32px]]",
+      "name": "Dragon Scimitar",
+      "item_type": "Melee Weapon",
+      "image_raw": "Dragon Scimitar.png"
+    },
+    "item_weight": 15
+  },
+  {
     "page_name": "Abysmal Whip",
     "page_name_sub": "Abysmal Whip",
     "item_description": "",
@@ -22818,6 +22850,24 @@
     },
     "item_description": "Obtained from creatures in Kuldra's Tower. A core component of vis cloth.",
     "item_name": "Discordant Residue"
+  },
+  {
+    "page_name": "Ground Rune Essence",
+    "item_description": "Made by grinding rune essence. A component of black dragon leather.",
+    "page_name_sub": "Ground Rune Essence",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Made by grinding rune essence. A component of black dragon leather.",
+      "weight": "0.0",
+      "image": "[[File:Ground Rune Essence.png|32px]]",
+      "name": "Ground Rune Essence",
+      "item_type": "Processed Material",
+      "stacklimit": "99",
+      "image_raw": "Ground Rune Essence.png"
+    },
+    "item_type": "Processed Material",
+    "item_name": "Ground Rune Essence"
   },
   {
     "page_name": "Abyssal remains",
@@ -23082,6 +23132,22 @@
     "item_weight": 12
   },
   {
+    "page_name": "Black Dragonhide Body",
+    "page_name_sub": "Black Dragonhide Body",
+    "item_description": "Tough, flexible black dragonhide armour trusted by hunters who prefer to strike from afar.",
+    "item_type": "Ranged Armour",
+    "item_name": "Black Dragonhide Body",
+    "json": {
+      "description": "Tough, flexible black dragonhide armour trusted by hunters who prefer to strike from afar.",
+      "weight": "12.0",
+      "image": "[[File:Black Dragonhide Body.png|32px]]",
+      "name": "Black Dragonhide Body",
+      "item_type": "Ranged Armour",
+      "image_raw": "Black Dragonhide Body.png"
+    },
+    "item_weight": 12
+  },
+  {
     "page_name": "Dragon Kiteshield",
     "page_name_sub": "Dragon Kiteshield",
     "item_description": "A dragon-forged kiteshield built to stand firm against overwhelming odds.",
@@ -23096,5 +23162,625 @@
       "image_raw": "Dragon Kiteshield.png"
     },
     "item_weight": 10
+  },
+  {
+    "page_name": "Rune Dagger",
+    "page_name_sub": "Rune Dagger",
+    "item_description": "A razor-sharp rune dagger prized for its speed, precision, and deadly effectiveness.",
+    "item_type": "Melee Weapon",
+    "item_name": "Rune Dagger",
+    "json": {
+      "description": "A razor-sharp rune dagger prized for its speed, precision, and deadly effectiveness.",
+      "weight": "5.0",
+      "image": "[[File:Rune Dagger.png|32px]]",
+      "name": "Rune Dagger",
+      "item_type": "Melee Weapon",
+      "image_raw": "Rune Dagger.png"
+    },
+    "item_weight": 5
+  },
+  {
+    "page_name": "Rune Mace",
+    "page_name_sub": "Rune Mace",
+    "item_description": "A sturdy rune mace, designed to crush armour and bone alike with devastating force.",
+    "item_type": "Melee Weapon",
+    "item_name": "Rune Mace",
+    "json": {
+      "description": "A sturdy rune mace, designed to crush armour and bone alike with devastating force.",
+      "weight": "15.0",
+      "image": "[[File:Rune Mace.png|32px]]",
+      "name": "Rune Mace",
+      "item_type": "Melee Weapon",
+      "image_raw": "Rune Mace.png"
+    },
+    "item_weight": 15
+  },
+  {
+    "page_name": "Magic Logs",
+    "item_description": "Cut from magic trees. Can be crafted into various equipment.",
+    "page_name_sub": "Magic Logs",
+    "item_weight": 1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Cut from magic trees. Can be crafted into various equipment.",
+      "weight": "1.0",
+      "image": "[[File:Magic Logs.png|32px]]",
+      "name": "Magic Logs",
+      "item_type": "Basic Material",
+      "stacklimit": "99",
+      "image_raw": "Magic Logs.png"
+    },
+    "item_type": "Basic Material",
+    "item_name": "Magic Logs"
+  },
+  {
+    "page_name": "Rune Pickaxe",
+    "page_name_sub": "Rune Pickaxe",
+    "item_description": "A masterfully forged pickaxe of pure runite, capable of breaking through even the toughest stone with ease.",
+    "item_type": "Tool",
+    "item_name": "Rune Pickaxe",
+    "json": {
+      "description": "A masterfully forged pickaxe of pure runite, capable of breaking through even the toughest stone with ease.",
+      "weight": "5.0",
+      "image": "[[File:Rune Pickaxe.png|32px]]",
+      "name": "Rune Pickaxe",
+      "item_type": "Tool",
+      "image_raw": "Rune Pickaxe.png"
+    },
+    "item_weight": 5
+  },
+  {
+    "page_name": "Rune Logging Axe",
+    "page_name_sub": "Rune Logging Axe",
+    "item_description": "Crafted from durable runite, this axe bites deeply into timber and stands up to years of hard use.",
+    "item_type": "Tool",
+    "item_name": "Rune Logging Axe",
+    "json": {
+      "description": "Crafted from durable runite, this axe bites deeply into timber and stands up to years of hard use.",
+      "weight": "5.0",
+      "image": "[[File:Rune Logging Axe.png|32px]]",
+      "name": "Rune Logging Axe",
+      "item_type": "Tool",
+      "image_raw": "Rune Logging Axe.png"
+    },
+    "item_weight": 5
+  },
+  {
+    "page_name": "Ground Dragon Tooth",
+    "item_description": "The product of grinding dragon teeth. Essential for making draconic vis wax.",
+    "page_name_sub": "Ground Dragon Tooth",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "The product of grinding dragon teeth. Essential for making draconic vis wax.",
+      "weight": "0.0",
+      "image": "[[File:Ground Dragon Tooth.png|32px]]",
+      "name": "Ground Dragon Tooth",
+      "item_type": "Processed Material",
+      "stacklimit": "99",
+      "image_raw": "Ground Dragon Tooth.png"
+    },
+    "item_type": "Processed Material",
+    "item_name": "Ground Dragon Tooth"
+  },
+  {
+    "page_name": "Rune Shield",
+    "page_name_sub": "Rune Shield",
+    "item_description": "A rune shield forged to endure punishment that would leave lesser metal in pieces.",
+    "item_type": "Basic Item",
+    "item_name": "Rune Shield",
+    "json": {
+      "description": "A rune shield forged to endure punishment that would leave lesser metal in pieces.",
+      "weight": "10.0",
+      "image": "[[File:Rune Shield.png|32px]]",
+      "name": "Rune Shield",
+      "item_type": "Basic Item",
+      "image_raw": "Rune Shield.png"
+    },
+    "item_weight": 10
+  },
+  {
+    "page_name": "Rune Spade",
+    "page_name_sub": "Rune Spade",
+    "item_description": "Whether digging gardening plots or unearthing treasure, this tool is built to last.",
+    "item_type": "Tool",
+    "item_name": "Rune Spade",
+    "json": {
+      "description": "Whether digging gardening plots or unearthing treasure, this tool is built to last.",
+      "weight": "5.5",
+      "image": "[[File:Rune Spade.png|32px]]",
+      "name": "Rune Spade",
+      "item_type": "Tool",
+      "image_raw": "Rune Spade.png"
+    },
+    "item_weight": 5.5
+  },
+  {
+    "page_name": "Dragon med helm",
+    "item_description": "",
+    "page_name_sub": "Dragon med helm",
+    "item_weight": 8,
+    "item_name": "Dragon med helm",
+    "json": {
+      "description": "",
+      "weight": "8.0",
+      "compostvalue": "",
+      "image": "[[File:Dragon med helm.png|32px]]",
+      "name": "Dragon med helm",
+      "hydration": "",
+      "sustenance": "",
+      "health": "",
+      "stacklimit": "",
+      "image_raw": "Dragon med helm.png"
+    },
+    "item_stacklimit": 0
+  },
+  {
+    "page_name": "Ancestral Hat",
+    "page_name_sub": "Ancestral Hat",
+    "item_description": "Woven with ancient knowledge and arcane tradition. The hat is old, the magic within is older.",
+    "item_type": "Mage Armour",
+    "item_name": "Ancestral Hat",
+    "json": {
+      "description": "Woven with ancient knowledge and arcane tradition. The hat is old, the magic within is older.",
+      "weight": "4.0",
+      "image": "[[File:Ancestral Hat.png|32px]]",
+      "name": "Ancestral Hat",
+      "item_type": "Mage Armour",
+      "image_raw": "Ancestral Hat.png"
+    },
+    "item_weight": 4
+  },
+  {
+    "page_name": "Ancestral Leggings",
+    "page_name_sub": "Ancestral Leggings",
+    "item_description": "Enchanted garments that carry the legacy of generations of powerful spellcasters.",
+    "item_type": "Mage Armour",
+    "item_name": "Ancestral Leggings",
+    "json": {
+      "description": "Enchanted garments that carry the legacy of generations of powerful spellcasters.",
+      "weight": "6.0",
+      "image": "[[File:Ancestral Leggings.png|32px]]",
+      "name": "Ancestral Leggings",
+      "item_type": "Mage Armour",
+      "image_raw": "Ancestral Leggings.png"
+    },
+    "item_weight": 6
+  },
+  {
+    "page_name": "Black Dragonhide Coif",
+    "page_name_sub": "Black Dragonhide Coif",
+    "item_description": "Fashioned from black dragonhide, this helm offers protection without hindering an archer's awareness.",
+    "item_type": "Ranged Armour",
+    "item_name": "Black Dragonhide Coif",
+    "json": {
+      "description": "Fashioned from black dragonhide, this helm offers protection without hindering an archer's awareness.",
+      "weight": "6.0",
+      "image": "[[File:Black Dragonhide Coif.png|32px]]",
+      "name": "Black Dragonhide Coif",
+      "item_type": "Ranged Armour",
+      "image_raw": "Black Dragonhide Coif.png"
+    },
+    "item_weight": 6
+  },
+  {
+    "page_name": "Black Dragonhide Chaps",
+    "page_name_sub": "Black Dragonhide Chaps",
+    "item_description": "Crafted from resilient black dragonhide, these leggings allow swift movement while providing excellent protection.",
+    "item_type": "Ranged Armour",
+    "item_name": "Black Dragonhide Chaps",
+    "json": {
+      "description": "Crafted from resilient black dragonhide, these leggings allow swift movement while providing excellent protection.",
+      "weight": "9.0",
+      "image": "[[File:Black Dragonhide Chaps.png|32px]]",
+      "name": "Black Dragonhide Chaps",
+      "item_type": "Ranged Armour",
+      "image_raw": "Black Dragonhide Chaps.png"
+    },
+    "item_weight": 9
+  },
+  {
+    "page_name": "Rune Bolt",
+    "item_description": "Carefully forged rune crossbow bolts that hit hard and fly true.",
+    "page_name_sub": "Rune Bolt",
+    "item_weight": 0,
+    "item_stacklimit": 999,
+    "json": {
+      "description": "Carefully forged rune crossbow bolts that hit hard and fly true.",
+      "weight": "0.0",
+      "image": "[[File:Rune Bolt.png|32px]]",
+      "name": "Rune Bolt",
+      "item_type": "Ammo",
+      "stacklimit": "999",
+      "image_raw": "Rune Bolt.png"
+    },
+    "item_type": "Ammo",
+    "item_name": "Rune Bolt"
+  },
+  {
+    "page_name": "Enchanted Rune Bolt",
+    "item_description": "Rune bolts infused with magical energy and a diamond tip. Their targets rarely appreciate the distinction. Has a chance to pierce through several enemies at once.",
+    "page_name_sub": "Enchanted Rune Bolt",
+    "item_weight": 0,
+    "item_stacklimit": 999,
+    "json": {
+      "description": "Rune bolts infused with magical energy and a diamond tip. Their targets rarely appreciate the distinction. Has a chance to pierce through several enemies at once.",
+      "weight": "0.0",
+      "image": "[[File:Enchanted Rune Bolt.png|32px]]",
+      "name": "Enchanted Rune Bolt",
+      "item_type": "Ammo",
+      "stacklimit": "999",
+      "image_raw": "Enchanted Rune Bolt.png"
+    },
+    "item_type": "Ammo",
+    "item_name": "Enchanted Rune Bolt"
+  },
+  {
+    "page_name": "Rune Watering Can",
+    "page_name_sub": "Rune Watering Can",
+    "item_description": "A sturdy rune watering can, built to endure countless seasons of tending crops and gardens.",
+    "item_type": "Tool",
+    "item_name": "Rune Watering Can",
+    "json": {
+      "description": "A sturdy rune watering can, built to endure countless seasons of tending crops and gardens.",
+      "weight": "5.5",
+      "image": "[[File:Rune Watering Can.png|32px]]",
+      "name": "Rune Watering Can",
+      "item_type": "Tool",
+      "image_raw": "Rune Watering Can.png"
+    },
+    "item_weight": 5.5
+  },
+  {
+    "page_name": "Gilded Paladin Helmet",
+    "page_name_sub": "Gilded Paladin Helmet",
+    "item_description": "Polished to a brilliant shine, this helmet is as impressive as it is eye-catching.",
+    "item_type": "Melee Armour",
+    "item_name": "Gilded Paladin Helmet",
+    "json": {
+      "description": "Polished to a brilliant shine, this helmet is as impressive as it is eye-catching.",
+      "weight": "8.0",
+      "image": "[[File:Gilded Paladin Helmet.png|32px]]",
+      "name": "Gilded Paladin Helmet",
+      "item_type": "Melee Armour",
+      "image_raw": "Gilded Paladin Helmet.png"
+    },
+    "item_weight": 8
+  },
+  {
+    "page_name": "Gilded Paladin Chestpiece",
+    "page_name_sub": "Gilded Paladin Chestpiece",
+    "item_description": "An ornate golden chestpiece that serves as a symbol of power, status, and confidence.",
+    "item_type": "Melee Armour",
+    "item_name": "Gilded Paladin Chestpiece",
+    "json": {
+      "description": "An ornate golden chestpiece that serves as a symbol of power, status, and confidence.",
+      "weight": "16.0",
+      "image": "[[File:Gilded Paladin Chestpiece.png|32px]]",
+      "name": "Gilded Paladin Chestpiece",
+      "item_type": "Melee Armour",
+      "image_raw": "Gilded Paladin Chestpiece.png"
+    },
+    "item_weight": 16
+  },
+  {
+    "page_name": "Gilded Paladin Legs",
+    "page_name_sub": "Gilded Paladin Legs",
+    "item_description": "Golden platelegs for warriors who believe protection should be seen from a distance.",
+    "item_type": "Melee Armour",
+    "item_name": "Gilded Paladin Legs",
+    "json": {
+      "description": "Golden platelegs for warriors who believe protection should be seen from a distance.",
+      "weight": "12.0",
+      "image": "[[File:Gilded Paladin Legs.png|32px]]",
+      "name": "Gilded Paladin Legs",
+      "item_type": "Melee Armour",
+      "image_raw": "Gilded Paladin Legs.png"
+    },
+    "item_weight": 12
+  },
+  {
+    "page_name": "Rune Sword",
+    "page_name_sub": "Rune Sword",
+    "item_description": "A finely balanced rune sword, renowned for its strength, precision, and reliability in battle.",
+    "item_type": "Melee Weapon",
+    "item_name": "Rune Sword",
+    "json": {
+      "description": "A finely balanced rune sword, renowned for its strength, precision, and reliability in battle.",
+      "weight": "15.0",
+      "image": "[[File:Rune Sword.png|32px]]",
+      "name": "Rune Sword",
+      "item_type": "Melee Weapon",
+      "image_raw": "Rune Sword.png"
+    },
+    "item_weight": 15
+  },
+  {
+    "page_name": "Rune Scimitar",
+    "page_name_sub": "Rune Scimitar",
+    "item_description": "The curved rune blade flows effortlessly from one strike to the next.",
+    "item_type": "Melee Weapon",
+    "item_name": "Rune Scimitar",
+    "json": {
+      "description": "The curved rune blade flows effortlessly from one strike to the next.",
+      "weight": "15",
+      "image": "[[File:Rune Scimitar.png|32px]]",
+      "name": "Rune Scimitar",
+      "item_type": "Melee Weapon",
+      "image_raw": "Rune Scimitar.png"
+    },
+    "item_weight": 15
+  },
+  {
+    "page_name": "Rune Greataxe",
+    "page_name_sub": "Rune Greataxe",
+    "item_description": "An imposing rune greataxe, for when a regular axe simply isn't sending a strong enough message.",
+    "item_type": "Melee Weapon",
+    "item_name": "Rune Greataxe",
+    "json": {
+      "description": "An imposing rune greataxe, for when a regular axe simply isn't sending a strong enough message.",
+      "weight": "25.0",
+      "image": "[[File:Rune Greataxe.png|32px]]",
+      "name": "Rune Greataxe",
+      "item_type": "Melee Weapon",
+      "image_raw": "Rune Greataxe.png"
+    },
+    "item_weight": 25
+  },
+  {
+    "page_name": "Rune Greatsword",
+    "page_name_sub": "Rune Greatsword",
+    "item_description": "A massive two-handed blade forged from runite. Few can wield such a weapon effectively, but fewer still can stand against it.",
+    "item_type": "Melee Weapon",
+    "item_name": "Rune Greatsword",
+    "json": {
+      "description": "A massive two-handed blade forged from runite. Few can wield such a weapon effectively, but fewer still can stand against it.",
+      "weight": "25.0",
+      "image": "[[File:Rune Greatsword.png|32px]]",
+      "name": "Rune Greatsword",
+      "item_type": "Melee Weapon",
+      "image_raw": "Rune Greatsword.png"
+    },
+    "item_weight": 25
+  },
+  {
+    "page_name": "Rune Warhammer",
+    "page_name_sub": "Rune Warhammer",
+    "item_description": "A colossal rune warhammer, capable of shattering shields and crushing the strongest defences.",
+    "item_type": "Melee Weapon",
+    "item_name": "Rune Warhammer",
+    "json": {
+      "description": "A colossal rune warhammer, capable of shattering shields and crushing the strongest defences.",
+      "weight": "25.0",
+      "image": "[[File:Rune Warhammer.png|32px]]",
+      "name": "Rune Warhammer",
+      "item_type": "Melee Weapon",
+      "image_raw": "Rune Warhammer.png"
+    },
+    "item_weight": 25
+  },
+  {
+    "page_name": "Rune Arrow",
+    "item_description": "Rune arrows are prized for their exceptional flight and striking power.",
+    "page_name_sub": "Rune Arrow",
+    "item_weight": 0,
+    "item_stacklimit": 999,
+    "json": {
+      "description": "Rune arrows are prized for their exceptional flight and striking power.",
+      "weight": "0.0",
+      "image": "[[File:Rune Arrow.png|32px]]",
+      "name": "Rune Arrow",
+      "item_type": "Arrow",
+      "stacklimit": "999",
+      "image_raw": "Rune Arrow.png"
+    },
+    "item_type": "Arrow",
+    "item_name": "Rune Arrow"
+  },
+  {
+    "page_name": "Rune Fire Arrow",
+    "item_description": "Arrows with tips forged from runite coated in fire oil.",
+    "page_name_sub": "Rune Fire Arrow",
+    "item_weight": 0,
+    "item_stacklimit": 999,
+    "json": {
+      "description": "Arrows with tips forged from runite coated in fire oil.",
+      "weight": "0.0",
+      "image": "[[File:Rune Fire Arrow.png|32px]]",
+      "name": "Rune Fire Arrow",
+      "item_type": "Arrow",
+      "stacklimit": "999",
+      "image_raw": "Rune Fire Arrow.png"
+    },
+    "item_type": "Arrow",
+    "item_name": "Rune Fire Arrow"
+  },
+  {
+    "page_name": "Rune Barbed Arrow",
+    "item_description": "Lacerating arrows with tips forged from runite.",
+    "page_name_sub": "Rune Barbed Arrow",
+    "item_weight": 0,
+    "item_stacklimit": 999,
+    "json": {
+      "description": "Lacerating arrows with tips forged from runite.",
+      "weight": "0.0",
+      "image": "[[File:Rune Barbed Arrow.png|32px]]",
+      "name": "Rune Barbed Arrow",
+      "item_type": "Arrow",
+      "stacklimit": "999",
+      "image_raw": "Rune Barbed Arrow.png"
+    },
+    "item_type": "Arrow",
+    "item_name": "Rune Barbed Arrow"
+  },
+  {
+    "page_name": "Poisoned Rune Arrow",
+    "item_description": "Arrows with tips forged from runite coated in poison.",
+    "page_name_sub": "Poisoned Rune Arrow",
+    "item_weight": 0,
+    "item_stacklimit": 999,
+    "json": {
+      "description": "Arrows with tips forged from runite coated in poison.",
+      "weight": "0.0",
+      "image": "[[File:Poisoned Rune Arrow.png|32px]]",
+      "name": "Poisoned Rune Arrow",
+      "item_type": "Arrow",
+      "stacklimit": "999",
+      "image_raw": "Poisoned Rune Arrow.png"
+    },
+    "item_type": "Arrow",
+    "item_name": "Poisoned Rune Arrow"
+  },
+  {
+    "page_name": "Rune Crossbow Limbs",
+    "item_description": "Expertly forged rune limbs that provide exceptional strength and durability when fitted to a crossbow.",
+    "page_name_sub": "Rune Crossbow Limbs",
+    "item_weight": 4.5,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Expertly forged rune limbs that provide exceptional strength and durability when fitted to a crossbow.",
+      "weight": "4.5",
+      "image": "[[File:Rune Crossbow Limbs.png|32px]]",
+      "name": "Rune Crossbow Limbs",
+      "item_type": "Basic Item",
+      "stacklimit": "99",
+      "image_raw": "Rune Crossbow Limbs.png"
+    },
+    "item_type": "Basic Item",
+    "item_name": "Rune Crossbow Limbs"
+  },
+  {
+    "page_name": "Rune Crossbow",
+    "page_name_sub": "Rune Crossbow",
+    "item_description": "A precision-engineered rune crossbow that delivers powerful, accurate shots at range.",
+    "item_type": "Ranged Weapon",
+    "item_name": "Rune Crossbow",
+    "json": {
+      "description": "A precision-engineered rune crossbow that delivers powerful, accurate shots at range.",
+      "weight": "10.0",
+      "image": "[[File:Rune Crossbow.png|32px]]",
+      "name": "Rune Crossbow",
+      "item_type": "Ranged Weapon",
+      "image_raw": "Rune Crossbow.png"
+    },
+    "item_weight": 10
+  },
+  {
+    "page_name": "Kuldra's Wrath",
+    "page_name_sub": "Kuldra's Wrath",
+    "item_description": "A masterfully crafted wand, infused with the fury of Kuldra - channeling arcane power with terrifying efficiency.",
+    "item_type": "Magic Weapon",
+    "item_name": "Kuldra's Wrath",
+    "json": {
+      "description": "A masterfully crafted wand, infused with the fury of Kuldra - channeling arcane power with terrifying efficiency.",
+      "weight": "15.0",
+      "image": "[[File:Kuldra's Wrath.png|32px]]",
+      "name": "Kuldra's Wrath",
+      "item_type": "Magic Weapon",
+      "image_raw": "Kuldra's Wrath.png"
+    },
+    "item_weight": 15
+  },
+  {
+    "page_name": "Ancestral Robe Legs",
+    "page_name_sub": "Ancestral Robe Legs",
+    "item_description": "",
+    "item_type": "Mage Armour",
+    "item_name": "Ancestral Robe Legs",
+    "json": {
+      "description": "",
+      "weight": "",
+      "image": "[[File:Ancestral Robe Legs.png|32px]]",
+      "name": "Ancestral Robe Legs",
+      "item_type": "Mage Armour",
+      "image_raw": "Ancestral Robe Legs.png"
+    },
+    "item_weight": 0
+  },
+  {
+    "page_name": "Magic Shortbow",
+    "page_name_sub": "Magic Shortbow",
+    "item_description": "",
+    "item_type": "Ranged Weapon",
+    "item_name": "Magic Shortbow",
+    "json": {
+      "description": "",
+      "weight": "10",
+      "image": "[[File:Magic Shortbow.png|32px]]",
+      "name": "Magic Shortbow",
+      "item_type": "Ranged Weapon",
+      "image_raw": "Magic Shortbow.png"
+    },
+    "item_weight": 10
+  },
+  {
+    "page_name": "Magic Longbow",
+    "page_name_sub": "Magic Longbow",
+    "item_description": "",
+    "item_type": "Ranged Weapon",
+    "item_name": "Magic Longbow",
+    "json": {
+      "description": "",
+      "weight": "15",
+      "image": "[[File:Magic Longbow.png|32px]]",
+      "name": "Magic Longbow",
+      "item_type": "Ranged Weapon",
+      "image_raw": "Magic Longbow.png"
+    },
+    "item_weight": 15
+  },
+  {
+    "page_name": "Dragon Med Helm",
+    "page_name_sub": "Dragon Med Helm",
+    "item_description": "",
+    "item_type": "Melee Armour",
+    "item_name": "Dragon Med Helm",
+    "json": {
+      "description": "",
+      "weight": "9.0",
+      "image": "[[File:Dragon Med Helm.png|32px]]",
+      "name": "Dragon Med Helm",
+      "item_type": "Melee Armour",
+      "image_raw": "Dragon Med Helm.png"
+    },
+    "item_weight": 9
+  },
+  {
+    "page_name": "Ash Wand",
+    "page_name_sub": "Ash Wand",
+    "item_description": "A simple wand carved from ash wood. Every mage starts somewhere.",
+    "item_type": "Magic Weapon",
+    "item_name": "Ash Wand",
+    "json": {
+      "description": "A simple wand carved from ash wood. Every mage starts somewhere.",
+      "weight": "15.0",
+      "image": "[[File:Ash Wand (Journal).png|32px]]",
+      "name": "Ash Wand",
+      "item_type": "Magic Weapon",
+      "image_raw": "Ash Wand (Journal).png"
+    },
+    "item_weight": 15
+  },
+  {
+    "page_name": "Dragonslayer's Cape",
+    "item_description": "Awarded to those who have faced Queen Kuldra and Emerged victorious. Few Capes carry greater prestige.",
+    "page_name_sub": "Dragonslayer's Cape",
+    "item_weight": 0,
+    "item_stacklimit": 0,
+    "json": {
+      "description": "Awarded to those who have faced Queen Kuldra and Emerged victorious. Few Capes carry greater prestige.",
+      "weight": "0.0",
+      "compostvalue": "",
+      "health": "",
+      "image": "[[File:Dragonslayer's Cape.png|32px]]",
+      "name": "Dragonslayer's Cape",
+      "item_type": "Cape",
+      "sustenance": "",
+      "hydration": "",
+      "stacklimit": "",
+      "image_raw": "Dragonslayer's Cape.png"
+    },
+    "item_type": "Cape",
+    "item_name": "Dragonslayer's Cape"
   }
 ]

@@ -78881,6 +78881,86 @@
   },
   {
     "uses_material": [
+      "Vis Cloth",
+      "Black Dragon Leather",
+      "Rune Bar",
+      "Harmonised Compound",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Vis Cloth",
+          "link": "Vis Cloth",
+          "qty": "6",
+          "item": "Vis Cloth",
+          "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "3",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "3",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Harmonised Compound",
+          "link": "Harmonised Compound",
+          "qty": "3",
+          "item": "Harmonised Compound",
+          "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "3",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Ancestral Robes"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ancestral Robes",
+        "link": "Ancestral Robes",
+        "qty": "1",
+        "item": "Ancestral Robes",
+        "image": "[[File:Ancestral Robes.png|30px|link=Ancestral Robes]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Ancestral Robes"
+    ]
+  },
+  {
+    "uses_material": [
       "Maple Logs",
       "Adhesive"
     ],
@@ -80216,11 +80296,10 @@
   {
     "uses_material": [
       "Abyssal Spine",
-      "Hard Leather",
+      "Shrapnel",
       "Swamp Thread",
-      "Poison Ichor",
-      "Vault Shard",
-      "Vault Core"
+      "Adhesive",
+      "Vault Shard"
     ],
     "uses_skill": [
       "Artisan"
@@ -80237,44 +80316,36 @@
           "image": "[[File:Abyssal Spine.png|30px|link=Abyssal Spine]]"
         },
         {
-          "quantity": "12",
-          "name": "Hard Leather",
-          "link": "Hard Leather",
-          "qty": "12",
-          "item": "Hard Leather",
-          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
+          "quantity": "3",
+          "name": "Shrapnel",
+          "link": "Shrapnel",
+          "qty": "3",
+          "item": "Shrapnel",
+          "image": "[[File:Shrapnel.png|30px|link=Shrapnel]]"
         },
         {
-          "quantity": "12",
+          "quantity": "3",
           "name": "Swamp Thread",
           "link": "Swamp Thread",
-          "qty": "12",
+          "qty": "3",
           "item": "Swamp Thread",
           "image": "[[File:Swamp Thread.png|30px|link=Swamp Thread]]"
         },
         {
-          "quantity": "6",
-          "name": "Poison Ichor",
-          "link": "Poison Ichor",
-          "qty": "6",
-          "item": "Poison Ichor",
-          "image": "[[File:Poison Ichor.png|30px|link=Poison Ichor]]"
+          "quantity": "3",
+          "name": "Adhesive",
+          "link": "Adhesive",
+          "qty": "3",
+          "item": "Adhesive",
+          "image": "[[File:Adhesive.png|30px|link=Adhesive]]"
         },
         {
-          "quantity": "12",
+          "quantity": "4",
           "name": "Vault Shard",
           "link": "Vault Shard",
-          "qty": "12",
+          "qty": "4",
           "item": "Vault Shard",
           "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
-        },
-        {
-          "quantity": "1",
-          "name": "Vault Core",
-          "link": "Vault Core",
-          "qty": "1",
-          "item": "Vault Core",
-          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
         }
       ],
       "skills": [
@@ -80284,32 +80355,109 @@
         }
       ],
       "outputs": [
-        "Abyssal Whip"
+        "Abysmal Whip"
       ],
       "output": {
         "quantity": "1",
-        "name": "Abyssal Whip",
-        "link": "Abyssal Whip",
+        "name": "Abysmal Whip",
+        "link": "Abysmal Whip",
         "qty": "1",
-        "item": "Abyssal Whip",
-        "image": "[[File:Abyssal Whip.png|30px|link=Abyssal Whip]]"
+        "item": "Abysmal Whip",
+        "image": "[[File:Abysmal Whip.png|30px|link=Abysmal Whip]]"
       }
     },
     "uses_facility": [
       "Blacksmith's Bench"
     ],
     "output": [
-      "Abyssal Whip"
+      "Abysmal Whip"
     ]
   },
   {
+    "uses_material": [
+      "Rune Essence"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Grindstone",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Rune Essence",
+          "link": "Rune Essence",
+          "qty": "1",
+          "item": "Rune Essence",
+          "image": "[[File:Rune Essence.png|30px|link=Rune Essence]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Ground Rune Essence"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ground Rune Essence",
+        "link": "Ground Rune Essence",
+        "qty": "1",
+        "item": "Ground Rune Essence",
+        "image": "[[File:Ground Rune Essence.png|30px|link=Ground Rune Essence]]"
+      }
+    },
+    "uses_facility": [
+      "Grindstone"
+    ],
+    "output": [
+      "Ground Rune Essence"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs",
+      "Flax",
+      "Stone"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
     "json": {
       "facility": "Build Menu",
-      "materials": [],
+      "materials": [
+        {
+          "quantity": "12",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "12",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Flax",
+          "link": "Flax",
+          "qty": "4",
+          "item": "Flax",
+          "image": "[[File:Flax.png|30px|link=Flax]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Stone",
+          "link": "Stone",
+          "qty": "2",
+          "item": "Stone",
+          "image": "[[File:Stone.png|30px|link=Stone]]"
+        }
+      ],
       "skills": [
         {
           "name": "Construction",
-          "experience": ""
+          "experience": "120"
         }
       ],
       "outputs": [
@@ -80326,9 +80474,6 @@
     },
     "uses_facility": [
       "Build Menu"
-    ],
-    "uses_skill": [
-      "Construction"
     ],
     "output": [
       "Advanced Spinning Wheel"
@@ -80379,6 +80524,13 @@
     ]
   },
   {
+    "uses_material": [
+      "Harmonised Compound",
+      "Ground Rune Essence"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "json": {
       "facility": "Advanced Spinning Wheel",
       "materials": [
@@ -80399,7 +80551,12 @@
           "image": "[[File:Ground Rune Essence.png|30px|link=Ground Rune Essence]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
       "outputs": [
         "Vis Fibres"
       ],
@@ -80414,10 +80571,6 @@
     },
     "uses_facility": [
       "Advanced Spinning Wheel"
-    ],
-    "uses_material": [
-      "Harmonised Compound",
-      "Ground Rune Essence"
     ],
     "output": [
       "Vis Fibres"
@@ -80454,7 +80607,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -80711,7 +80864,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -80791,7 +80944,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -80891,6 +81044,2185 @@
     ],
     "output": [
       "Rune Platelegs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Dragon Leather",
+      "Rune Bar",
+      "Harmonised Compound",
+      "Draconic Vis Wax",
+      "Vis Cloth"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "16",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "4",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Harmonised Compound",
+          "link": "Harmonised Compound",
+          "qty": "3",
+          "item": "Harmonised Compound",
+          "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "3",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Vis Cloth",
+          "link": "Vis Cloth",
+          "qty": "6",
+          "item": "Vis Cloth",
+          "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "125"
+        }
+      ],
+      "outputs": [
+        "Black Dragonhide Body"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Black Dragonhide Body",
+        "link": "Black Dragonhide Body",
+        "qty": "1",
+        "item": "Black Dragonhide Body",
+        "image": "[[File:Black Dragonhide Body.png|30px|link=Black Dragonhide Body]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Black Dragonhide Body"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar",
+      "Harmonised Compound",
+      "Vis Fibres",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "8",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Harmonised Compound",
+          "link": "Harmonised Compound",
+          "qty": "6",
+          "item": "Harmonised Compound",
+          "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Vis Fibres",
+          "link": "Vis Fibres",
+          "qty": "3",
+          "item": "Vis Fibres",
+          "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "2",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "Rune Dagger"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rune Dagger",
+        "link": "Rune Dagger",
+        "qty": "1",
+        "item": "Rune Dagger",
+        "image": "[[File:Rune Dagger.png|30px|link=Rune Dagger]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "output": [
+      "Rune Dagger"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar",
+      "Magic Logs",
+      "Black Dragon Leather",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "8",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Magic Logs",
+          "link": "Magic Logs",
+          "qty": "8",
+          "item": "Magic Logs",
+          "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "4",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "2",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "Rune Mace"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rune Mace",
+        "link": "Rune Mace",
+        "qty": "1",
+        "item": "Rune Mace",
+        "image": "[[File:Rune Mace.png|30px|link=Rune Mace]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "output": [
+      "Rune Mace"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar",
+      "Magic Logs",
+      "Black Dragon Leather",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "8",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Magic Logs",
+          "link": "Magic Logs",
+          "qty": "6",
+          "item": "Magic Logs",
+          "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "4",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "1",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "Rune Pickaxe"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rune Pickaxe",
+        "link": "Rune Pickaxe",
+        "qty": "1",
+        "item": "Rune Pickaxe",
+        "image": "[[File:Rune Pickaxe.png|30px|link=Rune Pickaxe]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "output": [
+      "Rune Pickaxe"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar",
+      "Yew Logs",
+      "Vis Fibres"
+    ],
+    "uses_skill": [
+      "artisan"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "8",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "6",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Vis Fibres",
+          "link": "Vis Fibres",
+          "qty": "4",
+          "item": "Vis Fibres",
+          "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "Rune Logging Axe"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rune Logging Axe",
+        "link": "Rune Logging Axe",
+        "qty": "1",
+        "item": "Rune Logging Axe",
+        "image": "[[File:Rune Logging Axe.png|30px|link=Rune Logging Axe]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "output": [
+      "Rune Logging Axe"
+    ]
+  },
+  {
+    "uses_material": [
+      "Dragon Tooth"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Grindstone",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dragon Tooth",
+          "link": "Dragon Tooth",
+          "qty": "1",
+          "item": "Dragon Tooth",
+          "image": "[[File:Dragon Tooth.png|30px|link=Dragon Tooth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Ground Dragon Tooth"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ground Dragon Tooth",
+        "link": "Ground Dragon Tooth",
+        "qty": "1",
+        "item": "Ground Dragon Tooth",
+        "image": "[[File:Ground Dragon Tooth.png|30px|link=Ground Dragon Tooth]]"
+      }
+    },
+    "uses_facility": [
+      "Grindstone"
+    ],
+    "output": [
+      "Ground Dragon Tooth"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar",
+      "Black Dragon Leather",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "artisan"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "10",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "4",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "2",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "artisan",
+          "experience": "250"
+        }
+      ],
+      "outputs": [
+        "Rune Shield"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rune Shield",
+        "link": "Rune Shield",
+        "qty": "1",
+        "item": "Rune Shield",
+        "image": "[[File:Rune Shield.png|30px|link=Rune Shield]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "output": [
+      "Rune Shield"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "4",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Magic Logs",
+          "link": "Magic Logs",
+          "qty": "2",
+          "item": "Magic Logs",
+          "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "2",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "1",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [],
+      "outputs": [
+        "Rune Spade"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rune Spade",
+        "link": "Rune Spade",
+        "qty": "1",
+        "item": "Rune Spade",
+        "image": "[[File:Rune Spade.png|30px|link=Rune Spade]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "uses_material": [
+      "Rune Bar",
+      "Magic Logs",
+      "Black Dragon Leather",
+      "Draconic Vis Wax"
+    ],
+    "output": [
+      "Rune Spade"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Brynmoor Valley Tapestry"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Brynmoor Valley Tapestry",
+        "link": "Brynmoor Valley Tapestry",
+        "qty": 1,
+        "item": "Brynmoor Valley Tapestry",
+        "image": "[[File:Brynmoor Valley Tapestry.png|30px|link=Brynmoor Valley Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Brynmoor Valley Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Vis Cloth",
+      "Black Dragon Leather",
+      "Rune Bar",
+      "Harmonised Compound",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Vis Cloth",
+          "link": "Vis Cloth",
+          "qty": "2",
+          "item": "Vis Cloth",
+          "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "1",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "1",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Harmonised Compound",
+          "link": "Harmonised Compound",
+          "qty": "1",
+          "item": "Harmonised Compound",
+          "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "1",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "125"
+        }
+      ],
+      "outputs": [
+        "Ancestral Hat"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ancestral Hat",
+        "link": "Ancestral Hat",
+        "qty": "1",
+        "item": "Ancestral Hat",
+        "image": "[[File:Ancestral Hat.png|30px|link=Ancestral Hat]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Ancestral Hat"
+    ]
+  },
+  {
+    "uses_material": [
+      "Vis Cloth",
+      "Black Dragon Leather",
+      "Rune Bar",
+      "Harmonised Compound",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Vis Cloth",
+          "link": "Vis Cloth",
+          "qty": "4",
+          "item": "Vis Cloth",
+          "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "2",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "2",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Harmonised Compound",
+          "link": "Harmonised Compound",
+          "qty": "2",
+          "item": "Harmonised Compound",
+          "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "2",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "125"
+        }
+      ],
+      "outputs": [
+        "Ancestral Leggings"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ancestral Leggings",
+        "link": "Ancestral Leggings",
+        "qty": "1",
+        "item": "Ancestral Leggings",
+        "image": "[[File:Ancestral Leggings.png|30px|link=Ancestral Leggings]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Ancestral Leggings"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Dragon Leather",
+      "Rune Bar",
+      "Harmonised Compound",
+      "Draconic Vis Wax",
+      "Vis Cloth"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "6",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "1",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Harmonised Compound",
+          "link": "Harmonised Compound",
+          "qty": "1",
+          "item": "Harmonised Compound",
+          "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "1",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Vis Cloth",
+          "link": "Vis Cloth",
+          "qty": "2",
+          "item": "Vis Cloth",
+          "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "125"
+        }
+      ],
+      "outputs": [
+        "Black Dragonhide Coif"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Black Dragonhide Coif",
+        "link": "Black Dragonhide Coif",
+        "qty": "1",
+        "item": "Black Dragonhide Coif",
+        "image": "[[File:Black Dragonhide Coif.png|30px|link=Black Dragonhide Coif]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Black Dragonhide Coif"
+    ]
+  },
+  {
+    "uses_material": [
+      "Black Dragon Leather",
+      "Rune Bar",
+      "Harmonised Compound",
+      "Draconic Vis Wax",
+      "Vis Cloth"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "10",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "2",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Harmonised Compound",
+          "link": "Harmonised Compound",
+          "qty": "2",
+          "item": "Harmonised Compound",
+          "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "2",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Vis Cloth",
+          "link": "Vis Cloth",
+          "qty": "4",
+          "item": "Vis Cloth",
+          "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "125"
+        }
+      ],
+      "outputs": [
+        "Black Dragonhide Chaps"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Black Dragonhide Chaps",
+        "link": "Black Dragonhide Chaps",
+        "qty": "1",
+        "item": "Black Dragonhide Chaps",
+        "image": "[[File:Black Dragonhide Chaps.png|30px|link=Black Dragonhide Chaps]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Black Dragonhide Chaps"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar",
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "1",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "1",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
+      "outputs": [
+        "Rune Bolt"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Rune Bolt",
+        "link": "Rune Bolt",
+        "qty": "33",
+        "item": "Rune Bolt",
+        "image": "[[File:Rune Bolt.png|30px|link=Rune Bolt]]"
+      }
+    },
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "output": [
+      "Rune Bolt"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bolt",
+      "Diamond",
+      "Air Rune",
+      "Astral Rune"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "Rune Bolt",
+          "link": "Rune Bolt",
+          "qty": "33",
+          "item": "Rune Bolt",
+          "image": "[[File:Rune Bolt.png|30px|link=Rune Bolt]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Diamond",
+          "link": "Diamond",
+          "qty": "1",
+          "item": "Diamond",
+          "image": "[[File:Diamond.png|30px|link=Diamond]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Air Rune",
+          "link": "Air Rune",
+          "qty": "10",
+          "item": "Air Rune",
+          "image": "[[File:Air Rune.png|30px|link=Air Rune]]"
+        },
+        {
+          "quantity": "15",
+          "name": "Astral Rune",
+          "link": "Astral Rune",
+          "qty": "15",
+          "item": "Astral Rune",
+          "image": "[[File:Astral Rune.png|30px|link=Astral Rune]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
+      "outputs": [
+        "Enchanted Rune Bolt"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Enchanted Rune Bolt",
+        "link": "Enchanted Rune Bolt",
+        "qty": "33",
+        "item": "Enchanted Rune Bolt",
+        "image": "[[File:Enchanted Rune Bolt.png|30px|link=Enchanted Rune Bolt]]"
+      }
+    },
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "output": [
+      "Enchanted Rune Bolt"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar",
+      "Vis Cloth"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "6",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Vis Cloth",
+          "link": "Vis Cloth",
+          "qty": "2",
+          "item": "Vis Cloth",
+          "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "50"
+        }
+      ],
+      "outputs": [
+        "Rune Watering Can"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rune Watering Can",
+        "link": "Rune Watering Can",
+        "qty": "1",
+        "item": "Rune Watering Can",
+        "image": "[[File:Rune Watering Can.png|30px|link=Rune Watering Can]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "output": [
+      "Rune Watering Can"
+    ]
+  },
+  {
+    "uses_material": [
+      "Gold Bar",
+      "Hard Leather",
+      "Padded Cloth",
+      "Vault Shard"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Gold Bar",
+          "link": "Gold Bar",
+          "qty": "4",
+          "item": "Gold Bar",
+          "image": "[[File:Gold Bar.png|30px|link=Gold Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Hard Leather",
+          "link": "Hard Leather",
+          "qty": "4",
+          "item": "Hard Leather",
+          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "1",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Gilded Paladin Helmet"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Gilded Paladin Helmet",
+        "link": "Gilded Paladin Helmet",
+        "qty": "1",
+        "item": "Gilded Paladin Helmet",
+        "image": "[[File:Gilded Paladin Helmet.png|30px|link=Gilded Paladin Helmet]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Gilded Paladin Helmet"
+    ]
+  },
+  {
+    "uses_material": [
+      "Gold Bar",
+      "Hard Leather",
+      "Padded Cloth",
+      "Vault Shard"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Gold Bar",
+          "link": "Gold Bar",
+          "qty": "10",
+          "item": "Gold Bar",
+          "image": "[[File:Gold Bar.png|30px|link=Gold Bar]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Hard Leather",
+          "link": "Hard Leather",
+          "qty": "6",
+          "item": "Hard Leather",
+          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "2",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "3",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Gilded Paladin Chestpiece"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Gilded Paladin Chestpiece",
+        "link": "Gilded Paladin Chestpiece",
+        "qty": "1",
+        "item": "Gilded Paladin Chestpiece",
+        "image": "[[File:Gilded Paladin Chestpiece.png|30px|link=Gilded Paladin Chestpiece]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Gilded Paladin Chestpiece"
+    ]
+  },
+  {
+    "uses_material": [
+      "Gold Bar",
+      "Hard Leather",
+      "Padded Cloth",
+      "Vault Shard"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Gold Bar",
+          "link": "Gold Bar",
+          "qty": "6",
+          "item": "Gold Bar",
+          "image": "[[File:Gold Bar.png|30px|link=Gold Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Hard Leather",
+          "link": "Hard Leather",
+          "qty": "4",
+          "item": "Hard Leather",
+          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "3",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "2",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Gilded Paladin Legs"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Gilded Paladin Legs",
+        "link": "Gilded Paladin Legs",
+        "qty": "1",
+        "item": "Gilded Paladin Legs",
+        "image": "[[File:Gilded Paladin Legs.png|30px|link=Gilded Paladin Legs]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Gilded Paladin Legs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar",
+      "Black Dragon Leather",
+      "Vis Fibres",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "10",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "5",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Vis Fibres",
+          "link": "Vis Fibres",
+          "qty": "3",
+          "item": "Vis Fibres",
+          "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "2",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Rune Sword"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rune Sword",
+        "link": "Rune Sword",
+        "qty": "1",
+        "item": "Rune Sword",
+        "image": "[[File:Rune Sword.png|30px|link=Rune Sword]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "output": [
+      "Rune Sword"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar",
+      "Black Dragon Leather",
+      "Vis Cloth",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "10",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "5",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Vis Cloth",
+          "link": "Vis Cloth",
+          "qty": "2",
+          "item": "Vis Cloth",
+          "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "2",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Rune Scimitar"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rune Scimitar",
+        "link": "Rune Scimitar",
+        "qty": "1",
+        "item": "Rune Scimitar",
+        "image": "[[File:Rune Scimitar.png|30px|link=Rune Scimitar]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "output": [
+      "Rune Scimitar"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar",
+      "Magic Logs",
+      "Black Dragon Leather",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "16",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Magic Logs",
+          "link": "Magic Logs",
+          "qty": "5",
+          "item": "Magic Logs",
+          "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "6",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "4",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Rune Greataxe"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rune Greataxe",
+        "link": "Rune Greataxe",
+        "qty": "1",
+        "item": "Rune Greataxe",
+        "image": "[[File:Rune Greataxe.png|30px|link=Rune Greataxe]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "output": [
+      "Rune Greataxe"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar",
+      "Black Dragon Leather",
+      "Vis Fibres",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "12",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "12",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "5",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Vis Fibres",
+          "link": "Vis Fibres",
+          "qty": "4",
+          "item": "Vis Fibres",
+          "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "4",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Rune Greatsword"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rune Greatsword",
+        "link": "Rune Greatsword",
+        "qty": "1",
+        "item": "Rune Greatsword",
+        "image": "[[File:Rune Greatsword.png|30px|link=Rune Greatsword]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "output": [
+      "Rune Greatsword"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar",
+      "Black Dragon Leather",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "16",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "3",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "4",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Rune Warhammer"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rune Warhammer",
+        "link": "Rune Warhammer",
+        "qty": "1",
+        "item": "Rune Warhammer",
+        "image": "[[File:Rune Warhammer.png|30px|link=Rune Warhammer]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "output": [
+      "Rune Warhammer"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar",
+      "Magic Logs",
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "1",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Magic Logs",
+          "link": "Magic Logs",
+          "qty": "1",
+          "item": "Magic Logs",
+          "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "1",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Rune Arrow"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Rune Arrow",
+        "link": "Rune Arrow",
+        "qty": "33",
+        "item": "Rune Arrow",
+        "image": "[[File:Rune Arrow.png|30px|link=Rune Arrow]]"
+      }
+    },
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "output": [
+      "Rune Arrow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Arrow",
+      "Fire Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "Rune Arrow",
+          "link": "Rune Arrow",
+          "qty": "33",
+          "item": "Rune Arrow",
+          "image": "[[File:Rune Arrow.png|30px|link=Rune Arrow]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Fire Oil",
+          "link": "Fire Oil",
+          "qty": "1",
+          "item": "Fire Oil",
+          "image": "[[File:Fire Oil.png|30px|link=Fire Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Rune Fire Arrow"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Rune Fire Arrow",
+        "link": "Rune Fire Arrow",
+        "qty": "33",
+        "item": "Rune Fire Arrow",
+        "image": "[[File:Rune Fire Arrow.png|30px|link=Rune Fire Arrow]]"
+      }
+    },
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "output": [
+      "Rune Fire Arrow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Arrow",
+      "Weapon Barbs"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "Rune Arrow",
+          "link": "Rune Arrow",
+          "qty": "33",
+          "item": "Rune Arrow",
+          "image": "[[File:Rune Arrow.png|30px|link=Rune Arrow]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Weapon Barbs",
+          "link": "Weapon Barbs",
+          "qty": "1",
+          "item": "Weapon Barbs",
+          "image": "[[File:Weapon Barbs.png|30px|link=Weapon Barbs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Rune Barbed Arrow"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Rune Barbed Arrow",
+        "link": "Rune Barbed Arrow",
+        "qty": "33",
+        "item": "Rune Barbed Arrow",
+        "image": "[[File:Rune Barbed Arrow.png|30px|link=Rune Barbed Arrow]]"
+      }
+    },
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "output": [
+      "Rune Barbed Arrow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Arrow",
+      "Weapon Poison"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "Rune Arrow",
+          "link": "Rune Arrow",
+          "qty": "33",
+          "item": "Rune Arrow",
+          "image": "[[File:Rune Arrow.png|30px|link=Rune Arrow]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Weapon Poison",
+          "link": "Weapon Poison",
+          "qty": "1",
+          "item": "Weapon Poison",
+          "image": "[[File:Weapon Poison.png|30px|link=Weapon Poison]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Poisoned Rune Arrow"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Poisoned Rune Arrow",
+        "link": "Poisoned Rune Arrow",
+        "qty": "33",
+        "item": "Poisoned Rune Arrow",
+        "image": "[[File:Poisoned Rune Arrow.png|30px|link=Poisoned Rune Arrow]]"
+      }
+    },
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "output": [
+      "Poisoned Rune Arrow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "2",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Rune Crossbow Limbs"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rune Crossbow Limbs",
+        "link": "Rune Crossbow Limbs",
+        "qty": "1",
+        "item": "Rune Crossbow Limbs",
+        "image": "[[File:Rune Crossbow Limbs.png|30px|link=Rune Crossbow Limbs]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "output": [
+      "Rune Crossbow Limbs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Magic Logs",
+      "Vis Fibres",
+      "Rune Crossbow Limbs",
+      "Dragonstone",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Magic Logs",
+          "link": "Magic Logs",
+          "qty": "16",
+          "item": "Magic Logs",
+          "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Vis Fibres",
+          "link": "Vis Fibres",
+          "qty": "6",
+          "item": "Vis Fibres",
+          "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Rune Crossbow Limbs",
+          "link": "Rune Crossbow Limbs",
+          "qty": "1",
+          "item": "Rune Crossbow Limbs",
+          "image": "[[File:Rune Crossbow Limbs.png|30px|link=Rune Crossbow Limbs]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "1",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "2",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Rune Crossbow"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rune Crossbow",
+        "link": "Rune Crossbow",
+        "qty": "1",
+        "item": "Rune Crossbow",
+        "image": "[[File:Rune Crossbow.png|30px|link=Rune Crossbow]]"
+      }
+    },
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "output": [
+      "Rune Crossbow"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Kuldra's Wrath"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Kuldra's Wrath",
+        "link": "Kuldra's Wrath",
+        "qty": 1,
+        "item": "Kuldra's Wrath",
+        "image": "[[File:Kuldra's Wrath.png|30px|link=Kuldra's Wrath]]"
+      }
+    },
+    "output": [
+      "Kuldra's Wrath"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Ancestral Robe Legs"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Ancestral Robe Legs",
+        "link": "Ancestral Robe Legs",
+        "qty": 1,
+        "item": "Ancestral Robe Legs",
+        "image": "[[File:Ancestral Robe Legs.png|30px|link=Ancestral Robe Legs]]"
+      }
+    },
+    "output": [
+      "Ancestral Robe Legs"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Magic Shortbow"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Magic Shortbow",
+        "link": "Magic Shortbow",
+        "qty": 1,
+        "item": "Magic Shortbow",
+        "image": "[[File:Magic Shortbow.png|30px|link=Magic Shortbow]]"
+      }
+    },
+    "output": [
+      "Magic Shortbow"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Magic Longbow"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Magic Longbow",
+        "link": "Magic Longbow",
+        "qty": 1,
+        "item": "Magic Longbow",
+        "image": "[[File:Magic Longbow.png|30px|link=Magic Longbow]]"
+      }
+    },
+    "output": [
+      "Magic Longbow"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Dragon Med Helm"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Dragon Med Helm",
+        "link": "Dragon Med Helm",
+        "qty": 1,
+        "item": "Dragon Med Helm",
+        "image": "[[File:Dragon Med Helm.png|30px|link=Dragon Med Helm]]"
+      }
+    },
+    "output": [
+      "Dragon Med Helm"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs",
+      "Rune Essence",
+      "Coarse Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "6",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Rune Essence",
+          "link": "Rune Essence",
+          "qty": "3",
+          "item": "Rune Essence",
+          "image": "[[File:Rune Essence.png|30px|link=Rune Essence]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "1",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Ash Wand"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ash Wand",
+        "link": "Ash Wand",
+        "qty": "1",
+        "item": "Ash Wand",
+        "image": "[[File:Ash Wand.png|30px|link=Ash Wand]]"
+      }
+    },
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "output": [
+      "Ash Wand"
+    ]
+  },
+  {
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Dragonslayer's Cape"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dragonslayer's Cape",
+        "link": "Dragonslayer's Cape",
+        "qty": "1",
+        "item": "Dragonslayer's Cape",
+        "image": "[[File:Dragonslayer's Cape.png|30px|link=Dragonslayer's Cape]]"
+      }
+    },
+    "output": [
+      "Dragonslayer's Cape"
     ]
   }
 ]
