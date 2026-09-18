@@ -4258,6 +4258,86 @@
   },
   {
     "uses_material": [
+      "Abysmal Whip",
+      "Demonic Oil",
+      "Scorch Leather",
+      "Cursed Essence",
+      "Dragonstone"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Blacksmith's Bench",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Abysmal Whip",
+          "link": "Abysmal Whip",
+          "qty": "1",
+          "item": "Abysmal Whip",
+          "image": "[[File:Abysmal Whip.png|30px|link=Abysmal Whip]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "6",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "6",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Cursed Essence",
+          "link": "Cursed Essence",
+          "qty": "6",
+          "item": "Cursed Essence",
+          "image": "[[File:Cursed Essence.png|30px|link=Cursed Essence]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "4",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Abyssal Whip"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Abyssal Whip",
+        "link": "Abyssal Whip",
+        "qty": "1",
+        "item": "Abyssal Whip",
+        "image": "[[File:Abyssal Whip.png|30px|link=Abyssal Whip]]"
+      }
+    },
+    "uses_facility": [
+      "Blacksmith's Bench"
+    ],
+    "output": [
+      "Abyssal Whip"
+    ]
+  },
+  {
+    "uses_material": [
       "Marrentil",
       "Coarse Animal Fur",
       "Clay Vessel"
@@ -41353,7 +41433,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -41424,7 +41504,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -41495,7 +41575,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -43247,7 +43327,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -43318,7 +43398,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -43389,7 +43469,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -43460,7 +43540,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -43531,7 +43611,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -43602,7 +43682,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -44215,7 +44295,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -44557,7 +44637,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -44637,7 +44717,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -44717,7 +44797,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -50659,7 +50739,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -63054,7 +63134,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -63125,7 +63205,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -79600,7 +79680,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -80749,7 +80829,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -81024,7 +81104,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -81104,7 +81184,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -81175,7 +81255,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -81246,7 +81326,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -81317,7 +81397,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "250"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -81346,7 +81426,7 @@
       "Vis Fibres"
     ],
     "uses_skill": [
-      "artisan"
+      "Artisan"
     ],
     "json": {
       "facility": "Blacksmith's Bench",
@@ -81378,8 +81458,8 @@
       ],
       "skills": [
         {
-          "name": "artisan",
-          "experience": "250"
+          "name": "Artisan",
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -81452,7 +81532,7 @@
       "Draconic Vis Wax"
     ],
     "uses_skill": [
-      "artisan"
+      "Artisan"
     ],
     "json": {
       "facility": "Blacksmith's Bench",
@@ -81484,8 +81564,8 @@
       ],
       "skills": [
         {
-          "name": "artisan",
-          "experience": "250"
+          "name": "Artisan",
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -81508,6 +81588,15 @@
     ]
   },
   {
+    "uses_material": [
+      "Rune Bar",
+      "Magic Logs",
+      "Black Dragon Leather",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "json": {
       "facility": "Blacksmith's Bench",
       "materials": [
@@ -81544,7 +81633,12 @@
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Rune Spade"
       ],
@@ -81559,12 +81653,6 @@
     },
     "uses_facility": [
       "Blacksmith's Bench"
-    ],
-    "uses_material": [
-      "Rune Bar",
-      "Magic Logs",
-      "Black Dragon Leather",
-      "Draconic Vis Wax"
     ],
     "output": [
       "Rune Spade"
@@ -81681,7 +81769,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -81761,7 +81849,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -81841,7 +81929,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -81921,7 +82009,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "125"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -82098,7 +82186,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "50"
+          "experience": "0"
         }
       ],
       "outputs": [
@@ -82169,7 +82257,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -82240,7 +82328,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -82311,7 +82399,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -82382,7 +82470,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -82453,7 +82541,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -82524,7 +82612,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -82595,7 +82683,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -82657,7 +82745,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -82719,7 +82807,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "100"
         }
       ],
       "outputs": [
@@ -82772,7 +82860,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -82825,7 +82913,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -82878,7 +82966,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "?"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -83071,47 +83159,161 @@
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Magic Logs",
+      "Rune Bar",
+      "Vis Fibres",
+      "Dragonstone",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "10",
+          "name": "Magic Logs",
+          "link": "Magic Logs",
+          "qty": "10",
+          "item": "Magic Logs",
+          "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "2",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Vis Fibres",
+          "link": "Vis Fibres",
+          "qty": "4",
+          "item": "Vis Fibres",
+          "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "2",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "2",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
       "outputs": [
         "Magic Shortbow"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Magic Shortbow",
         "link": "Magic Shortbow",
-        "qty": 1,
+        "qty": "1",
         "item": "Magic Shortbow",
         "image": "[[File:Magic Shortbow.png|30px|link=Magic Shortbow]]"
       }
     },
+    "uses_facility": [
+      "Fletching Bench"
+    ],
     "output": [
       "Magic Shortbow"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Magic Logs",
+      "Rune Bar",
+      "Vis Fibres",
+      "Dragonstone",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Magic Logs",
+          "link": "Magic Logs",
+          "qty": "16",
+          "item": "Magic Logs",
+          "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "4",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Vis Fibres",
+          "link": "Vis Fibres",
+          "qty": "8",
+          "item": "Vis Fibres",
+          "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "4",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "4",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
       "outputs": [
         "Magic Longbow"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Magic Longbow",
         "link": "Magic Longbow",
-        "qty": 1,
+        "qty": "1",
         "item": "Magic Longbow",
         "image": "[[File:Magic Longbow.png|30px|link=Magic Longbow]]"
       }
     },
+    "uses_facility": [
+      "Fletching Bench"
+    ],
     "output": [
       "Magic Longbow"
     ]
@@ -83223,6 +83425,441 @@
     },
     "output": [
       "Dragonslayer's Cape"
+    ]
+  },
+  {
+    "uses_material": [
+      "Oak Logs",
+      "Anima-Infused Bark",
+      "Wool Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Oak Logs",
+          "link": "Oak Logs",
+          "qty": "6",
+          "item": "Oak Logs",
+          "image": "[[File:Oak Logs.png|30px|link=Oak Logs]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Anima-Infused Bark",
+          "link": "Anima-Infused Bark",
+          "qty": "3",
+          "item": "Anima-Infused Bark",
+          "image": "[[File:Anima-Infused Bark.png|30px|link=Anima-Infused Bark]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Wool Thread",
+          "link": "Wool Thread",
+          "qty": "2",
+          "item": "Wool Thread",
+          "image": "[[File:Wool Thread.png|30px|link=Wool Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Oak Wand"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Oak Wand",
+        "link": "Oak Wand",
+        "qty": "1",
+        "item": "Oak Wand",
+        "image": "[[File:Oak Wand.png|30px|link=Oak Wand]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "output": [
+      "Oak Wand"
+    ]
+  },
+  {
+    "uses_material": [
+      "Blightwood",
+      "Wild Anima",
+      "Swamp Thread",
+      "Vault Shard"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Blightwood",
+          "link": "Blightwood",
+          "qty": "6",
+          "item": "Blightwood",
+          "image": "[[File:Blightwood.png|30px|link=Blightwood]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Wild Anima",
+          "link": "Wild Anima",
+          "qty": "3",
+          "item": "Wild Anima",
+          "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Swamp Thread",
+          "link": "Swamp Thread",
+          "qty": "2",
+          "item": "Swamp Thread",
+          "image": "[[File:Swamp Thread.png|30px|link=Swamp Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "2",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Blightwood Wand"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Blightwood Wand",
+        "link": "Blightwood Wand",
+        "qty": "1",
+        "item": "Blightwood Wand",
+        "image": "[[File:Blightwood Wand.png|30px|link=Blightwood Wand]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "output": [
+      "Blightwood Wand"
+    ]
+  },
+  {
+    "uses_material": [
+      "Hollow Bark",
+      "Sacred Oil",
+      "Fine Thread",
+      "Vault Shard"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Hollow Bark",
+          "link": "Hollow Bark",
+          "qty": "6",
+          "item": "Hollow Bark",
+          "image": "[[File:Hollow Bark.png|30px|link=Hollow Bark]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Sacred Oil",
+          "link": "Sacred Oil",
+          "qty": "3",
+          "item": "Sacred Oil",
+          "image": "[[File:Sacred Oil.png|30px|link=Sacred Oil]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Fine Thread",
+          "link": "Fine Thread",
+          "qty": "2",
+          "item": "Fine Thread",
+          "image": "[[File:Fine Thread.png|30px|link=Fine Thread]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "3",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Splitbark Wand"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Splitbark Wand",
+        "link": "Splitbark Wand",
+        "qty": "1",
+        "item": "Splitbark Wand",
+        "image": "[[File:Splitbark Wand.png|30px|link=Splitbark Wand]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "output": [
+      "Splitbark Wand"
+    ]
+  },
+  {
+    "uses_material": [
+      "Maple Logs",
+      "Mithril Bar",
+      "Glass Vessel",
+      "Infernal Fragment"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "8",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "3",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Glass Vessel",
+          "link": "Glass Vessel",
+          "qty": "2",
+          "item": "Glass Vessel",
+          "image": "[[File:Glass Vessel.png|30px|link=Glass Vessel]]"
+        },
+        {
+          "quantity": "8",
+          "name": "Infernal Fragment",
+          "link": "Infernal Fragment",
+          "qty": "8",
+          "item": "Infernal Fragment",
+          "image": "[[File:Infernal Fragment.png|30px|link=Infernal Fragment]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Maple Wand"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Maple Wand",
+        "link": "Maple Wand",
+        "qty": "1",
+        "item": "Maple Wand",
+        "image": "[[File:Maple Wand.png|30px|link=Maple Wand]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "output": [
+      "Maple Wand"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs",
+      "Refined Obsidian",
+      "Infinity Cloth",
+      "Dragonstone",
+      "Gypsum Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "8",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "3",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Infinity Cloth",
+          "link": "Infinity Cloth",
+          "qty": "2",
+          "item": "Infinity Cloth",
+          "image": "[[File:Infinity Cloth.png|30px|link=Infinity Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "2",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "2",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Master Wand"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Master Wand",
+        "link": "Master Wand",
+        "qty": "1",
+        "item": "Master Wand",
+        "image": "[[File:Master Wand.png|30px|link=Master Wand]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "output": [
+      "Master Wand"
+    ]
+  },
+  {
+    "uses_material": [
+      "Magic Logs",
+      "Harmonised Compound",
+      "Vis Cloth",
+      "Dragonstone",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Magic Logs",
+          "link": "Magic Logs",
+          "qty": "8",
+          "item": "Magic Logs",
+          "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Harmonised Compound",
+          "link": "Harmonised Compound",
+          "qty": "5",
+          "item": "Harmonised Compound",
+          "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Vis Cloth",
+          "link": "Vis Cloth",
+          "qty": "2",
+          "item": "Vis Cloth",
+          "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "2",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "2",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Ancestral Wand"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ancestral Wand",
+        "link": "Ancestral Wand",
+        "qty": "1",
+        "item": "Ancestral Wand",
+        "image": "[[File:Ancestral Wand.png|30px|link=Ancestral Wand]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "output": [
+      "Ancestral Wand"
     ]
   }
 ]
