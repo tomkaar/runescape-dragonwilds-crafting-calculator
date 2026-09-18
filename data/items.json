@@ -3132,6 +3132,64 @@
     "stackLimit": 99
   },
   {
+    "id": "abyssal-whip",
+    "name": "Abyssal Whip",
+    "image": "Abyssal Whip.png",
+    "variants": [
+      {
+        "id": "fd2f60f21471",
+        "name": "Abyssal Whip",
+        "image": "Abyssal Whip.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a69ec3c5aa7e",
+          "facilities": [
+            "Blacksmith's Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "abysmal-whip",
+              "quantity": 1
+            },
+            {
+              "itemId": "cursed-essence",
+              "quantity": 6
+            },
+            {
+              "itemId": "demonic-oil",
+              "quantity": 6
+            },
+            {
+              "itemId": "dragonstone",
+              "quantity": 4
+            },
+            {
+              "itemId": "scorch-leather",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 100
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Blacksmith's Bench"
+    ],
+    "wikiLink": "Abyssal_Whip",
+    "weight": 4.5,
+    "itemType": "Melee Weapon"
+  },
+  {
     "id": "weak-focused-runecrafting-potion",
     "name": "Weak Focused Runecrafting Potion",
     "image": "Weak Focused Runecrafting Potion.png",
@@ -32767,7 +32825,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 100
             }
           ]
         },
@@ -32825,7 +32883,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 100
             }
           ]
         },
@@ -32883,7 +32941,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 100
             }
           ]
         },
@@ -61022,7 +61080,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 125
+              "experience": 100
             }
           ]
         },
@@ -61236,7 +61294,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 100
             }
           ]
         },
@@ -61294,7 +61352,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 125
+              "experience": 100
             }
           ]
         },
@@ -61348,7 +61406,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 250
+              "experience": 100
             }
           ]
         },
@@ -61402,7 +61460,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 250
+              "experience": 100
             }
           ]
         },
@@ -61456,7 +61514,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 250
+              "experience": 100
             }
           ]
         },
@@ -61505,8 +61563,8 @@
           "quantity": 1,
           "skills": [
             {
-              "name": "artisan",
-              "experience": 250
+              "name": "Artisan",
+              "experience": 100
             }
           ]
         },
@@ -61514,7 +61572,7 @@
       }
     ],
     "skills": [
-      "artisan"
+      "Artisan"
     ],
     "facilities": [
       "Blacksmith's Bench"
@@ -61598,8 +61656,8 @@
           "quantity": 1,
           "skills": [
             {
-              "name": "artisan",
-              "experience": 250
+              "name": "Artisan",
+              "experience": 100
             }
           ]
         },
@@ -61607,7 +61665,7 @@
       }
     ],
     "skills": [
-      "artisan"
+      "Artisan"
     ],
     "facilities": [
       "Blacksmith's Bench"
@@ -61650,12 +61708,19 @@
             }
           ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Blacksmith's Bench"
     ],
@@ -61748,7 +61813,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 125
+              "experience": 100
             }
           ]
         },
@@ -61806,7 +61871,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 125
+              "experience": 100
             }
           ]
         },
@@ -61864,7 +61929,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 125
+              "experience": 100
             }
           ]
         },
@@ -61922,7 +61987,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 125
+              "experience": 100
             }
           ]
         },
@@ -62070,7 +62135,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 50
+              "experience": 0
             }
           ]
         },
@@ -62124,7 +62189,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 40
             }
           ]
         },
@@ -62178,7 +62243,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 40
             }
           ]
         },
@@ -62232,7 +62297,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 40
             }
           ]
         },
@@ -62286,7 +62351,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 100
             }
           ]
         },
@@ -62340,7 +62405,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 100
             }
           ]
         },
@@ -62394,7 +62459,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 100
             }
           ]
         },
@@ -62448,7 +62513,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 100
             }
           ]
         },
@@ -62498,7 +62563,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 100
             }
           ]
         },
@@ -62548,7 +62613,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 100
             }
           ]
         },
@@ -62595,7 +62660,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 40
             }
           ]
         },
@@ -62642,7 +62707,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 40
             }
           ]
         },
@@ -62689,7 +62754,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 40
             }
           ]
         },
@@ -62866,22 +62931,54 @@
     "image": "Magic Shortbow.png",
     "variants": [
       {
-        "id": "0d9e8265f8e3",
+        "id": "f32ea48004bc",
         "name": "Magic Shortbow",
         "image": "Magic Shortbow.png",
         "variantName": null,
         "recipe": {
-          "id": "a99aab58f122",
-          "facilities": [],
-          "materials": [],
+          "id": "feeb66777137",
+          "facilities": [
+            "Fletching Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "draconic-vis-wax",
+              "quantity": 2
+            },
+            {
+              "itemId": "dragonstone",
+              "quantity": 2
+            },
+            {
+              "itemId": "magic-logs",
+              "quantity": 10
+            },
+            {
+              "itemId": "rune-bar",
+              "quantity": 2
+            },
+            {
+              "itemId": "vis-fibres",
+              "quantity": 4
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 60
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
     "wikiLink": "Magic_Shortbow",
     "weight": 10,
     "itemType": "Ranged Weapon"
@@ -62892,22 +62989,54 @@
     "image": "Magic Longbow.png",
     "variants": [
       {
-        "id": "028139839ffa",
+        "id": "968fb3df305c",
         "name": "Magic Longbow",
         "image": "Magic Longbow.png",
         "variantName": null,
         "recipe": {
-          "id": "d821c2ef1ef8",
-          "facilities": [],
-          "materials": [],
+          "id": "9a39bb9b3625",
+          "facilities": [
+            "Fletching Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "draconic-vis-wax",
+              "quantity": 4
+            },
+            {
+              "itemId": "dragonstone",
+              "quantity": 4
+            },
+            {
+              "itemId": "magic-logs",
+              "quantity": 16
+            },
+            {
+              "itemId": "rune-bar",
+              "quantity": 4
+            },
+            {
+              "itemId": "vis-fibres",
+              "quantity": 8
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 60
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
     "wikiLink": "Magic_Longbow",
     "weight": 15,
     "itemType": "Ranged Weapon"
@@ -63018,6 +63147,334 @@
     "weight": 0,
     "itemType": "Cape",
     "stackLimit": 0
+  },
+  {
+    "id": "oak-wand",
+    "name": "Oak Wand",
+    "image": "Oak Wand.png",
+    "variants": [
+      {
+        "id": "5c729d136198",
+        "name": "Oak Wand",
+        "image": "Oak Wand.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1b306034df77",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "anima-infused-bark",
+              "quantity": 3
+            },
+            {
+              "itemId": "oak-logs",
+              "quantity": 6
+            },
+            {
+              "itemId": "wool-thread",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Mystic Forge"
+    ],
+    "wikiLink": "Oak_Wand",
+    "weight": 15,
+    "itemType": "Magic Weapon"
+  },
+  {
+    "id": "blightwood-wand",
+    "name": "Blightwood Wand",
+    "image": "Blightwood Wand.png",
+    "variants": [
+      {
+        "id": "6789598c6ccd",
+        "name": "Blightwood Wand",
+        "image": "Blightwood Wand.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b5affe45edfd",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "blightwood",
+              "quantity": 6
+            },
+            {
+              "itemId": "swamp-thread",
+              "quantity": 2
+            },
+            {
+              "itemId": "vault-shard",
+              "quantity": 2
+            },
+            {
+              "itemId": "wild-anima",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Mystic Forge"
+    ],
+    "wikiLink": "Blightwood_Wand",
+    "weight": 15,
+    "itemType": "Magic Weapon"
+  },
+  {
+    "id": "splitbark-wand",
+    "name": "Splitbark Wand",
+    "image": "Splitbark Wand.png",
+    "variants": [
+      {
+        "id": "9e290aca788d",
+        "name": "Splitbark Wand",
+        "image": "Splitbark Wand.png",
+        "variantName": null,
+        "recipe": {
+          "id": "972ffa333ce4",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "fine-thread",
+              "quantity": 2
+            },
+            {
+              "itemId": "hollow-bark",
+              "quantity": 6
+            },
+            {
+              "itemId": "sacred-oil",
+              "quantity": 3
+            },
+            {
+              "itemId": "vault-shard",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Mystic Forge"
+    ],
+    "wikiLink": "Splitbark_Wand",
+    "weight": 15,
+    "itemType": "Magic Weapon"
+  },
+  {
+    "id": "maple-wand",
+    "name": "Maple Wand",
+    "image": "Maple Wand.png",
+    "variants": [
+      {
+        "id": "65b2ac9f6165",
+        "name": "Maple Wand",
+        "image": "Maple Wand.png",
+        "variantName": null,
+        "recipe": {
+          "id": "bdd5820951f4",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "glass-vessel",
+              "quantity": 2
+            },
+            {
+              "itemId": "infernal-fragment",
+              "quantity": 8
+            },
+            {
+              "itemId": "maple-logs",
+              "quantity": 8
+            },
+            {
+              "itemId": "mithril-bar",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Mystic Forge"
+    ],
+    "wikiLink": "Maple_Wand",
+    "weight": 15,
+    "itemType": "Magic Weapon"
+  },
+  {
+    "id": "master-wand",
+    "name": "Master Wand",
+    "image": "Master Wand.png",
+    "variants": [
+      {
+        "id": "93030e5f0553",
+        "name": "Master Wand",
+        "image": "Master Wand.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9db1c51a6052",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "dragonstone",
+              "quantity": 2
+            },
+            {
+              "itemId": "gypsum-wax",
+              "quantity": 2
+            },
+            {
+              "itemId": "infinity-cloth",
+              "quantity": 2
+            },
+            {
+              "itemId": "refined-obsidian",
+              "quantity": 3
+            },
+            {
+              "itemId": "yew-logs",
+              "quantity": 8
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Mystic Forge"
+    ],
+    "wikiLink": "Master_Wand",
+    "weight": 15,
+    "itemType": "Magic Weapon"
+  },
+  {
+    "id": "ancestral-wand",
+    "name": "Ancestral Wand",
+    "image": "Ancestral Wand.png",
+    "variants": [
+      {
+        "id": "c394ad326168",
+        "name": "Ancestral Wand",
+        "image": "Ancestral Wand.png",
+        "variantName": null,
+        "recipe": {
+          "id": "46fe882cd95a",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "draconic-vis-wax",
+              "quantity": 2
+            },
+            {
+              "itemId": "dragonstone",
+              "quantity": 2
+            },
+            {
+              "itemId": "harmonised-compound",
+              "quantity": 5
+            },
+            {
+              "itemId": "magic-logs",
+              "quantity": 8
+            },
+            {
+              "itemId": "vis-cloth",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Mystic Forge"
+    ],
+    "wikiLink": "Ancestral_Wand",
+    "weight": 15,
+    "itemType": "Magic Weapon"
   },
   {
     "id": "goblin-pack",
@@ -63567,26 +64024,6 @@
     "weight": 0,
     "itemType": "Quest Item",
     "stackLimit": 99
-  },
-  {
-    "id": "abyssal-whip",
-    "name": "Abyssal Whip",
-    "image": "Abyssal Whip.png",
-    "variants": [
-      {
-        "id": "abyssal-whip",
-        "name": "Abyssal Whip",
-        "image": "Abyssal Whip.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Abyssal_Whip",
-    "weight": 4.5,
-    "itemType": "Melee Weapon"
   },
   {
     "id": "small-animal-fang",
@@ -75452,12 +75889,12 @@
   {
     "id": "luminite-ore",
     "name": "Luminite Ore",
-    "image": "Luminite Ore.png",
+    "image": "Luminite Ore (Journal).png",
     "variants": [
       {
         "id": "luminite-ore",
         "name": "Luminite Ore",
-        "image": "Luminite Ore.png",
+        "image": "Luminite Ore (Journal).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -75473,12 +75910,12 @@
   {
     "id": "discordant-residue",
     "name": "Discordant Residue",
-    "image": "Discordant Residue.png",
+    "image": "Discordant Residue (Journal).png",
     "variants": [
       {
         "id": "discordant-residue",
         "name": "Discordant Residue",
-        "image": "Discordant Residue.png",
+        "image": "Discordant Residue (Journal).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -75514,12 +75951,12 @@
   {
     "id": "runite-ore",
     "name": "Runite Ore",
-    "image": "Runite Ore.png",
+    "image": "Runite Ore (Journal).png",
     "variants": [
       {
         "id": "runite-ore",
         "name": "Runite Ore",
-        "image": "Runite Ore.png",
+        "image": "Runite Ore (Journal).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -75535,12 +75972,12 @@
   {
     "id": "black-dragon-hide",
     "name": "Black Dragon Hide",
-    "image": "Black Dragon Hide.png",
+    "image": "Black Dragon Hide (Journal).png",
     "variants": [
       {
         "id": "black-dragon-hide",
         "name": "Black Dragon Hide",
-        "image": "Black Dragon Hide.png",
+        "image": "Black Dragon Hide (Journal).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -75634,14 +76071,35 @@
     "itemType": "Shield"
   },
   {
+    "id": "queenslayers-reward-pack",
+    "name": "Queenslayer's Reward Pack",
+    "image": "Queenslayer's Reward Pack.png",
+    "variants": [
+      {
+        "id": "queenslayers-reward-pack",
+        "name": "Queenslayer's Reward Pack",
+        "image": "Queenslayer's Reward Pack.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Queenslayer's_Reward_Pack",
+    "weight": 0,
+    "itemType": "Resource",
+    "stackLimit": 99
+  },
+  {
     "id": "magic-logs",
     "name": "Magic Logs",
-    "image": "Magic Logs.png",
+    "image": "Magic Logs (Journal).png",
     "variants": [
       {
         "id": "magic-logs",
         "name": "Magic Logs",
-        "image": "Magic Logs.png",
+        "image": "Magic Logs (Journal).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -75672,6 +76130,47 @@
     "facilities": [],
     "wikiLink": "Dragon_med_helm",
     "weight": 8,
+    "stackLimit": 0
+  },
+  {
+    "id": "dragon-crossbow",
+    "name": "Dragon Crossbow",
+    "image": "Dragon Crossbow (Journal).png",
+    "variants": [
+      {
+        "id": "dragon-crossbow",
+        "name": "Dragon Crossbow",
+        "image": "Dragon Crossbow (Journal).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Dragon_Crossbow",
+    "weight": 10,
+    "itemType": "Ranged Weapon"
+  },
+  {
+    "id": "regicide-reward-pack",
+    "name": "Regicide Reward Pack",
+    "image": "Regicide Reward Pack.png",
+    "variants": [
+      {
+        "id": "regicide-reward-pack",
+        "name": "Regicide Reward Pack",
+        "image": "Regicide Reward Pack.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Regicide_Reward_Pack",
+    "weight": 0,
+    "itemType": "Container",
     "stackLimit": 0
   }
 ]

@@ -663,7 +663,7 @@
     "item_stacklimit": 99,
     "json": {
       "description": "A mysterious porous rock used as a base for powerful runes.",
-      "weight": "0.2'\"`UNIQ--ref-00000001-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
       "item_type": "Basic Item",
@@ -22826,11 +22826,11 @@
     "json": {
       "description": "Mined from luminite deposits. A catalysing material that can help to make rare metals.",
       "weight": "",
-      "image": "[[File:Luminite Ore.png|32px]]",
+      "image": "[[File:Luminite Ore (Journal).png|32px]]",
       "name": "Luminite Ore",
       "item_type": "Processed Material",
       "stacklimit": "99",
-      "image_raw": "Luminite Ore.png"
+      "image_raw": "Luminite Ore (Journal).png"
     },
     "item_type": "Processed Material",
     "item_name": "Luminite Ore"
@@ -22842,11 +22842,11 @@
     "item_stacklimit": 99,
     "json": {
       "description": "Obtained from creatures in Kuldra's Tower. A core component of vis cloth.",
-      "image": "[[File:Discordant Residue.png|32px]]",
+      "image": "[[File:Discordant Residue (Journal).png|32px]]",
       "name": "Discordant Residue",
       "item_type": "Processed Material",
       "stacklimit": "99",
-      "image_raw": "Discordant Residue.png"
+      "image_raw": "Discordant Residue (Journal).png"
     },
     "item_description": "Obtained from creatures in Kuldra's Tower. A core component of vis cloth.",
     "item_name": "Discordant Residue"
@@ -22860,11 +22860,11 @@
     "json": {
       "description": "Made by grinding rune essence. A component of black dragon leather.",
       "weight": "0.0",
-      "image": "[[File:Ground Rune Essence.png|32px]]",
+      "image": "[[File:Ground Rune Essence (Journal).png|32px]]",
       "name": "Ground Rune Essence",
       "item_type": "Processed Material",
       "stacklimit": "99",
-      "image_raw": "Ground Rune Essence.png"
+      "image_raw": "Ground Rune Essence (Journal).png"
     },
     "item_type": "Processed Material",
     "item_name": "Ground Rune Essence"
@@ -22900,11 +22900,11 @@
     "json": {
       "description": "Made from discordant residue in a kiln. Can be combined with runic powder on an advanced spinning wheel.",
       "weight": "0.0",
-      "image": "[[File:Harmonised Compound.png|32px]]",
+      "image": "[[File:Harmonised Compound (Journal).png|32px]]",
       "name": "Harmonised Compound",
       "item_type": "Processed Material",
       "stacklimit": "99",
-      "image_raw": "Harmonised Compound.png"
+      "image_raw": "Harmonised Compound (Journal).png"
     },
     "item_type": "Processed Material",
     "item_name": "Harmonised Compound"
@@ -22918,11 +22918,11 @@
     "json": {
       "description": "",
       "weight": "2.7",
-      "image": "[[File:Runite Ore.png|32px]]",
+      "image": "[[File:Runite Ore (Journal).png|32px]]",
       "name": "Runite Ore",
       "item_type": "Basic Material",
       "stacklimit": "99",
-      "image_raw": "Runite Ore.png"
+      "image_raw": "Runite Ore (Journal).png"
     },
     "item_type": "Basic Material",
     "item_name": "Runite Ore"
@@ -22936,29 +22936,29 @@
     "json": {
       "description": "Spun on an advanced spinning wheel. Threads that can be spun into vis cloth on a loom.",
       "weight": "0.0",
-      "image": "[[File:Vis Fibres.png|32px]]",
+      "image": "[[File:Vis Fibres (Journal).png|32px]]",
       "name": "Vis Fibres",
       "item_type": "Processed Material",
       "stacklimit": "99",
-      "image_raw": "Vis Fibres.png"
+      "image_raw": "Vis Fibres (Journal).png"
     },
     "item_type": "Processed Material",
     "item_name": "Vis Fibres"
   },
   {
     "page_name": "Black Dragon Hide",
-    "item_description": "Obtained from felling  black dragons. Can be processed at the tannery.",
+    "item_description": "Obtained from felling black dragons. Can be processed at the tannery.",
     "page_name_sub": "Black Dragon Hide",
     "item_weight": 0,
     "item_stacklimit": 99,
     "json": {
-      "description": "Obtained from felling  black dragons. Can be processed at the tannery.",
+      "description": "Obtained from felling black dragons. Can be processed at the tannery.",
       "weight": "",
-      "image": "[[File:Black Dragon Hide.png|32px]]",
+      "image": "[[File:Black Dragon Hide (Journal).png|32px]]",
       "name": "Black Dragon Hide",
       "item_type": "Basic Material",
       "stacklimit": "99",
-      "image_raw": "Black Dragon Hide.png"
+      "image_raw": "Black Dragon Hide (Journal).png"
     },
     "item_type": "Basic Material",
     "item_name": "Black Dragon Hide"
@@ -22972,11 +22972,11 @@
     "json": {
       "description": "Spun on a loom from vis fibres and draconic vis wax. Now it's time to make some mage armour.",
       "weight": "0.0",
-      "image": "[[File:Vis Cloth.png|32px]]",
+      "image": "[[File:Vis Cloth (Journal).png|32px]]",
       "name": "Vis Cloth",
       "item_type": "Processed Material",
       "stacklimit": "99",
-      "image_raw": "Vis Cloth.png"
+      "image_raw": "Vis Cloth (Journal).png"
     },
     "item_type": "Processed Material",
     "item_name": "Vis Cloth"
@@ -22990,11 +22990,11 @@
     "json": {
       "description": "Made in a brewing cauldron. Alongside vis fibres, it can be spun into vis cloth on a loom.",
       "weight": "0.0",
-      "image": "[[File:Draconic Vis Wax.png|32px]]",
+      "image": "[[File:Draconic Vis Wax (Journal).png|32px]]",
       "name": "Draconic Vis Wax",
       "item_type": "Processed Material",
       "stacklimit": "99",
-      "image_raw": "Draconic Vis Wax.png"
+      "image_raw": "Draconic Vis Wax (Journal).png"
     },
     "item_type": "Processed Material",
     "item_name": "Draconic Vis Wax"
@@ -23024,11 +23024,11 @@
     "json": {
       "description": "A magically resonant metal used for crafting weapons and armour.",
       "weight": "4.5",
-      "image": "[[File:Rune Bar.png|32px]]",
+      "image": "[[File:Rune Bar (Journal).png|32px]]",
       "name": "Rune Bar",
       "item_type": "Processed Material",
       "stacklimit": "99",
-      "image_raw": "Rune Bar.png"
+      "image_raw": "Rune Bar (Journal).png"
     },
     "item_type": "Processed Material",
     "item_name": "Rune Bar"
@@ -23042,11 +23042,11 @@
     "json": {
       "description": "Made by tanning black dragonhide. A key component for ranged armour.",
       "weight": "0.0",
-      "image": "[[File:Black Dragon Leather.png|32px]]",
+      "image": "[[File:Black Dragon Leather (Journal).png|32px]]",
       "name": "Black Dragon Leather",
       "item_type": "Processed Material",
       "stacklimit": "99",
-      "image_raw": "Black Dragon Leather.png"
+      "image_raw": "Black Dragon Leather (Journal).png"
     },
     "item_type": "Processed Material",
     "item_name": "Black Dragon Leather"
@@ -23164,6 +23164,24 @@
     "item_weight": 10
   },
   {
+    "page_name": "Queenslayer's Reward Pack",
+    "item_description": "Contains the spoils of your battle against Kuldra.",
+    "page_name_sub": "Queenslayer's Reward Pack",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Contains the spoils of your battle against Kuldra.",
+      "weight": "0.0",
+      "image": "[[File:Queenslayer's Reward Pack.png|32px]]",
+      "name": "Queenslayer's Reward Pack",
+      "item_type": "Resource",
+      "stacklimit": "99",
+      "image_raw": "Queenslayer's Reward Pack.png"
+    },
+    "item_type": "Resource",
+    "item_name": "Queenslayer's Reward Pack"
+  },
+  {
     "page_name": "Rune Dagger",
     "page_name_sub": "Rune Dagger",
     "item_description": "A razor-sharp rune dagger prized for its speed, precision, and deadly effectiveness.",
@@ -23204,11 +23222,11 @@
     "json": {
       "description": "Cut from magic trees. Can be crafted into various equipment.",
       "weight": "1.0",
-      "image": "[[File:Magic Logs.png|32px]]",
+      "image": "[[File:Magic Logs (Journal).png|32px]]",
       "name": "Magic Logs",
       "item_type": "Basic Material",
       "stacklimit": "99",
-      "image_raw": "Magic Logs.png"
+      "image_raw": "Magic Logs (Journal).png"
     },
     "item_type": "Basic Material",
     "item_name": "Magic Logs"
@@ -23254,11 +23272,11 @@
     "json": {
       "description": "The product of grinding dragon teeth. Essential for making draconic vis wax.",
       "weight": "0.0",
-      "image": "[[File:Ground Dragon Tooth.png|32px]]",
+      "image": "[[File:Ground Dragon Tooth (Journal).png|32px]]",
       "name": "Ground Dragon Tooth",
       "item_type": "Processed Material",
       "stacklimit": "99",
-      "image_raw": "Ground Dragon Tooth.png"
+      "image_raw": "Ground Dragon Tooth (Journal).png"
     },
     "item_type": "Processed Material",
     "item_name": "Ground Dragon Tooth"
@@ -23700,12 +23718,12 @@
   {
     "page_name": "Magic Shortbow",
     "page_name_sub": "Magic Shortbow",
-    "item_description": "",
+    "item_description": "A shortbow made of magic wood, this bow is light enough to carry all day and powerful enough to ruin someone else's.",
     "item_type": "Ranged Weapon",
     "item_name": "Magic Shortbow",
     "json": {
-      "description": "",
-      "weight": "10",
+      "description": "A shortbow made of magic wood, this bow is light enough to carry all day and powerful enough to ruin someone else's.",
+      "weight": "10.0",
       "image": "[[File:Magic Shortbow.png|32px]]",
       "name": "Magic Shortbow",
       "item_type": "Ranged Weapon",
@@ -23716,11 +23734,11 @@
   {
     "page_name": "Magic Longbow",
     "page_name_sub": "Magic Longbow",
-    "item_description": "",
+    "item_description": "The natural resilience of magic wood allows this bow to send arrows soaring over great distances.",
     "item_type": "Ranged Weapon",
     "item_name": "Magic Longbow",
     "json": {
-      "description": "",
+      "description": "The natural resilience of magic wood allows this bow to send arrows soaring over great distances.",
       "weight": "15",
       "image": "[[File:Magic Longbow.png|32px]]",
       "name": "Magic Longbow",
@@ -23782,5 +23800,135 @@
     },
     "item_type": "Cape",
     "item_name": "Dragonslayer's Cape"
+  },
+  {
+    "page_name": "Oak Wand",
+    "page_name_sub": "Oak Wand",
+    "item_description": "A sturdy oak wand that offers reliability far beyond its humble appearance.",
+    "item_type": "Magic Weapon",
+    "item_name": "Oak Wand",
+    "json": {
+      "description": "A sturdy oak wand that offers reliability far beyond its humble appearance.",
+      "weight": "15.0",
+      "image": "[[File:Oak Wand (Journal).png|32px]]",
+      "name": "Oak Wand",
+      "item_type": "Magic Weapon",
+      "image_raw": "Oak Wand (Journal).png"
+    },
+    "item_weight": 15
+  },
+  {
+    "page_name": "Blightwood Wand",
+    "page_name_sub": "Blightwood Wand",
+    "item_description": "Fashioned from blightwood, its magic feels unsettlingly eager to obey.",
+    "item_type": "Magic Weapon",
+    "item_name": "Blightwood Wand",
+    "json": {
+      "description": "Fashioned from blightwood, its magic feels unsettlingly eager to obey.",
+      "weight": "15.0",
+      "image": "[[File:Blightwood Wand (Journal).png|32px]]",
+      "name": "Blightwood Wand",
+      "item_type": "Magic Weapon",
+      "image_raw": "Blightwood Wand (Journal).png"
+    },
+    "item_weight": 15
+  },
+  {
+    "page_name": "Splitbark Wand",
+    "page_name_sub": "Splitbark Wand",
+    "item_description": "Crafted from enchanted splitbark, balancing resilience with arcane potential.",
+    "item_type": "Magic Weapon",
+    "item_name": "Splitbark Wand",
+    "json": {
+      "description": "Crafted from enchanted splitbark, balancing resilience with arcane potential.",
+      "weight": "15.0",
+      "image": "[[File:Splitbark Wand (Journal).png|32px]]",
+      "name": "Splitbark Wand",
+      "item_type": "Magic Weapon",
+      "image_raw": "Splitbark Wand (Journal).png"
+    },
+    "item_weight": 15
+  },
+  {
+    "page_name": "Maple Wand",
+    "page_name_sub": "Maple Wand",
+    "item_description": "A finely crafted maple wand, prized for its natural affinity with magic.",
+    "item_type": "Magic Weapon",
+    "item_name": "Maple Wand",
+    "json": {
+      "description": "A finely crafted maple wand, prized for its natural affinity with magic.",
+      "weight": "15.0",
+      "image": "[[File:Maple Wand (Journal).png|32px]]",
+      "name": "Maple Wand",
+      "item_type": "Magic Weapon",
+      "image_raw": "Maple Wand (Journal).png"
+    },
+    "item_weight": 15
+  },
+  {
+    "page_name": "Master Wand",
+    "page_name_sub": "Master Wand",
+    "item_description": "A wand worthy of an accomplished spellcaster. Mastery is not included.",
+    "item_type": "Magic Weapon",
+    "item_name": "Master Wand",
+    "json": {
+      "description": "A wand worthy of an accomplished spellcaster. Mastery is not included.",
+      "weight": "15.0",
+      "image": "[[File:Master Wand (Journal).png|32px]]",
+      "name": "Master Wand",
+      "item_type": "Magic Weapon",
+      "image_raw": "Master Wand (Journal).png"
+    },
+    "item_weight": 15
+  },
+  {
+    "page_name": "Ancestral Wand",
+    "page_name_sub": "Ancestral Wand",
+    "item_description": "Forgotten magic lingers within this wand, waiting for a capable hand to awaken it.",
+    "item_type": "Magic Weapon",
+    "item_name": "Ancestral Wand",
+    "json": {
+      "description": "Forgotten magic lingers within this wand, waiting for a capable hand to awaken it.",
+      "weight": "15.0",
+      "image": "[[File:Ancestral Wand (Journal).png|32px]]",
+      "name": "Ancestral Wand",
+      "item_type": "Magic Weapon",
+      "image_raw": "Ancestral Wand (Journal).png"
+    },
+    "item_weight": 15
+  },
+  {
+    "page_name": "Dragon Crossbow",
+    "page_name_sub": "Dragon Crossbow",
+    "item_description": "An exceptional crossbow crafted from dragon metal. The bolt arrives before the target realises it has been fired.",
+    "item_type": "Ranged Weapon",
+    "item_name": "Dragon Crossbow",
+    "json": {
+      "description": "An exceptional crossbow crafted from dragon metal. The bolt arrives before the target realises it has been fired.",
+      "weight": "10.0",
+      "image": "[[File:Dragon Crossbow (Journal).png|32px]]",
+      "name": "Dragon Crossbow",
+      "item_type": "Ranged Weapon",
+      "image_raw": "Dragon Crossbow (Journal).png"
+    },
+    "item_weight": 10
+  },
+  {
+    "page_name": "Regicide Reward Pack",
+    "item_description": "A reward pack for completing Regicide.",
+    "page_name_sub": "Regicide Reward Pack",
+    "item_weight": 0,
+    "item_stacklimit": 0,
+    "json": {
+      "description": "A reward pack for completing Regicide.",
+      "weight": "0.0",
+      "image": "[[File:Regicide Reward Pack.png|32px]]",
+      "name": "Regicide Reward Pack",
+      "item_type": "Container",
+      "stacklimit": "",
+      "image_raw": "Regicide Reward Pack.png"
+    },
+    "item_type": "Container",
+    "item_name": "Regicide Reward Pack"
   }
 ]
