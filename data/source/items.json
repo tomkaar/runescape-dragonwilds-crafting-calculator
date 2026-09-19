@@ -1235,11 +1235,11 @@
     "json": {
       "description": "Glue friendly or else I'll take away the glue and then nobody will have any glue to glue with!",
       "weight": "0.5",
-      "image": "[[File:Adhesive.png|32px]]",
+      "image": "[[File:Adhesive (Journal).png|32px]]",
       "name": "Adhesive",
       "item_type": "Basic Item",
       "stacklimit": "99",
-      "image_raw": "Adhesive.png"
+      "image_raw": "Adhesive (Journal).png"
     },
     "item_type": "Basic Item",
     "item_name": "Adhesive"
@@ -5875,6 +5875,24 @@
     "item_weight": 2
   },
   {
+    "page_name": "Ruby",
+    "item_description": "A rare gemstone used to craft enchanted jewellery.",
+    "page_name_sub": "Ruby",
+    "item_weight": 3,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A rare gemstone used to craft enchanted jewellery.",
+      "weight": "3.0",
+      "image": "[[File:Ruby.png|32px]]",
+      "name": "Ruby",
+      "item_type": "Basic Item",
+      "stacklimit": "99",
+      "image_raw": "Ruby.png"
+    },
+    "item_type": "Basic Item",
+    "item_name": "Ruby"
+  },
+  {
     "page_name": "Emerald",
     "item_description": "",
     "page_name_sub": "Emerald",
@@ -8397,11 +8415,11 @@
     "json": {
       "description": "Advanced building material.",
       "weight": "6.0",
-      "image": "[[File:Stone Block.png|32px]]",
+      "image": "[[File:Stone Block (Journal).png|32px]]",
       "name": "Stone Block",
       "item_type": "Resource",
       "stacklimit": "99",
-      "image_raw": "Stone Block.png"
+      "image_raw": "Stone Block (Journal).png"
     },
     "item_type": "Resource",
     "item_name": "Stone Block"
@@ -9073,11 +9091,11 @@
     "item_stacklimit": 1,
     "json": {
       "weight": "2.0",
-      "image": "[[File:Amulet of Magic.png|32px]]",
+      "image": "[[File:Amulet of Magic (Journal).png|32px]]",
       "name": "Amulet of Magic",
       "item_type": "Trinket",
       "stacklimit": "1",
-      "image_raw": "Amulet of Magic.png"
+      "image_raw": "Amulet of Magic (Journal).png"
     },
     "item_type": "Trinket",
     "item_name": "Amulet of Magic"
@@ -9198,11 +9216,11 @@
     "json": {
       "description": "A high-temperature fuel. Needed to smelt more advanced metals.",
       "weight": "1.0",
-      "image": "[[File:Fuel Pellet.png|32px]]",
+      "image": "[[File:Fuel Pellet (Journal).png|32px]]",
       "name": "Fuel Pellet",
       "item_type": "Processed Material",
       "stacklimit": "99",
-      "image_raw": "Fuel Pellet.png"
+      "image_raw": "Fuel Pellet (Journal).png"
     },
     "item_type": "Processed Material",
     "item_name": "Fuel Pellet"
@@ -9862,11 +9880,11 @@
     "item_stacklimit": 1,
     "json": {
       "weight": "2.0",
-      "image": "[[File:Amulet of Strength.png|32px]]",
+      "image": "[[File:Amulet of Strength (Journal).png|32px]]",
       "name": "Amulet of Strength",
       "item_type": "Trinket",
       "stacklimit": "1",
-      "image_raw": "Amulet of Strength.png"
+      "image_raw": "Amulet of Strength (Journal).png"
     },
     "item_type": "Trinket",
     "item_name": "Amulet of Strength"
@@ -10152,11 +10170,11 @@
     "item_stacklimit": 1,
     "json": {
       "weight": "2.0",
-      "image": "[[File:Amulet of Accuracy.png|32px]]",
+      "image": "[[File:Amulet of Accuracy (Journal).png|32px]]",
       "name": "Amulet of Accuracy",
       "item_type": "Trinket",
       "stacklimit": "1",
-      "image_raw": "Amulet of Accuracy.png"
+      "image_raw": "Amulet of Accuracy (Journal).png"
     },
     "item_type": "Trinket",
     "item_name": "Amulet of Accuracy"
@@ -10250,11 +10268,11 @@
     "json": {
       "description": "A mystical amulet that strengthens your defences.",
       "weight": "2.0",
-      "image": "[[File:Amulet of Defence.png|32px]]",
+      "image": "[[File:Amulet of Defence (Journal).png|32px]]",
       "name": "Amulet of Defence",
       "item_type": "Trinket",
       "stacklimit": "1",
-      "image_raw": "Amulet of Defence.png"
+      "image_raw": "Amulet of Defence (Journal).png"
     },
     "item_type": "Trinket",
     "item_name": "Amulet of Defence"
@@ -21923,10 +21941,10 @@
     "json": {
       "description": "Robes worn in the pursuit of magical mastery, embroidered with symbols whose meaning has long been forgotten.",
       "weight": "8.0",
-      "image": "[[File:Ancestral Robes.png|32px]]",
+      "image": "[[File:Ancestral Robes (Journal).png|32px]]",
       "name": "Ancestral Robes",
       "item_type": "Mage Armour",
-      "image_raw": "Ancestral Robes.png"
+      "image_raw": "Ancestral Robes (Journal).png"
     },
     "item_weight": 8
   },
@@ -22714,11 +22732,11 @@
   {
     "page_name": "Abysmal Whip",
     "page_name_sub": "Abysmal Whip",
-    "item_description": "",
+    "item_description": "It's... not quite finished.",
     "item_type": "Melee Weapon",
     "item_name": "Abysmal Whip",
     "json": {
-      "description": "",
+      "description": "It's... not quite finished.",
       "weight": "",
       "image": "[[File:Abysmal Whip.png|32px]]",
       "name": "Abysmal Whip",
@@ -23008,10 +23026,10 @@
     "json": {
       "description": "A sturdy rune helm built to withstand the chaos of close combat.",
       "weight": "8.0",
-      "image": "[[File:Rune Helm.png|32px]]",
+      "image": "[[File:Rune Helm (Journal).png|32px]]",
       "name": "Rune Helm",
       "item_type": "Melee Armour",
-      "image_raw": "Rune Helm.png"
+      "image_raw": "Rune Helm (Journal).png"
     },
     "item_weight": 8
   },
@@ -23060,10 +23078,10 @@
     "json": {
       "description": "A fearsome helm forged from dragon metal. Protects your head. Dragons generally aim downwards.",
       "weight": "8.0",
-      "image": "[[File:Dragon Full Helm.png|32px]]",
+      "image": "[[File:Dragon Full Helm (Journal).png|32px]]",
       "name": "Dragon Full Helm",
       "item_type": "Melee Armour",
-      "image_raw": "Dragon Full Helm.png"
+      "image_raw": "Dragon Full Helm (Journal).png"
     },
     "item_weight": 8
   },
@@ -23076,10 +23094,10 @@
     "json": {
       "description": "Thick rune plates forged into armour for the strongest of warriors.",
       "weight": "16.0",
-      "image": "[[File:Rune Platebody.png|32px]]",
+      "image": "[[File:Rune Platebody (Journal).png|32px]]",
       "name": "Rune Platebody",
       "item_type": "Melee Armour",
-      "image_raw": "Rune Platebody.png"
+      "image_raw": "Rune Platebody (Journal).png"
     },
     "item_weight": 16
   },
@@ -23092,10 +23110,10 @@
     "json": {
       "description": "Durable rune platelegs designed for warriors who spend more time fighting than running.",
       "weight": "12",
-      "image": "[[File:Rune Platelegs.png|32px]]",
+      "image": "[[File:Rune Platelegs (Journal).png|32px]]",
       "name": "Rune Platelegs",
       "item_type": "Melee Armour",
-      "image_raw": "Rune Platelegs.png"
+      "image_raw": "Rune Platelegs (Journal).png"
     },
     "item_weight": 12
   },
@@ -23108,10 +23126,10 @@
     "json": {
       "description": "The centrepiece of the dragon armour set, forged to withstand blows that would cripple lesser warriors.",
       "weight": "16",
-      "image": "[[File:Dragon Platebody.png|32px]]",
+      "image": "[[File:Dragon Platebody (Journal).png|32px]]",
       "name": "Dragon Platebody",
       "item_type": "Melee Armour",
-      "image_raw": "Dragon Platebody.png"
+      "image_raw": "Dragon Platebody (Journal).png"
     },
     "item_weight": 16
   },
@@ -23124,10 +23142,10 @@
     "json": {
       "description": "Dragon-forged platelegs offering exceptional protection without sacrificing mobility.",
       "weight": "12.0",
-      "image": "[[File:Dragon Platelegs.png|32px]]",
+      "image": "[[File:Dragon Platelegs (Journal).png|32px]]",
       "name": "Dragon Platelegs",
       "item_type": "Melee Armour",
-      "image_raw": "Dragon Platelegs.png"
+      "image_raw": "Dragon Platelegs (Journal).png"
     },
     "item_weight": 12
   },
@@ -23140,10 +23158,10 @@
     "json": {
       "description": "Tough, flexible black dragonhide armour trusted by hunters who prefer to strike from afar.",
       "weight": "12.0",
-      "image": "[[File:Black Dragonhide Body.png|32px]]",
+      "image": "[[File:Black Dragonhide Body (Journal).png|32px]]",
       "name": "Black Dragonhide Body",
       "item_type": "Ranged Armour",
-      "image_raw": "Black Dragonhide Body.png"
+      "image_raw": "Black Dragonhide Body (Journal).png"
     },
     "item_weight": 12
   },
@@ -23156,10 +23174,10 @@
     "json": {
       "description": "A dragon-forged kiteshield built to stand firm against overwhelming odds.",
       "weight": "10.0",
-      "image": "[[File:Dragon Kiteshield.png|32px]]",
+      "image": "[[File:Dragon Kiteshield (Journal).png|32px]]",
       "name": "Dragon Kiteshield",
       "item_type": "Shield",
-      "image_raw": "Dragon Kiteshield.png"
+      "image_raw": "Dragon Kiteshield (Journal).png"
     },
     "item_weight": 10
   },
@@ -23190,10 +23208,10 @@
     "json": {
       "description": "A razor-sharp rune dagger prized for its speed, precision, and deadly effectiveness.",
       "weight": "5.0",
-      "image": "[[File:Rune Dagger.png|32px]]",
+      "image": "[[File:Rune Dagger (Journal).png|32px]]",
       "name": "Rune Dagger",
       "item_type": "Melee Weapon",
-      "image_raw": "Rune Dagger.png"
+      "image_raw": "Rune Dagger (Journal).png"
     },
     "item_weight": 5
   },
@@ -23206,10 +23224,10 @@
     "json": {
       "description": "A sturdy rune mace, designed to crush armour and bone alike with devastating force.",
       "weight": "15.0",
-      "image": "[[File:Rune Mace.png|32px]]",
+      "image": "[[File:Rune Mace (Journal).png|32px]]",
       "name": "Rune Mace",
       "item_type": "Melee Weapon",
-      "image_raw": "Rune Mace.png"
+      "image_raw": "Rune Mace (Journal).png"
     },
     "item_weight": 15
   },
@@ -23264,6 +23282,22 @@
     "item_weight": 5
   },
   {
+    "page_name": "Ancestral Staff",
+    "page_name_sub": "Ancestral Staff",
+    "item_description": "A staff carved from powerful magic wood, prized for its affinity with arcane energies.",
+    "item_type": "Magic Weapon",
+    "item_name": "Ancestral Staff",
+    "json": {
+      "description": "A staff carved from powerful magic wood, prized for its affinity with arcane energies.",
+      "weight": "15.0",
+      "image": "[[File:Ancestral Staff (journal).png|32px]]",
+      "name": "Ancestral Staff",
+      "item_type": "Magic Weapon",
+      "image_raw": "Ancestral Staff (journal).png"
+    },
+    "item_weight": 15
+  },
+  {
     "page_name": "Ground Dragon Tooth",
     "item_description": "The product of grinding dragon teeth. Essential for making draconic vis wax.",
     "page_name_sub": "Ground Dragon Tooth",
@@ -23290,10 +23324,10 @@
     "json": {
       "description": "A rune shield forged to endure punishment that would leave lesser metal in pieces.",
       "weight": "10.0",
-      "image": "[[File:Rune Shield.png|32px]]",
+      "image": "[[File:Rune Shield (Journal).png|32px]]",
       "name": "Rune Shield",
       "item_type": "Basic Item",
-      "image_raw": "Rune Shield.png"
+      "image_raw": "Rune Shield (Journal).png"
     },
     "item_weight": 10
   },
@@ -23314,26 +23348,6 @@
     "item_weight": 5.5
   },
   {
-    "page_name": "Dragon med helm",
-    "item_description": "",
-    "page_name_sub": "Dragon med helm",
-    "item_weight": 8,
-    "item_name": "Dragon med helm",
-    "json": {
-      "description": "",
-      "weight": "8.0",
-      "compostvalue": "",
-      "image": "[[File:Dragon med helm.png|32px]]",
-      "name": "Dragon med helm",
-      "hydration": "",
-      "sustenance": "",
-      "health": "",
-      "stacklimit": "",
-      "image_raw": "Dragon med helm.png"
-    },
-    "item_stacklimit": 0
-  },
-  {
     "page_name": "Ancestral Hat",
     "page_name_sub": "Ancestral Hat",
     "item_description": "Woven with ancient knowledge and arcane tradition. The hat is old, the magic within is older.",
@@ -23342,10 +23356,10 @@
     "json": {
       "description": "Woven with ancient knowledge and arcane tradition. The hat is old, the magic within is older.",
       "weight": "4.0",
-      "image": "[[File:Ancestral Hat.png|32px]]",
+      "image": "[[File:Ancestral Hat (Journal).png|32px]]",
       "name": "Ancestral Hat",
       "item_type": "Mage Armour",
-      "image_raw": "Ancestral Hat.png"
+      "image_raw": "Ancestral Hat (Journal).png"
     },
     "item_weight": 4
   },
@@ -23358,10 +23372,10 @@
     "json": {
       "description": "Enchanted garments that carry the legacy of generations of powerful spellcasters.",
       "weight": "6.0",
-      "image": "[[File:Ancestral Leggings.png|32px]]",
+      "image": "[[File:Ancestral Leggings (Journal).png|32px]]",
       "name": "Ancestral Leggings",
       "item_type": "Mage Armour",
-      "image_raw": "Ancestral Leggings.png"
+      "image_raw": "Ancestral Leggings (Journal).png"
     },
     "item_weight": 6
   },
@@ -23374,10 +23388,10 @@
     "json": {
       "description": "Fashioned from black dragonhide, this helm offers protection without hindering an archer's awareness.",
       "weight": "6.0",
-      "image": "[[File:Black Dragonhide Coif.png|32px]]",
+      "image": "[[File:Black Dragonhide Coif (Journal).png|32px]]",
       "name": "Black Dragonhide Coif",
       "item_type": "Ranged Armour",
-      "image_raw": "Black Dragonhide Coif.png"
+      "image_raw": "Black Dragonhide Coif (Journal).png"
     },
     "item_weight": 6
   },
@@ -23390,10 +23404,10 @@
     "json": {
       "description": "Crafted from resilient black dragonhide, these leggings allow swift movement while providing excellent protection.",
       "weight": "9.0",
-      "image": "[[File:Black Dragonhide Chaps.png|32px]]",
+      "image": "[[File:Black Dragonhide Chaps (Journal).png|32px]]",
       "name": "Black Dragonhide Chaps",
       "item_type": "Ranged Armour",
-      "image_raw": "Black Dragonhide Chaps.png"
+      "image_raw": "Black Dragonhide Chaps (Journal).png"
     },
     "item_weight": 9
   },
@@ -23406,11 +23420,11 @@
     "json": {
       "description": "Carefully forged rune crossbow bolts that hit hard and fly true.",
       "weight": "0.0",
-      "image": "[[File:Rune Bolt.png|32px]]",
+      "image": "[[File:Rune Bolt (Journal).png|32px]]",
       "name": "Rune Bolt",
       "item_type": "Ammo",
       "stacklimit": "999",
-      "image_raw": "Rune Bolt.png"
+      "image_raw": "Rune Bolt (Journal).png"
     },
     "item_type": "Ammo",
     "item_name": "Rune Bolt"
@@ -23424,11 +23438,11 @@
     "json": {
       "description": "Rune bolts infused with magical energy and a diamond tip. Their targets rarely appreciate the distinction. Has a chance to pierce through several enemies at once.",
       "weight": "0.0",
-      "image": "[[File:Enchanted Rune Bolt.png|32px]]",
+      "image": "[[File:Enchanted Rune Bolt (Journal).png|32px]]",
       "name": "Enchanted Rune Bolt",
       "item_type": "Ammo",
       "stacklimit": "999",
-      "image_raw": "Enchanted Rune Bolt.png"
+      "image_raw": "Enchanted Rune Bolt (Journal).png"
     },
     "item_type": "Ammo",
     "item_name": "Enchanted Rune Bolt"
@@ -23458,10 +23472,10 @@
     "json": {
       "description": "Polished to a brilliant shine, this helmet is as impressive as it is eye-catching.",
       "weight": "8.0",
-      "image": "[[File:Gilded Paladin Helmet.png|32px]]",
+      "image": "[[File:Gilded Paladin Helmet (Journal).png|32px]]",
       "name": "Gilded Paladin Helmet",
       "item_type": "Melee Armour",
-      "image_raw": "Gilded Paladin Helmet.png"
+      "image_raw": "Gilded Paladin Helmet (Journal).png"
     },
     "item_weight": 8
   },
@@ -23474,10 +23488,10 @@
     "json": {
       "description": "An ornate golden chestpiece that serves as a symbol of power, status, and confidence.",
       "weight": "16.0",
-      "image": "[[File:Gilded Paladin Chestpiece.png|32px]]",
+      "image": "[[File:Gilded Paladin Chestpiece (Journal).png|32px]]",
       "name": "Gilded Paladin Chestpiece",
       "item_type": "Melee Armour",
-      "image_raw": "Gilded Paladin Chestpiece.png"
+      "image_raw": "Gilded Paladin Chestpiece (Journal).png"
     },
     "item_weight": 16
   },
@@ -23490,10 +23504,10 @@
     "json": {
       "description": "Golden platelegs for warriors who believe protection should be seen from a distance.",
       "weight": "12.0",
-      "image": "[[File:Gilded Paladin Legs.png|32px]]",
+      "image": "[[File:Gilded Paladin Legs (Journal).png|32px]]",
       "name": "Gilded Paladin Legs",
       "item_type": "Melee Armour",
-      "image_raw": "Gilded Paladin Legs.png"
+      "image_raw": "Gilded Paladin Legs (Journal).png"
     },
     "item_weight": 12
   },
@@ -23506,10 +23520,10 @@
     "json": {
       "description": "A finely balanced rune sword, renowned for its strength, precision, and reliability in battle.",
       "weight": "15.0",
-      "image": "[[File:Rune Sword.png|32px]]",
+      "image": "[[File:Rune Sword (Journal).png|32px]]",
       "name": "Rune Sword",
       "item_type": "Melee Weapon",
-      "image_raw": "Rune Sword.png"
+      "image_raw": "Rune Sword (Journal).png"
     },
     "item_weight": 15
   },
@@ -23522,10 +23536,10 @@
     "json": {
       "description": "The curved rune blade flows effortlessly from one strike to the next.",
       "weight": "15",
-      "image": "[[File:Rune Scimitar.png|32px]]",
+      "image": "[[File:Rune Scimitar (Journal).png|32px]]",
       "name": "Rune Scimitar",
       "item_type": "Melee Weapon",
-      "image_raw": "Rune Scimitar.png"
+      "image_raw": "Rune Scimitar (Journal).png"
     },
     "item_weight": 15
   },
@@ -23538,10 +23552,10 @@
     "json": {
       "description": "An imposing rune greataxe, for when a regular axe simply isn't sending a strong enough message.",
       "weight": "25.0",
-      "image": "[[File:Rune Greataxe.png|32px]]",
+      "image": "[[File:Rune Greataxe (Journal).png|32px]]",
       "name": "Rune Greataxe",
       "item_type": "Melee Weapon",
-      "image_raw": "Rune Greataxe.png"
+      "image_raw": "Rune Greataxe (Journal).png"
     },
     "item_weight": 25
   },
@@ -23554,10 +23568,10 @@
     "json": {
       "description": "A massive two-handed blade forged from runite. Few can wield such a weapon effectively, but fewer still can stand against it.",
       "weight": "25.0",
-      "image": "[[File:Rune Greatsword.png|32px]]",
+      "image": "[[File:Rune Greatsword (Journal).png|32px]]",
       "name": "Rune Greatsword",
       "item_type": "Melee Weapon",
-      "image_raw": "Rune Greatsword.png"
+      "image_raw": "Rune Greatsword (Journal).png"
     },
     "item_weight": 25
   },
@@ -23570,10 +23584,10 @@
     "json": {
       "description": "A colossal rune warhammer, capable of shattering shields and crushing the strongest defences.",
       "weight": "25.0",
-      "image": "[[File:Rune Warhammer.png|32px]]",
+      "image": "[[File:Rune Warhammer (Journal).png|32px]]",
       "name": "Rune Warhammer",
       "item_type": "Melee Weapon",
-      "image_raw": "Rune Warhammer.png"
+      "image_raw": "Rune Warhammer (Journal).png"
     },
     "item_weight": 25
   },
@@ -23586,11 +23600,11 @@
     "json": {
       "description": "Rune arrows are prized for their exceptional flight and striking power.",
       "weight": "0.0",
-      "image": "[[File:Rune Arrow.png|32px]]",
+      "image": "[[File:Rune Arrow (Journal).png|32px]]",
       "name": "Rune Arrow",
       "item_type": "Arrow",
       "stacklimit": "999",
-      "image_raw": "Rune Arrow.png"
+      "image_raw": "Rune Arrow (Journal).png"
     },
     "item_type": "Arrow",
     "item_name": "Rune Arrow"
@@ -23658,11 +23672,11 @@
     "json": {
       "description": "Expertly forged rune limbs that provide exceptional strength and durability when fitted to a crossbow.",
       "weight": "4.5",
-      "image": "[[File:Rune Crossbow Limbs.png|32px]]",
+      "image": "[[File:Rune Crossbow Limbs (Journal).png|32px]]",
       "name": "Rune Crossbow Limbs",
       "item_type": "Basic Item",
       "stacklimit": "99",
-      "image_raw": "Rune Crossbow Limbs.png"
+      "image_raw": "Rune Crossbow Limbs (Journal).png"
     },
     "item_type": "Basic Item",
     "item_name": "Rune Crossbow Limbs"
@@ -23676,10 +23690,10 @@
     "json": {
       "description": "A precision-engineered rune crossbow that delivers powerful, accurate shots at range.",
       "weight": "10.0",
-      "image": "[[File:Rune Crossbow.png|32px]]",
+      "image": "[[File:Rune Crossbow (Journal).png|32px]]",
       "name": "Rune Crossbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Rune Crossbow.png"
+      "image_raw": "Rune Crossbow (Journal).png"
     },
     "item_weight": 10
   },
@@ -23724,10 +23738,10 @@
     "json": {
       "description": "A shortbow made of magic wood, this bow is light enough to carry all day and powerful enough to ruin someone else's.",
       "weight": "10.0",
-      "image": "[[File:Magic Shortbow.png|32px]]",
+      "image": "[[File:Magic Shortbow (Journal).png|32px]]",
       "name": "Magic Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Magic Shortbow.png"
+      "image_raw": "Magic Shortbow (Journal).png"
     },
     "item_weight": 10
   },
@@ -23740,26 +23754,26 @@
     "json": {
       "description": "The natural resilience of magic wood allows this bow to send arrows soaring over great distances.",
       "weight": "15",
-      "image": "[[File:Magic Longbow.png|32px]]",
+      "image": "[[File:Magic Longbow (Journal).png|32px]]",
       "name": "Magic Longbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Magic Longbow.png"
+      "image_raw": "Magic Longbow (Journal).png"
     },
     "item_weight": 15
   },
   {
     "page_name": "Dragon Med Helm",
     "page_name_sub": "Dragon Med Helm",
-    "item_description": "",
+    "item_description": "An imposing helm forged from legendary dragon metal.",
     "item_type": "Melee Armour",
     "item_name": "Dragon Med Helm",
     "json": {
-      "description": "",
+      "description": "An imposing helm forged from legendary dragon metal.",
       "weight": "9.0",
-      "image": "[[File:Dragon Med Helm.png|32px]]",
+      "image": "[[File:Dragon Med Helm (Journal).png|32px]]",
       "name": "Dragon Med Helm",
       "item_type": "Melee Armour",
-      "image_raw": "Dragon Med Helm.png"
+      "image_raw": "Dragon Med Helm (Journal).png"
     },
     "item_weight": 9
   },
@@ -23816,6 +23830,20 @@
       "image_raw": "Oak Wand (Journal).png"
     },
     "item_weight": 15
+  },
+  {
+    "page_name": "Lougrim's Staff",
+    "page_name_sub": "Lougrim's Staff",
+    "item_description": "The very staff that Lougrim carried to her death within Kuldra's belly.",
+    "item_type": "Quest Item",
+    "item_name": "Lougrim's Staff",
+    "json": {
+      "description": "The very staff that Lougrim carried to her death within Kuldra's belly.",
+      "image": "[[File:Lougrim's Staff.png|32px]]",
+      "name": "Lougrim's Staff",
+      "item_type": "Quest Item",
+      "image_raw": "Lougrim's Staff.png"
+    }
   },
   {
     "page_name": "Blightwood Wand",
@@ -23914,6 +23942,20 @@
     "item_weight": 10
   },
   {
+    "page_name": "Kuldra's Head",
+    "page_name_sub": "Kuldra's Head",
+    "item_description": "One of Kuldra's many heads. It glares back at you with untold hatred, even in this decapitated state. [[Commander Zilyana]] should see this.",
+    "item_type": "Quest Item",
+    "item_name": "Kuldra's Head",
+    "json": {
+      "description": "One of Kuldra's many heads. It glares back at you with untold hatred, even in this decapitated state. [[Commander Zilyana]] should see this.",
+      "image": "[[File:Kuldra's Head.png|32px]]",
+      "name": "Kuldra's Head",
+      "item_type": "Quest Item",
+      "image_raw": "Kuldra's Head.png"
+    }
+  },
+  {
     "page_name": "Regicide Reward Pack",
     "item_description": "A reward pack for completing Regicide.",
     "page_name_sub": "Regicide Reward Pack",
@@ -23930,5 +23972,21 @@
     },
     "item_type": "Container",
     "item_name": "Regicide Reward Pack"
+  },
+  {
+    "page_name": "Bronze Med Helm",
+    "page_name_sub": "Bronze Med Helm",
+    "item_description": "A simple bronze helm that's seen more training grounds than battlefields.",
+    "item_type": "Melee Armour",
+    "item_name": "Bronze Med Helm",
+    "json": {
+      "description": "A simple bronze helm that's seen more training grounds than battlefields.",
+      "weight": "8.0",
+      "image": "[[File:Bronze Med Helm (Journal).png|32px]]",
+      "name": "Bronze Med Helm",
+      "item_type": "Melee Armour",
+      "image_raw": "Bronze Med Helm (Journal).png"
+    },
+    "item_weight": 8
   }
 ]
