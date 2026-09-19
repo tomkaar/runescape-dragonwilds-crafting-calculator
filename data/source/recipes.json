@@ -29320,22 +29320,22 @@
         }
       ],
       "outputs": [
-        "Lying Book"
+        "Laying Book"
       ],
       "output": {
         "quantity": 1,
-        "name": "Lying Book",
-        "link": "Lying Book",
+        "name": "Laying Book",
+        "link": "Laying Book",
         "qty": 1,
-        "item": "Lying Book",
-        "image": "[[File:Lying Book.png|30px|link=Lying Book]]"
+        "item": "Laying Book",
+        "image": "[[File:Laying Book.png|30px|link=Laying Book]]"
       }
     },
     "uses_facility": [
       "Build Menu"
     ],
     "output": [
-      "Lying Book"
+      "Laying Book"
     ]
   },
   {
@@ -29726,22 +29726,22 @@
         }
       ],
       "outputs": [
-        "Piece of Linen Cloth"
+        "Piece of Rough Cloth"
       ],
       "output": {
         "quantity": 1,
-        "name": "Piece of Linen Cloth",
-        "link": "Piece of Linen Cloth",
+        "name": "Piece of Rough Cloth",
+        "link": "Piece of Rough Cloth",
         "qty": 1,
-        "item": "Piece of Linen Cloth",
-        "image": "[[File:Piece of Linen Cloth.png|30px|link=Piece of Linen Cloth]]"
+        "item": "Piece of Rough Cloth",
+        "image": "[[File:Piece of Rough Cloth.png|30px|link=Piece of Rough Cloth]]"
       }
     },
     "uses_facility": [
       "Build Menu"
     ],
     "output": [
-      "Piece of Linen Cloth"
+      "Piece of Rough Cloth"
     ]
   },
   {
@@ -29823,22 +29823,22 @@
         }
       ],
       "outputs": [
-        "Small Linen Cloth Bin"
+        "Rough Cloth Bin"
       ],
       "output": {
         "quantity": 1,
-        "name": "Small Linen Cloth Bin",
-        "link": "Small Linen Cloth Bin",
+        "name": "Rough Cloth Bin",
+        "link": "Rough Cloth Bin",
         "qty": 1,
-        "item": "Small Linen Cloth Bin",
-        "image": "[[File:Small Linen Cloth Bin.png|30px|link=Small Linen Cloth Bin]]"
+        "item": "Rough Cloth Bin",
+        "image": "[[File:Rough Cloth Bin.png|30px|link=Rough Cloth Bin]]"
       }
     },
     "uses_facility": [
       "Build Menu"
     ],
     "output": [
-      "Small Linen Cloth Bin"
+      "Rough Cloth Bin"
     ]
   },
   {
@@ -29876,22 +29876,22 @@
         }
       ],
       "outputs": [
-        "Small Wool Thread Bin"
+        "Wool Thread Bin"
       ],
       "output": {
         "quantity": 1,
-        "name": "Small Wool Thread Bin",
-        "link": "Small Wool Thread Bin",
+        "name": "Wool Thread Bin",
+        "link": "Wool Thread Bin",
         "qty": 1,
-        "item": "Small Wool Thread Bin",
-        "image": "[[File:Small Wool Thread Bin.png|30px|link=Small Wool Thread Bin]]"
+        "item": "Wool Thread Bin",
+        "image": "[[File:Wool Thread Bin.png|30px|link=Wool Thread Bin]]"
       }
     },
     "uses_facility": [
       "Build Menu"
     ],
     "output": [
-      "Small Wool Thread Bin"
+      "Wool Thread Bin"
     ]
   },
   {
@@ -29929,22 +29929,22 @@
         }
       ],
       "outputs": [
-        "Small Padded Cloth Bin"
+        "Padded Cloth Bin"
       ],
       "output": {
         "quantity": 1,
-        "name": "Small Padded Cloth Bin",
-        "link": "Small Padded Cloth Bin",
+        "name": "Padded Cloth Bin",
+        "link": "Padded Cloth Bin",
         "qty": 1,
-        "item": "Small Padded Cloth Bin",
-        "image": "[[File:Small Padded Cloth Bin.png|30px|link=Small Padded Cloth Bin]]"
+        "item": "Padded Cloth Bin",
+        "image": "[[File:Padded Cloth Bin.png|30px|link=Padded Cloth Bin]]"
       }
     },
     "uses_facility": [
       "Build Menu"
     ],
     "output": [
-      "Small Padded Cloth Bin"
+      "Padded Cloth Bin"
     ]
   },
   {
@@ -30070,22 +30070,22 @@
         }
       ],
       "outputs": [
-        "Small Coarse Thread Bin"
+        "Coarse Thread Bin"
       ],
       "output": {
         "quantity": 1,
-        "name": "Small Coarse Thread Bin",
-        "link": "Small Coarse Thread Bin",
+        "name": "Coarse Thread Bin",
+        "link": "Coarse Thread Bin",
         "qty": 1,
-        "item": "Small Coarse Thread Bin",
-        "image": "[[File:Small Coarse Thread Bin.png|30px|link=Small Coarse Thread Bin]]"
+        "item": "Coarse Thread Bin",
+        "image": "[[File:Coarse Thread Bin.png|30px|link=Coarse Thread Bin]]"
       }
     },
     "uses_facility": [
       "Build Menu"
     ],
     "output": [
-      "Small Coarse Thread Bin"
+      "Coarse Thread Bin"
     ]
   },
   {
@@ -30123,22 +30123,22 @@
         }
       ],
       "outputs": [
-        "Small Wool Cloth Bin"
+        "Wool Cloth Bin"
       ],
       "output": {
         "quantity": 1,
-        "name": "Small Wool Cloth Bin",
-        "link": "Small Wool Cloth Bin",
+        "name": "Wool Cloth Bin",
+        "link": "Wool Cloth Bin",
         "qty": 1,
-        "item": "Small Wool Cloth Bin",
-        "image": "[[File:Small Wool Cloth Bin.png|30px|link=Small Wool Cloth Bin]]"
+        "item": "Wool Cloth Bin",
+        "image": "[[File:Wool Cloth Bin.png|30px|link=Wool Cloth Bin]]"
       }
     },
     "uses_facility": [
       "Build Menu"
     ],
     "output": [
-      "Small Wool Cloth Bin"
+      "Wool Cloth Bin"
     ]
   },
   {
@@ -30299,27 +30299,27 @@
         }
       ],
       "outputs": [
-        "Linen Cloth Pile"
+        "Rough Cloth Pile"
       ],
       "output": {
         "quantity": 1,
-        "name": "Linen Cloth Pile",
-        "link": "Linen Cloth Pile",
+        "name": "Rough Cloth Pile",
+        "link": "Rough Cloth Pile",
         "qty": 1,
-        "item": "Linen Cloth Pile",
-        "image": "[[File:Linen Cloth Pile.png|30px|link=Linen Cloth Pile]]"
+        "item": "Rough Cloth Pile",
+        "image": "[[File:Rough Cloth Pile.png|30px|link=Rough Cloth Pile]]"
       }
     },
     "uses_facility": [
       "Build Menu"
     ],
     "output": [
-      "Linen Cloth Pile"
+      "Rough Cloth Pile"
     ]
   },
   {
     "uses_material": [
-      "Wool Cloth"
+      "Padded Cloth"
     ],
     "uses_skill": [
       "Construction"
@@ -30329,11 +30329,11 @@
       "materials": [
         {
           "quantity": "5",
-          "name": "Wool Cloth",
-          "link": "Wool Cloth",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
           "qty": "5",
-          "item": "Wool Cloth",
-          "image": "[[File:Wool Cloth.png|30px|link=Wool Cloth]]"
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
         }
       ],
       "skills": [
@@ -80537,7 +80537,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "120"
+          "experience": "12"
         }
       ],
       "outputs": [
@@ -81479,6 +81479,86 @@
     ],
     "output": [
       "Rune Logging Axe"
+    ]
+  },
+  {
+    "uses_material": [
+      "Magic Logs",
+      "Harmonised Compound",
+      "Vis Cloth",
+      "Dragonstone",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "16",
+          "name": "Magic Logs",
+          "link": "Magic Logs",
+          "qty": "16",
+          "item": "Magic Logs",
+          "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Harmonised Compound",
+          "link": "Harmonised Compound",
+          "qty": "10",
+          "item": "Harmonised Compound",
+          "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Vis Cloth",
+          "link": "Vis Cloth",
+          "qty": "4",
+          "item": "Vis Cloth",
+          "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Dragonstone",
+          "link": "Dragonstone",
+          "qty": "4",
+          "item": "Dragonstone",
+          "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "4",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
+      "outputs": [
+        "Ancestral Staff"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ancestral Staff",
+        "link": "Ancestral Staff",
+        "qty": "1",
+        "item": "Ancestral Staff",
+        "image": "[[File:Ancestral Staff.png|30px|link=Ancestral Staff]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "output": [
+      "Ancestral Staff"
     ]
   },
   {
@@ -83860,6 +83940,254 @@
     ],
     "output": [
       "Ancestral Wand"
+    ]
+  },
+  {
+    "uses_material": [
+      "Granite",
+      "Animal Bone",
+      "Clay Decoration",
+      "Dragon Tooth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "6",
+          "name": "Granite",
+          "link": "Granite",
+          "qty": "6",
+          "item": "Granite",
+          "image": "[[File:Granite.png|30px|link=Granite]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Animal Bone",
+          "link": "Animal Bone",
+          "qty": "4",
+          "item": "Animal Bone",
+          "image": "[[File:Animal Bone.png|30px|link=Animal Bone]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Clay Decoration",
+          "link": "Clay Decoration",
+          "qty": "2",
+          "item": "Clay Decoration",
+          "image": "[[File:Clay Decoration.png|30px|link=Clay Decoration]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Dragon Tooth",
+          "link": "Dragon Tooth",
+          "qty": "1",
+          "item": "Dragon Tooth",
+          "image": "[[File:Dragon Tooth.png|30px|link=Dragon Tooth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Lougrim Memorial Shrine"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Lougrim Memorial Shrine",
+        "link": "Lougrim Memorial Shrine",
+        "qty": 1,
+        "item": "Lougrim Memorial Shrine",
+        "image": "[[File:Lougrim Memorial Shrine.png|30px|link=Lougrim Memorial Shrine]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Lougrim Memorial Shrine"
+    ]
+  },
+  {
+    "uses_material": [
+      "Undead Bone",
+      "Fine Cloth",
+      "Willow Logs",
+      "Ectoplasm"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Undead Bone",
+          "link": "Undead Bone",
+          "qty": "2",
+          "item": "Undead Bone",
+          "image": "[[File:Undead Bone.png|30px|link=Undead Bone]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Fine Cloth",
+          "link": "Fine Cloth",
+          "qty": "2",
+          "item": "Fine Cloth",
+          "image": "[[File:Fine Cloth.png|30px|link=Fine Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "2",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ectoplasm",
+          "link": "Ectoplasm",
+          "qty": "2",
+          "item": "Ectoplasm",
+          "image": "[[File:Ectoplasm.png|30px|link=Ectoplasm]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Muncher's Basket"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Muncher's Basket",
+        "link": "Muncher's Basket",
+        "qty": "1",
+        "item": "Muncher's Basket",
+        "image": "[[File:Muncher's Basket.png|30px|link=Muncher's Basket]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Muncher's Basket"
+    ]
+  },
+  {
+    "uses_material": [
+      "Vault Core"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Vault Core",
+          "link": "Vault Core",
+          "qty": "1",
+          "item": "Vault Core",
+          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Vault Core (Decoration)"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Vault Core (Decoration)",
+        "link": "Vault Core (Decoration)",
+        "qty": "1",
+        "item": "Vault Core (Decoration)",
+        "image": "[[File:Vault Core (Decoration).png|30px|link=Vault Core (Decoration)]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Vault Core (Decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Bronze Bar",
+      "Hard Leather",
+      "Wool Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Bronze Bar",
+          "link": "Bronze Bar",
+          "qty": "4",
+          "item": "Bronze Bar",
+          "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Hard Leather",
+          "link": "Hard Leather",
+          "qty": "2",
+          "item": "Hard Leather",
+          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Wool Thread",
+          "link": "Wool Thread",
+          "qty": "1",
+          "item": "Wool Thread",
+          "image": "[[File:Wool Thread.png|30px|link=Wool Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
+      "outputs": [
+        "Bronze Med Helm"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Bronze Med Helm",
+        "link": "Bronze Med Helm",
+        "qty": "1",
+        "item": "Bronze Med Helm",
+        "image": "[[File:Bronze Med Helm.png|30px|link=Bronze Med Helm]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Bronze Med Helm"
     ]
   }
 ]

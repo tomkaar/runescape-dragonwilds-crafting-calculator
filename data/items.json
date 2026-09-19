@@ -20834,17 +20834,17 @@
     "wikiLink": "Skill_Tome_-_Cooking"
   },
   {
-    "id": "lying-book",
-    "name": "Lying Book",
-    "image": "Lying Book.png",
+    "id": "laying-book",
+    "name": "Laying Book",
+    "image": "Laying Book.png",
     "variants": [
       {
-        "id": "a703cf530ffd",
-        "name": "Lying Book",
-        "image": "Lying Book.png",
+        "id": "da8e31d49524",
+        "name": "Laying Book",
+        "image": "Laying Book.png",
         "variantName": null,
         "recipe": {
-          "id": "25a2b681537d",
+          "id": "4f49ccb9ca6a",
           "facilities": [
             "Build Menu"
           ],
@@ -20875,7 +20875,7 @@
     "facilities": [
       "Build Menu"
     ],
-    "wikiLink": "Lying_Book"
+    "wikiLink": "Laying_Book"
   },
   {
     "id": "skill-tome-runecrafting",
@@ -21182,17 +21182,17 @@
     "wikiLink": "Ball_of_Wool_Thread"
   },
   {
-    "id": "piece-of-linen-cloth",
-    "name": "Piece of Linen Cloth",
-    "image": "Piece of Linen Cloth.png",
+    "id": "piece-of-rough-cloth",
+    "name": "Piece of Rough Cloth",
+    "image": "Piece of Rough Cloth.png",
     "variants": [
       {
-        "id": "1b2978ab0303",
-        "name": "Piece of Linen Cloth",
-        "image": "Piece of Linen Cloth.png",
+        "id": "af536eb2b445",
+        "name": "Piece of Rough Cloth",
+        "image": "Piece of Rough Cloth.png",
         "variantName": null,
         "recipe": {
-          "id": "67f76dd732be",
+          "id": "6b8cdd5c9529",
           "facilities": [
             "Build Menu"
           ],
@@ -21219,7 +21219,7 @@
     "facilities": [
       "Build Menu"
     ],
-    "wikiLink": "Piece_of_Linen_Cloth"
+    "wikiLink": "Piece_of_Rough_Cloth"
   },
   {
     "id": "coarse-thread-pile",
@@ -21262,17 +21262,17 @@
     "wikiLink": "Coarse_Thread_Pile"
   },
   {
-    "id": "small-linen-cloth-bin",
-    "name": "Small Linen Cloth Bin",
-    "image": "Small Linen Cloth Bin.png",
+    "id": "rough-cloth-bin",
+    "name": "Rough Cloth Bin",
+    "image": "Rough Cloth Bin.png",
     "variants": [
       {
-        "id": "ffbc7d84c2f6",
-        "name": "Small Linen Cloth Bin",
-        "image": "Small Linen Cloth Bin.png",
+        "id": "227ef9b7027f",
+        "name": "Rough Cloth Bin",
+        "image": "Rough Cloth Bin.png",
         "variantName": null,
         "recipe": {
-          "id": "cd2326cd5cdd",
+          "id": "1d8a021b8cba",
           "facilities": [
             "Build Menu"
           ],
@@ -21303,20 +21303,20 @@
     "facilities": [
       "Build Menu"
     ],
-    "wikiLink": "Small_Linen_Cloth_Bin"
+    "wikiLink": "Rough_Cloth_Bin"
   },
   {
-    "id": "small-wool-thread-bin",
-    "name": "Small Wool Thread Bin",
-    "image": "Small Wool Thread Bin.png",
+    "id": "wool-thread-bin",
+    "name": "Wool Thread Bin",
+    "image": "Wool Thread Bin.png",
     "variants": [
       {
-        "id": "0f3dea485abd",
-        "name": "Small Wool Thread Bin",
-        "image": "Small Wool Thread Bin.png",
+        "id": "4d57b769b55a",
+        "name": "Wool Thread Bin",
+        "image": "Wool Thread Bin.png",
         "variantName": null,
         "recipe": {
-          "id": "5e2e87679efc",
+          "id": "7264a670d127",
           "facilities": [
             "Build Menu"
           ],
@@ -21347,20 +21347,20 @@
     "facilities": [
       "Build Menu"
     ],
-    "wikiLink": "Small_Wool_Thread_Bin"
+    "wikiLink": "Wool_Thread_Bin"
   },
   {
-    "id": "small-padded-cloth-bin",
-    "name": "Small Padded Cloth Bin",
-    "image": "Small Padded Cloth Bin.png",
+    "id": "padded-cloth-bin",
+    "name": "Padded Cloth Bin",
+    "image": "Padded Cloth Bin.png",
     "variants": [
       {
-        "id": "2a5aacf6caff",
-        "name": "Small Padded Cloth Bin",
-        "image": "Small Padded Cloth Bin.png",
+        "id": "0a9b295e14db",
+        "name": "Padded Cloth Bin",
+        "image": "Padded Cloth Bin.png",
         "variantName": null,
         "recipe": {
-          "id": "137ba7a05a79",
+          "id": "847d81c32a79",
           "facilities": [
             "Build Menu"
           ],
@@ -21391,7 +21391,7 @@
     "facilities": [
       "Build Menu"
     ],
-    "wikiLink": "Small_Padded_Cloth_Bin"
+    "wikiLink": "Padded_Cloth_Bin"
   },
   {
     "id": "wool-cloth-pile",
@@ -21474,17 +21474,17 @@
     "wikiLink": "Piece_of_Wool_Cloth"
   },
   {
-    "id": "small-coarse-thread-bin",
-    "name": "Small Coarse Thread Bin",
-    "image": "Small Coarse Thread Bin.png",
+    "id": "coarse-thread-bin",
+    "name": "Coarse Thread Bin",
+    "image": "Coarse Thread Bin.png",
     "variants": [
       {
-        "id": "0c27d5193cc8",
-        "name": "Small Coarse Thread Bin",
-        "image": "Small Coarse Thread Bin.png",
+        "id": "c26cbe46c42e",
+        "name": "Coarse Thread Bin",
+        "image": "Coarse Thread Bin.png",
         "variantName": null,
         "recipe": {
-          "id": "194e65356782",
+          "id": "5eb99f097440",
           "facilities": [
             "Build Menu"
           ],
@@ -21515,20 +21515,20 @@
     "facilities": [
       "Build Menu"
     ],
-    "wikiLink": "Small_Coarse_Thread_Bin"
+    "wikiLink": "Coarse_Thread_Bin"
   },
   {
-    "id": "small-wool-cloth-bin",
-    "name": "Small Wool Cloth Bin",
-    "image": "Small Wool Cloth Bin.png",
+    "id": "wool-cloth-bin",
+    "name": "Wool Cloth Bin",
+    "image": "Wool Cloth Bin.png",
     "variants": [
       {
-        "id": "9dccfbae3cab",
-        "name": "Small Wool Cloth Bin",
-        "image": "Small Wool Cloth Bin.png",
+        "id": "8b0eda71eee1",
+        "name": "Wool Cloth Bin",
+        "image": "Wool Cloth Bin.png",
         "variantName": null,
         "recipe": {
-          "id": "0d291aac8f8f",
+          "id": "90a679eebc9f",
           "facilities": [
             "Build Menu"
           ],
@@ -21559,7 +21559,7 @@
     "facilities": [
       "Build Menu"
     ],
-    "wikiLink": "Small_Wool_Cloth_Bin"
+    "wikiLink": "Wool_Cloth_Bin"
   },
   {
     "id": "bolt-of-coarse-thread",
@@ -21682,17 +21682,17 @@
     "wikiLink": "Piece_of_Padded_Cloth"
   },
   {
-    "id": "linen-cloth-pile",
-    "name": "Linen Cloth Pile",
-    "image": "Linen Cloth Pile.png",
+    "id": "rough-cloth-pile",
+    "name": "Rough Cloth Pile",
+    "image": "Rough Cloth Pile.png",
     "variants": [
       {
-        "id": "97b6524a9f14",
-        "name": "Linen Cloth Pile",
-        "image": "Linen Cloth Pile.png",
+        "id": "d30e6cacea86",
+        "name": "Rough Cloth Pile",
+        "image": "Rough Cloth Pile.png",
         "variantName": null,
         "recipe": {
-          "id": "d89b94cb31be",
+          "id": "2e18af88edd3",
           "facilities": [
             "Build Menu"
           ],
@@ -21719,7 +21719,7 @@
     "facilities": [
       "Build Menu"
     ],
-    "wikiLink": "Linen_Cloth_Pile"
+    "wikiLink": "Rough_Cloth_Pile"
   },
   {
     "id": "padded-cloth-pile",
@@ -21727,18 +21727,18 @@
     "image": "Padded Cloth Pile.png",
     "variants": [
       {
-        "id": "c31bfbc9cc00",
+        "id": "5462a984125b",
         "name": "Padded Cloth Pile",
         "image": "Padded Cloth Pile.png",
         "variantName": null,
         "recipe": {
-          "id": "cd24c7620b43",
+          "id": "71c0660599c1",
           "facilities": [
             "Build Menu"
           ],
           "materials": [
             {
-              "itemId": "wool-cloth",
+              "itemId": "padded-cloth",
               "quantity": 5
             }
           ],
@@ -60836,7 +60836,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 120
+              "experience": 12
             }
           ]
         },
@@ -61580,6 +61580,64 @@
     "wikiLink": "Rune_Logging_Axe",
     "weight": 5,
     "itemType": "Tool"
+  },
+  {
+    "id": "ancestral-staff",
+    "name": "Ancestral Staff",
+    "image": "Ancestral Staff.png",
+    "variants": [
+      {
+        "id": "ca03b63d4c3d",
+        "name": "Ancestral Staff",
+        "image": "Ancestral Staff.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f8ede65f6004",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "draconic-vis-wax",
+              "quantity": 4
+            },
+            {
+              "itemId": "dragonstone",
+              "quantity": 4
+            },
+            {
+              "itemId": "harmonised-compound",
+              "quantity": 10
+            },
+            {
+              "itemId": "magic-logs",
+              "quantity": 16
+            },
+            {
+              "itemId": "vis-cloth",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 60
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Mystic Forge"
+    ],
+    "wikiLink": "Ancestral_Staff",
+    "weight": 15,
+    "itemType": "Magic Weapon"
   },
   {
     "id": "ground-dragon-tooth",
@@ -63475,6 +63533,200 @@
     "wikiLink": "Ancestral_Wand",
     "weight": 15,
     "itemType": "Magic Weapon"
+  },
+  {
+    "id": "lougrim-memorial-shrine",
+    "name": "Lougrim Memorial Shrine",
+    "image": "Lougrim Memorial Shrine.png",
+    "variants": [
+      {
+        "id": "fc834b0164ec",
+        "name": "Lougrim Memorial Shrine",
+        "image": "Lougrim Memorial Shrine.png",
+        "variantName": null,
+        "recipe": {
+          "id": "58ff112d3e54",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "animal-bone",
+              "quantity": 4
+            },
+            {
+              "itemId": "clay-decoration",
+              "quantity": 2
+            },
+            {
+              "itemId": "dragon-tooth",
+              "quantity": 1
+            },
+            {
+              "itemId": "granite",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Lougrim_Memorial_Shrine"
+  },
+  {
+    "id": "munchers-basket",
+    "name": "Muncher's Basket",
+    "image": "Muncher's Basket.png",
+    "variants": [
+      {
+        "id": "688ac9555c45",
+        "name": "Muncher's Basket",
+        "image": "Muncher's Basket.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9c2a7e55257c",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ectoplasm",
+              "quantity": 2
+            },
+            {
+              "itemId": "fine-cloth",
+              "quantity": 2
+            },
+            {
+              "itemId": "undead-bone",
+              "quantity": 2
+            },
+            {
+              "itemId": "willow-logs",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Muncher's_Basket"
+  },
+  {
+    "id": "vault-core-decoration",
+    "name": "Vault Core (Decoration)",
+    "image": "Vault Core (Decoration).png",
+    "variants": [
+      {
+        "id": "939bfb507c39",
+        "name": "Vault Core (Decoration)",
+        "image": "Vault Core (Decoration).png",
+        "variantName": "Decoration",
+        "recipe": {
+          "id": "6841ccab67fb",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "vault-core",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Vault_Core_(Decoration)"
+  },
+  {
+    "id": "bronze-med-helm",
+    "name": "Bronze Med Helm",
+    "image": "Bronze Med Helm.png",
+    "variants": [
+      {
+        "id": "55db5c06a246",
+        "name": "Bronze Med Helm",
+        "image": "Bronze Med Helm.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f4c46a4158e5",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "bronze-bar",
+              "quantity": 4
+            },
+            {
+              "itemId": "hard-leather",
+              "quantity": 2
+            },
+            {
+              "itemId": "wool-thread",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 60
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Bronze_Med_Helm",
+    "weight": 8,
+    "itemType": "Melee Armour"
   },
   {
     "id": "goblin-pack",
@@ -66627,6 +66879,27 @@
     "wikiLink": "Tome_of_Runecrafting_-_Vol_1",
     "weight": 2,
     "itemType": "Resource"
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "image": "Ruby.png",
+    "variants": [
+      {
+        "id": "ruby",
+        "name": "Ruby",
+        "image": "Ruby.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Ruby",
+    "weight": 3,
+    "itemType": "Basic Item",
+    "stackLimit": 99
   },
   {
     "id": "emerald",
@@ -75993,12 +76266,12 @@
   {
     "id": "dragon-full-helm",
     "name": "Dragon Full Helm",
-    "image": "Dragon Full Helm.png",
+    "image": "Dragon Full Helm (Journal).png",
     "variants": [
       {
         "id": "dragon-full-helm",
         "name": "Dragon Full Helm",
-        "image": "Dragon Full Helm.png",
+        "image": "Dragon Full Helm (Journal).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -76013,12 +76286,12 @@
   {
     "id": "dragon-platebody",
     "name": "Dragon Platebody",
-    "image": "Dragon Platebody.png",
+    "image": "Dragon Platebody (Journal).png",
     "variants": [
       {
         "id": "dragon-platebody",
         "name": "Dragon Platebody",
-        "image": "Dragon Platebody.png",
+        "image": "Dragon Platebody (Journal).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -76033,12 +76306,12 @@
   {
     "id": "dragon-platelegs",
     "name": "Dragon Platelegs",
-    "image": "Dragon Platelegs.png",
+    "image": "Dragon Platelegs (Journal).png",
     "variants": [
       {
         "id": "dragon-platelegs",
         "name": "Dragon Platelegs",
-        "image": "Dragon Platelegs.png",
+        "image": "Dragon Platelegs (Journal).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -76053,12 +76326,12 @@
   {
     "id": "dragon-kiteshield",
     "name": "Dragon Kiteshield",
-    "image": "Dragon Kiteshield.png",
+    "image": "Dragon Kiteshield (Journal).png",
     "variants": [
       {
         "id": "dragon-kiteshield",
         "name": "Dragon Kiteshield",
-        "image": "Dragon Kiteshield.png",
+        "image": "Dragon Kiteshield (Journal).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -76113,14 +76386,14 @@
     "stackLimit": 99
   },
   {
-    "id": "dragon-med-helm",
-    "name": "Dragon med helm",
-    "image": "Dragon med helm.png",
+    "id": "lougrims-staff",
+    "name": "Lougrim's Staff",
+    "image": "Lougrim's Staff.png",
     "variants": [
       {
-        "id": "dragon-med-helm",
-        "name": "Dragon med helm",
-        "image": "Dragon med helm.png",
+        "id": "lougrims-staff",
+        "name": "Lougrim's Staff",
+        "image": "Lougrim's Staff.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -76128,9 +76401,8 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Dragon_med_helm",
-    "weight": 8,
-    "stackLimit": 0
+    "wikiLink": "Lougrim's_Staff",
+    "itemType": "Quest Item"
   },
   {
     "id": "dragon-crossbow",
@@ -76151,6 +76423,25 @@
     "wikiLink": "Dragon_Crossbow",
     "weight": 10,
     "itemType": "Ranged Weapon"
+  },
+  {
+    "id": "kuldras-head",
+    "name": "Kuldra's Head",
+    "image": "Kuldra's Head.png",
+    "variants": [
+      {
+        "id": "kuldras-head",
+        "name": "Kuldra's Head",
+        "image": "Kuldra's Head.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Kuldra's_Head",
+    "itemType": "Quest Item"
   },
   {
     "id": "regicide-reward-pack",
