@@ -5883,13 +5883,13 @@
     "json": {
       "description": "A rare gemstone used to craft enchanted jewellery.",
       "weight": "3.0",
-      "image": "[[File:Ruby.png|32px]]",
+      "image": "[[File:Ruby (Journal).png|32px]]",
       "name": "Ruby",
-      "item_type": "Basic Item",
+      "item_type": "Basic Material",
       "stacklimit": "99",
-      "image_raw": "Ruby.png"
+      "image_raw": "Ruby (Journal).png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Basic Material",
     "item_name": "Ruby"
   },
   {
@@ -22737,13 +22737,13 @@
     "item_name": "Abysmal Whip",
     "json": {
       "description": "It's... not quite finished.",
-      "weight": "",
+      "weight": "4.5",
       "image": "[[File:Abysmal Whip.png|32px]]",
       "name": "Abysmal Whip",
       "item_type": "Melee Weapon",
       "image_raw": "Abysmal Whip.png"
     },
-    "item_weight": 0
+    "item_weight": 4.5
   },
   {
     "page_name": "Human Torso",
@@ -22888,25 +22888,21 @@
     "item_name": "Ground Rune Essence"
   },
   {
-    "page_name": "Abyssal remains",
-    "item_description": "",
-    "page_name_sub": "Abyssal remains",
+    "page_name": "Abyssal Remains",
+    "item_description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"No full stop\">sic</span>&#93;</sup>",
+    "page_name_sub": "Abyssal Remains",
     "item_weight": 0,
-    "item_stacklimit": 0,
+    "item_stacklimit": 99,
     "json": {
-      "description": "",
-      "weight": "",
-      "compostvalue": "",
-      "health": "",
-      "image": "[[File:Abyssal remains.png|32px]]",
+      "description": "Perhaps you could learn from it<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"No full stop\">sic</span>&#93;</sup>",
+      "weight": "0.0",
+      "image": "[[File:Abyssal Remains.png|32px]]",
       "name": "Abyssal Remains",
-      "item_type": "",
-      "sustenance": "",
-      "hydration": "",
-      "stacklimit": "",
-      "image_raw": "Abyssal remains.png"
+      "item_type": "Vestige",
+      "stacklimit": "99",
+      "image_raw": "Abyssal Remains.png"
     },
-    "item_type": "",
+    "item_type": "Vestige",
     "item_name": "Abyssal Remains"
   },
   {
@@ -23956,6 +23952,24 @@
     }
   },
   {
+    "page_name": "Enchanted Adamant Bolt",
+    "item_description": "Adamant bolts infused with sanguine energy and a ruby tip. Drains some of the archers health to increase the bolts damage.",
+    "page_name_sub": "Enchanted Adamant Bolt",
+    "item_weight": 0,
+    "item_stacklimit": 999,
+    "json": {
+      "description": "Adamant bolts infused with sanguine energy and a ruby tip. Drains some of the archers health to increase the bolts damage.",
+      "weight": "0.0",
+      "image": "[[File:Enchanted Adamant Bolt (Journal).png|32px]]",
+      "name": "Enchanted Adamant Bolt",
+      "item_type": "Ammo",
+      "stacklimit": "999",
+      "image_raw": "Enchanted Adamant Bolt (Journal).png"
+    },
+    "item_type": "Ammo",
+    "item_name": "Enchanted Adamant Bolt"
+  },
+  {
     "page_name": "Regicide Reward Pack",
     "item_description": "A reward pack for completing Regicide.",
     "page_name_sub": "Regicide Reward Pack",
@@ -23988,5 +24002,101 @@
       "image_raw": "Bronze Med Helm (Journal).png"
     },
     "item_weight": 8
+  },
+  {
+    "page_name": "Iron Med Helm",
+    "page_name_sub": "Iron Med Helm",
+    "item_description": "A dependable helm trusted by countless adventurers.",
+    "item_type": "Melee Armour",
+    "item_name": "Iron Med Helm",
+    "json": {
+      "description": "A dependable helm trusted by countless adventurers.",
+      "weight": "8.0",
+      "image": "[[File:Iron Med Helm (Journal).png|32px]]",
+      "name": "Iron Med Helm",
+      "item_type": "Melee Armour",
+      "image_raw": "Iron Med Helm (Journal).png"
+    },
+    "item_weight": 8
+  },
+  {
+    "page_name": "Steel Med Helm",
+    "page_name_sub": "Steel Med Helm",
+    "item_description": "A dependable helm trusted by countless adventurers.",
+    "item_type": "Melee Armour",
+    "item_name": "Steel Med Helm",
+    "json": {
+      "description": "A dependable helm trusted by countless adventurers.",
+      "weight": "8.0",
+      "image": "[[File:Steel Med Helm (Journal).png|32px]]",
+      "name": "Steel Med Helm",
+      "item_type": "Melee Armour",
+      "image_raw": "Steel Med Helm (Journal).png"
+    },
+    "item_weight": 8
+  },
+  {
+    "page_name": "Mithril Med Helm",
+    "page_name_sub": "Mithril Med Helm",
+    "item_description": "Lightweight, durable, and highly sought after.",
+    "item_type": "Melee Armour",
+    "item_name": "Mithril Med Helm",
+    "json": {
+      "description": "Lightweight, durable, and highly sought after.",
+      "weight": "8.0",
+      "image": "[[File:Mithril Med Helm (Journal).png|32px]]",
+      "name": "Mithril Med Helm",
+      "item_type": "Melee Armour",
+      "image_raw": "Mithril Med Helm (Journal).png"
+    },
+    "item_weight": 8
+  },
+  {
+    "page_name": "Adamant Med Helm",
+    "page_name_sub": "Adamant Med Helm",
+    "item_description": "A sturdy adamant helm built for serious combat.",
+    "item_type": "Melee Armour",
+    "item_name": "Adamant Med Helm",
+    "json": {
+      "description": "A sturdy adamant helm built for serious combat.",
+      "weight": "8.0",
+      "image": "[[File:Adamant Med Helm (Journal).png|32px]]",
+      "name": "Adamant Med Helm",
+      "item_type": "Melee Armour",
+      "image_raw": "Adamant Med Helm (Journal).png"
+    },
+    "item_weight": 8
+  },
+  {
+    "page_name": "Runite Med Helm",
+    "page_name_sub": "Runite Med Helm",
+    "item_description": "A strong rune helm, for keeping important thoughts safely inside.",
+    "item_type": "Melee Armour",
+    "item_name": "Runite Med Helm",
+    "json": {
+      "description": "A strong rune helm, for keeping important thoughts safely inside.",
+      "weight": "8.0",
+      "image": "[[File:Runite Med Helm (Journal).png|32px]]",
+      "name": "Runite Med Helm",
+      "item_type": "Melee Armour",
+      "image_raw": "Runite Med Helm (Journal).png"
+    },
+    "item_weight": 8
+  },
+  {
+    "page_name": "Gilded Paladin Cape",
+    "page_name_sub": "Gilded Paladin Cape",
+    "item_description": "A magnificent cape trimmed in gold, worn by those who wish to stand apart from the crowd.",
+    "item_type": "Cape",
+    "item_name": "Gilded Paladin Cape",
+    "json": {
+      "description": "A magnificent cape trimmed in gold, worn by those who wish to stand apart from the crowd.",
+      "weight": "0.0",
+      "image": "[[File:Gilded Paladin Cape (Journal).png|32px]]",
+      "name": "Gilded Paladin Cape",
+      "item_type": "Cape",
+      "image_raw": "Gilded Paladin Cape (Journal).png"
+    },
+    "item_weight": 0
   }
 ]

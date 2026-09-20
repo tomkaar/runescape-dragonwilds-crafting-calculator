@@ -60747,7 +60747,9 @@
             }
           ]
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Abyssal Remains"
+        ]
       }
     ],
     "skills": [
@@ -60757,7 +60759,7 @@
       "Blacksmith's Bench"
     ],
     "wikiLink": "Abysmal_Whip",
-    "weight": 0,
+    "weight": 4.5,
     "itemType": "Melee Weapon"
   },
   {
@@ -63535,6 +63537,61 @@
     "itemType": "Magic Weapon"
   },
   {
+    "id": "enchanted-adamant-bolt",
+    "name": "Enchanted Adamant Bolt",
+    "image": "Enchanted Adamant Bolt.png",
+    "variants": [
+      {
+        "id": "b03a3adeff76",
+        "name": "Enchanted Adamant Bolt",
+        "image": "Enchanted Adamant Bolt.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2e3fcf03587a",
+          "facilities": [
+            "Fletching Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "adamant-bolt",
+              "quantity": 33
+            },
+            {
+              "itemId": "astral-rune",
+              "quantity": 10
+            },
+            {
+              "itemId": "fire-rune",
+              "quantity": 15
+            },
+            {
+              "itemId": "ruby",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 60
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Enchanted_Adamant_Bolt",
+    "weight": 0,
+    "itemType": "Ammo",
+    "stackLimit": 999
+  },
+  {
     "id": "lougrim-memorial-shrine",
     "name": "Lougrim Memorial Shrine",
     "image": "Lougrim Memorial Shrine.png",
@@ -63727,6 +63784,331 @@
     "wikiLink": "Bronze_Med_Helm",
     "weight": 8,
     "itemType": "Melee Armour"
+  },
+  {
+    "id": "iron-med-helm",
+    "name": "Iron Med Helm",
+    "image": "Iron Med Helm.png",
+    "variants": [
+      {
+        "id": "93536bb3c989",
+        "name": "Iron Med Helm",
+        "image": "Iron Med Helm.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0bd6cb277d44",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "hard-leather",
+              "quantity": 4
+            },
+            {
+              "itemId": "iron-bar",
+              "quantity": 4
+            },
+            {
+              "itemId": "padded-cloth",
+              "quantity": 1
+            },
+            {
+              "itemId": "vault-shard",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 100
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Iron_Med_Helm",
+    "weight": 8,
+    "itemType": "Melee Armour"
+  },
+  {
+    "id": "steel-med-helm",
+    "name": "Steel Med Helm",
+    "image": "Steel Med Helm.png",
+    "variants": [
+      {
+        "id": "aa66657e63ef",
+        "name": "Steel Med Helm",
+        "image": "Steel Med Helm.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c6fb37287744",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "draconic-leather",
+              "quantity": 4
+            },
+            {
+              "itemId": "fine-cloth",
+              "quantity": 1
+            },
+            {
+              "itemId": "sacred-oil",
+              "quantity": 1
+            },
+            {
+              "itemId": "steel-bar",
+              "quantity": 4
+            },
+            {
+              "itemId": "vault-shard",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 100
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Steel_Med_Helm",
+    "weight": 8,
+    "itemType": "Melee Armour"
+  },
+  {
+    "id": "mithril-med-helm",
+    "name": "Mithril Med Helm",
+    "image": "Mithril Med Helm.png",
+    "variants": [
+      {
+        "id": "9f13ec5e5875",
+        "name": "Mithril Med Helm",
+        "image": "Mithril Med Helm.png",
+        "variantName": null,
+        "recipe": {
+          "id": "62895b269a6e",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "cursed-leather",
+              "quantity": 4
+            },
+            {
+              "itemId": "demonic-oil",
+              "quantity": 1
+            },
+            {
+              "itemId": "mithril-bar",
+              "quantity": 4
+            },
+            {
+              "itemId": "mystic-cloth",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 100
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Mithril_Med_Helm",
+    "weight": 8,
+    "itemType": "Melee Armour"
+  },
+  {
+    "id": "adamant-med-helm",
+    "name": "Adamant Med Helm",
+    "image": "Adamant Med Helm.png",
+    "variants": [
+      {
+        "id": "31bd474902e2",
+        "name": "Adamant Med Helm",
+        "image": "Adamant Med Helm.png",
+        "variantName": null,
+        "recipe": {
+          "id": "38eb43c62ed8",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "adamant-bar",
+              "quantity": 4
+            },
+            {
+              "itemId": "desert-cloth",
+              "quantity": 1
+            },
+            {
+              "itemId": "garou-weave",
+              "quantity": 1
+            },
+            {
+              "itemId": "gypsum-wax",
+              "quantity": 1
+            },
+            {
+              "itemId": "refined-obsidian",
+              "quantity": 1
+            },
+            {
+              "itemId": "scorch-leather",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 100
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Adamant_Med_Helm",
+    "weight": 8,
+    "itemType": "Melee Armour"
+  },
+  {
+    "id": "runite-med-helm",
+    "name": "Runite Med Helm",
+    "image": "Runite Med Helm.png",
+    "variants": [
+      {
+        "id": "5a97bec78997",
+        "name": "Runite Med Helm",
+        "image": "Runite Med Helm.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d9dd7713d8d6",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "black-dragon-leather",
+              "quantity": 4
+            },
+            {
+              "itemId": "draconic-vis-wax",
+              "quantity": 1
+            },
+            {
+              "itemId": "harmonised-compound",
+              "quantity": 1
+            },
+            {
+              "itemId": "rune-bar",
+              "quantity": 4
+            },
+            {
+              "itemId": "vis-cloth",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 100
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Runite_Med_Helm",
+    "weight": 8,
+    "itemType": "Melee Armour"
+  },
+  {
+    "id": "gilded-paladin-cape",
+    "name": "Gilded Paladin Cape",
+    "image": "Gilded Paladin Cape.png",
+    "variants": [
+      {
+        "id": "010b89cb6847",
+        "name": "Gilded Paladin Cape",
+        "image": "Gilded Paladin Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "234f49eed626",
+          "facilities": [
+            "Crafting Table",
+            "Mystic Forge"
+          ],
+          "materials": [],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table",
+      "Mystic Forge"
+    ],
+    "wikiLink": "Gilded_Paladin_Cape",
+    "weight": 0,
+    "itemType": "Cape"
   },
   {
     "id": "goblin-pack",
@@ -66883,12 +67265,12 @@
   {
     "id": "ruby",
     "name": "Ruby",
-    "image": "Ruby.png",
+    "image": "Ruby (Journal).png",
     "variants": [
       {
         "id": "ruby",
         "name": "Ruby",
-        "image": "Ruby.png",
+        "image": "Ruby (Journal).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -66898,7 +67280,7 @@
     "facilities": [],
     "wikiLink": "Ruby",
     "weight": 3,
-    "itemType": "Basic Item",
+    "itemType": "Basic Material",
     "stackLimit": 99
   },
   {
@@ -76202,13 +76584,13 @@
   },
   {
     "id": "abyssal-remains",
-    "name": "Abyssal remains",
-    "image": "Abyssal remains.png",
+    "name": "Abyssal Remains",
+    "image": "Abyssal Remains.png",
     "variants": [
       {
         "id": "abyssal-remains",
         "name": "Abyssal Remains",
-        "image": "Abyssal remains.png",
+        "image": "Abyssal Remains.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -76216,10 +76598,10 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Abyssal_remains",
+    "wikiLink": "Abyssal_Remains",
     "weight": 0,
-    "itemType": "",
-    "stackLimit": 0
+    "itemType": "Vestige",
+    "stackLimit": 99
   },
   {
     "id": "runite-ore",
