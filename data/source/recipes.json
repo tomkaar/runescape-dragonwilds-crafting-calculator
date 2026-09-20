@@ -80385,6 +80385,7 @@
       "Artisan"
     ],
     "json": {
+      "recipe": "Abyssal Remains",
       "facility": "Blacksmith's Bench",
       "materials": [
         {
@@ -80448,6 +80449,9 @@
     },
     "uses_facility": [
       "Blacksmith's Bench"
+    ],
+    "uses_recipe": [
+      "Abyssal Remains"
     ],
     "output": [
       "Abysmal Whip"
@@ -83944,6 +83948,77 @@
   },
   {
     "uses_material": [
+      "Adamant Bolt",
+      "Ruby",
+      "Astral Rune",
+      "Fire Rune"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "Adamant Bolt",
+          "link": "Adamant Bolt",
+          "qty": "33",
+          "item": "Adamant Bolt",
+          "image": "[[File:Adamant Bolt.png|30px|link=Adamant Bolt]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Ruby",
+          "link": "Ruby",
+          "qty": "1",
+          "item": "Ruby",
+          "image": "[[File:Ruby.png|30px|link=Ruby]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Astral Rune",
+          "link": "Astral Rune",
+          "qty": "10",
+          "item": "Astral Rune",
+          "image": "[[File:Astral Rune.png|30px|link=Astral Rune]]"
+        },
+        {
+          "quantity": "15",
+          "name": "Fire Rune",
+          "link": "Fire Rune",
+          "qty": "15",
+          "item": "Fire Rune",
+          "image": "[[File:Fire Rune.png|30px|link=Fire Rune]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "60"
+        }
+      ],
+      "outputs": [
+        "Enchanted Adamant Bolt"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Enchanted Adamant Bolt",
+        "link": "Enchanted Adamant Bolt",
+        "qty": "1",
+        "item": "Enchanted Adamant Bolt",
+        "image": "[[File:Enchanted Adamant Bolt.png|30px|link=Enchanted Adamant Bolt]]"
+      }
+    },
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "output": [
+      "Enchanted Adamant Bolt"
+    ]
+  },
+  {
+    "uses_material": [
       "Granite",
       "Animal Bone",
       "Clay Decoration",
@@ -84188,6 +84263,461 @@
     ],
     "output": [
       "Bronze Med Helm"
+    ]
+  },
+  {
+    "uses_material": [
+      "Iron Bar",
+      "Hard Leather",
+      "Padded Cloth",
+      "Vault Shard"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Iron Bar",
+          "link": "Iron Bar",
+          "qty": "4",
+          "item": "Iron Bar",
+          "image": "[[File:Iron Bar.png|30px|link=Iron Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Hard Leather",
+          "link": "Hard Leather",
+          "qty": "4",
+          "item": "Hard Leather",
+          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Padded Cloth",
+          "link": "Padded Cloth",
+          "qty": "1",
+          "item": "Padded Cloth",
+          "image": "[[File:Padded Cloth.png|30px|link=Padded Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "1",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Iron Med Helm"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Iron Med Helm",
+        "link": "Iron Med Helm",
+        "qty": "1",
+        "item": "Iron Med Helm",
+        "image": "[[File:Iron Med Helm.png|30px|link=Iron Med Helm]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Iron Med Helm"
+    ]
+  },
+  {
+    "uses_material": [
+      "Steel Bar",
+      "Draconic Leather",
+      "Fine Cloth",
+      "Sacred Oil",
+      "Vault Shard"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Steel Bar",
+          "link": "Steel Bar",
+          "qty": "4",
+          "item": "Steel Bar",
+          "image": "[[File:Steel Bar.png|30px|link=Steel Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Draconic Leather",
+          "link": "Draconic Leather",
+          "qty": "4",
+          "item": "Draconic Leather",
+          "image": "[[File:Draconic Leather.png|30px|link=Draconic Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Fine Cloth",
+          "link": "Fine Cloth",
+          "qty": "1",
+          "item": "Fine Cloth",
+          "image": "[[File:Fine Cloth.png|30px|link=Fine Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Sacred Oil",
+          "link": "Sacred Oil",
+          "qty": "1",
+          "item": "Sacred Oil",
+          "image": "[[File:Sacred Oil.png|30px|link=Sacred Oil]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "2",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Steel Med Helm"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Steel Med Helm",
+        "link": "Steel Med Helm",
+        "qty": "1",
+        "item": "Steel Med Helm",
+        "image": "[[File:Steel Med Helm.png|30px|link=Steel Med Helm]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Steel Med Helm"
+    ]
+  },
+  {
+    "uses_material": [
+      "Mithril Bar",
+      "Cursed Leather",
+      "Mystic Cloth",
+      "Demonic Oil"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Mithril Bar",
+          "link": "Mithril Bar",
+          "qty": "4",
+          "item": "Mithril Bar",
+          "image": "[[File:Mithril Bar.png|30px|link=Mithril Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Cursed Leather",
+          "link": "Cursed Leather",
+          "qty": "4",
+          "item": "Cursed Leather",
+          "image": "[[File:Cursed Leather.png|30px|link=Cursed Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Mystic Cloth",
+          "link": "Mystic Cloth",
+          "qty": "1",
+          "item": "Mystic Cloth",
+          "image": "[[File:Mystic Cloth.png|30px|link=Mystic Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Demonic Oil",
+          "link": "Demonic Oil",
+          "qty": "1",
+          "item": "Demonic Oil",
+          "image": "[[File:Demonic Oil.png|30px|link=Demonic Oil]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Mithril Med Helm"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mithril Med Helm",
+        "link": "Mithril Med Helm",
+        "qty": "1",
+        "item": "Mithril Med Helm",
+        "image": "[[File:Mithril Med Helm.png|30px|link=Mithril Med Helm]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Mithril Med Helm"
+    ]
+  },
+  {
+    "uses_material": [
+      "Adamant Bar",
+      "Scorch Leather",
+      "Desert Cloth",
+      "Refined Obsidian",
+      "Gypsum Wax",
+      "Garou Weave"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "4",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Scorch Leather",
+          "link": "Scorch Leather",
+          "qty": "4",
+          "item": "Scorch Leather",
+          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "1",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Refined Obsidian",
+          "link": "Refined Obsidian",
+          "qty": "1",
+          "item": "Refined Obsidian",
+          "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Gypsum Wax",
+          "link": "Gypsum Wax",
+          "qty": "1",
+          "item": "Gypsum Wax",
+          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Garou Weave",
+          "link": "Garou Weave",
+          "qty": "1",
+          "item": "Garou Weave",
+          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Adamant Med Helm"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Adamant Med Helm",
+        "link": "Adamant Med Helm",
+        "qty": "1",
+        "item": "Adamant Med Helm",
+        "image": "[[File:Adamant Med Helm.png|30px|link=Adamant Med Helm]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Adamant Med Helm"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rune Bar",
+      "Black Dragon Leather",
+      "Vis Cloth",
+      "Harmonised Compound",
+      "Draconic Vis Wax"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "4",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "4",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Vis Cloth",
+          "link": "Vis Cloth",
+          "qty": "1",
+          "item": "Vis Cloth",
+          "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Harmonised Compound",
+          "link": "Harmonised Compound",
+          "qty": "1",
+          "item": "Harmonised Compound",
+          "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Draconic Vis Wax",
+          "link": "Draconic Vis Wax",
+          "qty": "1",
+          "item": "Draconic Vis Wax",
+          "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Runite Med Helm"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Runite Med Helm",
+        "link": "Runite Med Helm",
+        "qty": "1",
+        "item": "Runite Med Helm",
+        "image": "[[File:Runite Med Helm.png|30px|link=Runite Med Helm]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "output": [
+      "Runite Med Helm"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Gilded Paladin Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Gilded Paladin Cape",
+        "link": "Gilded Paladin Cape",
+        "qty": 1,
+        "item": "Gilded Paladin Cape",
+        "image": "[[File:Gilded Paladin Cape.png|30px|link=Gilded Paladin Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "output": [
+      "Gilded Paladin Cape"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Gilded Paladin Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Gilded Paladin Cape",
+        "link": "Gilded Paladin Cape",
+        "qty": 1,
+        "item": "Gilded Paladin Cape",
+        "image": "[[File:Gilded Paladin Cape.png|30px|link=Gilded Paladin Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "output": [
+      "Gilded Paladin Cape"
     ]
   }
 ]
