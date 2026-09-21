@@ -1363,10 +1363,10 @@
     "json": {
       "description": "A brutal weapon crafted from the spine of a terrifying Abyssal Demon.",
       "weight": "4.5",
-      "image": "[[File:Abyssal Whip.png|32px]]",
+      "image": "[[File:Abyssal Whip (Journal).png|32px]]",
       "name": "Abyssal Whip",
       "item_type": "Melee Weapon",
-      "image_raw": "Abyssal Whip.png"
+      "image_raw": "Abyssal Whip (Journal).png"
     },
     "item_weight": 4.5
   },
@@ -1591,11 +1591,11 @@
     "json": {
       "description": "A surprisingly nasty little axe. Popular with goblin warriors.",
       "weight": "8.0",
-      "image": "[[File:Goblin \"Swingslash\".png|32px]]",
+      "image": "[[File:Goblin \"Swingslash\" (Journal).png|32px]]",
       "name": "Goblin \"Swingslash\"",
       "item_type": "Melee Weapon",
       "stacklimit": "1",
-      "image_raw": "Goblin \"Swingslash\".png"
+      "image_raw": "Goblin \"Swingslash\" (Journal).png"
     },
     "item_type": "Melee Weapon",
     "item_name": "Goblin \"Swingslash\""
@@ -3524,11 +3524,11 @@
     "json": {
       "description": "Causes damage to their self esteem more than anything really.",
       "weight": "10.0",
-      "image": "[[File:Wooden Training Sword.png|32px]]",
+      "image": "[[File:Wooden Training Sword (Journal).png|32px]]",
       "name": "Wooden Training Sword",
       "item_type": "Melee Weapon",
       "stacklimit": "1",
-      "image_raw": "Wooden Training Sword.png"
+      "image_raw": "Wooden Training Sword (Journal).png"
     },
     "item_type": "Melee Weapon",
     "item_name": "Wooden Training Sword"
@@ -4738,14 +4738,14 @@
     "json": {
       "description": "The sword of a goblin chieftain, used to spread war in the name of the Big High War God.",
       "weight": "5.5",
-      "image": "[[File:Chieftain's Blade.png|32px]]",
-      "name": "Chieftain's<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"This weapon is misspelled in-game, even though the description spells the same word correctly.\">sic</span>&#93;</sup> Blade",
+      "image": "[[File:Chieftain's Blade (Journal).png|32px]]",
+      "name": "Chieftain's Blade",
       "item_type": "Melee Weapon",
       "stacklimit": "1",
-      "image_raw": "Chieftain's Blade.png"
+      "image_raw": "Chieftain's Blade (Journal).png"
     },
     "item_type": "Melee Weapon",
-    "item_name": "Chieftain's<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"This weapon is misspelled in-game, even though the description spells the same word correctly.\">sic</span>&#93;</sup> Blade"
+    "item_name": "Chieftain's Blade"
   },
   {
     "page_name": "Ground Sandstone",
@@ -4774,10 +4774,10 @@
     "json": {
       "description": "A deadly weapon with a disturbingly accurate name.",
       "weight": "15.0",
-      "image": "[[File:Skullsplitter.png|32px]]",
+      "image": "[[File:Skullsplitter (Journal).png|32px]]",
       "name": "Skullsplitter",
       "item_type": "Melee Weapon",
-      "image_raw": "Skullsplitter.png"
+      "image_raw": "Skullsplitter (Journal).png"
     },
     "item_weight": 15
   },
@@ -18006,18 +18006,18 @@
   },
   {
     "page_name": "Ascension Core",
-    "item_description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 6 to Power Level 7",
+    "item_description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 7 to Power Level 8",
     "page_name_sub": "Ascension Core",
     "item_weight": 0.3,
     "item_stacklimit": 99,
     "json": {
-      "description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 6 to Power Level 7",
+      "description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 7 to Power Level 8",
       "weight": "0.3",
-      "image": "[[File:Ascension Core (Power Level 7).png|32px]]",
+      "image": "[[File:Ascension Core (Power Level 8).png|32px]]",
       "name": "Ascension Core",
       "item_type": "Basic Material",
       "stacklimit": "99",
-      "image_raw": "Ascension Core (Power Level 7).png"
+      "image_raw": "Ascension Core (Power Level 8).png"
     },
     "item_type": "Basic Material",
     "item_name": "Ascension Core"
@@ -20652,6 +20652,18 @@
     "item_weight": 15
   },
   {
+    "page_name": "Ornate Golden Scarab",
+    "page_name_sub": "Ornate Golden Scarab",
+    "item_type": "Vestige",
+    "item_name": "Ornate Golden Scarab",
+    "json": {
+      "image": "[[File:Ornate Golden Scarab.png|32px]]",
+      "name": "Ornate Golden Scarab",
+      "item_type": "Vestige",
+      "image_raw": "Ornate Golden Scarab.png"
+    }
+  },
+  {
     "page_name": "Burnt Monkfish",
     "item_description": "Too well done, but still edible.",
     "page_name_sub": "Burnt Monkfish",
@@ -21950,15 +21962,17 @@
   },
   {
     "page_name": "MOUNT: Moonsilk Weave",
-    "item_name": "MOUNT: Moonsilk Weave",
     "page_name_sub": "MOUNT: Moonsilk Weave",
+    "item_description": "",
+    "item_type": "Mount",
+    "item_name": "MOUNT: Moonsilk Weave",
     "json": {
       "description": "",
-      "image": "[[File:MOUNT: Moonsilk Weave|32px]]",
+      "image": "[[File:MOUNT: Moonsilk Weave.png|32px]]",
       "name": "MOUNT: Moonsilk Weave",
-      "image_raw": "MOUNT: Moonsilk Weave"
-    },
-    "item_description": ""
+      "item_type": "Mount",
+      "image_raw": "MOUNT: Moonsilk Weave.png"
+    }
   },
   {
     "page_name": "PLAN: Sealed Wooden Crate",
@@ -21998,21 +22012,17 @@
   },
   {
     "page_name": "MOUNT: Scorchweave Rug",
-    "item_description": "",
     "page_name_sub": "MOUNT: Scorchweave Rug",
-    "item_weight": 0,
-    "item_stacklimit": 50,
+    "item_description": "",
+    "item_type": "Mount",
+    "item_name": "MOUNT: Scorchweave Rug",
     "json": {
       "description": "",
-      "weight": "0.0",
       "image": "[[File:Scorchweave Rug.png|32px]]",
       "name": "MOUNT: Scorchweave Rug",
-      "item_type": "Basic Item",
-      "stacklimit": "50",
+      "item_type": "Mount",
       "image_raw": "Scorchweave Rug.png"
-    },
-    "item_type": "Basic Item",
-    "item_name": "MOUNT: Scorchweave Rug"
+    }
   },
   {
     "page_name": "PLAN: Moon Garou Bed",
@@ -22738,10 +22748,10 @@
     "json": {
       "description": "It's... not quite finished.",
       "weight": "4.5",
-      "image": "[[File:Abysmal Whip.png|32px]]",
+      "image": "[[File:Abysmal Whip (Journal).png|32px]]",
       "name": "Abysmal Whip",
       "item_type": "Melee Weapon",
-      "image_raw": "Abysmal Whip.png"
+      "image_raw": "Abysmal Whip (Journal).png"
     },
     "item_weight": 4.5
   },
@@ -23004,11 +23014,11 @@
     "json": {
       "description": "Made in a brewing cauldron. Alongside vis fibres, it can be spun into vis cloth on a loom.",
       "weight": "0.0",
-      "image": "[[File:Draconic Vis Wax (Journal).png|32px]]",
+      "image": "[[File:Draconic Vis Wax.png|32px]]",
       "name": "Draconic Vis Wax",
       "item_type": "Processed Material",
       "stacklimit": "99",
-      "image_raw": "Draconic Vis Wax (Journal).png"
+      "image_raw": "Draconic Vis Wax.png"
     },
     "item_type": "Processed Material",
     "item_name": "Draconic Vis Wax"
@@ -23074,10 +23084,10 @@
     "json": {
       "description": "A fearsome helm forged from dragon metal. Protects your head. Dragons generally aim downwards.",
       "weight": "8.0",
-      "image": "[[File:Dragon Full Helm (Journal).png|32px]]",
+      "image": "[[File:Dragon Full Helm.png|32px]]",
       "name": "Dragon Full Helm",
       "item_type": "Melee Armour",
-      "image_raw": "Dragon Full Helm (Journal).png"
+      "image_raw": "Dragon Full Helm.png"
     },
     "item_weight": 8
   },
@@ -23138,10 +23148,10 @@
     "json": {
       "description": "Dragon-forged platelegs offering exceptional protection without sacrificing mobility.",
       "weight": "12.0",
-      "image": "[[File:Dragon Platelegs (Journal).png|32px]]",
+      "image": "[[File:Dragon Platelegs.png|32px]]",
       "name": "Dragon Platelegs",
       "item_type": "Melee Armour",
-      "image_raw": "Dragon Platelegs (Journal).png"
+      "image_raw": "Dragon Platelegs.png"
     },
     "item_weight": 12
   },
@@ -23170,10 +23180,10 @@
     "json": {
       "description": "A dragon-forged kiteshield built to stand firm against overwhelming odds.",
       "weight": "10.0",
-      "image": "[[File:Dragon Kiteshield (Journal).png|32px]]",
+      "image": "[[File:Dragon Kiteshield.png|32px]]",
       "name": "Dragon Kiteshield",
       "item_type": "Shield",
-      "image_raw": "Dragon Kiteshield (Journal).png"
+      "image_raw": "Dragon Kiteshield.png"
     },
     "item_weight": 10
   },
@@ -23766,10 +23776,10 @@
     "json": {
       "description": "An imposing helm forged from legendary dragon metal.",
       "weight": "9.0",
-      "image": "[[File:Dragon Med Helm (Journal).png|32px]]",
+      "image": "[[File:Dragon Med Helm.png|32px]]",
       "name": "Dragon Med Helm",
       "item_type": "Melee Armour",
-      "image_raw": "Dragon Med Helm (Journal).png"
+      "image_raw": "Dragon Med Helm.png"
     },
     "item_weight": 9
   },
@@ -23930,10 +23940,10 @@
     "json": {
       "description": "An exceptional crossbow crafted from dragon metal. The bolt arrives before the target realises it has been fired.",
       "weight": "10.0",
-      "image": "[[File:Dragon Crossbow (Journal).png|32px]]",
+      "image": "[[File:Dragon Crossbow.png|32px]]",
       "name": "Dragon Crossbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Dragon Crossbow (Journal).png"
+      "image_raw": "Dragon Crossbow.png"
     },
     "item_weight": 10
   },
@@ -24098,5 +24108,19 @@
       "image_raw": "Gilded Paladin Cape (Journal).png"
     },
     "item_weight": 0
+  },
+  {
+    "page_name": "MOUNT: Manafem Midnight",
+    "page_name_sub": "MOUNT: Manafem Midnight",
+    "item_description": "",
+    "item_type": "Mount",
+    "item_name": "MOUNT: Manafem Midnight",
+    "json": {
+      "description": "",
+      "image": "[[File:Manafem Midnight.png|32px]]",
+      "name": "MOUNT: Manafem Midnight",
+      "item_type": "Mount",
+      "image_raw": "Manafem Midnight.png"
+    }
   }
 ]

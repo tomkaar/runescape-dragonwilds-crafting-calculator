@@ -62934,32 +62934,6 @@
     "itemType": "Ranged Weapon"
   },
   {
-    "id": "kuldras-wrath",
-    "name": "Kuldra's Wrath",
-    "image": "Kuldra's Wrath.png",
-    "variants": [
-      {
-        "id": "a0a927e2f6f9",
-        "name": "Kuldra's Wrath",
-        "image": "Kuldra's Wrath.png",
-        "variantName": null,
-        "recipe": {
-          "id": "47e3a2efd9b8",
-          "facilities": [],
-          "materials": [],
-          "quantity": 1,
-          "skills": []
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Kuldra's_Wrath",
-    "weight": 15,
-    "itemType": "Magic Weapon"
-  },
-  {
     "id": "ancestral-robe-legs",
     "name": "Ancestral Robe Legs",
     "image": "Ancestral Robe Legs.png",
@@ -63100,32 +63074,6 @@
     "wikiLink": "Magic_Longbow",
     "weight": 15,
     "itemType": "Ranged Weapon"
-  },
-  {
-    "id": "dragon-med-helm",
-    "name": "Dragon Med Helm",
-    "image": "Dragon Med Helm.png",
-    "variants": [
-      {
-        "id": "25400a5efcaa",
-        "name": "Dragon Med Helm",
-        "image": "Dragon Med Helm.png",
-        "variantName": null,
-        "recipe": {
-          "id": "d74c0a071c7d",
-          "facilities": [],
-          "materials": [],
-          "quantity": 1,
-          "skills": []
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Dragon_Med_Helm",
-    "weight": 9,
-    "itemType": "Melee Armour"
   },
   {
     "id": "ash-wand",
@@ -74916,6 +74864,25 @@
     "stackLimit": 99
   },
   {
+    "id": "ornate-golden-scarab",
+    "name": "Ornate Golden Scarab",
+    "image": "Ornate Golden Scarab.png",
+    "variants": [
+      {
+        "id": "ornate-golden-scarab",
+        "name": "Ornate Golden Scarab",
+        "image": "Ornate Golden Scarab.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Ornate_Golden_Scarab",
+    "itemType": "Vestige"
+  },
+  {
     "id": "tome-of-volcano",
     "name": "Tome of Volcano",
     "image": "Tome of Volcano.png",
@@ -75772,12 +75739,12 @@
   {
     "id": "mount-moonsilk-weave",
     "name": "MOUNT: Moonsilk Weave",
-    "image": "MOUNT: Moonsilk Weave",
+    "image": "MOUNT: Moonsilk Weave.png",
     "variants": [
       {
         "id": "mount-moonsilk-weave",
         "name": "MOUNT: Moonsilk Weave",
-        "image": "MOUNT: Moonsilk Weave",
+        "image": "MOUNT: Moonsilk Weave.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -75785,7 +75752,8 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "MOUNT:_Moonsilk_Weave"
+    "wikiLink": "MOUNT:_Moonsilk_Weave",
+    "itemType": "Mount"
   },
   {
     "id": "plan-sealed-wooden-crate",
@@ -75846,9 +75814,7 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "MOUNT:_Scorchweave_Rug",
-    "weight": 0,
-    "itemType": "Basic Item",
-    "stackLimit": 50
+    "itemType": "Mount"
   },
   {
     "id": "plan-moon-garou-bed",
@@ -76648,12 +76614,12 @@
   {
     "id": "dragon-full-helm",
     "name": "Dragon Full Helm",
-    "image": "Dragon Full Helm (Journal).png",
+    "image": "Dragon Full Helm.png",
     "variants": [
       {
         "id": "dragon-full-helm",
         "name": "Dragon Full Helm",
-        "image": "Dragon Full Helm (Journal).png",
+        "image": "Dragon Full Helm.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -76688,12 +76654,12 @@
   {
     "id": "dragon-platelegs",
     "name": "Dragon Platelegs",
-    "image": "Dragon Platelegs (Journal).png",
+    "image": "Dragon Platelegs.png",
     "variants": [
       {
         "id": "dragon-platelegs",
         "name": "Dragon Platelegs",
-        "image": "Dragon Platelegs (Journal).png",
+        "image": "Dragon Platelegs.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -76708,12 +76674,12 @@
   {
     "id": "dragon-kiteshield",
     "name": "Dragon Kiteshield",
-    "image": "Dragon Kiteshield (Journal).png",
+    "image": "Dragon Kiteshield.png",
     "variants": [
       {
         "id": "dragon-kiteshield",
         "name": "Dragon Kiteshield",
-        "image": "Dragon Kiteshield (Journal).png",
+        "image": "Dragon Kiteshield.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -76768,6 +76734,46 @@
     "stackLimit": 99
   },
   {
+    "id": "kuldras-wrath",
+    "name": "Kuldra's Wrath",
+    "image": "Kuldra's Wrath.png",
+    "variants": [
+      {
+        "id": "kuldras-wrath",
+        "name": "Kuldra's Wrath",
+        "image": "Kuldra's Wrath.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Kuldra's_Wrath",
+    "weight": 15,
+    "itemType": "Magic Weapon"
+  },
+  {
+    "id": "dragon-med-helm",
+    "name": "Dragon Med Helm",
+    "image": "Dragon Med Helm.png",
+    "variants": [
+      {
+        "id": "dragon-med-helm",
+        "name": "Dragon Med Helm",
+        "image": "Dragon Med Helm.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Dragon_Med_Helm",
+    "weight": 9,
+    "itemType": "Melee Armour"
+  },
+  {
     "id": "lougrims-staff",
     "name": "Lougrim's Staff",
     "image": "Lougrim's Staff.png",
@@ -76789,12 +76795,12 @@
   {
     "id": "dragon-crossbow",
     "name": "Dragon Crossbow",
-    "image": "Dragon Crossbow (Journal).png",
+    "image": "Dragon Crossbow.png",
     "variants": [
       {
         "id": "dragon-crossbow",
         "name": "Dragon Crossbow",
-        "image": "Dragon Crossbow (Journal).png",
+        "image": "Dragon Crossbow.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -76845,5 +76851,24 @@
     "weight": 0,
     "itemType": "Container",
     "stackLimit": 0
+  },
+  {
+    "id": "mount-manafem-midnight",
+    "name": "MOUNT: Manafem Midnight",
+    "image": "Manafem Midnight.png",
+    "variants": [
+      {
+        "id": "mount-manafem-midnight",
+        "name": "MOUNT: Manafem Midnight",
+        "image": "Manafem Midnight.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "MOUNT:_Manafem_Midnight",
+    "itemType": "Mount"
   }
 ]
