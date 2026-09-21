@@ -83204,29 +83204,6 @@
       "materials": [],
       "skills": [],
       "outputs": [
-        "Kuldra's Wrath"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Kuldra's Wrath",
-        "link": "Kuldra's Wrath",
-        "qty": 1,
-        "item": "Kuldra's Wrath",
-        "image": "[[File:Kuldra's Wrath.png|30px|link=Kuldra's Wrath]]"
-      }
-    },
-    "output": [
-      "Kuldra's Wrath"
-    ]
-  },
-  {
-    "uses_facility": [
-      ""
-    ],
-    "json": {
-      "materials": [],
-      "skills": [],
-      "outputs": [
         "Ancestral Robe Legs"
       ],
       "output": {
@@ -83400,29 +83377,6 @@
     ],
     "output": [
       "Magic Longbow"
-    ]
-  },
-  {
-    "uses_facility": [
-      ""
-    ],
-    "json": {
-      "materials": [],
-      "skills": [],
-      "outputs": [
-        "Dragon Med Helm"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Dragon Med Helm",
-        "link": "Dragon Med Helm",
-        "qty": 1,
-        "item": "Dragon Med Helm",
-        "image": "[[File:Dragon Med Helm.png|30px|link=Dragon Med Helm]]"
-      }
-    },
-    "output": [
-      "Dragon Med Helm"
     ]
   },
   {
