@@ -1201,10 +1201,10 @@
     "json": {
       "description": "A bow used by a Wild Knight scout. Maintaining balance, one arrow at a time.",
       "weight": "10.0",
-      "image": "[[File:Wild Scout's Shortbow.png|32px]]",
+      "image": "[[File:Wild Scout's Shortbow (Journal).png|32px]]",
       "name": "Wild Scout's Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Wild Scout's Shortbow.png"
+      "image_raw": "Wild Scout's Shortbow (Journal).png"
     },
     "item_weight": 10
   },
@@ -3202,10 +3202,10 @@
     "json": {
       "description": "The power of this warhammer should not be taken for granite.",
       "weight": "25.0",
-      "image": "[[File:Granite Maul.png|32px]]",
+      "image": "[[File:Granite Maul (Journal).png|32px]]",
       "name": "Granite Maul",
       "item_type": "Melee Weapon",
-      "image_raw": "Granite Maul.png"
+      "image_raw": "Granite Maul (Journal).png"
     },
     "item_weight": 25
   },
@@ -4296,10 +4296,10 @@
     "json": {
       "description": "A hefting greataxe, wielded by the powerful garou thanes.",
       "weight": "25.0",
-      "image": "[[File:Thane's Authority.png|32px]]",
+      "image": "[[File:Thane's Authority (Journal).png|32px]]",
       "name": "Thane's Authority",
       "item_type": "Melee Weapon",
-      "image_raw": "Thane's Authority.png"
+      "image_raw": "Thane's Authority (Journal).png"
     },
     "item_weight": 25
   },
@@ -8212,10 +8212,10 @@
     "json": {
       "description": "This Greatsword exists between the realm of the living and the dead.",
       "weight": "25.0",
-      "image": "[[File:Shadow Sword.png|32px]]",
+      "image": "[[File:Shadow Sword (Journal).png|32px]]",
       "name": "Shadow Sword",
       "item_type": "Melee Weapon",
-      "image_raw": "Shadow Sword.png"
+      "image_raw": "Shadow Sword (Journal).png"
     },
     "item_weight": 25
   },
@@ -11072,10 +11072,10 @@
     "json": {
       "description": "Made in the style of an ancient axe often found in the hands of zombies, it is capable of dealing both Crush and Slash damage at the same time. There seems to be more to this axe though...",
       "weight": "15.0",
-      "image": "[[File:Zombie Axe.png|32px]]",
+      "image": "[[File:Zombie Axe (Journal).png|32px]]",
       "name": "Zombie Axe",
       "item_type": "Melee Weapon",
-      "image_raw": "Zombie Axe.png"
+      "image_raw": "Zombie Axe (Journal).png"
     },
     "item_weight": 15
   },
@@ -11298,10 +11298,10 @@
     "json": {
       "description": "A Scimitar forged from the Visage of Imaru.",
       "weight": "15.0",
-      "image": "[[File:Imaru's Talon.png|32px]]",
+      "image": "[[File:Imaru's Talon (Journal).png|32px]]",
       "name": "Imaru's Talon",
       "item_type": "Melee Weapon",
-      "image_raw": "Imaru's Talon.png"
+      "image_raw": "Imaru's Talon (Journal).png"
     },
     "item_weight": 15
   },
@@ -12951,10 +12951,10 @@
     "json": {
       "description": "A sword in the style of the Black Knights, forged from black metal.",
       "weight": "15.0",
-      "image": "[[File:Black Sword.png|32px]]",
+      "image": "[[File:Black Sword (Journal).png|32px]]",
       "name": "Black Sword",
       "item_type": "Melee Weapon",
-      "image_raw": "Black Sword.png"
+      "image_raw": "Black Sword (Journal).png"
     },
     "item_weight": 15
   },
@@ -13047,10 +13047,10 @@
     "json": {
       "description": "A hulking greataxe made from black metal.",
       "weight": "25.0",
-      "image": "[[File:Black Greataxe.png|32px]]",
+      "image": "[[File:Black Greataxe (Journal).png|32px]]",
       "name": "Black Greataxe",
       "item_type": "Melee Weapon",
-      "image_raw": "Black Greataxe.png"
+      "image_raw": "Black Greataxe (Journal).png"
     },
     "item_weight": 25
   },
@@ -13369,10 +13369,10 @@
     "json": {
       "description": "This sword is now thrice-owned: by you, the Black Knight Titan and Lord Rasmodel.",
       "weight": "25.0",
-      "image": "[[File:Titan's Wrath.png|32px]]",
+      "image": "[[File:Titan's Wrath (Journal).png|32px]]",
       "name": "Titan's Wrath",
       "item_type": "Melee Weapon",
-      "image_raw": "Titan's Wrath.png"
+      "image_raw": "Titan's Wrath (Journal).png"
     },
     "item_weight": 25
   },
@@ -20644,10 +20644,10 @@
     "json": {
       "description": "A zombie's arm with electrifying properties. High five!",
       "weight": "15.0",
-      "image": "[[File:Zombie Arm.png|32px]]",
+      "image": "[[File:Zombie Arm (Journal).png|32px]]",
       "name": "Zombie Arm",
       "item_type": "Melee Weapon",
-      "image_raw": "Zombie Arm.png"
+      "image_raw": "Zombie Arm (Journal).png"
     },
     "item_weight": 15
   },
@@ -20692,10 +20692,10 @@
     "json": {
       "description": "A double-pointed sword that is extremely efficient at finding the weak spots in your enemies.",
       "weight": "15.0",
-      "image": "[[File:Toktz-Xil-Ak.png|32px]]",
+      "image": "[[File:TOKTZ-XIL-AK (Journal).png|32px]]",
       "name": "Toktz-Xil-Ak",
       "item_type": "Melee Weapon",
-      "image_raw": "Toktz-Xil-Ak.png"
+      "image_raw": "TOKTZ-XIL-AK (Journal).png"
     },
     "item_weight": 15
   },
@@ -20708,10 +20708,10 @@
     "json": {
       "description": "A massive warhammer of obsidian hue. Each swing carries the weight of something ancient.",
       "weight": "25.0",
-      "image": "[[File:TzHaar-Ket-Om.png|32px]]",
+      "image": "[[File:TZHAAR-KET-OM (Journal).png|32px]]",
       "name": "TzHaar-Ket-Om",
       "item_type": "Melee Weapon",
-      "image_raw": "TzHaar-Ket-Om.png"
+      "image_raw": "TZHAAR-KET-OM (Journal).png"
     },
     "item_weight": 25
   },
@@ -22018,10 +22018,10 @@
     "item_name": "MOUNT: Scorchweave Rug",
     "json": {
       "description": "",
-      "image": "[[File:Scorchweave Rug.png|32px]]",
+      "image": "[[File:MOUNT-_Scorchweave_Rug.png|32px]]",
       "name": "MOUNT: Scorchweave Rug",
       "item_type": "Mount",
-      "image_raw": "Scorchweave Rug.png"
+      "image_raw": "MOUNT-_Scorchweave_Rug.png"
     }
   },
   {
@@ -22732,10 +22732,10 @@
     "json": {
       "description": "A razor-sharp dragon scimitar favoured by warriors who value speed as much as strength.",
       "weight": "15.0",
-      "image": "[[File:Dragon Scimitar.png|32px]]",
+      "image": "[[File:Dragon Scimitar (Journal).png|32px]]",
       "name": "Dragon Scimitar",
       "item_type": "Melee Weapon",
-      "image_raw": "Dragon Scimitar.png"
+      "image_raw": "Dragon Scimitar (Journal).png"
     },
     "item_weight": 15
   },
@@ -23014,11 +23014,11 @@
     "json": {
       "description": "Made in a brewing cauldron. Alongside vis fibres, it can be spun into vis cloth on a loom.",
       "weight": "0.0",
-      "image": "[[File:Draconic Vis Wax.png|32px]]",
+      "image": "[[File:Draconic Vis Wax (Journal).png|32px]]",
       "name": "Draconic Vis Wax",
       "item_type": "Processed Material",
       "stacklimit": "99",
-      "image_raw": "Draconic Vis Wax.png"
+      "image_raw": "Draconic Vis Wax (Journal).png"
     },
     "item_type": "Processed Material",
     "item_name": "Draconic Vis Wax"
@@ -23084,10 +23084,10 @@
     "json": {
       "description": "A fearsome helm forged from dragon metal. Protects your head. Dragons generally aim downwards.",
       "weight": "8.0",
-      "image": "[[File:Dragon Full Helm.png|32px]]",
+      "image": "[[File:Dragon Full Helm (Journal).png|32px]]",
       "name": "Dragon Full Helm",
       "item_type": "Melee Armour",
-      "image_raw": "Dragon Full Helm.png"
+      "image_raw": "Dragon Full Helm (Journal).png"
     },
     "item_weight": 8
   },
@@ -23148,10 +23148,10 @@
     "json": {
       "description": "Dragon-forged platelegs offering exceptional protection without sacrificing mobility.",
       "weight": "12.0",
-      "image": "[[File:Dragon Platelegs.png|32px]]",
+      "image": "[[File:Dragon Platelegs (Journal).png|32px]]",
       "name": "Dragon Platelegs",
       "item_type": "Melee Armour",
-      "image_raw": "Dragon Platelegs.png"
+      "image_raw": "Dragon Platelegs (Journal).png"
     },
     "item_weight": 12
   },
@@ -23180,10 +23180,10 @@
     "json": {
       "description": "A dragon-forged kiteshield built to stand firm against overwhelming odds.",
       "weight": "10.0",
-      "image": "[[File:Dragon Kiteshield.png|32px]]",
+      "image": "[[File:Dragon Kiteshield (Journal).png|32px]]",
       "name": "Dragon Kiteshield",
       "item_type": "Shield",
-      "image_raw": "Dragon Kiteshield.png"
+      "image_raw": "Dragon Kiteshield (Journal).png"
     },
     "item_weight": 10
   },
@@ -23712,10 +23712,10 @@
     "json": {
       "description": "A masterfully crafted wand, infused with the fury of Kuldra - channeling arcane power with terrifying efficiency.",
       "weight": "15.0",
-      "image": "[[File:Kuldra's Wrath.png|32px]]",
+      "image": "[[File:Kuldra's Wrath (Journal).png|32px]]",
       "name": "Kuldra's Wrath",
       "item_type": "Magic Weapon",
-      "image_raw": "Kuldra's Wrath.png"
+      "image_raw": "Kuldra's Wrath (Journal).png"
     },
     "item_weight": 15
   },
@@ -23776,10 +23776,10 @@
     "json": {
       "description": "An imposing helm forged from legendary dragon metal.",
       "weight": "9.0",
-      "image": "[[File:Dragon Med Helm.png|32px]]",
+      "image": "[[File:Dragon Med Helm (Journal).png|32px]]",
       "name": "Dragon Med Helm",
       "item_type": "Melee Armour",
-      "image_raw": "Dragon Med Helm.png"
+      "image_raw": "Dragon Med Helm (Journal).png"
     },
     "item_weight": 9
   },
@@ -23940,10 +23940,10 @@
     "json": {
       "description": "An exceptional crossbow crafted from dragon metal. The bolt arrives before the target realises it has been fired.",
       "weight": "10.0",
-      "image": "[[File:Dragon Crossbow.png|32px]]",
+      "image": "[[File:Dragon Crossbow (Journal).png|32px]]",
       "name": "Dragon Crossbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Dragon Crossbow.png"
+      "image_raw": "Dragon Crossbow (Journal).png"
     },
     "item_weight": 10
   },
@@ -24117,10 +24117,28 @@
     "item_name": "MOUNT: Manafem Midnight",
     "json": {
       "description": "",
-      "image": "[[File:Manafem Midnight.png|32px]]",
+      "image": "[[File:MOUNT- Manafem Midnight.png|32px]]",
       "name": "MOUNT: Manafem Midnight",
       "item_type": "Mount",
-      "image_raw": "Manafem Midnight.png"
+      "image_raw": "MOUNT- Manafem Midnight.png"
     }
+  },
+  {
+    "page_name": "Magic Tree Seed",
+    "item_description": "Magic tree seeds.<br /> <br />Plant this directly into the ground to grow your own Tree!",
+    "page_name_sub": "Magic Tree Seed",
+    "item_weight": 0,
+    "item_stacklimit": 999,
+    "json": {
+      "description": "Magic tree seeds.<br /> <br />Plant this directly into the ground to grow your own Tree!",
+      "weight": "0.0",
+      "image": "[[File:Magic Tree Seed.png|32px]]",
+      "name": "Magic Tree Seed",
+      "item_type": "Seed",
+      "stacklimit": "999",
+      "image_raw": "Magic Tree Seed.png"
+    },
+    "item_type": "Seed",
+    "item_name": "Magic Tree Seed"
   }
 ]
