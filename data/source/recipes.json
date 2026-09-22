@@ -77498,116 +77498,6 @@
   {
     "uses_material": [
       "Yew Plank",
-      "Desert Cloth"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "4",
-          "name": "Yew Plank",
-          "link": "Yew Plank",
-          "qty": "4",
-          "item": "Yew Plank",
-          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Desert Cloth",
-          "link": "Desert Cloth",
-          "qty": "2",
-          "item": "Desert Cloth",
-          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "40"
-        }
-      ],
-      "outputs": [
-        "Moon Garou Armchair 01"
-      ],
-      "output": {
-        "quantity": "1",
-        "name": "Moon Garou Armchair 01",
-        "link": "Moon Garou Armchair 01",
-        "qty": "1",
-        "item": "Moon Garou Armchair 01",
-        "image": "[[File:Moon Garou Armchair 01.png|30px|link=Moon Garou Armchair 01]]"
-      }
-    },
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "output": [
-      "Moon Garou Armchair 01"
-    ]
-  },
-  {
-    "uses_material": [
-      "Yew Plank",
-      "Desert Cloth"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "json": {
-      "recipe": "PLAN: Moon Garou Chair 02",
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "4",
-          "name": "Yew Plank",
-          "link": "Yew Plank",
-          "qty": "4",
-          "item": "Yew Plank",
-          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Desert Cloth",
-          "link": "Desert Cloth",
-          "qty": "2",
-          "item": "Desert Cloth",
-          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "40"
-        }
-      ],
-      "outputs": [
-        "Moon Garou Armchair 02"
-      ],
-      "output": {
-        "quantity": "1",
-        "name": "Moon Garou Armchair 02",
-        "link": "Moon Garou Armchair 02",
-        "qty": "1",
-        "item": "Moon Garou Armchair 02",
-        "image": "[[File:Moon Garou Armchair 02.png|30px|link=Moon Garou Armchair 02]]"
-      }
-    },
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "uses_recipe": [
-      "PLAN: Moon Garou Chair 02"
-    ],
-    "output": [
-      "Moon Garou Armchair 02"
-    ]
-  },
-  {
-    "uses_material": [
-      "Yew Plank",
       "Desert Cloth",
       "Clay Vessel",
       "Silver Bar",
@@ -83956,10 +83846,10 @@
         "Enchanted Adamant Bolt"
       ],
       "output": {
-        "quantity": "1",
+        "quantity": "33",
         "name": "Enchanted Adamant Bolt",
         "link": "Enchanted Adamant Bolt",
-        "qty": "1",
+        "qty": "33",
         "item": "Enchanted Adamant Bolt",
         "image": "[[File:Enchanted Adamant Bolt.png|30px|link=Enchanted Adamant Bolt]]"
       }
@@ -84672,6 +84562,120 @@
     ],
     "output": [
       "Gilded Paladin Cape"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank",
+      "Desert Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "recipe": "PLAN: Moon Garou Chair 02",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "4",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "2",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Moon Garou Chair 02"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Moon Garou Chair 02",
+        "link": "Moon Garou Chair 02",
+        "qty": "1",
+        "item": "Moon Garou Chair 02",
+        "image": "[[File:Moon Garou Chair 02.png|30px|link=Moon Garou Chair 02]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "uses_recipe": [
+      "PLAN: Moon Garou Chair 02"
+    ],
+    "output": [
+      "Moon Garou Chair 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank",
+      "Desert Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "recipe": "PLAN: Moon Garou Chair 01",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "4",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "2",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Moon Garou Chair 01"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Moon Garou Chair 01",
+        "link": "Moon Garou Chair 01",
+        "qty": "1",
+        "item": "Moon Garou Chair 01",
+        "image": "[[File:Moon Garou Chair 01.png|30px|link=Moon Garou Chair 01]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "uses_recipe": [
+      "PLAN: Moon Garou Chair 01"
+    ],
+    "output": [
+      "Moon Garou Chair 01"
     ]
   }
 ]
