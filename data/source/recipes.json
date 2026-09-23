@@ -78986,7 +78986,7 @@
     "uses_material": [
       "Clay Vessel",
       "Snapdragon",
-      "Sandstone"
+      "Silver Leaf"
     ],
     "uses_skill": [
       "Artisan"
@@ -78995,10 +78995,10 @@
       "facility": "Brewing Cauldron",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Clay Vessel",
           "link": "Clay Vessel",
-          "qty": 1,
+          "qty": "1",
           "item": "Clay Vessel",
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         },
@@ -79012,11 +79012,11 @@
         },
         {
           "quantity": 1,
-          "name": "Sandstone",
-          "link": "Sandstone",
+          "name": "Silver Leaf",
+          "link": "Silver Leaf",
           "qty": 1,
-          "item": "Sandstone",
-          "image": "[[File:Sandstone.png|30px|link=Sandstone]]"
+          "item": "Silver Leaf",
+          "image": "[[File:Silver Leaf.png|30px|link=Silver Leaf]]"
         }
       ],
       "skills": [
@@ -83084,29 +83084,6 @@
     ],
     "output": [
       "Rune Crossbow"
-    ]
-  },
-  {
-    "uses_facility": [
-      ""
-    ],
-    "json": {
-      "materials": [],
-      "skills": [],
-      "outputs": [
-        "Ancestral Robe Legs"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Ancestral Robe Legs",
-        "link": "Ancestral Robe Legs",
-        "qty": 1,
-        "item": "Ancestral Robe Legs",
-        "image": "[[File:Ancestral Robe Legs.png|30px|link=Ancestral Robe Legs]]"
-      }
-    },
-    "output": [
-      "Ancestral Robe Legs"
     ]
   },
   {

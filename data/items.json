@@ -59525,12 +59525,12 @@
     "image": "Lesser Focused Agility Potion.png",
     "variants": [
       {
-        "id": "602c9c4cead1",
+        "id": "cf7f6bac5b45",
         "name": "Lesser Focused Agility Potion",
         "image": "Lesser Focused Agility Potion.png",
         "variantName": null,
         "recipe": {
-          "id": "cb4132e01be7",
+          "id": "846974337ecb",
           "facilities": [
             "Brewing Cauldron"
           ],
@@ -59540,7 +59540,7 @@
               "quantity": 1
             },
             {
-              "itemId": "sandstone",
+              "itemId": "silver-leaf",
               "quantity": 1
             },
             {
@@ -62842,32 +62842,6 @@
     "wikiLink": "Rune_Crossbow",
     "weight": 10,
     "itemType": "Ranged Weapon"
-  },
-  {
-    "id": "ancestral-robe-legs",
-    "name": "Ancestral Robe Legs",
-    "image": "Ancestral Robe Legs.png",
-    "variants": [
-      {
-        "id": "dfe9671bf30e",
-        "name": "Ancestral Robe Legs",
-        "image": "Ancestral Robe Legs.png",
-        "variantName": null,
-        "recipe": {
-          "id": "9fc48f302b81",
-          "facilities": [],
-          "materials": [],
-          "quantity": 1,
-          "skills": []
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Ancestral_Robe_Legs",
-    "weight": 0,
-    "itemType": "Mage Armour"
   },
   {
     "id": "magic-shortbow",

@@ -4722,10 +4722,10 @@
     "json": {
       "description": "With it's<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> aerodynamic antlers, this bow is very popular with garou scouts.",
       "weight": "15.0",
-      "image": "[[File:Hunter Stagbow.png|32px]]",
+      "image": "[[File:Hunter Stagbow (Journal).png|32px]]",
       "name": "Hunter Stagbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Hunter Stagbow.png"
+      "image_raw": "Hunter Stagbow (Journal).png"
     },
     "item_weight": 15
   },
@@ -7804,10 +7804,10 @@
     "json": {
       "description": "This bow still fires with undeadly precision.",
       "weight": "10",
-      "image": "[[File:Undead Ranger Bow.png|32px]]",
+      "image": "[[File:Undead Ranger's Bow (journal).png|32px]]",
       "name": "Undead Ranger Bow",
       "item_type": "Bow",
-      "image_raw": "Undead Ranger Bow.png"
+      "image_raw": "Undead Ranger's Bow (journal).png"
     },
     "item_weight": 10
   },
@@ -23718,22 +23718,6 @@
       "image_raw": "Kuldra's Wrath (Journal).png"
     },
     "item_weight": 15
-  },
-  {
-    "page_name": "Ancestral Robe Legs",
-    "page_name_sub": "Ancestral Robe Legs",
-    "item_description": "",
-    "item_type": "Mage Armour",
-    "item_name": "Ancestral Robe Legs",
-    "json": {
-      "description": "",
-      "weight": "",
-      "image": "[[File:Ancestral Robe Legs.png|32px]]",
-      "name": "Ancestral Robe Legs",
-      "item_type": "Mage Armour",
-      "image_raw": "Ancestral Robe Legs.png"
-    },
-    "item_weight": 0
   },
   {
     "page_name": "Magic Shortbow",
