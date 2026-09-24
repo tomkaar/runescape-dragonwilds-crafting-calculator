@@ -2343,7 +2343,7 @@
         "recipe": {
           "id": "3fe4f600bc50",
           "facilities": [
-            "Fletching Bench"
+            "Crafting Table"
           ],
           "materials": [
             {
@@ -2370,7 +2370,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Fletching Bench"
+      "Crafting Table"
     ],
     "wikiLink": "Ash_Shortbow",
     "weight": 10,
@@ -3973,7 +3973,7 @@
         "recipe": {
           "id": "50ab7938a984",
           "facilities": [
-            "Fletching Bench"
+            "Crafting Table"
           ],
           "materials": [
             {
@@ -4004,7 +4004,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Fletching Bench"
+      "Crafting Table"
     ],
     "wikiLink": "Fang_Arrow",
     "weight": 0,
@@ -4024,7 +4024,7 @@
         "recipe": {
           "id": "9720a8ed587b",
           "facilities": [
-            "Fletching Bench"
+            "Crafting Table"
           ],
           "materials": [
             {
@@ -4055,7 +4055,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Fletching Bench"
+      "Crafting Table"
     ],
     "wikiLink": "Stone_Arrow",
     "weight": 0,
@@ -8273,7 +8273,7 @@
         "recipe": {
           "id": "241bececcd4b",
           "facilities": [
-            "Fletching Bench"
+            "Crafting Table"
           ],
           "materials": [
             {
@@ -8302,7 +8302,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Fletching Bench"
+      "Crafting Table"
     ],
     "wikiLink": "Adventurer's_Longbow",
     "weight": 15,
@@ -27414,7 +27414,7 @@
         "recipe": {
           "id": "b31fdc186c92",
           "facilities": [
-            "Fletching Bench"
+            "Crafting Table"
           ],
           "materials": [
             {
@@ -27441,7 +27441,7 @@
       "Artisan"
     ],
     "facilities": [
-      "Fletching Bench"
+      "Crafting Table"
     ],
     "wikiLink": "Poisoned_Fang_Arrow",
     "weight": 0,
@@ -52322,6 +52322,44 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "949f0ee13563",
+        "name": "Ascension Core",
+        "image": "Ascension Core (Power Level 8).png",
+        "variantName": "Power Level 8",
+        "recipe": {
+          "id": "7cfb55bbce38",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [
+            {
+              "itemId": "ascension-shard-power-level-8",
+              "quantity": 99
+            },
+            {
+              "itemId": "black-dragon-leather",
+              "quantity": 10
+            },
+            {
+              "itemId": "rune-bar",
+              "quantity": 10
+            },
+            {
+              "itemId": "vis-cloth",
+              "quantity": 10
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -63424,6 +63462,54 @@
     "stackLimit": 999
   },
   {
+    "id": "storage-ledger",
+    "name": "Storage Ledger",
+    "image": "Storage Ledger.png",
+    "variants": [
+      {
+        "id": "6e5d6e9c32eb",
+        "name": "Storage Ledger",
+        "image": "Storage Ledger.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ec9123e2ff34",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 5
+            },
+            {
+              "itemId": "law-rune",
+              "quantity": 20
+            },
+            {
+              "itemId": "vault-core",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Storage_Ledger"
+  },
+  {
     "id": "lougrim-memorial-shrine",
     "name": "Lougrim Memorial Shrine",
     "image": "Lougrim Memorial Shrine.png",
@@ -64033,6 +64119,46 @@
       "Build Menu"
     ],
     "wikiLink": "Moon_Garou_Chair_01"
+  },
+  {
+    "id": "vault-shard-decoration",
+    "name": "Vault Shard (Decoration)",
+    "image": "Vault Shard (Decoration).png",
+    "variants": [
+      {
+        "id": "fad98c8892e2",
+        "name": "Vault Shard (Decoration)",
+        "image": "Vault Shard (Decoration).png",
+        "variantName": "Decoration",
+        "recipe": {
+          "id": "49bb6b68f2d6",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "vault-shard",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Vault_Shard_(Decoration)"
   },
   {
     "id": "goblin-pack",
@@ -75535,6 +75661,14 @@
         "id": "ascension-shard",
         "name": "Ascension Shard",
         "image": "Ascension Shard (Power Level 7).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      },
+      {
+        "id": "ascension-shard",
+        "name": "Ascension Shard",
+        "image": "Ascension Shard (Power Level 8).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null

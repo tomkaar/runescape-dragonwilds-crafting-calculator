@@ -3133,7 +3133,7 @@
       "Artisan"
     ],
     "json": {
-      "facility": "Fletching Bench",
+      "facility": "Crafting Table",
       "materials": [
         {
           "quantity": "12",
@@ -3171,7 +3171,7 @@
       }
     },
     "uses_facility": [
-      "Fletching Bench"
+      "Crafting Table"
     ],
     "output": [
       "Ash Shortbow"
@@ -5307,7 +5307,7 @@
       "Artisan"
     ],
     "json": {
-      "facility": "Fletching Bench",
+      "facility": "Crafting Table",
       "materials": [
         {
           "quantity": "1",
@@ -5353,7 +5353,7 @@
       }
     },
     "uses_facility": [
-      "Fletching Bench"
+      "Crafting Table"
     ],
     "output": [
       "Fang Arrow"
@@ -5369,13 +5369,13 @@
       "Artisan"
     ],
     "json": {
-      "facility": "Fletching Bench",
+      "facility": "Crafting Table",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Stone",
           "link": "Stone",
-          "qty": 1,
+          "qty": "1",
           "item": "Stone",
           "image": "[[File:Stone.png|30px|link=Stone]]"
         },
@@ -5415,7 +5415,7 @@
       }
     },
     "uses_facility": [
-      "Fletching Bench"
+      "Crafting Table"
     ],
     "output": [
       "Stone Arrow"
@@ -10868,7 +10868,7 @@
     ],
     "json": {
       "recipe": "VESTIGE: A Simple Broken Bow",
-      "facility": "Fletching Bench",
+      "facility": "Crafting Table",
       "materials": [
         {
           "quantity": "16",
@@ -10906,7 +10906,7 @@
       }
     },
     "uses_facility": [
-      "Fletching Bench"
+      "Crafting Table"
     ],
     "uses_recipe": [
       "VESTIGE: A Simple Broken Bow"
@@ -37091,7 +37091,7 @@
       "Artisan"
     ],
     "json": {
-      "facility": "Fletching Bench",
+      "facility": "Crafting Table",
       "materials": [
         {
           "quantity": "33",
@@ -37129,7 +37129,7 @@
       }
     },
     "uses_facility": [
-      "Fletching Bench"
+      "Crafting Table"
     ],
     "output": [
       "Poisoned Fang Arrow"
@@ -69926,6 +69926,77 @@
   },
   {
     "uses_material": [
+      "Ascension Shard (Power Level 8)",
+      "Rune Bar",
+      "Black Dragon Leather",
+      "Vis Cloth"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [
+        {
+          "quantity": "99",
+          "name": "Ascension Shard (Power Level 8)",
+          "link": "Ascension Shard (Power Level 8)",
+          "qty": "99",
+          "item": "Ascension Shard (Power Level 8)",
+          "image": "[[File:Ascension Shard (Power Level 8).png|30px|link=Ascension Shard (Power Level 8)]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Rune Bar",
+          "link": "Rune Bar",
+          "qty": "10",
+          "item": "Rune Bar",
+          "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "10",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Vis Cloth",
+          "link": "Vis Cloth",
+          "qty": "10",
+          "item": "Vis Cloth",
+          "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Ascension Core"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ascension Core",
+        "link": "Ascension Core",
+        "qty": "1",
+        "item": "Ascension Core",
+        "image": "[[File:Ascension Core (Power Level 8).png|30px|link=Ascension Core]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "output": [
+      "Ascension Core"
+    ]
+  },
+  {
+    "uses_material": [
       "Adamant Bar",
       "Yew Logs",
       "Scorch Leather",
@@ -83840,6 +83911,68 @@
   },
   {
     "uses_material": [
+      "Vault Core",
+      "Ash Logs",
+      "Law Rune"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Vault Core",
+          "link": "Vault Core",
+          "qty": "1",
+          "item": "Vault Core",
+          "image": "[[File:Vault Core.png|30px|link=Vault Core]]"
+        },
+        {
+          "quantity": "5",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "5",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "20",
+          "name": "Law Rune",
+          "link": "Law Rune",
+          "qty": "20",
+          "item": "Law Rune",
+          "image": "[[File:Law Rune.png|30px|link=Law Rune]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Storage Ledger"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Storage Ledger",
+        "link": "Storage Ledger",
+        "qty": "1",
+        "item": "Storage Ledger",
+        "image": "[[File:Storage Ledger.png|30px|link=Storage Ledger]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Storage Ledger"
+    ]
+  },
+  {
+    "uses_material": [
       "Granite",
       "Animal Bone",
       "Clay Decoration",
@@ -84653,6 +84786,50 @@
     ],
     "output": [
       "Moon Garou Chair 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Vault Shard"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Vault Shard",
+          "link": "Vault Shard",
+          "qty": "1",
+          "item": "Vault Shard",
+          "image": "[[File:Vault Shard.png|30px|link=Vault Shard]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Vault Shard (Decoration)"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Vault Shard (Decoration)",
+        "link": "Vault Shard (Decoration)",
+        "qty": "1",
+        "item": "Vault Shard (Decoration)",
+        "image": "[[File:Vault Shard (Decoration).png|30px|link=Vault Shard (Decoration)]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Vault Shard (Decoration)"
     ]
   }
 ]

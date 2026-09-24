@@ -21687,6 +21687,24 @@
     "item_name": "Ascension Shard"
   },
   {
+    "page_name": "Ascension Shard",
+    "item_description": "Used to craft a Tier 8 Ascension Core.",
+    "page_name_sub": "Ascension Shard",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Used to craft a Tier 8 Ascension Core.",
+      "weight": "0.0",
+      "image": "[[File:Ascension Shard (Power Level 8).png|32px]]",
+      "name": "Ascension Shard",
+      "item_type": "Basic Material",
+      "stacklimit": "99",
+      "image_raw": "Ascension Shard (Power Level 8).png"
+    },
+    "item_type": "Basic Material",
+    "item_name": "Ascension Shard"
+  },
+  {
     "page_name": "The Radiant's Heart",
     "page_name_sub": "The Radiant's Heart",
     "item_description": "The heart of an unpleasant red dragon, still smouldering. Hedric - The Hunter will want to see this.",
