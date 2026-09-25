@@ -69838,83 +69838,12 @@
         "Ascension Core"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Ascension Core",
         "link": "Ascension Core",
-        "qty": 1,
+        "qty": "1",
         "item": "Ascension Core",
         "image": "[[File:Ascension Core (Power Level 6).png|30px|link=Ascension Core]]"
-      }
-    },
-    "uses_facility": [
-      "Mystic Forge"
-    ],
-    "output": [
-      "Ascension Core"
-    ]
-  },
-  {
-    "uses_material": [
-      "Ascension Shard (Power Level 7)",
-      "Adamant Bar",
-      "Scorch Leather",
-      "Infinity Cloth"
-    ],
-    "uses_skill": [
-      "Artisan"
-    ],
-    "json": {
-      "facility": "Mystic Forge",
-      "materials": [
-        {
-          "quantity": "99",
-          "name": "Ascension Shard (Power Level 7)",
-          "link": "Ascension Shard (Power Level 7)",
-          "qty": "99",
-          "item": "Ascension Shard (Power Level 7)",
-          "image": "[[File:Ascension Shard (Power Level 7).png|30px|link=Ascension Shard (Power Level 7)]]"
-        },
-        {
-          "quantity": "10",
-          "name": "Adamant Bar",
-          "link": "Adamant Bar",
-          "qty": "10",
-          "item": "Adamant Bar",
-          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
-        },
-        {
-          "quantity": "10",
-          "name": "Scorch Leather",
-          "link": "Scorch Leather",
-          "qty": "10",
-          "item": "Scorch Leather",
-          "image": "[[File:Scorch Leather.png|30px|link=Scorch Leather]]"
-        },
-        {
-          "quantity": "10",
-          "name": "Infinity Cloth",
-          "link": "Infinity Cloth",
-          "qty": "10",
-          "item": "Infinity Cloth",
-          "image": "[[File:Infinity Cloth.png|30px|link=Infinity Cloth]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Artisan",
-          "experience": "40"
-        }
-      ],
-      "outputs": [
-        "Ascension Core"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Ascension Core",
-        "link": "Ascension Core",
-        "qty": 1,
-        "item": "Ascension Core",
-        "image": "[[File:Ascension Core (Power Level 7).png|30px|link=Ascension Core]]"
       }
     },
     "uses_facility": [
@@ -84790,6 +84719,77 @@
   },
   {
     "uses_material": [
+      "Ash Logs",
+      "Ash Tree Seed",
+      "Raw Bird Meat",
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "4",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Tree Seed",
+          "link": "Ash Tree Seed",
+          "qty": "2",
+          "item": "Ash Tree Seed",
+          "image": "[[File:Ash Tree Seed.png|30px|link=Ash Tree Seed]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Raw Bird Meat",
+          "link": "Raw Bird Meat",
+          "qty": "1",
+          "item": "Raw Bird Meat",
+          "image": "[[File:Raw Bird Meat.png|30px|link=Raw Bird Meat]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "3",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Bramblemead Magpie Perch"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Bramblemead Magpie Perch",
+        "link": "Bramblemead Magpie Perch",
+        "qty": "1",
+        "item": "Bramblemead Magpie Perch",
+        "image": "[[File:Bramblemead Magpie Perch.png|30px|link=Bramblemead Magpie Perch]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Bramblemead Magpie Perch"
+    ]
+  },
+  {
+    "uses_material": [
       "Vault Shard"
     ],
     "uses_skill": [
@@ -84830,6 +84830,2521 @@
     ],
     "output": [
       "Vault Shard (Decoration)"
+    ]
+  },
+  {
+    "uses_material": [
+      "Leather",
+      "Soft Animal Fur",
+      "Naptha",
+      "Animal Bone"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Leather",
+          "link": "Leather",
+          "qty": "2",
+          "item": "Leather",
+          "image": "[[File:Leather.png|30px|link=Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Soft Animal Fur",
+          "link": "Soft Animal Fur",
+          "qty": "2",
+          "item": "Soft Animal Fur",
+          "image": "[[File:Soft Animal Fur.png|30px|link=Soft Animal Fur]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Naptha",
+          "link": "Naptha",
+          "qty": "2",
+          "item": "Naptha",
+          "image": "[[File:Naptha.png|30px|link=Naptha]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Animal Bone",
+          "link": "Animal Bone",
+          "qty": "1",
+          "item": "Animal Bone",
+          "image": "[[File:Animal Bone.png|30px|link=Animal Bone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Sleeping Chinchompa"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Sleeping Chinchompa",
+        "link": "Sleeping Chinchompa",
+        "qty": "1",
+        "item": "Sleeping Chinchompa",
+        "image": "[[File:Sleeping Chinchompa.png|30px|link=Sleeping Chinchompa]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Sleeping Chinchompa"
+    ]
+  },
+  {
+    "uses_material": [
+      "Oak Logs",
+      "Kwuarm Seeds",
+      "Raw Bird Meat",
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Oak Logs",
+          "link": "Oak Logs",
+          "qty": "4",
+          "item": "Oak Logs",
+          "image": "[[File:Oak Logs.png|30px|link=Oak Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Kwuarm Seeds",
+          "link": "Kwuarm Seeds",
+          "qty": "2",
+          "item": "Kwuarm Seeds",
+          "image": "[[File:Kwuarm Seeds.png|30px|link=Kwuarm Seeds]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Raw Bird Meat",
+          "link": "Raw Bird Meat",
+          "qty": "1",
+          "item": "Raw Bird Meat",
+          "image": "[[File:Raw Bird Meat.png|30px|link=Raw Bird Meat]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "3",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Brynmoor Falcon Perch"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Brynmoor Falcon Perch",
+        "link": "Brynmoor Falcon Perch",
+        "qty": "1",
+        "item": "Brynmoor Falcon Perch",
+        "image": "[[File:Brynmoor Falcon Perch.png|30px|link=Brynmoor Falcon Perch]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Brynmoor Falcon Perch"
+    ]
+  },
+  {
+    "uses_material": [
+      "Willow Logs",
+      "Irit Seeds",
+      "Ectoplasm",
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "4",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Irit Seeds",
+          "link": "Irit Seeds",
+          "qty": "2",
+          "item": "Irit Seeds",
+          "image": "[[File:Irit Seeds.png|30px|link=Irit Seeds]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Ectoplasm",
+          "link": "Ectoplasm",
+          "qty": "1",
+          "item": "Ectoplasm",
+          "image": "[[File:Ectoplasm.png|30px|link=Ectoplasm]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "3",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Fellhollow Spectral Magpie Perch"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Fellhollow Spectral Magpie Perch",
+        "link": "Fellhollow Spectral Magpie Perch",
+        "qty": "1",
+        "item": "Fellhollow Spectral Magpie Perch",
+        "image": "[[File:Fellhollow Spectral Magpie Perch.png|30px|link=Fellhollow Spectral Magpie Perch]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Fellhollow Spectral Magpie Perch"
+    ]
+  },
+  {
+    "uses_material": [
+      "Maple Logs",
+      "Maple Tree Seed",
+      "Burnt Fillet",
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "4",
+          "item": "Maple Logs",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Maple Tree Seed",
+          "link": "Maple Tree Seed",
+          "qty": "2",
+          "item": "Maple Tree Seed",
+          "image": "[[File:Maple Tree Seed.png|30px|link=Maple Tree Seed]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Burnt Fillet",
+          "link": "Burnt Fillet",
+          "qty": "1",
+          "item": "Burnt Fillet",
+          "image": "[[File:Burnt Fillet.png|30px|link=Burnt Fillet]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "3",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Dowdun Raven Perch"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dowdun Raven Perch",
+        "link": "Dowdun Raven Perch",
+        "qty": "1",
+        "item": "Dowdun Raven Perch",
+        "image": "[[File:Dowdun Raven Perch.png|30px|link=Dowdun Raven Perch]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Dowdun Raven Perch"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs",
+      "Bunny Cactus Seed",
+      "Raw Bird Meat",
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "4",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Bunny Cactus Seed",
+          "link": "Bunny Cactus Seed",
+          "qty": "2",
+          "item": "Bunny Cactus Seed",
+          "image": "[[File:Bunny Cactus Seed.png|30px|link=Bunny Cactus Seed]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Raw Bird Meat",
+          "link": "Raw Bird Meat",
+          "qty": "1",
+          "item": "Raw Bird Meat",
+          "image": "[[File:Raw Bird Meat.png|30px|link=Raw Bird Meat]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "3",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Umbral Vulture Perch"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Umbral Vulture Perch",
+        "link": "Umbral Vulture Perch",
+        "qty": "1",
+        "item": "Umbral Vulture Perch",
+        "image": "[[File:Umbral Vulture Perch.png|30px|link=Umbral Vulture Perch]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Umbral Vulture Perch"
+    ]
+  },
+  {
+    "uses_material": [
+      "Undead Bone",
+      "Fine Cloth",
+      "Willow Logs",
+      "Ectoplasm"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Undead Bone",
+          "link": "Undead Bone",
+          "qty": "2",
+          "item": "Undead Bone",
+          "image": "[[File:Undead Bone.png|30px|link=Undead Bone]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Fine Cloth",
+          "link": "Fine Cloth",
+          "qty": "2",
+          "item": "Fine Cloth",
+          "image": "[[File:Fine Cloth.png|30px|link=Fine Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "2",
+          "item": "Willow Logs",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ectoplasm",
+          "link": "Ectoplasm",
+          "qty": "2",
+          "item": "Ectoplasm",
+          "image": "[[File:Ectoplasm.png|30px|link=Ectoplasm]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Mucher's Basket"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Mucher's Basket",
+        "link": "Mucher's Basket",
+        "qty": "1",
+        "item": "Mucher's Basket",
+        "image": "[[File:Mucher's Basket.png|30px|link=Mucher's Basket]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Mucher's Basket"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Imaru Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Imaru Tapestry",
+        "link": "Imaru Tapestry",
+        "qty": "1",
+        "item": "Imaru Tapestry",
+        "image": "[[File:Imaru Tapestry.png|30px|link=Imaru Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Imaru Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Fellhollow Arena Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Fellhollow Arena Tapestry",
+        "link": "Fellhollow Arena Tapestry",
+        "qty": "1",
+        "item": "Fellhollow Arena Tapestry",
+        "image": "[[File:Fellhollow Arena Tapestry.png|30px|link=Fellhollow Arena Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Fellhollow Arena Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Ghornfell Water Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ghornfell Water Tapestry",
+        "link": "Ghornfell Water Tapestry",
+        "qty": "1",
+        "item": "Ghornfell Water Tapestry",
+        "image": "[[File:Ghornfell Water Tapestry.png|30px|link=Ghornfell Water Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Ghornfell Water Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Ghornfell Toxic Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ghornfell Toxic Tapestry",
+        "link": "Ghornfell Toxic Tapestry",
+        "qty": "1",
+        "item": "Ghornfell Toxic Tapestry",
+        "image": "[[File:Ghornfell Toxic Tapestry.png|30px|link=Ghornfell Toxic Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Ghornfell Toxic Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Ghornfell Meadows Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ghornfell Meadows Tapestry",
+        "link": "Ghornfell Meadows Tapestry",
+        "qty": "1",
+        "item": "Ghornfell Meadows Tapestry",
+        "image": "[[File:Ghornfell Meadows Tapestry.png|30px|link=Ghornfell Meadows Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Ghornfell Meadows Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Ghornfell Highlands Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ghornfell Highlands Tapestry",
+        "link": "Ghornfell Highlands Tapestry",
+        "qty": "1",
+        "item": "Ghornfell Highlands Tapestry",
+        "image": "[[File:Ghornfell Highlands Tapestry.png|30px|link=Ghornfell Highlands Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Ghornfell Highlands Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Ghornfell Forest Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ghornfell Forest Tapestry",
+        "link": "Ghornfell Forest Tapestry",
+        "qty": "1",
+        "item": "Ghornfell Forest Tapestry",
+        "image": "[[File:Ghornfell Forest Tapestry.png|30px|link=Ghornfell Forest Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Ghornfell Forest Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Ghornfell Caves Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Ghornfell Caves Tapestry",
+        "link": "Ghornfell Caves Tapestry",
+        "qty": "1",
+        "item": "Ghornfell Caves Tapestry",
+        "image": "[[File:Ghornfell Caves Tapestry.png|30px|link=Ghornfell Caves Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Ghornfell Caves Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Umbral Sands Tower Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Umbral Sands Tower Tapestry",
+        "link": "Umbral Sands Tower Tapestry",
+        "qty": "1",
+        "item": "Umbral Sands Tower Tapestry",
+        "image": "[[File:Umbral Sands Tower Tapestry.png|30px|link=Umbral Sands Tower Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Umbral Sands Tower Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Umbral Sands Ruins Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Umbral Sands Ruins Tapestry",
+        "link": "Umbral Sands Ruins Tapestry",
+        "qty": "1",
+        "item": "Umbral Sands Ruins Tapestry",
+        "image": "[[File:Umbral Sands Ruins Tapestry.png|30px|link=Umbral Sands Ruins Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Umbral Sands Ruins Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Umbral Sands Pit Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Umbral Sands Pit Tapestry",
+        "link": "Umbral Sands Pit Tapestry",
+        "qty": "1",
+        "item": "Umbral Sands Pit Tapestry",
+        "image": "[[File:Umbral Sands Pit Tapestry.png|30px|link=Umbral Sands Pit Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Umbral Sands Pit Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Umbral Sands Landscape Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Umbral Sands Landscape Tapestry",
+        "link": "Umbral Sands Landscape Tapestry",
+        "qty": "1",
+        "item": "Umbral Sands Landscape Tapestry",
+        "image": "[[File:Umbral Sands Landscape Tapestry.png|30px|link=Umbral Sands Landscape Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Umbral Sands Landscape Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Umbral Sands Arena Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Umbral Sands Arena Tapestry",
+        "link": "Umbral Sands Arena Tapestry",
+        "qty": "1",
+        "item": "Umbral Sands Arena Tapestry",
+        "image": "[[File:Umbral Sands Arena Tapestry.png|30px|link=Umbral Sands Arena Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Umbral Sands Arena Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Brynmoor Swamp Night Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Brynmoor Swamp Night Tapestry",
+        "link": "Brynmoor Swamp Night Tapestry",
+        "qty": "1",
+        "item": "Brynmoor Swamp Night Tapestry",
+        "image": "[[File:Brynmoor Swamp Night Tapestry.png|30px|link=Brynmoor Swamp Night Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Brynmoor Swamp Night Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Brynmoor Swamp Toxic Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Brynmoor Swamp Toxic Tapestry",
+        "link": "Brynmoor Swamp Toxic Tapestry",
+        "qty": "1",
+        "item": "Brynmoor Swamp Toxic Tapestry",
+        "image": "[[File:Brynmoor Swamp Toxic Tapestry.png|30px|link=Brynmoor Swamp Toxic Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Brynmoor Swamp Toxic Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Brynmoor Swamp Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Brynmoor Swamp Tapestry",
+        "link": "Brynmoor Swamp Tapestry",
+        "qty": "1",
+        "item": "Brynmoor Swamp Tapestry",
+        "image": "[[File:Brynmoor Swamp Tapestry.png|30px|link=Brynmoor Swamp Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Brynmoor Swamp Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Brynmoor Lake Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Brynmoor Lake Tapestry",
+        "link": "Brynmoor Lake Tapestry",
+        "qty": "1",
+        "item": "Brynmoor Lake Tapestry",
+        "image": "[[File:Brynmoor Lake Tapestry.png|30px|link=Brynmoor Lake Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Brynmoor Lake Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Brynmoor Hills Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Brynmoor Hills Tapestry",
+        "link": "Brynmoor Hills Tapestry",
+        "qty": "1",
+        "item": "Brynmoor Hills Tapestry",
+        "image": "[[File:Brynmoor Hills Tapestry.png|30px|link=Brynmoor Hills Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Brynmoor Hills Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Dowdun Reach Temple Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dowdun Reach Temple Tapestry",
+        "link": "Dowdun Reach Temple Tapestry",
+        "qty": "1",
+        "item": "Dowdun Reach Temple Tapestry",
+        "image": "[[File:Dowdun Reach Temple Tapestry.png|30px|link=Dowdun Reach Temple Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Dowdun Reach Temple Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Dowdun Reach Library Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dowdun Reach Library Tapestry",
+        "link": "Dowdun Reach Library Tapestry",
+        "qty": "1",
+        "item": "Dowdun Reach Library Tapestry",
+        "image": "[[File:Dowdun Reach Library Tapestry.png|30px|link=Dowdun Reach Library Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Dowdun Reach Library Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Dowdun Reach Halls Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dowdun Reach Halls Tapestry",
+        "link": "Dowdun Reach Halls Tapestry",
+        "qty": "1",
+        "item": "Dowdun Reach Halls Tapestry",
+        "image": "[[File:Dowdun Reach Halls Tapestry.png|30px|link=Dowdun Reach Halls Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Dowdun Reach Halls Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Dowdun Reach Crystal Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dowdun Reach Crystal Tapestry",
+        "link": "Dowdun Reach Crystal Tapestry",
+        "qty": "1",
+        "item": "Dowdun Reach Crystal Tapestry",
+        "image": "[[File:Dowdun Reach Crystal Tapestry.png|30px|link=Dowdun Reach Crystal Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Dowdun Reach Crystal Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Dowdun Reach Courtyard Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dowdun Reach Courtyard Tapestry",
+        "link": "Dowdun Reach Courtyard Tapestry",
+        "qty": "1",
+        "item": "Dowdun Reach Courtyard Tapestry",
+        "image": "[[File:Dowdun Reach Courtyard Tapestry.png|30px|link=Dowdun Reach Courtyard Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Dowdun Reach Courtyard Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Dowdun Reach Approach Tapestry"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dowdun Reach Approach Tapestry",
+        "link": "Dowdun Reach Approach Tapestry",
+        "qty": "1",
+        "item": "Dowdun Reach Approach Tapestry",
+        "image": "[[File:Dowdun Reach Approach Tapestry.png|30px|link=Dowdun Reach Approach Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Dowdun Reach Approach Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Brynmoor Lake Flora Tapestry"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Brynmoor Lake Flora Tapestry",
+        "link": "Brynmoor Lake Flora Tapestry",
+        "qty": 1,
+        "item": "Brynmoor Lake Flora Tapestry",
+        "image": "[[File:Brynmoor Lake Flora Tapestry.png|30px|link=Brynmoor Lake Flora Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Brynmoor Lake Flora Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Brynmoor Swamp Toxic Tapestry"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Brynmoor Swamp Toxic Tapestry",
+        "link": "Brynmoor Swamp Toxic Tapestry",
+        "qty": 1,
+        "item": "Brynmoor Swamp Toxic Tapestry",
+        "image": "[[File:Brynmoor Swamp Toxic Tapestry.png|30px|link=Brynmoor Swamp Toxic Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Brynmoor Swamp Toxic Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Coarse Thread",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "4",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": ""
+        }
+      ],
+      "outputs": [
+        "Brynmoor Valley Tapestry"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Brynmoor Valley Tapestry",
+        "link": "Brynmoor Valley Tapestry",
+        "qty": 1,
+        "item": "Brynmoor Valley Tapestry",
+        "image": "[[File:Brynmoor Valley Tapestry.png|30px|link=Brynmoor Valley Tapestry]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Brynmoor Valley Tapestry"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs",
+      "Leather"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "1",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "0",
+          "name": "Leather",
+          "link": "Leather",
+          "qty": "0",
+          "item": "Leather",
+          "image": "[[File:Leather.png|30px|link=Leather]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Skill Tome (Standing) - Agility"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Skill Tome (Standing) - Agility",
+        "link": "Skill Tome (Standing) - Agility",
+        "qty": 1,
+        "item": "Skill Tome (Standing) - Agility",
+        "image": "[[File:Skill Tome (Standing) - Agility.png|30px|link=Skill Tome (Standing) - Agility]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Skill Tome (Standing) - Agility"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Logs",
+      "Leather"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "1",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        },
+        {
+          "quantity": "0",
+          "name": "Leather",
+          "link": "Leather",
+          "qty": "0",
+          "item": "Leather",
+          "image": "[[File:Leather.png|30px|link=Leather]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Skill Tome - Agility"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Skill Tome - Agility",
+        "link": "Skill Tome - Agility",
+        "qty": 1,
+        "item": "Skill Tome - Agility",
+        "image": "[[File:Skill Tome - Agility.png|30px|link=Skill Tome - Agility]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Skill Tome - Agility"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Green Dragon Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Green Dragon Trophy",
+        "link": "Green Dragon Trophy",
+        "qty": 1,
+        "item": "Green Dragon Trophy",
+        "image": "[[File:Green Dragon Trophy.png|30px|link=Green Dragon Trophy]]"
+      }
+    },
+    "output": [
+      "Green Dragon Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Blue Dragon Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Blue Dragon Trophy",
+        "link": "Blue Dragon Trophy",
+        "qty": 1,
+        "item": "Blue Dragon Trophy",
+        "image": "[[File:Blue Dragon Trophy.png|30px|link=Blue Dragon Trophy]]"
+      }
+    },
+    "output": [
+      "Blue Dragon Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Black Dragon Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Black Dragon Trophy",
+        "link": "Black Dragon Trophy",
+        "qty": 1,
+        "item": "Black Dragon Trophy",
+        "image": "[[File:Black Dragon Trophy.png|30px|link=Black Dragon Trophy]]"
+      }
+    },
+    "output": [
+      "Black Dragon Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Red Dragon Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Red Dragon Trophy",
+        "link": "Red Dragon Trophy",
+        "qty": 1,
+        "item": "Red Dragon Trophy",
+        "image": "[[File:Red Dragon Trophy.png|30px|link=Red Dragon Trophy]]"
+      }
+    },
+    "output": [
+      "Red Dragon Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Abyssal Demon Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Abyssal Demon Trophy",
+        "link": "Abyssal Demon Trophy",
+        "qty": 1,
+        "item": "Abyssal Demon Trophy",
+        "image": "[[File:Abyssal Demon Trophy.png|30px|link=Abyssal Demon Trophy]]"
+      }
+    },
+    "output": [
+      "Abyssal Demon Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Carnivorous Chinchompa Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Carnivorous Chinchompa Trophy",
+        "link": "Carnivorous Chinchompa Trophy",
+        "qty": 1,
+        "item": "Carnivorous Chinchompa Trophy",
+        "image": "[[File:Carnivorous Chinchompa Trophy.png|30px|link=Carnivorous Chinchompa Trophy]]"
+      }
+    },
+    "output": [
+      "Carnivorous Chinchompa Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Dire Wolf Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Dire Wolf Trophy",
+        "link": "Dire Wolf Trophy",
+        "qty": 1,
+        "item": "Dire Wolf Trophy",
+        "image": "[[File:Dire Wolf Trophy.png|30px|link=Dire Wolf Trophy]]"
+      }
+    },
+    "output": [
+      "Dire Wolf Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Hell Rat Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Hell Rat Trophy",
+        "link": "Hell Rat Trophy",
+        "qty": 1,
+        "item": "Hell Rat Trophy",
+        "image": "[[File:Hell Rat Trophy.png|30px|link=Hell Rat Trophy]]"
+      }
+    },
+    "output": [
+      "Hell Rat Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Infinity Zogre Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Infinity Zogre Trophy",
+        "link": "Infinity Zogre Trophy",
+        "qty": 1,
+        "item": "Infinity Zogre Trophy",
+        "image": "[[File:Infinity Zogre Trophy.png|30px|link=Infinity Zogre Trophy]]"
+      }
+    },
+    "output": [
+      "Infinity Zogre Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Kalphite Guardian Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Kalphite Guardian Trophy",
+        "link": "Kalphite Guardian Trophy",
+        "qty": 1,
+        "item": "Kalphite Guardian Trophy",
+        "image": "[[File:Kalphite Guardian Trophy.png|30px|link=Kalphite Guardian Trophy]]"
+      }
+    },
+    "output": [
+      "Kalphite Guardian Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Kalphite Queen Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Kalphite Queen Trophy",
+        "link": "Kalphite Queen Trophy",
+        "qty": 1,
+        "item": "Kalphite Queen Trophy",
+        "image": "[[File:Kalphite Queen Trophy.png|30px|link=Kalphite Queen Trophy]]"
+      }
+    },
+    "output": [
+      "Kalphite Queen Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Kalphite Soldier Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Kalphite Soldier Trophy",
+        "link": "Kalphite Soldier Trophy",
+        "qty": 1,
+        "item": "Kalphite Soldier Trophy",
+        "image": "[[File:Kalphite Soldier Trophy.png|30px|link=Kalphite Soldier Trophy]]"
+      }
+    },
+    "output": [
+      "Kalphite Soldier Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Kalphite Worker Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Kalphite Worker Trophy",
+        "link": "Kalphite Worker Trophy",
+        "qty": 1,
+        "item": "Kalphite Worker Trophy",
+        "image": "[[File:Kalphite Worker Trophy.png|30px|link=Kalphite Worker Trophy]]"
+      }
+    },
+    "output": [
+      "Kalphite Worker Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Rotridden Cow Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Rotridden Cow Trophy",
+        "link": "Rotridden Cow Trophy",
+        "qty": 1,
+        "item": "Rotridden Cow Trophy",
+        "image": "[[File:Rotridden Cow Trophy.png|30px|link=Rotridden Cow Trophy]]"
+      }
+    },
+    "output": [
+      "Rotridden Cow Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Rotridden Rat Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Rotridden Rat Trophy",
+        "link": "Rotridden Rat Trophy",
+        "qty": 1,
+        "item": "Rotridden Rat Trophy",
+        "image": "[[File:Rotridden Rat Trophy.png|30px|link=Rotridden Rat Trophy]]"
+      }
+    },
+    "output": [
+      "Rotridden Rat Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Rotsworn Zombie Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Rotsworn Zombie Trophy",
+        "link": "Rotsworn Zombie Trophy",
+        "qty": 1,
+        "item": "Rotsworn Zombie Trophy",
+        "image": "[[File:Rotsworn Zombie Trophy.png|30px|link=Rotsworn Zombie Trophy]]"
+      }
+    },
+    "output": [
+      "Rotsworn Zombie Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Skeleton Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Skeleton Trophy",
+        "link": "Skeleton Trophy",
+        "qty": 1,
+        "item": "Skeleton Trophy",
+        "image": "[[File:Skeleton Trophy.png|30px|link=Skeleton Trophy]]"
+      }
+    },
+    "output": [
+      "Skeleton Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Skeletons Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Skeletons Trophy",
+        "link": "Skeletons Trophy",
+        "qty": 1,
+        "item": "Skeletons Trophy",
+        "image": "[[File:Skeletons Trophy.png|30px|link=Skeletons Trophy]]"
+      }
+    },
+    "output": [
+      "Skeletons Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Terrorbird Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Terrorbird Trophy",
+        "link": "Terrorbird Trophy",
+        "qty": 1,
+        "item": "Terrorbird Trophy",
+        "image": "[[File:Terrorbird Trophy.png|30px|link=Terrorbird Trophy]]"
+      }
+    },
+    "output": [
+      "Terrorbird Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Winged Kalphite Queen Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Winged Kalphite Queen Trophy",
+        "link": "Winged Kalphite Queen Trophy",
+        "qty": 1,
+        "item": "Winged Kalphite Queen Trophy",
+        "image": "[[File:Winged Kalphite Queen Trophy.png|30px|link=Winged Kalphite Queen Trophy]]"
+      }
+    },
+    "output": [
+      "Winged Kalphite Queen Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Wolf Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Wolf Trophy",
+        "link": "Wolf Trophy",
+        "qty": 1,
+        "item": "Wolf Trophy",
+        "image": "[[File:Wolf Trophy.png|30px|link=Wolf Trophy]]"
+      }
+    },
+    "output": [
+      "Wolf Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Zogre Hand Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zogre Hand Trophy",
+        "link": "Zogre Hand Trophy",
+        "qty": 1,
+        "item": "Zogre Hand Trophy",
+        "image": "[[File:Zogre Hand Trophy.png|30px|link=Zogre Hand Trophy]]"
+      }
+    },
+    "output": [
+      "Zogre Hand Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Zogre Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zogre Trophy",
+        "link": "Zogre Trophy",
+        "qty": 1,
+        "item": "Zogre Trophy",
+        "image": "[[File:Zogre Trophy.png|30px|link=Zogre Trophy]]"
+      }
+    },
+    "output": [
+      "Zogre Trophy"
+    ]
+  },
+  {
+    "uses_facility": [
+      ""
+    ],
+    "json": {
+      "materials": [],
+      "skills": [],
+      "outputs": [
+        "Zombie Rat Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Zombie Rat Trophy",
+        "link": "Zombie Rat Trophy",
+        "qty": 1,
+        "item": "Zombie Rat Trophy",
+        "image": "[[File:Zombie Rat Trophy.png|30px|link=Zombie Rat Trophy]]"
+      }
+    },
+    "output": [
+      "Zombie Rat Trophy"
     ]
   }
 ]

@@ -1627,10 +1627,10 @@
     "json": {
       "description": "A mystical weapon humming with power, wielded by mighty Saradominist Wizards ages past.",
       "weight": "15.0",
-      "image": "[[File:Staff of Light.png|32px]]",
+      "image": "[[File:Staff of Light (Journal).png|32px]]",
       "name": "Staff of Light",
       "item_type": "Magic Weapon",
-      "image_raw": "Staff of Light.png"
+      "image_raw": "Staff of Light (Journal).png"
     },
     "item_weight": 15
   },
@@ -4264,10 +4264,10 @@
     "json": {
       "description": "An ancient dragonkin staff used by the mages of old.",
       "weight": "15.0",
-      "image": "[[File:Draconic Staff.png|32px]]",
+      "image": "[[File:Draconic Staff (Journal).png|32px]]",
       "name": "Draconic Staff",
       "item_type": "Magic Weapon",
-      "image_raw": "Draconic Staff.png"
+      "image_raw": "Draconic Staff (Journal).png"
     },
     "item_weight": 15
   },
@@ -8485,10 +8485,10 @@
     "json": {
       "description": "Necromantic essence still emanates from this staff.",
       "weight": "15.0",
-      "image": "[[File:Necromancer's Staff.png|32px]]",
+      "image": "[[File:Necromancer's Staff (Journal).png|32px]]",
       "name": "Necromancer's Staff",
       "item_type": "Magic Weapon",
-      "image_raw": "Necromancer's Staff.png"
+      "image_raw": "Necromancer's Staff (Journal).png"
     },
     "item_weight": 15
   },
@@ -12999,10 +12999,10 @@
     "json": {
       "description": "Standard issue for any mage in Dowdun Reach.",
       "weight": "15.0",
-      "image": "[[File:Zamorak Staff.png|32px]]",
+      "image": "[[File:Zamorak Staff (Journal).png|32px]]",
       "name": "Zamorak Staff",
       "item_type": "Magic Weapon",
-      "image_raw": "Zamorak Staff.png"
+      "image_raw": "Zamorak Staff (Journal).png"
     },
     "item_weight": 15
   },
@@ -13015,10 +13015,10 @@
     "json": {
       "description": "A powerful battlestaff, once owned and used by Arcmage Alric.",
       "weight": "15.0",
-      "image": "[[File:Subjugation Staff.png|32px]]",
+      "image": "[[File:Subjugation Staff (Journal).png|32px]]",
       "name": "Subjugation Staff",
       "item_type": "Magic Weapon",
-      "image_raw": "Subjugation Staff.png"
+      "image_raw": "Subjugation Staff (Journal).png"
     },
     "item_weight": 15
   },
@@ -19298,10 +19298,10 @@
     "json": {
       "description": "This ancient and powerful weapon lets the wielder channel its sovereign authority into mind-controlling powers.",
       "weight": "15",
-      "image": "[[File:Pharaoh's Sceptre.png|32px]]",
+      "image": "[[File:Pharaoh's Sceptre (Journal).png|32px]]",
       "name": "Pharaoh's Sceptre",
       "item_type": "Magic Weapon",
-      "image_raw": "Pharaoh's Sceptre.png"
+      "image_raw": "Pharaoh's Sceptre (Journal).png"
     },
     "item_weight": 15
   },
@@ -19401,10 +19401,10 @@
     "json": {
       "description": "Forged from volcanic glass, its pointed tip bleeds fire as though the earth itself burns within. The heat never fades.",
       "weight": "15",
-      "image": "[[File:Toktz-Mej-Tal.png|32px]]",
+      "image": "[[File:TokTz-Mej-Tal (Journal).png|32px]]",
       "name": "Toktz-Mej-Tal",
       "item_type": "Magic Weapon",
-      "image_raw": "Toktz-Mej-Tal.png"
+      "image_raw": "TokTz-Mej-Tal (Journal).png"
     },
     "item_weight": 15
   },
@@ -21624,13 +21624,13 @@
       "description": "Used to craft a Tier 4 Ascension Core",
       "weight": "0.1",
       "image": "[[File:Ascension Shard (Power Level 4).png|32px]]",
-      "name": "Ascension Shard",
+      "name": "Ascension Shard 4",
       "item_type": "Basic Material",
       "stacklimit": "99",
       "image_raw": "Ascension Shard (Power Level 4).png"
     },
     "item_type": "Basic Material",
-    "item_name": "Ascension Shard"
+    "item_name": "Ascension Shard 4"
   },
   {
     "page_name": "Ascension Shard",
@@ -21642,13 +21642,13 @@
       "description": "Used to craft a Tier 5 Ascension Core",
       "weight": "0.1",
       "image": "[[File:Ascension Shard (Power Level 5).png|32px]]",
-      "name": "Ascension Shard",
+      "name": "Ascension Shard 5",
       "item_type": "Basic Material",
       "stacklimit": "99",
       "image_raw": "Ascension Shard (Power Level 5).png"
     },
     "item_type": "Basic Material",
-    "item_name": "Ascension Shard"
+    "item_name": "Ascension Shard 5"
   },
   {
     "page_name": "Ascension Shard",
@@ -21660,31 +21660,13 @@
       "description": "Used to craft a Tier 6 Ascension Core",
       "weight": "0.1",
       "image": "[[File:Ascension Shard (Power Level 6).png|32px]]",
-      "name": "Ascension Shard",
+      "name": "Ascension Shard 6",
       "item_type": "Basic Material",
       "stacklimit": "99",
       "image_raw": "Ascension Shard (Power Level 6).png"
     },
     "item_type": "Basic Material",
-    "item_name": "Ascension Shard"
-  },
-  {
-    "page_name": "Ascension Shard",
-    "item_description": "Used to craft a Tier 7 Ascension Core",
-    "page_name_sub": "Ascension Shard",
-    "item_weight": 0.1,
-    "item_stacklimit": 99,
-    "json": {
-      "description": "Used to craft a Tier 7 Ascension Core",
-      "weight": "0.1",
-      "image": "[[File:Ascension Shard (Power Level 7).png|32px]]",
-      "name": "Ascension Shard",
-      "item_type": "Basic Material",
-      "stacklimit": "99",
-      "image_raw": "Ascension Shard (Power Level 7).png"
-    },
-    "item_type": "Basic Material",
-    "item_name": "Ascension Shard"
+    "item_name": "Ascension Shard 6"
   },
   {
     "page_name": "Ascension Shard",
@@ -21696,13 +21678,13 @@
       "description": "Used to craft a Tier 8 Ascension Core.",
       "weight": "0.0",
       "image": "[[File:Ascension Shard (Power Level 8).png|32px]]",
-      "name": "Ascension Shard",
+      "name": "Ascension Shard 8",
       "item_type": "Basic Material",
       "stacklimit": "99",
       "image_raw": "Ascension Shard (Power Level 8).png"
     },
     "item_type": "Basic Material",
-    "item_name": "Ascension Shard"
+    "item_name": "Ascension Shard 8"
   },
   {
     "page_name": "The Radiant's Heart",
@@ -24142,5 +24124,21 @@
     },
     "item_type": "Seed",
     "item_name": "Magic Tree Seed"
+  },
+  {
+    "page_name": "Tome of Agility - Vol 1.",
+    "page_name_sub": "Tome of Agility - Vol 1.",
+    "item_description": "A book filled with knowledge on how best to chop down trees. Awards a small amount of Agility XP.",
+    "item_type": "Resource",
+    "item_name": "Tome of Agility - Vol 1",
+    "json": {
+      "description": "A book filled with knowledge on how best to chop down trees. Awards a small amount of Agility XP.",
+      "weight": "2.0",
+      "image": "[[File:Tome of Agility - Vol 1.png|32px]]",
+      "name": "Tome of Agility - Vol 1",
+      "item_type": "Resource",
+      "image_raw": "Tome of Agility - Vol 1.png"
+    },
+    "item_weight": 2
   }
 ]

@@ -52286,44 +52286,6 @@
         "usesRecipe": null
       },
       {
-        "id": "4f0c49ca0dc3",
-        "name": "Ascension Core",
-        "image": "Ascension Core (Power Level 7).png",
-        "variantName": "Power Level 7",
-        "recipe": {
-          "id": "4a96e694c146",
-          "facilities": [
-            "Mystic Forge"
-          ],
-          "materials": [
-            {
-              "itemId": "adamant-bar",
-              "quantity": 10
-            },
-            {
-              "itemId": "ascension-shard-power-level-7",
-              "quantity": 99
-            },
-            {
-              "itemId": "infinity-cloth",
-              "quantity": 10
-            },
-            {
-              "itemId": "scorch-leather",
-              "quantity": 10
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Artisan",
-              "experience": 40
-            }
-          ]
-        },
-        "usesRecipe": null
-      },
-      {
         "id": "949f0ee13563",
         "name": "Ascension Core",
         "image": "Ascension Core (Power Level 8).png",
@@ -64121,6 +64083,58 @@
     "wikiLink": "Moon_Garou_Chair_01"
   },
   {
+    "id": "bramblemead-magpie-perch",
+    "name": "Bramblemead Magpie Perch",
+    "image": "Bramblemead Magpie Perch.png",
+    "variants": [
+      {
+        "id": "f4c4945b2876",
+        "name": "Bramblemead Magpie Perch",
+        "image": "Bramblemead Magpie Perch.png",
+        "variantName": null,
+        "recipe": {
+          "id": "87c9f55a32c2",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 4
+            },
+            {
+              "itemId": "ash-tree-seed",
+              "quantity": 2
+            },
+            {
+              "itemId": "feathers",
+              "quantity": 3
+            },
+            {
+              "itemId": "raw-bird-meat",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Bramblemead_Magpie_Perch"
+  },
+  {
     "id": "vault-shard-decoration",
     "name": "Vault Shard (Decoration)",
     "image": "Vault Shard (Decoration).png",
@@ -64159,6 +64173,2082 @@
       "Build Menu"
     ],
     "wikiLink": "Vault_Shard_(Decoration)"
+  },
+  {
+    "id": "sleeping-chinchompa",
+    "name": "Sleeping Chinchompa",
+    "image": "Sleeping Chinchompa.png",
+    "variants": [
+      {
+        "id": "a92917c3621a",
+        "name": "Sleeping Chinchompa",
+        "image": "Sleeping Chinchompa.png",
+        "variantName": null,
+        "recipe": {
+          "id": "56855534810f",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "animal-bone",
+              "quantity": 1
+            },
+            {
+              "itemId": "leather",
+              "quantity": 2
+            },
+            {
+              "itemId": "naptha",
+              "quantity": 2
+            },
+            {
+              "itemId": "soft-animal-fur",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Sleeping_Chinchompa"
+  },
+  {
+    "id": "brynmoor-falcon-perch",
+    "name": "Brynmoor Falcon Perch",
+    "image": "Brynmoor Falcon Perch.png",
+    "variants": [
+      {
+        "id": "7cc5afb74095",
+        "name": "Brynmoor Falcon Perch",
+        "image": "Brynmoor Falcon Perch.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e3fa69be1a94",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "feathers",
+              "quantity": 3
+            },
+            {
+              "itemId": "kwuarm-seeds",
+              "quantity": 2
+            },
+            {
+              "itemId": "oak-logs",
+              "quantity": 4
+            },
+            {
+              "itemId": "raw-bird-meat",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Brynmoor_Falcon_Perch"
+  },
+  {
+    "id": "fellhollow-spectral-magpie-perch",
+    "name": "Fellhollow Spectral Magpie Perch",
+    "image": "Fellhollow Spectral Magpie Perch.png",
+    "variants": [
+      {
+        "id": "3279709c8f5e",
+        "name": "Fellhollow Spectral Magpie Perch",
+        "image": "Fellhollow Spectral Magpie Perch.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1d3d98d758c6",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ectoplasm",
+              "quantity": 1
+            },
+            {
+              "itemId": "feathers",
+              "quantity": 3
+            },
+            {
+              "itemId": "irit-seeds",
+              "quantity": 2
+            },
+            {
+              "itemId": "willow-logs",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Fellhollow_Spectral_Magpie_Perch"
+  },
+  {
+    "id": "dowdun-raven-perch",
+    "name": "Dowdun Raven Perch",
+    "image": "Dowdun Raven Perch.png",
+    "variants": [
+      {
+        "id": "388939ea1369",
+        "name": "Dowdun Raven Perch",
+        "image": "Dowdun Raven Perch.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ae769ea7d634",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-fillet",
+              "quantity": 1
+            },
+            {
+              "itemId": "feathers",
+              "quantity": 3
+            },
+            {
+              "itemId": "maple-logs",
+              "quantity": 4
+            },
+            {
+              "itemId": "maple-tree-seed",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Dowdun_Raven_Perch"
+  },
+  {
+    "id": "umbral-vulture-perch",
+    "name": "Umbral Vulture Perch",
+    "image": "Umbral Vulture Perch.png",
+    "variants": [
+      {
+        "id": "c5c2627cc300",
+        "name": "Umbral Vulture Perch",
+        "image": "Umbral Vulture Perch.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a018b2cceff2",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "bunny-cactus-seed",
+              "quantity": 2
+            },
+            {
+              "itemId": "feathers",
+              "quantity": 3
+            },
+            {
+              "itemId": "raw-bird-meat",
+              "quantity": 1
+            },
+            {
+              "itemId": "yew-logs",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Umbral_Vulture_Perch"
+  },
+  {
+    "id": "muchers-basket",
+    "name": "Mucher's Basket",
+    "image": "Mucher's Basket.png",
+    "variants": [
+      {
+        "id": "2204a8248f77",
+        "name": "Mucher's Basket",
+        "image": "Mucher's Basket.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5f947f2794df",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ectoplasm",
+              "quantity": 2
+            },
+            {
+              "itemId": "fine-cloth",
+              "quantity": 2
+            },
+            {
+              "itemId": "undead-bone",
+              "quantity": 2
+            },
+            {
+              "itemId": "willow-logs",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Mucher's_Basket"
+  },
+  {
+    "id": "imaru-tapestry",
+    "name": "Imaru Tapestry",
+    "image": "Imaru Tapestry.png",
+    "variants": [
+      {
+        "id": "fca19f9c7a3a",
+        "name": "Imaru Tapestry",
+        "image": "Imaru Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f3367dfc87e6",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Imaru_Tapestry"
+  },
+  {
+    "id": "fellhollow-arena-tapestry",
+    "name": "Fellhollow Arena Tapestry",
+    "image": "Fellhollow Arena Tapestry.png",
+    "variants": [
+      {
+        "id": "683d69d71afe",
+        "name": "Fellhollow Arena Tapestry",
+        "image": "Fellhollow Arena Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a2dd1107aa40",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Fellhollow_Arena_Tapestry"
+  },
+  {
+    "id": "ghornfell-water-tapestry",
+    "name": "Ghornfell Water Tapestry",
+    "image": "Ghornfell Water Tapestry.png",
+    "variants": [
+      {
+        "id": "58626fca0120",
+        "name": "Ghornfell Water Tapestry",
+        "image": "Ghornfell Water Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2be373c8532d",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Ghornfell_Water_Tapestry"
+  },
+  {
+    "id": "ghornfell-toxic-tapestry",
+    "name": "Ghornfell Toxic Tapestry",
+    "image": "Ghornfell Toxic Tapestry.png",
+    "variants": [
+      {
+        "id": "7ef51dfd204b",
+        "name": "Ghornfell Toxic Tapestry",
+        "image": "Ghornfell Toxic Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "af6c9acb0604",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Ghornfell_Toxic_Tapestry"
+  },
+  {
+    "id": "ghornfell-meadows-tapestry",
+    "name": "Ghornfell Meadows Tapestry",
+    "image": "Ghornfell Meadows Tapestry.png",
+    "variants": [
+      {
+        "id": "95ec1ed02c64",
+        "name": "Ghornfell Meadows Tapestry",
+        "image": "Ghornfell Meadows Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2252dea956b0",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Ghornfell_Meadows_Tapestry"
+  },
+  {
+    "id": "ghornfell-highlands-tapestry",
+    "name": "Ghornfell Highlands Tapestry",
+    "image": "Ghornfell Highlands Tapestry.png",
+    "variants": [
+      {
+        "id": "5b990f3bf5d8",
+        "name": "Ghornfell Highlands Tapestry",
+        "image": "Ghornfell Highlands Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0f87e555ca78",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Ghornfell_Highlands_Tapestry"
+  },
+  {
+    "id": "ghornfell-forest-tapestry",
+    "name": "Ghornfell Forest Tapestry",
+    "image": "Ghornfell Forest Tapestry.png",
+    "variants": [
+      {
+        "id": "8bbddb7b4d07",
+        "name": "Ghornfell Forest Tapestry",
+        "image": "Ghornfell Forest Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "de6354d9202f",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Ghornfell_Forest_Tapestry"
+  },
+  {
+    "id": "ghornfell-caves-tapestry",
+    "name": "Ghornfell Caves Tapestry",
+    "image": "Ghornfell Caves Tapestry.png",
+    "variants": [
+      {
+        "id": "8ccc4ffaa713",
+        "name": "Ghornfell Caves Tapestry",
+        "image": "Ghornfell Caves Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "286895245ffe",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Ghornfell_Caves_Tapestry"
+  },
+  {
+    "id": "umbral-sands-tower-tapestry",
+    "name": "Umbral Sands Tower Tapestry",
+    "image": "Umbral Sands Tower Tapestry.png",
+    "variants": [
+      {
+        "id": "4051732fdf6a",
+        "name": "Umbral Sands Tower Tapestry",
+        "image": "Umbral Sands Tower Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "34e4fcfd7adb",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Umbral_Sands_Tower_Tapestry"
+  },
+  {
+    "id": "umbral-sands-ruins-tapestry",
+    "name": "Umbral Sands Ruins Tapestry",
+    "image": "Umbral Sands Ruins Tapestry.png",
+    "variants": [
+      {
+        "id": "2045aaa6632f",
+        "name": "Umbral Sands Ruins Tapestry",
+        "image": "Umbral Sands Ruins Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "48179c648255",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Umbral_Sands_Ruins_Tapestry"
+  },
+  {
+    "id": "umbral-sands-pit-tapestry",
+    "name": "Umbral Sands Pit Tapestry",
+    "image": "Umbral Sands Pit Tapestry.png",
+    "variants": [
+      {
+        "id": "7aeb80c349aa",
+        "name": "Umbral Sands Pit Tapestry",
+        "image": "Umbral Sands Pit Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "58d2e3fb6979",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Umbral_Sands_Pit_Tapestry"
+  },
+  {
+    "id": "umbral-sands-landscape-tapestry",
+    "name": "Umbral Sands Landscape Tapestry",
+    "image": "Umbral Sands Landscape Tapestry.png",
+    "variants": [
+      {
+        "id": "5f79268a3f09",
+        "name": "Umbral Sands Landscape Tapestry",
+        "image": "Umbral Sands Landscape Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "3a9d2773e599",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Umbral_Sands_Landscape_Tapestry"
+  },
+  {
+    "id": "umbral-sands-arena-tapestry",
+    "name": "Umbral Sands Arena Tapestry",
+    "image": "Umbral Sands Arena Tapestry.png",
+    "variants": [
+      {
+        "id": "a0d145b057d6",
+        "name": "Umbral Sands Arena Tapestry",
+        "image": "Umbral Sands Arena Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ab13f606a5a5",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Umbral_Sands_Arena_Tapestry"
+  },
+  {
+    "id": "brynmoor-swamp-night-tapestry",
+    "name": "Brynmoor Swamp Night Tapestry",
+    "image": "Brynmoor Swamp Night Tapestry.png",
+    "variants": [
+      {
+        "id": "ffb4cfe3692c",
+        "name": "Brynmoor Swamp Night Tapestry",
+        "image": "Brynmoor Swamp Night Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2f9a4cd46b6c",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Brynmoor_Swamp_Night_Tapestry"
+  },
+  {
+    "id": "brynmoor-swamp-toxic-tapestry",
+    "name": "Brynmoor Swamp Toxic Tapestry",
+    "image": "Brynmoor Swamp Toxic Tapestry.png",
+    "variants": [
+      {
+        "id": "d200302564de",
+        "name": "Brynmoor Swamp Toxic Tapestry",
+        "image": "Brynmoor Swamp Toxic Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "47c3069ae0a8",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Brynmoor_Swamp_Toxic_Tapestry"
+  },
+  {
+    "id": "brynmoor-swamp-tapestry",
+    "name": "Brynmoor Swamp Tapestry",
+    "image": "Brynmoor Swamp Tapestry.png",
+    "variants": [
+      {
+        "id": "2aa8e86b04f8",
+        "name": "Brynmoor Swamp Tapestry",
+        "image": "Brynmoor Swamp Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "54094256520e",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Brynmoor_Swamp_Tapestry"
+  },
+  {
+    "id": "brynmoor-lake-tapestry",
+    "name": "Brynmoor Lake Tapestry",
+    "image": "Brynmoor Lake Tapestry.png",
+    "variants": [
+      {
+        "id": "b23a22f04bcc",
+        "name": "Brynmoor Lake Tapestry",
+        "image": "Brynmoor Lake Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "64a54ec02cb7",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Brynmoor_Lake_Tapestry"
+  },
+  {
+    "id": "brynmoor-hills-tapestry",
+    "name": "Brynmoor Hills Tapestry",
+    "image": "Brynmoor Hills Tapestry.png",
+    "variants": [
+      {
+        "id": "be77802d3c77",
+        "name": "Brynmoor Hills Tapestry",
+        "image": "Brynmoor Hills Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "523e0a39b43c",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Brynmoor_Hills_Tapestry"
+  },
+  {
+    "id": "dowdun-reach-temple-tapestry",
+    "name": "Dowdun Reach Temple Tapestry",
+    "image": "Dowdun Reach Temple Tapestry.png",
+    "variants": [
+      {
+        "id": "78921dfc90a1",
+        "name": "Dowdun Reach Temple Tapestry",
+        "image": "Dowdun Reach Temple Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9c1bc00d9b53",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Dowdun_Reach_Temple_Tapestry"
+  },
+  {
+    "id": "dowdun-reach-library-tapestry",
+    "name": "Dowdun Reach Library Tapestry",
+    "image": "Dowdun Reach Library Tapestry.png",
+    "variants": [
+      {
+        "id": "5b3182bb14d8",
+        "name": "Dowdun Reach Library Tapestry",
+        "image": "Dowdun Reach Library Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b61c9815de2c",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Dowdun_Reach_Library_Tapestry"
+  },
+  {
+    "id": "dowdun-reach-halls-tapestry",
+    "name": "Dowdun Reach Halls Tapestry",
+    "image": "Dowdun Reach Halls Tapestry.png",
+    "variants": [
+      {
+        "id": "06a29fbd49b8",
+        "name": "Dowdun Reach Halls Tapestry",
+        "image": "Dowdun Reach Halls Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2f42da928af4",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Dowdun_Reach_Halls_Tapestry"
+  },
+  {
+    "id": "dowdun-reach-crystal-tapestry",
+    "name": "Dowdun Reach Crystal Tapestry",
+    "image": "Dowdun Reach Crystal Tapestry.png",
+    "variants": [
+      {
+        "id": "62afd81bbbfe",
+        "name": "Dowdun Reach Crystal Tapestry",
+        "image": "Dowdun Reach Crystal Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4d893daead6d",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Dowdun_Reach_Crystal_Tapestry"
+  },
+  {
+    "id": "dowdun-reach-courtyard-tapestry",
+    "name": "Dowdun Reach Courtyard Tapestry",
+    "image": "Dowdun Reach Courtyard Tapestry.png",
+    "variants": [
+      {
+        "id": "57032f4df3e9",
+        "name": "Dowdun Reach Courtyard Tapestry",
+        "image": "Dowdun Reach Courtyard Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ff20ae70f771",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Dowdun_Reach_Courtyard_Tapestry"
+  },
+  {
+    "id": "dowdun-reach-approach-tapestry",
+    "name": "Dowdun Reach Approach Tapestry",
+    "image": "Dowdun Reach Approach Tapestry.png",
+    "variants": [
+      {
+        "id": "aae23ebc8c0b",
+        "name": "Dowdun Reach Approach Tapestry",
+        "image": "Dowdun Reach Approach Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "403b6d574814",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Dowdun_Reach_Approach_Tapestry"
+  },
+  {
+    "id": "brynmoor-lake-flora-tapestry",
+    "name": "Brynmoor Lake Flora Tapestry",
+    "image": "Brynmoor Lake Flora Tapestry.png",
+    "variants": [
+      {
+        "id": "5a668e826a27",
+        "name": "Brynmoor Lake Flora Tapestry",
+        "image": "Brynmoor Lake Flora Tapestry.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fda35ef04647",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Brynmoor_Lake_Flora_Tapestry"
+  },
+  {
+    "id": "skill-tome-standing-agility",
+    "name": "Skill Tome (Standing) - Agility",
+    "image": "Skill Tome (Standing) - Agility.png",
+    "variants": [
+      {
+        "id": "ab536e70df3a",
+        "name": "Skill Tome (Standing) - Agility",
+        "image": "Skill Tome (Standing) - Agility.png",
+        "variantName": "Standing",
+        "recipe": {
+          "id": "f932e9b12fc5",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 1
+            },
+            {
+              "itemId": "leather",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Skill_Tome_(Standing)_-_Agility"
+  },
+  {
+    "id": "skill-tome-agility",
+    "name": "Skill Tome - Agility",
+    "image": "Skill Tome - Agility.png",
+    "variants": [
+      {
+        "id": "14696e582ec8",
+        "name": "Skill Tome - Agility",
+        "image": "Skill Tome - Agility.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6e612988e09d",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 1
+            },
+            {
+              "itemId": "leather",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Skill_Tome_-_Agility"
+  },
+  {
+    "id": "green-dragon-trophy",
+    "name": "Green Dragon Trophy",
+    "image": "Green Dragon Trophy.png",
+    "variants": [
+      {
+        "id": "47df93726dae",
+        "name": "Green Dragon Trophy",
+        "image": "Green Dragon Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c72ec2128fbe",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Green_Dragon_Trophy"
+  },
+  {
+    "id": "blue-dragon-trophy",
+    "name": "Blue Dragon Trophy",
+    "image": "Blue Dragon Trophy.png",
+    "variants": [
+      {
+        "id": "a4ab300d132e",
+        "name": "Blue Dragon Trophy",
+        "image": "Blue Dragon Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "31a68ee32670",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Blue_Dragon_Trophy"
+  },
+  {
+    "id": "black-dragon-trophy",
+    "name": "Black Dragon Trophy",
+    "image": "Black Dragon Trophy.png",
+    "variants": [
+      {
+        "id": "147436a12a3a",
+        "name": "Black Dragon Trophy",
+        "image": "Black Dragon Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b24647b5e8e5",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Black_Dragon_Trophy"
+  },
+  {
+    "id": "red-dragon-trophy",
+    "name": "Red Dragon Trophy",
+    "image": "Red Dragon Trophy.png",
+    "variants": [
+      {
+        "id": "f2b555bf4f14",
+        "name": "Red Dragon Trophy",
+        "image": "Red Dragon Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "cecf6b87ddb7",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Red_Dragon_Trophy"
+  },
+  {
+    "id": "abyssal-demon-trophy",
+    "name": "Abyssal Demon Trophy",
+    "image": "Abyssal Demon Trophy.png",
+    "variants": [
+      {
+        "id": "99af2088008a",
+        "name": "Abyssal Demon Trophy",
+        "image": "Abyssal Demon Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "630e07b898d1",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Abyssal_Demon_Trophy"
+  },
+  {
+    "id": "carnivorous-chinchompa-trophy",
+    "name": "Carnivorous Chinchompa Trophy",
+    "image": "Carnivorous Chinchompa Trophy.png",
+    "variants": [
+      {
+        "id": "adfd7eb0a56c",
+        "name": "Carnivorous Chinchompa Trophy",
+        "image": "Carnivorous Chinchompa Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6e07801f327b",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Carnivorous_Chinchompa_Trophy"
+  },
+  {
+    "id": "dire-wolf-trophy",
+    "name": "Dire Wolf Trophy",
+    "image": "Dire Wolf Trophy.png",
+    "variants": [
+      {
+        "id": "54b7207d26b6",
+        "name": "Dire Wolf Trophy",
+        "image": "Dire Wolf Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "27ef2efd6ffe",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Dire_Wolf_Trophy"
+  },
+  {
+    "id": "hell-rat-trophy",
+    "name": "Hell Rat Trophy",
+    "image": "Hell Rat Trophy.png",
+    "variants": [
+      {
+        "id": "a17181188333",
+        "name": "Hell Rat Trophy",
+        "image": "Hell Rat Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d1cdb76fe6a3",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Hell_Rat_Trophy"
+  },
+  {
+    "id": "infinity-zogre-trophy",
+    "name": "Infinity Zogre Trophy",
+    "image": "Infinity Zogre Trophy.png",
+    "variants": [
+      {
+        "id": "99ea9f410b52",
+        "name": "Infinity Zogre Trophy",
+        "image": "Infinity Zogre Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1285871b67ca",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Infinity_Zogre_Trophy"
+  },
+  {
+    "id": "kalphite-guardian-trophy",
+    "name": "Kalphite Guardian Trophy",
+    "image": "Kalphite Guardian Trophy.png",
+    "variants": [
+      {
+        "id": "2d02563255a8",
+        "name": "Kalphite Guardian Trophy",
+        "image": "Kalphite Guardian Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b311a9d247af",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Kalphite_Guardian_Trophy"
+  },
+  {
+    "id": "kalphite-queen-trophy",
+    "name": "Kalphite Queen Trophy",
+    "image": "Kalphite Queen Trophy.png",
+    "variants": [
+      {
+        "id": "2f1448ce22a5",
+        "name": "Kalphite Queen Trophy",
+        "image": "Kalphite Queen Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "bd5d37934cd9",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Kalphite_Queen_Trophy"
+  },
+  {
+    "id": "kalphite-soldier-trophy",
+    "name": "Kalphite Soldier Trophy",
+    "image": "Kalphite Soldier Trophy.png",
+    "variants": [
+      {
+        "id": "0d8cc5701279",
+        "name": "Kalphite Soldier Trophy",
+        "image": "Kalphite Soldier Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "087dda64333d",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Kalphite_Soldier_Trophy"
+  },
+  {
+    "id": "kalphite-worker-trophy",
+    "name": "Kalphite Worker Trophy",
+    "image": "Kalphite Worker Trophy.png",
+    "variants": [
+      {
+        "id": "fd483d3367a7",
+        "name": "Kalphite Worker Trophy",
+        "image": "Kalphite Worker Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "78a43fc091e4",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Kalphite_Worker_Trophy"
+  },
+  {
+    "id": "rotridden-cow-trophy",
+    "name": "Rotridden Cow Trophy",
+    "image": "Rotridden Cow Trophy.png",
+    "variants": [
+      {
+        "id": "6c880a42a727",
+        "name": "Rotridden Cow Trophy",
+        "image": "Rotridden Cow Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ca936fc88846",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Rotridden_Cow_Trophy"
+  },
+  {
+    "id": "rotridden-rat-trophy",
+    "name": "Rotridden Rat Trophy",
+    "image": "Rotridden Rat Trophy.png",
+    "variants": [
+      {
+        "id": "0c7106c31d46",
+        "name": "Rotridden Rat Trophy",
+        "image": "Rotridden Rat Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "dcaaccec6e5e",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Rotridden_Rat_Trophy"
+  },
+  {
+    "id": "rotsworn-zombie-trophy",
+    "name": "Rotsworn Zombie Trophy",
+    "image": "Rotsworn Zombie Trophy.png",
+    "variants": [
+      {
+        "id": "da642a1f791e",
+        "name": "Rotsworn Zombie Trophy",
+        "image": "Rotsworn Zombie Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6199c4cc17fb",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Rotsworn_Zombie_Trophy"
+  },
+  {
+    "id": "skeleton-trophy",
+    "name": "Skeleton Trophy",
+    "image": "Skeleton Trophy.png",
+    "variants": [
+      {
+        "id": "63ec9904debd",
+        "name": "Skeleton Trophy",
+        "image": "Skeleton Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1913c91f3f6a",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Skeleton_Trophy"
+  },
+  {
+    "id": "skeletons-trophy",
+    "name": "Skeletons Trophy",
+    "image": "Skeletons Trophy.png",
+    "variants": [
+      {
+        "id": "2168a235091c",
+        "name": "Skeletons Trophy",
+        "image": "Skeletons Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "60778543e19f",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Skeletons_Trophy"
+  },
+  {
+    "id": "terrorbird-trophy",
+    "name": "Terrorbird Trophy",
+    "image": "Terrorbird Trophy.png",
+    "variants": [
+      {
+        "id": "db5266815735",
+        "name": "Terrorbird Trophy",
+        "image": "Terrorbird Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e34d7987060b",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Terrorbird_Trophy"
+  },
+  {
+    "id": "winged-kalphite-queen-trophy",
+    "name": "Winged Kalphite Queen Trophy",
+    "image": "Winged Kalphite Queen Trophy.png",
+    "variants": [
+      {
+        "id": "b153653eacae",
+        "name": "Winged Kalphite Queen Trophy",
+        "image": "Winged Kalphite Queen Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "64f9f6cfee64",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Winged_Kalphite_Queen_Trophy"
+  },
+  {
+    "id": "wolf-trophy",
+    "name": "Wolf Trophy",
+    "image": "Wolf Trophy.png",
+    "variants": [
+      {
+        "id": "2a36f28af7f3",
+        "name": "Wolf Trophy",
+        "image": "Wolf Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0893c0b84673",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Wolf_Trophy"
+  },
+  {
+    "id": "zogre-hand-trophy",
+    "name": "Zogre Hand Trophy",
+    "image": "Zogre Hand Trophy.png",
+    "variants": [
+      {
+        "id": "3760c01ecc3e",
+        "name": "Zogre Hand Trophy",
+        "image": "Zogre Hand Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "07d03057833f",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Zogre_Hand_Trophy"
+  },
+  {
+    "id": "zogre-trophy",
+    "name": "Zogre Trophy",
+    "image": "Zogre Trophy.png",
+    "variants": [
+      {
+        "id": "0de1cbf993ec",
+        "name": "Zogre Trophy",
+        "image": "Zogre Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e5c1fc03f07c",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Zogre_Trophy"
+  },
+  {
+    "id": "zombie-rat-trophy",
+    "name": "Zombie Rat Trophy",
+    "image": "Zombie Rat Trophy.png",
+    "variants": [
+      {
+        "id": "5b0b56106d13",
+        "name": "Zombie Rat Trophy",
+        "image": "Zombie Rat Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6cb0c3819db0",
+          "facilities": [],
+          "materials": [],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Zombie_Rat_Trophy"
   },
   {
     "id": "goblin-pack",
@@ -75634,40 +77724,32 @@
     "image": "Ascension Shard (Power Level 4).png",
     "variants": [
       {
-        "id": "ascension-shard",
-        "name": "Ascension Shard",
+        "id": "ascension-shard-4",
+        "name": "Ascension Shard 4",
         "image": "Ascension Shard (Power Level 4).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
       },
       {
-        "id": "ascension-shard",
-        "name": "Ascension Shard",
+        "id": "ascension-shard-5",
+        "name": "Ascension Shard 5",
         "image": "Ascension Shard (Power Level 5).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
       },
       {
-        "id": "ascension-shard",
-        "name": "Ascension Shard",
+        "id": "ascension-shard-6",
+        "name": "Ascension Shard 6",
         "image": "Ascension Shard (Power Level 6).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
       },
       {
-        "id": "ascension-shard",
-        "name": "Ascension Shard",
-        "image": "Ascension Shard (Power Level 7).png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      },
-      {
-        "id": "ascension-shard",
-        "name": "Ascension Shard",
+        "id": "ascension-shard-8",
+        "name": "Ascension Shard 8",
         "image": "Ascension Shard (Power Level 8).png",
         "variantName": null,
         "recipe": null,
@@ -77001,5 +79083,25 @@
     "weight": 0,
     "itemType": "Seed",
     "stackLimit": 999
+  },
+  {
+    "id": "tome-of-agility-vol-1",
+    "name": "Tome of Agility - Vol 1.",
+    "image": "Tome of Agility - Vol 1.png",
+    "variants": [
+      {
+        "id": "tome-of-agility-vol-1",
+        "name": "Tome of Agility - Vol 1",
+        "image": "Tome of Agility - Vol 1.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Tome_of_Agility_-_Vol_1.",
+    "weight": 2,
+    "itemType": "Resource"
   }
 ]
