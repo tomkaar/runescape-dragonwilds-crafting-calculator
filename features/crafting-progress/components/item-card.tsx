@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronRight, Trash2 } from "lucide-react";
+import { ChevronRight, Trash2, TriangleAlert } from "lucide-react";
 import Link from "next/link";
 import { ConfirmAlertDialog } from "@/components/confirm-alert-dialog";
 import {
@@ -29,6 +29,9 @@ type Props = {
 export function ItemCard({ itemId, item }: Props) {
 	const clearMarkedMaterials = useSelectedMaterial(
 		(state) => state.clearMarkedMaterials,
+	);
+	const hasNoMaterials = useSelectedMaterial(
+		(state) => state.items[itemId]?.length === 0,
 	);
 
 	const multipliers = useMaterialMultiplier((state) => state.items);
@@ -59,7 +62,15 @@ export function ItemCard({ itemId, item }: Props) {
 						/>
 					)}
 					<div className="flex flex-col text-left">
-						<span>{item.name}</span>
+						<span className="flex items-center gap-1.5">
+							{item.name}
+							{hasNoMaterials && (
+								<span title="No materials selected">
+									<TriangleAlert className="size-3.5 shrink-0 text-amber-500" />
+									<span className="sr-only">No materials selected</span>
+								</span>
+							)}
+						</span>
 						<span className="text-xs text-muted-foreground font-normal">
 							Multiplier: {multiplier}x
 						</span>
@@ -109,6 +120,16 @@ export function ItemCard({ itemId, item }: Props) {
 						onConfirm={() => clearMarkedMaterials(itemId)}
 					/>
 				</div>
+
+				{hasNoMaterials && (
+					<div className="flex items-center gap-1.5 text-xs text-amber-500">
+						<TriangleAlert className="size-3.5 shrink-0 mt-0.5" />
+						<span>
+							No materials are selected. Select materials below or remove the
+							item.
+						</span>
+					</div>
+				)}
 
 				<RequiredMaterialsContent itemId={itemId} skipFirstLayer />
 			</AccordionContent>
