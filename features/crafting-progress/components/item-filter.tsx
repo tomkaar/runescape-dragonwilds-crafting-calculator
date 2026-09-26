@@ -41,7 +41,15 @@ export function ItemFilter({ trackedItemIds, filteredItemIds }: Props) {
 	return (
 		<div className="bg-background rounded-lg border border-accent p-4 flex flex-col gap-3">
 			<div>
-				<h2 className="font-semibold text-sm">Filter</h2>
+				<h2 className="font-semibold text-sm">
+					Filter
+					{filteredItemIds.length !== trackedItemIds.length ? (
+						<span className="text-xs text-muted-foreground">
+							{" "}
+							({filteredItemIds.length} / {trackedItemIds.length} selected)
+						</span>
+					) : null}
+				</h2>
 				<p className="text-xs text-muted-foreground mt-0.5">
 					Choose which tracked items are included in the materials, next steps,
 					facilities and experience below.
@@ -113,9 +121,6 @@ export function ItemFilter({ trackedItemIds, filteredItemIds }: Props) {
 						</ComboboxList>
 					</ComboboxContent>
 				</Combobox>
-				<span className="text-xs text-muted-foreground">
-					{filteredItemIds.length} / {trackedItemIds.length} selected
-				</span>
 			</div>
 		</div>
 	);
