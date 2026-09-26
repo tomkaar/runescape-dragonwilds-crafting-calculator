@@ -789,13 +789,13 @@
     "item_name": "Tattered Cape",
     "json": {
       "description": "It provides some warmth... barely.",
-      "weight": "5.0",
+      "weight": "0.0",
       "image": "[[File:Tattered Cape.png|32px]]",
       "name": "Tattered Cape",
       "item_type": "Basic Item",
       "image_raw": "Tattered Cape.png"
     },
-    "item_weight": 5
+    "item_weight": 0
   },
   {
     "page_name": "Meat Stew",
@@ -1137,10 +1137,10 @@
     "json": {
       "description": "A shortbow carved from ash wood.",
       "weight": "10.0",
-      "image": "[[File:Ash Shortbow.png|32px]]",
+      "image": "[[File:Ash Shortbow (Journal).png|32px]]",
       "name": "Ash Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Ash Shortbow.png"
+      "image_raw": "Ash Shortbow (Journal).png"
     },
     "item_weight": 10
   },
@@ -1153,10 +1153,10 @@
     "json": {
       "description": "An agile shortbow carved from oak wood.",
       "weight": "10.0",
-      "image": "[[File:Oak Shortbow.png|32px]]",
+      "image": "[[File:Oak Shortbow (Journal).png|32px]]",
       "name": "Oak Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Oak Shortbow.png"
+      "image_raw": "Oak Shortbow (Journal).png"
     },
     "item_weight": 10
   },
@@ -1185,10 +1185,10 @@
     "json": {
       "description": "A finely crafted bow, fast and reliable.",
       "weight": "15.0",
-      "image": "[[File:Blightwood Shortbow.png|32px]]",
+      "image": "[[File:Blightwood Shortbow (Journal).png|32px]]",
       "name": "Blightwood Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Blightwood Shortbow.png"
+      "image_raw": "Blightwood Shortbow (Journal).png"
     },
     "item_weight": 15
   },
@@ -2163,10 +2163,10 @@
     "json": {
       "description": "A powerful Shortbow fashioned from crystal of elven origin.",
       "weight": "10.0",
-      "image": "[[File:Crystal Bow.png|32px]]",
+      "image": "[[File:Crystal Bow (Journal).png|32px]]",
       "name": "Crystal Bow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Crystal Bow.png"
+      "image_raw": "Crystal Bow (Journal).png"
     },
     "item_weight": 10
   },
@@ -9774,10 +9774,10 @@
     "json": {
       "description": "An agile Shortbow crafted from Willow.",
       "weight": "10.0",
-      "image": "[[File:Willow Shortbow.png|32px]]",
+      "image": "[[File:Willow Shortbow (Journal).png|32px]]",
       "name": "Willow Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Willow Shortbow.png"
+      "image_raw": "Willow Shortbow (Journal).png"
     },
     "item_weight": 10
   },
@@ -12967,10 +12967,10 @@
     "json": {
       "description": "A limber shortbow carved from maple wood<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
       "weight": "10.0",
-      "image": "[[File:Maple Shortbow.png|32px]]",
+      "image": "[[File:Maple Shortbow (Jounal).png|32px]]",
       "name": "Maple Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Maple Shortbow.png"
+      "image_raw": "Maple Shortbow (Jounal).png"
     },
     "item_weight": 10
   },
@@ -16631,7 +16631,7 @@
     "item_description": "Made by combining dried giant krill, fried cabbage and a braised catfish.",
     "page_name_sub": "Stuffed Catfish",
     "item_weight": 0.7,
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "description": "Made by combining dried giant krill, fried cabbage and a braised catfish.",
       "duration": "600 seconds<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"Despite still listing a duration of 600 seconds, Stuffed Catfish no longer provides the Perks Sea Legs or Sea Life.\">sic</span>&#93;</sup>",
@@ -16641,7 +16641,7 @@
       "name": "Stuffed Catfish",
       "item_type": "Food",
       "sustenance": "80",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Stuffed Catfish.png"
     },
     "item_type": "Food",
@@ -18361,12 +18361,12 @@
   },
   {
     "page_name": "Kot Pack",
-    "item_description": "To say that a Kot Pack is the belongings of a single KotHaar is something of a misrepresentation. You're actually holding the belongings of dozens of KotHaar, stretching back millennia. A KotHaar will carry the obsidian of their ancestors, which was reconstituted from their ancestors before them. The Kot Pack is a lineage, an ancestral record of the creature you killed. It puts things a little into perspective, and I'm sure you will treat it with the respect it deserves.",
+    "item_description": "A flame-retardant bag full of various knickknacks.",
     "page_name_sub": "Kot Pack",
     "item_weight": 1,
     "item_stacklimit": 99,
     "json": {
-      "description": "To say that a Kot Pack is the belongings of a single KotHaar is something of a misrepresentation. You're actually holding the belongings of dozens of KotHaar, stretching back millennia. A KotHaar will carry the obsidian of their ancestors, which was reconstituted from their ancestors before them. The Kot Pack is a lineage, an ancestral record of the creature you killed. It puts things a little into perspective, and I'm sure you will treat it with the respect it deserves.",
+      "description": "A flame-retardant bag full of various knickknacks.",
       "weight": "1.0",
       "image": "[[File:Kot Pack.png|32px]]",
       "name": "Kot Pack",
@@ -19368,11 +19368,11 @@
     "item_name": "Yew Shortbow",
     "json": {
       "description": "A strong shortbow made from yew.",
-      "weight": "10",
-      "image": "[[File:Yew Shortbow.png|32px]]",
+      "weight": "10.0",
+      "image": "[[File:Yew Shortbow (Journal).png|32px]]",
       "name": "Yew Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Yew Shortbow.png"
+      "image_raw": "Yew Shortbow (Journal).png"
     },
     "item_weight": 10
   },
@@ -23264,10 +23264,10 @@
     "json": {
       "description": "A masterfully forged pickaxe of pure runite, capable of breaking through even the toughest stone with ease.",
       "weight": "5.0",
-      "image": "[[File:Rune Pickaxe.png|32px]]",
+      "image": "[[File:Rune Pickaxe (Journal).png|32px]]",
       "name": "Rune Pickaxe",
       "item_type": "Tool",
-      "image_raw": "Rune Pickaxe.png"
+      "image_raw": "Rune Pickaxe (Journal).png"
     },
     "item_weight": 5
   },
@@ -23280,10 +23280,10 @@
     "json": {
       "description": "Crafted from durable runite, this axe bites deeply into timber and stands up to years of hard use.",
       "weight": "5.0",
-      "image": "[[File:Rune Logging Axe.png|32px]]",
+      "image": "[[File:Rune Logging Axe (Journal).png|32px]]",
       "name": "Rune Logging Axe",
       "item_type": "Tool",
-      "image_raw": "Rune Logging Axe.png"
+      "image_raw": "Rune Logging Axe (Journal).png"
     },
     "item_weight": 5
   },
@@ -23346,10 +23346,10 @@
     "json": {
       "description": "Whether digging gardening plots or unearthing treasure, this tool is built to last.",
       "weight": "5.5",
-      "image": "[[File:Rune Spade.png|32px]]",
+      "image": "[[File:Rune Spade (Journal).png|32px]]",
       "name": "Rune Spade",
       "item_type": "Tool",
-      "image_raw": "Rune Spade.png"
+      "image_raw": "Rune Spade (Journal).png"
     },
     "item_weight": 5.5
   },
@@ -23462,10 +23462,10 @@
     "json": {
       "description": "A sturdy rune watering can, built to endure countless seasons of tending crops and gardens.",
       "weight": "5.5",
-      "image": "[[File:Rune Watering Can.png|32px]]",
+      "image": "[[File:Rune Watering Can (Journal).png|32px]]",
       "name": "Rune Watering Can",
       "item_type": "Tool",
-      "image_raw": "Rune Watering Can.png"
+      "image_raw": "Rune Watering Can (Journal).png"
     },
     "item_weight": 5.5
   },
@@ -23794,13 +23794,13 @@
       "weight": "0.0",
       "compostvalue": "",
       "health": "",
-      "image": "[[File:Dragonslayer's Cape.png|32px]]",
+      "image": "[[File:Dragonslayer's Cape (Journal).png|32px]]",
       "name": "Dragonslayer's Cape",
       "item_type": "Cape",
       "sustenance": "",
       "hydration": "",
       "stacklimit": "",
-      "image_raw": "Dragonslayer's Cape.png"
+      "image_raw": "Dragonslayer's Cape (Journal).png"
     },
     "item_type": "Cape",
     "item_name": "Dragonslayer's Cape"

@@ -1452,7 +1452,7 @@
       "Armour Bench"
     ],
     "wikiLink": "Tattered_Cape",
-    "weight": 5,
+    "weight": 0,
     "itemType": "Basic Item"
   },
   {
@@ -46733,7 +46733,7 @@
     "weight": 0.7,
     "itemType": "Food",
     "health": 200,
-    "stackLimit": 50,
+    "stackLimit": 99,
     "sustenance": 80
   },
   {
@@ -55122,7 +55122,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 300
+              "experience": 60
             }
           ]
         },
@@ -59423,35 +59423,35 @@
     "image": "Ancestral Robes.png",
     "variants": [
       {
-        "id": "6acf94b94659",
+        "id": "32decf2c3ca2",
         "name": "Ancestral Robes",
         "image": "Ancestral Robes.png",
         "variantName": null,
         "recipe": {
-          "id": "c53444e275a0",
+          "id": "df7fac9095d7",
           "facilities": [
             "Armour Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 3
+              "quantity": 2
             },
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 3
+              "quantity": 2
             },
             {
               "itemId": "harmonised-compound",
-              "quantity": 3
+              "quantity": 2
             },
             {
               "itemId": "rune-bar",
-              "quantity": 3
+              "quantity": 2
             },
             {
               "itemId": "vis-cloth",
-              "quantity": 6
+              "quantity": 4
             }
           ],
           "quantity": 1,
@@ -60769,19 +60769,19 @@
     "image": "Harmonised Compound.png",
     "variants": [
       {
-        "id": "6827cf99e3bd",
+        "id": "43c06390497c",
         "name": "Harmonised Compound",
         "image": "Harmonised Compound.png",
         "variantName": null,
         "recipe": {
-          "id": "85b931b0bdb4",
+          "id": "744ed2183c43",
           "facilities": [
             "Kiln"
           ],
           "materials": [
             {
               "itemId": "discordant-residue",
-              "quantity": 3
+              "quantity": 1
             }
           ],
           "quantity": 1,
@@ -60812,23 +60812,23 @@
     "image": "Vis Fibres.png",
     "variants": [
       {
-        "id": "1f7e5282759a",
+        "id": "7ff79c82200b",
         "name": "Vis Fibres",
         "image": "Vis Fibres.png",
         "variantName": null,
         "recipe": {
-          "id": "649f84a35843",
+          "id": "86c11f34c6fb",
           "facilities": [
             "Advanced Spinning Wheel"
           ],
           "materials": [
             {
               "itemId": "ground-rune-essence",
-              "quantity": 3
+              "quantity": 2
             },
             {
               "itemId": "harmonised-compound",
-              "quantity": 3
+              "quantity": 2
             }
           ],
           "quantity": 1,
@@ -60859,23 +60859,23 @@
     "image": "Vis Cloth.png",
     "variants": [
       {
-        "id": "9b85b9ceb57f",
+        "id": "429e31a0b0c2",
         "name": "Vis Cloth",
         "image": "Vis Cloth.png",
         "variantName": null,
         "recipe": {
-          "id": "7e187b45ee10",
+          "id": "903f00dec005",
           "facilities": [
             "Loom"
           ],
           "materials": [
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 3
+              "quantity": 2
             },
             {
               "itemId": "vis-fibres",
-              "quantity": 3
+              "quantity": 2
             }
           ],
           "quantity": 1,
@@ -60906,27 +60906,27 @@
     "image": "Draconic Vis Wax.png",
     "variants": [
       {
-        "id": "0783447cdbcc",
+        "id": "5741f1d85ec8",
         "name": "Draconic Vis Wax",
         "image": "Draconic Vis Wax.png",
         "variantName": null,
         "recipe": {
-          "id": "b6e7509d54d2",
+          "id": "548ae8e470c6",
           "facilities": [
             "Brewing Cauldron"
           ],
           "materials": [
             {
               "itemId": "ground-dragon-tooth",
-              "quantity": 3
+              "quantity": 2
             },
             {
               "itemId": "ground-rune-essence",
-              "quantity": 3
+              "quantity": 2
             },
             {
               "itemId": "harmonised-compound",
-              "quantity": 3
+              "quantity": 2
             }
           ],
           "quantity": 1,
@@ -60957,19 +60957,19 @@
     "image": "Rune Helm.png",
     "variants": [
       {
-        "id": "12dbb482dd99",
+        "id": "5c6cccc633f0",
         "name": "Rune Helm",
         "image": "Rune Helm.png",
         "variantName": null,
         "recipe": {
-          "id": "f6bfc1961f27",
+          "id": "28217dad0533",
           "facilities": [
             "Armour Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 4
+              "quantity": 3
             },
             {
               "itemId": "draconic-vis-wax",
@@ -60981,7 +60981,7 @@
             },
             {
               "itemId": "rune-bar",
-              "quantity": 4
+              "quantity": 3
             },
             {
               "itemId": "vis-cloth",
@@ -61113,35 +61113,35 @@
     "image": "Rune Platebody.png",
     "variants": [
       {
-        "id": "bbd34c42513d",
+        "id": "27f7cd91d725",
         "name": "Rune Platebody",
         "image": "Rune Platebody.png",
         "variantName": null,
         "recipe": {
-          "id": "19fa977d306d",
+          "id": "f0a0f4e86db6",
           "facilities": [
             "Armour Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 8
+              "quantity": 6
             },
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 3
+              "quantity": 2
             },
             {
               "itemId": "harmonised-compound",
-              "quantity": 3
+              "quantity": 2
             },
             {
               "itemId": "rune-bar",
-              "quantity": 10
+              "quantity": 6
             },
             {
               "itemId": "vis-cloth",
-              "quantity": 3
+              "quantity": 2
             }
           ],
           "quantity": 1,
@@ -61171,35 +61171,35 @@
     "image": "Rune Platelegs.png",
     "variants": [
       {
-        "id": "ce897b6cab3f",
+        "id": "99c89f6c0e3c",
         "name": "Rune Platelegs",
         "image": "Rune Platelegs.png",
         "variantName": null,
         "recipe": {
-          "id": "88621edbd91f",
+          "id": "e43cac4b5b55",
           "facilities": [
             "Armour Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 6
+              "quantity": 4
             },
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 2
+              "quantity": 1
             },
             {
               "itemId": "harmonised-compound",
-              "quantity": 2
+              "quantity": 1
             },
             {
               "itemId": "rune-bar",
-              "quantity": 6
+              "quantity": 4
             },
             {
               "itemId": "vis-cloth",
-              "quantity": 2
+              "quantity": 1
             }
           ],
           "quantity": 1,
@@ -61229,35 +61229,35 @@
     "image": "Black Dragonhide Body.png",
     "variants": [
       {
-        "id": "a3e44004bf26",
+        "id": "6bb15daab776",
         "name": "Black Dragonhide Body",
         "image": "Black Dragonhide Body.png",
         "variantName": null,
         "recipe": {
-          "id": "133658ae9f5f",
+          "id": "38e9b040a600",
           "facilities": [
             "Armour Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 16
+              "quantity": 12
             },
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 3
+              "quantity": 2
             },
             {
               "itemId": "harmonised-compound",
-              "quantity": 3
+              "quantity": 2
             },
             {
               "itemId": "rune-bar",
-              "quantity": 4
+              "quantity": 3
             },
             {
               "itemId": "vis-cloth",
-              "quantity": 6
+              "quantity": 4
             }
           ],
           "quantity": 1,
@@ -61287,31 +61287,31 @@
     "image": "Rune Dagger.png",
     "variants": [
       {
-        "id": "ae36a8e914a7",
+        "id": "3d60a95845af",
         "name": "Rune Dagger",
         "image": "Rune Dagger.png",
         "variantName": null,
         "recipe": {
-          "id": "09e8276b29ff",
+          "id": "f88c223048e8",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 2
+              "quantity": 1
             },
             {
               "itemId": "harmonised-compound",
-              "quantity": 6
+              "quantity": 4
             },
             {
               "itemId": "rune-bar",
-              "quantity": 8
+              "quantity": 5
             },
             {
               "itemId": "vis-fibres",
-              "quantity": 3
+              "quantity": 2
             }
           ],
           "quantity": 1,
@@ -61341,31 +61341,31 @@
     "image": "Rune Mace.png",
     "variants": [
       {
-        "id": "cd21b60726d0",
+        "id": "e5b44e180b1d",
         "name": "Rune Mace",
         "image": "Rune Mace.png",
         "variantName": null,
         "recipe": {
-          "id": "454cfdc07598",
+          "id": "ce2879d99afa",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 4
+              "quantity": 3
             },
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 2
+              "quantity": 1
             },
             {
               "itemId": "magic-logs",
-              "quantity": 8
+              "quantity": 6
             },
             {
               "itemId": "rune-bar",
-              "quantity": 8
+              "quantity": 5
             }
           ],
           "quantity": 1,
@@ -61395,19 +61395,19 @@
     "image": "Rune Pickaxe.png",
     "variants": [
       {
-        "id": "20289230620a",
+        "id": "4eae145be3fa",
         "name": "Rune Pickaxe",
         "image": "Rune Pickaxe.png",
         "variantName": null,
         "recipe": {
-          "id": "adc09f07df24",
+          "id": "876eb89105ce",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 4
+              "quantity": 3
             },
             {
               "itemId": "draconic-vis-wax",
@@ -61415,11 +61415,11 @@
             },
             {
               "itemId": "magic-logs",
-              "quantity": 6
+              "quantity": 4
             },
             {
               "itemId": "rune-bar",
-              "quantity": 8
+              "quantity": 5
             }
           ],
           "quantity": 1,
@@ -61449,23 +61449,23 @@
     "image": "Rune Logging Axe.png",
     "variants": [
       {
-        "id": "29565428f0fb",
+        "id": "64268ca49ae8",
         "name": "Rune Logging Axe",
         "image": "Rune Logging Axe.png",
         "variantName": null,
         "recipe": {
-          "id": "ca5e8df90a83",
+          "id": "e17d88dce9f6",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
               "itemId": "rune-bar",
-              "quantity": 8
+              "quantity": 5
             },
             {
               "itemId": "vis-fibres",
-              "quantity": 4
+              "quantity": 2
             },
             {
               "itemId": "yew-logs",
@@ -61499,35 +61499,35 @@
     "image": "Ancestral Staff.png",
     "variants": [
       {
-        "id": "ca03b63d4c3d",
+        "id": "2f8143797b93",
         "name": "Ancestral Staff",
         "image": "Ancestral Staff.png",
         "variantName": null,
         "recipe": {
-          "id": "f8ede65f6004",
+          "id": "c318c3832f44",
           "facilities": [
             "Mystic Forge"
           ],
           "materials": [
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 4
+              "quantity": 2
             },
             {
               "itemId": "dragonstone",
-              "quantity": 4
+              "quantity": 3
             },
             {
               "itemId": "harmonised-compound",
-              "quantity": 10
+              "quantity": 6
             },
             {
               "itemId": "magic-logs",
-              "quantity": 16
+              "quantity": 12
             },
             {
               "itemId": "vis-cloth",
-              "quantity": 4
+              "quantity": 2
             }
           ],
           "quantity": 1,
@@ -61600,27 +61600,27 @@
     "image": "Rune Shield.png",
     "variants": [
       {
-        "id": "1faf3c6709b3",
+        "id": "b80843aebfb4",
         "name": "Rune Shield",
         "image": "Rune Shield.png",
         "variantName": null,
         "recipe": {
-          "id": "b6900039a068",
+          "id": "8e18666c3878",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 4
+              "quantity": 3
             },
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 2
+              "quantity": 1
             },
             {
               "itemId": "rune-bar",
-              "quantity": 10
+              "quantity": 6
             }
           ],
           "quantity": 1,
@@ -61650,12 +61650,12 @@
     "image": "Rune Spade.png",
     "variants": [
       {
-        "id": "deddbc53387a",
+        "id": "624741427e90",
         "name": "Rune Spade",
         "image": "Rune Spade.png",
         "variantName": null,
         "recipe": {
-          "id": "c5a101b945a7",
+          "id": "62dcaffbdbd9",
           "facilities": [
             "Blacksmith's Bench"
           ],
@@ -61674,7 +61674,7 @@
             },
             {
               "itemId": "rune-bar",
-              "quantity": 4
+              "quantity": 3
             }
           ],
           "quantity": 1,
@@ -61748,12 +61748,12 @@
     "image": "Ancestral Hat.png",
     "variants": [
       {
-        "id": "c80ab0f4c349",
+        "id": "16ddd47d2242",
         "name": "Ancestral Hat",
         "image": "Ancestral Hat.png",
         "variantName": null,
         "recipe": {
-          "id": "a7fd4a4a9a28",
+          "id": "f7b4b2903bb1",
           "facilities": [
             "Armour Bench"
           ],
@@ -61776,7 +61776,7 @@
             },
             {
               "itemId": "vis-cloth",
-              "quantity": 2
+              "quantity": 1
             }
           ],
           "quantity": 1,
@@ -61806,12 +61806,12 @@
     "image": "Ancestral Leggings.png",
     "variants": [
       {
-        "id": "57f5e3cbdead",
+        "id": "fc0153a3b47c",
         "name": "Ancestral Leggings",
         "image": "Ancestral Leggings.png",
         "variantName": null,
         "recipe": {
-          "id": "447fd74dc7a6",
+          "id": "df095a1daee0",
           "facilities": [
             "Armour Bench"
           ],
@@ -61834,7 +61834,7 @@
             },
             {
               "itemId": "vis-cloth",
-              "quantity": 4
+              "quantity": 2
             }
           ],
           "quantity": 1,
@@ -61864,19 +61864,19 @@
     "image": "Black Dragonhide Coif.png",
     "variants": [
       {
-        "id": "575a3683b597",
+        "id": "29e142ad668c",
         "name": "Black Dragonhide Coif",
         "image": "Black Dragonhide Coif.png",
         "variantName": null,
         "recipe": {
-          "id": "40b862bc45d6",
+          "id": "1c6720ce78c6",
           "facilities": [
             "Armour Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 6
+              "quantity": 4
             },
             {
               "itemId": "draconic-vis-wax",
@@ -61922,35 +61922,35 @@
     "image": "Black Dragonhide Chaps.png",
     "variants": [
       {
-        "id": "5ef33ec1dfa2",
+        "id": "fd6119cc6cd8",
         "name": "Black Dragonhide Chaps",
         "image": "Black Dragonhide Chaps.png",
         "variantName": null,
         "recipe": {
-          "id": "d9e5b1301751",
+          "id": "c6655cd474c9",
           "facilities": [
             "Armour Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 10
+              "quantity": 6
             },
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 2
+              "quantity": 1
             },
             {
               "itemId": "harmonised-compound",
-              "quantity": 2
+              "quantity": 1
             },
             {
               "itemId": "rune-bar",
-              "quantity": 2
+              "quantity": 1
             },
             {
               "itemId": "vis-cloth",
-              "quantity": 4
+              "quantity": 2
             }
           ],
           "quantity": 1,
@@ -62082,23 +62082,23 @@
     "image": "Rune Watering Can.png",
     "variants": [
       {
-        "id": "e6e8dd643c30",
+        "id": "dfdbd0f7c3be",
         "name": "Rune Watering Can",
         "image": "Rune Watering Can.png",
         "variantName": null,
         "recipe": {
-          "id": "9b779d859a55",
+          "id": "f0bfc70fdf08",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
               "itemId": "rune-bar",
-              "quantity": 6
+              "quantity": 4
             },
             {
               "itemId": "vis-cloth",
-              "quantity": 2
+              "quantity": 1
             }
           ],
           "quantity": 1,
@@ -62290,31 +62290,31 @@
     "image": "Rune Sword.png",
     "variants": [
       {
-        "id": "6f7446f860b3",
+        "id": "681b2f9a32dd",
         "name": "Rune Sword",
         "image": "Rune Sword.png",
         "variantName": null,
         "recipe": {
-          "id": "1985a2869048",
+          "id": "0dd15ca84a00",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 5
+              "quantity": 3
             },
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 2
+              "quantity": 1
             },
             {
               "itemId": "rune-bar",
-              "quantity": 10
+              "quantity": 6
             },
             {
               "itemId": "vis-fibres",
-              "quantity": 3
+              "quantity": 2
             }
           ],
           "quantity": 1,
@@ -62344,31 +62344,31 @@
     "image": "Rune Scimitar.png",
     "variants": [
       {
-        "id": "240cd0a46133",
+        "id": "6b82939cf456",
         "name": "Rune Scimitar",
         "image": "Rune Scimitar.png",
         "variantName": null,
         "recipe": {
-          "id": "685a174c45ad",
+          "id": "5b65ffde92da",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 5
+              "quantity": 3
             },
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 2
+              "quantity": 1
             },
             {
               "itemId": "rune-bar",
-              "quantity": 10
+              "quantity": 6
             },
             {
               "itemId": "vis-cloth",
-              "quantity": 2
+              "quantity": 1
             }
           ],
           "quantity": 1,
@@ -62398,31 +62398,31 @@
     "image": "Rune Greataxe.png",
     "variants": [
       {
-        "id": "7cff452f48ff",
+        "id": "a57645fc632d",
         "name": "Rune Greataxe",
         "image": "Rune Greataxe.png",
         "variantName": null,
         "recipe": {
-          "id": "6eaa858a737f",
+          "id": "631e4b9b6c9e",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 6
-            },
-            {
-              "itemId": "draconic-vis-wax",
               "quantity": 4
             },
             {
+              "itemId": "draconic-vis-wax",
+              "quantity": 2
+            },
+            {
               "itemId": "magic-logs",
-              "quantity": 5
+              "quantity": 3
             },
             {
               "itemId": "rune-bar",
-              "quantity": 16
+              "quantity": 12
             }
           ],
           "quantity": 1,
@@ -62452,31 +62452,31 @@
     "image": "Rune Greatsword.png",
     "variants": [
       {
-        "id": "f5f58780c0db",
+        "id": "5b7bea6977e9",
         "name": "Rune Greatsword",
         "image": "Rune Greatsword.png",
         "variantName": null,
         "recipe": {
-          "id": "4009369a7f0d",
+          "id": "f0f4b10e0786",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 5
+              "quantity": 3
             },
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 4
+              "quantity": 2
             },
             {
               "itemId": "rune-bar",
-              "quantity": 12
+              "quantity": 8
             },
             {
               "itemId": "vis-fibres",
-              "quantity": 4
+              "quantity": 2
             }
           ],
           "quantity": 1,
@@ -62506,27 +62506,27 @@
     "image": "Rune Warhammer.png",
     "variants": [
       {
-        "id": "3ea62498c9c6",
+        "id": "08816868613f",
         "name": "Rune Warhammer",
         "image": "Rune Warhammer.png",
         "variantName": null,
         "recipe": {
-          "id": "8dde3f2c693e",
+          "id": "c8d8d7fe1b5d",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
               "itemId": "black-dragon-leather",
-              "quantity": 3
+              "quantity": 2
             },
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 4
+              "quantity": 2
             },
             {
               "itemId": "rune-bar",
-              "quantity": 16
+              "quantity": 12
             }
           ],
           "quantity": 1,
@@ -62748,19 +62748,19 @@
     "image": "Rune Crossbow Limbs.png",
     "variants": [
       {
-        "id": "41299c0feab4",
+        "id": "27e3d3476425",
         "name": "Rune Crossbow Limbs",
         "image": "Rune Crossbow Limbs.png",
         "variantName": null,
         "recipe": {
-          "id": "2aec51e643f1",
+          "id": "dc0b5b929e05",
           "facilities": [
             "Blacksmith's Bench"
           ],
           "materials": [
             {
               "itemId": "rune-bar",
-              "quantity": 2
+              "quantity": 1
             }
           ],
           "quantity": 1,
@@ -62791,19 +62791,19 @@
     "image": "Rune Crossbow.png",
     "variants": [
       {
-        "id": "27674b9d0c8e",
+        "id": "ea401d849fbf",
         "name": "Rune Crossbow",
         "image": "Rune Crossbow.png",
         "variantName": null,
         "recipe": {
-          "id": "1f4150e33e53",
+          "id": "90f0a0c13eb0",
           "facilities": [
             "Fletching Bench"
           ],
           "materials": [
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 2
+              "quantity": 1
             },
             {
               "itemId": "dragonstone",
@@ -62811,7 +62811,7 @@
             },
             {
               "itemId": "magic-logs",
-              "quantity": 16
+              "quantity": 12
             },
             {
               "itemId": "rune-crossbow-limbs",
@@ -62819,7 +62819,7 @@
             },
             {
               "itemId": "vis-fibres",
-              "quantity": 6
+              "quantity": 4
             }
           ],
           "quantity": 1,
@@ -62849,19 +62849,19 @@
     "image": "Magic Shortbow.png",
     "variants": [
       {
-        "id": "f32ea48004bc",
+        "id": "a09dec756547",
         "name": "Magic Shortbow",
         "image": "Magic Shortbow.png",
         "variantName": null,
         "recipe": {
-          "id": "feeb66777137",
+          "id": "d69406b94a9c",
           "facilities": [
             "Fletching Bench"
           ],
           "materials": [
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 2
+              "quantity": 1
             },
             {
               "itemId": "dragonstone",
@@ -62869,7 +62869,7 @@
             },
             {
               "itemId": "magic-logs",
-              "quantity": 10
+              "quantity": 7
             },
             {
               "itemId": "rune-bar",
@@ -62877,7 +62877,7 @@
             },
             {
               "itemId": "vis-fibres",
-              "quantity": 4
+              "quantity": 3
             }
           ],
           "quantity": 1,
@@ -62907,35 +62907,35 @@
     "image": "Magic Longbow.png",
     "variants": [
       {
-        "id": "968fb3df305c",
+        "id": "cd00f1923a1e",
         "name": "Magic Longbow",
         "image": "Magic Longbow.png",
         "variantName": null,
         "recipe": {
-          "id": "9a39bb9b3625",
+          "id": "bd94adf93011",
           "facilities": [
             "Fletching Bench"
           ],
           "materials": [
             {
               "itemId": "draconic-vis-wax",
-              "quantity": 4
+              "quantity": 3
             },
             {
               "itemId": "dragonstone",
-              "quantity": 4
+              "quantity": 3
             },
             {
               "itemId": "magic-logs",
-              "quantity": 16
+              "quantity": 12
             },
             {
               "itemId": "rune-bar",
-              "quantity": 4
+              "quantity": 3
             },
             {
               "itemId": "vis-fibres",
-              "quantity": 8
+              "quantity": 6
             }
           ],
           "quantity": 1,
@@ -65680,22 +65680,46 @@
     "image": "Green Dragon Trophy.png",
     "variants": [
       {
-        "id": "47df93726dae",
+        "id": "6fd1b10d5a9e",
         "name": "Green Dragon Trophy",
         "image": "Green Dragon Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "c72ec2128fbe",
-          "facilities": [],
-          "materials": [],
+          "id": "a4372102c5bb",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "dragon-tooth",
+              "quantity": 6
+            },
+            {
+              "itemId": "green-dragonhide-leather",
+              "quantity": 3
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Green_Dragon_Trophy"
   },
   {
@@ -65704,22 +65728,46 @@
     "image": "Blue Dragon Trophy.png",
     "variants": [
       {
-        "id": "a4ab300d132e",
+        "id": "ce377cfe208f",
         "name": "Blue Dragon Trophy",
         "image": "Blue Dragon Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "31a68ee32670",
-          "facilities": [],
-          "materials": [],
+          "id": "d1be31d9a8ea",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "blue-dragon-leather",
+              "quantity": 3
+            },
+            {
+              "itemId": "dragon-tooth",
+              "quantity": 6
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Blue_Dragon_Trophy"
   },
   {
@@ -65728,22 +65776,46 @@
     "image": "Black Dragon Trophy.png",
     "variants": [
       {
-        "id": "147436a12a3a",
+        "id": "3b45b1b4a971",
         "name": "Black Dragon Trophy",
         "image": "Black Dragon Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "b24647b5e8e5",
-          "facilities": [],
-          "materials": [],
+          "id": "4de1da69f271",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "black-dragon-leather",
+              "quantity": 3
+            },
+            {
+              "itemId": "dragon-tooth",
+              "quantity": 6
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Black_Dragon_Trophy"
   },
   {
@@ -65752,22 +65824,46 @@
     "image": "Red Dragon Trophy.png",
     "variants": [
       {
-        "id": "f2b555bf4f14",
+        "id": "f4de5f8a66b0",
         "name": "Red Dragon Trophy",
         "image": "Red Dragon Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "cecf6b87ddb7",
-          "facilities": [],
-          "materials": [],
+          "id": "fc899b4c92d3",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "dragon-tooth",
+              "quantity": 6
+            },
+            {
+              "itemId": "red-dragonhide-leather",
+              "quantity": 3
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Red_Dragon_Trophy"
   },
   {
@@ -65776,22 +65872,46 @@
     "image": "Abyssal Demon Trophy.png",
     "variants": [
       {
-        "id": "99af2088008a",
+        "id": "6fd11539ff20",
         "name": "Abyssal Demon Trophy",
         "image": "Abyssal Demon Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "630e07b898d1",
-          "facilities": [],
-          "materials": [],
+          "id": "445d3b7ac07a",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "abyssal-spine",
+              "quantity": 2
+            },
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "monstrous-fang",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Abyssal_Demon_Trophy"
   },
   {
@@ -65800,22 +65920,46 @@
     "image": "Carnivorous Chinchompa Trophy.png",
     "variants": [
       {
-        "id": "adfd7eb0a56c",
+        "id": "206c7bae5833",
         "name": "Carnivorous Chinchompa Trophy",
         "image": "Carnivorous Chinchompa Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "6e07801f327b",
-          "facilities": [],
-          "materials": [],
+          "id": "40d8cde312de",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "leather",
+              "quantity": 2
+            },
+            {
+              "itemId": "soft-animal-fur",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Carnivorous_Chinchompa_Trophy"
   },
   {
@@ -65824,22 +65968,46 @@
     "image": "Dire Wolf Trophy.png",
     "variants": [
       {
-        "id": "54b7207d26b6",
+        "id": "4671469a170c",
         "name": "Dire Wolf Trophy",
         "image": "Dire Wolf Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "27ef2efd6ffe",
-          "facilities": [],
-          "materials": [],
+          "id": "9a242fdaaff9",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "dire-wolf-leather",
+              "quantity": 2
+            },
+            {
+              "itemId": "soft-animal-fur",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Dire_Wolf_Trophy"
   },
   {
@@ -65848,22 +66016,46 @@
     "image": "Hell Rat Trophy.png",
     "variants": [
       {
-        "id": "a17181188333",
+        "id": "aaf30fb3f45e",
         "name": "Hell Rat Trophy",
         "image": "Hell Rat Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "d1cdb76fe6a3",
-          "facilities": [],
-          "materials": [],
+          "id": "ce6af05fbe06",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "leather",
+              "quantity": 2
+            },
+            {
+              "itemId": "vile-ashes",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Hell_Rat_Trophy"
   },
   {
@@ -65872,22 +66064,50 @@
     "image": "Infinity Zogre Trophy.png",
     "variants": [
       {
-        "id": "99ea9f410b52",
+        "id": "6c0386a3f9e7",
         "name": "Infinity Zogre Trophy",
         "image": "Infinity Zogre Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "1285871b67ca",
-          "facilities": [],
-          "materials": [],
+          "id": "b41c2f0d1f6c",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "infinity-robe-hat",
+              "quantity": 1
+            },
+            {
+              "itemId": "undead-bone",
+              "quantity": 6
+            },
+            {
+              "itemId": "undead-meat",
+              "quantity": 6
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Infinity_Zogre_Trophy"
   },
   {
@@ -65896,22 +66116,46 @@
     "image": "Kalphite Guardian Trophy.png",
     "variants": [
       {
-        "id": "2d02563255a8",
+        "id": "c1f67f462f49",
         "name": "Kalphite Guardian Trophy",
         "image": "Kalphite Guardian Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "b311a9d247af",
-          "facilities": [],
-          "materials": [],
+          "id": "6235103cff3d",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "greater-kalphite-wing",
+              "quantity": 2
+            },
+            {
+              "itemId": "kalphite-shell",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Kalphite_Guardian_Trophy"
   },
   {
@@ -65920,22 +66164,46 @@
     "image": "Kalphite Queen Trophy.png",
     "variants": [
       {
-        "id": "2f1448ce22a5",
+        "id": "3114b744c77f",
         "name": "Kalphite Queen Trophy",
         "image": "Kalphite Queen Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "bd5d37934cd9",
-          "facilities": [],
-          "materials": [],
+          "id": "53ee84b73003",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "greater-kalphite-wing",
+              "quantity": 2
+            },
+            {
+              "itemId": "kalphite-shell",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Kalphite_Queen_Trophy"
   },
   {
@@ -65944,22 +66212,46 @@
     "image": "Kalphite Soldier Trophy.png",
     "variants": [
       {
-        "id": "0d8cc5701279",
+        "id": "0e1b4c4d483b",
         "name": "Kalphite Soldier Trophy",
         "image": "Kalphite Soldier Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "087dda64333d",
-          "facilities": [],
-          "materials": [],
+          "id": "99a14ecef3e5",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "kalphite-shell",
+              "quantity": 2
+            },
+            {
+              "itemId": "kalphite-wing",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Kalphite_Soldier_Trophy"
   },
   {
@@ -65968,22 +66260,46 @@
     "image": "Kalphite Worker Trophy.png",
     "variants": [
       {
-        "id": "fd483d3367a7",
+        "id": "5b36b88cbc2c",
         "name": "Kalphite Worker Trophy",
         "image": "Kalphite Worker Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "78a43fc091e4",
-          "facilities": [],
-          "materials": [],
+          "id": "787538b2beeb",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "kalphite-shell",
+              "quantity": 2
+            },
+            {
+              "itemId": "stunted-kalphite-wing",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Kalphite_Worker_Trophy"
   },
   {
@@ -65992,22 +66308,46 @@
     "image": "Rotridden Cow Trophy.png",
     "variants": [
       {
-        "id": "6c880a42a727",
+        "id": "c4e71bb77e4a",
         "name": "Rotridden Cow Trophy",
         "image": "Rotridden Cow Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "ca936fc88846",
-          "facilities": [],
-          "materials": [],
+          "id": "1dc0b43482b8",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "animal-bone",
+              "quantity": 2
+            },
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "hard-leather",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Rotridden_Cow_Trophy"
   },
   {
@@ -66016,22 +66356,46 @@
     "image": "Rotridden Rat Trophy.png",
     "variants": [
       {
-        "id": "0c7106c31d46",
+        "id": "8ba8c89a9532",
         "name": "Rotridden Rat Trophy",
         "image": "Rotridden Rat Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "dcaaccec6e5e",
-          "facilities": [],
-          "materials": [],
+          "id": "78bfcdfccb63",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "hard-leather",
+              "quantity": 2
+            },
+            {
+              "itemId": "small-animal-fang",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Rotridden_Rat_Trophy"
   },
   {
@@ -66064,22 +66428,42 @@
     "image": "Skeleton Trophy.png",
     "variants": [
       {
-        "id": "63ec9904debd",
+        "id": "7646be9d5d62",
         "name": "Skeleton Trophy",
         "image": "Skeleton Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "1913c91f3f6a",
-          "facilities": [],
-          "materials": [],
+          "id": "b0d97daaf0b6",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "undead-bone",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Skeleton_Trophy"
   },
   {
@@ -66088,22 +66472,42 @@
     "image": "Skeletons Trophy.png",
     "variants": [
       {
-        "id": "2168a235091c",
+        "id": "49782e65d7d9",
         "name": "Skeletons Trophy",
         "image": "Skeletons Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "60778543e19f",
-          "facilities": [],
-          "materials": [],
+          "id": "3c893b5f2b81",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "undead-bone",
+              "quantity": 12
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Skeletons_Trophy"
   },
   {
@@ -66112,22 +66516,46 @@
     "image": "Terrorbird Trophy.png",
     "variants": [
       {
-        "id": "db5266815735",
+        "id": "1c7dc059471a",
         "name": "Terrorbird Trophy",
         "image": "Terrorbird Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "e34d7987060b",
-          "facilities": [],
-          "materials": [],
+          "id": "d4f5da179ae9",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "animal-bone",
+              "quantity": 2
+            },
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "feathers",
+              "quantity": 4
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Terrorbird_Trophy"
   },
   {
@@ -66136,22 +66564,46 @@
     "image": "Winged Kalphite Queen Trophy.png",
     "variants": [
       {
-        "id": "b153653eacae",
+        "id": "0451277111a4",
         "name": "Winged Kalphite Queen Trophy",
         "image": "Winged Kalphite Queen Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "64f9f6cfee64",
-          "facilities": [],
-          "materials": [],
+          "id": "c83b2e46a5ac",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "greater-kalphite-wing",
+              "quantity": 2
+            },
+            {
+              "itemId": "kalphite-shell",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Winged_Kalphite_Queen_Trophy"
   },
   {
@@ -66160,22 +66612,46 @@
     "image": "Wolf Trophy.png",
     "variants": [
       {
-        "id": "2a36f28af7f3",
+        "id": "589fb081f599",
         "name": "Wolf Trophy",
         "image": "Wolf Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "0893c0b84673",
-          "facilities": [],
-          "materials": [],
+          "id": "369a0d6fdbc1",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "leather",
+              "quantity": 2
+            },
+            {
+              "itemId": "small-animal-fang",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Wolf_Trophy"
   },
   {
@@ -66184,22 +66660,46 @@
     "image": "Zogre Hand Trophy.png",
     "variants": [
       {
-        "id": "3760c01ecc3e",
+        "id": "e1c5bf106113",
         "name": "Zogre Hand Trophy",
         "image": "Zogre Hand Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "07d03057833f",
-          "facilities": [],
-          "materials": [],
+          "id": "61a69df12435",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "undead-bone",
+              "quantity": 3
+            },
+            {
+              "itemId": "undead-meat",
+              "quantity": 3
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Zogre_Hand_Trophy"
   },
   {
@@ -66208,22 +66708,46 @@
     "image": "Zogre Trophy.png",
     "variants": [
       {
-        "id": "0de1cbf993ec",
+        "id": "9ecaaa545b46",
         "name": "Zogre Trophy",
         "image": "Zogre Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "e5c1fc03f07c",
-          "facilities": [],
-          "materials": [],
+          "id": "0241a88afda7",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "undead-bone",
+              "quantity": 6
+            },
+            {
+              "itemId": "undead-meat",
+              "quantity": 6
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Zogre_Trophy"
   },
   {
@@ -66232,23 +66756,191 @@
     "image": "Zombie Rat Trophy.png",
     "variants": [
       {
-        "id": "5b0b56106d13",
+        "id": "38bb6380e17b",
         "name": "Zombie Rat Trophy",
         "image": "Zombie Rat Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "6cb0c3819db0",
-          "facilities": [],
-          "materials": [],
+          "id": "859cd1937c80",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "hard-leather",
+              "quantity": 2
+            },
+            {
+              "itemId": "small-animal-fang",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Zombie_Rat_Trophy"
+  },
+  {
+    "id": "dragon-wolf-trophy",
+    "name": "Dragon Wolf Trophy",
+    "image": "Dragon Wolf Trophy.png",
+    "variants": [
+      {
+        "id": "640c0a322398",
+        "name": "Dragon Wolf Trophy",
+        "image": "Dragon Wolf Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fb6b624d844c",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "draconic-leather",
+              "quantity": 2
+            },
+            {
+              "itemId": "small-animal-fang",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Dragon_Wolf_Trophy"
+  },
+  {
+    "id": "zombie-cow-trophy",
+    "name": "Zombie Cow Trophy",
+    "image": "Zombie Cow Trophy.png",
+    "variants": [
+      {
+        "id": "44592aa8918a",
+        "name": "Zombie Cow Trophy",
+        "image": "Zombie Cow Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6b9d95fe249a",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "animal-bone",
+              "quantity": 2
+            },
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "hard-leather",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Zombie_Cow_Trophy"
+  },
+  {
+    "id": "rotsworm-zombie-trophy",
+    "name": "Rotsworm Zombie Trophy",
+    "image": "Rotsworm Zombie Trophy.png",
+    "variants": [
+      {
+        "id": "e053d49e3652",
+        "name": "Rotsworm Zombie Trophy",
+        "image": "Rotsworm Zombie Trophy.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1f80d0c04dcc",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "undead-bone",
+              "quantity": 2
+            },
+            {
+              "itemId": "undead-meat",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Rotsworm_Zombie_Trophy"
   },
   {
     "id": "goblin-pack",
