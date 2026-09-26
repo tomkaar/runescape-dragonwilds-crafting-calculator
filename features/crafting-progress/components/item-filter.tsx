@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
+import { Button } from "@/components/ui/button";
 import {
 	Combobox,
 	ComboboxChip,
@@ -56,71 +57,82 @@ export function ItemFilter({ trackedItemIds, filteredItemIds }: Props) {
 				</p>
 			</div>
 
-			<div className="flex flex-col gap-1">
-				<Combobox
-					multiple
-					autoHighlight
-					items={itemOptions}
-					value={itemOptions.filter((o) => filteredItemIds.includes(o.value))}
-					onValueChange={(values: ItemOption[], evt) => {
-						evt.event.stopPropagation();
-						setSelected(
-							values.map((v) => v.value),
-							trackedItemIds,
-						);
-					}}
-					itemToStringValue={(item: ItemOption) => item.label}
-				>
-					<ComboboxChips ref={itemsAnchor} className="w-full">
-						<ComboboxValue>
-							{(values: ItemOption[]) => (
-								<>
-									{values.map(({ value, label, image }) => (
-										<ComboboxChip key={value}>
-											{image && (
-												<img
-													src={createImageUrlPath(image)}
-													alt={label}
-													width={14}
-													height={14}
-													className="shrink-0"
-												/>
-											)}
-											{label}
-										</ComboboxChip>
-									))}
-									<ComboboxChipsInput
-										placeholder="Filter items…"
-										className="text-xs"
-									/>
-								</>
-							)}
-						</ComboboxValue>
-					</ComboboxChips>
-					<ComboboxContent anchor={itemsAnchor}>
-						<ComboboxEmpty>No items found.</ComboboxEmpty>
-						<ComboboxList>
-							{(option: ItemOption) => (
-								<ComboboxItem
-									key={option.value}
-									value={option}
-									className="text-xs"
-								>
-									{option.image && (
-										<img
-											src={createImageUrlPath(option.image)}
-											alt={option.label}
-											width={14}
-											height={14}
-											className="shrink-0"
+			<div className="flex items-start gap-2">
+				<div className="flex-1 min-w-0">
+					<Combobox
+						multiple
+						autoHighlight
+						items={itemOptions}
+						value={itemOptions.filter((o) => filteredItemIds.includes(o.value))}
+						onValueChange={(values: ItemOption[], evt) => {
+							evt.event.stopPropagation();
+							setSelected(
+								values.map((v) => v.value),
+								trackedItemIds,
+							);
+						}}
+						itemToStringValue={(item: ItemOption) => item.label}
+					>
+						<ComboboxChips ref={itemsAnchor} className="w-full">
+							<ComboboxValue>
+								{(values: ItemOption[]) => (
+									<>
+										{values.map(({ value, label, image }) => (
+											<ComboboxChip key={value}>
+												{image && (
+													<img
+														src={createImageUrlPath(image)}
+														alt={label}
+														width={14}
+														height={14}
+														className="shrink-0"
+													/>
+												)}
+												{label}
+											</ComboboxChip>
+										))}
+										<ComboboxChipsInput
+											placeholder="Filter items…"
+											className="text-xs"
 										/>
-									)}
-									{option.label}
-								</ComboboxItem>
-							)}
-						</ComboboxList>
-					</ComboboxContent>
-				</Combobox>
+									</>
+								)}
+							</ComboboxValue>
+						</ComboboxChips>
+						<ComboboxContent anchor={itemsAnchor}>
+							<ComboboxEmpty>No items found.</ComboboxEmpty>
+							<ComboboxList>
+								{(option: ItemOption) => (
+									<ComboboxItem
+										key={option.value}
+										value={option}
+										className="text-xs"
+									>
+										{option.image && (
+											<img
+												src={createImageUrlPath(option.image)}
+												alt={option.label}
+												width={14}
+												height={14}
+												className="shrink-0"
+											/>
+										)}
+										{option.label}
+									</ComboboxItem>
+								)}
+							</ComboboxList>
+						</ComboboxContent>
+					</Combobox>
+				</div>
+
+				<Button
+					variant="outline"
+					className="shrink-0"
+					disabled={filteredItemIds.length === trackedItemIds.length}
+					onClick={() => setSelected(trackedItemIds, trackedItemIds)}
+				>
+					Show all
+				</Button>
 			</div>
 		</div>
 	);
