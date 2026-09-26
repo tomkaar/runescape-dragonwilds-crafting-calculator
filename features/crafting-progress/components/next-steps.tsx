@@ -8,61 +8,24 @@ import {
 	AccordionItem,
 	AccordionTrigger,
 } from "@/components/ui/accordion";
-import {
-	Combobox,
-	ComboboxChip,
-	ComboboxChips,
-	ComboboxChipsInput,
-	ComboboxContent,
-	ComboboxEmpty,
-	ComboboxItem,
-	ComboboxList,
-	ComboboxValue,
-	useComboboxAnchor,
-} from "@/components/ui/combobox";
 import { Progress } from "@/components/ui/progress";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
 import type { SelectedMaterial } from "@/store/selected-material";
-import { useStepsFilter } from "@/store/steps-filter";
-import { sourceItemById } from "@/utils/source-item-by-id";
 
-import { useTrackedItemIds } from "../hooks/useTrackedItemIds";
 import { buildSteps } from "../utils/build-steps";
 import { buildOwnedMaterials } from "../utils/owned-materials";
 import { buildProgressSummary } from "../utils/progress-summary";
 
 type Props = {
 	allItems: Record<string, SelectedMaterial[]>;
+	filteredItemIds: string[];
 };
 
-type ItemOption = { value: string; label: string; image: string | null };
-
-export function NextSteps({ allItems }: Props) {
-	const trackedItemIds = useTrackedItemIds(allItems);
+export function NextSteps({ allItems, filteredItemIds }: Props) {
 	const multipliers = useMaterialMultiplier((state) => state.items);
 	const owned = useMaterialOwned((state) => state.owned);
-	const { isAll, selectedIds, setSelected } = useStepsFilter();
-	const itemsAnchor = useComboboxAnchor();
-
-	const filteredItemIds = useMemo(
-		() =>
-			isAll
-				? trackedItemIds
-				: selectedIds.filter((id) => trackedItemIds.includes(id)),
-		[isAll, selectedIds, trackedItemIds],
-	);
-
-	const itemOptions = useMemo(
-		() =>
-			trackedItemIds.reduce<ItemOption[]>((acc, id) => {
-				const item = sourceItemById(id);
-				if (item) acc.push({ value: id, label: item.name, image: item.image });
-				return acc;
-			}, []),
-		[trackedItemIds],
-	);
 
 	const steps = useMemo(
 		() => buildSteps({ filteredItemIds, allItems, multipliers, owned }),
@@ -70,8 +33,14 @@ export function NextSteps({ allItems }: Props) {
 	);
 
 	const ownedRows = useMemo(
-		() => buildOwnedMaterials({ trackedItemIds, allItems, multipliers, owned }),
-		[trackedItemIds, allItems, multipliers, owned],
+		() =>
+			buildOwnedMaterials({
+				trackedItemIds: filteredItemIds,
+				allItems,
+				multipliers,
+				owned,
+			}),
+		[filteredItemIds, allItems, multipliers, owned],
 	);
 	const { readyCount, percentComplete } = buildProgressSummary(
 		ownedRows,
@@ -107,83 +76,9 @@ export function NextSteps({ allItems }: Props) {
 						</div>
 					)}
 
-					{trackedItemIds.length > 1 && (
-						<div className="flex flex-col gap-1 pb-2">
-							<Combobox
-								multiple
-								autoHighlight
-								items={itemOptions}
-								value={itemOptions.filter((o) =>
-									filteredItemIds.includes(o.value),
-								)}
-								onValueChange={(values: ItemOption[], evt) => {
-									evt.event.stopPropagation();
-									setSelected(
-										values.map((v) => v.value),
-										trackedItemIds,
-									);
-								}}
-								itemToStringValue={(item: ItemOption) => item.label}
-							>
-								<ComboboxChips ref={itemsAnchor} className="w-full max-w-md">
-									<ComboboxValue>
-										{(values: ItemOption[]) => (
-											<>
-												{values.map(({ value, label, image }) => (
-													<ComboboxChip key={value}>
-														{image && (
-															<img
-																src={createImageUrlPath(image)}
-																alt={label}
-																width={14}
-																height={14}
-																className="shrink-0"
-															/>
-														)}
-														{label}
-													</ComboboxChip>
-												))}
-												<ComboboxChipsInput
-													placeholder="Filter items…"
-													className="text-xs"
-												/>
-											</>
-										)}
-									</ComboboxValue>
-								</ComboboxChips>
-								<ComboboxContent anchor={itemsAnchor}>
-									<ComboboxEmpty>No items found.</ComboboxEmpty>
-									<ComboboxList>
-										{(option: ItemOption) => (
-											<ComboboxItem
-												key={option.value}
-												value={option}
-												className="text-xs"
-											>
-												{option.image && (
-													<img
-														src={createImageUrlPath(option.image)}
-														alt={option.label}
-														width={14}
-														height={14}
-														className="shrink-0"
-													/>
-												)}
-												{option.label}
-											</ComboboxItem>
-										)}
-									</ComboboxList>
-								</ComboboxContent>
-							</Combobox>
-							<span className="text-xs text-muted-foreground">
-								{filteredItemIds.length} / {trackedItemIds.length} selected
-							</span>
-						</div>
-					)}
-
 					{filteredItemIds.length === 0 ? (
 						<p className="text-xs text-muted-foreground">
-							Select items above to see their next steps.
+							No items selected in the filter above.
 						</p>
 					) : steps.length === 0 ? (
 						<p className="text-xs text-muted-foreground">

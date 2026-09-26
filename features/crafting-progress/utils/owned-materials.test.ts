@@ -194,6 +194,30 @@ describe("buildOwnedMaterials", () => {
 		expect(result[0].nodeRefs).toHaveLength(2);
 	});
 
+	it("only counts the given item ids, ignoring other entries in allItems", () => {
+		mockResolve.mockReturnValue([makeTreeNode("iron-ore", "iron-ore", 4)]);
+		registerAllItems();
+
+		const result = buildOwnedMaterials({
+			trackedItemIds: ["sword", "shield"],
+			allItems: {
+				sword: [makeEntry("iron-ore", "iron-ore", 4)],
+				shield: [makeEntry("iron-ore", "iron-ore", 4)],
+				helmet: [makeEntry("iron-ore", "iron-ore", 4)],
+			},
+			multipliers: {},
+			owned: {},
+		});
+
+		expect(result).toHaveLength(1);
+		expect(result[0].total).toBe(8);
+		expect(result[0].adjustedValue).toBe(8);
+		expect(result[0].nodeRefs.map((ref) => ref.trackedItemId)).toEqual([
+			"sword",
+			"shield",
+		]);
+	});
+
 	it("keeps distinct materials as separate entries", () => {
 		mockResolve.mockImplementation((id) => {
 			if (id === "sword") return [makeTreeNode("iron-ore", "iron-ore", 3)];

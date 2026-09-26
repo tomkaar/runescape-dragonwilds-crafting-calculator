@@ -17,10 +17,10 @@ import { useSelectedMaterial } from "@/store/selected-material";
 import { CollectedMaterialsRow } from "./collected-materials-row";
 
 type Props = {
-	trackedItemIds: string[];
+	filteredItemIds: string[];
 };
 
-export function CollectedMaterials({ trackedItemIds }: Props) {
+export function CollectedMaterials({ filteredItemIds }: Props) {
 	const allItems = useSelectedMaterial((state) => state.items);
 	const multipliers = useMaterialMultiplier((state) => state.items);
 	const markAsDoneByNodeId = useSelectedMaterial(
@@ -34,7 +34,7 @@ export function CollectedMaterials({ trackedItemIds }: Props) {
 	const resetOwned = useMaterialOwned((state) => state.resetOwned);
 
 	const rows = buildOwnedMaterials({
-		trackedItemIds,
+		trackedItemIds: filteredItemIds,
 		allItems,
 		multipliers,
 		owned,
@@ -66,7 +66,11 @@ export function CollectedMaterials({ trackedItemIds }: Props) {
 				</AccordionTrigger>
 
 				<AccordionContent className="px-4 pb-4 text-foreground pt-4">
-					{rows.length === 0 ? (
+					{filteredItemIds.length === 0 ? (
+						<p className="text-xs text-muted-foreground">
+							No items selected in the filter above.
+						</p>
+					) : rows.length === 0 ? (
 						<p className="text-xs text-muted-foreground">
 							Mark materials on the item cards to see them here.
 						</p>

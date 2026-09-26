@@ -14,10 +14,8 @@ import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
 import type { SelectedMaterial } from "@/store/selected-material";
 import { useSkillLevels } from "@/store/skill-levels";
-import { useStepsFilter } from "@/store/steps-filter";
 
 import { getSkillImageUrl } from "@/utils/getSkillImageUrl";
-import { useTrackedItemIds } from "../hooks/useTrackedItemIds";
 import { buildExperienceSummary } from "../utils/experience-summary";
 import { SkillLevelsDialog } from "./skill-levels-dialog";
 
@@ -28,22 +26,13 @@ const listFormatter = new Intl.ListFormat("en", {
 
 type Props = {
 	allItems: Record<string, SelectedMaterial[]>;
+	filteredItemIds: string[];
 };
 
-export function ExperienceSummary({ allItems }: Props) {
-	const trackedItemIds = useTrackedItemIds(allItems);
+export function ExperienceSummary({ allItems, filteredItemIds }: Props) {
 	const multipliers = useMaterialMultiplier((state) => state.items);
 	const owned = useMaterialOwned((state) => state.owned);
-	const { isAll, selectedIds } = useStepsFilter();
 	const skillLevels = useSkillLevels((state) => state.levels);
-
-	const filteredItemIds = useMemo(
-		() =>
-			isAll
-				? trackedItemIds
-				: selectedIds.filter((id) => trackedItemIds.includes(id)),
-		[isAll, selectedIds, trackedItemIds],
-	);
 
 	const { totals, ambiguousItemNames } = useMemo(
 		() =>
@@ -90,7 +79,11 @@ export function ExperienceSummary({ allItems }: Props) {
 				</AccordionTrigger>
 
 				<AccordionContent className="px-4 pb-4 text-foreground pt-4 flex flex-col gap-3">
-					{displaySkills.length === 0 ? (
+					{filteredItemIds.length === 0 ? (
+						<p className="text-xs text-muted-foreground">
+							No items selected in the filter above.
+						</p>
+					) : displaySkills.length === 0 ? (
 						<p className="text-xs text-muted-foreground">
 							No experience to show yet — mark materials as todo on the item
 							cards, or none of your planned crafts grant skill experience.

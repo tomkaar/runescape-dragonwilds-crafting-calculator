@@ -15,7 +15,6 @@ import { useMaterialOwned } from "@/store/material-owned";
 import type { SelectedMaterial } from "@/store/selected-material";
 import type { Facility } from "@/Types";
 import getFacilityIcon from "@/utils/getFacilityIcon";
-import { useTrackedItemIds } from "../hooks/useTrackedItemIds";
 import { buildFacilityChecklist } from "../utils/facility-checklist";
 import { FacilitiesDialog } from "./facilities-dialog";
 
@@ -26,6 +25,7 @@ const listFormatter = new Intl.ListFormat("en", {
 
 type Props = {
 	allItems: Record<string, SelectedMaterial[]>;
+	filteredItemIds: string[];
 };
 
 function FacilityRow({
@@ -55,8 +55,7 @@ function FacilityRow({
 	);
 }
 
-export function FacilityChecklist({ allItems }: Props) {
-	const trackedItemIds = useTrackedItemIds(allItems);
+export function FacilityChecklist({ allItems, filteredItemIds }: Props) {
 	const multipliers = useMaterialMultiplier((state) => state.items);
 	const owned = useMaterialOwned((state) => state.owned);
 	const facilitiesOwned = useFacilitiesOwned((state) => state.owned);
@@ -65,12 +64,12 @@ export function FacilityChecklist({ allItems }: Props) {
 	const { facilities, ambiguousItemNames } = useMemo(
 		() =>
 			buildFacilityChecklist({
-				filteredItemIds: trackedItemIds,
+				filteredItemIds,
 				allItems,
 				multipliers,
 				owned,
 			}),
-		[trackedItemIds, allItems, multipliers, owned],
+		[filteredItemIds, allItems, multipliers, owned],
 	);
 
 	const stillRequired = facilities.filter((f) => !facilitiesOwned[f]);
@@ -92,7 +91,11 @@ export function FacilityChecklist({ allItems }: Props) {
 				</AccordionTrigger>
 
 				<AccordionContent className="px-4 pb-4 text-foreground pt-4 flex flex-col gap-3">
-					{facilities.length === 0 ? (
+					{filteredItemIds.length === 0 ? (
+						<p className="text-xs text-muted-foreground">
+							No items selected in the filter above.
+						</p>
+					) : facilities.length === 0 ? (
 						<p className="text-xs text-muted-foreground">
 							Mark materials as todo on the item cards to see the facilities
 							this plan needs.
