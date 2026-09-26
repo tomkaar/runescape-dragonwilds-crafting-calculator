@@ -47,6 +47,7 @@ export function computeExperienceSummary(
 	const ambiguousItemNames: string[] = [];
 
 	for (const step of steps) {
+		if (step.covered) continue;
 		const contributions = step.recipeContributions ?? [];
 		if (contributions.length > 1) ambiguousItemNames.push(step.name);
 

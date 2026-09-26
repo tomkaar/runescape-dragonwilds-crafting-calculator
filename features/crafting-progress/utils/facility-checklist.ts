@@ -39,6 +39,7 @@ export function buildFacilityChecklist({
 
 	const steps = buildSteps({ filteredItemIds, allItems, multipliers, owned });
 	for (const step of steps) {
+		if (step.covered) continue;
 		for (const facility of step.facilities) facilities.add(facility);
 	}
 

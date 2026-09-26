@@ -29,18 +29,20 @@ export function getMarkedNodeIds(
 	return new Set(markedTodo.map((m) => m.nodeId!));
 }
 
-// The tracked item's own top-level node never appears in `steps` — the item
-// cards only ever expose its *children* for marking (see skipFirstLayer in
-// RequiredMaterialsContent), so crafting the finished piece itself is never
-// a markable "step". Finds that top-level node's recipe so callers (XP,
-// facilities) don't silently drop whatever it grants/requires. For a
-// multi-variant item there's no top-level node with its own recipe (variants
-// are children of a selector) — the "active" variant is inferred from
-// whichever ones have a marked descendant, mirroring how walkTree already
-// scopes marked nodeIds by their variant-path prefix. More than one active
-// variant means there's no way to know which recipe will actually be
-// crafted; the first one found is used, and the caller is told it's
-// ambiguous.
+/**
+ * The tracked item's own top-level node never appears in `steps` — the item
+ * cards only ever expose its *children* for marking (see skipFirstLayer in
+ * RequiredMaterialsContent), so crafting the finished piece itself is never
+ * a markable "step". Finds that top-level node's recipe so callers (XP,
+ * facilities) don't silently drop whatever it grants/requires. For a
+ * multi-variant item there's no top-level node with its own recipe (variants
+ * are children of a selector) — the "active" variant is inferred from
+ * whichever ones have a marked descendant, mirroring how walkTree already
+ * scopes marked nodeIds by their variant-path prefix. More than one active
+ * variant means there's no way to know which recipe will actually be
+ * crafted; the first one found is used, and the caller is told it's
+ * ambiguous.
+ */
 export function findRootRecipe(
 	tree: MaterialTreeItem[],
 	markedNodeIds: Set<string>,
@@ -101,6 +103,9 @@ export type StepEntry = {
 	coverageWarnings: CoverageWarning[];
 	recipeContributions?: StepRecipeContribution[];
 	facilities: string[];
+	// Nothing left to fetch/craft (quantity is 0) — either owned stock covers
+	// it, or an ancestor is covered so it's no longer needed at all.
+	covered: boolean;
 };
 
 // Internal-only accumulator used while walking the tree: tracks each
@@ -225,6 +230,7 @@ export function walkTree(
 					hasChildren,
 					coverageWarnings: [],
 					facilities: [...node.facilities],
+					covered: false,
 				});
 			}
 		}
@@ -251,16 +257,18 @@ export function walkTree(
 	}
 }
 
-// Computes, per item, how many are needed once owned stock of its ancestors
-// is taken into account — the item's own owned count is NOT subtracted.
-//
-// A flat gross total per item is wrong once an item's parent is itself
-// partly covered by owned stock: e.g. owning 25 of the 48 Refined Obsidian
-// needed means only 23 must actually be crafted, so only crafting those 23
-// (not the full 48) requires Ground Obsidian. This recursively scales each
-// item's gross quantity by its ancestors' deficit ratio (deficit / gross),
-// so the discount cascades down the recipe chain instead of applying
-// independently at every level. Results are left unrounded.
+/**
+ * Computes, per item, how many are needed once owned stock of its ancestors
+ * is taken into account — the item's own owned count is NOT subtracted.
+ *
+ * A flat gross total per item is wrong once an item's parent is itself
+ * partly covered by owned stock: e.g. owning 25 of the 48 Refined Obsidian
+ * needed means only 23 must actually be crafted, so only crafting those 23
+ * (not the full 48) requires Ground Obsidian. This recursively scales each
+ * item's gross quantity by its ancestors' deficit ratio (deficit / gross),
+ * so the discount cascades down the recipe chain instead of applying
+ * independently at every level. Results are left unrounded.
+ */
 export function computeAdjustedGross(
 	aggregated: Map<string, StepEntry>,
 	owned: Record<string, number>,
@@ -309,9 +317,11 @@ export function computeAdjustedGross(
 	return adjustedMap;
 }
 
-// Computes, per item, how much still needs to be fetched/crafted: the
-// ancestor-discounted gross (see computeAdjustedGross) minus the item's own
-// owned count. Items fully covered are omitted.
+/**
+ * Computes, per item, how much still needs to be fetched/crafted: the
+ * ancestor-discounted gross (see computeAdjustedGross) minus the item's own
+ * owned count. Items fully covered are omitted.
+ */
 export function computeRemainingQuantities(
 	aggregated: Map<string, StepEntry>,
 	owned: Record<string, number>,
@@ -326,12 +336,14 @@ export function computeRemainingQuantities(
 	return remainingMap;
 }
 
-// Flags parent relationships where not every tracked item that needs the
-// parent also has a marked step for this material. Marking stays fully
-// manual (auto-cascading isn't viable once a parent has multiple recipe
-// variants to choose between), so a parent's deficit ratio can be computed
-// from more tracked items than actually contributed to this item's own
-// raw total — the resulting quantity may undercount for that reason.
+/**
+ * Flags parent relationships where not every tracked item that needs the
+ * parent also has a marked step for this material. Marking stays fully
+ * manual (auto-cascading isn't viable once a parent has multiple recipe
+ * variants to choose between), so a parent's deficit ratio can be computed
+ * from more tracked items than actually contributed to this item's own
+ * raw total — the resulting quantity may undercount for that reason.
+ */
 export function computeCoverageWarnings(
 	entry: StepEntry,
 	aggregated: Map<string, StepEntry>,
@@ -368,7 +380,13 @@ export function buildSteps({
 		const trackedItem = sourceItemById(trackedItemId);
 		if (!trackedItem) continue;
 
-		const markedNodeIds = getMarkedNodeIds(allItems[trackedItemId]);
+		// DONE only mirrors "owned stock covers this" (set when collecting), so
+		// DONE nodes are walked too — whether a step is covered is decided by
+		// owned stock alone, and a DONE parent still passes its deficit ratio
+		// down to its children.
+		const markedNodeIds = getMarkedNodeIds(allItems[trackedItemId], {
+			includeDone: true,
+		});
 		if (!markedNodeIds) continue;
 
 		const tree = resolveMaterialTree(trackedItemId, multiplier);
@@ -394,8 +412,9 @@ export function buildSteps({
 
 	const results: StepEntry[] = [];
 	for (const entry of aggregated.values()) {
-		const remaining = remainingMap.get(entry.itemId);
-		if (remaining === undefined) continue;
+		// Items fully covered have no remainingMap entry — keep them as
+		// covered steps so the list can still show them as completed.
+		const remaining = remainingMap.get(entry.itemId) ?? 0;
 		// A parent may itself be a tracked root item (e.g. this material is a
 		// direct ingredient of the finished piece, not of an intermediate
 		// material) — those never get their own aggregated/remainingMap entry
@@ -432,6 +451,7 @@ export function buildSteps({
 			parents: adjustedParents,
 			coverageWarnings: computeCoverageWarnings(entry, aggregated),
 			recipeContributions,
+			covered: remaining === 0,
 		});
 	}
 

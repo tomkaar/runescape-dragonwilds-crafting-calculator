@@ -44,6 +44,7 @@ describe("computeExperienceSummary", () => {
 			coverageWarnings: [],
 			recipeContributions: [],
 			facilities: [],
+			covered: false,
 			...overrides,
 		};
 	}
@@ -170,6 +171,33 @@ describe("computeExperienceSummary", () => {
 		expect(computeExperienceSummary(steps).ambiguousItemNames).toEqual([
 			"Refined Obsidian",
 		]);
+	});
+
+	it("ignores covered steps, including for ambiguity", () => {
+		const steps = [
+			stepEntry({
+				itemId: "a",
+				name: "Refined Obsidian",
+				quantity: 0,
+				covered: true,
+				recipeContributions: [
+					{
+						skills: [{ name: "Artisan", experience: 8 }],
+						recipeQuantity: 1,
+						remainingQuantity: 2,
+					},
+					{
+						skills: [{ name: "Artisan", experience: 12 }],
+						recipeQuantity: 1,
+						remainingQuantity: 3,
+					},
+				],
+			}),
+		];
+		expect(computeExperienceSummary(steps)).toEqual({
+			totals: [],
+			ambiguousItemNames: [],
+		});
 	});
 
 	it("rolls up the recipe contributions buildSteps attaches to each step", () => {

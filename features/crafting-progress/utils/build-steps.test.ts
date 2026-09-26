@@ -63,11 +63,12 @@ describe("buildSteps", () => {
 				quantity: 5,
 				depth: 1,
 				hasChildren: false,
+				covered: false,
 			}),
 		]);
 	});
 
-	it("excludes materials marked DONE", () => {
+	it("includes materials marked DONE, still needed when not owned", () => {
 		registerItems({
 			root: makeItem("root", [
 				makeVariant(
@@ -105,8 +106,90 @@ describe("buildSteps", () => {
 			owned: {},
 		});
 
-		expect(result).toHaveLength(1);
-		expect(result[0].itemId).toBe("leafTodo");
+		// DONE only mirrors owned stock — with none owned, both are still needed.
+		expect(result).toEqual([
+			expect.objectContaining({
+				itemId: "leafDone",
+				quantity: 3,
+				covered: false,
+			}),
+			expect.objectContaining({
+				itemId: "leafTodo",
+				quantity: 4,
+				covered: false,
+			}),
+		]);
+	});
+
+	it("returns a DONE material covered by owned stock as covered", () => {
+		registerItems({
+			root: makeItem("root", [
+				makeVariant(makeRecipe(1, [{ itemId: "leaf", quantity: 3 }])),
+			]),
+			leaf: makeItem("leaf", [makeVariant(null)]),
+		});
+
+		const result = buildSteps({
+			filteredItemIds: ["root"],
+			allItems: {
+				root: [
+					{
+						id: "m1",
+						itemId: "leaf",
+						quantity: 3,
+						nodeId: "root_leaf",
+						state: "DONE",
+					},
+				],
+			},
+			multipliers: { root: 1 },
+			owned: { leaf: 3 },
+		});
+
+		expect(result).toEqual([
+			expect.objectContaining({ itemId: "leaf", quantity: 0, covered: true }),
+		]);
+	});
+
+	it("cascades a DONE, fully owned parent's coverage down to its TODO children", () => {
+		registerItems({
+			root: makeItem("root", [
+				makeVariant(makeRecipe(1, [{ itemId: "mid", quantity: 4 }])),
+			]),
+			mid: makeItem("mid", [
+				makeVariant(makeRecipe(1, [{ itemId: "leaf", quantity: 2 }])),
+			]),
+			leaf: makeItem("leaf", [makeVariant(null)]),
+		});
+
+		const result = buildSteps({
+			filteredItemIds: ["root"],
+			allItems: {
+				root: [
+					{
+						id: "m1",
+						itemId: "mid",
+						quantity: 4,
+						nodeId: "root_mid",
+						state: "DONE",
+					},
+					{
+						id: "m2",
+						itemId: "leaf",
+						quantity: 8,
+						nodeId: "root_mid_leaf",
+						state: "TODO",
+					},
+				],
+			},
+			multipliers: { root: 1 },
+			owned: { mid: 4 },
+		});
+
+		expect(result).toEqual([
+			expect.objectContaining({ itemId: "leaf", quantity: 0, covered: true }),
+			expect.objectContaining({ itemId: "mid", quantity: 0, covered: true }),
+		]);
 	});
 
 	it("nets a flat single-level material against owned stock", () => {
@@ -135,6 +218,100 @@ describe("buildSteps", () => {
 		});
 
 		expect(result[0].quantity).toBe(5);
+	});
+
+	it("returns a material fully covered by owned stock as covered with quantity 0", () => {
+		registerItems({
+			root: makeItem("root", [
+				makeVariant(
+					makeRecipe(1, [
+						{ itemId: "leafOwned", quantity: 5 },
+						{ itemId: "leafNeeded", quantity: 4 },
+					]),
+				),
+			]),
+			leafOwned: makeItem("leafOwned", [makeVariant(null)]),
+			leafNeeded: makeItem("leafNeeded", [makeVariant(null)]),
+		});
+
+		const result = buildSteps({
+			filteredItemIds: ["root"],
+			allItems: {
+				root: [
+					{
+						id: "m1",
+						itemId: "leafOwned",
+						quantity: 5,
+						nodeId: "root_leafOwned",
+						state: "TODO",
+					},
+					{
+						id: "m2",
+						itemId: "leafNeeded",
+						quantity: 4,
+						nodeId: "root_leafNeeded",
+						state: "TODO",
+					},
+				],
+			},
+			multipliers: { root: 1 },
+			owned: { leafOwned: 7 },
+		});
+
+		expect(result).toEqual([
+			expect.objectContaining({
+				itemId: "leafNeeded",
+				quantity: 4,
+				covered: false,
+			}),
+			expect.objectContaining({
+				itemId: "leafOwned",
+				quantity: 0,
+				covered: true,
+			}),
+		]);
+	});
+
+	it("marks a child covered when its parent is fully owned, even with none of the child owned", () => {
+		registerItems({
+			root: makeItem("root", [
+				makeVariant(makeRecipe(1, [{ itemId: "mid", quantity: 4 }])),
+			]),
+			mid: makeItem("mid", [
+				makeVariant(makeRecipe(1, [{ itemId: "leaf", quantity: 2 }])),
+			]),
+			leaf: makeItem("leaf", [makeVariant(null)]),
+		});
+
+		const result = buildSteps({
+			filteredItemIds: ["root"],
+			allItems: {
+				root: [
+					{
+						id: "m1",
+						itemId: "mid",
+						quantity: 4,
+						nodeId: "root_mid",
+						state: "TODO",
+					},
+					{
+						id: "m2",
+						itemId: "leaf",
+						quantity: 8,
+						nodeId: "root_mid_leaf",
+						state: "TODO",
+					},
+				],
+			},
+			multipliers: { root: 1 },
+			owned: { mid: 4 },
+		});
+
+		// Covered steps keep their crafting-order position (deepest first).
+		expect(result).toEqual([
+			expect.objectContaining({ itemId: "leaf", quantity: 0, covered: true }),
+			expect.objectContaining({ itemId: "mid", quantity: 0, covered: true }),
+		]);
 	});
 
 	it("cascades owned stock of an intermediate material down to its own ingredients", () => {
@@ -179,6 +356,8 @@ describe("buildSteps", () => {
 		const leaf = result.find((r) => r.itemId === "leaf")!;
 		expect(mid.quantity).toBe(23);
 		expect(leaf.quantity).toBe(107);
+		expect(mid.covered).toBe(false);
+		expect(leaf.covered).toBe(false);
 		// "used for" quantity reflects mid's own corrected remaining count, not the stale gross total.
 		expect(leaf.parents).toEqual([
 			expect.objectContaining({ itemId: "mid", quantity: 23 }),
@@ -481,6 +660,7 @@ describe("computeCoverageWarnings", () => {
 			hasChildren: false,
 			coverageWarnings: [],
 			facilities: [],
+			covered: false,
 			...overrides,
 		};
 	}
@@ -557,6 +737,7 @@ function entry(
 		hasChildren: false,
 		coverageWarnings: [],
 		facilities: [],
+		covered: false,
 		...overrides,
 	};
 }
