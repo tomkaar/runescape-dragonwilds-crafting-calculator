@@ -1,5 +1,6 @@
 "use client";
 
+import { ListRestart } from "lucide-react";
 import { AccordionPersisted } from "@/components/accordion-persisted";
 import { ConfirmAlertDialog } from "@/components/confirm-alert-dialog";
 import {
@@ -9,7 +10,6 @@ import {
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import type { OwnedMaterialEntry } from "@/features/crafting-progress/types/owned-material-entry";
-
 import { buildOwnedMaterials } from "@/features/crafting-progress/utils/owned-materials";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
@@ -92,9 +92,8 @@ export function CollectedMaterials({ filteredItemIds }: Props) {
 											size="sm"
 											className="ml-auto text-destructive hover:text-destructive"
 										>
-											<span className="hidden md:inline lg:hidden xl:inline">
-												Reset collected materials
-											</span>
+											<ListRestart />
+											Reset collected materials
 										</Button>
 									}
 									title="Reset progress?"
