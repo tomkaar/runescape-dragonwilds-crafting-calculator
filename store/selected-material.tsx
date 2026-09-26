@@ -21,8 +21,10 @@ export type SelectedMaterial = {
 type SelectedMaterialStore = {
 	items: Record<string, SelectedMaterial[]>;
 	addAnItem: (itemIdKey: string, value: SelectedMaterial) => void;
+	addItems: (itemIdKey: string, values: SelectedMaterial[]) => void;
 	markAsDone: (itemIdKey: string, id: string) => void;
 	removeAnItemByNodeId: (itemIdKey: string, nodeId: string) => void;
+	removeItemsByNodeIds: (itemIdKey: string, nodeIds: string[]) => void;
 	markAsDoneByNodeId: (itemIdKey: string, nodeId: string) => void;
 	markAsTodoByNodeId: (itemIdKey: string, nodeId: string) => void;
 	clearMarkedMaterials: (itemIdKey: string) => void;
@@ -40,6 +42,13 @@ export const useSelectedMaterial = create<SelectedMaterialStore>()(
 						[itemIdKey]: [value, ...(get().items[itemIdKey] || [])],
 					},
 				}),
+			addItems: (itemIdKey: string, values: SelectedMaterial[]) =>
+				set({
+					items: {
+						...get().items,
+						[itemIdKey]: [...values, ...(get().items[itemIdKey] || [])],
+					},
+				}),
 			markAsDone: (itemIdKey: string, id: string) =>
 				set({
 					items: {
@@ -55,6 +64,15 @@ export const useSelectedMaterial = create<SelectedMaterialStore>()(
 						...get().items,
 						[itemIdKey]: (get().items[itemIdKey] || []).filter(
 							(item) => item.nodeId !== nodeId,
+						),
+					},
+				}),
+			removeItemsByNodeIds: (itemIdKey: string, nodeIds: string[]) =>
+				set({
+					items: {
+						...get().items,
+						[itemIdKey]: (get().items[itemIdKey] || []).filter(
+							(item) => !item.nodeId || !nodeIds.includes(item.nodeId),
 						),
 					},
 				}),

@@ -1,6 +1,13 @@
 "use client";
 
-import { ArrowRight, ChevronDown, Ellipsis, ExternalLink } from "lucide-react";
+import {
+	ArrowRight,
+	ChevronDown,
+	Ellipsis,
+	ExternalLink,
+	ListChecks,
+	ListX,
+} from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -13,40 +20,88 @@ import {
 	DropdownMenu,
 	DropdownMenuContent,
 	DropdownMenuItem,
+	DropdownMenuSeparator,
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { FieldContent, FieldGroup, FieldLabel } from "@/components/ui/field";
 import { useCraftingTreeHover } from "@/features/crafting-tree/context/crafting-tree-hover";
+import { useTrackedMaterialsToggle } from "@/hooks/useTrackedMaterialsToggle";
 import { useTrackedMaterialToggle } from "@/hooks/useTrackedMaterialToggle";
 import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import type { MaterialTreeItem } from "../types/material-tree";
 
+type TreeNodeMaterial = {
+	nodeId: string;
+	itemId: string;
+	quantity: number;
+};
+
+function SelectMaterialsMenuItem({
+	initialItemId,
+	materials,
+}: {
+	initialItemId: string;
+	materials: TreeNodeMaterial[];
+}) {
+	const { allSelected, toggle } = useTrackedMaterialsToggle({
+		initialItemId,
+		materials,
+	});
+
+	return (
+		<DropdownMenuItem onSelect={toggle}>
+			{allSelected ? (
+				<ListX className="size-4" />
+			) : (
+				<ListChecks className="size-4" />
+			)}
+			{allSelected ? "Deselect materials" : "Select materials"}
+		</DropdownMenuItem>
+	);
+}
+
 function TreeNodeNavigateMenu({
 	itemId,
 	wikiLink,
+	initialItemId,
+	materials,
 }: {
-	itemId: string;
+	itemId?: string;
 	wikiLink?: string;
+	initialItemId: string;
+	materials?: TreeNodeMaterial[];
 }) {
+	const hasMaterials = !!materials && materials.length > 0;
+	const hasLinks = !!itemId || !!wikiLink;
+
 	return (
 		<DropdownMenu>
 			<DropdownMenuTrigger asChild>
 				<button
 					className="p-1 rounded hover:bg-secondary text-muted-foreground hover:text-foreground"
 					type="button"
-					aria-label="Navigate to item"
+					aria-label="Item options"
 				>
 					<Ellipsis className="size-3.5" />
 				</button>
 			</DropdownMenuTrigger>
 			<DropdownMenuContent align="end" className="min-w-40">
-				<DropdownMenuItem asChild>
-					<Link href={{ pathname: `/item/${itemId}` }} prefetch={false}>
-						<ArrowRight className="size-4" />
-						View item
-					</Link>
-				</DropdownMenuItem>
+				{hasMaterials && (
+					<SelectMaterialsMenuItem
+						initialItemId={initialItemId}
+						materials={materials}
+					/>
+				)}
+				{hasMaterials && hasLinks && <DropdownMenuSeparator />}
+				{itemId && (
+					<DropdownMenuItem asChild>
+						<Link href={{ pathname: `/item/${itemId}` }} prefetch={false}>
+							<ArrowRight className="size-4" />
+							View item
+						</Link>
+					</DropdownMenuItem>
+				)}
 				{wikiLink && (
 					<DropdownMenuItem asChild>
 						<a
@@ -108,6 +163,19 @@ export function MaterialTreeNode({
 	const checkboxState = !!added;
 
 	if ("children" in item && item.children.length > 0) {
+		// A selector node's children are recipe variants, not materials, so it
+		// gets no "Select materials" option — each variant row gets its own.
+		const isSelector = item.children.some(
+			(child) => child.variantNumber !== undefined,
+		);
+		const materials = isSelector
+			? undefined
+			: item.children.map((child) => ({
+					nodeId: child.nodeId,
+					itemId: child.id,
+					quantity: baseQuantities.get(child.nodeId) ?? child.quantity,
+				}));
+
 		return (
 			<Collapsible
 				key={item.nodeId}
@@ -154,10 +222,17 @@ export function MaterialTreeNode({
 							<ChevronDown className="w-4 h-4 self-center justify-self-end ml-auto text-muted-foreground group-hover:text-foreground" />
 						</div>
 					</CollapsibleTrigger>
-					{item.variantNumber === undefined && (
+					{item.variantNumber === undefined ? (
 						<TreeNodeNavigateMenu
 							itemId={item.id}
 							wikiLink={item.item.wikiLink}
+							initialItemId={initialItemId}
+							materials={materials}
+						/>
+					) : (
+						<TreeNodeNavigateMenu
+							initialItemId={initialItemId}
+							materials={materials}
 						/>
 					)}
 				</div>
@@ -223,7 +298,11 @@ export function MaterialTreeNode({
 						)}
 					</FieldLabel>
 				</FieldContent>
-				<TreeNodeNavigateMenu itemId={item.id} wikiLink={item.item.wikiLink} />
+				<TreeNodeNavigateMenu
+					itemId={item.id}
+					wikiLink={item.item.wikiLink}
+					initialItemId={initialItemId}
+				/>
 			</fieldset>
 		</FieldGroup>
 	);
