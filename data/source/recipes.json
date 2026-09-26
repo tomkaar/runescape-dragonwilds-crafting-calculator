@@ -73567,7 +73567,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "300"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -78864,42 +78864,42 @@
       "facility": "Armour Bench",
       "materials": [
         {
-          "quantity": "6",
+          "quantity": "4",
           "name": "Vis Cloth",
           "link": "Vis Cloth",
-          "qty": "6",
+          "qty": "4",
           "item": "Vis Cloth",
           "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "3",
+          "qty": "2",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "3",
+          "qty": "2",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Harmonised Compound",
           "link": "Harmonised Compound",
-          "qty": "3",
+          "qty": "2",
           "item": "Harmonised Compound",
           "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "3",
+          "qty": "2",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -80464,10 +80464,10 @@
       "facility": "Kiln",
       "materials": [
         {
-          "quantity": "3",
+          "quantity": "1",
           "name": "Discordant Residue",
           "link": "Discordant Residue",
-          "qty": "3",
+          "qty": "1",
           "item": "Discordant Residue",
           "image": "[[File:Discordant Residue.png|30px|link=Discordant Residue]]"
         }
@@ -80509,18 +80509,18 @@
       "facility": "Advanced Spinning Wheel",
       "materials": [
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Harmonised Compound",
           "link": "Harmonised Compound",
-          "qty": "3",
+          "qty": "2",
           "item": "Harmonised Compound",
           "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Ground Rune Essence",
           "link": "Ground Rune Essence",
-          "qty": "3",
+          "qty": "2",
           "item": "Ground Rune Essence",
           "image": "[[File:Ground Rune Essence.png|30px|link=Ground Rune Essence]]"
         }
@@ -80535,10 +80535,10 @@
         "Vis Fibres"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Vis Fibres",
         "link": "Vis Fibres",
-        "qty": 1,
+        "qty": "1",
         "item": "Vis Fibres",
         "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
       }
@@ -80562,18 +80562,18 @@
       "facility": "Loom",
       "materials": [
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Vis Fibres",
           "link": "Vis Fibres",
-          "qty": "3",
+          "qty": "2",
           "item": "Vis Fibres",
           "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "3",
+          "qty": "2",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -80616,26 +80616,26 @@
       "facility": "Brewing Cauldron",
       "materials": [
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Harmonised Compound",
           "link": "Harmonised Compound",
-          "qty": "3",
+          "qty": "2",
           "item": "Harmonised Compound",
           "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Ground Rune Essence",
           "link": "Ground Rune Essence",
-          "qty": "3",
+          "qty": "2",
           "item": "Ground Rune Essence",
           "image": "[[File:Ground Rune Essence.png|30px|link=Ground Rune Essence]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Ground Dragon Tooth",
           "link": "Ground Dragon Tooth",
-          "qty": "3",
+          "qty": "2",
           "item": "Ground Dragon Tooth",
           "image": "[[File:Ground Dragon Tooth.png|30px|link=Ground Dragon Tooth]]"
         }
@@ -80650,10 +80650,10 @@
         "Draconic Vis Wax"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Draconic Vis Wax",
         "link": "Draconic Vis Wax",
-        "qty": 1,
+        "qty": "1",
         "item": "Draconic Vis Wax",
         "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
       }
@@ -80680,18 +80680,18 @@
       "facility": "Armour Bench",
       "materials": [
         {
-          "quantity": "4",
+          "quantity": "3",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "4",
+          "qty": "3",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "4",
+          "quantity": "3",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "4",
+          "qty": "3",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
@@ -80875,42 +80875,42 @@
       "facility": "Armour Bench",
       "materials": [
         {
-          "quantity": "10",
+          "quantity": "6",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "10",
+          "qty": "6",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "8",
+          "quantity": "6",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "8",
+          "qty": "6",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Vis Cloth",
           "link": "Vis Cloth",
-          "qty": "3",
+          "qty": "2",
           "item": "Vis Cloth",
           "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Harmonised Compound",
           "link": "Harmonised Compound",
-          "qty": "3",
+          "qty": "2",
           "item": "Harmonised Compound",
           "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "3",
+          "qty": "2",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -80955,42 +80955,42 @@
       "facility": "Armour Bench",
       "materials": [
         {
-          "quantity": "6",
+          "quantity": "4",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "6",
+          "qty": "4",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "6",
+          "quantity": "4",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "6",
+          "qty": "4",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Vis Cloth",
           "link": "Vis Cloth",
-          "qty": "2",
+          "qty": "1",
           "item": "Vis Cloth",
           "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Harmonised Compound",
           "link": "Harmonised Compound",
-          "qty": "2",
+          "qty": "1",
           "item": "Harmonised Compound",
           "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "2",
+          "qty": "1",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -81035,42 +81035,42 @@
       "facility": "Armour Bench",
       "materials": [
         {
-          "quantity": "16",
+          "quantity": "12",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "16",
+          "qty": "12",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
         {
-          "quantity": "4",
+          "quantity": "3",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "4",
+          "qty": "3",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Harmonised Compound",
           "link": "Harmonised Compound",
-          "qty": "3",
+          "qty": "2",
           "item": "Harmonised Compound",
           "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "3",
+          "qty": "2",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         },
         {
-          "quantity": "6",
+          "quantity": "4",
           "name": "Vis Cloth",
           "link": "Vis Cloth",
-          "qty": "6",
+          "qty": "4",
           "item": "Vis Cloth",
           "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
         }
@@ -81114,34 +81114,34 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "8",
+          "quantity": "5",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "8",
+          "qty": "5",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "6",
+          "quantity": "4",
           "name": "Harmonised Compound",
           "link": "Harmonised Compound",
-          "qty": "6",
+          "qty": "4",
           "item": "Harmonised Compound",
           "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Vis Fibres",
           "link": "Vis Fibres",
-          "qty": "3",
+          "qty": "2",
           "item": "Vis Fibres",
           "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "2",
+          "qty": "1",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -81185,34 +81185,34 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "8",
+          "quantity": "5",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "8",
+          "qty": "5",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "8",
+          "quantity": "6",
           "name": "Magic Logs",
           "link": "Magic Logs",
-          "qty": "8",
+          "qty": "6",
           "item": "Magic Logs",
           "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
         },
         {
-          "quantity": "4",
+          "quantity": "3",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "4",
+          "qty": "3",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "2",
+          "qty": "1",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -81256,26 +81256,26 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "8",
+          "quantity": "5",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "8",
+          "qty": "5",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "6",
+          "quantity": "4",
           "name": "Magic Logs",
           "link": "Magic Logs",
-          "qty": "6",
+          "qty": "4",
           "item": "Magic Logs",
           "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
         },
         {
-          "quantity": "4",
+          "quantity": "3",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "4",
+          "qty": "3",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
@@ -81326,10 +81326,10 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "8",
+          "quantity": "5",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "8",
+          "qty": "5",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
@@ -81342,10 +81342,10 @@
           "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
         },
         {
-          "quantity": "4",
+          "quantity": "2",
           "name": "Vis Fibres",
           "link": "Vis Fibres",
-          "qty": "4",
+          "qty": "2",
           "item": "Vis Fibres",
           "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
         }
@@ -81390,42 +81390,42 @@
       "facility": "Mystic Forge",
       "materials": [
         {
-          "quantity": "16",
+          "quantity": "12",
           "name": "Magic Logs",
           "link": "Magic Logs",
-          "qty": "16",
+          "qty": "12",
           "item": "Magic Logs",
           "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
         },
         {
-          "quantity": "10",
+          "quantity": "6",
           "name": "Harmonised Compound",
           "link": "Harmonised Compound",
-          "qty": "10",
+          "qty": "6",
           "item": "Harmonised Compound",
           "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
         },
         {
-          "quantity": "4",
+          "quantity": "2",
           "name": "Vis Cloth",
           "link": "Vis Cloth",
-          "qty": "4",
+          "qty": "2",
           "item": "Vis Cloth",
           "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
         },
         {
-          "quantity": "4",
+          "quantity": "3",
           "name": "Dragonstone",
           "link": "Dragonstone",
-          "qty": "4",
+          "qty": "3",
           "item": "Dragonstone",
           "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
         },
         {
-          "quantity": "4",
+          "quantity": "2",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "4",
+          "qty": "2",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -81512,26 +81512,26 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "10",
+          "quantity": "6",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "10",
+          "qty": "6",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "4",
+          "quantity": "3",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "4",
+          "qty": "3",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "2",
+          "qty": "1",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -81575,10 +81575,10 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "4",
+          "quantity": "3",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "4",
+          "qty": "3",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
@@ -81700,10 +81700,10 @@
       "facility": "Armour Bench",
       "materials": [
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Vis Cloth",
           "link": "Vis Cloth",
-          "qty": "2",
+          "qty": "1",
           "item": "Vis Cloth",
           "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
         },
@@ -81780,10 +81780,10 @@
       "facility": "Armour Bench",
       "materials": [
         {
-          "quantity": "4",
+          "quantity": "2",
           "name": "Vis Cloth",
           "link": "Vis Cloth",
-          "qty": "4",
+          "qty": "2",
           "item": "Vis Cloth",
           "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
         },
@@ -81860,10 +81860,10 @@
       "facility": "Armour Bench",
       "materials": [
         {
-          "quantity": "6",
+          "quantity": "4",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "6",
+          "qty": "4",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
@@ -81940,42 +81940,42 @@
       "facility": "Armour Bench",
       "materials": [
         {
-          "quantity": "10",
+          "quantity": "6",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "10",
+          "qty": "6",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "2",
+          "qty": "1",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Harmonised Compound",
           "link": "Harmonised Compound",
-          "qty": "2",
+          "qty": "1",
           "item": "Harmonised Compound",
           "image": "[[File:Harmonised Compound.png|30px|link=Harmonised Compound]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "2",
+          "qty": "1",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         },
         {
-          "quantity": "4",
+          "quantity": "2",
           "name": "Vis Cloth",
           "link": "Vis Cloth",
-          "qty": "4",
+          "qty": "2",
           "item": "Vis Cloth",
           "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
         }
@@ -82141,18 +82141,18 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "6",
+          "quantity": "4",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "6",
+          "qty": "4",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Vis Cloth",
           "link": "Vis Cloth",
-          "qty": "2",
+          "qty": "1",
           "item": "Vis Cloth",
           "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
         }
@@ -82409,34 +82409,34 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "10",
+          "quantity": "6",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "10",
+          "qty": "6",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "5",
+          "quantity": "3",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "5",
+          "qty": "3",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Vis Fibres",
           "link": "Vis Fibres",
-          "qty": "3",
+          "qty": "2",
           "item": "Vis Fibres",
           "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "2",
+          "qty": "1",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -82480,34 +82480,34 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "10",
+          "quantity": "6",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "10",
+          "qty": "6",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "5",
+          "quantity": "3",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "5",
+          "qty": "3",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Vis Cloth",
           "link": "Vis Cloth",
-          "qty": "2",
+          "qty": "1",
           "item": "Vis Cloth",
           "image": "[[File:Vis Cloth.png|30px|link=Vis Cloth]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "2",
+          "qty": "1",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -82551,34 +82551,34 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "16",
+          "quantity": "12",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "16",
+          "qty": "12",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "5",
+          "quantity": "3",
           "name": "Magic Logs",
           "link": "Magic Logs",
-          "qty": "5",
+          "qty": "3",
           "item": "Magic Logs",
           "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
         },
         {
-          "quantity": "6",
+          "quantity": "4",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "6",
+          "qty": "4",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
         {
-          "quantity": "4",
+          "quantity": "2",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "4",
+          "qty": "2",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -82622,34 +82622,34 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "12",
+          "quantity": "8",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "12",
+          "qty": "8",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "5",
+          "quantity": "3",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "5",
+          "qty": "3",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
         {
-          "quantity": "4",
+          "quantity": "2",
           "name": "Vis Fibres",
           "link": "Vis Fibres",
-          "qty": "4",
+          "qty": "2",
           "item": "Vis Fibres",
           "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
         },
         {
-          "quantity": "4",
+          "quantity": "2",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "4",
+          "qty": "2",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -82692,26 +82692,26 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "16",
+          "quantity": "12",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "16",
+          "qty": "12",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "3",
+          "quantity": "2",
           "name": "Black Dragon Leather",
           "link": "Black Dragon Leather",
-          "qty": "3",
+          "qty": "2",
           "item": "Black Dragon Leather",
           "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
         },
         {
-          "quantity": "4",
+          "quantity": "2",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "4",
+          "qty": "2",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -82973,10 +82973,10 @@
       "facility": "Blacksmith's Bench",
       "materials": [
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "2",
+          "qty": "1",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         }
@@ -83021,18 +83021,18 @@
       "facility": "Fletching Bench",
       "materials": [
         {
-          "quantity": "16",
+          "quantity": "12",
           "name": "Magic Logs",
           "link": "Magic Logs",
-          "qty": "16",
+          "qty": "12",
           "item": "Magic Logs",
           "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
         },
         {
-          "quantity": "6",
+          "quantity": "4",
           "name": "Vis Fibres",
           "link": "Vis Fibres",
-          "qty": "6",
+          "qty": "4",
           "item": "Vis Fibres",
           "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
         },
@@ -83053,10 +83053,10 @@
           "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "2",
+          "qty": "1",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -83101,10 +83101,10 @@
       "facility": "Fletching Bench",
       "materials": [
         {
-          "quantity": "10",
+          "quantity": "7",
           "name": "Magic Logs",
           "link": "Magic Logs",
-          "qty": "10",
+          "qty": "7",
           "item": "Magic Logs",
           "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
         },
@@ -83117,10 +83117,10 @@
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "4",
+          "quantity": "3",
           "name": "Vis Fibres",
           "link": "Vis Fibres",
-          "qty": "4",
+          "qty": "3",
           "item": "Vis Fibres",
           "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
         },
@@ -83133,10 +83133,10 @@
           "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
         },
         {
-          "quantity": "2",
+          "quantity": "1",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "2",
+          "qty": "1",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -83181,42 +83181,42 @@
       "facility": "Fletching Bench",
       "materials": [
         {
-          "quantity": "16",
+          "quantity": "12",
           "name": "Magic Logs",
           "link": "Magic Logs",
-          "qty": "16",
+          "qty": "12",
           "item": "Magic Logs",
           "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]"
         },
         {
-          "quantity": "4",
+          "quantity": "3",
           "name": "Rune Bar",
           "link": "Rune Bar",
-          "qty": "4",
+          "qty": "3",
           "item": "Rune Bar",
           "image": "[[File:Rune Bar.png|30px|link=Rune Bar]]"
         },
         {
-          "quantity": "8",
+          "quantity": "6",
           "name": "Vis Fibres",
           "link": "Vis Fibres",
-          "qty": "8",
+          "qty": "6",
           "item": "Vis Fibres",
           "image": "[[File:Vis Fibres.png|30px|link=Vis Fibres]]"
         },
         {
-          "quantity": "4",
+          "quantity": "3",
           "name": "Dragonstone",
           "link": "Dragonstone",
-          "qty": "4",
+          "qty": "3",
           "item": "Dragonstone",
           "image": "[[File:Dragonstone.png|30px|link=Dragonstone]]"
         },
         {
-          "quantity": "4",
+          "quantity": "3",
           "name": "Draconic Vis Wax",
           "link": "Draconic Vis Wax",
-          "qty": "4",
+          "qty": "3",
           "item": "Draconic Vis Wax",
           "image": "[[File:Draconic Vis Wax.png|30px|link=Draconic Vis Wax]]"
         }
@@ -86796,346 +86796,940 @@
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Green Dragonhide Leather",
+      "Dragon Tooth"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Green Dragonhide Leather",
+          "link": "Green Dragonhide Leather",
+          "qty": "3",
+          "item": "Green Dragonhide Leather",
+          "image": "[[File:Green Dragonhide Leather.png|30px|link=Green Dragonhide Leather]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Dragon Tooth",
+          "link": "Dragon Tooth",
+          "qty": "6",
+          "item": "Dragon Tooth",
+          "image": "[[File:Dragon Tooth.png|30px|link=Dragon Tooth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Green Dragon Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Green Dragon Trophy",
         "link": "Green Dragon Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Green Dragon Trophy",
         "image": "[[File:Green Dragon Trophy.png|30px|link=Green Dragon Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Green Dragon Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Blue Dragon Leather",
+      "Dragon Tooth"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Blue Dragon Leather",
+          "link": "Blue Dragon Leather",
+          "qty": "3",
+          "item": "Blue Dragon Leather",
+          "image": "[[File:Blue Dragon Leather.png|30px|link=Blue Dragon Leather]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Dragon Tooth",
+          "link": "Dragon Tooth",
+          "qty": "6",
+          "item": "Dragon Tooth",
+          "image": "[[File:Dragon Tooth.png|30px|link=Dragon Tooth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Blue Dragon Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Blue Dragon Trophy",
         "link": "Blue Dragon Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Blue Dragon Trophy",
         "image": "[[File:Blue Dragon Trophy.png|30px|link=Blue Dragon Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Blue Dragon Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Black Dragon Leather",
+      "Dragon Tooth"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Black Dragon Leather",
+          "link": "Black Dragon Leather",
+          "qty": "3",
+          "item": "Black Dragon Leather",
+          "image": "[[File:Black Dragon Leather.png|30px|link=Black Dragon Leather]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Dragon Tooth",
+          "link": "Dragon Tooth",
+          "qty": "6",
+          "item": "Dragon Tooth",
+          "image": "[[File:Dragon Tooth.png|30px|link=Dragon Tooth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Black Dragon Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Black Dragon Trophy",
         "link": "Black Dragon Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Black Dragon Trophy",
         "image": "[[File:Black Dragon Trophy.png|30px|link=Black Dragon Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Black Dragon Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Red Dragonhide Leather",
+      "Dragon Tooth"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Red Dragonhide Leather",
+          "link": "Red Dragonhide Leather",
+          "qty": "3",
+          "item": "Red Dragonhide Leather",
+          "image": "[[File:Red Dragonhide Leather.png|30px|link=Red Dragonhide Leather]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Dragon Tooth",
+          "link": "Dragon Tooth",
+          "qty": "6",
+          "item": "Dragon Tooth",
+          "image": "[[File:Dragon Tooth.png|30px|link=Dragon Tooth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Red Dragon Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Red Dragon Trophy",
         "link": "Red Dragon Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Red Dragon Trophy",
         "image": "[[File:Red Dragon Trophy.png|30px|link=Red Dragon Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Red Dragon Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Abyssal Spine",
+      "Monstrous Fang"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Abyssal Spine",
+          "link": "Abyssal Spine",
+          "qty": "2",
+          "item": "Abyssal Spine",
+          "image": "[[File:Abyssal Spine.png|30px|link=Abyssal Spine]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Monstrous Fang",
+          "link": "Monstrous Fang",
+          "qty": "2",
+          "item": "Monstrous Fang",
+          "image": "[[File:Monstrous Fang.png|30px|link=Monstrous Fang]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Abyssal Demon Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Abyssal Demon Trophy",
         "link": "Abyssal Demon Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Abyssal Demon Trophy",
         "image": "[[File:Abyssal Demon Trophy.png|30px|link=Abyssal Demon Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Abyssal Demon Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Soft Animal Fur",
+      "Leather"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Soft Animal Fur",
+          "link": "Soft Animal Fur",
+          "qty": "2",
+          "item": "Soft Animal Fur",
+          "image": "[[File:Soft Animal Fur.png|30px|link=Soft Animal Fur]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Leather",
+          "link": "Leather",
+          "qty": "2",
+          "item": "Leather",
+          "image": "[[File:Leather.png|30px|link=Leather]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Carnivorous Chinchompa Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Carnivorous Chinchompa Trophy",
         "link": "Carnivorous Chinchompa Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Carnivorous Chinchompa Trophy",
         "image": "[[File:Carnivorous Chinchompa Trophy.png|30px|link=Carnivorous Chinchompa Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Carnivorous Chinchompa Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Soft Animal Fur",
+      "Dire Wolf Leather"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Soft Animal Fur",
+          "link": "Soft Animal Fur",
+          "qty": "2",
+          "item": "Soft Animal Fur",
+          "image": "[[File:Soft Animal Fur.png|30px|link=Soft Animal Fur]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Dire Wolf Leather",
+          "link": "Dire Wolf Leather",
+          "qty": "2",
+          "item": "Dire Wolf Leather",
+          "image": "[[File:Dire Wolf Leather.png|30px|link=Dire Wolf Leather]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Dire Wolf Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Dire Wolf Trophy",
         "link": "Dire Wolf Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Dire Wolf Trophy",
         "image": "[[File:Dire Wolf Trophy.png|30px|link=Dire Wolf Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Dire Wolf Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Vile Ashes",
+      "Leather"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Vile Ashes",
+          "link": "Vile Ashes",
+          "qty": "2",
+          "item": "Vile Ashes",
+          "image": "[[File:Vile Ashes.png|30px|link=Vile Ashes]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Leather",
+          "link": "Leather",
+          "qty": "2",
+          "item": "Leather",
+          "image": "[[File:Leather.png|30px|link=Leather]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Hell Rat Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Hell Rat Trophy",
         "link": "Hell Rat Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Hell Rat Trophy",
         "image": "[[File:Hell Rat Trophy.png|30px|link=Hell Rat Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Hell Rat Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Undead Bone",
+      "Undead Meat",
+      "Infinity Robe Hat"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Undead Bone",
+          "link": "Undead Bone",
+          "qty": "6",
+          "item": "Undead Bone",
+          "image": "[[File:Undead Bone.png|30px|link=Undead Bone]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Undead Meat",
+          "link": "Undead Meat",
+          "qty": "6",
+          "item": "Undead Meat",
+          "image": "[[File:Undead Meat.png|30px|link=Undead Meat]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Infinity Robe Hat",
+          "link": "Infinity Robe Hat",
+          "qty": "1",
+          "item": "Infinity Robe Hat",
+          "image": "[[File:Infinity Robe Hat.png|30px|link=Infinity Robe Hat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Infinity Zogre Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Infinity Zogre Trophy",
         "link": "Infinity Zogre Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Infinity Zogre Trophy",
         "image": "[[File:Infinity Zogre Trophy.png|30px|link=Infinity Zogre Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Infinity Zogre Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Kalphite Shell",
+      "Greater Kalphite Wing"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Kalphite Shell",
+          "link": "Kalphite Shell",
+          "qty": "2",
+          "item": "Kalphite Shell",
+          "image": "[[File:Kalphite Shell.png|30px|link=Kalphite Shell]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Greater Kalphite Wing",
+          "link": "Greater Kalphite Wing",
+          "qty": "2",
+          "item": "Greater Kalphite Wing",
+          "image": "[[File:Greater Kalphite Wing.png|30px|link=Greater Kalphite Wing]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Kalphite Guardian Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Kalphite Guardian Trophy",
         "link": "Kalphite Guardian Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Kalphite Guardian Trophy",
         "image": "[[File:Kalphite Guardian Trophy.png|30px|link=Kalphite Guardian Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Kalphite Guardian Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Kalphite Shell",
+      "Greater Kalphite Wing"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Kalphite Shell",
+          "link": "Kalphite Shell",
+          "qty": "2",
+          "item": "Kalphite Shell",
+          "image": "[[File:Kalphite Shell.png|30px|link=Kalphite Shell]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Greater Kalphite Wing",
+          "link": "Greater Kalphite Wing",
+          "qty": "2",
+          "item": "Greater Kalphite Wing",
+          "image": "[[File:Greater Kalphite Wing.png|30px|link=Greater Kalphite Wing]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Kalphite Queen Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Kalphite Queen Trophy",
         "link": "Kalphite Queen Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Kalphite Queen Trophy",
         "image": "[[File:Kalphite Queen Trophy.png|30px|link=Kalphite Queen Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Kalphite Queen Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Kalphite Shell",
+      "Kalphite Wing"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Kalphite Shell",
+          "link": "Kalphite Shell",
+          "qty": "2",
+          "item": "Kalphite Shell",
+          "image": "[[File:Kalphite Shell.png|30px|link=Kalphite Shell]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Kalphite Wing",
+          "link": "Kalphite Wing",
+          "qty": "2",
+          "item": "Kalphite Wing",
+          "image": "[[File:Kalphite Wing.png|30px|link=Kalphite Wing]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Kalphite Soldier Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Kalphite Soldier Trophy",
         "link": "Kalphite Soldier Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Kalphite Soldier Trophy",
         "image": "[[File:Kalphite Soldier Trophy.png|30px|link=Kalphite Soldier Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Kalphite Soldier Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Kalphite Shell",
+      "Stunted Kalphite Wing"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Kalphite Shell",
+          "link": "Kalphite Shell",
+          "qty": "2",
+          "item": "Kalphite Shell",
+          "image": "[[File:Kalphite Shell.png|30px|link=Kalphite Shell]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Stunted Kalphite Wing",
+          "link": "Stunted Kalphite Wing",
+          "qty": "2",
+          "item": "Stunted Kalphite Wing",
+          "image": "[[File:Stunted Kalphite Wing.png|30px|link=Stunted Kalphite Wing]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Kalphite Worker Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Kalphite Worker Trophy",
         "link": "Kalphite Worker Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Kalphite Worker Trophy",
         "image": "[[File:Kalphite Worker Trophy.png|30px|link=Kalphite Worker Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Kalphite Worker Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Hard Leather",
+      "Animal Bone"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Hard Leather",
+          "link": "Hard Leather",
+          "qty": "2",
+          "item": "Hard Leather",
+          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Animal Bone",
+          "link": "Animal Bone",
+          "qty": "2",
+          "item": "Animal Bone",
+          "image": "[[File:Animal Bone.png|30px|link=Animal Bone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Rotridden Cow Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Rotridden Cow Trophy",
         "link": "Rotridden Cow Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Rotridden Cow Trophy",
         "image": "[[File:Rotridden Cow Trophy.png|30px|link=Rotridden Cow Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Rotridden Cow Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Hard Leather",
+      "Small Animal Fang"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Hard Leather",
+          "link": "Hard Leather",
+          "qty": "2",
+          "item": "Hard Leather",
+          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Small Animal Fang",
+          "link": "Small Animal Fang",
+          "qty": "2",
+          "item": "Small Animal Fang",
+          "image": "[[File:Small Animal Fang.png|30px|link=Small Animal Fang]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Rotridden Rat Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Rotridden Rat Trophy",
         "link": "Rotridden Rat Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Rotridden Rat Trophy",
         "image": "[[File:Rotridden Rat Trophy.png|30px|link=Rotridden Rat Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Rotridden Rat Trophy"
     ]
@@ -87164,187 +87758,667 @@
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Undead Bone"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Undead Bone",
+          "link": "Undead Bone",
+          "qty": "2",
+          "item": "Undead Bone",
+          "image": "[[File:Undead Bone.png|30px|link=Undead Bone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Skeleton Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Skeleton Trophy",
         "link": "Skeleton Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Skeleton Trophy",
         "image": "[[File:Skeleton Trophy.png|30px|link=Skeleton Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Skeleton Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Undead Bone"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "12",
+          "name": "Undead Bone",
+          "link": "Undead Bone",
+          "qty": "12",
+          "item": "Undead Bone",
+          "image": "[[File:Undead Bone.png|30px|link=Undead Bone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Skeletons Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Skeletons Trophy",
         "link": "Skeletons Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Skeletons Trophy",
         "image": "[[File:Skeletons Trophy.png|30px|link=Skeletons Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Skeletons Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Animal Bone",
+      "Feathers"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Animal Bone",
+          "link": "Animal Bone",
+          "qty": "2",
+          "item": "Animal Bone",
+          "image": "[[File:Animal Bone.png|30px|link=Animal Bone]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "4",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Terrorbird Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Terrorbird Trophy",
         "link": "Terrorbird Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Terrorbird Trophy",
         "image": "[[File:Terrorbird Trophy.png|30px|link=Terrorbird Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Terrorbird Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Kalphite Shell",
+      "Greater Kalphite Wing"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Kalphite Shell",
+          "link": "Kalphite Shell",
+          "qty": "2",
+          "item": "Kalphite Shell",
+          "image": "[[File:Kalphite Shell.png|30px|link=Kalphite Shell]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Greater Kalphite Wing",
+          "link": "Greater Kalphite Wing",
+          "qty": "2",
+          "item": "Greater Kalphite Wing",
+          "image": "[[File:Greater Kalphite Wing.png|30px|link=Greater Kalphite Wing]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Winged Kalphite Queen Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Winged Kalphite Queen Trophy",
         "link": "Winged Kalphite Queen Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Winged Kalphite Queen Trophy",
         "image": "[[File:Winged Kalphite Queen Trophy.png|30px|link=Winged Kalphite Queen Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Winged Kalphite Queen Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Small Animal Fang",
+      "Leather"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Small Animal Fang",
+          "link": "Small Animal Fang",
+          "qty": "2",
+          "item": "Small Animal Fang",
+          "image": "[[File:Small Animal Fang.png|30px|link=Small Animal Fang]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Leather",
+          "link": "Leather",
+          "qty": "2",
+          "item": "Leather",
+          "image": "[[File:Leather.png|30px|link=Leather]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Wolf Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Wolf Trophy",
         "link": "Wolf Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Wolf Trophy",
         "image": "[[File:Wolf Trophy.png|30px|link=Wolf Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Wolf Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Undead Bone",
+      "Undead Meat"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Undead Bone",
+          "link": "Undead Bone",
+          "qty": "3",
+          "item": "Undead Bone",
+          "image": "[[File:Undead Bone.png|30px|link=Undead Bone]]"
+        },
+        {
+          "quantity": "3",
+          "name": "Undead Meat",
+          "link": "Undead Meat",
+          "qty": "3",
+          "item": "Undead Meat",
+          "image": "[[File:Undead Meat.png|30px|link=Undead Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Zogre Hand Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Zogre Hand Trophy",
         "link": "Zogre Hand Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Zogre Hand Trophy",
         "image": "[[File:Zogre Hand Trophy.png|30px|link=Zogre Hand Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Zogre Hand Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Undead Bone",
+      "Undead Meat"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Undead Bone",
+          "link": "Undead Bone",
+          "qty": "6",
+          "item": "Undead Bone",
+          "image": "[[File:Undead Bone.png|30px|link=Undead Bone]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Undead Meat",
+          "link": "Undead Meat",
+          "qty": "6",
+          "item": "Undead Meat",
+          "image": "[[File:Undead Meat.png|30px|link=Undead Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Zogre Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Zogre Trophy",
         "link": "Zogre Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Zogre Trophy",
         "image": "[[File:Zogre Trophy.png|30px|link=Zogre Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Zogre Trophy"
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Hard Leather",
+      "Small Animal Fang"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Hard Leather",
+          "link": "Hard Leather",
+          "qty": "2",
+          "item": "Hard Leather",
+          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Small Animal Fang",
+          "link": "Small Animal Fang",
+          "qty": "2",
+          "item": "Small Animal Fang",
+          "image": "[[File:Small Animal Fang.png|30px|link=Small Animal Fang]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Zombie Rat Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Zombie Rat Trophy",
         "link": "Zombie Rat Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Zombie Rat Trophy",
         "image": "[[File:Zombie Rat Trophy.png|30px|link=Zombie Rat Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Zombie Rat Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Plank",
+      "Small Animal Fang",
+      "Draconic Leather"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Small Animal Fang",
+          "link": "Small Animal Fang",
+          "qty": "2",
+          "item": "Small Animal Fang",
+          "image": "[[File:Small Animal Fang.png|30px|link=Small Animal Fang]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Draconic Leather",
+          "link": "Draconic Leather",
+          "qty": "2",
+          "item": "Draconic Leather",
+          "image": "[[File:Draconic Leather.png|30px|link=Draconic Leather]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Dragon Wolf Trophy"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Dragon Wolf Trophy",
+        "link": "Dragon Wolf Trophy",
+        "qty": "1",
+        "item": "Dragon Wolf Trophy",
+        "image": "[[File:Dragon Wolf Trophy.png|30px|link=Dragon Wolf Trophy]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Dragon Wolf Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Plank",
+      "Hard Leather",
+      "Animal Bone"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Hard Leather",
+          "link": "Hard Leather",
+          "qty": "2",
+          "item": "Hard Leather",
+          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Animal Bone",
+          "link": "Animal Bone",
+          "qty": "2",
+          "item": "Animal Bone",
+          "image": "[[File:Animal Bone.png|30px|link=Animal Bone]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Zombie Cow Trophy"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Zombie Cow Trophy",
+        "link": "Zombie Cow Trophy",
+        "qty": "1",
+        "item": "Zombie Cow Trophy",
+        "image": "[[File:Zombie Cow Trophy.png|30px|link=Zombie Cow Trophy]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Zombie Cow Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Ash Plank",
+      "Undead Bone",
+      "Undead Meat"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Undead Bone",
+          "link": "Undead Bone",
+          "qty": "2",
+          "item": "Undead Bone",
+          "image": "[[File:Undead Bone.png|30px|link=Undead Bone]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Undead Meat",
+          "link": "Undead Meat",
+          "qty": "2",
+          "item": "Undead Meat",
+          "image": "[[File:Undead Meat.png|30px|link=Undead Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Rotsworm Zombie Trophy"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Rotsworm Zombie Trophy",
+        "link": "Rotsworm Zombie Trophy",
+        "qty": "1",
+        "item": "Rotsworm Zombie Trophy",
+        "image": "[[File:Rotsworm Zombie Trophy.png|30px|link=Rotsworm Zombie Trophy]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Rotsworm Zombie Trophy"
     ]
   }
 ]
