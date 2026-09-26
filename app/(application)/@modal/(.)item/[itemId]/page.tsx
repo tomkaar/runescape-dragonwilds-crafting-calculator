@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
+import { hasRecipe } from "@/domain/crafting/utils/has-recipe";
 import { resolveFacilityRequirements } from "@/domain/crafting/utils/resolve-facility-requirements";
 import { ItemAttributeBadges } from "@/features/item-detail/components/item-attribute-badges";
 import { ItemHeader } from "@/features/item-detail/components/item-header";
@@ -42,6 +43,7 @@ export default async function InterceptedItemModal(props: Props) {
 
 				<div className="flex flex-row flex-wrap gap-2 mt-2">
 					<ItemAttributeBadges
+						itemId={itemId}
 						item={item}
 						afterWiki={
 							<Badge asChild variant="outline" className="text-sm">
@@ -91,18 +93,24 @@ export default async function InterceptedItemModal(props: Props) {
 				</div>
 			)}
 
-			<div>
-				<h3 className="text-sm font-semibold text-foreground">Multiplier</h3>
-				<span className="block mt-0.5 text-xs text-foreground">
-					How many of this item are needed for each craft
-				</span>
-				<div className="mt-4">
-					<MultiplierInput itemId={itemId} />
-				</div>
-			</div>
+			{hasRecipe(item) && (
+				<>
+					<div>
+						<h3 className="text-sm font-semibold text-foreground">
+							Multiplier
+						</h3>
+						<span className="block mt-0.5 text-xs text-foreground">
+							How many of this item are needed for each craft
+						</span>
+						<div className="mt-4">
+							<MultiplierInput itemId={itemId} />
+						</div>
+					</div>
 
-			<h3 className="text-sm font-semibold text-foreground">Materials</h3>
-			<RequiredMaterialsContent itemId={itemId} skipFirstLayer />
+					<h3 className="text-sm font-semibold text-foreground">Materials</h3>
+					<RequiredMaterialsContent itemId={itemId} skipFirstLayer />
+				</>
+			)}
 			{usedIn.length > 0 && (
 				<div className="flex flex-col gap-2">
 					<h3 className="text-sm font-semibold text-foreground">Used in</h3>

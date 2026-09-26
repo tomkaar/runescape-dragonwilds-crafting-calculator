@@ -2,6 +2,7 @@ import { Panel } from "@xyflow/react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { AccordionPersisted } from "@/components/accordion-persisted";
+import { hasRecipe } from "@/domain/crafting/utils/has-recipe";
 import { AccordionCraftingTree } from "@/features/crafting-tree/components/accordion-crafting-tree";
 import { ClearSelected } from "@/features/crafting-tree/components/actions/clear-selected";
 import { Direction } from "@/features/crafting-tree/components/actions/direction";
@@ -37,6 +38,8 @@ export default async function ItemPage(props: Props) {
 		notFound();
 	}
 
+	const craftable = hasRecipe(item);
+
 	return (
 		<main className="lg:h-full flex flex-col">
 			<div className="w-full flex flex-col gap-4 lg:hidden px-4 py-4">
@@ -45,16 +48,16 @@ export default async function ItemPage(props: Props) {
 				</div>
 
 				<AccordionPersisted className="flex flex-col gap-2 pb-2">
-					<AccordionMaterials itemId={itemId} />
+					{craftable && <AccordionMaterials itemId={itemId} />}
 					<AccordionUsedIn itemId={itemId} />
-					<AccordionCraftingTree itemId={itemId} />
+					{craftable && <AccordionCraftingTree itemId={itemId} />}
 				</AccordionPersisted>
 			</div>
 
 			<div className="lg:h-full w-full hidden lg:block">
 				<CraftingTree itemId={itemId} treePaddingLeft={440}>
 					<Panel position="top-left" className="flex gap-2 pl-104">
-						<ClearSelected itemId={itemId} />
+						{craftable && <ClearSelected itemId={itemId} />}
 						<Direction />
 					</Panel>
 
@@ -68,7 +71,7 @@ export default async function ItemPage(props: Props) {
 
 						<div className="overflow-scroll rounded-lg flex flex-col gap-4 pb-8">
 							<AccordionPersisted className="flex flex-col gap-2 pb-2">
-								<AccordionMaterials itemId={itemId} />
+								{craftable && <AccordionMaterials itemId={itemId} />}
 								<AccordionUsedIn itemId={itemId} />
 							</AccordionPersisted>
 						</div>

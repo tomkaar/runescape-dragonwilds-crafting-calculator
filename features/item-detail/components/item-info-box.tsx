@@ -30,7 +30,7 @@ export function ItemInfoBox(props: Props) {
 			<ItemHeader item={item} itemId={itemId} />
 
 			<div className="flex flex-row flex-wrap gap-2 mt-2">
-				<ItemAttributeBadges item={item} />
+				<ItemAttributeBadges itemId={itemId} item={item} />
 			</div>
 
 			<div className="flex flex-row flex-wrap gap-2 mt-2 items-center">

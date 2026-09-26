@@ -12,9 +12,7 @@ type Props = {
 
 export function ProgressNavLink({ className, onClick }: Props) {
 	const items = useSelectedMaterial((state) => state.items);
-	const count = Object.values(items).filter(
-		(materials) => materials.length > 0,
-	).length;
+	const count = Object.keys(items).length;
 
 	return (
 		<Link

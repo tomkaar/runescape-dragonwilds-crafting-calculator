@@ -20,6 +20,7 @@ export type SelectedMaterial = {
 
 type SelectedMaterialStore = {
 	items: Record<string, SelectedMaterial[]>;
+	trackItem: (itemIdKey: string) => void;
 	addAnItem: (itemIdKey: string, value: SelectedMaterial) => void;
 	addItems: (itemIdKey: string, values: SelectedMaterial[]) => void;
 	markAsDone: (itemIdKey: string, id: string) => void;
@@ -35,6 +36,10 @@ export const useSelectedMaterial = create<SelectedMaterialStore>()(
 	persist(
 		(set, get) => ({
 			items: {},
+			trackItem: (itemIdKey: string) => {
+				if (itemIdKey in get().items) return;
+				set({ items: { ...get().items, [itemIdKey]: [] } });
+			},
 			addAnItem: (itemIdKey: string, value: SelectedMaterial) =>
 				set({
 					items: {
