@@ -16,6 +16,7 @@ import {
 	CommandShortcut,
 } from "@/components/ui/command";
 import itemJSON from "@/data/items.json";
+import { useSearchAndNavigation } from "@/features/command/context/search-and-navigation";
 import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { useFavouriteItems } from "@/store/favourite-items";
@@ -39,7 +40,7 @@ type Props = {
 };
 
 export function CommandWithShortcuts({ buttonClassName = "" }: Props) {
-	const [open, setOpen] = useState(false);
+	const { open, setOpen } = useSearchAndNavigation();
 	const [query, setQuery] = useState("");
 	const [page, setPage] = useState<Page>(null);
 
@@ -77,7 +78,7 @@ export function CommandWithShortcuts({ buttonClassName = "" }: Props) {
 
 		document.addEventListener("keydown", down);
 		return () => document.removeEventListener("keydown", down);
-	}, [router.push]);
+	}, [router.push, setOpen]);
 
 	// Reset transient state whenever the dialog closes, so it always reopens on the root page
 	useEffect(() => {

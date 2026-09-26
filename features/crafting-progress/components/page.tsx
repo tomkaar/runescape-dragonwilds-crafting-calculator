@@ -8,6 +8,7 @@ import Items from "@/features/crafting-progress/components/items";
 import { NextSteps } from "@/features/crafting-progress/components/next-steps";
 import { useFilteredItemIds } from "@/features/crafting-progress/hooks/useFilteredItemIds";
 import { useTrackedItemIds } from "@/features/crafting-progress/hooks/useTrackedItemIds";
+import { cn } from "@/lib/utils";
 import { useSelectedMaterial } from "@/store/selected-material";
 import { useStoreHydration } from "@/store/useStoreHydration";
 import { CollectedMaterials } from "./collected-materials";
@@ -22,6 +23,8 @@ export function ProgressPage() {
 	const trackedItemIds = useTrackedItemIds(items);
 	const filteredItemIds = useFilteredItemIds(trackedItemIds);
 
+	const trackedItems = trackedItemIds.map((id) => items[id]).length > 0;
+
 	if (!_hasHydrated) {
 		return (
 			<div className="bg-dark-background h-full flex items-center justify-center">
@@ -30,17 +33,21 @@ export function ProgressPage() {
 		);
 	}
 
-	if (!trackedItemIds.length) {
-		return <Instruction />;
-	}
-
 	return (
 		<div className="bg-dark-background h-full flex flex-col overflow-y-auto lg:overflow-hidden lg:flex-row gap-4 p-4">
 			<div className="flex-1 lg:overflow-y-auto">
-				<Items />
+				<Instruction />
+				<div className={cn(!trackedItems && "opacity-50")}>
+					<Items />
+				</div>
 			</div>
 
-			<div className="flex-2 flex flex-col gap-4 lg:min-h-0">
+			<div
+				className={cn(
+					"flex-2 flex flex-col gap-4 lg:min-h-0",
+					!trackedItems && "opacity-50",
+				)}
+			>
 				<ItemFilter
 					trackedItemIds={trackedItemIds}
 					filteredItemIds={filteredItemIds}
