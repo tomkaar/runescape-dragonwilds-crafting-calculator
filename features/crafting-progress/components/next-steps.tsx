@@ -70,8 +70,8 @@ export function NextSteps({ allItems }: Props) {
 	);
 
 	const ownedRows = useMemo(
-		() => buildOwnedMaterials({ trackedItemIds, allItems, multipliers }),
-		[trackedItemIds, allItems, multipliers],
+		() => buildOwnedMaterials({ trackedItemIds, allItems, multipliers, owned }),
+		[trackedItemIds, allItems, multipliers, owned],
 	);
 	const { readyCount, percentComplete } = buildProgressSummary(
 		ownedRows,

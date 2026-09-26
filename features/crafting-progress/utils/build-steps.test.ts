@@ -15,8 +15,10 @@ vi.mock("@/utils/source-item-by-id", () => ({
 import { sourceItemById } from "@/utils/source-item-by-id";
 import {
 	buildSteps,
+	computeAdjustedGross,
 	computeCoverageWarnings,
 	computeRemainingQuantities,
+	getMarkedNodeIds,
 } from "./build-steps";
 
 const mockSourceItemById = vi.mocked(sourceItemById);
@@ -543,23 +545,112 @@ describe("computeCoverageWarnings", () => {
 	});
 });
 
-describe("computeRemainingQuantities", () => {
-	function entry(
-		overrides: Partial<StepEntry> & Pick<StepEntry, "itemId" | "quantity">,
-	): StepEntry {
-		return {
-			name: overrides.itemId,
-			image: null,
-			parents: [],
-			usedFor: [],
-			depth: 0,
-			hasChildren: false,
-			coverageWarnings: [],
-			facilities: [],
-			...overrides,
-		};
-	}
+function entry(
+	overrides: Partial<StepEntry> & Pick<StepEntry, "itemId" | "quantity">,
+): StepEntry {
+	return {
+		name: overrides.itemId,
+		image: null,
+		parents: [],
+		usedFor: [],
+		depth: 0,
+		hasChildren: false,
+		coverageWarnings: [],
+		facilities: [],
+		...overrides,
+	};
+}
 
+describe("getMarkedNodeIds", () => {
+	const marked = [
+		{ id: "m1", itemId: "a", quantity: 1, nodeId: "n_a", state: "TODO" },
+		{ id: "m2", itemId: "b", quantity: 1, nodeId: "n_b", state: "DONE" },
+		{ id: "m3", itemId: "c", quantity: 1, state: "TODO" },
+	] as const;
+
+	it("returns only TODO nodeIds by default", () => {
+		expect(getMarkedNodeIds([...marked])).toEqual(new Set(["n_a"]));
+	});
+
+	it("includes DONE nodeIds when includeDone is set", () => {
+		expect(getMarkedNodeIds([...marked], { includeDone: true })).toEqual(
+			new Set(["n_a", "n_b"]),
+		);
+	});
+
+	it("returns null when nothing qualifies", () => {
+		expect(getMarkedNodeIds([marked[1]])).toBeNull();
+		expect(getMarkedNodeIds(undefined, { includeDone: true })).toBeNull();
+	});
+});
+
+describe("computeAdjustedGross", () => {
+	it("returns the gross quantity when nothing is owned", () => {
+		const aggregated = new Map<string, StepEntry>([
+			["a", entry({ itemId: "a", quantity: 10 })],
+		]);
+		expect(computeAdjustedGross(aggregated, {})).toEqual(new Map([["a", 10]]));
+	});
+
+	it("does not subtract the item's own owned count", () => {
+		const aggregated = new Map<string, StepEntry>([
+			["a", entry({ itemId: "a", quantity: 10 })],
+		]);
+		expect(computeAdjustedGross(aggregated, { a: 10 }).get("a")).toBe(10);
+	});
+
+	it("scales a child by its parent's deficit ratio", () => {
+		const aggregated = new Map<string, StepEntry>([
+			["mid", entry({ itemId: "mid", quantity: 48 })],
+			[
+				"leaf",
+				entry({
+					itemId: "leaf",
+					quantity: 432,
+					parents: [{ itemId: "mid", name: "mid", image: null, quantity: 432 }],
+				}),
+			],
+		]);
+		const adjusted = computeAdjustedGross(aggregated, { mid: 25, leaf: 100 });
+		expect(adjusted.get("mid")).toBe(48);
+		// 432 * (23 / 48)
+		expect(adjusted.get("leaf")).toBe(207);
+	});
+
+	it("drops a child to 0 when its parent is fully owned", () => {
+		const aggregated = new Map<string, StepEntry>([
+			["mid", entry({ itemId: "mid", quantity: 4 })],
+			[
+				"leaf",
+				entry({
+					itemId: "leaf",
+					quantity: 8,
+					parents: [{ itemId: "mid", name: "mid", image: null, quantity: 8 }],
+				}),
+			],
+		]);
+		expect(computeAdjustedGross(aggregated, { mid: 4 }).get("leaf")).toBe(0);
+	});
+
+	it("does not round fractional results", () => {
+		const aggregated = new Map<string, StepEntry>([
+			["mid", entry({ itemId: "mid", quantity: 3 })],
+			[
+				"leaf",
+				entry({
+					itemId: "leaf",
+					quantity: 7,
+					parents: [{ itemId: "mid", name: "mid", image: null, quantity: 7 }],
+				}),
+			],
+		]);
+		expect(
+			computeAdjustedGross(aggregated, { mid: 1 }).get("leaf"),
+		).toBeCloseTo(14 / 3);
+	});
+});
+
+describe("computeRemainingQuantities", () => {
 	it("returns the gross quantity unchanged when nothing is owned", () => {
 		const aggregated = new Map<string, StepEntry>([
 			["a", entry({ itemId: "a", quantity: 10 })],

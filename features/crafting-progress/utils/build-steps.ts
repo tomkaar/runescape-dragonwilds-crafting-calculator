@@ -15,12 +15,14 @@ export type MarkedMaterial = {
  * Shared by anything that needs to know which nodes of a tracked item's tree
  * the user has marked as todo — null when there's nothing marked yet, so
  * callers can bail out in one check instead of re-deriving it themselves.
+ * Pass `includeDone` to also count nodes already marked DONE.
  */
 export function getMarkedNodeIds(
 	marked: MarkedMaterial[] | undefined,
+	{ includeDone = false }: { includeDone?: boolean } = {},
 ): Set<string> | null {
 	const markedTodo = (marked ?? []).filter(
-		(m) => m.state === "TODO" && m.nodeId,
+		(m) => (includeDone || m.state === "TODO") && m.nodeId,
 	);
 	if (markedTodo.length === 0) return null;
 	// biome-ignore lint/style/noNonNullAssertion: <Marked TODOs are filtered to only include entries with a nodeId>
@@ -105,7 +107,7 @@ export type StepEntry = {
 // distinct recipe's gross (pre owned-stock-discount) contribution to a step,
 // keyed by recipe id so quantities from repeated marked nodes sharing the
 // same recipe accumulate together.
-type RecipeContributionAccumulator = Map<
+export type RecipeContributionAccumulator = Map<
 	string,
 	{ skills: RecipeSkill[]; recipeQuantity: number; grossQuantity: number }
 >;
@@ -117,7 +119,7 @@ export type Params = {
 	owned: Record<string, number>;
 };
 
-function walkTree(
+export function walkTree(
 	nodes: MaterialTreeItem[],
 	depth: number,
 	parent: StepParent | null,
@@ -249,17 +251,17 @@ function walkTree(
 	}
 }
 
-// Computes, per item, how much still needs to be fetched/crafted.
+// Computes, per item, how many are needed once owned stock of its ancestors
+// is taken into account — the item's own owned count is NOT subtracted.
 //
-// A flat `grossTotal - owned` per item is wrong once an item's parent is
-// itself partly covered by owned stock: e.g. owning 25 of the 48 Refined
-// Obsidian needed means only 23 must actually be crafted, so only crafting
-// those 23 (not the full 48) requires Ground Obsidian. This recursively
-// scales each item's gross quantity by its ancestors' deficit ratio
-// (deficit / gross) before subtracting the item's own owned count, so the
-// discount cascades down the recipe chain instead of applying independently
-// at every level.
-export function computeRemainingQuantities(
+// A flat gross total per item is wrong once an item's parent is itself
+// partly covered by owned stock: e.g. owning 25 of the 48 Refined Obsidian
+// needed means only 23 must actually be crafted, so only crafting those 23
+// (not the full 48) requires Ground Obsidian. This recursively scales each
+// item's gross quantity by its ancestors' deficit ratio (deficit / gross),
+// so the discount cascades down the recipe chain instead of applying
+// independently at every level. Results are left unrounded.
+export function computeAdjustedGross(
 	aggregated: Map<string, StepEntry>,
 	owned: Record<string, number>,
 ): Map<string, number> {
@@ -300,9 +302,23 @@ export function computeRemainingQuantities(
 		return r;
 	}
 
-	const remainingMap = new Map<string, number>();
+	const adjustedMap = new Map<string, number>();
 	for (const itemId of aggregated.keys()) {
-		const remaining = adjustedGross(itemId) - (owned[itemId] ?? 0);
+		adjustedMap.set(itemId, adjustedGross(itemId));
+	}
+	return adjustedMap;
+}
+
+// Computes, per item, how much still needs to be fetched/crafted: the
+// ancestor-discounted gross (see computeAdjustedGross) minus the item's own
+// owned count. Items fully covered are omitted.
+export function computeRemainingQuantities(
+	aggregated: Map<string, StepEntry>,
+	owned: Record<string, number>,
+): Map<string, number> {
+	const remainingMap = new Map<string, number>();
+	for (const [itemId, adjusted] of computeAdjustedGross(aggregated, owned)) {
+		const remaining = adjusted - (owned[itemId] ?? 0);
 		// Deficit-ratio scaling can land on a fraction of a raw material; round up
 		// since you can't fetch a partial item.
 		if (remaining > 0) remainingMap.set(itemId, Math.ceil(remaining));

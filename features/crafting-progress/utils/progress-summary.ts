@@ -13,11 +13,14 @@ export function buildProgressSummary(
 	owned: Record<string, number>,
 ): ProgressSummary {
 	const readyCount = ownedRows.filter(
-		(row) => (owned[row.itemId] ?? 0) >= row.needed,
+		(row) => (owned[row.itemId] ?? 0) >= row.adjustedValue,
 	).length;
-	const totalNeeded = ownedRows.reduce((sum, row) => sum + row.needed, 0);
+	const totalNeeded = ownedRows.reduce(
+		(sum, row) => sum + row.adjustedValue,
+		0,
+	);
 	const totalOwned = ownedRows.reduce(
-		(sum, row) => sum + Math.min(owned[row.itemId] ?? 0, row.needed),
+		(sum, row) => sum + Math.min(owned[row.itemId] ?? 0, row.adjustedValue),
 		0,
 	);
 	const percentComplete =

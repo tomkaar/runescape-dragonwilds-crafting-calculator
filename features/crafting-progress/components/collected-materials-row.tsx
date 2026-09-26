@@ -20,7 +20,7 @@ export const CollectedMaterialsRow = memo(function CollectedMaterialsRow({
 	owned,
 	onCommit,
 }: Props) {
-	const isDone = entry.needed > 0 && owned >= entry.needed;
+	const isDone = owned >= entry.adjustedValue;
 
 	const { inputValue, onChange, onBlur } = useClampedNumberInput({
 		value: owned,
@@ -34,7 +34,9 @@ export const CollectedMaterialsRow = memo(function CollectedMaterialsRow({
 		>
 			<Checkbox
 				checked={isDone}
-				onCheckedChange={(checked) => onCommit(checked ? entry.needed : 0)}
+				onCheckedChange={(checked) =>
+					onCommit(checked ? entry.adjustedValue : 0)
+				}
 			/>
 
 			<Link
@@ -67,7 +69,10 @@ export const CollectedMaterialsRow = memo(function CollectedMaterialsRow({
 			</InputGroup>
 			<span className={`${isDone ? " line-through" : ""}`}>of</span>
 			<span className={`font-semibold${isDone ? " line-through" : ""}`}>
-				{entry.needed}×
+				{entry.adjustedValue}×
+			</span>
+			<span className={`text-muted-foreground${isDone ? " line-through" : ""}`}>
+				({entry.total})
 			</span>
 		</div>
 	);

@@ -37,11 +37,12 @@ export function CollectedMaterials({ trackedItemIds }: Props) {
 		trackedItemIds,
 		allItems,
 		multipliers,
+		owned,
 	}).sort((a, b) => a.name.localeCompare(b.name));
 
 	const commit = (entry: OwnedMaterialEntry, qty: number) => {
 		setOwned(entry.itemId, qty);
-		const done = qty >= entry.needed;
+		const done = qty >= entry.adjustedValue;
 		for (const ref of entry.nodeRefs) {
 			if (done) markAsDoneByNodeId(ref.trackedItemId, ref.nodeId);
 			else markAsTodoByNodeId(ref.trackedItemId, ref.nodeId);
