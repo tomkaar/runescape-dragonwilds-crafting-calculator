@@ -63,7 +63,7 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 					</div>
 				</AccordionTrigger>
 
-				<AccordionContent className="px-4 pb-4 text-foreground flex flex-col gap-4 pt-4">
+				<AccordionContent className="px-4 pb-4 text-foreground flex flex-col gap-4">
 					{ownedRows.length > 0 && (
 						<div className="flex flex-col gap-1">
 							<div className="flex items-center justify-between text-xs">
