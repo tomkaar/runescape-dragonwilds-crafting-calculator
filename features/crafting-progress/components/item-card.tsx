@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronRight, Trash2, TriangleAlert } from "lucide-react";
+import { ChevronRight, ListRestart, Trash2, TriangleAlert } from "lucide-react";
 import Link from "next/link";
 import { ConfirmAlertDialog } from "@/components/confirm-alert-dialog";
 import {
@@ -29,6 +29,9 @@ type Props = {
 export function ItemCard({ itemId, item }: Props) {
 	const clearMarkedMaterials = useSelectedMaterial(
 		(state) => state.clearMarkedMaterials,
+	);
+	const resetMarkedMaterials = useSelectedMaterial(
+		(state) => state.resetMarkedMaterials,
 	);
 	const hasNoMaterials = useSelectedMaterial(
 		(state) => state.items[itemId]?.length === 0,
@@ -105,8 +108,25 @@ export function ItemCard({ itemId, item }: Props) {
 						trigger={
 							<Button
 								variant="outline"
-								size="sm"
-								className="ml-auto text-destructive hover:text-destructive"
+								className="ml-auto"
+								disabled={hasNoMaterials}
+							>
+								<ListRestart className="size-4" />
+								<span className="hidden md:inline lg:hidden xl:inline">
+									Reset
+								</span>
+							</Button>
+						}
+						title={`Reset materials for ${item.name}?`}
+						description={`This will clear all selected materials for ${item.name}, but keep it in your progress. This action cannot be undone.`}
+						confirmLabel="Reset"
+						onConfirm={() => resetMarkedMaterials(itemId)}
+					/>
+					<ConfirmAlertDialog
+						trigger={
+							<Button
+								variant="outline"
+								className="text-destructive hover:text-destructive"
 							>
 								<Trash2 className="size-4" />
 								<span className="hidden md:inline lg:hidden xl:inline">

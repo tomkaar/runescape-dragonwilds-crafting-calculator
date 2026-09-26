@@ -29,6 +29,7 @@ type SelectedMaterialStore = {
 	markAsDoneByNodeId: (itemIdKey: string, nodeId: string) => void;
 	markAsTodoByNodeId: (itemIdKey: string, nodeId: string) => void;
 	clearMarkedMaterials: (itemIdKey: string) => void;
+	resetMarkedMaterials: (itemIdKey: string) => void;
 	resetAllToTodo: (itemIdKey: string) => void;
 };
 
@@ -104,6 +105,8 @@ export const useSelectedMaterial = create<SelectedMaterialStore>()(
 					const { [itemIdKey]: _, ...rest } = state.items;
 					return { items: rest };
 				}),
+			resetMarkedMaterials: (itemIdKey: string) =>
+				set({ items: { ...get().items, [itemIdKey]: [] } }),
 			resetAllToTodo: (itemIdKey: string) =>
 				set({
 					items: {

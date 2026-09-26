@@ -41,3 +41,17 @@ describe("useSelectedMaterial.trackItem", () => {
 		expect(useSelectedMaterial.getState().items).toEqual({ wall: [material] });
 	});
 });
+
+describe("useSelectedMaterial.resetMarkedMaterials", () => {
+	beforeEach(() => {
+		useSelectedMaterial.setState({ items: {} });
+	});
+
+	it("clears the selected materials but keeps the item tracked", () => {
+		useSelectedMaterial.setState({ items: { wall: [material] } });
+
+		useSelectedMaterial.getState().resetMarkedMaterials("wall");
+
+		expect(useSelectedMaterial.getState().items).toEqual({ wall: [] });
+	});
+});
