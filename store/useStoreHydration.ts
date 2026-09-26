@@ -10,14 +10,16 @@ type PersistStore = {
 };
 
 export function useStoreHydration(store: PersistStore): boolean {
-	const [_hasHydrated, _setHasHydrated] = useState(() =>
-		store.persist?.hasHydrated(),
-	);
+	// Start as false so the first client render matches the server render.
+	const [_hasHydrated, _setHasHydrated] = useState(false);
 
 	useEffect(() => {
-		if (_hasHydrated) return;
+		if (store.persist?.hasHydrated()) {
+			_setHasHydrated(true);
+			return;
+		}
 		return store.persist?.onFinishHydration(() => _setHasHydrated(true));
-	}, [_hasHydrated, store]);
+	}, [store]);
 
 	return _hasHydrated;
 }
