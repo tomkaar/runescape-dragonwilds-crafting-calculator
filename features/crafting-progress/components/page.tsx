@@ -35,7 +35,7 @@ export function ProgressPage() {
 
 	return (
 		<div className="bg-dark-background h-full flex flex-col overflow-y-auto lg:overflow-hidden lg:flex-row gap-4 p-4">
-			<div className="flex-1 lg:overflow-y-auto">
+			<div className="flex-1 lg:overflow-y-auto flex flex-col gap-4">
 				<Instruction />
 				<div className={cn(!trackedItems && "opacity-50")}>
 					<Items />

@@ -10,14 +10,14 @@ export default function Items() {
 
 	return (
 		<>
-			<div className="bg-background rounded-lg border border-accent p-4 mb-2">
-				<h2 className="font-semibold text-sm">Items</h2>
-				<p className="text-xs text-muted-foreground mt-0.5">
-					Your tracked items. Mark materials as todo and set a multiplier if you
-					need more than one to track your progress. They will be added to the
-					progress summary and next steps.
-				</p>
-			</div>
+			{Object.keys(items).length === 0 ? (
+				<div className="bg-background rounded-lg border border-accent p-4 mb-2">
+					<h2 className="font-semibold text-sm">Items</h2>
+					<p className="text-xs text-muted-foreground mt-0.5">
+						Your tracked items will be visible here.
+					</p>
+				</div>
+			) : null}
 
 			<AccordionPersisted className="flex flex-col gap-2">
 				{trackedItemIds.map((itemId) => {
