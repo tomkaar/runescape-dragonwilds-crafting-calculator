@@ -13,8 +13,8 @@ import { Progress } from "@/components/ui/progress";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
+import { useNextStepsOptions } from "@/store/next-steps-options";
 import type { SelectedMaterial } from "@/store/selected-material";
-import { useShowCoveredSteps } from "@/store/show-covered-steps";
 
 import { buildSteps, type StepEntry } from "../utils/build-steps";
 import { buildOwnedMaterials } from "../utils/owned-materials";
@@ -33,11 +33,15 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 		() => buildSteps({ filteredItemIds, allItems, multipliers, owned }),
 		[filteredItemIds, allItems, multipliers, owned],
 	);
-	const { showCovered, toggleShowCovered } = useShowCoveredSteps();
+	const { showCovered, toggleShowCovered, showUsedFor, toggleShowUsedFor } =
+		useNextStepsOptions();
 	const coveredCount = steps.filter((step) => step.covered).length;
 	const visibleSteps = showCovered
 		? steps
 		: steps.filter((step) => !step.covered);
+	const hasUsedFor = visibleSteps.some(
+		(step) => !step.covered && step.parents.length > 0,
+	);
 
 	const ownedRows = useMemo(
 		() =>
@@ -119,21 +123,37 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 												<Check className="size-4 shrink-0 text-green-500" />
 											</div>
 										) : (
-											<StepRow key={step.itemId} step={step} />
+											<StepRow
+												key={step.itemId}
+												step={step}
+												showUsedFor={showUsedFor}
+											/>
 										),
 									)}
 								</div>
 							)}
-							{coveredCount > 0 && (
-								<div>
-									<Button
-										variant="outline"
-										size="sm"
-										onClick={toggleShowCovered}
-									>
-										{showCovered ? <EyeOff /> : <Eye />}
-										{showCovered ? "Hide" : "Show"} {coveredCount} completed
-									</Button>
+							{(coveredCount > 0 || hasUsedFor) && (
+								<div className="flex flex-wrap gap-2">
+									{coveredCount > 0 && (
+										<Button
+											variant="outline"
+											size="sm"
+											onClick={toggleShowCovered}
+										>
+											{showCovered ? <EyeOff /> : <Eye />}
+											{showCovered ? "Hide" : "Show"} {coveredCount} completed
+										</Button>
+									)}
+									{hasUsedFor && (
+										<Button
+											variant="outline"
+											size="sm"
+											onClick={toggleShowUsedFor}
+										>
+											{showUsedFor ? <EyeOff /> : <Eye />}
+											{showUsedFor ? "Hide" : "Show"} used for
+										</Button>
+									)}
 								</div>
 							)}
 						</div>
@@ -144,7 +164,13 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 	);
 }
 
-function StepRow({ step }: { step: StepEntry }) {
+function StepRow({
+	step,
+	showUsedFor,
+}: {
+	step: StepEntry;
+	showUsedFor: boolean;
+}) {
 	return (
 		<div className="flex flex-col gap-0.5 py-2 text-sm first:pt-0 last:pb-0">
 			<div className="flex items-center gap-2">
@@ -161,7 +187,7 @@ function StepRow({ step }: { step: StepEntry }) {
 					{step.quantity}× {step.name}
 				</span>
 			</div>
-			{step.parents.length > 0 && (
+			{showUsedFor && step.parents.length > 0 && (
 				<div className="flex flex-wrap items-center gap-x-1.5 gap-y-0.5 pl-7 text-xs text-muted-foreground">
 					<span>Used for:</span>
 					{step.parents.map((p, i) => (
