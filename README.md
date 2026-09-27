@@ -2,6 +2,18 @@
 
 This tool helps players determine the materials needed to craft various items within the game.
 
+Use it online at <https://runescape-dragonwilds-crafting-calc.vercel.app>.
+
+## Why this exists
+
+This project started as a set of tools I built for my partner and me while playing RuneScape: Dragonwilds. Before that, I kept notes to track how many materials we needed to craft certain items. That worked, but it had clear limits.
+
+The calculator replaces those notes. It works out the full material tree for any item, tracks what you already own and calculates what is still missing. It pulls its data from the RuneScape: Dragonwilds Wiki so it stays current with the game.
+
+It was built for us, but it has been public from day one and is shared with anyone who finds it useful. The project is free and open source under the MIT license, and it is built on open data and tools. 
+
+Contributions are welcome.
+
 ## Get started
 
 ### 1. Clone the repository:
