@@ -4268,6 +4268,7 @@
       "Artisan"
     ],
     "json": {
+      "recipe": "Abyssal Whip#Recipe location",
       "facility": "Blacksmith's Bench",
       "materials": [
         {
@@ -4331,6 +4332,9 @@
     },
     "uses_facility": [
       "Blacksmith's Bench"
+    ],
+    "uses_recipe": [
+      "Abyssal Whip#Recipe location"
     ],
     "output": [
       "Abyssal Whip"
@@ -70079,7 +70083,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -73841,22 +73845,22 @@
         }
       ],
       "outputs": [
-        "Red Dragon Chest"
+        "Red Dragonhide Body"
       ],
       "output": {
         "quantity": 1,
-        "name": "Red Dragon Chest",
-        "link": "Red Dragon Chest",
+        "name": "Red Dragonhide Body",
+        "link": "Red Dragonhide Body",
         "qty": 1,
-        "item": "Red Dragon Chest",
-        "image": "[[File:Red Dragon Chest.png|30px|link=Red Dragon Chest]]"
+        "item": "Red Dragonhide Body",
+        "image": "[[File:Red Dragonhide Body.png|30px|link=Red Dragonhide Body]]"
       }
     },
     "uses_facility": [
       "Armour Bench"
     ],
     "output": [
-      "Red Dragon Chest"
+      "Red Dragonhide Body"
     ]
   },
   {
@@ -73930,22 +73934,22 @@
         }
       ],
       "outputs": [
-        "Red Dragon Helmet"
+        "Red Dragonhide Coif"
       ],
       "output": {
         "quantity": 1,
-        "name": "Red Dragon Helmet",
-        "link": "Red Dragon Helmet",
+        "name": "Red Dragonhide Coif",
+        "link": "Red Dragonhide Coif",
         "qty": 1,
-        "item": "Red Dragon Helmet",
-        "image": "[[File:Red Dragon Helmet.png|30px|link=Red Dragon Helmet]]"
+        "item": "Red Dragonhide Coif",
+        "image": "[[File:Red Dragonhide Coif.png|30px|link=Red Dragonhide Coif]]"
       }
     },
     "uses_facility": [
       "Armour Bench"
     ],
     "output": [
-      "Red Dragon Helmet"
+      "Red Dragonhide Coif"
     ]
   },
   {
@@ -74019,22 +74023,22 @@
         }
       ],
       "outputs": [
-        "Red Dragon Legs"
+        "Red Dragonhide Legs"
       ],
       "output": {
         "quantity": 1,
-        "name": "Red Dragon Legs",
-        "link": "Red Dragon Legs",
+        "name": "Red Dragonhide Legs",
+        "link": "Red Dragonhide Legs",
         "qty": 1,
-        "item": "Red Dragon Legs",
-        "image": "[[File:Red Dragon Legs.png|30px|link=Red Dragon Legs]]"
+        "item": "Red Dragonhide Legs",
+        "image": "[[File:Red Dragonhide Legs.png|30px|link=Red Dragonhide Legs]]"
       }
     },
     "uses_facility": [
       "Armour Bench"
     ],
     "output": [
-      "Red Dragon Legs"
+      "Red Dragonhide Legs"
     ]
   },
   {
@@ -80369,7 +80373,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -85119,7 +85123,7 @@
   {
     "uses_material": [
       "Yew Logs",
-      "Bunny Cactus Seed",
+      "Bunny Cactus Seeds",
       "Raw Bird Meat",
       "Feathers"
     ],
@@ -85139,11 +85143,11 @@
         },
         {
           "quantity": "2",
-          "name": "Bunny Cactus Seed",
-          "link": "Bunny Cactus Seed",
+          "name": "Bunny Cactus Seeds",
+          "link": "Bunny Cactus Seeds",
           "qty": "2",
-          "item": "Bunny Cactus Seed",
-          "image": "[[File:Bunny Cactus Seed.png|30px|link=Bunny Cactus Seed]]"
+          "item": "Bunny Cactus Seeds",
+          "image": "[[File:Bunny Cactus Seeds.png|30px|link=Bunny Cactus Seeds]]"
         },
         {
           "quantity": "1",

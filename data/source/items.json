@@ -2224,18 +2224,18 @@
     "page_name": "Anima-Infused Bark",
     "item_description": "Tree bark infused with magical energy.",
     "page_name_sub": "Anima-Infused Bark",
-    "item_weight": 2,
+    "item_weight": 0.8,
     "item_stacklimit": 99,
     "json": {
       "description": "Tree bark infused with magical energy.",
-      "weight": "2.0",
+      "weight": "0.8",
       "image": "[[File:Anima-Infused Bark.png|32px]]",
       "name": "Anima-Infused Bark",
-      "item_type": "Basic Item",
+      "item_type": "Resource",
       "stacklimit": "99",
       "image_raw": "Anima-Infused Bark.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Resource",
     "item_name": "Anima-Infused Bark"
   },
   {
@@ -9942,11 +9942,11 @@
   {
     "page_name": "Necromancer's Crown",
     "page_name_sub": "Necromancer's Crown",
-    "item_description": "Leggings styled after the ancient overlords of Ashenfall.",
+    "item_description": "Magical headgear for those that rule over their undead minions.",
     "item_type": "Mage Armour",
     "item_name": "Necromancer's Crown",
     "json": {
-      "description": "Leggings styled after the ancient overlords of Ashenfall.",
+      "description": "Magical headgear for those that rule over their undead minions.",
       "weight": "4.0",
       "image": "[[File:Necromancer's Crown.png|32px]]",
       "name": "Necromancer's Crown",
@@ -18721,58 +18721,58 @@
     "item_name": "Yew Tree Seed"
   },
   {
-    "page_name": "Bunny Cactus Seed",
+    "page_name": "Bunny Cactus Seeds",
     "item_description": "A Bunny Cactus seed. Pop it into a farming plot and start growing!<br><br>Best planted in Umbral Sand plots.",
-    "page_name_sub": "Bunny Cactus Seed",
+    "page_name_sub": "Bunny Cactus Seeds",
     "item_weight": 0,
     "item_stacklimit": 999,
     "json": {
       "description": "A Bunny Cactus seed. Pop it into a farming plot and start growing!<br><br>Best planted in Umbral Sand plots.",
       "weight": "0.0",
-      "image": "[[File:Bunny Cactus Seed.png|32px]]",
-      "name": "Bunny Cactus Seed",
+      "image": "[[File:Bunny Cactus Seeds.png|32px]]",
+      "name": "Bunny Cactus Seeds",
       "item_type": "Seed",
       "stacklimit": "999",
-      "image_raw": "Bunny Cactus Seed.png"
+      "image_raw": "Bunny Cactus Seeds.png"
     },
     "item_type": "Seed",
-    "item_name": "Bunny Cactus Seed"
+    "item_name": "Bunny Cactus Seeds"
   },
   {
-    "page_name": "Barrel Cactus Seed",
+    "page_name": "Barrel Cactus Seeds",
     "item_description": "A Barrel Cactus seed. Pop it into a farming plot and start growing!<br><br>Best planted in Umbral Sand plots.",
-    "page_name_sub": "Barrel Cactus Seed",
+    "page_name_sub": "Barrel Cactus Seeds",
     "item_weight": 0,
     "item_stacklimit": 999,
     "json": {
       "description": "A Barrel Cactus seed. Pop it into a farming plot and start growing!<br><br>Best planted in Umbral Sand plots.",
       "weight": "0.0",
-      "image": "[[File:Barrel Cactus Seed.png|32px]]",
-      "name": "Barrel Cactus Seed",
+      "image": "[[File:Barrel Cactus Seeds.png|32px]]",
+      "name": "Barrel Cactus Seeds",
       "item_type": "Seed",
       "stacklimit": "999",
-      "image_raw": "Barrel Cactus Seed.png"
+      "image_raw": "Barrel Cactus Seeds.png"
     },
     "item_type": "Seed",
-    "item_name": "Barrel Cactus Seed"
+    "item_name": "Barrel Cactus Seeds"
   },
   {
-    "page_name": "Pipe Cactus Seed",
+    "page_name": "Pipe Cactus Seeds",
     "item_description": "A Pipe Cactus seed. Pop it into a farming plot and start growing!<br><br>Best planted in Umbral Sand plots.",
-    "page_name_sub": "Pipe Cactus Seed",
+    "page_name_sub": "Pipe Cactus Seeds",
     "item_weight": 0,
     "item_stacklimit": 999,
     "json": {
       "description": "A Pipe Cactus seed. Pop it into a farming plot and start growing!<br><br>Best planted in Umbral Sand plots.",
       "weight": "0.0",
-      "image": "[[File:Pipe Cactus Seed.png|32px]]",
-      "name": "Pipe Cactus Seed",
+      "image": "[[File:Pipe Cactus Seeds.png|32px]]",
+      "name": "Pipe Cactus Seeds",
       "item_type": "Seed",
       "stacklimit": "999",
-      "image_raw": "Pipe Cactus Seed.png"
+      "image_raw": "Pipe Cactus Seeds.png"
     },
     "item_type": "Seed",
-    "item_name": "Pipe Cactus Seed"
+    "item_name": "Pipe Cactus Seeds"
   },
   {
     "page_name": "Desert Weed Seeds",
@@ -19463,50 +19463,50 @@
     "item_name": "Red Dragonhide Leather"
   },
   {
-    "page_name": "Red Dragon Chest",
-    "page_name_sub": "Red Dragon Chest",
-    "item_description": "Agile chest armour stitched from  red dragonhide, fit for the finest of archers.",
+    "page_name": "Red Dragonhide Body",
+    "page_name_sub": "Red Dragonhide Body",
+    "item_description": "Agile chest armour stitched from red dragonhide, fit for the finest of archers.",
     "item_type": "Ranged Armour",
-    "item_name": "Red Dragon Chest",
+    "item_name": "Red Dragonhide Body",
     "json": {
-      "description": "Agile chest armour stitched from  red dragonhide, fit for the finest of archers.",
-      "weight": "12",
-      "image": "[[File:Red Dragon Chest.png|32px]]",
-      "name": "Red Dragon Chest",
+      "description": "Agile chest armour stitched from red dragonhide, fit for the finest of archers.",
+      "weight": "12.0",
+      "image": "[[File:Red Dragonhide Body.png|32px]]",
+      "name": "Red Dragonhide Body",
       "item_type": "Ranged Armour",
-      "image_raw": "Red Dragon Chest.png"
+      "image_raw": "Red Dragonhide Body.png"
     },
     "item_weight": 12
   },
   {
-    "page_name": "Red Dragon Helmet",
-    "page_name_sub": "Red Dragon Helmet",
+    "page_name": "Red Dragonhide Coif",
+    "page_name_sub": "Red Dragonhide Coif",
     "item_description": "Headgear made of red dragonhide, fit for the finest of archers.",
     "item_type": "Ranged Armour",
-    "item_name": "Red Dragon Helmet",
+    "item_name": "Red Dragon Coif",
     "json": {
       "description": "Headgear made of red dragonhide, fit for the finest of archers.",
       "weight": "6",
-      "image": "[[File:Red Dragon Helmet.png|32px]]",
-      "name": "Red Dragon Helmet",
+      "image": "[[File:Red Dragonhide Coif.png|32px]]",
+      "name": "Red Dragon Coif",
       "item_type": "Ranged Armour",
-      "image_raw": "Red Dragon Helmet.png"
+      "image_raw": "Red Dragonhide Coif.png"
     },
     "item_weight": 6
   },
   {
-    "page_name": "Red Dragon Legs",
-    "page_name_sub": "Red Dragon Legs",
+    "page_name": "Red Dragonhide Legs",
+    "page_name_sub": "Red Dragonhide Legs",
     "item_description": "Headgear made of red dragonhide, fit for the finest of archers.",
     "item_type": "Ranged Armour",
-    "item_name": "Red Dragon Legs",
+    "item_name": "Red Dragonhide Legs",
     "json": {
       "description": "Headgear made of red dragonhide, fit for the finest of archers.",
       "weight": "9.0",
-      "image": "[[File:Red Dragon Legs.png|32px]]",
-      "name": "Red Dragon Legs",
+      "image": "[[File:Red Dragonhide Legs.png|32px]]",
+      "name": "Red Dragonhide Legs",
       "item_type": "Ranged Armour",
-      "image_raw": "Red Dragon Legs.png"
+      "image_raw": "Red Dragonhide Legs.png"
     },
     "item_weight": 9
   },
