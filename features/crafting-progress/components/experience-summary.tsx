@@ -128,8 +128,8 @@ export function ExperienceSummary({ allItems, filteredItemIds }: Props) {
 												{skill}
 											</span>
 											{experience !== undefined && (
-												<span className="text-muted-foreground">
-													{experience.toLocaleString()} XP
+												<span className="text-emerald-500 font-semibold">
+													+{experience.toLocaleString()} XP
 												</span>
 											)}
 										</div>
