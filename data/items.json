@@ -3176,7 +3176,9 @@
             }
           ]
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Abyssal Whip#Recipe location"
+        ]
       }
     ],
     "skills": [
@@ -52465,7 +52467,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 40
             }
           ]
         },
@@ -55289,17 +55291,17 @@
     "stackLimit": 99
   },
   {
-    "id": "red-dragon-chest",
-    "name": "Red Dragon Chest",
-    "image": "Red Dragon Chest.png",
+    "id": "red-dragonhide-body",
+    "name": "Red Dragonhide Body",
+    "image": "Red Dragonhide Body.png",
     "variants": [
       {
-        "id": "c9e1778764a6",
-        "name": "Red Dragon Chest",
-        "image": "Red Dragon Chest.png",
+        "id": "b06f39903ab9",
+        "name": "Red Dragonhide Body",
+        "image": "Red Dragonhide Body.png",
         "variantName": null,
         "recipe": {
-          "id": "6122e3344d2d",
+          "id": "15243cc837d8",
           "facilities": [
             "Armour Bench"
           ],
@@ -55346,22 +55348,22 @@
     "facilities": [
       "Armour Bench"
     ],
-    "wikiLink": "Red_Dragon_Chest",
+    "wikiLink": "Red_Dragonhide_Body",
     "weight": 12,
     "itemType": "Ranged Armour"
   },
   {
-    "id": "red-dragon-helmet",
-    "name": "Red Dragon Helmet",
-    "image": "Red Dragon Helmet.png",
+    "id": "red-dragonhide-coif",
+    "name": "Red Dragonhide Coif",
+    "image": "Red Dragonhide Coif.png",
     "variants": [
       {
-        "id": "f622722988f1",
-        "name": "Red Dragon Helmet",
-        "image": "Red Dragon Helmet.png",
+        "id": "48078d62a9f9",
+        "name": "Red Dragonhide Coif",
+        "image": "Red Dragonhide Coif.png",
         "variantName": null,
         "recipe": {
-          "id": "74157c2d18f5",
+          "id": "273945b3e13d",
           "facilities": [
             "Armour Bench"
           ],
@@ -55408,22 +55410,22 @@
     "facilities": [
       "Armour Bench"
     ],
-    "wikiLink": "Red_Dragon_Helmet",
+    "wikiLink": "Red_Dragonhide_Coif",
     "weight": 6,
     "itemType": "Ranged Armour"
   },
   {
-    "id": "red-dragon-legs",
-    "name": "Red Dragon Legs",
-    "image": "Red Dragon Legs.png",
+    "id": "red-dragonhide-legs",
+    "name": "Red Dragonhide Legs",
+    "image": "Red Dragonhide Legs.png",
     "variants": [
       {
-        "id": "8dad5f76b765",
-        "name": "Red Dragon Legs",
-        "image": "Red Dragon Legs.png",
+        "id": "5f7ecd2a02c4",
+        "name": "Red Dragonhide Legs",
+        "image": "Red Dragonhide Legs.png",
         "variantName": null,
         "recipe": {
-          "id": "f106e55e113d",
+          "id": "5d1dd76a8211",
           "facilities": [
             "Armour Bench"
           ],
@@ -55470,7 +55472,7 @@
     "facilities": [
       "Armour Bench"
     ],
-    "wikiLink": "Red_Dragon_Legs",
+    "wikiLink": "Red_Dragonhide_Legs",
     "weight": 9,
     "itemType": "Ranged Armour"
   },
@@ -60697,7 +60699,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 20
             }
           ]
         },
@@ -64388,18 +64390,18 @@
     "image": "Umbral Vulture Perch.png",
     "variants": [
       {
-        "id": "c5c2627cc300",
+        "id": "8c8a657b077d",
         "name": "Umbral Vulture Perch",
         "image": "Umbral Vulture Perch.png",
         "variantName": null,
         "recipe": {
-          "id": "a018b2cceff2",
+          "id": "dcd9f087d35b",
           "facilities": [
             "Build Menu"
           ],
           "materials": [
             {
-              "itemId": "bunny-cactus-seed",
+              "itemId": "bunny-cactus-seeds",
               "quantity": 2
             },
             {
@@ -67761,8 +67763,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Anima-Infused_Bark",
-    "weight": 2,
-    "itemType": "Basic Item",
+    "weight": 0.8,
+    "itemType": "Resource",
     "stackLimit": 99
   },
   {
@@ -76767,14 +76769,14 @@
     "stackLimit": 999
   },
   {
-    "id": "bunny-cactus-seed",
-    "name": "Bunny Cactus Seed",
-    "image": "Bunny Cactus Seed.png",
+    "id": "bunny-cactus-seeds",
+    "name": "Bunny Cactus Seeds",
+    "image": "Bunny Cactus Seeds.png",
     "variants": [
       {
-        "id": "bunny-cactus-seed",
-        "name": "Bunny Cactus Seed",
-        "image": "Bunny Cactus Seed.png",
+        "id": "bunny-cactus-seeds",
+        "name": "Bunny Cactus Seeds",
+        "image": "Bunny Cactus Seeds.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -76782,20 +76784,20 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Bunny_Cactus_Seed",
+    "wikiLink": "Bunny_Cactus_Seeds",
     "weight": 0,
     "itemType": "Seed",
     "stackLimit": 999
   },
   {
-    "id": "barrel-cactus-seed",
-    "name": "Barrel Cactus Seed",
-    "image": "Barrel Cactus Seed.png",
+    "id": "barrel-cactus-seeds",
+    "name": "Barrel Cactus Seeds",
+    "image": "Barrel Cactus Seeds.png",
     "variants": [
       {
-        "id": "barrel-cactus-seed",
-        "name": "Barrel Cactus Seed",
-        "image": "Barrel Cactus Seed.png",
+        "id": "barrel-cactus-seeds",
+        "name": "Barrel Cactus Seeds",
+        "image": "Barrel Cactus Seeds.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -76803,20 +76805,20 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Barrel_Cactus_Seed",
+    "wikiLink": "Barrel_Cactus_Seeds",
     "weight": 0,
     "itemType": "Seed",
     "stackLimit": 999
   },
   {
-    "id": "pipe-cactus-seed",
-    "name": "Pipe Cactus Seed",
-    "image": "Pipe Cactus Seed.png",
+    "id": "pipe-cactus-seeds",
+    "name": "Pipe Cactus Seeds",
+    "image": "Pipe Cactus Seeds.png",
     "variants": [
       {
-        "id": "pipe-cactus-seed",
-        "name": "Pipe Cactus Seed",
-        "image": "Pipe Cactus Seed.png",
+        "id": "pipe-cactus-seeds",
+        "name": "Pipe Cactus Seeds",
+        "image": "Pipe Cactus Seeds.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -76824,7 +76826,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Pipe_Cactus_Seed",
+    "wikiLink": "Pipe_Cactus_Seeds",
     "weight": 0,
     "itemType": "Seed",
     "stackLimit": 999
