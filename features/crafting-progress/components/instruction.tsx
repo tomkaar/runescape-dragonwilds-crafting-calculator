@@ -27,7 +27,7 @@ export default function Instruction() {
 
 	return (
 		<div className="bg-dark-background">
-			<div className="mx-auto flex max-w-4xl flex-col gap-4">
+			<div className="mx-auto flex flex-col gap-4">
 				<AccordionPersisted>
 					<AccordionItem
 						value="progress-instruction"
