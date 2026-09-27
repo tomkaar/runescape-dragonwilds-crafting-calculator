@@ -87,11 +87,7 @@ export function CollectedMaterials({ filteredItemIds }: Props) {
 							<div className="mt-4">
 								<ConfirmAlertDialog
 									trigger={
-										<Button
-											variant="outline"
-											size="sm"
-											className="ml-auto text-destructive hover:text-destructive"
-										>
+										<Button variant="outline" size="sm">
 											<ListRestart />
 											Reset collected materials
 										</Button>
