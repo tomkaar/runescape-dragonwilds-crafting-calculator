@@ -1,6 +1,6 @@
 "use client";
 
-import { TriangleAlert } from "lucide-react";
+import { Eye, EyeOff, TriangleAlert } from "lucide-react";
 import { useMemo } from "react";
 import { AccordionPersisted } from "@/components/accordion-persisted";
 import {
@@ -8,8 +8,10 @@ import {
 	AccordionItem,
 	AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { buildLevelProgress } from "@/domain/experience/level-progress";
+import { useExperienceSummaryOptions } from "@/store/experience-summary-options";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
 import type { SelectedMaterial } from "@/store/selected-material";
@@ -33,6 +35,8 @@ export function ExperienceSummary({ allItems, filteredItemIds }: Props) {
 	const multipliers = useMaterialMultiplier((state) => state.items);
 	const owned = useMaterialOwned((state) => state.owned);
 	const skillLevels = useSkillLevels((state) => state.levels);
+	const { showOnlyGained, toggleShowOnlyGained } =
+		useExperienceSummaryOptions();
 
 	const { totals, ambiguousItemNames } = useMemo(
 		() =>
@@ -62,6 +66,16 @@ export function ExperienceSummary({ allItems, filteredItemIds }: Props) {
 			.filter((skill) => !seen.has(skill));
 		return [...totals.map((entry) => entry.skill), ...skillsOnlyFromLevels];
 	}, [totals, levelProgress]);
+	const visibleSkills = useMemo(
+		() =>
+			showOnlyGained
+				? displaySkills.filter((skill) => {
+						const experience = totalsBySkill.get(skill);
+						return experience !== undefined && experience > 0;
+					})
+				: displaySkills,
+		[showOnlyGained, displaySkills, totalsBySkill],
+	);
 
 	return (
 		<AccordionPersisted>
@@ -83,14 +97,14 @@ export function ExperienceSummary({ allItems, filteredItemIds }: Props) {
 						<p className="text-xs text-muted-foreground">
 							No items selected in the filter above.
 						</p>
-					) : displaySkills.length === 0 ? (
+					) : visibleSkills.length === 0 ? (
 						<p className="text-xs text-muted-foreground">
 							No experience to show yet — mark materials as todo on the item
 							cards, or none of your planned crafts grant skill experience.
 						</p>
 					) : (
 						<div className="flex flex-col divide-y divide-accent">
-							{displaySkills.map((skill) => {
+							{visibleSkills.map((skill) => {
 								const experience = totalsBySkill.get(skill);
 								const progress = levelProgressBySkill.get(skill);
 								const levelsGained = progress
@@ -180,8 +194,12 @@ export function ExperienceSummary({ allItems, filteredItemIds }: Props) {
 						</div>
 					)}
 
-					<div className="flex justify-start">
+					<div className="flex flex-wrap gap-2">
 						<SkillLevelsDialog />
+						<Button variant="outline" size="sm" onClick={toggleShowOnlyGained}>
+							{showOnlyGained ? <EyeOff /> : <Eye />}
+							{showOnlyGained ? "Show" : "Hide"} skills without XP
+						</Button>
 					</div>
 				</AccordionContent>
 			</AccordionItem>

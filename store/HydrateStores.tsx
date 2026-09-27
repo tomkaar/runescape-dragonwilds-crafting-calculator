@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { useCraftingTreeDirection } from "./crafting-tree-direction";
+import { useExperienceSummaryOptions } from "./experience-summary-options";
 import { useFacilitiesOwned } from "./facilities-owned";
 import { useFavouriteItems } from "./favourite-items";
 import { useItemFilter } from "./item-filter";
@@ -23,6 +24,7 @@ export function HydrateStores() {
 		useMobilePanelsState.persist.rehydrate();
 		useSelectedMaterial.persist.rehydrate();
 		useNextStepsOptions.persist.rehydrate();
+		useExperienceSummaryOptions.persist.rehydrate();
 		useMaterialMultiplier.persist.rehydrate();
 		useSkillLevels.persist.rehydrate();
 		useItemFilter.persist.rehydrate();
