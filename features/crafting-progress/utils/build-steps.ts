@@ -550,6 +550,17 @@ export function computeCoverageWarnings(
 	return warnings;
 }
 
+/**
+ * Builds the material steps of Next Steps: one entry per material the user
+ * has marked (TODO or DONE) on any tracked item's card, aggregated across
+ * tracked items by item id and sorted from raw ingredients up. Quantities are
+ * what's still left to fetch/craft after owned stock — both the step's own
+ * and its ancestors' (see computeRemainingQuantities) — and a step whose
+ * quantity reaches 0 is kept but flagged `covered`.
+ *
+ * The tracked items themselves are never steps here, since they can't be
+ * marked; see buildItemSteps for the finished pieces.
+ */
 export function buildSteps({
 	filteredItemIds,
 	allItems,
@@ -652,5 +663,63 @@ export function buildSteps({
 		// Intermediate steps (have sub-ingredients) before leaves at same depth
 		if (a.hasChildren !== b.hasChildren) return a.hasChildren ? -1 : 1;
 		return a.name.localeCompare(b.name);
+	});
+}
+
+export type ItemStepEntry = {
+	itemId: string;
+	name: string;
+	image: string | null;
+	quantity: number;
+	needed: StepNeeded;
+};
+
+/**
+ * Builds the finished-piece steps of Next Steps: one entry per tracked item,
+ * in `filteredItemIds` order, with the ingredients its own recipe needs.
+ *
+ * Unlike buildSteps, every tracked item gets an entry whether or not any of
+ * its materials are marked, entries are never aggregated or covered (tracked
+ * items have no owned stock), and there are no parents — a tracked item is
+ * the end of its chain. Its recipe is resolved the same way as a material
+ * step's (resolveNodeRecipes): inferred from the variant holding marked
+ * descendants, otherwise offered as alternatives. Needed quantities are the
+ * full recipe amounts for the multiplier; owned stock of the ingredients is
+ * not subtracted, as their own steps already account for it.
+ */
+export function buildItemSteps({
+	filteredItemIds,
+	allItems,
+	multipliers,
+}: Omit<Params, "owned">): ItemStepEntry[] {
+	return filteredItemIds.flatMap((trackedItemId) => {
+		const trackedItem = sourceItemById(trackedItemId);
+		if (!trackedItem) return [];
+
+		const [root] = resolveMaterialTree(
+			trackedItemId,
+			multipliers[trackedItemId] || 1,
+		);
+		if (!root) return [];
+
+		const markedNodeIds =
+			getMarkedNodeIds(allItems[trackedItemId], { includeDone: true }) ??
+			new Set<string>();
+		const neededAccumulators = new Map<string, NeededAccumulator>();
+		accumulateNeeded(neededAccumulators, root, markedNodeIds);
+
+		return [
+			{
+				itemId: trackedItemId,
+				name: trackedItem.name,
+				image: trackedItem.image,
+				quantity: root.quantity,
+				needed: computeNeeded(
+					neededAccumulators.get(root.id),
+					root.quantity,
+					root.quantity,
+				),
+			},
+		];
 	});
 }

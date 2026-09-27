@@ -17,7 +17,9 @@ import { useNextStepsOptions } from "@/store/next-steps-options";
 import type { SelectedMaterial } from "@/store/selected-material";
 
 import {
+	buildItemSteps,
 	buildSteps,
+	type ItemStepEntry,
 	type NeededMaterial,
 	type StepEntry,
 } from "../utils/build-steps";
@@ -37,6 +39,10 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 		() => buildSteps({ filteredItemIds, allItems, multipliers, owned }),
 		[filteredItemIds, allItems, multipliers, owned],
 	);
+	const itemSteps = useMemo(
+		() => buildItemSteps({ filteredItemIds, allItems, multipliers }),
+		[filteredItemIds, allItems, multipliers],
+	);
 	const {
 		showCovered,
 		toggleShowCovered,
@@ -52,9 +58,9 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 	const hasUsedFor = visibleSteps.some(
 		(step) => !step.covered && step.parents.length > 0,
 	);
-	const hasNeeded = visibleSteps.some(
-		(step) => !step.covered && hasNeededMaterials(step),
-	);
+	const hasNeeded =
+		visibleSteps.some((step) => !step.covered && hasNeededMaterials(step)) ||
+		itemSteps.some(hasNeededMaterials);
 
 	const ownedRows = useMemo(
 		() =>
@@ -104,57 +110,73 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 						<p className="text-xs text-muted-foreground">
 							No items selected in the filter above.
 						</p>
-					) : steps.length === 0 ? (
-						<p className="text-xs text-muted-foreground">
-							Mark materials as todo on the item cards to see your next steps
-							here.
-						</p>
 					) : (
 						<div className="flex flex-col gap-4">
-							{visibleSteps.length === 0 ? (
-								<p className="text-xs text-muted-foreground">
-									All marked steps are covered — nothing left to gather.
-								</p>
-							) : (
-								<div className="flex flex-col divide-y divide-accent">
-									{visibleSteps.map((step) =>
-										step.covered ? (
-											<div
-												key={step.itemId}
-												className="flex items-center gap-2 py-2 text-sm opacity-50 first:pt-0 last:pb-0"
-											>
-												{step.image && (
-													<img
-														src={createImageUrlPath(step.image)}
-														alt={step.name}
-														width={20}
-														height={20}
-														className="shrink-0 size-5"
-													/>
-												)}
-												<span className="font-semibold">{step.name}</span>
-												<Check className="size-4 shrink-0 text-green-500" />
-											</div>
-										) : (
-											<StepRow
-												key={step.itemId}
-												step={step}
-												showUsedFor={showUsedFor}
-												showNeeded={showNeeded}
-											/>
-										),
-									)}
+							<div className="flex flex-col">
+								{steps.length === 0 ? (
+									<p className="text-xs text-muted-foreground pb-3">
+										Mark materials as todo on the item cards to see your next
+										steps here.
+									</p>
+								) : visibleSteps.length === 0 ? (
+									<p className="text-xs text-muted-foreground pb-3">
+										All marked steps are covered — nothing left to gather.
+									</p>
+								) : (
+									<div className="flex flex-col divide-y divide-accent pb-2">
+										{visibleSteps.map((step) =>
+											step.covered ? (
+												<div
+													key={step.itemId}
+													className="flex items-center gap-2 py-2 text-sm opacity-50 first:pt-0"
+												>
+													{step.image && (
+														<img
+															src={createImageUrlPath(step.image)}
+															alt={step.name}
+															width={20}
+															height={20}
+															className="shrink-0 size-5"
+														/>
+													)}
+													<span className="font-semibold">{step.name}</span>
+													<Check className="size-4 shrink-0 text-green-500" />
+												</div>
+											) : (
+												<StepRow
+													key={step.itemId}
+													step={step}
+													showUsedFor={showUsedFor}
+													showNeeded={showNeeded}
+												/>
+											),
+										)}
+									</div>
+								)}
+								{/* Finished pieces always come last, set apart from the materials. */}
+								<div className="pt-4 pb-2">
+									<span className="font-semibold">Tracked items</span>
 								</div>
-							)}
+								<div className="flex flex-col divide-y divide-accent pt-3">
+									{itemSteps.map((itemStep) => (
+										<StepRow
+											key={itemStep.itemId}
+											step={itemStep}
+											showUsedFor={false}
+											showNeeded={showNeeded}
+										/>
+									))}
+								</div>
+							</div>
 							{(coveredCount > 0 || hasUsedFor || hasNeeded) && (
-								<div className="flex flex-wrap gap-2">
+								<div className="flex flex-wrap gap-2 mt-2">
 									{coveredCount > 0 && (
 										<Button
 											variant="outline"
 											size="sm"
 											onClick={toggleShowCovered}
 										>
-											{showCovered ? <EyeOff /> : <Eye />}
+											{showCovered ? <Eye /> : <EyeOff />}
 											{coveredCount} Completed
 										</Button>
 									)}
@@ -164,8 +186,8 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 											size="sm"
 											onClick={toggleShowNeeded}
 										>
-											{showNeeded ? <EyeOff /> : <Eye />}
-											{showNeeded ? "Hide" : "Show"} needed
+											{showNeeded ? <Eye /> : <EyeOff />}
+											{showNeeded ? "Hide" : "Show"} required items
 										</Button>
 									)}
 									{hasUsedFor && (
@@ -174,7 +196,7 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 											size="sm"
 											onClick={toggleShowUsedFor}
 										>
-											{showUsedFor ? <EyeOff /> : <Eye />}
+											{showUsedFor ? <Eye /> : <EyeOff />}
 											Used for
 										</Button>
 									)}
@@ -188,7 +210,7 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 	);
 }
 
-function hasNeededMaterials(step: StepEntry) {
+function hasNeededMaterials(step: Pick<StepEntry, "needed">) {
 	return (
 		step.needed.materials.length > 0 || step.needed.alternatives.length > 0
 	);
@@ -199,7 +221,7 @@ function StepRow({
 	showUsedFor,
 	showNeeded,
 }: {
-	step: StepEntry;
+	step: StepEntry | ItemStepEntry;
 	showUsedFor: boolean;
 	showNeeded: boolean;
 }) {
@@ -230,7 +252,7 @@ function StepRow({
 			</div>
 			{showNeeded && neededGroups.length > 0 && (
 				<div className="flex flex-wrap items-center gap-x-1.5 gap-y-0.5 pl-7 text-xs text-muted-foreground">
-					<span>Needed:</span>
+					<span>Required item{neededGroups.length > 1 ? "s" : ""}:</span>
 					{neededGroups.map((group, groupIndex) => (
 						<Fragment key={group.map((m) => m.itemId).join("|")}>
 							{groupIndex > alternativesStart && (
@@ -244,7 +266,7 @@ function StepRow({
 					))}
 				</div>
 			)}
-			{showUsedFor && step.parents.length > 0 && (
+			{showUsedFor && "parents" in step && step.parents.length > 0 && (
 				<div className="flex flex-wrap items-center gap-x-1.5 gap-y-0.5 pl-7 text-xs text-muted-foreground">
 					<span>Used for:</span>
 					{step.parents.map((p, i) => (
@@ -264,7 +286,7 @@ function StepRow({
 					))}
 				</div>
 			)}
-			{step.coverageWarnings.length > 0 && (
+			{"coverageWarnings" in step && step.coverageWarnings.length > 0 && (
 				<div className="flex flex-col gap-0.5 pt-1 pl-7">
 					{step.coverageWarnings.map((w) => (
 						<div

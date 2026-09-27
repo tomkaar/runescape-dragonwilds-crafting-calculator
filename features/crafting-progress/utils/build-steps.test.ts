@@ -14,6 +14,7 @@ vi.mock("@/utils/source-item-by-id", () => ({
 
 import { sourceItemById } from "@/utils/source-item-by-id";
 import {
+	buildItemSteps,
 	buildSteps,
 	computeAdjustedGross,
 	computeCoverageWarnings,
@@ -1054,6 +1055,199 @@ describe("buildSteps — needed", () => {
 				],
 			});
 		});
+	});
+});
+
+describe("buildItemSteps", () => {
+	type Marked = Parameters<
+		typeof buildItemSteps
+	>[0]["allItems"][string][number];
+
+	function mark(nodeId: string, itemId: string, quantity = 1): Marked {
+		return { id: nodeId, itemId, quantity, nodeId, state: "TODO" };
+	}
+
+	function needed(itemId: string, quantity: number) {
+		return { itemId, name: `${itemId}-name`, image: null, quantity };
+	}
+
+	// root: Recipe 1 = 2 hide, Recipe 2 = 1 blood + 3 leather
+	function registerMultiRecipeRoot() {
+		registerItems({
+			root: makeItem("root", [
+				makeVariant(
+					makeRecipe(1, [{ itemId: "hide", quantity: 2 }], [], [], "r-hide"),
+				),
+				makeVariant(
+					makeRecipe(
+						1,
+						[
+							{ itemId: "blood", quantity: 1 },
+							{ itemId: "leather", quantity: 3 },
+						],
+						[],
+						[],
+						"r-blood",
+					),
+				),
+			]),
+			hide: makeItem("hide", [makeVariant(null)]),
+			blood: makeItem("blood", [makeVariant(null)]),
+			leather: makeItem("leather", [makeVariant(null)]),
+		});
+	}
+
+	it("returns one entry per tracked item with its recipe's ingredients, even when nothing is marked", () => {
+		registerItems({
+			root: makeItem("root", [
+				makeVariant(
+					makeRecipe(1, [
+						{ itemId: "a", quantity: 2 },
+						{ itemId: "b", quantity: 3 },
+					]),
+				),
+			]),
+			a: makeItem("a", [makeVariant(null)]),
+			b: makeItem("b", [makeVariant(null)]),
+		});
+
+		const result = buildItemSteps({
+			filteredItemIds: ["root"],
+			allItems: {},
+			multipliers: {},
+		});
+
+		expect(result).toEqual([
+			{
+				itemId: "root",
+				name: "root-name",
+				image: null,
+				quantity: 1,
+				needed: {
+					materials: [needed("a", 2), needed("b", 3)],
+					alternatives: [],
+				},
+			},
+		]);
+	});
+
+	it("keeps filteredItemIds order", () => {
+		registerItems({
+			zeta: makeItem("zeta", [makeVariant(makeRecipe(1, []))]),
+			alpha: makeItem("alpha", [makeVariant(makeRecipe(1, []))]),
+		});
+
+		const result = buildItemSteps({
+			filteredItemIds: ["zeta", "alpha"],
+			allItems: {},
+			multipliers: {},
+		});
+
+		expect(result.map((r) => r.itemId)).toEqual(["zeta", "alpha"]);
+	});
+
+	it("scales by the multiplier, rounding crafts up for multi-output recipes", () => {
+		registerItems({
+			root: makeItem("root", [
+				makeVariant(makeRecipe(2, [{ itemId: "leaf", quantity: 3 }])),
+			]),
+			leaf: makeItem("leaf", [makeVariant(null)]),
+		});
+
+		const result = buildItemSteps({
+			filteredItemIds: ["root"],
+			allItems: {},
+			multipliers: { root: 3 },
+		});
+
+		// 3 needed / 2 per craft -> 2 crafts -> 6 leaf
+		expect(result[0].quantity).toBe(3);
+		expect(result[0].needed.materials).toEqual([needed("leaf", 6)]);
+	});
+
+	it("does not subtract owned stock or covered materials", () => {
+		registerItems({
+			root: makeItem("root", [
+				makeVariant(makeRecipe(1, [{ itemId: "leaf", quantity: 5 }])),
+			]),
+			leaf: makeItem("leaf", [makeVariant(null)]),
+		});
+
+		const result = buildItemSteps({
+			filteredItemIds: ["root"],
+			allItems: { root: [{ ...mark("root_leaf", "leaf", 5), state: "DONE" }] },
+			multipliers: {},
+		});
+
+		expect(result[0].needed.materials).toEqual([needed("leaf", 5)]);
+	});
+
+	it("offers every recipe as an alternative when nothing is marked", () => {
+		registerMultiRecipeRoot();
+
+		const result = buildItemSteps({
+			filteredItemIds: ["root"],
+			allItems: {},
+			multipliers: { root: 2 },
+		});
+
+		expect(result[0].needed).toEqual({
+			materials: [],
+			alternatives: [
+				[needed("hide", 4)],
+				[needed("blood", 2), needed("leather", 6)],
+			],
+		});
+	});
+
+	it("infers the recipe from a marked descendant", () => {
+		registerMultiRecipeRoot();
+
+		const result = buildItemSteps({
+			filteredItemIds: ["root"],
+			allItems: { root: [mark("root_v1_leather", "leather", 3)] },
+			multipliers: {},
+		});
+
+		expect(result[0].needed).toEqual({
+			materials: [needed("blood", 1), needed("leather", 3)],
+			alternatives: [],
+		});
+	});
+
+	it("offers only the marked recipes as alternatives when more than one is marked", () => {
+		registerMultiRecipeRoot();
+
+		const result = buildItemSteps({
+			filteredItemIds: ["root"],
+			allItems: {
+				root: [
+					mark("root_v0_hide", "hide", 2),
+					mark("root_v1_leather", "leather", 3),
+				],
+			},
+			multipliers: {},
+		});
+
+		expect(result[0].needed).toEqual({
+			materials: [],
+			alternatives: [
+				[needed("hide", 2)],
+				[needed("blood", 1), needed("leather", 3)],
+			],
+		});
+	});
+
+	it("skips unknown items", () => {
+		registerItems({});
+
+		expect(
+			buildItemSteps({
+				filteredItemIds: ["missing"],
+				allItems: {},
+				multipliers: {},
+			}),
+		).toEqual([]);
 	});
 });
 
