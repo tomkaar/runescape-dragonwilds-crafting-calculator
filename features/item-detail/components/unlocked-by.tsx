@@ -4,9 +4,10 @@ import { Badge } from "@/components/ui/badge";
 
 type Props = {
 	usesRecipes: string[];
+	showPrefix?: boolean;
 };
 
-export function UnlockedBy({ usesRecipes }: Props) {
+export function UnlockedBy({ usesRecipes, showPrefix = true }: Props) {
 	if (usesRecipes.length === 0) return null;
 
 	return (
@@ -24,7 +25,8 @@ export function UnlockedBy({ usesRecipes }: Props) {
 						prefetch={false}
 						rel="noopener noreferrer"
 					>
-						Unlocked by: {recipeName}
+						{showPrefix && "Unlocked by: "}
+						{recipeName.split("#")[0]}
 						<ArrowUpRight width={12} height={12} data-icon="inline-end" />
 					</Link>
 				</Badge>

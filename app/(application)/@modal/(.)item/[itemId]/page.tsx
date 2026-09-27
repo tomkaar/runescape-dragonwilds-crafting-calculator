@@ -6,6 +6,7 @@ import { resolveFacilityRequirements } from "@/domain/crafting/utils/resolve-fac
 import { ItemAttributeBadges } from "@/features/item-detail/components/item-attribute-badges";
 import { ItemHeader } from "@/features/item-detail/components/item-header";
 import { ItemQuickView } from "@/features/item-detail/components/item-quick-view";
+import { UnlockedBy } from "@/features/item-detail/components/unlocked-by";
 import { MultiplierInput } from "@/features/material-tree/components/multiplier-input";
 import { RequiredMaterialsContent } from "@/features/material-tree/components/required-materials-content";
 import { UsedInList } from "@/features/used-in/components/used-in-list";
@@ -83,13 +84,7 @@ export default async function InterceptedItemModal(props: Props) {
 						To craft this item, you must first unlock it by crafting the
 						following recipes
 					</span>
-					<div className="mt-4">
-						{usesRecipes.map((recipeName) => (
-							<Badge key={recipeName} variant="outline" className="text-sm">
-								{recipeName}
-							</Badge>
-						))}
-					</div>
+					<UnlockedBy usesRecipes={usesRecipes} showPrefix={false} />
 				</div>
 			)}
 
