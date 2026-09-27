@@ -647,6 +647,416 @@ describe("buildSteps", () => {
 	});
 });
 
+describe("buildSteps — needed", () => {
+	type Marked = Parameters<typeof buildSteps>[0]["allItems"][string][number];
+
+	function mark(nodeId: string, itemId: string, quantity = 1): Marked {
+		return { id: nodeId, itemId, quantity, nodeId, state: "TODO" };
+	}
+
+	function needed(itemId: string, quantity: number) {
+		return { itemId, name: `${itemId}-name`, image: null, quantity };
+	}
+
+	function stepFor(result: StepEntry[], itemId: string) {
+		return result.find((r) => r.itemId === itemId)!;
+	}
+
+	describe("single recipe", () => {
+		it("lists the recipe's ingredients for the step's remaining quantity, even when unmarked", () => {
+			registerItems({
+				root: makeItem("root", [
+					makeVariant(makeRecipe(1, [{ itemId: "compound", quantity: 2 }])),
+				]),
+				compound: makeItem("compound", [
+					makeVariant(makeRecipe(1, [{ itemId: "residue", quantity: 1 }])),
+				]),
+				residue: makeItem("residue", [makeVariant(null)]),
+			});
+
+			const result = buildSteps({
+				filteredItemIds: ["root"],
+				allItems: { root: [mark("root_compound", "compound", 2)] },
+				multipliers: { root: 1 },
+				owned: {},
+			});
+
+			expect(stepFor(result, "compound").needed).toEqual({
+				materials: [needed("residue", 2)],
+				alternatives: [],
+			});
+		});
+
+		it("lists every ingredient in recipe order, marked or not", () => {
+			registerItems({
+				root: makeItem("root", [
+					makeVariant(makeRecipe(1, [{ itemId: "mid", quantity: 1 }])),
+				]),
+				mid: makeItem("mid", [
+					makeVariant(
+						makeRecipe(1, [
+							{ itemId: "a", quantity: 2 },
+							{ itemId: "b", quantity: 3 },
+						]),
+					),
+				]),
+				a: makeItem("a", [makeVariant(null)]),
+				b: makeItem("b", [makeVariant(null)]),
+			});
+
+			const result = buildSteps({
+				filteredItemIds: ["root"],
+				allItems: {
+					root: [mark("root_mid", "mid"), mark("root_mid_a", "a", 2)],
+				},
+				multipliers: { root: 1 },
+				owned: {},
+			});
+
+			expect(stepFor(result, "mid").needed).toEqual({
+				materials: [needed("a", 2), needed("b", 3)],
+				alternatives: [],
+			});
+		});
+
+		it("scales by what is left after owned stock of the step itself", () => {
+			registerItems({
+				root: makeItem("root", [
+					makeVariant(makeRecipe(1, [{ itemId: "compound", quantity: 10 }])),
+				]),
+				compound: makeItem("compound", [
+					makeVariant(makeRecipe(1, [{ itemId: "residue", quantity: 1 }])),
+				]),
+				residue: makeItem("residue", [makeVariant(null)]),
+			});
+
+			const result = buildSteps({
+				filteredItemIds: ["root"],
+				allItems: { root: [mark("root_compound", "compound", 10)] },
+				multipliers: { root: 1 },
+				owned: { compound: 8 },
+			});
+
+			expect(stepFor(result, "compound").needed.materials).toEqual([
+				needed("residue", 2),
+			]);
+		});
+
+		it("does not subtract owned stock of the ingredient itself", () => {
+			registerItems({
+				root: makeItem("root", [
+					makeVariant(makeRecipe(1, [{ itemId: "compound", quantity: 2 }])),
+				]),
+				compound: makeItem("compound", [
+					makeVariant(makeRecipe(1, [{ itemId: "residue", quantity: 1 }])),
+				]),
+				residue: makeItem("residue", [makeVariant(null)]),
+			});
+
+			const result = buildSteps({
+				filteredItemIds: ["root"],
+				allItems: { root: [mark("root_compound", "compound", 2)] },
+				multipliers: { root: 1 },
+				owned: { residue: 1 },
+			});
+
+			expect(stepFor(result, "compound").needed.materials).toEqual([
+				needed("residue", 2),
+			]);
+		});
+
+		it("rounds crafts up when a recipe yields more than one per craft", () => {
+			registerItems({
+				root: makeItem("root", [
+					makeVariant(makeRecipe(1, [{ itemId: "mid", quantity: 5 }])),
+				]),
+				mid: makeItem("mid", [
+					makeVariant(makeRecipe(4, [{ itemId: "leaf", quantity: 3 }])),
+				]),
+				leaf: makeItem("leaf", [makeVariant(null)]),
+			});
+
+			const result = buildSteps({
+				filteredItemIds: ["root"],
+				allItems: { root: [mark("root_mid", "mid", 5)] },
+				multipliers: { root: 1 },
+				owned: {},
+			});
+
+			// 5 needed / 4 per craft -> 2 crafts -> 6 leaf
+			expect(stepFor(result, "mid").needed.materials).toEqual([
+				needed("leaf", 6),
+			]);
+		});
+
+		it("rounds crafts once per recipe across tracked items", () => {
+			registerItems({
+				rootA: makeItem("rootA", [
+					makeVariant(makeRecipe(1, [{ itemId: "mid", quantity: 1 }])),
+				]),
+				rootB: makeItem("rootB", [
+					makeVariant(makeRecipe(1, [{ itemId: "mid", quantity: 1 }])),
+				]),
+				mid: makeItem("mid", [
+					makeVariant(makeRecipe(2, [{ itemId: "leaf", quantity: 1 }])),
+				]),
+				leaf: makeItem("leaf", [makeVariant(null)]),
+			});
+
+			const result = buildSteps({
+				filteredItemIds: ["rootA", "rootB"],
+				allItems: {
+					rootA: [mark("rootA_mid", "mid")],
+					rootB: [mark("rootB_mid", "mid")],
+				},
+				multipliers: { rootA: 1, rootB: 1 },
+				owned: {},
+			});
+
+			// 2 mid total at 2 per craft -> a single craft, not one per tracked item
+			expect(stepFor(result, "mid").needed.materials).toEqual([
+				needed("leaf", 1),
+			]);
+		});
+
+		it("leaves needed empty for a leaf step", () => {
+			registerItems({
+				root: makeItem("root", [
+					makeVariant(makeRecipe(1, [{ itemId: "leaf", quantity: 5 }])),
+				]),
+				leaf: makeItem("leaf", [makeVariant(null)]),
+			});
+
+			const result = buildSteps({
+				filteredItemIds: ["root"],
+				allItems: { root: [mark("root_leaf", "leaf", 5)] },
+				multipliers: { root: 1 },
+				owned: {},
+			});
+
+			expect(stepFor(result, "leaf").needed).toEqual({
+				materials: [],
+				alternatives: [],
+			});
+		});
+
+		it("leaves needed empty for a covered step", () => {
+			registerItems({
+				root: makeItem("root", [
+					makeVariant(makeRecipe(1, [{ itemId: "compound", quantity: 2 }])),
+				]),
+				compound: makeItem("compound", [
+					makeVariant(makeRecipe(1, [{ itemId: "residue", quantity: 1 }])),
+				]),
+				residue: makeItem("residue", [makeVariant(null)]),
+			});
+
+			const result = buildSteps({
+				filteredItemIds: ["root"],
+				allItems: { root: [mark("root_compound", "compound", 2)] },
+				multipliers: { root: 1 },
+				owned: { compound: 2 },
+			});
+
+			const compound = stepFor(result, "compound");
+			expect(compound.covered).toBe(true);
+			expect(compound.needed).toEqual({ materials: [], alternatives: [] });
+		});
+	});
+
+	describe("multiple recipes", () => {
+		// mid: Recipe 1 = 1 hide, Recipe 2 = 1 blood + 3 leather, Recipe 3 = 4 scraps
+		function registerMultiRecipeItems(roots: Record<string, number>): void {
+			registerItems({
+				...Object.fromEntries(
+					Object.entries(roots).map(([rootId, quantity]) => [
+						rootId,
+						makeItem(rootId, [
+							makeVariant(makeRecipe(1, [{ itemId: "mid", quantity }])),
+						]),
+					]),
+				),
+				mid: makeItem("mid", [
+					makeVariant(
+						makeRecipe(1, [{ itemId: "hide", quantity: 1 }], [], [], "r-hide"),
+					),
+					makeVariant(
+						makeRecipe(
+							1,
+							[
+								{ itemId: "blood", quantity: 1 },
+								{ itemId: "leather", quantity: 3 },
+							],
+							[],
+							[],
+							"r-blood",
+						),
+					),
+					makeVariant(
+						makeRecipe(
+							1,
+							[{ itemId: "scraps", quantity: 4 }],
+							[],
+							[],
+							"r-scraps",
+						),
+					),
+				]),
+				hide: makeItem("hide", [makeVariant(null)]),
+				blood: makeItem("blood", [makeVariant(null)]),
+				leather: makeItem("leather", [makeVariant(null)]),
+				scraps: makeItem("scraps", [makeVariant(null)]),
+			});
+		}
+
+		it("infers the recipe from a marked descendant", () => {
+			registerMultiRecipeItems({ root: 2 });
+
+			const result = buildSteps({
+				filteredItemIds: ["root"],
+				allItems: {
+					root: [
+						mark("root_mid", "mid", 2),
+						mark("root_mid_v1_leather", "leather", 6),
+					],
+				},
+				multipliers: { root: 1 },
+				owned: {},
+			});
+
+			expect(stepFor(result, "mid").needed).toEqual({
+				materials: [needed("blood", 2), needed("leather", 6)],
+				alternatives: [],
+			});
+		});
+
+		it("offers every recipe as an alternative when nothing under the step is marked", () => {
+			registerMultiRecipeItems({ root: 2 });
+
+			const result = buildSteps({
+				filteredItemIds: ["root"],
+				allItems: { root: [mark("root_mid", "mid", 2)] },
+				multipliers: { root: 1 },
+				owned: {},
+			});
+
+			expect(stepFor(result, "mid").needed).toEqual({
+				materials: [],
+				alternatives: [
+					[needed("hide", 2)],
+					[needed("blood", 2), needed("leather", 6)],
+					[needed("scraps", 8)],
+				],
+			});
+		});
+
+		it("offers only the marked recipes as alternatives when more than one is marked", () => {
+			registerMultiRecipeItems({ root: 2 });
+
+			const result = buildSteps({
+				filteredItemIds: ["root"],
+				allItems: {
+					root: [
+						mark("root_mid", "mid", 2),
+						mark("root_mid_v1_leather", "leather", 6),
+						mark("root_mid_v2_scraps", "scraps", 8),
+					],
+				},
+				multipliers: { root: 1 },
+				owned: {},
+			});
+
+			expect(stepFor(result, "mid").needed).toEqual({
+				materials: [],
+				alternatives: [
+					[needed("blood", 2), needed("leather", 6)],
+					[needed("scraps", 8)],
+				],
+			});
+		});
+
+		it("merges ingredients when tracked items resolve to different recipes", () => {
+			registerMultiRecipeItems({ rootA: 1, rootB: 1 });
+
+			const result = buildSteps({
+				filteredItemIds: ["rootA", "rootB"],
+				allItems: {
+					rootA: [mark("rootA_mid", "mid"), mark("rootA_mid_v0_hide", "hide")],
+					rootB: [
+						mark("rootB_mid", "mid"),
+						mark("rootB_mid_v1_blood", "blood"),
+					],
+				},
+				multipliers: { rootA: 1, rootB: 1 },
+				owned: {},
+			});
+
+			expect(stepFor(result, "mid").needed).toEqual({
+				materials: [
+					needed("hide", 1),
+					needed("blood", 1),
+					needed("leather", 3),
+				],
+				alternatives: [],
+			});
+		});
+
+		it("splits the remaining quantity between resolved and unresolved occurrences", () => {
+			registerMultiRecipeItems({ rootA: 2, rootB: 2 });
+
+			const result = buildSteps({
+				filteredItemIds: ["rootA", "rootB"],
+				allItems: {
+					rootA: [
+						mark("rootA_mid", "mid", 2),
+						mark("rootA_mid_v0_hide", "hide", 2),
+					],
+					rootB: [mark("rootB_mid", "mid", 2)],
+				},
+				multipliers: { rootA: 1, rootB: 1 },
+				owned: { mid: 2 },
+			});
+
+			// 4 gross, 2 owned -> 2 remaining, split evenly by gross share
+			expect(stepFor(result, "mid").needed).toEqual({
+				materials: [needed("hide", 1)],
+				alternatives: [
+					[needed("hide", 1)],
+					[needed("blood", 1), needed("leather", 3)],
+					[needed("scraps", 4)],
+				],
+			});
+		});
+
+		it("unions the candidate recipes of unresolved occurrences", () => {
+			registerMultiRecipeItems({ rootA: 2, rootB: 1 });
+
+			const result = buildSteps({
+				filteredItemIds: ["rootA", "rootB"],
+				allItems: {
+					rootA: [mark("rootA_mid", "mid", 2)],
+					rootB: [
+						mark("rootB_mid", "mid"),
+						mark("rootB_mid_v1_leather", "leather", 3),
+						mark("rootB_mid_v2_scraps", "scraps", 4),
+					],
+				},
+				multipliers: { rootA: 1, rootB: 1 },
+				owned: {},
+			});
+
+			expect(stepFor(result, "mid").needed).toEqual({
+				materials: [],
+				alternatives: [
+					[needed("hide", 3)],
+					[needed("blood", 3), needed("leather", 9)],
+					[needed("scraps", 12)],
+				],
+			});
+		});
+	});
+});
+
 describe("computeCoverageWarnings", () => {
 	function stepEntry(
 		overrides: Partial<StepEntry> & Pick<StepEntry, "itemId" | "quantity">,
@@ -659,6 +1069,7 @@ describe("computeCoverageWarnings", () => {
 			depth: 0,
 			hasChildren: false,
 			coverageWarnings: [],
+			needed: { materials: [], alternatives: [] },
 			facilities: [],
 			covered: false,
 			...overrides,
@@ -736,6 +1147,7 @@ function entry(
 		depth: 0,
 		hasChildren: false,
 		coverageWarnings: [],
+		needed: { materials: [], alternatives: [] },
 		facilities: [],
 		covered: false,
 		...overrides,

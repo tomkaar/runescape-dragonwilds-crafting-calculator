@@ -1,7 +1,7 @@
 "use client";
 
 import { Check, Eye, EyeOff, TriangleAlert } from "lucide-react";
-import { useMemo } from "react";
+import { Fragment, useMemo } from "react";
 import { AccordionPersisted } from "@/components/accordion-persisted";
 import {
 	AccordionContent,
@@ -16,7 +16,11 @@ import { useMaterialOwned } from "@/store/material-owned";
 import { useNextStepsOptions } from "@/store/next-steps-options";
 import type { SelectedMaterial } from "@/store/selected-material";
 
-import { buildSteps, type StepEntry } from "../utils/build-steps";
+import {
+	buildSteps,
+	type NeededMaterial,
+	type StepEntry,
+} from "../utils/build-steps";
 import { buildOwnedMaterials } from "../utils/owned-materials";
 import { buildProgressSummary } from "../utils/progress-summary";
 
@@ -33,14 +37,23 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 		() => buildSteps({ filteredItemIds, allItems, multipliers, owned }),
 		[filteredItemIds, allItems, multipliers, owned],
 	);
-	const { showCovered, toggleShowCovered, showUsedFor, toggleShowUsedFor } =
-		useNextStepsOptions();
+	const {
+		showCovered,
+		toggleShowCovered,
+		showUsedFor,
+		toggleShowUsedFor,
+		showNeeded,
+		toggleShowNeeded,
+	} = useNextStepsOptions();
 	const coveredCount = steps.filter((step) => step.covered).length;
 	const visibleSteps = showCovered
 		? steps
 		: steps.filter((step) => !step.covered);
 	const hasUsedFor = visibleSteps.some(
 		(step) => !step.covered && step.parents.length > 0,
+	);
+	const hasNeeded = visibleSteps.some(
+		(step) => !step.covered && hasNeededMaterials(step),
 	);
 
 	const ownedRows = useMemo(
@@ -127,12 +140,13 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 												key={step.itemId}
 												step={step}
 												showUsedFor={showUsedFor}
+												showNeeded={showNeeded}
 											/>
 										),
 									)}
 								</div>
 							)}
-							{(coveredCount > 0 || hasUsedFor) && (
+							{(coveredCount > 0 || hasUsedFor || hasNeeded) && (
 								<div className="flex flex-wrap gap-2">
 									{coveredCount > 0 && (
 										<Button
@@ -141,7 +155,17 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 											onClick={toggleShowCovered}
 										>
 											{showCovered ? <EyeOff /> : <Eye />}
-											{showCovered ? "Hide" : "Show"} {coveredCount} completed
+											{coveredCount} Completed
+										</Button>
+									)}
+									{hasNeeded && (
+										<Button
+											variant="outline"
+											size="sm"
+											onClick={toggleShowNeeded}
+										>
+											{showNeeded ? <EyeOff /> : <Eye />}
+											{showNeeded ? "Hide" : "Show"} needed
 										</Button>
 									)}
 									{hasUsedFor && (
@@ -151,7 +175,7 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 											onClick={toggleShowUsedFor}
 										>
 											{showUsedFor ? <EyeOff /> : <Eye />}
-											{showUsedFor ? "Hide" : "Show"} used for
+											Used for
 										</Button>
 									)}
 								</div>
@@ -164,13 +188,30 @@ export function NextSteps({ allItems, filteredItemIds }: Props) {
 	);
 }
 
+function hasNeededMaterials(step: StepEntry) {
+	return (
+		step.needed.materials.length > 0 || step.needed.alternatives.length > 0
+	);
+}
+
 function StepRow({
 	step,
 	showUsedFor,
+	showNeeded,
 }: {
 	step: StepEntry;
 	showUsedFor: boolean;
+	showNeeded: boolean;
 }) {
+	// Resolved ingredients first, then one "or" group per candidate recipe
+	// for the part whose recipe hasn't been picked yet.
+	const neededGroups = [
+		...(step.needed.materials.length > 0 ? [step.needed.materials] : []),
+		...step.needed.alternatives,
+	];
+	const alternativesStart =
+		neededGroups.length - step.needed.alternatives.length;
+
 	return (
 		<div className="flex flex-col gap-0.5 py-2 text-sm first:pt-0 last:pb-0">
 			<div className="flex items-center gap-2">
@@ -187,6 +228,22 @@ function StepRow({
 					{step.quantity}× {step.name}
 				</span>
 			</div>
+			{showNeeded && neededGroups.length > 0 && (
+				<div className="flex flex-wrap items-center gap-x-1.5 gap-y-0.5 pl-7 text-xs text-muted-foreground">
+					<span>Needed:</span>
+					{neededGroups.map((group, groupIndex) => (
+						<Fragment key={group.map((m) => m.itemId).join("|")}>
+							{groupIndex > alternativesStart && (
+								<span className="italic opacity-70">or</span>
+							)}
+							{groupIndex === alternativesStart && groupIndex > 0 && (
+								<span className="italic opacity-70">+ one of</span>
+							)}
+							<NeededMaterialList materials={group} />
+						</Fragment>
+					))}
+				</div>
+			)}
 			{showUsedFor && step.parents.length > 0 && (
 				<div className="flex flex-wrap items-center gap-x-1.5 gap-y-0.5 pl-7 text-xs text-muted-foreground">
 					<span>Used for:</span>
@@ -228,6 +285,24 @@ function StepRow({
 			)}
 		</div>
 	);
+}
+
+function NeededMaterialList({ materials }: { materials: NeededMaterial[] }) {
+	return materials.map((m, i) => (
+		<span key={m.itemId} className="flex items-center gap-1">
+			{m.image && (
+				<img
+					src={createImageUrlPath(m.image)}
+					alt={m.name}
+					width={14}
+					height={14}
+					className="shrink-0"
+				/>
+			)}
+			{m.quantity}× {m.name}
+			{i < materials.length - 1 && ","}
+		</span>
+	));
 }
 
 const listFormatter = new Intl.ListFormat("en", {

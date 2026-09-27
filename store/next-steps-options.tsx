@@ -8,6 +8,8 @@ type NextStepsOptionsStore = {
 	toggleShowCovered: () => void;
 	showUsedFor: boolean;
 	toggleShowUsedFor: () => void;
+	showNeeded: boolean;
+	toggleShowNeeded: () => void;
 };
 
 export const useNextStepsOptions = create<NextStepsOptionsStore>()(
@@ -19,6 +21,9 @@ export const useNextStepsOptions = create<NextStepsOptionsStore>()(
 			showUsedFor: true,
 			toggleShowUsedFor: () =>
 				set((state) => ({ showUsedFor: !state.showUsedFor })),
+			showNeeded: true,
+			toggleShowNeeded: () =>
+				set((state) => ({ showNeeded: !state.showNeeded })),
 		}),
 		{
 			name: "next-steps-options",

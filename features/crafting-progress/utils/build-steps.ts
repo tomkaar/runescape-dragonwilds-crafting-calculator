@@ -90,6 +90,22 @@ type StepRecipeContribution = {
 	remainingQuantity: number;
 };
 
+export type NeededMaterial = {
+	itemId: string;
+	name: string;
+	image: string | null;
+	quantity: number;
+};
+
+type StepNeeded = {
+	// Ingredients merged from every recipe the step resolves to, in the order
+	// the recipes were first reached.
+	materials: NeededMaterial[];
+	// One entry per candidate recipe (in variant order) for the part of the
+	// step whose recipe couldn't be inferred — empty when all of it resolved.
+	alternatives: NeededMaterial[][];
+};
+
 export type StepEntry = {
 	itemId: string;
 	name: string;
@@ -103,6 +119,7 @@ export type StepEntry = {
 	coverageWarnings: CoverageWarning[];
 	recipeContributions?: StepRecipeContribution[];
 	facilities: string[];
+	needed: StepNeeded;
 	// Nothing left to fetch/craft (quantity is 0) — either owned stock covers
 	// it, or an ancestor is covered so it's no longer needed at all.
 	covered: boolean;
@@ -116,6 +133,166 @@ export type RecipeContributionAccumulator = Map<
 	string,
 	{ skills: RecipeSkill[]; recipeQuantity: number; grossQuantity: number }
 >;
+
+/**
+ * Internal-only accumulator for a step's "Needed" ingredients, keyed by item
+ * id. Gross quantities are pre owned-stock-discount, like
+ * RecipeContributionAccumulator. `resolved` holds occurrences whose recipe is
+ * known; `unresolved` pools occurrences of a multi-recipe item where the
+ * recipe couldn't be inferred, along with the union of their candidates.
+ */
+export type NeededAccumulator = {
+	resolved: Map<string, { recipe: Recipe; grossQuantity: number }>;
+	unresolved: {
+		candidates: Map<string, { recipe: Recipe; variantNumber: number }>;
+		grossQuantity: number;
+	};
+};
+
+/**
+ * Works out which recipe(s) a marked tree node will be crafted with. A
+ * single-recipe item just uses its own. A multi-recipe item is a selector
+ * node whose recipe is inferred from which variant subtree holds a marked
+ * descendant (as findRootRecipe does); none or several active variants
+ * leave it unresolved, with the active variants — or all of them when none
+ * is active — as candidates.
+ */
+function resolveNodeRecipes(
+	node: MaterialTreeItem,
+	markedNodeIds: Set<string>,
+):
+	| { kind: "resolved"; recipe: Recipe }
+	| {
+			kind: "unresolved";
+			candidates: Array<{ recipe: Recipe; variantNumber: number }>;
+	  }
+	| null {
+	if (node.variant?.recipe)
+		return { kind: "resolved", recipe: node.variant.recipe };
+	if (!("children" in node)) return null;
+
+	const variants = node.children.flatMap((child) =>
+		child.variantNumber !== undefined && child.variant?.recipe
+			? [
+					{
+						nodeId: child.nodeId,
+						recipe: child.variant.recipe,
+						variantNumber: child.variantNumber,
+					},
+				]
+			: [],
+	);
+	if (variants.length === 0) return null;
+
+	const active = variants.filter((v) =>
+		Array.from(markedNodeIds).some((id) => id.startsWith(`${v.nodeId}_`)),
+	);
+	if (active.length === 1)
+		return { kind: "resolved", recipe: active[0].recipe };
+	return {
+		kind: "unresolved",
+		candidates: active.length > 1 ? active : variants,
+	};
+}
+
+function accumulateNeeded(
+	neededAccumulators: Map<string, NeededAccumulator>,
+	node: MaterialTreeItem,
+	markedNodeIds: Set<string>,
+) {
+	const resolution = resolveNodeRecipes(node, markedNodeIds);
+	if (!resolution) return;
+
+	let accumulator = neededAccumulators.get(node.id);
+	if (!accumulator) {
+		accumulator = {
+			resolved: new Map(),
+			unresolved: { candidates: new Map(), grossQuantity: 0 },
+		};
+		neededAccumulators.set(node.id, accumulator);
+	}
+
+	if (resolution.kind === "resolved") {
+		const existing = accumulator.resolved.get(resolution.recipe.id);
+		if (existing) existing.grossQuantity += node.quantity;
+		else
+			accumulator.resolved.set(resolution.recipe.id, {
+				recipe: resolution.recipe,
+				grossQuantity: node.quantity,
+			});
+		return;
+	}
+
+	accumulator.unresolved.grossQuantity += node.quantity;
+	for (const candidate of resolution.candidates) {
+		accumulator.unresolved.candidates.set(candidate.recipe.id, candidate);
+	}
+}
+
+// Floating-point scaling can land a hair above a whole number (e.g.
+// 1.0000000000000002), which a bare Math.ceil would bump to an extra craft.
+function craftsFor(quantity: number, recipe: Recipe): number {
+	return Math.ceil(Number((quantity / (recipe.quantity || 1)).toFixed(9)));
+}
+
+function recipeMaterials(recipe: Recipe, crafts: number): NeededMaterial[] {
+	return recipe.materials.map((material) => {
+		const item = sourceItemById(material.itemId);
+		return {
+			itemId: material.itemId,
+			name: item?.name ?? material.itemId,
+			image: item?.image ?? null,
+			quantity: material.quantity * crafts,
+		};
+	});
+}
+
+/**
+ * Turns a step's accumulated recipes into its "Needed" ingredients for the
+ * step's remaining quantity. Each recipe's share of the remaining quantity
+ * is weighted by its share of the gross total (as recipeContributions does),
+ * and crafts are rounded up once per recipe so a multi-output recipe shared
+ * across tracked items isn't over-counted. The ingredients' own owned stock
+ * is deliberately not subtracted — their own steps already account for it.
+ */
+function computeNeeded(
+	accumulator: NeededAccumulator | undefined,
+	grossQuantity: number,
+	remaining: number,
+): StepNeeded {
+	if (!accumulator || grossQuantity <= 0 || remaining <= 0) {
+		return { materials: [], alternatives: [] };
+	}
+	const scale = remaining / grossQuantity;
+
+	const merged = new Map<string, NeededMaterial>();
+	for (const {
+		recipe,
+		grossQuantity: recipeGross,
+	} of accumulator.resolved.values()) {
+		const crafts = craftsFor(recipeGross * scale, recipe);
+		for (const material of recipeMaterials(recipe, crafts)) {
+			const existing = merged.get(material.itemId);
+			if (existing) existing.quantity += material.quantity;
+			else merged.set(material.itemId, material);
+		}
+	}
+
+	const unresolvedQuantity = accumulator.unresolved.grossQuantity * scale;
+	const alternatives =
+		unresolvedQuantity > 0
+			? Array.from(accumulator.unresolved.candidates.values())
+					.sort((a, b) => a.variantNumber - b.variantNumber)
+					.map(({ recipe }) =>
+						recipeMaterials(recipe, craftsFor(unresolvedQuantity, recipe)),
+					)
+			: [];
+
+	return {
+		materials: Array.from(merged.values()).filter((m) => m.quantity > 0),
+		alternatives,
+	};
+}
 
 export type Params = {
 	filteredItemIds: string[];
@@ -134,6 +311,7 @@ export function walkTree(
 	markedNodeIds: Set<string>,
 	aggregated: Map<string, StepEntry>,
 	recipeAccumulators: Map<string, RecipeContributionAccumulator>,
+	neededAccumulators?: Map<string, NeededAccumulator>,
 ) {
 	for (const node of nodes) {
 		// Variant nodes are transparent — skip but still recurse with the same parent/depth
@@ -149,6 +327,7 @@ export function walkTree(
 					markedNodeIds,
 					aggregated,
 					recipeAccumulators,
+					neededAccumulators,
 				);
 			}
 			continue;
@@ -162,6 +341,9 @@ export function walkTree(
 			);
 
 		if (isMarked) {
+			if (neededAccumulators) {
+				accumulateNeeded(neededAccumulators, node, markedNodeIds);
+			}
 			const recipe = node.variant?.recipe;
 			const recipeKey = recipe?.id ?? "no-recipe";
 			let accumulator = recipeAccumulators.get(node.id);
@@ -230,6 +412,7 @@ export function walkTree(
 					hasChildren,
 					coverageWarnings: [],
 					facilities: [...node.facilities],
+					needed: { materials: [], alternatives: [] },
 					covered: false,
 				});
 			}
@@ -252,6 +435,7 @@ export function walkTree(
 				markedNodeIds,
 				aggregated,
 				recipeAccumulators,
+				neededAccumulators,
 			);
 		}
 	}
@@ -374,6 +558,7 @@ export function buildSteps({
 }: Params): StepEntry[] {
 	const aggregated = new Map<string, StepEntry>();
 	const recipeAccumulators = new Map<string, RecipeContributionAccumulator>();
+	const neededAccumulators = new Map<string, NeededAccumulator>();
 
 	for (const trackedItemId of filteredItemIds) {
 		const multiplier = multipliers[trackedItemId] || 1;
@@ -403,6 +588,7 @@ export function buildSteps({
 			markedNodeIds,
 			aggregated,
 			recipeAccumulators,
+			neededAccumulators,
 		);
 	}
 
@@ -451,6 +637,11 @@ export function buildSteps({
 			parents: adjustedParents,
 			coverageWarnings: computeCoverageWarnings(entry, aggregated),
 			recipeContributions,
+			needed: computeNeeded(
+				neededAccumulators.get(entry.itemId),
+				entry.quantity,
+				remaining,
+			),
 			covered: remaining === 0,
 		});
 	}
