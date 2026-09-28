@@ -45937,6 +45937,12 @@
     ]
   },
   {
+    "uses_material": [
+      "Wheat"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
     "json": {
       "facility": "Grindstone",
       "materials": [
@@ -45949,7 +45955,12 @@
           "image": "[[File:Wheat.png|30px|link=Wheat]]"
         }
       ],
-      "skills": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0.2"
+        }
+      ],
       "outputs": [
         "Bag of Flour"
       ],
@@ -45964,9 +45975,6 @@
     },
     "uses_facility": [
       "Grindstone"
-    ],
-    "uses_material": [
-      "Wheat"
     ],
     "output": [
       "Bag of Flour"
