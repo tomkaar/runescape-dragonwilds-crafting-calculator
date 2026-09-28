@@ -1,6 +1,7 @@
 "use client";
 
 import { Wrench } from "lucide-react";
+import { ConfirmAlertDialog } from "@/components/confirm-alert-dialog";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
@@ -20,9 +21,11 @@ import { ALWAYS_AVAILABLE_FACILITIES } from "../utils/facility-checklist";
 const listedFacilities = facilitiesJSON.filter(
 	(facility) => !ALWAYS_AVAILABLE_FACILITIES.includes(facility.name),
 );
+const listedFacilityNames = listedFacilities.map((facility) => facility.name);
 
 export function FacilitiesDialog() {
-	const { owned, setOwned } = useFacilitiesOwned();
+	const { owned, setOwned, setAllOwned } = useFacilitiesOwned();
+	const ownedCount = listedFacilityNames.filter((name) => owned[name]).length;
 
 	return (
 		<Dialog>
@@ -40,6 +43,28 @@ export function FacilitiesDialog() {
 						across all your plans, not just the current one.
 					</DialogDescription>
 				</DialogHeader>
+
+				<div className="flex gap-2">
+					<Button
+						variant="outline"
+						size="sm"
+						disabled={ownedCount === listedFacilityNames.length}
+						onClick={() => setAllOwned(listedFacilityNames, true)}
+					>
+						Select all
+					</Button>
+					<ConfirmAlertDialog
+						trigger={
+							<Button variant="outline" size="sm" disabled={ownedCount === 0}>
+								Unselect all
+							</Button>
+						}
+						title="Unselect all facilities?"
+						description="This clears every checked facility. It applies across all your plans, not just the current one."
+						confirmLabel="Unselect all"
+						onConfirm={() => setAllOwned(listedFacilityNames, false)}
+					/>
+				</div>
 
 				<div className="flex flex-col gap-2 max-h-96 overflow-y-auto">
 					{listedFacilities.map((facility) => (

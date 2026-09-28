@@ -93,6 +93,25 @@ describe("useSettings.facilities", () => {
 			Furnace: false,
 		});
 	});
+
+	it("setFacilitiesOwned sets every listed facility and leaves others untouched", () => {
+		useSettings.getState().setFacilityOwned("Anvil", true);
+		useSettings.getState().setFacilitiesOwned(["Furnace", "Loom"], true);
+
+		expect(useSettings.getState().facilities.owned).toEqual({
+			Anvil: true,
+			Furnace: true,
+			Loom: true,
+		});
+
+		useSettings.getState().setFacilitiesOwned(["Anvil", "Furnace"], false);
+
+		expect(useSettings.getState().facilities.owned).toEqual({
+			Anvil: false,
+			Furnace: false,
+			Loom: true,
+		});
+	});
 });
 
 describe("useSettings section isolation", () => {

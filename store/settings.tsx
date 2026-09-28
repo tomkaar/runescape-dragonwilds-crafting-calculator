@@ -33,6 +33,8 @@ type SettingsActions = {
 	setXp: (skill: SkillName, xp: number) => void;
 	clearSkill: (skill: SkillName) => void;
 	setFacilityOwned: (facility: string, owned: boolean) => void;
+	/** Merges the same owned value for every listed facility; others are untouched. */
+	setFacilitiesOwned: (facilities: string[], owned: boolean) => void;
 };
 
 export const useSettings = create<SettingsState & SettingsActions>()(
@@ -108,6 +110,16 @@ export const useSettings = create<SettingsState & SettingsActions>()(
 						owned: { ...state.facilities.owned, [facility]: owned },
 					},
 				})),
+			setFacilitiesOwned: (facilities, owned) =>
+				set((state) => ({
+					facilities: {
+						...state.facilities,
+						owned: {
+							...state.facilities.owned,
+							...Object.fromEntries(facilities.map((name) => [name, owned])),
+						},
+					},
+				})),
 		}),
 		{
 			name: "settings",
@@ -168,6 +180,7 @@ export function useFacilitiesOwned() {
 		useShallow((state) => ({
 			owned: state.facilities.owned,
 			setOwned: state.setFacilityOwned,
+			setAllOwned: state.setFacilitiesOwned,
 		})),
 	);
 }
