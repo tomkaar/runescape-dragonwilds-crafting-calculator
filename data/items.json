@@ -33864,12 +33864,19 @@
             }
           ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0.2
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
+    "skills": [
+      "Artisan"
+    ],
     "facilities": [
       "Grindstone"
     ],
@@ -70405,12 +70412,12 @@
   {
     "id": "miner-ring",
     "name": "Miner Ring",
-    "image": "Moon Ring.png",
+    "image": "Miner Ring.png",
     "variants": [
       {
-        "id": "moon-ring",
-        "name": "Moon Ring",
-        "image": "Moon Ring.png",
+        "id": "miner-ring",
+        "name": "Miner Ring",
+        "image": "Miner Ring.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -70604,6 +70611,7 @@
     "facilities": [],
     "wikiLink": "Clay_Slab",
     "weight": 0,
+    "itemType": "Unknown",
     "stackLimit": 0
   },
   {
@@ -71926,7 +71934,7 @@
     "facilities": [],
     "wikiLink": "Primordial_Heart",
     "weight": 0,
-    "itemType": "Quest Item",
+    "itemType": "Basic Material",
     "stackLimit": 0
   },
   {
@@ -72627,7 +72635,7 @@
     "facilities": [],
     "wikiLink": "Spectral_Chinchompa_Skull",
     "weight": 0,
-    "itemType": "Quest Item"
+    "itemType": "Basic Material"
   },
   {
     "id": "plan-headstone-01",
@@ -79797,5 +79805,110 @@
     "wikiLink": "Tome_of_Agility_-_Vol_1.",
     "weight": 2,
     "itemType": "Resource"
+  },
+  {
+    "id": "forbidden-scroll-the-schism",
+    "name": "Forbidden Scroll - 'The Schism'",
+    "image": "Forbidden Scroll - 'The Schism'.png",
+    "variants": [
+      {
+        "id": "forbidden-scroll-the-schism",
+        "name": "Forbidden Scroll - 'The Schism'",
+        "image": "Forbidden Scroll - 'The Schism'.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Forbidden_Scroll_-_'The_Schism'",
+    "weight": 0,
+    "itemType": "Quest Item",
+    "stackLimit": 1
+  },
+  {
+    "id": "forbidden-scroll-sun-demon",
+    "name": "Forbidden Scroll - 'Sun Demon'",
+    "image": "Forbidden Scroll - 'Sun Demon'.png",
+    "variants": [
+      {
+        "id": "forbidden-scroll-sun-demon",
+        "name": "Forbidden Scroll - 'Sun Demon'",
+        "image": "Forbidden Scroll - 'Sun Demon'.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Forbidden_Scroll_-_'Sun_Demon'",
+    "weight": 0,
+    "itemType": "Quest Item",
+    "stackLimit": 1
+  },
+  {
+    "id": "forbidden-scroll-old-kingdom",
+    "name": "Forbidden Scroll - 'Old Kingdom'",
+    "image": "Forbidden Scroll - 'Old Kingdom'.png",
+    "variants": [
+      {
+        "id": "forbidden-scroll-old-kingdom",
+        "name": "Forbidden Scroll - 'Old Kingdom'",
+        "image": "Forbidden Scroll - 'Old Kingdom'.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Forbidden_Scroll_-_'Old_Kingdom'",
+    "weight": 0,
+    "itemType": "Quest Item",
+    "stackLimit": 1
+  },
+  {
+    "id": "forbidden-scroll-moon-goddess",
+    "name": "Forbidden Scroll - 'Moon Goddess'",
+    "image": "Forbidden Scroll - 'Moon Goddess'.png",
+    "variants": [
+      {
+        "id": "forbidden-scroll-moon-goddess",
+        "name": "Forbidden Scroll - 'Moon Goddess'",
+        "image": "Forbidden Scroll - 'Moon Goddess'.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Forbidden_Scroll_-_'Moon_Goddess'",
+    "weight": 0,
+    "itemType": "Quest Item",
+    "stackLimit": 1
+  },
+  {
+    "id": "saga-icthlarins-little-helper",
+    "name": "Saga (Icthlarin's Little Helper)",
+    "image": "Saga (Icthlarin's Little Helper).png",
+    "variants": [
+      {
+        "id": "saga-icthlarins-little-helper",
+        "name": "Saga (Icthlarin's Little Helper)",
+        "image": "Saga (Icthlarin's Little Helper).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Saga_(Icthlarin's_Little_Helper)",
+    "weight": 0,
+    "itemType": "Quest Item",
+    "stackLimit": 1
   }
 ]

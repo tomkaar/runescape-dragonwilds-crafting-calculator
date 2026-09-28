@@ -6188,14 +6188,14 @@
     "page_name_sub": "Miner Ring",
     "item_description": "No effect",
     "item_type": "Basic Item",
-    "item_name": "Moon Ring",
+    "item_name": "Miner Ring",
     "json": {
       "description": "No effect",
       "weight": "2.0",
-      "image": "[[File:Moon Ring.png|32px]]",
-      "name": "Moon Ring",
+      "image": "[[File:Miner Ring.png|32px]]",
+      "name": "Miner Ring",
       "item_type": "Basic Item",
-      "image_raw": "Moon Ring.png"
+      "image_raw": "Miner Ring.png"
     },
     "item_weight": 2
   },
@@ -6394,16 +6394,18 @@
     "item_description": "Unknown <small>([https://dragonwilds.runescape.wiki/w/Clay_Slab?action=edit edit])</small>",
     "page_name_sub": "Clay Slab",
     "item_weight": 0,
-    "item_name": "Clay Slab",
+    "item_stacklimit": 0,
     "json": {
       "description": "Unknown <small>([https://dragonwilds.runescape.wiki/w/Clay_Slab?action=edit edit])</small>",
+      "weight": "Unknown <small>([https://dragonwilds.runescape.wiki/w/Clay_Slab?action=edit edit])</small>",
       "image": "[[File:Clay Slab.png|32px]]",
       "name": "Clay Slab",
-      "weight": "Unknown <small>([https://dragonwilds.runescape.wiki/w/Clay_Slab?action=edit edit])</small>",
+      "item_type": "Unknown",
       "stacklimit": "Unknown <small>([https://dragonwilds.runescape.wiki/w/Clay_Slab?action=edit edit])</small>",
       "image_raw": "Clay Slab.png"
     },
-    "item_stacklimit": 0
+    "item_type": "Unknown",
+    "item_name": "Clay Slab"
   },
   {
     "page_name": "Divine Cabbage",
@@ -9502,11 +9504,11 @@
       "weight": "0.0",
       "image": "[[File:Primordial Heart.png|32px]]",
       "name": "Primordial Heart",
-      "item_type": "Quest Item",
+      "item_type": "Basic Material",
       "stacklimit": "",
       "image_raw": "Primordial Heart.png"
     },
-    "item_type": "Quest Item",
+    "item_type": "Basic Material",
     "item_name": "Primordial Heart"
   },
   {
@@ -11130,15 +11132,15 @@
   {
     "page_name": "Spectral Chinchompa Skull",
     "page_name_sub": "Spectral Chinchompa Skull",
-    "item_description": "",
-    "item_type": "Quest Item",
+    "item_description": "A ghostly chinchompa skull. Vannaka is looking for these.",
+    "item_type": "Basic Material",
     "item_name": "Spectral Chinchompa Skull",
     "json": {
-      "description": "",
+      "description": "A ghostly chinchompa skull. Vannaka is looking for these.",
       "weight": "0",
       "image": "[[File:Spectral Chinchompa Skull.png|32px]]",
       "name": "Spectral Chinchompa Skull",
-      "item_type": "Quest Item",
+      "item_type": "Basic Material",
       "image_raw": "Spectral Chinchompa Skull.png"
     },
     "item_weight": 0
@@ -24140,5 +24142,95 @@
       "image_raw": "Tome of Agility - Vol 1.png"
     },
     "item_weight": 2
+  },
+  {
+    "page_name": "Forbidden Scroll - 'The Schism'",
+    "item_description": "An ancient Moon Garou scroll describing the schism that separated the garou. An archaeologist will want this.",
+    "page_name_sub": "Forbidden Scroll - 'The Schism'",
+    "item_weight": 0,
+    "item_stacklimit": 1,
+    "json": {
+      "description": "An ancient Moon Garou scroll describing the schism that separated the garou. An archaeologist will want this.",
+      "weight": "0.0",
+      "image": "[[File:Forbidden Scroll - 'The Schism'.png|32px]]",
+      "name": "Forbidden Scroll - 'The Schism'",
+      "item_type": "Quest Item",
+      "stacklimit": "1",
+      "image_raw": "Forbidden Scroll - 'The Schism'.png"
+    },
+    "item_type": "Quest Item",
+    "item_name": "Forbidden Scroll - 'The Schism'"
+  },
+  {
+    "page_name": "Forbidden Scroll - 'Sun Demon'",
+    "item_description": "An ancient garou scroll describing a cruel, sun-themed demoness. An archaeologist will want this.",
+    "page_name_sub": "Forbidden Scroll - 'Sun Demon'",
+    "item_weight": 0,
+    "item_stacklimit": 1,
+    "json": {
+      "description": "An ancient garou scroll describing a cruel, sun-themed demoness. An archaeologist will want this.",
+      "weight": "0.0",
+      "image": "[[File:Forbidden Scroll - 'Sun Demon'.png|32px]]",
+      "name": "Forbidden Scroll - 'Sun Demon'",
+      "item_type": "Quest Item",
+      "stacklimit": "1",
+      "image_raw": "Forbidden Scroll - 'Sun Demon'.png"
+    },
+    "item_type": "Quest Item",
+    "item_name": "Forbidden Scroll - 'Sun Demon'"
+  },
+  {
+    "page_name": "Forbidden Scroll - 'Old Kingdom'",
+    "item_description": "An ancient garou scroll describing old Moon Garou kingdom. An archaeologist will want this.",
+    "page_name_sub": "Forbidden Scroll - 'Old Kingdom'",
+    "item_weight": 0,
+    "item_stacklimit": 1,
+    "json": {
+      "description": "An ancient garou scroll describing old Moon Garou kingdom. An archaeologist will want this.",
+      "weight": "0.0",
+      "image": "[[File:Forbidden Scroll - 'Old Kingdom'.png|32px]]",
+      "name": "Forbidden Scroll - 'Old Kingdom'",
+      "item_type": "Quest Item",
+      "stacklimit": "1",
+      "image_raw": "Forbidden Scroll - 'Old Kingdom'.png"
+    },
+    "item_type": "Quest Item",
+    "item_name": "Forbidden Scroll - 'Old Kingdom'"
+  },
+  {
+    "page_name": "Forbidden Scroll - 'Moon Goddess'",
+    "item_description": "An ancient garou scroll describing some kind of moon deity. An archaeologist will want this.",
+    "page_name_sub": "Forbidden Scroll - 'Moon Goddess'",
+    "item_weight": 0,
+    "item_stacklimit": 1,
+    "json": {
+      "description": "An ancient garou scroll describing some kind of moon deity. An archaeologist will want this.",
+      "weight": "0.0",
+      "image": "[[File:Forbidden Scroll - 'Moon Goddess'.png|32px]]",
+      "name": "Forbidden Scroll - 'Moon Goddess'",
+      "item_type": "Quest Item",
+      "stacklimit": "1",
+      "image_raw": "Forbidden Scroll - 'Moon Goddess'.png"
+    },
+    "item_type": "Quest Item",
+    "item_name": "Forbidden Scroll - 'Moon Goddess'"
+  },
+  {
+    "page_name": "Saga (Icthlarin's Little Helper)",
+    "item_description": "A book for writing down the passages found in the spires around the pyramid.",
+    "page_name_sub": "Saga (Icthlarin's Little Helper)",
+    "item_weight": 0,
+    "item_stacklimit": 1,
+    "json": {
+      "description": "A book for writing down the passages found in the spires around the pyramid.",
+      "weight": "0.0",
+      "image": "[[File:Saga (Icthlarin's Little Helper).png|32px]]",
+      "name": "Saga (Icthlarin's Little Helper)",
+      "item_type": "Quest Item",
+      "stacklimit": "1",
+      "image_raw": "Saga (Icthlarin's Little Helper).png"
+    },
+    "item_type": "Quest Item",
+    "item_name": "Saga (Icthlarin's Little Helper)"
   }
 ]
