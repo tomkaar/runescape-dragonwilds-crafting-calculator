@@ -13,15 +13,13 @@ import {
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { levelForXp, MAX_LEVEL } from "@/domain/experience/experience-table";
-import { useSkillLevels } from "@/store/skill-levels";
+import { useSkillLevels } from "@/store/settings";
 import { Skill } from "@/Types";
 import { getSkillImageUrl } from "@/utils/getSkillImageUrl";
 
 function SkillLevelRow({ skill }: { skill: (typeof Skill)[number] }) {
-	const entry = useSkillLevels((state) => state.levels[skill]);
-	const setLevel = useSkillLevels((state) => state.setLevel);
-	const setXp = useSkillLevels((state) => state.setXp);
-	const clearSkill = useSkillLevels((state) => state.clearSkill);
+	const { levels, setLevel, setXp, clearSkill } = useSkillLevels();
+	const entry = levels[skill];
 
 	const [levelInput, setLevelInput] = useState(
 		entry ? String(levelForXp(entry.xp)) : "",

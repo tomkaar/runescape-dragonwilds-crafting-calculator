@@ -9,10 +9,10 @@ import {
 	AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Checkbox } from "@/components/ui/checkbox";
-import { useFacilitiesOwned } from "@/store/facilities-owned";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
 import type { SelectedMaterial } from "@/store/selected-material";
+import { useFacilitiesOwned } from "@/store/settings";
 import type { Facility } from "@/Types";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import { buildFacilityChecklist } from "../utils/facility-checklist";
@@ -58,8 +58,8 @@ function FacilityRow({
 export function FacilityChecklist({ allItems, filteredItemIds }: Props) {
 	const multipliers = useMaterialMultiplier((state) => state.items);
 	const owned = useMaterialOwned((state) => state.owned);
-	const facilitiesOwned = useFacilitiesOwned((state) => state.owned);
-	const setFacilityOwned = useFacilitiesOwned((state) => state.setOwned);
+	const { owned: facilitiesOwned, setOwned: setFacilityOwned } =
+		useFacilitiesOwned();
 
 	const { facilities, ambiguousItemNames } = useMemo(
 		() =>

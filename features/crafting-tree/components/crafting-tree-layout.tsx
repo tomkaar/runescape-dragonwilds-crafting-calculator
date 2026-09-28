@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 import type { Node } from "@/features/crafting-tree/schemas/Node";
 import { getLayoutNodes } from "@/features/crafting-tree/utils/get-layout-nodes";
-import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";
+import { useCraftingTreeDirection } from "@/store/settings";
 
 type Props = {
 	treePaddingLeft?: number;

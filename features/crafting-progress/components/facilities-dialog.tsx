@@ -12,7 +12,7 @@ import {
 	DialogTrigger,
 } from "@/components/ui/dialog";
 import facilitiesJSON from "@/data/facilities.json";
-import { useFacilitiesOwned } from "@/store/facilities-owned";
+import { useFacilitiesOwned } from "@/store/settings";
 import type { Facility } from "@/Types";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import { ALWAYS_AVAILABLE_FACILITIES } from "../utils/facility-checklist";
@@ -22,8 +22,7 @@ const listedFacilities = facilitiesJSON.filter(
 );
 
 export function FacilitiesDialog() {
-	const owned = useFacilitiesOwned((state) => state.owned);
-	const setOwned = useFacilitiesOwned((state) => state.setOwned);
+	const { owned, setOwned } = useFacilitiesOwned();
 
 	return (
 		<Dialog>

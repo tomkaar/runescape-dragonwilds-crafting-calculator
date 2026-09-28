@@ -1,16 +1,11 @@
 "use client";
 
 import { useEffect } from "react";
-import { useCraftingTreeDirection } from "./crafting-tree-direction";
-import { useExperienceSummaryOptions } from "./experience-summary-options";
-import { useFacilitiesOwned } from "./facilities-owned";
 import { useFavouriteItems } from "./favourite-items";
 import { useItemFilter } from "./item-filter";
 import { useMaterialMultiplier } from "./material-multiplier";
-import { useMobilePanelsState } from "./mobile-panel-state";
-import { useNextStepsOptions } from "./next-steps-options";
 import { useSelectedMaterial } from "./selected-material";
-import { useSkillLevels } from "./skill-levels";
+import { useSettings } from "./settings";
 
 /**
  * This component will rehydrate the provided store
@@ -18,16 +13,11 @@ import { useSkillLevels } from "./skill-levels";
  */
 export function HydrateStores() {
 	const updateStore = () => {
-		useCraftingTreeDirection.persist.rehydrate();
-		useFacilitiesOwned.persist.rehydrate();
 		useFavouriteItems.persist.rehydrate();
-		useMobilePanelsState.persist.rehydrate();
 		useSelectedMaterial.persist.rehydrate();
-		useNextStepsOptions.persist.rehydrate();
-		useExperienceSummaryOptions.persist.rehydrate();
 		useMaterialMultiplier.persist.rehydrate();
-		useSkillLevels.persist.rehydrate();
 		useItemFilter.persist.rehydrate();
+		useSettings.persist.rehydrate();
 	};
 
 	// biome-ignore lint/correctness/useExhaustiveDependencies: <known>

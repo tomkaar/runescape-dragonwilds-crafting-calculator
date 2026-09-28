@@ -13,8 +13,8 @@ import { Progress } from "@/components/ui/progress";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
-import { useNextStepsOptions } from "@/store/next-steps-options";
 import type { SelectedMaterial } from "@/store/selected-material";
+import { useNextStepsOptions } from "@/store/settings";
 
 import {
 	buildItemSteps,

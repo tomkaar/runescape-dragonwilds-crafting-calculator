@@ -2,7 +2,7 @@
 
 import { ArrowDownFromLineIcon, ArrowRightFromLine } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";
+import { useCraftingTreeDirection } from "@/store/settings";
 
 export function Direction() {
 	const { direction, setDirection } = useCraftingTreeDirection();

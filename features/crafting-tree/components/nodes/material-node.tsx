@@ -10,12 +10,12 @@ import { NodeToggleButton } from "@/features/crafting-tree/components/nodes/node
 import { useCraftingTreeHover } from "@/features/crafting-tree/context/crafting-tree-hover";
 import type { MaterialNode as MaterialNodeType } from "@/features/crafting-tree/schemas/Node";
 import { cn } from "@/lib/utils";
-import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";
+import { useCraftingTreeDirection } from "@/store/settings";
 
 const MaterialNode = forwardRef<HTMLDivElement, NodeProps<MaterialNodeType>>(
 	function InnerMaterialNode(props, ref) {
 		const { enter, reset, check, isSet } = useCraftingTreeHover();
-		const direction = useCraftingTreeDirection((state) => state.direction);
+		const { direction } = useCraftingTreeDirection();
 
 		const isHovered = check(props.id);
 		const { data } = props;

@@ -9,14 +9,14 @@ import { RecipeCountBadge } from "@/features/crafting-tree/components/nodes/reci
 import { useCraftingTreeHover } from "@/features/crafting-tree/context/crafting-tree-hover";
 import type { RecipeGroupNode as RecipeGroupNodeType } from "@/features/crafting-tree/schemas/Node";
 import { cn } from "@/lib/utils";
-import { useCraftingTreeDirection } from "@/store/crafting-tree-direction";
+import { useCraftingTreeDirection } from "@/store/settings";
 
 const RecipeGroupNode = forwardRef<
 	HTMLDivElement,
 	NodeProps<RecipeGroupNodeType>
 >(function InnerRecipeGroupNode(props, ref) {
 	const { enter, reset, check, isSet } = useCraftingTreeHover();
-	const direction = useCraftingTreeDirection((state) => state.direction);
+	const { direction } = useCraftingTreeDirection();
 
 	const isHovered = check(props.id);
 	const { data } = props;

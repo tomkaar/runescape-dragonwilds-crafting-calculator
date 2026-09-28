@@ -11,11 +11,10 @@ import {
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { buildLevelProgress } from "@/domain/experience/level-progress";
-import { useExperienceSummaryOptions } from "@/store/experience-summary-options";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
 import type { SelectedMaterial } from "@/store/selected-material";
-import { useSkillLevels } from "@/store/skill-levels";
+import { useExperienceSummaryOptions, useSkillLevels } from "@/store/settings";
 
 import { getSkillImageUrl } from "@/utils/getSkillImageUrl";
 import { buildExperienceSummary } from "../utils/experience-summary";
@@ -34,7 +33,7 @@ type Props = {
 export function ExperienceSummary({ allItems, filteredItemIds }: Props) {
 	const multipliers = useMaterialMultiplier((state) => state.items);
 	const owned = useMaterialOwned((state) => state.owned);
-	const skillLevels = useSkillLevels((state) => state.levels);
+	const { levels: skillLevels } = useSkillLevels();
 	const { showOnlyGained, toggleShowOnlyGained } =
 		useExperienceSummaryOptions();
 
