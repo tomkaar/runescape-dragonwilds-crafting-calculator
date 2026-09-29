@@ -9,6 +9,10 @@ import {
 	SheetTitle,
 	SheetTrigger,
 } from "@/components/ui/sheet";
+import {
+	MobileShareDialog,
+	MobileShareMenuItem,
+} from "@/features/sharing/components/mobile-share";
 import { LastSynced } from "./last-synced";
 import { ProgressNavLink } from "./progress-nav-link";
 
@@ -46,6 +50,7 @@ export function MobileNavMenu() {
 							All items
 						</Link>
 						<ProgressNavLink className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-card" />
+						<MobileShareMenuItem className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-card" />
 						<a
 							href="https://dragonwilds.runescape.wiki"
 							target="_blank"
@@ -76,6 +81,7 @@ export function MobileNavMenu() {
 					</div>
 				</SheetContent>
 			</Sheet>
+			<MobileShareDialog />
 		</div>
 	);
 }
