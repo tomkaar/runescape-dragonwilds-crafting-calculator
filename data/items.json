@@ -61690,7 +61690,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0
+              "experience": 50
             }
           ]
         },
@@ -79252,8 +79252,7 @@
     "facilities": [],
     "wikiLink": "Tome_of_Agility_-_Vol_1",
     "weight": 2,
-    "itemType": "Resource",
-    "stackLimit": 99
+    "itemType": "Resource"
   },
   {
     "id": "tome-of-agility-vol-2",
@@ -79785,26 +79784,6 @@
     "weight": 0,
     "itemType": "Seed",
     "stackLimit": 999
-  },
-  {
-    "id": "tome-of-agility-vol-1",
-    "name": "Tome of Agility - Vol 1.",
-    "image": "Tome of Agility - Vol 1.png",
-    "variants": [
-      {
-        "id": "tome-of-agility-vol-1",
-        "name": "Tome of Agility - Vol 1",
-        "image": "Tome of Agility - Vol 1.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Tome_of_Agility_-_Vol_1.",
-    "weight": 2,
-    "itemType": "Resource"
   },
   {
     "id": "forbidden-scroll-the-schism",
