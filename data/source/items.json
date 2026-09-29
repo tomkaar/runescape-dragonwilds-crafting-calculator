@@ -22691,21 +22691,19 @@
   },
   {
     "page_name": "Tome of Agility - Vol 1",
-    "item_description": "A book filled with knowledge on how to move more efficiently. Awards a small amount of Agility XP.",
     "page_name_sub": "Tome of Agility - Vol 1",
-    "item_weight": 2,
-    "item_stacklimit": 99,
+    "item_description": "A book filled with knowledge on how to move more efficiently. Awards a small amount of Agility XP.",
+    "item_type": "Resource",
+    "item_name": "Tome of Agility - Vol 1",
     "json": {
       "description": "A book filled with knowledge on how to move more efficiently. Awards a small amount of Agility XP.",
       "weight": "2.0",
       "image": "[[File:Tome of Agility - Vol 1.png|32px]]",
       "name": "Tome of Agility - Vol 1",
       "item_type": "Resource",
-      "stacklimit": "99",
       "image_raw": "Tome of Agility - Vol 1.png"
     },
-    "item_type": "Resource",
-    "item_name": "Tome of Agility - Vol 1"
+    "item_weight": 2
   },
   {
     "page_name": "Tome of Agility - Vol 2",
@@ -24126,22 +24124,6 @@
     },
     "item_type": "Seed",
     "item_name": "Magic Tree Seed"
-  },
-  {
-    "page_name": "Tome of Agility - Vol 1.",
-    "page_name_sub": "Tome of Agility - Vol 1.",
-    "item_description": "A book filled with knowledge on how best to chop down trees. Awards a small amount of Agility XP.",
-    "item_type": "Resource",
-    "item_name": "Tome of Agility - Vol 1",
-    "json": {
-      "description": "A book filled with knowledge on how best to chop down trees. Awards a small amount of Agility XP.",
-      "weight": "2.0",
-      "image": "[[File:Tome of Agility - Vol 1.png|32px]]",
-      "name": "Tome of Agility - Vol 1",
-      "item_type": "Resource",
-      "image_raw": "Tome of Agility - Vol 1.png"
-    },
-    "item_weight": 2
   },
   {
     "page_name": "Forbidden Scroll - 'The Schism'",
