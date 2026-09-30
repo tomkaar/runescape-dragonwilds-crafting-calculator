@@ -66413,22 +66413,46 @@
     "image": "Rotsworn Zombie Trophy.png",
     "variants": [
       {
-        "id": "da642a1f791e",
+        "id": "84d54dbc313f",
         "name": "Rotsworn Zombie Trophy",
         "image": "Rotsworn Zombie Trophy.png",
         "variantName": null,
         "recipe": {
-          "id": "6199c4cc17fb",
-          "facilities": [],
-          "materials": [],
+          "id": "bea5a482bb9a",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "undead-bone",
+              "quantity": 2
+            },
+            {
+              "itemId": "undead-meat",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
-          "skills": []
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
         },
         "usesRecipe": null
       }
     ],
-    "skills": [],
-    "facilities": [],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
     "wikiLink": "Rotsworn_Zombie_Trophy"
   },
   {
@@ -66902,54 +66926,6 @@
       "Build Menu"
     ],
     "wikiLink": "Zombie_Cow_Trophy"
-  },
-  {
-    "id": "rotsworm-zombie-trophy",
-    "name": "Rotsworm Zombie Trophy",
-    "image": "Rotsworm Zombie Trophy.png",
-    "variants": [
-      {
-        "id": "e053d49e3652",
-        "name": "Rotsworm Zombie Trophy",
-        "image": "Rotsworm Zombie Trophy.png",
-        "variantName": null,
-        "recipe": {
-          "id": "1f80d0c04dcc",
-          "facilities": [
-            "Build Menu"
-          ],
-          "materials": [
-            {
-              "itemId": "ash-plank",
-              "quantity": 2
-            },
-            {
-              "itemId": "undead-bone",
-              "quantity": 2
-            },
-            {
-              "itemId": "undead-meat",
-              "quantity": 2
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Construction",
-              "experience": 0
-            }
-          ]
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Construction"
-    ],
-    "facilities": [
-      "Build Menu"
-    ],
-    "wikiLink": "Rotsworm_Zombie_Trophy"
   },
   {
     "id": "goblin-pack",
