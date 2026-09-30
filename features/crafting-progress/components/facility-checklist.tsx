@@ -1,6 +1,6 @@
 "use client";
 
-import { TriangleAlert } from "lucide-react";
+import { TriangleAlert, Wrench } from "lucide-react";
 import { useMemo } from "react";
 import { AccordionPersisted } from "@/components/accordion-persisted";
 import {
@@ -8,7 +8,9 @@ import {
 	AccordionItem,
 	AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
+import { SettingsDialog } from "@/features/settings/components/settings-dialog";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
 import type { SelectedMaterial } from "@/store/selected-material";
@@ -16,7 +18,6 @@ import { useFacilitiesOwned } from "@/store/settings";
 import type { Facility } from "@/Types";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import { buildFacilityChecklist } from "../utils/facility-checklist";
-import { FacilitiesDialog } from "./facilities-dialog";
 
 const listFormatter = new Intl.ListFormat("en", {
 	style: "long",
@@ -152,7 +153,12 @@ export function FacilityChecklist({ allItems, filteredItemIds }: Props) {
 					)}
 
 					<div className="flex justify-start">
-						<FacilitiesDialog />
+						<SettingsDialog defaultTab="facilities">
+							<Button variant="outline" size="sm" className="gap-1.5">
+								<Wrench className="w-4 h-4" />
+								My facilities
+							</Button>
+						</SettingsDialog>
 					</div>
 				</AccordionContent>
 			</AccordionItem>

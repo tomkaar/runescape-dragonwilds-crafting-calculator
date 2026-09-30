@@ -1,26 +1,33 @@
 "use client";
 
-import { Eraser, Gauge } from "lucide-react";
+import { Eraser } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import {
-	Dialog,
-	DialogContent,
-	DialogDescription,
-	DialogHeader,
-	DialogTitle,
-	DialogTrigger,
-} from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { levelForXp, MAX_LEVEL } from "@/domain/experience/experience-table";
-import { useSkillLevels } from "@/store/settings";
+import type { SkillLevelEntry } from "@/domain/experience/level-progress";
 import { Skill } from "@/Types";
 import { getSkillImageUrl } from "@/utils/getSkillImageUrl";
 
-function SkillLevelRow({ skill }: { skill: (typeof Skill)[number] }) {
-	const { levels, setLevel, setXp, clearSkill } = useSkillLevels();
-	const entry = levels[skill];
+type SkillName = (typeof Skill)[number];
 
+type EditorProps = {
+	levels: Partial<Record<SkillName, SkillLevelEntry>>;
+	setLevel: (skill: SkillName, level: number) => void;
+	setXp: (skill: SkillName, xp: number) => void;
+	clearSkill: (skill: SkillName) => void;
+};
+
+function SkillLevelRow({
+	skill,
+	entry,
+	setLevel,
+	setXp,
+	clearSkill,
+}: Omit<EditorProps, "levels"> & {
+	skill: SkillName;
+	entry: SkillLevelEntry | undefined;
+}) {
 	const [levelInput, setLevelInput] = useState(
 		entry ? String(levelForXp(entry.xp)) : "",
 	);
@@ -117,32 +124,18 @@ function SkillLevelRow({ skill }: { skill: (typeof Skill)[number] }) {
 	);
 }
 
-export function SkillLevelsDialog() {
+/** One row per skill; the caller decides whether edits apply right away or to a draft. */
+export function SkillLevelsEditor({ levels, ...actions }: EditorProps) {
 	return (
-		<Dialog>
-			<DialogTrigger asChild>
-				<Button variant="outline" size="sm" className="gap-1.5">
-					<Gauge className="w-4 h-4" />
-					Set levels
-				</Button>
-			</DialogTrigger>
-			<DialogContent className="sm:max-w-md">
-				<DialogHeader>
-					<DialogTitle>Skill levels</DialogTitle>
-					<DialogDescription>
-						Enter your current level or exact XP per skill to see progress
-						toward your next level from the plan's XP. Either field works on its
-						own — level uses that level's starting XP, and the other field
-						updates to match whichever you enter.
-					</DialogDescription>
-				</DialogHeader>
-
-				<div className="flex flex-col gap-3">
-					{Skill.map((skill) => (
-						<SkillLevelRow key={skill} skill={skill} />
-					))}
-				</div>
-			</DialogContent>
-		</Dialog>
+		<div className="flex flex-col gap-3">
+			{Skill.map((skill) => (
+				<SkillLevelRow
+					key={skill}
+					skill={skill}
+					entry={levels[skill]}
+					{...actions}
+				/>
+			))}
+		</div>
 	);
 }

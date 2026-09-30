@@ -10,6 +10,10 @@ import {
 	SheetTrigger,
 } from "@/components/ui/sheet";
 import {
+	MobileSettingsDialog,
+	MobileSettingsMenuItem,
+} from "@/features/settings/components/mobile-settings";
+import {
 	MobileShareDialog,
 	MobileShareMenuItem,
 } from "@/features/sharing/components/mobile-share";
@@ -51,6 +55,7 @@ export function MobileNavMenu() {
 						</Link>
 						<ProgressNavLink className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-card" />
 						<MobileShareMenuItem className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-card" />
+						<MobileSettingsMenuItem className="flex items-center gap-3 rounded-md px-2 py-2 text-sm hover:bg-card" />
 						<a
 							href="https://dragonwilds.runescape.wiki"
 							target="_blank"
@@ -82,6 +87,7 @@ export function MobileNavMenu() {
 				</SheetContent>
 			</Sheet>
 			<MobileShareDialog />
+			<MobileSettingsDialog />
 		</div>
 	);
 }

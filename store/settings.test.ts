@@ -1,6 +1,11 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { xpForLevel } from "@/domain/experience/experience-table";
-import { useSettings } from "./settings";
+import {
+	isSettingsEqual,
+	pickSettings,
+	type SettingsState,
+	useSettings,
+} from "./settings";
 
 // The store persists to localStorage, which the node test environment lacks.
 vi.hoisted(() => {
@@ -134,5 +139,78 @@ describe("useSettings section isolation", () => {
 			showNeeded: true,
 		});
 		expect(state.experienceSummary).toEqual({ showOnlyGained: false });
+	});
+});
+
+describe("useSettings.applySettings", () => {
+	it("replaces every section with the given settings", () => {
+		const next: SettingsState = {
+			craftingTree: { direction: "LR" },
+			experienceSummary: { showOnlyGained: true },
+			nextSteps: { showCovered: true, showUsedFor: false, showNeeded: false },
+			skills: { levels: { Cooking: { xp: 250 } } },
+			facilities: { owned: { Furnace: true } },
+		};
+
+		useSettings.getState().applySettings(next);
+
+		expect(pickSettings(useSettings.getState())).toEqual(next);
+	});
+
+	it("keeps the actions intact", () => {
+		useSettings.getState().applySettings(pickSettings(initialState));
+
+		useSettings.getState().toggleShowCovered();
+		expect(useSettings.getState().nextSteps.showCovered).toBe(true);
+	});
+});
+
+describe("isSettingsEqual", () => {
+	const base = pickSettings(initialState);
+
+	it("is true for identical settings", () => {
+		expect(isSettingsEqual(base, structuredClone(base))).toBe(true);
+	});
+
+	it("detects a changed option", () => {
+		expect(
+			isSettingsEqual(base, {
+				...base,
+				nextSteps: { ...base.nextSteps, showCovered: true },
+			}),
+		).toBe(false);
+	});
+
+	it("detects a changed skill level", () => {
+		expect(
+			isSettingsEqual(base, {
+				...base,
+				skills: { levels: { Artisan: { xp: 10 } } },
+			}),
+		).toBe(false);
+	});
+
+	it("treats unchecked facilities the same as never checked", () => {
+		expect(
+			isSettingsEqual(base, {
+				...base,
+				facilities: { owned: { Furnace: false } },
+			}),
+		).toBe(true);
+	});
+
+	it("ignores key order of skills and facilities", () => {
+		const a: SettingsState = {
+			...base,
+			skills: { levels: { Artisan: { xp: 1 }, Cooking: { xp: 2 } } },
+			facilities: { owned: { Anvil: true, Loom: true } },
+		};
+		const b: SettingsState = {
+			...base,
+			skills: { levels: { Cooking: { xp: 2 }, Artisan: { xp: 1 } } },
+			facilities: { owned: { Loom: true, Anvil: true } },
+		};
+
+		expect(isSettingsEqual(a, b)).toBe(true);
 	});
 });

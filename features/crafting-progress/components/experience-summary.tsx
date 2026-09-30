@@ -1,6 +1,6 @@
 "use client";
 
-import { Eye, EyeOff, TriangleAlert } from "lucide-react";
+import { Eye, EyeOff, Gauge, TriangleAlert } from "lucide-react";
 import { useMemo } from "react";
 import { AccordionPersisted } from "@/components/accordion-persisted";
 import {
@@ -11,14 +11,13 @@ import {
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { buildLevelProgress } from "@/domain/experience/level-progress";
+import { SettingsDialog } from "@/features/settings/components/settings-dialog";
 import { useMaterialMultiplier } from "@/store/material-multiplier";
 import { useMaterialOwned } from "@/store/material-owned";
 import type { SelectedMaterial } from "@/store/selected-material";
 import { useExperienceSummaryOptions, useSkillLevels } from "@/store/settings";
-
 import { getSkillImageUrl } from "@/utils/getSkillImageUrl";
 import { buildExperienceSummary } from "../utils/experience-summary";
-import { SkillLevelsDialog } from "./skill-levels-dialog";
 
 const listFormatter = new Intl.ListFormat("en", {
 	style: "long",
@@ -194,7 +193,12 @@ export function ExperienceSummary({ allItems, filteredItemIds }: Props) {
 					)}
 
 					<div className="flex flex-wrap gap-2">
-						<SkillLevelsDialog />
+						<SettingsDialog defaultTab="experience">
+							<Button variant="outline" size="sm" className="gap-1.5">
+								<Gauge className="w-4 h-4" />
+								Set levels
+							</Button>
+						</SettingsDialog>
 						<Button variant="outline" size="sm" onClick={toggleShowOnlyGained}>
 							{showOnlyGained ? <EyeOff /> : <Eye />}
 							{showOnlyGained ? "Show" : "Hide"} skills without XP
