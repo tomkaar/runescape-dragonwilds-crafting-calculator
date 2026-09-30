@@ -52034,10 +52034,10 @@
         "Mithril Pickaxe"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Mithril Pickaxe",
         "link": "Mithril Pickaxe",
-        "qty": 1,
+        "qty": "1",
         "item": "Mithril Pickaxe",
         "image": "[[File:Mithril Pickaxe.png|30px|link=Mithril Pickaxe]]"
       }
@@ -52711,10 +52711,10 @@
         "Mithril Logging Axe"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Mithril Logging Axe",
         "link": "Mithril Logging Axe",
-        "qty": 1,
+        "qty": "1",
         "item": "Mithril Logging Axe",
         "image": "[[File:Mithril Logging Axe.png|30px|link=Mithril Logging Axe]]"
       }
@@ -86650,59 +86650,6 @@
   },
   {
     "uses_material": [
-      "Coarse Thread",
-      "Ash Logs"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "4",
-          "name": "Coarse Thread",
-          "link": "Coarse Thread",
-          "qty": "4",
-          "item": "Coarse Thread",
-          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Ash Logs",
-          "link": "Ash Logs",
-          "qty": "2",
-          "item": "Ash Logs",
-          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": ""
-        }
-      ],
-      "outputs": [
-        "Brynmoor Valley Tapestry"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Brynmoor Valley Tapestry",
-        "link": "Brynmoor Valley Tapestry",
-        "qty": 1,
-        "item": "Brynmoor Valley Tapestry",
-        "image": "[[File:Brynmoor Valley Tapestry.png|30px|link=Brynmoor Valley Tapestry]]"
-      }
-    },
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "output": [
-      "Brynmoor Valley Tapestry"
-    ]
-  },
-  {
-    "uses_material": [
       "Ash Logs",
       "Leather"
     ],
@@ -87747,24 +87694,63 @@
     ]
   },
   {
-    "uses_facility": [
-      ""
+    "uses_material": [
+      "Ash Plank",
+      "Undead Bone",
+      "Undead Meat"
+    ],
+    "uses_skill": [
+      "Construction"
     ],
     "json": {
-      "materials": [],
-      "skills": [],
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Undead Bone",
+          "link": "Undead Bone",
+          "qty": "2",
+          "item": "Undead Bone",
+          "image": "[[File:Undead Bone.png|30px|link=Undead Bone]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Undead Meat",
+          "link": "Undead Meat",
+          "qty": "2",
+          "item": "Undead Meat",
+          "image": "[[File:Undead Meat.png|30px|link=Undead Meat]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "0"
+        }
+      ],
       "outputs": [
         "Rotsworn Zombie Trophy"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Rotsworn Zombie Trophy",
         "link": "Rotsworn Zombie Trophy",
-        "qty": 1,
+        "qty": "1",
         "item": "Rotsworn Zombie Trophy",
         "image": "[[File:Rotsworn Zombie Trophy.png|30px|link=Rotsworn Zombie Trophy]]"
       }
     },
+    "uses_facility": [
+      "Build Menu"
+    ],
     "output": [
       "Rotsworn Zombie Trophy"
     ]
@@ -88369,68 +88355,6 @@
     ],
     "output": [
       "Zombie Cow Trophy"
-    ]
-  },
-  {
-    "uses_material": [
-      "Ash Plank",
-      "Undead Bone",
-      "Undead Meat"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "2",
-          "name": "Ash Plank",
-          "link": "Ash Plank",
-          "qty": "2",
-          "item": "Ash Plank",
-          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Undead Bone",
-          "link": "Undead Bone",
-          "qty": "2",
-          "item": "Undead Bone",
-          "image": "[[File:Undead Bone.png|30px|link=Undead Bone]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Undead Meat",
-          "link": "Undead Meat",
-          "qty": "2",
-          "item": "Undead Meat",
-          "image": "[[File:Undead Meat.png|30px|link=Undead Meat]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "0"
-        }
-      ],
-      "outputs": [
-        "Rotsworm Zombie Trophy"
-      ],
-      "output": {
-        "quantity": "1",
-        "name": "Rotsworm Zombie Trophy",
-        "link": "Rotsworm Zombie Trophy",
-        "qty": "1",
-        "item": "Rotsworm Zombie Trophy",
-        "image": "[[File:Rotsworm Zombie Trophy.png|30px|link=Rotsworm Zombie Trophy]]"
-      }
-    },
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "output": [
-      "Rotsworm Zombie Trophy"
     ]
   }
 ]

@@ -4806,10 +4806,10 @@
     "json": {
       "description": "This staff is dedicated to Lougrim, the fallen Garou goddess of the Moon.",
       "weight": "15.0",
-      "image": "[[File:Grieving Moonstaff.png|32px]]",
+      "image": "[[File:Grieving Moonstaff (Journal).png|32px]]",
       "name": "Grieving Moonstaff",
       "item_type": "Magic Weapon",
-      "image_raw": "Grieving Moonstaff.png"
+      "image_raw": "Grieving Moonstaff (Journal).png"
     },
     "item_weight": 15
   },
