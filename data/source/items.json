@@ -8993,12 +8993,12 @@
   },
   {
     "page_name": "Hollow Bark",
-    "item_description": "Found lying around Fellhollow, around long-dead trees. Used in the crafting.",
+    "item_description": "Found lying around Fellhollow, around long-dead trees. Used in crafting.",
     "page_name_sub": "Hollow Bark",
     "item_weight": 2,
     "item_stacklimit": 50,
     "json": {
-      "description": "Found lying around Fellhollow, around long-dead trees. Used in the crafting.",
+      "description": "Found lying around Fellhollow, around long-dead trees. Used in crafting.",
       "weight": "2.0",
       "image": "[[File:Hollow Bark.png|32px]]",
       "name": "Hollow Bark",

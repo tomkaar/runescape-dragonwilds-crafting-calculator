@@ -11826,6 +11826,32 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "a0e52610cb39",
+        "name": "45° Thick Beam",
+        "image": "45° Thick Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "b78d34590b9b",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -11937,6 +11963,32 @@
             {
               "itemId": "willow-logs",
               "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "f3bf88f11ab3",
+        "name": "Short Horizontal Thin Beam",
+        "image": "Short Horizontal Thin Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "9bd15d6d2289",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 1
             }
           ],
           "quantity": 1,
@@ -12070,6 +12122,32 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "f9da78c51783",
+        "name": "Short Vertical Thin Beam",
+        "image": "Short Vertical Thin Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "8a6bd84719d3",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -12180,6 +12258,32 @@
             },
             {
               "itemId": "willow-logs",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "2e0f7fa426fd",
+        "name": "45° Thin Beam",
+        "image": "45° Thin Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "f19da75e085c",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
               "quantity": 2
             }
           ],
@@ -12314,6 +12418,32 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "e6d0f51d28f0",
+        "name": "Short 60° Thick Beam",
+        "image": "Short 60° Thick Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "cd87b72d2941",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -12424,6 +12554,32 @@
             },
             {
               "itemId": "willow-logs",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "f4470bf824a5",
+        "name": "30° Thin Beam",
+        "image": "30° Thin Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "c3774bdc60ed",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
               "quantity": 2
             }
           ],
@@ -12558,6 +12714,32 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "f86f89328328",
+        "name": "Horizontal Thick Beam",
+        "image": "Horizontal Thick Beam (Baroque).png",
+        "variantName": "Baroque",
+        "recipe": {
+          "id": "101df292b213",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -12668,6 +12850,32 @@
             },
             {
               "itemId": "willow-logs",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "65bbbceafe50",
+        "name": "Vertical Thin Beam",
+        "image": "Vertical Thin Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "a1585b27b60a",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
               "quantity": 2
             }
           ],
@@ -12802,6 +13010,32 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "97aa125fba80",
+        "name": "30° Thick Beam",
+        "image": "30° Thick Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "7673cd3fdd72",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -12913,6 +13147,32 @@
             {
               "itemId": "willow-logs",
               "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "45cf0e3575ba",
+        "name": "Short 45° Thin Beam",
+        "image": "Short 45° Thin Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "4a142e3bc3df",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 1
             }
           ],
           "quantity": 1,
@@ -13168,6 +13428,32 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "9cc0b7ba03c3",
+        "name": "60° Thick Beam",
+        "image": "60° Thick Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "44018df7d926",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13279,6 +13565,32 @@
             {
               "itemId": "willow-logs",
               "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "b1cda8ecf6d8",
+        "name": "Short Horizontal Thick Beam",
+        "image": "Short Horizontal Thick Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "f2e5bea7e634",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 1
             }
           ],
           "quantity": 1,
@@ -13412,6 +13724,32 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "3d8d8ad2230c",
+        "name": "Short 30° Thick Beam",
+        "image": "Short 30° Thick Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "49fc4e205d0e",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13523,6 +13861,32 @@
             {
               "itemId": "willow-logs",
               "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "2f43d94773c8",
+        "name": "Short 45° Thick Beam",
+        "image": "Short 45° Thick Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "43b1a31b004f",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 1
             }
           ],
           "quantity": 1,
@@ -13656,6 +14020,32 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "60f8573f4aae",
+        "name": "Short 60° Thin Beam",
+        "image": "Short 60° Thin Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "69c0281f3df8",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -13767,6 +14157,32 @@
             {
               "itemId": "willow-logs",
               "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "cd420d51fb26",
+        "name": "Short 30° Thin Beam",
+        "image": "Short 30° Thin Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "5286def3587a",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 1
             }
           ],
           "quantity": 1,
@@ -13900,6 +14316,32 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "0b687fe0899f",
+        "name": "Short Vertical Thick Beam",
+        "image": "Short Vertical Thick Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "c55d59ab757d",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14022,6 +14464,32 @@
           ]
         },
         "usesRecipe": null
+      },
+      {
+        "id": "49854628a41e",
+        "name": "Horizontal Thin Beam",
+        "image": "Horizontal Thin Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "8751103685b4",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
       }
     ],
     "skills": [
@@ -14132,6 +14600,32 @@
             },
             {
               "itemId": "willow-logs",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "414c800981d4",
+        "name": "60° Thin Beam",
+        "image": "60° Thin Beam (Kharidian).png",
+        "variantName": "Kharidian",
+        "recipe": {
+          "id": "c69499af43d9",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-plank",
               "quantity": 2
             }
           ],
@@ -19164,6 +19658,96 @@
             {
               "itemId": "steel-bar",
               "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 14
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "3a8d9146fdcc",
+        "name": "Door",
+        "image": "Door (Castle large).png",
+        "variantName": "Castle large",
+        "recipe": {
+          "id": "fb6b1cb8cf49",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "oak-plank",
+              "quantity": 3
+            },
+            {
+              "itemId": "steel-bar",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 14
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7a82d50d1f10",
+        "name": "Door",
+        "image": "Door (Kharidian Solid).png",
+        "variantName": "Kharidian Solid",
+        "recipe": {
+          "id": "0ee0b4c440c0",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "adamant-bar",
+              "quantity": 1
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 14
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "1e5f0b602970",
+        "name": "Door",
+        "image": "Door (Kharidian Large).png",
+        "variantName": "Kharidian Large",
+        "recipe": {
+          "id": "2e61d8188deb",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "adamant-bar",
+              "quantity": 1
+            },
+            {
+              "itemId": "yew-plank",
+              "quantity": 3
             }
           ],
           "quantity": 1,
