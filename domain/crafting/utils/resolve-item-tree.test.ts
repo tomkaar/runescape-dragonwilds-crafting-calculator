@@ -313,3 +313,46 @@ describe("recipe materials", () => {
 		expect(node.children[1].variantIndex).toBe(1);
 	});
 });
+
+describe("cyclic recipes", () => {
+	it("skips variants that consume an ancestor item", () => {
+		// bar can be smelted from ore or recycled from leaf; leaf is made from bar
+		const items: Record<string, ReturnType<typeof makeItem>> = {
+			ore: makeItem("ore", [makeVariant(null)]),
+			bar: makeItem("bar", [
+				makeVariant(makeRecipe(1, [{ itemId: "ore", quantity: 3 }])),
+				makeVariant(makeRecipe(1, [{ itemId: "leaf", quantity: 10 }])),
+			]),
+			leaf: makeItem("leaf", [
+				makeVariant(makeRecipe(10, [{ itemId: "bar", quantity: 1 }])),
+			]),
+		};
+		mockSourceItemById.mockImplementation((id) => items[id]);
+
+		const [leaf] = resolveItemTree("leaf");
+		const [bar] = leaf.children;
+		expect(bar.item.id).toBe("bar");
+		expect(bar.variantIndex).toBeNull();
+		expect(bar.children.map((c) => c.item.id)).toEqual(["ore"]);
+
+		// From the bar's side, both recipes are still offered at the root
+		expect(resolveItemTree("bar")).toHaveLength(2);
+	});
+
+	it("keeps an item as a leaf when every variant is cyclic", () => {
+		const items: Record<string, ReturnType<typeof makeItem>> = {
+			a: makeItem("a", [
+				makeVariant(makeRecipe(1, [{ itemId: "b", quantity: 1 }])),
+			]),
+			b: makeItem("b", [
+				makeVariant(makeRecipe(1, [{ itemId: "a", quantity: 1 }])),
+			]),
+		};
+		mockSourceItemById.mockImplementation((id) => items[id]);
+
+		const [a] = resolveItemTree("a");
+		const [b] = a.children;
+		expect(b.item.id).toBe("b");
+		expect(b.isLeaf).toBe(true);
+	});
+});
