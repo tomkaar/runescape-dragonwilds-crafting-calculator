@@ -16154,6 +16154,50 @@
   },
   {
     "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "45° Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "45° Thick Beam",
+        "link": "45° Thick Beam",
+        "qty": 1,
+        "item": "45° Thick Beam",
+        "image": "[[File:45° Thick Beam (Kharidian).png|30px|link=45° Thick Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "45° Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -16328,6 +16372,50 @@
         "qty": 1,
         "item": "Short Horizontal Thin Beam",
         "image": "[[File:Short Horizontal Thin Beam (Baroque).png|30px|link=Short Horizontal Thin Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Short Horizontal Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "1",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Short Horizontal Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short Horizontal Thin Beam",
+        "link": "Short Horizontal Thin Beam",
+        "qty": 1,
+        "item": "Short Horizontal Thin Beam",
+        "image": "[[File:Short Horizontal Thin Beam (Kharidian).png|30px|link=Short Horizontal Thin Beam]]"
       }
     },
     "uses_facility": [
@@ -16524,6 +16612,50 @@
   },
   {
     "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "1",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Short Vertical Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short Vertical Thin Beam",
+        "link": "Short Vertical Thin Beam",
+        "qty": 1,
+        "item": "Short Vertical Thin Beam",
+        "image": "[[File:Short Vertical Thin Beam (Kharidian).png|30px|link=Short Vertical Thin Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Short Vertical Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -16698,6 +16830,50 @@
         "qty": 1,
         "item": "45° Thin Beam",
         "image": "[[File:45° Thin Beam (Baroque).png|30px|link=45° Thin Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "45° Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "45° Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "45° Thin Beam",
+        "link": "45° Thin Beam",
+        "qty": 1,
+        "item": "45° Thin Beam",
+        "image": "[[File:45° Thin Beam (Kharidian).png|30px|link=45° Thin Beam]]"
       }
     },
     "uses_facility": [
@@ -16894,6 +17070,50 @@
   },
   {
     "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "1",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Short 60° Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 60° Thick Beam",
+        "link": "Short 60° Thick Beam",
+        "qty": 1,
+        "item": "Short 60° Thick Beam",
+        "image": "[[File:Short 60° Thick Beam (Kharidian).png|30px|link=Short 60° Thick Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Short 60° Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -17079,6 +17299,50 @@
   },
   {
     "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "30° Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "30° Thin Beam",
+        "link": "30° Thin Beam",
+        "qty": 1,
+        "item": "30° Thin Beam",
+        "image": "[[File:30° Thin Beam (Kharidian).png|30px|link=30° Thin Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "30° Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -17235,6 +17499,50 @@
           "qty": 1,
           "item": "Black Salvage Pile",
           "image": "[[File:Black Salvage Pile.png|30px|link=Black Salvage Pile]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Horizontal Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Horizontal Thick Beam",
+        "link": "Horizontal Thick Beam",
+        "qty": 1,
+        "item": "Horizontal Thick Beam",
+        "image": "[[File:Horizontal Thick Beam (Baroque).png|30px|link=Horizontal Thick Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Horizontal Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
         }
       ],
       "skills": [
@@ -17449,6 +17757,50 @@
   },
   {
     "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Vertical Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Vertical Thin Beam",
+        "link": "Vertical Thin Beam",
+        "qty": 1,
+        "item": "Vertical Thin Beam",
+        "image": "[[File:Vertical Thin Beam (Kharidian).png|30px|link=Vertical Thin Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Vertical Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -17634,6 +17986,50 @@
   },
   {
     "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "30° Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "30° Thick Beam",
+        "link": "30° Thick Beam",
+        "qty": 1,
+        "item": "30° Thick Beam",
+        "image": "[[File:30° Thick Beam (Kharidian).png|30px|link=30° Thick Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "30° Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -17808,6 +18204,50 @@
         "qty": 1,
         "item": "Short 45° Thin Beam",
         "image": "[[File:Short 45° Thin Beam (Baroque).png|30px|link=Short 45° Thin Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Short 45° Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "1",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Short 45° Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 45° Thin Beam",
+        "link": "Short 45° Thin Beam",
+        "qty": 1,
+        "item": "Short 45° Thin Beam",
+        "image": "[[File:Short 45° Thin Beam (Kharidian).png|30px|link=Short 45° Thin Beam]]"
       }
     },
     "uses_facility": [
@@ -18189,6 +18629,50 @@
   },
   {
     "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "60° Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "60° Thick Beam",
+        "link": "60° Thick Beam",
+        "qty": 1,
+        "item": "60° Thick Beam",
+        "image": "[[File:60° Thick Beam (Kharidian).png|30px|link=60° Thick Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "60° Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -18363,6 +18847,50 @@
         "qty": 1,
         "item": "Short Horizontal Thick Beam",
         "image": "[[File:Short Horizontal Thick Beam (Baroque).png|30px|link=Short Horizontal Thick Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Short Horizontal Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "1",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Short Horizontal Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short Horizontal Thick Beam",
+        "link": "Short Horizontal Thick Beam",
+        "qty": 1,
+        "item": "Short Horizontal Thick Beam",
+        "image": "[[File:Short Horizontal Thick Beam (Kharidian).png|30px|link=Short Horizontal Thick Beam]]"
       }
     },
     "uses_facility": [
@@ -18559,6 +19087,50 @@
   },
   {
     "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "1",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Short 30° Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 30° Thick Beam",
+        "link": "Short 30° Thick Beam",
+        "qty": 1,
+        "item": "Short 30° Thick Beam",
+        "image": "[[File:Short 30° Thick Beam (Kharidian).png|30px|link=Short 30° Thick Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Short 30° Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -18733,6 +19305,50 @@
         "qty": 1,
         "item": "Short 45° Thick Beam",
         "image": "[[File:Short 45° Thick Beam (Baroque).png|30px|link=Short 45° Thick Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Short 45° Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "1",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Short 45° Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 45° Thick Beam",
+        "link": "Short 45° Thick Beam",
+        "qty": 1,
+        "item": "Short 45° Thick Beam",
+        "image": "[[File:Short 45° Thick Beam (Kharidian).png|30px|link=Short 45° Thick Beam]]"
       }
     },
     "uses_facility": [
@@ -18929,6 +19545,50 @@
   },
   {
     "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "1",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Short 60° Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 60° Thin Beam",
+        "link": "Short 60° Thin Beam",
+        "qty": 1,
+        "item": "Short 60° Thin Beam",
+        "image": "[[File:Short 60° Thin Beam (Kharidian).png|30px|link=Short 60° Thin Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Short 60° Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -19103,6 +19763,50 @@
         "qty": 1,
         "item": "Short 30° Thin Beam",
         "image": "[[File:Short 30° Thin Beam (Baroque).png|30px|link=Short 30° Thin Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Short 30° Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "1",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Short 30° Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short 30° Thin Beam",
+        "link": "Short 30° Thin Beam",
+        "qty": 1,
+        "item": "Short 30° Thin Beam",
+        "image": "[[File:Short 30° Thin Beam (Kharidian).png|30px|link=Short 30° Thin Beam]]"
       }
     },
     "uses_facility": [
@@ -19299,6 +20003,50 @@
   },
   {
     "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "1",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Short Vertical Thick Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Short Vertical Thick Beam",
+        "link": "Short Vertical Thick Beam",
+        "qty": 1,
+        "item": "Short Vertical Thick Beam",
+        "image": "[[File:Short Vertical Thick Beam (Kharidian).png|30px|link=Short Vertical Thick Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Short Vertical Thick Beam"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -19484,6 +20232,50 @@
   },
   {
     "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Horizontal Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Horizontal Thin Beam",
+        "link": "Horizontal Thin Beam",
+        "qty": 1,
+        "item": "Horizontal Thin Beam",
+        "image": "[[File:Horizontal Thin Beam (Kharidian).png|30px|link=Horizontal Thin Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Horizontal Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
       "Ash Logs"
     ],
     "uses_skill": [
@@ -19658,6 +20450,50 @@
         "qty": 1,
         "item": "60° Thin Beam",
         "image": "[[File:60° Thin Beam (Baroque).png|30px|link=60° Thin Beam]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "60° Thin Beam"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "60° Thin Beam"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "60° Thin Beam",
+        "link": "60° Thin Beam",
+        "qty": 1,
+        "item": "60° Thin Beam",
+        "image": "[[File:60° Thin Beam (Kharidian).png|30px|link=60° Thin Beam]]"
       }
     },
     "uses_facility": [
@@ -27299,6 +28135,165 @@
         "qty": 1,
         "item": "Door",
         "image": "[[File:Door (Castle solid).png|30px|link=Door]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Door"
+    ]
+  },
+  {
+    "uses_material": [
+      "Oak Plank",
+      "Steel Bar"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Oak Plank",
+          "link": "Oak Plank",
+          "qty": "3",
+          "item": "Oak Plank",
+          "image": "[[File:Oak Plank.png|30px|link=Oak Plank]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Steel Bar",
+          "link": "Steel Bar",
+          "qty": "1",
+          "item": "Steel Bar",
+          "image": "[[File:Steel Bar.png|30px|link=Steel Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "14"
+        }
+      ],
+      "outputs": [
+        "Door"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Door",
+        "link": "Door",
+        "qty": 1,
+        "item": "Door",
+        "image": "[[File:Door (Castle large).png|30px|link=Door]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Door"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank",
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "2",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "1",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "14"
+        }
+      ],
+      "outputs": [
+        "Door"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Door",
+        "link": "Door",
+        "qty": 1,
+        "item": "Door",
+        "image": "[[File:Door (Kharidian Solid).png|30px|link=Door]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Door"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Plank",
+      "Adamant Bar"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Yew Plank",
+          "link": "Yew Plank",
+          "qty": "3",
+          "item": "Yew Plank",
+          "image": "[[File:Yew Plank.png|30px|link=Yew Plank]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Adamant Bar",
+          "link": "Adamant Bar",
+          "qty": "1",
+          "item": "Adamant Bar",
+          "image": "[[File:Adamant Bar.png|30px|link=Adamant Bar]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "14"
+        }
+      ],
+      "outputs": [
+        "Door"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Door",
+        "link": "Door",
+        "qty": 1,
+        "item": "Door",
+        "image": "[[File:Door (Kharidian Large).png|30px|link=Door]]"
       }
     },
     "uses_facility": [
