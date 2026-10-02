@@ -2,6 +2,7 @@ import * as fs from "node:fs";
 import { join } from "node:path";
 import type { SourceItem } from "../fetch-data/types/item";
 import type { SourceRecipe } from "../fetch-data/types/recipe";
+import type { SourceStoreline } from "../fetch-data/types/storeline";
 import { applyFacilityNameOverride } from "./utils/apply-facility-name-override";
 import { assertUniqueIds } from "./utils/assert-unique-ids";
 import { idFromName } from "./utils/id-from-name";
@@ -20,7 +21,12 @@ async function parseData() {
 		"utf-8",
 	);
 
-	if (!loadedRecipes || !loadedItems) {
+	const loadedStorelines = fs.readFileSync(
+		join(dataSourceDir, "storelines.json"),
+		"utf-8",
+	);
+
+	if (!loadedRecipes || !loadedItems || !loadedStorelines) {
 		throw new Error("Failed to load data files. Have you run fetch-data?");
 	}
 
@@ -31,10 +37,15 @@ async function parseData() {
 		normalizeItem,
 	);
 
+	const storelines = (
+		JSON.parse(loadedStorelines) as unknown as SourceStoreline[]
+	).map(normalizeStoreline);
+
 	console.log(`Loaded recipes from data/source/recipes.json`);
 	console.log(`Loaded items from data/source/items.json`);
+	console.log(`Loaded storelines from data/source/storelines.json`);
 
-	const listedItems = listItems(recipes, items);
+	const listedItems = listItems(recipes, items, storelines);
 
 	assertUniqueIds(
 		"item",
@@ -120,5 +131,17 @@ function normalizeItem(item: SourceItem): SourceItem {
 		...item,
 		page_name: normalizeName(item.page_name),
 		item_name: normalizeName(item.item_name),
+	};
+}
+
+function normalizeStoreline(storeline: SourceStoreline): SourceStoreline {
+	return {
+		...storeline,
+		page_name: normalizeName(storeline.page_name),
+		sold_item: normalizeName(storeline.sold_item),
+		json: {
+			...storeline.json,
+			Currency: normalizeName(storeline.json.Currency),
+		},
 	};
 }

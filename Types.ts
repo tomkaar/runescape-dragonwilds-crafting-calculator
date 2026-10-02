@@ -30,6 +30,22 @@ export type Item = {
 	hydration?: number;
 	/* How much sustenance this item restores (if applicable) */
 	sustenance?: number;
+	/* Vendors that sell this item to the player. Omitted if none */
+	sold_by?: Store[];
+	/* Vendors that buy this item from the player. Omitted if none */
+	bought_by?: Store[];
+};
+
+/**
+ * A vendor store entry for an item, from the wiki's store lines.
+ */
+export type Store = {
+	/* The vendor's page name */
+	name: string;
+	/* The item used as currency */
+	currency: string;
+	/* Amount of currency per item */
+	cost: number;
 };
 
 /**

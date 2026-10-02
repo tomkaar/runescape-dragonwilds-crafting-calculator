@@ -305,7 +305,14 @@
     "wikiLink": "Coarse_Thread",
     "weight": 0.3,
     "itemType": "Processed Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 4
+      }
+    ]
   },
   {
     "id": "imbued-leather-wrappings",
@@ -710,7 +717,14 @@
     "wikiLink": "Leather",
     "weight": 0.3,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 1
+      }
+    ]
   },
   {
     "id": "weak-focused-cooking-potion",
@@ -1372,7 +1386,14 @@
     "wikiLink": "Padded_Cloth",
     "weight": 2,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 48
+      }
+    ]
   },
   {
     "id": "stone-club",
@@ -2062,7 +2083,14 @@
     "wikiLink": "Iron_Bar",
     "weight": 4.5,
     "itemType": "Processed Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 18
+      }
+    ]
   },
   {
     "id": "leather-shield",
@@ -2667,7 +2695,14 @@
     "wikiLink": "Hard_Leather",
     "weight": 0.6,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "tanners-kit",
@@ -3060,7 +3095,14 @@
     "wikiLink": "Bronze_Bar",
     "weight": 4.5,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ]
   },
   {
     "id": "wool-thread",
@@ -3129,7 +3171,14 @@
     "wikiLink": "Wool_Thread",
     "weight": 0.3,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "abyssal-whip",
@@ -3747,7 +3796,14 @@
     "wikiLink": "Rough_Cloth",
     "weight": 1.5,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ]
   },
   {
     "id": "goblin-swingslash",
@@ -4105,7 +4161,14 @@
     "wikiLink": "Wool_Cloth",
     "weight": 1.5,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 18
+      }
+    ]
   },
   {
     "id": "bronze-pickaxe",
@@ -4594,7 +4657,14 @@
     "wikiLink": "Gold_Bar",
     "weight": 5,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 24
+      }
+    ]
   },
   {
     "id": "armour-mannequin",
@@ -5080,7 +5150,14 @@
     "wikiLink": "Charcoal",
     "weight": 1,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 3
+      }
+    ]
   },
   {
     "id": "redberry-crunchies",
@@ -6866,7 +6943,14 @@
     "wikiLink": "Swamp_Thread",
     "weight": 0.3,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "hard-leather-chaps",
@@ -7365,7 +7449,14 @@
     "wikiLink": "Silver_Bar",
     "weight": 4.8,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 24
+      }
+    ]
   },
   {
     "id": "paladin-platelegs",
@@ -9289,7 +9380,14 @@
     "wikiLink": "Dire_Wolf_Leather",
     "weight": 0.6,
     "itemType": "Basic Item",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 36
+      }
+    ]
   },
   {
     "id": "ground-clay",
@@ -10092,7 +10190,14 @@
     "wikiLink": "Ash_Plank",
     "weight": 0.5,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 1
+      }
+    ]
   },
   {
     "id": "oak-plank",
@@ -10135,7 +10240,14 @@
     "wikiLink": "Oak_Plank",
     "weight": 2,
     "itemType": "Resource",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 2
+      }
+    ]
   },
   {
     "id": "whetstone",
@@ -31649,7 +31761,14 @@
     "wikiLink": "Steel_Bar",
     "weight": 4.5,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 36
+      }
+    ]
   },
   {
     "id": "steel-full-helm",
@@ -31806,7 +31925,14 @@
     "wikiLink": "Draconic_Leather",
     "weight": 0.6,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 60
+      }
+    ]
   },
   {
     "id": "blast-furnace",
@@ -32109,7 +32235,14 @@
     "wikiLink": "Fine_Cloth",
     "weight": 1.5,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 32
+      }
+    ]
   },
   {
     "id": "steel-watering-can",
@@ -32198,7 +32331,14 @@
     "wikiLink": "Fine_Thread",
     "weight": 0.3,
     "itemType": "Processed Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 32
+      }
+    ]
   },
   {
     "id": "wintumber-tree",
@@ -33939,7 +34079,14 @@
     "wikiLink": "Fuel_Pellet",
     "weight": 1,
     "itemType": "Processed Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 9
+      }
+    ]
   },
   {
     "id": "steel-shield",
@@ -34613,7 +34760,14 @@
     "wikiLink": "Green_Dragonhide_Leather",
     "weight": 0.6,
     "itemType": "Processed Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 100
+      }
+    ]
   },
   {
     "id": "cauterised-undead-steak",
@@ -38794,7 +38948,14 @@
     "wikiLink": "Cursed_Leather",
     "weight": 0.6,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 120
+      }
+    ]
   },
   {
     "id": "glass-vessel",
@@ -39175,7 +39336,14 @@
     "wikiLink": "Black_Metal_Bar",
     "weight": 4.5,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 48
+      }
+    ]
   },
   {
     "id": "mystic-thread",
@@ -39218,7 +39386,14 @@
     "wikiLink": "Mystic_Thread",
     "weight": 0.6,
     "itemType": "Basic Item",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 40
+      }
+    ]
   },
   {
     "id": "mystic-cloth",
@@ -39444,7 +39619,14 @@
     "wikiLink": "Mithril_Bar",
     "weight": 5,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 48
+      }
+    ]
   },
   {
     "id": "blue-dragon-scale-dust",
@@ -40893,7 +41075,14 @@
     "wikiLink": "Blue_Dragon_Leather",
     "weight": 0.6,
     "itemType": "Processed Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 120
+      }
+    ]
   },
   {
     "id": "glass-pane",
@@ -52757,7 +52946,14 @@
     "wikiLink": "Kalphite_Shell",
     "weight": 0.3,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 15
+      }
+    ]
   },
   {
     "id": "ascension-core",
@@ -53117,7 +53313,14 @@
     "wikiLink": "Desert_Thread",
     "weight": 0.6,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 30
+      }
+    ]
   },
   {
     "id": "cactus-fibres",
@@ -53207,7 +53410,14 @@
     "wikiLink": "Desert_Cloth",
     "weight": 2,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 120
+      }
+    ]
   },
   {
     "id": "infinity-cloth",
@@ -53254,7 +53464,14 @@
     "wikiLink": "Infinity_Cloth",
     "weight": 0.6,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 180
+      }
+    ]
   },
   {
     "id": "shimmerscale-powder",
@@ -53450,7 +53667,14 @@
     "wikiLink": "Scorch_Leather",
     "weight": 1.2,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "adamant-bar",
@@ -53497,7 +53721,14 @@
     "wikiLink": "Adamant_Bar",
     "weight": 5,
     "itemType": "Processed Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 60
+      }
+    ]
   },
   {
     "id": "adamant-spade",
@@ -54507,7 +54738,14 @@
     "wikiLink": "Yew_Plank",
     "weight": 0.8,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "ground-tea-leaves",
@@ -55879,7 +56117,14 @@
     "wikiLink": "Red_Dragonhide_Leather",
     "weight": 0.6,
     "itemType": "Processed Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 140
+      }
+    ]
   },
   {
     "id": "red-dragonhide-body",
@@ -67574,7 +67819,21 @@
     "weight": 0.1,
     "itemType": "Food",
     "stackLimit": 99,
-    "sustenance": 5
+    "sustenance": 5,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 3
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 1
+      }
+    ]
   },
   {
     "id": "cabbage",
@@ -67595,7 +67854,21 @@
     "wikiLink": "Cabbage",
     "weight": 0.2,
     "itemType": "Raw Ingredient",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 2
+      }
+    ]
   },
   {
     "id": "flax",
@@ -67616,7 +67889,21 @@
     "wikiLink": "Flax",
     "weight": 0.4,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 4
+      }
+    ]
   },
   {
     "id": "coarse-animal-fur",
@@ -67637,7 +67924,14 @@
     "wikiLink": "Coarse_Animal_Fur",
     "weight": 0.2,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 3
+      }
+    ]
   },
   {
     "id": "animal-hide",
@@ -67658,7 +67952,14 @@
     "wikiLink": "Animal_Hide",
     "weight": 2,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "ash-logs",
@@ -67679,7 +67980,21 @@
     "wikiLink": "Ash_Logs",
     "weight": 1,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 3
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 1
+      }
+    ]
   },
   {
     "id": "vault-core",
@@ -67721,7 +68036,14 @@
     "wikiLink": "Marrentil",
     "weight": 0.2,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "harralander",
@@ -67742,7 +68064,21 @@
     "wikiLink": "Harralander",
     "weight": 0.2,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 2
+      }
+    ]
   },
   {
     "id": "feathers",
@@ -67784,7 +68120,21 @@
     "wikiLink": "Bittercap_Mushroom",
     "weight": 0.1,
     "itemType": "Raw Ingredient",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 4
+      }
+    ]
   },
   {
     "id": "antler",
@@ -67826,7 +68176,21 @@
     "wikiLink": "Clay",
     "weight": 1,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 2
+      }
+    ]
   },
   {
     "id": "weak-healing-potion",
@@ -67869,7 +68233,21 @@
     "weight": 0.1,
     "itemType": "Food",
     "stackLimit": 99,
-    "sustenance": 10
+    "sustenance": 10,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 2
+      }
+    ]
   },
   {
     "id": "raw-rat-meat",
@@ -67890,7 +68268,14 @@
     "wikiLink": "Raw_Rat_Meat",
     "weight": 0.5,
     "itemType": "Raw Ingredient",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "rune-essence",
@@ -67932,7 +68317,14 @@
     "wikiLink": "Animal_Bone",
     "weight": 1,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 3
+      }
+    ]
   },
   {
     "id": "garou-pack",
@@ -67974,7 +68366,14 @@
     "wikiLink": "Animal_Hide_Scraps",
     "weight": 0.3,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 1
+      }
+    ]
   },
   {
     "id": "stone",
@@ -67995,7 +68394,21 @@
     "wikiLink": "Stone",
     "weight": 1,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 3
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 1
+      }
+    ]
   },
   {
     "id": "large-wardstone",
@@ -68037,7 +68450,21 @@
     "wikiLink": "Potato",
     "weight": 0.2,
     "itemType": "Raw Ingredient",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 2
+      }
+    ]
   },
   {
     "id": "ghostspeak-amulet",
@@ -68079,7 +68506,14 @@
     "wikiLink": "Small_Animal_Fang",
     "weight": 0.25,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 2
+      }
+    ]
   },
   {
     "id": "redberry-glazed-roast-flank",
@@ -68122,7 +68556,21 @@
     "wikiLink": "Snapdragon",
     "weight": 0.1,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 4
+      }
+    ]
   },
   {
     "id": "lesser-healing-potion",
@@ -68164,7 +68612,21 @@
     "wikiLink": "Tin_Ore",
     "weight": 2.2,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 4
+      }
+    ]
   },
   {
     "id": "gold-ore",
@@ -68185,7 +68647,21 @@
     "wikiLink": "Gold_Ore",
     "weight": 2.6,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 18
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "medium-wardstone",
@@ -68227,7 +68703,21 @@
     "wikiLink": "Toadflax",
     "weight": 0.2,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 4
+      }
+    ]
   },
   {
     "id": "blightwood",
@@ -68248,7 +68738,21 @@
     "wikiLink": "Blightwood",
     "weight": 1,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 9
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 4
+      }
+    ]
   },
   {
     "id": "oak-logs",
@@ -68269,7 +68773,21 @@
     "wikiLink": "Oak_Logs",
     "weight": 1.5,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 2
+      }
+    ]
   },
   {
     "id": "copper-ore",
@@ -68290,7 +68808,21 @@
     "wikiLink": "Copper_Ore",
     "weight": 2.3,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 16
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 4
+      }
+    ]
   },
   {
     "id": "iron-ore",
@@ -68311,7 +68843,21 @@
     "wikiLink": "Iron_Ore",
     "weight": 3.6,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 18
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "anima-infused-bark",
@@ -68332,7 +68878,14 @@
     "wikiLink": "Anima-Infused_Bark",
     "weight": 0.8,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 18
+      }
+    ]
   },
   {
     "id": "sapphire",
@@ -68353,7 +68906,14 @@
     "wikiLink": "Sapphire",
     "weight": 3,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 80
+      }
+    ]
   },
   {
     "id": "small-wardstone",
@@ -68415,7 +68975,14 @@
     "wikiLink": "Monstrous_Fang",
     "weight": 0.5,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ]
   },
   {
     "id": "swamp-weed",
@@ -68436,7 +69003,21 @@
     "wikiLink": "Swamp_Weed",
     "weight": 0.4,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 18
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "fleece",
@@ -68457,7 +69038,21 @@
     "wikiLink": "Fleece",
     "weight": 3,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 18
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "soft-animal-fur",
@@ -68478,7 +69073,14 @@
     "wikiLink": "Soft_Animal_Fur",
     "weight": 0.4,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "silver-ore",
@@ -68499,7 +69101,21 @@
     "wikiLink": "Silver_Ore",
     "weight": 2.4,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 18
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "opal",
@@ -68520,7 +69136,14 @@
     "wikiLink": "Opal",
     "weight": 3,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 20
+      }
+    ]
   },
   {
     "id": "jade",
@@ -68541,7 +69164,14 @@
     "wikiLink": "Jade",
     "weight": 3,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 40
+      }
+    ]
   },
   {
     "id": "red-topaz",
@@ -68562,7 +69192,14 @@
     "wikiLink": "Red_Topaz",
     "weight": 3,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 60
+      }
+    ]
   },
   {
     "id": "vault-shard",
@@ -68604,7 +69241,14 @@
     "wikiLink": "Swamp_Tar",
     "weight": 2,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ]
   },
   {
     "id": "ram-horn",
@@ -68689,7 +69333,14 @@
     "wikiLink": "Abyssal_Spine",
     "weight": 10,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 30
+      }
+    ]
   },
   {
     "id": "dire-wolf-hide",
@@ -68710,7 +69361,14 @@
     "wikiLink": "Dire_Wolf_Hide",
     "weight": 4,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ]
   },
   {
     "id": "granite",
@@ -68731,7 +69389,21 @@
     "wikiLink": "Granite",
     "weight": 2,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 9
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 3
+      }
+    ]
   },
   {
     "id": "raw-farm-meat",
@@ -68752,7 +69424,14 @@
     "wikiLink": "Raw_Farm_Meat",
     "weight": 0.5,
     "itemType": "Raw Ingredient",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 18
+      }
+    ]
   },
   {
     "id": "onion",
@@ -68773,7 +69452,21 @@
     "wikiLink": "Onion",
     "weight": 0.2,
     "itemType": "Raw Ingredient",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 4
+      }
+    ]
   },
   {
     "id": "berry-compote",
@@ -68816,7 +69509,21 @@
     "wikiLink": "Sandstone",
     "weight": 1.5,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 2
+      }
+    ]
   },
   {
     "id": "dwellberry-crunchies-removed",
@@ -69057,7 +69764,14 @@
     "wikiLink": "Raw_Bestial_Meat",
     "weight": 0.5,
     "itemType": "Raw Ingredient",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 24
+      }
+    ]
   },
   {
     "id": "raw-bird-meat",
@@ -69078,7 +69792,14 @@
     "wikiLink": "Raw_Bird_Meat",
     "weight": 0.5,
     "itemType": "Raw Ingredient",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ]
   },
   {
     "id": "raw-game-meat",
@@ -69099,7 +69820,14 @@
     "wikiLink": "Raw_Game_Meat",
     "weight": 0.5,
     "itemType": "Raw Ingredient",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ]
   },
   {
     "id": "dragon-tooth",
@@ -69120,7 +69848,14 @@
     "wikiLink": "Dragon_Tooth",
     "weight": 5,
     "itemType": "Basic Material",
-    "stackLimit": 25
+    "stackLimit": 25,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 16
+      }
+    ]
   },
   {
     "id": "bloodwood-sap",
@@ -69307,7 +70042,21 @@
     "wikiLink": "Coal",
     "weight": 1,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 24
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 8
+      }
+    ]
   },
   {
     "id": "druids-bandosian-amulet",
@@ -69389,7 +70138,14 @@
     "wikiLink": "Poison_Ichor",
     "weight": 0.4,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 4
+      }
+    ]
   },
   {
     "id": "shocking-plant-bulb",
@@ -69410,7 +70166,21 @@
     "wikiLink": "Shocking_Plant_Bulb",
     "weight": 0.4,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 18
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "bird-nest",
@@ -71276,7 +72046,14 @@
     "wikiLink": "Kwuarm",
     "weight": 0.2,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 4
+      }
+    ]
   },
   {
     "id": "blurite-ore",
@@ -71486,7 +72263,14 @@
     "wikiLink": "Egg",
     "weight": 0.9,
     "itemType": "Raw Ingredient",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ]
   },
   {
     "id": "undead-chicken",
@@ -71568,7 +72352,21 @@
     "wikiLink": "Wheat",
     "weight": 0.4,
     "itemType": "Raw Ingredient",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 4
+      }
+    ]
   },
   {
     "id": "wheat-seeds",
@@ -71884,7 +72682,21 @@
     "weight": 0.1,
     "itemType": "Food",
     "stackLimit": 99,
-    "sustenance": 10
+    "sustenance": 10,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 9
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 3
+      }
+    ]
   },
   {
     "id": "corpse-cotton",
@@ -71905,7 +72717,21 @@
     "wikiLink": "Corpse_Cotton",
     "weight": 0.2,
     "itemType": "Basic Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 24
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 8
+      }
+    ]
   },
   {
     "id": "diamond",
@@ -71926,7 +72752,14 @@
     "wikiLink": "Diamond",
     "weight": 3,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 120
+      }
+    ]
   },
   {
     "id": "curse-fragment-grief",
@@ -71989,7 +72822,21 @@
     "wikiLink": "Pumpkin",
     "weight": 0.2,
     "itemType": "Raw Ingredient",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 18
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "willow-logs",
@@ -72010,7 +72857,21 @@
     "wikiLink": "Willow_Logs",
     "weight": 1,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 4
+      }
+    ]
   },
   {
     "id": "tomato",
@@ -72074,7 +72935,21 @@
     "weight": 1,
     "itemType": "Resource",
     "stackLimit": 99,
-    "sustenance": 15
+    "sustenance": 15,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 18
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "watermelon-seeds",
@@ -72221,7 +73096,21 @@
     "wikiLink": "Dragonwolf_Hide",
     "weight": 0.2,
     "itemType": "Resource",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 45
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 15
+      }
+    ]
   },
   {
     "id": "withered-heart",
@@ -72284,7 +73173,21 @@
     "wikiLink": "Irit",
     "weight": 0.2,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 18
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "undead-bone",
@@ -72347,7 +73250,14 @@
     "wikiLink": "Softly_Vibrating_Orb",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 350
+      }
+    ]
   },
   {
     "id": "wither-water",
@@ -72474,7 +73384,14 @@
     "wikiLink": "Sigil_of_a_Phoenix",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 800
+      }
+    ]
   },
   {
     "id": "primordial-heart",
@@ -72516,7 +73433,14 @@
     "wikiLink": "Green_Dragon_Hide",
     "weight": 3,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 25
+      }
+    ]
   },
   {
     "id": "hard-leather-scraps",
@@ -72537,7 +73461,14 @@
     "wikiLink": "Hard_Leather_Scraps",
     "weight": 0.3,
     "itemType": "Resource",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 3
+      }
+    ]
   },
   {
     "id": "undead-meat",
@@ -72683,7 +73614,14 @@
     "wikiLink": "Burnished_Belt_Buckle",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 300
+      }
+    ]
   },
   {
     "id": "undead-draconic-visage",
@@ -72723,7 +73661,14 @@
     "facilities": [],
     "wikiLink": "Salve_Crystal",
     "weight": 3,
-    "itemType": "Quest Item"
+    "itemType": "Quest Item",
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 25
+      }
+    ]
   },
   {
     "id": "poisoned-steel-arrow",
@@ -73050,7 +73995,14 @@
     "wikiLink": "Curse_Carrying_Crown",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 200
+      }
+    ]
   },
   {
     "id": "dust-covered-sketchbook",
@@ -73134,7 +74086,14 @@
     "wikiLink": "Tastefully_Torn_Tights",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 300
+      }
+    ]
   },
   {
     "id": "rotten-farming-tool",
@@ -73573,7 +74532,14 @@
     "wikiLink": "Corroded_White_Visor",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 200
+      }
+    ]
   },
   {
     "id": "crushed-white-cuisse",
@@ -73594,7 +74560,14 @@
     "wikiLink": "Crushed_White_Cuisse",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 300
+      }
+    ]
   },
   {
     "id": "dented-white-pauldron",
@@ -73615,7 +74588,14 @@
     "wikiLink": "Dented_White_Pauldron",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 400
+      }
+    ]
   },
   {
     "id": "remnants-of-a-rotting-robe",
@@ -73636,7 +74616,14 @@
     "wikiLink": "Remnants_of_a_Rotting_Robe",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 400
+      }
+    ]
   },
   {
     "id": "simply-splendid-feather",
@@ -73657,7 +74644,14 @@
     "wikiLink": "Simply_Splendid_Feather",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 200
+      }
+    ]
   },
   {
     "id": "slightly-chaffing-chestguard",
@@ -73678,7 +74672,14 @@
     "wikiLink": "Slightly_Chaffing_Chestguard",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 400
+      }
+    ]
   },
   {
     "id": "healing-potion",
@@ -73804,7 +74805,21 @@
     "wikiLink": "Mithril_Ore",
     "weight": 4,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 30
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 10
+      }
+    ]
   },
   {
     "id": "limestone",
@@ -73825,7 +74840,21 @@
     "wikiLink": "Limestone",
     "weight": 1.5,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 4
+      }
+    ]
   },
   {
     "id": "black-metal-scraps",
@@ -73972,7 +75001,14 @@
     "wikiLink": "Mystic_Fibres",
     "weight": 0.6,
     "itemType": "Basic Material",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 8
+      }
+    ]
   },
   {
     "id": "vile-ashes",
@@ -74035,7 +75071,21 @@
     "wikiLink": "Maple_Logs",
     "weight": 1.5,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 15
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 5
+      }
+    ]
   },
   {
     "id": "blue-dragon-scale",
@@ -74056,7 +75106,14 @@
     "wikiLink": "Blue_Dragon_Scale",
     "weight": 1,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 24
+      }
+    ]
   },
   {
     "id": "draconic-leather-scraps",
@@ -74077,7 +75134,14 @@
     "wikiLink": "Draconic_Leather_Scraps",
     "weight": 0.6,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 5
+      }
+    ]
   },
   {
     "id": "shattered-black-blade",
@@ -74098,7 +75162,14 @@
     "wikiLink": "Shattered_Black_Blade",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 300
+      }
+    ]
   },
   {
     "id": "maple-sap",
@@ -74119,7 +75190,21 @@
     "wikiLink": "Maple_Sap",
     "weight": 2,
     "itemType": "Basic Material",
-    "stackLimit": 999
+    "stackLimit": 999,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 30
+      }
+    ],
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 10
+      }
+    ]
   },
   {
     "id": "aetheric-fundamentals-a-primordial-primer",
@@ -74223,7 +75308,14 @@
     "wikiLink": "Sinister_Mechanism",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 300
+      }
+    ]
   },
   {
     "id": "mithril-salvage-pile",
@@ -74419,7 +75511,14 @@
     "wikiLink": "Bloodstained_Black_Visor",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 200
+      }
+    ]
   },
   {
     "id": "shard-of-black-pauldron",
@@ -74440,7 +75539,14 @@
     "wikiLink": "Shard_of_Black_Pauldron",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 400
+      }
+    ]
   },
   {
     "id": "grim-black-codpiece",
@@ -74461,7 +75567,14 @@
     "wikiLink": "Grim_Black_Codpiece",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 300
+      }
+    ]
   },
   {
     "id": "sodden-black-leather",
@@ -74482,7 +75595,14 @@
     "wikiLink": "Sodden_Black_Leather",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 200
+      }
+    ]
   },
   {
     "id": "limp-black-lining",
@@ -74503,7 +75623,14 @@
     "wikiLink": "Limp_Black_Lining",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 400
+      }
+    ]
   },
   {
     "id": "dusty-black-pocket",
@@ -74524,7 +75651,14 @@
     "wikiLink": "Dusty_Black_Pocket",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 300
+      }
+    ]
   },
   {
     "id": "fabric-that-hums-with-you",
@@ -74545,7 +75679,14 @@
     "wikiLink": "Fabric_That_Hums_With_You",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 200
+      }
+    ]
   },
   {
     "id": "whispering-elbow-pad",
@@ -74566,7 +75707,14 @@
     "wikiLink": "Whispering_Elbow_Pad",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 400
+      }
+    ]
   },
   {
     "id": "wizards-kneecap",
@@ -74587,7 +75735,14 @@
     "wikiLink": "Wizard's_Kneecap",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 300
+      }
+    ]
   },
   {
     "id": "bloodstained-hilt",
@@ -74608,7 +75763,14 @@
     "wikiLink": "Bloodstained_Hilt",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 300
+      }
+    ]
   },
   {
     "id": "demonic-metal-rod",
@@ -74629,7 +75791,14 @@
     "wikiLink": "Demonic_Metal_Rod",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 300
+      }
+    ]
   },
   {
     "id": "battle-scarred-black-metal",
@@ -74650,7 +75819,14 @@
     "wikiLink": "Battle-Scarred_Black_Metal",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 300
+      }
+    ]
   },
   {
     "id": "torn-tapestry",
@@ -74692,7 +75868,14 @@
     "wikiLink": "Soiled_Green_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "soiled-red-cloth",
@@ -74713,7 +75896,14 @@
     "wikiLink": "Soiled_Red_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "soiled-blue-cloth",
@@ -74734,7 +75924,14 @@
     "wikiLink": "Soiled_Blue_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "soiled-yellow-cloth",
@@ -74755,7 +75952,14 @@
     "wikiLink": "Soiled_Yellow_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "soiled-pink-cloth",
@@ -74776,7 +75980,14 @@
     "wikiLink": "Soiled_Pink_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "chewed-pink-cloth",
@@ -74797,7 +76008,14 @@
     "wikiLink": "Chewed_Pink_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "chewed-yellow-cloth",
@@ -74818,7 +76036,14 @@
     "wikiLink": "Chewed_Yellow_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "chewed-blue-cloth",
@@ -74839,7 +76064,14 @@
     "wikiLink": "Chewed_Blue_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "chewed-green-cloth",
@@ -74860,7 +76092,14 @@
     "wikiLink": "Chewed_Green_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "chewed-red-cloth",
@@ -74881,7 +76120,14 @@
     "wikiLink": "Chewed_Red_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "unholy-water",
@@ -74944,7 +76190,14 @@
     "wikiLink": "Arrowhead_of_Ancient_Origin",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 350
+      }
+    ]
   },
   {
     "id": "moth-eaten-yellow-cloth",
@@ -74965,7 +76218,14 @@
     "wikiLink": "Moth_Eaten_Yellow_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "moth-eaten-blue-cloth",
@@ -74986,7 +76246,14 @@
     "wikiLink": "Moth_Eaten_Blue_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "moth-eaten-red-cloth",
@@ -75007,7 +76274,14 @@
     "wikiLink": "Moth_Eaten_Red_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "moth-eaten-purple-cloth",
@@ -75028,7 +76302,14 @@
     "wikiLink": "Moth_Eaten_Purple_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "moth-eaten-green-cloth",
@@ -75049,7 +76330,14 @@
     "wikiLink": "Moth_Eaten_Green_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "moth-eaten-black-cloth",
@@ -75070,7 +76358,14 @@
     "wikiLink": "Moth_Eaten_Black_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "moth-eaten-orange-cloth",
@@ -75091,7 +76386,14 @@
     "wikiLink": "Moth_Eaten_Orange_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "moth-eaten-pink-cloth",
@@ -75112,7 +76414,14 @@
     "wikiLink": "Moth_Eaten_Pink_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "moth-eaten-white-cloth",
@@ -75133,7 +76442,14 @@
     "wikiLink": "Moth_Eaten_White_Cloth",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "weighted-training-band",
@@ -75154,7 +76470,14 @@
     "wikiLink": "Weighted_Training_Band",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 350
+      }
+    ]
   },
   {
     "id": "hardy-weathered-shell",
@@ -75175,7 +76498,14 @@
     "wikiLink": "Hardy_Weathered_Shell",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 350
+      }
+    ]
   },
   {
     "id": "plan-bundle-armadyl-flags",
@@ -75196,7 +76526,14 @@
     "wikiLink": "Plan_Bundle:_Armadyl_Flags",
     "weight": 0,
     "itemType": "Container",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 250
+      }
+    ]
   },
   {
     "id": "plan-bundle-bandos-flags",
@@ -75217,7 +76554,14 @@
     "wikiLink": "Plan_Bundle:_Bandos_Flags",
     "weight": 0,
     "itemType": "Container",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 250
+      }
+    ]
   },
   {
     "id": "plan-bundle-guthix-flags",
@@ -75238,7 +76582,14 @@
     "wikiLink": "Plan_Bundle:_Guthix_Flags",
     "weight": 0,
     "itemType": "Container",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 250
+      }
+    ]
   },
   {
     "id": "plan-bundle-saradomin-flags",
@@ -75259,7 +76610,14 @@
     "wikiLink": "Plan_Bundle:_Saradomin_Flags",
     "weight": 0,
     "itemType": "Container",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 250
+      }
+    ]
   },
   {
     "id": "plan-bundle-zamorak-flags",
@@ -75280,7 +76638,14 @@
     "wikiLink": "Plan_Bundle:_Zamorak_Flags",
     "weight": 0,
     "itemType": "Container",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 250
+      }
+    ]
   },
   {
     "id": "plan-armadyl-flag-01",
@@ -77102,7 +78467,14 @@
     "wikiLink": "Kalphite_Ichor",
     "weight": 1,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 15
+      }
+    ]
   },
   {
     "id": "kalphite-shell-fragments",
@@ -77123,7 +78495,14 @@
     "wikiLink": "Kalphite_Shell_Fragments",
     "weight": 0.1,
     "itemType": "Basic Item",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ]
   },
   {
     "id": "adamantite-ore",
@@ -77144,7 +78523,14 @@
     "wikiLink": "Adamantite_Ore",
     "weight": 3.6,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ]
   },
   {
     "id": "gypsum",
@@ -77166,7 +78552,14 @@
     "weight": 1,
     "itemType": "Basic Material",
     "health": 450,
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 5
+      }
+    ]
   },
   {
     "id": "dragonstone",
@@ -77187,7 +78580,14 @@
     "wikiLink": "Dragonstone",
     "weight": 3,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 140
+      }
+    ]
   },
   {
     "id": "dihydrogen-monoxide",
@@ -77208,7 +78608,24 @@
     "wikiLink": "Dihydrogen_Monoxide",
     "weight": 1,
     "itemType": "Basic Item",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 25
+      },
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 25
+      },
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 25
+      }
+    ]
   },
   {
     "id": "garou-chit",
@@ -77250,7 +78667,14 @@
     "wikiLink": "Yew_Logs",
     "weight": 1.5,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 6
+      }
+    ]
   },
   {
     "id": "kot-pack",
@@ -77439,7 +78863,14 @@
     "wikiLink": "Stunted_Kalphite_Wing",
     "weight": 0.25,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 12
+      }
+    ]
   },
   {
     "id": "kalphite-wing",
@@ -77460,7 +78891,14 @@
     "wikiLink": "Kalphite_Wing",
     "weight": 0.25,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 15
+      }
+    ]
   },
   {
     "id": "greater-kalphite-wing",
@@ -77481,7 +78919,14 @@
     "wikiLink": "Greater_Kalphite_Wing",
     "weight": 0.25,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 18
+      }
+    ]
   },
   {
     "id": "cactus-steak",
@@ -77522,7 +78967,24 @@
     "facilities": [],
     "wikiLink": "Tea_Leaves",
     "weight": 0.1,
-    "itemType": "Resource"
+    "itemType": "Resource",
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 20
+      },
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 20
+      },
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 20
+      }
+    ]
   },
   {
     "id": "fibrous-pipe-cactus",
@@ -77563,7 +79025,24 @@
     "wikiLink": "Garou_Weave",
     "weight": 1,
     "itemType": "Processed Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 150
+      },
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 150
+      },
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 150
+      }
+    ]
   },
   {
     "id": "twtiching-antenna",
@@ -77584,7 +79063,14 @@
     "wikiLink": "Twtiching_Antenna",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 2500
+      }
+    ]
   },
   {
     "id": "chitinous-carapace",
@@ -77605,7 +79091,14 @@
     "wikiLink": "Chitinous_Carapace",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 7500
+      }
+    ]
   },
   {
     "id": "barbed-appendage",
@@ -77626,7 +79119,14 @@
     "wikiLink": "Barbed_Appendage",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 5000
+      }
+    ]
   },
   {
     "id": "elder-curiosities",
@@ -77751,7 +79251,14 @@
     "wikiLink": "Red_Dragon_Hide",
     "weight": 1.2,
     "itemType": "Basic Material",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 35
+      }
+    ]
   },
   {
     "id": "cactus-water",
@@ -77794,7 +79301,14 @@
     "wikiLink": "Chipped_Obsidian_Construct",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 2500
+      }
+    ]
   },
   {
     "id": "fractured-obsidian-construct",
@@ -77815,7 +79329,14 @@
     "wikiLink": "Fractured_Obsidian_Construct",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 7500
+      }
+    ]
   },
   {
     "id": "crushed-obsidian-construct",
@@ -77836,7 +79357,14 @@
     "wikiLink": "Crushed_Obsidian_Construct",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 5000
+      }
+    ]
   },
   {
     "id": "raw-beltfish",
@@ -77961,7 +79489,14 @@
     "facilities": [],
     "wikiLink": "Sun-Bleached_Leggings",
     "weight": 0,
-    "itemType": "Vestige"
+    "itemType": "Vestige",
+    "sold_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 5000
+      }
+    ]
   },
   {
     "id": "plate-of-pure-obsidian",
@@ -78211,7 +79746,14 @@
     "facilities": [],
     "wikiLink": "Sun-Bleached_Vest",
     "weight": 0,
-    "itemType": "Vestige"
+    "itemType": "Vestige",
+    "sold_by": [
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 7500
+      }
+    ]
   },
   {
     "id": "sun-bleached-head-wrap",
@@ -78231,7 +79773,14 @@
     "facilities": [],
     "wikiLink": "Sun-Bleached_Head_Wrap",
     "weight": 0,
-    "itemType": "Vestige"
+    "itemType": "Vestige",
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 2500
+      }
+    ]
   },
   {
     "id": "commemorative-coin",
@@ -78397,7 +79946,14 @@
     "wikiLink": "Lunate_Shawl",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 7500
+      }
+    ]
   },
   {
     "id": "garou-artifact",
@@ -78417,7 +79973,24 @@
     "facilities": [],
     "wikiLink": "Garou_Artifact",
     "weight": 1.5,
-    "itemType": "Basic Material"
+    "itemType": "Basic Material",
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 500
+      },
+      {
+        "name": "Beartach - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 500
+      },
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 500
+      }
+    ]
   },
   {
     "id": "lunular-wrappings",
@@ -78438,7 +80011,14 @@
     "wikiLink": "Lunular_Wrappings",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 5000
+      }
+    ]
   },
   {
     "id": "selenic-veil",
@@ -78459,7 +80039,14 @@
     "wikiLink": "Selenic_Veil",
     "weight": 0,
     "itemType": "Vestige",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 2500
+      }
+    ]
   },
   {
     "id": "an-ember-edged-remnant-of-cloth",
@@ -78666,7 +80253,14 @@
     "wikiLink": "MOUNT:_Zamorakian_Pledgesaddle",
     "weight": 0,
     "itemType": "Basic Item",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 9999
+      }
+    ]
   },
   {
     "id": "mount-infernal-blightbeak",
@@ -78687,7 +80281,14 @@
     "wikiLink": "MOUNT:_Infernal_Blightbeak",
     "weight": 0,
     "itemType": "Basic Item",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sold_by": [
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 9999
+      }
+    ]
   },
   {
     "id": "mount-coastal-sunbeak",
@@ -78708,7 +80309,14 @@
     "wikiLink": "MOUNT:_Coastal_Sunbeak",
     "weight": 0,
     "itemType": "Basic Item",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 2000
+      }
+    ]
   },
   {
     "id": "mount-astralbeak-warbler",
@@ -78729,7 +80337,14 @@
     "wikiLink": "MOUNT:_Astralbeak_Warbler",
     "weight": 0,
     "itemType": "Basic Item",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sold_by": [
+      {
+        "name": "Postie Pete",
+        "currency": "Infernal Fragment",
+        "cost": 2000
+      }
+    ]
   },
   {
     "id": "mount-mossbeak-hunter",
@@ -78750,7 +80365,14 @@
     "wikiLink": "MOUNT:_Mossbeak_Hunter",
     "weight": 0,
     "itemType": "Basic Item",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 2000
+      }
+    ]
   },
   {
     "id": "mount-oakfeather-raptor",
@@ -78771,7 +80393,14 @@
     "wikiLink": "MOUNT:_Oakfeather_Raptor",
     "weight": 0,
     "itemType": "Basic Item",
-    "stackLimit": 50
+    "stackLimit": 50,
+    "sold_by": [
+      {
+        "name": "Death (Grim Reaper)",
+        "currency": "Soul Fragment",
+        "cost": 2000
+      }
+    ]
   },
   {
     "id": "mount-leafwood-strider",
@@ -79310,7 +80939,14 @@
     "wikiLink": "Blue_Dragonhide",
     "weight": 3,
     "itemType": "Resource",
-    "stackLimit": 99
+    "stackLimit": 99,
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 30
+      }
+    ]
   },
   {
     "id": "beast-training-notes",

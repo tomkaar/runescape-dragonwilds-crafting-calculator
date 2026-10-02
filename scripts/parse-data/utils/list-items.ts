@@ -1,5 +1,6 @@
 import type { SourceItem } from "@/scripts/fetch-data/types/item";
 import type { SourceRecipe } from "@/scripts/fetch-data/types/recipe";
+import type { SourceStoreline } from "@/scripts/fetch-data/types/storeline";
 import type { Item, ItemVariant } from "@/Types";
 import { idFromName } from "./id-from-name";
 import { parseNumericStat } from "./parse-numeric-stat";
@@ -7,12 +8,14 @@ import { resolveFacilities } from "./resolve-facility";
 import { resolveImage } from "./resolve-image";
 import { resolveItemVariant } from "./resolve-item-variant";
 import { resolveSkills } from "./resolve-skill";
+import { resolveStores } from "./resolve-stores";
 import { resolveVariant } from "./resolve-variant";
 import { getUniqueItems } from "./unique-items";
 
 export default function listItems(
 	recipes: SourceRecipe[],
 	items: SourceItem[],
+	storelines: SourceStoreline[],
 ) {
 	const uniqueItems = getUniqueItems(recipes, items);
 	console.log(`Found ${uniqueItems.size} unique items`);
@@ -25,6 +28,9 @@ export default function listItems(
 	uniqueItems.forEach((itemName) => {
 		const rawRecipes = recipes.filter((item) => item.output.includes(itemName));
 		const rawItems = items.filter((item) => item.page_name === itemName);
+		const rawStorelines = storelines.filter(
+			(storeline) => storeline.sold_item === itemName,
+		);
 
 		/**
 		 * Resolve variants for item
@@ -86,6 +92,7 @@ export default function listItems(
 			stackLimit: rawItems[0]?.item_stacklimit ?? undefined,
 			hydration: parseNumericStat(rawItems[0]?.json?.hydration),
 			sustenance: parseNumericStat(rawItems[0]?.json?.sustenance),
+			...resolveStores(rawStorelines),
 		};
 		finishedItems.push(finishedItem);
 	});

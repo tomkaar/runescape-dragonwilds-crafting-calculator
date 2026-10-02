@@ -5,9 +5,11 @@ import { Badge } from "@/components/ui/badge";
 import { hasRecipe } from "@/domain/crafting/utils/has-recipe";
 import type { Item } from "@/Types";
 import { AddToProgressBadge } from "./add-to-progress-badge";
+import { BoughtByBadge } from "./bought-by-badge";
 import { ExperienceBadge } from "./experience-badge";
 import { HealthBadge } from "./health-badge";
 import { HydrationBadge } from "./hydration-badge";
+import { SoldByBadge } from "./sold-by-badge";
 import { StackLimitBadge } from "./stack-limit-badge";
 import { SustenanceBadge } from "./sustenance-badge";
 import { WeightBadge } from "./weight-badge";
@@ -23,6 +25,8 @@ type Props = {
 		| "hydration"
 		| "sustenance"
 		| "variants"
+		| "sold_by"
+		| "bought_by"
 	>;
 	/** Rendered immediately after the wiki badge, before the weight/health/stack-limit badges. */
 	afterWiki?: ReactNode;
@@ -56,6 +60,8 @@ export function ItemAttributeBadges({ itemId, item, afterWiki }: Props) {
 			<HydrationBadge hydration={item.hydration} />
 			<SustenanceBadge sustenance={item.sustenance} />
 			<StackLimitBadge stackLimit={item.stackLimit} />
+			<SoldByBadge soldBy={item.sold_by} />
+			<BoughtByBadge boughtBy={item.bought_by} />
 		</>
 	);
 }
