@@ -37015,7 +37015,7 @@
     "weight": 1,
     "itemType": "Food",
     "health": 20,
-    "stackLimit": 50,
+    "stackLimit": 99,
     "sustenance": 25
   },
   {
