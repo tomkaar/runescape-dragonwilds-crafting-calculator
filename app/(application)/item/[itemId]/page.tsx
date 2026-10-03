@@ -9,6 +9,7 @@ import { Direction } from "@/features/crafting-tree/components/actions/direction
 import { CraftingTree } from "@/features/crafting-tree/components/crafting-tree";
 import { ItemInfoBox } from "@/features/item-detail/components/item-info-box";
 import { AccordionMaterials } from "@/features/material-tree/components/accordion-materials";
+import { AccordionMerchantTrades } from "@/features/merchant-trades/components/merchant-trades";
 import { AccordionUsedIn } from "@/features/used-in/components/used-in";
 import { sourceItemById } from "@/utils/source-item-by-id";
 
@@ -50,6 +51,8 @@ export default async function ItemPage(props: Props) {
 				<AccordionPersisted className="flex flex-col gap-2 pb-2">
 					{craftable && <AccordionMaterials itemId={itemId} />}
 					<AccordionUsedIn itemId={itemId} />
+					<AccordionMerchantTrades item={item} direction="buy" />
+					<AccordionMerchantTrades item={item} direction="sell" />
 					{craftable && <AccordionCraftingTree itemId={itemId} />}
 				</AccordionPersisted>
 			</div>
@@ -73,6 +76,8 @@ export default async function ItemPage(props: Props) {
 							<AccordionPersisted className="flex flex-col gap-2 pb-2">
 								{craftable && <AccordionMaterials itemId={itemId} />}
 								<AccordionUsedIn itemId={itemId} />
+								<AccordionMerchantTrades item={item} direction="buy" />
+								<AccordionMerchantTrades item={item} direction="sell" />
 							</AccordionPersisted>
 						</div>
 					</Panel>

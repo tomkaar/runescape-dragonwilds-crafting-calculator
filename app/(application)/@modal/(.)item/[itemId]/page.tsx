@@ -9,6 +9,9 @@ import { ItemQuickView } from "@/features/item-detail/components/item-quick-view
 import { UnlockedBy } from "@/features/item-detail/components/unlocked-by";
 import { MultiplierInput } from "@/features/material-tree/components/multiplier-input";
 import { RequiredMaterialsContent } from "@/features/material-tree/components/required-materials-content";
+import { MerchantTradeList } from "@/features/merchant-trades/components/merchant-trade-list";
+import { merchantTradesDescription } from "@/features/merchant-trades/components/merchant-trades";
+import { getMerchantTrades } from "@/features/merchant-trades/utils/get-merchant-trades";
 import { UsedInList } from "@/features/used-in/components/used-in-list";
 import { getUsedIn } from "@/features/used-in/utils/get-used-in";
 import type { Facility } from "@/Types";
@@ -29,6 +32,7 @@ export default async function InterceptedItemModal(props: Props) {
 	}
 
 	const usedIn = getUsedIn(itemId);
+	const merchantTrades = getMerchantTrades(item.id);
 	const { ownFacilities, additionalFacilities } = resolveFacilityRequirements(
 		item,
 		itemId,
@@ -110,6 +114,28 @@ export default async function InterceptedItemModal(props: Props) {
 				<div className="flex flex-col gap-2">
 					<h3 className="text-sm font-semibold text-foreground">Used in</h3>
 					<UsedInList usedIn={usedIn} />
+				</div>
+			)}
+			{merchantTrades.buy.length > 0 && (
+				<div className="flex flex-col gap-2">
+					<div>
+						<h3 className="text-sm font-semibold text-foreground">Buy</h3>
+						<span className="block mt-0.5 text-xs text-foreground">
+							{merchantTradesDescription("buy", item.name)}
+						</span>
+					</div>
+					<MerchantTradeList groups={merchantTrades.buy} currency={item} />
+				</div>
+			)}
+			{merchantTrades.sell.length > 0 && (
+				<div className="flex flex-col gap-2">
+					<div>
+						<h3 className="text-sm font-semibold text-foreground">Sell</h3>
+						<span className="block mt-0.5 text-xs text-foreground">
+							{merchantTradesDescription("sell", item.name)}
+						</span>
+					</div>
+					<MerchantTradeList groups={merchantTrades.sell} currency={item} />
 				</div>
 			)}
 		</ItemQuickView>
