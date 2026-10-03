@@ -18,6 +18,8 @@ const FILTERABLE_COLUMN_IDS = [
 	ColumnId.Hydration,
 	ColumnId.Sustenance,
 	ColumnId.OutputQuantity,
+	ColumnId.BuyPrice,
+	ColumnId.SellPrice,
 ];
 
 // The item table only lives on this route. The item detail view opens as a
@@ -211,6 +213,8 @@ function parseColumnFilters(searchParams: URLSearchParams) {
 	const outputQuantity = parseRangeFilter(
 		searchParams.get(ColumnId.OutputQuantity),
 	);
+	const buyPrice = parseRangeFilter(searchParams.get(ColumnId.BuyPrice));
+	const sellPrice = parseRangeFilter(searchParams.get(ColumnId.SellPrice));
 
 	if (variant.length > 0) {
 		columnFilters.push({ id: ColumnId.Variant, value: variant });
@@ -238,6 +242,12 @@ function parseColumnFilters(searchParams: URLSearchParams) {
 	}
 	if (outputQuantity) {
 		columnFilters.push({ id: ColumnId.OutputQuantity, value: outputQuantity });
+	}
+	if (buyPrice) {
+		columnFilters.push({ id: ColumnId.BuyPrice, value: buyPrice });
+	}
+	if (sellPrice) {
+		columnFilters.push({ id: ColumnId.SellPrice, value: sellPrice });
 	}
 
 	return columnFilters;

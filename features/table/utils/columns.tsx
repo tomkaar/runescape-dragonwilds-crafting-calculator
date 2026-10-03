@@ -5,9 +5,11 @@ import {
 	ChartColumn,
 	Droplet,
 	Hammer,
+	HandCoins,
 	Heart,
 	PackageCheck,
 	Shapes,
+	ShoppingCart,
 	Tags,
 } from "lucide-react";
 import Link from "next/link";
@@ -17,7 +19,10 @@ import type { Facility } from "@/Types";
 import getFacilityIcon from "@/utils/getFacilityIcon";
 import { getSkillImageUrl } from "@/utils/getSkillImageUrl";
 import { ColumnId } from "../types/column-id";
-import type { TableBodyRowType } from "../types/table-body-row";
+import type {
+	TableBodyRowCurrency,
+	TableBodyRowType,
+} from "../types/table-body-row";
 import { tableData } from "./data";
 
 const columnHelper = createColumnHelper<TableBodyRowType>();
@@ -36,6 +41,8 @@ function fullRangeOf(values: (number | undefined)[]): [number, number] {
 
 const HYDRATION_RANGE = fullRangeOf(tableData.map((row) => row.hydration));
 const SUSTENANCE_RANGE = fullRangeOf(tableData.map((row) => row.sustenance));
+const BUY_PRICE_RANGE = fullRangeOf(tableData.map((row) => row.buyPrice));
+const SELL_PRICE_RANGE = fullRangeOf(tableData.map((row) => row.sellPrice));
 
 export const columns = [
 	columnHelper.accessor(ColumnId.Name, {
@@ -303,6 +310,74 @@ export const columns = [
 			return true;
 		},
 	}),
+	columnHelper.accessor(ColumnId.BuyPrice, {
+		header: "Buy price",
+		size: 130,
+		meta: {
+			filterVariant: "range",
+			headerIcon: ShoppingCart,
+			description: "The cheapest price to buy the item from a vendor.",
+		},
+		cell: (info) => (
+			<PriceCell
+				price={info.getValue()}
+				currency={info.row.original.buyCurrency}
+			/>
+		),
+		filterFn: (
+			row,
+			_columnId,
+			filterValue: [number | undefined, number | undefined],
+		) => {
+			if (!filterValue) return true;
+			const [min, max] = filterValue;
+			if (
+				(min ?? BUY_PRICE_RANGE[0]) <= BUY_PRICE_RANGE[0] &&
+				(max ?? BUY_PRICE_RANGE[1]) >= BUY_PRICE_RANGE[1]
+			) {
+				return true;
+			}
+			const val = row.original.buyPrice;
+			if (val === undefined) return false;
+			if (min !== undefined && val < min) return false;
+			if (max !== undefined && val > max) return false;
+			return true;
+		},
+	}),
+	columnHelper.accessor(ColumnId.SellPrice, {
+		header: "Sell price",
+		size: 130,
+		meta: {
+			filterVariant: "range",
+			headerIcon: HandCoins,
+			description: "The highest price a vendor pays for the item.",
+		},
+		cell: (info) => (
+			<PriceCell
+				price={info.getValue()}
+				currency={info.row.original.sellCurrency}
+			/>
+		),
+		filterFn: (
+			row,
+			_columnId,
+			filterValue: [number | undefined, number | undefined],
+		) => {
+			if (!filterValue) return true;
+			const [min, max] = filterValue;
+			if (
+				(min ?? SELL_PRICE_RANGE[0]) <= SELL_PRICE_RANGE[0] &&
+				(max ?? SELL_PRICE_RANGE[1]) >= SELL_PRICE_RANGE[1]
+			) {
+				return true;
+			}
+			const val = row.original.sellPrice;
+			if (val === undefined) return false;
+			if (min !== undefined && val < min) return false;
+			if (max !== undefined && val > max) return false;
+			return true;
+		},
+	}),
 	columnHelper.accessor(ColumnId.Materials, {
 		header: "Materials",
 		size: 480,
@@ -350,6 +425,33 @@ export const columns = [
 		},
 	}),
 ];
+
+function PriceCell({
+	price,
+	currency,
+}: {
+	price: number | undefined;
+	currency: TableBodyRowCurrency | undefined;
+}) {
+	if (price === undefined || !currency) return null;
+
+	return (
+		<div className="flex items-center gap-1 py-1 px-4" title={currency.name}>
+			{price}
+			{currency.image ? (
+				<img
+					src={createImageUrlPath(currency.image)}
+					alt={currency.name}
+					width={18}
+					height={18}
+					className="shrink-0"
+				/>
+			) : (
+				` ${currency.name}`
+			)}
+		</div>
+	);
+}
 
 /**
  * Toggles a filter value in the column filter state. If the value is already present, it removes it; otherwise, it adds it.

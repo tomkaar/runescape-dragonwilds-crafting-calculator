@@ -1,6 +1,10 @@
 import itemsJSON from "@/data/items.json";
-import type { Item } from "@/Types";
-import type { TableBodyRowType } from "../types/table-body-row";
+import { idFromName } from "@/scripts/parse-data/utils/id-from-name";
+import type { Item, Store } from "@/Types";
+import type {
+	TableBodyRowCurrency,
+	TableBodyRowType,
+} from "../types/table-body-row";
 
 const items = itemsJSON as Item[];
 
@@ -12,8 +16,35 @@ for (const item of items) {
 	itemImageById.set(item.id, item.image);
 }
 
-export const tableData: TableBodyRowType[] = items.flatMap((item) =>
-	item.variants.map((variant) => ({
+/**
+ * Picks the store with the lowest (or highest) cost and resolves its currency image.
+ */
+function resolvePrice(
+	stores: Store[] | undefined,
+	pick: "min" | "max",
+): { price?: number; currency?: TableBodyRowCurrency } {
+	if (!stores?.length) return {};
+
+	const store = stores.reduce((best, store) =>
+		(pick === "min" ? store.cost < best.cost : store.cost > best.cost)
+			? store
+			: best,
+	);
+
+	return {
+		price: store.cost,
+		currency: {
+			name: store.currency,
+			image: itemImageById.get(idFromName(store.currency)) ?? null,
+		},
+	};
+}
+
+export const tableData: TableBodyRowType[] = items.flatMap((item) => {
+	const buy = resolvePrice(item.sold_by, "min");
+	const sell = resolvePrice(item.bought_by, "max");
+
+	return item.variants.map((variant) => ({
 		itemId: item.id,
 		name: item.name,
 
@@ -34,6 +65,11 @@ export const tableData: TableBodyRowType[] = items.flatMap((item) =>
 		sustenance: item.sustenance,
 		outputQuantity: variant.recipe?.quantity ?? 0,
 
+		buyPrice: buy.price,
+		buyCurrency: buy.currency,
+		sellPrice: sell.price,
+		sellCurrency: sell.currency,
+
 		materialsCount: variant.recipe?.materials.length ?? 0,
 		materials:
 			variant.recipe?.materials.map((mat) => ({
@@ -44,5 +80,5 @@ export const tableData: TableBodyRowType[] = items.flatMap((item) =>
 			})) ?? [],
 
 		wikiLink: item.wikiLink,
-	})),
-);
+	}));
+});

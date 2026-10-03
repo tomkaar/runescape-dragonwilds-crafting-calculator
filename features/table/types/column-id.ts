@@ -8,5 +8,7 @@ export enum ColumnId {
 	Hydration = "hydration",
 	Sustenance = "sustenance",
 	OutputQuantity = "outputQuantity",
+	BuyPrice = "buyPrice",
+	SellPrice = "sellPrice",
 	Materials = "materials",
 }
