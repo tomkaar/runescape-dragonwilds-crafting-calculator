@@ -9739,7 +9739,7 @@
     "item_stacklimit": 50,
     "json": {
       "description": "A seasonal treat, popular with some.",
-      "duration": "150 seconds",
+      "duration": "300 seconds",
       "weight": "1.0",
       "image": "[[File:Pumpkin Spice Infusion.png|32px]]",
       "name": "Pumpkin Spice Infusion",
@@ -10463,7 +10463,7 @@
     "item_description": "A juicy watermelon, sans juice.",
     "page_name_sub": "Watermelon Jerky",
     "item_weight": 1,
-    "item_stacklimit": 50,
+    "item_stacklimit": 99,
     "json": {
       "description": "A juicy watermelon, sans juice.",
       "weight": "1.0",
@@ -10472,7 +10472,7 @@
       "name": "Watermelon Jerky",
       "item_type": "Food",
       "sustenance": "25",
-      "stacklimit": "50",
+      "stacklimit": "99",
       "image_raw": "Watermelon Jerky.png"
     },
     "item_type": "Food",
