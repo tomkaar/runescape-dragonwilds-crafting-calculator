@@ -5,6 +5,7 @@ import {
 	ChevronDown,
 	Ellipsis,
 	ExternalLink,
+	Info,
 	ListChecks,
 	ListX,
 } from "lucide-react";
@@ -24,12 +25,19 @@ import {
 	DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { FieldContent, FieldGroup, FieldLabel } from "@/components/ui/field";
+import {
+	Tooltip,
+	TooltipContent,
+	TooltipProvider,
+	TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { useCraftingTreeHover } from "@/features/crafting-tree/context/crafting-tree-hover";
 import { useTrackedMaterialsToggle } from "@/hooks/useTrackedMaterialsToggle";
 import { useTrackedMaterialToggle } from "@/hooks/useTrackedMaterialToggle";
 import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import type { MaterialTreeItem } from "../types/material-tree";
+import { getMarkedBeneathNames } from "../utils/unmarked-parent";
 
 type TreeNodeMaterial = {
 	nodeId: string;
@@ -119,6 +127,34 @@ function TreeNodeNavigateMenu({
 	);
 }
 
+const listFormatter = new Intl.ListFormat("en", {
+	style: "long",
+	type: "conjunction",
+});
+
+function UnmarkedParentTooltip({
+	name,
+	markedBeneath,
+}: {
+	name: string;
+	markedBeneath: string[];
+}) {
+	const message = `Mark ${name} to count owned stock towards ${listFormatter.format(markedBeneath)}.`;
+	return (
+		<TooltipProvider>
+			<Tooltip>
+				<TooltipTrigger asChild>
+					<span className="text-blue-500">
+						<Info className="size-4" />
+						<span className="sr-only">{message}</span>
+					</span>
+				</TooltipTrigger>
+				<TooltipContent side="top">{message}</TooltipContent>
+			</Tooltip>
+		</TooltipProvider>
+	);
+}
+
 function hasCheckedDescendant(
 	node: MaterialTreeItem,
 	items: Array<{ nodeId?: string }>,
@@ -149,6 +185,13 @@ export function MaterialTreeNode({
 	});
 
 	const anyDescendantChecked = hasCheckedDescendant(item, items);
+	// Marked materials beneath this unmarked node — owned stock of it can't
+	// discount them until it's marked too.
+	const markedBeneath = getMarkedBeneathNames(
+		item,
+		initialItemId,
+		new Set(items.flatMap((i) => (i.nodeId ? [i.nodeId] : []))),
+	);
 
 	const [manualOpen, setManualOpen] = useState(
 		item.nodeId === initialItemId || anyDescendantChecked,
@@ -193,6 +236,7 @@ export function MaterialTreeNode({
 							className={cn(
 								"flex flex-row gap-2 items-center pr-2 pl-2 py-0.5 rounded-lg text-sm group hover:bg-accent w-full justify-start transition-none",
 								item.variantNumber !== undefined ? "pl-2 py-0.5" : "",
+								markedBeneath.length > 0 && "bg-blue-500/15",
 							)}
 							onMouseEnter={() => enter(item.nodeId)}
 							onMouseLeave={() => reset()}
@@ -217,6 +261,12 @@ export function MaterialTreeNode({
 							)}
 							{item.variantNumber !== undefined && (
 								<span className="text-title">Recipe {item.variantNumber}</span>
+							)}
+							{markedBeneath.length > 0 && (
+								<UnmarkedParentTooltip
+									name={item.item.name}
+									markedBeneath={markedBeneath}
+								/>
 							)}
 
 							<ChevronDown className="w-4 h-4 self-center justify-self-end ml-auto text-muted-foreground group-hover:text-foreground" />

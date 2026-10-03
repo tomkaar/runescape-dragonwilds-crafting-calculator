@@ -1,7 +1,6 @@
 "use client";
 
-import { ChevronRight, Plus, TriangleAlert } from "lucide-react";
-import { Fragment } from "react";
+import { Plus, TriangleAlert } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
 	Dialog,
@@ -12,10 +11,9 @@ import {
 	DialogTitle,
 	DialogTrigger,
 } from "@/components/ui/dialog";
+import { useAddMarking } from "@/features/crafting-progress/hooks/useAddMarking";
 import type { MissingMarking } from "@/features/crafting-progress/types/owned-material-entry";
-import { findBaseQuantity } from "@/features/crafting-progress/utils/base-quantity";
-import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
-import { useSelectedMaterial } from "@/store/selected-material";
+import { MaterialPath } from "./material-path";
 
 type Props = {
 	materialId: string;
@@ -28,21 +26,9 @@ export function MissingMarkingsDialog({
 	materialName,
 	missingPaths,
 }: Props) {
-	const addAnItem = useSelectedMaterial((state) => state.addAnItem);
-
-	// Builds the same entry the item cards' checkbox does, so the marking is
-	// indistinguishable from one made there. Once every gap is filled the row's
-	// warning — and this dialog with it — unmounts.
-	const add = (trackedItemId: string, nodeId: string) => {
-		addAnItem(trackedItemId, {
-			id: self.crypto.randomUUID(),
-			itemId: materialId,
-			quantity: findBaseQuantity(trackedItemId, nodeId) ?? 0,
-			nodeId,
-			nodeOriginalId: trackedItemId,
-			state: "TODO",
-		});
-	};
+	// Once every gap is filled the row's warning — and this dialog with it —
+	// unmounts.
+	const addMarking = useAddMarking();
 
 	return (
 		<Dialog>
@@ -69,30 +55,7 @@ export function MissingMarkingsDialog({
 							key={missing.path.map((s) => s.itemId).join(">")}
 							className="flex flex-wrap items-center gap-1"
 						>
-							{missing.path.map((segment, i) => (
-								<Fragment
-									key={missing.path
-										.slice(0, i + 1)
-										.map((s) => s.itemId)
-										.join(">")}
-								>
-									{i > 0 && (
-										<ChevronRight className="size-3.5 text-muted-foreground" />
-									)}
-									<span className="flex items-center gap-1">
-										{segment.image && (
-											<img
-												src={createImageUrlPath(segment.image)}
-												alt={segment.name}
-												width={16}
-												height={16}
-												className="shrink-0"
-											/>
-										)}
-										{segment.name}
-									</span>
-								</Fragment>
-							))}
+							<MaterialPath path={missing.path} />
 							{missing.anyRecipe && (
 								<span className="text-muted-foreground">(any recipe)</span>
 							)}
@@ -102,7 +65,13 @@ export function MissingMarkingsDialog({
 										key={target.nodeId}
 										variant="outline"
 										size="xs"
-										onClick={() => add(missing.trackedItemId, target.nodeId)}
+										onClick={() =>
+											addMarking(
+												missing.trackedItemId,
+												materialId,
+												target.nodeId,
+											)
+										}
 									>
 										<Plus />
 										{missing.targets.length === 1 &&

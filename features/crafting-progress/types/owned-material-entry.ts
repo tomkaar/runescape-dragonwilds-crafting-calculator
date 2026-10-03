@@ -15,6 +15,15 @@ export type MissingMarking = {
 	targets: Array<{ nodeId: string; recipeNumber: number | null }>;
 };
 
+/** A place where a marked material sits beneath materials that aren't marked, so owned stock of them can't reduce how much of it is needed. */
+export type UnmarkedParents = {
+	trackedItemId: string;
+	/** From the tracked item down to the marked material's parent. */
+	path: MaterialPathSegment[];
+	/** The unmarked materials between the marked material and its nearest marked ancestor (or the tracked item), top-down. */
+	unmarked: Array<{ nodeId: string; itemId: string; name: string }>;
+};
+
 /** A single material aggregated across all tracked items, with its total and adjusted needed quantities. */
 export type OwnedMaterialEntry = {
 	itemId: string;
@@ -29,4 +38,6 @@ export type OwnedMaterialEntry = {
 	nodeRefs: { trackedItemId: string; nodeId: string }[];
 	/** Places this material is needed but not marked — its total may be undercounted when non-empty (see computeMissingMarkings). */
 	missingPaths: MissingMarking[];
+	/** Places this material is marked beneath unmarked materials — owned stock of those can't discount it (see computeUnmarkedParents). */
+	unmarkedParents: UnmarkedParents[];
 };

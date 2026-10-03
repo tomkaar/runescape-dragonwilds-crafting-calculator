@@ -16,6 +16,7 @@ function makeRow(
 		adjustedValue,
 		nodeRefs: [],
 		missingPaths: [],
+		unmarkedParents: [],
 	};
 }
 

@@ -11,6 +11,7 @@ import {
 } from "./build-steps";
 import { flattenQuantities } from "./flatten-quantities";
 import { computeMissingMarkings } from "./missing-markings";
+import { computeUnmarkedParents } from "./unmarked-parents";
 
 type Params = {
 	/** Ids of the items the user is currently tracking. */
@@ -38,6 +39,8 @@ type Params = {
  *
  * `missingPaths` lists the places a material is needed but not marked (see
  * computeMissingMarkings), which means its quantities may be undercounted.
+ * `unmarkedParents` lists the places it's marked beneath unmarked materials
+ * (see computeUnmarkedParents), whose owned stock therefore can't discount it.
  *
  * @returns One `OwnedMaterialEntry` per distinct material, with the total and
  *   adjusted quantities needed and the list of (trackedItemId, nodeId) pairs
@@ -110,6 +113,7 @@ export function buildOwnedMaterials({
 					adjustedValue: quantity,
 					nodeRefs: [{ trackedItemId, nodeId: entry.nodeId }],
 					missingPaths: [],
+					unmarkedParents: [],
 				});
 			}
 		}
@@ -117,6 +121,7 @@ export function buildOwnedMaterials({
 
 	const adjustedMap = computeAdjustedGross(stepAggregated, owned);
 	const missingMap = computeMissingMarkings(trackedTrees);
+	const unmarkedParentsMap = computeUnmarkedParents(trackedTrees);
 
 	return Array.from(aggregated.values(), (entry) => ({
 		...entry,
@@ -125,5 +130,6 @@ export function buildOwnedMaterials({
 		// get no discount.
 		adjustedValue: Math.ceil(adjustedMap.get(entry.itemId) ?? entry.total),
 		missingPaths: missingMap.get(entry.itemId) ?? [],
+		unmarkedParents: unmarkedParentsMap.get(entry.itemId) ?? [],
 	}));
 }

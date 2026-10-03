@@ -9,6 +9,7 @@ import type { OwnedMaterialEntry } from "@/features/crafting-progress/types/owne
 import { useClampedNumberInput } from "@/hooks/useClampedNumberInput";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import { MissingMarkingsDialog } from "./missing-markings-dialog";
+import { UnmarkedParentsDialog } from "./unmarked-parents-dialog";
 
 type Props = {
 	entry: OwnedMaterialEntry;
@@ -23,6 +24,9 @@ export const CollectedMaterialsRow = memo(function CollectedMaterialsRow({
 }: Props) {
 	const isDone = owned >= entry.adjustedValue;
 	const hasWarning = entry.missingPaths.length > 0;
+	// Only matters while more is still needed — once collected, discounting
+	// by owned parent stock changes nothing useful.
+	const hasInfo = !isDone && entry.unmarkedParents.length > 0;
 	// Faded per element rather than on the row, so a warning stays fully
 	// visible on a done row — that's when an undercount matters most.
 	const doneFade = isDone ? " opacity-40" : "";
@@ -69,6 +73,12 @@ export const CollectedMaterialsRow = memo(function CollectedMaterialsRow({
 						materialId={entry.itemId}
 						materialName={entry.name}
 						missingPaths={entry.missingPaths}
+					/>
+				)}
+				{hasInfo && (
+					<UnmarkedParentsDialog
+						materialName={entry.name}
+						unmarkedParents={entry.unmarkedParents}
 					/>
 				)}
 			</div>

@@ -64,6 +64,64 @@ function swordTree(): MaterialTreeItem[] {
 	];
 }
 
+function registerTrees(trees: Record<string, MaterialTreeItem[]>) {
+	mockResolve.mockImplementation((id) => trees[id as string] ?? []);
+	registerAllItems();
+}
+
+// Multi-variant item: a selector node whose children are one variant node
+// per recipe, mirroring resolveMaterialTree's nodeId scheme.
+function makeSelectorNode(
+	itemId: string,
+	nodeId: string,
+	quantity: number,
+	variants: Array<(variantNodeId: string) => MaterialTreeItem[]>,
+): MaterialTreeItem {
+	return {
+		id: itemId,
+		nodeId,
+		item: makeItem(itemId),
+		quantity,
+		facilities: [],
+		children: variants.map((buildChildren, vi) => {
+			const variantNodeId = `${nodeId}_v${vi}`;
+			return {
+				id: itemId,
+				nodeId: variantNodeId,
+				item: makeItem(itemId),
+				quantity,
+				facilities: [],
+				variantNumber: vi + 1,
+				children: buildChildren(variantNodeId),
+			};
+		}),
+	};
+}
+
+// root (x1) -> bar (x2) -> ore (x4)
+function barTree(root: string): MaterialTreeItem[] {
+	return [
+		makeTreeNode(root, root, 1, [
+			makeTreeNode("bar", `${root}_bar`, 2, [
+				makeTreeNode("ore", `${root}_bar_ore`, 4),
+			]),
+		]),
+	];
+}
+
+function pathOf(...itemIds: string[]) {
+	return itemIds.map((itemId) => ({
+		itemId,
+		name: `${itemId}-name`,
+		image: null,
+	}));
+}
+
+function find(result: ReturnType<typeof buildOwnedMaterials>, id: string) {
+	// biome-ignore lint/style/noNonNullAssertion: <test asserts the entry exists>
+	return result.find((r) => r.itemId === id)!;
+}
+
 beforeEach(() => {
 	vi.clearAllMocks();
 	mockResolve.mockReturnValue([]);
@@ -509,59 +567,6 @@ describe("buildOwnedMaterials", () => {
 	});
 
 	describe("missingPaths", () => {
-		function registerTrees(trees: Record<string, MaterialTreeItem[]>) {
-			mockResolve.mockImplementation((id) => trees[id as string] ?? []);
-			registerAllItems();
-		}
-
-		// Multi-variant item: a selector node whose children are one variant node
-		// per recipe, mirroring resolveMaterialTree's nodeId scheme.
-		function makeSelectorNode(
-			itemId: string,
-			nodeId: string,
-			quantity: number,
-			variants: Array<(variantNodeId: string) => MaterialTreeItem[]>,
-		): MaterialTreeItem {
-			return {
-				id: itemId,
-				nodeId,
-				item: makeItem(itemId),
-				quantity,
-				facilities: [],
-				children: variants.map((buildChildren, vi) => {
-					const variantNodeId = `${nodeId}_v${vi}`;
-					return {
-						id: itemId,
-						nodeId: variantNodeId,
-						item: makeItem(itemId),
-						quantity,
-						facilities: [],
-						variantNumber: vi + 1,
-						children: buildChildren(variantNodeId),
-					};
-				}),
-			};
-		}
-
-		// root (x1) -> bar (x2) -> ore (x4)
-		function barTree(root: string): MaterialTreeItem[] {
-			return [
-				makeTreeNode(root, root, 1, [
-					makeTreeNode("bar", `${root}_bar`, 2, [
-						makeTreeNode("ore", `${root}_bar_ore`, 4),
-					]),
-				]),
-			];
-		}
-
-		function pathOf(...itemIds: string[]) {
-			return itemIds.map((itemId) => ({
-				itemId,
-				name: `${itemId}-name`,
-				image: null,
-			}));
-		}
-
 		function missing(
 			path: string[],
 			targets: Array<[nodeId: string, recipeNumber: number | null]>,
@@ -576,11 +581,6 @@ describe("buildOwnedMaterials", () => {
 					recipeNumber,
 				})),
 			};
-		}
-
-		function find(result: ReturnType<typeof buildOwnedMaterials>, id: string) {
-			// biome-ignore lint/style/noNonNullAssertion: <test asserts the entry exists>
-			return result.find((r) => r.itemId === id)!;
 		}
 
 		it("is empty when the material is marked everywhere its parent appears", () => {
@@ -883,6 +883,201 @@ describe("buildOwnedMaterials", () => {
 			});
 
 			expect(find(result, "bar").missingPaths).toEqual([]);
+		});
+	});
+
+	describe("unmarkedParents", () => {
+		function unmarked(path: string[], nodeIds: string[]) {
+			return {
+				trackedItemId: path[0],
+				path: pathOf(...path),
+				unmarked: nodeIds.map((nodeId) => {
+					const itemId = nodeId.split("_").at(-1) as string;
+					return { nodeId, itemId, name: `${itemId}-name` };
+				}),
+			};
+		}
+
+		// root (x1) -> steel (x1) -> bar (x2) -> ore (x4)
+		function steelTree(root: string): MaterialTreeItem[] {
+			return [
+				makeTreeNode(root, root, 1, [
+					makeTreeNode("steel", `${root}_steel`, 1, [
+						makeTreeNode("bar", `${root}_steel_bar`, 2, [
+							makeTreeNode("ore", `${root}_steel_bar_ore`, 4),
+						]),
+					]),
+				]),
+			];
+		}
+
+		it("flags a marked material whose parent isn't marked", () => {
+			registerTrees({ sword: barTree("sword") });
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword"],
+				allItems: { sword: [makeEntry("ore", "sword_bar_ore", 4)] },
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "ore").unmarkedParents).toEqual([
+				unmarked(["sword", "bar"], ["sword_bar"]),
+			]);
+		});
+
+		it("lists the whole unmarked chain up to the tracked item, top-down", () => {
+			registerTrees({ sword: steelTree("sword") });
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword"],
+				allItems: { sword: [makeEntry("ore", "sword_steel_bar_ore", 4)] },
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "ore").unmarkedParents).toEqual([
+				unmarked(["sword", "steel", "bar"], ["sword_steel", "sword_steel_bar"]),
+			]);
+		});
+
+		it("stops at the nearest marked ancestor", () => {
+			registerTrees({ sword: steelTree("sword") });
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword"],
+				allItems: {
+					sword: [
+						makeEntry("steel", "sword_steel", 1),
+						makeEntry("ore", "sword_steel_bar_ore", 4),
+					],
+				},
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "ore").unmarkedParents).toEqual([
+				unmarked(["sword", "steel", "bar"], ["sword_steel_bar"]),
+			]);
+			expect(find(result, "steel").unmarkedParents).toEqual([]);
+		});
+
+		it("is empty for a material directly under the tracked item", () => {
+			registerTrees({ sword: barTree("sword") });
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword"],
+				allItems: { sword: [makeEntry("bar", "sword_bar", 2)] },
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "bar").unmarkedParents).toEqual([]);
+		});
+
+		it("flags an unmarked multi-variant parent, skipping the recipe node", () => {
+			registerTrees({
+				shield: [
+					makeTreeNode("shield", "shield", 1, [
+						makeSelectorNode("bar", "shield_bar", 2, [
+							(v) => [makeTreeNode("ore", `${v}_ore`, 4)],
+							(v) => [makeTreeNode("scrap", `${v}_scrap`, 6)],
+						]),
+					]),
+				],
+			});
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["shield"],
+				allItems: { shield: [makeEntry("ore", "shield_bar_v0_ore", 4)] },
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "ore").unmarkedParents).toEqual([
+				unmarked(["shield", "bar"], ["shield_bar"]),
+			]);
+		});
+
+		it("counts a DONE parent as marked", () => {
+			registerTrees({ sword: barTree("sword") });
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword"],
+				allItems: {
+					sword: [
+						makeEntry("bar", "sword_bar", 2, "DONE"),
+						makeEntry("ore", "sword_bar_ore", 4),
+					],
+				},
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "ore").unmarkedParents).toEqual([]);
+		});
+
+		it("lists one entry per tracked item, merging identical paths", () => {
+			// sword -> steel with two recipes, both bar -> ore
+			registerTrees({
+				sword: [
+					makeTreeNode("sword", "sword", 1, [
+						makeSelectorNode("steel", "sword_steel", 1, [
+							(v) => [
+								makeTreeNode("bar", `${v}_bar`, 2, [
+									makeTreeNode("ore", `${v}_bar_ore`, 4),
+								]),
+							],
+							(v) => [
+								makeTreeNode("bar", `${v}_bar`, 3, [
+									makeTreeNode("ore", `${v}_bar_ore`, 6),
+								]),
+							],
+						]),
+					]),
+				],
+				shield: barTree("shield"),
+			});
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword", "shield"],
+				allItems: {
+					sword: [
+						makeEntry("ore", "sword_steel_v0_bar_ore", 4),
+						makeEntry("ore", "sword_steel_v1_bar_ore", 6),
+					],
+					shield: [makeEntry("ore", "shield_bar_ore", 4)],
+				},
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "ore").unmarkedParents).toEqual([
+				unmarked(
+					["sword", "steel", "bar"],
+					["sword_steel", "sword_steel_v0_bar"],
+				),
+				unmarked(["shield", "bar"], ["shield_bar"]),
+			]);
+		});
+
+		it("ignores tracked items outside the filter", () => {
+			registerTrees({ sword: barTree("sword"), shield: barTree("shield") });
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword"],
+				allItems: {
+					sword: [
+						makeEntry("bar", "sword_bar", 2),
+						makeEntry("ore", "sword_bar_ore", 4),
+					],
+					shield: [makeEntry("ore", "shield_bar_ore", 4)],
+				},
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "ore").unmarkedParents).toEqual([]);
 		});
 	});
 });

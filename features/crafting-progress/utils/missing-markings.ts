@@ -4,7 +4,7 @@ import type {
 	MissingMarking,
 } from "../types/owned-material-entry";
 
-type TrackedTree = {
+export type TrackedTree = {
 	trackedItemId: string;
 	tree: MaterialTreeItem[];
 	/** Marked (TODO or DONE) nodeIds for this tracked item. */
