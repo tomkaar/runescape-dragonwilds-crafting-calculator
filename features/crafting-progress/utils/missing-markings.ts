@@ -5,6 +5,7 @@ import type {
 } from "../types/owned-material-entry";
 
 type TrackedTree = {
+	trackedItemId: string;
 	tree: MaterialTreeItem[];
 	/** Marked (TODO or DONE) nodeIds for this tracked item. */
 	markedNodeIds: Set<string>;
@@ -18,12 +19,15 @@ const TRACKED_ITEM_KEY = "";
 // A place a parent item appears that its children are expected to be marked
 // under: either a tracked item's own top-level node or a marked material.
 type ParentOccurrence = {
+	trackedItemId: string;
 	path: MaterialPathSegment[];
-	// The child lists the parent can be crafted from — one per recipe variant,
-	// or a single list for a single-recipe item.
-	recipes: MaterialTreeItem[][];
+	// What the parent can be crafted from — one entry per recipe variant, or a
+	// single entry (number null) for a single-recipe item.
+	recipes: Recipe[];
 	markedNodeIds: Set<string>;
 };
+
+type Recipe = { number: number | null; children: MaterialTreeItem[] };
 
 function toSegment(node: MaterialTreeItem): MaterialPathSegment {
 	return { itemId: node.id, name: node.item.name, image: node.item.image };
@@ -33,14 +37,15 @@ function pathKey(missing: MissingMarking): string {
 	return missing.path.map((s) => s.itemId).join(">");
 }
 
-function getRecipes(node: MaterialTreeItem): MaterialTreeItem[][] {
-	if (!("children" in node)) return [[]];
+function getRecipes(node: MaterialTreeItem): Recipe[] {
+	if (!("children" in node)) return [{ number: null, children: [] }];
 	const isSelector = node.children.some((c) => c.variantNumber !== undefined);
 	return isSelector
-		? node.children.map((variant) =>
-				"children" in variant ? variant.children : [],
-			)
-		: [node.children];
+		? node.children.map((variant) => ({
+				number: variant.variantNumber ?? null,
+				children: "children" in variant ? variant.children : [],
+			}))
+		: [{ number: null, children: node.children }];
 }
 
 function hasMarkedNode(
@@ -58,25 +63,31 @@ function findMissing(
 	occurrence: ParentOccurrence,
 	materialId: string,
 ): MissingMarking | null {
-	const { recipes, markedNodeIds } = occurrence;
-	const contains = (recipe: MaterialTreeItem[]) =>
-		recipe.some((c) => c.id === materialId);
+	const { trackedItemId, path, recipes, markedNodeIds } = occurrence;
+	const materialNodes = (recipe: Recipe) =>
+		recipe.children.filter((c) => c.id === materialId);
 
-	if (!recipes.some(contains)) return null;
+	if (!recipes.some((recipe) => materialNodes(recipe).length > 0)) return null;
 	const isMarked = recipes.some((recipe) =>
-		recipe.some((c) => c.id === materialId && markedNodeIds.has(c.nodeId)),
+		materialNodes(recipe).some((c) => markedNodeIds.has(c.nodeId)),
 	);
 	if (isMarked) return null;
 
-	if (recipes.length === 1) return { path: occurrence.path, anyRecipe: false };
-
 	// A recipe with anything marked beneath it is treated as the chosen one.
 	const chosen = recipes.filter((recipe) =>
-		hasMarkedNode(recipe, markedNodeIds),
+		hasMarkedNode(recipe.children, markedNodeIds),
 	);
-	if (chosen.length === 0) return { path: occurrence.path, anyRecipe: true };
-	return chosen.some(contains)
-		? { path: occurrence.path, anyRecipe: false }
+	const anyRecipe = recipes.length > 1 && chosen.length === 0;
+	const targets = (
+		anyRecipe || recipes.length === 1 ? recipes : chosen
+	).flatMap((recipe) =>
+		materialNodes(recipe).map((c) => ({
+			nodeId: c.nodeId,
+			recipeNumber: recipe.number,
+		})),
+	);
+	return targets.length > 0
+		? { trackedItemId, path, anyRecipe, targets }
 		: null;
 }
 
@@ -84,9 +95,9 @@ function findMissing(
  * Finds, per material item id, the places it's needed but hasn't been marked.
  *
  * For every marked material M with parent P, each other place P appears as
- * a marked material is expected to have M marked beneath it too — and when
- * P is a tracked item, every other tracked item using M directly is too; a place where it isn't means M's total
- * undercounts. Places where P itself is unmarked are skipped, since the user
+ * a marked material is expected to have M marked beneath it too — and when P
+ * is a tracked item, so is every other tracked item using M directly. A place
+ * where it isn't means M's total undercounts. Places where P itself is unmarked are skipped, since the user
  * chose not to collect through that branch. For a multi-variant P, a recipe
  * with anything marked beneath it is treated as chosen and only it is
  * checked; when none is, M is missing if any recipe uses it.
@@ -106,13 +117,14 @@ export function computeMissingMarkings(
 		nodes: MaterialTreeItem[],
 		parentKey: string | null,
 		path: MaterialPathSegment[],
+		trackedItemId: string,
 		markedNodeIds: Set<string>,
 	) {
 		for (const node of nodes) {
 			// Variant nodes are transparent — recurse with the same parent/path
 			if (node.variantNumber !== undefined) {
 				if ("children" in node) {
-					walk(node.children, parentKey, path, markedNodeIds);
+					walk(node.children, parentKey, path, trackedItemId, markedNodeIds);
 				}
 				continue;
 			}
@@ -137,6 +149,7 @@ export function computeMissingMarkings(
 					occurrencesByParent.set(nodeKey, occurrences);
 				}
 				occurrences.push({
+					trackedItemId,
 					path: nodePath,
 					recipes: getRecipes(node),
 					markedNodeIds,
@@ -144,13 +157,13 @@ export function computeMissingMarkings(
 			}
 
 			if ("children" in node) {
-				walk(node.children, nodeKey, nodePath, markedNodeIds);
+				walk(node.children, nodeKey, nodePath, trackedItemId, markedNodeIds);
 			}
 		}
 	}
 
-	for (const { tree, markedNodeIds } of trackedTrees) {
-		walk(tree, null, [], markedNodeIds);
+	for (const { trackedItemId, tree, markedNodeIds } of trackedTrees) {
+		walk(tree, null, [], trackedItemId, markedNodeIds);
 	}
 
 	const result = new Map<string, MissingMarking[]>();

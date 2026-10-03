@@ -1,7 +1,8 @@
 "use client";
 
-import { ChevronRight, TriangleAlert } from "lucide-react";
+import { ChevronRight, Plus, TriangleAlert } from "lucide-react";
 import { Fragment } from "react";
+import { Button } from "@/components/ui/button";
 import {
 	Dialog,
 	DialogContent,
@@ -12,14 +13,37 @@ import {
 	DialogTrigger,
 } from "@/components/ui/dialog";
 import type { MissingMarking } from "@/features/crafting-progress/types/owned-material-entry";
+import { findBaseQuantity } from "@/features/crafting-progress/utils/base-quantity";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
+import { useSelectedMaterial } from "@/store/selected-material";
 
 type Props = {
+	materialId: string;
 	materialName: string;
 	missingPaths: MissingMarking[];
 };
 
-export function MissingMarkingsDialog({ materialName, missingPaths }: Props) {
+export function MissingMarkingsDialog({
+	materialId,
+	materialName,
+	missingPaths,
+}: Props) {
+	const addAnItem = useSelectedMaterial((state) => state.addAnItem);
+
+	// Builds the same entry the item cards' checkbox does, so the marking is
+	// indistinguishable from one made there. Once every gap is filled the row's
+	// warning — and this dialog with it — unmounts.
+	const add = (trackedItemId: string, nodeId: string) => {
+		addAnItem(trackedItemId, {
+			id: self.crypto.randomUUID(),
+			itemId: materialId,
+			quantity: findBaseQuantity(trackedItemId, nodeId) ?? 0,
+			nodeId,
+			nodeOriginalId: trackedItemId,
+			state: "TODO",
+		});
+	};
+
 	return (
 		<Dialog>
 			<DialogTrigger
@@ -72,11 +96,27 @@ export function MissingMarkingsDialog({ materialName, missingPaths }: Props) {
 							{missing.anyRecipe && (
 								<span className="text-muted-foreground">(any recipe)</span>
 							)}
+							<span className="ml-auto flex flex-wrap gap-1">
+								{missing.targets.map((target) => (
+									<Button
+										key={target.nodeId}
+										variant="outline"
+										size="xs"
+										onClick={() => add(missing.trackedItemId, target.nodeId)}
+									>
+										<Plus />
+										{missing.targets.length === 1 &&
+										target.recipeNumber === null
+											? "Add"
+											: `Add (Recipe ${target.recipeNumber})`}
+									</Button>
+								))}
+							</span>
 						</li>
 					))}
 				</ul>
 				<p className="text-sm text-muted-foreground">
-					Mark {materialName} in these places on the item cards to include them.
+					Add {materialName} here, or mark it on the item cards.
 				</p>
 				<DialogFooter showCloseButton />
 			</DialogContent>

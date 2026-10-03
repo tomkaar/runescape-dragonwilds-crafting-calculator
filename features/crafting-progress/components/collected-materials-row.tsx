@@ -66,6 +66,7 @@ export const CollectedMaterialsRow = memo(function CollectedMaterialsRow({
 				</Link>
 				{hasWarning && (
 					<MissingMarkingsDialog
+						materialId={entry.itemId}
 						materialName={entry.name}
 						missingPaths={entry.missingPaths}
 					/>

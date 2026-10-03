@@ -7,9 +7,12 @@ export type MaterialPathSegment = {
 
 /** A place where a marked material is needed but hasn't been marked, identified by the path from the tracked item down to the material's parent. */
 export type MissingMarking = {
+	trackedItemId: string;
 	path: MaterialPathSegment[];
 	/** No recipe could be inferred for a multi-variant parent, so the material is missing from at least one of its recipes. */
 	anyRecipe: boolean;
+	/** Where the material can be marked to fill this gap — one per candidate recipe (recipeNumber is null for a single-recipe parent). */
+	targets: Array<{ nodeId: string; recipeNumber: number | null }>;
 };
 
 /** A single material aggregated across all tracked items, with its total and adjusted needed quantities. */

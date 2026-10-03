@@ -69,7 +69,11 @@ export function buildOwnedMaterials({
 		});
 		// Tracked items with nothing marked still count — their top-level
 		// materials are expected to be marked like everyone else's.
-		trackedTrees.push({ tree, markedNodeIds: markedNodeIds ?? new Set() });
+		trackedTrees.push({
+			trackedItemId,
+			tree,
+			markedNodeIds: markedNodeIds ?? new Set(),
+		});
 		if (markedNodeIds) {
 			const trackedItem = sourceItemById(trackedItemId);
 			walkTree(

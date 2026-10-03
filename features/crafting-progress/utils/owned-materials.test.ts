@@ -562,6 +562,22 @@ describe("buildOwnedMaterials", () => {
 			}));
 		}
 
+		function missing(
+			path: string[],
+			targets: Array<[nodeId: string, recipeNumber: number | null]>,
+			anyRecipe = false,
+		) {
+			return {
+				trackedItemId: path[0],
+				path: pathOf(...path),
+				anyRecipe,
+				targets: targets.map(([nodeId, recipeNumber]) => ({
+					nodeId,
+					recipeNumber,
+				})),
+			};
+		}
+
 		function find(result: ReturnType<typeof buildOwnedMaterials>, id: string) {
 			// biome-ignore lint/style/noNonNullAssertion: <test asserts the entry exists>
 			return result.find((r) => r.itemId === id)!;
@@ -594,7 +610,7 @@ describe("buildOwnedMaterials", () => {
 			});
 
 			expect(find(result, "bar").missingPaths).toEqual([
-				{ path: pathOf("shield"), anyRecipe: false },
+				missing(["shield"], [["shield_bar", null]]),
 			]);
 		});
 
@@ -615,7 +631,7 @@ describe("buildOwnedMaterials", () => {
 			});
 
 			expect(find(result, "ore").missingPaths).toEqual([
-				{ path: pathOf("shield", "bar"), anyRecipe: false },
+				missing(["shield", "bar"], [["shield_bar_ore", null]]),
 			]);
 			expect(find(result, "bar").missingPaths).toEqual([]);
 		});
@@ -639,7 +655,7 @@ describe("buildOwnedMaterials", () => {
 			// only the bar itself is flagged.
 			expect(find(result, "ore").missingPaths).toEqual([]);
 			expect(find(result, "bar").missingPaths).toEqual([
-				{ path: pathOf("shield"), anyRecipe: false },
+				missing(["shield"], [["shield_bar", null]]),
 			]);
 		});
 
@@ -674,7 +690,7 @@ describe("buildOwnedMaterials", () => {
 			});
 
 			expect(find(result, "ore").missingPaths).toEqual([
-				{ path: pathOf("sword", "guard", "bar"), anyRecipe: false },
+				missing(["sword", "guard", "bar"], [["sword_guard_bar_ore", null]]),
 			]);
 			expect(find(result, "bar").missingPaths).toEqual([]);
 		});
@@ -725,15 +741,16 @@ describe("buildOwnedMaterials", () => {
 
 			expect(find(result, "ore").missingPaths).toEqual(
 				expect.arrayContaining([
-					{ path: pathOf("shield", "bar"), anyRecipe: false },
-					{ path: pathOf("shield", "plate"), anyRecipe: false },
+					missing(["shield", "bar"], [["shield_bar_ore", null]]),
+					missing(["shield", "plate"], [["shield_plate_ore", null]]),
 				]),
 			);
 			expect(find(result, "ore").missingPaths).toHaveLength(2);
 		});
 
 		describe("multi-variant parent", () => {
-			// shield -> bar with recipe 1 (ore + coal) and recipe 2 (scrap)
+			// shield -> bar with recipe 1 (ore + coal), recipe 2 (scrap) and
+			// recipe 3 (ore)
 			function variantShieldTree(): MaterialTreeItem[] {
 				return [
 					makeTreeNode("shield", "shield", 1, [
@@ -743,6 +760,7 @@ describe("buildOwnedMaterials", () => {
 								makeTreeNode("coal", `${v}_coal`, 2),
 							],
 							(v) => [makeTreeNode("scrap", `${v}_scrap`, 6)],
+							(v) => [makeTreeNode("ore", `${v}_ore`, 5)],
 						]),
 					]),
 				];
@@ -789,7 +807,7 @@ describe("buildOwnedMaterials", () => {
 				});
 
 				expect(find(result, "ore").missingPaths).toEqual([
-					{ path: pathOf("shield", "bar"), anyRecipe: false },
+					missing(["shield", "bar"], [["shield_bar_v0_ore", 1]]),
 				]);
 			});
 
@@ -807,7 +825,14 @@ describe("buildOwnedMaterials", () => {
 				});
 
 				expect(find(result, "ore").missingPaths).toEqual([
-					{ path: pathOf("shield", "bar"), anyRecipe: true },
+					missing(
+						["shield", "bar"],
+						[
+							["shield_bar_v0_ore", 1],
+							["shield_bar_v2_ore", 3],
+						],
+						true,
+					),
 				]);
 			});
 
