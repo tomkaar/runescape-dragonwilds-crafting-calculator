@@ -10,6 +10,7 @@ import {
 	walkTree,
 } from "./build-steps";
 import { flattenQuantities } from "./flatten-quantities";
+import { computeMissingMarkings } from "./missing-markings";
 
 type Params = {
 	/** Ids of the items the user is currently tracking. */
@@ -35,6 +36,9 @@ type Params = {
  * many of its children are needed. DONE-marked parents are included so a
  * fully collected parent still discounts its children.
  *
+ * `missingPaths` lists the places a material is needed but not marked (see
+ * computeMissingMarkings), which means its quantities may be undercounted.
+ *
  * @returns One `OwnedMaterialEntry` per distinct material, with the total and
  *   adjusted quantities needed and the list of (trackedItemId, nodeId) pairs
  *   that contributed to it.
@@ -48,6 +52,7 @@ export function buildOwnedMaterials({
 	const aggregated = new Map<string, OwnedMaterialEntry>();
 	const stepAggregated = new Map<string, StepEntry>();
 	const recipeAccumulators = new Map<string, RecipeContributionAccumulator>();
+	const trackedTrees: Parameters<typeof computeMissingMarkings>[0] = [];
 
 	for (const trackedItemId of trackedItemIds) {
 		const multiplier = multipliers[trackedItemId] ?? 1;
@@ -62,6 +67,9 @@ export function buildOwnedMaterials({
 		const markedNodeIds = getMarkedNodeIds(allItems[trackedItemId], {
 			includeDone: true,
 		});
+		// Tracked items with nothing marked still count — their top-level
+		// materials are expected to be marked like everyone else's.
+		trackedTrees.push({ tree, markedNodeIds: markedNodeIds ?? new Set() });
 		if (markedNodeIds) {
 			const trackedItem = sourceItemById(trackedItemId);
 			walkTree(
@@ -97,12 +105,14 @@ export function buildOwnedMaterials({
 					total: quantity,
 					adjustedValue: quantity,
 					nodeRefs: [{ trackedItemId, nodeId: entry.nodeId }],
+					missingPaths: [],
 				});
 			}
 		}
 	}
 
 	const adjustedMap = computeAdjustedGross(stepAggregated, owned);
+	const missingMap = computeMissingMarkings(trackedTrees);
 
 	return Array.from(aggregated.values(), (entry) => ({
 		...entry,
@@ -110,5 +120,6 @@ export function buildOwnedMaterials({
 		// collect a partial item. Entries whose node isn't in the resolved tree
 		// get no discount.
 		adjustedValue: Math.ceil(adjustedMap.get(entry.itemId) ?? entry.total),
+		missingPaths: missingMap.get(entry.itemId) ?? [],
 	}));
 }

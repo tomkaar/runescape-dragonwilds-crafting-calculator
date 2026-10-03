@@ -74,12 +74,6 @@ type StepParent = {
 	image: string | null;
 };
 
-export type CoverageWarning = {
-	parentItemId: string;
-	parentName: string;
-	missingRoots: Array<{ itemId: string; name: string; image: string | null }>;
-};
-
 // One distinct recipe that (partly) produces this step's item, and how much
 // of the step's final remaining quantity is attributed to that recipe —
 // scaled from this recipe's share of the item's gross demand, since a single
@@ -116,7 +110,6 @@ export type StepEntry = {
 	usedFor: Array<{ itemId: string; name: string; image: string | null }>;
 	depth: number;
 	hasChildren: boolean;
-	coverageWarnings: CoverageWarning[];
 	recipeContributions?: StepRecipeContribution[];
 	facilities: string[];
 	needed: StepNeeded;
@@ -410,7 +403,6 @@ export function walkTree(
 					],
 					depth,
 					hasChildren,
-					coverageWarnings: [],
 					facilities: [...node.facilities],
 					needed: { materials: [], alternatives: [] },
 					covered: false,
@@ -521,36 +513,6 @@ export function computeRemainingQuantities(
 }
 
 /**
- * Flags parent relationships where not every tracked item that needs the
- * parent also has a marked step for this material. Marking stays fully
- * manual (auto-cascading isn't viable once a parent has multiple recipe
- * variants to choose between), so a parent's deficit ratio can be computed
- * from more tracked items than actually contributed to this item's own
- * raw total — the resulting quantity may undercount for that reason.
- */
-export function computeCoverageWarnings(
-	entry: StepEntry,
-	aggregated: Map<string, StepEntry>,
-): CoverageWarning[] {
-	const warnings: CoverageWarning[] = [];
-	for (const parent of entry.parents) {
-		const parentEntry = aggregated.get(parent.itemId);
-		if (!parentEntry) continue; // parent is a tracked root, not a material — no gap possible
-		const missingRoots = parentEntry.usedFor.filter(
-			(root) => !entry.usedFor.some((u) => u.itemId === root.itemId),
-		);
-		if (missingRoots.length > 0) {
-			warnings.push({
-				parentItemId: parent.itemId,
-				parentName: parent.name,
-				missingRoots,
-			});
-		}
-	}
-	return warnings;
-}
-
-/**
  * Builds the material steps of Next Steps: one entry per material the user
  * has marked (TODO or DONE) on any tracked item's card, aggregated across
  * tracked items by item id and sorted from raw ingredients up. Quantities are
@@ -646,7 +608,6 @@ export function buildSteps({
 			...entry,
 			quantity: remaining,
 			parents: adjustedParents,
-			coverageWarnings: computeCoverageWarnings(entry, aggregated),
 			recipeContributions,
 			needed: computeNeeded(
 				neededAccumulators.get(entry.itemId),

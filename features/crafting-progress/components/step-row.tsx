@@ -1,6 +1,6 @@
 "use client";
 
-import { Check, TriangleAlert } from "lucide-react";
+import { Check } from "lucide-react";
 import { Fragment } from "react";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import type {
@@ -100,25 +100,6 @@ export function StepRow({
 					))}
 				</div>
 			)}
-			{"coverageWarnings" in step && step.coverageWarnings.length > 0 && (
-				<div className="flex flex-col gap-0.5 pt-1 pl-7">
-					{step.coverageWarnings.map((w) => (
-						<div
-							key={w.parentItemId}
-							className="flex items-start gap-1 text-xs text-amber-500"
-						>
-							<TriangleAlert className="size-3.5 shrink-0 mt-0.5" />
-							<span>
-								{listFormatter.format(w.missingRoots.map((r) => r.name))}{" "}
-								{w.missingRoots.length === 1 ? "needs" : "need"} {w.parentName}{" "}
-								too, but {w.missingRoots.length === 1 ? "hasn't" : "haven't"}{" "}
-								marked this material as a step — this total may be higher than
-								currently shown.
-							</span>
-						</div>
-					))}
-				</div>
-			)}
 		</div>
 	);
 }
@@ -140,8 +121,3 @@ function NeededMaterialList({ materials }: { materials: NeededMaterial[] }) {
 		</span>
 	));
 }
-
-const listFormatter = new Intl.ListFormat("en", {
-	style: "long",
-	type: "conjunction",
-});

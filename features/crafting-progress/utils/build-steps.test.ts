@@ -17,7 +17,6 @@ import {
 	buildItemSteps,
 	buildSteps,
 	computeAdjustedGross,
-	computeCoverageWarnings,
 	computeRemainingQuantities,
 	getMarkedNodeIds,
 } from "./build-steps";
@@ -544,11 +543,11 @@ describe("buildSteps", () => {
 		expect(result.map((r) => r.itemId)).toEqual(["zeta", "mid", "alpha"]);
 	});
 
-	it("rounds a fractional deficit up and flags the material whose ingredient step was never marked", () => {
+	it("rounds a fractional deficit up when an ingredient step was never marked", () => {
 		// rootA only marks "mid" as a step (never expands/marks its own "leaf" need).
 		// rootB marks both. mid's deficit ratio is computed across both roots, but
 		// leaf's raw total only reflects rootB's contribution — a real coverage gap,
-		// not a bug — so the result is fractional and rootA should be flagged.
+		// not a bug — so the result is fractional.
 		registerItems({
 			rootA: makeItem("rootA", [
 				makeVariant(makeRecipe(1, [{ itemId: "mid", quantity: 13 }])),
@@ -599,13 +598,6 @@ describe("buildSteps", () => {
 		const leaf = result.find((r) => r.itemId === "leaf")!;
 		expect(mid.quantity).toBe(22); // 30 gross - 8 owned
 		expect(leaf.quantity).toBe(113); // ceil(153 * 22/30) = ceil(112.2)
-		expect(leaf.coverageWarnings).toEqual([
-			expect.objectContaining({
-				parentItemId: "mid",
-				missingRoots: [expect.objectContaining({ itemId: "rootA" })],
-			}),
-		]);
-		expect(mid.coverageWarnings).toEqual([]);
 	});
 
 	it("scales a step's recipe contribution by its remaining (post-owned) quantity", () => {
@@ -1251,85 +1243,6 @@ describe("buildItemSteps", () => {
 	});
 });
 
-describe("computeCoverageWarnings", () => {
-	function stepEntry(
-		overrides: Partial<StepEntry> & Pick<StepEntry, "itemId" | "quantity">,
-	): StepEntry {
-		return {
-			name: overrides.itemId,
-			image: null,
-			parents: [],
-			usedFor: [],
-			depth: 0,
-			hasChildren: false,
-			coverageWarnings: [],
-			needed: { materials: [], alternatives: [] },
-			facilities: [],
-			covered: false,
-			...overrides,
-		};
-	}
-
-	it("returns no warnings when every root using the parent also uses the child", () => {
-		const parent = stepEntry({
-			itemId: "parent",
-			quantity: 10,
-			usedFor: [{ itemId: "rootA", name: "rootA", image: null }],
-		});
-		const child = stepEntry({
-			itemId: "child",
-			quantity: 5,
-			parents: [{ itemId: "parent", name: "parent", image: null, quantity: 5 }],
-			usedFor: [{ itemId: "rootA", name: "rootA", image: null }],
-		});
-		const aggregated = new Map([
-			["parent", parent],
-			["child", child],
-		]);
-		expect(computeCoverageWarnings(child, aggregated)).toEqual([]);
-	});
-
-	it("flags roots that use the parent but never marked the child", () => {
-		const parent = stepEntry({
-			itemId: "parent",
-			quantity: 30,
-			usedFor: [
-				{ itemId: "rootA", name: "rootA", image: null },
-				{ itemId: "rootB", name: "rootB", image: null },
-			],
-		});
-		const child = stepEntry({
-			itemId: "child",
-			quantity: 20,
-			parents: [
-				{ itemId: "parent", name: "parent", image: null, quantity: 20 },
-			],
-			usedFor: [{ itemId: "rootB", name: "rootB", image: null }],
-		});
-		const aggregated = new Map([
-			["parent", parent],
-			["child", child],
-		]);
-		const warnings = computeCoverageWarnings(child, aggregated);
-		expect(warnings).toHaveLength(1);
-		expect(warnings[0].parentItemId).toBe("parent");
-		expect(warnings[0].missingRoots.map((r) => r.itemId)).toEqual(["rootA"]);
-	});
-
-	it("returns no warnings when the parent is a tracked root, not an aggregated material", () => {
-		const child = stepEntry({
-			itemId: "child",
-			quantity: 5,
-			parents: [
-				{ itemId: "someRoot", name: "someRoot", image: null, quantity: 5 },
-			],
-			usedFor: [{ itemId: "someRoot", name: "someRoot", image: null }],
-		});
-		const aggregated = new Map([["child", child]]);
-		expect(computeCoverageWarnings(child, aggregated)).toEqual([]);
-	});
-});
-
 function entry(
 	overrides: Partial<StepEntry> & Pick<StepEntry, "itemId" | "quantity">,
 ): StepEntry {
@@ -1340,7 +1253,6 @@ function entry(
 		usedFor: [],
 		depth: 0,
 		hasChildren: false,
-		coverageWarnings: [],
 		needed: { materials: [], alternatives: [] },
 		facilities: [],
 		covered: false,

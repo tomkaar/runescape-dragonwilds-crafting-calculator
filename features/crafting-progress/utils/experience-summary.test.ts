@@ -41,7 +41,6 @@ describe("computeExperienceSummary", () => {
 			usedFor: [],
 			depth: 0,
 			hasChildren: false,
-			coverageWarnings: [],
 			needed: { materials: [], alternatives: [] },
 			recipeContributions: [],
 			facilities: [],

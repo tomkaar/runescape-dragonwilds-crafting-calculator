@@ -15,6 +15,7 @@ function makeRow(
 		total,
 		adjustedValue,
 		nodeRefs: [],
+		missingPaths: [],
 	};
 }
 

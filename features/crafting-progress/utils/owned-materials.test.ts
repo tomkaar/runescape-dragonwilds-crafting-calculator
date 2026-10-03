@@ -507,4 +507,357 @@ describe("buildOwnedMaterials", () => {
 			});
 		});
 	});
+
+	describe("missingPaths", () => {
+		function registerTrees(trees: Record<string, MaterialTreeItem[]>) {
+			mockResolve.mockImplementation((id) => trees[id as string] ?? []);
+			registerAllItems();
+		}
+
+		// Multi-variant item: a selector node whose children are one variant node
+		// per recipe, mirroring resolveMaterialTree's nodeId scheme.
+		function makeSelectorNode(
+			itemId: string,
+			nodeId: string,
+			quantity: number,
+			variants: Array<(variantNodeId: string) => MaterialTreeItem[]>,
+		): MaterialTreeItem {
+			return {
+				id: itemId,
+				nodeId,
+				item: makeItem(itemId),
+				quantity,
+				facilities: [],
+				children: variants.map((buildChildren, vi) => {
+					const variantNodeId = `${nodeId}_v${vi}`;
+					return {
+						id: itemId,
+						nodeId: variantNodeId,
+						item: makeItem(itemId),
+						quantity,
+						facilities: [],
+						variantNumber: vi + 1,
+						children: buildChildren(variantNodeId),
+					};
+				}),
+			};
+		}
+
+		// root (x1) -> bar (x2) -> ore (x4)
+		function barTree(root: string): MaterialTreeItem[] {
+			return [
+				makeTreeNode(root, root, 1, [
+					makeTreeNode("bar", `${root}_bar`, 2, [
+						makeTreeNode("ore", `${root}_bar_ore`, 4),
+					]),
+				]),
+			];
+		}
+
+		function pathOf(...itemIds: string[]) {
+			return itemIds.map((itemId) => ({
+				itemId,
+				name: `${itemId}-name`,
+				image: null,
+			}));
+		}
+
+		function find(result: ReturnType<typeof buildOwnedMaterials>, id: string) {
+			// biome-ignore lint/style/noNonNullAssertion: <test asserts the entry exists>
+			return result.find((r) => r.itemId === id)!;
+		}
+
+		it("is empty when the material is marked everywhere its parent appears", () => {
+			registerTrees({ sword: barTree("sword"), shield: barTree("shield") });
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword", "shield"],
+				allItems: {
+					sword: [makeEntry("bar", "sword_bar", 2)],
+					shield: [makeEntry("bar", "shield_bar", 2)],
+				},
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "bar").missingPaths).toEqual([]);
+		});
+
+		it("flags a top-level material marked on one tracked item but not another", () => {
+			registerTrees({ sword: barTree("sword"), shield: barTree("shield") });
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword", "shield"],
+				allItems: { sword: [makeEntry("bar", "sword_bar", 2)] },
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "bar").missingPaths).toEqual([
+				{ path: pathOf("shield"), anyRecipe: false },
+			]);
+		});
+
+		it("flags a deeper material missing under another marked occurrence of its parent", () => {
+			registerTrees({ sword: barTree("sword"), shield: barTree("shield") });
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword", "shield"],
+				allItems: {
+					sword: [
+						makeEntry("bar", "sword_bar", 2),
+						makeEntry("ore", "sword_bar_ore", 4),
+					],
+					shield: [makeEntry("bar", "shield_bar", 2)],
+				},
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "ore").missingPaths).toEqual([
+				{ path: pathOf("shield", "bar"), anyRecipe: false },
+			]);
+			expect(find(result, "bar").missingPaths).toEqual([]);
+		});
+
+		it("ignores occurrences of the parent that are not marked", () => {
+			registerTrees({ sword: barTree("sword"), shield: barTree("shield") });
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword", "shield"],
+				allItems: {
+					sword: [
+						makeEntry("bar", "sword_bar", 2),
+						makeEntry("ore", "sword_bar_ore", 4),
+					],
+				},
+				multipliers: {},
+				owned: {},
+			});
+
+			// shield's bar isn't marked, so its ore isn't expected to be either —
+			// only the bar itself is flagged.
+			expect(find(result, "ore").missingPaths).toEqual([]);
+			expect(find(result, "bar").missingPaths).toEqual([
+				{ path: pathOf("shield"), anyRecipe: false },
+			]);
+		});
+
+		it("flags a missing occurrence within the same tracked item", () => {
+			// sword -> bar -> ore, and sword -> guard -> bar -> ore
+			registerTrees({
+				sword: [
+					makeTreeNode("sword", "sword", 1, [
+						makeTreeNode("bar", "sword_bar", 2, [
+							makeTreeNode("ore", "sword_bar_ore", 4),
+						]),
+						makeTreeNode("guard", "sword_guard", 1, [
+							makeTreeNode("bar", "sword_guard_bar", 1, [
+								makeTreeNode("ore", "sword_guard_bar_ore", 2),
+							]),
+						]),
+					]),
+				],
+			});
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword"],
+				allItems: {
+					sword: [
+						makeEntry("bar", "sword_bar", 2),
+						makeEntry("ore", "sword_bar_ore", 4),
+						makeEntry("bar", "sword_guard_bar", 1),
+					],
+				},
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "ore").missingPaths).toEqual([
+				{ path: pathOf("sword", "guard", "bar"), anyRecipe: false },
+			]);
+			expect(find(result, "bar").missingPaths).toEqual([]);
+		});
+
+		it("lists a missing occurrence under each different parent", () => {
+			// sword -> bar -> ore, shield -> plate -> ore, plus a marked ore under
+			// both bar and plate elsewhere
+			registerTrees({
+				sword: barTree("sword"),
+				shield: [
+					makeTreeNode("shield", "shield", 1, [
+						makeTreeNode("bar", "shield_bar", 2, [
+							makeTreeNode("ore", "shield_bar_ore", 4),
+						]),
+						makeTreeNode("plate", "shield_plate", 1, [
+							makeTreeNode("ore", "shield_plate_ore", 3),
+						]),
+					]),
+				],
+				helm: [
+					makeTreeNode("helm", "helm", 1, [
+						makeTreeNode("plate", "helm_plate", 1, [
+							makeTreeNode("ore", "helm_plate_ore", 3),
+						]),
+					]),
+				],
+			});
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword", "shield", "helm"],
+				allItems: {
+					sword: [
+						makeEntry("bar", "sword_bar", 2),
+						makeEntry("ore", "sword_bar_ore", 4),
+					],
+					shield: [
+						makeEntry("bar", "shield_bar", 2),
+						makeEntry("plate", "shield_plate", 1),
+					],
+					helm: [
+						makeEntry("plate", "helm_plate", 1),
+						makeEntry("ore", "helm_plate_ore", 3),
+					],
+				},
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "ore").missingPaths).toEqual(
+				expect.arrayContaining([
+					{ path: pathOf("shield", "bar"), anyRecipe: false },
+					{ path: pathOf("shield", "plate"), anyRecipe: false },
+				]),
+			);
+			expect(find(result, "ore").missingPaths).toHaveLength(2);
+		});
+
+		describe("multi-variant parent", () => {
+			// shield -> bar with recipe 1 (ore + coal) and recipe 2 (scrap)
+			function variantShieldTree(): MaterialTreeItem[] {
+				return [
+					makeTreeNode("shield", "shield", 1, [
+						makeSelectorNode("bar", "shield_bar", 2, [
+							(v) => [
+								makeTreeNode("ore", `${v}_ore`, 4),
+								makeTreeNode("coal", `${v}_coal`, 2),
+							],
+							(v) => [makeTreeNode("scrap", `${v}_scrap`, 6)],
+						]),
+					]),
+				];
+			}
+
+			const swordEntries = [
+				makeEntry("bar", "sword_bar", 2),
+				makeEntry("ore", "sword_bar_ore", 4),
+			];
+
+			it("does not flag when the inferred recipe doesn't use the material", () => {
+				registerTrees({ sword: barTree("sword"), shield: variantShieldTree() });
+
+				const result = buildOwnedMaterials({
+					trackedItemIds: ["sword", "shield"],
+					allItems: {
+						sword: swordEntries,
+						shield: [
+							makeEntry("bar", "shield_bar", 2),
+							makeEntry("scrap", "shield_bar_v1_scrap", 6),
+						],
+					},
+					multipliers: {},
+					owned: {},
+				});
+
+				expect(find(result, "ore").missingPaths).toEqual([]);
+			});
+
+			it("flags when the inferred recipe uses the material but it isn't marked", () => {
+				registerTrees({ sword: barTree("sword"), shield: variantShieldTree() });
+
+				const result = buildOwnedMaterials({
+					trackedItemIds: ["sword", "shield"],
+					allItems: {
+						sword: swordEntries,
+						shield: [
+							makeEntry("bar", "shield_bar", 2),
+							makeEntry("coal", "shield_bar_v0_coal", 2),
+						],
+					},
+					multipliers: {},
+					owned: {},
+				});
+
+				expect(find(result, "ore").missingPaths).toEqual([
+					{ path: pathOf("shield", "bar"), anyRecipe: false },
+				]);
+			});
+
+			it("flags as any recipe when no recipe can be inferred", () => {
+				registerTrees({ sword: barTree("sword"), shield: variantShieldTree() });
+
+				const result = buildOwnedMaterials({
+					trackedItemIds: ["sword", "shield"],
+					allItems: {
+						sword: swordEntries,
+						shield: [makeEntry("bar", "shield_bar", 2)],
+					},
+					multipliers: {},
+					owned: {},
+				});
+
+				expect(find(result, "ore").missingPaths).toEqual([
+					{ path: pathOf("shield", "bar"), anyRecipe: true },
+				]);
+			});
+
+			it("does not flag when the material is marked under the chosen recipe", () => {
+				registerTrees({ sword: barTree("sword"), shield: variantShieldTree() });
+
+				const result = buildOwnedMaterials({
+					trackedItemIds: ["sword", "shield"],
+					allItems: {
+						sword: swordEntries,
+						shield: [
+							makeEntry("bar", "shield_bar", 2),
+							makeEntry("ore", "shield_bar_v0_ore", 4),
+						],
+					},
+					multipliers: {},
+					owned: {},
+				});
+
+				expect(find(result, "ore").missingPaths).toEqual([]);
+			});
+		});
+
+		it("ignores tracked items outside the filter", () => {
+			registerTrees({ sword: barTree("sword"), shield: barTree("shield") });
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword"],
+				allItems: { sword: [makeEntry("bar", "sword_bar", 2)] },
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "bar").missingPaths).toEqual([]);
+		});
+
+		it("counts DONE markings as marked", () => {
+			registerTrees({ sword: barTree("sword"), shield: barTree("shield") });
+
+			const result = buildOwnedMaterials({
+				trackedItemIds: ["sword", "shield"],
+				allItems: {
+					sword: [makeEntry("bar", "sword_bar", 2, "DONE")],
+					shield: [makeEntry("bar", "shield_bar", 2)],
+				},
+				multipliers: {},
+				owned: {},
+			});
+
+			expect(find(result, "bar").missingPaths).toEqual([]);
+		});
+	});
 });

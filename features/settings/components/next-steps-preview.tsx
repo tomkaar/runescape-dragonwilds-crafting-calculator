@@ -30,7 +30,6 @@ const sampleStep: StepEntry = {
 	usedFor: [],
 	depth: 1,
 	hasChildren: true,
-	coverageWarnings: [],
 	facilities: ["Furnace"],
 	needed: {
 		materials: [
