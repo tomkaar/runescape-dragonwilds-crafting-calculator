@@ -16483,12 +16483,12 @@
   },
   {
     "page_name": "Sauteed Sardines",
-    "item_description": "Made by combining fried sardine and dried redberry. Grants the Warding Fish perk.<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The Perk Warding Fish was replaced by the Perk Sea Life.\">sic</span>&#93;</sup>",
+    "item_description": "Made by combining fried sardine and dried redberry. Grants the Sea Life perk.",
     "page_name_sub": "Sauteed Sardines",
     "item_weight": 0.7,
     "item_stacklimit": 50,
     "json": {
-      "description": "Made by combining fried sardine and dried redberry. Grants the Warding Fish perk.<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The Perk Warding Fish was replaced by the Perk Sea Life.\">sic</span>&#93;</sup>",
+      "description": "Made by combining fried sardine and dried redberry. Grants the Sea Life perk.",
       "duration": "600 seconds",
       "weight": "0.7",
       "health": "70",
