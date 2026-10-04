@@ -8,6 +8,7 @@ import {
 	Info,
 	ListChecks,
 	ListX,
+	TriangleAlert,
 } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
@@ -37,6 +38,10 @@ import { useTrackedMaterialToggle } from "@/hooks/useTrackedMaterialToggle";
 import { cn } from "@/lib/utils";
 import { createImageUrlPath } from "@/scripts/parse-data/utils/image-url";
 import type { MaterialTreeItem } from "../types/material-tree";
+import {
+	getActiveRecipeNumbers,
+	type RecipeConflict,
+} from "../utils/recipe-conflict";
 import { getMarkedBeneathNames } from "../utils/unmarked-parent";
 
 type TreeNodeMaterial = {
@@ -132,20 +137,22 @@ const listFormatter = new Intl.ListFormat("en", {
 	type: "conjunction",
 });
 
-function UnmarkedParentTooltip({
-	name,
-	markedBeneath,
+function NoticeTooltip({
+	tone,
+	message,
 }: {
-	name: string;
-	markedBeneath: string[];
+	tone: "warning" | "info";
+	message: string;
 }) {
-	const message = `Mark ${name} to count owned stock towards ${listFormatter.format(markedBeneath)}.`;
+	const Icon = tone === "warning" ? TriangleAlert : Info;
 	return (
 		<TooltipProvider>
 			<Tooltip>
 				<TooltipTrigger asChild>
-					<span className="text-blue-500">
-						<Info className="size-4" />
+					<span
+						className={tone === "warning" ? "text-amber-500" : "text-blue-500"}
+					>
+						<Icon className="size-4" />
 						<span className="sr-only">{message}</span>
 					</span>
 				</TooltipTrigger>
@@ -153,6 +160,11 @@ function UnmarkedParentTooltip({
 			</Tooltip>
 		</TooltipProvider>
 	);
+}
+
+function recipeConflictMessage({ name, recipeNumbers }: RecipeConflict) {
+	const recipes = listFormatter.format(recipeNumbers.map((n) => `Recipe ${n}`));
+	return `Materials are marked under ${recipes} of ${name}. ${recipeNumbers.length === 2 ? "Both" : "All"} are counted, so totals may be too high. Unmark the recipe you won't use.`;
 }
 
 function hasCheckedDescendant(
@@ -171,10 +183,14 @@ export function MaterialTreeNode({
 	item,
 	initialItemId,
 	baseQuantities,
+	hiddenParentConflict,
 }: {
 	item: MaterialTreeItem;
 	initialItemId: string;
 	baseQuantities: Map<string, number>;
+	// A recipe conflict on the tracked item when its own row isn't drawn
+	// (skipFirstLayer) — its active recipe rows carry the warning instead.
+	hiddenParentConflict?: RecipeConflict | null;
 }) {
 	const { enter, reset } = useCraftingTreeHover();
 	const { items, added, toggle } = useTrackedMaterialToggle({
@@ -187,11 +203,22 @@ export function MaterialTreeNode({
 	const anyDescendantChecked = hasCheckedDescendant(item, items);
 	// Marked materials beneath this unmarked node — owned stock of it can't
 	// discount them until it's marked too.
+	const markedNodeIds = new Set(
+		items.flatMap((i) => (i.nodeId ? [i.nodeId] : [])),
+	);
 	const markedBeneath = getMarkedBeneathNames(
 		item,
 		initialItemId,
-		new Set(items.flatMap((i) => (i.nodeId ? [i.nodeId] : []))),
+		markedNodeIds,
 	);
+	const activeRecipes = getActiveRecipeNumbers(item, markedNodeIds);
+	const recipeConflict: RecipeConflict | null =
+		activeRecipes.length > 1
+			? { name: item.item.name, recipeNumbers: activeRecipes }
+			: item.variantNumber !== undefined &&
+					hiddenParentConflict?.recipeNumbers.includes(item.variantNumber)
+				? hiddenParentConflict
+				: null;
 
 	const [manualOpen, setManualOpen] = useState(
 		item.nodeId === initialItemId || anyDescendantChecked,
@@ -236,7 +263,9 @@ export function MaterialTreeNode({
 							className={cn(
 								"flex flex-row gap-2 items-center pr-2 pl-2 py-0.5 rounded-lg text-sm group hover:bg-accent w-full justify-start transition-none",
 								item.variantNumber !== undefined ? "pl-2 py-0.5" : "",
-								markedBeneath.length > 0 && "bg-blue-500/15",
+								recipeConflict
+									? "bg-amber-500/15"
+									: markedBeneath.length > 0 && "bg-blue-500/15",
 							)}
 							onMouseEnter={() => enter(item.nodeId)}
 							onMouseLeave={() => reset()}
@@ -262,10 +291,16 @@ export function MaterialTreeNode({
 							{item.variantNumber !== undefined && (
 								<span className="text-title">Recipe {item.variantNumber}</span>
 							)}
+							{recipeConflict && (
+								<NoticeTooltip
+									tone="warning"
+									message={recipeConflictMessage(recipeConflict)}
+								/>
+							)}
 							{markedBeneath.length > 0 && (
-								<UnmarkedParentTooltip
-									name={item.item.name}
-									markedBeneath={markedBeneath}
+								<NoticeTooltip
+									tone="info"
+									message={`Mark ${item.item.name} to count owned stock towards ${listFormatter.format(markedBeneath)}.`}
 								/>
 							)}
 
