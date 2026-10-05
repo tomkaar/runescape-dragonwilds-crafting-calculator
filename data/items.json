@@ -4024,19 +4024,19 @@
     "image": "Fang Arrow.png",
     "variants": [
       {
-        "id": "a7a97e7df290",
+        "id": "83a9da791a59",
         "name": "Fang Arrow",
         "image": "Fang Arrow.png",
         "variantName": null,
         "recipe": {
-          "id": "50ab7938a984",
+          "id": "5033da07e9bb",
           "facilities": [
             "Crafting Table"
           ],
           "materials": [
             {
               "itemId": "ash-logs",
-              "quantity": 1
+              "quantity": 2
             },
             {
               "itemId": "feathers",
@@ -4075,19 +4075,19 @@
     "image": "Stone Arrow.png",
     "variants": [
       {
-        "id": "edf521dcccc9",
+        "id": "cfa180731f8f",
         "name": "Stone Arrow",
         "image": "Stone Arrow.png",
         "variantName": null,
         "recipe": {
-          "id": "9720a8ed587b",
+          "id": "5db10cc276cb",
           "facilities": [
             "Crafting Table"
           ],
           "materials": [
             {
               "itemId": "ash-logs",
-              "quantity": 1
+              "quantity": 2
             },
             {
               "itemId": "feathers",
@@ -6455,27 +6455,27 @@
     "image": "Bronze Arrow.png",
     "variants": [
       {
-        "id": "e9ac781e924b",
+        "id": "defffa5f620a",
         "name": "Bronze Arrow",
         "image": "Bronze Arrow.png",
         "variantName": null,
         "recipe": {
-          "id": "fd3a60391937",
+          "id": "9be826dc0b91",
           "facilities": [
             "Fletching Bench"
           ],
           "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
             {
               "itemId": "bronze-bar",
               "quantity": 1
             },
             {
               "itemId": "feathers",
-              "quantity": 3
-            },
-            {
-              "itemId": "oak-logs",
-              "quantity": 3
+              "quantity": 1
             }
           ],
           "quantity": 33,
@@ -79956,8 +79956,8 @@
     ]
   },
   {
-    "id": "garou-artifact",
-    "name": "Garou Artifact",
+    "id": "garou-artefact",
+    "name": "Garou Artefact",
     "image": "Garou Artifact.png",
     "variants": [
       {
@@ -79971,26 +79971,9 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Garou_Artifact",
+    "wikiLink": "Garou_Artefact",
     "weight": 1.5,
-    "itemType": "Basic Material",
-    "bought_by": [
-      {
-        "name": "Iasadair - The Merchant",
-        "currency": "Garou Chit",
-        "cost": 500
-      },
-      {
-        "name": "Beartach - The Merchant",
-        "currency": "Garou Chit",
-        "cost": 500
-      },
-      {
-        "name": "Domri - The Merchant",
-        "currency": "Garou Chit",
-        "cost": 500
-      }
-    ]
+    "itemType": "Basic Material"
   },
   {
     "id": "lunular-wrappings",
