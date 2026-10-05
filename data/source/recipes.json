@@ -5322,10 +5322,10 @@
           "image": "[[File:Small Animal Fang.png|30px|link=Small Animal Fang]]"
         },
         {
-          "quantity": "1",
+          "quantity": "2",
           "name": "Ash Logs",
           "link": "Ash Logs",
-          "qty": "1",
+          "qty": "2",
           "item": "Ash Logs",
           "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
         },
@@ -5384,18 +5384,18 @@
           "image": "[[File:Stone.png|30px|link=Stone]]"
         },
         {
-          "quantity": 1,
+          "quantity": "2",
           "name": "Ash Logs",
           "link": "Ash Logs",
-          "qty": 1,
+          "qty": "2",
           "item": "Ash Logs",
           "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Feathers",
           "link": "Feathers",
-          "qty": 1,
+          "qty": "1",
           "item": "Feathers",
           "image": "[[File:Feathers.png|30px|link=Feathers]]"
         }
@@ -8494,7 +8494,7 @@
   {
     "uses_material": [
       "Bronze Bar",
-      "Oak Logs",
+      "Ash Logs",
       "Feathers"
     ],
     "uses_skill": [
@@ -8512,18 +8512,18 @@
           "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
         },
         {
-          "quantity": "3",
-          "name": "Oak Logs",
-          "link": "Oak Logs",
-          "qty": "3",
-          "item": "Oak Logs",
-          "image": "[[File:Oak Logs.png|30px|link=Oak Logs]]"
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
         },
         {
-          "quantity": "3",
+          "quantity": "1",
           "name": "Feathers",
           "link": "Feathers",
-          "qty": "3",
+          "qty": "1",
           "item": "Feathers",
           "image": "[[File:Feathers.png|30px|link=Feathers]]"
         }
@@ -54962,7 +54962,7 @@
   },
   {
     "uses_material": [
-      "Blue  Dragon Leather",
+      "Blue Dragon Leather",
       "Cursed Leather",
       "Mithril Bar",
       "Demonic Oil"
@@ -54975,11 +54975,11 @@
       "materials": [
         {
           "quantity": "12",
-          "name": "Blue  Dragon Leather",
-          "link": "Blue  Dragon Leather",
+          "name": "Blue Dragon Leather",
+          "link": "Blue Dragon Leather",
           "qty": "12",
-          "item": "Blue  Dragon Leather",
-          "image": "[[File:Blue  Dragon Leather.png|30px|link=Blue  Dragon Leather]]"
+          "item": "Blue Dragon Leather",
+          "image": "[[File:Blue Dragon Leather.png|30px|link=Blue Dragon Leather]]"
         },
         {
           "quantity": "4",
@@ -55104,7 +55104,7 @@
   },
   {
     "uses_material": [
-      "Blue  Dragon Leather",
+      "Blue Dragon Leather",
       "Cursed Leather",
       "Mithril Bar",
       "Demonic Oil"
@@ -55117,11 +55117,11 @@
       "materials": [
         {
           "quantity": "4",
-          "name": "Blue  Dragon Leather",
-          "link": "Blue  Dragon Leather",
+          "name": "Blue Dragon Leather",
+          "link": "Blue Dragon Leather",
           "qty": "4",
-          "item": "Blue  Dragon Leather",
-          "image": "[[File:Blue  Dragon Leather.png|30px|link=Blue  Dragon Leather]]"
+          "item": "Blue Dragon Leather",
+          "image": "[[File:Blue Dragon Leather.png|30px|link=Blue Dragon Leather]]"
         },
         {
           "quantity": "2",
@@ -55175,7 +55175,7 @@
   },
   {
     "uses_material": [
-      "Blue  Dragon Leather",
+      "Blue Dragon Leather",
       "Cursed Leather",
       "Mithril Bar",
       "Demonic Oil"
@@ -55188,11 +55188,11 @@
       "materials": [
         {
           "quantity": "6",
-          "name": "Blue  Dragon Leather",
-          "link": "Blue  Dragon Leather",
+          "name": "Blue Dragon Leather",
+          "link": "Blue Dragon Leather",
           "qty": "6",
-          "item": "Blue  Dragon Leather",
-          "image": "[[File:Blue  Dragon Leather.png|30px|link=Blue  Dragon Leather]]"
+          "item": "Blue Dragon Leather",
+          "image": "[[File:Blue Dragon Leather.png|30px|link=Blue Dragon Leather]]"
         },
         {
           "quantity": "4",
@@ -75321,10 +75321,10 @@
         "Imbuing Barrel"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Imbuing Barrel",
         "link": "Imbuing Barrel",
-        "qty": 1,
+        "qty": "1",
         "item": "Imbuing Barrel",
         "image": "[[File:Imbuing Barrel.png|30px|link=Imbuing Barrel]]"
       }
