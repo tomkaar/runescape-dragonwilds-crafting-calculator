@@ -79958,12 +79958,12 @@
   {
     "id": "garou-artefact",
     "name": "Garou Artefact",
-    "image": "Garou Artifact.png",
+    "image": "Garou Artefact.png",
     "variants": [
       {
-        "id": "garou-artifact",
-        "name": "Garou Artifact",
-        "image": "Garou Artifact.png",
+        "id": "garou-artefact",
+        "name": "Garou Artefact",
+        "image": "Garou Artefact.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
