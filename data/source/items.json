@@ -20792,14 +20792,14 @@
     "page_name_sub": "Garou Artefact",
     "item_description": "An object of garou origin that might hold value with local traders.",
     "item_type": "Basic Material",
-    "item_name": "Garou Artifact",
+    "item_name": "Garou Artefact",
     "json": {
       "description": "An object of garou origin that might hold value with local traders.",
       "weight": "1.5",
-      "image": "[[File:Garou Artifact.png|32px]]",
-      "name": "Garou Artifact",
+      "image": "[[File:Garou Artefact.png|32px]]",
+      "name": "Garou Artefact",
       "item_type": "Basic Material",
-      "image_raw": "Garou Artifact.png"
+      "image_raw": "Garou Artefact.png"
     },
     "item_weight": 1.5
   },
