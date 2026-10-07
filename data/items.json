@@ -11903,7 +11903,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 6
+              "experience": 8
             }
           ]
         },
@@ -38356,7 +38356,7 @@
     ],
     "wikiLink": "Shroud_of_Noggin",
     "weight": 1,
-    "itemType": "Vestige"
+    "itemType": "Basic Item"
   },
   {
     "id": "postbox",
@@ -80151,7 +80151,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Grassfoot_Screecher",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50
   },
   {
@@ -80172,7 +80172,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Crimson_Crybaby",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50
   },
   {
@@ -80193,7 +80193,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Applefeather_Mosstail",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50
   },
   {
@@ -80214,7 +80214,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Scorchsummer_Ashbeak",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50
   },
   {
@@ -80235,7 +80235,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Zamorakian_Pledgesaddle",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50,
     "sold_by": [
       {
@@ -80263,7 +80263,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Infernal_Blightbeak",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50,
     "sold_by": [
       {
@@ -80291,7 +80291,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Coastal_Sunbeak",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50,
     "sold_by": [
       {
@@ -80319,7 +80319,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Astralbeak_Warbler",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50,
     "sold_by": [
       {
@@ -80347,7 +80347,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Mossbeak_Hunter",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50,
     "sold_by": [
       {
@@ -80375,7 +80375,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Oakfeather_Raptor",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50,
     "sold_by": [
       {
@@ -80403,7 +80403,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Leafwood_Strider",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50
   },
   {
@@ -80505,7 +80505,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Springdown_Runner",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50
   },
   {
@@ -80526,7 +80526,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Uzzerian_Umber",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50
   },
   {
@@ -80547,7 +80547,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Eclipseborn_Sharpbeak",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50
   },
   {
@@ -80568,7 +80568,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Sunkissed_Clawfoot",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50
   },
   {
@@ -80589,7 +80589,7 @@
     "facilities": [],
     "wikiLink": "MOUNT:_Summerbellied_Wagtail",
     "weight": 0,
-    "itemType": "Basic Item",
+    "itemType": "Vestige",
     "stackLimit": 50
   },
   {
@@ -80819,7 +80819,8 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "MOUNT:_Moonsilk_Weave",
-    "itemType": "Mount"
+    "weight": 0,
+    "itemType": "Vestige"
   },
   {
     "id": "plan-sealed-wooden-crate",
