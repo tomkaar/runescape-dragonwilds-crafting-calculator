@@ -11345,14 +11345,14 @@
     "page_name": "Shroud of Noggin",
     "page_name_sub": "Shroud of Noggin",
     "item_description": "A ghostly sackcloth mask. Reduces Wither buildup while worn.",
-    "item_type": "Vestige",
+    "item_type": "Basic Item",
     "item_name": "Shroud of Noggin",
     "json": {
       "description": "A ghostly sackcloth mask. Reduces Wither buildup while worn.",
       "weight": "1.0",
       "image": "[[File:Shroud of Noggin.png|32px]]",
       "name": "Shroud of Noggin",
-      "item_type": "Vestige",
+      "item_type": "Basic Item",
       "image_raw": "Shroud of Noggin.png"
     },
     "item_weight": 1
@@ -21112,11 +21112,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Grassfoot Screecher.png|32px]]",
       "name": "MOUNT: Grassfoot Screecher",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Grassfoot Screecher.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Grassfoot Screecher"
   },
   {
@@ -21130,11 +21130,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Crimson Crybaby.png|32px]]",
       "name": "MOUNT: Crimson Crybaby",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Crimson Crybaby.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Crimson Crybaby"
   },
   {
@@ -21148,11 +21148,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Applefeather Mosstail.png|32px]]",
       "name": "MOUNT: Applefeather Mosstail",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Applefeather Mosstail.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Applefeather Mosstail"
   },
   {
@@ -21166,11 +21166,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Scorchsummer Ashbeak.png|32px]]",
       "name": "MOUNT: Scorchsummer Ashbeak",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Scorchsummer Ashbeak.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Scorchsummer Ashbeak"
   },
   {
@@ -21184,11 +21184,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Zamorakian Pledgesaddle.png|32px]]",
       "name": "MOUNT: Zamorakian Pledgesaddle",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Zamorakian Pledgesaddle.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Zamorakian Pledgesaddle"
   },
   {
@@ -21202,11 +21202,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Infernal Blightbeak.png|32px]]",
       "name": "MOUNT: Infernal Blightbeak",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Infernal Blightbeak.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Infernal Blightbeak"
   },
   {
@@ -21220,11 +21220,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Coastal Sunbeak.png|32px]]",
       "name": "MOUNT: Coastal Sunbeak",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Coastal Sunbeak.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Coastal Sunbeak"
   },
   {
@@ -21238,11 +21238,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Astralbeak Warbler.png|32px]]",
       "name": "MOUNT: Astralbeak Warbler",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Astralbeak Warbler.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Astralbeak Warbler"
   },
   {
@@ -21256,11 +21256,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Mossbeak Hunter.png|32px]]",
       "name": "MOUNT: Mossbeak Hunter",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Mossbeak Hunter.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Mossbeak Hunter"
   },
   {
@@ -21274,11 +21274,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Oakfeather Raptor.png|32px]]",
       "name": "MOUNT: Oakfeather Raptor",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Oakfeather Raptor.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Oakfeather Raptor"
   },
   {
@@ -21292,11 +21292,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Leafwood Strider.png|32px]]",
       "name": "MOUNT: Leafwood Strider",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Leafwood Strider.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Leafwood Strider"
   },
   {
@@ -21376,11 +21376,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Springdown Runner.png|32px]]",
       "name": "MOUNT: Springdown Runner",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Springdown Runner.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Springdown Runner"
   },
   {
@@ -21394,11 +21394,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Uzzerian Umber.png|32px]]",
       "name": "MOUNT: Uzzerian Umber",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Uzzerian Umber.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Uzzerian Umber"
   },
   {
@@ -21412,11 +21412,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Eclipseborn Sharpbeak.png|32px]]",
       "name": "MOUNT: Eclipseborn Sharpbeak",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Eclipseborn Sharpbeak.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Eclipseborn Sharpbeak"
   },
   {
@@ -21430,11 +21430,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Sunkissed Clawfoot.png|32px]]",
       "name": "MOUNT: Sunkissed Clawfoot",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Sunkissed Clawfoot.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Sunkissed Clawfoot"
   },
   {
@@ -21448,11 +21448,11 @@
       "weight": "0.0",
       "image": "[[File:MOUNT: Summerbellied Wagtail.png|32px]]",
       "name": "MOUNT: Summerbellied Wagtail",
-      "item_type": "Basic Item",
+      "item_type": "Vestige",
       "stacklimit": "50",
       "image_raw": "MOUNT: Summerbellied Wagtail.png"
     },
-    "item_type": "Basic Item",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Summerbellied Wagtail"
   },
   {
@@ -21965,16 +21965,18 @@
   {
     "page_name": "MOUNT: Moonsilk Weave",
     "page_name_sub": "MOUNT: Moonsilk Weave",
-    "item_description": "",
-    "item_type": "Mount",
+    "item_description": "Grants access to a visual mount variant",
+    "item_type": "Vestige",
     "item_name": "MOUNT: Moonsilk Weave",
     "json": {
-      "description": "",
+      "description": "Grants access to a visual mount variant",
+      "weight": "0.0",
       "image": "[[File:MOUNT: Moonsilk Weave.png|32px]]",
       "name": "MOUNT: Moonsilk Weave",
-      "item_type": "Mount",
+      "item_type": "Vestige",
       "image_raw": "MOUNT: Moonsilk Weave.png"
-    }
+    },
+    "item_weight": 0
   },
   {
     "page_name": "PLAN: Sealed Wooden Crate",
