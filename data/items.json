@@ -31834,32 +31834,6 @@
     "image": "Draconic Leather.png",
     "variants": [
       {
-        "id": "13cf185f1b0d",
-        "name": "Draconic Leather",
-        "image": "Draconic Leather.png",
-        "variantName": null,
-        "recipe": {
-          "id": "778fd23d86c7",
-          "facilities": [
-            "Tannery"
-          ],
-          "materials": [
-            {
-              "itemId": "dragonwolf-hide",
-              "quantity": 1
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Artisan",
-              "experience": 40
-            }
-          ]
-        },
-        "usesRecipe": null
-      },
-      {
         "id": "2bdc5754b23a",
         "name": "Draconic Leather",
         "image": "Draconic Leather.png",
@@ -31877,6 +31851,32 @@
             {
               "itemId": "hard-leather",
               "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 40
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "13cf185f1b0d",
+        "name": "Draconic Leather",
+        "image": "Draconic Leather.png",
+        "variantName": null,
+        "recipe": {
+          "id": "778fd23d86c7",
+          "facilities": [
+            "Tannery"
+          ],
+          "materials": [
+            {
+              "itemId": "dragonwolf-hide",
+              "quantity": 1
             }
           ],
           "quantity": 1,
