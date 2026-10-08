@@ -43434,7 +43434,8 @@
   },
   {
     "uses_material": [
-      "Dragonwolf Hide"
+      "Hard Leather",
+      "Dragon Blood"
     ],
     "uses_skill": [
       "Artisan"
@@ -43443,12 +43444,20 @@
       "facility": "Tannery",
       "materials": [
         {
+          "quantity": "3",
+          "name": "Hard Leather",
+          "link": "Hard Leather",
+          "qty": "3",
+          "item": "Hard Leather",
+          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
+        },
+        {
           "quantity": "1",
-          "name": "Dragonwolf Hide",
-          "link": "Dragonwolf Hide",
+          "name": "Dragon Blood",
+          "link": "Dragon Blood",
           "qty": "1",
-          "item": "Dragonwolf Hide",
-          "image": "[[File:Dragonwolf Hide.png|30px|link=Dragonwolf Hide]]"
+          "item": "Dragon Blood",
+          "image": "[[File:Dragon Blood.png|30px|link=Dragon Blood]]"
         }
       ],
       "skills": [
@@ -43478,8 +43487,7 @@
   },
   {
     "uses_material": [
-      "Hard Leather",
-      "Dragon Blood"
+      "Dragonwolf Hide"
     ],
     "uses_skill": [
       "Artisan"
@@ -43488,20 +43496,12 @@
       "facility": "Tannery",
       "materials": [
         {
-          "quantity": "3",
-          "name": "Hard Leather",
-          "link": "Hard Leather",
-          "qty": "3",
-          "item": "Hard Leather",
-          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
-        },
-        {
           "quantity": "1",
-          "name": "Dragon Blood",
-          "link": "Dragon Blood",
+          "name": "Dragonwolf Hide",
+          "link": "Dragonwolf Hide",
           "qty": "1",
-          "item": "Dragon Blood",
-          "image": "[[File:Dragon Blood.png|30px|link=Dragon Blood]]"
+          "item": "Dragonwolf Hide",
+          "image": "[[File:Dragonwolf Hide.png|30px|link=Dragonwolf Hide]]"
         }
       ],
       "skills": [
