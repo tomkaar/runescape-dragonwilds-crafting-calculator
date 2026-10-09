@@ -53327,10 +53327,10 @@
       "facility": "Brewing Cauldron",
       "materials": [
         {
-          "quantity": "6",
+          "quantity": "12",
           "name": "Necrotic Bonemeal",
           "link": "Necrotic Bonemeal",
-          "qty": "6",
+          "qty": "12",
           "item": "Necrotic Bonemeal",
           "image": "[[File:Necrotic Bonemeal.png|30px|link=Necrotic Bonemeal]]"
         },
@@ -80010,18 +80010,18 @@
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Snapdragon",
           "link": "Snapdragon",
-          "qty": 1,
+          "qty": "1",
           "item": "Snapdragon",
           "image": "[[File:Snapdragon.png|30px|link=Snapdragon]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Silver Leaf",
           "link": "Silver Leaf",
-          "qty": 1,
+          "qty": "1",
           "item": "Silver Leaf",
           "image": "[[File:Silver Leaf.png|30px|link=Silver Leaf]]"
         }
@@ -80036,10 +80036,10 @@
         "Lesser Focused Agility Potion"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Lesser Focused Agility Potion",
         "link": "Lesser Focused Agility Potion",
-        "qty": 1,
+        "qty": "1",
         "item": "Lesser Focused Agility Potion",
         "image": "[[File:Lesser Focused Agility Potion.png|30px|link=Lesser Focused Agility Potion]]"
       }
@@ -80064,26 +80064,26 @@
       "facility": "Brewing Cauldron",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Clay Vessel",
           "link": "Clay Vessel",
-          "qty": 1,
+          "qty": "1",
           "item": "Clay Vessel",
           "image": "[[File:Clay Vessel.png|30px|link=Clay Vessel]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Marrentill",
           "link": "Marrentill",
-          "qty": 1,
+          "qty": "1",
           "item": "Marrentill",
           "image": "[[File:Marrentill.png|30px|link=Marrentill]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Bronze Leaf",
           "link": "Bronze Leaf",
-          "qty": 1,
+          "qty": "1",
           "item": "Bronze Leaf",
           "image": "[[File:Bronze Leaf.png|30px|link=Bronze Leaf]]"
         }
@@ -80098,10 +80098,10 @@
         "Weak Focused Agility Potion"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Weak Focused Agility Potion",
         "link": "Weak Focused Agility Potion",
-        "qty": 1,
+        "qty": "1",
         "item": "Weak Focused Agility Potion",
         "image": "[[File:Weak Focused Agility Potion.png|30px|link=Weak Focused Agility Potion]]"
       }
@@ -80187,18 +80187,18 @@
       "facility": "Imbuing Barrel",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Focused Agility Potion",
           "link": "Focused Agility Potion",
-          "qty": 1,
+          "qty": "1",
           "item": "Focused Agility Potion",
           "image": "[[File:Focused Agility Potion.png|30px|link=Focused Agility Potion]]"
         },
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Wild Anima",
           "link": "Wild Anima",
-          "qty": 1,
+          "qty": "1",
           "item": "Wild Anima",
           "image": "[[File:Wild Anima.png|30px|link=Wild Anima]]"
         }
@@ -80213,10 +80213,10 @@
         "Super Focused Agility Potion"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Super Focused Agility Potion",
         "link": "Super Focused Agility Potion",
-        "qty": 1,
+        "qty": "1",
         "item": "Super Focused Agility Potion",
         "image": "[[File:Super Focused Agility Potion.png|30px|link=Super Focused Agility Potion]]"
       }
