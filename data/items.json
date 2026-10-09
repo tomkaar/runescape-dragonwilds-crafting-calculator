@@ -39444,12 +39444,12 @@
     "image": "Demonic Oil.png",
     "variants": [
       {
-        "id": "3683e33bc8c7",
+        "id": "d9d292da936f",
         "name": "Demonic Oil",
         "image": "Demonic Oil.png",
         "variantName": null,
         "recipe": {
-          "id": "90181a478390",
+          "id": "ea84600060a4",
           "facilities": [
             "Brewing Cauldron"
           ],
@@ -39460,7 +39460,7 @@
             },
             {
               "itemId": "necrotic-bonemeal",
-              "quantity": 6
+              "quantity": 12
             },
             {
               "itemId": "vile-ashes",
