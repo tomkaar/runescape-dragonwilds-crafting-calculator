@@ -11966,12 +11966,12 @@
   },
   {
     "page_name": "Unholy Symbol",
-    "item_description": "A necklace that proudlty<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"misspelt &quot;proudly&quot; in cache\">sic</span>&#93;</sup> displays the Zamorak symbol. Don't wear it to church.",
+    "item_description": "A necklace that proudly displays the Zamorak symbol. Don't wear it to church.",
     "page_name_sub": "Unholy Symbol",
     "item_weight": 2,
     "item_stacklimit": 1,
     "json": {
-      "description": "A necklace that proudlty<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"misspelt &quot;proudly&quot; in cache\">sic</span>&#93;</sup> displays the Zamorak symbol. Don't wear it to church.",
+      "description": "A necklace that proudly displays the Zamorak symbol. Don't wear it to church.",
       "weight": "2.0",
       "image": "[[File:Unholy Symbol.png|32px]]",
       "name": "Unholy Symbol",

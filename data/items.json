@@ -36972,6 +36972,100 @@
     "stackLimit": 999
   },
   {
+    "id": "poisoned-steel-arrow",
+    "name": "Poisoned Steel Arrow",
+    "image": "Poisoned Steel Arrow.png",
+    "variants": [
+      {
+        "id": "393b7bcc89a3",
+        "name": "Poisoned Steel Arrow",
+        "image": "Poisoned Steel Arrow.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0a16fc5da93a",
+          "facilities": [
+            "Fletching Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "steel-arrow",
+              "quantity": 33
+            },
+            {
+              "itemId": "weapon-poison",
+              "quantity": 1
+            }
+          ],
+          "quantity": 33,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 40
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Poisoned_Steel_Arrow",
+    "weight": 0,
+    "itemType": "Arrow",
+    "stackLimit": 999
+  },
+  {
+    "id": "steel-barbed-arrow",
+    "name": "Steel Barbed Arrow",
+    "image": "Steel Barbed Arrow.png",
+    "variants": [
+      {
+        "id": "680b868eb248",
+        "name": "Steel Barbed Arrow",
+        "image": "Steel Barbed Arrow.png",
+        "variantName": null,
+        "recipe": {
+          "id": "87bae40765f5",
+          "facilities": [
+            "Fletching Bench"
+          ],
+          "materials": [
+            {
+              "itemId": "steel-arrow",
+              "quantity": 33
+            },
+            {
+              "itemId": "weapon-barbs",
+              "quantity": 1
+            }
+          ],
+          "quantity": 33,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 40
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Fletching Bench"
+    ],
+    "wikiLink": "Steel_Barbed_Arrow",
+    "weight": 0,
+    "itemType": "Arrow",
+    "stackLimit": 999
+  },
+  {
     "id": "watermelon-jerky",
     "name": "Watermelon Jerky",
     "image": "Watermelon Jerky.png",
@@ -39444,12 +39538,12 @@
     "image": "Demonic Oil.png",
     "variants": [
       {
-        "id": "d9d292da936f",
+        "id": "3683e33bc8c7",
         "name": "Demonic Oil",
         "image": "Demonic Oil.png",
         "variantName": null,
         "recipe": {
-          "id": "ea84600060a4",
+          "id": "90181a478390",
           "facilities": [
             "Brewing Cauldron"
           ],
@@ -39460,7 +39554,7 @@
             },
             {
               "itemId": "necrotic-bonemeal",
-              "quantity": 12
+              "quantity": 6
             },
             {
               "itemId": "vile-ashes",
@@ -54935,18 +55029,18 @@
     "image": "Lunar Garou Hat.png",
     "variants": [
       {
-        "id": "4f79f62fbd91",
+        "id": "76a0ae07ebbd",
         "name": "Lunar Garou Hat",
         "image": "Lunar Garou Hat.png",
         "variantName": null,
         "recipe": {
-          "id": "616f0f52313e",
+          "id": "f00a9e8196c4",
           "facilities": [
             "Armour Bench"
           ],
           "materials": [
             {
-              "itemId": "garou-artifact",
+              "itemId": "garou-artefact",
               "quantity": 1
             },
             {
@@ -54995,18 +55089,18 @@
     "image": "Lunar Garou Robes.png",
     "variants": [
       {
-        "id": "eb98c9e163ff",
+        "id": "af756fd78883",
         "name": "Lunar Garou Robes",
         "image": "Lunar Garou Robes.png",
         "variantName": null,
         "recipe": {
-          "id": "ff9068431af4",
+          "id": "58d8d2363bb2",
           "facilities": [
             "Armour Bench"
           ],
           "materials": [
             {
-              "itemId": "garou-artifact",
+              "itemId": "garou-artefact",
               "quantity": 3
             },
             {
@@ -55055,18 +55149,18 @@
     "image": "Lunar Garou Robe Legs.png",
     "variants": [
       {
-        "id": "3e17ec3ae8d9",
+        "id": "1db118917620",
         "name": "Lunar Garou Robe Legs",
         "image": "Lunar Garou Robe Legs.png",
         "variantName": null,
         "recipe": {
-          "id": "331747066b78",
+          "id": "b58dcea41fe3",
           "facilities": [
             "Armour Bench"
           ],
           "materials": [
             {
-              "itemId": "garou-artifact",
+              "itemId": "garou-artefact",
               "quantity": 2
             },
             {
@@ -73671,48 +73765,6 @@
     ]
   },
   {
-    "id": "poisoned-steel-arrow",
-    "name": "Poisoned Steel Arrow",
-    "image": "Poisoned Steel Arrow.png",
-    "variants": [
-      {
-        "id": "poisoned-steel-arrow",
-        "name": "Poisoned Steel Arrow",
-        "image": "Poisoned Steel Arrow.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Poisoned_Steel_Arrow",
-    "weight": 0,
-    "itemType": "Arrow",
-    "stackLimit": 999
-  },
-  {
-    "id": "steel-barbed-arrow",
-    "name": "Steel Barbed Arrow",
-    "image": "Steel Barbed Arrow.png",
-    "variants": [
-      {
-        "id": "steel-barbed-arrow",
-        "name": "Steel Barbed Arrow",
-        "image": "Steel Barbed Arrow.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Steel_Barbed_Arrow",
-    "weight": 0,
-    "itemType": "Arrow",
-    "stackLimit": 999
-  },
-  {
     "id": "tome-of-the-artisan-vol-2",
     "name": "Tome of the Artisan - Vol 2",
     "image": "Tome of the Artisan - Vol 2.png",
@@ -79973,7 +80025,19 @@
     "facilities": [],
     "wikiLink": "Garou_Artefact",
     "weight": 1.5,
-    "itemType": "Basic Material"
+    "itemType": "Basic Material",
+    "bought_by": [
+      {
+        "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 500
+      },
+      {
+        "name": "Domri - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 500
+      }
+    ]
   },
   {
     "id": "lunular-wrappings",
