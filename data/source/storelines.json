@@ -1070,7 +1070,7 @@
   {
     "page_name_sub": "Iasadair - The Merchant",
     "sold_item_json": "{\"Mode\":\"buy\",\"Sold by\":\"Iasadair - The Merchant\",\"Currency\":\"Garou Chit\",\"Cost\":500}",
-    "sold_item": "Garou Artifact",
+    "sold_item": "Garou Artefact",
     "page_name": "Iasadair - The Merchant",
     "json": {
       "Mode": "buy",
@@ -2462,7 +2462,7 @@
   {
     "page_name_sub": "Domri - The Merchant",
     "sold_item_json": "{\"Mode\":\"buy\",\"Sold by\":\"Domri - The Merchant\",\"Currency\":\"Garou Chit\",\"Cost\":500}",
-    "sold_item": "Garou Artifact",
+    "sold_item": "Garou Artefact",
     "page_name": "Domri - The Merchant",
     "json": {
       "Mode": "buy",

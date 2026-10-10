@@ -50046,6 +50046,112 @@
   },
   {
     "uses_material": [
+      "Steel Arrow",
+      "Weapon Poison"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "Steel Arrow",
+          "link": "Steel Arrow",
+          "qty": "33",
+          "item": "Steel Arrow",
+          "image": "[[File:Steel Arrow.png|30px|link=Steel Arrow]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Weapon Poison",
+          "link": "Weapon Poison",
+          "qty": "1",
+          "item": "Weapon Poison",
+          "image": "[[File:Weapon Poison.png|30px|link=Weapon Poison]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Poisoned Steel Arrow"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Poisoned Steel Arrow",
+        "link": "Poisoned Steel Arrow",
+        "qty": "33",
+        "item": "Poisoned Steel Arrow",
+        "image": "[[File:Poisoned Steel Arrow.png|30px|link=Poisoned Steel Arrow]]"
+      }
+    },
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "output": [
+      "Poisoned Steel Arrow"
+    ]
+  },
+  {
+    "uses_material": [
+      "Steel Arrow",
+      "Weapon Barbs"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Fletching Bench",
+      "materials": [
+        {
+          "quantity": "33",
+          "name": "Steel Arrow",
+          "link": "Steel Arrow",
+          "qty": "33",
+          "item": "Steel Arrow",
+          "image": "[[File:Steel Arrow.png|30px|link=Steel Arrow]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Weapon Barbs",
+          "link": "Weapon Barbs",
+          "qty": "1",
+          "item": "Weapon Barbs",
+          "image": "[[File:Weapon Barbs.png|30px|link=Weapon Barbs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Steel Barbed Arrow"
+      ],
+      "output": {
+        "quantity": "33",
+        "name": "Steel Barbed Arrow",
+        "link": "Steel Barbed Arrow",
+        "qty": "33",
+        "item": "Steel Barbed Arrow",
+        "image": "[[File:Steel Barbed Arrow.png|30px|link=Steel Barbed Arrow]]"
+      }
+    },
+    "uses_facility": [
+      "Fletching Bench"
+    ],
+    "output": [
+      "Steel Barbed Arrow"
+    ]
+  },
+  {
+    "uses_material": [
       "Watermelon"
     ],
     "uses_skill": [
@@ -53327,10 +53433,10 @@
       "facility": "Brewing Cauldron",
       "materials": [
         {
-          "quantity": "12",
+          "quantity": "6",
           "name": "Necrotic Bonemeal",
           "link": "Necrotic Bonemeal",
-          "qty": "12",
+          "qty": "6",
           "item": "Necrotic Bonemeal",
           "image": "[[File:Necrotic Bonemeal.png|30px|link=Necrotic Bonemeal]]"
         },
@@ -73147,7 +73253,7 @@
     "uses_material": [
       "Garou Weave",
       "Infinity Cloth",
-      "Garou Artifact",
+      "Garou Artefact",
       "Refined Obsidian",
       "Gypsum Wax"
     ],
@@ -73176,11 +73282,11 @@
         },
         {
           "quantity": "1",
-          "name": "Garou Artifact",
-          "link": "Garou Artifact",
+          "name": "Garou Artefact",
+          "link": "Garou Artefact",
           "qty": "1",
-          "item": "Garou Artifact",
-          "image": "[[File:Garou Artifact.png|30px|link=Garou Artifact]]"
+          "item": "Garou Artefact",
+          "image": "[[File:Garou Artefact.png|30px|link=Garou Artefact]]"
         },
         {
           "quantity": "1",
@@ -73231,7 +73337,7 @@
     "uses_material": [
       "Garou Weave",
       "Infinity Cloth",
-      "Garou Artifact",
+      "Garou Artefact",
       "Refined Obsidian",
       "Gypsum Wax"
     ],
@@ -73260,11 +73366,11 @@
         },
         {
           "quantity": "3",
-          "name": "Garou Artifact",
-          "link": "Garou Artifact",
+          "name": "Garou Artefact",
+          "link": "Garou Artefact",
           "qty": "3",
-          "item": "Garou Artifact",
-          "image": "[[File:Garou Artifact.png|30px|link=Garou Artifact]]"
+          "item": "Garou Artefact",
+          "image": "[[File:Garou Artefact.png|30px|link=Garou Artefact]]"
         },
         {
           "quantity": "3",
@@ -73315,7 +73421,7 @@
     "uses_material": [
       "Garou Weave",
       "Infinity Cloth",
-      "Garou Artifact",
+      "Garou Artefact",
       "Refined Obsidian",
       "Gypsum Wax"
     ],
@@ -73344,11 +73450,11 @@
         },
         {
           "quantity": "2",
-          "name": "Garou Artifact",
-          "link": "Garou Artifact",
+          "name": "Garou Artefact",
+          "link": "Garou Artefact",
           "qty": "2",
-          "item": "Garou Artifact",
-          "image": "[[File:Garou Artifact.png|30px|link=Garou Artifact]]"
+          "item": "Garou Artefact",
+          "image": "[[File:Garou Artefact.png|30px|link=Garou Artefact]]"
         },
         {
           "quantity": "2",
