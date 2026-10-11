@@ -24216,5 +24216,23 @@
     },
     "item_type": "Quest Item",
     "item_name": "Saga (Icthlarin's Little Helper)"
+  },
+  {
+    "page_name": "Burnt Cactus Steak",
+    "item_description": "Too well done, but still edible.",
+    "page_name_sub": "Burnt Cactus Steak",
+    "item_weight": 0.2,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Too well done, but still edible.",
+      "weight": "0.2",
+      "image": "[[File:Burnt Cactus Steak.png|32px]]",
+      "name": "Burnt Cactus Steak",
+      "item_type": "Basic Item",
+      "stacklimit": "99",
+      "image_raw": "Burnt Cactus Steak.png"
+    },
+    "item_type": "Basic Item",
+    "item_name": "Burnt Cactus Steak"
   }
 ]
