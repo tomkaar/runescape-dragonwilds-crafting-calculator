@@ -46258,7 +46258,7 @@
       "Artisan"
     ],
     "json": {
-      "facility": "Blacksmith Bench",
+      "facility": "Blacksmith's Bench",
       "materials": [
         {
           "quantity": "1",
@@ -46304,7 +46304,7 @@
       }
     },
     "uses_facility": [
-      "Blacksmith Bench"
+      "Blacksmith's Bench"
     ],
     "output": [
       "Fuel Pellet"
@@ -89456,6 +89456,94 @@
     ],
     "output": [
       "Zombie Cow Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Cactus Steak"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cactus Steak",
+          "link": "Cactus Steak",
+          "qty": "1",
+          "item": "Cactus Steak",
+          "image": "[[File:Cactus Steak.png|30px|link=Cactus Steak]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Burnt Cactus Steak"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Cactus Steak",
+        "link": "Burnt Cactus Steak",
+        "qty": "1",
+        "item": "Burnt Cactus Steak",
+        "image": "[[File:Burnt Cactus Steak.png|30px|link=Burnt Cactus Steak]]"
+      }
+    },
+    "uses_facility": [
+      "Campfire"
+    ],
+    "output": [
+      "Burnt Cactus Steak"
+    ]
+  },
+  {
+    "uses_material": [
+      "Cactus Steak"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cactus Steak",
+          "link": "Cactus Steak",
+          "qty": "1",
+          "item": "Cactus Steak",
+          "image": "[[File:Cactus Steak.png|30px|link=Cactus Steak]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Burnt Cactus Steak"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Cactus Steak",
+        "link": "Burnt Cactus Steak",
+        "qty": "1",
+        "item": "Burnt Cactus Steak",
+        "image": "[[File:Burnt Cactus Steak.png|30px|link=Burnt Cactus Steak]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Burnt Cactus Steak"
     ]
   }
 ]

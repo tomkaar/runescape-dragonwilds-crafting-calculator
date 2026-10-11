@@ -67851,6 +67851,51 @@
     "wikiLink": "Zombie_Cow_Trophy"
   },
   {
+    "id": "burnt-cactus-steak",
+    "name": "Burnt Cactus Steak",
+    "image": "Burnt Cactus Steak.png",
+    "variants": [
+      {
+        "id": "dd56d092bff5",
+        "name": "Burnt Cactus Steak",
+        "image": "Burnt Cactus Steak.png",
+        "variantName": null,
+        "recipe": {
+          "id": "072085e6cb69",
+          "facilities": [
+            "Campfire",
+            "Grill"
+          ],
+          "materials": [
+            {
+              "itemId": "cactus-steak",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Cooking",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Cooking"
+    ],
+    "facilities": [
+      "Campfire",
+      "Grill"
+    ],
+    "wikiLink": "Burnt_Cactus_Steak",
+    "weight": 0.2,
+    "itemType": "Basic Item",
+    "stackLimit": 99
+  },
+  {
     "id": "goblin-pack",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
