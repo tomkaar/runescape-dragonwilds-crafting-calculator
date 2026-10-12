@@ -28590,7 +28590,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 8
+              "experience": 12
             }
           ]
         },
@@ -79268,26 +79268,6 @@
     "stackLimit": 99
   },
   {
-    "id": "moonstone",
-    "name": "Moonstone",
-    "image": "Moonstone.png",
-    "variants": [
-      {
-        "id": "moonstone",
-        "name": "Moonstone",
-        "image": "Moonstone.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Moonstone",
-    "weight": 0,
-    "itemType": "Quest Item"
-  },
-  {
     "id": "raw-monkfish",
     "name": "Raw Monkfish",
     "image": "Raw Monkfish.png",
@@ -80726,6 +80706,14 @@
         "id": "ascension-shard-6",
         "name": "Ascension Shard 6",
         "image": "Ascension Shard (Power Level 6).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      },
+      {
+        "id": "ascension-shard-7",
+        "name": "Ascension Shard 7",
+        "image": "Ascension Shard (Power Level 7).png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -82178,5 +82166,26 @@
     "weight": 0,
     "itemType": "Quest Item",
     "stackLimit": 1
+  },
+  {
+    "id": "moonstone-item",
+    "name": "Moonstone (item)",
+    "image": "Moonstone (item).png",
+    "variants": [
+      {
+        "id": "moonstone-item",
+        "name": "Moonstone (item)",
+        "image": "Moonstone (item).png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Moonstone_(item)",
+    "weight": 0,
+    "itemType": "Quest Item",
+    "stackLimit": 99
   }
 ]

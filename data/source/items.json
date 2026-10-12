@@ -19276,22 +19276,6 @@
     "item_name": "Obsidian Device"
   },
   {
-    "page_name": "Moonstone",
-    "page_name_sub": "Moonstone",
-    "item_description": "A glittering gemstone, desired by a merchant in the Alcarrid garou settlement.",
-    "item_type": "Quest Item",
-    "item_name": "Moonstone",
-    "json": {
-      "description": "A glittering gemstone, desired by a merchant in the Alcarrid garou settlement.",
-      "weight": "0.0",
-      "image": "[[File:Moonstone.png|32px]]",
-      "name": "Moonstone",
-      "item_type": "Quest Item",
-      "image_raw": "Moonstone.png"
-    },
-    "item_weight": 0
-  },
-  {
     "page_name": "Pharaoh's Sceptre",
     "page_name_sub": "Pharaoh's Sceptre",
     "item_description": "This ancient and powerful weapon lets the wielder channel its sovereign authority into mind-controlling powers.",
@@ -21669,6 +21653,24 @@
     },
     "item_type": "Basic Material",
     "item_name": "Ascension Shard 6"
+  },
+  {
+    "page_name": "Ascension Shard",
+    "item_description": "Used to craft a Tier 7 Ascension Core",
+    "page_name_sub": "Ascension Shard",
+    "item_weight": 0.1,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "Used to craft a Tier 7 Ascension Core",
+      "weight": "0.1",
+      "image": "[[File:Ascension Shard (Power Level 7).png|32px]]",
+      "name": "Ascension Shard 7",
+      "item_type": "Basic Material",
+      "stacklimit": "99",
+      "image_raw": "Ascension Shard (Power Level 7).png"
+    },
+    "item_type": "Basic Material",
+    "item_name": "Ascension Shard 7"
   },
   {
     "page_name": "Ascension Shard",
@@ -24234,5 +24236,23 @@
     },
     "item_type": "Basic Item",
     "item_name": "Burnt Cactus Steak"
+  },
+  {
+    "page_name": "Moonstone (item)",
+    "item_description": "A glittering gemstone, desired by a merchant in the Alcarrid garou settlement.",
+    "page_name_sub": "Moonstone (item)",
+    "item_weight": 0,
+    "item_stacklimit": 99,
+    "json": {
+      "description": "A glittering gemstone, desired by a merchant in the Alcarrid garou settlement.",
+      "weight": "0.0",
+      "image": "[[File:Moonstone (item).png|32px]]",
+      "name": "Moonstone (item)",
+      "item_type": "Quest Item",
+      "stacklimit": "99",
+      "image_raw": "Moonstone (item).png"
+    },
+    "item_type": "Quest Item",
+    "item_name": "Moonstone (item)"
   }
 ]
