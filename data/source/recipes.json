@@ -87698,59 +87698,6 @@
   },
   {
     "uses_material": [
-      "Coarse Thread",
-      "Ash Logs"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "4",
-          "name": "Coarse Thread",
-          "link": "Coarse Thread",
-          "qty": "4",
-          "item": "Coarse Thread",
-          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Ash Logs",
-          "link": "Ash Logs",
-          "qty": "2",
-          "item": "Ash Logs",
-          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": ""
-        }
-      ],
-      "outputs": [
-        "Brynmoor Swamp Toxic Tapestry"
-      ],
-      "output": {
-        "quantity": 1,
-        "name": "Brynmoor Swamp Toxic Tapestry",
-        "link": "Brynmoor Swamp Toxic Tapestry",
-        "qty": 1,
-        "item": "Brynmoor Swamp Toxic Tapestry",
-        "image": "[[File:Brynmoor Swamp Toxic Tapestry.png|30px|link=Brynmoor Swamp Toxic Tapestry]]"
-      }
-    },
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "output": [
-      "Brynmoor Swamp Toxic Tapestry"
-    ]
-  },
-  {
-    "uses_material": [
       "Ash Logs",
       "Leather"
     ],
