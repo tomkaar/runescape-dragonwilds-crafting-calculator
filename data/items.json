@@ -53169,18 +53169,18 @@
         "usesRecipe": null
       },
       {
-        "id": "949f0ee13563",
+        "id": "836408212346",
         "name": "Ascension Core",
         "image": "Ascension Core (Power Level 8).png",
         "variantName": "Power Level 8",
         "recipe": {
-          "id": "7cfb55bbce38",
+          "id": "3e810d9e51e9",
           "facilities": [
             "Mystic Forge"
           ],
           "materials": [
             {
-              "itemId": "ascension-shard-power-level-8",
+              "itemId": "ascension-shard-power-level-7",
               "quantity": 99
             },
             {
