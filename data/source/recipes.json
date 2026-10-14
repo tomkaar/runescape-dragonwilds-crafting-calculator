@@ -70968,7 +70968,7 @@
   },
   {
     "uses_material": [
-      "Ascension Shard (Power Level 8)",
+      "Ascension Shard (Power Level 7)",
       "Rune Bar",
       "Black Dragon Leather",
       "Vis Cloth"
@@ -70981,11 +70981,11 @@
       "materials": [
         {
           "quantity": "99",
-          "name": "Ascension Shard (Power Level 8)",
-          "link": "Ascension Shard (Power Level 8)",
+          "name": "Ascension Shard (Power Level 7)",
+          "link": "Ascension Shard (Power Level 7)",
           "qty": "99",
-          "item": "Ascension Shard (Power Level 8)",
-          "image": "[[File:Ascension Shard (Power Level 8).png|30px|link=Ascension Shard (Power Level 8)]]"
+          "item": "Ascension Shard (Power Level 7)",
+          "image": "[[File:Ascension Shard (Power Level 7).png|30px|link=Ascension Shard (Power Level 7)]]"
         },
         {
           "quantity": "10",
