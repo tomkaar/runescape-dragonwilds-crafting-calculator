@@ -39076,7 +39076,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 0.5
+              "experience": 40
             }
           ]
         },
@@ -67896,6 +67896,92 @@
     "stackLimit": 99
   },
   {
+    "id": "ultra-compost-bin",
+    "name": "Ultra Compost Bin",
+    "image": "Ultra Compost Bin.png",
+    "variants": [
+      {
+        "id": "7276a47fa25c",
+        "name": "Ultra Compost Bin",
+        "image": "Ultra Compost Bin.png",
+        "variantName": null,
+        "recipe": {
+          "id": "19fe6e24b0a6",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "gypsum",
+              "quantity": 4
+            },
+            {
+              "itemId": "yew-logs",
+              "quantity": 8
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Ultra_Compost_Bin"
+  },
+  {
+    "id": "large-compost-bucket",
+    "name": "Large Compost Bucket",
+    "image": "Large Compost Bucket.png",
+    "variants": [
+      {
+        "id": "92c85af2cd73",
+        "name": "Large Compost Bucket",
+        "image": "Large Compost Bucket.png",
+        "variantName": null,
+        "recipe": {
+          "id": "cc96571f5993",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-logs",
+              "quantity": 5
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Farming",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Farming"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Large_Compost_Bucket",
+    "weight": 6,
+    "itemType": "Basic Item"
+  },
+  {
     "id": "goblin-pack",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -82187,5 +82273,24 @@
     "weight": 0,
     "itemType": "Quest Item",
     "stackLimit": 99
+  },
+  {
+    "id": "ultra-compost",
+    "name": "Ultra Compost",
+    "image": "Ultra Compost.png",
+    "variants": [
+      {
+        "id": "ultra-compost",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Ultra_Compost",
+    "itemType": "Resource"
   }
 ]

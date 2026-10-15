@@ -52856,10 +52856,10 @@
       "facility": "Jeweler's Bench",
       "materials": [
         {
-          "quantity": 1,
+          "quantity": "1",
           "name": "Molten Glass",
           "link": "Molten Glass",
-          "qty": 1,
+          "qty": "1",
           "item": "Molten Glass",
           "image": "[[File:Molten Glass.png|30px|link=Molten Glass]]"
         }
@@ -52867,7 +52867,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "0.5"
+          "experience": "40"
         }
       ],
       "outputs": [
@@ -89491,6 +89491,103 @@
     ],
     "output": [
       "Burnt Cactus Steak"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs",
+      "Gypsum"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "8",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "8",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Gypsum",
+          "link": "Gypsum",
+          "qty": "4",
+          "item": "Gypsum",
+          "image": "[[File:Gypsum.png|30px|link=Gypsum]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "12"
+        }
+      ],
+      "outputs": [
+        "Ultra Compost Bin"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Ultra Compost Bin",
+        "link": "Ultra Compost Bin",
+        "qty": 1,
+        "item": "Ultra Compost Bin",
+        "image": "[[File:Ultra Compost Bin.png|30px|link=Ultra Compost Bin]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Ultra Compost Bin"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs"
+    ],
+    "uses_skill": [
+      "Farming"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "5",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "5",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Farming",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Large Compost Bucket"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Large Compost Bucket",
+        "link": "Large Compost Bucket",
+        "qty": "1",
+        "item": "Large Compost Bucket",
+        "image": "[[File:Large Compost Bucket.png|30px|link=Large Compost Bucket]]"
+      }
+    },
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "output": [
+      "Large Compost Bucket"
     ]
   }
 ]

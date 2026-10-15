@@ -24254,5 +24254,35 @@
     },
     "item_type": "Quest Item",
     "item_name": "Moonstone (item)"
+  },
+  {
+    "page_name": "Ultra Compost",
+    "page_name_sub": "Ultra Compost",
+    "item_description": "Fertilizing a plot with this is beneficial to its yield. Like, suspiciously beneficial. Wow!",
+    "item_type": "Resource",
+    "item_name": "Ultra Compost",
+    "json": {
+      "description": "Fertilizing a plot with this is beneficial to its yield. Like, suspiciously beneficial. Wow!",
+      "image": "[[File:Ultra Compost.png|32px]]",
+      "name": "Ultra Compost",
+      "item_type": "Resource",
+      "image_raw": "Ultra Compost.png"
+    }
+  },
+  {
+    "page_name": "Large Compost Bucket",
+    "page_name_sub": "Large Compost Bucket",
+    "item_description": "An upgraded wooden bucket with room for extra Compost. Fewer trips, more fertilizing - just try not to strain your back! Pour its contents over a Farming Plot to Fertilize your plants.",
+    "item_type": "Basic Item",
+    "item_name": "Large Compost Bucket",
+    "json": {
+      "description": "An upgraded wooden bucket with room for extra Compost. Fewer trips, more fertilizing - just try not to strain your back! Pour its contents over a Farming Plot to Fertilize your plants.",
+      "weight": "6.0",
+      "image": "[[File:Large Compost Bucket.png|32px]]",
+      "name": "Large Compost Bucket",
+      "item_type": "Basic Item",
+      "image_raw": "Large Compost Bucket.png"
+    },
+    "item_weight": 6
   }
 ]
