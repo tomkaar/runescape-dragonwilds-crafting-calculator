@@ -59106,10 +59106,10 @@
         "Blue Dyed Cape"
       ],
       "output": {
-        "quantity": 1,
+        "quantity": "1",
         "name": "Blue Dyed Cape",
         "link": "Blue Dyed Cape",
-        "qty": 1,
+        "qty": "1",
         "item": "Blue Dyed Cape",
         "image": "[[File:Blue Dyed Cape.png|30px|link=Blue Dyed Cape]]"
       }
