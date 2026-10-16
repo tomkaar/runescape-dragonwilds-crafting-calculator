@@ -44229,9 +44229,7 @@
     "facilities": [
       "Armour Bench"
     ],
-    "wikiLink": "Blue_Dyed_Cape",
-    "weight": 0,
-    "itemType": "Armour"
+    "wikiLink": "Blue_Dyed_Cape"
   },
   {
     "id": "yellow-dyad-cape",
@@ -75659,14 +75657,6 @@
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
-      },
-      {
-        "id": "agility-cape-trimmed",
-        "name": "Agility Cape (Trimmed)",
-        "image": "Agility Cape (Trimmed).png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
       }
     ],
     "skills": [],
@@ -76031,6 +76021,26 @@
     "weight": 0,
     "itemType": "Vestige",
     "stackLimit": 99
+  },
+  {
+    "id": "blue-dyad-cape",
+    "name": "Blue Dyad Cape",
+    "image": "Blue Dyed Cape.png",
+    "variants": [
+      {
+        "id": "blue-dyad-cape",
+        "name": "Blue Dyad Cape",
+        "image": "Blue Dyed Cape.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Blue_Dyad_Cape",
+    "weight": 0,
+    "itemType": "Armour"
   },
   {
     "id": "soiled-green-cloth",

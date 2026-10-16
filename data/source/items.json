@@ -663,7 +663,7 @@
     "item_stacklimit": 99,
     "json": {
       "description": "A mysterious porous rock used as a base for powerful runes.",
-      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000001-QINU`\"'",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
       "item_type": "Basic Item",
@@ -7560,26 +7560,9 @@
     "json": {
       "description": "Congratulations! Reaching level 99 in Attack is an astonishing feat. Wear this cape with pride.",
       "weight": "0.0",
-      "image": "[[File:Attack Cape.png|32px]]",
+      "image": "",
       "name": "Attack Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Attack Cape.png"
-    },
-    "item_weight": 0
-  },
-  {
-    "page_name": "Attack Cape",
-    "page_name_sub": "Attack Cape",
-    "item_description": "Congratulations! Reaching level 99 in Attack is an astonishing feat. Wear this cape with pride.",
-    "item_type": "Basic Item",
-    "item_name": "Attack Cape (Trimmed)",
-    "json": {
-      "description": "Congratulations! Reaching level 99 in Attack is an astonishing feat. Wear this cape with pride.",
-      "weight": "0.0",
-      "image": "[[File:Attack Cape (Trimmed).png|32px]]",
-      "name": "Attack Cape (Trimmed)",
-      "item_type": "Basic Item",
-      "image_raw": "Attack Cape (Trimmed).png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -13065,26 +13048,9 @@
     "json": {
       "description": "Congratulations! Reaching level 99 in Artisan is an astonishing feat. Wear this cape with pride.",
       "weight": "0.0",
-      "image": "[[File:Artisan Cape.png|32px]]",
+      "image": "",
       "name": "Artisan Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Artisan Cape.png"
-    },
-    "item_weight": 0
-  },
-  {
-    "page_name": "Artisan Cape",
-    "page_name_sub": "Artisan Cape",
-    "item_description": "Congratulations! Reaching level 99 in Artisan is an astonishing feat. Wear this cape with pride.",
-    "item_type": "Basic Item",
-    "item_name": "Artisan Cape (Trimmed)",
-    "json": {
-      "description": "Congratulations! Reaching level 99 in Artisan is an astonishing feat. Wear this cape with pride.",
-      "weight": "0.0",
-      "image": "[[File:Artisan Cape (Trimmed).png|32px]]",
-      "name": "Artisan Cape (Trimmed)",
-      "item_type": "Basic Item",
-      "image_raw": "Artisan Cape (Trimmed).png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -13097,26 +13063,9 @@
     "json": {
       "description": "Congratulations! Reaching level 99 in Construction is an astonishing feat. Wear this cape with pride.",
       "weight": "0.0",
-      "image": "[[File:Construction Cape.png|32px]]",
+      "image": "",
       "name": "Construction Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Construction Cape.png"
-    },
-    "item_weight": 0
-  },
-  {
-    "page_name": "Construction Cape",
-    "page_name_sub": "Construction Cape",
-    "item_description": "Congratulations! Reaching level 99 in Construction is an astonishing feat. Wear this cape with pride.",
-    "item_type": "Basic Item",
-    "item_name": "Construction Cape (Trimmed)",
-    "json": {
-      "description": "Congratulations! Reaching level 99 in Construction is an astonishing feat. Wear this cape with pride.",
-      "weight": "0.0",
-      "image": "[[File:Construction Cape (Trimmed).png|32px]]",
-      "name": "Construction Cape (Trimmed)",
-      "item_type": "Basic Item",
-      "image_raw": "Construction Cape (Trimmed).png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -13129,26 +13078,9 @@
     "json": {
       "description": "Congratulations! Reaching level 99 in Cooking is an astonishing feat. Wear this cape with pride.",
       "weight": "0.0",
-      "image": "[[File:Cooking Cape.png|32px]]",
+      "image": "",
       "name": "Cooking Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Cooking Cape.png"
-    },
-    "item_weight": 0
-  },
-  {
-    "page_name": "Cooking Cape",
-    "page_name_sub": "Cooking Cape",
-    "item_description": "Congratulations! Reaching level 99 in Cooking is an astonishing feat. Wear this cape with pride.",
-    "item_type": "Basic Item",
-    "item_name": "Cooking Cape (Trimmed)",
-    "json": {
-      "description": "Congratulations! Reaching level 99 in Cooking is an astonishing feat. Wear this cape with pride.",
-      "weight": "0.0",
-      "image": "[[File:Cooking Cape (Trimmed).png|32px]]",
-      "name": "Cooking Cape (Trimmed)",
-      "item_type": "Basic Item",
-      "image_raw": "Cooking Cape (Trimmed).png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -13161,26 +13093,9 @@
     "json": {
       "description": "Congratulations! Reaching level 99 in Farming is an astonishing feat. Wear this cape with pride.",
       "weight": "0.0",
-      "image": "[[File:Farming Cape.png|32px]]",
+      "image": "",
       "name": "Farming Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Farming Cape.png"
-    },
-    "item_weight": 0
-  },
-  {
-    "page_name": "Farming Cape",
-    "page_name_sub": "Farming Cape",
-    "item_description": "Congratulations! Reaching level 99 in Farming is an astonishing feat. Wear this cape with pride.",
-    "item_type": "Basic Item",
-    "item_name": "Farming Cape (Trimmed)",
-    "json": {
-      "description": "Congratulations! Reaching level 99 in Farming is an astonishing feat. Wear this cape with pride.",
-      "weight": "0.0",
-      "image": "[[File:Farming Cape (Trimmed).png|32px]]",
-      "name": "Farming Cape (Trimmed)",
-      "item_type": "Basic Item",
-      "image_raw": "Farming Cape (Trimmed).png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -13193,26 +13108,9 @@
     "json": {
       "description": "Congratulations! Reaching level 99 in Magic is an astonishing feat. Wear this cape with pride.",
       "weight": "0.0",
-      "image": "[[File:Magic Cape.png|32px]]",
+      "image": "",
       "name": "Magic Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Magic Cape.png"
-    },
-    "item_weight": 0
-  },
-  {
-    "page_name": "Magic Cape",
-    "page_name_sub": "Magic Cape",
-    "item_description": "Congratulations! Reaching level 99 in Magic is an astonishing feat. Wear this cape with pride.",
-    "item_type": "Basic Item",
-    "item_name": "Magic Cape (Trimmed)",
-    "json": {
-      "description": "Congratulations! Reaching level 99 in Magic is an astonishing feat. Wear this cape with pride.",
-      "weight": "0.0",
-      "image": "[[File:Magic Cape (Trimmed).png|32px]]",
-      "name": "Magic Cape (Trimmed)",
-      "item_type": "Basic Item",
-      "image_raw": "Magic Cape (Trimmed).png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -13225,26 +13123,9 @@
     "json": {
       "description": "Congratulations! Reaching level 99 in Ranged is an astonishing feat. Wear this cape with pride.",
       "weight": "0.0",
-      "image": "[[File:Ranged Cape.png|32px]]",
+      "image": "",
       "name": "Ranged Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Ranged Cape.png"
-    },
-    "item_weight": 0
-  },
-  {
-    "page_name": "Ranged Cape",
-    "page_name_sub": "Ranged Cape",
-    "item_description": "Congratulations! Reaching level 99 in Ranged is an astonishing feat. Wear this cape with pride.",
-    "item_type": "Basic Item",
-    "item_name": "Ranged Cape (Trimmed)",
-    "json": {
-      "description": "Congratulations! Reaching level 99 in Ranged is an astonishing feat. Wear this cape with pride.",
-      "weight": "0.0",
-      "image": "[[File:Ranged Cape (Trimmed).png|32px]]",
-      "name": "Ranged Cape (Trimmed)",
-      "item_type": "Basic Item",
-      "image_raw": "Ranged Cape (Trimmed).png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -13257,26 +13138,9 @@
     "json": {
       "description": "Congratulations! Reaching level 99 in Runecrafting is an astonishing feat. Wear this cape with pride.",
       "weight": "0.0",
-      "image": "[[File:Runecrafting Cape.png|32px]]",
+      "image": "",
       "name": "Runecrafting Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Runecrafting Cape.png"
-    },
-    "item_weight": 0
-  },
-  {
-    "page_name": "Runecrafting Cape",
-    "page_name_sub": "Runecrafting Cape",
-    "item_description": "Congratulations! Reaching level 99 in Runecrafting is an astonishing feat. Wear this cape with pride.",
-    "item_type": "Basic Item",
-    "item_name": "Runecrafting Cape (Trimmed)",
-    "json": {
-      "description": "Congratulations! Reaching level 99 in Runecrafting is an astonishing feat. Wear this cape with pride.",
-      "weight": "0.0",
-      "image": "[[File:Runecrafting Cape (Trimmed).png|32px]]",
-      "name": "Runecrafting Cape (Trimmed)",
-      "item_type": "Basic Item",
-      "image_raw": "Runecrafting Cape (Trimmed).png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -13289,26 +13153,9 @@
     "json": {
       "description": "Congratulations! Reaching level 99 in Woodcutting is an astonishing feat. Wear this cape with pride.",
       "weight": "0.0",
-      "image": "[[File:Woodcutting Cape.png|32px]]",
+      "image": "",
       "name": "Woodcutting Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Woodcutting Cape.png"
-    },
-    "item_weight": 0
-  },
-  {
-    "page_name": "Woodcutting Cape",
-    "page_name_sub": "Woodcutting Cape",
-    "item_description": "Congratulations! Reaching level 99 in Woodcutting is an astonishing feat. Wear this cape with pride.",
-    "item_type": "Basic Item",
-    "item_name": "Woodcutting Cape (Trimmed)",
-    "json": {
-      "description": "Congratulations! Reaching level 99 in Woodcutting is an astonishing feat. Wear this cape with pride.",
-      "weight": "0.0",
-      "image": "[[File:Woodcutting Cape (Trimmed).png|32px]]",
-      "name": "Woodcutting Cape (Trimmed)",
-      "item_type": "Basic Item",
-      "image_raw": "Woodcutting Cape (Trimmed).png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -13403,26 +13250,9 @@
     "json": {
       "description": "Congratulations! Reaching level 99 in Mining is an astonishing feat. Wear this cape with pride.",
       "weight": "0.0",
-      "image": "[[File:Mining Cape.png|32px]]",
+      "image": "",
       "name": "Mining Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Mining Cape.png"
-    },
-    "item_weight": 0
-  },
-  {
-    "page_name": "Mining Cape",
-    "page_name_sub": "Mining Cape",
-    "item_description": "Congratulations! Reaching level 99 in Mining is an astonishing feat. Wear this cape with pride.",
-    "item_type": "Basic Item",
-    "item_name": "Mining Cape (Trimmed)",
-    "json": {
-      "description": "Congratulations! Reaching level 99 in Mining is an astonishing feat. Wear this cape with pride.",
-      "weight": "0.0",
-      "image": "[[File:Mining Cape (Trimmed).png|32px]]",
-      "name": "Mining Cape (Trimmed)",
-      "item_type": "Basic Item",
-      "image_raw": "Mining Cape (Trimmed).png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -13721,22 +13551,6 @@
     "item_weight": 0
   },
   {
-    "page_name": "Agility Cape",
-    "page_name_sub": "Agility Cape",
-    "item_description": "Congratulations! Reaching level 99 in Agility is an astonishing feat. Wear this cape with pride.",
-    "item_type": "Basic Item",
-    "item_name": "Agility Cape (Trimmed)",
-    "json": {
-      "description": "Congratulations! Reaching level 99 in Agility is an astonishing feat. Wear this cape with pride.",
-      "weight": "0.0",
-      "image": "[[File:Agility Cape (Trimmed).png|32px]]",
-      "name": "Agility Cape (Trimmed)",
-      "item_type": "Basic Item",
-      "image_raw": "Agility Cape (Trimmed).png"
-    },
-    "item_weight": 0
-  },
-  {
     "page_name": "Fishing Cape",
     "page_name_sub": "Fishing Cape",
     "item_description": "Congratulations! Reaching level 99 in Fishing is an astonishing feat. Wear this cape with pride.",
@@ -13745,26 +13559,9 @@
     "json": {
       "description": "Congratulations! Reaching level 99 in Fishing is an astonishing feat. Wear this cape with pride.",
       "weight": "0.0",
-      "image": "[[File:Fishing Cape.png|32px]]",
+      "image": "",
       "name": "Fishing Cape",
-      "item_type": "Basic Item",
-      "image_raw": "Fishing Cape.png"
-    },
-    "item_weight": 0
-  },
-  {
-    "page_name": "Fishing Cape",
-    "page_name_sub": "Fishing Cape",
-    "item_description": "Congratulations! Reaching level 99 in Fishing is an astonishing feat. Wear this cape with pride.",
-    "item_type": "Basic Item",
-    "item_name": "Fishing Cape (Trimmed)",
-    "json": {
-      "description": "Congratulations! Reaching level 99 in Fishing is an astonishing feat. Wear this cape with pride.",
-      "weight": "0.0",
-      "image": "[[File:Fishing Cape (Trimmed).png|32px]]",
-      "name": "Fishing Cape (Trimmed)",
-      "item_type": "Basic Item",
-      "image_raw": "Fishing Cape (Trimmed).png"
+      "item_type": "Basic Item"
     },
     "item_weight": 0
   },
@@ -14444,16 +14241,16 @@
     "item_weight": 0
   },
   {
-    "page_name": "Blue Dyed Cape",
-    "page_name_sub": "Blue Dyed Cape",
+    "page_name": "Blue Dyad Cape",
+    "page_name_sub": "Blue Dyad Cape",
     "item_description": "A cape made for its looks more than any kind of magical potency.",
     "item_type": "Armour",
-    "item_name": "Blue Dyed Cape",
+    "item_name": "Blue Dyad Cape",
     "json": {
       "description": "A cape made for its looks more than any kind of magical potency.",
       "weight": "0.0",
       "image": "[[File:Blue Dyed Cape.png|32px]]",
-      "name": "Blue Dyed Cape",
+      "name": "Blue Dyad Cape",
       "item_type": "Armour",
       "image_raw": "Blue Dyed Cape.png"
     },
