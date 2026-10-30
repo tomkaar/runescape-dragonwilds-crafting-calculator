@@ -290,7 +290,7 @@
   {
     "page_name_sub": "Death (Grim Reaper)",
     "sold_item_json": "{\"Mode\":\"sell\",\"Sold by\":\"Death (Grim Reaper)\",\"Currency\":\"Soul Fragment\",\"Cost\":2000}",
-    "sold_item": "MOUNT: Mossbeak Hunter",
+    "sold_item": "MOUNT: Mossbreak Hunter",
     "page_name": "Death (Grim Reaper)",
     "json": {
       "Mode": "sell",
@@ -1670,7 +1670,7 @@
   {
     "page_name_sub": "Beartach - The Merchant",
     "sold_item_json": "{\"Mode\":\"buy\",\"Sold by\":\"Beartach - The Merchant\",\"Currency\":\"Garou Chit\",\"Cost\":500}",
-    "sold_item": "Garou Artifact",
+    "sold_item": "Garou Artefact",
     "page_name": "Beartach - The Merchant",
     "json": {
       "Mode": "buy",

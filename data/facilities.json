@@ -32,6 +32,10 @@
     "name": "Campfire"
   },
   {
+    "id": "compost-bin",
+    "name": "Compost Bin"
+  },
+  {
     "id": "cooking-pot",
     "name": "Cooking Pot"
   },
@@ -54,6 +58,10 @@
   {
     "id": "furnace",
     "name": "Furnace"
+  },
+  {
+    "id": "goblin-stove",
+    "name": "Goblin Stove"
   },
   {
     "id": "grill",
@@ -112,7 +120,15 @@
     "name": "Stonecutter"
   },
   {
+    "id": "super-compost-bin",
+    "name": "Super Compost Bin"
+  },
+  {
     "id": "tannery",
     "name": "Tannery"
+  },
+  {
+    "id": "ultra-compost-bin",
+    "name": "Ultra Compost Bin"
   }
 ]

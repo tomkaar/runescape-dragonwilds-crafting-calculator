@@ -203,6 +203,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Redberries",
+          "link": "Redberries",
+          "qty": "1",
+          "image": "[[File:Redberries.png|30px|link=Redberries]]",
+          "item": "Redberries"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Redberries"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Raw Rat Meat"
     ],
@@ -786,6 +822,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cabbage",
+          "link": "Cabbage",
+          "qty": "1",
+          "image": "[[File:Cabbage.png|30px|link=Cabbage]]",
+          "item": "Cabbage"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Cabbage"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Ash Logs",
       "Rune Essence",
@@ -845,6 +917,78 @@
     ],
     "output": [
       "Ash Battlestaff"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Flax",
+          "link": "Flax",
+          "qty": "1",
+          "image": "[[File:Flax.png|30px|link=Flax]]",
+          "item": "Flax"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Flax"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "1",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]",
+          "item": "Ash Logs"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Ash Logs"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -933,6 +1077,186 @@
     ],
     "output": [
       "Leather"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Marrentil",
+          "link": "Marrentil",
+          "qty": "1",
+          "image": "[[File:Marrentil.png|30px|link=Marrentil]]",
+          "item": "Marrentil"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Marrentil"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Harralander",
+          "link": "Harralander",
+          "qty": "1",
+          "image": "[[File:Harralander.png|30px|link=Harralander]]",
+          "item": "Harralander"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Harralander"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "1",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]",
+          "item": "Feathers"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Feathers"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Bittercap Mushroom",
+          "link": "Bittercap Mushroom",
+          "qty": "1",
+          "image": "[[File:Bittercap Mushroom.png|30px|link=Bittercap Mushroom]]",
+          "item": "Bittercap Mushroom"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Bittercap Mushroom"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Antler",
+          "link": "Antler",
+          "qty": "1",
+          "image": "[[File:Antler.png|30px|link=Antler]]",
+          "item": "Antler"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Antler"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -1414,6 +1738,78 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dwellberries",
+          "link": "Dwellberries",
+          "qty": "1",
+          "image": "[[File:Dwellberries.png|30px|link=Dwellberries]]",
+          "item": "Dwellberries"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Dwellberries"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Rat Meat",
+          "link": "Raw Rat Meat",
+          "qty": "1",
+          "image": "[[File:Raw Rat Meat.png|30px|link=Raw Rat Meat]]",
+          "item": "Raw Rat Meat"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Rat Meat"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Dirty Water"
     ],
@@ -1587,6 +1983,42 @@
     ],
     "output": [
       "Clean Water"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Animal Bone",
+          "link": "Animal Bone",
+          "qty": "1",
+          "image": "[[File:Animal Bone.png|30px|link=Animal Bone]]",
+          "item": "Animal Bone"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Animal Bone"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -2990,6 +3422,42 @@
     ],
     "output": [
       "Astral Rune"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Potato",
+          "link": "Potato",
+          "qty": "1",
+          "image": "[[File:Potato.png|30px|link=Potato]]",
+          "item": "Potato"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Potato"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -4465,6 +4933,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Small Animal Fang",
+          "link": "Small Animal Fang",
+          "qty": "1",
+          "image": "[[File:Small Animal Fang.png|30px|link=Small Animal Fang]]",
+          "item": "Small Animal Fang"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Small Animal Fang"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Iron Bar",
       "Hard Leather",
@@ -5841,6 +6345,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Snapdragon",
+          "link": "Snapdragon",
+          "qty": "1",
+          "image": "[[File:Snapdragon.png|30px|link=Snapdragon]]",
+          "item": "Snapdragon"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Snapdragon"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Snapdragon",
       "Ground Granite",
@@ -6174,6 +6714,42 @@
     ],
     "output": [
       "Armour Mannequin"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Toadflax",
+          "link": "Toadflax",
+          "qty": "1",
+          "image": "[[File:Toadflax.png|30px|link=Toadflax]]",
+          "item": "Toadflax"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Toadflax"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -6795,6 +7371,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Oak Logs",
+          "link": "Oak Logs",
+          "qty": "1",
+          "image": "[[File:Oak Logs.png|30px|link=Oak Logs]]",
+          "item": "Oak Logs"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Oak Logs"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Dried Redberries",
       "Wheat"
@@ -7186,6 +7798,42 @@
     ],
     "output": [
       "Water Rune"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Anima-Infused Bark",
+          "link": "Anima-Infused Bark",
+          "qty": "1",
+          "image": "[[File:Anima-Infused Bark.png|30px|link=Anima-Infused Bark]]",
+          "item": "Anima-Infused Bark"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Anima-Infused Bark"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -8806,6 +9454,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Monstrous Fang",
+          "link": "Monstrous Fang",
+          "qty": "1",
+          "image": "[[File:Monstrous Fang.png|30px|link=Monstrous Fang]]",
+          "item": "Monstrous Fang"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Monstrous Fang"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Bronze Bar",
       "Hard Leather",
@@ -9095,6 +9779,42 @@
     ],
     "output": [
       "Swamp Thread"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Swamp Weed",
+          "link": "Swamp Weed",
+          "qty": "1",
+          "image": "[[File:Swamp Weed.png|30px|link=Swamp Weed]]",
+          "item": "Swamp Weed"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Swamp Weed"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -10783,6 +11503,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Farm Meat",
+          "link": "Raw Farm Meat",
+          "qty": "1",
+          "image": "[[File:Raw Farm Meat.png|30px|link=Raw Farm Meat]]",
+          "item": "Raw Farm Meat"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Farm Meat"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Ash Plank",
       "Bronze Bar",
@@ -10860,6 +11616,42 @@
     ],
     "output": [
       "Cooking Range"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Onion",
+          "link": "Onion",
+          "qty": "1",
+          "image": "[[File:Onion.png|30px|link=Onion]]",
+          "item": "Onion"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Onion"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -11975,6 +12767,78 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Bestial Meat",
+          "link": "Raw Bestial Meat",
+          "qty": "1",
+          "image": "[[File:Raw Bestial Meat.png|30px|link=Raw Bestial Meat]]",
+          "item": "Raw Bestial Meat"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Bestial Meat"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Bird Meat",
+          "link": "Raw Bird Meat",
+          "qty": "1",
+          "image": "[[File:Raw Bird Meat.png|30px|link=Raw Bird Meat]]",
+          "item": "Raw Bird Meat"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Bird Meat"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Rat Roast",
       "Dried Redberries"
@@ -12275,6 +13139,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Game Meat",
+          "link": "Raw Game Meat",
+          "qty": "1",
+          "image": "[[File:Raw Game Meat.png|30px|link=Raw Game Meat]]",
+          "item": "Raw Game Meat"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Game Meat"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Hard Leather",
       "Padded Cloth",
@@ -12367,7 +13267,7 @@
       "skills": [
         {
           "name": "Artisan",
-          "experience": "25"
+          "experience": "60"
         }
       ],
       "outputs": [
@@ -12581,6 +13481,42 @@
     ],
     "output": [
       "Ground Stone"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Bloodwood Sap",
+          "link": "Bloodwood Sap",
+          "qty": "1",
+          "image": "[[File:Bloodwood Sap.png|30px|link=Bloodwood Sap]]",
+          "item": "Bloodwood Sap"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Bloodwood Sap"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -13570,6 +14506,42 @@
     ],
     "output": [
       "Purified King's Token"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Shocking Plant Bulb",
+          "link": "Shocking Plant Bulb",
+          "qty": "1",
+          "image": "[[File:Shocking Plant Bulb.png|30px|link=Shocking Plant Bulb]]",
+          "item": "Shocking Plant Bulb"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Shocking Plant Bulb"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -24085,6 +25057,59 @@
         "qty": 1,
         "item": "Medium 45° Roof",
         "image": "[[File:Medium 45° Roof (Cottage).png|30px|link=Medium 45° Roof]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Medium 45° Roof"
+    ]
+  },
+  {
+    "uses_material": [
+      "Weeds",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Weeds",
+          "link": "Weeds",
+          "qty": "4",
+          "item": "Weeds",
+          "image": "[[File:Weeds.png|30px|link=Weeds]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "8"
+        }
+      ],
+      "outputs": [
+        "Medium 45° Roof"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Medium 45° Roof",
+        "link": "Medium 45° Roof",
+        "qty": 1,
+        "item": "Medium 45° Roof",
+        "image": "[[File:Medium 45° Roof (Thatched).png|30px|link=Medium 45° Roof]]"
       }
     },
     "uses_facility": [
@@ -36305,6 +37330,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Peach",
+          "link": "Peach",
+          "qty": "1",
+          "image": "[[File:Peach.png|30px|link=Peach]]",
+          "item": "Peach"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Peach"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Bronze Bar"
     ],
@@ -38516,6 +39577,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Egg",
+          "link": "Egg",
+          "qty": "1",
+          "image": "[[File:Egg.png|30px|link=Egg]]",
+          "item": "Egg"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Egg"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Egg"
     ],
@@ -39551,6 +40648,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Potato",
+          "link": "Burnt Potato",
+          "qty": "1",
+          "image": "[[File:Burnt Potato.png|30px|link=Burnt Potato]]",
+          "item": "Burnt Potato"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Potato"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Potato"
     ],
@@ -39636,6 +40769,42 @@
     ],
     "output": [
       "Burnt Potato"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Onion",
+          "link": "Burnt Onion",
+          "qty": "1",
+          "image": "[[File:Burnt Onion.png|30px|link=Burnt Onion]]",
+          "item": "Burnt Onion"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Onion"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -39727,6 +40896,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Mushroom",
+          "link": "Burnt Mushroom",
+          "qty": "1",
+          "image": "[[File:Burnt Mushroom.png|30px|link=Burnt Mushroom]]",
+          "item": "Burnt Mushroom"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Mushroom"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Bittercap Mushroom"
     ],
@@ -39812,6 +41017,42 @@
     ],
     "output": [
       "Burnt Mushroom"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Flank",
+          "link": "Burnt Flank",
+          "qty": "1",
+          "image": "[[File:Burnt Flank.png|30px|link=Burnt Flank]]",
+          "item": "Burnt Flank"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Flank"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -39903,6 +41144,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Steak",
+          "link": "Burnt Steak",
+          "qty": "1",
+          "image": "[[File:Burnt Steak.png|30px|link=Burnt Steak]]",
+          "item": "Burnt Steak"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Steak"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Raw Farm Meat"
     ],
@@ -39988,6 +41265,42 @@
     ],
     "output": [
       "Burnt Steak"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Cabbage",
+          "link": "Burnt Cabbage",
+          "qty": "1",
+          "image": "[[File:Burnt Cabbage.png|30px|link=Burnt Cabbage]]",
+          "item": "Burnt Cabbage"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Cabbage"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -40079,6 +41392,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Dwellberries",
+          "link": "Burnt Dwellberries",
+          "qty": "1",
+          "image": "[[File:Burnt Dwellberries.png|30px|link=Burnt Dwellberries]]",
+          "item": "Burnt Dwellberries"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Dwellberries"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Dwellberries"
     ],
@@ -40164,6 +41513,42 @@
     ],
     "output": [
       "Burnt Dwellberries"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Rat Roast",
+          "link": "Burnt Rat Roast",
+          "qty": "1",
+          "image": "[[File:Burnt Rat Roast.png|30px|link=Burnt Rat Roast]]",
+          "item": "Burnt Rat Roast"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Rat Roast"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -40255,6 +41640,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Haunch",
+          "link": "Burnt Haunch",
+          "qty": "1",
+          "image": "[[File:Burnt Haunch.png|30px|link=Burnt Haunch]]",
+          "item": "Burnt Haunch"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Haunch"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Raw Game Meat"
     ],
@@ -40340,6 +41761,42 @@
     ],
     "output": [
       "Burnt Haunch"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Fillet",
+          "link": "Burnt Fillet",
+          "qty": "1",
+          "image": "[[File:Burnt Fillet.png|30px|link=Burnt Fillet]]",
+          "item": "Burnt Fillet"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Fillet"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -40431,6 +41888,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Redberries",
+          "link": "Burnt Redberries",
+          "qty": "1",
+          "image": "[[File:Burnt Redberries.png|30px|link=Burnt Redberries]]",
+          "item": "Burnt Redberries"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Redberries"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Redberries"
     ],
@@ -40519,6 +42012,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Peach",
+          "link": "Burnt Peach",
+          "qty": "1",
+          "image": "[[File:Burnt Peach.png|30px|link=Burnt Peach]]",
+          "item": "Burnt Peach"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Peach"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Peach"
     ],
@@ -40604,6 +42133,42 @@
     ],
     "output": [
       "Burnt Peach"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Egg",
+          "link": "Burnt Egg",
+          "qty": "1",
+          "image": "[[File:Burnt Egg.png|30px|link=Burnt Egg]]",
+          "item": "Burnt Egg"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Egg"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -44017,6 +45582,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Wheat",
+          "link": "Wheat",
+          "qty": "1",
+          "image": "[[File:Wheat.png|30px|link=Wheat]]",
+          "item": "Wheat"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Wheat"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Corpse Cotton"
     ],
@@ -44704,6 +46305,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cadavaberries",
+          "link": "Cadavaberries",
+          "qty": "1",
+          "image": "[[File:Cadavaberries.png|30px|link=Cadavaberries]]",
+          "item": "Cadavaberries"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": 10,
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Cadavaberries"
+    ],
+    "output": [
+      "Super Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Oak Logs",
       "Steel Bar",
@@ -44890,6 +46527,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Corpse Cotton",
+          "link": "Corpse Cotton",
+          "qty": "1",
+          "image": "[[File:Corpse Cotton.png|30px|link=Corpse Cotton]]",
+          "item": "Corpse Cotton"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": 10,
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Corpse Cotton"
+    ],
+    "output": [
+      "Super Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Undead Bone",
       "Sacred Oil",
@@ -44961,6 +46634,114 @@
     ]
   },
   {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pumpkin",
+          "link": "Pumpkin",
+          "qty": "1",
+          "image": "[[File:Pumpkin.png|30px|link=Pumpkin]]",
+          "item": "Pumpkin"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": 10,
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Pumpkin"
+    ],
+    "output": [
+      "Super Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Willow Logs",
+          "link": "Willow Logs",
+          "qty": "1",
+          "image": "[[File:Willow Logs.png|30px|link=Willow Logs]]",
+          "item": "Willow Logs"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": 10,
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Willow Logs"
+    ],
+    "output": [
+      "Super Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Tomato",
+          "link": "Tomato",
+          "qty": "1",
+          "image": "[[File:Tomato.png|30px|link=Tomato]]",
+          "item": "Tomato"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Tomato"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Withered Heart"
     ],
@@ -45002,6 +46783,42 @@
     ],
     "output": [
       "Ectoplasm"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Watermelon",
+          "link": "Watermelon",
+          "qty": "1",
+          "image": "[[File:Watermelon.png|30px|link=Watermelon]]",
+          "item": "Watermelon"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": 10,
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Watermelon"
+    ],
+    "output": [
+      "Super Compost"
     ]
   },
   {
@@ -45255,7 +47072,7 @@
       "Artisan"
     ],
     "json": {
-      "recipe": "A Cracked Bronze Vanity Mirror",
+      "recipe": "Cracked Bronze Vanity Mirror",
       "facility": "Jeweler's Bench",
       "materials": [
         {
@@ -45313,7 +47130,7 @@
       "Jeweler's Bench"
     ],
     "uses_recipe": [
-      "A Cracked Bronze Vanity Mirror"
+      "Cracked Bronze Vanity Mirror"
     ],
     "output": [
       "Ring of Recoil"
@@ -45962,6 +47779,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Hollow Bark",
+          "link": "Hollow Bark",
+          "qty": "1",
+          "image": "[[File:Hollow Bark.png|30px|link=Hollow Bark]]",
+          "item": "Hollow Bark"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": 10,
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Hollow Bark"
+    ],
+    "output": [
+      "Super Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Snapdragon",
       "Ground Clay",
@@ -46021,6 +47874,78 @@
     ],
     "output": [
       "Lesser Focused Artisan Potion"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Irit",
+          "link": "Irit",
+          "qty": "1",
+          "image": "[[File:Irit.png|30px|link=Irit]]",
+          "item": "Irit"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": 10,
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Irit"
+    ],
+    "output": [
+      "Super Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Undead Bone",
+          "link": "Undead Bone",
+          "qty": "1",
+          "image": "[[File:Undead Bone.png|30px|link=Undead Bone]]",
+          "item": "Undead Bone"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": 10,
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Undead Bone"
+    ],
+    "output": [
+      "Super Compost"
     ]
   },
   {
@@ -46932,6 +48857,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Bag of Flour",
+          "link": "Bag of Flour",
+          "qty": "1",
+          "image": "[[File:Bag of Flour.png|30px|link=Bag of Flour]]",
+          "item": "Bag of Flour"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Bag of Flour"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Wheat"
     ],
@@ -47141,6 +49102,42 @@
     ],
     "output": [
       "Green Dragonhide Leather"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Undead Meat",
+          "link": "Undead Meat",
+          "qty": "1",
+          "image": "[[File:Undead Meat.png|30px|link=Undead Meat]]",
+          "item": "Undead Meat"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": 10,
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Undead Meat"
+    ],
+    "output": [
+      "Super Compost"
     ]
   },
   {
@@ -47357,22 +49354,22 @@
         }
       ],
       "outputs": [
-        "Scarecrow"
+        "Scarecrow (decoration)"
       ],
       "output": {
         "quantity": 1,
-        "name": "Scarecrow",
-        "link": "Scarecrow",
+        "name": "Scarecrow (decoration)",
+        "link": "Scarecrow (decoration)",
         "qty": 1,
-        "item": "Scarecrow",
-        "image": "[[File:Scarecrow.png|30px|link=Scarecrow]]"
+        "item": "Scarecrow (decoration)",
+        "image": "[[File:Scarecrow (decoration).png|30px|link=Scarecrow (decoration)]]"
       }
     },
     "uses_facility": [
       "Build Menu"
     ],
     "output": [
-      "Scarecrow"
+      "Scarecrow (decoration)"
     ]
   },
   {
@@ -47629,6 +49626,42 @@
     ],
     "output": [
       "Cadavaberry Infusion"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dried Cadavaberries",
+          "link": "Dried Cadavaberries",
+          "qty": "1",
+          "image": "[[File:Dried Cadavaberries.png|30px|link=Dried Cadavaberries]]",
+          "item": "Dried Cadavaberries"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": 10,
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Dried Cadavaberries"
+    ],
+    "output": [
+      "Super Compost"
     ]
   },
   {
@@ -47955,6 +49988,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Cadavaberries",
+          "link": "Burnt Cadavaberries",
+          "qty": "1",
+          "image": "[[File:Burnt Cadavaberries.png|30px|link=Burnt Cadavaberries]]",
+          "item": "Burnt Cadavaberries"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Cadavaberries"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Cadavaberries"
     ],
@@ -48084,6 +50153,42 @@
     ],
     "output": [
       "Steel Crossbow Limbs"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Roast Pumpkin",
+          "link": "Roast Pumpkin",
+          "qty": "1",
+          "image": "[[File:Roast Pumpkin.png|30px|link=Roast Pumpkin]]",
+          "item": "Roast Pumpkin"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": 10,
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Roast Pumpkin"
+    ],
+    "output": [
+      "Super Compost"
     ]
   },
   {
@@ -50239,6 +52344,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Watermelon",
+          "link": "Burnt Watermelon",
+          "qty": "1",
+          "image": "[[File:Burnt Watermelon.png|30px|link=Burnt Watermelon]]",
+          "item": "Burnt Watermelon"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Watermelon"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Watermelon"
     ],
@@ -51256,6 +53397,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Tomato",
+          "link": "Burnt Tomato",
+          "qty": "1",
+          "image": "[[File:Burnt Tomato.png|30px|link=Burnt Tomato]]",
+          "item": "Burnt Tomato"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Tomato"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Tomato"
     ],
@@ -52230,6 +54407,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Undead Steak",
+          "link": "Burnt Undead Steak",
+          "qty": "1",
+          "image": "[[File:Burnt Undead Steak.png|30px|link=Burnt Undead Steak]]",
+          "item": "Burnt Undead Steak"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Undead Steak"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Undead Meat"
     ],
@@ -52271,6 +54484,42 @@
     ],
     "output": [
       "Burnt Undead Steak"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Pumpkin",
+          "link": "Burnt Pumpkin",
+          "qty": "1",
+          "image": "[[File:Burnt Pumpkin.png|30px|link=Burnt Pumpkin]]",
+          "item": "Burnt Pumpkin"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": 10,
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Pumpkin"
+    ],
+    "output": [
+      "Super Compost"
     ]
   },
   {
@@ -53483,6 +55732,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Maple Logs",
+          "link": "Maple Logs",
+          "qty": "1",
+          "image": "[[File:Maple Logs.png|30px|link=Maple Logs]]",
+          "item": "Maple Logs"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": 10,
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Maple Logs"
+    ],
+    "output": [
+      "Super Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Padded Cloth",
       "Oak Logs",
@@ -54200,6 +56485,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Maple Sap",
+          "link": "Maple Sap",
+          "qty": "1",
+          "image": "[[File:Maple Sap.png|30px|link=Maple Sap]]",
+          "item": "Maple Sap"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Maple Sap"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Mithril Bar",
       "Maple Logs",
@@ -54702,6 +57023,42 @@
     ],
     "output": [
       "Mithril Warhammer"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Maple Syrup",
+          "link": "Burnt Maple Syrup",
+          "qty": "1",
+          "image": "[[File:Burnt Maple Syrup.png|30px|link=Burnt Maple Syrup]]",
+          "item": "Burnt Maple Syrup"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Maple Syrup"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -59103,15 +61460,15 @@
       "materials": [],
       "skills": [],
       "outputs": [
-        "Blue Dyed Cape"
+        "Blue Dyad Cape"
       ],
       "output": {
         "quantity": "1",
-        "name": "Blue Dyed Cape",
-        "link": "Blue Dyed Cape",
+        "name": "Blue Dyad Cape",
+        "link": "Blue Dyad Cape",
         "qty": "1",
-        "item": "Blue Dyed Cape",
-        "image": "[[File:Blue Dyed Cape.png|30px|link=Blue Dyed Cape]]"
+        "item": "Blue Dyad Cape",
+        "image": "[[File:Blue Dyad Cape.png|30px|link=Blue Dyad Cape]]"
       }
     },
     "uses_facility": [
@@ -59121,7 +61478,7 @@
       "Chewed Blue Cloth"
     ],
     "output": [
-      "Blue Dyed Cape"
+      "Blue Dyad Cape"
     ]
   },
   {
@@ -62017,6 +64374,402 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Sardine",
+          "link": "Raw Sardine",
+          "qty": "1",
+          "image": "[[File:Raw Sardine.png|30px|link=Raw Sardine]]",
+          "item": "Raw Sardine"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Sardine"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Shrimp",
+          "link": "Raw Shrimp",
+          "qty": "1",
+          "image": "[[File:Raw Shrimp.png|30px|link=Raw Shrimp]]",
+          "item": "Raw Shrimp"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Shrimp"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Trout",
+          "link": "Raw Trout",
+          "qty": "1",
+          "image": "[[File:Raw Trout.png|30px|link=Raw Trout]]",
+          "item": "Raw Trout"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Trout"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Anchovies",
+          "link": "Raw Anchovies",
+          "qty": "1",
+          "image": "[[File:Raw Anchovies.png|30px|link=Raw Anchovies]]",
+          "item": "Raw Anchovies"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Anchovies"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Herring",
+          "link": "Raw Herring",
+          "qty": "1",
+          "image": "[[File:Raw Herring.png|30px|link=Raw Herring]]",
+          "item": "Raw Herring"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Herring"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Salmon",
+          "link": "Raw Salmon",
+          "qty": "1",
+          "image": "[[File:Raw Salmon.png|30px|link=Raw Salmon]]",
+          "item": "Raw Salmon"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Salmon"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Giant Krill",
+          "link": "Raw Giant Krill",
+          "qty": "1",
+          "image": "[[File:Raw Giant Krill.png|30px|link=Raw Giant Krill]]",
+          "item": "Raw Giant Krill"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": 10,
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Giant Krill"
+    ],
+    "output": [
+      "Super Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Infernal Eel",
+          "link": "Raw Infernal Eel",
+          "qty": "1",
+          "image": "[[File:Raw Infernal Eel.png|30px|link=Raw Infernal Eel]]",
+          "item": "Raw Infernal Eel"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Infernal Eel"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Armoured Catfish",
+          "link": "Raw Armoured Catfish",
+          "qty": "1",
+          "image": "[[File:Raw Armoured Catfish.png|30px|link=Raw Armoured Catfish]]",
+          "item": "Raw Armoured Catfish"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Armoured Catfish"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Lobster",
+          "link": "Raw Lobster",
+          "qty": "1",
+          "image": "[[File:Raw Lobster.png|30px|link=Raw Lobster]]",
+          "item": "Raw Lobster"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Lobster"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Undead Bass",
+          "link": "Raw Undead Bass",
+          "qty": "1",
+          "image": "[[File:Raw Undead Bass.png|30px|link=Raw Undead Bass]]",
+          "item": "Raw Undead Bass"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Undead Bass"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Dried Redberries",
       "Egg",
@@ -62156,6 +64909,42 @@
     ],
     "output": [
       "Victoria Sponge Cake"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Undead Eel",
+          "link": "Raw Undead Eel",
+          "qty": "1",
+          "image": "[[File:Raw Undead Eel.png|30px|link=Raw Undead Eel]]",
+          "item": "Raw Undead Eel"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Undead Eel"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -65964,6 +68753,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Catfish",
+          "link": "Burnt Catfish",
+          "qty": "1",
+          "image": "[[File:Burnt Catfish.png|30px|link=Burnt Catfish]]",
+          "item": "Burnt Catfish"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Catfish"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Raw Armoured Catfish"
     ],
@@ -66049,6 +68874,42 @@
     ],
     "output": [
       "Burnt Catfish"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Undead Eel",
+          "link": "Burnt Undead Eel",
+          "qty": "1",
+          "image": "[[File:Burnt Undead Eel.png|30px|link=Burnt Undead Eel]]",
+          "item": "Burnt Undead Eel"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Undead Eel"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -66140,6 +69001,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Giant Krill",
+          "link": "Burnt Giant Krill",
+          "qty": "1",
+          "image": "[[File:Burnt Giant Krill.png|30px|link=Burnt Giant Krill]]",
+          "item": "Burnt Giant Krill"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Giant Krill"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Raw Giant Krill"
     ],
@@ -66225,6 +69122,42 @@
     ],
     "output": [
       "Burnt Giant Krill"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Salmon",
+          "link": "Burnt Salmon",
+          "qty": "1",
+          "image": "[[File:Burnt Salmon.png|30px|link=Burnt Salmon]]",
+          "item": "Burnt Salmon"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Salmon"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -66316,6 +69249,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Sardine",
+          "link": "Burnt Sardine",
+          "qty": "1",
+          "image": "[[File:Burnt Sardine.png|30px|link=Burnt Sardine]]",
+          "item": "Burnt Sardine"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Sardine"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Raw Sardine"
     ],
@@ -66401,6 +69370,42 @@
     ],
     "output": [
       "Burnt Sardine"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Trout",
+          "link": "Burnt Trout",
+          "qty": "1",
+          "image": "[[File:Burnt Trout.png|30px|link=Burnt Trout]]",
+          "item": "Burnt Trout"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Trout"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -66492,6 +69497,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Anchovies",
+          "link": "Burnt Anchovies",
+          "qty": "1",
+          "image": "[[File:Burnt Anchovies.png|30px|link=Burnt Anchovies]]",
+          "item": "Burnt Anchovies"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Anchovies"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Raw Anchovies"
     ],
@@ -66577,6 +69618,42 @@
     ],
     "output": [
       "Burnt Anchovies"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Herring",
+          "link": "Burnt Herring",
+          "qty": "1",
+          "image": "[[File:Burnt Herring.png|30px|link=Burnt Herring]]",
+          "item": "Burnt Herring"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Herring"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -66668,6 +69745,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Infernal Eel",
+          "link": "Burnt Infernal Eel",
+          "qty": "1",
+          "image": "[[File:Burnt Infernal Eel.png|30px|link=Burnt Infernal Eel]]",
+          "item": "Burnt Infernal Eel"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Infernal Eel"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Raw Infernal Eel"
     ],
@@ -66753,6 +69866,42 @@
     ],
     "output": [
       "Burnt Infernal Eel"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Lobster",
+          "link": "Burnt Lobster",
+          "qty": "1",
+          "image": "[[File:Burnt Lobster.png|30px|link=Burnt Lobster]]",
+          "item": "Burnt Lobster"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Lobster"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -66844,6 +69993,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Shrimp",
+          "link": "Burnt Shrimp",
+          "qty": "1",
+          "image": "[[File:Burnt Shrimp.png|30px|link=Burnt Shrimp]]",
+          "item": "Burnt Shrimp"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Shrimp"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Raw Shrimp"
     ],
@@ -66932,6 +70117,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Undead Bass",
+          "link": "Burnt Undead Bass",
+          "qty": "1",
+          "image": "[[File:Burnt Undead Bass.png|30px|link=Burnt Undead Bass]]",
+          "item": "Burnt Undead Bass"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Undead Bass"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Raw Undead Bass"
     ],
@@ -67017,6 +70238,42 @@
     ],
     "output": [
       "Burnt Undead Bass"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Bread",
+          "link": "Burnt Bread",
+          "qty": "1",
+          "image": "[[File:Burnt Bread.png|30px|link=Burnt Bread]]",
+          "item": "Burnt Bread"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Bread"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -71259,6 +74516,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cactus Fibres",
+          "link": "Cactus Fibres",
+          "qty": "1",
+          "image": "[[File:Cactus Fibres.png|30px|link=Cactus Fibres]]",
+          "item": "Cactus Fibres"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Cactus Fibres"
+    ],
+    "output": [
+      "Ultra Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Fibrous Pipe Cactus"
     ],
@@ -71786,6 +75079,42 @@
     ],
     "output": [
       "Adamant Spade"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "1",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]",
+          "item": "Yew Logs"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Yew Logs"
+    ],
+    "output": [
+      "Ultra Compost"
     ]
   },
   {
@@ -72906,6 +76235,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Monkfish Fillets",
+          "link": "Monkfish Fillets",
+          "qty": "1",
+          "image": "[[File:Monkfish Fillets.png|30px|link=Monkfish Fillets]]",
+          "item": "Monkfish Fillets"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Monkfish Fillets"
+    ],
+    "output": [
+      "Ultra Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Raw Monkfish"
     ],
@@ -72994,6 +76359,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Desert Weed",
+          "link": "Desert Weed",
+          "qty": "1",
+          "image": "[[File:Desert Weed.png|30px|link=Desert Weed]]",
+          "item": "Desert Weed"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Desert Weed"
+    ],
+    "output": [
+      "Ultra Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Yew Logs"
     ],
@@ -73038,6 +76439,78 @@
     ]
   },
   {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cactus Steak",
+          "link": "Cactus Steak",
+          "qty": "1",
+          "image": "[[File:Cactus Steak.png|30px|link=Cactus Steak]]",
+          "item": "Cactus Steak"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Cactus Steak"
+    ],
+    "output": [
+      "Ultra Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Ground Tea Leaves",
+          "link": "Ground Tea Leaves",
+          "qty": "1",
+          "image": "[[File:Ground Tea Leaves.png|30px|link=Ground Tea Leaves]]",
+          "item": "Ground Tea Leaves"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Ground Tea Leaves"
+    ],
+    "output": [
+      "Ultra Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Dried Tea Leaves"
     ],
@@ -73079,6 +76552,42 @@
     ],
     "output": [
       "Ground Tea Leaves"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Tea Leaves",
+          "link": "Tea Leaves",
+          "qty": "1",
+          "image": "[[File:Tea Leaves.png|30px|link=Tea Leaves]]",
+          "item": "Tea Leaves"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Tea Leaves"
+    ],
+    "output": [
+      "Ultra Compost"
     ]
   },
   {
@@ -73150,6 +76659,42 @@
     ],
     "output": [
       "Dragonfire Shield"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Fibrous Pipe Cactus",
+          "link": "Fibrous Pipe Cactus",
+          "qty": "1",
+          "image": "[[File:Fibrous Pipe Cactus.png|30px|link=Fibrous Pipe Cactus]]",
+          "item": "Fibrous Pipe Cactus"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Fibrous Pipe Cactus"
+    ],
+    "output": [
+      "Ultra Compost"
     ]
   },
   {
@@ -74072,6 +77617,7 @@
       "Artisan"
     ],
     "json": {
+      "recipe": "Ornate Golden Scarab",
       "facility": "Mystic Forge",
       "materials": [
         {
@@ -74135,6 +77681,9 @@
     },
     "uses_facility": [
       "Mystic Forge"
+    ],
+    "uses_recipe": [
+      "Ornate Golden Scarab"
     ],
     "output": [
       "Master's Staff"
@@ -74200,6 +77749,42 @@
     ],
     "output": [
       "Kalphite Bait"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Seared Cactus Steak",
+          "link": "Seared Cactus Steak",
+          "qty": "1",
+          "image": "[[File:Seared Cactus Steak.png|30px|link=Seared Cactus Steak]]",
+          "item": "Seared Cactus Steak"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Seared Cactus Steak"
+    ],
+    "output": [
+      "Ultra Compost"
     ]
   },
   {
@@ -74302,7 +77887,7 @@
       "Artisan"
     ],
     "json": {
-      "recipe": "Icthlarian Fetish",
+      "recipe": "",
       "facility": "Mystic Forge",
       "materials": [
         {
@@ -74368,10 +77953,46 @@
       "Mystic Forge"
     ],
     "uses_recipe": [
-      "Icthlarian Fetish"
+      ""
     ],
     "output": [
       "Pharaoh's Sceptre"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Monkfish",
+          "link": "Raw Monkfish",
+          "qty": "1",
+          "image": "[[File:Raw Monkfish.png|30px|link=Raw Monkfish]]",
+          "item": "Raw Monkfish"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Monkfish"
+    ],
+    "output": [
+      "Ultra Compost"
     ]
   },
   {
@@ -74434,6 +78055,42 @@
     ],
     "output": [
       "Advanced Tannery"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Monkfish Skewers",
+          "link": "Monkfish Skewers",
+          "qty": "1",
+          "image": "[[File:Monkfish Skewers.png|30px|link=Monkfish Skewers]]",
+          "item": "Monkfish Skewers"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Monkfish Skewers"
+    ],
+    "output": [
+      "Ultra Compost"
     ]
   },
   {
@@ -75151,6 +78808,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Beltfish Broth",
+          "link": "Beltfish Broth",
+          "qty": "1",
+          "image": "[[File:Beltfish Broth.png|30px|link=Beltfish Broth]]",
+          "item": "Beltfish Broth"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Beltfish Broth"
+    ],
+    "output": [
+      "Ultra Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Steamed Beltfish",
       "Peach",
@@ -75369,6 +79062,42 @@
     ],
     "output": [
       "Desert Net"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Cactus Water",
+          "link": "Cactus Water",
+          "qty": "1",
+          "image": "[[File:Cactus Water.png|30px|link=Cactus Water]]",
+          "item": "Cactus Water"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Compost",
+        "link": "Compost",
+        "qty": 10,
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Cactus Water"
+    ],
+    "output": [
+      "Compost"
     ]
   },
   {
@@ -75977,6 +79706,78 @@
     ]
   },
   {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Beltfish",
+          "link": "Raw Beltfish",
+          "qty": "1",
+          "image": "[[File:Raw Beltfish.png|30px|link=Raw Beltfish]]",
+          "item": "Raw Beltfish"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Beltfish"
+    ],
+    "output": [
+      "Ultra Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Steamed Beltfish",
+          "link": "Steamed Beltfish",
+          "qty": "1",
+          "image": "[[File:Steamed Beltfish.png|30px|link=Steamed Beltfish]]",
+          "item": "Steamed Beltfish"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Steamed Beltfish"
+    ],
+    "output": [
+      "Ultra Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Raw Beltfish"
     ],
@@ -76224,6 +80025,78 @@
     ]
   },
   {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Raw Desert Sole",
+          "link": "Raw Desert Sole",
+          "qty": "1",
+          "image": "[[File:Raw Desert Sole.png|30px|link=Raw Desert Sole]]",
+          "item": "Raw Desert Sole"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Raw Desert Sole"
+    ],
+    "output": [
+      "Ultra Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Sun Baked Sole",
+          "link": "Sun Baked Sole",
+          "qty": "1",
+          "image": "[[File:Sun Baked Sole.png|30px|link=Sun Baked Sole]]",
+          "item": "Sun Baked Sole"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Sun Baked Sole"
+    ],
+    "output": [
+      "Ultra Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Raw Desert Sole"
     ],
@@ -76309,6 +80182,42 @@
     ],
     "output": [
       "Sun Baked Sole"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Swabbie Pie",
+          "link": "Swabbie Pie",
+          "qty": "1",
+          "image": "[[File:Swabbie Pie.png|30px|link=Swabbie Pie]]",
+          "item": "Swabbie Pie"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Swabbie Pie"
+    ],
+    "output": [
+      "Ultra Compost"
     ]
   },
   {
@@ -76454,6 +80363,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Strong Sweet Tea",
+          "link": "Strong Sweet Tea",
+          "qty": "1",
+          "image": "[[File:Strong Sweet Tea.png|30px|link=Strong Sweet Tea]]",
+          "item": "Strong Sweet Tea"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Strong Sweet Tea"
+    ],
+    "output": [
+      "Ultra Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Ground Tea Leaves",
       "Clean Water",
@@ -76513,6 +80458,42 @@
     ],
     "output": [
       "Strong Sweet Tea"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Strong Tea",
+          "link": "Strong Tea",
+          "qty": "1",
+          "image": "[[File:Strong Tea.png|30px|link=Strong Tea]]",
+          "item": "Strong Tea"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Strong Tea"
+    ],
+    "output": [
+      "Ultra Compost"
     ]
   },
   {
@@ -76641,6 +80622,42 @@
     ],
     "output": [
       "Amulet of Glory"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Dried Tea Leaves",
+          "link": "Dried Tea Leaves",
+          "qty": "1",
+          "image": "[[File:Dried Tea Leaves.png|30px|link=Dried Tea Leaves]]",
+          "item": "Dried Tea Leaves"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Dried Tea Leaves"
+    ],
+    "output": [
+      "Ultra Compost"
     ]
   },
   {
@@ -82353,6 +86370,42 @@
     ],
     "output": [
       "Rune Mace"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Magic Logs",
+          "link": "Magic Logs",
+          "qty": "1",
+          "image": "[[File:Magic Logs.png|30px|link=Magic Logs]]",
+          "item": "Magic Logs"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": 10,
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": 10,
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Magic Logs"
+    ],
+    "output": [
+      "Ultra Compost"
     ]
   },
   {
@@ -89588,6 +93641,68 @@
     ],
     "output": [
       "Large Compost Bucket"
+    ]
+  },
+  {
+    "uses_material": [
+      "Egg",
+      "Wheat",
+      "Bucket of Milk"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Goblin Stove",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Egg",
+          "link": "Egg",
+          "qty": "4",
+          "item": "Egg",
+          "image": "[[File:Egg.png|30px|link=Egg]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Wheat",
+          "link": "Wheat",
+          "qty": "6",
+          "item": "Wheat",
+          "image": "[[File:Wheat.png|30px|link=Wheat]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Bucket of Milk",
+          "link": "Bucket of Milk",
+          "qty": "1",
+          "item": "Bucket of Milk",
+          "image": "[[File:Bucket of Milk.png|30px|link=Bucket of Milk]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Glorious Cake"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Glorious Cake",
+        "link": "Glorious Cake",
+        "qty": "1",
+        "item": "Glorious Cake",
+        "image": "[[File:Victoria Sponge Cake.png|30px|link=Glorious Cake]]"
+      }
+    },
+    "uses_facility": [
+      "Goblin Stove"
+    ],
+    "output": [
+      "Glorious Cake"
     ]
   }
 ]

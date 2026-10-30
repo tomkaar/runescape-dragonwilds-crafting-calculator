@@ -13,7 +13,6 @@ const INFOBOX_ITEM_FIELDS = [
 	"item_weight",
 	"item_stacklimit",
 	"item_description",
-	"perk_name",
 	"json",
 ];
 const RECIPE_FIELDS = [

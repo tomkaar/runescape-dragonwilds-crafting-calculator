@@ -144,6 +144,1614 @@
     "wikiLink": "Crafting_Table"
   },
   {
+    "id": "compost",
+    "name": "Compost",
+    "image": "Compost.png",
+    "variants": [
+      {
+        "id": "eb386d919b6a",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9344fcad9179",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "redberries",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "18c80a2c92a7",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "21eb24d28cce",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "cabbage",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "86d10cb64678",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ea65820e5bbc",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "flax",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a0c9aabb7280",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6e606e19b6f1",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "61a4b7fc770e",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7d7a8afebc83",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "marrentil",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c32e6d17838b",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "03b86052d8fe",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "harralander",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "6b189a6e247a",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "bcb030246a22",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "feathers",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "16ec6763cb0d",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "04cdef7b7ac4",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "bittercap-mushroom",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "88a66c546564",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "078be28c363e",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "antler",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7e3f9b14a0bb",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "007671f03327",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "dwellberries",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "93978c7ce9f6",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "159aabee5de5",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-rat-meat",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "ec201eab024d",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c32753a78a0e",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "animal-bone",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a13283b5c003",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8a796b9e5291",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "potato",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "933c285a8a5e",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e0b11e038705",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "small-animal-fang",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "0f7b1d7398ae",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2d1fd7b78b38",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "snapdragon",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "f17857c198d2",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f97bcd2d6a2b",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "toadflax",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "46177d6b2492",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8c53c98f0127",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "oak-logs",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4e9aaec6222a",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ce2e6e13e6a6",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "anima-infused-bark",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "67917de85dee",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "3e95b270f673",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "monstrous-fang",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "96c38b259c4f",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ff0c1ea4a761",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "swamp-weed",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c115b598a78f",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "836f172337b3",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-farm-meat",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "97476c741fcf",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1f0ecc374d1c",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "onion",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4015747306a6",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9eacb453263e",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-bestial-meat",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a21f63e0c182",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b250f68e65a5",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-bird-meat",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4388c3f23eb7",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c0302a4a3cef",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-game-meat",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "e25edd0cf713",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fbd3c9bf5492",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "bloodwood-sap",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "9733b789726c",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "0d2707f418f8",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "shocking-plant-bulb",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c40119cf89a2",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7ecdeb468536",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "peach",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "95a47c2220bd",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c3881494b79f",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "egg",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "311a90f7b272",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "3b5fa3d73245",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-potato",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "348b10113a08",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c6af5a751f6e",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-onion",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4bd7928b73d0",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "113becded02a",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-mushroom",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "0f837045c117",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2af6a5814c18",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-flank",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "0eba4530331a",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a03e71291fef",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-steak",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "bfebdaadc40d",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "89efd834474d",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-cabbage",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "885dea41d991",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "30d9ec6a8869",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-dwellberries",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "99076e169429",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "1aa7a6215ca0",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-rat-roast",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "2b34278885d9",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f5247c680169",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-haunch",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7a223f1dcd85",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2575fc5b102e",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-fillet",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "6404d76b3d7d",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "84da39c8343d",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-redberries",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "9849b797ee5a",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "bfc11fd836d6",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-peach",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "54fd1c17c928",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "092917e4e429",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-egg",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "8f2522b2afa0",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4f4dac1188ad",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "wheat",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "50c0f8a137c2",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fe05e1f91a92",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "tomato",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "6daa7df5597f",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "634c23dfe84a",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "bag-of-flour",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "479ca675daed",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "3c3e42c9bdf6",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-cadavaberries",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7432cec33b46",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8cf55a2f203a",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-watermelon",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "b8eda6b1a6c2",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f78519156bdc",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-tomato",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "debc287be2f8",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5c78265048c0",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-undead-steak",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "71c7b8c79b3c",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c294e5823adf",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "maple-sap",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "8f7261dce88f",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "bea4bd1a6d59",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-maple-syrup",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "2a145103229a",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "646ba28d4909",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-sardine",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "0829aebd1259",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5ea8c9d6d14a",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-shrimp",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "289dd4cbdedc",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2cbba0e46009",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-trout",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "b266a15ba8c6",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c395c986f2ee",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-anchovies",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a467a5b3882c",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e20aa50e686f",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-herring",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "8e5c03ac80c0",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d61b4e69ea78",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-salmon",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "b6d1a6e0d318",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "79512ea97969",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-infernal-eel",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4662fa1e833c",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5c97120f6489",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-armoured-catfish",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "2d1ad176180f",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "660eff842854",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-lobster",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "b92ce5bba272",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "aab769a0fc37",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-undead-bass",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "e29867018bf6",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7a61bab9afa7",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-undead-eel",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "2dd364f0fcf0",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ca08b193ad07",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-catfish",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "6e8395e1a05d",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "da1f86e39125",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-undead-eel",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "70c632881352",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "52ed6fc437e7",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-giant-krill",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "2f87c61e15cd",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d87161f94e41",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-salmon",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4450cacb3930",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d27c33c67010",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-sardine",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "cdf613da1f47",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "70d980ec98d3",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-trout",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "f3612dd63a8c",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "13fec8a0ff82",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-anchovies",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "4c6574a86460",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c1f76ca383d3",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-herring",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a38ddf1dde05",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7d8664a3d876",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-infernal-eel",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "08888c034fff",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "445a04a7d54d",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-lobster",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "93b3e1064dbe",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "607c6f5a5969",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-shrimp",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "7f151cce8765",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "223e382078fe",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-undead-bass",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "e61c05380832",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5e8e00b3ee1b",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-bread",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "2dd3ac5299e9",
+        "name": "Compost",
+        "image": "Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "4e46d306e1f3",
+          "facilities": [
+            "Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "cactus-water",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Compost Bin"
+    ],
+    "wikiLink": "Compost"
+  },
+  {
     "id": "rat-roast",
     "name": "Rat Roast",
     "image": "Rat Roast.png",
@@ -4766,7 +6374,7 @@
     ],
     "wikiLink": "Dragonblight_Shield",
     "weight": 10,
-    "itemType": "Basic Item"
+    "itemType": "Shield"
   },
   {
     "id": "bone-club",
@@ -5330,7 +6938,7 @@
     ],
     "wikiLink": "Anti-Dragon_Shield",
     "weight": 10,
-    "itemType": "Basic Item"
+    "itemType": "Shield"
   },
   {
     "id": "grindstone",
@@ -8103,7 +9711,7 @@
     ],
     "wikiLink": "Imbued_Granite_Maul_Head",
     "weight": 0,
-    "itemType": "Quest Item"
+    "itemType": "Basic Material"
   },
   {
     "id": "wizard-hat",
@@ -9321,7 +10929,7 @@
           "skills": [
             {
               "name": "Artisan",
-              "experience": 25
+              "experience": 60
             }
           ]
         },
@@ -17103,6 +18711,36 @@
             {
               "name": "Construction",
               "experience": 12
+            }
+          ]
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c8c366d9a43d",
+        "name": "Medium 45° Roof",
+        "image": "Medium 45° Roof (Thatched).png",
+        "variantName": "Thatched",
+        "recipe": {
+          "id": "376a3b3ee3b6",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-plank",
+              "quantity": 2
+            },
+            {
+              "itemId": "weeds",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 8
             }
           ]
         },
@@ -27297,7 +28935,7 @@
     ],
     "wikiLink": "Iron_Bolts",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -27344,7 +28982,7 @@
     ],
     "wikiLink": "Bronze_Bolts",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -27478,7 +29116,7 @@
     ],
     "wikiLink": "Blurite_Bolts",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -28292,7 +29930,7 @@
     ],
     "wikiLink": "Enchanted_Blurite_Bolts",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -28347,7 +29985,7 @@
     ],
     "wikiLink": "Enchanted_Bronze_Bolts",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -28402,7 +30040,7 @@
     ],
     "wikiLink": "Enchanted_Iron_Bolts",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -31494,7 +33132,7 @@
     ],
     "wikiLink": "Undead_Ranger's_Bow",
     "weight": 10,
-    "itemType": "Bow"
+    "itemType": "Ranged Weapon"
   },
   {
     "id": "wooden-watering-can",
@@ -32833,6 +34471,312 @@
     "stackLimit": 1
   },
   {
+    "id": "super-compost",
+    "name": "Super Compost",
+    "image": "Super Compost.png",
+    "variants": [
+      {
+        "id": "43bd2e2a5b4f",
+        "name": "Super Compost",
+        "image": "Super Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "fb4e60abb759",
+          "facilities": [
+            "Super Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "cadavaberries",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "e50824476270",
+        "name": "Super Compost",
+        "image": "Super Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7e3279c16e5b",
+          "facilities": [
+            "Super Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "corpse-cotton",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "525c00f0b202",
+        "name": "Super Compost",
+        "image": "Super Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b694b358f59a",
+          "facilities": [
+            "Super Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "pumpkin",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "22090460ad5c",
+        "name": "Super Compost",
+        "image": "Super Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "933391858374",
+          "facilities": [
+            "Super Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "willow-logs",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "5cd022acab73",
+        "name": "Super Compost",
+        "image": "Super Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "23f74e79a0c6",
+          "facilities": [
+            "Super Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "watermelon",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "b693a7dc0a7c",
+        "name": "Super Compost",
+        "image": "Super Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5ae2a24063ce",
+          "facilities": [
+            "Super Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "hollow-bark",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c09d026de0eb",
+        "name": "Super Compost",
+        "image": "Super Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5b1d12b67023",
+          "facilities": [
+            "Super Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "irit",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "633d50971f57",
+        "name": "Super Compost",
+        "image": "Super Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8cc747b2131d",
+          "facilities": [
+            "Super Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "undead-bone",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "2668a4bf650f",
+        "name": "Super Compost",
+        "image": "Super Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "7625e81313c6",
+          "facilities": [
+            "Super Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "undead-meat",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "0f01eb78413b",
+        "name": "Super Compost",
+        "image": "Super Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6297eec77bb5",
+          "facilities": [
+            "Super Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "dried-cadavaberries",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "e3b2c64d94c0",
+        "name": "Super Compost",
+        "image": "Super Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "ef1688ab6489",
+          "facilities": [
+            "Super Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "roast-pumpkin",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "409c5edeba63",
+        "name": "Super Compost",
+        "image": "Super Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "28f1450f2fe6",
+          "facilities": [
+            "Super Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "burnt-pumpkin",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "31f081ef9b69",
+        "name": "Super Compost",
+        "image": "Super Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b2d44b4ccf55",
+          "facilities": [
+            "Super Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "maple-logs",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "c5712fb95902",
+        "name": "Super Compost",
+        "image": "Super Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5473e82c5507",
+          "facilities": [
+            "Super Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-giant-krill",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Super Compost Bin"
+    ],
+    "wikiLink": "Super_Compost"
+  },
+  {
     "id": "stonecutter",
     "name": "Stonecutter",
     "image": "Stonecutter.png",
@@ -33294,7 +35238,7 @@
           ]
         },
         "usesRecipe": [
-          "A Cracked Bronze Vanity Mirror"
+          "Cracked Bronze Vanity Mirror"
         ]
       }
     ],
@@ -34886,17 +36830,17 @@
     "wikiLink": "Golden_Fellhollow_Cape"
   },
   {
-    "id": "scarecrow",
-    "name": "Scarecrow",
-    "image": "Scarecrow.png",
+    "id": "scarecrow-decoration",
+    "name": "Scarecrow (decoration)",
+    "image": "Scarecrow (decoration).png",
     "variants": [
       {
-        "id": "43bf531831cb",
-        "name": "Scarecrow",
-        "image": "Scarecrow.png",
-        "variantName": null,
+        "id": "cf9bfafbe6ca",
+        "name": "Scarecrow (decoration)",
+        "image": "Scarecrow (decoration).png",
+        "variantName": "Decoration",
         "recipe": {
-          "id": "87e17e565cc4",
+          "id": "c2356ec0576c",
           "facilities": [
             "Build Menu"
           ],
@@ -34935,7 +36879,7 @@
     "facilities": [
       "Build Menu"
     ],
-    "wikiLink": "Scarecrow"
+    "wikiLink": "Scarecrow_(decoration)"
   },
   {
     "id": "large-water-barrel",
@@ -36715,7 +38659,7 @@
     ],
     "wikiLink": "Bone_Bolts",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -36866,7 +38810,7 @@
     ],
     "wikiLink": "Steel_Bolts",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -36921,7 +38865,7 @@
     ],
     "wikiLink": "Enchanted_Steel_Bolts",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -39762,7 +41706,7 @@
     ],
     "wikiLink": "Blue_Dragon_Scale_Dust",
     "weight": 1,
-    "itemType": "Resource",
+    "itemType": "Basic Material",
     "stackLimit": 99
   },
   {
@@ -40022,7 +41966,7 @@
     ],
     "wikiLink": "Mithril_Shield",
     "weight": 12,
-    "itemType": "Melee Armour"
+    "itemType": "Shield"
   },
   {
     "id": "black-knight-platebody",
@@ -42493,7 +44437,7 @@
     ],
     "wikiLink": "Mithril_Bolts",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -42792,7 +44736,7 @@
     ],
     "wikiLink": "Enchanted_Mithril_Bolts",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -44202,17 +46146,17 @@
     "itemType": "Armour"
   },
   {
-    "id": "blue-dyed-cape",
-    "name": "Blue Dyed Cape",
-    "image": "Blue Dyed Cape.png",
+    "id": "blue-dyad-cape",
+    "name": "Blue Dyad Cape",
+    "image": "Blue Dyad Cape.png",
     "variants": [
       {
-        "id": "40e5425fb960",
-        "name": "Blue Dyed Cape",
-        "image": "Blue Dyed Cape.png",
+        "id": "7c1564953582",
+        "name": "Blue Dyad Cape",
+        "image": "Blue Dyad Cape.png",
         "variantName": null,
         "recipe": {
-          "id": "801e06a5b6ff",
+          "id": "3c1c64975ef8",
           "facilities": [
             "Armour Bench"
           ],
@@ -44229,7 +46173,9 @@
     "facilities": [
       "Armour Bench"
     ],
-    "wikiLink": "Blue_Dyed_Cape"
+    "wikiLink": "Blue_Dyad_Cape",
+    "weight": 0,
+    "itemType": "Armour"
   },
   {
     "id": "yellow-dyad-cape",
@@ -53037,7 +54983,7 @@
     ],
     "wikiLink": "Kalphite_Shell",
     "weight": 0.3,
-    "itemType": "Basic Item",
+    "itemType": "Basic Material",
     "stackLimit": 99,
     "bought_by": [
       {
@@ -53413,6 +55359,460 @@
         "cost": 30
       }
     ]
+  },
+  {
+    "id": "ultra-compost",
+    "name": "Ultra Compost",
+    "image": "Ultra Compost.png",
+    "variants": [
+      {
+        "id": "3ec4f12e8d54",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "583ef2424e64",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "cactus-fibres",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "9f3bcb199ded",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "204efcd91737",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "yew-logs",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "739ebc6f52e2",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e96700a1da3f",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "monkfish-fillets",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "68d9a5781d6b",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "77069cebd06c",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "desert-weed",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "0dd456c9d3eb",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f338eab1fa06",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "cactus-steak",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "8498e9f4663c",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "31b13c4facac",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "ground-tea-leaves",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "92be070af071",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "474c4de31d41",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "tea-leaves",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "a909d6a86870",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "19667ed009c9",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "fibrous-pipe-cactus",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "bf0986827b7c",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2f3bab17a05f",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "seared-cactus-steak",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "e7e112d6032c",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "86aa7da1e65a",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-monkfish",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "97129b60bf7c",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2aa959963785",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "monkfish-skewers",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "9725ac5b7127",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2a0f8b59bb9e",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "beltfish-broth",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "6fe74ce326f6",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6bd655b6cefd",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-beltfish",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "ede81d95046b",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "9bf339cb4c9e",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "steamed-beltfish",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "cf4fb2559ac4",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "bf480840db7e",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "raw-desert-sole",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "f50ca74da78f",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d9d1c0abfc1d",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "sun-baked-sole",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "2f4f8fa2d053",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "00007c9432f5",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "swabbie-pie",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "245785e6d821",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "41a00ee9eebf",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "strong-sweet-tea",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "19dc929303ff",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "edb7b9b39a68",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "strong-tea",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "bc536dc9a1c4",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "b047fcfd4377",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "dried-tea-leaves",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      },
+      {
+        "id": "5014468651f6",
+        "name": "Ultra Compost",
+        "image": "Ultra Compost.png",
+        "variantName": null,
+        "recipe": {
+          "id": "f02fea01d6d1",
+          "facilities": [
+            "Ultra Compost Bin"
+          ],
+          "materials": [
+            {
+              "itemId": "magic-logs",
+              "quantity": 1
+            }
+          ],
+          "quantity": 10,
+          "skills": []
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [
+      "Ultra Compost Bin"
+    ],
+    "wikiLink": "Ultra_Compost",
+    "itemType": "Resource"
   },
   {
     "id": "cactus-fibres",
@@ -54740,7 +57140,7 @@
     ],
     "wikiLink": "Adamant_Shield",
     "weight": 10,
-    "itemType": "Melee Armour"
+    "itemType": "Shield"
   },
   {
     "id": "monkfish-fillets",
@@ -55676,7 +58076,9 @@
             }
           ]
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Ornate Golden Scarab"
+        ]
       }
     ],
     "skills": [
@@ -55833,7 +58235,7 @@
           ]
         },
         "usesRecipe": [
-          "Icthlarian Fetish"
+          ""
         ]
       }
     ],
@@ -56501,7 +58903,7 @@
     ],
     "wikiLink": "Adamant_Bolt",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -62572,7 +64974,7 @@
     ],
     "wikiLink": "Rune_Shield",
     "weight": 10,
-    "itemType": "Basic Item"
+    "itemType": "Shield"
   },
   {
     "id": "rune-spade",
@@ -62948,7 +65350,7 @@
     ],
     "wikiLink": "Rune_Bolt",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -63003,7 +65405,7 @@
     ],
     "wikiLink": "Enchanted_Rune_Bolt",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -64350,7 +66752,7 @@
     ],
     "wikiLink": "Enchanted_Adamant_Bolt",
     "weight": 0,
-    "itemType": "Ammo",
+    "itemType": "Bolt",
     "stackLimit": 999
   },
   {
@@ -67980,6 +70382,57 @@
     "itemType": "Basic Item"
   },
   {
+    "id": "glorious-cake",
+    "name": "Glorious Cake",
+    "image": "Victoria Sponge Cake.png",
+    "variants": [
+      {
+        "id": "0d650889d364",
+        "name": "Glorious Cake",
+        "image": "Victoria Sponge Cake.png",
+        "variantName": null,
+        "recipe": {
+          "id": "dfec5f95935e",
+          "facilities": [
+            "Goblin Stove"
+          ],
+          "materials": [
+            {
+              "itemId": "bucket-of-milk",
+              "quantity": 1
+            },
+            {
+              "itemId": "egg",
+              "quantity": 4
+            },
+            {
+              "itemId": "wheat",
+              "quantity": 6
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Goblin Stove"
+    ],
+    "wikiLink": "Glorious_Cake",
+    "weight": 0,
+    "itemType": "Quest Item",
+    "stackLimit": 0
+  },
+  {
     "id": "goblin-pack",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -69533,7 +71986,7 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Abyssal_Ashes",
-    "weight": 1,
+    "weight": 3,
     "itemType": "Basic Material",
     "stackLimit": 99
   },
@@ -71694,9 +74147,9 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Emerald",
-    "weight": 0,
-    "itemType": "Basic Item",
-    "stackLimit": 0
+    "weight": 3,
+    "itemType": "Basic Material",
+    "stackLimit": 99
   },
   {
     "id": "tome-of-cooking-vol-1",
@@ -73884,7 +76337,7 @@
     "facilities": [],
     "wikiLink": "Salve_Crystal",
     "weight": 3,
-    "itemType": "Quest Item",
+    "itemType": "Basic Item",
     "sold_by": [
       {
         "name": "Death (Grim Reaper)",
@@ -74116,8 +76569,8 @@
     "stackLimit": 1
   },
   {
-    "id": "a-cracked-bronze-vanity-mirror",
-    "name": "A Cracked Bronze Vanity Mirror",
+    "id": "cracked-bronze-vanity-mirror",
+    "name": "Cracked Bronze Vanity Mirror",
     "image": "A Cracked Bronze Vanity Mirror.png",
     "variants": [
       {
@@ -74131,7 +76584,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "A_Cracked_Bronze_Vanity_Mirror",
+    "wikiLink": "Cracked_Bronze_Vanity_Mirror",
     "weight": 0,
     "itemType": "Vestige",
     "stackLimit": 99
@@ -74676,12 +77129,12 @@
   {
     "id": "the-pride-of-the-avernic",
     "name": "The Pride of the Avernic",
-    "image": "Placeholder.png",
+    "image": "The Pride of the Avernic.png",
     "variants": [
       {
         "id": "the-pride-of-the-avernic",
         "name": "The Pride of the Avernic",
-        "image": "Placeholder.png",
+        "image": "The Pride of the Avernic.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -74692,7 +77145,7 @@
     "wikiLink": "The_Pride_of_the_Avernic",
     "weight": 0,
     "itemType": "Quest Item",
-    "stackLimit": 0
+    "stackLimit": 99
   },
   {
     "id": "corroded-white-visor",
@@ -74943,7 +77396,7 @@
     "facilities": [],
     "wikiLink": "Corrupted_Essence_Sample",
     "weight": 0,
-    "itemType": "Quest Item",
+    "itemType": "Basic Item",
     "stackLimit": 99
   },
   {
@@ -75180,9 +77633,9 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Mystic_Fibres",
-    "weight": 0.6,
+    "weight": 0.1,
     "itemType": "Basic Material",
-    "stackLimit": 50,
+    "stackLimit": 99,
     "bought_by": [
       {
         "name": "Domri - The Merchant",
@@ -75371,7 +77824,7 @@
     "wikiLink": "Maple_Sap",
     "weight": 2,
     "itemType": "Basic Material",
-    "stackLimit": 999,
+    "stackLimit": 99,
     "sold_by": [
       {
         "name": "Domri - The Merchant",
@@ -76023,26 +78476,6 @@
     "stackLimit": 99
   },
   {
-    "id": "blue-dyad-cape",
-    "name": "Blue Dyad Cape",
-    "image": "Blue Dyed Cape.png",
-    "variants": [
-      {
-        "id": "blue-dyad-cape",
-        "name": "Blue Dyad Cape",
-        "image": "Blue Dyed Cape.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Blue_Dyad_Cape",
-    "weight": 0,
-    "itemType": "Armour"
-  },
-  {
     "id": "soiled-green-cloth",
     "name": "Soiled Green Cloth",
     "image": "Soiled Green Cloth.png",
@@ -76340,8 +78773,8 @@
     "facilities": [],
     "wikiLink": "Unholy_Water",
     "weight": 0,
-    "itemType": "Resource",
-    "stackLimit": 1
+    "itemType": "Quest Item",
+    "stackLimit": 99
   },
   {
     "id": "twilight-lily",
@@ -76361,8 +78794,8 @@
     "facilities": [],
     "wikiLink": "Twilight_Lily",
     "weight": 0,
-    "itemType": "Resource",
-    "stackLimit": 1
+    "itemType": "Quest Item",
+    "stackLimit": 99
   },
   {
     "id": "arrowhead-of-ancient-origin",
@@ -78102,12 +80535,12 @@
   {
     "id": "eventide-a-new-spawn",
     "name": "Eventide - A New Spawn",
-    "image": "Placeholder.png",
+    "image": "Eventide - A New Spawn.png",
     "variants": [
       {
         "id": "eventide-a-new-spawn",
         "name": "Eventide - A New Spawn",
-        "image": "Placeholder.png",
+        "image": "Eventide - A New Spawn.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -78118,17 +80551,17 @@
     "wikiLink": "Eventide_-_A_New_Spawn",
     "weight": 0,
     "itemType": "Quest Item",
-    "stackLimit": 0
+    "stackLimit": 99
   },
   {
     "id": "the-binding-of-ib",
     "name": "The Binding of Ib",
-    "image": "Placeholder.png",
+    "image": "The Binding of Ib.png",
     "variants": [
       {
         "id": "the-binding-of-ib",
         "name": "The Binding of Ib",
-        "image": "Placeholder.png",
+        "image": "The Binding of Ib.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -78139,7 +80572,7 @@
     "wikiLink": "The_Binding_of_Ib",
     "weight": 0,
     "itemType": "Quest Item",
-    "stackLimit": 0
+    "stackLimit": 99
   },
   {
     "id": "bundle-of-undead-twigs",
@@ -78204,12 +80637,12 @@
   {
     "id": "the-wrath-of-baba-potterington",
     "name": "The Wrath of Baba Potterington",
-    "image": "Placeholder.png",
+    "image": "The Wrath of Baba Potterington.png",
     "variants": [
       {
         "id": "the-wrath-of-baba-potterington",
         "name": "The Wrath of Baba Potterington",
-        "image": "Placeholder.png",
+        "image": "The Wrath of Baba Potterington.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -78225,12 +80658,12 @@
   {
     "id": "leonard-the-bound",
     "name": "Leonard the Bound",
-    "image": "Placeholder.png",
+    "image": "Leonard the Bound.png",
     "variants": [
       {
         "id": "leonard-the-bound",
         "name": "Leonard the Bound",
-        "image": "Placeholder.png",
+        "image": "Leonard the Bound.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -78241,7 +80674,7 @@
     "wikiLink": "Leonard_the_Bound",
     "weight": 0,
     "itemType": "Quest Item",
-    "stackLimit": 0
+    "stackLimit": 99
   },
   {
     "id": "tome-of-fishing-vol-2",
@@ -80056,7 +82489,9 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Ornate_Golden_Scarab",
-    "itemType": "Vestige"
+    "weight": 0,
+    "itemType": "Vestige",
+    "stackLimit": 99
   },
   {
     "id": "tome-of-volcano",
@@ -80150,6 +82585,11 @@
     "bought_by": [
       {
         "name": "Iasadair - The Merchant",
+        "currency": "Garou Chit",
+        "cost": 500
+      },
+      {
+        "name": "Beartach - The Merchant",
         "currency": "Garou Chit",
         "cost": 500
       },
@@ -80515,13 +82955,13 @@
     ]
   },
   {
-    "id": "mount-mossbeak-hunter",
-    "name": "MOUNT: Mossbeak Hunter",
+    "id": "mount-mossbreak-hunter",
+    "name": "MOUNT: Mossbreak Hunter",
     "image": "MOUNT: Mossbeak Hunter.png",
     "variants": [
       {
-        "id": "mount-mossbeak-hunter",
-        "name": "MOUNT: Mossbeak Hunter",
+        "id": "mount-mossbreak-hunter",
+        "name": "MOUNT: Mossbreak Hunter",
         "image": "MOUNT: Mossbeak Hunter.png",
         "variantName": null,
         "recipe": null,
@@ -80530,7 +82970,7 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "MOUNT:_Mossbeak_Hunter",
+    "wikiLink": "MOUNT:_Mossbreak_Hunter",
     "weight": 0,
     "itemType": "Vestige",
     "stackLimit": 50,
@@ -80994,6 +83434,27 @@
     "weight": 0,
     "itemType": "Vestige",
     "stackLimit": 99
+  },
+  {
+    "id": "mirror-lens",
+    "name": "Mirror Lens",
+    "image": null,
+    "variants": [
+      {
+        "id": "mirror-lens",
+        "name": "Mirror Lens",
+        "image": null,
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Mirror_Lens",
+    "weight": 0,
+    "itemType": "Quest Item",
+    "stackLimit": 1
   },
   {
     "id": "mount-moonsilk-weave",
@@ -81651,12 +84112,12 @@
   {
     "id": "dragon-scimitar",
     "name": "Dragon Scimitar",
-    "image": "Dragon Scimitar (Journal).png",
+    "image": "Dragon Scimitar.png",
     "variants": [
       {
         "id": "dragon-scimitar",
         "name": "Dragon Scimitar",
-        "image": "Dragon Scimitar (Journal).png",
+        "image": "Dragon Scimitar.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -82285,14 +84746,14 @@
     "stackLimit": 99
   },
   {
-    "id": "ultra-compost",
-    "name": "Ultra Compost",
-    "image": "Ultra Compost.png",
+    "id": "missing-letter",
+    "name": "Missing Letter",
+    "image": "Missing Letter.png",
     "variants": [
       {
-        "id": "ultra-compost",
-        "name": "Ultra Compost",
-        "image": "Ultra Compost.png",
+        "id": "missing-letter",
+        "name": "Missing Letter",
+        "image": "Missing Letter.png",
         "variantName": null,
         "recipe": null,
         "usesRecipe": null
@@ -82300,7 +84761,9 @@
     ],
     "skills": [],
     "facilities": [],
-    "wikiLink": "Ultra_Compost",
-    "itemType": "Resource"
+    "wikiLink": "Missing_Letter",
+    "weight": 0,
+    "itemType": "Quest Item",
+    "stackLimit": 99
   }
 ]
