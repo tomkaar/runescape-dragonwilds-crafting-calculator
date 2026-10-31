@@ -84436,7 +84436,7 @@
     "facilities": [],
     "wikiLink": "Queenslayer's_Reward_Pack",
     "weight": 0,
-    "itemType": "Resource",
+    "itemType": "Container",
     "stackLimit": 99
   },
   {
@@ -84764,6 +84764,27 @@
     "wikiLink": "Missing_Letter",
     "weight": 0,
     "itemType": "Quest Item",
+    "stackLimit": 99
+  },
+  {
+    "id": "zis-core",
+    "name": "Zi's Core",
+    "image": "Zi's Core.png",
+    "variants": [
+      {
+        "id": "zis-core",
+        "name": "Zi's Core",
+        "image": "Zi's Core.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Zi's_Core",
+    "weight": 0,
+    "itemType": "Basic Item",
     "stackLimit": 99
   }
 ]

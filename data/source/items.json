@@ -23130,14 +23130,14 @@
     "page_name": "Queenslayer's Reward Pack",
     "item_stacklimit": 99,
     "item_description": "Contains the spoils of your battle against Kuldra.",
-    "item_type": "Resource",
+    "item_type": "Container",
     "item_name": "Queenslayer's Reward Pack",
     "json": {
       "description": "Contains the spoils of your battle against Kuldra.",
       "weight": "0.0",
       "image": "[[File:Queenslayer's Reward Pack.png|32px]]",
       "name": "Queenslayer's Reward Pack",
-      "item_type": "Resource",
+      "item_type": "Container",
       "stacklimit": "99",
       "image_raw": "Queenslayer's Reward Pack.png"
     },
@@ -24253,5 +24253,23 @@
     },
     "item_weight": 0,
     "page_name_sub": "Glorious Cake"
+  },
+  {
+    "page_name": "Zi's Core",
+    "item_stacklimit": 99,
+    "item_description": "Look, adventurer, I have an item description!",
+    "item_type": "Basic Item",
+    "item_name": "Zi's Core",
+    "json": {
+      "description": "Look, adventurer, I have an item description!",
+      "weight": "0.0",
+      "image": "[[File:Zi's Core.png|32px]]",
+      "name": "Zi's Core",
+      "item_type": "Basic Item",
+      "stacklimit": "99",
+      "image_raw": "Zi's Core.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Zi's Core"
   }
 ]
