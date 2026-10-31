@@ -94,7 +94,10 @@ async function parseData() {
 	);
 }
 
-parseData().catch(console.error);
+parseData().catch((error) => {
+	console.error(error);
+	process.exit(1);
+});
 
 function normalizeName(name: string): string {
 	return name.replace(/\s+/g, " ").trim();

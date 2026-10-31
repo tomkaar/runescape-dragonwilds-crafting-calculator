@@ -26,6 +26,13 @@ export async function fetchAllBucketData<T>(
 		console.log(`Fetching ${bucketName} with offset ${offset}...`);
 
 		const response = await fetch(url);
+
+		if (!response.ok) {
+			throw new Error(
+				`Bucket query for "${bucketName}" failed: HTTP ${response.status} ${response.statusText}`,
+			);
+		}
+
 		const data = await response.json();
 
 		if (data.error) {

@@ -62,4 +62,7 @@ async function fetchData() {
 	console.log("✓ Storelines saved to data/source/storelines.json");
 }
 
-fetchData().catch(console.error);
+fetchData().catch((error) => {
+	console.error(error);
+	process.exit(1);
+});

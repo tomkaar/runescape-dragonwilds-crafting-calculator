@@ -2,7 +2,7 @@ import { afterEach, describe, expect, it, vi } from "vitest";
 import { fetchAllBucketData, PAGE_SIZE } from "./fetch-all-bucket-data";
 
 function jsonResponse(body: unknown): Response {
-	return { json: () => Promise.resolve(body) } as Response;
+	return { ok: true, json: () => Promise.resolve(body) } as Response;
 }
 
 describe("fetchAllBucketData", () => {
@@ -81,6 +81,21 @@ describe("fetchAllBucketData", () => {
 			fetchAllBucketData("infobox_item", ["item_repair"]),
 		).rejects.toThrow(
 			'Bucket query for "infobox_item" failed: Field item_repair not found in bucket infobox_item.',
+		);
+	});
+
+	it("throws a descriptive error when the response is not ok", async () => {
+		const fetchMock = vi.fn().mockResolvedValue({
+			ok: false,
+			status: 503,
+			statusText: "Service Unavailable",
+		} as Response);
+		vi.stubGlobal("fetch", fetchMock);
+
+		await expect(
+			fetchAllBucketData("infobox_item", ["page_name"]),
+		).rejects.toThrow(
+			'Bucket query for "infobox_item" failed: HTTP 503 Service Unavailable',
 		);
 	});
 
