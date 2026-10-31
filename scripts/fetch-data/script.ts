@@ -31,6 +31,8 @@ const STORELINE_FIELDS = [
 ];
 
 async function fetchData() {
+	throw new Error("Fetching data failed");
+	// biome-ignore lint/correctness/noUnreachable: <just to test>
 	const [items, recipes, storelines] = await Promise.all([
 		fetchAllBucketData<SourceItem>("infobox_item", INFOBOX_ITEM_FIELDS),
 		fetchAllBucketData<SourceRecipe>("recipe", RECIPE_FIELDS),
