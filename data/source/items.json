@@ -24271,5 +24271,23 @@
     },
     "item_weight": 0,
     "page_name_sub": "Zi's Core"
+  },
+  {
+    "page_name": "KotHaar Numbering For Dummies",
+    "item_stacklimit": 1,
+    "item_description": "A book for understanding the KotHaar numbering system (Base 12).",
+    "item_type": "Basic Item",
+    "item_name": "KotHaar Numbering For Dummies",
+    "json": {
+      "description": "A book for understanding the KotHaar numbering system (Base 12).",
+      "weight": "0.0",
+      "image": "[[File:KotHaar Numbering For Dummies.png|32px]]",
+      "name": "KotHaar Numbering For Dummies",
+      "item_type": "Basic Item",
+      "stacklimit": "1",
+      "image_raw": "KotHaar Numbering For Dummies.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "KotHaar Numbering For Dummies"
   }
 ]

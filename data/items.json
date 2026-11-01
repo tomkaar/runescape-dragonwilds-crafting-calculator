@@ -84786,5 +84786,26 @@
     "weight": 0,
     "itemType": "Basic Item",
     "stackLimit": 99
+  },
+  {
+    "id": "kothaar-numbering-for-dummies",
+    "name": "KotHaar Numbering For Dummies",
+    "image": "KotHaar Numbering For Dummies.png",
+    "variants": [
+      {
+        "id": "kothaar-numbering-for-dummies",
+        "name": "KotHaar Numbering For Dummies",
+        "image": "KotHaar Numbering For Dummies.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "KotHaar_Numbering_For_Dummies",
+    "weight": 0,
+    "itemType": "Basic Item",
+    "stackLimit": 1
   }
 ]
