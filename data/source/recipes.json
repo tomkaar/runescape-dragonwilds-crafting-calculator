@@ -25044,7 +25044,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "12"
+          "experience": "16"
         }
       ],
       "outputs": [
@@ -25097,7 +25097,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "8"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -25141,7 +25141,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "16"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -92735,68 +92735,6 @@
   {
     "uses_material": [
       "Ash Plank",
-      "Hard Leather",
-      "Small Animal Fang"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "2",
-          "name": "Ash Plank",
-          "link": "Ash Plank",
-          "qty": "2",
-          "item": "Ash Plank",
-          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Hard Leather",
-          "link": "Hard Leather",
-          "qty": "2",
-          "item": "Hard Leather",
-          "image": "[[File:Hard Leather.png|30px|link=Hard Leather]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Small Animal Fang",
-          "link": "Small Animal Fang",
-          "qty": "2",
-          "item": "Small Animal Fang",
-          "image": "[[File:Small Animal Fang.png|30px|link=Small Animal Fang]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "0"
-        }
-      ],
-      "outputs": [
-        "Rotridden Rat Trophy"
-      ],
-      "output": {
-        "quantity": "1",
-        "name": "Rotridden Rat Trophy",
-        "link": "Rotridden Rat Trophy",
-        "qty": "1",
-        "item": "Rotridden Rat Trophy",
-        "image": "[[File:Rotridden Rat Trophy.png|30px|link=Rotridden Rat Trophy]]"
-      }
-    },
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "output": [
-      "Rotridden Rat Trophy"
-    ]
-  },
-  {
-    "uses_material": [
-      "Ash Plank",
       "Undead Bone",
       "Undead Meat"
     ],
@@ -93089,68 +93027,6 @@
   {
     "uses_material": [
       "Ash Plank",
-      "Small Animal Fang",
-      "Leather"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "2",
-          "name": "Ash Plank",
-          "link": "Ash Plank",
-          "qty": "2",
-          "item": "Ash Plank",
-          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Small Animal Fang",
-          "link": "Small Animal Fang",
-          "qty": "2",
-          "item": "Small Animal Fang",
-          "image": "[[File:Small Animal Fang.png|30px|link=Small Animal Fang]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Leather",
-          "link": "Leather",
-          "qty": "2",
-          "item": "Leather",
-          "image": "[[File:Leather.png|30px|link=Leather]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "0"
-        }
-      ],
-      "outputs": [
-        "Wolf Trophy"
-      ],
-      "output": {
-        "quantity": "1",
-        "name": "Wolf Trophy",
-        "link": "Wolf Trophy",
-        "qty": "1",
-        "item": "Wolf Trophy",
-        "image": "[[File:Wolf Trophy.png|30px|link=Wolf Trophy]]"
-      }
-    },
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "output": [
-      "Wolf Trophy"
-    ]
-  },
-  {
-    "uses_material": [
-      "Ash Plank",
       "Undead Bone",
       "Undead Meat"
     ],
@@ -93332,68 +93208,6 @@
     ],
     "output": [
       "Zombie Rat Trophy"
-    ]
-  },
-  {
-    "uses_material": [
-      "Ash Plank",
-      "Small Animal Fang",
-      "Draconic Leather"
-    ],
-    "uses_skill": [
-      "Construction"
-    ],
-    "json": {
-      "facility": "Build Menu",
-      "materials": [
-        {
-          "quantity": "2",
-          "name": "Ash Plank",
-          "link": "Ash Plank",
-          "qty": "2",
-          "item": "Ash Plank",
-          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Small Animal Fang",
-          "link": "Small Animal Fang",
-          "qty": "2",
-          "item": "Small Animal Fang",
-          "image": "[[File:Small Animal Fang.png|30px|link=Small Animal Fang]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Draconic Leather",
-          "link": "Draconic Leather",
-          "qty": "2",
-          "item": "Draconic Leather",
-          "image": "[[File:Draconic Leather.png|30px|link=Draconic Leather]]"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Construction",
-          "experience": "0"
-        }
-      ],
-      "outputs": [
-        "Dragon Wolf Trophy"
-      ],
-      "output": {
-        "quantity": "1",
-        "name": "Dragon Wolf Trophy",
-        "link": "Dragon Wolf Trophy",
-        "qty": "1",
-        "item": "Dragon Wolf Trophy",
-        "image": "[[File:Dragon Wolf Trophy.png|30px|link=Dragon Wolf Trophy]]"
-      }
-    },
-    "uses_facility": [
-      "Build Menu"
-    ],
-    "output": [
-      "Dragon Wolf Trophy"
     ]
   },
   {
