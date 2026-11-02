@@ -18710,7 +18710,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 12
+              "experience": 16
             }
           ]
         },
@@ -18740,7 +18740,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 8
+              "experience": 20
             }
           ]
         },
@@ -18766,7 +18766,7 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 16
+              "experience": 20
             }
           ]
         },
@@ -69683,54 +69683,6 @@
     "wikiLink": "Rotridden_Cow_Trophy"
   },
   {
-    "id": "rotridden-rat-trophy",
-    "name": "Rotridden Rat Trophy",
-    "image": "Rotridden Rat Trophy.png",
-    "variants": [
-      {
-        "id": "8ba8c89a9532",
-        "name": "Rotridden Rat Trophy",
-        "image": "Rotridden Rat Trophy.png",
-        "variantName": null,
-        "recipe": {
-          "id": "78bfcdfccb63",
-          "facilities": [
-            "Build Menu"
-          ],
-          "materials": [
-            {
-              "itemId": "ash-plank",
-              "quantity": 2
-            },
-            {
-              "itemId": "hard-leather",
-              "quantity": 2
-            },
-            {
-              "itemId": "small-animal-fang",
-              "quantity": 2
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Construction",
-              "experience": 0
-            }
-          ]
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Construction"
-    ],
-    "facilities": [
-      "Build Menu"
-    ],
-    "wikiLink": "Rotridden_Rat_Trophy"
-  },
-  {
     "id": "rotsworn-zombie-trophy",
     "name": "Rotsworn Zombie Trophy",
     "image": "Rotsworn Zombie Trophy.png",
@@ -69963,54 +69915,6 @@
     "wikiLink": "Winged_Kalphite_Queen_Trophy"
   },
   {
-    "id": "wolf-trophy",
-    "name": "Wolf Trophy",
-    "image": "Wolf Trophy.png",
-    "variants": [
-      {
-        "id": "589fb081f599",
-        "name": "Wolf Trophy",
-        "image": "Wolf Trophy.png",
-        "variantName": null,
-        "recipe": {
-          "id": "369a0d6fdbc1",
-          "facilities": [
-            "Build Menu"
-          ],
-          "materials": [
-            {
-              "itemId": "ash-plank",
-              "quantity": 2
-            },
-            {
-              "itemId": "leather",
-              "quantity": 2
-            },
-            {
-              "itemId": "small-animal-fang",
-              "quantity": 2
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Construction",
-              "experience": 0
-            }
-          ]
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Construction"
-    ],
-    "facilities": [
-      "Build Menu"
-    ],
-    "wikiLink": "Wolf_Trophy"
-  },
-  {
     "id": "zogre-hand-trophy",
     "name": "Zogre Hand Trophy",
     "image": "Zogre Hand Trophy.png",
@@ -70153,54 +70057,6 @@
       "Build Menu"
     ],
     "wikiLink": "Zombie_Rat_Trophy"
-  },
-  {
-    "id": "dragon-wolf-trophy",
-    "name": "Dragon Wolf Trophy",
-    "image": "Dragon Wolf Trophy.png",
-    "variants": [
-      {
-        "id": "640c0a322398",
-        "name": "Dragon Wolf Trophy",
-        "image": "Dragon Wolf Trophy.png",
-        "variantName": null,
-        "recipe": {
-          "id": "fb6b624d844c",
-          "facilities": [
-            "Build Menu"
-          ],
-          "materials": [
-            {
-              "itemId": "ash-plank",
-              "quantity": 2
-            },
-            {
-              "itemId": "draconic-leather",
-              "quantity": 2
-            },
-            {
-              "itemId": "small-animal-fang",
-              "quantity": 2
-            }
-          ],
-          "quantity": 1,
-          "skills": [
-            {
-              "name": "Construction",
-              "experience": 0
-            }
-          ]
-        },
-        "usesRecipe": null
-      }
-    ],
-    "skills": [
-      "Construction"
-    ],
-    "facilities": [
-      "Build Menu"
-    ],
-    "wikiLink": "Dragon_Wolf_Trophy"
   },
   {
     "id": "zombie-cow-trophy",
