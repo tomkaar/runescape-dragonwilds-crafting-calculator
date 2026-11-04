@@ -23203,10 +23203,10 @@
     "json": {
       "description": "A masterfully forged pickaxe of pure runite, capable of breaking through even the toughest stone with ease.",
       "weight": "5.0",
-      "image": "[[File:Rune Pickaxe (Journal).png|32px]]",
+      "image": "[[File:Rune Pickaxe.png|32px]]",
       "name": "Rune Pickaxe",
       "item_type": "Tool",
-      "image_raw": "Rune Pickaxe (Journal).png"
+      "image_raw": "Rune Pickaxe.png"
     },
     "item_weight": 5,
     "page_name_sub": "Rune Pickaxe"
@@ -23219,10 +23219,10 @@
     "json": {
       "description": "Crafted from durable runite, this axe bites deeply into timber and stands up to years of hard use.",
       "weight": "5.0",
-      "image": "[[File:Rune Logging Axe (Journal).png|32px]]",
+      "image": "[[File:Rune Logging Axe.png|32px]]",
       "name": "Rune Logging Axe",
       "item_type": "Tool",
-      "image_raw": "Rune Logging Axe (Journal).png"
+      "image_raw": "Rune Logging Axe.png"
     },
     "item_weight": 5,
     "page_name_sub": "Rune Logging Axe"
