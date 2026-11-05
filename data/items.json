@@ -60928,16 +60928,21 @@
     "image": "Moon Garou Cushion 01.png",
     "variants": [
       {
-        "id": "d4825ac320b4",
+        "id": "f3a36bbf9e2b",
         "name": "Moon Garou Cushion 01",
         "image": "Moon Garou Cushion 01.png",
         "variantName": null,
         "recipe": {
-          "id": "1977bd9d75c1",
+          "id": "2395f07fa06d",
           "facilities": [
             "Build Menu"
           ],
-          "materials": [],
+          "materials": [
+            {
+              "itemId": "desert-cloth",
+              "quantity": 2
+            }
+          ],
           "quantity": 1,
           "skills": [
             {
@@ -60946,7 +60951,9 @@
             }
           ]
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "PLAN: Moon Garou Cushion 01"
+        ]
       }
     ],
     "skills": [
@@ -84663,5 +84670,26 @@
     "weight": 0,
     "itemType": "Basic Item",
     "stackLimit": 1
+  },
+  {
+    "id": "plan-moon-garou-cushion-01",
+    "name": "PLAN: Moon Garou Cushion 01",
+    "image": "PLAN- Moon Garou Cushion 01.png",
+    "variants": [
+      {
+        "id": "plan-moon-garou-cushion-01",
+        "name": "PLAN: Moon Garou Cushion 01",
+        "image": "PLAN- Moon Garou Cushion 01.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Moon_Garou_Cushion_01",
+    "weight": 0,
+    "itemType": "Consumable",
+    "stackLimit": 99
   }
 ]

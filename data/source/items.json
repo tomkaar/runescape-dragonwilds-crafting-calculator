@@ -24289,5 +24289,23 @@
     },
     "item_weight": 0,
     "page_name_sub": "KotHaar Numbering For Dummies"
+  },
+  {
+    "page_name": "PLAN: Moon Garou Cushion 01",
+    "item_stacklimit": 99,
+    "item_description": "",
+    "item_type": "Consumable",
+    "item_name": "PLAN: Moon Garou Cushion 01",
+    "json": {
+      "description": "",
+      "weight": "0",
+      "image": "[[File:PLAN- Moon Garou Cushion 01.png|32px]]",
+      "name": "PLAN: Moon Garou Cushion 01",
+      "item_type": "Consumable",
+      "stacklimit": "99",
+      "image_raw": "PLAN- Moon Garou Cushion 01.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Moon Garou Cushion 01"
   }
 ]
