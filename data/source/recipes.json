@@ -81762,13 +81762,29 @@
     ]
   },
   {
+    "uses_material": [
+      "Desert Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
     "json": {
+      "recipe": "PLAN: Moon Garou Cushion 01",
       "facility": "Build Menu",
-      "materials": [],
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Desert Cloth",
+          "link": "Desert Cloth",
+          "qty": "2",
+          "item": "Desert Cloth",
+          "image": "[[File:Desert Cloth.png|30px|link=Desert Cloth]]"
+        }
+      ],
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "??"
         }
       ],
       "outputs": [
@@ -81786,8 +81802,8 @@
     "uses_facility": [
       "Build Menu"
     ],
-    "uses_skill": [
-      "Construction"
+    "uses_recipe": [
+      "PLAN: Moon Garou Cushion 01"
     ],
     "output": [
       "Moon Garou Cushion 01"
