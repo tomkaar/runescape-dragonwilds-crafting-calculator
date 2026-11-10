@@ -81103,6 +81103,42 @@
       "Artisan"
     ],
     "json": {
+      "recipe": "Red Memory of Menaphos",
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Red Desert Cape"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Red Desert Cape",
+        "link": "Red Desert Cape",
+        "qty": "1",
+        "item": "Red Desert Cape",
+        "image": "[[File:Red Desert Cape.png|30px|link=Red Desert Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "uses_recipe": [
+      "Red Memory of Menaphos"
+    ],
+    "output": [
+      "Red Desert Cape"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
       "recipe": "White Memory of Menaphos",
       "facility": "Armour Bench",
       "materials": [],
