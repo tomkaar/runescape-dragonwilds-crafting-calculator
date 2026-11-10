@@ -60419,6 +60419,45 @@
     "itemType": "Armour"
   },
   {
+    "id": "red-desert-cape",
+    "name": "Red Desert Cape",
+    "image": "Red Desert Cape.png",
+    "variants": [
+      {
+        "id": "1cad44ab9ce1",
+        "name": "Red Desert Cape",
+        "image": "Red Desert Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2b708757d832",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 100
+            }
+          ]
+        },
+        "usesRecipe": [
+          "Red Memory of Menaphos"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Red_Desert_Cape",
+    "weight": 0,
+    "itemType": "Armour"
+  },
+  {
     "id": "white-desert-cape",
     "name": "White Desert Cape",
     "image": "White Desert Cape.png",
@@ -81987,26 +82026,6 @@
     "weight": 0,
     "itemType": "Vestige",
     "stackLimit": 99
-  },
-  {
-    "id": "red-desert-cape",
-    "name": "Red Desert Cape",
-    "image": "Red Desert Cape.png",
-    "variants": [
-      {
-        "id": "red-desert-cape",
-        "name": "Red Desert Cape",
-        "image": "Red Desert Cape.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Red_Desert_Cape",
-    "weight": 0,
-    "itemType": "Armour"
   },
   {
     "id": "black-memory-of-menaphos",
