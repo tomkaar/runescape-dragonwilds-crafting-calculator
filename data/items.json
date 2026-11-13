@@ -29500,7 +29500,10 @@
     "facilities": [
       "Brewing Cauldron"
     ],
-    "wikiLink": "Naptha"
+    "wikiLink": "Naptha",
+    "weight": 0.5,
+    "itemType": "Basic Item",
+    "stackLimit": 50
   },
   {
     "id": "fire-oil",
@@ -74758,27 +74761,6 @@
     "weight": 0,
     "itemType": "Consumable",
     "stackLimit": 99
-  },
-  {
-    "id": "naphtha",
-    "name": "Naphtha",
-    "image": "Naptha.png",
-    "variants": [
-      {
-        "id": "naptha",
-        "name": "Naptha",
-        "image": "Naptha.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Naphtha",
-    "weight": 0.5,
-    "itemType": "Basic Item",
-    "stackLimit": 50
   },
   {
     "id": "fang-fire-arrow",

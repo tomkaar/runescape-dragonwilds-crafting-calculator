@@ -6854,7 +6854,7 @@
     "page_name_sub": "PLAN: Potted Onion"
   },
   {
-    "page_name": "Naphtha",
+    "page_name": "Naptha",
     "item_stacklimit": 50,
     "item_description": "A very flammable liquid.",
     "item_type": "Basic Item",
@@ -6869,7 +6869,7 @@
       "image_raw": "Naptha.png"
     },
     "item_weight": 0.5,
-    "page_name_sub": "Naphtha"
+    "page_name_sub": "Naptha"
   },
   {
     "page_name": "Fire Oil",
