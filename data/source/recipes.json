@@ -75953,10 +75953,10 @@
           "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
         },
         {
-          "quantity": "1",
+          "quantity": "2",
           "name": "Gypsum Wax",
           "link": "Gypsum Wax",
-          "qty": "1",
+          "qty": "2",
           "item": "Gypsum Wax",
           "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
         },
@@ -93569,6 +93569,59 @@
     ],
     "output": [
       "Glorious Cake"
+    ]
+  },
+  {
+    "uses_material": [
+      "Penguin Coin",
+      "Oak Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Penguin Coin",
+          "link": "Penguin Coin",
+          "qty": "1",
+          "item": "Penguin Coin",
+          "image": "[[File:Penguin Coin.png|30px|link=Penguin Coin]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Oak Plank",
+          "link": "Oak Plank",
+          "qty": "1",
+          "item": "Oak Plank",
+          "image": "[[File:Oak Plank.png|30px|link=Oak Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "?"
+        }
+      ],
+      "outputs": [
+        "Decorative Penguin Coin"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Decorative Penguin Coin",
+        "link": "Decorative Penguin Coin",
+        "qty": 1,
+        "item": "Decorative Penguin Coin",
+        "image": "[[File:Decorative Penguin Coin.png|30px|link=Decorative Penguin Coin]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Decorative Penguin Coin"
     ]
   }
 ]
