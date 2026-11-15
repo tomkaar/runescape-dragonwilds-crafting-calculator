@@ -56915,12 +56915,12 @@
     "image": "Adamant Helmet.png",
     "variants": [
       {
-        "id": "be1414c61303",
+        "id": "9a9930c6d489",
         "name": "Adamant Helmet",
         "image": "Adamant Helmet.png",
         "variantName": null,
         "recipe": {
-          "id": "086ba71cd4eb",
+          "id": "cf0c7f8c5158",
           "facilities": [
             "Armour Bench"
           ],
@@ -56939,7 +56939,7 @@
             },
             {
               "itemId": "gypsum-wax",
-              "quantity": 1
+              "quantity": 2
             },
             {
               "itemId": "refined-obsidian",
@@ -70336,6 +70336,57 @@
     "weight": 0,
     "itemType": "Quest Item",
     "stackLimit": 0
+  },
+  {
+    "id": "decorative-penguin-coin",
+    "name": "Decorative Penguin Coin",
+    "image": "Decorative Penguin Coin.png",
+    "variants": [
+      {
+        "id": "9fe13f1a57d1",
+        "name": "Decorative Penguin Coin",
+        "image": "Decorative Penguin Coin.png",
+        "variantName": null,
+        "recipe": {
+          "id": "544a83af9b1f",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "oak-plank",
+              "quantity": 1
+            },
+            {
+              "itemId": "penguin-coin",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Decorative_Penguin_Coin",
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 1
+      }
+    ]
   },
   {
     "id": "goblin-pack",

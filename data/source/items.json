@@ -1155,10 +1155,10 @@
     "json": {
       "description": "A shortbow carved from ash wood.",
       "weight": "10.0",
-      "image": "[[File:Ash Shortbow (Journal).png|32px]]",
+      "image": "[[File:Ash Shortbow.png|32px]]",
       "name": "Ash Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Ash Shortbow (Journal).png"
+      "image_raw": "Ash Shortbow.png"
     },
     "item_weight": 10,
     "page_name_sub": "Ash Shortbow"
@@ -1171,10 +1171,10 @@
     "json": {
       "description": "An agile shortbow carved from oak wood.",
       "weight": "10.0",
-      "image": "[[File:Oak Shortbow (Journal).png|32px]]",
+      "image": "[[File:Oak Shortbow.png|32px]]",
       "name": "Oak Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Oak Shortbow (Journal).png"
+      "image_raw": "Oak Shortbow.png"
     },
     "item_weight": 10,
     "page_name_sub": "Oak Shortbow"
@@ -1203,10 +1203,10 @@
     "json": {
       "description": "A finely crafted bow, fast and reliable.",
       "weight": "15.0",
-      "image": "[[File:Blightwood Shortbow (Journal).png|32px]]",
+      "image": "[[File:Blightwood Shortbow.png|32px]]",
       "name": "Blightwood Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Blightwood Shortbow (Journal).png"
+      "image_raw": "Blightwood Shortbow.png"
     },
     "item_weight": 15,
     "page_name_sub": "Blightwood Shortbow"
@@ -1219,10 +1219,10 @@
     "json": {
       "description": "A bow used by a Wild Knight scout. Maintaining balance, one arrow at a time.",
       "weight": "10.0",
-      "image": "[[File:Wild Scout's Shortbow (Journal).png|32px]]",
+      "image": "[[File:Wild Scout's Shortbow.png|32px]]",
       "name": "Wild Scout's Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Wild Scout's Shortbow (Journal).png"
+      "image_raw": "Wild Scout's Shortbow.png"
     },
     "item_weight": 10,
     "page_name_sub": "Wild Scout's Shortbow"
@@ -2185,10 +2185,10 @@
     "json": {
       "description": "A powerful Shortbow fashioned from crystal of elven origin.",
       "weight": "10.0",
-      "image": "[[File:Crystal Bow (Journal).png|32px]]",
+      "image": "[[File:Crystal Bow.png|32px]]",
       "name": "Crystal Bow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Crystal Bow (Journal).png"
+      "image_raw": "Crystal Bow.png"
     },
     "item_weight": 10,
     "page_name_sub": "Crystal Bow"
@@ -7843,10 +7843,10 @@
     "json": {
       "description": "This bow still fires with undeadly precision.",
       "weight": "10",
-      "image": "[[File:Undead Ranger's Bow (journal).png|32px]]",
+      "image": "[[File:Undead Ranger's Bow.png|32px]]",
       "name": "Undead Ranger Bow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Undead Ranger's Bow (journal).png"
+      "image_raw": "Undead Ranger's Bow.png"
     },
     "item_weight": 10,
     "page_name_sub": "Undead Ranger's Bow"
@@ -9828,10 +9828,10 @@
     "json": {
       "description": "An agile Shortbow crafted from Willow.",
       "weight": "10.0",
-      "image": "[[File:Willow Shortbow (Journal).png|32px]]",
+      "image": "[[File:Willow Shortbow.png|32px]]",
       "name": "Willow Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Willow Shortbow (Journal).png"
+      "image_raw": "Willow Shortbow.png"
     },
     "item_weight": 10,
     "page_name_sub": "Willow Shortbow"
@@ -13032,10 +13032,10 @@
     "json": {
       "description": "A limber shortbow carved from maple wood<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"no full stop\">sic</span>&#93;</sup>",
       "weight": "10.0",
-      "image": "[[File:Maple Shortbow (Jounal).png|32px]]",
+      "image": "[[File:Maple Shortbow.png|32px]]",
       "name": "Maple Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Maple Shortbow (Jounal).png"
+      "image_raw": "Maple Shortbow.png"
     },
     "item_weight": 10,
     "page_name_sub": "Maple Shortbow"
@@ -19265,10 +19265,10 @@
     "json": {
       "description": "A strong shortbow made from yew.",
       "weight": "10.0",
-      "image": "[[File:Yew Shortbow (Journal).png|32px]]",
+      "image": "[[File:Yew Shortbow.png|32px]]",
       "name": "Yew Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Yew Shortbow (Journal).png"
+      "image_raw": "Yew Shortbow.png"
     },
     "item_weight": 10,
     "page_name_sub": "Yew Shortbow"
@@ -23529,10 +23529,10 @@
     "json": {
       "description": "A colossal rune warhammer, capable of shattering shields and crushing the strongest defences.",
       "weight": "25.0",
-      "image": "[[File:Rune Warhammer (Journal).png|32px]]",
+      "image": "[[File:Rune Warhammer.png|32px]]",
       "name": "Rune Warhammer",
       "item_type": "Melee Weapon",
-      "image_raw": "Rune Warhammer (Journal).png"
+      "image_raw": "Rune Warhammer.png"
     },
     "item_weight": 25,
     "page_name_sub": "Rune Warhammer"
@@ -23667,10 +23667,10 @@
     "json": {
       "description": "A shortbow made of magic wood, this bow is light enough to carry all day and powerful enough to ruin someone else's.",
       "weight": "10.0",
-      "image": "[[File:Magic Shortbow (Journal).png|32px]]",
+      "image": "[[File:Magic Shortbow.png|32px]]",
       "name": "Magic Shortbow",
       "item_type": "Ranged Weapon",
-      "image_raw": "Magic Shortbow (Journal).png"
+      "image_raw": "Magic Shortbow.png"
     },
     "item_weight": 10,
     "page_name_sub": "Magic Shortbow"
