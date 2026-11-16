@@ -679,7 +679,7 @@
     "item_name": "Rune Essence",
     "json": {
       "description": "A mysterious porous rock used as a base for powerful runes.",
-      "weight": "0.2'\"`UNIQ--ref-00000017-QINU`\"'",
+      "weight": "0.2'\"`UNIQ--ref-00000000-QINU`\"'",
       "image": "[[File:Rune Essence.png|32px]]",
       "name": "Rune Essence",
       "item_type": "Basic Item",
@@ -11854,14 +11854,14 @@
     "page_name": "Glass Vessel",
     "item_stacklimit": 99,
     "item_description": "A glass item made by glassblowing.",
-    "item_type": "Component",
+    "item_type": "Basic Item",
     "item_name": "Glass Vessel",
     "json": {
       "description": "A glass item made by glassblowing.",
       "weight": "1.0",
       "image": "[[File:Glass Vessel.png|32px]]",
       "name": "Glass Vessel",
-      "item_type": "Component",
+      "item_type": "Basic Item",
       "stacklimit": "99",
       "image_raw": "Glass Vessel.png"
     },
@@ -12926,11 +12926,11 @@
   },
   {
     "page_name": "Mystic Robes",
-    "item_description": "The finest magical thread, spun into fabolous mage gear.",
+    "item_description": "The finest magical thread, spun into fabulous mage gear.",
     "item_type": "Mage Armour",
     "item_name": "Mystic Robes",
     "json": {
-      "description": "The finest magical thread, spun into fabolous mage gear.",
+      "description": "The finest magical thread, spun into fabulous mage gear.",
       "weight": "8.0",
       "image": "[[File:Mystic Robes.png|32px]]",
       "name": "Mystic Robes",
@@ -17910,6 +17910,24 @@
   {
     "page_name": "Ascension Core",
     "item_stacklimit": 99,
+    "item_description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 6 to Power Level 7",
+    "item_type": "Basic Material",
+    "item_name": "Ascension Core",
+    "json": {
+      "description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 6 to Power Level 7",
+      "weight": "0.3",
+      "image": "[[File:Ascension Core (Power Level 7).png|32px]]",
+      "name": "Ascension Core",
+      "item_type": "Basic Material",
+      "stacklimit": "99",
+      "image_raw": "Ascension Core (Power Level 7).png"
+    },
+    "item_weight": 0.3,
+    "page_name_sub": "Ascension Core"
+  },
+  {
+    "page_name": "Ascension Core",
+    "item_stacklimit": 99,
     "item_description": "Used to upgrade Masterwork Weapons and Vestiges from Power Level 7 to Power Level 8",
     "item_type": "Basic Material",
     "item_name": "Ascension Core",
@@ -20528,8 +20546,10 @@
     "item_type": "Food",
     "item_name": "Burnt Desert Sole",
     "json": {
+      "compostable": "[[Ultra Compost Bin]]",
       "description": "Too well done, but still edible.",
-      "weight": "1",
+      "weight": "1.0",
+      "compostvalue": "10",
       "image": "[[File:Burnt Desert Sole.png|32px]]",
       "name": "Burnt Desert Sole",
       "item_type": "Food",
@@ -23417,10 +23437,10 @@
     "json": {
       "description": "Polished to a brilliant shine, this helmet is as impressive as it is eye-catching.",
       "weight": "8.0",
-      "image": "[[File:Gilded Paladin Helmet (Journal).png|32px]]",
+      "image": "[[File:Gilded Paladin Helmet.png|32px]]",
       "name": "Gilded Paladin Helmet",
       "item_type": "Melee Armour",
-      "image_raw": "Gilded Paladin Helmet (Journal).png"
+      "image_raw": "Gilded Paladin Helmet.png"
     },
     "item_weight": 8,
     "page_name_sub": "Gilded Paladin Helmet"
@@ -23433,10 +23453,10 @@
     "json": {
       "description": "An ornate golden chestpiece that serves as a symbol of power, status, and confidence.",
       "weight": "16.0",
-      "image": "[[File:Gilded Paladin Chestpiece (Journal).png|32px]]",
+      "image": "[[File:Gilded Paladin Chestpiece.png|32px]]",
       "name": "Gilded Paladin Chestpiece",
       "item_type": "Melee Armour",
-      "image_raw": "Gilded Paladin Chestpiece (Journal).png"
+      "image_raw": "Gilded Paladin Chestpiece.png"
     },
     "item_weight": 16,
     "page_name_sub": "Gilded Paladin Chestpiece"
@@ -23449,10 +23469,10 @@
     "json": {
       "description": "Golden platelegs for warriors who believe protection should be seen from a distance.",
       "weight": "12.0",
-      "image": "[[File:Gilded Paladin Legs (Journal).png|32px]]",
+      "image": "[[File:Gilded Paladin Legs.png|32px]]",
       "name": "Gilded Paladin Legs",
       "item_type": "Melee Armour",
-      "image_raw": "Gilded Paladin Legs (Journal).png"
+      "image_raw": "Gilded Paladin Legs.png"
     },
     "item_weight": 12,
     "page_name_sub": "Gilded Paladin Legs"
@@ -24307,5 +24327,201 @@
     },
     "item_weight": 0,
     "page_name_sub": "PLAN: Moon Garou Cushion 01"
+  },
+  {
+    "page_name": "Agony Auntchovy",
+    "item_stacklimit": 99,
+    "item_description": "Sad little fish love a shoulder to cry on. Increases the chance of catching an upset fish in Umbral Sands.",
+    "item_type": "Tool",
+    "item_name": "Agony Auntchovy",
+    "json": {
+      "description": "Sad little fish love a shoulder to cry on. Increases the chance of catching an upset fish in Umbral Sands.",
+      "weight": "0",
+      "image": "[[File:Agony Auntchovy.png|32px]]",
+      "name": "Agony Auntchovy",
+      "item_type": "Tool",
+      "stacklimit": "99",
+      "image_raw": "Agony Auntchovy.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Agony Auntchovy"
+  },
+  {
+    "page_name": "A Reel Downer Reward Pack",
+    "item_stacklimit": 10,
+    "item_description": "A reward for helping cheer up some sad fish.",
+    "item_type": "Container",
+    "item_name": "A Reel Downer Reward Pack",
+    "json": {
+      "description": "A reward for helping cheer up some sad fish.",
+      "weight": "1.0",
+      "image": "[[File:A Reel Downer Reward Pack.png|32px]]",
+      "name": "A Reel Downer Reward Pack",
+      "item_type": "Container",
+      "stacklimit": "10",
+      "image_raw": "A Reel Downer Reward Pack.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "A Reel Downer Reward Pack"
+  },
+  {
+    "page_name": "Bawling Beltfish",
+    "item_stacklimit": 99,
+    "item_description": "Too depressed to wriggle.",
+    "item_type": "Raw Ingredient",
+    "item_name": "Bawling Beltfish",
+    "json": {
+      "compostable": "Ultra Compost Bin",
+      "description": "Too depressed to wriggle.",
+      "weight": "5.0",
+      "compostvalue": "10",
+      "image": "[[File:Bawling Beltfish.png|32px]]",
+      "name": "Bawling Beltfish",
+      "item_type": "Raw Ingredient",
+      "stacklimit": "99",
+      "image_raw": "Bawling Beltfish.png"
+    },
+    "item_weight": 5,
+    "page_name_sub": "Bawling Beltfish"
+  },
+  {
+    "page_name": "Depressed Desert Sole",
+    "item_stacklimit": 99,
+    "item_description": "A mournful sole.",
+    "item_type": "Raw Ingredient",
+    "item_name": "Depressed Desert Sole",
+    "json": {
+      "compostable": "Ultra Compost Bin",
+      "description": "A mournful sole.",
+      "weight": "5.0",
+      "compostvalue": "10",
+      "image": "[[File:Depressed Desert Sole.png|32px]]",
+      "name": "Depressed Desert Sole",
+      "item_type": "Raw Ingredient",
+      "stacklimit": "99",
+      "image_raw": "Depressed Desert Sole.png"
+    },
+    "item_weight": 5,
+    "page_name_sub": "Depressed Desert Sole"
+  },
+  {
+    "page_name": "Inconsolable Catfish",
+    "item_stacklimit": 99,
+    "item_description": "No sense crying over spilled milk.",
+    "item_type": "Raw Ingredient",
+    "item_name": "Inconsolable Catfish",
+    "json": {
+      "compostable": "Ultra Compost Bin",
+      "description": "No sense crying over spilled milk.",
+      "weight": "9.0",
+      "compostvalue": "10",
+      "image": "[[File:Inconsolable Catfish.png|32px]]",
+      "name": "Inconsolable Catfish",
+      "item_type": "Raw Ingredient",
+      "stacklimit": "99",
+      "image_raw": "Inconsolable Catfish.png"
+    },
+    "item_weight": 9,
+    "page_name_sub": "Inconsolable Catfish"
+  },
+  {
+    "page_name": "Snivelling Sardine",
+    "item_stacklimit": 99,
+    "item_description": "A small fish with big emotions.",
+    "item_type": "Raw Ingredient",
+    "item_name": "Snivelling Sardine",
+    "json": {
+      "compostable": "[[Compost Bin]]",
+      "description": "A small fish with big emotions.",
+      "weight": "1.0",
+      "compostvalue": "1",
+      "image": "[[File:Snivelling Sardine.png|32px]]",
+      "name": "Snivelling Sardine",
+      "item_type": "Raw Ingredient",
+      "stacklimit": "99",
+      "image_raw": "Snivelling Sardine.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Snivelling Sardine"
+  },
+  {
+    "page_name": "Pristine Depressed Desert Sole",
+    "item_stacklimit": 99,
+    "item_description": "A Pristine Desert Sole, that could use someone to talk to.",
+    "item_type": "Raw Ingredient",
+    "item_name": "Pristine Depressed Desert Sole",
+    "json": {
+      "compostable": "[[Ultra Compost Bin]]",
+      "description": "A Pristine Desert Sole, that could use someone to talk to.",
+      "weight": "5.0",
+      "compostvalue": "10",
+      "image": "[[File:Pristine Depressed Desert Sole.png|32px]]",
+      "name": "Pristine Depressed Desert Sole",
+      "item_type": "Raw Ingredient",
+      "stacklimit": "99",
+      "image_raw": "Pristine Depressed Desert Sole.png"
+    },
+    "item_weight": 5,
+    "page_name_sub": "Pristine Depressed Desert Sole"
+  },
+  {
+    "page_name": "Pristine Bawling Beltfish",
+    "item_stacklimit": 99,
+    "item_description": "A Pristine Beltfish, that appears to be sobbing.",
+    "item_type": "Raw Ingredient",
+    "item_name": "Pristine Bawling Beltfish",
+    "json": {
+      "compostable": "[[Ultra Compost Bin]]",
+      "description": "A Pristine Beltfish, that appears to be sobbing.",
+      "weight": "5.0",
+      "compostvalue": "10",
+      "image": "[[File:Pristine Bawling Beltfish.png|32px]]",
+      "name": "Pristine Bawling Beltfish",
+      "item_type": "Raw Ingredient",
+      "stacklimit": "99",
+      "image_raw": "Pristine Bawling Beltfish.png"
+    },
+    "item_weight": 5,
+    "page_name_sub": "Pristine Bawling Beltfish"
+  },
+  {
+    "page_name": "Pristine Inconsolable Catfish",
+    "item_stacklimit": 99,
+    "item_description": "A Pristine but upset Catfish.",
+    "item_type": "Raw Ingredient",
+    "item_name": "Pristine Inconsolable Catfish",
+    "json": {
+      "compostable": "[[Super Compost Bin]]",
+      "description": "A Pristine but upset Catfish.",
+      "weight": "9.0",
+      "compostvalue": "10",
+      "image": "[[File:Pristine Inconsolable Catfish.png|32px]]",
+      "name": "Pristine Inconsolable Catfish",
+      "item_type": "Raw Ingredient",
+      "stacklimit": "99",
+      "image_raw": "Pristine Inconsolable Catfish.png"
+    },
+    "item_weight": 9,
+    "page_name_sub": "Pristine Inconsolable Catfish"
+  },
+  {
+    "page_name": "Pristine Snivelling Sardine",
+    "item_stacklimit": 99,
+    "item_description": "A Pristine Sardine, snivelling.",
+    "item_type": "Raw Ingredient",
+    "item_name": "Pristine Snivelling Sardine",
+    "json": {
+      "compostable": "[[Compost Bin]]",
+      "description": "A Pristine Sardine, snivelling.",
+      "weight": "1.0",
+      "compostvalue": "1",
+      "image": "[[File:Pristine Snivelling Sardine.png|32px]]",
+      "name": "Pristine Snivelling Sardine",
+      "item_type": "Raw Ingredient",
+      "stacklimit": "99",
+      "image_raw": "Pristine Snivelling Sardine.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Pristine Snivelling Sardine"
   }
 ]
