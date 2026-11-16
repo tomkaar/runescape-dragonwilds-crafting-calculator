@@ -66857,6 +66857,50 @@
   },
   {
     "uses_material": [
+      "Snivelling Sardine"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Snivelling Sardine",
+          "link": "Snivelling Sardine",
+          "qty": "1",
+          "item": "Snivelling Sardine",
+          "image": "[[File:Snivelling Sardine.png|30px|link=Snivelling Sardine]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Fried Sardine"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Fried Sardine",
+        "link": "Fried Sardine",
+        "qty": "1",
+        "item": "Fried Sardine",
+        "image": "[[File:Fried Sardine.png|30px|link=Fried Sardine]]"
+      }
+    },
+    "uses_facility": [
+      "Campfire"
+    ],
+    "output": [
+      "Fried Sardine"
+    ]
+  },
+  {
+    "uses_material": [
       "Raw Sardine"
     ],
     "uses_skill": [
@@ -66872,6 +66916,50 @@
           "qty": "1",
           "item": "Raw Sardine",
           "image": "[[File:Raw Sardine.png|30px|link=Raw Sardine]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Fried Sardine"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Fried Sardine",
+        "link": "Fried Sardine",
+        "qty": "1",
+        "item": "Fried Sardine",
+        "image": "[[File:Fried Sardine.png|30px|link=Fried Sardine]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Fried Sardine"
+    ]
+  },
+  {
+    "uses_material": [
+      "Snivelling Sardine"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Snivelling Sardine",
+          "link": "Snivelling Sardine",
+          "qty": "1",
+          "item": "Snivelling Sardine",
+          "image": "[[File:Snivelling Sardine.png|30px|link=Snivelling Sardine]]"
         }
       ],
       "skills": [
@@ -69330,6 +69418,50 @@
   },
   {
     "uses_material": [
+      "Snivelling Sardine"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Snivelling Sardine",
+          "link": "Snivelling Sardine",
+          "qty": "1",
+          "item": "Snivelling Sardine",
+          "image": "[[File:Snivelling Sardine.png|30px|link=Snivelling Sardine]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Sardine"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Sardine",
+        "link": "Burnt Sardine",
+        "qty": "1",
+        "item": "Burnt Sardine",
+        "image": "[[File:Burnt Sardine.png|30px|link=Burnt Sardine]]"
+      }
+    },
+    "uses_facility": [
+      "Campfire"
+    ],
+    "output": [
+      "Burnt Sardine"
+    ]
+  },
+  {
+    "uses_material": [
       "Raw Sardine"
     ],
     "uses_skill": [
@@ -69345,6 +69477,50 @@
           "qty": "1",
           "item": "Raw Sardine",
           "image": "[[File:Raw Sardine.png|30px|link=Raw Sardine]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Sardine"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Sardine",
+        "link": "Burnt Sardine",
+        "qty": "1",
+        "item": "Burnt Sardine",
+        "image": "[[File:Burnt Sardine.png|30px|link=Burnt Sardine]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Burnt Sardine"
+    ]
+  },
+  {
+    "uses_material": [
+      "Snivelling Sardine"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Snivelling Sardine",
+          "link": "Snivelling Sardine",
+          "qty": "1",
+          "item": "Snivelling Sardine",
+          "image": "[[File:Snivelling Sardine.png|30px|link=Snivelling Sardine]]"
         }
       ],
       "skills": [
@@ -80142,6 +80318,50 @@
   },
   {
     "uses_material": [
+      "Depressed Desert Sole"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Depressed Desert Sole",
+          "link": "Depressed Desert Sole",
+          "qty": "1",
+          "item": "Depressed Desert Sole",
+          "image": "[[File:Depressed Desert Sole.png|30px|link=Depressed Desert Sole]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Sun Baked Sole"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Sun Baked Sole",
+        "link": "Sun Baked Sole",
+        "qty": "1",
+        "item": "Sun Baked Sole",
+        "image": "[[File:Sun Baked Sole.png|30px|link=Sun Baked Sole]]"
+      }
+    },
+    "uses_facility": [
+      "Campfire"
+    ],
+    "output": [
+      "Sun Baked Sole"
+    ]
+  },
+  {
+    "uses_material": [
       "Raw Desert Sole"
     ],
     "uses_skill": [
@@ -80157,6 +80377,50 @@
           "qty": "1",
           "item": "Raw Desert Sole",
           "image": "[[File:Raw Desert Sole.png|30px|link=Raw Desert Sole]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Sun Baked Sole"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Sun Baked Sole",
+        "link": "Sun Baked Sole",
+        "qty": "1",
+        "item": "Sun Baked Sole",
+        "image": "[[File:Sun Baked Sole.png|30px|link=Sun Baked Sole]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Sun Baked Sole"
+    ]
+  },
+  {
+    "uses_material": [
+      "Depressed Desert Sole"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Depressed Desert Sole",
+          "link": "Depressed Desert Sole",
+          "qty": "1",
+          "item": "Depressed Desert Sole",
+          "image": "[[File:Depressed Desert Sole.png|30px|link=Depressed Desert Sole]]"
         }
       ],
       "skills": [
@@ -81445,6 +81709,42 @@
     ]
   },
   {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Burnt Desert Sole",
+          "link": "Burnt Desert Sole",
+          "qty": "1",
+          "image": "[[File:Burnt Desert Sole.png|30px|link=Burnt Desert Sole]]",
+          "item": "Burnt Desert Sole"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "10",
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": "10",
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Burnt Desert Sole"
+    ],
+    "output": [
+      "Ultra Compost"
+    ]
+  },
+  {
     "uses_material": [
       "Raw Desert Sole"
     ],
@@ -81490,6 +81790,50 @@
   },
   {
     "uses_material": [
+      "Depressed Desert Sole"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Campfire",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Depressed Desert Sole",
+          "link": "Depressed Desert Sole",
+          "qty": "1",
+          "item": "Depressed Desert Sole",
+          "image": "[[File:Depressed Desert Sole.png|30px|link=Depressed Desert Sole]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Desert Sole"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Desert Sole",
+        "link": "Burnt Desert Sole",
+        "qty": "1",
+        "item": "Burnt Desert Sole",
+        "image": "[[File:Burnt Desert Sole.png|30px|link=Burnt Desert Sole]]"
+      }
+    },
+    "uses_facility": [
+      "Campfire"
+    ],
+    "output": [
+      "Burnt Desert Sole"
+    ]
+  },
+  {
+    "uses_material": [
       "Raw Desert Sole"
     ],
     "uses_skill": [
@@ -81505,6 +81849,50 @@
           "qty": "1",
           "item": "Raw Desert Sole",
           "image": "[[File:Raw Desert Sole.png|30px|link=Raw Desert Sole]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Cooking",
+          "experience": "10"
+        }
+      ],
+      "outputs": [
+        "Burnt Desert Sole"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Burnt Desert Sole",
+        "link": "Burnt Desert Sole",
+        "qty": "1",
+        "item": "Burnt Desert Sole",
+        "image": "[[File:Burnt Desert Sole.png|30px|link=Burnt Desert Sole]]"
+      }
+    },
+    "uses_facility": [
+      "Grill"
+    ],
+    "output": [
+      "Burnt Desert Sole"
+    ]
+  },
+  {
+    "uses_material": [
+      "Depressed Desert Sole"
+    ],
+    "uses_skill": [
+      "Cooking"
+    ],
+    "json": {
+      "facility": "Grill",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Depressed Desert Sole",
+          "link": "Depressed Desert Sole",
+          "qty": "1",
+          "item": "Depressed Desert Sole",
+          "image": "[[File:Depressed Desert Sole.png|30px|link=Depressed Desert Sole]]"
         }
       ],
       "skills": [
@@ -93622,6 +94010,504 @@
     ],
     "output": [
       "Decorative Penguin Coin"
+    ]
+  },
+  {
+    "uses_material": [
+      "Yew Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Yew Logs",
+          "link": "Yew Logs",
+          "qty": "4",
+          "item": "Yew Logs",
+          "image": "[[File:Yew Logs.png|30px|link=Yew Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Fishing Rod Rack"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Fishing Rod Rack",
+        "link": "Fishing Rod Rack",
+        "qty": 1,
+        "item": "Fishing Rod Rack",
+        "image": "[[File:Fishing Rod Rack.png|30px|link=Fishing Rod Rack]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Fishing Rod Rack"
+    ]
+  },
+  {
+    "uses_material": [
+      "Feathers",
+      "Onion",
+      "Raw Anchovies"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": 1,
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Onion",
+          "link": "Onion",
+          "qty": 1,
+          "item": "Onion",
+          "image": "[[File:Onion.png|30px|link=Onion]]"
+        },
+        {
+          "quantity": 1,
+          "name": "Raw Anchovies",
+          "link": "Raw Anchovies",
+          "qty": 1,
+          "item": "Raw Anchovies",
+          "image": "[[File:Raw Anchovies.png|30px|link=Raw Anchovies]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Agony Auntchovy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Agony Auntchovy",
+        "link": "Agony Auntchovy",
+        "qty": 1,
+        "item": "Agony Auntchovy",
+        "image": "[[File:Agony Auntchovy.png|30px|link=Agony Auntchovy]]"
+      }
+    },
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "output": [
+      "Agony Auntchovy"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Snivelling Sardine",
+          "link": "Snivelling Sardine",
+          "qty": "1",
+          "image": "[[File:Snivelling Sardine.png|30px|link=Snivelling Sardine]]",
+          "item": "Snivelling Sardine"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Snivelling Sardine"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Depressed Desert Sole",
+          "link": "Pristine Depressed Desert Sole",
+          "qty": "1",
+          "image": "[[File:Pristine Depressed Desert Sole.png|30px|link=Pristine Depressed Desert Sole]]",
+          "item": "Pristine Depressed Desert Sole"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "10",
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": "10",
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Pristine Depressed Desert Sole"
+    ],
+    "output": [
+      "Ultra Compost"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Depressed Desert Sole",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Pristine Depressed Desert Sole",
+          "link": "Pristine Depressed Desert Sole",
+          "qty": 1,
+          "item": "Pristine Depressed Desert Sole",
+          "image": "[[File:Pristine Depressed Desert Sole.png|30px|link=Pristine Depressed Desert Sole]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Pristine Depressed Desert Sole Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Depressed Desert Sole Trophy",
+        "link": "Pristine Depressed Desert Sole Trophy",
+        "qty": 1,
+        "item": "Pristine Depressed Desert Sole Trophy",
+        "image": "[[File:Pristine Depressed Desert Sole Trophy.png|30px|link=Pristine Depressed Desert Sole Trophy]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Pristine Depressed Desert Sole Trophy"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Ultra Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Bawling Beltfish",
+          "link": "Pristine Bawling Beltfish",
+          "qty": "1",
+          "image": "[[File:Pristine Bawling Beltfish.png|30px|link=Pristine Bawling Beltfish]]",
+          "item": "Pristine Bawling Beltfish"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "10",
+        "name": "Ultra Compost",
+        "link": "Ultra Compost",
+        "qty": "10",
+        "image": "[[File:Ultra Compost.png|30px|link=Ultra Compost]]",
+        "item": "Ultra Compost"
+      },
+      "outputs": [
+        "Ultra Compost"
+      ]
+    },
+    "uses_facility": [
+      "Ultra Compost Bin"
+    ],
+    "uses_material": [
+      "Pristine Bawling Beltfish"
+    ],
+    "output": [
+      "Ultra Compost"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Bawling Beltfish",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Pristine Bawling Beltfish",
+          "link": "Pristine Bawling Beltfish",
+          "qty": 1,
+          "item": "Pristine Bawling Beltfish",
+          "image": "[[File:Pristine Bawling Beltfish.png|30px|link=Pristine Bawling Beltfish]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Pristine Bawling Beltfish Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Bawling Beltfish Trophy",
+        "link": "Pristine Bawling Beltfish Trophy",
+        "qty": 1,
+        "item": "Pristine Bawling Beltfish Trophy",
+        "image": "[[File:Pristine Bawling Beltfish Trophy.png|30px|link=Pristine Bawling Beltfish Trophy]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Pristine Bawling Beltfish Trophy"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Super Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Inconsolable Catfish",
+          "link": "Pristine Inconsolable Catfish",
+          "qty": "1",
+          "image": "[[File:Pristine Inconsolable Catfish.png|30px|link=Pristine Inconsolable Catfish]]",
+          "item": "Pristine Inconsolable Catfish"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "10",
+        "name": "Super Compost",
+        "link": "Super Compost",
+        "qty": "10",
+        "image": "[[File:Super Compost.png|30px|link=Super Compost]]",
+        "item": "Super Compost"
+      },
+      "outputs": [
+        "Super Compost"
+      ]
+    },
+    "uses_facility": [
+      "Super Compost Bin"
+    ],
+    "uses_material": [
+      "Pristine Inconsolable Catfish"
+    ],
+    "output": [
+      "Super Compost"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Inconsolable Catfish",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Pristine Inconsolable Catfish",
+          "link": "Pristine Inconsolable Catfish",
+          "qty": 1,
+          "item": "Pristine Inconsolable Catfish",
+          "image": "[[File:Pristine Inconsolable Catfish.png|30px|link=Pristine Inconsolable Catfish]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Pristine Inconsolable Catfish Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Inconsolable Catfish Trophy",
+        "link": "Pristine Inconsolable Catfish Trophy",
+        "qty": 1,
+        "item": "Pristine Inconsolable Catfish Trophy",
+        "image": "[[File:Pristine Inconsolable Catfish Trophy.png|30px|link=Pristine Inconsolable Catfish Trophy]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Pristine Inconsolable Catfish Trophy"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Compost Bin",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Pristine Snivelling Sardine",
+          "link": "Pristine Snivelling Sardine",
+          "qty": "1",
+          "image": "[[File:Pristine Snivelling Sardine.png|30px|link=Pristine Snivelling Sardine]]",
+          "item": "Pristine Snivelling Sardine"
+        }
+      ],
+      "skills": [],
+      "output": {
+        "quantity": "1",
+        "name": "Compost",
+        "link": "Compost",
+        "qty": "1",
+        "image": "[[File:Compost.png|30px|link=Compost]]",
+        "item": "Compost"
+      },
+      "outputs": [
+        "Compost"
+      ]
+    },
+    "uses_facility": [
+      "Compost Bin"
+    ],
+    "uses_material": [
+      "Pristine Snivelling Sardine"
+    ],
+    "output": [
+      "Compost"
+    ]
+  },
+  {
+    "uses_material": [
+      "Pristine Snivelling Sardine",
+      "Ash Plank"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": 1,
+          "name": "Pristine Snivelling Sardine",
+          "link": "Pristine Snivelling Sardine",
+          "qty": 1,
+          "item": "Pristine Snivelling Sardine",
+          "image": "[[File:Pristine Snivelling Sardine.png|30px|link=Pristine Snivelling Sardine]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Plank",
+          "link": "Ash Plank",
+          "qty": "2",
+          "item": "Ash Plank",
+          "image": "[[File:Ash Plank.png|30px|link=Ash Plank]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Pristine Snivelling Sardine Trophy"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pristine Snivelling Sardine Trophy",
+        "link": "Pristine Snivelling Sardine Trophy",
+        "qty": 1,
+        "item": "Pristine Snivelling Sardine Trophy",
+        "image": "[[File:Pristine Snivelling Sardine Trophy.png|30px|link=Pristine Snivelling Sardine Trophy]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "output": [
+      "Pristine Snivelling Sardine Trophy"
     ]
   }
 ]
