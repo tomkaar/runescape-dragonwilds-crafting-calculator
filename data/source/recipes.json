@@ -9344,6 +9344,38 @@
     ]
   },
   {
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Garou Highborn's Cloak"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Garou Highborn's Cloak",
+        "link": "Garou Highborn's Cloak",
+        "qty": 1,
+        "item": "Garou Highborn's Cloak",
+        "image": "[[File:Garou Highborn's Cloak.png|30px|link=Garou Highborn's Cloak]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "output": [
+      "Garou Highborn's Cloak"
+    ]
+  },
+  {
     "uses_material": [
       "Goblin Pack"
     ],
@@ -53676,6 +53708,38 @@
     ]
   },
   {
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Spectral Chinchompa Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Spectral Chinchompa Cape",
+        "link": "Spectral Chinchompa Cape",
+        "qty": 1,
+        "item": "Spectral Chinchompa Cape",
+        "image": "[[File:Spectral Chinchompa Cape.png|30px|link=Spectral Chinchompa Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "output": [
+      "Spectral Chinchompa Cape"
+    ]
+  },
+  {
     "uses_material": [
       "Baked Potato",
       "Fried Cabbage",
@@ -60122,6 +60186,70 @@
     ],
     "output": [
       "Shadow Chaps"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Agility Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Agility Cape",
+        "link": "Agility Cape",
+        "qty": 1,
+        "item": "Agility Cape",
+        "image": "[[File:Agility Cape.png|30px|link=Agility Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "output": [
+      "Agility Cape"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Mystic Forge",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Agility Cape (Trimmed)"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Agility Cape (Trimmed)",
+        "link": "Agility Cape (Trimmed)",
+        "qty": 1,
+        "item": "Agility Cape (Trimmed)",
+        "image": "[[File:Agility Cape (Trimmed).png|30px|link=Agility Cape (Trimmed)]]"
+      }
+    },
+    "uses_facility": [
+      "Mystic Forge"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "output": [
+      "Agility Cape (Trimmed)"
     ]
   },
   {
@@ -73955,6 +74083,38 @@
     ],
     "output": [
       "Mystic Forge"
+    ]
+  },
+  {
+    "json": {
+      "facility": "Armour Bench",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Fire Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Fire Cape",
+        "link": "Fire Cape",
+        "qty": 1,
+        "item": "Fire Cape",
+        "image": "[[File:Fire Cape.png|30px|link=Fire Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Armour Bench"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "output": [
+      "Fire Cape"
     ]
   },
   {

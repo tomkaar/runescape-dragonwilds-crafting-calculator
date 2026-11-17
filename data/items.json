@@ -8259,6 +8259,43 @@
     "itemType": "Mage Armour"
   },
   {
+    "id": "garou-highborns-cloak",
+    "name": "Garou Highborn's Cloak",
+    "image": "Garou Highborn's Cloak.png",
+    "variants": [
+      {
+        "id": "820117209207",
+        "name": "Garou Highborn's Cloak",
+        "image": "Garou Highborn's Cloak.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8e0e4ab7c707",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Garou_Highborn's_Cloak",
+    "weight": 0,
+    "itemType": "Basic Item"
+  },
+  {
     "id": "bag-of-noggin",
     "name": "Bag of Noggin'",
     "image": "Bag of Noggin'.png",
@@ -40086,6 +40123,43 @@
     "itemType": "Tool"
   },
   {
+    "id": "spectral-chinchompa-cape",
+    "name": "Spectral Chinchompa Cape",
+    "image": "Spectral Chinchompa Cape.png",
+    "variants": [
+      {
+        "id": "6a18ed08c24f",
+        "name": "Spectral Chinchompa Cape",
+        "image": "Spectral Chinchompa Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a39e9679378d",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Spectral_Chinchompa_Cape",
+    "weight": 0,
+    "itemType": "Basic Item"
+  },
+  {
     "id": "vegan-fryup",
     "name": "Vegan Fryup",
     "image": "Vegan Fryup.png",
@@ -45065,6 +45139,78 @@
     "wikiLink": "Shadow_Chaps",
     "weight": 12,
     "itemType": "Ranged Armour"
+  },
+  {
+    "id": "agility-cape",
+    "name": "Agility Cape",
+    "image": "Agility Cape.png",
+    "variants": [
+      {
+        "id": "8e86db9a23e4",
+        "name": "Agility Cape",
+        "image": "Agility Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5d41a95c6629",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Mystic Forge"
+    ],
+    "wikiLink": "Agility_Cape",
+    "weight": 0,
+    "itemType": "Basic Item"
+  },
+  {
+    "id": "agility-cape-trimmed",
+    "name": "Agility Cape (Trimmed)",
+    "image": "Agility Cape (Trimmed).png",
+    "variants": [
+      {
+        "id": "e9ef89995e53",
+        "name": "Agility Cape (Trimmed)",
+        "image": "Agility Cape (Trimmed).png",
+        "variantName": "Trimmed",
+        "recipe": {
+          "id": "49240d69c4e3",
+          "facilities": [
+            "Mystic Forge"
+          ],
+          "materials": [],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Mystic Forge"
+    ],
+    "wikiLink": "Agility_Cape_(Trimmed)"
   },
   {
     "id": "fishing-cape",
@@ -54913,6 +55059,43 @@
       "Build Menu"
     ],
     "wikiLink": "Mystic_Forge"
+  },
+  {
+    "id": "fire-cape",
+    "name": "Fire Cape",
+    "image": "Fire Cape.png",
+    "variants": [
+      {
+        "id": "95bb55eecbcd",
+        "name": "Fire Cape",
+        "image": "Fire Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "3acf022c837a",
+          "facilities": [
+            "Armour Bench"
+          ],
+          "materials": [],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Armour Bench"
+    ],
+    "wikiLink": "Fire_Cape",
+    "weight": 0,
+    "itemType": "Basic Item"
   },
   {
     "id": "desert-robes",
@@ -72070,26 +72253,6 @@
     "stackLimit": 25
   },
   {
-    "id": "garou-highborns-cloak",
-    "name": "Garou Highborn's Cloak",
-    "image": "Garou Highborn's Cloak.png",
-    "variants": [
-      {
-        "id": "garou-highborns-cloak",
-        "name": "Garou Highborn's Cloak",
-        "image": "Garou Highborn's Cloak.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Garou_Highborn's_Cloak",
-    "weight": 0,
-    "itemType": "Basic Item"
-  },
-  {
     "id": "monstrous-fang",
     "name": "Monstrous Fang",
     "image": "Monstrous Fang.png",
@@ -77187,26 +77350,6 @@
     "stackLimit": 1
   },
   {
-    "id": "spectral-chinchompa-cape",
-    "name": "Spectral Chinchompa Cape",
-    "image": "Spectral Chinchompa Cape.png",
-    "variants": [
-      {
-        "id": "spectral-chinchompa-cape",
-        "name": "Spectral Chinchompa Cape",
-        "image": "Spectral Chinchompa Cape.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Spectral_Chinchompa_Cape",
-    "weight": 0,
-    "itemType": "Basic Item"
-  },
-  {
     "id": "spectral-chinchompa-skull",
     "name": "Spectral Chinchompa Skull",
     "image": "Spectral Chinchompa Skull.png",
@@ -78533,26 +78676,6 @@
     "weight": 0,
     "itemType": "Container",
     "stackLimit": 0
-  },
-  {
-    "id": "agility-cape",
-    "name": "Agility Cape",
-    "image": "Agility Cape.png",
-    "variants": [
-      {
-        "id": "agility-cape",
-        "name": "Agility Cape",
-        "image": "Agility Cape.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Agility_Cape",
-    "weight": 0,
-    "itemType": "Basic Item"
   },
   {
     "id": "bloodstained-black-visor",
@@ -81489,26 +81612,6 @@
     "weight": 0,
     "itemType": "Quest Item",
     "stackLimit": 99
-  },
-  {
-    "id": "fire-cape",
-    "name": "Fire Cape",
-    "image": "Fire Cape.png",
-    "variants": [
-      {
-        "id": "fire-cape",
-        "name": "Fire Cape",
-        "image": "Fire Cape.png",
-        "variantName": null,
-        "recipe": null,
-        "usesRecipe": null
-      }
-    ],
-    "skills": [],
-    "facilities": [],
-    "wikiLink": "Fire_Cape",
-    "weight": 0,
-    "itemType": "Basic Item"
   },
   {
     "id": "kalphite-ichor",
