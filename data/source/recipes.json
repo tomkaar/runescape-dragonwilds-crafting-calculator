@@ -76336,7 +76336,6 @@
       "Scorch Leather",
       "Desert Cloth",
       "Refined Obsidian",
-      "Gypsum Wax",
       "Garou Weave"
     ],
     "uses_skill": [
@@ -76378,18 +76377,10 @@
           "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
         },
         {
-          "quantity": "3",
-          "name": "Gypsum Wax",
-          "link": "Gypsum Wax",
-          "qty": "3",
-          "item": "Gypsum Wax",
-          "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
-        },
-        {
-          "quantity": "3",
+          "quantity": "6",
           "name": "Garou Weave",
           "link": "Garou Weave",
-          "qty": "3",
+          "qty": "6",
           "item": "Garou Weave",
           "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
         }
@@ -76425,8 +76416,7 @@
       "Scorch Leather",
       "Desert Cloth",
       "Refined Obsidian",
-      "Gypsum Wax",
-      "Garou Weave"
+      "Gypsum Wax"
     ],
     "uses_skill": [
       "Artisan"
@@ -76467,20 +76457,12 @@
           "image": "[[File:Refined Obsidian.png|30px|link=Refined Obsidian]]"
         },
         {
-          "quantity": "2",
+          "quantity": "4",
           "name": "Gypsum Wax",
           "link": "Gypsum Wax",
-          "qty": "2",
+          "qty": "4",
           "item": "Gypsum Wax",
           "image": "[[File:Gypsum Wax.png|30px|link=Gypsum Wax]]"
-        },
-        {
-          "quantity": "2",
-          "name": "Garou Weave",
-          "link": "Garou Weave",
-          "qty": "2",
-          "item": "Garou Weave",
-          "image": "[[File:Garou Weave.png|30px|link=Garou Weave]]"
         }
       ],
       "skills": [
@@ -94128,6 +94110,7 @@
       "Construction"
     ],
     "json": {
+      "recipe": "PLAN: Penguin Decorative Coin",
       "facility": "Build Menu",
       "materials": [
         {
@@ -94150,7 +94133,7 @@
       "skills": [
         {
           "name": "Construction",
-          "experience": "?"
+          "experience": "20"
         }
       ],
       "outputs": [
@@ -94167,6 +94150,9 @@
     },
     "uses_facility": [
       "Build Menu"
+    ],
+    "uses_recipe": [
+      "PLAN: Penguin Decorative Coin"
     ],
     "output": [
       "Decorative Penguin Coin"
