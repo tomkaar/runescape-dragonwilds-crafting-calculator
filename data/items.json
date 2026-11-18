@@ -11980,7 +11980,7 @@
     ],
     "wikiLink": "Whetstone",
     "weight": 5,
-    "itemType": "Basic Item",
+    "itemType": "Consumable",
     "stackLimit": 50
   },
   {
@@ -57340,12 +57340,12 @@
     "image": "Adamant Platebody.png",
     "variants": [
       {
-        "id": "2d45a1e3a818",
+        "id": "e84f6913933d",
         "name": "Adamant Platebody",
         "image": "Adamant Platebody.png",
         "variantName": null,
         "recipe": {
-          "id": "0504092c6991",
+          "id": "9b4e5435402f",
           "facilities": [
             "Armour Bench"
           ],
@@ -57360,11 +57360,7 @@
             },
             {
               "itemId": "garou-weave",
-              "quantity": 3
-            },
-            {
-              "itemId": "gypsum-wax",
-              "quantity": 3
+              "quantity": 6
             },
             {
               "itemId": "refined-obsidian",
@@ -57402,12 +57398,12 @@
     "image": "Adamant Platelegs.png",
     "variants": [
       {
-        "id": "ba746e49b421",
+        "id": "27822f83656d",
         "name": "Adamant Platelegs",
         "image": "Adamant Platelegs.png",
         "variantName": null,
         "recipe": {
-          "id": "5c55fff51408",
+          "id": "874c15e85391",
           "facilities": [
             "Armour Bench"
           ],
@@ -57421,12 +57417,8 @@
               "quantity": 2
             },
             {
-              "itemId": "garou-weave",
-              "quantity": 2
-            },
-            {
               "itemId": "gypsum-wax",
-              "quantity": 2
+              "quantity": 4
             },
             {
               "itemId": "refined-obsidian",
@@ -70783,11 +70775,13 @@
           "skills": [
             {
               "name": "Construction",
-              "experience": 0
+              "experience": 20
             }
           ]
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "PLAN: Penguin Decorative Coin"
+        ]
       }
     ],
     "skills": [
@@ -70796,14 +70790,7 @@
     "facilities": [
       "Build Menu"
     ],
-    "wikiLink": "Decorative_Penguin_Coin",
-    "sold_by": [
-      {
-        "name": "Fishy Facade",
-        "currency": "Penguin Coin",
-        "cost": 1
-      }
-    ]
+    "wikiLink": "Decorative_Penguin_Coin"
   },
   {
     "id": "fishing-rod-rack",
@@ -73538,8 +73525,9 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Tome_of_the_Dragon_Slayer",
-    "weight": 6,
-    "itemType": "Resource"
+    "weight": 2,
+    "itemType": "Tome",
+    "stackLimit": 99
   },
   {
     "id": "sun-ring",
@@ -74829,7 +74817,8 @@
     "facilities": [],
     "wikiLink": "Tome_of_the_Artisan_-_Vol_1",
     "weight": 2,
-    "itemType": "Resource"
+    "itemType": "Tome",
+    "stackLimit": 99
   },
   {
     "id": "tome-of-mining-vol-1",
@@ -85349,6 +85338,27 @@
     "stackLimit": 99
   },
   {
+    "id": "penguin-coin",
+    "name": "Penguin Coin",
+    "image": "Penguin Coin.png",
+    "variants": [
+      {
+        "id": "penguin-coin",
+        "name": "Penguin Coin",
+        "image": "Penguin Coin.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Penguin_Coin",
+    "weight": 0,
+    "itemType": "Special Material",
+    "stackLimit": 9999
+  },
+  {
     "id": "a-reel-downer-reward-pack",
     "name": "A Reel Downer Reward Pack",
     "image": "A Reel Downer Reward Pack.png",
@@ -85536,5 +85546,397 @@
     "weight": 1,
     "itemType": "Raw Ingredient",
     "stackLimit": 99
+  },
+  {
+    "id": "plan-penguin-decorative-coin",
+    "name": "PLAN: Penguin Decorative Coin",
+    "image": "PLAN: Penguin Decorative Coin.png",
+    "variants": [
+      {
+        "id": "plan-penguin-decorative-coin",
+        "name": "PLAN: Penguin Decorative Coin",
+        "image": "PLAN: Penguin Decorative Coin.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Penguin_Decorative_Coin",
+    "weight": 0,
+    "itemType": "Plan",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 1
+      }
+    ]
+  },
+  {
+    "id": "plan-stone-penguin-miniature",
+    "name": "PLAN: Stone Penguin Miniature",
+    "image": "PLAN: Stone Penguin Miniature.png",
+    "variants": [
+      {
+        "id": "plan-stone-penguin-miniature",
+        "name": "PLAN: Stone Penguin Miniature",
+        "image": "PLAN: Stone Penguin Miniature.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Stone_Penguin_Miniature",
+    "weight": 0,
+    "itemType": "Plan",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 3
+      }
+    ]
+  },
+  {
+    "id": "plan-tin-penguin-miniature",
+    "name": "PLAN: Tin Penguin Miniature",
+    "image": "PLAN: Tin Penguin Miniature.png",
+    "variants": [
+      {
+        "id": "plan-tin-penguin-miniature",
+        "name": "PLAN: Tin Penguin Miniature",
+        "image": "PLAN: Tin Penguin Miniature.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Tin_Penguin_Miniature",
+    "weight": 0,
+    "itemType": "Plan",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 5
+      }
+    ]
+  },
+  {
+    "id": "plan-copper-penguin-miniature",
+    "name": "PLAN: Copper Penguin Miniature",
+    "image": "PLAN: Copper Penguin Miniature.png",
+    "variants": [
+      {
+        "id": "plan-copper-penguin-miniature",
+        "name": "PLAN: Copper Penguin Miniature",
+        "image": "PLAN: Copper Penguin Miniature.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Copper_Penguin_Miniature",
+    "weight": 0,
+    "itemType": "Plan",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 7
+      }
+    ]
+  },
+  {
+    "id": "plan-bronze-penguin-miniature",
+    "name": "PLAN: Bronze Penguin Miniature",
+    "image": "PLAN: Bronze Penguin Miniature.png",
+    "variants": [
+      {
+        "id": "plan-bronze-penguin-miniature",
+        "name": "PLAN: Bronze Penguin Miniature",
+        "image": "PLAN: Bronze Penguin Miniature.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Bronze_Penguin_Miniature",
+    "weight": 0,
+    "itemType": "Plan",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 8
+      }
+    ]
+  },
+  {
+    "id": "plan-silver-penguin-miniature",
+    "name": "PLAN: Silver Penguin Miniature",
+    "image": "PLAN: Silver Penguin Miniature.png",
+    "variants": [
+      {
+        "id": "plan-silver-penguin-miniature",
+        "name": "PLAN: Silver Penguin Miniature",
+        "image": "PLAN: Silver Penguin Miniature.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Silver_Penguin_Miniature",
+    "weight": 0,
+    "itemType": "Plan",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 10
+      }
+    ]
+  },
+  {
+    "id": "plan-gold-penguin-miniature",
+    "name": "PLAN: Gold Penguin Miniature",
+    "image": "PLAN: Gold Penguin Miniature.png",
+    "variants": [
+      {
+        "id": "plan-gold-penguin-miniature",
+        "name": "PLAN: Gold Penguin Miniature",
+        "image": "PLAN: Gold Penguin Miniature.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Gold_Penguin_Miniature",
+    "weight": 0,
+    "itemType": "Plan",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 15
+      }
+    ]
+  },
+  {
+    "id": "plan-suspicious-penguin-miniature-01",
+    "name": "PLAN: Suspicious Penguin Miniature 01",
+    "image": "PLAN: Suspicious Penguin Miniature 01.png",
+    "variants": [
+      {
+        "id": "plan-suspicious-penguin-miniature-01",
+        "name": "PLAN: Suspicious Penguin Miniature 01",
+        "image": "PLAN: Suspicious Penguin Miniature 01.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Suspicious_Penguin_Miniature_01",
+    "weight": 0,
+    "itemType": "Plan",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 10
+      }
+    ]
+  },
+  {
+    "id": "plan-suspicious-penguin-miniature-02",
+    "name": "PLAN: Suspicious Penguin Miniature 02",
+    "image": "PLAN: Suspicious Penguin Miniature 02.png",
+    "variants": [
+      {
+        "id": "plan-suspicious-penguin-miniature-02",
+        "name": "PLAN: Suspicious Penguin Miniature 02",
+        "image": "PLAN: Suspicious Penguin Miniature 02.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Suspicious_Penguin_Miniature_02",
+    "weight": 0,
+    "itemType": "Plan",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 10
+      }
+    ]
+  },
+  {
+    "id": "plan-suspicious-penguin-miniature-03",
+    "name": "PLAN: Suspicious Penguin Miniature 03",
+    "image": "PLAN: Suspicious Penguin Miniature 03.png",
+    "variants": [
+      {
+        "id": "plan-suspicious-penguin-miniature-03",
+        "name": "PLAN: Suspicious Penguin Miniature 03",
+        "image": "PLAN: Suspicious Penguin Miniature 03.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Suspicious_Penguin_Miniature_03",
+    "weight": 0,
+    "itemType": "Plan",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 10
+      }
+    ]
+  },
+  {
+    "id": "plan-suspicious-penguin-miniature-04",
+    "name": "PLAN: Suspicious Penguin Miniature 04",
+    "image": "PLAN: Suspicious Penguin Miniature 04.png",
+    "variants": [
+      {
+        "id": "plan-suspicious-penguin-miniature-04",
+        "name": "PLAN: Suspicious Penguin Miniature 04",
+        "image": "PLAN: Suspicious Penguin Miniature 04.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Suspicious_Penguin_Miniature_04",
+    "weight": 0,
+    "itemType": "Plan",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 10
+      }
+    ]
+  },
+  {
+    "id": "plan-penguin-decorative-tapestry",
+    "name": "PLAN: Penguin Decorative Tapestry",
+    "image": "PLAN: Penguin Decorative Tapestry.png",
+    "variants": [
+      {
+        "id": "plan-penguin-decorative-tapestry",
+        "name": "PLAN: Penguin Decorative Tapestry",
+        "image": "PLAN: Penguin Decorative Tapestry.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Penguin_Decorative_Tapestry",
+    "weight": 0,
+    "itemType": "Plan",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 5
+      }
+    ]
+  },
+  {
+    "id": "plan-polar-bear-decorative-tapestry",
+    "name": "PLAN: Polar Bear Decorative Tapestry",
+    "image": "PLAN: Polar Bear Decorative Tapestry.png",
+    "variants": [
+      {
+        "id": "plan-polar-bear-decorative-tapestry",
+        "name": "PLAN: Polar Bear Decorative Tapestry",
+        "image": "PLAN: Polar Bear Decorative Tapestry.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Polar_Bear_Decorative_Tapestry",
+    "weight": 0,
+    "itemType": "Plan",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 5
+      }
+    ]
+  },
+  {
+    "id": "plan-penguin-statue-01",
+    "name": "PLAN: Penguin Statue 01",
+    "image": "PLAN: Penguin Statue 01.png",
+    "variants": [
+      {
+        "id": "plan-penguin-statue-01",
+        "name": "PLAN: Penguin Statue 01",
+        "image": "PLAN: Penguin Statue 01.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "PLAN:_Penguin_Statue_01",
+    "weight": 0,
+    "itemType": "Plan",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 50
+      }
+    ]
   }
 ]

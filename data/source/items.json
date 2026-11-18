@@ -4634,14 +4634,14 @@
     "page_name": "Whetstone",
     "item_stacklimit": 50,
     "item_description": "Use this to hone your equipped melee weapon.",
-    "item_type": "Basic Item",
+    "item_type": "Consumable",
     "item_name": "Whetstone",
     "json": {
       "description": "Use this to hone your equipped melee weapon.",
       "weight": "5.0",
       "image": "[[File:Whetstone.png|32px]]",
       "name": "Whetstone",
-      "item_type": "Basic Item",
+      "item_type": "Consumable",
       "stacklimit": "50",
       "image_raw": "Whetstone.png"
     },
@@ -4892,18 +4892,20 @@
   },
   {
     "page_name": "Tome of the Dragon Slayer",
+    "item_stacklimit": 99,
     "item_description": "A powerful tome containing ancient techniques of warfare. Grants a large amount of Attack, Magic and Ranged XP.",
-    "item_type": "Resource",
+    "item_type": "Tome",
     "item_name": "Tome of the Dragon Slayer",
     "json": {
       "description": "A powerful tome containing ancient techniques of warfare. Grants a large amount of Attack, Magic and Ranged XP.",
-      "weight": "6.0",
+      "weight": "2.0",
       "image": "[[File:Tome of the Dragon Slayer.png|32px]]",
       "name": "Tome of the Dragon Slayer",
-      "item_type": "Resource",
+      "item_type": "Tome",
+      "stacklimit": "99",
       "image_raw": "Tome of the Dragon Slayer.png"
     },
-    "item_weight": 6,
+    "item_weight": 2,
     "page_name_sub": "Tome of the Dragon Slayer"
   },
   {
@@ -5984,15 +5986,17 @@
   },
   {
     "page_name": "Tome of the Artisan - Vol 1",
+    "item_stacklimit": 99,
     "item_description": "A book filled with knowledge on how to craft tools and equipment. Awards a small amount of Artisan XP.",
-    "item_type": "Resource",
+    "item_type": "Tome",
     "item_name": "Tome of the Artisan - Vol 1",
     "json": {
       "description": "A book filled with knowledge on how to craft tools and equipment. Awards a small amount of Artisan XP.",
       "weight": "2.0",
       "image": "[[File:Tome of the Artisan - Vol 1.png|32px]]",
       "name": "Tome of the Artisan - Vol 1",
-      "item_type": "Resource",
+      "item_type": "Tome",
+      "stacklimit": "99",
       "image_raw": "Tome of the Artisan - Vol 1.png"
     },
     "item_weight": 2,
@@ -24329,6 +24333,24 @@
     "page_name_sub": "PLAN: Moon Garou Cushion 01"
   },
   {
+    "page_name": "Penguin Coin",
+    "item_stacklimit": 9999,
+    "item_description": "Did the eyes move? This can be spent at Facade's Front.",
+    "item_type": "Special Material",
+    "item_name": "Penguin Coin",
+    "json": {
+      "description": "Did the eyes move? This can be spent at Facade's Front.",
+      "weight": "0.0",
+      "image": "[[File:Penguin Coin.png|32px]]",
+      "name": "Penguin Coin",
+      "item_type": "Special Material",
+      "stacklimit": "9999",
+      "image_raw": "Penguin Coin.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Penguin Coin"
+  },
+  {
     "page_name": "Agony Auntchovy",
     "item_stacklimit": 99,
     "item_description": "Sad little fish love a shoulder to cry on. Increases the chance of catching an upset fish in Umbral Sands.",
@@ -24523,5 +24545,257 @@
     },
     "item_weight": 1,
     "page_name_sub": "Pristine Snivelling Sardine"
+  },
+  {
+    "page_name": "PLAN: Penguin Decorative Coin",
+    "item_stacklimit": 99,
+    "item_description": "Unlocks a new decoration for your home.",
+    "item_type": "Plan",
+    "item_name": "PLAN: Penguin Decorative Coin",
+    "json": {
+      "description": "Unlocks a new decoration for your home.",
+      "weight": "0.0",
+      "image": "[[File:PLAN: Penguin Decorative Coin.png|32px]]",
+      "name": "PLAN: Penguin Decorative Coin",
+      "item_type": "Plan",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Penguin Decorative Coin.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Penguin Decorative Coin"
+  },
+  {
+    "page_name": "PLAN: Stone Penguin Miniature",
+    "item_stacklimit": 99,
+    "item_description": "Unlocks a new decoration for your home.",
+    "item_type": "Plan",
+    "item_name": "PLAN: Stone Penguin Miniature",
+    "json": {
+      "description": "Unlocks a new decoration for your home.",
+      "weight": "0.0",
+      "image": "[[File:PLAN: Stone Penguin Miniature.png|32px]]",
+      "name": "PLAN: Stone Penguin Miniature",
+      "item_type": "Plan",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Stone Penguin Miniature.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Stone Penguin Miniature"
+  },
+  {
+    "page_name": "PLAN: Tin Penguin Miniature",
+    "item_stacklimit": 99,
+    "item_description": "Unlocks a new decoration for your home.",
+    "item_type": "Plan",
+    "item_name": "PLAN: Tin Penguin Miniature",
+    "json": {
+      "description": "Unlocks a new decoration for your home.",
+      "weight": "0.0",
+      "image": "[[File:PLAN: Tin Penguin Miniature.png|32px]]",
+      "name": "PLAN: Tin Penguin Miniature",
+      "item_type": "Plan",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Tin Penguin Miniature.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Tin Penguin Miniature"
+  },
+  {
+    "page_name": "PLAN: Copper Penguin Miniature",
+    "item_stacklimit": 99,
+    "item_description": "Unlocks a new decoration for your home.",
+    "item_type": "Plan",
+    "item_name": "PLAN: Copper Penguin Miniature",
+    "json": {
+      "description": "Unlocks a new decoration for your home.",
+      "weight": "0.0",
+      "image": "[[File:PLAN: Copper Penguin Miniature.png|32px]]",
+      "name": "PLAN: Copper Penguin Miniature",
+      "item_type": "Plan",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Copper Penguin Miniature.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Copper Penguin Miniature"
+  },
+  {
+    "page_name": "PLAN: Bronze Penguin Miniature",
+    "item_stacklimit": 99,
+    "item_description": "Unlocks a new decoration for your home.",
+    "item_type": "Plan",
+    "item_name": "PLAN: Bronze Penguin Miniature",
+    "json": {
+      "description": "Unlocks a new decoration for your home.",
+      "weight": "0.0",
+      "image": "[[File:PLAN: Bronze Penguin Miniature.png|32px]]",
+      "name": "PLAN: Bronze Penguin Miniature",
+      "item_type": "Plan",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Bronze Penguin Miniature.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Bronze Penguin Miniature"
+  },
+  {
+    "page_name": "PLAN: Silver Penguin Miniature",
+    "item_stacklimit": 99,
+    "item_description": "Unlocks a new decoration for your home.",
+    "item_type": "Plan",
+    "item_name": "PLAN: Silver Penguin Miniature",
+    "json": {
+      "description": "Unlocks a new decoration for your home.",
+      "weight": "0.0",
+      "image": "[[File:PLAN: Silver Penguin Miniature.png|32px]]",
+      "name": "PLAN: Silver Penguin Miniature",
+      "item_type": "Plan",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Silver Penguin Miniature.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Silver Penguin Miniature"
+  },
+  {
+    "page_name": "PLAN: Gold Penguin Miniature",
+    "item_stacklimit": 99,
+    "item_description": "Unlocks a new decoration for your home.",
+    "item_type": "Plan",
+    "item_name": "PLAN: Gold Penguin Miniature",
+    "json": {
+      "description": "Unlocks a new decoration for your home.",
+      "weight": "0.0",
+      "image": "[[File:PLAN: Gold Penguin Miniature.png|32px]]",
+      "name": "PLAN: Gold Penguin Miniature",
+      "item_type": "Plan",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Gold Penguin Miniature.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Gold Penguin Miniature"
+  },
+  {
+    "page_name": "PLAN: Suspicious Penguin Miniature 01",
+    "item_stacklimit": 99,
+    "item_description": "Unlocks a new decoration for your home.",
+    "item_type": "Plan",
+    "item_name": "PLAN: Suspicious Penguin Miniature 01",
+    "json": {
+      "description": "Unlocks a new decoration for your home.",
+      "weight": "0.0",
+      "image": "[[File:PLAN: Suspicious Penguin Miniature 01.png|32px]]",
+      "name": "PLAN: Suspicious Penguin Miniature 01",
+      "item_type": "Plan",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Suspicious Penguin Miniature 01.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Suspicious Penguin Miniature 01"
+  },
+  {
+    "page_name": "PLAN: Suspicious Penguin Miniature 02",
+    "item_stacklimit": 99,
+    "item_description": "Unlocks a new decoration for your home.",
+    "item_type": "Plan",
+    "item_name": "PLAN: Suspicious Penguin Miniature 02",
+    "json": {
+      "description": "Unlocks a new decoration for your home.",
+      "weight": "0.0",
+      "image": "[[File:PLAN: Suspicious Penguin Miniature 02.png|32px]]",
+      "name": "PLAN: Suspicious Penguin Miniature 02",
+      "item_type": "Plan",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Suspicious Penguin Miniature 02.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Suspicious Penguin Miniature 02"
+  },
+  {
+    "page_name": "PLAN: Suspicious Penguin Miniature 03",
+    "item_stacklimit": 99,
+    "item_description": "Unlocks a new decoration for your home.",
+    "item_type": "Plan",
+    "item_name": "PLAN: Suspicious Penguin Miniature 03",
+    "json": {
+      "description": "Unlocks a new decoration for your home.",
+      "weight": "0.0",
+      "image": "[[File:PLAN: Suspicious Penguin Miniature 03.png|32px]]",
+      "name": "PLAN: Suspicious Penguin Miniature 03",
+      "item_type": "Plan",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Suspicious Penguin Miniature 03.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Suspicious Penguin Miniature 03"
+  },
+  {
+    "page_name": "PLAN: Suspicious Penguin Miniature 04",
+    "item_stacklimit": 99,
+    "item_description": "Unlocks a new decoration for your home.",
+    "item_type": "Plan",
+    "item_name": "PLAN: Suspicious Penguin Miniature 04",
+    "json": {
+      "description": "Unlocks a new decoration for your home.",
+      "weight": "0.0",
+      "image": "[[File:PLAN: Suspicious Penguin Miniature 04.png|32px]]",
+      "name": "PLAN: Suspicious Penguin Miniature 04",
+      "item_type": "Plan",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Suspicious Penguin Miniature 04.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Suspicious Penguin Miniature 04"
+  },
+  {
+    "page_name": "PLAN: Penguin Decorative Tapestry",
+    "item_stacklimit": 99,
+    "item_description": "Unlocks a new decoration for your home.",
+    "item_type": "Plan",
+    "item_name": "PLAN: Penguin Decorative Tapestry",
+    "json": {
+      "description": "Unlocks a new decoration for your home.",
+      "weight": "0.0",
+      "image": "[[File:PLAN: Penguin Decorative Tapestry.png|32px]]",
+      "name": "PLAN: Penguin Decorative Tapestry",
+      "item_type": "Plan",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Penguin Decorative Tapestry.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Penguin Decorative Tapestry"
+  },
+  {
+    "page_name": "PLAN: Polar Bear Decorative Tapestry",
+    "item_stacklimit": 99,
+    "item_description": "Unlocks a new decoration for your home.",
+    "item_type": "Plan",
+    "item_name": "PLAN: Polar Bear Decorative Tapestry",
+    "json": {
+      "description": "Unlocks a new decoration for your home.",
+      "weight": "0.0",
+      "image": "[[File:PLAN: Polar Bear Decorative Tapestry.png|32px]]",
+      "name": "PLAN: Polar Bear Decorative Tapestry",
+      "item_type": "Plan",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Polar Bear Decorative Tapestry.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Polar Bear Decorative Tapestry"
+  },
+  {
+    "page_name": "PLAN: Penguin Statue 01",
+    "item_stacklimit": 99,
+    "item_description": "Unlocks a new decoration for your home.",
+    "item_type": "Plan",
+    "item_name": "PLAN: Penguin Statue 01",
+    "json": {
+      "description": "Unlocks a new decoration for your home.",
+      "weight": "0.0",
+      "image": "[[File:PLAN: Penguin Statue 01.png|32px]]",
+      "name": "PLAN: Penguin Statue 01",
+      "item_type": "Plan",
+      "stacklimit": "99",
+      "image_raw": "PLAN: Penguin Statue 01.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "PLAN: Penguin Statue 01"
   }
 ]
