@@ -51336,10 +51336,10 @@
           "image": "[[File:Fine Cloth.png|30px|link=Fine Cloth]]"
         },
         {
-          "quantity": "1",
+          "quantity": "4",
           "name": "Sacred Oil",
           "link": "Sacred Oil",
-          "qty": "1",
+          "qty": "4",
           "item": "Sacred Oil",
           "image": "[[File:Sacred Oil.png|30px|link=Sacred Oil]]"
         },
@@ -89227,10 +89227,10 @@
       "facility": "Mystic Forge",
       "materials": [
         {
-          "quantity": "6",
+          "quantity": "8",
           "name": "Hollow Bark",
           "link": "Hollow Bark",
-          "qty": "6",
+          "qty": "8",
           "item": "Hollow Bark",
           "image": "[[File:Hollow Bark.png|30px|link=Hollow Bark]]"
         },
@@ -94654,6 +94654,516 @@
     ],
     "output": [
       "Pristine Snivelling Sardine Trophy"
+    ]
+  },
+  {
+    "uses_material": [
+      "Stone",
+      "Clay Mould"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "recipe": "PLAN: Stone Penguin Miniature",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Stone",
+          "link": "Stone",
+          "qty": "4",
+          "item": "Stone",
+          "image": "[[File:Stone.png|30px|link=Stone]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Stone Penguin Miniature"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Stone Penguin Miniature",
+        "link": "Stone Penguin Miniature",
+        "qty": 1,
+        "item": "Stone Penguin Miniature",
+        "image": "[[File:Stone Penguin Miniature.png|30px|link=Stone Penguin Miniature]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "uses_recipe": [
+      "PLAN: Stone Penguin Miniature"
+    ],
+    "output": [
+      "Stone Penguin Miniature"
+    ]
+  },
+  {
+    "uses_material": [
+      "Tin Ore",
+      "Clay Mould"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "recipe": "PLAN: Tin Penguin Miniature",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Tin Ore",
+          "link": "Tin Ore",
+          "qty": "4",
+          "item": "Tin Ore",
+          "image": "[[File:Tin Ore.png|30px|link=Tin Ore]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Tin Penguin Miniature"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Tin Penguin Miniature",
+        "link": "Tin Penguin Miniature",
+        "qty": 1,
+        "item": "Tin Penguin Miniature",
+        "image": "[[File:Tin Penguin Miniature.png|30px|link=Tin Penguin Miniature]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "uses_recipe": [
+      "PLAN: Tin Penguin Miniature"
+    ],
+    "output": [
+      "Tin Penguin Miniature"
+    ]
+  },
+  {
+    "uses_material": [
+      "Bronze Bar",
+      "Clay Mould"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "recipe": "PLAN: Bronze Penguin Miniature",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Bronze Bar",
+          "link": "Bronze Bar",
+          "qty": "4",
+          "item": "Bronze Bar",
+          "image": "[[File:Bronze Bar.png|30px|link=Bronze Bar]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Bronze Penguin Miniature"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Bronze Penguin Miniature",
+        "link": "Bronze Penguin Miniature",
+        "qty": 1,
+        "item": "Bronze Penguin Miniature",
+        "image": "[[File:Bronze Penguin Miniature.png|30px|link=Bronze Penguin Miniature]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "uses_recipe": [
+      "PLAN: Bronze Penguin Miniature"
+    ],
+    "output": [
+      "Bronze Penguin Miniature"
+    ]
+  },
+  {
+    "uses_material": [
+      "Copper Ore",
+      "Clay Mould"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "recipe": "PLAN: Copper Penguin Miniature",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Copper Ore",
+          "link": "Copper Ore",
+          "qty": "4",
+          "item": "Copper Ore",
+          "image": "[[File:Copper Ore.png|30px|link=Copper Ore]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Copper Penguin Miniature"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Copper Penguin Miniature",
+        "link": "Copper Penguin Miniature",
+        "qty": 1,
+        "item": "Copper Penguin Miniature",
+        "image": "[[File:Copper Penguin Miniature.png|30px|link=Copper Penguin Miniature]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "uses_recipe": [
+      "PLAN: Copper Penguin Miniature"
+    ],
+    "output": [
+      "Copper Penguin Miniature"
+    ]
+  },
+  {
+    "uses_material": [
+      "Gold Ore",
+      "Clay Mould"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "recipe": "PLAN: Gold Penguin Miniature",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Gold Ore",
+          "link": "Gold Ore",
+          "qty": "4",
+          "item": "Gold Ore",
+          "image": "[[File:Gold Ore.png|30px|link=Gold Ore]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Gold Penguin Miniature"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Gold Penguin Miniature",
+        "link": "Gold Penguin Miniature",
+        "qty": 1,
+        "item": "Gold Penguin Miniature",
+        "image": "[[File:Gold Penguin Miniature.png|30px|link=Gold Penguin Miniature]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "uses_recipe": [
+      "PLAN: Gold Penguin Miniature"
+    ],
+    "output": [
+      "Gold Penguin Miniature"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Mould",
+      "Stone",
+      "Charcoal",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "recipe": "PLAN: Suspicious Penguin Miniature 01",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Stone",
+          "link": "Stone",
+          "qty": "4",
+          "item": "Stone",
+          "image": "[[File:Stone.png|30px|link=Stone]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Charcoal",
+          "link": "Charcoal",
+          "qty": "1",
+          "item": "Charcoal",
+          "image": "[[File:Charcoal.png|30px|link=Charcoal]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Suspicious Penguin Miniature 01"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Suspicious Penguin Miniature 01",
+        "link": "Suspicious Penguin Miniature 01",
+        "qty": 1,
+        "item": "Suspicious Penguin Miniature 01",
+        "image": "[[File:Suspicious Penguin Miniature 01.png|30px|link=Suspicious Penguin Miniature 01]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "uses_recipe": [
+      "PLAN: Suspicious Penguin Miniature 01"
+    ],
+    "output": [
+      "Suspicious Penguin Miniature 01"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Mould",
+      "Stone",
+      "Charcoal",
+      "Ash Logs"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "recipe": "PLAN: Suspicious Penguin Miniature 02",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Stone",
+          "link": "Stone",
+          "qty": "4",
+          "item": "Stone",
+          "image": "[[File:Stone.png|30px|link=Stone]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Charcoal",
+          "link": "Charcoal",
+          "qty": "1",
+          "item": "Charcoal",
+          "image": "[[File:Charcoal.png|30px|link=Charcoal]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Ash Logs",
+          "link": "Ash Logs",
+          "qty": "2",
+          "item": "Ash Logs",
+          "image": "[[File:Ash Logs.png|30px|link=Ash Logs]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Suspicious Penguin Miniature 02"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Suspicious Penguin Miniature 02",
+        "link": "Suspicious Penguin Miniature 02",
+        "qty": 1,
+        "item": "Suspicious Penguin Miniature 02",
+        "image": "[[File:Suspicious Penguin Miniature 02.png|30px|link=Suspicious Penguin Miniature 02]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "uses_recipe": [
+      "PLAN: Suspicious Penguin Miniature 02"
+    ],
+    "output": [
+      "Suspicious Penguin Miniature 02"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Mould",
+      "Stone",
+      "Charcoal",
+      "Tin Ore"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "recipe": "PLAN: Suspicious Penguin Miniature 03",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Stone",
+          "link": "Stone",
+          "qty": "4",
+          "item": "Stone",
+          "image": "[[File:Stone.png|30px|link=Stone]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Charcoal",
+          "link": "Charcoal",
+          "qty": "1",
+          "item": "Charcoal",
+          "image": "[[File:Charcoal.png|30px|link=Charcoal]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Tin Ore",
+          "link": "Tin Ore",
+          "qty": "4",
+          "item": "Tin Ore",
+          "image": "[[File:Tin Ore.png|30px|link=Tin Ore]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Suspicious Penguin Miniature 03"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Suspicious Penguin Miniature 03",
+        "link": "Suspicious Penguin Miniature 03",
+        "qty": 1,
+        "item": "Suspicious Penguin Miniature 03",
+        "image": "[[File:Suspicious Penguin Miniature 03.png|30px|link=Suspicious Penguin Miniature 03]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "uses_recipe": [
+      "PLAN: Suspicious Penguin Miniature 03"
+    ],
+    "output": [
+      "Suspicious Penguin Miniature 03"
     ]
   }
 ]

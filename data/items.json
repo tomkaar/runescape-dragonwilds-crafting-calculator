@@ -38325,12 +38325,12 @@
     "image": "White Full Helm.png",
     "variants": [
       {
-        "id": "515ff585f404",
+        "id": "5f75f29f4ef8",
         "name": "White Full Helm",
         "image": "White Full Helm.png",
         "variantName": null,
         "recipe": {
-          "id": "4387366cac5c",
+          "id": "5723b9b11c41",
           "facilities": [
             "Armour Bench"
           ],
@@ -38345,7 +38345,7 @@
             },
             {
               "itemId": "sacred-oil",
-              "quantity": 1
+              "quantity": 4
             },
             {
               "itemId": "silver-bar",
@@ -66940,12 +66940,12 @@
     "image": "Splitbark Wand.png",
     "variants": [
       {
-        "id": "9e290aca788d",
+        "id": "298a29a2f7ea",
         "name": "Splitbark Wand",
         "image": "Splitbark Wand.png",
         "variantName": null,
         "recipe": {
-          "id": "972ffa333ce4",
+          "id": "de408f2c6c9c",
           "facilities": [
             "Mystic Forge"
           ],
@@ -66956,7 +66956,7 @@
             },
             {
               "itemId": "hollow-bark",
-              "quantity": 6
+              "quantity": 8
             },
             {
               "itemId": "sacred-oil",
@@ -71058,6 +71058,398 @@
       "Build Menu"
     ],
     "wikiLink": "Pristine_Snivelling_Sardine_Trophy"
+  },
+  {
+    "id": "stone-penguin-miniature",
+    "name": "Stone Penguin Miniature",
+    "image": "Stone Penguin Miniature.png",
+    "variants": [
+      {
+        "id": "06d64b56a818",
+        "name": "Stone Penguin Miniature",
+        "image": "Stone Penguin Miniature.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d080e23f2c11",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "clay-mould",
+              "quantity": 1
+            },
+            {
+              "itemId": "stone",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": [
+          "PLAN: Stone Penguin Miniature"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Stone_Penguin_Miniature"
+  },
+  {
+    "id": "tin-penguin-miniature",
+    "name": "Tin Penguin Miniature",
+    "image": "Tin Penguin Miniature.png",
+    "variants": [
+      {
+        "id": "5c0ac1c75cad",
+        "name": "Tin Penguin Miniature",
+        "image": "Tin Penguin Miniature.png",
+        "variantName": null,
+        "recipe": {
+          "id": "a71ab704b485",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "clay-mould",
+              "quantity": 1
+            },
+            {
+              "itemId": "tin-ore",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": [
+          "PLAN: Tin Penguin Miniature"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Tin_Penguin_Miniature"
+  },
+  {
+    "id": "bronze-penguin-miniature",
+    "name": "Bronze Penguin Miniature",
+    "image": "Bronze Penguin Miniature.png",
+    "variants": [
+      {
+        "id": "c58714719207",
+        "name": "Bronze Penguin Miniature",
+        "image": "Bronze Penguin Miniature.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e332d732b698",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "bronze-bar",
+              "quantity": 4
+            },
+            {
+              "itemId": "clay-mould",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": [
+          "PLAN: Bronze Penguin Miniature"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Bronze_Penguin_Miniature"
+  },
+  {
+    "id": "copper-penguin-miniature",
+    "name": "Copper Penguin Miniature",
+    "image": "Copper Penguin Miniature.png",
+    "variants": [
+      {
+        "id": "a5900881efbf",
+        "name": "Copper Penguin Miniature",
+        "image": "Copper Penguin Miniature.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c8914409b2b5",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "clay-mould",
+              "quantity": 1
+            },
+            {
+              "itemId": "copper-ore",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": [
+          "PLAN: Copper Penguin Miniature"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Copper_Penguin_Miniature"
+  },
+  {
+    "id": "gold-penguin-miniature",
+    "name": "Gold Penguin Miniature",
+    "image": "Gold Penguin Miniature.png",
+    "variants": [
+      {
+        "id": "d645965ab262",
+        "name": "Gold Penguin Miniature",
+        "image": "Gold Penguin Miniature.png",
+        "variantName": null,
+        "recipe": {
+          "id": "00121be9a6dc",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "clay-mould",
+              "quantity": 1
+            },
+            {
+              "itemId": "gold-ore",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": [
+          "PLAN: Gold Penguin Miniature"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Gold_Penguin_Miniature"
+  },
+  {
+    "id": "suspicious-penguin-miniature-01",
+    "name": "Suspicious Penguin Miniature 01",
+    "image": "Suspicious Penguin Miniature 01.png",
+    "variants": [
+      {
+        "id": "1757a56065f7",
+        "name": "Suspicious Penguin Miniature 01",
+        "image": "Suspicious Penguin Miniature 01.png",
+        "variantName": null,
+        "recipe": {
+          "id": "d43927b19d5f",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "charcoal",
+              "quantity": 1
+            },
+            {
+              "itemId": "clay-mould",
+              "quantity": 1
+            },
+            {
+              "itemId": "stone",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": [
+          "PLAN: Suspicious Penguin Miniature 01"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Suspicious_Penguin_Miniature_01"
+  },
+  {
+    "id": "suspicious-penguin-miniature-02",
+    "name": "Suspicious Penguin Miniature 02",
+    "image": "Suspicious Penguin Miniature 02.png",
+    "variants": [
+      {
+        "id": "31b5ad0f6ebf",
+        "name": "Suspicious Penguin Miniature 02",
+        "image": "Suspicious Penguin Miniature 02.png",
+        "variantName": null,
+        "recipe": {
+          "id": "5322964a0a29",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "ash-logs",
+              "quantity": 2
+            },
+            {
+              "itemId": "charcoal",
+              "quantity": 1
+            },
+            {
+              "itemId": "clay-mould",
+              "quantity": 1
+            },
+            {
+              "itemId": "stone",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": [
+          "PLAN: Suspicious Penguin Miniature 02"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Suspicious_Penguin_Miniature_02"
+  },
+  {
+    "id": "suspicious-penguin-miniature-03",
+    "name": "Suspicious Penguin Miniature 03",
+    "image": "Suspicious Penguin Miniature 03.png",
+    "variants": [
+      {
+        "id": "6ea01718a3fb",
+        "name": "Suspicious Penguin Miniature 03",
+        "image": "Suspicious Penguin Miniature 03.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2945170b9f7e",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "charcoal",
+              "quantity": 1
+            },
+            {
+              "itemId": "clay-mould",
+              "quantity": 1
+            },
+            {
+              "itemId": "stone",
+              "quantity": 4
+            },
+            {
+              "itemId": "tin-ore",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": [
+          "PLAN: Suspicious Penguin Miniature 03"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Suspicious_Penguin_Miniature_03"
   },
   {
     "id": "goblin-pack",
