@@ -95165,5 +95165,421 @@
     "output": [
       "Suspicious Penguin Miniature 03"
     ]
+  },
+  {
+    "uses_material": [
+      "Clay Mould",
+      "Stone",
+      "Charcoal",
+      "Rough Cloth"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "recipe": "PLAN: Suspicious Penguin Miniature 04",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Stone",
+          "link": "Stone",
+          "qty": "4",
+          "item": "Stone",
+          "image": "[[File:Stone.png|30px|link=Stone]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Charcoal",
+          "link": "Charcoal",
+          "qty": "1",
+          "item": "Charcoal",
+          "image": "[[File:Charcoal.png|30px|link=Charcoal]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Rough Cloth",
+          "link": "Rough Cloth",
+          "qty": "2",
+          "item": "Rough Cloth",
+          "image": "[[File:Rough Cloth.png|30px|link=Rough Cloth]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Suspicious Penguin Miniature 04"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Suspicious Penguin Miniature 04",
+        "link": "Suspicious Penguin Miniature 04",
+        "qty": 1,
+        "item": "Suspicious Penguin Miniature 04",
+        "image": "[[File:Suspicious Penguin Miniature 04.png|30px|link=Suspicious Penguin Miniature 04]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "uses_recipe": [
+      "PLAN: Suspicious Penguin Miniature 04"
+    ],
+    "output": [
+      "Suspicious Penguin Miniature 04"
+    ]
+  },
+  {
+    "uses_material": [
+      "Clay Mould",
+      "Silver Bar",
+      "Water Rune",
+      "Fried Sardine"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "recipe": "Brine-Soaked Band",
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Silver Bar",
+          "link": "Silver Bar",
+          "qty": "2",
+          "item": "Silver Bar",
+          "image": "[[File:Silver Bar.png|30px|link=Silver Bar]]"
+        },
+        {
+          "quantity": "15",
+          "name": "Water Rune",
+          "link": "Water Rune",
+          "qty": "15",
+          "item": "Water Rune",
+          "image": "[[File:Water Rune.png|30px|link=Water Rune]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Fried Sardine",
+          "link": "Fried Sardine",
+          "qty": "1",
+          "item": "Fried Sardine",
+          "image": "[[File:Fried Sardine.png|30px|link=Fried Sardine]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Pescaling Ring"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Pescaling Ring",
+        "link": "Pescaling Ring",
+        "qty": 1,
+        "item": "Pescaling Ring",
+        "image": "[[File:Pescaling Ring.png|30px|link=Pescaling Ring]]"
+      }
+    },
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "uses_recipe": [
+      "Brine-Soaked Band"
+    ],
+    "output": [
+      "Pescaling Ring"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rough Cloth",
+      "Anchovy Bait",
+      "Coarse Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "recipe": "VESTIGE: Scrap Mired in Subterfuge",
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Rough Cloth",
+          "link": "Rough Cloth",
+          "qty": "3",
+          "item": "Rough Cloth",
+          "image": "[[File:Rough Cloth.png|30px|link=Rough Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Anchovy Bait",
+          "link": "Anchovy Bait",
+          "qty": "1",
+          "item": "Anchovy Bait",
+          "image": "[[File:Anchovy Bait.png|30px|link=Anchovy Bait]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "2",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "KGP Hat"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "KGP Hat",
+        "link": "KGP Hat",
+        "qty": 1,
+        "item": "KGP Hat",
+        "image": "[[File:KGP Hat.png|30px|link=KGP Hat]]"
+      }
+    },
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "uses_recipe": [
+      "VESTIGE: Scrap Mired in Subterfuge"
+    ],
+    "output": [
+      "KGP Hat"
+    ]
+  },
+  {
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "recipe": "VESTIGE: Prestigious Prototype",
+      "facility": "Crafting Table",
+      "materials": [],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "0"
+        }
+      ],
+      "outputs": [
+        "Penguin Cape"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Penguin Cape",
+        "link": "Penguin Cape",
+        "qty": 1,
+        "item": "Penguin Cape",
+        "image": "[[File:Penguin Cape.png|30px|link=Penguin Cape]]"
+      }
+    },
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "uses_recipe": [
+      "VESTIGE: Prestigious Prototype"
+    ],
+    "output": [
+      "Penguin Cape"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rough Cloth",
+      "Leather",
+      "Swamp Tar",
+      "Feathers",
+      "Coarse Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "recipe": "VESTIGE: Tuxedo Patch",
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Rough Cloth",
+          "link": "Rough Cloth",
+          "qty": "2",
+          "item": "Rough Cloth",
+          "image": "[[File:Rough Cloth.png|30px|link=Rough Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Leather",
+          "link": "Leather",
+          "qty": "2",
+          "item": "Leather",
+          "image": "[[File:Leather.png|30px|link=Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Swamp Tar",
+          "link": "Swamp Tar",
+          "qty": "1",
+          "item": "Swamp Tar",
+          "image": "[[File:Swamp Tar.png|30px|link=Swamp Tar]]"
+        },
+        {
+          "quantity": "4",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "4",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "2",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Penguin Legs"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Penguin Legs",
+        "link": "Penguin Legs",
+        "qty": 1,
+        "item": "Penguin Legs",
+        "image": "[[File:Penguin Legs.png|30px|link=Penguin Legs]]"
+      }
+    },
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "uses_recipe": [
+      "VESTIGE: Tuxedo Patch"
+    ],
+    "output": [
+      "Penguin Legs"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rough Cloth",
+      "Raw Sardine",
+      "Charcoal",
+      "Feathers",
+      "Adhesive"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "2",
+          "name": "Rough Cloth",
+          "link": "Rough Cloth",
+          "qty": "2",
+          "item": "Rough Cloth",
+          "image": "[[File:Rough Cloth.png|30px|link=Rough Cloth]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Raw Sardine",
+          "link": "Raw Sardine",
+          "qty": "1",
+          "item": "Raw Sardine",
+          "image": "[[File:Raw Sardine.png|30px|link=Raw Sardine]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Charcoal",
+          "link": "Charcoal",
+          "qty": "1",
+          "item": "Charcoal",
+          "image": "[[File:Charcoal.png|30px|link=Charcoal]]"
+        },
+        {
+          "quantity": "6",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "6",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Adhesive",
+          "link": "Adhesive",
+          "qty": "1",
+          "item": "Adhesive",
+          "image": "[[File:Adhesive.png|30px|link=Adhesive]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Penguin Helmet"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Penguin Helmet",
+        "link": "Penguin Helmet",
+        "qty": 1,
+        "item": "Penguin Helmet",
+        "image": "[[File:Penguin Helmet.png|30px|link=Penguin Helmet]]"
+      }
+    },
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "output": [
+      "Penguin Helmet"
+    ]
   }
 ]
