@@ -71452,6 +71452,325 @@
     "wikiLink": "Suspicious_Penguin_Miniature_03"
   },
   {
+    "id": "suspicious-penguin-miniature-04",
+    "name": "Suspicious Penguin Miniature 04",
+    "image": "Suspicious Penguin Miniature 04.png",
+    "variants": [
+      {
+        "id": "4952ac926cd4",
+        "name": "Suspicious Penguin Miniature 04",
+        "image": "Suspicious Penguin Miniature 04.png",
+        "variantName": null,
+        "recipe": {
+          "id": "2177ef9fc2d2",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "charcoal",
+              "quantity": 1
+            },
+            {
+              "itemId": "clay-mould",
+              "quantity": 1
+            },
+            {
+              "itemId": "rough-cloth",
+              "quantity": 2
+            },
+            {
+              "itemId": "stone",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": [
+          "PLAN: Suspicious Penguin Miniature 04"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Suspicious_Penguin_Miniature_04"
+  },
+  {
+    "id": "pescaling-ring",
+    "name": "Pescaling Ring",
+    "image": "Pescaling Ring.png",
+    "variants": [
+      {
+        "id": "768d8bf336b0",
+        "name": "Pescaling Ring",
+        "image": "Pescaling Ring.png",
+        "variantName": null,
+        "recipe": {
+          "id": "c8d1243f6177",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "clay-mould",
+              "quantity": 1
+            },
+            {
+              "itemId": "fried-sardine",
+              "quantity": 1
+            },
+            {
+              "itemId": "silver-bar",
+              "quantity": 2
+            },
+            {
+              "itemId": "water-rune",
+              "quantity": 15
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": [
+          "Brine-Soaked Band"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Pescaling_Ring",
+    "weight": 1,
+    "itemType": "Trinket"
+  },
+  {
+    "id": "kgp-hat",
+    "name": "KGP Hat",
+    "image": "KGP Hat.png",
+    "variants": [
+      {
+        "id": "9ea9be6f7e87",
+        "name": "KGP Hat",
+        "image": "KGP Hat.png",
+        "variantName": null,
+        "recipe": {
+          "id": "83b3e88c4f52",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "anchovy-bait",
+              "quantity": 1
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 2
+            },
+            {
+              "itemId": "rough-cloth",
+              "quantity": 3
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 100
+            }
+          ]
+        },
+        "usesRecipe": [
+          "VESTIGE: Scrap Mired in Subterfuge"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "KGP_Hat",
+    "weight": 4,
+    "itemType": "Melee Armour"
+  },
+  {
+    "id": "penguin-cape",
+    "name": "Penguin Cape",
+    "image": "Penguin Cape.png",
+    "variants": [
+      {
+        "id": "0de5e6179aa2",
+        "name": "Penguin Cape",
+        "image": "Penguin Cape.png",
+        "variantName": null,
+        "recipe": {
+          "id": "44a9d93b1dd9",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 0
+            }
+          ]
+        },
+        "usesRecipe": [
+          "VESTIGE: Prestigious Prototype"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Penguin_Cape",
+    "weight": 0,
+    "itemType": "Basic Item"
+  },
+  {
+    "id": "penguin-legs",
+    "name": "Penguin Legs",
+    "image": "Penguin Legs.png",
+    "variants": [
+      {
+        "id": "54349beb9757",
+        "name": "Penguin Legs",
+        "image": "Penguin Legs.png",
+        "variantName": null,
+        "recipe": {
+          "id": "8e4e26527c5b",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "coarse-thread",
+              "quantity": 2
+            },
+            {
+              "itemId": "feathers",
+              "quantity": 4
+            },
+            {
+              "itemId": "leather",
+              "quantity": 2
+            },
+            {
+              "itemId": "rough-cloth",
+              "quantity": 2
+            },
+            {
+              "itemId": "swamp-tar",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 100
+            }
+          ]
+        },
+        "usesRecipe": [
+          "VESTIGE: Tuxedo Patch"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Penguin_Legs",
+    "weight": 6,
+    "itemType": "Basic Item"
+  },
+  {
+    "id": "penguin-helmet",
+    "name": "Penguin Helmet",
+    "image": "Penguin Helmet.png",
+    "variants": [
+      {
+        "id": "adde14a01ca4",
+        "name": "Penguin Helmet",
+        "image": "Penguin Helmet.png",
+        "variantName": null,
+        "recipe": {
+          "id": "e857e7df5f17",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "adhesive",
+              "quantity": 1
+            },
+            {
+              "itemId": "charcoal",
+              "quantity": 1
+            },
+            {
+              "itemId": "feathers",
+              "quantity": 6
+            },
+            {
+              "itemId": "raw-sardine",
+              "quantity": 1
+            },
+            {
+              "itemId": "rough-cloth",
+              "quantity": 2
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 100
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Penguin_Helmet",
+    "weight": 4,
+    "itemType": "Basic Item"
+  },
+  {
     "id": "goblin-pack",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",

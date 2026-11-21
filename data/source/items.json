@@ -24797,5 +24797,85 @@
     },
     "item_weight": 0,
     "page_name_sub": "PLAN: Penguin Statue 01"
+  },
+  {
+    "page_name": "Pescaling Ring",
+    "item_description": "Has a fishy aroma. Reduce<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"Reduces\">sic</span>&#93;</sup> fishing stamina by 5-15%.",
+    "item_type": "Trinket",
+    "item_name": "Pescaling Ring",
+    "json": {
+      "description": "Has a fishy aroma. Reduce<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"Reduces\">sic</span>&#93;</sup> fishing stamina by 5-15%.",
+      "weight": "1.0",
+      "image": "[[File:Pescaling Ring.png|32px]]",
+      "name": "Pescaling Ring",
+      "item_type": "Trinket",
+      "image_raw": "Pescaling Ring.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Pescaling Ring"
+  },
+  {
+    "page_name": "KGP Hat",
+    "item_description": "Turns you invisible. Except when it doesn't.",
+    "item_type": "Melee Armour",
+    "item_name": "KGP Hat",
+    "json": {
+      "description": "Turns you invisible. Except when it doesn't.",
+      "weight": "4",
+      "image": "[[File:KGP Hat.png|32px]]",
+      "name": "KGP Hat",
+      "item_type": "Melee Armour",
+      "image_raw": "KGP Hat.png"
+    },
+    "item_weight": 4,
+    "page_name_sub": "KGP Hat"
+  },
+  {
+    "page_name": "Penguin Cape",
+    "item_description": "A cape of accomplishment. Worn once you master the art of being a penguin.",
+    "item_type": "Basic Item",
+    "item_name": "Penguin Cape",
+    "json": {
+      "description": "A cape of accomplishment. Worn once you master the art of being a penguin.",
+      "weight": "0.0",
+      "image": "[[File:Penguin Cape.png|32px]]",
+      "name": "Penguin Cape",
+      "item_type": "Basic Item",
+      "image_raw": "Penguin Cape.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Penguin Cape"
+  },
+  {
+    "page_name": "Penguin Legs",
+    "item_description": "Perfect for waddling to work.",
+    "item_type": "Basic Item",
+    "item_name": "Penguin Legs",
+    "json": {
+      "description": "Perfect for waddling to work.",
+      "weight": "6.0",
+      "image": "[[File:Penguin Legs.png|32px]]",
+      "name": "Penguin Legs",
+      "item_type": "Basic Item",
+      "image_raw": "Penguin Legs.png"
+    },
+    "item_weight": 6,
+    "page_name_sub": "Penguin Legs"
+  },
+  {
+    "page_name": "Penguin Helmet",
+    "item_description": "For when you need to be A Spy in the Huddle.",
+    "item_type": "Basic Item",
+    "item_name": "Penguin Helmet",
+    "json": {
+      "description": "For when you need to be A Spy in the Huddle.",
+      "weight": "4.0",
+      "image": "[[File:Penguin Helmet.png|32px]]",
+      "name": "Penguin Helmet",
+      "item_type": "Basic Item",
+      "image_raw": "Penguin Helmet.png"
+    },
+    "item_weight": 4,
+    "page_name_sub": "Penguin Helmet"
   }
 ]
