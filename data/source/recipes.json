@@ -95326,7 +95326,7 @@
       "Artisan"
     ],
     "json": {
-      "recipe": "VESTIGE: Scrap Mired in Subterfuge",
+      "recipe": "Scrap Mired in Subterfuge",
       "facility": "Crafting Table",
       "materials": [
         {
@@ -95376,7 +95376,7 @@
       "Crafting Table"
     ],
     "uses_recipe": [
-      "VESTIGE: Scrap Mired in Subterfuge"
+      "Scrap Mired in Subterfuge"
     ],
     "output": [
       "KGP Hat"
@@ -95580,6 +95580,86 @@
     ],
     "output": [
       "Penguin Helmet"
+    ]
+  },
+  {
+    "uses_material": [
+      "Rough Cloth",
+      "Leather",
+      "Swamp Tar",
+      "Feathers",
+      "Coarse Thread"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "3",
+          "name": "Rough Cloth",
+          "link": "Rough Cloth",
+          "qty": "3",
+          "item": "Rough Cloth",
+          "image": "[[File:Rough Cloth.png|30px|link=Rough Cloth]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Leather",
+          "link": "Leather",
+          "qty": "2",
+          "item": "Leather",
+          "image": "[[File:Leather.png|30px|link=Leather]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Swamp Tar",
+          "link": "Swamp Tar",
+          "qty": "1",
+          "item": "Swamp Tar",
+          "image": "[[File:Swamp Tar.png|30px|link=Swamp Tar]]"
+        },
+        {
+          "quantity": "10",
+          "name": "Feathers",
+          "link": "Feathers",
+          "qty": "10",
+          "item": "Feathers",
+          "image": "[[File:Feathers.png|30px|link=Feathers]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "2",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "100"
+        }
+      ],
+      "outputs": [
+        "Penguin Body"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Penguin Body",
+        "link": "Penguin Body",
+        "qty": 1,
+        "item": "Penguin Body",
+        "image": "[[File:Penguin Body.png|30px|link=Penguin Body]]"
+      }
+    },
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "output": [
+      "Penguin Body"
     ]
   }
 ]
