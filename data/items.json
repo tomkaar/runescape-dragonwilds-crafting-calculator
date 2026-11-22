@@ -71599,7 +71599,7 @@
           ]
         },
         "usesRecipe": [
-          "VESTIGE: Scrap Mired in Subterfuge"
+          "Scrap Mired in Subterfuge"
         ]
       }
     ],
@@ -71768,6 +71768,64 @@
     ],
     "wikiLink": "Penguin_Helmet",
     "weight": 4,
+    "itemType": "Basic Item"
+  },
+  {
+    "id": "penguin-body",
+    "name": "Penguin Body",
+    "image": "Penguin Body.png",
+    "variants": [
+      {
+        "id": "766fec3464bb",
+        "name": "Penguin Body",
+        "image": "Penguin Body.png",
+        "variantName": null,
+        "recipe": {
+          "id": "98f956d2501a",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "coarse-thread",
+              "quantity": 2
+            },
+            {
+              "itemId": "feathers",
+              "quantity": 10
+            },
+            {
+              "itemId": "leather",
+              "quantity": 2
+            },
+            {
+              "itemId": "rough-cloth",
+              "quantity": 3
+            },
+            {
+              "itemId": "swamp-tar",
+              "quantity": 1
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 100
+            }
+          ]
+        },
+        "usesRecipe": null
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Penguin_Body",
+    "weight": 8,
     "itemType": "Basic Item"
   },
   {
@@ -86647,6 +86705,34 @@
         "name": "Fishy Facade",
         "currency": "Penguin Coin",
         "cost": 50
+      }
+    ]
+  },
+  {
+    "id": "scrap-mired-in-subterfuge",
+    "name": "Scrap Mired in Subterfuge",
+    "image": "Scrap Mired in Subterfuge.png",
+    "variants": [
+      {
+        "id": "scrap-mired-in-subterfuge",
+        "name": "Scrap Mired in Subterfuge",
+        "image": "Scrap Mired in Subterfuge.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Scrap_Mired_in_Subterfuge",
+    "weight": 0,
+    "itemType": "Vestige",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 30
       }
     ]
   }

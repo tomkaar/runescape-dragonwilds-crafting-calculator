@@ -24877,5 +24877,39 @@
     },
     "item_weight": 4,
     "page_name_sub": "Penguin Helmet"
+  },
+  {
+    "page_name": "Scrap Mired in Subterfuge",
+    "item_stacklimit": 99,
+    "item_description": "",
+    "item_type": "Vestige",
+    "item_name": "Scrap Mired in Subterfuge",
+    "json": {
+      "description": "",
+      "weight": "",
+      "image": "[[File:Scrap Mired in Subterfuge.png|32px]]",
+      "name": "Scrap Mired in Subterfuge",
+      "item_type": "Vestige",
+      "stacklimit": "99",
+      "image_raw": "Scrap Mired in Subterfuge.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Scrap Mired in Subterfuge"
+  },
+  {
+    "page_name": "Penguin Body",
+    "item_description": "A delightful penguinny tuxedo.",
+    "item_type": "Basic Item",
+    "item_name": "Penguin Body",
+    "json": {
+      "description": "A delightful penguinny tuxedo.",
+      "weight": "8.0",
+      "image": "[[File:Penguin Body.png|32px]]",
+      "name": "Penguin Body",
+      "item_type": "Basic Item",
+      "image_raw": "Penguin Body.png"
+    },
+    "item_weight": 8,
+    "page_name_sub": "Penguin Body"
   }
 ]
