@@ -71829,6 +71829,66 @@
     "itemType": "Basic Item"
   },
   {
+    "id": "pescaling-amulet",
+    "name": "Pescaling Amulet",
+    "image": "Pescaling Amulet.png",
+    "variants": [
+      {
+        "id": "8c69f3a35e76",
+        "name": "Pescaling Amulet",
+        "image": "Pescaling Amulet.png",
+        "variantName": null,
+        "recipe": {
+          "id": "6304d6795ec5",
+          "facilities": [
+            "Crafting Table"
+          ],
+          "materials": [
+            {
+              "itemId": "anchovy-bait",
+              "quantity": 1
+            },
+            {
+              "itemId": "clay-mould",
+              "quantity": 1
+            },
+            {
+              "itemId": "coarse-thread",
+              "quantity": 2
+            },
+            {
+              "itemId": "gold-bar",
+              "quantity": 2
+            },
+            {
+              "itemId": "water-rune",
+              "quantity": 15
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Artisan",
+              "experience": 40
+            }
+          ]
+        },
+        "usesRecipe": [
+          "Brine-Soaked Bauble"
+        ]
+      }
+    ],
+    "skills": [
+      "Artisan"
+    ],
+    "facilities": [
+      "Crafting Table"
+    ],
+    "wikiLink": "Pescaling_Amulet",
+    "weight": 1,
+    "itemType": "Trinket"
+  },
+  {
     "id": "goblin-pack",
     "name": "Goblin Pack",
     "image": "Goblin Pack.png",
@@ -86128,6 +86188,62 @@
     "stackLimit": 9999
   },
   {
+    "id": "coral-nubbin",
+    "name": "Coral Nubbin",
+    "image": "Coral Nubbin.png",
+    "variants": [
+      {
+        "id": "coral-nubbin",
+        "name": "Coral Nubbin",
+        "image": "Coral Nubbin.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Coral_Nubbin",
+    "weight": 0,
+    "itemType": "Vestige",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 15
+      }
+    ]
+  },
+  {
+    "id": "brine-soaked-bauble",
+    "name": "Brine-Soaked Bauble",
+    "image": "Brine-Soaked Bauble.png",
+    "variants": [
+      {
+        "id": "brine-soaked-bauble",
+        "name": "Brine-Soaked Bauble",
+        "image": "Brine-Soaked Bauble.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Brine-Soaked_Bauble",
+    "weight": 0,
+    "itemType": "Vestige",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 15
+      }
+    ]
+  },
+  {
     "id": "a-reel-downer-reward-pack",
     "name": "A Reel Downer Reward Pack",
     "image": "A Reel Downer Reward Pack.png",
@@ -86709,6 +86825,34 @@
     ]
   },
   {
+    "id": "brine-soaked-band",
+    "name": "Brine-Soaked Band",
+    "image": "Brine-Soaked Band.png",
+    "variants": [
+      {
+        "id": "brine-soaked-band",
+        "name": "Brine-Soaked Band",
+        "image": "Brine-Soaked Band.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Brine-Soaked_Band",
+    "weight": 0,
+    "itemType": "Vestige",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 15
+      }
+    ]
+  },
+  {
     "id": "scrap-mired-in-subterfuge",
     "name": "Scrap Mired in Subterfuge",
     "image": "Scrap Mired in Subterfuge.png",
@@ -86725,6 +86869,62 @@
     "skills": [],
     "facilities": [],
     "wikiLink": "Scrap_Mired_in_Subterfuge",
+    "weight": 0,
+    "itemType": "Vestige",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 30
+      }
+    ]
+  },
+  {
+    "id": "tuxedo-patch",
+    "name": "Tuxedo Patch",
+    "image": "Tuxedo Patch.png",
+    "variants": [
+      {
+        "id": "tuxedo-patch",
+        "name": "Tuxedo Patch",
+        "image": "Tuxedo Patch.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Tuxedo_Patch",
+    "weight": 0,
+    "itemType": "Vestige",
+    "stackLimit": 99,
+    "sold_by": [
+      {
+        "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 15
+      }
+    ]
+  },
+  {
+    "id": "prestigious-prototype",
+    "name": "Prestigious Prototype",
+    "image": "Prestigious Prototype.png",
+    "variants": [
+      {
+        "id": "prestigious-prototype",
+        "name": "Prestigious Prototype",
+        "image": "Prestigious Prototype.png",
+        "variantName": null,
+        "recipe": null,
+        "usesRecipe": null
+      }
+    ],
+    "skills": [],
+    "facilities": [],
+    "wikiLink": "Prestigious_Prototype",
     "weight": 0,
     "itemType": "Vestige",
     "stackLimit": 99,

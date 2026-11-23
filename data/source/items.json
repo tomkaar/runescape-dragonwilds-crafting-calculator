@@ -24351,6 +24351,42 @@
     "page_name_sub": "Penguin Coin"
   },
   {
+    "page_name": "Coral Nubbin",
+    "item_stacklimit": 99,
+    "item_description": "",
+    "item_type": "Vestige",
+    "item_name": "Coral Nubbin",
+    "json": {
+      "description": "",
+      "weight": "",
+      "image": "[[File:Coral Nubbin.png|32px]]",
+      "name": "Coral Nubbin",
+      "item_type": "Vestige",
+      "stacklimit": "99",
+      "image_raw": "Coral Nubbin.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Coral Nubbin"
+  },
+  {
+    "page_name": "Brine-Soaked Bauble",
+    "item_stacklimit": 99,
+    "item_description": "",
+    "item_type": "Vestige",
+    "item_name": "Brine-Soaked Bauble",
+    "json": {
+      "description": "",
+      "weight": "",
+      "image": "[[File:Brine-Soaked Bauble.png|32px]]",
+      "name": "Brine-Soaked Bauble",
+      "item_type": "Vestige",
+      "stacklimit": "99",
+      "image_raw": "Brine-Soaked Bauble.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Brine-Soaked Bauble"
+  },
+  {
     "page_name": "Agony Auntchovy",
     "item_stacklimit": 99,
     "item_description": "Sad little fish love a shoulder to cry on. Increases the chance of catching an upset fish in Umbral Sands.",
@@ -24799,6 +24835,24 @@
     "page_name_sub": "PLAN: Penguin Statue 01"
   },
   {
+    "page_name": "Brine-Soaked Band",
+    "item_stacklimit": 99,
+    "item_description": "",
+    "item_type": "Vestige",
+    "item_name": "Brine-Soaked Band",
+    "json": {
+      "description": "",
+      "weight": "",
+      "image": "[[File:Brine-Soaked Band.png|32px]]",
+      "name": "Brine-Soaked Band",
+      "item_type": "Vestige",
+      "stacklimit": "99",
+      "image_raw": "Brine-Soaked Band.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Brine-Soaked Band"
+  },
+  {
     "page_name": "Pescaling Ring",
     "item_description": "Has a fishy aroma. Reduce<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"Reduces\">sic</span>&#93;</sup> fishing stamina by 5-15%.",
     "item_type": "Trinket",
@@ -24911,5 +24965,57 @@
     },
     "item_weight": 8,
     "page_name_sub": "Penguin Body"
+  },
+  {
+    "page_name": "Tuxedo Patch",
+    "item_stacklimit": 99,
+    "item_description": "",
+    "item_type": "Vestige",
+    "item_name": "Tuxedo Patch",
+    "json": {
+      "description": "",
+      "weight": "",
+      "image": "[[File:Tuxedo Patch.png|32px]]",
+      "name": "Tuxedo Patch",
+      "item_type": "Vestige",
+      "stacklimit": "99",
+      "image_raw": "Tuxedo Patch.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Tuxedo Patch"
+  },
+  {
+    "page_name": "Prestigious Prototype",
+    "item_stacklimit": 99,
+    "item_description": "",
+    "item_type": "Vestige",
+    "item_name": "Prestigious Prototype",
+    "json": {
+      "description": "",
+      "weight": "",
+      "image": "[[File:Prestigious Prototype.png|32px]]",
+      "name": "Prestigious Prototype",
+      "item_type": "Vestige",
+      "stacklimit": "99",
+      "image_raw": "Prestigious Prototype.png"
+    },
+    "item_weight": 0,
+    "page_name_sub": "Prestigious Prototype"
+  },
+  {
+    "page_name": "Pescaling Amulet",
+    "item_description": "Has a fishy aroma. Increase chance of getting PRISTINE catches by 5%.",
+    "item_type": "Trinket",
+    "item_name": "Pescaling Amulet",
+    "json": {
+      "description": "Has a fishy aroma. Increase chance of getting PRISTINE catches by 5%.",
+      "weight": "1.0",
+      "image": "[[File:Pescaling Amulet.png|32px]]",
+      "name": "Pescaling Amulet",
+      "item_type": "Trinket",
+      "image_raw": "Pescaling Amulet.png"
+    },
+    "item_weight": 1,
+    "page_name_sub": "Pescaling Amulet"
   }
 ]
