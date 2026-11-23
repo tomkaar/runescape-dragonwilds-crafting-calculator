@@ -95661,5 +95661,89 @@
     "output": [
       "Penguin Body"
     ]
+  },
+  {
+    "uses_material": [
+      "Clay Mould",
+      "Coarse Thread",
+      "Gold Bar",
+      "Water Rune",
+      "Anchovy Bait"
+    ],
+    "uses_skill": [
+      "Artisan"
+    ],
+    "json": {
+      "recipe": "Brine-Soaked Bauble",
+      "facility": "Crafting Table",
+      "materials": [
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Coarse Thread",
+          "link": "Coarse Thread",
+          "qty": "2",
+          "item": "Coarse Thread",
+          "image": "[[File:Coarse Thread.png|30px|link=Coarse Thread]]"
+        },
+        {
+          "quantity": "2",
+          "name": "Gold Bar",
+          "link": "Gold Bar",
+          "qty": "2",
+          "item": "Gold Bar",
+          "image": "[[File:Gold Bar.png|30px|link=Gold Bar]]"
+        },
+        {
+          "quantity": "15",
+          "name": "Water Rune",
+          "link": "Water Rune",
+          "qty": "15",
+          "item": "Water Rune",
+          "image": "[[File:Water Rune.png|30px|link=Water Rune]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Anchovy Bait",
+          "link": "Anchovy Bait",
+          "qty": "1",
+          "item": "Anchovy Bait",
+          "image": "[[File:Anchovy Bait.png|30px|link=Anchovy Bait]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Artisan",
+          "experience": "40"
+        }
+      ],
+      "outputs": [
+        "Pescaling Amulet"
+      ],
+      "output": {
+        "quantity": "1",
+        "name": "Pescaling Amulet",
+        "link": "Pescaling Amulet",
+        "qty": "1",
+        "item": "Pescaling Amulet",
+        "image": "[[File:Pescaling Amulet.png|30px|link=Pescaling Amulet]]"
+      }
+    },
+    "uses_facility": [
+      "Crafting Table"
+    ],
+    "uses_recipe": [
+      "Brine-Soaked Bauble"
+    ],
+    "output": [
+      "Pescaling Amulet"
+    ]
   }
 ]
