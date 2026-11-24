@@ -71638,7 +71638,7 @@
           ]
         },
         "usesRecipe": [
-          "VESTIGE: Prestigious Prototype"
+          "Prestigious Prototype"
         ]
       }
     ],
@@ -71698,7 +71698,7 @@
           ]
         },
         "usesRecipe": [
-          "VESTIGE: Tuxedo Patch"
+          "Tuxedo Patch"
         ]
       }
     ],
@@ -71757,7 +71757,9 @@
             }
           ]
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Coral Nubbin"
+        ]
       }
     ],
     "skills": [
@@ -71815,7 +71817,9 @@
             }
           ]
         },
-        "usesRecipe": null
+        "usesRecipe": [
+          "Tuxedo Patch"
+        ]
       }
     ],
     "skills": [
@@ -71887,6 +71891,52 @@
     "wikiLink": "Pescaling_Amulet",
     "weight": 1,
     "itemType": "Trinket"
+  },
+  {
+    "id": "silver-penguin-miniature",
+    "name": "Silver Penguin Miniature",
+    "image": "Silver Penguin Miniature.png",
+    "variants": [
+      {
+        "id": "a6ec08d7d6d6",
+        "name": "Silver Penguin Miniature",
+        "image": "Silver Penguin Miniature.png",
+        "variantName": null,
+        "recipe": {
+          "id": "85f5b575879a",
+          "facilities": [
+            "Build Menu"
+          ],
+          "materials": [
+            {
+              "itemId": "clay-mould",
+              "quantity": 1
+            },
+            {
+              "itemId": "silver-ore",
+              "quantity": 4
+            }
+          ],
+          "quantity": 1,
+          "skills": [
+            {
+              "name": "Construction",
+              "experience": 20
+            }
+          ]
+        },
+        "usesRecipe": [
+          "PLAN: Silver Penguin Miniature"
+        ]
+      }
+    ],
+    "skills": [
+      "Construction"
+    ],
+    "facilities": [
+      "Build Menu"
+    ],
+    "wikiLink": "Silver_Penguin_Miniature"
   },
   {
     "id": "goblin-pack",
