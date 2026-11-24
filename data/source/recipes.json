@@ -95387,7 +95387,7 @@
       "Artisan"
     ],
     "json": {
-      "recipe": "VESTIGE: Prestigious Prototype",
+      "recipe": "Prestigious Prototype",
       "facility": "Crafting Table",
       "materials": [],
       "skills": [
@@ -95412,7 +95412,7 @@
       "Crafting Table"
     ],
     "uses_recipe": [
-      "VESTIGE: Prestigious Prototype"
+      "Prestigious Prototype"
     ],
     "output": [
       "Penguin Cape"
@@ -95430,7 +95430,7 @@
       "Artisan"
     ],
     "json": {
-      "recipe": "VESTIGE: Tuxedo Patch",
+      "recipe": "Tuxedo Patch",
       "facility": "Crafting Table",
       "materials": [
         {
@@ -95496,7 +95496,7 @@
       "Crafting Table"
     ],
     "uses_recipe": [
-      "VESTIGE: Tuxedo Patch"
+      "Tuxedo Patch"
     ],
     "output": [
       "Penguin Legs"
@@ -95514,6 +95514,7 @@
       "Artisan"
     ],
     "json": {
+      "recipe": "Coral Nubbin",
       "facility": "Crafting Table",
       "materials": [
         {
@@ -95578,6 +95579,9 @@
     "uses_facility": [
       "Crafting Table"
     ],
+    "uses_recipe": [
+      "Coral Nubbin"
+    ],
     "output": [
       "Penguin Helmet"
     ]
@@ -95594,6 +95598,7 @@
       "Artisan"
     ],
     "json": {
+      "recipe": "Tuxedo Patch",
       "facility": "Crafting Table",
       "materials": [
         {
@@ -95657,6 +95662,9 @@
     },
     "uses_facility": [
       "Crafting Table"
+    ],
+    "uses_recipe": [
+      "Tuxedo Patch"
     ],
     "output": [
       "Penguin Body"
@@ -95744,6 +95752,63 @@
     ],
     "output": [
       "Pescaling Amulet"
+    ]
+  },
+  {
+    "uses_material": [
+      "Silver Ore",
+      "Clay Mould"
+    ],
+    "uses_skill": [
+      "Construction"
+    ],
+    "json": {
+      "recipe": "PLAN: Silver Penguin Miniature",
+      "facility": "Build Menu",
+      "materials": [
+        {
+          "quantity": "4",
+          "name": "Silver Ore",
+          "link": "Silver Ore",
+          "qty": "4",
+          "item": "Silver Ore",
+          "image": "[[File:Silver Ore.png|30px|link=Silver Ore]]"
+        },
+        {
+          "quantity": "1",
+          "name": "Clay Mould",
+          "link": "Clay Mould",
+          "qty": "1",
+          "item": "Clay Mould",
+          "image": "[[File:Clay Mould.png|30px|link=Clay Mould]]"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Construction",
+          "experience": "20"
+        }
+      ],
+      "outputs": [
+        "Silver Penguin Miniature"
+      ],
+      "output": {
+        "quantity": 1,
+        "name": "Silver Penguin Miniature",
+        "link": "Silver Penguin Miniature",
+        "qty": 1,
+        "item": "Silver Penguin Miniature",
+        "image": "[[File:Silver Penguin Miniature.png|30px|link=Silver Penguin Miniature]]"
+      }
+    },
+    "uses_facility": [
+      "Build Menu"
+    ],
+    "uses_recipe": [
+      "PLAN: Silver Penguin Miniature"
+    ],
+    "output": [
+      "Silver Penguin Miniature"
     ]
   }
 ]
