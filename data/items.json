@@ -86262,6 +86262,11 @@
         "name": "Fishy Facade",
         "currency": "Penguin Coin",
         "cost": 15
+      },
+      {
+        "name": "Penguin Coin",
+        "currency": "Penguin Coin",
+        "cost": 15
       }
     ]
   },
@@ -86288,6 +86293,11 @@
     "sold_by": [
       {
         "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 15
+      },
+      {
+        "name": "Penguin Coin",
         "currency": "Penguin Coin",
         "cost": 15
       }
@@ -86507,6 +86517,11 @@
         "name": "Fishy Facade",
         "currency": "Penguin Coin",
         "cost": 1
+      },
+      {
+        "name": "Penguin Coin",
+        "currency": "Penguin Coin",
+        "cost": 1
       }
     ]
   },
@@ -86533,6 +86548,11 @@
     "sold_by": [
       {
         "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 3
+      },
+      {
+        "name": "Penguin Coin",
         "currency": "Penguin Coin",
         "cost": 3
       }
@@ -86563,6 +86583,11 @@
         "name": "Fishy Facade",
         "currency": "Penguin Coin",
         "cost": 5
+      },
+      {
+        "name": "Penguin Coin",
+        "currency": "Penguin Coin",
+        "cost": 5
       }
     ]
   },
@@ -86589,6 +86614,11 @@
     "sold_by": [
       {
         "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 7
+      },
+      {
+        "name": "Penguin Coin",
         "currency": "Penguin Coin",
         "cost": 7
       }
@@ -86619,6 +86649,11 @@
         "name": "Fishy Facade",
         "currency": "Penguin Coin",
         "cost": 8
+      },
+      {
+        "name": "Penguin Coin",
+        "currency": "Penguin Coin",
+        "cost": 8
       }
     ]
   },
@@ -86645,6 +86680,11 @@
     "sold_by": [
       {
         "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 10
+      },
+      {
+        "name": "Penguin Coin",
         "currency": "Penguin Coin",
         "cost": 10
       }
@@ -86675,6 +86715,11 @@
         "name": "Fishy Facade",
         "currency": "Penguin Coin",
         "cost": 15
+      },
+      {
+        "name": "Penguin Coin",
+        "currency": "Penguin Coin",
+        "cost": 15
       }
     ]
   },
@@ -86701,6 +86746,11 @@
     "sold_by": [
       {
         "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 10
+      },
+      {
+        "name": "Penguin Coin",
         "currency": "Penguin Coin",
         "cost": 10
       }
@@ -86731,6 +86781,11 @@
         "name": "Fishy Facade",
         "currency": "Penguin Coin",
         "cost": 10
+      },
+      {
+        "name": "Penguin Coin",
+        "currency": "Penguin Coin",
+        "cost": 10
       }
     ]
   },
@@ -86757,6 +86812,11 @@
     "sold_by": [
       {
         "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 10
+      },
+      {
+        "name": "Penguin Coin",
         "currency": "Penguin Coin",
         "cost": 10
       }
@@ -86787,6 +86847,11 @@
         "name": "Fishy Facade",
         "currency": "Penguin Coin",
         "cost": 10
+      },
+      {
+        "name": "Penguin Coin",
+        "currency": "Penguin Coin",
+        "cost": 10
       }
     ]
   },
@@ -86813,6 +86878,11 @@
     "sold_by": [
       {
         "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 5
+      },
+      {
+        "name": "Penguin Coin",
         "currency": "Penguin Coin",
         "cost": 5
       }
@@ -86843,6 +86913,11 @@
         "name": "Fishy Facade",
         "currency": "Penguin Coin",
         "cost": 5
+      },
+      {
+        "name": "Penguin Coin",
+        "currency": "Penguin Coin",
+        "cost": 5
       }
     ]
   },
@@ -86869,6 +86944,11 @@
     "sold_by": [
       {
         "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 50
+      },
+      {
+        "name": "Penguin Coin",
         "currency": "Penguin Coin",
         "cost": 50
       }
@@ -86899,6 +86979,11 @@
         "name": "Fishy Facade",
         "currency": "Penguin Coin",
         "cost": 15
+      },
+      {
+        "name": "Penguin Coin",
+        "currency": "Penguin Coin",
+        "cost": 15
       }
     ]
   },
@@ -86925,6 +87010,11 @@
     "sold_by": [
       {
         "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 30
+      },
+      {
+        "name": "Penguin Coin",
         "currency": "Penguin Coin",
         "cost": 30
       }
@@ -86955,6 +87045,11 @@
         "name": "Fishy Facade",
         "currency": "Penguin Coin",
         "cost": 15
+      },
+      {
+        "name": "Penguin Coin",
+        "currency": "Penguin Coin",
+        "cost": 15
       }
     ]
   },
@@ -86981,6 +87076,11 @@
     "sold_by": [
       {
         "name": "Fishy Facade",
+        "currency": "Penguin Coin",
+        "cost": 30
+      },
+      {
+        "name": "Penguin Coin",
         "currency": "Penguin Coin",
         "cost": 30
       }
